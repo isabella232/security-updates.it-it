@@ -111,11 +111,11 @@ Poiché RMS SP1 fornisce numerosi miglioramenti e livelli più elevati di presta
 <p>Registrazione non in linea del server.</p>
 <p>Nessun client ad attivazione automatica.</p></td>
 <td style="border:1px solid black;"><p>Tutte le funzionalità SP1.</p>
-<p>Registrazione non in linea del server.</p>  
+<p>Registrazione non in linea del server.</p>
 <p>Client ad attivazione automatica.</p>
 <p>Archivio protetto del server.</p></td>
 <td style="border:1px solid black;"><p>Tutte le funzionalità precedenti, più le funzionalità SP1.</p>
-<p>Registrazione non in linea del server.</p>  
+<p>Registrazione non in linea del server.</p>
 <p>Per la versione SP1, i client sono ad attivazione automatica.</p>
 <p>Per la versione 1, i client devono eseguire l'attivazione su Internet.</p></td>
 </tr>

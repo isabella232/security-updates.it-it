@@ -29,18 +29,18 @@ Nella tabella seguente, vengono illustrati i requisiti hardware minimi e vengono
 <tr class="odd">
 <td style="border:1px solid black;"><p>PC con processore Pentium III (800 MHz o superiore)</p></td>
 <td style="border:1px solid black;"><p>PC con due processori Pentium 4 (1500 MHz o superiore)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>256 MB di RAM</p></td>
 <td style="border:1px solid black;"><p>512 MB di RAM</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>20 GB di spazio libero su disco rigido</p></td>
 <td style="border:1px solid black;"><p>40 GB di spazio libero su disco rigido</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Una scheda di rete</p></td>
 <td style="border:1px solid black;"><p>Una scheda di rete</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

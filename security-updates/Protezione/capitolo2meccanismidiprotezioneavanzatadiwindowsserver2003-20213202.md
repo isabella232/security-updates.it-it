@@ -364,33 +364,33 @@ La seguente tabella elenca i ruoli di server di Windows Server 2003 e i corrispo
 <td style="border:1px solid black;"><p>File server</p></td>
 <td style="border:1px solid black;"><p>Tutti i file server bloccati.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>File Server.inf</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Server di stampa</p></td>
 <td style="border:1px solid black;"><p>Tutti i server di stampa bloccati.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Print Server.inf</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Web server</p></td>
 <td style="border:1px solid black;"><p>Tutti i server Web IIS bloccati.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Web Server.inf</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Server IAS</p></td>
 <td style="border:1px solid black;"><p>Tutti i server IAS bloccati.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>IAS Server.inf</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Server servizi certificati</p></td>
 <td style="border:1px solid black;"><p>Tutti i server CA (Certification Authority) bloccati.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>CA Server.inf</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Host Bastion</p></td>
 <td style="border:1px solid black;"><p>Tutti i server Internet.</p></td>
 <td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Bastion Host.inf</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Tutti i file del modello tranne quelli per i server host Bastion sono applicati alle unità organizzative figlio corrispondenti. Ciascuna di queste unità organizzative figlio richiede l'applicazione di una configurazione specifica per definire il ruolo che ciascun computer svolgerà nell'organizzazione.
@@ -412,51 +412,51 @@ Le OU e i criteri consigliati discussi nella sezione precedente creano una linea
 **Tabella 2.2. OU e Gruppi amministrativi**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nome OU</p></th>  
-<th><p>Gruppo amministrativo</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nome OU</p></th>
+<th><p>Gruppo amministrativo</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Controller di dominio</p></td>
 <td style="border:1px solid black;"><p>Progettazione di domini</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Server membri</p></td>
 <td style="border:1px solid black;"><p>Progettazione di domini</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
 <td style="border:1px solid black;"><p>Amministratori dell'infrastruttura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>File</p></td>
 <td style="border:1px solid black;"><p>Amministratori dell'infrastruttura</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>File di stampa</p></td>
 <td style="border:1px solid black;"><p>Amministratori dell'infrastruttura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>IAS</p></td>
 <td style="border:1px solid black;"><p>Progettazione di domini</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Web</p></td>
 <td style="border:1px solid black;"><p>Servizi Web</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CA</p></td>
 <td style="border:1px solid black;"><p>Amministratori dell'organizzazione</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Ogni gruppo amministrativo è stato creato come gruppo globale entro il dominio dai membri di **Progettazione di domini**, che sono responsabili per l'infrastruttura Active Directory e la protezione. Essi hanno utilizzato il GPO corrispondente per aggiungere ciascuno di questi gruppi amministrativi al gruppo con restrizioni appropriato. I gruppi amministrativi elencati nella tabella saranno membri solo del gruppo **Amministratori locali** per i computer situati nelle OU che contengono in modo specifico i computer relativi alle loro funzioni di lavoro.

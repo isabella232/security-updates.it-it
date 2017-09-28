@@ -73,24 +73,24 @@ La distribuzione di Internet Explorer 7 attraverso gli aggiornamenti automatici 
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Lingua di IE7</strong></p></td>
 <td style="border:1px solid black;"><p><strong>Date di rilascio di Internet Explorer 7</strong></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Inglese</p></td>
 <td style="border:1px solid black;"><p>1-ott-06</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tedesco, francese, spagnolo, finlandese, brasiliano, portoghese, arabo, giapponese, italiano, olandese, russo, coreano, cinese semplificato e tradizionale, ebraico</p></td>
 <td style="border:1px solid black;"><p>nov-06</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Svedese, danese, norvegese, polacco</p></td>
 <td style="border:1px solid black;"><p>dic-07</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Turco, portoghese, ceco, ungherese, ELL</p></td>
 <td style="border:1px solid black;"><p>gen-07</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

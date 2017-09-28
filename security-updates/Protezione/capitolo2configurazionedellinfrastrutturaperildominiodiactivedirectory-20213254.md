@@ -202,38 +202,38 @@ Nella tabella seguente sono incluse le raccomandazioni sulle impostazioni dei cr
 <td style="border:1px solid black;"><p>24 password</p></td>
 <td style="border:1px solid black;"><p>24 password</p></td>
 <td style="border:1px solid black;"><p>24 password</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Validità massima password</p></td>
 <td style="border:1px solid black;"><p>42 giorni</p></td>
 <td style="border:1px solid black;"><p>90 giorni</p></td>
 <td style="border:1px solid black;"><p>90 giorni</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Validità minima password</p></td>
 <td style="border:1px solid black;"><p>1 giorno</p></td>
 <td style="border:1px solid black;"><p>1 giorno</p></td>
 <td style="border:1px solid black;"><p>1 giorno</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Lunghezza minima password</p></td>
 <td style="border:1px solid black;"><p>7 caratteri</p></td>
 <td style="border:1px solid black;"><p>8 caratteri</p></td>
 <td style="border:1px solid black;"><p>12 caratteri</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Le password devono essere conformi ai requisiti di complessità</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Consenti archiviazione password con crittografia reversibile per tutti gli utenti del dominio</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Imponi cronologia delle password
@@ -307,41 +307,41 @@ La seguente tabella contiene le raccomandazioni per l'impostazione del criterio 
 **Tabella 2.2 Raccomandazioni per l'impostazione del criterio di blocco account**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Valore predefinito del controller di dominio</p></th>  
-<th><p>EC</p></th>  
-<th><p>SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Valore predefinito del controller di dominio</p></th>
+<th><p>EC</p></th>
+<th><p>SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Blocca account per</p></td>
 <td style="border:1px solid black;"><p>Non definito</p></td>
 <td style="border:1px solid black;"><p>15 minuti</p></td>
 <td style="border:1px solid black;"><p>15 minuti</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Limite di blocchi dell'account</p></td>
 <td style="border:1px solid black;"><p>0 tentativi di accesso non validi</p></td>
 <td style="border:1px solid black;"><p>50 tentativi di accesso non validi</p></td>
 <td style="border:1px solid black;"><p>10 tentativi di accesso non validi</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Reimposta blocco account dopo</p></td>
 <td style="border:1px solid black;"><p>Non definito</p></td>
 <td style="border:1px solid black;"><p>15 minuti</p></td>
 <td style="border:1px solid black;"><p>15 minuti</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Blocca account per
@@ -391,29 +391,29 @@ Questa impostazione di criterio consente all'utente di aggiungere un computer a 
 **Tabella 2.3 Raccomandazioni sulle impostazioni di assegnazione dei diritti utente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Valore predefinito del controller di dominio</p></th>  
-<th><p>EC</p></th>  
-<th><p>SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Valore predefinito del controller di dominio</p></th>
+<th><p>EC</p></th>
+<th><p>SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Aggiunta del computer al dominio</p></td>
 <td style="border:1px solid black;"><p>Authenticated Users</p></td>
 <td style="border:1px solid black;"><p>Amministratori</p></td>
 <td style="border:1px solid black;"><p>Amministratori</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Per attivare l'impostazione **Aggiunta del computer al dominio**, questa deve essere assegnata all'utente in un GPO applicato a tutti i controller di dominio per il dominio. Un utente cui è stato concesso questo diritto può aggiungere al dominio fino a 10 workstation. Anche gli utenti che dispongono dell'autorizzazione alla **creazione di oggetti computer** per una OU o il Contenitore computer in Active Directory possono unire un computer e un dominio e aggiungere un numero illimitato di computer al dominio stesso, a prescindere dal fatto che sia stato loro assegnato il diritto utente **Aggiunta del computer al dominio**.
@@ -439,41 +439,41 @@ Nella tabella seguente sono incluse le raccomandazioni sull'impostazione delle o
 **Tabella 2.4 Raccomandazioni sull'impostazione delle opzioni di protezione**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Valore predefinito del membro di dominio</p></th>  
-<th><p>EC</p></th>  
-<th><p>SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Valore predefinito del membro di dominio</p></th>
+<th><p>EC</p></th>
+<th><p>SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Server di rete Microsoft: interrompe la connessione dei client al termine dell'orario di accesso</p></td>
 <td style="border:1px solid black;"><p>Non definito</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Accesso di rete: consente la conversione SID/NOME anonima</p></td>
 <td style="border:1px solid black;"><p>Non definito</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Protezione di rete: impone la disconnessione al termine dell'orario di accesso</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Server di rete Microsoft: interrompe la connessione dei client al termine dell'orario di accesso

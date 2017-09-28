@@ -31,168 +31,168 @@ La pianificazione prevede l'identificazione delle risorse prioritarie, nonché d
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Principi fondamentali della sicurezza</strong></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://msevents.microsoft.com/cui/webcasteventdetails.aspx?eventid=1032279056&amp;eventcategory=3&amp;culture=en-us&amp;countrycode=us">Webcast Microsoft Executive Circle: Security360 con Mike Nash: Informazioni sulla conformità (Livello 100)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Riduzione delle minacce e delle vulnerabilità</strong></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=39701">Webcast Microsoft Executive Circle: Security360 con Mike Nash: Come tenere sotto controllo gli spyware</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=27555">Webcast Microsoft Executive Circle: Protezione dell'ambiente Microsoft Exchange dalle minacce digitali</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://msevents.microsoft.com/cui/eventdetail.aspx?eventid=1032279889&amp;culture=en-us">Webcast Microsoft Executive Circle: Messaggistica e collaborazioni sicure: Come affrontare la sfida (Livello 100)</a> (in inglese)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="100%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Livello 200</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Livello 200</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Gestione dell'identità e degli accessi</strong></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032276835%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Implementazione dell'autenticazione multipla mediante smart card (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://msevents.microsoft.com/cui/eventdetail.aspx?eventid=1032278550&amp;culture=en-us">Webcast TechNet: Implementazione della protezione di Exchange Server (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032273480%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Protezione del perimetro della rete con ISA Server 2004 (parte 1 di 3): Introduzione a ISA Server Security (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032273489%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Protezione del perimetro della rete con ISA Server 2004 (parte 2 di 3): Protezione dei server interni e implementazione dei filtri (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032273502%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Protezione del perimetro della rete con ISA Server 2004 (parte 3 di 3): Accesso sicuro a Exchange Server e alle reti private virtuali (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Principi fondamentali della sicurezza</strong></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032268025%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Gestione dei rischi di protezione (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://msevents.microsoft.com/cui/eventdetail.aspx?eventid=1032253801&amp;culture=en-us">Webcast MSDN: In diretta da TechEd: Come agiscono gli hacker (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032267636%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast MSDN: Rimedio: Imparare a costruire un'applicazione sicura basata sul Web (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032267286%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast MSDN: Serie Digital Blackbelt: Creazione di un processo di sviluppo intenzionalmente protetto (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032267630%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast MSDN: Difesa degli sviluppatori: Programmi in grado di assicurare la protezione delle applicazioni (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032269899%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast MSDN: Elementi fondamentali per la protezione delle applicazioni (parte 1 di 3): Comunicazioni sicure (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032266454%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast MSDN: Elementi fondamentali per la protezione delle applicazioni (parte 2 di 3): Autenticazione (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Riduzione delle minacce e delle vulnerabilità</strong></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032268011%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Serie &quot;Rivolgiti agli esperti IT di protezione&quot;: Strategie per ridurre i rischi di malware (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032268025%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Gestione dei rischi di protezione (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/technet/community/events/isa/tnt1-111.mspx">Seminario in linea: Panoramica tecnica di ISA Server 2004</a> (in inglese)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="100%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Livello 300</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Livello 300</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Gestione dell'identità e degli accessi</strong></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032273397%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Come il reparto IT Microsoft protegge le reti wireless in Microsoft (Livello 300)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Principi fondamentali della sicurezza</strong></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032272968%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Gestione dei rischi di protezione (parte 1 di 3): Concetti e prerequisiti (Livello 300)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032273047%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Gestione dei rischi di protezione (parte 2 di 3): Valutazione dei rischi (Livello 300)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032273100%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Gestione dei rischi di protezione (parte 3 di 3): Decisioni, controlli e efficacia del programma (Livello 300)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://msevents.microsoft.com/cui/eventdetail.aspx?eventid=1032253410&amp;culture=en-us">Webcast MSDN: SQL Server e Windows XP SP2 (Livello 300)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=29877">Webcast MSDN: Elementi fondamentali per la protezione delle applicazioni, parte 3: Autorizzazione (Livello 300)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032267615%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast MSDN: Attacchi a livello delle applicazioni: Manipolazione dei parametri e intercettazione degli errori (Livello 300)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e550f940-37a0-4541-b5e2-704ab386c3ed&amp;displaylang=en">Guida: Informazioni sulla protezione di Microsoft Internet Explorer 6 in Windows XP SP2</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnpag2/html/tmwa.asp">Guida: Applicazioni Web e modelli di attacco</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnnetsec/html/secnetch05.asp">Guida: Creazione di applicazioni ASP.NET protette: Autenticazione, autorizzazione e comunicazioni sicure per la protezione Intranet</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnnetsec/html/secnetch06.asp">Guida: Creazione di applicazioni ASP.NET protette: Autenticazione, autorizzazione e comunicazioni sicure per la protezione Extranet</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnnetsec/html/thcmch07.asp">Guida: Creazione di assembly protetti</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnnetsec/html/thcmch14.asp">Guida: Creazione dell'accesso sicuro ai dati</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnnetsec/html/thcmch08.asp">Guida: Protezione dell'accesso al codice nella pratica</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnnetsec/html/thcmch10.asp">Guida: Creazione di pagine e controlli ASP.NET protetti</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnnetsec/html/thcmch11.asp">Guida: Creazione di componenti serviti protetti</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnnetsec/html/thcmch13.asp">Guida: Creazione di componenti remoti protetti</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnnetsec/html/thcmch12.asp">Guida: Creazione di servizi Web protetti</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnpag2/html/pagguidelines0001.asp">Guida: Istruzioni sulla protezione: ASP.NET 2.0</a> (in inglese)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)
@@ -200,15 +200,15 @@ La pianificazione prevede l'identificazione delle risorse prioritarie, nonché d
 ### Tipo di contenuti e definizioni dei livelli
 
 <p> </p>
-<table style="border:1px solid black;">  
-<tr>  
-<th colspan="2">  
+<table style="border:1px solid black;">
+<tr>
+<th colspan="2">
 Tabella dei tipi di contenuti  
-</th>  
-<th colspan="2">  
+</th>
+<th colspan="2">
 Tabella dei livelli  
-</th>  
-</tr>  
+</th>
+</tr>
 <tr>
 <td style="border:1px solid black;">
 **Tipo di contenuti**

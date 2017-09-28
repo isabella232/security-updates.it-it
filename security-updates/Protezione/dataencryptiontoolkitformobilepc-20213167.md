@@ -205,16 +205,16 @@ L'output del processo decisionale potrebbe essere simile a quanto illustrato nel
 <tr class="odd">
 <td style="border:1px solid black;"><p>Desktop standard</p></td>
 <td style="border:1px solid black;"><p>I computer utilizzeranno la crittografia di BitLocker con una chiave di avvio TPM o USB, a seconda della capacità dell'hardware. Questa configurazione verrà utilizzata per controllare l'esposizione dei dati e gestire il ritiro delle risorse.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Laptop standard</p></td>
 <td style="border:1px solid black;"><p>Tutti i nuovi computer utilizzeranno un TPM e un PIN. I computer privi di TPM utilizzeranno chiavi di avvio sulle unità USB, ma tutti i nuovi computer verranno acquistati con dispositivi TPM integrati. Questa configurazione verrà utilizzata per controllare l'esposizione dei dati e gestire il ritiro delle risorse.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Laptop dei dirigenti</p></td>
 <td style="border:1px solid black;"><p>Tutti i computer utilizzeranno un TPM con un PIN. I computer esistenti non provvisti di supporto TPM verranno sostituiti.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Considerazioni su BitLocker con TPM

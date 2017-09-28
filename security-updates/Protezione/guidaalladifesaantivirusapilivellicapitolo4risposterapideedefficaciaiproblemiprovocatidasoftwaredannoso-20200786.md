@@ -583,68 +583,68 @@ Un altro sintomo tipico della presenza di software dannoso è l'utilizzo di cart
 <td style="border:1px solid black;"><p>ADMIN$</p></td>
 <td style="border:1px solid black;"><p>C:\Windows</p></td>
 <td style="border:1px solid black;"><p>Amministratore remoto.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>C$</p></td>
 <td style="border:1px solid black;"><p>C:\</p></td>
 <td style="border:1px solid black;"><p>Condivisione predefinita.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>&lt;n&gt;$</p></td>
 <td style="border:1px solid black;"><p>&lt;n:&gt;\</p></td>
 <td style="border:1px solid black;"><p>Rappresenta una condivisione per la directory principale di ciascuna unità disco rigido sul sistema.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SharedDocs</p></td>
 <td style="border:1px solid black;"><p>C:\Documents and Settings\All Users\Documenti</p></td>
 <td style="border:1px solid black;"><p>Verrà aggiunto se è stata abilitata la condivisione locale dei file.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Tabella 4.2: Condivisioni cartelle predefinite di Windows Server 2003 e Windows 2000 Server**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Cartella condivisa</p></th>  
-<th><p>Percorso condiviso</p></th>  
-<th><p>Commento</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Cartella condivisa</p></th>
+<th><p>Percorso condiviso</p></th>
+<th><p>Commento</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ADMIN$</p></td>
 <td style="border:1px solid black;"><p>C:\Windows</p></td>
 <td style="border:1px solid black;"><p>Amministratore remoto.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>C$</p></td>
 <td style="border:1px solid black;"><p>C:\</p></td>
 <td style="border:1px solid black;"><p>Condivisione predefinita.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>&lt;n&gt;$</p></td>
 <td style="border:1px solid black;"><p>&lt;n:&gt;\</p></td>
 <td style="border:1px solid black;"><p>Rappresenta una condivisione per la directory principale di ciascuna unità disco rigido sul sistema.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SharedDocs</p></td>
 <td style="border:1px solid black;"><p>C:\Documents and Settings\All Users\Documenti</p></td>
 <td style="border:1px solid black;"><p>Verrà aggiunto se è stata abilitata la condivisione locale dei file.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Wwwroot$</p></td>
 <td style="border:1px solid black;"><p>C:\inetpub\wwwroot</p></td>
 <td style="border:1px solid black;"><p>Verrà configurata se i servizi IIS sono stati installati come server Web.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 È inoltre possibile esaminare le autorizzazioni per le condivisioni con lo strumento della riga di comando **SrvCheck** dalla pagina "Microsoft Windows Server 2003 Resource Kit Tools" su Microsoft.com all'indirizzo [http://go.microsoft.com/fwlink/?LinkId=4544](http://go.microsoft.com/fwlink/?linkid=4544) (in inglese).
@@ -730,35 +730,35 @@ Per scegliere l'opzione più adatta per il proprio sistema, è sufficiente indiv
 **Tabella 4.3: Vantaggi e svantaggi relativi alla pulitura e alla ricostruzione del sistema**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Pulitura</p></th>  
-<th><p>Ricostruzione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Pulitura</p></th>
+<th><p>Ricostruzione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Processo semplice, se sono disponibili gli strumenti di pulitura.</p></td>
 <td style="border:1px solid black;"><p>Processo più complesso, specialmente se non viene installata una soluzione di backup e ripristino prima dell'infezione.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Minor numero di passaggi richiesti per garantire la pulitura dei dati.</p></td>
 <td style="border:1px solid black;"><p>Maggior numero di passaggi richiesti per l'acquisizione, il backup, la pulitura, l'analisi e il ripristino dei dati.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Meno risorse richieste per l'utilizzo degli strumenti di rimozione rispetto a quelle necessarie per la ricostruzione dell'intero sistema.</p></td>
 <td style="border:1px solid black;"><p>Il processo di ricostruzione richiede molto tempo e risorse per poter essere completato.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Rischio che l'infezione non venga eliminata completamente dal sistema.</p></td>
 <td style="border:1px solid black;"><p>Rischio ridotto che l'infezione non venga eliminata completamente dal sistema se il ripristino viene eseguito da supporti puliti e dati gestiti in modo adeguato.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** se si decide di eseguire la pulitura di un sistema infetto, il team legale e il team di gestione dell'organizzazione devono eseguire un'analisi dei rischi per stabilire se si intende accettare il rischio di eventuali attacchi futuri nel caso in cui venga tralasciata una parte di codice dannoso durante il processo di pulitura.

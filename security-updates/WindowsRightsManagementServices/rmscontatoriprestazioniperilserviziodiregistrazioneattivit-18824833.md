@@ -29,14 +29,14 @@ Nella tabella seguente, sono elencati i contatori prestazioni disponibili per RM
 <tr class="odd">
 <td style="border:1px solid black;"><p>Logging Failures</p></td>
 <td style="border:1px solid black;"><p>Numero complessivo di tentativi di registrazione attività non completamente elaborati.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Logging Processing Time</p></td>
 <td style="border:1px solid black;"><p>Tempo, in microsecondi, utilizzato per l'elaborazione delle richieste di registrazione attività.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Logging Requests</p></td>
 <td style="border:1px solid black;"><p>Numero complessivo di richieste di registrazione attività ricevute dal servizio di registrazione attività.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

@@ -205,24 +205,24 @@ e nomi di file. Anche gli elementi dell'interfaccia utente sono riportati in gra
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Corsivo</em></p></td>
 <td style="border:1px solid black;"><p>I titoli dei libri e altre pubblicazioni essenziali sono riportati in <em>corsivo.</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>&lt;Corsivo&gt;</em></p></td>
 <td style="border:1px solid black;"><p>I segnaposto in corsivo e le parentesi ad angolo &lt;<em>nome file</em>&gt; rappresentano le variabili.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Monospace font</code></pre></td>
 <td style="border:1px solid black;"><p>Vengono definiti gli esempi di codice e di script.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
 <td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Importante</p></td>
 <td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su essenziali informazioni supplementari.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

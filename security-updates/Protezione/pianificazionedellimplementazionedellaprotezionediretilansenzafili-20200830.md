@@ -208,7 +208,7 @@ L'organizzazione descritta nella sezione precedente applicherà generalmente a u
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione</p></td>
 <td style="border:1px solid black;"><p>- Autenticazione e autorizzazione affidabile dei client senza fili</p>
-<p>- Controllo dell'accesso affidabile per consentire l'accesso di rete ai client autorizzati e negare l'accesso non autorizzato</p>  
+<p>- Controllo dell'accesso affidabile per consentire l'accesso di rete ai client autorizzati e negare l'accesso non autorizzato</p>
 <p>- Crittografia di alto livello (128 bit) del traffico di rete senza fili</p>
 <p>- Gestione protetta delle chiavi di crittografia</p></td>
 </tr>
@@ -226,7 +226,7 @@ L'organizzazione descritta nella sezione precedente applicherà generalmente a u
 <tr class="even">
 <td style="border:1px solid black;"><p>Requisiti di disponibilità</p></td>
 <td style="border:1px solid black;"><p>L'utilizzo di più punti di accesso senza fili, server IAS o controller di dominio determina capacità di recupero della rete WLAN in caso di errori dei singoli componenti negli uffici di maggiori dimensioni. Le reti WLAN degli uffici di piccole dimensioni sono soggette a guasti, a meno che venga installata una connettività ridondante.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Supporto di piattaforme</p></td>
 <td style="border:1px solid black;"><p><strong>Piattaforme server:</strong> Windows Server 2003, Standard Edition o Enterprise Edition (per l'installazione di IAS e di autorità di certificazione). Standard Edition supporta un massimo di 50 punti di accesso senza fili (client RADIUS) per ogni server.</p>
@@ -235,11 +235,11 @@ L'organizzazione descritta nella sezione precedente applicherà generalmente a u
 <tr class="even">
 <td style="border:1px solid black;"><p>Estensibilità (riutilizzo dei componenti della soluzione per altre applicazioni)</p></td>
 <td style="border:1px solid black;"><p>Altre applicazioni di accesso alla rete (VPN di accesso remoto, accesso alla rete cablata 802.1X e autenticazione firewall) possono essere supportate dalla stessa infrastruttura di autenticazione.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti dell'organizzazione IT</p></td>
 <td style="border:1px solid black;"><p>Per l'installazione e la gestione della soluzione sono necessari professionisti IT con la certificazione MSCE più recente o una conoscenza equivalente e da 2 a 3 anni di esperienza nel settore IT.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Requisiti di gestibilità</p></td>
 <td style="border:1px solid black;"><p>Per mantenere il corretto funzionamento della soluzione sono necessarie operazioni minime di gestione.</p>
@@ -249,9 +249,9 @@ L'organizzazione descritta nella sezione precedente applicherà generalmente a u
 <tr class="odd">
 <td style="border:1px solid black;"><p>Conformità agli standard</p></td>
 <td style="border:1px solid black;"><p>La soluzione supporta i seguenti standard:</p>
-<p>- Standard di rete IEEE 802.11 (a, b, o g)</p>  
-<p>- Autenticazione IEEE 802.1X con PEAP e MS-CHAP v2 (può essere utilizzata con altri metodi EAP, ad esempio il protocollo EAP-TLS basato su certificati e PEAP-EAP-TLS).</p>  
-<p>- Protezione della rete WLAN con WEP a chiave dinamica e WPA</p>  
+<p>- Standard di rete IEEE 802.11 (a, b, o g)</p>
+<p>- Autenticazione IEEE 802.1X con PEAP e MS-CHAP v2 (può essere utilizzata con altri metodi EAP, ad esempio il protocollo EAP-TLS basato su certificati e PEAP-EAP-TLS).</p>
+<p>- Protezione della rete WLAN con WEP a chiave dinamica e WPA</p>
 <p>- Funzionalità e standard futuri (ad esempio, 802.11i).</p>
 <p>- Supporto RADIUS per RFC 2865 e 2866.</p></td>
 </tr>
@@ -285,20 +285,20 @@ Nella tabella seguente sono riportati i requisiti per l'autenticazione WLAN in o
 <td style="border:1px solid black;"><p>&gt; 0,1</p></td>
 <td style="border:1px solid black;"><p>0,1</p></td>
 <td style="border:1px solid black;"><p>0,1</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>1000</p></td>
 <td style="border:1px solid black;"><p>0,1</p></td>
 <td style="border:1px solid black;"><p>0,6</p></td>
 <td style="border:1px solid black;"><p>1,1</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>10.000</p></td>
 <td style="border:1px solid black;"><p>1,4</p></td>
 <td style="border:1px solid black;"><p>5,6</p></td>
 <td style="border:1px solid black;"><p>11,1</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Questi dati si riferiscono alla descrizione delle dimensioni del server IAS riportata più avanti nel capitolo.
@@ -422,36 +422,36 @@ Nella tabella seguente è indicato il numero approssimativo di autenticazioni al
 **Tabella 2.3: Autenticazioni al secondo**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Tipo di autenticazione</p></th>  
-<th><p>Nuove autenticazioni</p></th>  
-<th><p>Autenticazioni con riconnessione rapida</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Tipo di autenticazione</p></th>
+<th><p>Nuove autenticazioni</p></th>
+<th><p>Autenticazioni con riconnessione rapida</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticazioni PEAP al secondo</p></td>
 <td style="border:1px solid black;"><p>36</p></td>
 <td style="border:1px solid black;"><p>166</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tempo per l'autenticazione di 200 utenti</p></td>
 <td style="border:1px solid black;"><p>6 sec</p></td>
 <td style="border:1px solid black;"><p>2 sec</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tempo per l'autenticazione di 1000 utenti</p></td>
 <td style="border:1px solid black;"><p>30 sec</p></td>
 <td style="border:1px solid black;"><p>7 sec</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Questi dati sono stati calcolati attivando la registrazione RADIUS ed eseguendo Active Directory in un server distinto; poiché entrambi questi fattori riducono le prestazioni di IAS, tali dati devono essere considerati come una stima valida nel peggiore dei casi.
@@ -513,30 +513,30 @@ In questa soluzione, i criteri di accesso remoto sono configurati come illustrat
 **Tabella 2.4: Configurazione dei criteri di accesso remoto**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento di configurazione</p></th>  
-<th><p>Impostazione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento di configurazione</p></th>
+<th><p>Impostazione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nome criterio</p></td>
 <td style="border:1px solid black;"><p>Consenti accesso LAN senza fili</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tipo di criterio</p></td>
 <td style="border:1px solid black;"><p>Consenti</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Condizioni criteri di accesso remoto</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tipo - porta - NAS corrispondente</p></td>
 <td style="border:1px solid black;"><p>Senza fili - IEEE 802.11</p>
@@ -545,11 +545,11 @@ In questa soluzione, i criteri di accesso remoto sono configurati come illustrat
 <tr class="odd">
 <td style="border:1px solid black;"><p>Gruppo di Windows corrispondente</p></td>
 <td style="border:1px solid black;"><p>Accesso LAN senza fili</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Profilo criteri di accesso remoto</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Limitazioni chiamate in ingresso - Timeout client</p></td>
 <td style="border:1px solid black;"><p>60 minuti (WEP dinamico)</p>
@@ -558,27 +558,27 @@ In questa soluzione, i criteri di accesso remoto sono configurati come illustrat
 <tr class="even">
 <td style="border:1px solid black;"><p>Assegnazione indirizzo IP</p></td>
 <td style="border:1px solid black;"><p>L'assegnazione dell'indirizzo IP è determinata dalle impostazioni del server.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Filtro IP</p></td>
 <td style="border:1px solid black;"><p>Nessuno</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Autenticazione</p></td>
 <td style="border:1px solid black;"><p>Tutto disattivato ad eccezione di EAP</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticazione - Tipo di EAP utilizzato</p></td>
 <td style="border:1px solid black;"><p>PEAP (Protected EAP)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Autenticazione - Tipo di EAP PEAP utilizzato</p></td>
 <td style="border:1px solid black;"><p>EAP MS-CHAP v2</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticazione - Riconnessione rapida</p></td>
 <td style="border:1px solid black;"><p>Abilitato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Attributi RADIUS</p></td>
 <td style="border:1px solid black;"><p>Ignore-User-Dialin-Properties = &quot;True&quot;</p>
@@ -665,13 +665,13 @@ Come descritto nella sezione "Criteri RADIUS", i criteri di accesso remoto IAS u
 <td style="border:1px solid black;"><p>Accesso LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>Utenti LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>Domain Users</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Accesso LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>Computer LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>Computer del dominio</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Il gruppo nella prima colonna, Accesso LAN senza fili, include due membri elencati nella seconda colonna, ovvero Utenti LAN senza fili e Computer LAN senza fili. Questi stessi gruppi di "primo livello" includono i membri indicati nella terza colonna "Membri di secondo livello", rispettivamente i gruppi Domain Users e Computer del dominio. Questa disposizione di gruppi nidificati consente a tutti gli utenti e computer del dominio di connettersi alla rete WLAN.
@@ -681,21 +681,21 @@ Se questo tipo di concessione risulta eccessivamente permissivo per la propria o
 **Tabella 2.6: Gruppi di accesso senza fili per consentire l'accesso agli utenti e ai computer selezionati**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Gruppo universale di livello superiore (accesso concesso nel criterio di accesso remoto)</p></th>  
-<th><p>Membri di primo livello (Gruppi globali di dominio)</p></th>  
-<th><p>Membri di secondo livello</p>  
-<p>(Gruppi globali di dominio)</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Gruppo universale di livello superiore (accesso concesso nel criterio di accesso remoto)</p></th>
+<th><p>Membri di primo livello (Gruppi globali di dominio)</p></th>
+<th><p>Membri di secondo livello</p>
+<p>(Gruppi globali di dominio)</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Accesso LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>Utenti LAN senza fili</p></td>
@@ -746,16 +746,16 @@ I vantaggi e gli svantaggi principali dell'utilizzo di una CA interna rispetto a
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nessun costo per certificato</p></td>
 <td style="border:1px solid black;"><p>Costo per certificato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Software CA da installare e gestire</p></td>
 <td style="border:1px solid black;"><p>Nessun software server</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Registrazione e rinnovo automatici</p></td>
 <td style="border:1px solid black;"><p>Processo di registrazione più complesso, installazione manuale di certificati</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La scelta finale dipende dalla complessità e dai costi di gestione della CA interna. Se il costo di installazione di una CA locale è limitato e la gestione risulta semplice, in genere questa strategia è più vantaggiosa rispetto all'acquisto di certificati esterni.
@@ -917,32 +917,32 @@ Nella tabella seguente viene illustrata l'organizzazione dei gruppi di protezion
 **Tabella 2.8: Gruppi di accesso senza fili per consentire l'accesso a tutti gli utenti e i computer**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Gruppo universale di livello superiore (accesso concesso nel criterio di accesso remoto)</p></th>  
-<th><p>Membri di primo livello</p>  
-<p>(Gruppi globali di dominio)</p></th>  
-<th><p>Membri di secondo livello</p>  
-<p>(Gruppi globali di dominio)</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Gruppo universale di livello superiore (accesso concesso nel criterio di accesso remoto)</p></th>
+<th><p>Membri di primo livello</p>
+<p>(Gruppi globali di dominio)</p></th>
+<th><p>Membri di secondo livello</p>
+<p>(Gruppi globali di dominio)</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DomPrinc\Accesso LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>DomUtente1\Utenti LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>DomUtente1\Domain Users</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DomPrinc\Accesso LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>DomUtente2\Utenti LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>DomUtente2\Domain Users</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DomPrinc\Accesso LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>DomUtente3\Utenti LAN senza fili</p></td>
@@ -954,12 +954,12 @@ DomUtente3\Utente2</p></td>
 <td style="border:1px solid black;"><p>DomPrinc\Accesso LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>DomUtente1\Computer LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>DomUtente1\Computer del dominio</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DomPrinc\Accesso LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>DomUtente2\Computer LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>DomUtente2\Computer del dominio</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DomPrinc\Accesso LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>DomUtente3\Computer LAN senza fili</p></td>

@@ -108,8 +108,8 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione di criterio **Disattiva rilevamento errori critici** consente di configurare la funzionalità di rilevamento errori critici nella gestione dei componenti aggiuntivi di Internet Explorer. Se si abilita questa impostazione di criterio, un errore critico in Internet Explorer sarà simile a quello su un computer dotato di Windows XP Professional Service Pack 1 e versioni precedenti: sarà richiamata la Segnalazione errori di Windows. Se si disattiva questo criterio, sarà operativa la funzionalità di rilevamento errori critici nella gestione dei componenti aggiuntivi.
@@ -121,29 +121,29 @@ Poiché i dati relativi al report di arresti anomali di Internet Explorer potreb
 **Tabella A.2: impostazioni Non consentire agli utenti di abilitare o disabilitare i componenti aggiuntivi**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione di criterio **Non consentire agli utenti di abilitare o disabilitare i componenti aggiuntivi** consente di stabilire se gli utenti hanno la possibilità di abilitare o disabilitare i componenti aggiuntivi attraverso Gestione componenti aggiuntivi. Se si configura questo criterio su **Attivato**, gli utenti non possono abilitare o disabilitare i componenti aggiuntivi attraverso Gestione componenti aggiuntivi. La sola eccezione è se un componente aggiuntivo è stato espressamente inserito nell'**Elenco componenti aggiuntivi** dei criteri in modo da consentire agli utenti di continuare a gestire il componente aggiuntivo. In tal caso, l'utente può gestire il componente aggiuntivo attraverso Gestione componenti aggiuntivi. Se si configura questo criterio su **Disattivato**, gli utenti potranno abilitare o disabilitare i componenti aggiuntivi.
@@ -175,29 +175,29 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 **Tabella A.3: impostazioni Consenti l'esecuzione o l'installazione del software anche se la firma è non è valida**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Ai controlli e ai download di file di Microsoft ActiveX sono spesso allegate firme digitali che garantiscono l'integrità del file e l'identità dell'autore della firma (il creatore) del software. Le firme consentono di verificare di aver scaricato software non modificato e di identificare l'autore della firma per determinare se ci si fida abbastanza per eseguire il software.
@@ -219,29 +219,29 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 **Tabella A.4: impostazioni Limitazione protocollo di protezione MK**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione di criterio **Limitazione protocollo di protezione MK** riduce l'area esposta ad attacchi bloccando il protocollo MK, raramente utilizzato. Alcune applicazioni Web meno aggiornate utilizzano il protocollo MK per recuperare le informazioni dai file compressi. Impostando questo criterio su **Attivato**, il protocollo MK viene bloccato per Esplora risorse e Internet Explorer, in modo da interdire le risorse che utilizzano tale protocollo. La disattivazione di questa impostazione consente alle applicazioni di utilizzare l'API del protocollo MK.
@@ -261,29 +261,29 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 **Tabella A.5: Impostazioni Gestione MIME coerente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Internet Explorer utilizza i dati MIME (Multipurpose Internet Mail Extensions) per determinare le procedure di gestione dei file ricevuti attraverso un server Web. L'impostazione di criterio **Gestione MIME coerente\\Processi di Internet Explorer** determina se Internet Explorer richiede che tutte le informazioni relative al tipo di file fornite dai server Web siano coerenti. Per esempio, se il tipo MIME di un file è text/plain ma i dati MIME indicano che il file è in realtà un eseguibile, Internet Explorer ne modifica l'estensione per riflettere questa condizione. Questa funzione consente di evitare che il codice eseguibile possa essere mascherato come altri tipi di dati non pericolosi.
@@ -305,29 +305,29 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 **Tabella A.6: impostazioni Analisi MIME**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'analisi MIME è una processo che esamina il contenuto di un file MIME per determinare il suo contesto, cioè se si tratta di un file di dati, di un file eseguibile o di qualche altro tipo di file. Questa impostazione di criterio determina se l'analisi MIME di Internet Explorer eviterà la conversione di un tipo di file a un file di tipo più pericoloso. Quando impostato su **Attivato**, l'analisi MIME non convertirà mai un file a un tipo di file più pericoloso. Disattivando l'analisi MIME, i processi di Internet Explorer vengono configurati in modo da eseguire un analisi che converte un tipo di file a un file di tipo più pericoloso. Per esempio, convertendo un file di testo a un file eseguibile è pericoloso, perché può essere eseguito qualsiasi codice all'interno del presunto file di testo.
@@ -347,29 +347,29 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 **Tabella A.7: impostazioni Limitazioni protezione Windows tramite script**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Internet Explorer consente agli script di aprire, ridimensionare e riposizionare in modo programmato vari tipi di finestre. I siti Web malintenzionati spesso ridimensioneranno finestre per nascondere altre finestre o costringere l'utente a interagire con una finestra che contiene codice dannoso.
@@ -389,29 +389,29 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 **Tabella A.8: impostazioni Protezione da promozione di area**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Internet Explorer pone delle restrizioni a ogni pagina Web aperta che dipendono dalla posizione della pagina stessa (come l'area Internet, l'area Intranet o l'area Computer locale). Le pagine Web su un computer locale hanno le restrizioni di protezione più basse e risiedono nell'area Computer locale, il che rende l'area di protezione del computer locale uno dei bersagli principali per gli attacchi informatici.
@@ -431,29 +431,29 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 **Tabella A.9: impostazioni Limita installazione ActiveX**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione di criterio **Limita installazione ActiveX\\Processi di Internet Explorer** consente di bloccare i prompt di installazione del controllo ActiveX per i processi di Internet Explorer.
@@ -477,29 +477,29 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 **Tabella A.10: impostazioni Limita download file**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 In certe circostanze, i siti Web possono iniziare il download di file senza l'interazione da parte degli utenti. Questa tecnica può consentire ai siti Web di salvare file non autorizzati sul disco fisso se l'utente fa clic sul pulsante sbagliato e accetta il download.
@@ -519,29 +519,29 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 **Tabella A.11: impostazioni Rifiuta tutti i componenti aggiuntivi a meno che non siano consentiti nell'elenco dei componenti aggiuntivi**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Questa impostazione e il criterio **Elenco componenti aggiuntivi** consentono di controllare i componenti aggiuntivi di Internet Explorer. Per impostazione predefinita, le impostazioni del criterio **Elenco componenti aggiuntivi** definiscono un elenco di componenti aggiuntivi che possono essere consentiti o bloccati attraverso i Criteri di gruppo. L'impostazione **Rifiuta tutti i componenti aggiuntivi a meno che non siano consentiti nell'elenco dei componenti aggiuntivi** assicura che tutti gli elementi aggiuntivi siano bloccati a meno che non siano specificatamente elencati nell'impostazione di criterio dell'**Elenco componenti aggiuntivi**.
@@ -555,29 +555,29 @@ Si consiglia l'uso di entrambe le impostazioni **Rifiuta tutti i componenti aggi
 **Tabella A.12: impostazioni Elenco componenti aggiuntivi**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Questa impostazione e il criterio **Rifiuta tutti i componenti aggiuntivi a meno che non siano consentiti nell'elenco dei componenti aggiuntivi** consentono di controllare i componenti aggiuntivi di Internet Explorer. Per impostazione predefinita, le impostazioni del criterio **Elenco componenti aggiuntivi** definiscono un elenco di componenti aggiuntivi che possono essere consentiti o bloccati attraverso i Criteri di gruppo. L'impostazione **Rifiuta tutti i componenti aggiuntivi a meno che non siano consentiti nell'elenco dei componenti aggiuntivi** assicura che tutti gli elementi aggiuntivi siano bloccati a meno che non siano specificatamente elencati nell'impostazione di criterio dell'**Elenco componenti aggiuntivi**.
@@ -591,31 +591,31 @@ Se si abilita questa impostazione di criterio, è necessario creare un elenco di
     **Tabella A.13: impostazione dei valori nell'elenco dei componenti aggiuntivi**
 
 <p> </p>
-    <table style="border:1px solid black;">  
-    <colgroup>  
-    <col width="50%" />  
-    <col width="50%" />  
-    </colgroup>  
-    <thead>  
-    <tr class="header">  
-    <th><p>Valore</p></th>  
-    <th><p>Descrizione</p></th>  
-    </tr>  
-    </thead>  
-    <tbody>  
+    <table style="border:1px solid black;">
+    <colgroup>
+    <col width="50%" />
+    <col width="50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><p>Valore</p></th>
+    <th><p>Descrizione</p></th>
+    </tr>
+    </thead>
+    <tbody>
     <tr class="odd">
     <td style="border:1px solid black;"><p>0</p></td>
     <td style="border:1px solid black;"><p>Rifiuta il componente aggiuntivo</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>1</p></td>
     <td style="border:1px solid black;"><p>Accetta il componente aggiuntivo</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>2</p></td>
     <td style="border:1px solid black;"><p>Accetta il componente aggiuntivo e consente all'utente di gestirlo attraverso Gestione componenti aggiuntivi</p></td>
-    </tr>  
-    </tbody>  
+    </tr>
+    </tbody>
     </table>
   
 Se si disattiva questa impostazione di criterio, l'elenco viene eliminato.
@@ -633,29 +633,29 @@ Modelli amministrativi\\Componenti di Windows\\Servizi terminal\\ Client
 **Tabella A.14: impostazioni Non consentire salvataggio password**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Non consentire salvataggio password** impedisce che le password vengano salvate su un computer da client di Servizi terminal. Abilitando questa impostazione, la casella di controllo del salvataggio della password in Client di Servizi terminal viene disabilitata, in modo che gli utenti non possano più salvare le password. Poiché il salvataggio delle password può portare a ulteriori violazioni, questa impostazione è configurata su **Attivato** per gli ambienti definiti in questa guida.
@@ -673,29 +673,29 @@ Modelli amministrativi\\Componenti di Windows\\Windows Update
 **Tabella A.15: impostazioni Non visualizzare le opzioni "Installa aggiornamenti e spegni" nella finestra di dialogo Fine della sessione di lavoro di Windows**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione di criterio **Non visualizzare l'opzione "Installa aggiornamenti e spegni" nella finestra di dialogo Fine della sessione di lavoro di Windows** consente di decidere se l'opzione **Installa aggiornamenti e spegni** deve essere visualizzata nella finestra di dialogo **Fine della sessione di lavoro di Windows.**
@@ -707,29 +707,29 @@ Disattivando questa impostazione di criterio l'opzione **Installa aggiornamenti 
 **Tabella A.16: impostazioni Non impostare "Installa aggiornamenti e spegni" come opzione predefinita nella finestra di dialogo Fine della sessione di lavoro**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione di criterio **Non impostare "Installa aggiornamenti e spegni" come opzione predefinita nella finestra di dialogo Fine della sessione di lavoro** consente di stabilire se l'opzione **Installa aggiornamenti e spegni** debba essere quella predefinita nella finestra di dialogo **Fine della sessione di lavoro di Windows.** Disattivando questa impostazione di criterio, l'opzione **Installa aggiornamenti e spegni** sarà quella predefinita nella finestra di dialogo **Fine della sessione di lavoro di Windows** se gli aggiornamenti sono disponibili per l'installazione quando l'utente seleziona l'opzione **Spegni computer** nel menu **Start**.
@@ -749,29 +749,29 @@ Configurazione computer\\Modelli amministrativi\\Sistema
 **Tabella A.17: impostazioni Disattiva richiesta ricerca driver periferiche in Windows Update**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Disattiva richiesta ricerca driver periferiche in Windows Update** verifica se all'amministratore viene richiesto di ricercare driver di periferiche in Windows Update utilizzando Internet. Se questa impostazione è attivata, agli amministratori non verrà richiesto di eseguire la ricerca in Windows Update. Se questa impostazione e **Disattiva ricerca driver periferiche in Windows Update** sono disattivati o non sono configurati, verrà chiesto il consenso dell'amministratore prima di ricercare driver di periferiche in Windows Update.
@@ -795,29 +795,29 @@ Modelli amministrativi\\Sistema\\RPC
 **Tabella A.18: impostazioni Restrizioni per client RPC non autenticati**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Abilitando l'impostazione **Restrizioni per client RPC non autenticati**, è possibile configurare il runtime RPC in un server RPC per limitare i client RPC non autenticati che si connettono ai server RPC in esecuzione su un computer. Un cliente è considerato non autenticato se utilizza un named pipe per comunicare col server o se utilizza la Protezione RPC. Le interfacce RPC che hanno chiesto specificatamente di essere accessibili da client non autenticati possono essere esenti da questa restrizione, in base al valore scelto per questo criterio. Abilitando questa impostazione sono disponibili i seguenti valori:
@@ -837,29 +837,29 @@ Poiché la comunicazione RPC non autenticata può creare vulnerabilità nella pr
 **Tabella A.19: impostazioni Autenticazione client mapping degli endpoint RPC**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Abilitando l'impostazione **Autenticazione client mapping degli endpoint RPC**, i client che comunicano con questo computer sono obbligati a fornire l'autenticazione prima che venga stabilita la comunicazione RPC.
@@ -877,29 +877,29 @@ Modelli amministrativi\\Sistema\\Gestione comunicazioni Internet\\Impostazioni d
 **Tabella A.20: impostazioni Disattiva l'operazione per file e cartelle Pubblica sul Web**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Questa impostazione specifica se visualizzare le operazioni **Pubblica file sul Web**, **Pubblica cartella sul Web** e **Pubblica elementi selezionati sul Web** in Operazioni file e cartella nelle cartelle di Windows. La Pubblicazione guidata sul Web scarica sul computer un elenco di provider e consente agli utenti di pubblicare contenuto sul Web. Se si configura questa impostazione su **Attivato**, queste opzioni vengono rimosse dalle operazioni file e cartelle nelle cartelle di Windows.
@@ -909,29 +909,29 @@ Questa impostazione specifica se visualizzare le operazioni **Pubblica file sul 
 **Tabella A.21: Impostazioni Disattiva download Internet per le procedure di pubblicazione guidata sul Web e ordinazione guidata via Internet**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Configurando l'impostazione **Disattiva download Internet per le procedure di pubblicazione guidata sul Web e ordinazione guidata via Internet**, è possibile controllare se Windows scaricherà un elenco di provider per le procedure di pubblicazione guidata sul Web e ordinazione guidata via Internet. Abilitando questa impostazione, si evita che Windows scarichi i provider; saranno visualizzati solo i provider di servizi memorizzati nel Registro di sistema locale.
@@ -941,29 +941,29 @@ Configurando l'impostazione **Disattiva download Internet per le procedure di pu
 **Tabella A.22: impostazioni Disattiva Analisi utilizzo software Windows Messenger**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Disattiva Analisi utilizzo software Windows Messenger** specifica se Windows Messenger raccoglie informazioni anonime sulla modalità di utilizzo del software e dei servizi di Windows Messenger. Configurare questa impostazione su **Attivato** per evitare che Windows Messenger raccolga informazioni di utilizzo e che vengano visualizzate le impostazioni dell'utente per l'attivazione della raccolta di tali informazioni.
@@ -973,29 +973,29 @@ L'impostazione **Disattiva Analisi utilizzo software Windows Messenger** specifi
 **Tabella A.23: impostazioni Disattiva aggiornamenti file contenuto Ricerca guidata**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Disattiva aggiornamenti file contenuto Ricerca guidata** specifica se la Ricerca guidata deve scaricare automaticamente gli aggiornamenti di contenuto nel corso delle ricerche locali e in Internet. Configurando questa impostazione su **Attivato**, la Ricerca guidata non scaricherà gli aggiornamenti di contenuto durante le ricerche.
@@ -1007,29 +1007,29 @@ L'impostazione **Disattiva aggiornamenti file contenuto Ricerca guidata** specif
 **Tabella A.24: impostazioni Disattiva stampa su HTTP**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Questa impostazione consente di disattivare la stampa su HTTP da questo client. La stampa su HTTP consente a un client di stampare tramite stampanti su Intranet e su Internet. Abilitando questa impostazione si evita che il client stampi tramite stampanti in Internet su HTTP.
@@ -1043,29 +1043,29 @@ Le informazioni trasmesse quando si stampa su HTTP non sono protette e possono e
 **Tabella A.25: impostazioni Disattiva download driver di stampa su HTTP**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Disattiva download driver di stampa su HTTP** controlla se il computer può scaricare pacchetti di driver di stampa su HTTP. Per impostare la stampa su HTTP, i driver di stampa non disponibili nell'installazione standard del sistema operativo devono essere scaricati su HTTP. Si consiglia di configurare questa impostazione su **Attivato**, per evitare che i driver di stampa vengano scaricati su HTTP.
@@ -1077,29 +1077,29 @@ L'impostazione **Disattiva download driver di stampa su HTTP** controlla se il c
 **Tabella A.26: impostazioni Disattiva ricerca driver periferiche in Windows Update**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Il criterio **Disattiva ricerca driver periferiche in Windows Update** specifica se Windows ricerca i driver di periferiche in Windows Update quando non sono presenti driver locali per una periferica.
@@ -1123,29 +1123,29 @@ Modelli amministrativi\\Rete\\Connessioni di rete\\Windows Firewall\\Profilo di 
 **Tabella A.27: impostazioni Proteggi tutte le connessioni di rete (Profilo di dominio)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Windows Firewall: proteggi tutte le connessioni di rete** attiva Windows Firewall, che sostituisce Firewall connessione Internet su tutti i computer con Windows XP SP2. Questa appendice consiglia di configurare questa impostazione su **Attivato** per proteggere tutte le connessioni di rete dei computer in tutti gli ambienti.
@@ -1159,29 +1159,29 @@ Se questa impostazione è configurata su **Disattivato**, Windows Firewall è di
 **Tabella A.28: impostazioni Non consentire eccezioni (Profilo di dominio)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Windows Firewall: non consentire eccezioni** specifica che Windows Firewall deve bloccare tutti i messaggi indesiderati in ingresso. Questa impostazione ignora tutte le altre impostazioni di criterio di Windows Firewall che consentono tali messaggi. Se si abilita questa impostazione nel componente Windows Firewall del Pannello di controllo, la casella **Non consentire eccezioni** sarà selezionata e gli amministratori non potranno deselezionarla.
@@ -1195,29 +1195,29 @@ Molti ambienti contengono applicazioni e servizi che devono poter ricevere comun
 **Tabella A.29: impostazioni Definisci le eccezioni programmi (Profilo di dominio)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Alcune applicazioni possono avere bisogno di aprire ed utilizzare le porte di rete che non sono normalmente abilitate da Windows Firewall. L'impostazione **Windows Firewall: definisci eccezioni programmi** consente di visualizzare e modificare l'elenco eccezioni di programmi definito nei Criteri di gruppo.
@@ -1233,29 +1233,29 @@ Se si configura questo criterio su **Disattivato**, l'elenco eccezioni di progra
 **Tabella A.30: impostazioni Consenti eccezioni programmi locali (Profilo di dominio)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Windows Firewall: consenti eccezioni programmi locali** consente che gli amministratori utilizzino il componente Windows Firewall nel Pannello di controllo per definire un elenco di eccezioni di programmi locali. Disattivando questa impostazione di criterio si impedisce agli amministratori di definire un elenco di eccezioni programmi locali e si assicura che le eccezioni derivino unicamente dai Criteri di gruppo. Se si imposta questo criterio su **Attivato**, gli amministratori locali potranno utilizzare il Pannello di controllo per definire eccezioni di programmi a livello locale.
@@ -1267,29 +1267,29 @@ Per i computer client aziendali possono sussistere le condizioni che giustifican
 **Tabella A.31: impostazioni Consenti eccezione per amministrazione remota (Profilo di dominio)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Molte organizzazioni approfittano dell'amministrazione remota del computer durante le attività quotidiane. Tuttavia, alcuni attacchi hanno sfruttato le porte utilizzate di norma dai programmi di amministrazione remoti; Windows Firewall può bloccare queste porte. Per fornire flessibilità nell'amministrazione remota, è disponibile l'impostazione **Windows Firewall: consenti eccezione per amministrazione**.
@@ -1307,29 +1307,29 @@ Questa appendice consiglia di abilitare questa impostazione per i computer azien
 **Tabella A.32: impostazioni Consenti eccezione per condivisione file e stampanti (Profilo di dominio)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Questa impostazione consente la condivisione di file e stampanti configurando Windows Firewall in modo da aprire le porte UDP 137 e 138 e le porte TCP 139 e 445. Se si abilita questa impostazione di criterio, Windows Firewall apre queste porte in modo che il computer possa ricevere i processi di stampa e le richieste per l'accesso ai file condivisi. Specificare gli indirizzi IP o le sottoreti da cui questi messaggi in ingresso sono consentiti.
@@ -1345,29 +1345,29 @@ Poiché i computer dell'ambiente in cui è in esecuzione Windows XP non condivid
 **Tabella A.33: impostazioni Consenti eccezioni ICMP (Profilo di dominio)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'opzione **Windows Firewall: consenti eccezioni ICMP** definisce la serie di tipi di messaggi ICMP (Internet Control Message Protocol) consentiti da Windows Firewall. Le utilità possono utilizzare i messaggi ICMP per determinare lo stato di altri computer. Per esempio, Ping utilizza il messaggio di richiesta echo.
@@ -1383,29 +1383,29 @@ Molti strumenti di aggressione approfittano dei computer che accettano i tipi di
 **Tabella A.34: impostazioni Consenti eccezione per Desktop remoto (Profilo di dominio)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Molte organizzazioni utilizzano connessioni Desktop remoto per le procedure di risoluzione dei problemi o per le normali attività. Tuttavia, alcuni attacchi sfruttano le porte tipicamente utilizzate dal desktop remoto. Per fornire flessibilità nell'amministrazione remota, è disponibile l'impostazione **Windows Firewall: consenti eccezione per Desktop remoto**.
@@ -1421,29 +1421,29 @@ Alcuni attacchi possono utilizzare una porta aperta 3389. Per mantenere le capac
 **Tabella A.35: impostazioni Consenti eccezione per framework UPnP (Profilo di dominio)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Windows Firewall: consenti eccezione per framework UPnP** consente a un computer di ricevere messaggi Plug and Play indesiderati inviati da periferiche di rete, come i router con firewall incorporati. Per ricevere questi messaggi, Windows Firewall apre la porta TCP 2869 e porta UDP 1900.
@@ -1457,29 +1457,29 @@ Il blocco del traffico di rete UPnP riduce efficacemente l'esposizione agli atta
 **Tabella A.36: impostazioni Proibisci notifiche (Profilo di dominio)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Windows Firewall può mostrare notifiche agli utenti quando un programma richiede che Windows Firewall aggiunga il programma all'elenco di eccezioni di programmi. Questa situazione si verifica quando i programmi tentano di aprire una porta e non sono autorizzati a farlo, in base alle regole di Windows Firewall attuali. L'impostazione **Windows Firewall: Proibisci notifiche** consente di scegliere se tali impostazioni devono essere mostrate agli utenti.
@@ -1493,29 +1493,29 @@ Spesso gli utenti non potranno aggiungere applicazioni e porte in risposta a que
 **Tabella A.37: impostazioni Impedisci risposte unicast a richieste multicast o broadcast (Profilo di dominio)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Windows Firewall: impedisci risposte unicast a richieste multicast o broadcast** impedisce a un computer di ricevere risposte unicast ai messaggi multicast o broadcast in uscita. Quando questa impostazione di criterio è abilitata ed il computer invia messaggi multicast o broadcast ad altri computer, Windows Firewall blocca le risposte unicast inviate da tali computer. Quando l'impostazione è disattivata e il computer invia un messaggio multicast o broadcast agli altri computer, Windows Firewall attende fino a tre secondi le risposte unicast dagli altri computer, quindi blocca tutte le successive risposte.
@@ -1529,29 +1529,29 @@ Generalmente, non è corretto ricevere risposte unicast a messaggi multicast o b
 **Tabella A.38: impostazioni Definisci eccezioni porte (Profilo di dominio)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'elenco eccezioni porte di Windows Firewall deve essere definito dai Criteri di gruppo, che consente di gestire e distribuire centralmente le eccezioni di porta ed assicura che gli amministratori locali non creino impostazioni meno sicure. L'impostazione **Windows Firewall: definisci eccezioni porte** consente di gestire centralmente queste impostazioni.
@@ -1569,29 +1569,29 @@ Gli ambienti con applicazioni non standard che richiedono porte specifiche per e
 **Tabella A.39: impostazioni Consenti eccezioni porte locali (Profilo di dominio)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Windows Firewall: consenti eccezioni porte locali** consente agli amministratori di utilizzare il componente Windows Firewall nel Pannello di controllo per definire un elenco di eccezioni di porte locali. Windows Firewall può utilizzare due elenchi di eccezioni di porte; l'altro è definito dal criterio **Windows Firewall: definisci eccezioni porte**.
@@ -1617,29 +1617,29 @@ Modelli amministrativi\\Rete\\Connessioni di rete\\Windows Firewall\\Profilo sta
 **Tabella A.40: impostazioni Proteggi tutte le connessioni di rete (Profilo standard)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Windows Firewall: proteggi tutte le connessioni di rete** attiva Windows Firewall, che sostituisce Firewall connessione Internet su tutti i computer con Windows XP SP2. Poiché tutte le connessioni di rete dovrebbero essere protette da un firewall in tutti gli ambienti, questa impostazione è configurata su **Attivato.**
@@ -1653,29 +1653,29 @@ Se questa impostazione è configurata su **Disattivato**, Windows Firewall è di
 **Tabella A.41: impostazioni Non consentire eccezioni (Profilo standard)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Windows Firewall: non consentire eccezioni** specifica che Windows Firewall deve bloccare tutti i messaggi indesiderati in ingresso. Questa impostazione ignora tutte le altre impostazioni di criterio di Windows Firewall che consentono tali messaggi. Se si abilita questa impostazione nel componente Windows Firewall del Pannello di controllo, la casella **Non consentire eccezioni** sarà selezionata e gli amministratori non potranno deselezionarla.
@@ -1687,29 +1687,29 @@ L'impostazione **Windows Firewall: non consentire eccezioni** specifica che Wind
 **Tabella A.42: impostazioni Definisci le eccezioni programmi (Profilo standard)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Alcune applicazioni possono avere bisogno di aprire ed utilizzare le porte di rete che non sono normalmente abilitate da Windows Firewall. L'impostazione **Windows Firewall: definisci eccezioni programmi** consente di visualizzare e modificare l'elenco eccezioni di programmi definito nei Criteri di gruppo.
@@ -1725,29 +1725,29 @@ Se si configura questo criterio su **Disattivato**, l'elenco eccezioni di progra
 **Tabella A.43: impostazioni Consenti eccezioni programmi locali (Profilo standard)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Windows Firewall: consenti eccezioni programmi locali** consente che gli amministratori utilizzino il componente Windows Firewall nel Pannello di controllo per definire un elenco di eccezioni di programmi locali. Se si disattiva questa impostazione di criterio, il componente di Windows Firewall nel Pannello di controllo non consente agli amministratori di definire tale elenco e assicura che le eccezioni di programmi derivino unicamente dai Criteri di gruppo. Se si imposta questo criterio su **Attivato**, gli amministratori locali potranno utilizzare il Pannello di controllo per definire eccezioni di programmi in locale.
@@ -1757,29 +1757,29 @@ L'impostazione **Windows Firewall: consenti eccezioni programmi locali** consent
 **Tabella A.44: impostazioni Consenti eccezione per amministrazione remota (Profilo standard)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Molte organizzazioni approfittano dell'amministrazione remota del computer durante le attività quotidiane. Tuttavia, alcuni attacchi sfruttano le porte tipicamente utilizzate dai programmi di amministrazione remoti. Di conseguenza, Windows Firewall può bloccare queste porte. Per fornire flessibilità nell'amministrazione remota, è disponibile l'impostazione **Windows Firewall: consenti eccezione per amministrazione**.
@@ -1797,29 +1797,29 @@ Questa appendice consiglia di disattivare questa impostazione per tutti i comput
 **Tabella A.45: impostazioni Consenti eccezione per condivisione file e stampanti (Profilo standard)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Questa impostazione consente la condivisione di file e stampanti, configurando Windows Firewall in modo da aprire le porte UDP 137 e 138 e le porte TCP 139 e 445. Se si abilita questa impostazione di criterio, Windows Firewall apre queste porte in modo che il computer possa ricevere i processi di stampa e le richieste per l'accesso ai file condivisi. Specificare gli indirizzi IP o le sottoreti da cui questi messaggi in ingresso sono consentiti.
@@ -1835,29 +1835,29 @@ Poiché i computer dell'ambiente in cui è in esecuzione Windows XP non condivid
 **Tabella A.46: impostazioni Consenti eccezioni ICMP (Profilo standard)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'opzione **Windows Firewall: consenti eccezioni ICMP** definisce la serie di tipi di messaggi ICMP (Internet Control Message Protocol) consentiti da Windows Firewall. Le utilità possono utilizzare i messaggi ICMP per determinare lo stato di altri computer. Per esempio, l'utilità Ping utilizza il messaggio di richiesta echo.
@@ -1873,29 +1873,29 @@ Molti strumenti di aggressione approfittano dei computer che accettano i tipi di
 **Tabella A.47: impostazioni Consenti eccezione per Desktop remoto (Profilo standard)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Molte organizzazioni utilizzano connessioni Desktop remoto per le procedure di risoluzione dei problemi o per le normali attività. Tuttavia, alcuni attacchi sfruttano le porte tipicamente utilizzate dal desktop remoto. Per fornire flessibilità nell'amministrazione remota, è disponibile l'impostazione **Windows Firewall: consenti eccezione per Desktop remoto**.
@@ -1911,29 +1911,29 @@ Alcuni attacchi possono utilizzare una porta aperta 3389. Per mantenere le capac
 **Tabella A.48: impostazioni Consenti eccezione per framework UPnP (Profilo standard)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Windows Firewall: consenti eccezione per framework UPnP** consente a un computer di ricevere messaggi Plug and Play indesiderati inviati da periferiche di rete, come i router con firewall incorporati. Per ricevere questi messaggi, Windows Firewall apre la porta TCP 2869 e porta UDP 1900.
@@ -1947,29 +1947,29 @@ Bloccando in modo efficace il traffico di rete UPnP, la superficie di attacco de
 **Tabella A.49: impostazioni Proibisci notifiche (Profilo standard)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Windows Firewall può mostrare notifiche agli utenti quando un programma richiede che Windows Firewall aggiunga il programma all'elenco di eccezioni di programmi. Questa situazione si verifica quando i programmi tentano di aprire una porta e non sono autorizzati a farlo, in base alle regole di Windows Firewall attuali. L'impostazione **Windows Firewall: Proibisci notifiche** consente di scegliere se tali impostazioni devono essere mostrate agli utenti.
@@ -1983,29 +1983,29 @@ Spesso gli utenti non potranno aggiungere applicazioni e porte in risposta a que
 **Tabella A.50: impostazioni Impedisci risposte unicast a richieste multicast o broadcast (Profilo standard)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Windows Firewall: impedisci risposte unicast a richieste multicast o broadcast** impedisce a un computer di ricevere risposte unicast ai messaggi multicast o broadcast in uscita. Quando questa impostazione di criterio è abilitata ed il computer invia messaggi multicast o broadcast ad altri computer, Windows Firewall blocca le risposte unicast inviate da tali computer. Quando l'impostazione è disattivata e il computer invia un messaggio multicast o broadcast agli altri computer, Windows Firewall attende per tre secondi le risposte unicast dagli altri computer, quindi blocca tutte le successive risposte.
@@ -2019,29 +2019,29 @@ Generalmente non è corretto ricevere risposte unicast a messaggi multicast o br
 **Tabella A.51: impostazioni Definisci eccezioni porte (Profilo standard)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'elenco eccezioni porte di Windows Firewall deve essere definito dai Criteri di gruppo, che consente di gestire e distribuire centralmente le eccezioni di porta ed assicura che gli amministratori locali non creino impostazioni meno sicure. L'impostazione **Windows Firewall: definisci eccezioni porte** consente di gestire centralmente queste impostazioni.
@@ -2059,29 +2059,29 @@ Gli ambienti con applicazioni non standard che richiedono porte specifiche per e
 **Tabella A.52: impostazioni Consenti eccezioni porte locali (Profilo standard)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Desktop client organizzazione</p></th>  
-<th><p>Portatile client organizzazione</p></th>  
-<th><p>Desktop livello di protezione Alto</p></th>  
-<th><p>Portatile livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Desktop client organizzazione</p></th>
+<th><p>Portatile client organizzazione</p></th>
+<th><p>Desktop livello di protezione Alto</p></th>
+<th><p>Portatile livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione **Windows Firewall: consenti eccezioni porte locali** consente agli amministratori di utilizzare il componente Windows Firewall nel Pannello di controllo per definire un elenco di eccezioni di porte locali. Windows Firewall può utilizzare due elenchi di eccezioni di porte; l'altro è definito dal criterio **Windows Firewall: definisci eccezioni porte**.
@@ -2109,23 +2109,23 @@ Configurazione utente\\Modelli amministrativi\\Componenti di Windows\\Gestione a
 **Tabella A.53: impostazioni Non conservare le informazioni di area nei file allegati**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Client di organizzazione</p></th>  
-<th><p>Livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Client di organizzazione</p></th>
+<th><p>Livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione di criterio **Non conservare le informazioni di area nei file allegati** consente di configurare Windows in modo da contrassegnare i file allegati di Internet Explorer o Outlook Express con informazioni relative all'area di origine (come limitato, Internet, Intranet o locale). Questa impostazione richiede che i file siano scaricati sulle partizioni del disco NTFS per funzionare correttamente. Se le informazioni di area non sono conservate, Windows non può valutare correttamente il rischio in base alla zona da cui proviene l'allegato.
@@ -2137,23 +2137,23 @@ Se si imposta questo criterio su **Attivato**, i file allegati non vengono contr
 **Tabella A.54: impostazioni Nascondi meccanismi di rimozione informazioni sull'area**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Client di organizzazione</p></th>  
-<th><p>Livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Client di organizzazione</p></th>
+<th><p>Livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'impostazione di criterio **Nascondi meccanismi di rimozione informazioni sull'area** consente di scegliere se gli utenti possono rimuovere manualmente le informazioni sull'area dai file allegati salvati facendo clic sul pulsante **Annulla blocco** nella finestra **Proprietà** del file o selezionando la casella di controllo nella finestra di dialogo **Avviso di protezione**. Se si rimuovono le informazioni sull'area, gli utenti possono aprire file allegati potenzialmente pericolosi che Windows impedisce di aprire.
@@ -2167,23 +2167,23 @@ Windows nasconde la casella di controllo e il pulsante **Annulla blocco** quando
 **Tabella A.55: impostazioni Notifica programmi antivirus quando vengono aperti allegati**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Client di organizzazione</p></th>  
-<th><p>Livello di protezione Alto</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Client di organizzazione</p></th>
+<th><p>Livello di protezione Alto</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 I programmi antivirus stanno diventando obbligatori nella maggior parte degli ambienti e sono una solida linea di difesa contro gli attuali attacchi. L'impostazione di criterio **Notifica programmi antivirus quando vengono aperti allegati** consente di gestire le notifiche relative ai programmi antivirus registrati.

@@ -302,12 +302,12 @@ In questa guida vengono utilizzate le convenzioni di stile e la terminologia rip
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
 <td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Esempio Woodgrove</strong></p></td>
 <td style="border:1px solid black;"><p>Informa il lettore che il contenuto descritto è correlato all'esempio dell'azienda fittizia &quot;Woodgrove Bank&quot;.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

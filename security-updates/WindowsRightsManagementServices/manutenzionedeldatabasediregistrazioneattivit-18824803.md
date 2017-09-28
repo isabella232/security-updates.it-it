@@ -57,23 +57,23 @@ Per valutare come funziona questa stima, si consideri che un'organizzazione con 
 <td style="border:1px solid black;"><p>Il provisioning del server RMS è stato eseguito con successo</p></td>
 <td style="border:1px solid black;"><p>1,7 MB</p></td>
 <td style="border:1px solid black;"><p>1,7 MB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Registrazione di 5000 dipendenti (5000*0,06)</p></td>
 <td style="border:1px solid black;"><p>300 MB</p></td>
 <td style="border:1px solid black;"><p>301,7 MB</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Accesso a messaggi di posta elettronica protetti (25000*0,19)</p></td>
 <td style="border:1px solid black;"><p>4750 MB</p></td>
 <td style="border:1px solid black;"><p>5051,7 MB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Accesso a documenti protetti (15000*0,19)</p></td>
 <td style="border:1px solid black;"><p>2850 MB</p></td>
 <td style="border:1px solid black;"><p>7901,7 MB</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 In tal modo, dopo la registrazione, il database di registrazione attività ha una dimensione statica di circa 300 MB. Tuttavia, la crescita giornaliera in questo esempio è di 7,6 GB, prossima quindi al limite di 8 GB dell'installazione predefinita di Accodamento messaggi. Se il database di registrazione attività diviene non disponibile per più di un giorno, le voci di registrazione attività inizierebbero a perdersi.

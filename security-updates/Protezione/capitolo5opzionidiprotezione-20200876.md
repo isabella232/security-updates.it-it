@@ -1149,36 +1149,36 @@ La restrizione dell'accesso nelle named pipe quali COMNAP e LOCATOR consente di 
 <tr class="odd">
 <td style="border:1px solid black;"><p>COMNAP</p></td>
 <td style="border:1px solid black;"><p>Named pipe per SnaBase. SNA (Systems Network Architecture) è un insieme di protocolli di rete sviluppati originariamente per i computer mainframe IBM.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>COMNODE</p></td>
 <td style="border:1px solid black;"><p>Named pipe per SNA Server.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SQL\QUERY</p></td>
 <td style="border:1px solid black;"><p>Named pipe predefinita per SQL Server.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SPOOLSS</p></td>
 <td style="border:1px solid black;"><p>Named pipe per il servizio Spooler di stampa.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>EPMAPPER</p></td>
 <td style="border:1px solid black;"><p>Named pipe per il mapping degli endpoint.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>LOCATOR</p></td>
 <td style="border:1px solid black;"><p>Named pipe per il servizio RPC (Remote Procedure Call).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>TrkWks</p></td>
 <td style="border:1px solid black;"><p>Named pipe per Manutenzione collegamenti distribuiti client.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>TrkSvr</p></td>
 <td style="border:1px solid black;"><p>Named pipe per Manutenzione collegamenti distribuiti server.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Contromisura

@@ -128,32 +128,32 @@ Prima di esaminare il funzionamento delle più recenti soluzioni di protezione p
 <tr class="odd">
 <td style="border:1px solid black;"><p>Divulgazione di dati</p></td>
 <td style="border:1px solid black;"><p>L’intercettazione non autorizzata di trasmissioni di rete può comportare la divulgazione di dati riservati e credenziali utente non protette, nonché la potenziale acquisizione di identità. Questa vulnerabilità potrebbe consentire a utenti malintenzionati e dotati di strumenti sofisticati di raccogliere informazioni sull’ambiente IT dell’azienda e di utilizzarle per attaccare altri sistemi o dati che altrimenti non sarebbero vulnerabili.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Intercettazione e modifica di dati trasmessi</p></td>
 <td style="border:1px solid black;"><p>Se un pirata informatico riesce a ottenere l’accesso alla rete, questi potrà utilizzare un computer per intercettare e modificare i dati di rete trasmessi tra due parti autorizzate in comunicazione.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Spoofing</p></td>
 <td style="border:1px solid black;"><p>La disponibilità dell’accesso alla rete interna consente agli intrusi di inviare dati apparentemente legittimi, ad esempio un messaggio di posta elettronica di spoofing, in modi che non sarebbero consentiti dall’esterno. Gli utenti, inclusi gli amministratori di sistema, tendono in genere a guardare con minor sospetto gli elementi di origine interna rispetto a quelli che provengono dall’esterno della rete aziendale.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Denial of service (DoS)</p></td>
 <td style="border:1px solid black;"><p>Un utente malintenzionato può sferrare un attacco di tipo DoS in vari modi. Ad esempio, l’interruzione del segnale a livello di trasmissione radio può essere realizzata con strumenti a bassa tecnologia: ad esempio, un forno a microonde. Gli attacchi di rete possono essere molto sofisticati e puntare verso protocolli di rete senza fili di basso livello; oppure, quelli meno sofisticati, possono avere come obiettivo il sovraccarico della rete WLAN con un traffico casuale.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Collegamento non autorizzato o furto di risorse</p></td>
 <td style="border:1px solid black;"><p>Un intruso potrebbe utilizzare la rete aziendale come punto di accesso non autorizzato a Internet. Sebbene non sia altrettanto dannoso di altri pericoli, questo attacco può ridurre la disponibilità dei servizi per gli utenti legittimi e introdurre virus o altri problemi.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Rischi accidentali</p></td>
 <td style="border:1px solid black;"><p>Alcune caratteristiche delle reti LAN senza fili possono aumentare la gravità degli attacchi non intenzionali. Ad esempio, è possibile che un visitatore autorizzato avvii il proprio computer portatile senza l’intento di collegarsi alla rete, ma venga automaticamente collegato alla rete LAN senza fili. Il computer portatile del visitatore può rappresentare un punto di accesso alla rete per eventuali virus. Questo tipo di pericolo rappresenta un problema solo per reti WLAN non protette.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Reti WLAN inaffidabili</p></td>
 <td style="border:1px solid black;"><p>Anche se l'azienda non dispone ufficialmente di una rete LAN senza fili, potrebbe comunque sussistere il rischio che reti WLAN non gestite interferiscano con la rete aziendale. Componenti hardware WLAN di bassa qualità acquistati dai dipendenti possono esporre la rete a pericoli imprevisti.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 I problemi legati alla protezione delle reti LAN senza fili, basati su WEP statico, hanno suscitato un notevole interesse nei mezzi di informazione. Sebbene esistano efficaci soluzioni per combattere questi pericoli, le organizzazioni di tutti i tipi restano diffidenti nei confronti delle reti LAN senza fili. Alcune hanno addirittura arrestato la distribuzione di tecnologie WLAN o ne hanno vietato completamente l’uso. Di seguito sono elencati alcuni dei fattori principali che contribuiscono a generare questa confusione e al preconcetto diffuso che le reti LAN senza fili non possano essere sicure:
@@ -305,18 +305,18 @@ I principali pericoli per la protezione delle reti LAN senza fili sono stati des
 **Tabella 2.2. Rischi potenziali per la sicurezza analizzati in relazione alla soluzione proposta**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Pericolo</p></th>  
-<th><p>Riduzione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Pericolo</p></th>
+<th><p>Riduzione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Divulgazione di dati</p></td>
 <td style="border:1px solid black;"><p>L’assegnazione e la modifica dinamica delle chiavi di crittografia a intervalli frequenti e il fatto che le chiavi sono univoche per ciascuna sessione utente significa che, se la frequenza di aggiornamento delle chiavi è adeguata, l’individuazione delle chiavi e l’accesso ai dati non è possibile con i mezzi attualmente conosciuti.</p>
@@ -331,7 +331,7 @@ I principali pericoli per la protezione delle reti LAN senza fili sono stati des
 <tr class="odd">
 <td style="border:1px solid black;"><p>Spoofing</p></td>
 <td style="border:1px solid black;"><p>L’autenticazione protetta sulla rete impedisce ad utenti non autorizzati di collegarsi alla rete e di introdurvi dati di spoofing dall’interno.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Negazione del servizio (DoS)</p></td>
 <td style="border:1px solid black;"><p>Gli attacchi a livello di rete, come quelli che generano un aumento del traffico o altri attacchi DoS, sono impediti dal controllo dell’accesso alla rete WLAN basato sul protocollo 802.1X. Non esiste tuttavia alcun metodo di difesa in WEP o WPA contro gli attacchi di negazione del servizio (DoS) 802.11 DoS di basso livello. Questo problema verrà risolto dallo standard 802.11i.</p>
@@ -341,11 +341,11 @@ I principali pericoli per la protezione delle reti LAN senza fili sono stati des
 <tr class="odd">
 <td style="border:1px solid black;"><p>Collegamento non autorizzato (furto di risorse)</p></td>
 <td style="border:1px solid black;"><p>L’uso non autorizzato della rete è impedito dall’elevata affidabilità dell’autenticazione.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Rischi accidentali</p></td>
 <td style="border:1px solid black;"><p>La connessione accidentale alla rete WLAN è impedita dall’autenticazione protetta.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Reti WLAN inaffidabili</p></td>
 <td style="border:1px solid black;"><p>Sebbene la soluzione non intervenga direttamente nella gestione dei punti di accesso senza fili inaffidabili, implementando una soluzione di rete senza fili protetta come questa, la motivazione di installare reti WLAN non ufficiali non avrà più ragione di esistere.</p>
@@ -408,50 +408,50 @@ Le principali differenze tra questi approcci e una soluzione su base 802.1X sono
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Connessione e riconnessione trasparente alla WLAN</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Autenticazione utente</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticazione computer (2)</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Protezione traffico broadcast e multicast</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Richiesti dispositivi di rete aggiuntivi</p></td>
 <td style="border:1px solid black;"><p>Server RADIUS</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Server VPN, server RADIUS</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Accesso protetto alla WLAN</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 (1) Molte implementazioni VPN basate sulla modalità di tunnel IPsec utilizzano uno schema insufficiente di autenticazione con chiave condivisa definito *XAuth*.

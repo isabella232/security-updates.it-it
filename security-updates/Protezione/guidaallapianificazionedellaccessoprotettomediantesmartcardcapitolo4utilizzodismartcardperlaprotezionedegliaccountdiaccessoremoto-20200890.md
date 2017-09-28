@@ -470,13 +470,13 @@ Per affrontare le eccezioni, il personale IT di Woodgrove ha creato un nuovo gru
 <td style="border:1px solid black;"><p>Richiede l'autenticazione mediante smart card per i membri del gruppo di utenti con accesso remoto</p></td>
 <td style="border:1px solid black;"><p>Gruppo di Windows corrispondente a &quot;WOODGROVE\RemoteSmartCardUsers&quot;</p></td>
 <td style="border:1px solid black;"><p>EAP - Solo smart card o altri certificati.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Non richiede l'autenticazione mediante smart card per i membri del gruppo di esclusioni temporanee</p></td>
 <td style="border:1px solid black;"><p>Gruppo di Windows corrispondente a &quot;WOODGROVE\RemoteSmartCardUsersTempException&quot;</p></td>
 <td style="border:1px solid black;"><p>MSCHAP v2</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Questa impostazione impone il requisito delle smart card ai membri del gruppo RemoteSmartCardUsers ma non ai membri del gruppo RemoteSmartCardUsersTempException. Per ulteriori informazioni su come richiedere l'autenticazione delle smart card per gli utenti remoti, consultare l'argomento [Configure smart card remote access](http://technet.microsoft.com/en-us/library/cc758781.aspx) all'indirizzo www.microsoft.com/technet/prodtechnol/windowsserver2003/library/ServerHelp/863638a6-f9e0-48d7-9db5-0b54af3cf135.mspx (informazioni in lingua inglese).

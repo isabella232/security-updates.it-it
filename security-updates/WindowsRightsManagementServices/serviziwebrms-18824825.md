@@ -38,36 +38,36 @@ Nella tabella riportata di seguito vengono descritti i servizi Web RMS.
 <tr class="odd">
 <td style="border:1px solid black;"><p>Registrazione secondaria</p></td>
 <td style="border:1px solid black;"><p>Fornisce certificati concessori di licenze server subordinati ai server nei cluster utilizzati esclusivamente per la gestione delle licenze. Questi certificati consentono al cluster utilizzato esclusivamente per la gestione delle licenze di rilasciare licenze d'uso e di pubblicazione.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Certificazione account</p></td>
 <td style="border:1px solid black;"><p>Fornisce certificati per account con diritti agli utenti. Questi certificati sono necessari per gli utenti per ottenere licenze d'uso e di pubblicazione in modo da creare e utilizzare contenuti protetti con RMS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Proxy di attivazione</p></td>
 <td style="border:1px solid black;"><p>Questo servizio garantisce la compatibilità con il client RMS versione 1. Consente di passare le richieste di attivazione del computer al servizio di attivazione Microsoft e di restituire gli archivi protetti e i certificati del computer RMS ai client RMS versione 1. Questo servizio non viene utilizzato dai client RMS con Service Pack 1 (SP1) o versioni successive.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Pubblicazione</p></td>
 <td style="border:1px solid black;"><p>Consente di rilasciare licenze di pubblicazione che consentono agli autori di creare e distribuire contenuti protetti con RMS. Consente inoltre di rilasciare certificati concessori di licenze client, che consentono agli utenti di pubblicare contenuti protetti con RMS senza essere connessi alla rete interna che ospita RMS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Gestione licenze</p></td>
 <td style="border:1px solid black;"><p>Consente di rilasciare licenze d'uso, che permettono agli utenti di utilizzare il contenuto protetto con RMS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Amministrazione</p></td>
 <td style="border:1px solid black;"><p>Consente all'amministratore di gestire RMS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DrmRemote</p></td>
 <td style="border:1px solid black;"><p>Consente ai servizi Web di comunicare tra loro e con altri componenti del sistema RMS esponendo Servizi remoti .NET.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Rimozione autorizzazioni</p></td>
 <td style="border:1px solid black;"><p>Consente di rimuovere la protezione del contenuto protetto in precedenza con RMS e di restituirlo al client. Questo servizio viene installato dal programma di installazione di RMS ma non dispone di una radice virtuale corrispondente in IIS fino a quando non viene attivato dall'amministratore. L'attivazione di questo servizio determina la disattivazione di tutti gli altri servizi.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Oltre ai servizi Web, in RMS viene installato un servizio listener di registrazione attività. Ciascun servizio Web invia i dati registrati alla coda di messaggi di registrazione attività. Il servizio listener di registrazione attività quindi trasferisce i dati registrati dalla coda di messaggi al database di registrazione.

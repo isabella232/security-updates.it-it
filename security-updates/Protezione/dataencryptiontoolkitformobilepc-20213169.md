@@ -85,28 +85,28 @@ Questa guida è rivolta ai professionisti IT, responsabili del progetto, la pian
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Testo in grassetto</strong></p></td>
 <td style="border:1px solid black;"><p>Caratteri digitati in grassetto (come nella colonna Elemento), inclusi comandi, switch e nomi di file. Anche gli elementi dell'interfaccia utente vengono visualizzati in grassetto.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Testo in corsivo</em></p></td>
 <td style="border:1px solid black;"><p>I titoli dei libri e di altre pubblicazioni vengono visualizzati in <em>corsivo</em>.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>&lt;Corsivo&gt;</em></p></td>
 <td style="border:1px solid black;"><p>I segnaposti in corsivo e tra parentesi angolari, ad esempio <em>&lt;nome file&gt;</em>, rappresentano le variabili.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Testo a spaziatura fissa</code></pre></td>
 <td style="border:1px solid black;"><p>Indica esempi di codice e script.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
 <td style="border:1px solid black;"><p>Segnala la presenza di informazioni supplementari.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
 <td style="border:1px solid black;"><p>Segnala la presenza di informazioni supplementari importanti.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

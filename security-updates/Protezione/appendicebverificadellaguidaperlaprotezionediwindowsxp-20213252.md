@@ -368,21 +368,21 @@ La scale di gravità degli errori è descritta nella tabella seguente. La scala 
 <tr class="odd">
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p>– L'errore ha bloccato la creazione o ulteriori test.<br />
-– L'errore ha causato accessibilità imprevista per l'utente.<br />  
-– I passaggi definiti nella documentazione non erano chiari.<br />  
+– L'errore ha causato accessibilità imprevista per l'utente.<br />
+– I passaggi definiti nella documentazione non erano chiari.<br />
 – I risultati o il comportamento di una funzione o di un processo contraddicono i risultati previsti (come documentato nella specifiche funzionali).<br />
 – Rilevante mancanza di corrispondenza tra i file dei modelli di protezione e le specifiche funzionali.</p></td>
 <td style="border:1px solid black;"><p>– La soluzione non ha avuto successo.<br />
-– L'utente non ha potuto utilizzare componenti importanti del sistema.<br />  
-– L'utente disponeva di privilegi di accesso che non dovrebbero essere consentiti.<br />  
-– L'accesso dell'utente a determinati server è stato bloccato quando invece doveva essere consentito.<br />  
+– L'utente non ha potuto utilizzare componenti importanti del sistema.<br />
+– L'utente disponeva di privilegi di accesso che non dovrebbero essere consentiti.<br />
+– L'accesso dell'utente a determinati server è stato bloccato quando invece doveva essere consentito.<br />
 – Non sono stati ottenuti i risultati previsti.<br />
 – I test non possono procedere senza essere eseguiti.</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>2</p></td>
 <td style="border:1px solid black;"><p>– I passaggi definiti nella guida non sono chiari.<br />
-– La documentazione relativa alla funzionalità è mancante (in questo caso, il test è stato bloccato).<br />  
+– La documentazione relativa alla funzionalità è mancante (in questo caso, il test è stato bloccato).<br />
 – La documentazione è mancante o inadeguata.<br />
 – Incoerenza tra i file dei modelli di protezione e il contenuto della guida, mentre il file dei modelli di protezione corrisponde alle specifiche funzionali.</p></td>
 <td style="border:1px solid black;"><p>– L'utente non disponeva di una soluzione semplice per correggere la situazione.<br />
@@ -395,7 +395,7 @@ La scale di gravità degli errori è descritta nella tabella seguente. La scala 
 – Lievi errori e imprecisioni nella documentazione.<br />
 – Errori ortografici nel testo.</p></td>
 <td style="border:1px solid black;"><p>– L'utente disponeva di una soluzione semplice per correggere la situazione.<br />
-– L'utente è stato in grado di trovare facilmente una soluzione.<br />  
+– L'utente è stato in grado di trovare facilmente una soluzione.<br />
 – L'errore non ha causato un'esperienza negativa per l'utente.<br />
 – I requisiti aziendali di base sono funzionali.</p></td>
 </tr>
@@ -404,8 +404,8 @@ La scale di gravità degli errori è descritta nella tabella seguente. La scala 
 <td style="border:1px solid black;"><p>– Suggerimenti.<br />
 – Miglioramenti futuri.</p></td>
 <td style="border:1px solid black;"><p>– Chiaramente non relativo a questa versione.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

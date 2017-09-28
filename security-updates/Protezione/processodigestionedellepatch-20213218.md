@@ -150,23 +150,23 @@ Le seguenti tabelle possono aiutare a valutare la priorità della richiesta in r
 <td style="border:1px solid black;"><p>Emergenza</p></td>
 <td style="border:1px solid black;"><p>Entro 24 ore</p></td>
 <td style="border:1px solid black;"><p>Entro due settimane</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Elevata</p></td>
 <td style="border:1px solid black;"><p>Entro un mese</p></td>
 <td style="border:1px solid black;"><p>Entro due mesi</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Media</p></td>
 <td style="border:1px solid black;"><p>A seconda della disponibilità, distribuire un nuovo service pack o un rollup di aggiornamento che includa la correzione di questa vulnerabilità entro quattro mesi.</p></td>
 <td style="border:1px solid black;"><p>Distribuire l'aggiornamento software entro sei mesi</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Bassa</p></td>
 <td style="border:1px solid black;"><p>A seconda della disponibilità, distribuire un nuovo service pack o un rollup di aggiornamento che includa la correzione di questa vulnerabilità entro 1 anno.</p></td>
 <td style="border:1px solid black;"><p>Distribuire l'aggiornamento software entro 1 anno oppure scegliere di non procedere alla distribuzione.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Nella Tabella 2 sono riportati degli esempi di fattori che potrebbero innalzare o abbassare il livello di priorità.
@@ -174,35 +174,35 @@ Nella Tabella 2 sono riportati degli esempi di fattori che potrebbero innalzare 
 **Tabella 2: Fattori che influenzano le priorità di aggiornamento**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Fattore ambientale/organizzativo</p></th>  
-<th><p>Correzione della priorità</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Fattore ambientale/organizzativo</p></th>
+<th><p>Correzione della priorità</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Impatto su risorse di alto valore o alta esposizione.</p></td>
 <td style="border:1px solid black;"><p>Innalzare</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Risorse storicamente prese di mira dai pirati informatici.</p></td>
 <td style="border:1px solid black;"><p>Innalzare</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Esistono fattori di attenuazione, quali contromisure che riducono al minimo il pericolo.</p></td>
 <td style="border:1px solid black;"><p>Abbassare</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Impatto su risorse di poco valore o scarsa esposizione.</p></td>
 <td style="border:1px solid black;"><p>Abbassare</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Richiesta di modifica di emergenza**

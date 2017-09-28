@@ -183,20 +183,20 @@ Utilizzare le informazioni seguenti per completare i parametri di input del coma
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>file_input</em></p></td>
 <td style="border:1px solid black;"><p>Nome del file dell'elenco di revoche preparato compatibile con XrML.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>file_chiave</em></p></td>
 <td style="border:1px solid black;"><p>Nome del file in cui sono presenti le chiavi pubblica e privata generate.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>nome_contenitore</em></p></td>
 <td style="border:1px solid black;"><p>Nome del contenitore della chiave</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>file_output</em></p></td>
 <td style="border:1px solid black;"><p>Nome del file dell'elenco di revoche firmato che verrà creato dallo strumento.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720208.note(WS.10).gif)Nota |  
@@ -215,47 +215,47 @@ Nel codice restituito dallo strumento RLsigner.exe vengono segnalati i principal
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Codice restituito</th>  
-<th>Descrizione</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Codice restituito</th>
+<th>Descrizione</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>0</p></td>
 <td style="border:1px solid black;"><p>Operazione completata</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>-1</p></td>
 <td style="border:1px solid black;"><p>Impossibile leggere il file di origine</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>-2</p></td>
 <td style="border:1px solid black;"><p>Impossibile leggere il file della chiave</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>-3</p></td>
 <td style="border:1px solid black;"><p>File della chiave non valido</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>-4</p></td>
 <td style="border:1px solid black;"><p>File di origine non valido</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>-5</p></td>
 <td style="border:1px solid black;"><p>Impossibile scrivere nel file di output</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>-6</p></td>
 <td style="border:1px solid black;"><p>Errore sconosciuto</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 È possibile pianificare la firma degli elenchi di revoche in base alla frequenza di aggiornamento specificata per il server.

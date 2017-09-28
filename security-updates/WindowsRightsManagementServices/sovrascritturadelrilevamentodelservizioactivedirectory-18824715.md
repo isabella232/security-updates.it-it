@@ -62,13 +62,13 @@ Nella tabella riportata di seguito vengono elencate le voci che è possibile agg
 <td style="border:1px solid black;"><p>SubEnrollmentURL</p></td>
 <td style="border:1px solid black;"><p>Stringa</p></td>
 <td style="border:1px solid black;"><p>http(o https)://<em>nome_server</em>/_wmcs/certification/subenrollservice.asmx</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GicURL</p></td>
 <td style="border:1px solid black;"><p>Stringa</p></td>
 <td style="border:1px solid black;"><p>http(o https)://<em>nome_server</em>/_wmcs/certification/certification.asmx</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Override dell'individuazione di servizi sul lato client per la pubblicazione  
@@ -99,36 +99,36 @@ Nella tabella riportata di seguito vengono elencate le voci del Registro di sist
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Nome</th>  
-<th>Tipo</th>  
-<th>Valore</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nome</th>
+<th>Tipo</th>
+<th>Valore</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Activation</p></td>
 <td style="border:1px solid black;"><p>Stringa</p></td>
 <td style="border:1px solid black;"><p>http (o https)://<em>nome_cluster_RMS</em>/_wmcs/Certification dove <em>nome_cluster_RMS</em> rappresenta il nome del cluster RMS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>EnterprisePublishing</p></td>
 <td style="border:1px solid black;"><p>Stringa</p></td>
 <td style="border:1px solid black;"><p>http (o https)://<em>nome_cluster_RMS</em>/_wmcs/Licensing dove <em>nome_cluster_RMS</em> rappresenta il nome del cluster RMS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CloudPublishing</p></td>
 <td style="border:1px solid black;"><p>Stringa</p></td>
 <td style="border:1px solid black;"><p>http (o https)://<em>nome_cluster_FQDN</em>/_wmcs/Licensing dove <em>nome_cluster_FQDN</em> rappresenta il nome di dominio completo del cluster RMS.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Per assicurarsi che tutti i client nell'azienda utilizzino i server di pubblicazione corretti, è consigliabile implementare queste chiavi del Registro di sistema utilizzando Systems Management Server o Criteri di gruppo.

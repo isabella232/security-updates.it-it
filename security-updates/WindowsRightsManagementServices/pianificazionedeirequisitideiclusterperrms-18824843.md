@@ -29,11 +29,11 @@ Se si utilizza RMS in una distribuzione su cluster, assicurarsi di aver valutato
 <tr class="odd">
 <td style="border:1px solid black;"><p>Grande numero di computer desktop che utilizzano RMS.</p></td>
 <td style="border:1px solid black;"><p>Si può utilizzare Windows Update, uno script, o un metodo di distribuzione software come Systems Management Server (SMS) o Criteri di gruppo per installare e attivare il software del client Servizi Microsoft Windows Rights Management.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Numero elevato di richieste client.</p></td>
 <td style="border:1px solid black;"><p>Utilizzare un server con bilanciamento del carico, il servizio BIlanciamento del carico di rete (NLB), o un dispositivo hardware per il bilanciamento del carico per distribuire le richieste nel cluster.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Due schede di rete che utilizzano il servizio di indirizzamento IP virtuale per soddisfare le richieste Intranet ed Extranet.</p></td>
 <td style="border:1px solid black;"><p>Assicurarsi che qualsiasi registrazione DNS eseguita per esporre l'indirizzo IP virtuale alla Extranet esponga l'indirizzo anche all'Intranet.</p>

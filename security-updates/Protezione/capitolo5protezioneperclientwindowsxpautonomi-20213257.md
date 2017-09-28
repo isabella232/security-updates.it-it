@@ -69,32 +69,32 @@ Nella tabella seguente vengono illustrate le estensioni dello snap-in Criteri di
 <tr class="odd">
 <td style="border:1px solid black;"><p>Installazione software</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Script</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Impostazioni di protezione</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Modelli amministrativi</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Reindirizzamento cartelle</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Manutenzione di Internet Explorer</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servizio di installazione remota</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Criteri di account
@@ -227,43 +227,43 @@ L'elenco seguente illustra i parametri dello strumento Secedit.exe.
     **Tabella 5.2 Aree di protezione**
 
 <p> </p>
-    <table style="border:1px solid black;">  
-    <colgroup>  
-    <col width="50%" />  
-    <col width="50%" />  
-    </colgroup>  
-    <thead>  
-    <tr class="header">  
-    <th><p>Nome dell'area</p></th>  
-    <th><p>Descrizione</p></th>  
-    </tr>  
-    </thead>  
-    <tbody>  
+    <table style="border:1px solid black;">
+    <colgroup>
+    <col width="50%" />
+    <col width="50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><p>Nome dell'area</p></th>
+    <th><p>Descrizione</p></th>
+    </tr>
+    </thead>
+    <tbody>
     <tr class="odd">
     <td style="border:1px solid black;"><p>SECURITYPOLICY</p></td>
     <td style="border:1px solid black;"><p>Include Criteri account, Criteri controllo, Impostazioni del registro eventi e Opzioni di protezione.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>GROUP_MGMT</p></td>
     <td style="border:1px solid black;"><p>Include le impostazioni Gruppi con restrizioni.</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>USER_RIGHTS</p></td>
     <td style="border:1px solid black;"><p>Include le impostazioni di assegnazione dei diritti utente.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>REGKEYS</p></td>
     <td style="border:1px solid black;"><p>Include le autorizzazioni del Registro di sistema.</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>FILESTORE</p></td>
     <td style="border:1px solid black;"><p>Include le autorizzazioni del file system.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>SERVICES</p></td>
     <td style="border:1px solid black;"><p>Include le impostazioni dei servizi di sistema.</p></td>
-    </tr>  
-    </tbody>  
+    </tr>
+    </tbody>
     </table>
   
 -   **/log** *&lt;NomeFile&gt;*. Specifica un file in cui registrare lo stato del processo di configurazione. Se non si specifica questo parametro, i dati di configurazione vengono registrati nel file scesrv.log che si trova nella directory **%windir%\\security\\logs**.
@@ -285,120 +285,120 @@ Nelle tabelle seguenti è incluso un elenco degli script e dei file associati fo
 **Tabella 5.3 Script e file autonomi**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nomi del file e dello script</p></th>  
-<th><p>Descrizione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nomi del file e dello script</p></th>
+<th><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Standalone-EC-Desktop.cmd</p></td>
 <td style="border:1px solid black;"><p>Script autonomo utilizzato per impostare il criterio Enterprise Client nei computer client desktop.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Standalone-EC-Laptop.cmd</p></td>
 <td style="border:1px solid black;"><p>Script autonomo utilizzato per impostare il criterio Enterprise Client nei computer client portatili.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Standalone-SSLF-Desktop.cmd</p></td>
 <td style="border:1px solid black;"><p>Script autonomo utilizzato per impostare il criterio Specialized Security – Limited Functionality nei computer client desktop.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Standalone-SSLF-Laptop.cmd</p></td>
 <td style="border:1px solid black;"><p>Script autonomo utilizzato per impostare il criterio Specialized Security – Limited Functionality nei computer client portatili.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Standalone-EC-Account.inf</p></td>
 <td style="border:1px solid black;"><p>Modello del criterio di account Enterprise Client.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Standalone-SSLF-Account.inf</p></td>
 <td style="border:1px solid black;"><p>Modello del criterio di account Specialized Security – Limited Functionality.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>EC-Desktop.inf</p></td>
 <td style="border:1px solid black;"><p>Modello di protezione Enterprise Client per i computer client desktop.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>EC-Laptop.inf</p></td>
 <td style="border:1px solid black;"><p>Modello di protezione Enterprise Client per i computer client portatili.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SSLF-Desktop.inf</p></td>
 <td style="border:1px solid black;"><p>Modello Specialized Security – Limited Functionality per computer client desktop.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SSLF-Laptop.inf</p></td>
 <td style="border:1px solid black;"><p>Modello Specialized Security – Limited Functionality per computer client portatili.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>XP Default Security.sdb</p></td>
 <td style="border:1px solid black;"><p>Database dei criteri predefiniti.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Tabella 5.4 Script e file precedenti**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nomi del file e dello script</p></th>  
-<th><p>Descrizione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nomi del file e dello script</p></th>
+<th><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Legacy-EC-Desktop.cmd</p></td>
 <td style="border:1px solid black;"><p>Script precedente utilizzato per impostare il criterio Enterprise Client nei computer client desktop.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Legacy-EC-Laptop.cmd</p></td>
 <td style="border:1px solid black;"><p>Script precedente utilizzato per impostare il criterio Enterprise Client nei computer client portatili.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Legacy-SSLF-Desktop.cmd</p></td>
 <td style="border:1px solid black;"><p>Script precedente utilizzato per impostare il criterio Specialized Security – Limited Functionality nei computer client desktop.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Legacy-SSLF-Laptop.cmd</p></td>
 <td style="border:1px solid black;"><p>Script precedente utilizzato per impostare il criterio Specialized Security – Limited Functionality nei computer client portatili.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Legacy-EC-Account.inf</p></td>
 <td style="border:1px solid black;"><p>Modello precedente del criterio di account Client di organizzazione.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Legacy-SSLF-Account.inf</p></td>
 <td style="border:1px solid black;"><p>Modello precedente del criterio di account Specialized Security – Limited Functionality.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Legacy-EC-Desktop.inf</p></td>
 <td style="border:1px solid black;"><p>Modello precedente di protezione Enterprise Client per i computer client desktop.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Legacy-EC-Laptop.inf</p></td>
 <td style="border:1px solid black;"><p>Modello precedente di protezione Enterprise Client per i computer client portatili.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Legacy-SSLF-Desktop.inf</p></td>
 <td style="border:1px solid black;"><p>Modello precedente Specialized Security – Limited Functionality per computer client desktop.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Legacy-SSLF-Laptop.inf</p></td>
 <td style="border:1px solid black;"><p>Modello precedente Specialized Security – Limited Functionality per computer client portatili.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>XP Default Security.sdb</p></td>
 <td style="border:1px solid black;"><p>Database dei criteri predefiniti.<br />

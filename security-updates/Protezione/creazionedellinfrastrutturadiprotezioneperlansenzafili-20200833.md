@@ -94,18 +94,18 @@ Di seguito sono indicati gli strumenti necessari per eseguire le procedure ripor
 <td style="border:1px solid black;"><p>MSS Secure WLAN Scripts</p></td>
 <td style="border:1px solid black;"><p>Set di script e strumenti forniti con la soluzione.</p></td>
 <td style="border:1px solid black;"><p>Descritto nel capitolo 3 &quot;Predisposizione dell'ambiente&quot;.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Servizio di Autenticazione Internet</strong></p></td>
 <td style="border:1px solid black;"><p>Strumento di MMC (Microsoft® Management Console) utilizzato per la gestione delle impostazioni e dei criteri di IAS.</p></td>
 <td style="border:1px solid black;"><p>Fornito con Windows Server™ 2003.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Utenti e computer di Active Directory</strong></p></td>
 <td style="border:1px solid black;"><p>Strumento di MMC utilizzato per la gestione di utenti, gruppi, computer e altri oggetti Active Directory del servizio directory Microsoft Active Directory®.</p></td>
 <td style="border:1px solid black;"><p>Fornito con Windows Server 2003.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Parametri IAS
@@ -115,18 +115,18 @@ Nella seguente tabella sono riportati i parametri principali utilizzati per l'in
 **Tabella 5.2: Parametri di configurazione del server IAS**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento di configurazione</p></th>  
-<th><p>Impostazione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento di configurazione</p></th>
+<th><p>Impostazione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Registrazione di IAS nel registro eventi di Windows</strong></p></td>
 <td style="border:1px solid black;"><br />
@@ -135,15 +135,15 @@ Nella seguente tabella sono riportati i parametri principali utilizzati per l'in
 <tr class="even">
 <td style="border:1px solid black;"><p>Richieste di autenticazione rifiutate</p></td>
 <td style="border:1px solid black;"><p>Abilitato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Richieste di autenticazione riuscite</p></td>
 <td style="border:1px solid black;"><p>Abilitato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Registrazione RADIUS di IAS</strong></p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Criteri di accesso remoto</strong></p></td>
 <td style="border:1px solid black;"><br />
@@ -152,23 +152,23 @@ Nella seguente tabella sono riportati i parametri principali utilizzati per l'in
 <tr class="even">
 <td style="border:1px solid black;"><p>Nome dei criteri di accesso remoto</p></td>
 <td style="border:1px solid black;"><p>Consenti accesso LAN senza fili</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Gruppo di protezione per concedere l'accesso a</p></td>
 <td style="border:1px solid black;"><p>Accesso LAN senza fili</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tipo di EAP utilizzato</p></td>
 <td style="border:1px solid black;"><p>PEAP (Protected Extensible Authentication Protocol)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tipo di EAP PEAP utilizzato</p></td>
 <td style="border:1px solid black;"><p>EAP MS-CHAP v2</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Riconnessione rapida</p></td>
 <td style="border:1px solid black;"><p>Abilitato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Profilo dei criteri di accesso remoto</strong></p></td>
 <td style="border:1px solid black;"><br />
@@ -192,12 +192,12 @@ Nella seguente tabella sono riportati i parametri principali utilizzati per l'in
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nome criterio</p></td>
 <td style="border:1px solid black;"><p>Utilizza autenticazione Windows per tutti gli utenti</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Condizioni del criterio</p></td>
 <td style="border:1px solid black;"><p>Day-and-Time-Restrictions = All times</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Importante:** queste impostazioni sono state utilizzate nel testing interno della soluzione e determinano i comportamenti documentati. Anche se molte impostazioni possono essere configurate su valori differenti, è consigliabile eseguire dei cambiamenti solo quando si è perfettamente consapevoli dello scopo di ogni impostazione specifica e delle conseguenze causate da eventuali modifiche.
@@ -669,18 +669,18 @@ Nella seguente tabella vengono indicate le impostazioni necessarie per la config
 **Tabella 5.3: Configurazione punti di accesso senza fili**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento</p></th>  
-<th><p>Impostazione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento</p></th>
+<th><p>Impostazione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Parametri di autenticazione</strong></p></td>
 <td style="border:1px solid black;"><br />
@@ -689,31 +689,31 @@ Nella seguente tabella vengono indicate le impostazioni necessarie per la config
 <tr class="even">
 <td style="border:1px solid black;"><p>Modalità di autenticazione</p></td>
 <td style="border:1px solid black;"><p>Autenticazione 802.1X</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Riautenticazione</p></td>
 <td style="border:1px solid black;"><p>Abilita</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Reimpostazione chiavi rapida/dinamica</p></td>
 <td style="border:1px solid black;"><p>Abilita</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Timeout aggiornamento chiavi</p></td>
 <td style="border:1px solid black;"><p>60 minuti</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Parametri di crittografia (impostazioni in genere collegate alla crittografia WEP statica)</strong></p></td>
 <td style="border:1px solid black;"><p>(I parametri di crittografia possono essere disabilitati o sottoposti a overriding quando è abilitata la reimpostazione rapida delle chiavi)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Abilita crittografia</p></td>
 <td style="border:1px solid black;"><p>Abilita</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Rifiuta non crittografati</p></td>
 <td style="border:1px solid black;"><p>Abilita</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Autenticazione RADIUS</strong></p></td>
 <td style="border:1px solid black;"><br />
@@ -722,35 +722,35 @@ Nella seguente tabella vengono indicate le impostazioni necessarie per la config
 <tr class="even">
 <td style="border:1px solid black;"><p>Abilita autenticazione RADIUS</p></td>
 <td style="border:1px solid black;"><p>Abilita</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Server autenticazione RADIUS primario</p></td>
 <td style="border:1px solid black;"><p>Indirizzo IP server IAS primario</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Porta server RADIUS primario</p></td>
 <td style="border:1px solid black;"><p>1812 (predefinita)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Server autenticazione RADIUS secondario</p></td>
 <td style="border:1px solid black;"><p>Indirizzo IP server IAS secondario</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Porta server RADIUS secondario</p></td>
 <td style="border:1px solid black;"><p>1812 (predefinita)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Segreto condiviso autenticazione RADIUS</p></td>
 <td style="border:1px solid black;"><p><strong>XXXXXX</strong> (sostituire con il segreto generato)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Numero massimo tentativi</p></td>
 <td style="border:1px solid black;"><p>5</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Timeout tentativi</p></td>
 <td style="border:1px solid black;"><p>5 secondi</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Accounting RADIUS</strong></p></td>
 <td style="border:1px solid black;"><br />
@@ -759,36 +759,36 @@ Nella seguente tabella vengono indicate le impostazioni necessarie per la config
 <tr class="odd">
 <td style="border:1px solid black;"><p>Abilita accounting RADIUS</p></td>
 <td style="border:1px solid black;"><p>Abilita</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Server accounting RADIUS primario</p></td>
 <td style="border:1px solid black;"><p>Indirizzo IP server IAS primario</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Porta server RADIUS primario</p></td>
 <td style="border:1px solid black;"><p>1813 (predefinita)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Server accounting RADIUS secondario</p></td>
 <td style="border:1px solid black;"><p>Indirizzo IP server IAS secondario</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Porta server RADIUS secondario</p></td>
 <td style="border:1px solid black;"><p>1813 (predefinita)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Segreto condiviso accounting RADIUS</p></td>
 <td style="border:1px solid black;"><p><strong>XXXXXX</strong> (sostituire con il segreto generato)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Numero massimo tentativi</p></td>
 <td style="border:1px solid black;"><p>5</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Timeout tentativi</p></td>
 <td style="border:1px solid black;"><p>5 secondi</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Importante:** l'opzione **Timeout aggiornamento chiavi** è impostata su 60 minuti per l'utilizzo con WEP dinamico. Il valore **Timeout sessione** impostato nel criterio di accesso remoto IAS è uguale o inferiore al valore dell'opzione. Per ulteriori informazioni, vedere la sezione precedente "Modifica delle impostazioni del profilo dei Criteri di accesso WLAN". Poiché l'impostazione con il valore più basso assume la precedenza, sarà sufficiente modificare l'impostazione nel server IAS. Se si utilizza la protezione WPA, sarà necessario aumentare il valore dell'impostazione nel punto di accesso a 8 ore. Per ulteriori informazioni, vedere la documentazione del fornitore.
@@ -808,20 +808,20 @@ Oltre ad abilitare i parametri 802.1X, è necessario configurare una protezione 
 **Tabella 5.4: Configurazione protezione punti di accesso senza fili**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento</p></th>  
-<th><p>Impostazione consigliata</p></th>  
-<th><p>Note</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento</p></th>
+<th><p>Impostazione consigliata</p></th>
+<th><p>Note</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Generale</strong></p></td>
 <td style="border:1px solid black;"><br />
@@ -833,12 +833,12 @@ Oltre ad abilitare i parametri 802.1X, è necessario configurare una protezione 
 <td style="border:1px solid black;"><p>Password amministratore</p></td>
 <td style="border:1px solid black;"><p>XXXXXX</p></td>
 <td style="border:1px solid black;"><p>Impostare una password complessa.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Altre password di gestione</p></td>
 <td style="border:1px solid black;"><p>XXXXXX</p></td>
 <td style="border:1px solid black;"><p>In alcune periferiche vengono utilizzate diverse password di gestione per ottenere un accesso protetto mediante l'utilizzo di protocolli di gestione differenti. Verificare che tutti i valori predefiniti vengano sostituiti con valori in grado di assicurare maggiore protezione.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Protocolli di gestione</strong></p></td>
 <td style="border:1px solid black;"><br />
@@ -850,39 +850,39 @@ Oltre ad abilitare i parametri 802.1X, è necessario configurare una protezione 
 <td style="border:1px solid black;"><p>Console seriale</p></td>
 <td style="border:1px solid black;"><p>Abilita</p></td>
 <td style="border:1px solid black;"><p>Se non sono disponibili protocolli crittografati, questo è il metodo più sicuro per configurare i punti di accesso senza fili benché siano richieste connessioni fisiche via cavo seriale tra i punti di accesso senza fili e il terminale e non possa essere utilizzato in remoto.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Telnet</p></td>
 <td style="border:1px solid black;"><p>Disabilita</p></td>
 <td style="border:1px solid black;"><p>Tutte le trasmissioni Telnet sono in testo normale, pertanto le password e i segreti dei client RADIUS saranno visibili sulla rete. Se è possibile garantire la protezione del traffico Telnet mediante l'utilizzo di criteri IPsec o SSH, Telnet può essere abilitato e utilizzato in modo sicuro.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>HTTP</p></td>
 <td style="border:1px solid black;"><p>Disabilita</p></td>
 <td style="border:1px solid black;"><p>La gestione HTTP in genere è in testo normale e presenta gli stessi punti deboli del protocollo Telnet non crittografato. Se disponibile, è consigliabile l'utilizzo di HTTPS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>HTTPS (SSL o TLS)</p></td>
 <td style="border:1px solid black;"><p>Abilita</p></td>
 <td style="border:1px solid black;"><p>Per la configurazione di chiavi e certificati per HTTPS, seguire le istruzioni del fornitore.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Comunità SNMP</strong></p></td>
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><p>SNMP è il protocollo predefinito per la gestione della rete. Utilizzare SNMP v3 con password di protezione per ottenere il livello di protezione più elevato. Spesso viene utilizzato dagli strumenti di configurazione GUI e dai sistemi per la gestione della rete. Tuttavia, se non viene impiegato può essere disabilitato.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nome comunità 1</p></td>
 <td style="border:1px solid black;"><p>XXXXXX</p></td>
 <td style="border:1px solid black;"><p>In genere, il valore predefinito è &quot;pubblico&quot; e va sostituito con un valore complesso.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nome comunità 2</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>I nomi di comunità non necessari devono essere disabilitati o impostati su valori complessi.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Non è necessario disabilitare la trasmissione SSID (nome rete WLAN) perché potrebbe impedire la connessione di Windows XP alla rete corretta. Anche se la disabilitazione della trasmissione SSID rappresenta una misura di protezione spesso consigliata, garantisce pochi vantaggi pratici se viene utilizzato un metodo di autenticazione 802.1X protetto. Anche se la trasmissione SSID dal punto di accesso viene disabilitata, è relativamente facile per un utente malintenzionato determinare l'SSID mediante l'acquisizione di pacchetti di connessione client. Se si intende proteggere l'identità della rete WLAN durante la trasmissione, è possibile assegnare un nome generico all'SSID non attribuibile all'organizzazione.

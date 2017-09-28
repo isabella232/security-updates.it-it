@@ -33,70 +33,70 @@ Nella tabella seguente vengono elencati gli attributi di Active Directory memori
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupAliases</p></td>
 <td style="border:1px solid black;"><ul>
-<li>GroupName: alias del gruppo<br />  
-<br />  
-</li>  
-<li>GroupID: ID univoco del gruppo<br />  
-<br />  
+<li>GroupName: alias del gruppo<br />
+<br />
+</li>
+<li>GroupID: ID univoco del gruppo<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GroupIdentifiers</p></td>
 <td style="border:1px solid black;"><ul>
-<li>GroupDN: nome distinto del gruppo utilizzato in Active Directory<br />  
-<br />  
-</li>  
-<li>GroupID: ID univoco del gruppo<br />  
-<br />  
-</li>  
-<li>Expiration: data e ora di scadenza delle informazioni memorizzate per il gruppo<br />  
-<br />  
+<li>GroupDN: nome distinto del gruppo utilizzato in Active Directory<br />
+<br />
+</li>
+<li>GroupID: ID univoco del gruppo<br />
+<br />
+</li>
+<li>Expiration: data e ora di scadenza delle informazioni memorizzate per il gruppo<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>GroupMembership</p></td>
 <td style="border:1px solid black;"><ul>
-<li>GroupID: ID univoco del gruppo<br />  
-<br />  
-</li>  
-<li>ParentID: ID univoco del gruppo a cui appartiene questo gruppo<br />  
-<br />  
+<li>GroupID: ID univoco del gruppo<br />
+<br />
+</li>
+<li>ParentID: ID univoco del gruppo a cui appartiene questo gruppo<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PrincipalAliases</p></td>
 <td style="border:1px solid black;"><ul>
-<li>PrincipalName: nome alias dell'identità<br />  
-<br />  
-</li>  
-<li>PrincipalID: ID univoco dell'identità<br />  
-<br />  
+<li>PrincipalName: nome alias dell'identità<br />
+<br />
+</li>
+<li>PrincipalID: ID univoco dell'identità<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PrincipalIdentifiers</p></td>
 <td style="border:1px solid black;"><ul>
-<li>PrincipalID: ID univoco dell'identità<br />  
-<br />  
-</li>  
-<li>Expiration: data e ora di scadenza delle informazioni memorizzate per l'identità<br />  
-<br />  
+<li>PrincipalID: ID univoco dell'identità<br />
+<br />
+</li>
+<li>Expiration: data e ora di scadenza delle informazioni memorizzate per l'identità<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>PrincipalMembership</p></td>
 <td style="border:1px solid black;"><p>Ogni riga di questa tabella include l'ID univoco di un'identità e l'ID univoco del gruppo a cui appartiene.</p>
-<ul>  
-<li>PrincipalID: ID univoco dell'identità<br />  
-<br />  
-</li>  
-<li>ParentID: ID univoco di un gruppo a cui appartiene questa identità<br />  
-<br />  
+<ul>
+<li>PrincipalID: ID univoco dell'identità<br />
+<br />
+</li>
+<li>ParentID: ID univoco di un gruppo a cui appartiene questa identità<br />
+<br />
 </li>
 </ul></td>
 </tr>

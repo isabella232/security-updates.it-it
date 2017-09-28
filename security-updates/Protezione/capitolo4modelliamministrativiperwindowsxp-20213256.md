@@ -47,28 +47,28 @@ La seguente tabella elenca i file .adm e le applicazioni e i servizi che ne sono
 <td style="border:1px solid black;"><p>System.adm</p></td>
 <td style="border:1px solid black;"><p>Windows XP Professional</p></td>
 <td style="border:1px solid black;"><p>Contiene molte impostazioni per personalizzare l'ambiente operativo dell'utente.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Inetres.adm</p></td>
 <td style="border:1px solid black;"><p>Windows XP Professional</p></td>
 <td style="border:1px solid black;"><p>Contiene le impostazioni per Internet Explorer 6.0.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Conf.adm</p></td>
 <td style="border:1px solid black;"><p>Windows XP Professional</p></td>
 <td style="border:1px solid black;"><p>Contiene le impostazioni per configurare Microsoft NetMeeting.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Wmplayer.adm</p></td>
 <td style="border:1px solid black;"><p>Windows XP Professional</p></td>
 <td style="border:1px solid black;"><p>Contiene le impostazioni per configurare Windows Media Player.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Wuau.adm</p></td>
 <td style="border:1px solid black;"><p>Windows XP Professional</p></td>
 <td style="border:1px solid black;"><p>Contiene le impostazioni per configurare Windows Update.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota**: è necessario configurare manualmente le impostazioni dei Modelli amministrativi nell'oggetto Criteri di Gruppo (GPO) per applicarle ai computer e agli utenti dell'ambiente.
@@ -127,32 +127,32 @@ Microsoft NetMeeting consente agli utenti di condurre riunioni virtuali sulla re
 **Tabella 4.2 Impostazioni NetMeeting consigliate**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disattiva Condivisione desktop remoto</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Disattiva Condivisione desktop remoto
@@ -182,88 +182,88 @@ La tabella seguente riassume molte delle raccomandazioni di impostazione di Inte
 **Tabella 4.3 Impostazioni consigliate di Internet Explorer**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disattiva l'installazione automatica dei Componenti di Internet Explorer e Accesso a Internet</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Disattiva Controllo periodico per aggiornamenti software di Internet Explorer</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disattiva avvisi Shell per aggiornamenti software all'avvio del programma</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Non consentire agli utenti di abilitare o disabilitare i componenti aggiuntivi</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Basa impostazioni proxy sul computer (non sull'utente)</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Aree di protezione: impedisci l'aggiunta e l'eliminazione di siti</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Aree di protezione: impedisci la modifica del criterio</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Aree di protezione: utilizza solo le impostazioni del computer</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disattiva rilevamento errori critici</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Disattiva l'installazione automatica dei Componenti di Internet Explorer e Accesso a Internet
@@ -353,32 +353,32 @@ Per esempio, SP2 configura Internet Explorer in modo che blocchi i pop-up di tut
 **Tabella 4.4 Impostazioni consigliate Consenti l'esecuzione o l'installazione del software anche se la firma è non è valida**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consenti l'esecuzione o l'installazione del software anche se la firma è non è valida.</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Consenti l'esecuzione o l'installazione del software anche se la firma è non è valida.
@@ -400,32 +400,32 @@ Poiché il software privo di firma può creare vulnerabilità nella protezione, 
 **Tabella 4.5 Impostazioni consigliate Limitazione protocollo di protezione MK**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Processi di Internet Explorer (Protocollo MK)</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Processi di Internet Explorer (Protocollo MK)
@@ -445,32 +445,32 @@ Poiché il protocollo MK non è diffuso, dovrebbe essere bloccato quando non nec
 **Tabella 4.6 Impostazioni consigliate Gestione MIME coerente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Processi di Internet Explorer (Gestione MIME coerente)</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Processi di Internet Explorer (Gestione MIME coerente)
@@ -492,32 +492,32 @@ Lo spoofing del tipo di file MIME è una minaccia potenziale per l'organizzazion
 **Tabella 4.7 Impostazioni consigliate Analisi MIME**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Processi di Internet Explorer (Analisi MIME)</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Processi di Internet Explorer (Analisi MIME)
@@ -539,32 +539,32 @@ L'impostazione **Processi di Internet Explorer (Analisi MIME)** è configurata s
 **Tabella 4.8 Impostazioni consigliate Limitazioni protezione Windows tramite script**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Processi di Internet Explorer (Limitazioni protezione Windows tramite script)</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Processi di Internet Explorer (Limitazioni protezione Windows tramite script)
@@ -584,32 +584,32 @@ L'impostazione **Processi di Internet Explorer** **(Limitazioni protezione Wind
 **Tabella 4.9 Impostazioni consigliate Protezione da promozione di area**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Processi di Internet Explorer (Protezione da promozione di area)</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Processi di Internet Explorer (Protezione da promozione di area)
@@ -629,32 +629,32 @@ A causa della gravità e della relativa frequenza degli attacchi di promozione d
 **Tabella 4.10 Impostazioni Limita installazione ActiveX**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Processi di Internet Explorer (Limita installazione ActiveX)</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Processi di Internet Explorer (Limita installazione ActiveX)
@@ -676,32 +676,32 @@ Per ulteriori informazioni su Windows Update, vedere la pagina [Windows Update](
 **Tabella 4.11 Impostazioni consigliate Limita download file**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Internet Explorer Elabora (Limita download file)</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Internet Explorer Elabora (Limita download file)
@@ -721,39 +721,39 @@ L'impostazione **Processi di Internet Explorer (Limita download file)** è confi
 **Tabella 4.12 Impostazioni Gestione componenti aggiuntivi**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Rifiuta tutti i componenti aggiuntivi a meno che non siano consentiti nell'elenco dei componenti aggiuntivi</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Elenco componenti aggiuntivi</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Rifiuta tutti i componenti aggiuntivi a meno che non siano consentiti nell'elenco dei componenti aggiuntivi
@@ -793,32 +793,32 @@ Le impostazioni Servizi terminal forniscono opzioni per reindirizzare le risorse
 **Tabella 4.13 Impostazioni consigliate Non consentire il reindirizzamento delle unità**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Non consentire il reindirizzamento delle unità</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Non consentire il reindirizzamento delle unità
@@ -840,39 +840,39 @@ Per questa ragione, l'impostazione **Non consentire il reindirizzamento delle un
 **Tabella 4.14 Impostazioni consigliate Servizi terminal\\Crittografia e protezione**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Richiedi sempre password del client alla connessione</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Imposta livello di crittografia connessione client</p></td>
 <td style="border:1px solid black;"><p>Livello principale</p></td>
 <td style="border:1px solid black;"><p>Livello principale</p></td>
 <td style="border:1px solid black;"><p>Livello principale</p></td>
 <td style="border:1px solid black;"><p>Livello principale</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Richiedi sempre password del client alla connessione
@@ -898,32 +898,32 @@ Il livello di crittografia è impostato su **Livello principale** per imporre la
 **Tabella 4.15 Impostazioni consigliate Non consentire salvataggio password**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Non consentire salvataggio password</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Non consentire salvataggio password
@@ -945,32 +945,32 @@ Windows Messenger è utilizzato per inviare messaggi istantanei ad altri utenti 
 **Tabella 4.16 Impostazioni consigliate Windows Messenger**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Non consentire l'esecuzione di Windows Messenger</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Non consentire l'esecuzione di Windows Messenger
@@ -1014,67 +1014,67 @@ La seguente tabella riassume le impostazioni di Windows Update consigliate. Nell
 **Tabella 4.17 Impostazioni consigliate di Windows Update**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Non visualizzare l'opzione &quot;Installa aggiornamenti e spegni&quot; nella finestra di dialogo Fine della sessione di lavoro di Windows.</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Non impostare &quot;Installa aggiornamenti e spegni&quot; come opzione predefinita nella finestra di dialogo Fine della sessione di lavoro.</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Configura Aggiornamenti automatici</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Escludi riavvio automatico per installazioni pianificate di Aggiornamenti automatici</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nuova pianificazione installazioni pianificate Aggiornamenti automatici</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Specificare la posizione del servizio di aggiornamento Microsoft nella rete Intranet</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Non visualizzare l'opzione "Installa aggiornamenti e spegni" nella finestra di dialogo Fine della sessione di lavoro di Windows.
@@ -1150,24 +1150,24 @@ La seguente tabella riassume le impostazioni di sistema consigliate. Nelle sotto
 **Tabella 4.18 Impostazioni di sistema consigliate**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disattiva riproduzione automatica</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
@@ -1183,8 +1183,8 @@ Tutte le unità</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Disattiva riproduzione automatica
@@ -1214,39 +1214,39 @@ La seguente tabella riassume le impostazioni di accesso consigliate. Nelle sotto
 **Tabella 4.19 Impostazioni di accesso consigliate**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Non elaborare l'elenco di esecuzione precedente</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Non elaborare l'elenco di esecuzione unica</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Non elaborare l'elenco di esecuzione precedente
@@ -1280,32 +1280,32 @@ L'impostazione **Non elaborare l'elenco di esecuzione unica** è **Non configura
 **Tabella 4.20 Impostazioni dei criteri di gruppo consigliate**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Elaborazione del criterio di Registro di sistema</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Elaborazione del criterio di Registro di sistema
@@ -1331,39 +1331,39 @@ La seguente tabella riassume le impostazioni di Assistenza remota consigliate. N
 **Tabella 4.21 Impostazioni di Assistenza remota consigliate**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Offri Assistenza Remota</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Richiedi Assistenza Remota</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Offri Assistenza Remota
@@ -1433,39 +1433,39 @@ La seguente tabella riassume le impostazioni di Segnalazione errori consigliate.
 **Tabella 4.22 Impostazioni di Segnalazione errori consigliate**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Visualizza notifica errori</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Configura segnalazione errori</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Visualizza notifica errori
@@ -1513,39 +1513,39 @@ La seguente tabella riassume le impostazioni RPC consigliate. Nelle sottosezioni
 **Tabella 4.23 Impostazioni RPC consigliate**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Restrizioni per client RPC non autenticati</p></td>
 <td style="border:1px solid black;"><p>Attivato – Autenticato</p></td>
 <td style="border:1px solid black;"><p>Attivato – Autenticato</p></td>
 <td style="border:1px solid black;"><p>Attivato – Autenticato</p></td>
 <td style="border:1px solid black;"><p>Attivato – Autenticato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Autenticazione client mapping degli endpoint RPC</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Restrizioni per client RPC non autenticati
@@ -1579,74 +1579,74 @@ La seguente tabella riassume le impostazioni di comunicazione Internet consiglia
 **Tabella 4.24 Impostazioni di comunicazione Internet consigliate**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disattiva l'operazione per file e cartelle Pubblica sul Web</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Disattiva download Internet per le procedure di pubblicazione guidata sul Web e ordinazione guidata via Internet</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disattiva Analisi utilizzo software Windows Messenger</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Disattiva aggiornamenti file contenuto Ricerca guidata</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disattiva stampa su HTTP</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Disattiva download driver di stampa su HTTP</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disattiva ricerca driver periferiche in Windows Update</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Disattiva l'operazione per file e cartelle Pubblica sul Web
@@ -1735,116 +1735,116 @@ Le impostazioni in questa sezione configurano il Profilo di dominio di Windows F
 **Tabella 4.25 Impostazioni del Profilo di dominio di Windows Firewall consigliate**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Proteggi tutte le connessioni di rete</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Non consentire eccezioni</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Definisci le eccezioni programmi</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Consenti eccezioni programmi locali</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consenti eccezione per amministrazione remota</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Consenti eccezione per condivisione file e stampanti</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consenti eccezioni ICMP</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Consenti eccezione per Desktop remoto</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consenti eccezione per framework UPnP</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Proibisci notifiche</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Impedisci risposte unicast a richieste multicast o broadcast</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Definisci eccezioni porte</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consenti eccezioni porte locali</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota**: quando un'impostazione di Windows Firewall è **Raccomandata** in questa tabella, il valore specifico da utilizzare varierà per ciascuna organizzazione. Per esempio, ogni organizzazione avrà un elenco unico di applicazioni che richiederanno delle eccezioni definite per Windows Firewall. Quindi, questa guida non è in grado di definire un elenco utile.
@@ -1860,116 +1860,116 @@ Le impostazioni in questa sezione configurano il profilo standard di Windows Fir
 **Tabella 4.26 Impostazioni del Profilo standard di Windows Firewall consigliate**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-<col width="20%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Desktop EC</p></th>  
-<th><p>Computer portatile EC</p></th>  
-<th><p>Desktop SSLF</p></th>  
-<th><p>Computer portatile SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Desktop EC</p></th>
+<th><p>Computer portatile EC</p></th>
+<th><p>Desktop SSLF</p></th>
+<th><p>Computer portatile SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Proteggi tutte le connessioni di rete</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Non consentire eccezioni</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Definisci le eccezioni programmi</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
 <td style="border:1px solid black;"><p>Consigliata</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Consenti eccezioni programmi locali</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consenti eccezione per amministrazione remota</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Consenti eccezione per condivisione file e stampanti</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consenti eccezioni ICMP</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Consenti eccezione per Desktop remoto</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consenti eccezione per framework UPnP</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Proibisci notifiche</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Impedisci risposte unicast a richieste multicast o broadcast</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Definisci eccezioni porte</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
 <td style="border:1px solid black;"><p>Sconsigliato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Consenti eccezioni porte locali</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota**: quando un'impostazione di Windows Firewall è **Consigliata** in questa tabella, il valore specifico da utilizzare varierà per ciascuna organizzazione. Per esempio, ogni organizzazione avrà un elenco unico di applicazioni che richiederanno delle eccezioni definite per Windows Firewall. Quindi, questa guida non è in grado di definire un elenco utile.
@@ -2132,121 +2132,121 @@ La seguente tabella riassume le impostazioni di configurazione utente consigliat
 **Tabella 4.27 Impostazioni di Configurazione utente consigliate per Internet Explorer**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Computer EC</p></th>  
-<th><p>Computer SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Computer EC</p></th>
+<th><p>Computer SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Menu Browser\Disattiva l'opzione Salva l'applicazione su disco</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Pannello di controllo Internet\Disattiva la scheda Avanzate</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Pannello di controllo Internet\Disattiva la scheda Protezione</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Pagine non in linea\Impedisci l'aggiunta di canali</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Pagine non in linea\Non consentire l'aggiunta di pianificazioni per le pagine non in linea</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Pagine non in linea\Disattiva tutte le pagine non in linea pianificate</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Pagine non in linea\Disattiva completamente interfaccia utente canali</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Pagine non in linea\Disattiva il download dei file di dati della sottoscrizione al sito</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Pagine non in linea\Impedisci la modifica e la creazione di gruppi di pianificazioni</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Pagine non in linea\Non consentire la modifica delle pianificazioni per le pagine non in linea</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Pagine non in linea\Disattiva la registrazione del numero di accessi alle pagine non in linea</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Pagine non in linea\Impedisci la rimozione di canali</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Pagine non in linea\Non consentire la rimozione di pianificazioni per le pagine non in linea</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Configura Outlook Express</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Impedisci la modifica delle impostazioni della scheda Avanzate</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Impedisci la modifica delle impostazioni di Configurazione automatica</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Impedisci la modifica delle impostazioni dei certificati</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Impedisci la modifica delle impostazioni di connessione</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Impedisci la modifica delle impostazioni del server proxy</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Non consentire il salvataggio di password in modalità completamento automatico</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Menu Browser\\Disattiva l'opzione Salva l'applicazione su disco
@@ -2399,36 +2399,36 @@ La seguente tabella riassume le impostazioni di configurazione utente consigliat
 **Tabella 4.28 Impostazioni di Configurazione utente consigliate per Gestione allegati**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Computer EC</p></th>  
-<th><p>Computer SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Computer EC</p></th>
+<th><p>Computer SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Non conservare le informazioni di area nei file allegati</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nascondi meccanismi di rimozione informazioni sull'area</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Notifica programmi antivirus quando vengono aperti allegati</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Non conservare le informazioni di area nei file allegati
@@ -2473,31 +2473,31 @@ La seguente tabella riassume le impostazioni di configurazione utente consigliat
 **Tabella 4.29 Impostazioni di Configurazione utente consigliate per Esplora risorse**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Computer EC</p></th>  
-<th><p>Computer SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Computer EC</p></th>
+<th><p>Computer SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Rimuovi le funzionalità di creazione dei CD</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Rimuovi la scheda Protezione</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### Rimuovi le funzionalità di creazione dei CD
@@ -2535,26 +2535,26 @@ La seguente tabella riassume le impostazioni di configurazione utente consigliat
 **Tabella 4.30 Impostazioni di configurazione utente consigliate per l'Editor del Registro di sistema**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Computer EC</p></th>  
-<th><p>Computer SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Computer EC</p></th>
+<th><p>Computer SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Impedisci accesso agli strumenti di modifica del Registro di sistema</p></td>
 <td style="border:1px solid black;"><p>Non configurato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Questa impostazione di criterio disattiva gli Editor del Registro di sistema di Windows, Regedt32.exe e Regedit.exe. Se questa impostazione è attivata e un utente tenta di utilizzare un Editor del Registro di sistema, verrà visualizzato un messaggio che informa dell'impossibilità di eseguire questa operazione. Questa impostazione di criterio impedisce agli utenti e agli intrusi di accedere al Registro di sistema tramite questi strumenti, ma non impedisce l'accesso al Registro stesso.
@@ -2574,26 +2574,26 @@ La tabella seguente riassume le impostazioni **Richiedi la password al termine d
 **Tabella 4.31 Impostazioni di configurazione utente Sistema\\Gestione dell’alimentazione consigliate**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Computer EC</p></th>  
-<th><p>Computer SSLF</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Computer EC</p></th>
+<th><p>Computer SSLF</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Richiedi la password al termine dalla modalità di sospensione</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Questa impostazione consente di configurare i computer client dell'ambiente in modo che restino bloccati alla ripresa dallo stato di sospensione. Se questa impostazione viene attivata, i computer client si bloccano alla ripresa dallo stato di sospensione e gli utenti devono inserire la password per sbloccarli. Se questa impostazione di criterio è disattivata o non è configurata, potrebbero verificarsi gravi violazioni della protezione, perché chiunque potrebbe accedere ai computer client.

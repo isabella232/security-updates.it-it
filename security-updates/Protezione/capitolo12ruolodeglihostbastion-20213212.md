@@ -57,8 +57,8 @@ I ruoli di server descritti in precedenza nella presente guida utilizzavano Crit
 <td style="border:1px solid black;"><p>SSLF-Bastion Host.inf</p></td>
 <td style="border:1px solid black;"><p>SSLF-Bastion Host.inf</p></td>
 <td style="border:1px solid black;"><p>SSLF-Bastion Host.inf</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)
@@ -76,23 +76,23 @@ Il file SSLF-Bastion Host.inf include le assegnazioni dei diritti utente BHPL pe
 **Tabella 12.2 Impostazioni per l'assegnazione dei diritti utente consigliate**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Assegnazione diritti utente</p></th>  
-<th><p>Impostazione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Assegnazione diritti utente</p></th>
+<th><p>Impostazione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nega accesso al computer dalla rete</p></td>
 <td style="border:1px solid black;"><p>ACCESSO ANONIMO; Amministratore incorporato; Support_388945a0; Guest; tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Nega accesso al computer dalla rete
@@ -134,22 +134,22 @@ Inoltre, l'account Amministratore incorporato potrebbe essere stato rinominato, 
 **Tabella 12.3 Assegnazioni diritti utente aggiunte manualmente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Legacy Client</p></th>  
-<th><p>Enterprise Client</p></th>  
-<th><p>Specialized Security – Limited Functionality</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Legacy Client</p></th>
+<th><p>Enterprise Client</p></th>
+<th><p>Specialized Security – Limited Functionality</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nega accesso al computer dalla rete</p></td>
 <td style="border:1px solid black;"><p>Amministratore incorporato; Support_388945a0;</p>
@@ -209,8 +209,8 @@ Negli ultimi anni il valore della modifica di questa configurazione è diminuito
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Questo servizio aiuta Microsoft a rintracciare e a correggere eventuali errori. È possibile configurare questo servizio in modo che vengano segnalati gli errori del sistema operativo, gli errori dei componenti di Windows o gli errori dei programmi. È disponibile soltanto in Windows XP Professional e Windows Server 2003.

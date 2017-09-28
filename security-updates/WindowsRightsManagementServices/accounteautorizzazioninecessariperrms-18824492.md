@@ -29,7 +29,7 @@ Nella tabella seguente, vengono specificati le autorizzazioni e i diritti utente
 <tr class="odd">
 <td style="border:1px solid black;"><p>Installazione di RMS</p></td>
 <td style="border:1px solid black;"><p>Accedere utilizzando un account di dominio appartenente al gruppo Administrators locale.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Provisioning di RMS</p></td>
 <td style="border:1px solid black;"><p>Accedere utilizzando un account di dominio appartenente al gruppo Administrators locale. È inoltre necessario che l'account utilizzato abbia effettuato un accesso SQL con il ruolo di amministratore del sistema concesso sul database SQL Server, in modo da consentire a RMS di configurare i database.</p>
@@ -39,8 +39,8 @@ Nella tabella seguente, vengono specificati le autorizzazioni e i diritti utente
 <tr class="odd">
 <td style="border:1px solid black;"><p>Amministrazione di RMS</p></td>
 <td style="border:1px solid black;"><p>Accedere utilizzando un account di dominio appartenente al gruppo Administrators locale. È possibile personalizzare le impostazioni di protezione per gestire l'accesso alle pagine Web di amministrazione.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720178.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                   |  

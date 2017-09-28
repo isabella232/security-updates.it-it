@@ -62,28 +62,28 @@ Nella tabella seguente viene mostrato un riepilogo ragionevole dei costi associa
 <tr class="odd">
 <td style="border:1px solid black;"><p>Costo del personale relativo alla perdita, incluso il recupero dei dati e i costi di notifica ai clienti.</p></td>
 <td style="border:1px solid black;"><p>$45.000</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Costi aggiuntivi, per le relazioni per il pubblico e gli azionisti e per le chiamate al call center.</p></td>
 <td style="border:1px solid black;"><p>$135.000</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Costi per i clienti interessati (monitoraggio del credito per i clienti interessati).</p></td>
 <td style="border:1px solid black;"><p>$80.000</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Danni legali, incluse le ammende, le spese legali e i costi relativi a una causa civile.</p></td>
 <td style="border:1px solid black;"><p>$165.000</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Mancato introito a causa dei clienti perduti (250 clienti perduti a $700 a cliente)</p></td>
 <td style="border:1px solid black;"><p>$175.000</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Totale</p></td>
 <td style="border:1px solid black;"><p>$600.000</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Sfortunatamente, i portatili sono bersagli facili per i ladri. Accadono sempre con crescente regolarità nuove vicende riguardanti aziende che hanno perso accidentalmente o che hanno subito il furto dei loro portatili con informazioni riservate personali o relative ai clienti. Sebbene la storia precedente sia fittizia, un numero sempre maggiore di organizzazioni sta apprendendo che i costi di una divulgazione di tali informazioni sono enormi, talvolta anche superiori a quelli a cui si fa riferimento in questa storia.

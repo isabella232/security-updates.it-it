@@ -95,43 +95,43 @@ Tutta la Guida, ma in particolare gli ultimi moduli, si rivolge ai professionist
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Grassetto</strong></p></td>
 <td style="border:1px solid black;"><p>Caratteri digitati esattamente come indicato, inclusi comandi e opzioni. Vengono riportati in grassetto anche gli elementi di interfaccia utente nel testo delle istruzioni.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Corsivo</em></p></td>
 <td style="border:1px solid black;"><p>Segnaposto per variabili nei punti in cui è necessario inserire valori specifici. Ad esempio, <em>Nomefile.ext</em> indica che è necessario sostituire il testo in corsivo <em>nomefile.ext</em> con il nome del file di propria scelta.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Testo su schermo</p></td>
 <td style="border:1px solid black;"><p>Indica il testo visualizzato sullo schermo.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p></p>
-<pre><code>Spaziatura fissa</code></pre>  
+<pre><code>Spaziatura fissa</code></pre>
 <br />
 </td>
 <td style="border:1px solid black;"><p>Esempi di codice.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>%SystemRoot%</p></td>
 <td style="border:1px solid black;"><p>Cartella di installazione del sistema operativo Microsoft Windows 2000.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
 <td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
 <td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari essenziali per il completamento dell'operazione.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Avviso</strong></p></td>
 <td style="border:1px solid black;"><p>Avvisa il lettore che l'inosservanza di un'azione specifica potrebbe provocare una perdita di dati.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Attenzione</strong></p></td>
 <td style="border:1px solid black;"><p>Avvisa il lettore che l'inosservanza di un'azione specifica potrebbe provocare lesioni fisiche all'utente o danni all'hardware.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

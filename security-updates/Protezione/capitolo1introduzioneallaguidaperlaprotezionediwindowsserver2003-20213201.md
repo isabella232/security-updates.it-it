@@ -247,28 +247,28 @@ In questa guida vengono utilizzate le convenzioni di stile e la terminologia rip
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Grassetto</strong></p></td>
 <td style="border:1px solid black;"><p>Caratteri digitati esattamente come indicato, inclusi comandi, switch e nomi di file. Gli elementi dell'interfaccia utente sono riportati anche in grassetto.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Corsivo</em></p></td>
 <td style="border:1px solid black;"><p>I titoli di libri e di altre pubblicazioni importanti appaiono in corsivo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>&lt;Italic&gt;</em></p></td>
 <td style="border:1px solid black;"><p>Segnaposto in corsivo e parentesi ad angolo <em>&lt;file name&gt;</em> indicano le variabili.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Spaziatura fissa</p></td>
 <td style="border:1px solid black;"><p>Definisce i campioni di codici e script.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
 <td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
 <td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari importanti.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

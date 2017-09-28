@@ -573,7 +573,7 @@ Nella tabella seguente viene riportato un esempio di GPO utilizzato per implemen
 <tr class="odd">
 <td style="border:1px solid black;"><p><em>&lt;Nome criterio implementazione NAG&gt;</em></p></td>
 <td style="border:1px solid black;"><p><em>&lt;Nome NAG&gt;</em></p>
-<p>Amministratori</p>  
+<p>Amministratori</p>
 <p>Operatori backup</p>
 <p><em>Utenti NAG</em> o Utenti dominio</p></td>
 </tr>

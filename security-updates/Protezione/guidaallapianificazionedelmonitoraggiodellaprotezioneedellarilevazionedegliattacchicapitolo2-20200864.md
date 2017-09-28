@@ -66,40 +66,40 @@ Nella seguente tabella sono elencate le categorie degli eventi di protezione ins
 <tr class="odd">
 <td style="border:1px solid black;"><p>Eventi di accesso account</p></td>
 <td style="border:1px solid black;"><p>Vengono controllati i tentativi di accesso di un account locale su un computer. Se l'account utente è un account di dominio, questo evento viene riportato anche sul controller di dominio.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gestione account</p></td>
 <td style="border:1px solid black;"><p>Vengono controllate la creazione, la modifica e l'eliminazione degli account utente e di gruppo, insieme alle operazioni di modifica e di reimpostazione delle password.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Accesso al servizio directory</p></td>
 <td style="border:1px solid black;"><p>Viene controllato l'accesso agli oggetti nel servizio directory Active Directory®.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Eventi di accesso</p></td>
 <td style="border:1px solid black;"><p>Vengono controllati i tentativi di accesso alle workstation e ai server membri.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Accesso agli oggetti</p></td>
 <td style="border:1px solid black;"><p>Vengono controllati i tentativi di accesso a un oggetto, ad esempio un file, una cartella, una chiave del Registro di sistema o una stampante, per il quale sono state definite impostazioni di controllo all'interno del relativo elenco di controllo di accesso di sistema (SACL).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Modifica dei criteri</p></td>
 <td style="border:1px solid black;"><p>Vengono controllate le modifiche apportate ai criteri di assegnazione dei diritti utente, ai criteri di controllo, ai criteri di account o ai criteri di attendibilità.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Uso dei privilegi</p></td>
 <td style="border:1px solid black;"><p>Vengono controllate tutte le istanze in cui un utente esercita un diritto utente, ad esempio per la modifica dell'ora di sistema.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tracciato processo</p></td>
 <td style="border:1px solid black;"><p>Viene controllato il comportamento di un'applicazione, ad esempio l'avvio o la chiusura di un programma.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Eventi di sistema</p></td>
 <td style="border:1px solid black;"><p>Vengono controllati gli eventi di sistema relativi al computer, ad esempio l'avvio e la chiusura, nonché gli eventi che influiscono sulla protezione del sistema o sul registro di protezione.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Le impostazioni Criteri di controllo in Criteri di gruppo consentono di controllare quali eventi creano voci nei registri di protezione. Il percorso di queste impostazioni è Configurazione computer\\Impostazioni di Windows\\Impostazioni protezione\\Criteri locali. Le impostazioni Criteri di controllo possono essere configurate tramite la console Impostazioni protezione locale oppure a livello di sito, dominio e unità organizzativa tramite Criteri di gruppo e Active Directory.

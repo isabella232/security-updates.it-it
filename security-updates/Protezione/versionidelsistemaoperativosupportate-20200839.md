@@ -72,7 +72,7 @@ La seguente tabella mostra lo stato delle diverse versioni client e server del s
 <td style="border:1px solid black;"><p>Altre piattaforme</p></td>
 <td style="border:1px solid black;"><p>Sconosciuto. Possibile supporto da parte di altre società.</p></td>
 <td style="border:1px solid black;"><p>I client devono supportare 802.1X e PEAP-MS-CHAP v2.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Autorità di certificazione</p></td>
 <td style="border:1px solid black;"><p>Windows Server™ 2003, Standard Edition</p></td>
@@ -86,41 +86,41 @@ La seguente tabella mostra lo stato delle diverse versioni client e server del s
 <td style="border:1px solid black;"><p>Windows Server 2003, Enterprise Edition</p></td>
 <td style="border:1px solid black;"><p>Supportato</p></td>
 <td style="border:1px solid black;"><p>L'edizione Enterprise è un soprainsieme dell'edizione Standard.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Supportato</p></td>
 <td style="border:1px solid black;"><p>Le funzionalità dell'Autorità di certificazione di Windows 2000 Server sono molto simili a quelle di Windows Server 2003, Standard Edition.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><p>CA di società diverse da Microsoft</p></td>
 <td style="border:1px solid black;"><p>Sconosciuto</p></td>
 <td style="border:1px solid black;"><p>La CA deve poter generare certificati per server per il Servizio autenticazione Internet (IAS). È necessario gestire manualmente la registrazione e il rinnovo.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Server RADIUS</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003, Standard Edition</p></td>
 <td style="border:1px solid black;"><p>Soluzione testata</p></td>
 <td style="border:1px solid black;"><p>L'edizione Standard supporta non più di 50 punti di accesso.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><p>Windows Server 2003, Enterprise Edition</p></td>
 <td style="border:1px solid black;"><p>Supportato</p></td>
 <td style="border:1px solid black;"><p>L'edizione Enterprise è un soprainsieme dell'edizione Standard, quindi in entrambe le edizioni sono disponibili tutte le funzionalità necessarie per la soluzione.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Supportato</p></td>
 <td style="border:1px solid black;"><p>Il Servizio autenticazione Internet di Windows 2000 (IAS) può essere utilizzato per 802.1X senza fili con PEAP. Richiede l'installazione del client 802.1X di Windows 2000 nel server IAS. Nessuna procedura guidata per la configurazione del criterio di accesso remoto senza fili.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
@@ -134,14 +134,14 @@ La seguente tabella mostra lo stato delle diverse versioni client e server del s
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
 <td style="border:1px solid black;"><p>Soluzione testata</p></td>
 <td style="border:1px solid black;"><p>Per i gruppi universali il dominio Active Directory® deve essere in modalità nativa o superiore.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Supportato</p></td>
 <td style="border:1px solid black;"><p>Per i gruppi universali il dominio Active Directory deve essere in modalità nativa o superiore.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Server infrastruttura, DNS (Domain Name System) e DHCP (Dynamic Host Configuration Protocol)</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
@@ -163,8 +163,8 @@ La seguente tabella mostra lo stato delle diverse versioni client e server del s
 <td style="border:1px solid black;"><p>Altre piattaforme</p></td>
 <td style="border:1px solid black;"><p>Sconosciuto</p></td>
 <td style="border:1px solid black;"><p>DHCP, DNS e le soluzioni di gestione fornite da società diverse da Microsoft dovrebbero funzionare con questa soluzione, purché siano soddisfatti i requisiti di base per i client Microsoft e Active Directory.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La colonna Stato supporto può contenere una delle seguenti voci:

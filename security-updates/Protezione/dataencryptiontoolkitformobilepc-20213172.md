@@ -140,43 +140,43 @@ Il modello di GPO di Active Directory consente di controllare diverse impostazi
 <td style="border:1px solid black;"><p>Abilitazione EFS</p></td>
 <td style="border:1px solid black;"><p>Windows XP,Windows Vista</p></td>
 <td style="border:1px solid black;"><p>Consentito</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Crittografia documenti</p></td>
 <td style="border:1px solid black;"><p>Windows Vista</p></td>
 <td style="border:1px solid black;"><p>Disattivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Richiedi smart card</p></td>
 <td style="border:1px solid black;"><p>Windows Vista</p></td>
 <td style="border:1px solid black;"><p>Disattivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Crea da smart card una chiave utente in grado di memorizzare nella cache</p></td>
 <td style="border:1px solid black;"><p>Windows Vista</p></td>
 <td style="border:1px solid black;"><p>Disattivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Abilita crittografia del file di paging</p></td>
 <td style="border:1px solid black;"><p>Windows Vista</p></td>
 <td style="border:1px solid black;"><p>Disattivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Registrazione automatica dei certificati</p></td>
 <td style="border:1px solid black;"><p>Windows XP,Windows Vista</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Dimensioni della chiave per i certificati autofirmati</p></td>
 <td style="border:1px solid black;"><p>Windows Vista</p></td>
 <td style="border:1px solid black;"><p>2048 bit</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Modello EFS per le richieste automatiche di certificati</p></td>
 <td style="border:1px solid black;"><p>Windows Vista</p></td>
 <td style="border:1px solid black;"><p>Nessuno</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Attivazione e disattivazione di EFS**

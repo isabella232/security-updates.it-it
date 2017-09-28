@@ -39,28 +39,28 @@ Nella tabella seguente vengono elencate le entità che è possibile specificare 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Gruppo di licenze o certificati</p></td>
 <td style="border:1px solid black;"><p>ID o chiave pubblica dell'autorità emittente</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gruppo di manifesti di applicazione</p></td>
 <td style="border:1px solid black;"><p>ID o chiave pubblica dell'autorità emittente</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Licenza o certificato specifico</p></td>
 <td style="border:1px solid black;"><p>ID o hash della licenza</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Manifesto di applicazione specifico</p></td>
 <td style="border:1px solid black;"><p>ID o hash della licenza</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Entità specifica</p></td>
 <td style="border:1px solid black;"><p>ID o chiave pubblica dell'entità</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Contenuto specifico</p></td>
 <td style="border:1px solid black;"><p>ID del contenuto</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc720287.note(WS.10).gif)Nota                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |  
@@ -72,33 +72,33 @@ Gli elenchi di revoche sono file XrML che specificano i parametri indicati nella
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Parametro</th>  
-<th>Descrizione</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Parametro</th>
+<th>Descrizione</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ISSUEDTIME</p></td>
 <td style="border:1px solid black;"><p>L'ora di sistema a cui il file XrML è stato creato. Viene impiegata dalla condizione REFRESH presente nella licenza d'uso al fine di stabilire l'età dell'elenco di revoche.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ISSUER</p></td>
 <td style="border:1px solid black;"><p>Il nome, l'ID e l'indirizzo dell'autorità emittente dell'elenco di revoche.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>PUBLICKEY</p></td>
 <td style="border:1px solid black;"><p>La chiave pubblica dell'autorità emittente dell'elenco di revoche.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>REVOCATIONLIST</p></td>
 <td style="border:1px solid black;"><p>Il nome, il tipo e l'ID di tutte le entità revocate.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

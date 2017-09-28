@@ -44,20 +44,20 @@ Di seguito vengono descritti tutti i file contenuti nella sezione **Piattaforma 
 <tr class="odd">
 <td style="border:1px solid black;"><p>ADBaseline.vbs</p></td>
 <td style="border:1px solid black;"><p>Uno script Microsoft® Visual Basic® che crea diverse unità organizzative, gruppi e utenti di Contoso Pharmaceuticals in un insieme di strutture per il servizio directory Microsoft Active Directory®, come richiesto dai documenti successivi in questa serie.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ExchangeBaseline.vbs</p></td>
 <td style="border:1px solid black;"><p>Uno script Microsoft Visual Basic che crea i necessari archivi delle cassette postali e gruppi di archiviazione Exchange di Contoso per supportare gli utenti Contoso nell'Intranet.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>IntranetADData.txt</p></td>
 <td style="border:1px solid black;"><p>Un file contenente le unità organizzative, i gruppi e gli utenti Active Directory di base nell'Intranet in formato delimitato dal punto e virgola. Gli scripti ADBaseline.vbs ed ExchangeBaselin.vbs utilizzano questo file.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ExtranetADData.txt</p></td>
 <td style="border:1px solid black;"><p>Un file contenente le unità organizzative, i gruppi e gli utenti Active Directory di base nell'Extranet in formato delimitato dal punto e virgola. Lo script ADBaseline.vbs utilizza questo file.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

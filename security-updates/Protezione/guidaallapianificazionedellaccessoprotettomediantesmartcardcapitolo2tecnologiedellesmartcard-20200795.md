@@ -257,98 +257,98 @@ Windows XP e la famiglia di Windows Server 2003 supportano i lettori di smart 
 <td style="border:1px solid black;"><p>American Express</p></td>
 <td style="border:1px solid black;"><p>GCR435</p></td>
 <td style="border:1px solid black;"><p>USB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Bull</p></td>
 <td style="border:1px solid black;"><p>SmarTLP3</p></td>
 <td style="border:1px solid black;"><p>Seriale</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Compaq</p></td>
 <td style="border:1px solid black;"><p>Serial reader</p></td>
 <td style="border:1px solid black;"><p>Seriale</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gemplus</p></td>
 <td style="border:1px solid black;"><p>GCR410P</p></td>
 <td style="border:1px solid black;"><p>Seriale</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Gemplus</p></td>
 <td style="border:1px solid black;"><p>GPR400</p></td>
 <td style="border:1px solid black;"><p>PCMCIA</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gemplus</p></td>
 <td style="border:1px solid black;"><p>GemPC430</p></td>
 <td style="border:1px solid black;"><p>USB</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Hewlett-Packard</p></td>
 <td style="border:1px solid black;"><p>ProtectTools</p></td>
 <td style="border:1px solid black;"><p>Seriale</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Litronic</p></td>
 <td style="border:1px solid black;"><p>220P</p></td>
 <td style="border:1px solid black;"><p>Seriale</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Schlumberger</p></td>
 <td style="border:1px solid black;"><p>Reflex 20</p></td>
 <td style="border:1px solid black;"><p>PCMCIA</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Schlumberger</p></td>
 <td style="border:1px solid black;"><p>Reflex 72</p></td>
 <td style="border:1px solid black;"><p>Seriale</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Schlumberger</p></td>
 <td style="border:1px solid black;"><p>Reflex Lite</p></td>
 <td style="border:1px solid black;"><p>Seriale</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
 <td style="border:1px solid black;"><p>SCR111</p></td>
 <td style="border:1px solid black;"><p>Seriale</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
 <td style="border:1px solid black;"><p>SCR200</p></td>
 <td style="border:1px solid black;"><p>Seriale</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
 <td style="border:1px solid black;"><p>SCR120</p></td>
 <td style="border:1px solid black;"><p>PCMCIA</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
 <td style="border:1px solid black;"><p>SCR300</p></td>
 <td style="border:1px solid black;"><p>USB</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Systemneeds</p></td>
 <td style="border:1px solid black;"><p>Esterno</p></td>
 <td style="border:1px solid black;"><p>Seriale</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Omnikey AG</p></td>
 <td style="border:1px solid black;"><p>2010</p></td>
 <td style="border:1px solid black;"><p>Seriale</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Omnikey AG</p></td>
 <td style="border:1px solid black;"><p>2020</p></td>
 <td style="border:1px solid black;"><p>USB</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Omnikey AG</p></td>
 <td style="border:1px solid black;"><p>4000</p></td>
 <td style="border:1px solid black;"><p>PCMCIA</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** i lettori di smart card che utilizzano l'interfaccia seriale richiedono il riavvio del computer dopo l'installazione. Questo requisito può risultare inaccettabile per la loro implementazione su server.

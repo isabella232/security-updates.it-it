@@ -34,16 +34,16 @@ Vi sono tre eventi inviati da RMS nel Registro eventi di sistema che è consigli
 <td style="border:1px solid black;"><p>16</p></td>
 <td style="border:1px solid black;"><p>LicensorCertExpiresInOneMonthEvent</p></td>
 <td style="border:1px solid black;"><p>Avvertenza. Il servizio continua a funzionare regolarmente.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>17</p></td>
 <td style="border:1px solid black;"><p>LicensorCertExpiresInOneWeekEvent</p></td>
 <td style="border:1px solid black;"><p>Avvertenza. Il servizio continua a funzionare regolarmente.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>18</p></td>
 <td style="border:1px solid black;"><p>LicensorCertExpiredEvent</p></td>
 <td style="border:1px solid black;"><p>Errore. Il servizio è stato disattivato.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

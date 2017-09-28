@@ -31,57 +31,57 @@ La tabella che segue elenca i tipi di server che fanno parte di una distribuzion
 <tr class="odd">
 <td style="border:1px solid black;"><p>Di certificazione principale</p></td>
 <td style="border:1px solid black;"><p>Esegue i seguenti servizi RMS:</p>
-<ul>  
-<li><strong>Registrazione secondaria</strong>. Esegue la registrazione secondaria dei server licenze.<br />  
-<br />  
-</li>  
-<li><strong>Proxy di attivazione</strong>. Agisce da proxy Internet per le richieste dei client relative a archivi protetti e certificati computer RMS.<br />  
-<br />  
-</li>  
-<li><strong>Certificazione</strong>. Emette i certificati per account con diritti.<br />  
-<br />  
-</li>  
-<li><strong>Pubblicazione</strong>. Rilascia licenze di pubblicazione.<br />  
-<br />  
-</li>  
-<li><strong>Gestione delle licenze</strong>. Rilascia licenze d'uso.<br />  
-<br />  
-</li>  
+<ul>
+<li><strong>Registrazione secondaria</strong>. Esegue la registrazione secondaria dei server licenze.<br />
+<br />
+</li>
+<li><strong>Proxy di attivazione</strong>. Agisce da proxy Internet per le richieste dei client relative a archivi protetti e certificati computer RMS.<br />
+<br />
+</li>
+<li><strong>Certificazione</strong>. Emette i certificati per account con diritti.<br />
+<br />
+</li>
+<li><strong>Pubblicazione</strong>. Rilascia licenze di pubblicazione.<br />
+<br />
+</li>
+<li><strong>Gestione delle licenze</strong>. Rilascia licenze d'uso.<br />
+<br />
+</li>
 </ul>
 <p>Ogni distribuzione deve includere almeno un server o un cluster di certificazione principale. In ogni insieme di strutture di Active Directory deve essere presente un solo cluster di certificazione principale.</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Licenze (facoltativo)</p></td>
 <td style="border:1px solid black;"><p>Esegue i seguenti servizi RMS:</p>
-<ul>  
-<li><strong>Pubblicazione</strong>. Rilascia licenze di pubblicazione.<br />  
-<br />  
-</li>  
-<li><strong>Gestione delle licenze</strong>. Rilascia licenze d'uso.<br />  
-<br />  
-</li>  
+<ul>
+<li><strong>Pubblicazione</strong>. Rilascia licenze di pubblicazione.<br />
+<br />
+</li>
+<li><strong>Gestione delle licenze</strong>. Rilascia licenze d'uso.<br />
+<br />
+</li>
 </ul>
 <p>I server licenze spesso vengono distribuiti allo scopo di supportare singoli reparti oppure delegare richieste di licenza dal cluster di certificazione principale. I server licenze sono facoltativi.</p></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Server database, ad esempio SQL Server</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Esegue la configurazione, la registrazione delle attività e i database dei servizi di directory di RMS.<br />  
-<br />  
-</li>  
-<li>Memorizza i certificati per account con diritti nel database di configurazione del cluster di certificazione principale.<br />  
-<br />  
+<li>Esegue la configurazione, la registrazione delle attività e i database dei servizi di directory di RMS.<br />
+<br />
+</li>
+<li>Memorizza i certificati per account con diritti nel database di configurazione del cluster di certificazione principale.<br />
+<br />
 </li>
 </ul></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Controller di dominio e catalogo globale</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Esegue l'autenticazione degli utenti e servizi di directory.<br />  
-<br />  
-</li>  
-<li>Memorizza la posizione di rilevamento dei servizi del cluster di certificazione principale.<br />  
-<br />  
+<li>Esegue l'autenticazione degli utenti e servizi di directory.<br />
+<br />
+</li>
+<li>Memorizza la posizione di rilevamento dei servizi del cluster di certificazione principale.<br />
+<br />
 </li>
 </ul></td>
 </tr>

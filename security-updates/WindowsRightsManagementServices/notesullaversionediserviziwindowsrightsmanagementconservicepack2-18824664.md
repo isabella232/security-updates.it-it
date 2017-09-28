@@ -38,16 +38,16 @@ Nella tabella riportata di seguito sono elencati i requisiti hardware per l'esec
 <tr class="odd">
 <td style="border:1px solid black;"><p>Computer con processore Pentium III (800 MHz o superiore)</p></td>
 <td style="border:1px solid black;"><p>Computer con due processori Pentium 4 (1500 MHz o superiori)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>256 MB di RAM</p></td>
 <td style="border:1px solid black;"><p>512 MB di RAM</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>20 GB di spazio libero su disco rigido</p></td>
 <td style="border:1px solid black;"><p>40 GB di spazio libero su disco rigido</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc747637.note(WS.10).gif)Nota                                                                           |  
@@ -59,41 +59,41 @@ Nella tabella che segue sono elencati i requisiti software per i server che eseg
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Componente</th>  
-<th>Requisito</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Componente</th>
+<th>Requisito</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sistema operativo</p></td>
 <td style="border:1px solid black;"><p>Microsoft Windows Server® 2003, ad eccezione di Web Edition, per RMS con SP2.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Rights Management Services con SP2</p></td>
 <td style="border:1px solid black;"><p>Per aggiornare a RMS con SP2, deve essere già installato RMS con Service Pack 1 (SP1). Questo requisito non si applica al client RMS con SP2.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>File system</p></td>
 <td style="border:1px solid black;"><p>È consigliabile utilizzare il file system NTFS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Componenti richiesti</p></td>
 <td style="border:1px solid black;"><ul>
-<li>Accodamento messaggi (detto anche MSMQ) con integrazione del servizio directory Active Directory® abilitata.<br />  
-<br />  
-</li>  
-<li>Internet Information Services (IIS) con ASP.NET abilitato.<br />  
-<br />  
-</li>  
-<li>Microsoft .NET Framework 1.1<br />  
-<br />  
+<li>Accodamento messaggi (detto anche MSMQ) con integrazione del servizio directory Active Directory® abilitata.<br />
+<br />
+</li>
+<li>Internet Information Services (IIS) con ASP.NET abilitato.<br />
+<br />
+</li>
+<li>Microsoft .NET Framework 1.1<br />
+<br />
 </li>
 </ul></td>
 </tr>
@@ -125,12 +125,12 @@ Nella tabella che segue sono elencati i requisiti di infrastruttura per i server
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servizi directory</p></td>
 <td style="border:1px solid black;"><p>Active Directory su controller di dominio che eseguono Windows Server 2000 con Service Pack 3 (SP3) o successivo, nello stesso dominio in cui è installato RMS. Tutti gli utenti e i gruppi che utilizzano RMS per acquisire licenze e pubblicare contenuti devono disporre di un indirizzo di posta elettronica configurato in Active Directory.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Server database</p></td>
 <td style="border:1px solid black;"><p>Il funzionamento di RMS con SP2 richiede database e stored procedure. È possibile utilizzare Microsoft SQL Server™ 2000 con SP3a o versione successiva o Microsoft SQL Server 2005. Per il testing o altre distribuzioni in un unico computer, è possibile utilizzare Microsoft SQL Server Desktop Engine (MSDE 2000) versione A o Microsoft SQL Server 2005 Express Edition.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Benché sia progettato e testato per server database con Microsoft SQL Server 2000 e Microsoft SQL Server 2005, RMS può essere eseguito su altri server database, purché questi siano conformi ai seguenti criteri:
@@ -149,43 +149,43 @@ Nella tabella riportata di seguito sono elencati i diritti e le autorizzazioni u
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Attività</th>  
-<th>Requisiti di account</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Attività</th>
+<th>Requisiti di account</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Installazione di RMS</p></td>
 <td style="border:1px solid black;"><p>Utente del dominio con credenziali di amministratore del computer locale</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Provisioning di un cluster principale di RMS</p></td>
 <td style="border:1px solid black;"><p>Utente del dominio con credenziali di amministratore del computer locale e ricerca e scrittura in Active Directory</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Provisioning di un cluster licenze RMS</p></td>
 <td style="border:1px solid black;"><p>Utente del dominio con credenziali di amministratore del computer locale e ricerca in Active Directory</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Provisioning quando si utilizza un nuovo database di configurazione</p></td>
 <td style="border:1px solid black;"><p>Utente del dominio con credenziali di amministratore del computer locale e lettura, scrittura e creazione sul computer che esegue SQL Server</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Provisioning quando si utilizza un database di configurazione già esistente</p></td>
 <td style="border:1px solid black;"><p>Utente del dominio con credenziali di amministratore del computer locale e lettura e scrittura sul computer che esegue il server database</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Amministrazione di RMS</p></td>
 <td style="border:1px solid black;"><p>Utente del dominio con credenziali di amministratore del computer locale</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc747637.note(WS.10).gif)Nota                                                                                                                                                                                                         |  
@@ -197,31 +197,31 @@ Se si utilizza RMS in una distribuzione su cluster, accertarsi di avere risolto 
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Condizione</th>  
-<th>Consiglio</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Condizione</th>
+<th>Consiglio</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>RMS verrà utilizzato su un grande numero di desktop</p></td>
 <td style="border:1px solid black;"><p>Utilizzare Systems Management Server (SMS) o Criteri di gruppo per installare il client RMS con SP2.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Numero di richieste client elevato</p></td>
 <td style="border:1px solid black;"><p>Utilizzare un server con bilanciamento del carico, il servizio Bilanciamento carico di rete del sistema operativo Windows Server o un bilanciamento del carico hardware per distribuire le richieste nel cluster.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Due adattatori di rete utilizzano l'indirizzamento IP virtuale per soddisfare le richieste Extranet e Intranet</p></td>
 <td style="border:1px solid black;"><p>Accertarsi che ogni eventuale DNS (Domain Name System) che espone l'indirizzo IP virtuale all'Extranet lo esponga anche all'Intranet.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 | ![](images/Cc747637.Important(WS.10).gif)Importante                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |  
@@ -246,7 +246,7 @@ RMS con SP2 offre diverse nuove funzionalità:
 -   [Maggiori dimensioni dei batch sui server](#bkmk_cif3)  
 -   [Compatibilità con Microsoft SQL Server 2005](#bkmk_cif4)
   
-<span id="BKMK_CIF1"></span>  
+<span id="BKMK_CIF1"></span>
 #### Miglioramenti all'espansione dei gruppi su più insiemi di strutture
   
 #### Descrizione della funzione
@@ -279,7 +279,7 @@ La nuova pipeline di espansione dei gruppi di RMS è configurata per impostazion
   
 In RMS con SP2 sono stati aggiunti nuovi eventi per informare l'utente quando si verificano problemi con messaggi che non raggiungono il servizio Accodamento messaggi. I nuovi registri eventi contengono eventi che avvisano l'utente ogni volta che un messaggio non può essere firmato digitalmente o non può essere convalidato. Alcuni esempi di problemi di convalida sono messaggi con formato non valido o con hash o firme mancanti o non corrette.
   
-<span id="BKMK_CIF2"></span>  
+<span id="BKMK_CIF2"></span>
 #### Modifiche alla registrazione del database
   
 #### Descrizione della funzione
@@ -302,7 +302,7 @@ In RMS con SP2 viene fornita ulteriore autenticazione sui messaggi trasmessi dal
   
 In RMS con SP2 sono stati aggiunti nuovi eventi per informare l'utente quando si verificano problemi con messaggi che non raggiungono la coda del servizio Accodamento messaggi. I nuovi eventi vengono scritti nel registro applicazioni e comprendono messaggi che non possono essere firmati digitalmente o le cui firme digitali non possono essere convalidate. Alcuni esempi di problemi di convalida sono messaggi con formato non valido o con hash o firme mancanti o non corrette.
   
-<span id="BKMK_CIF3"></span>  
+<span id="BKMK_CIF3"></span>
 #### Maggiori dimensioni dei batch sui server
   
 #### Descrizione della funzione
@@ -327,7 +327,7 @@ Nelle versioni di RMS precedenti a RMS con SP2, la dimensione massima dei batch 
   
 La segnalazione degli errori è stata migliorata in RMS con SP2 per tenere conto delle richieste in batch. Se, ad esempio, si invia un batch di dieci richieste e la seconda e terza richiesta hanno esito negativo, verrà registrato un evento per ogni errore.
   
-<span id="BKMK_CIF4"></span>  
+<span id="BKMK_CIF4"></span>
 #### Compatibilità con Microsoft SQL Server 2005
   
 #### Descrizione della funzione

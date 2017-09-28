@@ -205,12 +205,12 @@ Ogni gruppo di isolamento richiederà la creazione di un gruppo di computer che 
 <tr class="odd">
 <td style="border:1px solid black;"><p>CG_IsolationDomain_Computers</p></td>
 <td style="border:1px solid black;"><p>Questo gruppo universale conterrà tutti i computer che fanno parte del dominio di isolamento.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CG_BoundaryIG_Computers</p></td>
 <td style="border:1px solid black;"><p>Questo gruppo conterrà tutti i computer che sono autorizzati ad accettare comunicazioni da sistemi non attendibili.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Gruppi di accesso alla rete
@@ -238,23 +238,23 @@ In questa fase del processo di progettazione, non è necessario determinare l'ap
 **Tabella 4.2: Gruppi di accesso alla rete della Woodgrove Bank**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nome NAG</p></th>  
-<th><p>Descrizione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nome NAG</p></th>
+<th><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DNAG_IsolationDomain_Computers</p></td>
 <td style="border:1px solid black;"><p>Questo gruppo include qualsiasi account computer di dominio a cui è negato stabilire connessioni in ingresso protette da IPSec a tutti gli host attendibili del dominio di isolamento.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Creazione di gruppi di isolamento aggiuntivi
@@ -300,27 +300,27 @@ Dato che la Woodgrove Bank ha individuato altri due gruppi che richiedono criter
 **Tabella 4.3: Gruppi di computer aggiuntivi della Woodgrove Bank**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nome gruppo di computer</p></th>  
-<th><p>Descrizione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nome gruppo di computer</p></th>
+<th><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CG_NoFallbackIG_Computers</p></td>
 <td style="border:1px solid black;"><p>Questo gruppo contiene tutti i computer a cui non è consentito il ritorno alla modalità non crittografata.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CG_EncryptionIG_Computers</p></td>
 <td style="border:1px solid black;"><p>Questo gruppo contiene tutti i computer che devono utilizzare comunicazioni crittografate.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La Woodgrove ha stabilito quindi che erano necessari alcuni NAG per autorizzare l'accesso in ingresso al sottoinsieme di host attendibili. I progettisti della Woodgrove Bank hanno creato i seguenti NAG:
@@ -328,31 +328,31 @@ La Woodgrove ha stabilito quindi che erano necessari alcuni NAG per autorizzare 
 **Tabella 4.4: Gruppi di accesso alla rete della Woodgrove Bank**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nome NAG</p></th>  
-<th><p>Descrizione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nome NAG</p></th>
+<th><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ANAG_EncryptedResourceAccess_Users</p></td>
 <td style="border:1px solid black;"><p>Questo gruppo è per tutti gli utenti che sono autorizzati ad accedere ai server del gruppo di isolamento Crittografia.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ANAG_EncryptedResourceAccess_Computers</p></td>
 <td style="border:1px solid black;"><p>Questo gruppo contiene tutti i computer a cui è consentito l'accesso di rete in ingresso ai server del gruppo di isolamento Crittografia.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DNAG_EncryptionIG_Computers</p></td>
 <td style="border:1px solid black;"><p>Questo gruppo include i gruppi di account computer a cui viene negato l'accesso agli host del gruppo di isolamento Crittografia.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Raccolta dei requisiti del traffico di rete
@@ -369,28 +369,28 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
   
 **Tabella 4.5: Opzioni di comunicazione consentite per i gruppi di isolamento di base**
   
-<table style="width:100%;">  
-<colgroup>  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Percorso</p></th>  
-<th><p>Da</p></th>  
-<th><p>Per</p></th>  
-<th><p>Bidirezionale</p></th>  
-<th><p>Prova IKE/IPSec</p></th>  
-<th><p>Fallback</p></th>  
-<th><p>Crittografa</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="width:100%;">
+<colgroup>
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Percorso</p></th>
+<th><p>Da</p></th>
+<th><p>Per</p></th>
+<th><p>Bidirezionale</p></th>
+<th><p>Prova IKE/IPSec</p></th>
+<th><p>Fallback</p></th>
+<th><p>Crittografa</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p>ID</p></td>
@@ -399,7 +399,7 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>2</p></td>
 <td style="border:1px solid black;"><p>ID</p></td>
@@ -408,7 +408,7 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>3</p></td>
 <td style="border:1px solid black;"><p>ID</p></td>
@@ -417,7 +417,7 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>4</p></td>
 <td style="border:1px solid black;"><p>BO</p></td>
@@ -426,7 +426,7 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>5</p></td>
 <td style="border:1px solid black;"><p>BO</p></td>
@@ -435,7 +435,7 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>6</p></td>
 <td style="border:1px solid black;"><p>UN</p></td>
@@ -444,7 +444,7 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>7</p></td>
 <td style="border:1px solid black;"><p>UN</p></td>
@@ -453,8 +453,8 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La tabella precedente contiene i requisiti di comunicazione per ogni percorso di comunicazione consentito nella configurazione dei gruppi di isolamento iniziale. Nell'elenco seguente viene spiegata ogni colonna:
@@ -493,28 +493,28 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
   
 **Tabella 4.6: Opzioni di comunicazione consentite per i gruppi di isolamento aggiuntivi**
   
-<table style="width:100%;">  
-<colgroup>  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Percorso</p></th>  
-<th><p>Da</p></th>  
-<th><p>Per</p></th>  
-<th><p>Bidirezionale</p></th>  
-<th><p>Prova IKE/IPSec</p></th>  
-<th><p>Fallback</p></th>  
-<th><p>Crittografa</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="width:100%;">
+<colgroup>
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Percorso</p></th>
+<th><p>Da</p></th>
+<th><p>Per</p></th>
+<th><p>Bidirezionale</p></th>
+<th><p>Prova IKE/IPSec</p></th>
+<th><p>Fallback</p></th>
+<th><p>Crittografa</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>8</p></td>
 <td style="border:1px solid black;"><p>EN</p></td>
@@ -523,7 +523,7 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>9</p></td>
 <td style="border:1px solid black;"><p>EN</p></td>
@@ -532,7 +532,7 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>10</p></td>
 <td style="border:1px solid black;"><p>EN</p></td>
@@ -541,7 +541,7 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>11</p></td>
 <td style="border:1px solid black;"><p>EN</p></td>
@@ -550,7 +550,7 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>12</p></td>
 <td style="border:1px solid black;"><p>NF</p></td>
@@ -559,7 +559,7 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>13</p></td>
 <td style="border:1px solid black;"><p>NF</p></td>
@@ -568,7 +568,7 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>14</p></td>
 <td style="border:1px solid black;"><p>NF</p></td>
@@ -577,8 +577,8 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Spiegazione per ciascuno dei percorsi consentiti aggiuntivi riportati nell'esempio della figura precedente e descritti nella tabella precedente:
@@ -609,28 +609,28 @@ In genere, la determinazione dell'appartenenza a un gruppo di computer non è un
   
 **Tabella 4.7: Dati di raccolta sugli host di esempio**
   
-<table style="width:100%;">  
-<colgroup>  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-<col width="14%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nome host</p></th>  
-<th><p>Req. hardware soddisfatti?</p></th>  
-<th><p>Req. software soddisfatti?</p></th>  
-<th><p>Configurazione necessaria</p></th>  
-<th><p>Dettagli</p></th>  
-<th><p>Costo previsto</p></th>  
-<th><p>Gruppo</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="width:100%;">
+<colgroup>
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+<col width="14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nome host</p></th>
+<th><p>Req. hardware soddisfatti?</p></th>
+<th><p>Req. software soddisfatti?</p></th>
+<th><p>Configurazione necessaria</p></th>
+<th><p>Dettagli</p></th>
+<th><p>Costo previsto</p></th>
+<th><p>Gruppo</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>HOST-NYC-001</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
@@ -639,7 +639,7 @@ In genere, la determinazione dell'appartenenza a un gruppo di computer non è un
 <td style="border:1px solid black;"><p>Il sistema operativo corrente è Windows NT 4.0. Hardware obsoleto non compatibile con Windows XP.</p></td>
 <td style="border:1px solid black;"><p>€XXX.</p></td>
 <td style="border:1px solid black;"><p>ID</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SERVER-LON-001</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
@@ -648,8 +648,8 @@ In genere, la determinazione dell'appartenenza a un gruppo di computer non è un
 <td style="border:1px solid black;"><p>Software antivirus assente.</p></td>
 <td style="border:1px solid black;"><p>€XXX.</p></td>
 <td style="border:1px solid black;"><p>EN</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Appartenenza ai gruppi di accesso alla rete (NAG)
@@ -667,38 +667,38 @@ Nello scenario della Woodgrove Bank, l'appartenenza a NAG\_EncryptedResourceAcce
 **Tabella 4.8: Gruppi di accesso alla rete della Woodgrove Bank con appartenenza assegnata**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nome NAG</p></th>  
-<th><p>Appartenenza</p></th>  
-<th><p>Descrizione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nome NAG</p></th>
+<th><p>Appartenenza</p></th>
+<th><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ANAG_EncryptedResourceAccess_Users</p></td>
 <td style="border:1px solid black;"><p>User7</p></td>
 <td style="border:1px solid black;"><p>Questo gruppo è per tutti gli utenti che sono autorizzati a stabilire connessioni in ingresso protette da IPSec con i computer del gruppo di isolamento Crittografia.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ANAG_EncryptedResourceAccess_Computers</p></td>
 <td style="border:1px solid black;"><p>IPS-SQL-DFS-01<br />
 IPS-SQL-DFS-02</p>
 <p>IPS-ST-XP-05</p></td>
 <td style="border:1px solid black;"><p>Questo gruppo contiene tutti i computer che sono autorizzati a stabilire connessioni in ingresso protette da IPSec con i computer del gruppo di isolamento Crittografia.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DNAG_EncryptionIG_Computers</p></td>
 <td style="border:1px solid black;"><p>CG_BoundaryIG_Computers</p></td>
 <td style="border:1px solid black;"><p>Questo gruppo contiene tutti i computer che <em>non</em> sono autorizzati a stabilire connessioni in ingresso protette da IPSec con i computer del gruppo di isolamento Crittografia.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota**: l'appartenenza a un NAG non controlla il livello della protezione del traffico con IPSec. Le impostazioni dei criteri IPSec controllano i metodi di protezione utilizzati per proteggere il traffico e sono indipendenti dall'identità autenticata da IKE. La negoziazione IKE rileva solo se l'identità del computer Kerberos ha superato o meno il processo di autenticazione. Non può implementare un criterio di tipo "crittografa se user3 si connette" o "crittografa se host attendibile IPS-SQL-DFS-01 o IPS-SQL-DFS-02". L'amministratore deve ottenere il comportamento desiderato utilizzando un criterio IPSec per i server del gruppo di isolamento Crittografia che richieda la crittografia per qualsiasi connessione in ingresso degli host attendibili e per qualsiasi connessione in uscita verso un host attendibile.
@@ -768,31 +768,31 @@ In questo esempio, il personale amministrativo dell'organizzazione crea due GPO 
 **Tabella 4.9: Gruppi di amministrazione IPSec**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nome gruppo</p></th>  
-<th><p>Tipo di gruppo</p></th>  
-<th><p>Descrizione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nome gruppo</p></th>
+<th><p>Tipo di gruppo</p></th>
+<th><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>IPsecSTD</p></td>
 <td style="border:1px solid black;"><p>Universale</p></td>
 <td style="border:1px solid black;"><p>Controlla l'applicazione del criterio IPSec Standard</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>IPsecENC</p></td>
 <td style="border:1px solid black;"><p>Universale</p></td>
 <td style="border:1px solid black;"><p>Controlla l'applicazione del criterio IPSec Crittografia</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Gli ACL dei due nuovi GPO vengono aggiornati in modo che non vengano automaticamente applicati al gruppo Utenti autenticati per far sì che i gruppi di applicazioni e di gestione appropriati ricevano i diritti corretti. Il personale amministrativo ha modificato gli ACL per i due GPO in base alle informazioni riportate nella tabella seguente:
@@ -800,25 +800,25 @@ Gli ACL dei due nuovi GPO vengono aggiornati in modo che non vengano automaticam
 **Tabella 4.10: Diritti dei gruppi nei GPO**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Gruppo</p></th>  
-<th><p>GPO IPSec Standard</p></th>  
-<th><p>GPO IPSec Crittografia</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Gruppo</p></th>
+<th><p>GPO IPSec Standard</p></th>
+<th><p>GPO IPSec Crittografia</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Utenti autenticati</p></td>
 <td style="border:1px solid black;"><p>Lettura</p></td>
 <td style="border:1px solid black;"><p>Lettura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>IPsecENC</p></td>
 <td style="border:1px solid black;"><p>Nessuna</p></td>
@@ -830,8 +830,8 @@ Gli ACL dei due nuovi GPO vengono aggiornati in modo che non vengano automaticam
 <td style="border:1px solid black;"><p>Lettura</p>
 <p>Applica criteri di gruppo</p></td>
 <td style="border:1px solid black;"><p>Nessuna</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** questa tabella mostra solo le autorizzazioni aggiunte o modificate. Esistono probabilmente anche altri gruppi con autorizzazioni.
@@ -869,30 +869,30 @@ Nella tabella seguente sono elencati i gruppi di computer, i NAG e i relativi me
 **Tabella 4.11: Appartenenza ai gruppi di computer e ai gruppi di accesso alla rete (NAG)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Gruppo di computer o NAG</p></th>  
-<th><p>Membri</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Gruppo di computer o NAG</p></th>
+<th><p>Membri</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CG_IsolationDomain_Computers</p></td>
 <td style="border:1px solid black;"><p>Computer del dominio</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CG_BoundaryIG_Computers</p></td>
 <td style="border:1px solid black;"><p>IPS-PRINTS-01</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CG_NoFallbackIG_Computers</p></td>
 <td style="border:1px solid black;"><p>IPS-LT-XP-01</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CG_EncryptionIG_Computers</p></td>
 <td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p>
@@ -901,7 +901,7 @@ Nella tabella seguente sono elencati i gruppi di computer, i NAG e i relativi me
 <tr class="odd">
 <td style="border:1px solid black;"><p>ANAG_EncryptedResourceAccess_Users</p></td>
 <td style="border:1px solid black;"><p>User7</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ANAG_EncryptedResourceAccess_Computers</p></td>
 <td style="border:1px solid black;"><p>IPS-SQL-DFS-01<br />
@@ -911,8 +911,8 @@ IPS-SQL-DFS-02</p>
 <tr class="odd">
 <td style="border:1px solid black;"><p>DNAG_EncryptionIG_Computers</p></td>
 <td style="border:1px solid black;"><p>CG_BoundaryIG_Computers</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Si osservi che il gruppo ANAG\_EncryptedResourceAccess\_Computers contiene i server che si trovano nel gruppo di isolamento Crittografia. In questo modo, i server potranno comunicare tra di loro e con altri dispositivi in base alle esigenze. Se tali comunicazioni non sono richieste per questi server, non aggiungere i server a questo gruppo.

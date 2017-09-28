@@ -43,20 +43,20 @@ Per valutare i requisiti di utilizzo di un sistema RMS, è possibile utilizzare 
 <td style="border:1px solid black;"><p>Ripetuta per ogni utente e per ogni parte di contenuto</p></td>
 <td style="border:1px solid black;"><p>64</p></td>
 <td style="border:1px solid black;"><p>18</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Certificazione account con diritti</p></td>
 <td style="border:1px solid black;"><p>Solo traffico di inizializzazione RMS</p></td>
 <td style="border:1px solid black;"><p>12</p></td>
 <td style="border:1px solid black;"><p>16</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Registrazione dei client</p></td>
 <td style="border:1px solid black;"><p>Solo traffico di inizializzazione RMS</p></td>
 <td style="border:1px solid black;"><p>17</p></td>
 <td style="border:1px solid black;"><p>16</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 È inoltre possibile che il traffico di query di Active Directory influisca sulla velocità effettiva della rete. Tuttavia, questo non è di solito un problema se i server RMS sono distribuiti in prossimità dei server di catalogo globale. Vi sarebbe un'eccezione se un malfunzionamento di tutti i server di catalogo globali in un sito causasse un failover su un altro sito su una connessione che non è in grado di supportare la stessa capacità.
@@ -66,31 +66,31 @@ La seguente tabella fornisce i dati di base sull'utilizzo della banda larga dell
 ###  
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Transazione</th>  
-<th>Uso della banda larga da RMS al catalogo globale (byte)</th>  
-<th>Uso della banda larga dal catalogo globale a RMS (byte)</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Transazione</th>
+<th>Uso della banda larga da RMS al catalogo globale (byte)</th>
+<th>Uso della banda larga dal catalogo globale a RMS (byte)</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Istituzione di una connessione RMS (ldap_bind)</p></td>
 <td style="border:1px solid black;"><p>1600</p></td>
 <td style="border:1px solid black;"><p>200</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Valutazione dell'appartenenza al gruppo RMS (ldap_search)</p></td>
 <td style="border:1px solid black;"><p>200</p></td>
 <td style="border:1px solid black;"><p>100</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Quando si utilizzano queste tabelle di riferimento, assicurarsi di applicare i numeri relativi al contenuto della distribuzione. Ad esempio, se l'utente appartiene a 15 gruppi, sarebbero richiesti 200  byte per la richiesta di ricerca da RMS e 1500  byte (100  byte x 15) per la risposta del catalogo globale.

@@ -140,11 +140,11 @@ Nella tabella che segue sono descritte le convenzioni di stile utilizzate in que
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Grassetto</strong></p></td>
 <td style="border:1px solid black;"><p>Caratteri digitati esattamente come indicato, inclusi comandi e opzioni. Vengono riportati in grassetto anche gli elementi di interfaccia utente nel testo delle istruzioni.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Corsivo</em></p></td>
 <td style="border:1px solid black;"><p>Il corsivo viene utilizzato in due casi specifici:</p>
-<p>—Se utilizzato nel corpo del testo, indica il titolo di un altro documento.</p>  
+<p>—Se utilizzato nel corpo del testo, indica il titolo di un altro documento.</p>
 <p>—Se utilizzato nei comandi o nel codice (o in parti di testo che si riferiscono a un comando o al codice), indica un segnaposto per le variabili in cui è necessario fornire valori specifici. Ad esempio, <em>nomefile.ext</em> indica la necessità di sostituire il testo <em>nomefile.ext</em> in corsivo con il nome di file desiderato.</p>
 <p>Lo stile corsivo è utilizzato in alcuni casi anche per enfatizzare parti del testo.</p></td>
 </tr>
@@ -156,28 +156,28 @@ Nella tabella che segue sono descritte le convenzioni di stile utilizzate in que
 <tr class="even">
 <td style="border:1px solid black;"><p>Spaziatura fissa</p></td>
 <td style="border:1px solid black;"><p>Esempi di codice e contenuto dei file di configurazione.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>%SystemRoot%</p></td>
 <td style="border:1px solid black;"><p>Cartella di installazione del sistema operativo Windows Server.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
 <td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
 <td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari essenziali per il completamento dell'operazione.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Avviso</strong></p></td>
 <td style="border:1px solid black;"><p>Avvisa il lettore dei casi in cui l'inosservanza di un'azione specifica potrebbe provocare una perdita di dati.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Attenzione</strong></p></td>
 <td style="border:1px solid black;"><p>Avvisa il lettore dei casi in cui l'inosservanza di un'azione specifica potrebbe provocare lesioni fisiche all'utente o danni all'hardware.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

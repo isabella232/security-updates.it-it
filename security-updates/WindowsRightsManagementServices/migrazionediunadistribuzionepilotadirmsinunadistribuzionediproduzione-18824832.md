@@ -70,12 +70,12 @@ I seguenti passaggi sono forniti come esempio di alcuni degli elementi che il pi
 <td style="border:1px solid black;"><p>Produzione</p></td>
 <td style="border:1px solid black;"><p>Se si utilizza un HSM, installare l'HSM e ripristinare la sua configurazione dal backup creato sul server pilota.</p></td>
 <td style="border:1px solid black;"><p>Fornire le credenziali richieste per decrittografare la chiave RMS privata.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Produzione</p></td>
 <td style="border:1px solid black;"><p>Installare RMS.</p></td>
 <td style="border:1px solid black;"><p>RMS verificherà che tutti i servizi indispensabili siano installati e configurati correttamente.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Produzione</p></td>
 <td style="border:1px solid black;"><p>Eseguire il provisioning di RMS utilizzando una nuova chiave privata. Se si utilizza la registrazione in linea, il server sarà registrato durante il processo di provisioning, utilizzando Internet per collegarsi ai Servizi Microsoft Enrollment. Se non si ha una connessione Internet dal server, è necessario utilizzare la registrazione fuori linea.</p></td>
@@ -92,17 +92,17 @@ I seguenti passaggi sono forniti come esempio di alcuni degli elementi che il pi
 <td style="border:1px solid black;"><p>Produzione</p></td>
 <td style="border:1px solid black;"><p>Importare il file del dominio di pubblicazione trusted esportato nel passaggio 3.</p></td>
 <td style="border:1px solid black;"><p>L'account di servizio RMS deve avere autorizzazioni di lettura sull'ubicazione in cui è memorizzato il file per poter importare il file con successo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Produzione</p></td>
 <td style="border:1px solid black;"><p>Firmare di nuovo ogni modello che era stato importato con il dominio di pubblicazione trusted.</p></td>
 <td style="border:1px solid black;"><p>I modelli sono firmati con la chiave privata server. Poiché questo server ha una nuova chiave privata, i modelli devono essere firmati per essere validi. Per ulteriori informazioni, vedere “Per firmare di nuovo un modello di criteri per i diritti” in “Utilizzo di un server RMS”, in questa documentazione.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Produzione</p></td>
 <td style="border:1px solid black;"><p>Ridistribuire i modelli sui computer client che hanno partecipato al progetto pilota.</p></td>
 <td style="border:1px solid black;"><p>I vecchi modelli devono essere rimossi e sostituiti con i modelli firmati da questo server.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Produzione</p></td>
 <td style="border:1px solid black;"><p>Importare il file del dominio utente trusted esportato nel passaggio 4.</p></td>

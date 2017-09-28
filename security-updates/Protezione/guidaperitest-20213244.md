@@ -473,23 +473,23 @@ Nella tabella seguente vengono indicate le definizioni di gravità e priorità d
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p>Errori che determinano arresti anomali del sistema o perdita di dati.</p></td>
 <td style="border:1px solid black;"><p>La soluzione deve essere individuata il più rapidamente possibile. L'errore impedisce l'ulteriore avanzamento nell'area.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>2</p></td>
 <td style="border:1px solid black;"><p>Errori che determinano problemi per le funzioni principali o altri inconvenienti gravi. Il prodotto è soggetto ad arresti anomali in circostanze non chiarite.</p></td>
 <td style="border:1px solid black;"><p>Il team deve individuare la soluzione prima del rilascio del prodotto.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>3</p></td>
 <td style="border:1px solid black;"><p>Errori che determinano problemi per le funzioni secondarie o che influiscono negativamente sulla qualità.</p></td>
 <td style="border:1px solid black;"><p>La soluzione può essere individuata qualora il tempo a disposizione lo consenta. Spesso si tratta di problemi banali. La soluzione può essere rinviata.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>4</p></td>
 <td style="border:1px solid black;"><p>Errori tipografici, testo redatto in modo non chiaro o messaggi di errore visualizzati in campi con visibilità ridotta.</p></td>
 <td style="border:1px solid black;"><p>Non definito.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Controllo dei risultati

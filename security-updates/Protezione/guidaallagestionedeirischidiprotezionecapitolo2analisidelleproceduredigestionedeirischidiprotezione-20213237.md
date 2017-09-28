@@ -177,20 +177,20 @@ Entrambi gli approcci alla gestione dei rischi di protezione presentano vantaggi
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Vantaggi</strong></p></td>
 <td style="border:1px solid black;"><p>– Le priorità dei rischi vengono definite in base all'impatto finanziario; le priorità dei beni vengono definite in base al valore finanziario.</p>
-<p>– I risultati facilitano la gestione dei rischi in base al ritorno sull'investimento nella protezione (ROSI).</p>  
+<p>– I risultati facilitano la gestione dei rischi in base al ritorno sull'investimento nella protezione (ROSI).</p>
 <p>– I risultati possono essere espressi con la terminologia gestionale (ad es. valori monetari e probabilità sono espressi come percentuali specifiche).</p>
 <p>– La precisione del processo aumenta nel tempo, man mano che l'organizzazione raccoglie dati cronologici basati sulle passate esperienze.</p></td>
 <td style="border:1px solid black;"><p>– Permette una maggiore visibilità e comprensione della classificazione dei rischi.</p>
-<p>– Semplifica il raggiungimento del consenso sulle decisioni.</p>  
-<p>– Non è necessario quantificare la frequenza dei pericoli.</p>  
+<p>– Semplifica il raggiungimento del consenso sulle decisioni.</p>
+<p>– Non è necessario quantificare la frequenza dei pericoli.</p>
 <p>– Non è necessario determinare il valore finanziario dei beni.</p>
 <p>– Semplifica il coinvolgimento di personale non esperto in materia di protezione o informatica.</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Svantaggi</strong></p></td>
 <td style="border:1px solid black;"><p>– I valori di impatto assegnati ai rischi sono basati sulle opinioni soggettive dei partecipanti.</p>
-<p>– Il processo richiesto per raggiungere il consenso e risultati credibili è estremamente lungo.</p>  
-<p>– I calcoli richiesti possono essere complessi e richiedere molto tempo.</p>  
+<p>– Il processo richiesto per raggiungere il consenso e risultati credibili è estremamente lungo.</p>
+<p>– I calcoli richiesti possono essere complessi e richiedere molto tempo.</p>
 <p>– I risultati sono presentati esclusivamente in termini monetari e possono risultare di difficile comprensione per i partecipanti non esperti in materia.</p>
 <p>– Il processo presuppone un alto grado di esperienza ed è perciò difficile fornire una guida adeguata ai partecipanti</p></td>
 <td style="border:1px solid black;"><p>– La differenziazione tra i principali rischi risulta insufficiente.</p>

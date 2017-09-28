@@ -346,7 +346,7 @@ Partendo da filtri IPsec più restrittivi e aprendo le porte solo all’occorren
 <td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Server HTTPS</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -356,7 +356,7 @@ Partendo da filtri IPsec più restrittivi e aprendo le porte solo all’occorren
 <td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Client DNS</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -366,7 +366,7 @@ Partendo da filtri IPsec più restrittivi e aprendo le porte solo all’occorren
 <td style="border:1px solid black;"><p>DNS</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Block everything (Blocco generale)</p></td>
 <td style="border:1px solid black;"><p>QUALSIASI</p></td>
@@ -376,8 +376,8 @@ Partendo da filtri IPsec più restrittivi e aprendo le porte solo all’occorren
 <td style="border:1px solid black;"><p>QUALSIASI</p></td>
 <td style="border:1px solid black;"><p>BLOCCA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 In questa mappa del traffico esemplificativa, il server Web offre servizi HTTP e HTTPS ai computer con qualsiasi indirizzo IP di origine, così da autorizzare il traffico appropriato. Per la destinazione ME (Questo computer) il servizio IPsec crea un filtro per ognuno degli indirizzi IP del computer. Ognuno di questi filtri è di tipo speculare, per consentire che il traffico ritorni al computer di origine. Questo approccio significa che in pratica la regola “HTTP Server” (server HTTP) autorizzerà il collegamento del traffico proveniente da qualsiasi host o porta di origine alla porta 80 dell'IIS. La regola speculare permette al traffico TCP proveniente dalla porta 80 del server IIS di connettersi a qualsiasi porta di qualsiasi host.
@@ -397,30 +397,30 @@ Se è necessario utilizzare un servizio client le cui connessioni non si limitan
 **Tabella 11.2 Esempio di Mappa del traffico della rete per l'esplorazione Web in uscita**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Servizio</p></th>  
-<th><p>Protocollo</p></th>  
-<th><p>Porta di origine</p></th>  
-<th><p>Porta di destinazione</p></th>  
-<th><p>Indirizzo di origine</p></th>  
-<th><p>Indirizzo di destinazione</p></th>  
-<th><p>Azione</p></th>  
-<th><p>Mirror</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Servizio</p></th>
+<th><p>Protocollo</p></th>
+<th><p>Porta di origine</p></th>
+<th><p>Porta di destinazione</p></th>
+<th><p>Indirizzo di origine</p></th>
+<th><p>Indirizzo di destinazione</p></th>
+<th><p>Azione</p></th>
+<th><p>Mirror</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Inbound ICMP for TCP PMTU (ICMP in ingresso per PMTU TCP)</p></td>
 <td style="border:1px solid black;"><p>ICMP</p></td>
@@ -430,7 +430,7 @@ Se è necessario utilizzare un servizio client le cui connessioni non si limitan
 <td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Inbound IIS Server HTTP:80 (HTTP:80 server IIS in ingresso)</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -440,7 +440,7 @@ Se è necessario utilizzare un servizio client le cui connessioni non si limitan
 <td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Inbound IIS Server FTP:21 (FTP:21 server IIS in ingresso)</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -450,7 +450,7 @@ Se è necessario utilizzare un servizio client le cui connessioni non si limitan
 <td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Inbound Terminal Server (Server terminal in ingresso)</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -460,7 +460,7 @@ Se è necessario utilizzare un servizio client le cui connessioni non si limitan
 <td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Me to Domain DCs all traffic (Tutto il traffico dall'utente ai controller di dominio)</p></td>
 <td style="border:1px solid black;"><p>QUALSIASI</p></td>
@@ -470,7 +470,7 @@ Se è necessario utilizzare un servizio client le cui connessioni non si limitan
 <td style="border:1px solid black;"><p>Nome dominio</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Outbound DNS UDP/TCP (UDP/TCP DNS in uscita)</p></td>
 <td style="border:1px solid black;"><p>UDP</p></td>
@@ -480,7 +480,7 @@ Se è necessario utilizzare un servizio client le cui connessioni non si limitan
 <td style="border:1px solid black;"><p>DNS</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Outbound DNS UDP/TCP (UDP/TCP DNS in uscita)</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -490,7 +490,7 @@ Se è necessario utilizzare un servizio client le cui connessioni non si limitan
 <td style="border:1px solid black;"><p>DNS</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Outbound WINS (WINS in uscita)</p></td>
 <td style="border:1px solid black;"><p>UDP</p></td>
@@ -500,7 +500,7 @@ Se è necessario utilizzare un servizio client le cui connessioni non si limitan
 <td style="border:1px solid black;"><p>WINS</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Outbound DHCP (DHCP in uscita)</p></td>
 <td style="border:1px solid black;"><p>UDP</p></td>
@@ -510,7 +510,7 @@ Se è necessario utilizzare un servizio client le cui connessioni non si limitan
 <td style="border:1px solid black;"><p>DHCP</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Outbound HTTP:80 (HTTP:80 in uscita)</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -520,7 +520,7 @@ Se è necessario utilizzare un servizio client le cui connessioni non si limitan
 <td style="border:1px solid black;"><p>QUALSIASI</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Block everything (Blocco generale)</p></td>
 <td style="border:1px solid black;"><p>QUALSIASI</p></td>
@@ -530,8 +530,8 @@ Se è necessario utilizzare un servizio client le cui connessioni non si limitan
 <td style="border:1px solid black;"><p>QUALSIASI</p></td>
 <td style="border:1px solid black;"><p>BLOCCA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Sebbene questa mappa di traffico esemplificativa sembri riportare una configurazione corretta, il risultato è che tutto il criterio adesso non fornisce alcuna protezione contro un pirata informatico che avvia una connessione in ingresso da un indirizzo IP qualsiasi tramite la porta di origine TCP 80. Questo pirata informatico può accedere a qualsiasi porta TCP aperta tramite il filtro di autorizzazione in ingresso e, inoltre, viene autorizzata la risposta tramite il filtro di autorizzazione in uscita verso la porta di destinazione TCP 80.
@@ -553,30 +553,30 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 **Tabella 11.3 Esempio riveduto di Mappa del traffico della rete per l'esplorazione Web in uscita**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-<col width="12%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Servizio</p></th>  
-<th><p>Protocollo</p></th>  
-<th><p>Porta di origine</p></th>  
-<th><p>Porta di destinazione</p></th>  
-<th><p>Indirizzo di origine</p></th>  
-<th><p>Indirizzo di destinazione</p></th>  
-<th><p>Azione</p></th>  
-<th><p>Mirror</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Servizio</p></th>
+<th><p>Protocollo</p></th>
+<th><p>Porta di origine</p></th>
+<th><p>Porta di destinazione</p></th>
+<th><p>Indirizzo di origine</p></th>
+<th><p>Indirizzo di destinazione</p></th>
+<th><p>Azione</p></th>
+<th><p>Mirror</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Inbound ICMP for TCP PMTU (ICMP in ingresso per PMTU TCP)</p></td>
 <td style="border:1px solid black;"><p>ICMP</p></td>
@@ -586,7 +586,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Inbound IIS Server HTTP:80 (HTTP:80 server IIS in ingresso)</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -596,7 +596,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Inbound IIS Server FTP:21 (FTP:21 server IIS in ingresso)</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -606,7 +606,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Inbound Terminal Server (Server terminal in ingresso)</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -616,7 +616,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Me to Domain DCs all traffic (Tutto il traffico dall'utente ai controller di dominio)</p></td>
 <td style="border:1px solid black;"><p>QUALSIASI</p></td>
@@ -626,7 +626,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>Nome dominio</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Outbound DNS UDP/TCP (UDP/TCP DNS in uscita)</p></td>
 <td style="border:1px solid black;"><p>UDP</p></td>
@@ -636,7 +636,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>DNS</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Outbound DNS UDP/TCP (UDP/TCP DNS in uscita)</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -646,7 +646,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>DNS</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Outbound WINS (WINS in uscita)</p></td>
 <td style="border:1px solid black;"><p>UDP</p></td>
@@ -656,7 +656,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>WINS</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Outbound DHCP (DHCP in uscita)</p></td>
 <td style="border:1px solid black;"><p>UDP</p></td>
@@ -666,7 +666,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>DHCP</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Outbound HTTP:80 (HTTP:80 in uscita)</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -676,7 +676,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>QUALSIASI</p></td>
 <td style="border:1px solid black;"><p>AUTORIZZA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Mitigation from inbound src 80 attack (Riduzione attacco da porta di origine 80 in ingresso)</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -686,7 +686,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
 <td style="border:1px solid black;"><p>BLOCCA</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Mitigation from inbound src 80 attack (Riduzione attacco da porta di origine 80 in ingresso)</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -696,7 +696,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
 <td style="border:1px solid black;"><p>BLOCCA</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Mitigation from inbound src 80 attack (Riduzione attacco da porta di origine 80 in ingresso)</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -706,7 +706,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
 <td style="border:1px solid black;"><p>BLOCCA</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Mitigation from inbound src 80 attack (Riduzione attacco da porta di origine 80 in ingresso)</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -716,7 +716,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
 <td style="border:1px solid black;"><p>BLOCCA</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Mitigation from inbound src 80 attack (Riduzione attacco da porta di origine 80 in ingresso)</p></td>
 <td style="border:1px solid black;"><p>TCP</p></td>
@@ -726,7 +726,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
 <td style="border:1px solid black;"><p>BLOCCA</p></td>
 <td style="border:1px solid black;"><p>NO</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Block everything (Blocco generale)</p></td>
 <td style="border:1px solid black;"><p>QUALSIASI</p></td>
@@ -736,8 +736,8 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 <td style="border:1px solid black;"><p>QUALSIASI</p></td>
 <td style="border:1px solid black;"><p>BLOCCA</p></td>
 <td style="border:1px solid black;"><p>SÌ</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Questo esempio dimostra come creare filtri unidirezionali per bloccare il traffico con la porta di origine 80 per qualunque porta attiva sul computer, che potrebbe bloccare un attacco in ingresso. L'esempio impedisce di effettuare lo spoofing di una porta di origine 80 per connettersi alle porte utilizzate da RPC, NetBT, SMB (CIFS).

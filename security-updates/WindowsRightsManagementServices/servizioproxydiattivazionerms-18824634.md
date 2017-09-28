@@ -33,18 +33,18 @@ Il file di applicazione del servizio proxy di attivazione, Activation.asmx, è m
 <tr class="odd">
 <td style="border:1px solid black;"><p>Administrators</p></td>
 <td style="border:1px solid black;"><p>Controllo completo</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Guests</p></td>
 <td style="border:1px solid black;"><p>Lettura e Esecuzione</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Gruppo di servizi RMS</p></td>
 <td style="border:1px solid black;"><p>Lettura e Esecuzione</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SISTEMA</p></td>
 <td style="border:1px solid black;"><p>Controllo completo</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

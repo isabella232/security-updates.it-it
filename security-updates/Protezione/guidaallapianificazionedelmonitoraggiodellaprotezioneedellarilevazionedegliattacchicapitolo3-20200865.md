@@ -295,23 +295,23 @@ Una decisione fondamentale riguarda il tempo di archiviazione dei dati legali. L
 <td style="border:1px solid black;"><p>Archiviazione in linea (database)</p></td>
 <td style="border:1px solid black;"><p>21 giorni</p></td>
 <td style="border:1px solid black;"><p>Fornisce l'accesso rapido agli eventi recenti</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Archiviazione non in linea (backup)</p></td>
 <td style="border:1px solid black;"><p>180 giorni</p></td>
 <td style="border:1px solid black;"><p>Limite accettabile per la maggior parte delle organizzazioni</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Ambiente con requisiti normativi</p></td>
 <td style="border:1px solid black;"><p>7 anni</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servizi segreti</p></td>
 <td style="border:1px solid black;"><p>Permanente</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota: **alcune organizzazioni, ad esempio ospedali ed enti pubblici, anziché definire un periodo minimo di mantenimento preferiscono specificare un limite massimo oltre il quale i dati devono essere eliminati.

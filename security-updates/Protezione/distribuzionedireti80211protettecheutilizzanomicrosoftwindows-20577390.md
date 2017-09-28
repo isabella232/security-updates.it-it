@@ -127,8 +127,8 @@ Nella tabella 1 si riassumono i certificati necessari per i diversi tipi di aute
 <td style="border:1px solid black;"><p>PEAP-MS-CHAP v2</p></td>
 <td style="border:1px solid black;"><p>Certificati delle autorità di certificazione radice per le autorità di emissione di certificati di computer del server IAS</p></td>
 <td style="border:1px solid black;"><p>Certificati di computer</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Tabella 1  Tipi e certificati di autenticazione**

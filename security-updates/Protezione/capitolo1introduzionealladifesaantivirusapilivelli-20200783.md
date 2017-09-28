@@ -87,24 +87,24 @@ Nella tabella riportata di seguito sono indicate le convenzioni stilistiche util
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Grassetto</strong></p></td>
 <td style="border:1px solid black;"><p>Nomi di file ed elementi dell'interfaccia utente sono riportati in grassetto.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><em>Corsivo</em><br />
 - o -<br />
 <em>&lt;Corsivo&gt;</em></p></td>
 <td style="border:1px solid black;"><p>Il corsivo viene applicato ai caratteri digitati dall'utente e che è possibile modificare. I caratteri in corsivo visualizzati tra parentesi ad angolo rappresentano segnaposto variabili in cui l'utente deve indicare valori specifici. Ad esempio:</p>
-<p><em>  &lt;Nomefile.ext&gt;</em> indica che è necessario sostituire il <em> </em><br />  
-<em>  nomefile.ext</em> in corsivo con un altro nome di file appropriato per la<br />  
-  configurazione.<br />  
-</p>  
-<p>Il corsivo viene inoltre utilizzato per contraddistinguere i nuovi termini. Ad esempio:</p>  
+<p><em>  &lt;Nomefile.ext&gt;</em> indica che è necessario sostituire il <em> </em><br />
+<em>  nomefile.ext</em> in corsivo con un altro nome di file appropriato per la<br />
+  configurazione.<br />
+</p>
+<p>Il corsivo viene inoltre utilizzato per contraddistinguere i nuovi termini. Ad esempio:</p>
 <p><em>  Identità digitale -</em> Il codice di identificazione univoco e gli attributi descrittivi di<br />
   una persona, un gruppo, una periferica o un servizio.</p></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Stile Testo su schermo</p></td>
 <td style="border:1px solid black;"><p>Con questo stile si definisce il testo visualizzato sullo schermo.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Codice a spaziatura fissa</code></pre>
 <br />
@@ -123,24 +123,24 @@ Nella tabella riportata di seguito sono indicate le convenzioni stilistiche util
 <tr class="even">
 <td style="border:1px solid black;"><p>%SystemRoot%</p></td>
 <td style="border:1px solid black;"><p>Cartella di installazione del sistema operativo Windows.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
 <td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
 <td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari essenziali per il completamento dell'operazione.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Avviso</strong></p></td>
 <td style="border:1px solid black;"><p>Avvisa il lettore che l’inosservanza di un’azione specifica potrebbe provocare una perdita di dati.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Attenzione</strong></p></td>
 <td style="border:1px solid black;"><p>Avvisa il lettore che l’inosservanza di un’azione specifica potrebbe provocare lesioni fisiche all’utente o danni all’hardware.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

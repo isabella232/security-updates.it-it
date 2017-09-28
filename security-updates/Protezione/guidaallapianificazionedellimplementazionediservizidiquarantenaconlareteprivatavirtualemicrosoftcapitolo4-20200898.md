@@ -277,12 +277,12 @@ Nella tabella seguente sono illustrate alcune delle funzionalità di Connection 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Personalizzazione</p></td>
 <td style="border:1px solid black;"><p>Elementi grafici, icone, messaggi e guida in linea personalizzati conferiscono al pacchetto un aspetto conforme all'immagine aziendale. Con i pacchetti di Connection Manager è possibile garantire numeri di supporto locali per gli utenti che viaggiano molto.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Azioni personalizzate</p></td>
 <td style="border:1px solid black;"><p>Per eseguire registrazione e aggiornamento delle applicazioni.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 In Woodgrove è possibile distribuire agli utenti remoti i profili di Connection Manager tramite CD, posta elettronica, sito Web o condivisione dei file. Presso Woodgrove National Bank si è già affermata l'abitudine di distribuire software e aggiornamenti tramite un sito Web connesso a Internet. Dal momento che l'infrastruttura di supporto esiste già, si è deciso di utilizzare questo metodo anche per distribuire i profili di Connection Manager.
@@ -306,46 +306,46 @@ Nella tabella seguente sono indicate le porte TCP/IP aperte dal filtro IP della 
 **Tabella 4.2: Porte TCP/IP aperte dal filtro di connessione VPN in quarantena**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Numero di porta</p></th>  
-<th><p>Uso</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Numero di porta</p></th>
+<th><p>Uso</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>UDP 67, 68</p></td>
 <td style="border:1px solid black;"><p>DHCP</p></td>
 <td style="border:1px solid black;"><p>Richiede un indirizzo IP per il client</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>UDP 53</p></td>
 <td style="border:1px solid black;"><p>DNS</p></td>
 <td style="border:1px solid black;"><p>Risoluzione dei nomi</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>UDP 137</p></td>
 <td style="border:1px solid black;"><p>WINS</p></td>
 <td style="border:1px solid black;"><p>Risoluzione nomi NetBIOS</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>TCP 139, 445</p></td>
 <td style="border:1px solid black;"><p>Condivisione file</p></td>
 <td style="border:1px solid black;"><p>Attivare solo se strettamente necessario, attiva sessione NetBIOS e condivisione file SMB</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>TCP 7250</p></td>
 <td style="border:1px solid black;"><p>RQC, RQS</p></td>
 <td style="border:1px solid black;"><p>Attiva la comunicazione tra agente client di connessione VPN in quarantena e componente listener sul lato server</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ###### MS-Quarantine-Session-Timeout

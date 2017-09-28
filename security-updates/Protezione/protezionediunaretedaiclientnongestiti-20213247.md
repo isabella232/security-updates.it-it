@@ -175,9 +175,9 @@ Isolare dal punto di vista fisico i computer e le reti non è un'idea nuova. È 
 <td style="border:1px solid black;"><p>Livello 1</p></td>
 <td style="border:1px solid black;"><p>Uso di un cablaggio separato per i segmenti che devono essere isolati dalla rete trusted.</p></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Costi associati al collegamento di un nuovo cavo per ogni nuova connessione.</p></li>  
-<li><p>Attività di amministrazione aumentata a causa della gestione dei nuovi cavi in base agli spostamenti degli utenti.</p></li>  
-<li><p>Poca flessibilità e difficoltà di gestione man mano che l'azienda cresce.</p></li>  
+<li><p>Costi associati al collegamento di un nuovo cavo per ogni nuova connessione.</p></li>
+<li><p>Attività di amministrazione aumentata a causa della gestione dei nuovi cavi in base agli spostamenti degli utenti.</p></li>
+<li><p>Poca flessibilità e difficoltà di gestione man mano che l'azienda cresce.</p></li>
 <li><p>Maggiori possibilità di distrazioni ed errori a causa degli elevati requisiti di gestione.</p></li>
 </ul></td>
 </tr>
@@ -185,8 +185,8 @@ Isolare dal punto di vista fisico i computer e le reti non è un'idea nuova. È 
 <td style="border:1px solid black;"><p>Livello 2</p></td>
 <td style="border:1px solid black;"><p>Uso delle VLAN per creare subnet logiche isolate dalla rete trusted.</p></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Maggiori costi associati all'aggiornamento della struttura degli switch per il supporto delle VLAN.</p></li>  
-<li><p>Maggiore sovraccarico di amministrazione a causa della traccia delle modifiche alla rete, degli spostamenti degli utenti e delle risposte alle richieste di connessione di tipo guest.</p></li>  
+<li><p>Maggiori costi associati all'aggiornamento della struttura degli switch per il supporto delle VLAN.</p></li>
+<li><p>Maggiore sovraccarico di amministrazione a causa della traccia delle modifiche alla rete, degli spostamenti degli utenti e delle risposte alle richieste di connessione di tipo guest.</p></li>
 <li><p>Possibilità di distrazione ed errori quando si hanno numerosi spostamenti di utenti oppure vengono utilizzate periferiche mobili.</p></li>
 </ul></td>
 </tr>

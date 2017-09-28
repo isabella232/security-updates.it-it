@@ -106,47 +106,47 @@ In questa tabella sono illustrate le attività che occorre eseguire per rendere 
 <td style="border:1px solid black;"><p>Aggiunta di client RADIUS ai server IAS</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
 <td style="border:1px solid black;"><p>Amministrazione di rete</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Aggiunta di computer ai gruppi di criteri delle reti senza fili</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
 <td style="border:1px solid black;"><p>Amministrazione dei servizi directory</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Aggiunta di computer e utenti ai gruppi di criteri di accesso remoto</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
 <td style="border:1px solid black;"><p>Amministrazione dei servizi directory</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Classificazione degli avvisi di monitoraggio</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
 <td style="border:1px solid black;"><p>Monitoraggio e controllo dei servizi</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Monitoraggio dei vincoli di capacità di IAS</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
 <td style="border:1px solid black;"><p>Monitoraggio e controllo dei servizi</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Configurazione dell'esportazione della configurazione IAS</p></td>
 <td style="border:1px solid black;"><p>Gestione delle operazioni</p></td>
 <td style="border:1px solid black;"><p>Gestione dell'archiviazione</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Esportazione della configurazione dei client RADIUS</p></td>
 <td style="border:1px solid black;"><p>Gestione delle operazioni</p></td>
 <td style="border:1px solid black;"><p>Gestione dell'archiviazione</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Configurazione del backup delle directory di dati IAS</p></td>
 <td style="border:1px solid black;"><p>Gestione delle operazioni</p></td>
 <td style="border:1px solid black;"><p>Gestione dell'archiviazione</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Test del backup IAS</p></td>
 <td style="border:1px solid black;"><p>Gestione delle operazioni</p></td>
 <td style="border:1px solid black;"><p>Gestione dell'archiviazione</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Fase di ottimizzazione</p></td>
 <td style="border:1px solid black;"><br />
@@ -158,12 +158,12 @@ In questa tabella sono illustrate le attività che occorre eseguire per rendere 
 <td style="border:1px solid black;"><p>Determinazione del carico massimo sul server IAS</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
 <td style="border:1px solid black;"><p>Gestione della capacità</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Determinazione dei requisiti di archiviazione e di backup per un server IAS</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
 <td style="border:1px solid black;"><p>Gestione della capacità</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Fase di modifica</p></td>
 <td style="border:1px solid black;"><br />
@@ -175,8 +175,8 @@ In questa tabella sono illustrate le attività che occorre eseguire per rendere 
 <td style="border:1px solid black;"><p>Gestione delle patch del sistema operativo</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
 <td style="border:1px solid black;"><p>Gestione delle modifiche e gestione dei rilasci</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Sebbene non esista un'attività documentata per impostare un sistema di gestione della configurazione per l'infrastruttura RADIUS e la protezione WLAN, occorre verificare le procedure nella sezione relativa alla gestione della configurazione, in cui sono descritti i tipi di informazioni che è necessario raccogliere e conservare nella gestione della configurazione.
@@ -190,72 +190,72 @@ In questa tabella sono illustrate le attività che occorre eseguire regolarmente
 **Tabella 2. Attività di manutenzione continue**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nome attività</p></th>  
-<th><p>Cluster di ruoli</p></th>  
-<th><p>Frequenza</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nome attività</p></th>
+<th><p>Cluster di ruoli</p></th>
+<th><p>Frequenza</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Aggiunta di client RADIUS ai server IAS</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
 <td style="border:1px solid black;"><p>Ogni volta che vengono aggiunti alla rete dei punti di accesso senza fili (AP, Access Points)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Rimozione di client RADIUS dal server IAS</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
 <td style="border:1px solid black;"><p>Ogni volta che dei punti di accesso senza fili vengono rimossi dalla rete</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Aggiunta di computer ai gruppi di criteri delle reti senza fili</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
 <td style="border:1px solid black;"><p>Ogni volta che vengono aggiunti dei computer alla rete</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Aggiunta di computer e utenti ai gruppi di criteri di accesso remoto</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
 <td style="border:1px solid black;"><p>Ogni volta che ai dipendenti viene concesso l'accesso alla rete WLAN</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Esportazione della configurazione dei client RADIUS</p></td>
 <td style="border:1px solid black;"><p>Gestione delle operazioni</p></td>
 <td style="border:1px solid black;"><p>Ogni volta che alla rete vengono aggiunti punti di accesso senza fili</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Test del backup IAS</p></td>
 <td style="border:1px solid black;"><p>Gestione delle operazioni</p></td>
 <td style="border:1px solid black;"><p>Ogni mese</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Accesso ai registri delle richieste RADIUS IAS</p></td>
 <td style="border:1px solid black;"><p>Protezione</p></td>
 <td style="border:1px solid black;"><p>Ogni giorno oppure ogni settimana (a seconda dei requisiti di protezione)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Verifica delle voci del Registro eventi di autenticazione RADIUS IAS</p></td>
 <td style="border:1px solid black;"><p>Protezione</p></td>
 <td style="border:1px solid black;"><p>Ogni giorno oppure ogni settimana (a seconda dei requisiti di protezione)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Archiviazione ed eliminazione delle voci del registro RADIUS IAS</p></td>
 <td style="border:1px solid black;"><p>Protezione</p></td>
 <td style="border:1px solid black;"><p>Ogni mese</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gestione delle patch del sistema operativo</p></td>
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><p>Ogni giorno</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Tecnologia richiesta nella Guida operativa
@@ -265,62 +265,62 @@ Nella tabella riportata di seguito sono elencati gli strumenti o le tecnologie u
 **Tabella 3. Tecnologia richiesta**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nome elemento</p></th>  
-<th><p>Origine</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nome elemento</p></th>
+<th><p>Origine</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Console di gestione Utenti e computer di Active Directory</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Script MSS</p></td>
 <td style="border:1px solid black;"><p>Questa soluzione</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Editor di testo</p></td>
 <td style="border:1px solid black;"><p>Blocco note — Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servizio Utilità di pianificazione di Windows</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SchTasks.exe</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Backup di Windows</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Visualizzatore eventi</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Performance Monitor</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Net.exe</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Console avvisi operativi</p></td>
 <td style="border:1px solid black;"><p>Microsoft Operations Manager (MOM)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Supporti rimovibili per l'archiviazione esterna ai computer</p></td>
 <td style="border:1px solid black;"><p>Disco floppy, CD riscrivibile o nastro</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Backup server IAS</p></td>
 <td style="border:1px solid black;"><p>Servizio di backup aziendale o<br />
@@ -329,54 +329,54 @@ Periferica di backup locale</p></td>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Console di gestione Criteri di gruppo</p></td>
 <td style="border:1px solid black;"><p>Download Web da Microsoft.com</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>IASParse</p></td>
 <td style="border:1px solid black;"><p>Strumenti di supporto di Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Microsoft Access 2002</p></td>
 <td style="border:1px solid black;"><p>Microsoft Office XP</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Tabella 4. Tecnologia consigliata**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nome elemento</p></th>  
-<th><p>Origine</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nome elemento</p></th>
+<th><p>Origine</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Console avvisi operativi</p></td>
 <td style="border:1px solid black;"><p>Microsoft Operations Manager o altro sistema di monitoraggio dei servizi</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Infrastruttura di posta elettronica per gli avvisi operativi (in alternativa a MOM)</p></td>
 <td style="border:1px solid black;"><p>Server e client SMTP/POP3/IMAP, ad esempio Microsoft Exchange Server e il client di messaggistica e collaborazione Microsoft Outlook®</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Eventquery.vbs</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Strumenti per la pianificazione della capacità</p></td>
 <td style="border:1px solid black;"><p>Microsoft Operations Manager o altri strumenti per la pianificazione della capacità</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Sistema di distribuzione delle patch</p></td>
 <td style="border:1px solid black;"><p>Microsoft Systems Management Server o Microsoft Software Update Services</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)
@@ -392,47 +392,47 @@ Si tratta di ruoli centrali nella gestione di un'infrastruttura RADIUS e della p
 **Tabella 5. Ruoli fondamentali per l'infrastruttura RADIUS e la protezione WLAN**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nome del ruolo</p></th>  
-<th><p>Cluster di ruoli MOF</p></th>  
-<th><p>Ambito</p></th>  
-<th><p>Descrizione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nome del ruolo</p></th>
+<th><p>Cluster di ruoli MOF</p></th>
+<th><p>Ambito</p></th>
+<th><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Amministratore del Servizio di autenticazione Internet</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
 <td style="border:1px solid black;"><p>Organizzazione di grandi dimensioni</p></td>
 <td style="border:1px solid black;"><p>Responsabile dell'amministrazione e della configurazione generale di IAS per l'organizzazione di grandi dimensioni</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Controllore del Servizio di autenticazione Internet</p></td>
 <td style="border:1px solid black;"><p>Protezione</p></td>
 <td style="border:1px solid black;"><p>Organizzazione di grandi dimensioni</p></td>
 <td style="border:1px solid black;"><p>Responsabile della verifica, dell'archiviazione e dell'eliminazione dei registri RADIUS nei computer server IAS</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Operatore di backup del Servizio di autenticazione Internet</p></td>
 <td style="border:1px solid black;"><p>Operatività</p></td>
 <td style="border:1px solid black;"><p>Organizzazione di grandi dimensioni</p></td>
 <td style="border:1px solid black;"><p>Responsabile del backup e del ripristino dello stato di configurazione IAS e dei dati cronologici</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Personale del supporto tecnico WLAN</p></td>
 <td style="border:1px solid black;"><p>Supporto</p></td>
 <td style="border:1px solid black;"><p>Organizzazione di grandi dimensioni</p></td>
 <td style="border:1px solid black;"><p>Responsabile principale del personale del supporto tecnico per la risoluzione dei problemi WLAN</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Ruoli di supporto per l'infrastruttura RADIUS e la protezione WLAN
@@ -442,59 +442,59 @@ Si tratta di ruoli operativi, che non sono centrali nella gestione dell'infrastr
 **Tabella 6. Ruoli di supporto per l'infrastruttura RADIUS e la protezione WLAN**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nome del ruolo</p></th>  
-<th><p>Cluster di ruoli MOF</p></th>  
-<th><p>Ambito</p></th>  
-<th><p>Descrizione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nome del ruolo</p></th>
+<th><p>Cluster di ruoli MOF</p></th>
+<th><p>Ambito</p></th>
+<th><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Operatore di monitoraggio</p></td>
 <td style="border:1px solid black;"><p>Gestione delle operazioni</p></td>
 <td style="border:1px solid black;"><p>Organizzazione di grandi dimensioni</p></td>
 <td style="border:1px solid black;"><p>Responsabile del monitoraggio degli eventi</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Pianificatore della capacità</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
 <td style="border:1px solid black;"><p>Organizzazione di grandi dimensioni</p></td>
 <td style="border:1px solid black;"><p>Responsabile dell'analisi delle prestazioni e del carico per la previsione dei requisiti di capacità futuri</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Amministratore di Active Directory</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura e supporto</p></td>
 <td style="border:1px solid black;"><p>Organizzazione di grandi dimensioni</p></td>
 <td style="border:1px solid black;"><p>Responsabile della configurazione e del supporto dell'infrastruttura Active Directory</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gestione delle operazioni di Active Directory</p></td>
 <td style="border:1px solid black;"><p>Operatore</p></td>
 <td style="border:1px solid black;"><p>Organizzazione di grandi dimensioni</p></td>
 <td style="border:1px solid black;"><p>Responsabile della manutenzione quotidiana della directory, ad esempio della manutenzione dei gruppi di protezione, della creazione degli account e così via</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Amministratore desktop</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura e supporto</p></td>
 <td style="border:1px solid black;"><p>Organizzazione di grandi dimensioni</p></td>
 <td style="border:1px solid black;"><p>Responsabile della configurazione e del supporto dei computer desktop</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Consiglio di approvazione delle modifiche</p></td>
 <td style="border:1px solid black;"><p>Rilascio</p></td>
 <td style="border:1px solid black;"><p>Organizzazione di grandi dimensioni</p></td>
 <td style="border:1px solid black;"><p>Rappresentanti aziendali e tecnici ai quali viene richiesto di approvare le modifiche all'infrastruttura</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Mapping dei ruoli con i gruppi di protezione
@@ -506,47 +506,47 @@ Per i server IAS, i gruppi di protezione di dominio e locali vengono utilizzati 
 **Tabella 7. Mapping dei ruoli RADIUS e di protezione WLAN con i gruppi di protezione**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nome del ruolo</p></th>  
-<th><p>Gruppo di protezione di dominio</p></th>  
-<th><p>Gruppo di protezione locale</p></th>  
-<th><p>Privilegi</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nome del ruolo</p></th>
+<th><p>Gruppo di protezione di dominio</p></th>
+<th><p>Gruppo di protezione locale</p></th>
+<th><p>Privilegi</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Amministratore del Servizio di autenticazione Internet</p></td>
 <td style="border:1px solid black;"><p>IAS Admins</p></td>
 <td style="border:1px solid black;"><p>Administrators</p></td>
 <td style="border:1px solid black;"><p>Funzionalità di amministrazione complete sul server IAS, inclusi l'avvio e l'arresto del servizio IAS e la modifica della configurazione di tale servizio</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Controllori del Servizio di autenticazione Internet</p></td>
 <td style="border:1px solid black;"><p>IAS Security Auditors</p></td>
 <td style="border:1px solid black;"><p>N/D</p></td>
 <td style="border:1px solid black;"><p>Capacità di leggere ed eliminare i file registro delle richieste RADIUS nel volume di registrazione</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Operatori di backup IAS</p></td>
 <td style="border:1px solid black;"><p>N/D</p></td>
 <td style="border:1px solid black;"><p>Backup Operators</p></td>
 <td style="border:1px solid black;"><p>Backup e ripristino completi dello stato del sistema operativo e dei dati di configurazione IAS</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Personale del supporto tecnico WLAN</p></td>
 <td style="border:1px solid black;"><p>N/D</p></td>
 <td style="border:1px solid black;"><p>N/D</p></td>
 <td style="border:1px solid black;"><p>Collabora con il gruppo IAS Administrators per risolvere i problemi di autenticazione IAS (in alcuni casi può disporre delle autorizzazioni di lettura per le stesse risorse dei controllori della protezione IAS)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)
@@ -586,28 +586,28 @@ Il ruolo di amministrazione di rete è responsabile della progettazione e della 
 Per eseguire l'autenticazione e l'accounting con i server IAS occorre che i punti di accesso senza fili siano autorizzati. L'attivazione di nuovi punti di accesso senza fili come client RADIUS è una delle poche modifiche da apportare a un server IAS di produzione distribuito. Questa attività consente al punto di accesso senza fili di partecipare all'autenticazione RADIUS e all'accounting con il server IAS. Eseguire questa attività ogni volta che nuovi punti di accesso senza fili vengono distribuiti e configurati per la partecipazione all'autenticazione di rete.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Ogni volta che alla rete vengono aggiunti nuovi punti di accesso senza fili</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Appartenenza al gruppo di protezione IAS Admins</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Informazioni relative ai punti di accesso senza fili Accesso al disco dei client RADIUS di ciascun server (ubicato in un archivio protetto)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tecnologia richiesta:</p></td>
 <td style="border:1px solid black;"><p>Snap-in MMC (Microsoft Management Console) IAS<br />
@@ -666,19 +666,19 @@ La rimozione di punti di accesso senza fili di versioni precedenti utilizzati co
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Ogni volta che dei punti di accesso senza fili vengono rimossi dalla rete</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Membro del gruppo IAS Administrators</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Informazioni sul client RADIUS, quali indirizzo IP o nome</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tecnologia richiesta:</p></td>
 <td style="border:1px solid black;"><p>- Snap-in MMC IAS<br />
@@ -724,11 +724,11 @@ L'aggiunta di computer ai gruppi di protezione Criteri di gruppo basati su Activ
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Ogni volta che alla rete vengono aggiunti computer portatili</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>- Amministratore di dominio o autorizzazione all'aggiunta di utenti al gruppo di protezione Criterio rete senza fili<br />
@@ -743,8 +743,8 @@ L'aggiunta di computer ai gruppi di protezione Criteri di gruppo basati su Activ
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tecnologia richiesta:</p></td>
 <td style="border:1px solid black;"><p>Console di gestione Utenti e computer di Active Directory</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Dettagli relativi all'attività**
@@ -763,20 +763,20 @@ Se i criteri della rete senza fili sono configurati e funzionali, l'aggiunta di 
 L'aggiunta di computer e utenti al gruppo di criteri di accesso remoto consente l'accesso autorizzato alla rete WLAN. IAS utilizza l'appartenenza di questo gruppo ai criteri di accesso remoto come condizione per l'accesso. Per ottenere l'autorizzazione di accesso alla rete WLAN è necessario aggiungere computer e utenti ai gruppi di criteri di accesso remoto.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Ogni volta che agli utenti viene concesso l'accesso alla WLAN</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Amministratore di dominio o autorizzazione alla modifica dell'appartenenza dei gruppi di protezione Remote Access Policy<br />
@@ -786,12 +786,12 @@ L'aggiunta di computer e utenti al gruppo di criteri di accesso remoto consente 
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze</p></td>
 <td style="border:1px solid black;"><p>Creazione di gruppi di protezione dei criteri di accesso remoto Esistenza di computer e account utente in Active Directory</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tecnologia richiesta</p></td>
 <td style="border:1px solid black;"><p>Console di gestione di Utenti e computer di Active Directory</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Dettagli relativi all'attività**
@@ -829,24 +829,24 @@ Tuttavia, MOM non è necessario; è utilizzato semplicemente a scopo illustrativ
 Il sistema di monitoraggio dovrebbe segnalare solo gli avvisi più significativi al personale operativo. Se tutti gli errori secondari vengono passati al livello superiore per produrre avvisi di emergenze, il personale operativo farà confusione tra gli avvisi che sono urgenti e quelli che non lo sono ma che richiedono un'indagine a più lungo termine.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Attività di configurazione</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Nessuno</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>- Esistenza di un processo di pianificazione della capacità nell'organizzazione<br />
@@ -855,8 +855,8 @@ Il sistema di monitoraggio dovrebbe segnalare solo gli avvisi più significativi
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di tecnologia:</p></td>
 <td style="border:1px solid black;"><p>Console avvisi operativi (ad esempio MOM)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Dettagli relativi all'attività**
@@ -866,47 +866,47 @@ In questo documento vengono utilizzate le seguenti categorie di avvisi. Di quest
 **Tabella 8. Categorie di avvisi**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Categoria di avvisi</p></th>  
-<th><p>Descrizione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Categoria di avvisi</p></th>
+<th><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servizio non disponibile</p></td>
 <td style="border:1px solid black;"><p>Quando l'applicazione o il componente sono completamente non disponibili.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Violazione della protezione</p></td>
 <td style="border:1px solid black;"><p>Quando l'applicazione viene violata oppure è stata compromessa.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Errore critico</p></td>
 <td style="border:1px solid black;"><p>Quando nell'applicazione si è verificato un errore critico che richiede un'azione amministrativa rapida (ma non necessariamente immediata). L'applicazione o il componente funziona a un livello di prestazioni al di sotto della norma ma è ancora in grado di eseguire le operazioni più critiche.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Errore</p></td>
 <td style="border:1px solid black;"><p>Quando nell'applicazione si verifica un problema temporaneo che non richiede un'azione amministrativa o una risoluzione immediata o che addirittura non richiede alcuna azione. L'applicazione o il componente funziona a un livello di prestazioni accettabile ed è ancora in grado di eseguire tutte le operazioni critiche.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Avviso</p></td>
 <td style="border:1px solid black;"><p>Quando l'applicazione genera un messaggio di avviso che non richiede un'azione amministrativa o una risoluzione immediata o che addirittura non richiede alcuna azione. L'applicazione o il componente funziona a un livello di prestazioni accettabile ed è ancora in grado di eseguire tutte le operazioni critiche. Tuttavia, se il problema persiste, questa situazione potrebbe generare avvisi quali Errore, Errore critico oppure Servizio non disponibile.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Informazioni</p></td>
 <td style="border:1px solid black;"><p>Quando l'applicazione genera un evento informativo. L'applicazione o il componente funziona a un livello di prestazioni accettabile ed esegue tutte le operazioni critiche e non critiche.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Operazione riuscita</p></td>
 <td style="border:1px solid black;"><p>Quando l'applicazione genera un evento riuscito. L'applicazione o il componente funziona a un livello di prestazioni accettabile ed esegue tutte le operazioni critiche e non critiche.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Monitoraggio dei vincoli di capacità di IAS
@@ -914,32 +914,32 @@ In questo documento vengono utilizzate le seguenti categorie di avvisi. Di quest
 Il rilevamento di eventuali vincoli di capacità è essenziale per mantenere il servizio a un livello ottimale. Quando i sottosistemi si avvicinano al limite delle capacità operative, le prestazioni si riducono drasticamente (di solito non in modo lineare). Pertanto, è importante monitorare gli andamenti della capacità e identificare e risolvere in anticipo le tendenze verso vincoli futuri.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>- Infrastruttura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>- Attività di configurazione</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Autorizzazione necessaria come indicato dalla soluzione di monitoraggio</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Output alla funzione SMF della Gestione della capacità</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di tecnologia:</p></td>
 <td style="border:1px solid black;"><p>- Performance Monitor<br />
-- Consolidatore dei contatori delle prestazioni (ad esempio MOM)<br />  
+- Consolidatore dei contatori delle prestazioni (ad esempio MOM)<br />
 - Console avvisi operativi (ad esempio MOM)<br />
 - Strumenti di pianificazione della capacità</p></td>
 </tr>
@@ -972,33 +972,33 @@ I seguenti contatori delle prestazioni sono i più utili per l'identificazione d
 <td style="border:1px solid black;"><p>Processore</p></td>
 <td style="border:1px solid black;"><p>% Tempo processore</p></td>
 <td style="border:1px solid black;"><p>_Total</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Disco fisico</p></td>
 <td style="border:1px solid black;"><p>% Tempo disco</p></td>
 <td style="border:1px solid black;"><p>_Total</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disco fisico</p></td>
 <td style="border:1px solid black;"><p>Lunghezza media lettura coda del disco</p></td>
 <td style="border:1px solid black;"><p>_Total</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Disco fisico</p></td>
 <td style="border:1px solid black;"><p>Lunghezza media scrittura coda del disco</p></td>
 <td style="border:1px solid black;"><p>D: (IAS - DATA)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Interfaccia di rete</p></td>
 <td style="border:1px solid black;"><p>Byte totali/sec</p></td>
 <td style="border:1px solid black;"><p>Scheda di rete</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Memoria</p></td>
 <td style="border:1px solid black;"><p>% Byte vincolati in uso</p></td>
 <td style="border:1px solid black;"><p>---</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Per ulteriori informazioni generali sui vincoli di capacità e sui relativi contatori delle prestazioni, consultare l'articolo Q146005 della Microsoft Knowledge Base, "Optimizing Windows NT for Performance," all'indirizzo <http://support.microsoft.com/default.aspx?scid=146005> (in inglese).
@@ -1022,28 +1022,28 @@ Scopo di questa attività è pianificare un'attività notturna che esporti lo st
 In un backup completo del server IAS sono incluse tutte le informazioni di configurazione del sistema operativo e tutte le altre informazioni di stato da cui dipende il server IAS. Questa attività è stata sviluppata in modo da consentire la reinstallazione di un server, la reinstallazione dei componenti facoltativi di IAS e il ripristino dello stato di configurazione. In questo modo il ripristino del servizio di un server che non si trova più in uno stato di configurazione noto (inaffidabile) o la cui protezione è compromessa si rivela più semplice.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Gestione delle operazioni</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Attività di configurazione</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Membro del gruppo di protezione Administrators locale</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Presenza delle funzionalità o dei processi seguenti:<br />
-- Backup dei dischi/file dei server aziendali<br />  
+- Backup dei dischi/file dei server aziendali<br />
 - Percorsi di archiviazione protetti<br />
 - Sistema di escalation e di monitoraggio degli avvisi (ad esempio MOM)</p></td>
 </tr>
@@ -1091,15 +1091,15 @@ Per consentire un ripristino completo dello stato di configurazione IAS, le conf
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Attività di configurazione</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Membro del gruppo di protezione IAS Admins</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Presenza delle funzionalità o dei processi seguenti:<br />
@@ -1143,19 +1143,19 @@ Scopo di questa attività è fornire indicazioni sulle directory del server IAS 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Attività di configurazione</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Membro del gruppo di protezione locale Backup Operators</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Presenza delle funzionalità o dei processi seguenti:<br />
-- Backup dei dischi/file dei server aziendali<br />  
+- Backup dei dischi/file dei server aziendali<br />
 - Percorsi di archiviazione protetti<br />
 - Sistema di escalation e di monitoraggio degli avvisi (ad esempio MOM)</p></td>
 </tr>
@@ -1213,7 +1213,7 @@ Prima di eseguire un ripristino di prova, è necessario esportare manualmente i 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Gestione delle operazioni</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>- Prima che il server IAS diventi operativo<br />
@@ -1223,11 +1223,11 @@ Prima di eseguire un ripristino di prova, è necessario esportare manualmente i 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Privilegi di Local Administrators o di Backup Operators sul computer di prova</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Backup dei dischi/file dei server aziendali</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tecnologia richiesta:</p></td>
 <td style="border:1px solid black;"><p>- Backup di Windows o sistema di backup aziendale<br />
@@ -1315,19 +1315,19 @@ Per analizzare i registri delle richieste RADIUS archiviati come testo in format
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Protezione</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Ogni giorno oppure ogni settimana, a seconda dei requisiti di protezione</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Membro del gruppo di protezione IAS Security Auditors</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Archiviazione su disco per l'archiviazione temporanea dei registri delle richieste RADIUS</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tecnologia richiesta:</p></td>
 <td style="border:1px solid black;"><p>IASPARSE<br />
@@ -1390,24 +1390,24 @@ Questa attività è facoltativa ed è segnalata solo per le piccole organizzazio
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Protezione</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Ogni giorno oppure ogni settimana, a seconda dei requisiti di protezione</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Appartenenza al gruppo IAS Admins o al gruppo Administrators locale/incorporato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Questa attività è facoltativa e dipende dal privilegio di amministratore locale per il ruolo di controllore della protezione</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tecnologia richiesta:</p></td>
 <td style="border:1px solid black;"><p>Visualizzatore eventi o, a scelta, EventCombMT incluso in Windows Server 2003 Resource Kit</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Dettagli relativi all'attività**
@@ -1433,33 +1433,33 @@ Questa attività viene segnalata per gli ambienti di piccole dimensioni in cui i
 I controllori della protezione IAS dovranno archiviare ed eliminare periodicamente i file registro delle richieste IAS RADIUS per assicurare che lo spazio su disco del server IAS non si esaurisca causando l'interruzione del servizio per le richieste di autenticazione e accounting provenienti dai punti di accesso senza fili. Si tratta di un processo manuale, a meno di non ricorrere alla creazione di uno script per la soluzione o utilizzare la strategia di replica automatica SQL Server 2000 descritta nell'attività "Accesso ai registri delle richieste RADIUS IAS" presentata in questo modulo.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Protezione</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Ogni mese</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Appartenenza al gruppo di protezione IAS Security Auditors di Active Directory</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Supporti rimovibili per memorizzare i file registro RADIUS archiviati</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tecnologia richiesta:</p></td>
 <td style="border:1px solid black;"><p>Comandi nativi di Windows</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Dettagli relativi all'attività**
@@ -1509,33 +1509,33 @@ La gestione delle emergenze è il processo che consente di gestire e controllare
 La cartella Connessioni di rete e le icone di notifica di Windows XP forniscono informazioni sullo stato dell'autenticazione. Questa attività consente all'utente finale o ai membri del personale del servizio di assistenza di verificare lo stato della connessione senza fili sul computer client. Se un'autenticazione richiede informazioni aggiuntive da parte dell'utente, ad esempio la scelta di uno o più certificati utente, viene visualizzato un promemoria con le istruzioni per l'utente. Questa attività viene utilizzata durante la risoluzione dei problemi.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Supporto</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Durante la risoluzione dei problemi di un utente</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Appartenenza al gruppo di protezione Administrators locale per apportare modifiche alle impostazioni della rete WLAN</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Potrebbe richiedere la connessione LAN per l'assistenza remota durante la risoluzione dei problemi</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tecnologia richiesta:</p></td>
 <td style="border:1px solid black;"><p>Windows XP Professional</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Dettagli relativi all'attività**
@@ -1555,28 +1555,28 @@ Windows supporta informazioni di analisi dettagliate per agevolare il personale 
 Per ottenere informazioni dettagliate sul processo di autenticazione EAP, occorre attivare l'analisi di EAP sui componenti LAN (EAPOL) e RATLS (Remote Access Service - Transport Layer Security).
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Supporto</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Se necessario, durante la risoluzione dei problemi di rete WLAN di un client</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Appartenenza al gruppo di protezione Administrators locale</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Potrebbe richiedere la connessione LAN per l'assistenza remota durante la risoluzione dei problemi</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tecnologia richiesta:</p></td>
 <td style="border:1px solid black;"><p>- Windows XP Professional<br />
@@ -1626,24 +1626,24 @@ L'autenticazione non riesce se il client senza fili sta effettuando la convalida
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Supporto</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Configurazione oppure durante la risoluzione dei problemi WLAN degli utenti</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Appartenenza al gruppo di protezione Administrators locale</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Conoscenza del percorso di dominio di IAS</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tecnologia richiesta:</p></td>
 <td style="border:1px solid black;"><p>Windows XP Professional</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Dettagli relativi all'attività**
@@ -1677,33 +1677,33 @@ Questa attività consente agli amministratori IAS di agevolare il personale del 
 L'assegnazione a utenti senza privilegi di amministrazione dell'accesso non necessario ai Registri eventi di sistema pone rischi di protezione e pertanto dovrebbe essere evitato, se possibile. Ciò è vero in particolare per i server che combinano ruoli di server IAS e ruoli di server di controller di dominio.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Supporto</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Durante la risoluzione dei problemi di autenticazione dei client</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Appartenenza al gruppo di protezione IAS Administrators locale oppure a un gruppo che dispone dell'accesso in lettura/salvataggio al Registro eventi di sistema</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Approvazione da parte degli amministratori del servizio directory e del personale della protezione per l'appartenenza al gruppo di protezione appropriato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tecnologia richiesta:</p></td>
 <td style="border:1px solid black;"><p>Snap-in MMC Visualizzatore eventi o EventCombMT incluso in Windows Server 2003 Resource Kit</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Dettagli relativi all'attività**
@@ -1727,33 +1727,33 @@ Windows supporta informazioni di analisi dettagliate per agevolare il personale 
 Windows Server 2003 dispone di una funzionalità di analisi estesa che può essere utilizzata per la risoluzione di problemi complessi relativi a componenti specifici. In Windows Server 2003 è possibile consentire ai componenti di registrare le informazioni di analisi all'interno di file utilizzando il comando **netsh**.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Supporto</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Se necessario, durante la risoluzione dei problemi di connessione alla rete WLAN dei client</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Appartenenza al gruppo di protezione Administrators locale del server IAS</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>È necessaria la generazione di traffico di rete durante la risoluzione dei problemi</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tecnologia richiesta:</p></td>
 <td style="border:1px solid black;"><p>Comando <strong>netsh</strong> Blocco note</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Dettagli relativi all'attività**
@@ -1809,24 +1809,24 @@ Le informazioni di analisi riportate di seguito per IAS di solito non sono neces
 SChannel (Secure Channel) è un provider SSP (Security Support Provider) che supporta una serie di protocolli di protezione Internet, ad esempio SSL e TLS.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Responsabile del cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Supporto</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Se necessario, durante la risoluzione dei problemi di connessione client sul server IAS</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Appartenenza al gruppo di protezione Administrators locale</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Capacità di carico sul server sufficiente a sostenere la registrazione aggiuntiva<br />
@@ -1897,24 +1897,24 @@ Raramente le prestazioni costituiscono un problema per i server RADIUS IAS che s
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Secondo necessità</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Nessuno</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Nessuno</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di tecnologia:</p></td>
 <td style="border:1px solid black;"><p>Nessuno</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Dettagli relativi all'attività**
@@ -1924,31 +1924,31 @@ L'attività di test interna di Microsoft ha mostrato che IAS può raggiungere un
 **Tabella 10. Determinazione del carico sul server IAS**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Tipo di autenticazione</p></th>  
-<th><p>Autenticazioni al secondo</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Tipo di autenticazione</p></th>
+<th><p>Autenticazioni al secondo</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nuove autenticazioni EAP-TLS</p></td>
 <td style="border:1px solid black;"><p>36</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nuove autenticazioni EAP-TLS con scheda di supporto per la ripartizione del carico</p></td>
 <td style="border:1px solid black;"><p>50</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticazioni con Riconnessione rapida</p></td>
 <td style="border:1px solid black;"><p>166</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 IAS può essere configurato in modo che generi registri di testo basati su disco contenenti quantità variabili di informazioni sulle richieste RADIUS. Occorre considerare attentamente il sovraccarico che le attività di registrazione RADIUS comportano per i server RADIUS, in quanto i sottosistemi disco lenti possono ritardare le risposte RADIUS IAS ai dispositivi WAP, con conseguenti timeout dei protocolli e inutili operazioni di failover dei dispositivi WAP ai server RADIUS secondari.
@@ -1960,33 +1960,33 @@ Inoltre, l'attivazione delle funzionalità di analisi software di Windows Server
 In questa sezione vengono forniti i dettagli sulla capacità per i parametri di archiviazione IAS. Tali dettagli consentiranno ai pianificatori della capacità di calcolare i requisiti futuri per l'archiviazione di backup su disco e non in linea.
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Cluster di ruoli:</p></td>
 <td style="border:1px solid black;"><p>Infrastruttura</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Frequenza:</p></td>
 <td style="border:1px solid black;"><p>Secondo necessità</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di protezione:</p></td>
 <td style="border:1px solid black;"><p>Nessuno</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dipendenze:</p></td>
 <td style="border:1px solid black;"><p>Nessuno</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisiti di tecnologia:</p></td>
 <td style="border:1px solid black;"><p>Nessuno</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Dettagli relativi all'attività**
@@ -2048,41 +2048,41 @@ Nelle tabelle che seguono sono contenute le informazioni di configurazione speci
 **Tabella 11. Elementi di configurazione definiti dall'utente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento di configurazione</p></th>  
-<th><p>Impostazione</p></th>  
-<th><p>Nome variabile</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento di configurazione</p></th>
+<th><p>Impostazione</p></th>
+<th><p>Nome variabile</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nome DNS del dominio principale dell'insieme di strutture di Microsoft Active Directory</p></td>
 <td style="border:1px solid black;"><p>woodgrovebank.com</p></td>
 <td style="border:1px solid black;"><p>ForestRootDomain</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nome NetBIOS (Network Basic Input/Output System) del dominio</p></td>
 <td style="border:1px solid black;"><p>WOODGROVEBANK</p></td>
 <td style="border:1px solid black;"><p>NBDomainName</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nome server del server IAS principale</p></td>
 <td style="border:1px solid black;"><p>MSS - IAS - 01</p></td>
 <td style="border:1px solid black;"><p>PrimaryIAShostname</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nome server del server IAS secondario</p></td>
 <td style="border:1px solid black;"><p>MSS - IAS - 02</p></td>
 <td style="border:1px solid black;"><p>SecondaryIAShostname</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Parametri di configurazione della soluzione
@@ -2090,151 +2090,151 @@ Nelle tabelle che seguono sono contenute le informazioni di configurazione speci
 **Tabella 12. Elementi di configurazione prescritti nella soluzione**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento di configurazione</p></th>  
-<th><p>Impostazione</p></th>  
-<th><p>Nome variabile</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento di configurazione</p></th>
+<th><p>Impostazione</p></th>
+<th><p>Nome variabile</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Account] Nome completo del gruppo amministrativo che controlla la configurazione di IAS</p></td>
 <td style="border:1px solid black;"><p>IAS Admins</p></td>
 <td style="border:1px solid black;"><p><em>IASAdminsGroup</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Account] Nome pre-Windows 2000 del gruppo amministrativo che controlla la configurazione di IAS</p></td>
 <td style="border:1px solid black;"><p>IAS Admins</p></td>
 <td style="border:1px solid black;"><p><em>IASAdminsNTGroup</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Account] Nome completo del gruppo che esamina i registri delle richieste di autenticazione e accounting IAS a fini di protezione</p></td>
 <td style="border:1px solid black;"><p>IAS Security Auditors</p></td>
 <td style="border:1px solid black;"><p><em>IASSecAuditGroup</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Account] Nome pre-Windows 2000 del gruppo che esamina i registri delle richieste di autenticazione e accounting IAS a fini di protezione</p></td>
 <td style="border:1px solid black;"><p>IAS Security Auditors</p></td>
 <td style="border:1px solid black;"><p><em>IASSecAuditNTGroup</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Account] Gruppo globale Active Directory contenente gli utenti che richiedono certificati di autenticazione 802.1x</p></td>
 <td style="border:1px solid black;"><p>AutoEnroll Client Authentication - User Certificate</p></td>
 <td style="border:1px solid black;"><p><em>EnrollUserCertGroup</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Account] Gruppo globale Active Directory contenente i computer che richiedono certificati di autenticazione 802.1x</p></td>
 <td style="border:1px solid black;"><p>AutoEnroll Client Authentication - Computer Certificate</p></td>
 <td style="border:1px solid black;"><p><em>EnrollComputerCertGroup</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Account] Gruppo globale Active Directory contenente i server IAS che richiedono certificati di autenticazione 802.1X</p></td>
 <td style="border:1px solid black;"><p>AutoEnroll RAS and IAS Server Authentication Certificate</p></td>
 <td style="border:1px solid black;"><p>EnrollIASCertGroup</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Account] Nome pre-Windows 2000 del gruppo globale Microsoft Active Directory contenente i server IAS che richiedono certificati di autenticazione 802.1X</p></td>
 <td style="border:1px solid black;"><p>AutoEnroll RAS and IAS Server Authentication Certificate</p></td>
 <td style="border:1px solid black;"><p><em>EnrollIASCertNTGroup</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Account] Gruppo globale Active Directory contenente gli utenti a cui è consentito l'accesso alla rete senza fili</p></td>
 <td style="border:1px solid black;"><p>Remote Access Policy - Wireless Users</p></td>
 <td style="border:1px solid black;"><p><em>WLANUsersGroup</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Account] Gruppo globale Active Directory contenente i computer a cui è consentito l'accesso alla rete senza fili</p></td>
 <td style="border:1px solid black;"><p>Remote Access Policy - Wireless Computers</p></td>
 <td style="border:1px solid black;"><p><em>WLANComputersGroup</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Account] Gruppo universale Active Directory contenente il gruppo Wireless Users e il gruppo Wireless Computers</p></td>
 <td style="border:1px solid black;"><p>Remote Access Policy - Wireless Access</p></td>
 <td style="border:1px solid black;"><p><em>WLANAccessGroup</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Account] Gruppo globale Active Directory contenente i computer che richiedono la configurazione delle proprietà della rete senza fili mediante Criteri di gruppo di Active Directory</p></td>
 <td style="border:1px solid black;"><p>Wireless Network Policy - Computer</p></td>
 <td style="border:1px solid black;"><p><em>WLANConfigPolicyGroup</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Certificati] Modello di certificato utilizzato per generare i certificati per l'autenticazione client degli utenti</p></td>
 <td style="border:1px solid black;"><p>Client Authentication - User</p></td>
 <td style="border:1px solid black;"><p><em>UserClientAuthTemplate</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Certificati] Modello di certificato utilizzato per generare i certificati per l'autenticazione client dei computer</p></td>
 <td style="border:1px solid black;"><p>Client Authentication - Computer</p></td>
 <td style="border:1px solid black;"><p><em>ComputerClientAuthTemplate</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Certificati] Modello di certificato utilizzato per generare i certificati di autenticazione server che dovranno essere utilizzati da IAS</p></td>
 <td style="border:1px solid black;"><p>RAS and IAS Server Authentication</p></td>
 <td style="border:1px solid black;"><p><em>IASServerCertificate</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Script] Percorso degli script di installazione</p></td>
 <td style="border:1px solid black;"><p>C:\MSSScripts</p></td>
 <td style="border:1px solid black;"><p><em>ScriptPath</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Script] File batch di esportazione della configurazione IAS</p></td>
 <td style="border:1px solid black;"><p>IASExport.bat</p></td>
 <td style="border:1px solid black;"><p><em>IASExportBatch</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Script] File batch di importazione della configurazione IAS</p></td>
 <td style="border:1px solid black;"><p>IASImport.bat</p></td>
 <td style="border:1px solid black;"><p><em>IASImportBatch</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Script] File batch di esportazione della configurazione dei client IAS</p></td>
 <td style="border:1px solid black;"><p>IASClientExport.bat</p></td>
 <td style="border:1px solid black;"><p><em>IASClientExportBatch</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Script] File batch di importazione della configurazione dei client IAS</p></td>
 <td style="border:1px solid black;"><p>IASClientImport.bat</p></td>
 <td style="border:1px solid black;"><p><em>IASClientImportBatch</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Config] Percorso dei file di backup della configurazione</p></td>
 <td style="border:1px solid black;"><p>D:\IASConfig</p></td>
 <td style="border:1px solid black;"><p><em>ConfigPath</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Registri richieste] Percorso dei registri delle richieste di autenticazione e controllo IAS</p></td>
 <td style="border:1px solid black;"><p>D:\IASLogs</p></td>
 <td style="border:1px solid black;"><p><em>IASRequestLogLocation</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Registri richieste] Nome della condivisione dei registri delle richieste RADIUS</p></td>
 <td style="border:1px solid black;"><p>IASLogs</p></td>
 <td style="border:1px solid black;"><p><em>IASLogShare</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Criterio di accesso remoto] Nome del criterio</p></td>
 <td style="border:1px solid black;"><p>Allow Wireless Access</p></td>
 <td style="border:1px solid black;"><p><em>IASRAPName</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Criteri di gruppo] Nome dell'oggetto Criteri di gruppo (GPO) di Active Directory</p></td>
 <td style="border:1px solid black;"><p>Wireless Network Policy</p></td>
 <td style="border:1px solid black;"><p><em>GPONameForWLAN</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Criteri di gruppo] Criterio della rete senza fili all'interno dell'oggetto Criteri di gruppo</p></td>
 <td style="border:1px solid black;"><p>Client Computer Wireless Configuration</p></td>
 <td style="border:1px solid black;"><p><em>ClientWLANPolicy</em></p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

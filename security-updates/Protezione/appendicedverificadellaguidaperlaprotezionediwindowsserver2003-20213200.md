@@ -304,21 +304,21 @@ La scala di severità dell'errore è descritta nella seguente tabella. La scala 
 <tr class="odd">
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p>– L'errore impedisce la creazione o ulteriori test<br />
-. – L'errore ha causato l'accessibilità non prevista dell'utente.<br />  
-– I punti descritti nella documentazione non erano chiari.<br />  
+. – L'errore ha causato l'accessibilità non prevista dell'utente.<br />
+– I punti descritti nella documentazione non erano chiari.<br />
 – I risultati o il comportamento di una funzione o del processo contraddicono i risultati previsti (come documentato nella specifica funzionale.)<br />
 – Grave discrepanza tra i file del modello di protezione e la specifica funzionale.</p></td>
 <td style="border:1px solid black;"><p>– La soluzione non funziona.<br />
-– L'utente non ha potuto iniziare a usare componenti importanti del computer o della rete.<br />  
-– L'utente ha accesso a privilegi che non dovrebbero essere consentiti.<br />  
-– È stato bloccato l'accesso dell'utente a certi server che avrebbero dovuto essere consentiti.<br />  
+– L'utente non ha potuto iniziare a usare componenti importanti del computer o della rete.<br />
+– L'utente ha accesso a privilegi che non dovrebbero essere consentiti.<br />
+– È stato bloccato l'accesso dell'utente a certi server che avrebbero dovuto essere consentiti.<br />
 – Non sono stati ottenuti i risultati previsti.<br />
 – Non è possibile continuare con i test senza aver prima risolto questi problemi.</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>2</p></td>
 <td style="border:1px solid black;"><p>– I punti definiti nella guida non sono chiari.<br />
-– La funzionalità documentata manca (in questo caso, il test è stato bloccato).<br />  
+– La funzionalità documentata manca (in questo caso, il test è stato bloccato).<br />
 – La documentazione manca o è inadeguata.<br />
 – Incoerenze tra i file del modello di protezione e il contenuto nella guida, ma il file del modello di protezione è conforme alle specifiche funzionali.</p></td>
 <td style="border:1px solid black;"><p>– L'utente non è riuscito a trovare una soluzione per ovviare il problema.<br />
@@ -331,7 +331,7 @@ La scala di severità dell'errore è descritta nella seguente tabella. La scala 
 – Errori e inesattezze nella documentazione.<br />
 – Errori ortografici nel testo.</p></td>
 <td style="border:1px solid black;"><p>– L'utente ha trovato una semplice soluzione per ovviare il problema.<br />
-– L'utente ha potuto trovare facilmente una soluzione.<br />  
+– L'utente ha potuto trovare facilmente una soluzione.<br />
 – L'errore non causa esperienze negative agli utenti.<br />
 – I principali requisiti aziendali rimangono funzionali.</p></td>
 </tr>
@@ -340,8 +340,8 @@ La scala di severità dell'errore è descritta nella seguente tabella. La scala 
 <td style="border:1px solid black;"><p>– Suggerimenti.<br />
 – Miglioramenti futuri.</p></td>
 <td style="border:1px solid black;"><p>– Chiaramente non destinati a questa versione.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

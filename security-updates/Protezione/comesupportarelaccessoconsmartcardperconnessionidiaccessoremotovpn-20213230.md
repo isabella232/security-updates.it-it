@@ -603,11 +603,11 @@ La tabella seguente mostra alcune linee guida per la risoluzione dei problemi re
 <tr class="even">
 <td style="border:1px solid black;"><p>Il client tenta di stabilire una connessione prima della creazione della VPN.</p></td>
 <td style="border:1px solid black;"><p>Configurare il client in modo che non stabilisca una connessione iniziale.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Il client non tenta di stabilire una connessione prima della creazione della VPN.</p></td>
 <td style="border:1px solid black;"><p>Configurare il client in modo che stabilisca una connessione iniziale.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Quando il client tenta di creare la VPN, viene richiesto un nome utente, un dominio e una password.</p></td>
 <td style="border:1px solid black;"><p>Verificare che la connessione VPN sia configurata per l'uso di una smart card.</p>

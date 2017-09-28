@@ -53,8 +53,8 @@ La tabella seguente mostra i nomi dei modelli di protezione del file server per 
 <td style="border:1px solid black;"><p>LC-File Server.inf</p></td>
 <td style="border:1px solid black;"><p>EC-File Server.inf</p></td>
 <td style="border:1px solid black;"><p>SSLF-File Server.inf</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Per le informazioni sulle impostazioni di criterio nell'MSBP, consultare il Capitolo 4, “Criterio di base per un server membro". Per informazioni su tutte le impostazioni di criteri predefinite, consultare la guida correlata, [*Pericoli e contromisure: impostazioni di protezione per Windows Server 2003 e Windows XP*](http://technet.microsoft.com/it-it/library/dd162275)*, *disponibile all'indirizzo * *http://www.microsoft.com/italy/technet/security/topics/serversecurity/tcg/tcgch00.mspx.

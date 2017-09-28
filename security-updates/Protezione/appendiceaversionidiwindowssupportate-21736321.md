@@ -52,7 +52,7 @@ Se la versione di un sistema operativo non è visualizzata accanto al ruolo, sig
 <p>- Windows XP Professional Tablet Edition</p></td>
 <td style="border:1px solid black;"><p>Supportato e testato</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Microsoft Windows 2000</p></td>
@@ -80,100 +80,100 @@ Se la versione di un sistema operativo non è visualizzata accanto al ruolo, sig
 <td style="border:1px solid black;"><p>Microsoft Windows Server™ 2003, Standard Edition</p></td>
 <td style="border:1px solid black;"><p>Supportato e testato</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>- Windows Server 2003, Enterprise Edition</p>
 <p>- Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Supportato</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Autorità di certificazione di terze parti</p></td>
 <td style="border:1px solid black;"><p>Sconosciuto</p></td>
 <td style="border:1px solid black;"><p>Deve supportare la revoca.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CA di emissione</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003, Enterprise Edition</p></td>
 <td style="border:1px solid black;"><p>Supportato e testato</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>- Altre versioni Windows Server</p>
 <p>- Autorità di certificazione di terze parti</p></td>
 <td style="border:1px solid black;"><p>Non supportate</p></td>
 <td style="border:1px solid black;"><p>Possono essere generati certificati utilizzabili.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Server RADIUS</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003, Standard Edition o Enterprise Edition</p></td>
 <td style="border:1px solid black;"><p>Supportato e testato</p></td>
 <td style="border:1px solid black;"><p>L'edizione Standard supporta non più di 50 punti di accesso.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Supportato</p></td>
 <td style="border:1px solid black;"><p>Il Servizio autenticazione Internet (IAS) di Windows 2000 può essere utilizzato per 802.1X senza fili con la perdita di alcune funzionalità.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Altre piattaforme</p></td>
 <td style="border:1px solid black;"><p>Non supportate</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Controller di dominio</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003, Standard Edition o Enterprise Edition</p></td>
 <td style="border:1px solid black;"><p>Supportato e testato</p></td>
 <td style="border:1px solid black;"><p>Il servizio directory Active Directory® deve disporre di uno schema Windows 2003 e un dominio nella modalità nativa Windows 2000 o versioni successive.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Supportato</p></td>
 <td style="border:1px solid black;"><p>Active Directory® deve disporre di uno schema Windows 2003 e un dominio nella modalità nativa Windows 2000 o versioni successive.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Server Web</p></td>
 <td style="border:1px solid black;"><p>Internet Information Service (IIS): Windows Server 2003</p></td>
 <td style="border:1px solid black;"><p>Supportato e testato</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>IIS: Windows 2000</p></td>
 <td style="border:1px solid black;"><p>Supportato</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Altre piattaforme</p></td>
 <td style="border:1px solid black;"><p>Non supportate</p></td>
 <td style="border:1px solid black;"><p>La maggior parte dei server Web funzionano con la pubblicazione di certificati CA ed elenchi di revoche di certificati (CRL). È necessario il supporto delle pagine ASP (Active Server Pages) per le pagine di registrazione CA.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Server infrastruttura, quali DNS (Domain Name System) e DHCP (Dynamic Host Configuration Protocol)</p></td>
 <td style="border:1px solid black;"><p>Windows Server 2003, Standard Edition o Enterprise Edition</p></td>
 <td style="border:1px solid black;"><p>Supportato e testato</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
 <td style="border:1px solid black;"><p>Supportato</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Altre piattaforme</p></td>
 <td style="border:1px solid black;"><p>Sconosciuto</p></td>
 <td style="border:1px solid black;"><p>DNS, le soluzioni di gestione e DHCP di terze parti dovrebbero funzionare con questa soluzione, purché siano soddisfatti i requisiti di base per i client Windows e Active Directory.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

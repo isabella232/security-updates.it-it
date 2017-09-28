@@ -154,26 +154,26 @@ Questa soluzione si rivolge alle organizzazioni che adottano Active Directory e 
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nome principale utente (UPN, User Principal Name)</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Controllo dell'accesso tramite autorizzazione Criteri di accesso remoto disponibile nell'account utente</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Supporto per il protocollo EAP-TLS</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>Sì</p></td>
 <td style="border:1px solid black;"><p>No</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** anche l'implementazione di Servizi certificati inclusa in questa soluzione richiede Active Directory. Per ulteriori informazioni, vedere il modulo "[Progettazione di un'infrastruttura a chiave pubblica](http://www.microsoft.com/italy/technet/security/guidance/secmod170.mspx)".
@@ -211,26 +211,26 @@ Nella tabella seguente vengono descritte alcune delle capacità dei server confi
 **Tabella 2. Ruoli RADIUS di un server IAS**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Ruolo RADIUS del server IAS</p></th>  
-<th><p>Capacità</p></th>  
-<th><p>Scenario</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Ruolo RADIUS del server IAS</p></th>
+<th><p>Capacità</p></th>
+<th><p>Scenario</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Server RADIUS</p></td>
 <td style="border:1px solid black;"><p>—- Controlla le credenziali direttamente in Active Directory.<br />
 —- Utilizza Criteri di accesso remoto per determinare l'accesso alla rete.</p></td>
 <td style="border:1px solid black;"><p>Necessario per tutti gli scenari di gestione dell'accesso alla rete.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Proxy RADIUS</p></td>
 <td style="border:1px solid black;"><p>—- Indirizza la richiesta in base alle sue proprietà.<br />
@@ -243,8 +243,8 @@ Nella tabella seguente vengono descritte alcune delle capacità dei server confi
 <td style="border:1px solid black;"><p>Server e proxy RADIUS</p></td>
 <td style="border:1px solid black;"><p>Combinazione delle due precedenti capacità.</p></td>
 <td style="border:1px solid black;"><p>Combinazione dei due scenari.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Non tutti i ruoli RADIUS sono necessari per gli scenari di gestione dell'accesso alla rete. Per molte organizzazioni, ad esempio, la gestione dell'accesso WLAN richiede solo il ruolo di server RADIUS. Se tuttavia l'organizzazione prevede di utilizzare l'infrastruttura di rete senza fili per utenti e dispositivi di più insiemi di strutture Active Directory, è necessario anche il ruolo di proxy RADIUS, onde indirizzare le richieste ai diversi server RADIUS di ciascun insieme di strutture.
@@ -264,28 +264,28 @@ Nella tabella seguente vengono illustrate le varie opzioni che consentono di ass
 **Tabella 3. Opzioni per il failover e il bilanciamento del carico EAP-RADIUS**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Metodo di failover e bilanciamento del carico</p></th>  
-<th><p>Vantaggi</p></th>  
-<th><p>Svantaggi</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Metodo di failover e bilanciamento del carico</p></th>
+<th><p>Vantaggi</p></th>
+<th><p>Svantaggi</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Proxy IAS con gruppi di server RADIUS</p></td>
 <td style="border:1px solid black;"><p>- — Rilevamento del mancato funzionamento del servizio RADIUS con failover e failback.<br />
-—- Distribuzione del carico di traffico in base alle proprietà del traffico stesso.<br />  
+—- Distribuzione del carico di traffico in base alle proprietà del traffico stesso.<br />
 -— Gestione dello stato della sessione EAP durante l'esecuzione del bilanciamento del carico.<br />
 -— Distribuzione delle richieste sui server in base alle impostazioni di priorità e peso.</p></td>
 <td style="border:1px solid black;"><p>Server IAS aggiuntivi necessari.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Impostazione dei server RADIUS principale e secondario nei punti di accesso senza fili</p></td>
 <td style="border:1px solid black;"><p>- — Configurazione semplificata per ambienti di ridotte dimensioni.<br />
@@ -390,7 +390,7 @@ Le organizzazioni prive di SQL Server 2000 o a corto di personale in grado di es
 <tr class="odd">
 <td style="border:1px solid black;"><p>La dimensione del Registro eventi sistema indicata nel modello dei criteri di gruppo IAS della documentazione <em>Windows Server 2003 Security Guide</em> è stata incrementata rispetto al valore predefinito, al fine di poter registrare i numerosi eventi IAS.</p></td>
 <td style="border:1px solid black;"><p>Se si sceglie di non attivare la registrazione delle richieste di autenticazione RADIUS, il Registro eventi sistema rappresenta la registrazione principale degli eventi di protezione connessi all'accesso alla rete WLAN. Considerare con attenzione le impostazioni, ad esempio l'impostazione predefinita per <strong>Sovrascrivi eventi se necessario</strong>.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>È stata attivata la registrazione delle richieste di accounting e autenticazione RADIUS in file di testo.</p></td>
 <td style="border:1px solid black;"><p>Questa decisione comporta un aumento del carico sulla CPU e dei requisiti di spazio su disco dei server IAS.<br />
@@ -399,24 +399,24 @@ IAS interromperà l'accettazione delle richieste di autenticazione e accounting 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Le specifiche hardware dei server IAS indicate nella presente guida prevedono un volume disco distinto per i file di registro su dischi fisici separati.</p></td>
 <td style="border:1px solid black;"><p>Questa decisione assicura che le prestazioni in scrittura dei file di registro delle richieste RADIUS incidano il meno possibile sulla gestione dell'accesso alla rete RADIUS. Questa decisione garantisce inoltre che gli eventi che provocano il riempimento di un volume disco non incidano sulla recuperabilità dei server.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Le voci relative all'autenticazione e all'accounting RADIUS sono state selezionate, mentre non lo sono quelle relative allo stato periodico.</p></td>
 <td style="border:1px solid black;"><p>Questa decisione è stata presa per assicurare che vengano registrate solo le informazioni essenziali necessarie per determinare lo stato delle autenticazioni e la durata delle sessioni. Lo stato periodico è stato omesso per ridurre i requisiti dei file di registro.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Per i file di registro dell'autenticazione e accounting RADIUS è stato scelto il formato di database compatibile con ODBC (Open Database Connectivity).</p></td>
 <td style="border:1px solid black;"><p>Questa scelta consente agli amministratori di importare con facilità i file di registro in database compatibili con ODBC, così da semplificarne l'analisi, e può considerarsi una procedura consigliata. Inoltre, per esplorare i file è possibile utilizzare ASPARSE.EXE, incluso negli strumenti di supporto di Windows Server 2003.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>L'intervallo per la creazione di nuovi file di registro è stato impostato su <strong>Mensile</strong>.</p></td>
 <td style="border:1px solid black;"><p>La scelta di un intervallo che generi meno file di registro ne facilita l'importazione nei database o l'esplorazione mediante IASPARSE.EXE se la registrazione SQL Server non viene utilizzata. Questa opzione dovrebbe essere considerata a fronte del rischio di riempire un disco rigido con un solo file di registro.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>La registrazione delle richieste RADIUS è stata impostata in modo tale da eliminare il file di registro meno recente quando il disco è pieno.</p></td>
 <td style="border:1px solid black;"><p>Il rischio di questa impostazione predefinita è rappresentato dal fatto che le informazioni di protezione possono andare perse qualora il disco di un file di registro divenga pieno. Questa impostazione è stata scelta per ridurre al minimo il rischio che i server IAS smettano di funzionare in ambienti gestititi in maniera approssimativa. Se per la disponibilità dei servizi è fondamentale disporre di un maggior livello di protezione, è opportuno prendere in considerazione la disattivazione di questa opzione.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Scelta di centralizzare o distribuire i server
@@ -465,33 +465,33 @@ A motivo del grande volume di interazioni con i controller di dominio Active Dir
 **Tabella 5. Considerazioni sull'installazione di IAS e dei controller di dominio sullo stesso hardware**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Posizione di IAS</p></th>  
-<th><p>Vantaggi</p></th>  
-<th><p>Svantaggi</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Posizione di IAS</p></th>
+<th><p>Vantaggi</p></th>
+<th><p>Svantaggi</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Installato nei controller di dominio</p></td>
 <td style="border:1px solid black;"><p>- — Incremento delle prestazioni per l'autenticazione e l'autorizzazione di utenti e computer.<br />
 —- Richiede meno componenti hardware per server.</p></td>
 <td style="border:1px solid black;"><p>Nessuna separazione tra amministratori di IAS e amministratori di dominio.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Separatamente dai controller di dominio</p></td>
 <td style="border:1px solid black;"><p>- — Separazione tra amministratori di IAS e amministratori di dominio.<br />
 —- Il carico e il funzionamento di IAS non incidono sul servizio Active Directory.</p></td>
 <td style="border:1px solid black;"><p>Richiede hardware aggiuntivo per server.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 I controller di dominio Active Directory sono elementi essenziali dell'infrastruttura IT e devono essere gestiti con estrema cura. Molte organizzazioni aziendali adottano una politica che prevede di ridurre al minimo i programmi software o i servizi installati nei controller di dominio, per garantire la loro massima affidabilità e la continuità del servizio.
@@ -503,41 +503,41 @@ Occorre prestare attenzione al fatto che questa soluzione richiede la versione d
 **Tabella 6. Requisiti per i controller di dominio Windows Server 2003**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Fattore da valutare</p></th>  
-<th><p>Requisito</p></th>  
-<th><p>Commento</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Fattore da valutare</p></th>
+<th><p>Requisito</p></th>
+<th><p>Commento</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>I controller di dominio Windows Server 2003 richiedono per impostazione predefinita la firma dei pacchetti SMB (Server Message Block) e ciò causa problemi con alcune versioni precedenti di client Windows.</p></td>
 <td style="border:1px solid black;"><p>Aggiornare tutti i computer client almeno al sistema operativo Microsoft Windows 95 con il client Active Directory oppure al sistema operativo Microsoft Windows NT 4.0 con Service Pack 4 (SP4) o versione successiva.</p></td>
 <td style="border:1px solid black;"><p>Per ulteriori informazioni, vedere Windows Server 2003 Support Center.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>I controller di dominio Windows Server 2003 richiedono per impostazione predefinita la firma e la crittografia SChannel, e ciò causa problemi con alcune versioni precedenti di client Windows.</p></td>
 <td style="border:1px solid black;"><p>Aggiornare tutti i computer client almeno a Windows 95 con il client Active Directory oppure a Windows NT 4.0 con SP4 o versione successiva.</p></td>
 <td style="border:1px solid black;"><p>Per ulteriori informazioni, vedere Windows Server 2003 Support Center all'indirizzo <a href="http://support.microsoft.com/default.aspx?scid=fh;it;winsvr2003">http://support.microsoft.com/default.aspx?scid=fh;IT;winsvr2003</a>.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>I controller di dominio Windows Server 2003 richiedono per impostazione predefinita la firma e la crittografia SChannel, e ciò incide sulle relazioni di trust con i domini che includono server Windows NT 4.0 pre-SP4.</p></td>
 <td style="border:1px solid black;"><p>Aggiornare tutti i server del dominio a Windows NT Server 4.0 con SP4 o versione successiva.</p></td>
 <td style="border:1px solid black;"><p>Per ulteriori informazioni, vedere Windows Server 2003 Support Center all'indirizzo <a href="http://support.microsoft.com/default.aspx?scid=fh;it;winsvr2003">http://support.microsoft.com/default.aspx?scid=fh;IT;winsvr2003</a>.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>I controller di dominio Windows Server 2003 richiedono, prima dell'installazione, la preparazione dell'insieme di strutture Active Directory e del dominio.</p></td>
 <td style="border:1px solid black;"><p>Preparare il nuovo insieme di strutture utilizzando l'utilità ADPrep prima di eseguire l'aggiornamento dei controller di dominio a Windows Server 2003.</p></td>
 <td style="border:1px solid black;"><p>Ciò non incide sul set di attributi parziali e pertanto non causa una ricostituzione del server di catalogo globale.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Questa soluzione è stata ideata per consentire l'installazione di IAS sullo stesso hardware dei controller di dominio, se lo si desidera. La soluzione è stata collaudata con IAS separato dai controller di dominio Windows Server 2003 in sedi hub e installato insieme con Windows Server 2003 nei controller di dominio di filiali.
@@ -569,43 +569,43 @@ Pertanto, nel creare un modello per un determinato numero di autenticazioni che 
 **Tabella 7. Tipi di autenticazione**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Tipo di autenticazione</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Tipo di autenticazione</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticazione iniziale del computer</p></td>
 <td style="border:1px solid black;"><p>Il client esegue un'autenticazione completa con IAS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Autenticazione iniziale dell'utente</p></td>
 <td style="border:1px solid black;"><p>Il client esegue un'autenticazione completa con IAS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Riautenticazione dell'utente quando passa da un punto di accesso senza fili a un altro</p></td>
 <td style="border:1px solid black;"><p>Il client esegue un'autenticazione completa con ogni server IAS, quindi utilizza la funzione di Riconnessione rapida per le ulteriori autenticazioni.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Riautenticazione del dispositivo quando passa da un punto di accesso senza fili a un altro</p></td>
 <td style="border:1px solid black;"><p>Il client esegue un'autenticazione completa con ogni server IAS, quindi utilizza la funzione di Riconnessione rapida per le ulteriori autenticazioni.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Riautenticazione temporizzata del computer</p></td>
 <td style="border:1px solid black;"><p>Il client utilizza un'autenticazione memorizzata nella cache con IAS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Riautenticazione temporizzata dell'utente</p></td>
 <td style="border:1px solid black;"><p>Il client utilizza un'autenticazione memorizzata nella cache con IAS.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 La stima del numero di autenticazioni che IAS è in grado di gestire deve essere espressa in autenticazioni al secondo. È stato dimostrato che IAS è in grado di raggiungere le seguenti prestazioni con un server Intel Pentium 4 a 2 GHz su cui viene eseguito Windows Server 2003 e Active Directory installato su un altro server Intel Pentium 4 a 2 GHz. Le informazioni contenute nella tabella che segue vengono fornite senza alcuna garanzia e devono essere intese come mere linee guida ai fini della pianificazione della capacità e non ai fini di un confronto fra prestazioni.
@@ -613,31 +613,31 @@ La stima del numero di autenticazioni che IAS è in grado di gestire deve essere
 **Tabella 8. Autenticazioni al secondo**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Tipo di autenticazione</p></th>  
-<th><p>Autenticazioni al secondo</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Tipo di autenticazione</p></th>
+<th><p>Autenticazioni al secondo</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nuove autenticazioni EAP-TLS</p></td>
 <td style="border:1px solid black;"><p>36</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nuove autenticazioni EAP-TLS con scheda di supporto per la ripartizione del carico</p></td>
 <td style="border:1px solid black;"><p>50</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Autenticazioni con Riconnessione rapida</p></td>
 <td style="border:1px solid black;"><p>166</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 IAS può essere configurato in modo che generi registri di testo basati su disco contenenti quantità variabili di informazioni sulle richieste RADIUS. Occorre considerare attentamente il sovraccarico che le attività di registrazione RADIUS comportano per i server RADIUS, in quanto i sottosistemi disco a bassa velocità possono ritardare le risposte RADIUS IAS ai punti di accesso senza fili, con conseguenti timeout dei protocolli e inutili operazioni di failover dei punti di accesso senza fili ai server RADIUS secondari.
@@ -668,30 +668,30 @@ Nella tabella seguente viene indicato l'hardware dei server IAS utilizzato per i
 **Tabella 9. Hardware dei server collaudato**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Risorsa</p></th>  
-<th><p>Configurazione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Risorsa</p></th>
+<th><p>Configurazione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CPU</p></td>
 <td style="border:1px solid black;"><p>Pentium III a 850 MHz con doppia CPU</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>RAM</p></td>
 <td style="border:1px solid black;"><p>512 MB</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Scheda di rete</p></td>
 <td style="border:1px solid black;"><p>Due schede di rete abbinate per funzionalità di recupero dagli errori</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Disco rigido</p></td>
 <td style="border:1px solid black;"><p>- — Due dischi rigidi da 9 GB in configurazione RAID 1 (volume C$) per il sistema operativo<br />
@@ -764,7 +764,7 @@ IAS è un componente facoltativo del sistema operativo Windows Server 2003 e per
 <td style="border:1px solid black;"><p>IAS Administrators</p></td>
 <td style="border:1px solid black;"><p>Ruolo necessario per eseguire le attività amministrative quotidiane di IAS, ad esempio il controllo del servizio IAS e della configurazione di IAS</p></td>
 <td style="border:1px solid black;"><p>Avviare/arrestare/eseguire query/configurare il servizio IAS e apportare modifiche al database di configurazione di IAS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>IAS Security Auditors</p></td>
 <td style="border:1px solid black;"><p>Ruolo necessario per consentire l'accesso alle informazioni sulla protezione da parte dei membri del gruppo IAS Security Auditors con autorizzazioni non amministrative</p></td>
@@ -775,13 +775,13 @@ Se i registri delle richieste di autenticazione RADIUS sono disattivati, i membr
 <td style="border:1px solid black;"><p>IAS Backup Operators</p></td>
 <td style="border:1px solid black;"><p>Operatori responsabili dei backup regolari dei server IAS, nei quali sono inclusi lo stato della configurazione e i dati cronologici IAS</p></td>
 <td style="border:1px solid black;"><p>Gestire i backup quotidiani/settimanali/mensili dei server IAS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>WLAN Help Desk Staff</p></td>
 <td style="border:1px solid black;"><p>Personale responsabile dell'assistenza agli utenti nella soluzione di problemi correlati all'accesso alla rete WLAN</p></td>
 <td style="border:1px solid black;"><p>Esaminare gli eventi IAS inclusi nel Registro eventi sistema correlati all'autenticazione di utenti e dispositivi.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Nella tabella seguente sono illustrate le autorizzazioni per le risorse che occorre avere per eseguire le varie attività sui server IAS.
@@ -789,44 +789,44 @@ Nella tabella seguente sono illustrate le autorizzazioni per le risorse che occo
 **Tabella 11. Autorizzazioni necessarie per le attività sui server IAS**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Attività</p></th>  
-<th><p>Appartenenza al gruppo</p></th>  
-<th><p>Autorizzazione o diritti necessari</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Attività</p></th>
+<th><p>Appartenenza al gruppo</p></th>
+<th><p>Autorizzazione o diritti necessari</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Arrestare/avviare/<br />
-eseguire query/<br />  
+eseguire query/<br />
 configurare il servizio<br />
 IAS</p></td>
 <td style="border:1px solid black;"><p>Gruppo globale IAS Admins di Active Directory, incluso nel gruppo Administrators locale/incorporato sui server IAS</p></td>
 <td style="border:1px solid black;"><p>Le modifiche delle autorizzazioni per i servizi di Windows Server 2003 possono essere apportate mediante il comando <strong>SC</strong>. Consultare il personale dell'assistenza Microsoft prima di modificare le autorizzazioni predefinite per i componenti del sistema operativo.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Modificare la configurazione di IAS</p></td>
 <td style="border:1px solid black;"><p>Gruppo globale IAS Admins di Active Directory, incluso nel gruppo Administrators locale/incorporato sui server IAS</p></td>
 <td style="border:1px solid black;"><p>Sono necessarie le autorizzazioni per i file di database IAS che si trovano nella directory C:\WINDOWS\system32\ias, nonché per le varie chiavi del Registro di sistema incluse in <strong>HKLM\System\CurrentControlSet\Services</strong>. Per impostazione predefinita, tali autorizzazioni vengono accordate ai membri del gruppo di protezione Administrators locale/incorporato.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Accedere ai registri delle richieste RADIUS<br />
 che si trovano nei<br />
 server IAS</p></td>
 <td style="border:1px solid black;"><p>Gruppo globale IAS Security Auditors di Active Directory</p></td>
 <td style="border:1px solid black;"><p>I membri del gruppo IAS Security Auditors devono essere in grado di leggere ed eliminare i file di registro delle richieste RADIUS che si trovano nella directory D:\IASLogs. Le linee guida per l'implementazione incluse nella presente soluzione accordano l'autorizzazione Modifica del file system NTFS al gruppo di protezione IAS Security Auditors per questa directory e creano una condivisione chiamata IASLogs con l'autorizzazione di modifica accordata al gruppo di protezione IAS Security Auditors.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Leggere e salvare<br />
-gli eventi di protezione IAS<br />  
-inclusi nel<br />  
+gli eventi di protezione IAS<br />
+inclusi nel<br />
 Registro eventi<br />
 sistema</p></td>
 <td style="border:1px solid black;"><p>Administrators locale/incorporato<br />
@@ -840,12 +840,12 @@ Se però si decide di disattivare la registrazione dell'autenticazione RADIUS, i
 dei server IAS</p></td>
 <td style="border:1px solid black;"><p>Backup Operators</p></td>
 <td style="border:1px solid black;"><p>Il backup di IAS include lo stato della configurazione e i dati cronologici di IAS, ad esempio i registri delle richieste RADIUS. L'appartenenza al gruppo di protezione Backup Operators consente l'accesso ai file di database IAS situati nella directory C:\WINDOWS\system32\ias, alle varie chiavi del Registro di sistema in <strong>HKLM\System\CurrentControlSet\Services</strong>, ai file di registro delle richieste RADIUS in D:\IASLogs e ai file di testo di configurazione di IAS <strong>NETSH</strong> che si trovano in D:\IASConfig.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Esaminare gli eventi di autenticazione IAS inclusi nel Registro eventi sistema per risolvere i problemi</p></td>
 <td style="border:1px solid black;"><p>Appartenenza a un gruppo con autorizzazioni alla lettura del Registro eventi sistema</p></td>
 <td style="border:1px solid black;"><p>Al personale esperto di risoluzione dei problemi deve essere accordata<br />
-l'autorizzazione alla lettura del Registro eventi sistema di Windows Server<br />  
+l'autorizzazione alla lettura del Registro eventi sistema di Windows Server<br />
 2003, per visualizzare e interpretare<br />
 gli eventi di rifiuto dell'autenticazione IAS.</p></td>
 </tr>
@@ -886,12 +886,12 @@ Nella tabella seguente vengono elencati i possibili pericoli per l'infrastruttur
 <td style="border:1px solid black;"><p>Tentativo di attacco di tipo 'man-in-the-middle' eseguito mediante un punto di accesso senza fili manomesso</p></td>
 <td style="border:1px solid black;"><p>Monitor di sistema contrasta qualsiasi server IAS che presenta un numero eccessivo di istanze di autenticatori errati (attributo Bad Message Authenticator) o richieste non valide (ricevute da client o server RADIUS ignoti).</p></td>
 <td style="border:1px solid black;"><p>MOM con uno script personalizzato per rilevare le contromosse di Monitor di sistema e creare un avviso.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tentativi di attacco di tipo DoS o overflow del buffer contro il servizio dei server IAS</p></td>
 <td style="border:1px solid black;"><p>Monitor di sistema contrasta qualsiasi server IAS che presenta un numero eccessivo di istanze di pacchetti errati (pacchetti contenenti dati errati), tipo ignoto (ricezione di pacchetti non RADIUS) o pacchetti ignorati (diversi da quelli MAC errati/errati/ignoti).</p></td>
 <td style="border:1px solid black;"><p>MOM con uno script personalizzato per rilevare le contromosse di Monitor di sistema e creare un avviso.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tentativo di autenticazione non autorizzato</p></td>
 <td style="border:1px solid black;"><p>Eventi ripetuti di autenticazione non riuscita (origine: IAS, ID 2) nel Registro eventi sistema.</p></td>
@@ -933,7 +933,7 @@ Nella tabella che segue sono elencati i potenziali pericoli per l'infrastruttura
 <td style="border:1px solid black;"><p>Autorizzazione eccessiva per i dati cronologici e di configurazione di IAS</p></td>
 <td style="border:1px solid black;"><p>Membro non autorizzato dei gruppi IAS Admins, IAS Security Auditors o del gruppo locale Administrators.</p></td>
 <td style="border:1px solid black;"><p>Strumenti di controllo di Active Directory e dei gruppi di protezione locale, ad esempio DumpSec di SomarSoft.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tentativi di nascondere l'autenticazione non autorizzata</p></td>
 <td style="border:1px solid black;"><p>Il Registro eventi sistema è inaspettatamente vuoto.</p></td>
@@ -944,13 +944,13 @@ Nella tabella che segue sono elencati i potenziali pericoli per l'infrastruttura
 <td style="border:1px solid black;"><p>Accesso non autorizzato al file dei segreti condivisi dei client RADIUS</p></td>
 <td style="border:1px solid black;"><p>ID utente ignoto con accesso all'oggetto file aperto nei registri di controllo delle cartelle.</p></td>
 <td style="border:1px solid black;"><p>Strumento di controllo e monitoraggio dei file di Windows, ad esempio MOM.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Modifica non autorizzata dei registri di accounting e autenticazione RADIUS</p></td>
 <td style="border:1px solid black;"><p>ID utente inatteso con accesso in scrittura nei registri di controllo delle cartelle.</p></td>
 <td style="border:1px solid black;"><p>Strumento di controllo e monitoraggio dei file di Windows, ad esempio MOM.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)
@@ -986,46 +986,46 @@ Prima di iniziare la procedura di configurazione, occorre accertarsi di aver rac
 **Tabella 14. Elementi di configurazione definiti dall'utente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento di configurazione</p></th>  
-<th><p>Impostazione</p></th>  
-<th><p>Nome variabile</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento di configurazione</p></th>
+<th><p>Impostazione</p></th>
+<th><p>Nome variabile</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nome DNS (Domain Name System) del dominio principale dell'insieme di strutture Active Directory</p></td>
 <td style="border:1px solid black;"><p>woodgrovebank.com</p></td>
 <td style="border:1px solid black;"><p><em>ForestRootDomain</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nome NetBIOS (Network Basic Input/Output System) del dominio</p></td>
 <td style="border:1px solid black;"><p>WOODGROVEBANK</p></td>
 <td style="border:1px solid black;"><p><em>NBDomainName</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nome del server IAS principale</p></td>
 <td style="border:1px solid black;"><p>HQ— IAS — 01</p></td>
 <td style="border:1px solid black;"><p><em>PrimaryIAShostname</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nome del server IAS secondario</p></td>
 <td style="border:1px solid black;"><p>HQ— IAS — 02</p></td>
 <td style="border:1px solid black;"><p><em>SecondaryIAShostname</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nome del server IAS secondario</p></td>
 <td style="border:1px solid black;"><p>BO— IAS — 03</p></td>
 <td style="border:1px solid black;"><p><em>TertiaryIAShostname</em></p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Elementi di configurazione prescritti nella soluzione
@@ -1035,61 +1035,61 @@ Le impostazioni specificate in questa tabella non devono essere modificate se no
 **Tabella 15. Elementi di configurazione prescritti nella soluzione**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento di configurazione</p></th>  
-<th><p>Impostazione</p></th>  
-<th><p>Nome variabile</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento di configurazione</p></th>
+<th><p>Impostazione</p></th>
+<th><p>Nome variabile</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Accounts] Nome completo del gruppo amministrativo che controlla la configurazione di IAS</p></td>
 <td style="border:1px solid black;"><p>IAS Admins</p></td>
 <td style="border:1px solid black;"><p><em>IASAdminsGroup</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Accounts] Nome pre-Windows 2000 del gruppo amministrativo che controlla la configurazione di IAS</p></td>
 <td style="border:1px solid black;"><p>IAS Admins</p></td>
 <td style="border:1px solid black;"><p><em>IASAdminsNTGroup</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Accounts] Nome completo del gruppo che esamina i registri delle richieste di autenticazione e accounting IAS a fini di protezione</p></td>
 <td style="border:1px solid black;"><p>IAS Security Auditors</p></td>
 <td style="border:1px solid black;"><p><em>IASSecAuditGroup</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Accounts] Nome pre-Windows 2000 del gruppo che esamina i registri delle richieste di autenticazione e accounting IAS a fini di protezione</p></td>
 <td style="border:1px solid black;"><p>IAS Security Auditors</p></td>
 <td style="border:1px solid black;"><p><em>IASSecAuditNTGroup</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Scripts] Percorso degli script di installazione</p></td>
 <td style="border:1px solid black;"><p>C:\MSSScripts</p></td>
 <td style="border:1px solid black;"><p><em>ScriptPath</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Config] Percorso dei file di backup della configurazione</p></td>
 <td style="border:1px solid black;"><p>D:\IASConfig</p></td>
 <td style="border:1px solid black;"><p><em>ConfigPath</em></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>[Request Logs] Percorso dei registri delle richieste di autenticazione e controllo IAS</p></td>
 <td style="border:1px solid black;"><p>D:\IASLogs</p></td>
 <td style="border:1px solid black;"><p><em>IASLogLocation</em></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>[Request Logs] Nome della condivisione dei registri delle richieste RADIUS</p></td>
 <td style="border:1px solid black;"><p>IASLogs</p></td>
 <td style="border:1px solid black;"><p><em>IASLogShare</em></p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

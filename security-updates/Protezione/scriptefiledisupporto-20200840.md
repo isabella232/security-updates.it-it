@@ -51,19 +51,19 @@ Nella tabella seguente sono elencati tutti i file forniti con la soluzione. Ques
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>File CMD principali</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSSSetup.cmd</p>
 <p>MSSTools.cmd</p></td>
 <td style="border:1px solid black;"><p>Sono i file batch che forniscono l'interfaccia per i file Microsoft Windows Scripting Host (WSH) e semplificano la sintassi. Consentono di eseguire vari processi specificando il nome del processo come unico parametro della riga di comando. La sintassi è la seguente:</p>
-<p><strong>msssetup</strong><em>NomeProcesso</em> [/param:<em>valore</em>]</p>  
+<p><strong>msssetup</strong><em>NomeProcesso</em> [/param:<em>valore</em>]</p>
 <p><strong>msstools</strong> <em>NomeProcesso</em> [/param:<em>valore</em>]</p>
 <p>dove <em>NomeProcesso</em> è il nome dell'operazione. Se si esegue questo script senza specificare un nome di processo, verranno elencati tutti i processi disponibili, insieme a una breve descrizione della funzione di ognuno.</p></td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>File XML WSH</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>msssetup.wsf</p>
 <p>msstools.wsf</p></td>
@@ -74,84 +74,84 @@ Nella tabella seguente sono elencati tutti i file forniti con la soluzione. Ques
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>File VBScript</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ias_setup.vbs</p></td>
 <td style="border:1px solid black;"><p>Routine utilizzate durante l'installazione del Servizio autenticazione Internet (IAS).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ias_tools.vbs</p></td>
 <td style="border:1px solid black;"><p>Routine utilizzate durante l'esercizio e il monitoraggio di IAS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gen_setup.vbs</p></td>
 <td style="border:1px solid black;"><p>Routine non specifiche di IAS o di Servizi certificati, utilizzate durante l'implementazione.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ca_setup.vbs</p></td>
 <td style="border:1px solid black;"><p>Routine utilizzate durante l'installazione dell'Autorità di certificazione (CA).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ca_monitor.vbs</p></td>
 <td style="border:1px solid black;"><p>Routine utilizzate dalle funzioni di monitoraggio della CA.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>constants.vbs</p></td>
 <td style="border:1px solid black;"><p>Costanti utilizzate dagli altri file VBS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>helper.vbs</p></td>
 <td style="border:1px solid black;"><p>Routine generiche utilizzate dagli altri file VBS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
 <td style="border:1px solid black;"><p>Costanti utilizzate per definire molti dei parametri di installazione della CA.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>File vari</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>InstCAPICOM.cmd</p></td>
 <td style="border:1px solid black;"><p>File CMD che semplifica l'installazione di CAPICOM.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CreateShortCut.cmd</p></td>
 <td style="border:1px solid black;"><p>File CMD che richiama una routine dal file VBS per creare un collegamento sul desktop dell'utente. Il collegamento consente di avviare CMD.EXE con impostata la cartella di installazione degli script come directory corrente.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ComputerCerts.msc</p></td>
 <td style="border:1px solid black;"><p>Console di gestione predefinita per la visualizzazione dei certificati nell'archivio del computer.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>AddRADIUSClient.exe</p></td>
 <td style="border:1px solid black;"><p>Utilità che consente di aggiungere client RADIUS a IAS dalla riga di comando. (<strong>Nota:</strong> per poter utilizzare questo strumento deve essere installato .NET Framework.)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Interop.SDOIASLib.dll</p></td>
 <td style="border:1px solid black;"><p>Libreria di supporto richiesta da AddRADIUSClient.exe.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Source</p></td>
 <td style="border:1px solid black;"><p>Cartella contenente il codice sorgente per lo strumento AddRADIUSClient.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>File criteri di gruppo</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>MSSWLANGPOs</p></td>
 <td style="border:1px solid black;"><p>Questa cartella contiene il file di definizione XML e i file di dati per i due oggetti Criteri di gruppo predefiniti forniti con questa soluzione.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>Documenti</strong></p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Securing Wireless LANs.rtf</p></td>
 <td style="border:1px solid black;"><p>File leggimi contenente lo stesso testo di questa appendice.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)
@@ -177,83 +177,83 @@ In ognuno dei file WSF, il primo processo elenca i nomi (ID) e le descrizioni di
 **Tabella D.2: Elenco dei processi in MSSSetup.wsf**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nome processo</p></th>  
-<th><p>Descrizione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nome processo</p></th>
+<th><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ListJobs</p></td>
 <td style="border:1px solid black;"><p>Elenca tutti i processi presenti nel file WSF.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ConfigureCA</p></td>
 <td style="border:1px solid black;"><p>Configura i parametri del Registro di sistema per la CA.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ConfigureTemplates</p></td>
 <td style="border:1px solid black;"><p>Configura i modelli dei certificati della CA.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CheckCAEnvironment</p></td>
 <td style="border:1px solid black;"><p>Controlla l'ambiente prima dell'installazione della CA.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>InstallCA</p></td>
 <td style="border:1px solid black;"><p>Installa Servizi certificati.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CreateShortcut</p></td>
 <td style="border:1px solid black;"><p>Crea il collegamento a <strong>MSS WLAN Tools</strong> sul desktop.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ImportSecurityGPO</p></td>
 <td style="border:1px solid black;"><p>Importa nel dominio l'oggetto Criteri di gruppo con le impostazioni per la protezione dei server.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ImportAutoEnrollGPO</p></td>
 <td style="border:1px solid black;"><p>Importa nel dominio l'oggetto Criteri di gruppo con le impostazioni per la registrazione automatica dei certificati.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ImportWLANClientGPO*</p></td>
 <td style="border:1px solid black;"><p>Importa l'oggetto Criteri di gruppo con le impostazioni per la rete WLAN</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CheckDomainNativeMode</p></td>
 <td style="border:1px solid black;"><p>Controlla che il dominio sia in modalità nativa.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>VerifyCAInstall</p></td>
 <td style="border:1px solid black;"><p>Verifica che la CA sia stata installata in modo corretto.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>VerifyCAConfig</p></td>
 <td style="border:1px solid black;"><p>Verifica che la CA sia stata configurata in modo corretto.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CheckIASEnvironment</p></td>
 <td style="border:1px solid black;"><p>Controlla l'ambiente prima dell'installazione di IAS.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>InstallIAS</p></td>
 <td style="border:1px solid black;"><p>Installa il Servizio autenticazione Internet sul server.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CreateWLANGroups</p></td>
 <td style="border:1px solid black;"><p>Crea i gruppi di protezione in Active Directory®.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>AddWLANGroupMembers</p></td>
 <td style="border:1px solid black;"><p>Popola i gruppi di protezione con i membri corretti.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** i processi contrassegnati con un asterisco (\*) non vengono utilizzati in questa soluzione.
@@ -261,83 +261,83 @@ In ognuno dei file WSF, il primo processo elenca i nomi (ID) e le descrizioni di
 **Tabella D.3: Elenco dei processi in MSSTools.wsf**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Nome processo</p></th>  
-<th><p>Descrizione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Nome processo</p></th>
+<th><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ListJobs</p></td>
 <td style="border:1px solid black;"><p>Elenca tutti i processi presenti nel file WSF.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>AddRADIUSClient</p></td>
 <td style="border:1px solid black;"><p>Procedura interattiva per aggiungere un client RADIUS a IAS (parametri: [/path:<em>NomeFileOutput</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>AddSecRADIUSClients</p></td>
 <td style="border:1px solid black;"><p>Procedura interattiva per aggiungere un client RADIUS a IAS (parametri: [/path:<em>NomeFileInput</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>GenRADIUSPwd</p></td>
 <td style="border:1px solid black;"><p>Genera voce e password per il client RADIUS (parametri: /client:<em>NomeClient</em> /ip:<em>IndirizzoIPClient</em> [/path:<em>FileOutput</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ExportIASSettings</p></td>
 <td style="border:1px solid black;"><p>Esporta su file la configurazione del server IAS (parametri: [/path:<em>CartellaDestinazioneFileImpostazioni</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ImportIASSettings</p></td>
 <td style="border:1px solid black;"><p>Importa dai file la configurazione del server IAS (parametri: [/path:<em>CartellaFileDaImportare</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ExportIASClients</p></td>
 <td style="border:1px solid black;"><p>Esporta su file i client RADIUS (parametri: [/path:<em>CartellaDestinazioneFileClient</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ImportIASClients</p></td>
 <td style="border:1px solid black;"><p>Importa dal file i client RADIUS (parametri: [/path:<em>CartellaFileClientDaImportare</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>BackupIAS</p></td>
 <td style="border:1px solid black;"><p>Esegue il backup su file di tutte le impostazioni di IAS (parametri: [/path:<em>CartellaDestinazioneFileBackup</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>RestoreIAS</p></td>
 <td style="border:1px solid black;"><p>Ripristina da file tutte le impostazioni di IAS (parametri: [/path:<em>CartellaFileDaRipristinare</em>]).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CheckIAS</p></td>
 <td style="border:1px solid black;"><p>Controlla che il server IAS risponda (parametri: [/verbose]).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>CheckCA</p></td>
 <td style="border:1px solid black;"><p>Controlla che il servizio CA risponda e che l'elenco di revoca dei certificati (CRL) sia valido (parametri: [/verbose]).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>EnableIASLockout*</p></td>
 <td style="border:1px solid black;"><p>Attiva il blocco degli account per IAS (parametri: [/maxdenials:<em>10</em>] [/lockouttime:<em>2880</em> (secs)]).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>DisableIASLockout*</p></td>
 <td style="border:1px solid black;"><p>Disattiva il blocco degli account per IAS.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>ShowLockedOutAccounts*</p></td>
 <td style="border:1px solid black;"><p>Mostra gli account bloccati (e gli account con richieste di autorizzazione respinte).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>ResetLockedOutAccount*</p></td>
 <td style="border:1px solid black;"><p>Reimposta un account bloccato (parametri: /account:<em>NomeDominio:NomeAccount</em>).</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** i processi contrassegnati con un asterisco (\*) non vengono utilizzati in questa soluzione.

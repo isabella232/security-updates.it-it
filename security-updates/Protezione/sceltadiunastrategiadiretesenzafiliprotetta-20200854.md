@@ -241,7 +241,7 @@ L'autenticazione 802.1X basata su password è sufficiente per le organizzazioni 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Intercettazione non autorizzata dei dati</p></td>
 <td style="border:1px solid black;"><p>L'assegnazione e la modifica dinamica delle chiavi di crittografia a intervalli frequenti e il fatto che le chiavi sono univoche per ciascuna sessione utente significa che il recupero delle chiavi e l'accesso ai dati non è possibile con i mezzi attualmente conosciuti.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Intercettazione e modifica di dati</p></td>
 <td style="border:1px solid black;"><p>Poiché la crittografia che utilizza le chiavi dinamiche viene utilizzata tra client senza fili e punto di accesso senza fili, non è possibile che un utente malintenzionato intercetti e modifichi i dati.<br />
@@ -250,11 +250,11 @@ L'autenticazione reciproca tra client, server RADIUS e punto di accesso senza fi
 <tr class="odd">
 <td style="border:1px solid black;"><p>Spoofing</p></td>
 <td style="border:1px solid black;"><p>L'autenticazione protetta sulla rete impedisce ad utenti non autorizzati di collegarsi alla rete e di introdurvi dati di spoofing dall'interno.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Collegamento non autorizzato</p></td>
 <td style="border:1px solid black;"><p>L'uso non autorizzato della rete è impedito dall'elevata affidabilità dell'autenticazione.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Negazione del servizio (DoS)</p></td>
 <td style="border:1px solid black;"><p>Gli attacchi a livello di rete che generano un aumento del traffico sono impediti dal controllo di accesso protetto, anche se attualmente non esiste alcun metodo di difesa contro gli attacchi di negazione del servizio (DoS, Denial of Service) di basso livello. Questi vengono in parte risolti dallo standard 802.11i del 2004. In realtà, anche questo nuovo standard non sarà immune all'interruzione della rete a livello di trasmissione radio.<br />
@@ -263,7 +263,7 @@ L'autenticazione reciproca tra client, server RADIUS e punto di accesso senza fi
 <tr class="even">
 <td style="border:1px solid black;"><p>Rischi accidentali</p></td>
 <td style="border:1px solid black;"><p>I rischi derivanti da parte degli utenti guest che si collegano accidentalmente alla rete WLAN aziendale vengono evitati dall'autenticazione protetta richiesta dalla rete LAN senza fili.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Reti WLAN inaffidabili</p></td>
 <td style="border:1px solid black;"><p>Sebbene la soluzione non interviene direttamente nella gestione dei punti di accesso senza fili inaffidabili, implementando una soluzione di rete senza fili protetta come questa, la motivazione di installare reti WLAN non ufficiali non avrà più modo di esistere.<br />

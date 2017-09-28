@@ -75,13 +75,13 @@ Nella tabella riportata di seguito sono elencati gli strumenti richiesti per imp
 <td style="border:1px solid black;"><p><strong>Console gestione criteri di gruppo</strong></p></td>
 <td style="border:1px solid black;"><p>Strumento di gestione avanzata per l'importazione e l'esportazione degli oggetti Criteri di gruppo.</p></td>
 <td style="border:1px solid black;"><p>Le istruzioni per l'installazione sono incluse nel capitolo 3, &quot;Predisposizione dell'ambiente&quot;.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Utenti e computer di Active Directory</strong></p></td>
 <td style="border:1px solid black;"><p>Strumento di MMC utilizzato per la gestione di utenti, gruppi, computer e altri oggetti Active Directory del servizio directory Microsoft Active Directory®.</p></td>
 <td style="border:1px solid black;"><p>Installato con Windows Server™ 2003.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Parametri client WLAN
@@ -91,59 +91,59 @@ Nella seguente tabella sono indicati alcuni dei parametri principali utilizzati 
 **Tabella 6.2: Impostazioni client WLAN**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento di configurazione</p></th>  
-<th><p>Impostazione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento di configurazione</p></th>
+<th><p>Impostazione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Gruppo che consente l'accesso alla rete WLAN</p></td>
 <td style="border:1px solid black;"><p>Accesso LAN senza fili</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gruppo che consente l'accesso utente alla rete WLAN</p></td>
 <td style="border:1px solid black;"><p>Utenti LAN senza fili</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Gruppo che consente l'accesso dei computer alla rete WLAN</p></td>
 <td style="border:1px solid black;"><p>Computer LAN senza fili</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nome oggetto Criteri di gruppo WLAN</p></td>
 <td style="border:1px solid black;"><p>Impostazioni client WLAN</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Gruppo di protezione filtro oggetti Criteri di gruppo</p></td>
 <td style="border:1px solid black;"><p>Impostazioni computer LAN senza fili</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Nome criteri di rete senza fili</p></td>
 <td style="border:1px solid black;"><p>Impostazioni client WLAN per Windows XP - PEAP (Protected Extensible Authentication Protocol) e WEP (Wired Equivalent Privacy)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Nome rete WLAN (SSID)</p></td>
 <td style="border:1px solid black;"><p><em>LucerneWLAN</em> (cambiare il nome nell'identificatore dei set di servizi (SSID))</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Tipo di EAP (Extensible Authentication Protocol)</p></td>
 <td style="border:1px solid black;"><p>PEAP</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Metodo di autenticazione PEAP</p></td>
 <td style="border:1px solid black;"><p>Password protetta (EAP-MSCHAP v2)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Riconnessione rapida PEAP</p></td>
 <td style="border:1px solid black;"><p>Abilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 I valori visualizzati in corsivo devono essere sostituiti con valori di impostazione relativi all'ambiente in uso.

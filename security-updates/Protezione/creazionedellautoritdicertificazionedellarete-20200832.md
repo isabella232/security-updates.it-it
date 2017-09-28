@@ -87,7 +87,7 @@ Per eseguire le procedure di questo capitolo sono necessari gli strumenti indica
 <td style="border:1px solid black;"><p>MSS WLAN Tools</p></td>
 <td style="border:1px solid black;"><p>Set di script e strumenti fornito con questa soluzione.</p></td>
 <td style="border:1px solid black;"><p>La procedura di installazione è descritta nel capitolo 3.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Console Gestione Criteri di gruppo (GPMC, Group Policy Management Console)</p></td>
 <td style="border:1px solid black;"><p>Strumento di gestione avanzata per l'importazione e l'esportazione degli oggetti Criteri di gruppo (GPO).</p></td>
@@ -110,13 +110,13 @@ Disponibile nel CD di installazione di Windows Server 2003.</p></td>
 <td style="border:1px solid black;"><p>Utenti e computer di Active Directory</p></td>
 <td style="border:1px solid black;"><p>Strumento MMC (Microsoft Management Console) utilizzato per la gestione di utenti, gruppi, computer e altri oggetti di Active Directory.</p></td>
 <td style="border:1px solid black;"><p>Installato con Windows Server 2003.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Strumento di amministrazione Autorità di certificazione</p></td>
 <td style="border:1px solid black;"><p>Strumento MMC utilizzato per la gestione della CA.</p></td>
 <td style="border:1px solid black;"><p>Installato con Servizi certificati in Windows Server 2003.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Parametri relativi all'autorità di certificazione
@@ -126,51 +126,51 @@ Nella tabella seguente sono elencati i parametri utilizzati per l'installazione 
 **Tabella 4.2: Impostazioni della CA utilizzate nella soluzione**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Parametro di configurazione della CA</p></th>  
-<th><p>Impostazione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Parametro di configurazione della CA</p></th>
+<th><p>Impostazione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Unità e percorso dei file di richieste di Servizi certificati</p></td>
 <td style="border:1px solid black;"><p>C:\CAConfig</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Lunghezza della chiave della CA</p></td>
 <td style="border:1px solid black;"><p>2048 bit</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Periodo di validità del certificato della CA</p></td>
 <td style="border:1px solid black;"><p>25 anni</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Periodo massimo di validità dei certificati rilasciati dalla CA</p></td>
 <td style="border:1px solid black;"><p>2 anni</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Intervallo di pubblicazione dei CRL per la CA</p></td>
 <td style="border:1px solid black;"><p>7 giorni</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Periodo di sovrapposizione dei CRL (tempo che intercorre tra la pubblicazione di un nuovo CRL e la scadenza del vecchio CRL)</p></td>
 <td style="border:1px solid black;"><p>4 giorni</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Pubblicazione di Delta-CRL disattivata</p></td>
 <td style="border:1px solid black;"><p>0</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Modelli di certificato disponibili nella CA</p></td>
 <td style="border:1px solid black;"><p>Computer</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** il periodo di validità della CA è impostato su un valore elevato per evitare il sovraccarico amministrativo dovuto al rinnovo periodico del certificato della CA. A differenza dei certificati rilasciati per computer e utenti, i certificati della CA non possono essere rinnovati automaticamente e, se non vengono rinnovati prima della scadenza, tutti i certificati rilasciati dalla CA genereranno errori.
@@ -266,31 +266,31 @@ Mediante la seguente procedura è possibile verificare se l'installazione di Ser
     **Tabella 4.3 Proprietà del certificato della CA**
 
 <p> </p>
-    <table style="border:1px solid black;">  
-    <colgroup>  
-    <col width="50%" />  
-    <col width="50%" />  
-    </colgroup>  
-    <thead>  
-    <tr class="header">  
-    <th><p>Attributo del certificato</p></th>  
-    <th><p>Impostazione necessaria</p></th>  
-    </tr>  
-    </thead>  
-    <tbody>  
+    <table style="border:1px solid black;">
+    <colgroup>
+    <col width="50%" />
+    <col width="50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><p>Attributo del certificato</p></th>
+    <th><p>Impostazione necessaria</p></th>
+    </tr>
+    </thead>
+    <tbody>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Rilasciato a</p></td>
     <td style="border:1px solid black;"><p>Nome della CA specificato durante l'installazione.</p></td>
-    </tr>  
+    </tr>
     <tr class="even">
     <td style="border:1px solid black;"><p>Rilasciato da</p></td>
     <td style="border:1px solid black;"><p>Nome della CA specificato durante l'installazione.</p></td>
-    </tr>  
+    </tr>
     <tr class="odd">
     <td style="border:1px solid black;"><p>Valido da...a...</p></td>
     <td style="border:1px solid black;"><p>L'intervallo specificato dovrebbe corrispondere a 25 anni.</p></td>
-    </tr>  
-    </tbody>  
+    </tr>
+    </tbody>
     </table>
   
 4.  Fare clic sulla scheda **Percorso certificazione** e verificare che nel campo relativo al percorso di certificazione venga visualizzato solo un singolo certificato. Per lo stato del certificato viene visualizzato il messaggio **The Certificate is OK**.
@@ -314,47 +314,47 @@ Questa procedura consente di impostare vari parametri della CA, che ne regolano 
 **Tabella 4.4: Proprietà di configurazione della CA**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Proprietà della CA</p></th>  
-<th><p>Descrizione dell'impostazione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Proprietà della CA</p></th>
+<th><p>Descrizione dell'impostazione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>URL dei punti di distribuzione CRL (CDP)</p></td>
 <td style="border:1px solid black;"><p>Specifica le posizioni da cui è possibile ottenere un elenco di revoche di certificati (CRL) corrente. In questa soluzione viene utilizzato solo un URL LDAP (Lightweight Directory Access Protocol), che contiene il percorso LDAP dell'elenco CRL pubblicato in Active Directory.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>URL di accesso alle informazioni dell'autorità (AIA)</p></td>
 <td style="border:1px solid black;"><p>Indica la posizione da cui è possibile ottenere un certificato della CA. Come nel caso del CDP, viene utilizzato solo l'URL LDAP che punta ad Active Directory.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Periodo di validità</p></td>
 <td style="border:1px solid black;"><p>Indica il periodo di validità massimo per i certificati rilasciati, che è diverso dal periodo di validità del certificato stesso della CA, impostato durante l'installazione.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Periodo CRL</p></td>
 <td style="border:1px solid black;"><p>Indica la frequenza di pubblicazione dell'elenco CRL.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Tempo di sovrapposizione CRL</p></td>
 <td style="border:1px solid black;"><p>Indica il tempo di sovrapposizione tra il rilascio di un nuovo CRL e la scadenza del CRL precedente.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Periodo Delta - CRL</p></td>
 <td style="border:1px solid black;"><p>Indica la frequenza di pubblicazione dell'elenco Delta-CRL. In questa CA, gli elenchi Delta-CRL sono disattivati.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Controllo CA</p></td>
 <td style="border:1px solid black;"><p>Indica le impostazioni di controllo della CA. Tutti i controlli sono attivati per impostazione predefinita.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** molti di questi parametri influiscono sulla configurazione del CRL della CA. Un CRL è un elenco di certificati rilasciati dalla CA ma successivamente annullati o revocati dall'amministratore. Anche se è improbabile che vengano revocati certificati durante la gestione di questa soluzione, molte applicazioni devono leggere un CRL per controllare lo stato di revoca di un certificato, persino nel caso in cui il CRL sia vuoto. Se l'applicazione non riesce a trovare un CRL, potrebbe rifiutare il certificato.

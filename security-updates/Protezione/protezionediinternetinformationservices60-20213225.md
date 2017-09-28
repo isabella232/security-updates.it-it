@@ -239,53 +239,53 @@ Nella tabella che segue sono illustrate le impostazioni consigliate in Installaz
 <td style="border:1px solid black;"><p>Estensione server Servizio trasferimento intelligente in background (BITS)</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Invariato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>File comuni</p></td>
 <td style="border:1px solid black;"><p>Abilitato</p></td>
 <td style="border:1px solid black;"><p>Invariato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servizio FTP</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Invariato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Estensioni del server di FrontPage 2002</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Invariato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Gestione Internet Information Services</p></td>
 <td style="border:1px solid black;"><p>Abilitato</p></td>
 <td style="border:1px solid black;"><p>Invariato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Stampa Internet</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Invariato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servizio NNTP</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Invariato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servizio SMTP</p></td>
 <td style="border:1px solid black;"><p>Abilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servizio Web</p></td>
 <td style="border:1px solid black;"><p>Abilitato</p></td>
 <td style="border:1px solid black;"><p>Invariato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Estensione server Servizio trasferimento intelligente in background (BITS)</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Invariato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Requisiti

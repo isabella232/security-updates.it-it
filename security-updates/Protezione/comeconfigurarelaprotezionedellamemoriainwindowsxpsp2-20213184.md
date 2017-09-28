@@ -217,20 +217,20 @@ Nella tabella 1 sono elencate le opzioni per Livello\_criterio.
 <td style="border:1px solid black;"><p><strong>OptIn</strong></p>
 <p>(configurazione predefinita)</p></td>
 <td style="border:1px solid black;"><p>La funzionalità Protezione esecuzione programmi è applicata solo ai servizi e ai componenti di sistema di Windows</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>OptOut</strong></p></td>
 <td style="border:1px solid black;"><p>La funzionalità Protezione esecuzione programmi è attivata per tutti i processi. Gli amministratori possono creare manualmente un elenco di applicazioni specifiche esentate dall'applicazione della funzionalità Protezione esecuzione programmi</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><strong>AlwaysOn</strong></p></td>
 <td style="border:1px solid black;"><p>Protezione esecuzione programmi è attivata per tutti i processi</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>AlwaysOff</strong></p></td>
 <td style="border:1px solid black;"><p>Protezione esecuzione programmi non è attivata per nessun processo</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **IMPORTANTE:** dopo avere apportato modifiche al file boot.ini, è necessario riavviare il computer.

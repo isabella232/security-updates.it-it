@@ -43,60 +43,60 @@ Nella tabella seguente viene mostrata la correlazione tra i capitoli delle due s
 <tr class="odd">
 <td style="border:1px solid black;"><p>Capitolo 1 Panoramica</p></td>
 <td style="border:1px solid black;"><p>Capitolo 1 Protezione delle reti LAN senza fili con PEAP e password</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Capitolo 2 Scelta di una strategia di rete senza fili protetta</p></td>
 <td style="border:1px solid black;"><p>Introduzione Scelta di una strategia per la protezione di reti LAN senza fili</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Capitolo 3 Architettura della soluzione di rete LAN senza fili protetta</p></td>
 <td style="border:1px solid black;"><p>Capitolo 2 Pianificazione dell'implementazione della protezione di reti LAN senza fili</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Capitolo 4 Progettazione dell'infrastruttura a chiave pubblica (PKI)</p></td>
 <td style="border:1px solid black;"><p>Capitolo 2 Pianificazione dell'implementazione della protezione di reti LAN senza fili</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Capitolo 5 Progettazione di un'infrastruttura RADIUS per la protezione di reti LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>Capitolo 2 Pianificazione dell'implementazione della protezione di reti LAN senza fili</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Capitolo 6 Progettazione della protezione di reti LAN senza fili mediante lo standard 802.1X</p></td>
 <td style="border:1px solid black;"><p>Capitolo 2 Pianificazione dell'implementazione della protezione di reti LAN senza fili</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p> </p></td>
 <td style="border:1px solid black;"><p>Capitolo 3 Predisposizione dell'ambiente</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Capitolo 7 Implementazione dell'infrastruttura a chiave pubblica</p></td>
 <td style="border:1px solid black;"><p>Capitolo 4 Creazione dell'Autorità di certificazione della rete</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Capitolo 8 Implementazione dell'infrastruttura RADIUS per la protezione di reti LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>Capitolo 5 Creazione dell'infrastruttura di protezione per LAN senza fili</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Capitolo 9 Implementazione della protezione di reti LAN senza fili mediante lo standard 802.1X</p></td>
 <td style="border:1px solid black;"><p>Capitolo 6 Configurazione dei client delle reti LAN senza fili</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Capitolo 10 Introduction to Operations Guide</p></td>
 <td style="border:1px solid black;"><p>Capitolo 8 Gestione della soluzione per reti LAN senza fili protette</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Capitolo 11 Managing the Public Key Infrastructure</p></td>
 <td style="border:1px solid black;"><p>Capitolo 8 Gestione della soluzione per reti LAN senza fili protette</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Capitolo 12 Managing the RADIUS and WLAN Security Infrastructure</p></td>
 <td style="border:1px solid black;"><p>Capitolo 8 Gestione della soluzione per reti LAN senza fili protette</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Capitolo 13 Guida per i test</p></td>
 <td style="border:1px solid black;"><p>Capitolo 7 Gestione della soluzione per reti LAN senza fili protette</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Si osservi che la soluzione EAP-TLS è stata strutturata intenzionalmente per mantenere indipendenti fra loro, il più possibile, i componenti dell'infrastruttura a chiave pubblica (PKI, Public Key Infrastructure), di RADIUS e della rete WLAN, allo scopo di consentire il riutilizzo di questi componenti in altre applicazioni. Questo comporta alcune ripetizioni nella soluzione EAP-TLS. Ad esempio, entrambi i capitoli sull'infrastruttura PKI e su RADIUS includono istruzioni di implementazione per i server, perché nelle grandi organizzazioni può accadere che l'installazione dei server CA e IAS venga svolta da gruppi diversi del reparto IT. Inoltre, alcuni dei passaggi logici contenuti nei capitoli sulla progettazione e sull'implementazione possono risultare fuorvianti nel contesto di una soluzione PEAP. Pertanto è necessario leggere l'intera soluzione PEAP per farsi un quadro dell'intero processo, quindi tornare alla soluzione EAP-TLS per reperire informazioni specifiche per la progettazione e l'implementazione.

@@ -764,52 +764,52 @@ Le tecnologie di protezione dei dati di Microsoft non collegano le chiavi di dec
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisito 1</p></td>
 <td style="border:1px solid black;"><p><a href="#_risk_assessment">Valutazione dei rischi</a>; <a href="#_network_security">Protezione della rete</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Requisito 2</p></td>
 <td style="border:1px solid black;"><p><a href="#_network_security">Protezione della rete</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisito 3</p></td>
 <td style="border:1px solid black;"><p><a href="#_document_management">Gestione dei documenti</a>; <a href="#_risk_assessment">Valutazione dei rischi</a>; <a href="#_data_classification_and_protection">Classificazione e protezione dei dati</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Requisito 4</p></td>
 <td style="border:1px solid black;"><p><a href="#_risk_assessment">Valutazione dei rischi</a>; <a href="#_messaging_and_collaboration">Messaggistica e collaborazione</a>; <a href="#_data_classification_and_protection">Classificazione e protezione dei dati</a>; <a href="#_network_security">Protezione della rete</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisito 5</p></td>
 <td style="border:1px solid black;"><p><a href="#_risk_assessment">Valutazione dei rischi</a>; <a href="#_malicious_software_prevention">Prevenzione del software dannoso</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Requisito 6</p></td>
 <td style="border:1px solid black;"><p><a href="#_document_management">Gestione dei documenti</a>; <a href="#_risk_assessment">Valutazione dei rischi</a>; <a href="#_change_management">Gestione dei cambiamenti</a>; <a href="#_host_control">Controllo dell'host</a>; <a href="#_malicious_software_prevention">Prevenzione del software dannoso</a>; <a href="#_application_security">Protezione delle applicazioni</a>; <a href="#_authentication,_authorization,_and_">Autenticazione, autorizzazione e controllo di accesso</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisito 7</p></td>
 <td style="border:1px solid black;"><p><a href="#_document_management">Gestione dei documenti</a>; <a href="#_risk_assessment">Valutazione dei rischi</a>; <a href="#_identity_management">Gestione delle identità</a>; <a href="#_authentication,_authorization,_and_">Autenticazione, autorizzazione e controllo di accesso</a>; <a href="#_data_classification_and_protection">Classificazione e protezione dei dati</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Requisito 8</p></td>
 <td style="border:1px solid black;"><p><a href="#_risk_assessment">Valutazione dei rischi</a>; <a href="#_authentication,_authorization,_and_">Autenticazione, autorizzazione e controllo di accesso</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisito 9</p></td>
 <td style="border:1px solid black;"><p><a href="#_document_management">Gestione dei documenti</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Requisito 10</p></td>
 <td style="border:1px solid black;"><p><a href="#_document_management">Gestione dei documenti</a>; <a href="#_change_management">Gestione dei cambiamenti</a>; <a href="#_monitoring,_auditing,_and_reporting">Monitoraggio, controllo e reporting</a>; <a href="#_network_security">Protezione della rete</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Requisito 11</p></td>
 <td style="border:1px solid black;"><p><a href="#_risk_assessment">Valutazione dei rischi</a>; <a href="#_host_control">Controllo dell'host</a>; <a href="#_vulnerability_identification">Identificazione delle vulnerabilità</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Requisito 12</p></td>
 <td style="border:1px solid black;"><p><a href="#_document_management">Gestione dei documenti</a></p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Altre risorse

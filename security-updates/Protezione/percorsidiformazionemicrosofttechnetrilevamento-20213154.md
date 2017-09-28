@@ -31,179 +31,179 @@ Il rilevamento comprende strumenti, tecnologie e procedure consigliate che conse
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Principi fondamentali della sicurezza</strong></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=45782">Webcast Microsoft Executive Circle: Security360 con Mike Nash: Gestione dell'accesso nell'impresa estesa (Livello 100)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Riduzione delle minacce e delle vulnerabilità</strong></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/italy/technet/security/topics/auditingandmonitoring/securitymonitoring/default.mspx">Guida: Guida alla pianificazione del monitoraggio della protezione e della rilevazione degli attacchi</a></p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="100%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Livello 200</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Livello 200</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Principi fondamentali della sicurezza</strong></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032272724%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast MSDN: Protezione efficace per le soluzioni Intranet (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032272915%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast MSDN: Implementazione della protezione nelle soluzioni per i dispositivi mobili (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032272731%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast MSDN: Protezione efficace per le soluzioni Internet e Extranet (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032276851%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Gestione di Internet Information Server 6.0 (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>Riduzione delle minacce e delle vulnerabilità</strong></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://support.microsoft.com/default.aspx?scid=kb;en-us;813774">Webcast di supporto: Microsoft Internet Security and Acceleration (ISA) Server: Panoramica del Feature Pack 1 (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032275471%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Valutazione della protezione della rete (parte 1 di 2): Pianificazione e ricerca (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032275653%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Valutazione della protezione della rete (parte 2 di 2): Test di penetrazione (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032276532%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast MSDN: Serie Digital Blackbelt: Social engineering e riduzione delle vulnerabilità del sistema (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=29871">Webcast TechNet: Strumenti di gestione delle patch di protezione, parte 1: Microsoft Windows e Microsoft Office Update (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=29882">Webcast TechNet: Strumenti di gestione delle patch di protezione, parte 2: Microsoft Baseline Security Analyzer e Software Update Services (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=27032">Webcast TechNet: Discussione sulla gestione delle patch in Microsoft mediante Microsoft Systems Management Server 2003 (Livello 200)</a>(in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/italy/technet/itsolutions/mo/default.mspx">Guida: Soluzioni Microsoft per la gestione e l'operatività</a></p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=36647">Guida: Gestione delle patch con SMS 2003 Solution Accelerator</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/windowsserversystem/updateservices/downloads/wsus.mspx">Guida: Panoramica di Microsoft Windows Update Services</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032275469%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Gestione dell'identità e degli accessi (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032272963%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Gestione dell'identità e degli accessi (parte 1 di 2): Panoramica tecnica (Livello200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032273085%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Gestione dell'identità e degli accessi (parte 2 di 2): Dettagli sulla gestione degli accessi Intranet e Extranet (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://msevents.microsoft.com/cui/eventdetail.aspx?eventid=1032275650&amp;culture=en-us">Webcast TechNet: Combattere la posta indesiderata in un ambiente Exchange (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032276909%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Panoramica tecnica di Microsoft System Management Server 2003 (parte 1 di 2) (Livello 200)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://msevents.microsoft.com/cui/eventdetail.aspx?eventid=1032267552&amp;culture=en-us">Webcast TechNet: Panoramica tecnica di Microsoft System Management Server 2003 (parte 2 di 2) (Livello 200)</a> (in inglese)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="100%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Livello 300</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Livello 300</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Gestione dell'identità e degli accessi</strong></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=41307">Guida: Implementazione dei servizi di quarantena con la Guida alla pianificazione della rete privata virtuale Microsoft</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Riduzione delle minacce e delle vulnerabilità</strong></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/technet/community/events/security/tnt1-87.mspx">Seminario in linea: Uso degli strumenti di protezione Microsoft (Livello 300): Include Blocco di IIS, Soluzione Microsoft per la protezione di Windows 2000 Server, Uso di criteri di gruppo per la protezione, Controllo e gestione del controllo, e altro ancora</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032272649%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Microsoft Baseline Security Analyzer (MBSA) 2.0: Architettura e scenari (Livello 300)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=52131">Webcast TechNet: Come il reparto IT Microsoft garantisce la sicurezza (Livello 300)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032276983%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Come il reparto IT Microsoft gestisce l'infrastruttura di Active Directory (Livello 300)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://msevents.microsoft.com/cui/eventdetail.aspx?eventid=1032276838&amp;culture=en-us">Webcast TechNet: Analisi delle funzioni di protezione della piattaforma mobile Windows per l'azienda (Livello 300)</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/events/eventdetails.aspx?cmtysvcsource=mscommedia&amp;params=%7ecmtydatasvcparams%5e%7earg+name=%22id%22+value=%221032273397%22/%5e%7earg+name=%22providerid%22+value=%22a6b43178-497c-4225-ba42-df595171f04c%22/%5e%7earg+name=%22lang%22+value=%22en%22/%5e%7earg+name=%22cr%22+value=%22us%22/%5e%7esparams%5e%7e/sparams%5e%7e/cmtydatasvcparams%5e">Webcast TechNet: Come il reparto IT Microsoft protegge le reti wireless in Microsoft (Livello 300)</a> (in inglese)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="100%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Livello 400</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Livello 400</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Principi fondamentali della sicurezza</strong></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/?linkid=4378891">Strumento: Microsoft Security Assessment</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/downloads/details.aspx?familyid=80a1b6e6-829e-49b7-8c02-333d9c148e69&amp;displaylang=en">Guida: Internet Information Services (IIS) 6.0 Resource Kit</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><strong>Riduzione delle minacce e delle vulnerabilità</strong></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/italy/technet/security/topics/auditingandmonitoring/securitymonitoring/default.mspx">Guida: Guida alla pianificazione del monitoraggio della protezione e della rilevazione degli attacchi</a></p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/downloads/details.aspx?familyid=b671967b-ef65-4ccf-9d00-89d6ae428edc&amp;displaylang=en">Guida: Windows Server 2003 Deployment Kit: Progettazione di un ambiente gestito</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/serverwhitepapers/9622e27e-ac49-49e2-9047-319b6a81df9d.mspx">Guida: Procedure consigliate per delegare l'amministrazione di Active Directory</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://www.microsoft.com/technet/security/topics/identitymanagement/idmanage/default.mspx">Guida: Serie di articoli sulla gestione dell'identità e degli accessi</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=23115">Guida: Guida alle soluzioni per i servizi di protezione e directory Windows per UNIX</a> (in inglese)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)
@@ -211,15 +211,15 @@ Il rilevamento comprende strumenti, tecnologie e procedure consigliate che conse
 ### Tipo di contenuti e definizioni dei livelli
 
 <p> </p>
-<table style="border:1px solid black;">  
-<tr>  
-<th colspan="2">  
+<table style="border:1px solid black;">
+<tr>
+<th colspan="2">
 Tabella dei tipi di contenuti  
-</th>  
-<th colspan="2">  
+</th>
+<th colspan="2">
 Tabella dei livelli  
-</th>  
-</tr>  
+</th>
+</tr>
 <tr>
 <td style="border:1px solid black;">
 **Tipo di contenuti**

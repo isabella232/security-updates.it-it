@@ -210,15 +210,15 @@ Da questi requisiti, è possibile determinare i criteri riportati nella seguente
 <tr class="odd">
 <td style="border:1px solid black;"><p>Protezione</p></td>
 <td style="border:1px solid black;"><p>- Autenticazione e autorizzazione affidabili dei client senza fili.</p>
-<p>- Controllo dell'accesso affidabile per limitare l'accesso alla rete ai client autorizzati.</p>  
-<p>- Crittografia di alto livello del traffico di rete senza fili.</p>  
+<p>- Controllo dell'accesso affidabile per limitare l'accesso alla rete ai client autorizzati.</p>
+<p>- Crittografia di alto livello del traffico di rete senza fili.</p>
 <p>- Gestione protetta delle chiavi di crittografia.</p>
 <p>– Capacità di recupero in caso di attacchi di negazione del servizio.</p></td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Scalabilità</p></td>
 <td style="border:1px solid black;"><p>Progettazione di base con scalabilità crescente e decrescente per adattarsi a una vasta gamma di organizzazioni.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>- Numero min/max di utenti supportati.</p></td>
 <td style="border:1px solid black;"><p>- Da 500 a 15.000 utenti WLAN e oltre.</p>
@@ -232,7 +232,7 @@ Da questi requisiti, è possibile determinare i criteri riportati nella seguente
 <tr class="odd">
 <td style="border:1px solid black;"><p>Riutilizzo dei componenti (uso dell’infrastruttura esistente)</p></td>
 <td style="border:1px solid black;"><p>Utilizzo di  Active Directory, dei servizi di rete e dei client Microsoft Windows® XP.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Riutilizzo dei componenti (utilizzabilità da parte delle applicazioni future)</p></td>
 <td style="border:1px solid black;"><p>- Supporto per altre applicazioni di accesso alla rete (accesso alla rete VPN e alla rete cablata 802.1X) mediante l’infrastruttura di autenticazione.</p>
@@ -241,7 +241,7 @@ Da questi requisiti, è possibile determinare i criteri riportati nella seguente
 <tr class="odd">
 <td style="border:1px solid black;"><p>Disponibilità</p></td>
 <td style="border:1px solid black;"><p>Capacità di recupero in caso di guasto a singoli componenti o al collegamento di rete.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Espansione</p></td>
 <td style="border:1px solid black;"><p>- Espandibile per supportare capacità e standard futuri (ad esempio, 802.11i, WPA, 802.11a per WLAN).</p>
@@ -250,16 +250,16 @@ Da questi requisiti, è possibile determinare i criteri riportati nella seguente
 <tr class="odd">
 <td style="border:1px solid black;"><p>Facilità di gestione</p></td>
 <td style="border:1px solid black;"><p>Integrazione con le soluzioni di gestione aziendale esistenti (comprende il controllo del sistema e del servizio, il backup e la gestione della configurazione).</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Struttura dell’organizzazione IT</p></td>
 <td style="border:1px solid black;"><p>Scelta del reparto IT centralizzato (almeno cinque ma generalmente 20-30 persone).</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Conformità agli standard</p></td>
 <td style="border:1px solid black;"><p>Adesione ai principali standard correnti e chiaro percorso di migrazione verso i principali standard futuri.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

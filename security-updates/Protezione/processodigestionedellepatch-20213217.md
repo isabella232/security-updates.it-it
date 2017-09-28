@@ -223,28 +223,28 @@ Le informazioni contenute nei bollettini sulla sicurezza nel sito Web Microsoft 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Riepilogo</p></td>
 <td style="border:1px solid black;"><p>Esaminare immediatamente la sezione Riepilogo di un bollettino sulla sicurezza. Le voci Livello di gravità massimo, Effetti della vulnerabilità, Software interessato e Raccomandazione contengono informazioni che aiutano a stabilire il livello di esposizione dell'ambiente alla vulnerabilità.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Dettagli della vulnerabilità</p></td>
 <td style="border:1px solid black;"><p>La sezione Dettagli della vulnerabilità contiene una descrizione tecnica approfondita delle vulnerabilità. In essa vengono inoltre illustrati i fattori attenuanti e la gravità della vulnerabilità di tutti i prodotti colpiti.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Soluzioni alternative</p></td>
 <td style="border:1px solid black;"><p>La sezione Soluzioni alternative include le informazioni su soluzioni testate da Microsoft per contribuire ad attenuare il pericolo fino all'aggiornamento dell'ambiente. Leggere questa sezione come parte della valutazione del rischio.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Domande frequenti</p></td>
 <td style="border:1px solid black;"><p>La sezione Domande frequenti contiene le risposte alle domande frequenti specifiche per la vulnerabilità o la correzione. È consigliabile leggere questa sezione dopo aver preso visione della sezione Riepilogo.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Informazioni sull'aggiornamento per la protezione</p></td>
 <td style="border:1px solid black;"><p>In questa sezione sono elencate voci quali i prerequisiti, informazioni di installazione specifiche per la piattaforma, informazioni di distribuzione, informazioni sul riavvio, informazioni sulla disinstallazione, informazioni sui file (compresi i nomi, le dimensioni, le versioni, la cartella di destinazione) e i passaggi di verifica dell'installazione degli aggiornamenti.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Articolo della Knowledge Base</p></td>
 <td style="border:1px solid black;"><p>Fare riferimento all'articolo della Knowledge Base (KB) identificato nel titolo di un bollettino sulla sicurezza. Ulteriori informazioni sulle vulnerabilità e gli aggiornamenti prescritti dal bollettino sulla sicurezza sono contenute nell'articolo della Knowledge Base. Il numero tra parentesi a destra del titolo di un bollettino sulla sicurezza indica l'articolo della Knowledge Base corrispondente del bollettino. Utilizzarlo per cercare l'articolo nel sito Web del Supporto tecnico Microsoft all'indirizzo <a href="http://www.support.microsoft.com/" class="uri">http://www.support.microsoft.com/</a> (in inglese).</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Per ulteriori informazioni sul processo di rilascio dei bollettini sulla sicurezza, vedere il white paper "Revamping the Security Bulletin Release" all'indirizzo <http://www.microsoft.com/technet/security/bulletin/revsbwp.mspx> (in inglese).

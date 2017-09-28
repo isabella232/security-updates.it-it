@@ -287,24 +287,24 @@ Utilizzare una password complessa per l'account Administrator predefinito. Una p
 <tr class="odd">
 <td style="border:1px solid black;"><p>Lettere maiuscole.</p></td>
 <td style="border:1px solid black;"><p>A, B, C...</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Lettere minuscole.</p></td>
 <td style="border:1px solid black;"><p>a, b, c...</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Numeri</p></td>
 <td style="border:1px solid black;"><p>0, 1, 2, 3...</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Simboli della tastiera non alfanumerici</p></td>
 <td style="border:1px solid black;"><p>` ~ ! @ # $ % ^ &amp; * ( ) _ + - = { } | [ ] \ : &quot; ; ' &lt; &gt; ? , . /</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Caratteri Unicode.</p></td>
 <td style="border:1px solid black;"><p>€, G, ƒ, ?</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Utilizzare frasi di accesso invece di password

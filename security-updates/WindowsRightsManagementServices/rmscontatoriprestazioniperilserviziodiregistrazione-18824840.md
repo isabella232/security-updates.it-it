@@ -29,14 +29,14 @@ Nella tabella seguente, sono elencati i contatori prestazioni disponibili per RM
 <tr class="odd">
 <td style="border:1px solid black;"><p>SubEnroll Failures</p></td>
 <td style="border:1px solid black;"><p>Numero complessivo di richieste di registrazione secondaria non completamente elaborate.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>SubEnroll Processing Time</p></td>
 <td style="border:1px solid black;"><p>Tempo medio di elaborazione, in microsecondi, utilizzato per le richieste di registrazione secondaria.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>SubEnroll Requests</p></td>
 <td style="border:1px solid black;"><p>Numero complessivo di richieste di registrazione secondaria ricevute dal servizio di registrazione.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

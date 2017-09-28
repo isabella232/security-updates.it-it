@@ -141,38 +141,38 @@ Nelle sottosezioni che seguono la tabella sono contenute ulteriori informazioni 
 <td style="border:1px solid black;"><p>24 password memorizzate</p></td>
 <td style="border:1px solid black;"><p>24 password memorizzate</p></td>
 <td style="border:1px solid black;"><p>24 password memorizzate</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Validità massima password</p></td>
 <td style="border:1px solid black;"><p>42 giorni</p></td>
 <td style="border:1px solid black;"><p>42 giorni</p></td>
 <td style="border:1px solid black;"><p>42 giorni</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Validità minima password</p></td>
 <td style="border:1px solid black;"><p>1 giorno</p></td>
 <td style="border:1px solid black;"><p>1 giorno</p></td>
 <td style="border:1px solid black;"><p>1 giorno</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Lunghezza minima password</p></td>
 <td style="border:1px solid black;"><p>8 caratteri</p></td>
 <td style="border:1px solid black;"><p>8 caratteri</p></td>
 <td style="border:1px solid black;"><p>12 caratteri</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Le password devono essere conformi ai requisiti di complessità</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Abilitato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Archivia password mediante crittografia reversibile</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Imponi cronologia delle password
@@ -267,41 +267,41 @@ Nelle sottosezioni che seguono la tabella sono contenute ulteriori informazioni 
 **Tabella 3.2 Impostazioni dei Criteri di blocco account**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Legacy Client</p></th>  
-<th><p>Enterprise Client</p></th>  
-<th><p>Specialized Security – Limited Functionality</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Legacy Client</p></th>
+<th><p>Enterprise Client</p></th>
+<th><p>Specialized Security – Limited Functionality</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Blocca account per</p></td>
 <td style="border:1px solid black;"><p>30 minuti</p></td>
 <td style="border:1px solid black;"><p>30 minuti</p></td>
 <td style="border:1px solid black;"><p>15 minuti</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Limite di blocchi dell'account</p></td>
 <td style="border:1px solid black;"><p>50 tentativi di accesso non validi</p></td>
 <td style="border:1px solid black;"><p>50 tentativi di accesso non validi</p></td>
 <td style="border:1px solid black;"><p>10 tentativi di accesso non validi</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Reimposta blocco account dopo</p></td>
 <td style="border:1px solid black;"><p>30 minuti</p></td>
 <td style="border:1px solid black;"><p>30 minuti</p></td>
 <td style="border:1px solid black;"><p>15 minuti</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Blocca account per
@@ -365,41 +365,41 @@ La seguente tabella riassume le impostazioni delle opzioni di protezione consigl
 **Tabella 3.3 Impostazioni delle opzioni di protezione**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Legacy Client</p></th>  
-<th><p>Enterprise Client</p></th>  
-<th><p>Specialized Security – Limited Functionality</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Legacy Client</p></th>
+<th><p>Enterprise Client</p></th>
+<th><p>Specialized Security – Limited Functionality</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Server di rete Microsoft: interrompe la connessione dei client al termine dell'orario di accesso</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Accesso di rete: consenti la conversione SID/NOME anonima</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Protezione di rete: impone la disconnessione al termine dell'orario di accesso</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 ##### Server di rete Microsoft: interrompe la connessione dei client al termine dell'orario di accesso

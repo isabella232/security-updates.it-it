@@ -86,8 +86,8 @@ La tabella seguente illustra le impostazioni delle opzioni di protezione consigl
 <tr class="odd">
 <td style="border:1px solid black;"><p>Crittografia di sistema: utilizza algoritmi FIPS compatibili per crittografia, hash e firma</p></td>
 <td style="border:1px solid black;"><p>Attivato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Crittografia di sistema: utilizza algoritmi FIPS compatibili per crittografia, hash e firma
@@ -145,18 +145,18 @@ Nella tabella riportata di seguito sono contenuti gli elenchi ACL dei file syste
 **Tabella 11.2 ACL dei file system**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Percorso degli elenchi di controllo di accesso nell'interfaccia utente</p></th>  
-<th><p>Enterprise Client</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Percorso degli elenchi di controllo di accesso nell'interfaccia utente</p></th>
+<th><p>Enterprise Client</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>%SystemRoot%\system32\CertLog (propagazione a tutte le sottocartelle)</p></td>
 <td style="border:1px solid black;"><p>Amministratori (controllo totale)</p>
@@ -206,23 +206,23 @@ Poiché le CA sono basate sulla protezione, per le cartelle di Servizi certifica
 <td style="border:1px solid black;"><p>%SystemRoot%\system32\CertLog</p></td>
 <td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
 <td style="border:1px solid black;"><p>Everyone (Controllo completo)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>%SystemRoot%\system32\CertSrv</p></td>
 <td style="border:1px solid black;"><p>Operazione riuscita</p></td>
 <td style="border:1px solid black;"><p>Everyone (Modifica)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>D:\CertSrv</p></td>
 <td style="border:1px solid black;"><p>Operazione riuscita</p></td>
 <td style="border:1px solid black;"><p>Everyone (Modifica)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>D:\CertLog</p></td>
 <td style="border:1px solid black;"><p>Operazione riuscita</p></td>
 <td style="border:1px solid black;"><p>Everyone (Modifica)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Queste impostazioni di criterio controlleranno qualsiasi tipo di accesso non riuscito (lettura o modifica) da parte di qualsiasi utente e controllano inoltre tutte le modifiche eventualmente apportate dagli utenti.

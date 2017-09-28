@@ -31,34 +31,34 @@ La fase di risposta prevede azioni già pianificate mirate all'intercettazione d
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Principi fondamentali della sicurezza</strong></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=29503">Webcast MSDN: 10 cose da fare per proteggere la tua applicazione Web (Livello 300)</a> (in inglese)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="100%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th>Livello 400</th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Livello 400</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>Principi fondamentali della sicurezza</strong></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><a href="https://www.microsoftelearning.com/elearning/offerdetail.aspx?offerpriceid=55493">Clinic 2806: Protezione Microsoft - Esercitazione per gli sviluppatori</a> (in inglese)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p><a href="https://www.microsoftelearning.com/elearning/offerdetail.aspx?offerpriceid=67120">Clinic 2807: Protezione Microsoft - Esercitazione per gli sviluppatori II</a> (in inglese)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)
@@ -66,15 +66,15 @@ La fase di risposta prevede azioni già pianificate mirate all'intercettazione d
 ### Tipo di contenuti e definizioni dei livelli
 
 <p> </p>
-<table style="border:1px solid black;">  
-<tr>  
-<th colspan="2">  
+<table style="border:1px solid black;">
+<tr>
+<th colspan="2">
 Tabella dei tipi di contenuti  
-</th>  
-<th colspan="2">  
+</th>
+<th colspan="2">
 Tabella dei livelli  
-</th>  
-</tr>  
+</th>
+</tr>
 <tr>
 <td style="border:1px solid black;">
 **Tipo di contenuti**

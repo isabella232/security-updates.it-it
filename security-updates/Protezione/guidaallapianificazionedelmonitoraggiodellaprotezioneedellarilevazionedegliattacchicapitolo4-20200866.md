@@ -301,13 +301,13 @@ Nella seguente tabella sono elencati gli eventi di controllo che possono indicar
 <td style="border:1px solid black;"><p>560</p></td>
 <td style="border:1px solid black;"><p>Accesso consentito a un oggetto esistente</p></td>
 <td style="border:1px solid black;"><p>Questo evento indica se un oggetto ha consentito l'accesso a una richiesta, ad esempio di visualizzazione, lettura, creazione o eliminazione. Controllare i campi <strong>ID di accesso primario</strong>, <strong>Nome utente client</strong> e <strong>Nome utente primario</strong> per rilevare eventuali tentativi non autorizzati di modifica delle autorizzazioni file. Controllare il campo <strong>Accessi</strong> per determinare il tipo di operazione. Questo evento indica soltanto che l'accesso è stato richiesto o concesso ma non implica che si sia effettivamente verificato. L'utente che esegue l'azione è l'<strong>utente client</strong>, se presente, altrimenti l'<strong>utente primario</strong>.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>567</p></td>
 <td style="border:1px solid black;"><p>Utilizzo di un'autorizzazione associata a un handle</p></td>
 <td style="border:1px solid black;"><p>Questo evento si verifica alla prima istanza di un tipo di accesso (visualizzazione, lettura, creazione e così via) a un oggetto. Per stabilire una correlazione con l'evento 560, confrontare i campi <strong>ID handle</strong> dei due eventi.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Accesso alle risorse mediante la reimpostazione delle password
@@ -319,36 +319,36 @@ Nella seguente tabella sono elencati gli eventi di controllo che possono indicar
 **Tabella 4.2. Eventi di reimpostazione delle password**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>ID evento</p></th>  
-<th><p>Occorrenza</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID evento</p></th>
+<th><p>Occorrenza</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>627</p></td>
 <td style="border:1px solid black;"><p>Tentativo di cambiamento della password</p></td>
 <td style="border:1px solid black;"><p>Questo evento viene generato da una richiesta di cambiamento della password in cui l'utente fornisce la password originale dell'account. Confrontare i campi <strong>Nome utente primario</strong> e <strong>Nome account di destinazione</strong> per determinare se il tentativo di cambiamento della password è stato eseguito dal proprietario dell'account o da un altro utente. Se il valore in <strong>Nome utente primario</strong> non corrisponde a quello in <strong>Nome account di destinazione</strong>, significa che un utente diverso dal proprietario dell'account ha tentato di cambiare la password. Sui computer che eseguono Microsoft Windows Me o Windows NT®, la richiesta di modifica è in genere associata all'account <em>Anonimo</em>. Questo problema si verifica perché l'utente potrebbe non essere stato autenticato. Ciò non implica, tuttavia, un rischio di protezione particolarmente grave, poiché il richiedente ha dovuto fornire la password precedente.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>628</p></td>
 <td style="border:1px solid black;"><p>Impostazione o reimpostazione della password dell'account utente</p></td>
 <td style="border:1px solid black;"><p>Questo evento si verifica quando un utente o un processo reimposta la password di un account mediante un'interfaccia amministrativa quale Utenti e computer di Active Directory anziché mediante una procedura di cambiamento della password. Questa operazione può essere eseguita soltanto da persone o processi autorizzati, ad esempio dal personale del supporto tecnico o dall'utente proprietario della password.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>698</p></td>
 <td style="border:1px solid black;"><p>Cambiamento della password per la modalità di Ripristino servizi directory</p></td>
 <td style="border:1px solid black;"><p>Questo evento si verifica quando un utente tenta di cambiare la password per la modalità di Ripristino servizi directory in un controller di dominio. Controllare i campi <strong>Indirizzo IP workstation</strong> e <strong>Nome account</strong> ed eseguire immediatamente le azioni appropriate.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Creazione, modifica o eliminazione degli account utente
@@ -370,41 +370,41 @@ Nella seguente tabella sono elencati gli eventi che possono indicare la modifica
 **Tabella 4.3. Eventi di modifica dell'account utente**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>ID evento</p></th>  
-<th><p>Occorrenza</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID evento</p></th>
+<th><p>Occorrenza</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>624</p></td>
 <td style="border:1px solid black;"><p>Creazione di un account utente</p></td>
 <td style="border:1px solid black;"><p>Soltanto le persone e i processi autorizzati devono creare account di rete. Esaminare il campo <strong>Nome utente primario</strong> per determinare se l'operazione è stata eseguita da una persona o un processo autorizzato. Questo evento consente inoltre di rilevare se gli amministratori creano account senza rispettare le linee guida dei criteri dell'organizzazione.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>630</p></td>
 <td style="border:1px solid black;"><p>Eliminazione di un account utente</p></td>
 <td style="border:1px solid black;"><p>Soltanto le persone e i processi autorizzati devono eliminare account di rete. Effettuare una ricerca per individuare questi eventi, quindi esaminare il campo <strong>Nome utente primario</strong> per determinare se l'operazione è stata eseguita da persone non autorizzate.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>642</p></td>
 <td style="border:1px solid black;"><p>Modifica di un account utente</p></td>
 <td style="border:1px solid black;"><p>Questo evento si verifica in caso di modifiche alle proprietà di protezione degli account utente che non sono coperte dagli eventi 627-630.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>685</p></td>
 <td style="border:1px solid black;"><p>Modifica di un nome account</p></td>
 <td style="border:1px solid black;"><p>Assicurarsi che il campo <strong>Nome utente primario</strong> corrisponda a una persona o un processo autorizzato.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Inserimento degli utenti nei gruppi
@@ -420,43 +420,43 @@ Nella seguente tabella sono elencati gli eventi che possono indicare una modific
 **Tabella 4.4. Eventi di modifica dell'appartenenza ai gruppi**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>ID evento</p></th>  
-<th><p>Occorrenza</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID evento</p></th>
+<th><p>Occorrenza</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Da 631 a 634</p></td>
 <td style="border:1px solid black;"><p>Modifiche a un gruppo globale protetto</p></td>
 <td style="border:1px solid black;"><p>È necessario esaminare i gruppi che dispongono di privilegi di accesso esteso o globale, ad esempio Domain Admins, per verificare che non vi siano modifiche che esulano dai criteri dell'organizzazione. Il nome del gruppo è riportato nel campo <strong>Nome account di destinazione</strong>.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Da 635 a 638</p></td>
 <td style="border:1px solid black;"><p>Modifiche a un gruppo locale protetto</p></td>
 <td style="border:1px solid black;"><p>È necessario esaminare i gruppi Administrators, Server Operators e Backup Operators per verificare che non vi siano modifiche che esulano dai criteri dell'organizzazione. Il nome del gruppo è riportato nel campo <strong>Nome account di destinazione</strong>.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>639</p>
 <p>641</p>
 <p>668</p></td>
 <td style="border:1px solid black;"><p>Modifiche a un gruppo protetto</p></td>
 <td style="border:1px solid black;"><p>Questi eventi indicano che sono state apportate altre modifiche a un gruppo, oltre all'eliminazione, la creazione o la modifica dell'appartenenza. È necessario esaminare i gruppi che dispongono di privilegi elevati per verificare che siano stati rispettati tutti i requisiti dei criteri dell'organizzazione. Il nome del gruppo è riportato nel campo <strong>Nome account di destinazione</strong>.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Da 659 a 662</p></td>
 <td style="border:1px solid black;"><p>Modifiche a un gruppo universale protetto</p></td>
 <td style="border:1px solid black;"><p>È necessario esaminare i gruppi che dispongono di privilegi elevati, ad esempio Enterprise Admins o Schema Admins, per verificare che non vi siano modifiche che esulano dai criteri dell'organizzazione. Il nome del gruppo è riportato nel campo <strong>Nome account di destinazione</strong>.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Utilizzo di account non autorizzati
@@ -472,46 +472,46 @@ Nella seguente tabella sono elencati gli eventi che possono indicare l'utilizzo 
 **Tabella 4.5. Eventi di accesso non autorizzato**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>ID evento</p></th>  
-<th><p>Occorrenza</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID evento</p></th>
+<th><p>Occorrenza</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>528/540</p></td>
 <td style="border:1px solid black;"><p>Accesso riuscito</p></td>
 <td style="border:1px solid black;"><p>Questo evento è sospetto nel caso in cui il valore del campo <strong>Nome account di destinazione</strong> corrisponde all'account amministratore predefinito. L'evento 528, tuttavia, è un evento comune durante il normale utilizzo del sistema.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>529</p></td>
 <td style="border:1px solid black;"><p>Accesso non riuscito: nome utente sconosciuto o password non valida</p></td>
 <td style="border:1px solid black;"><p>Controllare eventuali tentativi in cui il valore del campo <strong>Nome account di destinazione</strong> corrisponde ad Administrator o all'account amministratore predefinito rinominato. Controllare i tentativi multipli di accesso non riusciti che sono inferiori al limite di blocchi dell'account.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>531</p></td>
 <td style="border:1px solid black;"><p>Accesso non riuscito: account disattivato</p></td>
 <td style="border:1px solid black;"><p>Occorre sempre ricercare la causa di questo evento. Controllare il valore di <strong>Nome account di destinazione</strong> e <strong>Nome workstation</strong>. Questo evento può indicare un tentativo di abuso da parte di ex dipendenti interni.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>532</p></td>
 <td style="border:1px solid black;"><p>Accesso non riuscito: account scaduto</p></td>
 <td style="border:1px solid black;"><p>Occorre sempre ricercare la causa di questo evento. Controllare il valore di <strong>Nome account di destinazione</strong> e <strong>Nome workstation</strong>. Questo evento può indicare un abuso da parte di consulenti o dipendenti interni temporanei.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>576</p></td>
 <td style="border:1px solid black;"><p>Privilegi speciali assegnati al nuovo accesso</p></td>
 <td style="border:1px solid black;"><p>Questo evento viene visualizzato ogni volta che una nuova sessione di accesso ottiene privilegi che possono consentire l'accesso di tipo amministratore o la falsificazione dell'itinerario di controllo. Mettere in relazione con l'evento 528 o 540 confrontando il campo <strong>ID di accesso</strong> nei due eventi. L'evento 576 consente di determinare rapidamente se un account ha ottenuto, al momento dell'accesso, privilegi equivalenti a quelli di un amministratore. Questo approccio risulta più semplice rispetto al calcolo dell'appartenenza al gruppo.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Accesso in modalità interattiva con credenziali degli account dei servizi
@@ -529,41 +529,41 @@ Nella seguente tabella sono elencati gli eventi che possono indicare l'utilizzo 
 **Tabella 4.6. Eventi di accesso con credenziali degli account dei servizi**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>ID evento</p></th>  
-<th><p>Occorrenza</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID evento</p></th>
+<th><p>Occorrenza</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>528</p></td>
 <td style="border:1px solid black;"><p>Accesso riuscito: attacco console o Servizi terminal</p></td>
 <td style="border:1px solid black;"><p>Se in un registro eventi viene registrato l'evento 528 per un account dei servizi o per un sistema locale con <strong>tipo di accesso 2</strong>, significa che è in corso un attacco, che l'utente malintenzionato ha ottenuto la password dell'account dei servizi e che è riuscito ad accedere alla console. Se invece è stato registrato un <strong>tipo di accesso 10</strong>, significa che un utente malintenzionato ha utilizzato Servizi terminal per accedere al sistema. In entrambi i casi, è necessario eseguire immediatamente un'analisi approfondita.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>534</p></td>
 <td style="border:1px solid black;"><p>Accesso non riuscito: tipo di accesso non consentito</p></td>
 <td style="border:1px solid black;"><p>Controllare i campi <strong>Nome account di destinazione</strong> e <strong>Nome workstation</strong> e il <strong>tipo di accesso</strong>. Questo evento indica un tentativo non riuscito di accesso al sistema in modalità interattiva con credenziali dell'account dei servizi mentre le impostazioni Criteri di gruppo impediscono questo tipo di accesso a tale account.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>600</p></td>
 <td style="border:1px solid black;"><p>Assegnazione di un token primario a un processo</p></td>
 <td style="border:1px solid black;"><p>Questo evento si verifica quando un servizio utilizza un determinato account per accedere a un computer in cui è in esecuzione Windows XP o versione successiva. Mettere in correlazione questo evento con gli eventi 672, 673, 528 e 592.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>601</p></td>
 <td style="border:1px solid black;"><p>Tentativo di installazione di un servizio da parte di un utente</p></td>
 <td style="border:1px solid black;"><p>Questo evento è estremamente raro poiché l'installazione dei servizi non è un'operazione molto frequente. È necessario esaminare con attenzione tutti i tentativi, sia riusciti che non riusciti, relativi a questo evento.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Esecuzione di programmi non autorizzati
@@ -577,31 +577,31 @@ Nella seguente tabella sono elencati gli eventi che possono indicare l'utilizzo 
 **Tabella 4.7. Eventi di esecuzione di programmi non autorizzati**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>ID evento</p></th>  
-<th><p>Occorrenza</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID evento</p></th>
+<th><p>Occorrenza</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>592</p></td>
 <td style="border:1px solid black;"><p>Creazione di un nuovo processo</p></td>
 <td style="border:1px solid black;"><p>Controllare i campi <strong>Nome file immagine</strong> e <strong>Nome utente</strong> per i nuovi processi. Tutti i processi devono essere inclusi nell'elenco dei programmi autorizzati.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>602</p></td>
 <td style="border:1px solid black;"><p>Creazione di un processo pianificato</p></td>
 <td style="border:1px solid black;"><p>Controllare il campo <strong>Nome destinazione</strong> per verificare l'autorizzazione a eseguire processi pianificati e il campo <strong>Task Time</strong> per determinare la correlazione dell'evento con le eventuali attività pianificate.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Accesso a risorse non autorizzate
@@ -611,31 +611,31 @@ Questa situazione richiede l'individuazione dei controlli non riusciti sull'ID e
 **Tabella 4.8. Eventi di tentativi di accesso a risorse non autorizzate**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>ID evento</p></th>  
-<th><p>Occorrenza</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID evento</p></th>
+<th><p>Occorrenza</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>560</p></td>
 <td style="border:1px solid black;"><p>Accesso respinto a un oggetto esistente</p></td>
 <td style="border:1px solid black;"><p>Monitorare gli accessi non riusciti. Esaminare il campo <strong>Nome oggetto</strong> per determinare la risorsa a cui si è tentato di accedere. Mettere in relazione con i campi <strong>Nome utente primario</strong> e <strong>Dominio primario</strong> o con i campi <strong>Nome utente client</strong> e <strong>Dominio client</strong>.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>568</p></td>
 <td style="border:1px solid black;"><p>Tentativo di creazione di un collegamento fisso a un file controllato</p></td>
 <td style="border:1px solid black;"><p>Questo evento si verifica quando un utente o un programma tenta di creare un collegamento fisso a un file o un oggetto. Una volta creato un collegamento fisso, un utente può modificare un file con i propri diritti utente senza che venga creato un itinerario di controllo.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Danneggiamento di file autorizzati
@@ -691,31 +691,31 @@ Nella seguente tabella sono elencati gli eventi che possono indicare l'utilizzo 
 **Tabella 4.9. Eventi di esecuzione di sistemi operativi non autorizzati**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>ID evento</p></th>  
-<th><p>Occorrenza</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID evento</p></th>
+<th><p>Occorrenza</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>529</p></td>
 <td style="border:1px solid black;"><p>Accesso non riuscito: nome utente sconosciuto o password non valida</p></td>
 <td style="border:1px solid black;"><p>Controllare i tentativi in cui il campo <strong>Nome account di destinazione</strong> è impostato su Administrator e il valore di <strong>Nome dominio</strong> è sconosciuto oppure il campo <strong>Nome account di destinazione</strong> è impostato su ROOT.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>592</p></td>
 <td style="border:1px solid black;"><p>Creazione di un nuovo processo</p></td>
 <td style="border:1px solid black;"><p>Controllare i campi <strong>Nome file immagine</strong> e <strong>Nome utente</strong> per i nuovi processi. Tutti i processi devono essere programmi autorizzati.<strong> </strong></p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota: **per una rilevazione più affidabile dei rootkit, è possibile utilizzare prodotti di terze parti quali RootkitRevealer di Sysinternals o Blacklight di F-Secure. Per ulteriori informazioni su RootkitRevealer, vedere [RootKitRevealer](http://www.sysinternals.com/utilities/rootkitrevealer.html) all'indirizzo http://www.sysinternals.com/Utilities/RootkitRevealer.html (informazioni in lingua inglese). Per ulteriori informazioni su Blacklight, vedere il comunicato stampa [Revolutionary F-Secure BlackLight Technology](http://www.f-secure.com/news/items/news_2005030701.shtml) all'indirizzo http://www.f-secure.com/news/items/news\_2005030701.shtml (informazioni in lingua inglese).
@@ -741,81 +741,81 @@ Nella seguente tabella sono elencati gli eventi in genere causati da utenti mali
 **Tabella 4.10. Eventi di elusione dei controlli**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>ID evento</p></th>  
-<th><p>Occorrenza</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID evento</p></th>
+<th><p>Occorrenza</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>512</p></td>
 <td style="border:1px solid black;"><p>Avvio di Windows in corso</p></td>
 <td style="border:1px solid black;"><p>Questo evento viene in genere visualizzato dopo l'evento 513. È necessario esaminare eventuali riavvii imprevisti del sistema.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>513</p></td>
 <td style="border:1px solid black;"><p>Chiusura di Windows in corso</p></td>
 <td style="border:1px solid black;"><p>Questo evento viene in genere visualizzato prima dell'evento 512. Sui computer critici, è necessario che il riavvio dei computer venga eseguito da personale autorizzato in base a criteri prestabiliti. Se si verifica in un server, questo evento richiede un'analisi immediata e approfondita.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>516</p></td>
 <td style="border:1px solid black;"><p>Controllo non riuscito</p></td>
 <td style="border:1px solid black;"><p>Questo evento può verificarsi quando il buffer del registro eventi contiene un numero eccessivo di eventi di protezione. In questo caso, occorre ridurre il numero degli eventi da controllare. Questo evento può inoltre verificarsi se il registro di protezione è configurato in modo da non poter essere sovrascritto. Occorre monitorare attentamente i computer che si trovano in aree in cui è necessario mantenere un numero elevato di controlli nei registri di protezione. In caso di riempimento dei registri, è possibile che le impostazioni di protezione richiedano la chiusura di alcuni computer. Monitorare l'evento 516 su tutti i computer in cui sono previsti requisiti di protezione particolarmente elevati.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>517</p></td>
 <td style="border:1px solid black;"><p>Cancellazione dei registri eventi protezione</p></td>
 <td style="border:1px solid black;"><p>Gli amministratori non devono cancellare i registri eventi protezione senza autorizzazione. Controllare i campi <strong>Nome utente client</strong> e <strong>Dominio client</strong>, quindi analizzare le informazioni con personale autorizzato.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>520</p></td>
 <td style="border:1px solid black;"><p>Modifica dell'ora di sistema</p></td>
 <td style="border:1px solid black;"><p>Questa azione può ingannare l'analisi legale o fornire un falso pretesto a un utente malintenzionato. Il nome del processo è <strong>%windir %\system32\svchost.exe</strong>. Controllare i campi <strong>Nome utente client</strong> e <strong>Dominio client</strong>, quindi analizzare le informazioni con personale autorizzato.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>521</p></td>
 <td style="border:1px solid black;"><p>Impossibile registrare eventi</p></td>
 <td style="border:1px solid black;"><p>Windows non è in grado di scrivere eventi nel registro eventi protezione. Se si verifica in un computer critico, questo evento richiede un'analisi immediata e approfondita.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>608</p></td>
 <td style="border:1px solid black;"><p>Assegnazione di un privilegio a un account utente</p></td>
 <td style="border:1px solid black;"><p>Questa azione concede un nuovo privilegio a un account utente. Nel registro eventi viene registrata questa azione insieme all'identificatore di protezione (SID) dell'account utente ma non il nome dell'account utente.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>609</p></td>
 <td style="border:1px solid black;"><p>Rimozione di un privilegio da un account utente</p></td>
 <td style="border:1px solid black;"><p>Questa azione rimuove un privilegio da un account utente. Nel registro eventi viene registrata questa azione insieme all'identificatore di protezione (SID) dell'account utente ma non il nome dell'account utente.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>612</p></td>
 <td style="border:1px solid black;"><p>Modifica di un criterio di controllo</p></td>
 <td style="border:1px solid black;"><p>Questo evento non indica necessariamente un problema. È possibile, tuttavia, che la modifica del criterio di controllo sia stata eseguita da un utente malintenzionato durante un attacco al computer. Questo evento deve essere monitorato con attenzione sui computer critici e sui controller di dominio.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>621</p></td>
 <td style="border:1px solid black;"><p>Concessione dell'accesso al sistema a un account</p></td>
 <td style="border:1px solid black;"><p>A un utente è stato concesso l'accesso a un sistema. Controllare i campi <strong>Nome utente</strong> e <strong>Account modificato</strong>, in particolare se l'autorizzazione di accesso è interattiva.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>622</p></td>
 <td style="border:1px solid black;"><p>Rimozione dell'accesso al sistema da un account</p></td>
 <td style="border:1px solid black;"><p>Questo evento può indicare che un utente malintenzionato ha eliminato la prova dell'evento 621 o che sta tentando di negare il servizio ad altri account.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>643</p></td>
 <td style="border:1px solid black;"><p>Modifica del criterio di protezione del dominio</p></td>
 <td style="border:1px solid black;"><p>Questo evento indica un tentativo di modifica del criterio password o di altre impostazioni relative ai criteri di protezione del dominio. Controllare il nome utente interessato e metterlo in relazione con l'autorizzazione.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Creazione o revoca di relazioni di trust
@@ -837,28 +837,28 @@ Nella seguente tabella sono elencati gli eventi che indicano azioni sulle relazi
 **Tabella 4.11. Eventi di modifica delle relazioni di trust**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>ID evento</p></th>  
-<th><p>Occorrenza</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID evento</p></th>
+<th><p>Occorrenza</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>610</p>
 <p>611</p>
 <p>620</p></td>
 <td style="border:1px solid black;"><p>Creazione, eliminazione o modifica di una relazione di trust con un altro dominio</p></td>
 <td style="border:1px solid black;"><p>Questi eventi si verificano sul controller di dominio in cui è stato creato l'oggetto dominio trusted. Questo evento deve generare un avviso e richiede una verifica immediata. Controllare il campo <strong>Nome utente</strong> della persona che ha eseguito l'operazione di trust.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Modifiche non autorizzate ai criteri di protezione
@@ -900,38 +900,38 @@ Nella seguente tabella sono elencati gli eventi che possono indicare una modific
 **Tabella 4.12. Eventi di modifica dei criteri**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>ID evento</p></th>  
-<th><p>Occorrenza</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID evento</p></th>
+<th><p>Occorrenza</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>612</p></td>
 <td style="border:1px solid black;"><p>Modifica di un criterio di controllo</p></td>
 <td style="border:1px solid black;"><p>Questo evento individua una qualsiasi modifica a un criterio di controllo. Mettere in relazione questo evento con le modifiche apportate ai criteri di sistemi dal personale autorizzato.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>613</p>
 <p>614</p>
 <p>615</p></td>
 <td style="border:1px solid black;"><p>Modifica di un criterio IPSec</p></td>
 <td style="border:1px solid black;"><p>Monitorare questi eventi ed esaminare con attenzione eventuali occorrenze che si sono verificate al di fuori delle operazioni di avvio del sistema.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>618</p></td>
 <td style="border:1px solid black;"><p>Criterio di recupero dati crittografati</p></td>
 <td style="border:1px solid black;"><p>Se si utilizza un criterio di recupero dati crittografati, monitorare questo evento ed esaminare con attenzione eventuali occorrenze che si sono verificate al di fuori del criterio specificato.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Per ulteriori informazioni sulle impostazioni Criteri di gruppo, vedere [Security Policy Settings](http://www.microsoft.com/resources/documentation/windowsserv/2003/all/techref/en-us/w2k3tr_sepol_set.asp) all'indirizzo http://www.microsoft.com/resources/Documentation/windowsserv/2003/all/techref/en-us/W2K3TR\_sepol\_set.asp (informazioni in lingua inglese).
@@ -975,66 +975,66 @@ Nella seguente tabella sono elencati gli eventi generati da attacchi che tentano
 **Tabella 4.13. Eventi di attacco delle credenziali di autenticazione**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>ID evento</p></th>  
-<th><p>Occorrenza</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID evento</p></th>
+<th><p>Occorrenza</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>529</p></td>
 <td style="border:1px solid black;"><p>Accesso non riuscito: nome utente sconosciuto o password non valida</p></td>
 <td style="border:1px solid black;"><p>Controllare eventuali tentativi in cui il valore del campo <strong>Nome account di destinazione</strong> corrisponde ad Administrator o all'account amministratore predefinito rinominato. Controllare i tentativi multipli di accesso non riusciti che sono inferiori al limite di blocchi dell'account. Questo evento può indicare un tentativo da parte di un utente non autorizzato di individuare la password dell'amministratore locale. Mettere in relazione con l'evento 539 per individuare uno schema di blocchi continui dell'account.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>534</p></td>
 <td style="border:1px solid black;"><p>Accesso non riuscito: tipo di accesso non consentito</p></td>
 <td style="border:1px solid black;"><p>Un utente ha tentato di accedere mediante un tipo di accesso non consentito, ad esempio rete, interattivo, batch o servizio. Controllare i campi <strong>Nome account di destinazione</strong> e <strong>Nome workstation</strong> e il <strong>tipo di accesso</strong>.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>539</p></td>
 <td style="border:1px solid black;"><p>Account bloccato</p></td>
 <td style="border:1px solid black;"><p>Un utente ha tentato di accedere a un account già bloccato. Mettere in relazione con l'evento 529 per individuare uno schema di blocchi continui.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>553</p></td>
 <td style="border:1px solid black;"><p>Attacco di tipo replay rilevato</p></td>
 <td style="border:1px solid black;"><p>Questo evento si verifica quando il pacchetto di autenticazione, in genere Kerberos, rileva un tentativo di accesso mediante riproduzione delle credenziali di un utente. È necessario eseguire immediatamente un'analisi approfondita. In alternativa, questo evento può indicare una configurazione di rete non corretta.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>627</p></td>
 <td style="border:1px solid black;"><p>Tentativo di cambiamento della password</p></td>
 <td style="border:1px solid black;"><p>Confrontare i campi <strong>Nome utente primario</strong> e <strong>Nome account di destinazione</strong> per determinare se il tentativo di cambiamento della password è stato eseguito dal proprietario dell'account o da un altro utente. Se il valore in <strong>Nome utente primario</strong> non corrisponde a quello in <strong>Nome account di destinazione</strong>, significa che un utente diverso dal proprietario dell'account ha tentato di cambiare la password.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>628</p></td>
 <td style="border:1px solid black;"><p>Impostazione o reimpostazione della password dell'account utente</p></td>
 <td style="border:1px solid black;"><p>Questa operazione può essere eseguita soltanto da persone o processi autorizzati, ad esempio dal personale del supporto tecnico o dall'utente proprietario della password. In caso contrario, è necessario eseguire immediatamente un'analisi approfondita dell'evento.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>644</p></td>
 <td style="border:1px solid black;"><p>Blocco automatico dell'account utente</p></td>
 <td style="border:1px solid black;"><p>Un account utente è stato bloccato poiché il numero dei tentativi di accesso consecutivi non riusciti è maggiore del limite di blocchi dell'account. Mettere in relazione con gli eventi 529, 675, 676 (solo Windows 2000 Server) e 681. Vedere anche le informazioni riportate in questa tabella per l'evento 12294.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>675</p></td>
 <td style="border:1px solid black;"><p>Preautenticazione non riuscita</p></td>
 <td style="border:1px solid black;"><p>Mettere in relazione con l'evento 529 per trovare le altre cause per l'accesso non riuscito, ad esempio la sincronizzazione dell'orario o l'aggiunta non corretta di account computer al dominio.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>12294</p></td>
 <td style="border:1px solid black;"><p>Tentativo di blocco account</p></td>
 <td style="border:1px solid black;"><p>Questo evento indica un possibile attacco a forza bruta nei confronti dell'account Administrator predefinito. Poiché questo account non può essere bloccato, nel registro eventi di sistema viene registrato in alternativa l'evento SAM 12294. È necessario analizzare immediatamente anche una singola occorrenza di questo evento, poiché può anche indicare la presenza di un sistema operativo non autorizzato. Controllare il campo <strong>Nome dominio</strong> per individuare domini sconosciuti.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Sfruttamento dei punti di vulnerabilità
@@ -1052,32 +1052,32 @@ Tipiche situazioni di sfruttamento delle vulnerabilità includono i tentativi di
 **Tabella 4.14. Eventi di sfruttamento delle vulnerabilità mediante aumento dei privilegi**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>ID evento</p></th>  
-<th><p>Occorrenza</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID evento</p></th>
+<th><p>Occorrenza</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>528</p>
 <p>538</p></td>
 <td style="border:1px solid black;"><p>Accesso locale e disconnessione</p></td>
 <td style="border:1px solid black;"><p>I tentativi di accesso locale dovrebbero essere molto rari nei computer presenti nella rete perimetrale. Mettere in relazione con il campo ID di accesso. Eseguire un'analisi approfondita se sono presenti valori imprevisti nei campi <strong>Nome account utente</strong>, <strong>Ora</strong> o <strong>Nome workstation</strong>.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>576</p></td>
 <td style="border:1px solid black;"><p>Accesso privilegiato</p></td>
 <td style="border:1px solid black;"><p>In Windows Server 2003 con SP1 o versione successiva, questo evento indica un accesso amministratore, ovvero un accesso che dispone di privilegi sufficienti per compromettere la protezione o assumere il controllo del computer. Nelle versioni precedenti di Windows, questo evento era di interesse solo se conteneva un privilegio importante quale <strong>SeSecurityPrivilege</strong> o <strong>SeDebugPrivilege</strong>.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Nota:** nelle versioni di Windows precedenti a Windows Server 2003, l'evento 576 viene elencato nella categoria Uso del privilegio. In Windows Server 2003 e versioni successive, questo evento è incluso anche nella categoria Accesso. Di conseguenza, la configurazione delle impostazioni di controllo per una delle due categorie determina la comparsa di questo evento.
@@ -1093,26 +1093,26 @@ Nella seguente tabella sono elencati gli eventi che possono indicare l'installaz
 **Tabella 4.15. Eventi legati alla presenza di rootkit o trojan horse**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>ID evento</p></th>  
-<th><p>Occorrenza</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID evento</p></th>
+<th><p>Occorrenza</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>592</p></td>
 <td style="border:1px solid black;"><p>Creazione di un nuovo processo</p></td>
 <td style="border:1px solid black;"><p>Controllare i campi <strong>Nome file immagine</strong> e <strong>Nome utente</strong> per i nuovi processi. Tutti i processi devono essere programmi autorizzati.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 #### Tentativo di far eseguire a un utente un programma dannoso
@@ -1148,31 +1148,31 @@ Il sistema di monitoraggio della protezione deve indicare chiunque tenti di conn
 **Tabella 4.16. Eventi di utilizzo di un computer non autorizzato**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>ID evento</p></th>  
-<th><p>Occorrenza</p></th>  
-<th><p>Commenti</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>ID evento</p></th>
+<th><p>Occorrenza</p></th>
+<th><p>Commenti</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>528</p></td>
 <td style="border:1px solid black;"><p>Accesso riuscito</p></td>
 <td style="border:1px solid black;"><p>Controllare il campo <strong>Nome workstation</strong> e quindi il campo <strong>Nome account utente</strong>. Assicurarsi che il valore del campo <strong>Indirizzo di rete origine</strong> sia compreso nell'intervallo di indirizzi IP dell'organizzazione.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>530</p></td>
 <td style="border:1px solid black;"><p>Accesso non riuscito: restrizioni sull'orario</p></td>
 <td style="border:1px solid black;"><p>Questo evento indica un tentativo di accesso al di fuori degli orari consentiti. Controllare il valore di <strong>Nome account utente</strong> e <strong>Nome workstation</strong>.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)

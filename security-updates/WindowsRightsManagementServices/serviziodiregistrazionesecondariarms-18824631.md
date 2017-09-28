@@ -35,6 +35,6 @@ L'elenco di controllo di accesso predefinito su questo servizio è illustrato ne
 <tr class="odd">
 <td style="border:1px solid black;"><p>SISTEMA</p></td>
 <td style="border:1px solid black;"><p>Controllo completo</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>

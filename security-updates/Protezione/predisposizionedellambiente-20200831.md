@@ -116,7 +116,7 @@ Per completare le procedure descritte in questo capitolo, sono necessari i segue
 <td style="border:1px solid black;"><p>Script della soluzione per reti LAN senza fili</p></td>
 <td style="border:1px solid black;"><p>Set di script e strumenti fornito con questa soluzione.</p></td>
 <td style="border:1px solid black;"><p>I dettagli relativi all'installazione sono forniti in questo capitolo.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Console di gestione Criteri di gruppo</p></td>
 <td style="border:1px solid black;"><p>Strumento di gestione avanzata per oggetti Criteri di gruppo, che consente di importarli ed esportarli.</p></td>
@@ -139,8 +139,8 @@ I dettagli relativi all'installazione sono forniti in questo capitolo.</p></td>
 <td style="border:1px solid black;"><p>Utenti e computer di Active Directory</p></td>
 <td style="border:1px solid black;"><p>Strumento MMC (Microsoft Management Console) utilizzato per gestire utenti, gruppi, computer e altri oggetti Active Directory.</p></td>
 <td style="border:1px solid black;"><p>Installato con Windows Server 2003.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 [](#mainsection)[Inizio pagina](#mainsection)
@@ -267,34 +267,34 @@ Seguire la procedura fornita più avanti in questa sezione per creare gruppi di 
 **Tabella 3.2: Gruppi di protezione e membri**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Gruppo di protezione</p></th>  
-<th><p>Scopo</p></th>  
-<th><p>Tipo di gruppo</p></th>  
-<th><p>Membri</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Gruppo di protezione</p></th>
+<th><p>Scopo</p></th>
+<th><p>Tipo di gruppo</p></th>
+<th><p>Membri</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Wireless LAN Users</p></td>
 <td style="border:1px solid black;"><p>Specifica quali utenti possono eseguire l'autenticazione per la rete LAN senza fili.</p></td>
 <td style="border:1px solid black;"><p>Globale</p></td>
 <td style="border:1px solid black;"><p>Domain Users</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Wireless LAN Computers</p></td>
 <td style="border:1px solid black;"><p>Specifica quali computer possono eseguire l'autenticazione per la rete LAN senza fili.</p></td>
 <td style="border:1px solid black;"><p>Globale</p></td>
 <td style="border:1px solid black;"><p>Computer del dominio</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Wireless LAN Access</p></td>
 <td style="border:1px solid black;"><p>Questo gruppo è utilizzato nel criterio di accesso RADIUS per controllare l'accesso alla rete LAN senza fili.</p></td>
@@ -307,8 +307,8 @@ Wireless LAN Computers.</p></td>
 <td style="border:1px solid black;"><p>Specifica quali computer ricevono impostazioni della rete LAN senza fili dai criteri di gruppo.</p></td>
 <td style="border:1px solid black;"><p>Domain Local</p></td>
 <td style="border:1px solid black;"><p>Wireless LAN Computers.</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 **Per creare gruppi di protezione e definire membri di tali gruppi**
@@ -346,34 +346,34 @@ Se si intende abilitare la registrazione RADIUS, è necessario allocare un disco
 **Tabella 3.3: Hardware minimo consigliato per il server IAS**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Elemento</p></th>  
-<th><p>Requisito</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Elemento</p></th>
+<th><p>Requisito</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>CPU</p></td>
 <td style="border:1px solid black;"><p>CPU singola a 733 MHz o superiore</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Memoria</p></td>
 <td style="border:1px solid black;"><p>256 MB</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Interfacce di rete</p></td>
 <td style="border:1px solid black;"><p>Scheda di rete singola</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Archiviazione disco</p></td>
 <td style="border:1px solid black;"><p>Controller RAID IDE o SCSI</p>
-<p>2 x 18 GB (SCSI) o 2 x 20 GB (IDE) configurati come volume RAID 1</p>  
+<p>2 x 18 GB (SCSI) o 2 x 20 GB (IDE) configurati come volume RAID 1</p>
 <p>Archiviazione su supporti rimovibili (CD-RW o nastro di backup), in assenza di una funzionalità di backup di rete</p>
 <p>Unità disco floppy da 1,44 MB per il trasferimento dei dati.</p></td>
 </tr>
@@ -495,28 +495,28 @@ Nella tabella che segue sono elencati i servizi impostati per l'avvio automatico
 <tr class="odd">
 <td style="border:1px solid black;"><p>Servizi certificati</p></td>
 <td style="border:1px solid black;"><p>Automatico</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Servizio autenticazione Internet</p></td>
 <td style="border:1px solid black;"><p>Automatico</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Provider di copie replicate software Microsoft</p></td>
 <td style="border:1px solid black;"><p>Automatico</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Archivi rimovibili</p></td>
 <td style="border:1px solid black;"><p>Automatico</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Utilità di pianificazione</p></td>
 <td style="border:1px solid black;"><p>Automatico</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Copia shadow del volume</p></td>
 <td style="border:1px solid black;"><p>Automatico</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Nella tabella che segue sono elencate le categorie di controllo per cui è abilitato il controllo delle operazioni non riuscite oltre a quello delle operazioni riuscite.
@@ -524,35 +524,35 @@ Nella tabella che segue sono elencate le categorie di controllo per cui è abili
 **Tabella 3.5: Impostazioni del Criterio Controllo**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="50%" />  
-<col width="50%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Criteri di controllo</p></th>  
-<th><p>Impostazione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Criteri di controllo</p></th>
+<th><p>Impostazione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Controlla eventi accesso account</p></td>
 <td style="border:1px solid black;"><p>Operazioni riuscite/Operazioni non riuscite (l'impostazione predefinita è Operazioni riuscite)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Controlla eventi di gestione degli account</p></td>
 <td style="border:1px solid black;"><p>Operazioni riuscite/Operazioni non riuscite (l'impostazione predefinita è Operazioni riuscite)</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Controlla eventi di accesso</p></td>
 <td style="border:1px solid black;"><p>Operazioni riuscite/Operazioni non riuscite (l'impostazione predefinita è Operazioni riuscite)</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Eventi di modifica del criterio di controllo</p></td>
 <td style="border:1px solid black;"><p>Operazioni riuscite/Operazioni non riuscite (l'impostazione predefinita è Operazioni riuscite)</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 L'abilitazione delle impostazioni di controllo riportate nella tabella determina un incremento dei requisiti di archiviazione per il registro di protezione. È necessario verificare che i registri eventi siano impostati con dimensioni adeguate nei controller di dominio. Le dimensioni predefinite del registro eventi per Windows Server 2003 sono appropriate, mentre in Windows 2000 erano utilizzate dimensioni eccessivamente ridotte (queste impostazioni potrebbero ancora essere attive se è stato eseguito l'aggiornamento da Windows 2000). Nel capitolo 5, "Creazione dell'infrastruttura di protezione per LAN senza fili", è illustrato il modo in cui configurare i server IAS per la registrazione nel registro eventi di sistema Windows di tutte le connessioni riuscite e non riuscite alla rete LAN senza fili. È necessario verificare che i registri protezione e degli eventi di sistema siano impostati con dimensioni adeguate in tutti i controller di dominio. In Windows Server 2003 vengono utilizzati 16 MB per i registri di sistema e delle applicazioni, e 128 MB per il registro protezione: entrambi i valori sono appropriati a questa soluzione.

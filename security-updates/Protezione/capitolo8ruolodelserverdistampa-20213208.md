@@ -53,8 +53,8 @@ La tabella seguente mostra i nomi dei modelli di protezione del server di stampa
 <td style="border:1px solid black;"><p>LC-Print Server.inf</p></td>
 <td style="border:1px solid black;"><p>EC-Print Server.inf</p></td>
 <td style="border:1px solid black;"><p>SSLF-Print Server.inf</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Per le informazioni sulle impostazioni nel criterio MSBP, consultare il Capitolo 4, “Criterio di base per un server membro". Per informazioni su tutte le impostazioni di criteri predefinite, consultare la guida correlata, [*Pericoli e contromisure: impostazioni di protezione per Windows Server 2003 e Windows XP,*](http://technet.microsoft.com/it-it/library/dd162275)disponibile all'indirizzo http://www.microsoft.com/italy/technet/security/topics/serversecurity/tcg/tcgch00.mspx.
@@ -84,29 +84,29 @@ La maggior parte delle impostazioni delle opzioni di protezione per i server di 
 **Tabella 8.2 Impostazioni consigliate per l'aggiunta della firma digitale alle comunicazioni (sempre)**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-<col width="25%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Impostazione</p></th>  
-<th><p>Legacy Client</p></th>  
-<th><p>Enterprise Client</p></th>  
-<th><p>Specialized Security – Limited Functionality</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Impostazione</p></th>
+<th><p>Legacy Client</p></th>
+<th><p>Enterprise Client</p></th>
+<th><p>Specialized Security – Limited Functionality</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Server di rete Microsoft: aggiungi firma digitale alle comunicazioni (sempre)</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
 <td style="border:1px solid black;"><p>Disabilitato</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 Questa impostazione di criterio determina se il componente server SMB deve richiedere la firma del pacchetto. Il protocollo SMB fornisce le basi per la condivisione di stampanti e file Microsoft e molte altre operazioni di rete, ad esempio l’amministrazione remota di Windows. Per evitare attacchi di tipo "man-in-the-middle" che modificano i pacchetti SMB in transito, il protocollo SMB supporta la firma digitale dei pacchetti SMB. Questa impostazione di criterio determina se debba essere negoziata la firma dei pacchetti SMB perché siano consentite ulteriori comunicazioni con un client SMB.

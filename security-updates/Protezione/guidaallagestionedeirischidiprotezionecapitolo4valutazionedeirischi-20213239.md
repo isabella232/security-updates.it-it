@@ -95,20 +95,20 @@ La valutazione dei rischi richiede l'interazione tra i gruppi e l'assunzione di 
 <tr class="odd">
 <td style="border:1px solid black;"><p>Titolare dell'azienda</p></td>
 <td style="border:1px solid black;"><p>Stabilisce il valore dei beni aziendali</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Gruppo protezione informatica</p></td>
 <td style="border:1px solid black;"><p>Determina l'impatto potenziale sui beni aziendali</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>IT - Progettazione</p></td>
 <td style="border:1px solid black;"><p>Progetta le soluzioni tecniche e calcola i costi di progettazione</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>IT - Operazioni</p></td>
 <td style="border:1px solid black;"><p>Progetta i componenti operativi della soluzione e calcola i costi operativi</p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 I controlli e i bilanci tattici correlati diventeranno evidenti nelle seguenti sezioni che analizzano più da vicino i passaggi di pianificazione, raccolta dei dati facilitata e definizione delle priorità dei rischi della fase di valutazione dei rischi.
@@ -786,51 +786,51 @@ Nella figura successiva viene valutata l'efficacia dei controlli esistenti. Il v
 **Tabella 4.2. Esempio di Woodgrove — Valori dell'efficacia dei controlli**
 
 <p> </p>
-<table style="border:1px solid black;">  
-<colgroup>  
-<col width="33%" />  
-<col width="33%" />  
-<col width="33%" />  
-</colgroup>  
-<thead>  
-<tr class="header">  
-<th><p>Domanda sull'efficacia dei controlli</p></th>  
-<th><p>Valore</p></th>  
-<th><p>Descrizione</p></th>  
-</tr>  
-</thead>  
-<tbody>  
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Domanda sull'efficacia dei controlli</p></th>
+<th><p>Valore</p></th>
+<th><p>Descrizione</p></th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Le responsabilità sono definite e applicate in modo efficace?</p></td>
 <td style="border:1px solid black;"><p>0 (sì)</p></td>
 <td style="border:1px solid black;"><p>Le responsabilità per la creazione di criteri e la conformità degli host sono definite in modo adeguato.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>Le informazioni vengono comunicate e seguite in modo efficace?</p></td>
 <td style="border:1px solid black;"><p>0 (sì)</p></td>
 <td style="border:1px solid black;"><p>Agli utenti vengono inviate notifiche periodiche e condotte campagne di informazione di carattere generale.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>I processi vengono definiti ed eseguiti in modo efficace?</p></td>
 <td style="border:1px solid black;"><p>0 (sì)</p></td>
 <td style="border:1px solid black;"><p>La misurazione e l'applicazione della conformità ai requisiti vengono documentate e monitorate.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p>La tecnologia o i controlli esistenti riducono i pericoli in modo efficace?</p></td>
 <td style="border:1px solid black;"><p>1 (no)</p></td>
 <td style="border:1px solid black;"><p>I controlli esistenti non consentono un'implementazione rapida delle patch nei sistemi vulnerabili.</p></td>
-</tr>  
+</tr>
 <tr class="odd">
 <td style="border:1px solid black;"><p>Le procedure di controllo esistenti sono sufficienti per rilevare usi impropri o carenze nei controlli?</p></td>
 <td style="border:1px solid black;"><p>0 (sì)</p></td>
 <td style="border:1px solid black;"><p>I controlli delle misurazioni e della conformità sono efficaci, in base agli strumenti attualmente disponibili.</p></td>
-</tr>  
+</tr>
 <tr class="even">
 <td style="border:1px solid black;"><p><strong>Somma di tutti gli attributi dei controlli:</strong></p></td>
 <td style="border:1px solid black;"><p>1</p></td>
 <td style="border:1px solid black;"><p> </p></td>
-</tr>  
-</tbody>  
+</tr>
+</tbody>
 </table>
   
 A questo punto, aggiungere il valore della figura Vulnerabilità (Figura 4.16) al valore della figura Controlli attuali (Figura 4.17) e inserire il totale nel modello dettagliato. Fare riferimento al modello mostrato nella seguente figura.
