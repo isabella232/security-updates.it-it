@@ -312,7 +312,7 @@ Partendo da filtri IPsec più restrittivi e aprendo le porte solo all’occorren
 
 **Tabella 11.1 Esempio di mappa del traffico della rete**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="12%" />
@@ -326,56 +326,56 @@ Partendo da filtri IPsec più restrittivi e aprendo le porte solo all’occorren
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Servizio</p></th>
-<th><p>Protocollo</p></th>
-<th><p>Porta di origine</p></th>
-<th><p>Porta di destinazione</p></th>
-<th><p>Indirizzo di origine</p></th>
-<th><p>Indirizzo di destinazione</p></th>
-<th><p>Azione</p></th>
-<th><p>Mirror</p></th>
+<th>Servizio</th>
+<th>Protocollo</th>
+<th>Porta di origine</th>
+<th>Porta di destinazione</th>
+<th>Indirizzo di origine</th>
+<th>Indirizzo di destinazione</th>
+<th>Azione</th>
+<th>Mirror</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>HTTP Server (Server HTTP)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">HTTP Server (Server HTTP)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Server HTTPS</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>443</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Server HTTPS</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">443</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Client DNS</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>53</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>DNS</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Client DNS</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">53</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">DNS</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Block everything (Blocco generale)</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>BLOCCA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Block everything (Blocco generale)</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">BLOCCA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 </tbody>
 </table>
@@ -396,7 +396,7 @@ Se è necessario utilizzare un servizio client le cui connessioni non si limitan
   
 **Tabella 11.2 Esempio di Mappa del traffico della rete per l'esplorazione Web in uscita**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="12%" />
@@ -410,126 +410,126 @@ Se è necessario utilizzare un servizio client le cui connessioni non si limitan
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Servizio</p></th>
-<th><p>Protocollo</p></th>
-<th><p>Porta di origine</p></th>
-<th><p>Porta di destinazione</p></th>
-<th><p>Indirizzo di origine</p></th>
-<th><p>Indirizzo di destinazione</p></th>
-<th><p>Azione</p></th>
-<th><p>Mirror</p></th>
+<th>Servizio</th>
+<th>Protocollo</th>
+<th>Porta di origine</th>
+<th>Porta di destinazione</th>
+<th>Indirizzo di origine</th>
+<th>Indirizzo di destinazione</th>
+<th>Azione</th>
+<th>Mirror</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Inbound ICMP for TCP PMTU (ICMP in ingresso per PMTU TCP)</p></td>
-<td style="border:1px solid black;"><p>ICMP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">Inbound ICMP for TCP PMTU (ICMP in ingresso per PMTU TCP)</td>
+<td style="border:1px solid black;">ICMP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">NO</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Inbound IIS Server HTTP:80 (HTTP:80 server IIS in ingresso)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Inbound IIS Server HTTP:80 (HTTP:80 server IIS in ingresso)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Inbound IIS Server FTP:21 (FTP:21 server IIS in ingresso)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>21</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Inbound IIS Server FTP:21 (FTP:21 server IIS in ingresso)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">21</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Inbound Terminal Server (Server terminal in ingresso)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>3389</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Inbound Terminal Server (Server terminal in ingresso)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">3389</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Me to Domain DCs all traffic (Tutto il traffico dall'utente ai controller di dominio)</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>Nome dominio</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Me to Domain DCs all traffic (Tutto il traffico dall'utente ai controller di dominio)</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">Nome dominio</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Outbound DNS UDP/TCP (UDP/TCP DNS in uscita)</p></td>
-<td style="border:1px solid black;"><p>UDP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>53</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>DNS</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Outbound DNS UDP/TCP (UDP/TCP DNS in uscita)</td>
+<td style="border:1px solid black;">UDP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">53</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">DNS</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Outbound DNS UDP/TCP (UDP/TCP DNS in uscita)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>53</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>DNS</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Outbound DNS UDP/TCP (UDP/TCP DNS in uscita)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">53</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">DNS</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Outbound WINS (WINS in uscita)</p></td>
-<td style="border:1px solid black;"><p>UDP</p></td>
-<td style="border:1px solid black;"><p>137</p></td>
-<td style="border:1px solid black;"><p>137</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>WINS</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Outbound WINS (WINS in uscita)</td>
+<td style="border:1px solid black;">UDP</td>
+<td style="border:1px solid black;">137</td>
+<td style="border:1px solid black;">137</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">WINS</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Outbound DHCP (DHCP in uscita)</p></td>
-<td style="border:1px solid black;"><p>UDP</p></td>
-<td style="border:1px solid black;"><p>68</p></td>
-<td style="border:1px solid black;"><p>67</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>DHCP</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Outbound DHCP (DHCP in uscita)</td>
+<td style="border:1px solid black;">UDP</td>
+<td style="border:1px solid black;">68</td>
+<td style="border:1px solid black;">67</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">DHCP</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Outbound HTTP:80 (HTTP:80 in uscita)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Outbound HTTP:80 (HTTP:80 in uscita)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Block everything (Blocco generale)</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>BLOCCA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Block everything (Blocco generale)</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">BLOCCA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 </tbody>
 </table>
@@ -552,7 +552,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
   
 **Tabella 11.3 Esempio riveduto di Mappa del traffico della rete per l'esplorazione Web in uscita**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="12%" />
@@ -566,176 +566,176 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Servizio</p></th>
-<th><p>Protocollo</p></th>
-<th><p>Porta di origine</p></th>
-<th><p>Porta di destinazione</p></th>
-<th><p>Indirizzo di origine</p></th>
-<th><p>Indirizzo di destinazione</p></th>
-<th><p>Azione</p></th>
-<th><p>Mirror</p></th>
+<th>Servizio</th>
+<th>Protocollo</th>
+<th>Porta di origine</th>
+<th>Porta di destinazione</th>
+<th>Indirizzo di origine</th>
+<th>Indirizzo di destinazione</th>
+<th>Azione</th>
+<th>Mirror</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Inbound ICMP for TCP PMTU (ICMP in ingresso per PMTU TCP)</p></td>
-<td style="border:1px solid black;"><p>ICMP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">Inbound ICMP for TCP PMTU (ICMP in ingresso per PMTU TCP)</td>
+<td style="border:1px solid black;">ICMP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">NO</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Inbound IIS Server HTTP:80 (HTTP:80 server IIS in ingresso)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Inbound IIS Server HTTP:80 (HTTP:80 server IIS in ingresso)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Inbound IIS Server FTP:21 (FTP:21 server IIS in ingresso)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>21</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Inbound IIS Server FTP:21 (FTP:21 server IIS in ingresso)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">21</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Inbound Terminal Server (Server terminal in ingresso)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>3389</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Inbound Terminal Server (Server terminal in ingresso)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">3389</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Me to Domain DCs all traffic (Tutto il traffico dall'utente ai controller di dominio)</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>Nome dominio</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Me to Domain DCs all traffic (Tutto il traffico dall'utente ai controller di dominio)</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">Nome dominio</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Outbound DNS UDP/TCP (UDP/TCP DNS in uscita)</p></td>
-<td style="border:1px solid black;"><p>UDP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>53</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>DNS</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Outbound DNS UDP/TCP (UDP/TCP DNS in uscita)</td>
+<td style="border:1px solid black;">UDP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">53</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">DNS</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Outbound DNS UDP/TCP (UDP/TCP DNS in uscita)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>53</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>DNS</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Outbound DNS UDP/TCP (UDP/TCP DNS in uscita)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">53</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">DNS</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Outbound WINS (WINS in uscita)</p></td>
-<td style="border:1px solid black;"><p>UDP</p></td>
-<td style="border:1px solid black;"><p>137</p></td>
-<td style="border:1px solid black;"><p>137</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>WINS</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Outbound WINS (WINS in uscita)</td>
+<td style="border:1px solid black;">UDP</td>
+<td style="border:1px solid black;">137</td>
+<td style="border:1px solid black;">137</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">WINS</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Outbound DHCP (DHCP in uscita)</p></td>
-<td style="border:1px solid black;"><p>UDP</p></td>
-<td style="border:1px solid black;"><p>68</p></td>
-<td style="border:1px solid black;"><p>67</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>DHCP</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Outbound DHCP (DHCP in uscita)</td>
+<td style="border:1px solid black;">UDP</td>
+<td style="border:1px solid black;">68</td>
+<td style="border:1px solid black;">67</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">DHCP</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Outbound HTTP:80 (HTTP:80 in uscita)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>AUTORIZZA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Outbound HTTP:80 (HTTP:80 in uscita)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">AUTORIZZA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Mitigation from inbound src 80 attack (Riduzione attacco da porta di origine 80 in ingresso)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>135</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>BLOCCA</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">Mitigation from inbound src 80 attack (Riduzione attacco da porta di origine 80 in ingresso)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">135</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">BLOCCA</td>
+<td style="border:1px solid black;">NO</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Mitigation from inbound src 80 attack (Riduzione attacco da porta di origine 80 in ingresso)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>139</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>BLOCCA</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">Mitigation from inbound src 80 attack (Riduzione attacco da porta di origine 80 in ingresso)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">139</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">BLOCCA</td>
+<td style="border:1px solid black;">NO</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Mitigation from inbound src 80 attack (Riduzione attacco da porta di origine 80 in ingresso)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>445</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>BLOCCA</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">Mitigation from inbound src 80 attack (Riduzione attacco da porta di origine 80 in ingresso)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">445</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">BLOCCA</td>
+<td style="border:1px solid black;">NO</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Mitigation from inbound src 80 attack (Riduzione attacco da porta di origine 80 in ingresso)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>1025</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>BLOCCA</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">Mitigation from inbound src 80 attack (Riduzione attacco da porta di origine 80 in ingresso)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">1025</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">BLOCCA</td>
+<td style="border:1px solid black;">NO</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Mitigation from inbound src 80 attack (Riduzione attacco da porta di origine 80 in ingresso)</p></td>
-<td style="border:1px solid black;"><p>TCP</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>1046</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUESTO COMPUTER</p></td>
-<td style="border:1px solid black;"><p>BLOCCA</p></td>
-<td style="border:1px solid black;"><p>NO</p></td>
+<td style="border:1px solid black;">Mitigation from inbound src 80 attack (Riduzione attacco da porta di origine 80 in ingresso)</td>
+<td style="border:1px solid black;">TCP</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">1046</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUESTO COMPUTER</td>
+<td style="border:1px solid black;">BLOCCA</td>
+<td style="border:1px solid black;">NO</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Block everything (Blocco generale)</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>QUALSIASI</p></td>
-<td style="border:1px solid black;"><p>BLOCCA</p></td>
-<td style="border:1px solid black;"><p>SÌ</p></td>
+<td style="border:1px solid black;">Block everything (Blocco generale)</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">QUALSIASI</td>
+<td style="border:1px solid black;">BLOCCA</td>
+<td style="border:1px solid black;">SÌ</td>
 </tr>
 </tbody>
 </table>

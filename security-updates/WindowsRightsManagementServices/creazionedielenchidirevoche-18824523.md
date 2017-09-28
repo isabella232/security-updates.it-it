@@ -167,7 +167,7 @@ Utilizzare le informazioni seguenti per completare i parametri di input del coma
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -181,20 +181,20 @@ Utilizzare le informazioni seguenti per completare i parametri di input del coma
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>file_input</em></p></td>
-<td style="border:1px solid black;"><p>Nome del file dell'elenco di revoche preparato compatibile con XrML.</p></td>
+<td style="border:1px solid black;"><em>file_input</em></td>
+<td style="border:1px solid black;">Nome del file dell'elenco di revoche preparato compatibile con XrML.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>file_chiave</em></p></td>
-<td style="border:1px solid black;"><p>Nome del file in cui sono presenti le chiavi pubblica e privata generate.</p></td>
+<td style="border:1px solid black;"><em>file_chiave</em></td>
+<td style="border:1px solid black;">Nome del file in cui sono presenti le chiavi pubblica e privata generate.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>nome_contenitore</em></p></td>
-<td style="border:1px solid black;"><p>Nome del contenitore della chiave</p></td>
+<td style="border:1px solid black;"><em>nome_contenitore</em></td>
+<td style="border:1px solid black;">Nome del contenitore della chiave</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>file_output</em></p></td>
-<td style="border:1px solid black;"><p>Nome del file dell'elenco di revoche firmato che verrà creato dallo strumento.</p></td>
+<td style="border:1px solid black;"><em>file_output</em></td>
+<td style="border:1px solid black;">Nome del file dell'elenco di revoche firmato che verrà creato dallo strumento.</td>
 </tr>
 </tbody>
 </table>
@@ -214,7 +214,7 @@ Nel codice restituito dallo strumento RLsigner.exe vengono segnalati i principal
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -228,32 +228,32 @@ Nel codice restituito dallo strumento RLsigner.exe vengono segnalati i principal
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>Operazione completata</p></td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">Operazione completata</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>-1</p></td>
-<td style="border:1px solid black;"><p>Impossibile leggere il file di origine</p></td>
+<td style="border:1px solid black;">-1</td>
+<td style="border:1px solid black;">Impossibile leggere il file di origine</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>-2</p></td>
-<td style="border:1px solid black;"><p>Impossibile leggere il file della chiave</p></td>
+<td style="border:1px solid black;">-2</td>
+<td style="border:1px solid black;">Impossibile leggere il file della chiave</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>-3</p></td>
-<td style="border:1px solid black;"><p>File della chiave non valido</p></td>
+<td style="border:1px solid black;">-3</td>
+<td style="border:1px solid black;">File della chiave non valido</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>-4</p></td>
-<td style="border:1px solid black;"><p>File di origine non valido</p></td>
+<td style="border:1px solid black;">-4</td>
+<td style="border:1px solid black;">File di origine non valido</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>-5</p></td>
-<td style="border:1px solid black;"><p>Impossibile scrivere nel file di output</p></td>
+<td style="border:1px solid black;">-5</td>
+<td style="border:1px solid black;">Impossibile scrivere nel file di output</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>-6</p></td>
-<td style="border:1px solid black;"><p>Errore sconosciuto</p></td>
+<td style="border:1px solid black;">-6</td>
+<td style="border:1px solid black;">Errore sconosciuto</td>
 </tr>
 </tbody>
 </table>

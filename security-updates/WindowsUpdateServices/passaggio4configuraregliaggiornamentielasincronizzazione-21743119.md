@@ -68,7 +68,7 @@ Nelle procedure del passaggio 3 è stata completata la configurazione del server
 
 4.  Fare clic su **Fine**.
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="100%" />
@@ -81,11 +81,11 @@ Nelle procedure del passaggio 3 è stata completata la configurazione del server
     <tbody>
     <tr class="odd">
     <td style="border:1px solid black;">Non è possibile salvare le modifiche di configurazione apportate durante la sincronizzazione del server. Attendere il completamento della sincronizzazione, quindi apportare le modifiche desiderate.
-    <p></p></td>
+    </td>
     </tr>
     </tbody>
     </table>
-<p> </p>
+ 
 
 Se si utilizza la console di amministrazione WSUS
 -------------------------------------------------

@@ -1133,7 +1133,7 @@ La restrizione dell'accesso nelle named pipe quali COMNAP e LOCATOR consente di 
 
 **Tabella 5.1: named pipe predefinite accessibili in modo anonimo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1141,42 +1141,42 @@ La restrizione dell'accesso nelle named pipe quali COMNAP e LOCATOR consente di 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Named pipe</p></th>
-<th><p>Scopo</p></th>
+<th>Named pipe</th>
+<th>Scopo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>COMNAP</p></td>
-<td style="border:1px solid black;"><p>Named pipe per SnaBase. SNA (Systems Network Architecture) è un insieme di protocolli di rete sviluppati originariamente per i computer mainframe IBM.</p></td>
+<td style="border:1px solid black;">COMNAP</td>
+<td style="border:1px solid black;">Named pipe per SnaBase. SNA (Systems Network Architecture) è un insieme di protocolli di rete sviluppati originariamente per i computer mainframe IBM.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>COMNODE</p></td>
-<td style="border:1px solid black;"><p>Named pipe per SNA Server.</p></td>
+<td style="border:1px solid black;">COMNODE</td>
+<td style="border:1px solid black;">Named pipe per SNA Server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SQL\QUERY</p></td>
-<td style="border:1px solid black;"><p>Named pipe predefinita per SQL Server.</p></td>
+<td style="border:1px solid black;">SQL\QUERY</td>
+<td style="border:1px solid black;">Named pipe predefinita per SQL Server.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SPOOLSS</p></td>
-<td style="border:1px solid black;"><p>Named pipe per il servizio Spooler di stampa.</p></td>
+<td style="border:1px solid black;">SPOOLSS</td>
+<td style="border:1px solid black;">Named pipe per il servizio Spooler di stampa.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>EPMAPPER</p></td>
-<td style="border:1px solid black;"><p>Named pipe per il mapping degli endpoint.</p></td>
+<td style="border:1px solid black;">EPMAPPER</td>
+<td style="border:1px solid black;">Named pipe per il mapping degli endpoint.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>LOCATOR</p></td>
-<td style="border:1px solid black;"><p>Named pipe per il servizio RPC (Remote Procedure Call).</p></td>
+<td style="border:1px solid black;">LOCATOR</td>
+<td style="border:1px solid black;">Named pipe per il servizio RPC (Remote Procedure Call).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TrkWks</p></td>
-<td style="border:1px solid black;"><p>Named pipe per Manutenzione collegamenti distribuiti client.</p></td>
+<td style="border:1px solid black;">TrkWks</td>
+<td style="border:1px solid black;">Named pipe per Manutenzione collegamenti distribuiti client.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TrkSvr</p></td>
-<td style="border:1px solid black;"><p>Named pipe per Manutenzione collegamenti distribuiti server.</p></td>
+<td style="border:1px solid black;">TrkSvr</td>
+<td style="border:1px solid black;">Named pipe per Manutenzione collegamenti distribuiti server.</td>
 </tr>
 </tbody>
 </table>

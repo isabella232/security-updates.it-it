@@ -22,7 +22,7 @@ Nella tabella riportata di seguito sono elencati i requisiti hardware per l'esec
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -36,16 +36,16 @@ Nella tabella riportata di seguito sono elencati i requisiti hardware per l'esec
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Computer con processore Pentium III (800 MHz o superiore)</p></td>
-<td style="border:1px solid black;"><p>Computer con due processori Pentium 4 (1500 MHz o superiori)</p></td>
+<td style="border:1px solid black;">Computer con processore Pentium III (800 MHz o superiore)</td>
+<td style="border:1px solid black;">Computer con due processori Pentium 4 (1500 MHz o superiori)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>256 MB di RAM</p></td>
-<td style="border:1px solid black;"><p>512 MB di RAM</p></td>
+<td style="border:1px solid black;">256 MB di RAM</td>
+<td style="border:1px solid black;">512 MB di RAM</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>20 GB di spazio libero su disco rigido</p></td>
-<td style="border:1px solid black;"><p>40 GB di spazio libero su disco rigido</p></td>
+<td style="border:1px solid black;">20 GB di spazio libero su disco rigido</td>
+<td style="border:1px solid black;">40 GB di spazio libero su disco rigido</td>
 </tr>
 </tbody>
 </table>
@@ -58,7 +58,7 @@ Nella tabella che segue sono elencati i requisiti software per i server che eseg
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -72,19 +72,19 @@ Nella tabella che segue sono elencati i requisiti software per i server che eseg
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Microsoft Windows Server® 2003, ad eccezione di Web Edition, per RMS con SP2.</p></td>
+<td style="border:1px solid black;">Sistema operativo</td>
+<td style="border:1px solid black;">Microsoft Windows Server® 2003, ad eccezione di Web Edition, per RMS con SP2.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Rights Management Services con SP2</p></td>
-<td style="border:1px solid black;"><p>Per aggiornare a RMS con SP2, deve essere già installato RMS con Service Pack 1 (SP1). Questo requisito non si applica al client RMS con SP2.</p></td>
+<td style="border:1px solid black;">Rights Management Services con SP2</td>
+<td style="border:1px solid black;">Per aggiornare a RMS con SP2, deve essere già installato RMS con Service Pack 1 (SP1). Questo requisito non si applica al client RMS con SP2.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>File system</p></td>
-<td style="border:1px solid black;"><p>È consigliabile utilizzare il file system NTFS.</p></td>
+<td style="border:1px solid black;">File system</td>
+<td style="border:1px solid black;">È consigliabile utilizzare il file system NTFS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Componenti richiesti</p></td>
+<td style="border:1px solid black;">Componenti richiesti</td>
 <td style="border:1px solid black;"><ul>
 <li>Accodamento messaggi (detto anche MSMQ) con integrazione del servizio directory Active Directory® abilitata.<br />
 <br />
@@ -99,7 +99,7 @@ Nella tabella che segue sono elencati i requisiti software per i server che eseg
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 | ![](images/Cc747637.note(WS.10).gif)Nota                                                                                                                                              |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -109,7 +109,7 @@ Nella tabella che segue sono elencati i requisiti di infrastruttura per i server
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -123,12 +123,12 @@ Nella tabella che segue sono elencati i requisiti di infrastruttura per i server
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi directory</p></td>
-<td style="border:1px solid black;"><p>Active Directory su controller di dominio che eseguono Windows Server 2000 con Service Pack 3 (SP3) o successivo, nello stesso dominio in cui è installato RMS. Tutti gli utenti e i gruppi che utilizzano RMS per acquisire licenze e pubblicare contenuti devono disporre di un indirizzo di posta elettronica configurato in Active Directory.</p></td>
+<td style="border:1px solid black;">Servizi directory</td>
+<td style="border:1px solid black;">Active Directory su controller di dominio che eseguono Windows Server 2000 con Service Pack 3 (SP3) o successivo, nello stesso dominio in cui è installato RMS. Tutti gli utenti e i gruppi che utilizzano RMS per acquisire licenze e pubblicare contenuti devono disporre di un indirizzo di posta elettronica configurato in Active Directory.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Server database</p></td>
-<td style="border:1px solid black;"><p>Il funzionamento di RMS con SP2 richiede database e stored procedure. È possibile utilizzare Microsoft SQL Server™ 2000 con SP3a o versione successiva o Microsoft SQL Server 2005. Per il testing o altre distribuzioni in un unico computer, è possibile utilizzare Microsoft SQL Server Desktop Engine (MSDE 2000) versione A o Microsoft SQL Server 2005 Express Edition.</p></td>
+<td style="border:1px solid black;">Server database</td>
+<td style="border:1px solid black;">Il funzionamento di RMS con SP2 richiede database e stored procedure. È possibile utilizzare Microsoft SQL Server™ 2000 con SP3a o versione successiva o Microsoft SQL Server 2005. Per il testing o altre distribuzioni in un unico computer, è possibile utilizzare Microsoft SQL Server Desktop Engine (MSDE 2000) versione A o Microsoft SQL Server 2005 Express Edition.</td>
 </tr>
 </tbody>
 </table>
@@ -148,7 +148,7 @@ Nella tabella riportata di seguito sono elencati i diritti e le autorizzazioni u
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -162,28 +162,28 @@ Nella tabella riportata di seguito sono elencati i diritti e le autorizzazioni u
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Installazione di RMS</p></td>
-<td style="border:1px solid black;"><p>Utente del dominio con credenziali di amministratore del computer locale</p></td>
+<td style="border:1px solid black;">Installazione di RMS</td>
+<td style="border:1px solid black;">Utente del dominio con credenziali di amministratore del computer locale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Provisioning di un cluster principale di RMS</p></td>
-<td style="border:1px solid black;"><p>Utente del dominio con credenziali di amministratore del computer locale e ricerca e scrittura in Active Directory</p></td>
+<td style="border:1px solid black;">Provisioning di un cluster principale di RMS</td>
+<td style="border:1px solid black;">Utente del dominio con credenziali di amministratore del computer locale e ricerca e scrittura in Active Directory</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Provisioning di un cluster licenze RMS</p></td>
-<td style="border:1px solid black;"><p>Utente del dominio con credenziali di amministratore del computer locale e ricerca in Active Directory</p></td>
+<td style="border:1px solid black;">Provisioning di un cluster licenze RMS</td>
+<td style="border:1px solid black;">Utente del dominio con credenziali di amministratore del computer locale e ricerca in Active Directory</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Provisioning quando si utilizza un nuovo database di configurazione</p></td>
-<td style="border:1px solid black;"><p>Utente del dominio con credenziali di amministratore del computer locale e lettura, scrittura e creazione sul computer che esegue SQL Server</p></td>
+<td style="border:1px solid black;">Provisioning quando si utilizza un nuovo database di configurazione</td>
+<td style="border:1px solid black;">Utente del dominio con credenziali di amministratore del computer locale e lettura, scrittura e creazione sul computer che esegue SQL Server</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Provisioning quando si utilizza un database di configurazione già esistente</p></td>
-<td style="border:1px solid black;"><p>Utente del dominio con credenziali di amministratore del computer locale e lettura e scrittura sul computer che esegue il server database</p></td>
+<td style="border:1px solid black;">Provisioning quando si utilizza un database di configurazione già esistente</td>
+<td style="border:1px solid black;">Utente del dominio con credenziali di amministratore del computer locale e lettura e scrittura sul computer che esegue il server database</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Amministrazione di RMS</p></td>
-<td style="border:1px solid black;"><p>Utente del dominio con credenziali di amministratore del computer locale</p></td>
+<td style="border:1px solid black;">Amministrazione di RMS</td>
+<td style="border:1px solid black;">Utente del dominio con credenziali di amministratore del computer locale</td>
 </tr>
 </tbody>
 </table>
@@ -196,7 +196,7 @@ Se si utilizza RMS in una distribuzione su cluster, accertarsi di avere risolto 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -210,16 +210,16 @@ Se si utilizza RMS in una distribuzione su cluster, accertarsi di avere risolto 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RMS verrà utilizzato su un grande numero di desktop</p></td>
-<td style="border:1px solid black;"><p>Utilizzare Systems Management Server (SMS) o Criteri di gruppo per installare il client RMS con SP2.</p></td>
+<td style="border:1px solid black;">RMS verrà utilizzato su un grande numero di desktop</td>
+<td style="border:1px solid black;">Utilizzare Systems Management Server (SMS) o Criteri di gruppo per installare il client RMS con SP2.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Numero di richieste client elevato</p></td>
-<td style="border:1px solid black;"><p>Utilizzare un server con bilanciamento del carico, il servizio Bilanciamento carico di rete del sistema operativo Windows Server o un bilanciamento del carico hardware per distribuire le richieste nel cluster.</p></td>
+<td style="border:1px solid black;">Numero di richieste client elevato</td>
+<td style="border:1px solid black;">Utilizzare un server con bilanciamento del carico, il servizio Bilanciamento carico di rete del sistema operativo Windows Server o un bilanciamento del carico hardware per distribuire le richieste nel cluster.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Due adattatori di rete utilizzano l'indirizzamento IP virtuale per soddisfare le richieste Extranet e Intranet</p></td>
-<td style="border:1px solid black;"><p>Accertarsi che ogni eventuale DNS (Domain Name System) che espone l'indirizzo IP virtuale all'Extranet lo esponga anche all'Intranet.</p></td>
+<td style="border:1px solid black;">Due adattatori di rete utilizzano l'indirizzamento IP virtuale per soddisfare le richieste Extranet e Intranet</td>
+<td style="border:1px solid black;">Accertarsi che ogni eventuale DNS (Domain Name System) che espone l'indirizzo IP virtuale all'Extranet lo esponga anche all'Intranet.</td>
 </tr>
 </tbody>
 </table>

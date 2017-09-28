@@ -13,7 +13,7 @@ La tabella che segue elenca le chiavi utilizzate in un sistema RMS.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,36 +27,36 @@ La tabella che segue elenca le chiavi utilizzate in un sistema RMS.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Chiavi del server</p></td>
-<td style="border:1px solid black;"><p><strong>Chiave pubblica</strong></p>
-<p>Crittografa la chiave del contenuto presente in una licenza di pubblicazione affinché solo il server RMS possa richiamare la chiave del contenuto ed emettere le licenze d'uso in base a tale licenza di pubblicazione.</p>
-<p><strong>Chiave privata</strong></p>
-<p>Firma tutti i certificati e le licenze rilasciati dal server.</p></td>
+<td style="border:1px solid black;">Chiavi del server</td>
+<td style="border:1px solid black;"><strong>Chiave pubblica</strong>
+Crittografa la chiave del contenuto presente in una licenza di pubblicazione affinché solo il server RMS possa richiamare la chiave del contenuto ed emettere le licenze d'uso in base a tale licenza di pubblicazione.
+<strong>Chiave privata</strong>
+Firma tutti i certificati e le licenze rilasciati dal server.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Chiavi del computer</p></td>
-<td style="border:1px solid black;"><p><strong>Chiave pubblica</strong></p>
-<p>Crittografa la chiave privata di un certificato per account con diritti.</p>
-<p><strong>Chiave privata</strong></p>
-<p>Decrittografa un certificato per account con diritti.</p></td>
+<td style="border:1px solid black;">Chiavi del computer</td>
+<td style="border:1px solid black;"><strong>Chiave pubblica</strong>
+Crittografa la chiave privata di un certificato per account con diritti.
+<strong>Chiave privata</strong>
+Decrittografa un certificato per account con diritti.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Chiavi del concessore di licenze client</p></td>
-<td style="border:1px solid black;"><p><strong>Chiave pubblica</strong></p>
-<p>Crittografa la chiave simmetrica del contenuto nelle licenze di pubblicazione che rilascia.</p>
-<p><strong>Chiave privata</strong></p>
-<p>Firma le licenze di pubblicazione rilasciate localmente mentre l'utente non è connesso alla rete.</p></td>
+<td style="border:1px solid black;">Chiavi del concessore di licenze client</td>
+<td style="border:1px solid black;"><strong>Chiave pubblica</strong>
+Crittografa la chiave simmetrica del contenuto nelle licenze di pubblicazione che rilascia.
+<strong>Chiave privata</strong>
+Firma le licenze di pubblicazione rilasciate localmente mentre l'utente non è connesso alla rete.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Chiavi dell'utente</p></td>
-<td style="border:1px solid black;"><p><strong>Chiave pubblica</strong></p>
-<p>Crittografa la chiave del contenuto presente in una licenza d'uso affinché solo un determinato utente possa utilizzare il contenuto protetto con RMS mediante tale licenza.</p>
-<p><strong>Chiave privata</strong></p>
-<p>Consente all'utente di utilizzare il contenuto protetto con RMS.</p></td>
+<td style="border:1px solid black;">Chiavi dell'utente</td>
+<td style="border:1px solid black;"><strong>Chiave pubblica</strong>
+Crittografa la chiave del contenuto presente in una licenza d'uso affinché solo un determinato utente possa utilizzare il contenuto protetto con RMS mediante tale licenza.
+<strong>Chiave privata</strong>
+Consente all'utente di utilizzare il contenuto protetto con RMS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Chiavi del contenuto</p></td>
-<td style="border:1px solid black;"><p>Crittografa il contenuto protetto con RMS nel momento in cui l'autore lo pubblica.</p></td>
+<td style="border:1px solid black;">Chiavi del contenuto</td>
+<td style="border:1px solid black;">Crittografa il contenuto protetto con RMS nel momento in cui l'autore lo pubblica.</td>
 </tr>
 </tbody>
 </table>

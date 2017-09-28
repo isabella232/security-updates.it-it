@@ -189,7 +189,7 @@ Ogni gruppo di isolamento richiederà la creazione di un gruppo di computer che 
 
 **Tabella 4.1: Gruppi di computer della Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -197,18 +197,18 @@ Ogni gruppo di isolamento richiederà la creazione di un gruppo di computer che 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome gruppo di computer</p></th>
-<th><p>Descrizione</p></th>
+<th>Nome gruppo di computer</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CG_IsolationDomain_Computers</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo universale conterrà tutti i computer che fanno parte del dominio di isolamento.</p></td>
+<td style="border:1px solid black;">CG_IsolationDomain_Computers</td>
+<td style="border:1px solid black;">Questo gruppo universale conterrà tutti i computer che fanno parte del dominio di isolamento.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CG_BoundaryIG_Computers</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo conterrà tutti i computer che sono autorizzati ad accettare comunicazioni da sistemi non attendibili.</p></td>
+<td style="border:1px solid black;">CG_BoundaryIG_Computers</td>
+<td style="border:1px solid black;">Questo gruppo conterrà tutti i computer che sono autorizzati ad accettare comunicazioni da sistemi non attendibili.</td>
 </tr>
 </tbody>
 </table>
@@ -237,7 +237,7 @@ In questa fase del processo di progettazione, non è necessario determinare l'ap
   
 **Tabella 4.2: Gruppi di accesso alla rete della Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -245,14 +245,14 @@ In questa fase del processo di progettazione, non è necessario determinare l'ap
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome NAG</p></th>
-<th><p>Descrizione</p></th>
+<th>Nome NAG</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DNAG_IsolationDomain_Computers</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo include qualsiasi account computer di dominio a cui è negato stabilire connessioni in ingresso protette da IPSec a tutti gli host attendibili del dominio di isolamento.</p></td>
+<td style="border:1px solid black;">DNAG_IsolationDomain_Computers</td>
+<td style="border:1px solid black;">Questo gruppo include qualsiasi account computer di dominio a cui è negato stabilire connessioni in ingresso protette da IPSec a tutti gli host attendibili del dominio di isolamento.</td>
 </tr>
 </tbody>
 </table>
@@ -299,7 +299,7 @@ Dato che la Woodgrove Bank ha individuato altri due gruppi che richiedono criter
   
 **Tabella 4.3: Gruppi di computer aggiuntivi della Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -307,18 +307,18 @@ Dato che la Woodgrove Bank ha individuato altri due gruppi che richiedono criter
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome gruppo di computer</p></th>
-<th><p>Descrizione</p></th>
+<th>Nome gruppo di computer</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CG_NoFallbackIG_Computers</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo contiene tutti i computer a cui non è consentito il ritorno alla modalità non crittografata.</p></td>
+<td style="border:1px solid black;">CG_NoFallbackIG_Computers</td>
+<td style="border:1px solid black;">Questo gruppo contiene tutti i computer a cui non è consentito il ritorno alla modalità non crittografata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CG_EncryptionIG_Computers</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo contiene tutti i computer che devono utilizzare comunicazioni crittografate.</p></td>
+<td style="border:1px solid black;">CG_EncryptionIG_Computers</td>
+<td style="border:1px solid black;">Questo gruppo contiene tutti i computer che devono utilizzare comunicazioni crittografate.</td>
 </tr>
 </tbody>
 </table>
@@ -327,7 +327,7 @@ La Woodgrove ha stabilito quindi che erano necessari alcuni NAG per autorizzare 
   
 **Tabella 4.4: Gruppi di accesso alla rete della Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -335,22 +335,22 @@ La Woodgrove ha stabilito quindi che erano necessari alcuni NAG per autorizzare 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome NAG</p></th>
-<th><p>Descrizione</p></th>
+<th>Nome NAG</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ANAG_EncryptedResourceAccess_Users</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo è per tutti gli utenti che sono autorizzati ad accedere ai server del gruppo di isolamento Crittografia.</p></td>
+<td style="border:1px solid black;">ANAG_EncryptedResourceAccess_Users</td>
+<td style="border:1px solid black;">Questo gruppo è per tutti gli utenti che sono autorizzati ad accedere ai server del gruppo di isolamento Crittografia.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ANAG_EncryptedResourceAccess_Computers</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo contiene tutti i computer a cui è consentito l'accesso di rete in ingresso ai server del gruppo di isolamento Crittografia.</p></td>
+<td style="border:1px solid black;">ANAG_EncryptedResourceAccess_Computers</td>
+<td style="border:1px solid black;">Questo gruppo contiene tutti i computer a cui è consentito l'accesso di rete in ingresso ai server del gruppo di isolamento Crittografia.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DNAG_EncryptionIG_Computers</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo include i gruppi di account computer a cui viene negato l'accesso agli host del gruppo di isolamento Crittografia.</p></td>
+<td style="border:1px solid black;">DNAG_EncryptionIG_Computers</td>
+<td style="border:1px solid black;">Questo gruppo include i gruppi di account computer a cui viene negato l'accesso agli host del gruppo di isolamento Crittografia.</td>
 </tr>
 </tbody>
 </table>
@@ -381,78 +381,78 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Percorso</p></th>
-<th><p>Da</p></th>
-<th><p>Per</p></th>
-<th><p>Bidirezionale</p></th>
-<th><p>Prova IKE/IPSec</p></th>
-<th><p>Fallback</p></th>
-<th><p>Crittografa</p></th>
+<th>Percorso</th>
+<th>Da</th>
+<th>Per</th>
+<th>Bidirezionale</th>
+<th>Prova IKE/IPSec</th>
+<th>Fallback</th>
+<th>Crittografa</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>EX</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">EX</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>BO</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">BO</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>UN</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">UN</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>4</p></td>
-<td style="border:1px solid black;"><p>BO</p></td>
-<td style="border:1px solid black;"><p>EX</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">4</td>
+<td style="border:1px solid black;">BO</td>
+<td style="border:1px solid black;">EX</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>5</p></td>
-<td style="border:1px solid black;"><p>BO</p></td>
-<td style="border:1px solid black;"><p>UN</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">5</td>
+<td style="border:1px solid black;">BO</td>
+<td style="border:1px solid black;">UN</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>6</p></td>
-<td style="border:1px solid black;"><p>UN</p></td>
-<td style="border:1px solid black;"><p>BO</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">6</td>
+<td style="border:1px solid black;">UN</td>
+<td style="border:1px solid black;">BO</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>7</p></td>
-<td style="border:1px solid black;"><p>UN</p></td>
-<td style="border:1px solid black;"><p>EX</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">7</td>
+<td style="border:1px solid black;">UN</td>
+<td style="border:1px solid black;">EX</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 </tbody>
 </table>
@@ -505,78 +505,78 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Percorso</p></th>
-<th><p>Da</p></th>
-<th><p>Per</p></th>
-<th><p>Bidirezionale</p></th>
-<th><p>Prova IKE/IPSec</p></th>
-<th><p>Fallback</p></th>
-<th><p>Crittografa</p></th>
+<th>Percorso</th>
+<th>Da</th>
+<th>Per</th>
+<th>Bidirezionale</th>
+<th>Prova IKE/IPSec</th>
+<th>Fallback</th>
+<th>Crittografa</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>8</p></td>
-<td style="border:1px solid black;"><p>EN</p></td>
-<td style="border:1px solid black;"><p>EX</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">8</td>
+<td style="border:1px solid black;">EN</td>
+<td style="border:1px solid black;">EX</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>9</p></td>
-<td style="border:1px solid black;"><p>EN</p></td>
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">9</td>
+<td style="border:1px solid black;">EN</td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>10</p></td>
-<td style="border:1px solid black;"><p>EN</p></td>
-<td style="border:1px solid black;"><p>NC</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">10</td>
+<td style="border:1px solid black;">EN</td>
+<td style="border:1px solid black;">NC</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>11</p></td>
-<td style="border:1px solid black;"><p>EN</p></td>
-<td style="border:1px solid black;"><p>BO</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">11</td>
+<td style="border:1px solid black;">EN</td>
+<td style="border:1px solid black;">BO</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>12</p></td>
-<td style="border:1px solid black;"><p>NF</p></td>
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">12</td>
+<td style="border:1px solid black;">NF</td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>13</p></td>
-<td style="border:1px solid black;"><p>NF</p></td>
-<td style="border:1px solid black;"><p>EX</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">13</td>
+<td style="border:1px solid black;">NF</td>
+<td style="border:1px solid black;">EX</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>14</p></td>
-<td style="border:1px solid black;"><p>NF</p></td>
-<td style="border:1px solid black;"><p>BO</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">14</td>
+<td style="border:1px solid black;">NF</td>
+<td style="border:1px solid black;">BO</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 </tbody>
 </table>
@@ -621,33 +621,33 @@ In genere, la determinazione dell'appartenenza a un gruppo di computer non è un
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome host</p></th>
-<th><p>Req. hardware soddisfatti?</p></th>
-<th><p>Req. software soddisfatti?</p></th>
-<th><p>Configurazione necessaria</p></th>
-<th><p>Dettagli</p></th>
-<th><p>Costo previsto</p></th>
-<th><p>Gruppo</p></th>
+<th>Nome host</th>
+<th>Req. hardware soddisfatti?</th>
+<th>Req. software soddisfatti?</th>
+<th>Configurazione necessaria</th>
+<th>Dettagli</th>
+<th>Costo previsto</th>
+<th>Gruppo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>HOST-NYC-001</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Aggiornamento hardware e software</p></td>
-<td style="border:1px solid black;"><p>Il sistema operativo corrente è Windows NT 4.0. Hardware obsoleto non compatibile con Windows XP.</p></td>
-<td style="border:1px solid black;"><p>€XXX.</p></td>
-<td style="border:1px solid black;"><p>ID</p></td>
+<td style="border:1px solid black;">HOST-NYC-001</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Aggiornamento hardware e software</td>
+<td style="border:1px solid black;">Il sistema operativo corrente è Windows NT 4.0. Hardware obsoleto non compatibile con Windows XP.</td>
+<td style="border:1px solid black;">€XXX.</td>
+<td style="border:1px solid black;">ID</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SERVER-LON-001</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Inserimento in dominio attendibile, aggiornamento da NT 4 a Windows 2000 o versioni successive</p></td>
-<td style="border:1px solid black;"><p>Software antivirus assente.</p></td>
-<td style="border:1px solid black;"><p>€XXX.</p></td>
-<td style="border:1px solid black;"><p>EN</p></td>
+<td style="border:1px solid black;">SERVER-LON-001</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Inserimento in dominio attendibile, aggiornamento da NT 4 a Windows 2000 o versioni successive</td>
+<td style="border:1px solid black;">Software antivirus assente.</td>
+<td style="border:1px solid black;">€XXX.</td>
+<td style="border:1px solid black;">EN</td>
 </tr>
 </tbody>
 </table>
@@ -666,7 +666,7 @@ Nello scenario della Woodgrove Bank, l'appartenenza a NAG\_EncryptedResourceAcce
   
 **Tabella 4.8: Gruppi di accesso alla rete della Woodgrove Bank con appartenenza assegnata**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -675,28 +675,28 @@ Nello scenario della Woodgrove Bank, l'appartenenza a NAG\_EncryptedResourceAcce
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome NAG</p></th>
-<th><p>Appartenenza</p></th>
-<th><p>Descrizione</p></th>
+<th>Nome NAG</th>
+<th>Appartenenza</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ANAG_EncryptedResourceAccess_Users</p></td>
-<td style="border:1px solid black;"><p>User7</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo è per tutti gli utenti che sono autorizzati a stabilire connessioni in ingresso protette da IPSec con i computer del gruppo di isolamento Crittografia.</p></td>
+<td style="border:1px solid black;">ANAG_EncryptedResourceAccess_Users</td>
+<td style="border:1px solid black;">User7</td>
+<td style="border:1px solid black;">Questo gruppo è per tutti gli utenti che sono autorizzati a stabilire connessioni in ingresso protette da IPSec con i computer del gruppo di isolamento Crittografia.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ANAG_EncryptedResourceAccess_Computers</p></td>
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01<br />
-IPS-SQL-DFS-02</p>
-<p>IPS-ST-XP-05</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo contiene tutti i computer che sono autorizzati a stabilire connessioni in ingresso protette da IPSec con i computer del gruppo di isolamento Crittografia.</p></td>
+<td style="border:1px solid black;">ANAG_EncryptedResourceAccess_Computers</td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01<br />
+IPS-SQL-DFS-02
+IPS-ST-XP-05</td>
+<td style="border:1px solid black;">Questo gruppo contiene tutti i computer che sono autorizzati a stabilire connessioni in ingresso protette da IPSec con i computer del gruppo di isolamento Crittografia.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DNAG_EncryptionIG_Computers</p></td>
-<td style="border:1px solid black;"><p>CG_BoundaryIG_Computers</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo contiene tutti i computer che <em>non</em> sono autorizzati a stabilire connessioni in ingresso protette da IPSec con i computer del gruppo di isolamento Crittografia.</p></td>
+<td style="border:1px solid black;">DNAG_EncryptionIG_Computers</td>
+<td style="border:1px solid black;">CG_BoundaryIG_Computers</td>
+<td style="border:1px solid black;">Questo gruppo contiene tutti i computer che <em>non</em> sono autorizzati a stabilire connessioni in ingresso protette da IPSec con i computer del gruppo di isolamento Crittografia.</td>
 </tr>
 </tbody>
 </table>
@@ -767,7 +767,7 @@ In questo esempio, il personale amministrativo dell'organizzazione crea due GPO 
   
 **Tabella 4.9: Gruppi di amministrazione IPSec**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -776,21 +776,21 @@ In questo esempio, il personale amministrativo dell'organizzazione crea due GPO 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome gruppo</p></th>
-<th><p>Tipo di gruppo</p></th>
-<th><p>Descrizione</p></th>
+<th>Nome gruppo</th>
+<th>Tipo di gruppo</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPsecSTD</p></td>
-<td style="border:1px solid black;"><p>Universale</p></td>
-<td style="border:1px solid black;"><p>Controlla l'applicazione del criterio IPSec Standard</p></td>
+<td style="border:1px solid black;">IPsecSTD</td>
+<td style="border:1px solid black;">Universale</td>
+<td style="border:1px solid black;">Controlla l'applicazione del criterio IPSec Standard</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPsecENC</p></td>
-<td style="border:1px solid black;"><p>Universale</p></td>
-<td style="border:1px solid black;"><p>Controlla l'applicazione del criterio IPSec Crittografia</p></td>
+<td style="border:1px solid black;">IPsecENC</td>
+<td style="border:1px solid black;">Universale</td>
+<td style="border:1px solid black;">Controlla l'applicazione del criterio IPSec Crittografia</td>
 </tr>
 </tbody>
 </table>
@@ -799,7 +799,7 @@ Gli ACL dei due nuovi GPO vengono aggiornati in modo che non vengano automaticam
   
 **Tabella 4.10: Diritti dei gruppi nei GPO**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -808,28 +808,28 @@ Gli ACL dei due nuovi GPO vengono aggiornati in modo che non vengano automaticam
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Gruppo</p></th>
-<th><p>GPO IPSec Standard</p></th>
-<th><p>GPO IPSec Crittografia</p></th>
+<th>Gruppo</th>
+<th>GPO IPSec Standard</th>
+<th>GPO IPSec Crittografia</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Utenti autenticati</p></td>
-<td style="border:1px solid black;"><p>Lettura</p></td>
-<td style="border:1px solid black;"><p>Lettura</p></td>
+<td style="border:1px solid black;">Utenti autenticati</td>
+<td style="border:1px solid black;">Lettura</td>
+<td style="border:1px solid black;">Lettura</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPsecENC</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
-<td style="border:1px solid black;"><p>Lettura</p>
-<p>Applica criteri di gruppo</p></td>
+<td style="border:1px solid black;">IPsecENC</td>
+<td style="border:1px solid black;">Nessuna</td>
+<td style="border:1px solid black;">Lettura
+Applica criteri di gruppo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPsecSTD</p></td>
-<td style="border:1px solid black;"><p>Lettura</p>
-<p>Applica criteri di gruppo</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">IPsecSTD</td>
+<td style="border:1px solid black;">Lettura
+Applica criteri di gruppo</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 </tbody>
 </table>
@@ -868,7 +868,7 @@ Nella tabella seguente sono elencati i gruppi di computer, i NAG e i relativi me
   
 **Tabella 4.11: Appartenenza ai gruppi di computer e ai gruppi di accesso alla rete (NAG)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -876,41 +876,41 @@ Nella tabella seguente sono elencati i gruppi di computer, i NAG e i relativi me
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Gruppo di computer o NAG</p></th>
-<th><p>Membri</p></th>
+<th>Gruppo di computer o NAG</th>
+<th>Membri</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CG_IsolationDomain_Computers</p></td>
-<td style="border:1px solid black;"><p>Computer del dominio</p></td>
+<td style="border:1px solid black;">CG_IsolationDomain_Computers</td>
+<td style="border:1px solid black;">Computer del dominio</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CG_BoundaryIG_Computers</p></td>
-<td style="border:1px solid black;"><p>IPS-PRINTS-01</p></td>
+<td style="border:1px solid black;">CG_BoundaryIG_Computers</td>
+<td style="border:1px solid black;">IPS-PRINTS-01</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CG_NoFallbackIG_Computers</p></td>
-<td style="border:1px solid black;"><p>IPS-LT-XP-01</p></td>
+<td style="border:1px solid black;">CG_NoFallbackIG_Computers</td>
+<td style="border:1px solid black;">IPS-LT-XP-01</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CG_EncryptionIG_Computers</p></td>
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p>
-<p>IPS-SQL-DFS-02</p></td>
+<td style="border:1px solid black;">CG_EncryptionIG_Computers</td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01
+IPS-SQL-DFS-02</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ANAG_EncryptedResourceAccess_Users</p></td>
-<td style="border:1px solid black;"><p>User7</p></td>
+<td style="border:1px solid black;">ANAG_EncryptedResourceAccess_Users</td>
+<td style="border:1px solid black;">User7</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ANAG_EncryptedResourceAccess_Computers</p></td>
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01<br />
-IPS-SQL-DFS-02</p>
-<p>IPS-ST-XP-05</p></td>
+<td style="border:1px solid black;">ANAG_EncryptedResourceAccess_Computers</td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01<br />
+IPS-SQL-DFS-02
+IPS-ST-XP-05</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DNAG_EncryptionIG_Computers</p></td>
-<td style="border:1px solid black;"><p>CG_BoundaryIG_Computers</p></td>
+<td style="border:1px solid black;">DNAG_EncryptionIG_Computers</td>
+<td style="border:1px solid black;">CG_BoundaryIG_Computers</td>
 </tr>
 </tbody>
 </table>

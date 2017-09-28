@@ -121,7 +121,7 @@ Il modello di GPO di Active Directory consente di controllare diverse impostazi
 
 **Tabella 2.1. Impostazioni di EFS del modello di GPO di Active Directory**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -130,51 +130,51 @@ Il modello di GPO di Active Directory consente di controllare diverse impostazi
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome impostazione</p></th>
-<th><p>Disponibilità</p></th>
-<th><p>Valore predefinito</p></th>
+<th>Nome impostazione</th>
+<th>Disponibilità</th>
+<th>Valore predefinito</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Abilitazione EFS</p></td>
-<td style="border:1px solid black;"><p>Windows XP,Windows Vista</p></td>
-<td style="border:1px solid black;"><p>Consentito</p></td>
+<td style="border:1px solid black;">Abilitazione EFS</td>
+<td style="border:1px solid black;">Windows XP,Windows Vista</td>
+<td style="border:1px solid black;">Consentito</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Crittografia documenti</p></td>
-<td style="border:1px solid black;"><p>Windows Vista</p></td>
-<td style="border:1px solid black;"><p>Disattivato</p></td>
+<td style="border:1px solid black;">Crittografia documenti</td>
+<td style="border:1px solid black;">Windows Vista</td>
+<td style="border:1px solid black;">Disattivato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Richiedi smart card</p></td>
-<td style="border:1px solid black;"><p>Windows Vista</p></td>
-<td style="border:1px solid black;"><p>Disattivato</p></td>
+<td style="border:1px solid black;">Richiedi smart card</td>
+<td style="border:1px solid black;">Windows Vista</td>
+<td style="border:1px solid black;">Disattivato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Crea da smart card una chiave utente in grado di memorizzare nella cache</p></td>
-<td style="border:1px solid black;"><p>Windows Vista</p></td>
-<td style="border:1px solid black;"><p>Disattivato</p></td>
+<td style="border:1px solid black;">Crea da smart card una chiave utente in grado di memorizzare nella cache</td>
+<td style="border:1px solid black;">Windows Vista</td>
+<td style="border:1px solid black;">Disattivato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Abilita crittografia del file di paging</p></td>
-<td style="border:1px solid black;"><p>Windows Vista</p></td>
-<td style="border:1px solid black;"><p>Disattivato</p></td>
+<td style="border:1px solid black;">Abilita crittografia del file di paging</td>
+<td style="border:1px solid black;">Windows Vista</td>
+<td style="border:1px solid black;">Disattivato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Registrazione automatica dei certificati</p></td>
-<td style="border:1px solid black;"><p>Windows XP,Windows Vista</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Registrazione automatica dei certificati</td>
+<td style="border:1px solid black;">Windows XP,Windows Vista</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Dimensioni della chiave per i certificati autofirmati</p></td>
-<td style="border:1px solid black;"><p>Windows Vista</p></td>
-<td style="border:1px solid black;"><p>2048 bit</p></td>
+<td style="border:1px solid black;">Dimensioni della chiave per i certificati autofirmati</td>
+<td style="border:1px solid black;">Windows Vista</td>
+<td style="border:1px solid black;">2048 bit</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Modello EFS per le richieste automatiche di certificati</p></td>
-<td style="border:1px solid black;"><p>Windows Vista</p></td>
-<td style="border:1px solid black;"><p>Nessuno</p></td>
+<td style="border:1px solid black;">Modello EFS per le richieste automatiche di certificati</td>
+<td style="border:1px solid black;">Windows Vista</td>
+<td style="border:1px solid black;">Nessuno</td>
 </tr>
 </tbody>
 </table>

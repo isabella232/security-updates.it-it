@@ -50,7 +50,7 @@ Utilizzare il seguente elenco di controllo per distribuire un singolo server RMS
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -64,29 +64,29 @@ Utilizzare il seguente elenco di controllo per distribuire un singolo server RMS
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rivedere informazioni concettuali e di pianificazione.</p></td>
-<td style="border:1px solid black;"><p>&quot;Preparazione di una distribuzione di RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Rivedere informazioni concettuali e di pianificazione.</td>
+<td style="border:1px solid black;">&quot;Preparazione di una distribuzione di RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Verificare i requisiti di sistema e assicurarsi che l'hardware e il software necessari siano disponibili.</p></td>
-<td style="border:1px solid black;"><p>&quot;Prerequisiti di infrastruttura per RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=37537">Pianificazione di una distribuzione di RMS</a>.</p>
-<p>&quot;Pianificazione dell'infrastruttura del server di database&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=37537">Pianificazione di una distribuzione di RMS</a>.</p></td>
+<td style="border:1px solid black;">Verificare i requisiti di sistema e assicurarsi che l'hardware e il software necessari siano disponibili.</td>
+<td style="border:1px solid black;">&quot;Prerequisiti di infrastruttura per RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=37537">Pianificazione di una distribuzione di RMS</a>.
+&quot;Pianificazione dell'infrastruttura del server di database&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=37537">Pianificazione di una distribuzione di RMS</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Configurare l'infrastruttura, inclusi i prerequisiti hardware e software, gli account amministrativi e il supporto per SMS o per i criteri di gruppo, in base alle necessità.</p></td>
-<td style="border:1px solid black;"><p>&quot;Preparazione di una distribuzione RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Configurare l'infrastruttura, inclusi i prerequisiti hardware e software, gli account amministrativi e il supporto per SMS o per i criteri di gruppo, in base alle necessità.</td>
+<td style="border:1px solid black;">&quot;Preparazione di una distribuzione RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Installare e configurare RMS sul server.</p></td>
-<td style="border:1px solid black;"><p>&quot;Configurazione dei servizi di certificazione e gestione licenze sul primo server&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Installare e configurare RMS sul server.</td>
+<td style="border:1px solid black;">&quot;Configurazione dei servizi di certificazione e gestione licenze sul primo server&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Eseguire il test della distribuzione.</p></td>
-<td style="border:1px solid black;"><p>&quot;Impostazione di un ambiente di test&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Eseguire il test della distribuzione.</td>
+<td style="border:1px solid black;">&quot;Impostazione di un ambiente di test&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Implementare RMS nell'ambiente di produzione.</p></td>
-<td style="border:1px solid black;"><p>&quot;Definizione dell'ambito dell'implementazione di RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Implementare RMS nell'ambiente di produzione.</td>
+<td style="border:1px solid black;">&quot;Definizione dell'ambito dell'implementazione di RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -99,7 +99,7 @@ Utilizzare il seguente elenco di controllo per distribuire cluster di certificaz
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -113,43 +113,43 @@ Utilizzare il seguente elenco di controllo per distribuire cluster di certificaz
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rivedere informazioni concettuali e di pianificazione.</p></td>
-<td style="border:1px solid black;"><p>&quot;Preparazione di una distribuzione RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Rivedere informazioni concettuali e di pianificazione.</td>
+<td style="border:1px solid black;">&quot;Preparazione di una distribuzione RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Verificare i requisiti di sistema e assicurarsi che l'hardware e il software necessari siano disponibili.</p></td>
-<td style="border:1px solid black;"><p>&quot;Prerequisiti di infrastruttura per RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=37537">Pianificazione di una distribuzione di RMS</a>.</p>
-<p>&quot;Pianificazione dell'infrastruttura di server database&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=37537">Pianificazione di una distribuzione di RMS</a>.</p></td>
+<td style="border:1px solid black;">Verificare i requisiti di sistema e assicurarsi che l'hardware e il software necessari siano disponibili.</td>
+<td style="border:1px solid black;">&quot;Prerequisiti di infrastruttura per RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=37537">Pianificazione di una distribuzione di RMS</a>.
+&quot;Pianificazione dell'infrastruttura di server database&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=37537">Pianificazione di una distribuzione di RMS</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rivedere il piano di distribuzione per definire la topologia e i componenti da installare.</p></td>
-<td style="border:1px solid black;"><p>&quot;Determinazione della topologia RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=37537">Pianificazione di una distribuzione di RMS</a>.</p></td>
+<td style="border:1px solid black;">Rivedere il piano di distribuzione per definire la topologia e i componenti da installare.</td>
+<td style="border:1px solid black;">&quot;Determinazione della topologia RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=37537">Pianificazione di una distribuzione di RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurare l'infrastruttura, inclusi i prerequisiti hardware e software, gli account amministrativi e il supporto per SMS o per i criteri di gruppo, in base alle necessità.</p></td>
-<td style="border:1px solid black;"><p>&quot;Preparazione di una distribuzione RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Configurare l'infrastruttura, inclusi i prerequisiti hardware e software, gli account amministrativi e il supporto per SMS o per i criteri di gruppo, in base alle necessità.</td>
+<td style="border:1px solid black;">&quot;Preparazione di una distribuzione RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Installare e configurare RMS sui server del cluster di certificazione principale.</p></td>
-<td style="border:1px solid black;"><p>&quot;Configurazione dei servizi di certificazione e gestione licenze sul primo server&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p>
-<p>&quot;Aggiunta di server per supportare la certificazione e la gestione delle licenze&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Installare e configurare RMS sui server del cluster di certificazione principale.</td>
+<td style="border:1px solid black;">&quot;Configurazione dei servizi di certificazione e gestione licenze sul primo server&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.
+&quot;Aggiunta di server per supportare la certificazione e la gestione delle licenze&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Installare e configurare RMS sui server del cluster di gestione licenze.</p></td>
-<td style="border:1px solid black;"><p>&quot;Configurazione dei servizi di certificazione e gestione licenze sul primo server&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p>
-<p>&quot;Aggiunta di server per supportare la certificazione e la gestione delle licenze&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Installare e configurare RMS sui server del cluster di gestione licenze.</td>
+<td style="border:1px solid black;">&quot;Configurazione dei servizi di certificazione e gestione licenze sul primo server&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.
+&quot;Aggiunta di server per supportare la certificazione e la gestione delle licenze&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Configurare il bilanciamento del carico.</p></td>
-<td style="border:1px solid black;"><p>&quot;Espansione dell'infrastruttura di base per supportare il clustering&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Configurare il bilanciamento del carico.</td>
+<td style="border:1px solid black;">&quot;Espansione dell'infrastruttura di base per supportare il clustering&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Eseguire il test della distribuzione.</p></td>
-<td style="border:1px solid black;"><p>&quot;Impostazione di un ambiente di test&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Eseguire il test della distribuzione.</td>
+<td style="border:1px solid black;">&quot;Impostazione di un ambiente di test&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Implementare RMS nell'ambiente di produzione.</p></td>
-<td style="border:1px solid black;"><p>&quot;Definizione dell'ambito dell'implementazione di RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Implementare RMS nell'ambiente di produzione.</td>
+<td style="border:1px solid black;">&quot;Definizione dell'ambito dell'implementazione di RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -162,7 +162,7 @@ Utilizzare il seguente elenco di controllo per distribuire la directory principa
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -176,16 +176,16 @@ Utilizzare il seguente elenco di controllo per distribuire la directory principa
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rivedere informazioni concettuali e di pianificazione.</p></td>
-<td style="border:1px solid black;"><p>&quot;Preparazione di una distribuzione RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Rivedere informazioni concettuali e di pianificazione.</td>
+<td style="border:1px solid black;">&quot;Preparazione di una distribuzione RMS&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurare le autorizzazioni obbligatorie in base al modello di trust specificato.</p></td>
-<td style="border:1px solid black;"><p>&quot;Distribuzione di RMS negli insiemi di strutture&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Configurare le autorizzazioni obbligatorie in base al modello di trust specificato.</td>
+<td style="border:1px solid black;">&quot;Distribuzione di RMS negli insiemi di strutture&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Impostare gli attributi Active Directory appropriati per gli insiemi di strutture.</p></td>
-<td style="border:1px solid black;"><p>&quot;Distribuzione di RMS negli insiemi di strutture&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</p></td>
+<td style="border:1px solid black;">Impostare gli attributi Active Directory appropriati per gli insiemi di strutture.</td>
+<td style="border:1px solid black;">&quot;Distribuzione di RMS negli insiemi di strutture&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -211,7 +211,7 @@ Utilizzare la seguente lista di controllo per implementare un modello di criteri
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -225,21 +225,21 @@ Utilizzare la seguente lista di controllo per implementare un modello di criteri
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rivedere i concetti appropriati.</p></td>
-<td style="border:1px solid black;"><p>&quot;Modelli di criteri per i diritti&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42496">Guida di riferimento tecnico di RMS</a>.</p></td>
+<td style="border:1px solid black;">Rivedere i concetti appropriati.</td>
+<td style="border:1px solid black;">&quot;Modelli di criteri per i diritti&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42496">Guida di riferimento tecnico di RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Specificare il percorso del modello di criteri per i diritti.</p></td>
-<td style="border:1px solid black;"><p>&quot;Per specificare il percorso dei modelli di criteri per i diritti&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</p></td>
+<td style="border:1px solid black;">Specificare il percorso del modello di criteri per i diritti.</td>
+<td style="border:1px solid black;">&quot;Per specificare il percorso dei modelli di criteri per i diritti&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Creare il modello di criteri per i diritti.</p></td>
-<td style="border:1px solid black;"><p>&quot;Creazione e modifica dei modelli di criteri per i diritti&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</p>
-<p>&quot;Per aggiungere un modello di criteri per i diritti&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</p></td>
+<td style="border:1px solid black;">Creare il modello di criteri per i diritti.</td>
+<td style="border:1px solid black;">&quot;Creazione e modifica dei modelli di criteri per i diritti&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.
+&quot;Per aggiungere un modello di criteri per i diritti&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Distribuire il modello di criteri per i diritti.</p></td>
-<td style="border:1px solid black;"><p>&quot;Distribuzione dei modelli di criteri per i diritti&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</p></td>
+<td style="border:1px solid black;">Distribuire il modello di criteri per i diritti.</td>
+<td style="border:1px solid black;">&quot;Distribuzione dei modelli di criteri per i diritti&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -252,7 +252,7 @@ Utilizzare la seguente lista di controllo per distribuire una nuova versione del
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -266,13 +266,13 @@ Utilizzare la seguente lista di controllo per distribuire una nuova versione del
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rivedere i concetti appropriati.</p></td>
-<td style="border:1px solid black;"><p>&quot;Pianificazione della distribuzione dei client&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a></p>
-<p>&quot;Esclusione di versioni dell'archivio protetto&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</p></td>
+<td style="border:1px solid black;">Rivedere i concetti appropriati.</td>
+<td style="border:1px solid black;">&quot;Pianificazione della distribuzione dei client&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42494">Distribuzione di un sistema RMS</a>
+&quot;Esclusione di versioni dell'archivio protetto&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Per imporre l'aggiornamento di tutti i client alla versione più recente del client, escludere la versione scaduta dell'archivio protetto.</p></td>
-<td style="border:1px solid black;"><p>&quot;Per escludere versioni dell'archivio protetto&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</p></td>
+<td style="border:1px solid black;">Per imporre l'aggiornamento di tutti i client alla versione più recente del client, escludere la versione scaduta dell'archivio protetto.</td>
+<td style="border:1px solid black;">&quot;Per escludere versioni dell'archivio protetto&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -285,7 +285,7 @@ Utilizzare la seguente lista di controllo per aggiungere un dominio utente trust
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -299,13 +299,13 @@ Utilizzare la seguente lista di controllo per aggiungere un dominio utente trust
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rivedere i concetti appropriati.</p></td>
-<td style="border:1px solid black;"><p>&quot;Domini di pubblicazione trusted&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42496">Guida di riferimento tecnico di RMS</a>.</p>
-<p>&quot;Aggiunta e rimozione di domini di pubblicazione trusted&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</p></td>
+<td style="border:1px solid black;">Rivedere i concetti appropriati.</td>
+<td style="border:1px solid black;">&quot;Domini di pubblicazione trusted&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42496">Guida di riferimento tecnico di RMS</a>.
+&quot;Aggiunta e rimozione di domini di pubblicazione trusted&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ottenere il certificato concessore di licenze server del dominio utenti che si desidera aggiungere. È necessario che tale informazione venga fornita dall'amministratore dell'installazione da ritenere attendibile. Aggiungere quindi il dominio utenti all'installazione.</p></td>
-<td style="border:1px solid black;"><p>&quot;Per aggiungere un dominio di pubblicazione trusted&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</p></td>
+<td style="border:1px solid black;">Ottenere il certificato concessore di licenze server del dominio utenti che si desidera aggiungere. È necessario che tale informazione venga fornita dall'amministratore dell'installazione da ritenere attendibile. Aggiungere quindi il dominio utenti all'installazione.</td>
+<td style="border:1px solid black;">&quot;Per aggiungere un dominio di pubblicazione trusted&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -318,7 +318,7 @@ Utilizzare la seguente lista di controllo per aggiungere un dominio di pubblicaz
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -332,13 +332,13 @@ Utilizzare la seguente lista di controllo per aggiungere un dominio di pubblicaz
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rivedere i concetti appropriati.</p></td>
-<td style="border:1px solid black;"><p>&quot;Domini di pubblicazione trusted&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42496">RMS Technical Reference</a>.</p>
-<p>&quot;Aggiunta e rimozione di domini di pubblicazione trusted&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</p></td>
+<td style="border:1px solid black;">Rivedere i concetti appropriati.</td>
+<td style="border:1px solid black;">&quot;Domini di pubblicazione trusted&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42496">RMS Technical Reference</a>.
+&quot;Aggiunta e rimozione di domini di pubblicazione trusted&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ottenere il certificato concessore di licenze server crittografato e la chiave privata del dominio di pubblicazione che si desidera aggiungere, quindi aggiungere tale dominio all'installazione.</p></td>
-<td style="border:1px solid black;"><p>&quot;Per aggiungere un dominio di pubblicazione trusted&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</p></td>
+<td style="border:1px solid black;">Ottenere il certificato concessore di licenze server crittografato e la chiave privata del dominio di pubblicazione che si desidera aggiungere, quindi aggiungere tale dominio all'installazione.</td>
+<td style="border:1px solid black;">&quot;Per aggiungere un dominio di pubblicazione trusted&quot; in <a href="http://go.microsoft.com/fwlink/?linkid=42495">Utilizzo di un server RMS</a>.</td>
 </tr>
 </tbody>
 </table>

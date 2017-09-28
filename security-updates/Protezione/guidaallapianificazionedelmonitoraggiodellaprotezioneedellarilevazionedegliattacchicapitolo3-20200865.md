@@ -276,7 +276,7 @@ Una decisione fondamentale riguarda il tempo di archiviazione dei dati legali. L
 
 **Tabella 3.1. Limiti di archiviazione per l'analisi legale**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -285,31 +285,31 @@ Una decisione fondamentale riguarda il tempo di archiviazione dei dati legali. L
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Fattori di archiviazione</p></th>
-<th><p>Limite di archiviazione</p></th>
-<th><p>Commenti</p></th>
+<th>Fattori di archiviazione</th>
+<th>Limite di archiviazione</th>
+<th>Commenti</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Archiviazione in linea (database)</p></td>
-<td style="border:1px solid black;"><p>21 giorni</p></td>
-<td style="border:1px solid black;"><p>Fornisce l'accesso rapido agli eventi recenti</p></td>
+<td style="border:1px solid black;">Archiviazione in linea (database)</td>
+<td style="border:1px solid black;">21 giorni</td>
+<td style="border:1px solid black;">Fornisce l'accesso rapido agli eventi recenti</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Archiviazione non in linea (backup)</p></td>
-<td style="border:1px solid black;"><p>180 giorni</p></td>
-<td style="border:1px solid black;"><p>Limite accettabile per la maggior parte delle organizzazioni</p></td>
+<td style="border:1px solid black;">Archiviazione non in linea (backup)</td>
+<td style="border:1px solid black;">180 giorni</td>
+<td style="border:1px solid black;">Limite accettabile per la maggior parte delle organizzazioni</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ambiente con requisiti normativi</p></td>
-<td style="border:1px solid black;"><p>7 anni</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Ambiente con requisiti normativi</td>
+<td style="border:1px solid black;">7 anni</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizi segreti</p></td>
-<td style="border:1px solid black;"><p>Permanente</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Servizi segreti</td>
+<td style="border:1px solid black;">Permanente</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 </tbody>
 </table>

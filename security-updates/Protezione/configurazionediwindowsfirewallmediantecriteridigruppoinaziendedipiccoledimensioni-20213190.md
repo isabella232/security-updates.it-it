@@ -36,7 +36,7 @@ Nella tabella seguente vengono elencate le impostazioni predefinite di Windows F
 
 **Tabella 1. Impostazioni predefinite di Windows Firewall**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -45,46 +45,46 @@ Nella tabella seguente vengono elencate le impostazioni predefinite di Windows F
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Opzione</p></th>
-<th><p>Configurazione predefinita</p></th>
-<th><p>Caso in cui apportare modifiche</p></th>
+<th>Opzione</th>
+<th>Configurazione predefinita</th>
+<th>Caso in cui apportare modifiche</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Impostazioni connessione di rete</p></td>
-<td style="border:1px solid black;"><p>Tutte le connessioni</p></td>
-<td style="border:1px solid black;"><p>Necessità di interrompere la protezione di Windows Firewall per una determinata connessione di rete o di implementare impostazioni specifiche per ogni connessione di rete.</p></td>
+<td style="border:1px solid black;">Impostazioni connessione di rete</td>
+<td style="border:1px solid black;">Tutte le connessioni</td>
+<td style="border:1px solid black;">Necessità di interrompere la protezione di Windows Firewall per una determinata connessione di rete o di implementare impostazioni specifiche per ogni connessione di rete.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Eccezioni programmi</p></td>
-<td style="border:1px solid black;"><p>Soltanto Assistenza remota</p></td>
-<td style="border:1px solid black;"><p>Necessità di ricevere sul computer in uso connessioni provenienti da altri programmi o servizi.</p></td>
+<td style="border:1px solid black;">Eccezioni programmi</td>
+<td style="border:1px solid black;">Soltanto Assistenza remota</td>
+<td style="border:1px solid black;">Necessità di ricevere sul computer in uso connessioni provenienti da altri programmi o servizi.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Eccezioni porte</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
-<td style="border:1px solid black;"><p>Necessità di accettare sul computer in uso connessioni provenienti da un altro computer che utilizza porte specifiche.</p></td>
+<td style="border:1px solid black;">Eccezioni porte</td>
+<td style="border:1px solid black;">Nessuna</td>
+<td style="border:1px solid black;">Necessità di accettare sul computer in uso connessioni provenienti da un altro computer che utilizza porte specifiche.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Eccezioni ICMP</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
-<td style="border:1px solid black;"><p>Necessità che gli altri computer verifichino che il computer in uso sia in funzione e che il protocollo TCP/IP sia configurato correttamente.</p></td>
+<td style="border:1px solid black;">Eccezioni ICMP</td>
+<td style="border:1px solid black;">Nessuna</td>
+<td style="border:1px solid black;">Necessità che gli altri computer verifichino che il computer in uso sia in funzione e che il protocollo TCP/IP sia configurato correttamente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Notifiche</p></td>
-<td style="border:1px solid black;"><p>Attivate</p></td>
-<td style="border:1px solid black;"><p>Necessità di interrompere la ricezione delle notifiche relative ai tentativi non riusciti di connessione al computer in uso da parte di altri computer.</p></td>
+<td style="border:1px solid black;">Notifiche</td>
+<td style="border:1px solid black;">Attivate</td>
+<td style="border:1px solid black;">Necessità di interrompere la ricezione delle notifiche relative ai tentativi non riusciti di connessione al computer in uso da parte di altri computer.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Registrazione</p></td>
-<td style="border:1px solid black;"><p>Disattivata</p></td>
-<td style="border:1px solid black;"><p>Necessità di registrare le connessioni e i tentativi di connessione al computer in uso.</p></td>
+<td style="border:1px solid black;">Registrazione</td>
+<td style="border:1px solid black;">Disattivata</td>
+<td style="border:1px solid black;">Necessità di registrare le connessioni e i tentativi di connessione al computer in uso.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Non consentire eccezioni</p></td>
-<td style="border:1px solid black;"><p>Disattivata</p></td>
-<td style="border:1px solid black;"><p>Individuazione di una vulnerabilità di protezione o utilizzo del computer in un ambiente a protezione ridotta, ad esempio la sala d'attesa di un aeroporto.</p></td>
+<td style="border:1px solid black;">Non consentire eccezioni</td>
+<td style="border:1px solid black;">Disattivata</td>
+<td style="border:1px solid black;">Individuazione di una vulnerabilità di protezione o utilizzo del computer in un ambiente a protezione ridotta, ad esempio la sala d'attesa di un aeroporto.</td>
 </tr>
 </tbody>
 </table>
@@ -333,7 +333,7 @@ Dopo aver completato la procedura descritta di seguito per configurare le impost
   
     **Tabella 2. Impostazioni consigliate di Windows Firewall**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="25%" />
@@ -343,96 +343,96 @@ Dopo aver completato la procedura descritta di seguito per configurare le impost
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Impostazione</p></th>
-    <th><p>Descrizione</p></th>
-    <th><p>Profilo di dominio</p></th>
-    <th><p>Profilo predefinito</p></th>
+    <th>Impostazione</th>
+    <th>Descrizione</th>
+    <th>Profilo di dominio</th>
+    <th>Profilo predefinito</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Proteggi tutte le connessioni di rete</p></td>
-    <td style="border:1px solid black;"><p>Consente di attivare Windows Firewall su tutte le connessioni di rete.</p></td>
-    <td style="border:1px solid black;"><p>Attivata.</p></td>
-    <td style="border:1px solid black;"><p>Attivata.</p></td>
+    <td style="border:1px solid black;">Proteggi tutte le connessioni di rete</td>
+    <td style="border:1px solid black;">Consente di attivare Windows Firewall su tutte le connessioni di rete.</td>
+    <td style="border:1px solid black;">Attivata.</td>
+    <td style="border:1px solid black;">Attivata.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Non consentire eccezioni</p></td>
-    <td style="border:1px solid black;"><p>Se questa opzione è attivata il traffico in ingresso non richiesto viene ignorato, compreso il traffico consentito.</p></td>
-    <td style="border:1px solid black;"><p>Non configurata.</p></td>
-    <td style="border:1px solid black;"><p>Attivata, a meno che non sia necessario configurare eccezioni programmi.</p></td>
+    <td style="border:1px solid black;">Non consentire eccezioni</td>
+    <td style="border:1px solid black;">Se questa opzione è attivata il traffico in ingresso non richiesto viene ignorato, compreso il traffico consentito.</td>
+    <td style="border:1px solid black;">Non configurata.</td>
+    <td style="border:1px solid black;">Attivata, a meno che non sia necessario configurare eccezioni programmi.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Definisci eccezioni programmi</p></td>
-    <td style="border:1px solid black;"><p>Consente di definire il traffico consentito in termini di nomi di file di programma.</p></td>
-    <td style="border:1px solid black;"><p>Attivata e configurata per i programmi (applicazioni e servizi) utilizzati dai computer Windows XP SP2 connessi alla rete in uso.</p></td>
-    <td style="border:1px solid black;"><p>Attivata e configurata per i programmi (applicazioni e servizi) utilizzati dai computer Windows XP SP2 connessi alla rete in uso.</p></td>
+    <td style="border:1px solid black;">Definisci eccezioni programmi</td>
+    <td style="border:1px solid black;">Consente di definire il traffico consentito in termini di nomi di file di programma.</td>
+    <td style="border:1px solid black;">Attivata e configurata per i programmi (applicazioni e servizi) utilizzati dai computer Windows XP SP2 connessi alla rete in uso.</td>
+    <td style="border:1px solid black;">Attivata e configurata per i programmi (applicazioni e servizi) utilizzati dai computer Windows XP SP2 connessi alla rete in uso.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Consenti eccezioni programmi locali</p></td>
-    <td style="border:1px solid black;"><p>Consente la configurazione locale delle eccezioni programmi.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata, a meno che non si desideri che gli amministratori locali configurino localmente le eccezioni programmi.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata.</p></td>
+    <td style="border:1px solid black;">Consenti eccezioni programmi locali</td>
+    <td style="border:1px solid black;">Consente la configurazione locale delle eccezioni programmi.</td>
+    <td style="border:1px solid black;">Disattivata, a meno che non si desideri che gli amministratori locali configurino localmente le eccezioni programmi.</td>
+    <td style="border:1px solid black;">Disattivata.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Consenti eccezione per amministrazione remota</p></td>
-    <td style="border:1px solid black;"><p>Consente la configurazione remota mediante strumenti.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata, a meno che non si desideri poter amministrare in remoto i computer in uso utilizzando snap-in MMC.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata.</p></td>
+    <td style="border:1px solid black;">Consenti eccezione per amministrazione remota</td>
+    <td style="border:1px solid black;">Consente la configurazione remota mediante strumenti.</td>
+    <td style="border:1px solid black;">Disattivata, a meno che non si desideri poter amministrare in remoto i computer in uso utilizzando snap-in MMC.</td>
+    <td style="border:1px solid black;">Disattivata.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Consenti eccezione condivisione file e stampanti</p></td>
-    <td style="border:1px solid black;"><p>Permette di specificare se il traffico di condivisione di file e stampanti è consentito.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata, a meno che i computer Windows XP SP2 non condividano risorse locali.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata.</p></td>
+    <td style="border:1px solid black;">Consenti eccezione condivisione file e stampanti</td>
+    <td style="border:1px solid black;">Permette di specificare se il traffico di condivisione di file e stampanti è consentito.</td>
+    <td style="border:1px solid black;">Disattivata, a meno che i computer Windows XP SP2 non condividano risorse locali.</td>
+    <td style="border:1px solid black;">Disattivata.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Consenti eccezioni ICMP</p></td>
-    <td style="border:1px solid black;"><p>Permette di specificare i tipi di messaggi ICMP consentiti.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata, a meno che non si desideri utilizzare il comando ping per la risoluzione dei problemi.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata.</p></td>
+    <td style="border:1px solid black;">Consenti eccezioni ICMP</td>
+    <td style="border:1px solid black;">Permette di specificare i tipi di messaggi ICMP consentiti.</td>
+    <td style="border:1px solid black;">Disattivata, a meno che non si desideri utilizzare il comando ping per la risoluzione dei problemi.</td>
+    <td style="border:1px solid black;">Disattivata.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Consenti eccezione per Desktop remoto</p></td>
-    <td style="border:1px solid black;"><p>Consente di specificare se il computer è autorizzato ad accettare una richiesta di connessione basata su Desktop remoto.</p></td>
-    <td style="border:1px solid black;"><p>Attivata.</p></td>
-    <td style="border:1px solid black;"><p>Attivata.</p></td>
+    <td style="border:1px solid black;">Consenti eccezione per Desktop remoto</td>
+    <td style="border:1px solid black;">Consente di specificare se il computer è autorizzato ad accettare una richiesta di connessione basata su Desktop remoto.</td>
+    <td style="border:1px solid black;">Attivata.</td>
+    <td style="border:1px solid black;">Attivata.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Consenti eccezione per framework UPnP</p></td>
-    <td style="border:1px solid black;"><p>Consente di specificare se il computer è autorizzato a ricevere messaggi UPnP non richiesti.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata.</p></td>
+    <td style="border:1px solid black;">Consenti eccezione per framework UPnP</td>
+    <td style="border:1px solid black;">Consente di specificare se il computer è autorizzato a ricevere messaggi UPnP non richiesti.</td>
+    <td style="border:1px solid black;">Disattivata.</td>
+    <td style="border:1px solid black;">Disattivata.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Proibisci notifiche</p></td>
-    <td style="border:1px solid black;"><p>Consente di disattivare le notifiche.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata.</p></td>
+    <td style="border:1px solid black;">Proibisci notifiche</td>
+    <td style="border:1px solid black;">Consente di disattivare le notifiche.</td>
+    <td style="border:1px solid black;">Disattivata.</td>
+    <td style="border:1px solid black;">Disattivata.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Consenti registrazione</p></td>
-    <td style="border:1px solid black;"><p>Consente di creare e gestire registri riguardanti il traffico e di configurare le impostazioni dei file di registro.</p></td>
-    <td style="border:1px solid black;"><p>Non configurata.</p></td>
-    <td style="border:1px solid black;"><p>Non configurata.</p></td>
+    <td style="border:1px solid black;">Consenti registrazione</td>
+    <td style="border:1px solid black;">Consente di creare e gestire registri riguardanti il traffico e di configurare le impostazioni dei file di registro.</td>
+    <td style="border:1px solid black;">Non configurata.</td>
+    <td style="border:1px solid black;">Non configurata.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Impedisci risposte unicast a richieste multicast o broadcast</p></td>
-    <td style="border:1px solid black;"><p>Consente di ignorare i pacchetti unicast ricevuti in risposta a un messaggio di richiesta multicast o broadcast.</p></td>
-    <td style="border:1px solid black;"><p>Attivata.</p></td>
-    <td style="border:1px solid black;"><p>Attivata.</p></td>
+    <td style="border:1px solid black;">Impedisci risposte unicast a richieste multicast o broadcast</td>
+    <td style="border:1px solid black;">Consente di ignorare i pacchetti unicast ricevuti in risposta a un messaggio di richiesta multicast o broadcast.</td>
+    <td style="border:1px solid black;">Attivata.</td>
+    <td style="border:1px solid black;">Attivata.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Definisci eccezioni porte</p></td>
-    <td style="border:1px solid black;"><p>Permette di specificare il traffico consentito in termini di TCP e UDP.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata.</p></td>
+    <td style="border:1px solid black;">Definisci eccezioni porte</td>
+    <td style="border:1px solid black;">Permette di specificare il traffico consentito in termini di TCP e UDP.</td>
+    <td style="border:1px solid black;">Disattivata.</td>
+    <td style="border:1px solid black;">Disattivata.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Consenti eccezioni porte locali</p></td>
-    <td style="border:1px solid black;"><p>Consente la configurazione locale delle eccezioni porte.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata.</p></td>
-    <td style="border:1px solid black;"><p>Disattivata.</p></td>
+    <td style="border:1px solid black;">Consenti eccezioni porte locali</td>
+    <td style="border:1px solid black;">Consente la configurazione locale delle eccezioni porte.</td>
+    <td style="border:1px solid black;">Disattivata.</td>
+    <td style="border:1px solid black;">Disattivata.</td>
     </tr>
     </tbody>
     </table>

@@ -21,7 +21,7 @@ Per valutare i requisiti di utilizzo di un sistema RMS, è possibile utilizzare 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -39,22 +39,22 @@ Per valutare i requisiti di utilizzo di un sistema RMS, è possibile utilizzare 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Richiesta di licenza</p></td>
-<td style="border:1px solid black;"><p>Ripetuta per ogni utente e per ogni parte di contenuto</p></td>
-<td style="border:1px solid black;"><p>64</p></td>
-<td style="border:1px solid black;"><p>18</p></td>
+<td style="border:1px solid black;">Richiesta di licenza</td>
+<td style="border:1px solid black;">Ripetuta per ogni utente e per ogni parte di contenuto</td>
+<td style="border:1px solid black;">64</td>
+<td style="border:1px solid black;">18</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certificazione account con diritti</p></td>
-<td style="border:1px solid black;"><p>Solo traffico di inizializzazione RMS</p></td>
-<td style="border:1px solid black;"><p>12</p></td>
-<td style="border:1px solid black;"><p>16</p></td>
+<td style="border:1px solid black;">Certificazione account con diritti</td>
+<td style="border:1px solid black;">Solo traffico di inizializzazione RMS</td>
+<td style="border:1px solid black;">12</td>
+<td style="border:1px solid black;">16</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Registrazione dei client</p></td>
-<td style="border:1px solid black;"><p>Solo traffico di inizializzazione RMS</p></td>
-<td style="border:1px solid black;"><p>17</p></td>
-<td style="border:1px solid black;"><p>16</p></td>
+<td style="border:1px solid black;">Registrazione dei client</td>
+<td style="border:1px solid black;">Solo traffico di inizializzazione RMS</td>
+<td style="border:1px solid black;">17</td>
+<td style="border:1px solid black;">16</td>
 </tr>
 </tbody>
 </table>
@@ -65,7 +65,7 @@ La seguente tabella fornisce i dati di base sull'utilizzo della banda larga dell
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -81,14 +81,14 @@ La seguente tabella fornisce i dati di base sull'utilizzo della banda larga dell
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Istituzione di una connessione RMS (ldap_bind)</p></td>
-<td style="border:1px solid black;"><p>1600</p></td>
-<td style="border:1px solid black;"><p>200</p></td>
+<td style="border:1px solid black;">Istituzione di una connessione RMS (ldap_bind)</td>
+<td style="border:1px solid black;">1600</td>
+<td style="border:1px solid black;">200</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Valutazione dell'appartenenza al gruppo RMS (ldap_search)</p></td>
-<td style="border:1px solid black;"><p>200</p></td>
-<td style="border:1px solid black;"><p>100</p></td>
+<td style="border:1px solid black;">Valutazione dell'appartenenza al gruppo RMS (ldap_search)</td>
+<td style="border:1px solid black;">200</td>
+<td style="border:1px solid black;">100</td>
 </tr>
 </tbody>
 </table>

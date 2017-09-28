@@ -315,7 +315,7 @@ Utilizzare le informazioni nella tabella seguente per determinare il tipo di reg
 
 **Tabella 6.1 Identificazione della regola più adatta per un'applicazione specifica**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -323,60 +323,60 @@ Utilizzare le informazioni nella tabella seguente per determinare il tipo di reg
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Operazione</p></th>
-<th><p>Regola consigliata</p></th>
+<th>Operazione</th>
+<th>Regola consigliata</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consentire o non consentire una versione di programma specifica.</p></td>
-<td style="border:1px solid black;"><p><strong>Regola hash</strong><br />
-Individuare il file per creare una regola hash.</p></td>
+<td style="border:1px solid black;">Consentire o non consentire una versione di programma specifica.</td>
+<td style="border:1px solid black;"><strong>Regola hash</strong><br />
+Individuare il file per creare una regola hash.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Identificare un programma installato sempre nella stessa posizione.</p></td>
-<td style="border:1px solid black;"><p><strong>Regola di percorso con variabili di ambiente</strong><br />
-%ProgramFiles%\Internet Explorer\iexplore.exe</p></td>
+<td style="border:1px solid black;">Identificare un programma installato sempre nella stessa posizione.</td>
+<td style="border:1px solid black;"><strong>Regola di percorso con variabili di ambiente</strong><br />
+%ProgramFiles%\Internet Explorer\iexplore.exe</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Identificare un programma che può essere installato in qualunque posizione nei computer client.</p></td>
-<td style="border:1px solid black;"><p><strong>Registry path rule</strong><br />
-%HKEY_LOCAL_MACHINE\SOFTWARE\ ComputerAssociates\InoculateIT\6.0\Path\HOME%</p></td>
+<td style="border:1px solid black;">Identificare un programma che può essere installato in qualunque posizione nei computer client.</td>
+<td style="border:1px solid black;"><strong>Registry path rule</strong><br />
+%HKEY_LOCAL_MACHINE\SOFTWARE\ ComputerAssociates\InoculateIT\6.0\Path\HOME%</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Identificare un set di script in un server centrale.</p></td>
-<td style="border:1px solid black;"><p><strong>Path rule</strong><br />
-\\SERVER_NAME\Share</p></td>
+<td style="border:1px solid black;">Identificare un set di script in un server centrale.</td>
+<td style="border:1px solid black;"><strong>Path rule</strong><br />
+\\SERVER_NAME\Share</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Identificare un set di script in un gruppo di server. Ad esempio, DC01, DC02 e DC03.</p></td>
-<td style="border:1px solid black;"><p><strong>Regola di percorso con carattere jolly</strong><br />
-\\DC??\Share</p></td>
+<td style="border:1px solid black;">Identificare un set di script in un gruppo di server. Ad esempio, DC01, DC02 e DC03.</td>
+<td style="border:1px solid black;"><strong>Regola di percorso con carattere jolly</strong><br />
+\\DC??\Share</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Non consentire l'esecuzione dei file .vbs a meno che non siano inclusi nella directory dello script di accesso.</p></td>
-<td style="border:1px solid black;"><p><strong>Regola di percorso con carattere jolly</strong></p>
-<p>*.VBS impostato su <strong>Non consentito</strong></p>
-<p>\\LOGIN_SRV\Share\*.VBS impostato su <strong>Senza restrizioni</strong></p></td>
+<td style="border:1px solid black;">Non consentire l'esecuzione dei file .vbs a meno che non siano inclusi nella directory dello script di accesso.</td>
+<td style="border:1px solid black;"><strong>Regola di percorso con carattere jolly</strong>
+*.VBS impostato su <strong>Non consentito</strong>
+\\LOGIN_SRV\Share\*.VBS impostato su <strong>Senza restrizioni</strong></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Non consentire l'esecuzione dei file installati da un virus denominato sempre Flcss.exe.</p></td>
-<td style="border:1px solid black;"><p><strong>Regola di percorso</strong></p>
-<p>Flcss.exe impostato su <strong>Non consentito</strong></p></td>
+<td style="border:1px solid black;">Non consentire l'esecuzione dei file installati da un virus denominato sempre Flcss.exe.</td>
+<td style="border:1px solid black;"><strong>Regola di percorso</strong>
+Flcss.exe impostato su <strong>Non consentito</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Identificare un set di script che possa essere eseguito in qualunque posizione.</p></td>
-<td style="border:1px solid black;"><p><strong>Regola certificato</strong></p>
-<p>Utilizzare un certificato per firmare gli script digitalmente.</p></td>
+<td style="border:1px solid black;">Identificare un set di script che possa essere eseguito in qualunque posizione.</td>
+<td style="border:1px solid black;"><strong>Regola certificato</strong>
+Utilizzare un certificato per firmare gli script digitalmente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consentire l'installazione del software da siti attendibili dell'area Internet.</p></td>
-<td style="border:1px solid black;"><p><strong>Regola area</strong></p>
-<p>Impostare <strong>Siti attendibili</strong> su <strong>Senza restrizioni.</strong></p></td>
+<td style="border:1px solid black;">Consentire l'installazione del software da siti attendibili dell'area Internet.</td>
+<td style="border:1px solid black;"><strong>Regola area</strong>
+Impostare <strong>Siti attendibili</strong> su <strong>Senza restrizioni.</strong></td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ##### Regole di precedenza per i criteri di restrizione software
 
@@ -448,7 +448,7 @@ Per la configurazione del GPO definita nella presente guida, sono stati rimossi 
 
 **Tabella 6.2 Tipi di file designati**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -458,120 +458,120 @@ Per la configurazione del GPO definita nella presente guida, sono stati rimossi 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Estensione file</p></th>
-<th><p>Descrizione</p></th>
-<th><p>Estensione file</p></th>
-<th><p>Descrizione</p></th>
+<th>Estensione file</th>
+<th>Descrizione</th>
+<th>Estensione file</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.ade</p></td>
-<td style="border:1px solid black;"><p>Estensione progetto di Microsoft Access</p></td>
-<td style="border:1px solid black;"><p>.msc</p></td>
-<td style="border:1px solid black;"><p>Documento console comune Microsoft</p></td>
+<td style="border:1px solid black;">.ade</td>
+<td style="border:1px solid black;">Estensione progetto di Microsoft Access</td>
+<td style="border:1px solid black;">.msc</td>
+<td style="border:1px solid black;">Documento console comune Microsoft</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.adp</p></td>
-<td style="border:1px solid black;"><p>Progetto di Microsoft Access</p></td>
-<td style="border:1px solid black;"><p>.msi</p></td>
-<td style="border:1px solid black;"><p>Pacchetto di Windows Installer</p></td>
+<td style="border:1px solid black;">.adp</td>
+<td style="border:1px solid black;">Progetto di Microsoft Access</td>
+<td style="border:1px solid black;">.msi</td>
+<td style="border:1px solid black;">Pacchetto di Windows Installer</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.bas</p></td>
-<td style="border:1px solid black;"><p>Modulo di classe di Visual Basic</p></td>
-<td style="border:1px solid black;"><p>.msp</p></td>
-<td style="border:1px solid black;"><p>Patch di Windows Installer</p></td>
+<td style="border:1px solid black;">.bas</td>
+<td style="border:1px solid black;">Modulo di classe di Visual Basic</td>
+<td style="border:1px solid black;">.msp</td>
+<td style="border:1px solid black;">Patch di Windows Installer</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.bat</p></td>
-<td style="border:1px solid black;"><p>File batch</p></td>
-<td style="border:1px solid black;"><p>.mst</p></td>
-<td style="border:1px solid black;"><p>File di origine test visivo</p></td>
+<td style="border:1px solid black;">.bat</td>
+<td style="border:1px solid black;">File batch</td>
+<td style="border:1px solid black;">.mst</td>
+<td style="border:1px solid black;">File di origine test visivo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.chm</p></td>
-<td style="border:1px solid black;"><p>File della Guida HTML compilata</p></td>
-<td style="border:1px solid black;"><p>.ocx</p></td>
-<td style="border:1px solid black;"><p>Controllo ActiveX</p></td>
+<td style="border:1px solid black;">.chm</td>
+<td style="border:1px solid black;">File della Guida HTML compilata</td>
+<td style="border:1px solid black;">.ocx</td>
+<td style="border:1px solid black;">Controllo ActiveX</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.cmd</p></td>
-<td style="border:1px solid black;"><p>Script di comandi Windows NT</p></td>
-<td style="border:1px solid black;"><p>.pcd</p></td>
-<td style="border:1px solid black;"><p>Immagine Photo CD</p></td>
+<td style="border:1px solid black;">.cmd</td>
+<td style="border:1px solid black;">Script di comandi Windows NT</td>
+<td style="border:1px solid black;">.pcd</td>
+<td style="border:1px solid black;">Immagine Photo CD</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.com</p></td>
-<td style="border:1px solid black;"><p>Applicazione M-DOS</p></td>
-<td style="border:1px solid black;"><p>.pif</p></td>
-<td style="border:1px solid black;"><p>Collegamento a un programma per MS–DOS</p></td>
+<td style="border:1px solid black;">.com</td>
+<td style="border:1px solid black;">Applicazione M-DOS</td>
+<td style="border:1px solid black;">.pif</td>
+<td style="border:1px solid black;">Collegamento a un programma per MS–DOS</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.cpl</p></td>
-<td style="border:1px solid black;"><p>Estensione del Pannello di controllo</p></td>
-<td style="border:1px solid black;"><p>.reg</p></td>
-<td style="border:1px solid black;"><p>Voce di registro</p></td>
+<td style="border:1px solid black;">.cpl</td>
+<td style="border:1px solid black;">Estensione del Pannello di controllo</td>
+<td style="border:1px solid black;">.reg</td>
+<td style="border:1px solid black;">Voce di registro</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.crt</p></td>
-<td style="border:1px solid black;"><p>Certificato di protezione</p></td>
-<td style="border:1px solid black;"><p>.scr</p></td>
-<td style="border:1px solid black;"><p>Screen saver</p></td>
+<td style="border:1px solid black;">.crt</td>
+<td style="border:1px solid black;">Certificato di protezione</td>
+<td style="border:1px solid black;">.scr</td>
+<td style="border:1px solid black;">Screen saver</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.exe</p></td>
-<td style="border:1px solid black;"><p>Applicazione</p></td>
-<td style="border:1px solid black;"><p>.sct</p></td>
-<td style="border:1px solid black;"><p>Componente di script Windows</p></td>
+<td style="border:1px solid black;">.exe</td>
+<td style="border:1px solid black;">Applicazione</td>
+<td style="border:1px solid black;">.sct</td>
+<td style="border:1px solid black;">Componente di script Windows</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.hlp</p></td>
-<td style="border:1px solid black;"><p>File della Guida di Windows</p></td>
-<td style="border:1px solid black;"><p>.shs</p></td>
-<td style="border:1px solid black;"><p>Ritaglio di Shell</p></td>
+<td style="border:1px solid black;">.hlp</td>
+<td style="border:1px solid black;">File della Guida di Windows</td>
+<td style="border:1px solid black;">.shs</td>
+<td style="border:1px solid black;">Ritaglio di Shell</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.hta</p></td>
-<td style="border:1px solid black;"><p>Applicazione HTML</p></td>
-<td style="border:1px solid black;"><p>.url</p></td>
-<td style="border:1px solid black;"><p>Collegamento Internet (URL, Uniform Resource Locator)</p></td>
+<td style="border:1px solid black;">.hta</td>
+<td style="border:1px solid black;">Applicazione HTML</td>
+<td style="border:1px solid black;">.url</td>
+<td style="border:1px solid black;">Collegamento Internet (URL, Uniform Resource Locator)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.inf</p></td>
-<td style="border:1px solid black;"><p>File di informazioni per l'installazione</p></td>
-<td style="border:1px solid black;"><p>.vb</p></td>
-<td style="border:1px solid black;"><p>File Visual Basic</p></td>
+<td style="border:1px solid black;">.inf</td>
+<td style="border:1px solid black;">File di informazioni per l'installazione</td>
+<td style="border:1px solid black;">.vb</td>
+<td style="border:1px solid black;">File Visual Basic</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.ins</p></td>
-<td style="border:1px solid black;"><p>Impostazioni di comunicazione Internet</p></td>
-<td style="border:1px solid black;"><p>.vbe</p></td>
-<td style="border:1px solid black;"><p>File di script codificato in VBScript</p></td>
+<td style="border:1px solid black;">.ins</td>
+<td style="border:1px solid black;">Impostazioni di comunicazione Internet</td>
+<td style="border:1px solid black;">.vbe</td>
+<td style="border:1px solid black;">File di script codificato in VBScript</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.isp</p></td>
-<td style="border:1px solid black;"><p>Impostazioni di comunicazione Internet</p></td>
-<td style="border:1px solid black;"><p>.vbs</p></td>
-<td style="border:1px solid black;"><p>File di script VBScript</p></td>
+<td style="border:1px solid black;">.isp</td>
+<td style="border:1px solid black;">Impostazioni di comunicazione Internet</td>
+<td style="border:1px solid black;">.vbs</td>
+<td style="border:1px solid black;">File di script VBScript</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.js</p></td>
-<td style="border:1px solid black;"><p>File JScript</p></td>
-<td style="border:1px solid black;"><p>.wsc</p></td>
-<td style="border:1px solid black;"><p>Componente di script Windows</p></td>
+<td style="border:1px solid black;">.js</td>
+<td style="border:1px solid black;">File JScript</td>
+<td style="border:1px solid black;">.wsc</td>
+<td style="border:1px solid black;">Componente di script Windows</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>.jse</p></td>
-<td style="border:1px solid black;"><p>File di script codificato in JScript</p></td>
-<td style="border:1px solid black;"><p>.wsf</p></td>
-<td style="border:1px solid black;"><p>File di script Windows</p></td>
+<td style="border:1px solid black;">.jse</td>
+<td style="border:1px solid black;">File di script codificato in JScript</td>
+<td style="border:1px solid black;">.wsf</td>
+<td style="border:1px solid black;">File di script Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>.mde</p></td>
-<td style="border:1px solid black;"><p>Database MDE di Microsoft Access</p></td>
-<td style="border:1px solid black;"><p>.wsh</p></td>
-<td style="border:1px solid black;"><p>File di impostazioni host di scripting Windows</p></td>
+<td style="border:1px solid black;">.mde</td>
+<td style="border:1px solid black;">Database MDE di Microsoft Access</td>
+<td style="border:1px solid black;">.wsh</td>
+<td style="border:1px solid black;">File di impostazioni host di scripting Windows</td>
 </tr>
 </tbody>
 </table>
@@ -590,7 +590,7 @@ Nella seguente tabella vengono indicate le opzioni per gli autori attendibili re
   
 **Tabella 6.3 Impostazioni e operazioni per gli autori attendibili**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -598,30 +598,30 @@ Nella seguente tabella vengono indicate le opzioni per gli autori attendibili re
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome impostazione</p></th>
-<th><p>Operazione</p></th>
+<th>Nome impostazione</th>
+<th>Operazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Amministratori dell'organizzazione</p></td>
-<td style="border:1px solid black;"><p>Consente solo agli amministratori dell'organizzazione di assumere decisioni relative al contenuto attivo firmato.</p></td>
+<td style="border:1px solid black;">Amministratori dell'organizzazione</td>
+<td style="border:1px solid black;">Consente solo agli amministratori dell'organizzazione di assumere decisioni relative al contenuto attivo firmato.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Amministratori del computer locale</p></td>
-<td style="border:1px solid black;"><p>Consente solo agli amministratori del computer locale di assumere decisioni relative al contenuto attivo firmato.</p></td>
+<td style="border:1px solid black;">Amministratori del computer locale</td>
+<td style="border:1px solid black;">Consente solo agli amministratori del computer locale di assumere decisioni relative al contenuto attivo firmato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Utenti finali</p></td>
-<td style="border:1px solid black;"><p>Consente agli utenti di assumere decisioni relative al contenuto attivo firmato.</p></td>
+<td style="border:1px solid black;">Utenti finali</td>
+<td style="border:1px solid black;">Consente agli utenti di assumere decisioni relative al contenuto attivo firmato.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Publisher</p></td>
-<td style="border:1px solid black;"><p>Consente di verificare che il certificato utilizzato dall'autore del software non sia stato revocato.</p></td>
+<td style="border:1px solid black;">Publisher</td>
+<td style="border:1px solid black;">Consente di verificare che il certificato utilizzato dall'autore del software non sia stato revocato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Timestamp</p></td>
-<td style="border:1px solid black;"><p>Consente di verificare che il certificato utilizzato dall'organizzazione per indicare la data e l'ora del contenuto attivo non sia stato revocato.</p></td>
+<td style="border:1px solid black;">Timestamp</td>
+<td style="border:1px solid black;">Consente di verificare che il certificato utilizzato dall'organizzazione per indicare la data e l'ora del contenuto attivo non sia stato revocato.</td>
 </tr>
 </tbody>
 </table>
@@ -650,7 +650,7 @@ Nella presente sezione vengono indicate le procedure da seguire per la configura
   
 **Tabella 6.4 Importanti considerazioni sulla configurazione dei criteri**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -658,45 +658,45 @@ Nella presente sezione vengono indicate le procedure da seguire per la configura
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Decisione</p></th>
-<th><p>Fattori da considerare</p></th>
+<th>Decisione</th>
+<th>Fattori da considerare</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Portatili o workstation</p></td>
-<td style="border:1px solid black;"><p>Esaminare le necessità degli utenti mobili nel proprio ambiente per determinare se per i portatili sono richiesti criteri diversi da quelli utilizzati per i desktop. I portatili in genere richiedono maggiore flessibilità dei desktop.</p></td>
+<td style="border:1px solid black;">Portatili o workstation</td>
+<td style="border:1px solid black;">Esaminare le necessità degli utenti mobili nel proprio ambiente per determinare se per i portatili sono richiesti criteri diversi da quelli utilizzati per i desktop. I portatili in genere richiedono maggiore flessibilità dei desktop.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Condivisioni server, script di accesso e unità principali</p></td>
-<td style="border:1px solid black;"><p>Per tutte le applicazioni avviate da condivisioni server o da home directory, sarà necessario definire una regola di percorso. Alla regola di percorso è possibile aggiungere file script di accesso. Se uno script chiama un altro script, è consigliabile aggiungere alla regola di percorso anche le posizioni dei file eseguibili.</p></td>
+<td style="border:1px solid black;">Condivisioni server, script di accesso e unità principali</td>
+<td style="border:1px solid black;">Per tutte le applicazioni avviate da condivisioni server o da home directory, sarà necessario definire una regola di percorso. Alla regola di percorso è possibile aggiungere file script di accesso. Se uno script chiama un altro script, è consigliabile aggiungere alla regola di percorso anche le posizioni dei file eseguibili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GPO o criteri di protezione locali</p></td>
-<td style="border:1px solid black;"><p>In questa guida viene utilizzato un GPO per la configurazione. Tuttavia, è consigliabile considerare gli effetti che i criteri locali avranno sulla configurazione.</p></td>
+<td style="border:1px solid black;">GPO o criteri di protezione locali</td>
+<td style="border:1px solid black;">In questa guida viene utilizzato un GPO per la configurazione. Tuttavia, è consigliabile considerare gli effetti che i criteri locali avranno sulla configurazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Criteri utente o computer</p></td>
-<td style="border:1px solid black;"><p>Questa configurazione viene applicata a tutte le impostazioni a livello di computer.</p></td>
+<td style="border:1px solid black;">Criteri utente o computer</td>
+<td style="border:1px solid black;">Questa configurazione viene applicata a tutte le impostazioni a livello di computer.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Livello di protezione predefinito</p></td>
-<td style="border:1px solid black;"><p>È consigliabile configurare l'impostazione predefinita su <strong>Non consentito</strong> e il resto dei criteri in modo appropriato. È disponibile anche l'impostazione predefinita <strong>Senza restrizioni</strong>.</p></td>
+<td style="border:1px solid black;">Livello di protezione predefinito</td>
+<td style="border:1px solid black;">È consigliabile configurare l'impostazione predefinita su <strong>Non consentito</strong> e il resto dei criteri in modo appropriato. È disponibile anche l'impostazione predefinita <strong>Senza restrizioni</strong>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Regole aggiuntive</p></td>
-<td style="border:1px solid black;"><p>Quando si utilizza il criterio predefinito <strong>Non consentito</strong>, sarà necessario applicare altre regole di percorso del sistema operativo. Nella configurazione <strong>Non consentito</strong> le quattro regole vengono create automaticamente.</p></td>
+<td style="border:1px solid black;">Regole aggiuntive</td>
+<td style="border:1px solid black;">Quando si utilizza il criterio predefinito <strong>Non consentito</strong>, sarà necessario applicare altre regole di percorso del sistema operativo. Nella configurazione <strong>Non consentito</strong> le quattro regole vengono create automaticamente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Opzioni dei criteri</p></td>
-<td style="border:1px solid black;"><p>Se si utilizzano criteri di protezione locali e si desidera che i criteri non vengano applicati agli amministratori sui computer client nel proprio ambiente, selezionare l'opzione di imposizione dei criteri che consente di ignorare gli amministratori.</p>
-<p>Se si desidera controllare le DLL oltre ai file eseguibili e agli script, selezionare l'opzione di imposizione dei criteri che consente di controllare le DLL.</p>
-<p>Se si desidera stabilire alcune regole per i tipi di file non inclusi nell'elenco predefinito dei tipi di file designati, utilizzare l'opzione per eseguirne l'aggiunta nella finestra di dialogo <strong>Proprietà - Tipi di file designati</strong>.</p>
-<p>Se si desidera modificare l'utente che assume le decisioni sul download di controlli ActiveX e altro contenuto firmato, selezionare la casella di controllo relativa all'opzione <strong>Autore</strong> nella scheda <strong>Generale</strong> della finestra di dialogo <strong>Proprietà - Autori attendibili</strong>.</p></td>
+<td style="border:1px solid black;">Opzioni dei criteri</td>
+<td style="border:1px solid black;">Se si utilizzano criteri di protezione locali e si desidera che i criteri non vengano applicati agli amministratori sui computer client nel proprio ambiente, selezionare l'opzione di imposizione dei criteri che consente di ignorare gli amministratori.
+Se si desidera controllare le DLL oltre ai file eseguibili e agli script, selezionare l'opzione di imposizione dei criteri che consente di controllare le DLL.
+Se si desidera stabilire alcune regole per i tipi di file non inclusi nell'elenco predefinito dei tipi di file designati, utilizzare l'opzione per eseguirne l'aggiunta nella finestra di dialogo <strong>Proprietà - Tipi di file designati</strong>.
+Se si desidera modificare l'utente che assume le decisioni sul download di controlli ActiveX e altro contenuto firmato, selezionare la casella di controllo relativa all'opzione <strong>Autore</strong> nella scheda <strong>Generale</strong> della finestra di dialogo <strong>Proprietà - Autori attendibili</strong>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Applicazione dei criteri a siti, domini o unità organizzative</p></td>
-<td style="border:1px solid black;"><p>I criteri risiedono nell'unità organizzativa in cui si trovano desktop e portatili.</p></td>
+<td style="border:1px solid black;">Applicazione dei criteri a siti, domini o unità organizzative</td>
+<td style="border:1px solid black;">I criteri risiedono nell'unità organizzativa in cui si trovano desktop e portatili.</td>
 </tr>
 </tbody>
 </table>
@@ -777,7 +777,7 @@ Dopo aver eseguito il testing completo del criterio, è possibile applicarlo all
   
 **Tabella 6.5 Livelli di protezione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -786,23 +786,23 @@ Dopo aver eseguito il testing completo del criterio, è possibile applicarlo all
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Regola predefinita nell'interfaccia utente</p></th>
-<th><p>Descrizione</p></th>
-<th><p>Impostazione</p></th>
+<th>Regola predefinita nell'interfaccia utente</th>
+<th>Descrizione</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Non consentito</p></td>
-<td style="border:1px solid black;"><p>Il software non verrà eseguito indipendentemente dai diritti di accesso dell'utente.</p></td>
-<td style="border:1px solid black;"><p>Utilizzare la regola predefinita</p></td>
+<td style="border:1px solid black;">Non consentito</td>
+<td style="border:1px solid black;">Il software non verrà eseguito indipendentemente dai diritti di accesso dell'utente.</td>
+<td style="border:1px solid black;">Utilizzare la regola predefinita</td>
 </tr>
 </tbody>
 </table>
   
 **Tabella 6.6 Regole aggiuntive**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -810,49 +810,49 @@ Dopo aver eseguito il testing completo del criterio, è possibile applicarlo all
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Regola di percorso</p></th>
-<th><p>Impostazione</p></th>
+<th>Regola di percorso</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\SystemRoot%</p></td>
-<td style="border:1px solid black;"><p>Senza restrizioni</p></td>
+<td style="border:1px solid black;">%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\SystemRoot%</td>
+<td style="border:1px solid black;">Senza restrizioni</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\SystemRoot%\*.exe</p></td>
-<td style="border:1px solid black;"><p>Senza restrizioni</p></td>
+<td style="border:1px solid black;">%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\SystemRoot%\*.exe</td>
+<td style="border:1px solid black;">Senza restrizioni</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\SystemRoot%\System32\*.exe</p></td>
-<td style="border:1px solid black;"><p>Senza restrizioni</p></td>
+<td style="border:1px solid black;">%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\SystemRoot%\System32\*.exe</td>
+<td style="border:1px solid black;">Senza restrizioni</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\ProgramFilesDir%</p></td>
-<td style="border:1px solid black;"><p>Senza restrizioni</p></td>
+<td style="border:1px solid black;">%HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\Current Version\ProgramFilesDir%</td>
+<td style="border:1px solid black;">Senza restrizioni</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>*.vbs</p></td>
-<td style="border:1px solid black;"><p>Non consentito</p></td>
+<td style="border:1px solid black;">*.vbs</td>
+<td style="border:1px solid black;">Non consentito</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>g:\Applicazioni gruppo</p></td>
-<td style="border:1px solid black;"><p>Senza restrizioni</p></td>
+<td style="border:1px solid black;">g:\Applicazioni gruppo</td>
+<td style="border:1px solid black;">Senza restrizioni</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Logon.bat o script di accesso</p></td>
-<td style="border:1px solid black;"><p>Senza restrizioni</p></td>
+<td style="border:1px solid black;">Logon.bat o script di accesso</td>
+<td style="border:1px solid black;">Senza restrizioni</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>*\Programmi</p></td>
-<td style="border:1px solid black;"><p>Senza restrizioni</p></td>
+<td style="border:1px solid black;">*\Programmi</td>
+<td style="border:1px solid black;">Senza restrizioni</td>
 </tr>
 </tbody>
 </table>
   
 **Tabella 6.7 Imposizione su file e utenti**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -860,25 +860,25 @@ Dopo aver eseguito il testing completo del criterio, è possibile applicarlo all
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Opzioni di imposizione</p></th>
-<th><p>Consiglio</p></th>
+<th>Opzioni di imposizione</th>
+<th>Consiglio</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Applica criteri restrizione software a:</p></td>
-<td style="border:1px solid black;"><p>Tutti i file nel software tranne le DLL.</p></td>
+<td style="border:1px solid black;">Applica criteri restrizione software a:</td>
+<td style="border:1px solid black;">Tutti i file nel software tranne le DLL.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Applica criteri restrizione software a:</p></td>
-<td style="border:1px solid black;"><p>Tutti gli utenti, esclusi gli amministratori locali.</p></td>
+<td style="border:1px solid black;">Applica criteri restrizione software a:</td>
+<td style="border:1px solid black;">Tutti gli utenti, esclusi gli amministratori locali.</td>
 </tr>
 </tbody>
 </table>
   
 **Tabella 6.8 Tipi di file designati**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -886,21 +886,21 @@ Dopo aver eseguito il testing completo del criterio, è possibile applicarlo all
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Tipi di file</p></th>
-<th><p>Consiglio</p></th>
+<th>Tipi di file</th>
+<th>Consiglio</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Proprietà - Tipi di file designati</p></td>
-<td style="border:1px solid black;"><p>Rimuovere i tipi di file .mdb e .lnk e aggiungere .ocx.</p></td>
+<td style="border:1px solid black;">Proprietà - Tipi di file designati</td>
+<td style="border:1px solid black;">Rimuovere i tipi di file .mdb e .lnk e aggiungere .ocx.</td>
 </tr>
 </tbody>
 </table>
   
 **Tabella 6.9 Autori attendibili**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -908,18 +908,18 @@ Dopo aver eseguito il testing completo del criterio, è possibile applicarlo all
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Autori attendibili</p></th>
-<th><p>Consiglio</p></th>
+<th>Autori attendibili</th>
+<th>Consiglio</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consenti ai seguenti utenti di selezionare autori attendibili:</p></td>
-<td style="border:1px solid black;"><p><strong>Amministratori del computer locale</strong></p></td>
+<td style="border:1px solid black;">Consenti ai seguenti utenti di selezionare autori attendibili:</td>
+<td style="border:1px solid black;"><strong>Amministratori del computer locale</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Determinare se il certificato è stato revocato.</p></td>
-<td style="border:1px solid black;"><p>Selezionare l'opzione <strong>Autore</strong>.</p></td>
+<td style="border:1px solid black;">Determinare se il certificato è stato revocato.</td>
+<td style="border:1px solid black;">Selezionare l'opzione <strong>Autore</strong>.</td>
 </tr>
 </tbody>
 </table>

@@ -13,7 +13,7 @@ La tabella che segue elenca i certificati e le licenze utilizzate da RMS. Questi
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -29,8 +29,8 @@ La tabella che segue elenca i certificati e le licenze utilizzate da RMS. Questi
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certificati concessori di licenze server</p></td>
-<td style="border:1px solid black;"><p>Il certificato concessore di licenze server rilasciato ai server licenze assegna il diritto di rilasciare:</p>
+<td style="border:1px solid black;">Certificati concessori di licenze server</td>
+<td style="border:1px solid black;">Il certificato concessore di licenze server rilasciato ai server licenze assegna il diritto di rilasciare:
 <ul>
 <li>Licenze di pubblicazione<br />
 <br />
@@ -45,7 +45,7 @@ La tabella che segue elenca i certificati e le licenze utilizzate da RMS. Questi
 <br />
 </li>
 </ul>
-<p>Il certificato concessore di licenze server rilasciato al cluster di certificazione principale assegna il diritto di rilasciare:</p>
+Il certificato concessore di licenze server rilasciato al cluster di certificazione principale assegna il diritto di rilasciare:
 <ul>
 <li>Certificati per account con diritti ai client<br />
 <br />
@@ -54,33 +54,33 @@ La tabella che segue elenca i certificati e le licenze utilizzate da RMS. Questi
 <br />
 </li>
 </ul></td>
-<td style="border:1px solid black;"><p>Il certificato concessore di licenze server rilasciato a un server licenze contiene la chiave pubblica del server licenze.</p>
-<p>Il certificato concessore di licenze server rilasciato al server di certificazione principale contiene la chiave pubblica del server di certificazione principale.</p></td>
+<td style="border:1px solid black;">Il certificato concessore di licenze server rilasciato a un server licenze contiene la chiave pubblica del server licenze.
+Il certificato concessore di licenze server rilasciato al server di certificazione principale contiene la chiave pubblica del server di certificazione principale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certificati concessori di licenze client</p></td>
-<td style="border:1px solid black;"><p>Concedono all'utente i diritti necessari per pubblicare contenuto protetto con RMS senza essere connessi alla rete aziendale.</p></td>
-<td style="border:1px solid black;"><p>Contengono la chiave pubblica del certificato e la chiave privata del certificato crittografata con la chiave pubblica dell'utente che ha richiesto il certificato. Inoltre, contengono la chiave pubblica del server che ha rilasciato il certificato.</p></td>
+<td style="border:1px solid black;">Certificati concessori di licenze client</td>
+<td style="border:1px solid black;">Concedono all'utente i diritti necessari per pubblicare contenuto protetto con RMS senza essere connessi alla rete aziendale.</td>
+<td style="border:1px solid black;">Contengono la chiave pubblica del certificato e la chiave privata del certificato crittografata con la chiave pubblica dell'utente che ha richiesto il certificato. Inoltre, contengono la chiave pubblica del server che ha rilasciato il certificato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certificati computer RMS</p></td>
-<td style="border:1px solid black;"><p>Identificano un computer o un dispositivo considerato attendibile dal sistema RMS.</p></td>
-<td style="border:1px solid black;"><p>Contengono la chiave pubblica del computer attivato. La chiave privata corrispondente è contenuta nell'archivio protetto del computer.</p></td>
+<td style="border:1px solid black;">Certificati computer RMS</td>
+<td style="border:1px solid black;">Identificano un computer o un dispositivo considerato attendibile dal sistema RMS.</td>
+<td style="border:1px solid black;">Contengono la chiave pubblica del computer attivato. La chiave privata corrispondente è contenuta nell'archivio protetto del computer.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certificati per account con diritti</p></td>
-<td style="border:1px solid black;"><p>Identificano un utente nel contesto di un computer o una periferica specifica.</p></td>
-<td style="border:1px solid black;"><p>Contengono la chiave pubblica dell'utente e la chiave privata dell'utente crittografata con la chiave pubblica del computer attivato.</p></td>
+<td style="border:1px solid black;">Certificati per account con diritti</td>
+<td style="border:1px solid black;">Identificano un utente nel contesto di un computer o una periferica specifica.</td>
+<td style="border:1px solid black;">Contengono la chiave pubblica dell'utente e la chiave privata dell'utente crittografata con la chiave pubblica del computer attivato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Licenze di pubblicazione</p></td>
-<td style="border:1px solid black;"><p>Specificano i diritti validi per il contenuto protetto con RMS.</p></td>
-<td style="border:1px solid black;"><p>Contengono la chiave del contenuto simmetrica per la decrittrografazione del contenuto, il quale viene crittografato mediate la chiave pubblica del server che ha emesso la licenza.</p></td>
+<td style="border:1px solid black;">Licenze di pubblicazione</td>
+<td style="border:1px solid black;">Specificano i diritti validi per il contenuto protetto con RMS.</td>
+<td style="border:1px solid black;">Contengono la chiave del contenuto simmetrica per la decrittrografazione del contenuto, il quale viene crittografato mediate la chiave pubblica del server che ha emesso la licenza.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Licenze d'uso</p></td>
-<td style="border:1px solid black;"><p>Specificano i diritti validi per il contenuto protetto con RMS nel contesto di uno specifico utente autenticato.</p></td>
-<td style="border:1px solid black;"><p>Contengono la chiave simmetrica per la decrittografia del contenuto, crittografata con  la chiave pubblica dell'utente.</p></td>
+<td style="border:1px solid black;">Licenze d'uso</td>
+<td style="border:1px solid black;">Specificano i diritti validi per il contenuto protetto con RMS nel contesto di uno specifico utente autenticato.</td>
+<td style="border:1px solid black;">Contengono la chiave simmetrica per la decrittografia del contenuto, crittografata con  la chiave pubblica dell'utente.</td>
 </tr>
 </tbody>
 </table>

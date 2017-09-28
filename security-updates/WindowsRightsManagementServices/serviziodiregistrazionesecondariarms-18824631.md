@@ -19,7 +19,7 @@ L'elenco di controllo di accesso predefinito su questo servizio è illustrato ne
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -33,8 +33,8 @@ L'elenco di controllo di accesso predefinito su questo servizio è illustrato ne
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SISTEMA</p></td>
-<td style="border:1px solid black;"><p>Controllo completo</p></td>
+<td style="border:1px solid black;">SISTEMA</td>
+<td style="border:1px solid black;">Controllo completo</td>
 </tr>
 </tbody>
 </table>

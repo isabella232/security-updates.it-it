@@ -92,7 +92,7 @@ Nella tabella seguente sono elencate le attività da eseguire per rendere operat
 
 **Tabella 8.1: Attività iniziali di configurazione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -100,26 +100,26 @@ Nella tabella seguente sono elencate le attività da eseguire per rendere operat
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome attività</p></th>
-<th><p>Sezione</p></th>
+<th>Nome attività</th>
+<th>Sezione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Configurazione del backup di IAS</p></td>
-<td style="border:1px solid black;"><p>Attività operative</p></td>
+<td style="border:1px solid black;">Configurazione del backup di IAS</td>
+<td style="border:1px solid black;">Attività operative</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurazione dei tipi di avviso</p></td>
-<td style="border:1px solid black;"><p>Monitoraggio</p></td>
+<td style="border:1px solid black;">Configurazione dei tipi di avviso</td>
+<td style="border:1px solid black;">Monitoraggio</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivazione del monitoraggio di IAS</p></td>
-<td style="border:1px solid black;"><p>Monitoraggio</p></td>
+<td style="border:1px solid black;">Attivazione del monitoraggio di IAS</td>
+<td style="border:1px solid black;">Monitoraggio</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Attivazione del monitoraggio della CA</p></td>
-<td style="border:1px solid black;"><p>Monitoraggio</p></td>
+<td style="border:1px solid black;">Attivazione del monitoraggio della CA</td>
+<td style="border:1px solid black;">Monitoraggio</td>
 </tr>
 </tbody>
 </table>
@@ -130,7 +130,7 @@ Nella tabella seguente sono elencate le attività che devono essere eseguite reg
   
 **Tabella 8.2: Attività di manutenzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -139,16 +139,16 @@ Nella tabella seguente sono elencate le attività che devono essere eseguite reg
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome attività</p></th>
-<th><p>Frequenza</p></th>
-<th><p>Sezione</p></th>
+<th>Nome attività</th>
+<th>Frequenza</th>
+<th>Sezione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Testing dei backup</p></td>
-<td style="border:1px solid black;"><p>6 mesi</p></td>
-<td style="border:1px solid black;"><p>Attività operative</p></td>
+<td style="border:1px solid black;">Testing dei backup</td>
+<td style="border:1px solid black;">6 mesi</td>
+<td style="border:1px solid black;">Attività operative</td>
 </tr>
 </tbody>
 </table>
@@ -159,7 +159,7 @@ Nella tabella seguente sono elencati gli strumenti e le tecnologie utilizzati ne
   
 **Tabella 8.3: Tecnologia necessaria**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -167,81 +167,81 @@ Nella tabella seguente sono elencati gli strumenti e le tecnologie utilizzati ne
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome</p></th>
-<th><p>Origine</p></th>
+<th>Nome</th>
+<th>Origine</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Console di gestione (MMC) Utenti e computer di Active Directory</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Console di gestione (MMC) Utenti e computer di Active Directory</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MMC Autorità di certificazione</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">MMC Autorità di certificazione</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certutil.exe</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Certutil.exe</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DCDiag.exe</p></td>
-<td style="border:1px solid black;"><p>Strumenti di supporto di Windows Server 2003</p></td>
+<td style="border:1px solid black;">DCDiag.exe</td>
+<td style="border:1px solid black;">Strumenti di supporto di Windows Server 2003</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DSquery.exe</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">DSquery.exe</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Visualizzatore eventi</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Visualizzatore eventi</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Console Gestione criteri di gruppo (GPMC, Group Policy Management Console)</p></td>
-<td style="border:1px solid black;"><p>Download Web da Microsoft.com</p></td>
+<td style="border:1px solid black;">Console Gestione criteri di gruppo (GPMC, Group Policy Management Console)</td>
+<td style="border:1px solid black;">Download Web da Microsoft.com</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS WLAN Tools</p></td>
-<td style="border:1px solid black;"><p>Script installati con questa soluzione</p></td>
+<td style="border:1px solid black;">MSS WLAN Tools</td>
+<td style="border:1px solid black;">Script installati con questa soluzione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Netdiag.exe</p></td>
-<td style="border:1px solid black;"><p>Strumenti di supporto di Windows Server 2003</p></td>
+<td style="border:1px solid black;">Netdiag.exe</td>
+<td style="border:1px solid black;">Strumenti di supporto di Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Performance Monitor</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Performance Monitor</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Integrità PKI</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003 Resource Kit</p></td>
+<td style="border:1px solid black;">Integrità PKI</td>
+<td style="border:1px solid black;">Windows Server 2003 Resource Kit</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Supporti rimovibili per il backup della CA principale</p></td>
-<td style="border:1px solid black;"><p>CD-RW o nastro</p></td>
+<td style="border:1px solid black;">Supporti rimovibili per il backup della CA principale</td>
+<td style="border:1px solid black;">CD-RW o nastro</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SchTasks.exe</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">SchTasks.exe</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Editor di testo</p></td>
-<td style="border:1px solid black;"><p>Blocco note, Windows Server 2003</p></td>
+<td style="border:1px solid black;">Editor di testo</td>
+<td style="border:1px solid black;">Blocco note, Windows Server 2003</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Utilità di backup di Windows</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Utilità di backup di Windows</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizio Utilità di pianificazione di Windows</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Servizio Utilità di pianificazione di Windows</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 </tbody>
 </table>
   
 **Tabella 8.4: Tecnologia consigliata**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -249,22 +249,22 @@ Nella tabella seguente sono elencati gli strumenti e le tecnologie utilizzati ne
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome</p></th>
-<th><p>Origine</p></th>
+<th>Nome</th>
+<th>Origine</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Infrastruttura per la posta elettronica per gli avvisi operativi</p></td>
-<td style="border:1px solid black;"><p>Server e client SMTP/POP3/IMAP, ad esempio Microsoft Exchange Server e Microsoft Outlook®</p></td>
+<td style="border:1px solid black;">Infrastruttura per la posta elettronica per gli avvisi operativi</td>
+<td style="border:1px solid black;">Server e client SMTP/POP3/IMAP, ad esempio Microsoft Exchange Server e Microsoft Outlook®</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Console avvisi operativi</p></td>
-<td style="border:1px solid black;"><p>Microsoft Operations Manager o altro sistema di monitoraggio dei servizi</p></td>
+<td style="border:1px solid black;">Console avvisi operativi</td>
+<td style="border:1px solid black;">Microsoft Operations Manager o altro sistema di monitoraggio dei servizi</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Distribuzione degli aggiornamenti del sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Microsoft Systems Management Server (SMS) o Microsoft Software Update Services (SUS)</p></td>
+<td style="border:1px solid black;">Distribuzione degli aggiornamenti del sistema operativo</td>
+<td style="border:1px solid black;">Microsoft Systems Management Server (SMS) o Microsoft Software Update Services (SUS)</td>
 </tr>
 </tbody>
 </table>
@@ -415,7 +415,7 @@ Lo script per il monitoraggio e lo script per il backup di IAS registrano i segu
   
 **Tabella 8.5: Eventi di IAS restituiti dagli script per IAS forniti con questa soluzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -426,84 +426,84 @@ Lo script per il monitoraggio e lo script per il backup di IAS registrano i segu
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Evento IAS</p></th>
-<th><p>Significato</p></th>
-<th><p>Categoria evento</p></th>
-<th><p>Origine evento</p></th>
-<th><p>ID evento</p></th>
+<th>Evento IAS</th>
+<th>Significato</th>
+<th>Categoria evento</th>
+<th>Origine evento</th>
+<th>ID evento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IAS Backup OK</p></td>
-<td style="border:1px solid black;"><p>Il backup su file della configurazione di IAS è riuscito.</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>Operazioni IAS</p></td>
-<td style="border:1px solid black;"><p>210</p></td>
+<td style="border:1px solid black;">IAS Backup OK</td>
+<td style="border:1px solid black;">Il backup su file della configurazione di IAS è riuscito.</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">Operazioni IAS</td>
+<td style="border:1px solid black;">210</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IAS Invalid Backup Path</p></td>
-<td style="border:1px solid black;"><p>Il backup non è andato a buon fine, perché il percorso di destinazione specificato non era valido.</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
-<td style="border:1px solid black;"><p>Operazioni IAS</p></td>
-<td style="border:1px solid black;"><p>211</p></td>
+<td style="border:1px solid black;">IAS Invalid Backup Path</td>
+<td style="border:1px solid black;">Il backup non è andato a buon fine, perché il percorso di destinazione specificato non era valido.</td>
+<td style="border:1px solid black;">Errore</td>
+<td style="border:1px solid black;">Operazioni IAS</td>
+<td style="border:1px solid black;">211</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IAS No Access to Backup Path</p></td>
-<td style="border:1px solid black;"><p>Il backup non è andato a buon fine, perché non è stato possibile salvare i file di backup nel percorso di destinazione specificato.</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
-<td style="border:1px solid black;"><p>Operazioni IAS</p></td>
-<td style="border:1px solid black;"><p>212</p></td>
+<td style="border:1px solid black;">IAS No Access to Backup Path</td>
+<td style="border:1px solid black;">Il backup non è andato a buon fine, perché non è stato possibile salvare i file di backup nel percorso di destinazione specificato.</td>
+<td style="border:1px solid black;">Errore</td>
+<td style="border:1px solid black;">Operazioni IAS</td>
+<td style="border:1px solid black;">212</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IAS Restore OK</p></td>
-<td style="border:1px solid black;"><p>Le impostazioni IAS sono state ripristinate dalla configurazione salvata.</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>Operazioni IAS</p></td>
-<td style="border:1px solid black;"><p>220</p></td>
+<td style="border:1px solid black;">IAS Restore OK</td>
+<td style="border:1px solid black;">Le impostazioni IAS sono state ripristinate dalla configurazione salvata.</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">Operazioni IAS</td>
+<td style="border:1px solid black;">220</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IAS Restore Failed</p></td>
-<td style="border:1px solid black;"><p>Il ripristino delle impostazioni di IAS non è riuscito.</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>Operazioni IAS</p></td>
-<td style="border:1px solid black;"><p>221</p></td>
+<td style="border:1px solid black;">IAS Restore Failed</td>
+<td style="border:1px solid black;">Il ripristino delle impostazioni di IAS non è riuscito.</td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">Operazioni IAS</td>
+<td style="border:1px solid black;">221</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IAS Policy Query Failed</p></td>
-<td style="border:1px solid black;"><p>Non è stato possibile contattare IAS mediante l'interfaccia Oggetti dati server. È possibile che IAS non sia in esecuzione.</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
-<td style="border:1px solid black;"><p>Operazioni IAS</p></td>
-<td style="border:1px solid black;"><p>230</p></td>
+<td style="border:1px solid black;">IAS Policy Query Failed</td>
+<td style="border:1px solid black;">Non è stato possibile contattare IAS mediante l'interfaccia Oggetti dati server. È possibile che IAS non sia in esecuzione.</td>
+<td style="border:1px solid black;">Errore</td>
+<td style="border:1px solid black;">Operazioni IAS</td>
+<td style="border:1px solid black;">230</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IAS No Policies Detected</p></td>
-<td style="border:1px solid black;"><p>IAS non contiene criteri per l'accesso remoto.</p>
-<p>Questa situazione non dovrebbe mai verificarsi in un server IAS con una configurazione normale e può indicare un problema a livello di IAS o di rete.</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
-<td style="border:1px solid black;"><p>Operazioni IAS</p></td>
-<td style="border:1px solid black;"><p>231</p></td>
+<td style="border:1px solid black;">IAS No Policies Detected</td>
+<td style="border:1px solid black;">IAS non contiene criteri per l'accesso remoto.
+Questa situazione non dovrebbe mai verificarsi in un server IAS con una configurazione normale e può indicare un problema a livello di IAS o di rete.</td>
+<td style="border:1px solid black;">Errore</td>
+<td style="border:1px solid black;">Operazioni IAS</td>
+<td style="border:1px solid black;">231</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IAS Not Installed</p></td>
-<td style="border:1px solid black;"><p>IAS non è installato nel computer.</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
-<td style="border:1px solid black;"><p>Operazioni IAS</p></td>
-<td style="border:1px solid black;"><p>232</p></td>
+<td style="border:1px solid black;">IAS Not Installed</td>
+<td style="border:1px solid black;">IAS non è installato nel computer.</td>
+<td style="border:1px solid black;">Errore</td>
+<td style="border:1px solid black;">Operazioni IAS</td>
+<td style="border:1px solid black;">232</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IAS Had Stopped</p></td>
-<td style="border:1px solid black;"><p>Il servizio IAS non era in esecuzione, ma è stato avviato senza problemi.</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>Operazioni IAS</p></td>
-<td style="border:1px solid black;"><p>233</p></td>
+<td style="border:1px solid black;">IAS Had Stopped</td>
+<td style="border:1px solid black;">Il servizio IAS non era in esecuzione, ma è stato avviato senza problemi.</td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">Operazioni IAS</td>
+<td style="border:1px solid black;">233</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IAS Not Running</p></td>
-<td style="border:1px solid black;"><p>Non è stato possibile avviare il servizio IAS.</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
-<td style="border:1px solid black;"><p>Operazioni IAS</p></td>
-<td style="border:1px solid black;"><p>234</p></td>
+<td style="border:1px solid black;">IAS Not Running</td>
+<td style="border:1px solid black;">Non è stato possibile avviare il servizio IAS.</td>
+<td style="border:1px solid black;">Errore</td>
+<td style="border:1px solid black;">Operazioni IAS</td>
+<td style="border:1px solid black;">234</td>
 </tr>
 </tbody>
 </table>
@@ -538,7 +538,7 @@ Lo script per il monitoraggio della CA registra i seguenti eventi nel registro e
   
 **Tabella 8.6: Eventi della CA restituiti dallo script per il monitoraggio della CA fornito con questa soluzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -549,51 +549,51 @@ Lo script per il monitoraggio della CA registra i seguenti eventi nel registro e
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Evento CA</p></th>
-<th><p>Significato</p></th>
-<th><p>Categoria evento</p></th>
-<th><p>Origine evento</p></th>
-<th><p>ID evento</p></th>
+<th>Evento CA</th>
+<th>Significato</th>
+<th>Categoria evento</th>
+<th>Origine evento</th>
+<th>ID evento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CRL scaduto</p></td>
-<td style="border:1px solid black;"><p>Non è possibile accedere a un elenco CRL e questo sta causando una perdita a livello di servizio.</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
-<td style="border:1px solid black;"><p>Operazioni CA</p></td>
-<td style="border:1px solid black;"><p>20</p></td>
+<td style="border:1px solid black;">CRL scaduto</td>
+<td style="border:1px solid black;">Non è possibile accedere a un elenco CRL e questo sta causando una perdita a livello di servizio.</td>
+<td style="border:1px solid black;">Errore</td>
+<td style="border:1px solid black;">Operazioni CA</td>
+<td style="border:1px solid black;">20</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CRL pronto</p></td>
-<td style="border:1px solid black;"><p>L'elenco CRL è ancora valido ma un nuovo elenco CRL è pronto e dovrebbe essere stato pubblicato.</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
-<td style="border:1px solid black;"><p>Operazioni CA</p></td>
-<td style="border:1px solid black;"><p>21</p></td>
+<td style="border:1px solid black;">CRL pronto</td>
+<td style="border:1px solid black;">L'elenco CRL è ancora valido ma un nuovo elenco CRL è pronto e dovrebbe essere stato pubblicato.</td>
+<td style="border:1px solid black;">Errore</td>
+<td style="border:1px solid black;">Operazioni CA</td>
+<td style="border:1px solid black;">21</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Impossibile recuperare l'elenco CRL da Active Directory</p></td>
-<td style="border:1px solid black;"><p>Non è disponibile alcun elenco CRL nel punto di distribuzione CRL pubblicato. Ciò potrebbe causare perdita di servizio.</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
-<td style="border:1px solid black;"><p>Operazioni CA</p></td>
-<td style="border:1px solid black;"><p>22</p></td>
+<td style="border:1px solid black;">Impossibile recuperare l'elenco CRL da Active Directory</td>
+<td style="border:1px solid black;">Non è disponibile alcun elenco CRL nel punto di distribuzione CRL pubblicato. Ciò potrebbe causare perdita di servizio.</td>
+<td style="border:1px solid black;">Errore</td>
+<td style="border:1px solid black;">Operazioni CA</td>
+<td style="border:1px solid black;">22</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizi certificati non risponde:</p>
-<p>ID evento 1: Interfaccia client non in linea</p>
-<p>ID evento 2: Interfaccia di amministrazione non in linea</p></td>
-<td style="border:1px solid black;"><p>L'interfaccia RPC (Remote Procedure Call) di Servizi certificati non è in linea e non è possibile rilasciare certificati. Può essere necessario riavviare il servizio.</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
-<td style="border:1px solid black;"><p>Operazioni CA</p></td>
-<td style="border:1px solid black;"><p>1 e</p>
-<p>2</p></td>
+<td style="border:1px solid black;">Servizi certificati non risponde:
+ID evento 1: Interfaccia client non in linea
+ID evento 2: Interfaccia di amministrazione non in linea</td>
+<td style="border:1px solid black;">L'interfaccia RPC (Remote Procedure Call) di Servizi certificati non è in linea e non è possibile rilasciare certificati. Può essere necessario riavviare il servizio.</td>
+<td style="border:1px solid black;">Errore</td>
+<td style="border:1px solid black;">Operazioni CA</td>
+<td style="border:1px solid black;">1 e
+2</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Altro evento</p></td>
-<td style="border:1px solid black;"><p>Errore di esecuzione dello script di monitoraggio della CA.</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
-<td style="border:1px solid black;"><p>Operazioni CA</p></td>
-<td style="border:1px solid black;"><p>100</p></td>
+<td style="border:1px solid black;">Altro evento</td>
+<td style="border:1px solid black;">Errore di esecuzione dello script di monitoraggio della CA.</td>
+<td style="border:1px solid black;">Errore</td>
+<td style="border:1px solid black;">Operazioni CA</td>
+<td style="border:1px solid black;">100</td>
 </tr>
 </tbody>
 </table>
@@ -846,7 +846,7 @@ Nella tabella seguente sono riportati i requisiti per l'autenticazione WLAN in o
   
 **Tabella 8.7: Requisiti per l'autenticazione WLAN**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -856,30 +856,30 @@ Nella tabella seguente sono riportati i requisiti per l'autenticazione WLAN in o
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Numero utenti WLAN</p></th>
-<th><p>Nuove autenticazioni al secondo</p></th>
-<th><p>Numero massimo nuove autenticazioni al secondo</p></th>
-<th><p>Riautenticazioni al secondo</p></th>
+<th>Numero utenti WLAN</th>
+<th>Nuove autenticazioni al secondo</th>
+<th>Numero massimo nuove autenticazioni al secondo</th>
+<th>Riautenticazioni al secondo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>100</p></td>
-<td style="border:1px solid black;"><p>&gt; 0,1</p></td>
-<td style="border:1px solid black;"><p>0,1</p></td>
-<td style="border:1px solid black;"><p>0,1</p></td>
+<td style="border:1px solid black;">100</td>
+<td style="border:1px solid black;">&gt; 0,1</td>
+<td style="border:1px solid black;">0,1</td>
+<td style="border:1px solid black;">0,1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>1000</p></td>
-<td style="border:1px solid black;"><p>0,1</p></td>
-<td style="border:1px solid black;"><p>0,6</p></td>
-<td style="border:1px solid black;"><p>1,1</p></td>
+<td style="border:1px solid black;">1000</td>
+<td style="border:1px solid black;">0,1</td>
+<td style="border:1px solid black;">0,6</td>
+<td style="border:1px solid black;">1,1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>10.000</p></td>
-<td style="border:1px solid black;"><p>1,4</p></td>
-<td style="border:1px solid black;"><p>5,6</p></td>
-<td style="border:1px solid black;"><p>11,1</p></td>
+<td style="border:1px solid black;">10.000</td>
+<td style="border:1px solid black;">1,4</td>
+<td style="border:1px solid black;">5,6</td>
+<td style="border:1px solid black;">11,1</td>
 </tr>
 </tbody>
 </table>
@@ -894,7 +894,7 @@ I test sono stati condotti con la registrazione RADIUS attivata (in un disco div
   
 **Tabella 8.8: Valori campione della capacità del server IAS**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -902,22 +902,22 @@ I test sono stati condotti con la registrazione RADIUS attivata (in un disco div
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Tipo autenticazione</p></th>
-<th><p>Autenticazioni al secondo</p></th>
+<th>Tipo autenticazione</th>
+<th>Autenticazioni al secondo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nuove autenticazioni PEAP (Protected Extensible Authentication Protocol)</p></td>
-<td style="border:1px solid black;"><p>36</p></td>
+<td style="border:1px solid black;">Nuove autenticazioni PEAP (Protected Extensible Authentication Protocol)</td>
+<td style="border:1px solid black;">36</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nuove autenticazioni PEAP con scheda di supporto per la ripartizione del carico TLS/SSL</p></td>
-<td style="border:1px solid black;"><p>50</p></td>
+<td style="border:1px solid black;">Nuove autenticazioni PEAP con scheda di supporto per la ripartizione del carico TLS/SSL</td>
+<td style="border:1px solid black;">50</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autenticazioni con Riconnessione rapida</p></td>
-<td style="border:1px solid black;"><p>166</p></td>
+<td style="border:1px solid black;">Autenticazioni con Riconnessione rapida</td>
+<td style="border:1px solid black;">166</td>
 </tr>
 </tbody>
 </table>
@@ -960,7 +960,7 @@ Nella tabella seguente sono riportati i diversi tipi di problemi di connessione,
   
 **Tabella 8.9: Chi non riesce a connettersi alla rete LAN senza fili?**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -969,45 +969,45 @@ Nella tabella seguente sono riportati i diversi tipi di problemi di connessione,
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Sintomo</p></th>
-<th><p>Possibili problemi</p></th>
-<th><p>Procedure diagnostiche da seguire</p></th>
+<th>Sintomo</th>
+<th>Possibili problemi</th>
+<th>Procedure diagnostiche da seguire</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Un solo client</p></td>
-<td style="border:1px solid black;"><p>Configurazione del computer o account utente/computer.</p></td>
-<td style="border:1px solid black;"><p>Verificare l'account utente/computer</p>
-<p>Verificare il computer client</p></td>
+<td style="border:1px solid black;">Un solo client</td>
+<td style="border:1px solid black;">Configurazione del computer o account utente/computer.</td>
+<td style="border:1px solid black;">Verificare l'account utente/computer
+Verificare il computer client</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Diversi client di un sito</p></td>
-<td style="border:1px solid black;"><p>Configurazione errata di uno o più punti di accesso.</p></td>
-<td style="border:1px solid black;"><p>Controllare la configurazione dei punti di accesso senza fili</p></td>
+<td style="border:1px solid black;">Diversi client di un sito</td>
+<td style="border:1px solid black;">Configurazione errata di uno o più punti di accesso.</td>
+<td style="border:1px solid black;">Controllare la configurazione dei punti di accesso senza fili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Intero sito (IAS locale)</p></td>
-<td style="border:1px solid black;"><p>Errata configurazione o malfunzionamento del server IAS in loco; problemi di replica di Active Directory che impediscono al controller di dominio di ricevere le informazioni corrette; malfunzionamento del server IAS più problema a livello di connettività della rete WLAN.</p></td>
-<td style="border:1px solid black;"><p>Controllare Active Directory e i servizi di rete</p>
-<p>Controllare IAS</p>
-<p>Controllare la connettività WAN</p></td>
+<td style="border:1px solid black;">Intero sito (IAS locale)</td>
+<td style="border:1px solid black;">Errata configurazione o malfunzionamento del server IAS in loco; problemi di replica di Active Directory che impediscono al controller di dominio di ricevere le informazioni corrette; malfunzionamento del server IAS più problema a livello di connettività della rete WLAN.</td>
+<td style="border:1px solid black;">Controllare Active Directory e i servizi di rete
+Controllare IAS
+Controllare la connettività WAN</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Intero sito (IAS non in loco)</p></td>
-<td style="border:1px solid black;"><p>Problema di connettività della WLAN; problemi di replica di Active Directory (in presenza di controller di dominio locale).</p></td>
-<td style="border:1px solid black;"><p>Controllare la connettività WAN</p></td>
+<td style="border:1px solid black;">Intero sito (IAS non in loco)</td>
+<td style="border:1px solid black;">Problema di connettività della WLAN; problemi di replica di Active Directory (in presenza di controller di dominio locale).</td>
+<td style="border:1px solid black;">Controllare la connettività WAN</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tutti i client di tutti i siti</p></td>
-<td style="border:1px solid black;"><p>Configurazione a livello di organizzazione (oggetto Criteri di gruppo per le impostazioni dei client), gruppi dei criteri di accesso remoto, problemi di rinnovo dei certificati.</p></td>
-<td style="border:1px solid black;"><p>Controllare Active Directory e i servizi di rete (controlli &quot;Controllare l'oggetto Criteri di gruppo per le impostazioni della rete WLAN&quot; e &quot;Controllare i gruppi di Active Directory&quot;)</p>
-<p>Controllare la CA</p>
-<p>Controllare IAS</p></td>
+<td style="border:1px solid black;">Tutti i client di tutti i siti</td>
+<td style="border:1px solid black;">Configurazione a livello di organizzazione (oggetto Criteri di gruppo per le impostazioni dei client), gruppi dei criteri di accesso remoto, problemi di rinnovo dei certificati.</td>
+<td style="border:1px solid black;">Controllare Active Directory e i servizi di rete (controlli &quot;Controllare l'oggetto Criteri di gruppo per le impostazioni della rete WLAN&quot; e &quot;Controllare i gruppi di Active Directory&quot;)
+Controllare la CA
+Controllare IAS</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ##### Diagnostica dei problemi di prestazioni
 
@@ -1015,7 +1015,7 @@ In questa sezione vengono trattati i problemi di prestazioni associati all'infra
 
 **Tabella 8.10: Problemi di prestazioni**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1023,40 +1023,40 @@ In questa sezione vengono trattati i problemi di prestazioni associati all'infra
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Sintomo</p></th>
-<th><p>Soluzione possibile</p></th>
+<th>Sintomo</th>
+<th>Soluzione possibile</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ritardo di autenticazione che interessa molti utenti</p></td>
-<td style="border:1px solid black;"><p>Carico pesante del server IAS, controllare Performance Monitor.</p></td>
+<td style="border:1px solid black;">Ritardo di autenticazione che interessa molti utenti</td>
+<td style="border:1px solid black;">Carico pesante del server IAS, controllare Performance Monitor.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Autenticazione su un collegamento WLAN lento (anche se è presente un server IAS locale, controllare che non sia stato eseguito il failover dei punti di accesso sul server IAS remoto).</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Autenticazione su un collegamento WLAN lento (anche se è presente un server IAS locale, controllare che non sia stato eseguito il failover dei punti di accesso sul server IAS remoto).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>I ritardi di un server DHCP (Dynamic Host Configuration Protocol) nel rilascio di un indirizzo IP possono ripercuotersi sul tempo di connessione totale.</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">I ritardi di un server DHCP (Dynamic Host Configuration Protocol) nel rilascio di un indirizzo IP possono ripercuotersi sul tempo di connessione totale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ritardo di riautenticazione in caso di roaming tra punti di accesso</p></td>
-<td style="border:1px solid black;"><p>Un ritardo di pochi secondi è normale in caso di spostamento tra punti di accesso.</p></td>
+<td style="border:1px solid black;">Ritardo di riautenticazione in caso di roaming tra punti di accesso</td>
+<td style="border:1px solid black;">Un ritardo di pochi secondi è normale in caso di spostamento tra punti di accesso.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Se un client esce dalla portata di un punto di accesso (e questa condizione dura più di 10 secondi), possono trascorrere fino a 60 secondi prima che venga avviata la riautenticazione dopo che il client viene a trovarsi di nuovo a portata di un punto di accesso. Questo succede perché il client WLAN Windows, quando è disconnesso da una WLAN, esegue il polling delle WLAN ogni 60 secondi.</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Se un client esce dalla portata di un punto di accesso (e questa condizione dura più di 10 secondi), possono trascorrere fino a 60 secondi prima che venga avviata la riautenticazione dopo che il client viene a trovarsi di nuovo a portata di un punto di accesso. Questo succede perché il client WLAN Windows, quando è disconnesso da una WLAN, esegue il polling delle WLAN ogni 60 secondi.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Velocità effettiva della rete WLAN bassa</p></td>
-<td style="border:1px solid black;"><p>Questo sintomo può essere causato dal fatto che troppi client usano un numero eccessivamente ridotto di punti di accesso, dalla posizione non corretta dei punti di accesso, da un segnale radio debole a causa di ostruzioni o dalla distanza eccessiva.</p>
-<p>Tutti questi sono aspetti della progettazione della rete WLAN ed esulano dall'ambito di questa documentazione. Per informazioni, rivolgersi al proprio fornitore.</p>
-<p>Per ulteriori informazioni, vedere il capitolo &quot;Deploying a Wireless LAN&quot; di <em>Windows Server 2003 Deployment Kit</em> (in inglese).</p></td>
+<td style="border:1px solid black;">Velocità effettiva della rete WLAN bassa</td>
+<td style="border:1px solid black;">Questo sintomo può essere causato dal fatto che troppi client usano un numero eccessivamente ridotto di punti di accesso, dalla posizione non corretta dei punti di accesso, da un segnale radio debole a causa di ostruzioni o dalla distanza eccessiva.
+Tutti questi sono aspetti della progettazione della rete WLAN ed esulano dall'ambito di questa documentazione. Per informazioni, rivolgersi al proprio fornitore.
+Per ulteriori informazioni, vedere il capitolo &quot;Deploying a Wireless LAN&quot; di <em>Windows Server 2003 Deployment Kit</em> (in inglese).</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ##### Autenticazione dell'utente ed errore di autenticazione del computer
 
@@ -1112,7 +1112,7 @@ Nella seguente tabelle è elencata una serie di controlli da eseguire qualora si
 
 **Tabella 8.11: Controlli diagnostici per IAS**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1120,52 +1120,52 @@ Nella seguente tabelle è elencata una serie di controlli da eseguire qualora si
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Controllo</p></th>
-<th><p>Dettagli</p></th>
+<th>Controllo</th>
+<th>Dettagli</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IAS è in esecuzione</p></td>
-<td style="border:1px solid black;"><p>Aprire la MMC <strong>Gestione computer</strong> e passare a <strong>Servizi</strong>. Verificare che IAS sia in esecuzione.</p></td>
+<td style="border:1px solid black;">IAS è in esecuzione</td>
+<td style="border:1px solid black;">Aprire la MMC <strong>Gestione computer</strong> e passare a <strong>Servizi</strong>. Verificare che IAS sia in esecuzione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurazione di rete di base di IAS</p></td>
-<td style="border:1px solid black;"><p>Eseguire il comando <strong>netdiag</strong> per controllare se vi sono errori nella configurazione di rete del server IAS.</p></td>
+<td style="border:1px solid black;">Configurazione di rete di base di IAS</td>
+<td style="border:1px solid black;">Eseguire il comando <strong>netdiag</strong> per controllare se vi sono errori nella configurazione di rete del server IAS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Al server IAS è associato un certificato server corrente</p></td>
-<td style="border:1px solid black;"><p>Aprire la console MMC <strong>Certificati</strong> e osservare la cartella \Certificati (computer locale)\Personali\Certificati. Questa cartella dovrebbe contenere un certificato per il server con le seguenti caratteristiche:</p>
-<p>-La data corrente rientra nel periodo di validità del certificato.</p>
-<p>-Il nome alternativo soggetto corrisponde al nome DNS (Domain Name System) del server.</p>
-<p>-L'utilizzo avanzato chiavi deve contemplare l'autenticazione server</p>
-<p>-L'autorità emittente è attendibile (nella scheda <strong>Trust Path</strong>).</p>
-<p>-Il certificato non è stato revocato.</p>
-<p>Visualizzare le impostazioni del profilo del criterio di accesso remoto IAS, fare clic sulla scheda <strong>Autenticazione</strong> e visualizzare le impostazioni per 802.1X. Dovrebbe essere selezionato il certificato server sopra descritto.</p></td>
+<td style="border:1px solid black;">Al server IAS è associato un certificato server corrente</td>
+<td style="border:1px solid black;">Aprire la console MMC <strong>Certificati</strong> e osservare la cartella \Certificati (computer locale)\Personali\Certificati. Questa cartella dovrebbe contenere un certificato per il server con le seguenti caratteristiche:
+-La data corrente rientra nel periodo di validità del certificato.
+-Il nome alternativo soggetto corrisponde al nome DNS (Domain Name System) del server.
+-L'utilizzo avanzato chiavi deve contemplare l'autenticazione server
+-L'autorità emittente è attendibile (nella scheda <strong>Trust Path</strong>).
+-Il certificato non è stato revocato.
+Visualizzare le impostazioni del profilo del criterio di accesso remoto IAS, fare clic sulla scheda <strong>Autenticazione</strong> e visualizzare le impostazioni per 802.1X. Dovrebbe essere selezionato il certificato server sopra descritto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IAS appartiene al gruppo Server RAS e IAS nel dominio</p></td>
-<td style="border:1px solid black;"><p>Il server deve appartenere a questo gruppo (normalmente vi viene aggiunto quando IAS viene registrato in Active Directory).</p></td>
+<td style="border:1px solid black;">IAS appartiene al gruppo Server RAS e IAS nel dominio</td>
+<td style="border:1px solid black;">Il server deve appartenere a questo gruppo (normalmente vi viene aggiunto quando IAS viene registrato in Active Directory).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Criterio di accesso remoto IAS o criterio di richiesta di connessione non corretto</p></td>
-<td style="border:1px solid black;"><p>Verificare che le impostazioni del criterio (e il numero di versione, se è stato incluso) siano quelle attese. In caso di dubbi, distribuire di nuovo la configurazione dal server IAS &quot;master&quot;.</p></td>
+<td style="border:1px solid black;">Criterio di accesso remoto IAS o criterio di richiesta di connessione non corretto</td>
+<td style="border:1px solid black;">Verificare che le impostazioni del criterio (e il numero di versione, se è stato incluso) siano quelle attese. In caso di dubbi, distribuire di nuovo la configurazione dal server IAS &quot;master&quot;.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Visualizzare gli eventi di IAS nel registro eventi del sistema</p></td>
-<td style="border:1px solid black;"><p>Cercare gli eventi relativi a errori o avvisi di IAS nel registro eventi del sistema. Agli errori di autenticazione è associato un codice che indica la causa del problema.</p></td>
+<td style="border:1px solid black;">Visualizzare gli eventi di IAS nel registro eventi del sistema</td>
+<td style="border:1px solid black;">Cercare gli eventi relativi a errori o avvisi di IAS nel registro eventi del sistema. Agli errori di autenticazione è associato un codice che indica la causa del problema.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivazione dell'analisi sul server IAS</p></td>
-<td style="border:1px solid black;"><p>Vedere la procedura &quot;Attivazione e disattivazione dell'analisi sul server IAS&quot; nella sezione &quot;Tecniche e strumenti di risoluzione dei problemi&quot; più avanti in questo capitolo.</p></td>
+<td style="border:1px solid black;">Attivazione dell'analisi sul server IAS</td>
+<td style="border:1px solid black;">Vedere la procedura &quot;Attivazione e disattivazione dell'analisi sul server IAS&quot; nella sezione &quot;Tecniche e strumenti di risoluzione dei problemi&quot; più avanti in questo capitolo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Attivazione dell'analisi sul client</p></td>
-<td style="border:1px solid black;"><p>Vedere la procedura &quot;Attivazione e disattivazione dell'analisi sui computer client&quot; nella sezione &quot;Tecniche e strumenti di risoluzione dei problemi&quot; più avanti in questo capitolo.</p></td>
+<td style="border:1px solid black;">Attivazione dell'analisi sul client</td>
+<td style="border:1px solid black;">Vedere la procedura &quot;Attivazione e disattivazione dell'analisi sui computer client&quot; nella sezione &quot;Tecniche e strumenti di risoluzione dei problemi&quot; più avanti in questo capitolo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivazione della registrazione SChannel</p></td>
-<td style="border:1px solid black;"><p>Per diagnosticare i problemi relativi ai certificati e TLS, attivare la registrazione SChannel. Per ulteriori informazioni, vedere la procedura &quot;Attivazione della registrazione SChannel sul server IAS&quot; nella sezione &quot;Tecniche e strumenti di risoluzione dei problemi&quot; più avanti in questo capitolo. È possibile, inoltre, attivare la registrazione SChannel sul client per acquisire ulteriori informazioni diagnostiche sul lato client.</p></td>
+<td style="border:1px solid black;">Attivazione della registrazione SChannel</td>
+<td style="border:1px solid black;">Per diagnosticare i problemi relativi ai certificati e TLS, attivare la registrazione SChannel. Per ulteriori informazioni, vedere la procedura &quot;Attivazione della registrazione SChannel sul server IAS&quot; nella sezione &quot;Tecniche e strumenti di risoluzione dei problemi&quot; più avanti in questo capitolo. È possibile, inoltre, attivare la registrazione SChannel sul client per acquisire ulteriori informazioni diagnostiche sul lato client.</td>
 </tr>
 </tbody>
 </table>
@@ -1176,7 +1176,7 @@ Nella tabella seguente sono indicati i controlli che è possibile eseguire per d
   
 **Tabella 8.12: Controlli diagnostici per la CA**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1184,41 +1184,41 @@ Nella tabella seguente sono indicati i controlli che è possibile eseguire per d
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Controllo</p></th>
-<th><p>Dettagli</p></th>
+<th>Controllo</th>
+<th>Dettagli</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi certificati è in esecuzione</p></td>
-<td style="border:1px solid black;"><p>Aprire la MMC <strong>Gestione computer</strong> e passare a <strong>Servizi</strong>. Verificare che Servizi certificati sia in esecuzione.</p></td>
+<td style="border:1px solid black;">Servizi certificati è in esecuzione</td>
+<td style="border:1px solid black;">Aprire la MMC <strong>Gestione computer</strong> e passare a <strong>Servizi</strong>. Verificare che Servizi certificati sia in esecuzione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>In presenza di errori di TLS (evidenziati nel registro di analisi di RASTLS o dalla registrazione SChannel) oppure se la CA non emette certificati, controllare l'elenco CRL.</p></td>
-<td style="border:1px solid black;"><p>Eseguire il comando <strong>msstools CheckCA</strong> sulla CA per controllare che sia pubblicato e accessibile un elenco CRL corrente.</p>
-<p>In caso di problemi in server IAS particolari (o in siti particolari), procurarsi lo strumento Integrità PKI (disponibile nel <em>Windows Server 2003 Resource Kit</em>). Si tratta di uno strumento MMC che mostra se il server ha problemi ad accedere a un elenco CRL o a un certificato della CA corrente.</p></td>
+<td style="border:1px solid black;">In presenza di errori di TLS (evidenziati nel registro di analisi di RASTLS o dalla registrazione SChannel) oppure se la CA non emette certificati, controllare l'elenco CRL.</td>
+<td style="border:1px solid black;">Eseguire il comando <strong>msstools CheckCA</strong> sulla CA per controllare che sia pubblicato e accessibile un elenco CRL corrente.
+In caso di problemi in server IAS particolari (o in siti particolari), procurarsi lo strumento Integrità PKI (disponibile nel <em>Windows Server 2003 Resource Kit</em>). Si tratta di uno strumento MMC che mostra se il server ha problemi ad accedere a un elenco CRL o a un certificato della CA corrente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Se non sono stati registrati o rinnovati certificati, controllare l'oggetto Criteri di gruppo per la registrazione automatica dei certificati.</p></td>
-<td style="border:1px solid black;"><p>-Controllare che l'oggetto Criteri di gruppo per la registrazione automatica sia collegato alla posizione corretta (di norma il dominio).</p>
-<p>-Controllare che per l'oggetto Criteri di gruppo sia impostato il modello &quot;Computer&quot; come tipo di certificato da registrare (in Configurazione computer\Impostazioni di Windows\Impostazioni protezione\Criteri chiave pubblica\Impostazioni richiesta automatica certificati<strong>)</strong>.</p>
-<p>-Controllare che il gruppo Server RAS e IAS abbia le autorizzazioni per l'<strong>applicazione dei criteri e la lettura</strong> per l'oggetto Criteri di gruppo e controllare che non vengano annullate da eventuali autorizzazioni di tipo Nega (ad esempio Utenti autenticati-Nega lettura).</p></td>
+<td style="border:1px solid black;">Se non sono stati registrati o rinnovati certificati, controllare l'oggetto Criteri di gruppo per la registrazione automatica dei certificati.</td>
+<td style="border:1px solid black;">-Controllare che l'oggetto Criteri di gruppo per la registrazione automatica sia collegato alla posizione corretta (di norma il dominio).
+-Controllare che per l'oggetto Criteri di gruppo sia impostato il modello &quot;Computer&quot; come tipo di certificato da registrare (in Configurazione computer\Impostazioni di Windows\Impostazioni protezione\Criteri chiave pubblica\Impostazioni richiesta automatica certificati<strong>)</strong>.
+-Controllare che il gruppo Server RAS e IAS abbia le autorizzazioni per l'<strong>applicazione dei criteri e la lettura</strong> per l'oggetto Criteri di gruppo e controllare che non vengano annullate da eventuali autorizzazioni di tipo Nega (ad esempio Utenti autenticati-Nega lettura).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Modelli di certificato</p></td>
-<td style="border:1px solid black;"><p>Il modello Computer deve essere assegnato alla CA (osservare la cartella Modelli nella console MMC <strong>Autorità di certificazione</strong>).</p>
-<p>Il modello Computer deve avere l'<strong>autorizzazione Registra per il gruppo Server RAS e IAS</strong> (controllare che questa autorizzazione non venga annullata da autorizzazioni di tipo Nega).</p></td>
+<td style="border:1px solid black;">Modelli di certificato</td>
+<td style="border:1px solid black;">Il modello Computer deve essere assegnato alla CA (osservare la cartella Modelli nella console MMC <strong>Autorità di certificazione</strong>).
+Il modello Computer deve avere l'<strong>autorizzazione Registra per il gruppo Server RAS e IAS</strong> (controllare che questa autorizzazione non venga annullata da autorizzazioni di tipo Nega).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Interfaccia DCOM CA in remoto</p></td>
-<td style="border:1px solid black;"><p>Eseguire il seguente comando da un server IAS remoto per controllare che DCOM/RPC funzioni tra il server e la CA:</p>
-<p><strong>certutil -ping-config</strong> <em>NomeHostCA</em><strong>\</strong><em>NomeCA</em></p>
-<p>dove <em>NomeHostCA</em> è il nome computer del server della CA e</p>
-<p><em>NomeCA</em> è il nome descrittivo assegnato alla CA in fase di installazione (è il nome che compare accanto a <strong>Rilasciato da</strong> nella scheda <strong>Generale</strong> dei certificati rilasciati da questa CA).</p></td>
+<td style="border:1px solid black;">Interfaccia DCOM CA in remoto</td>
+<td style="border:1px solid black;">Eseguire il seguente comando da un server IAS remoto per controllare che DCOM/RPC funzioni tra il server e la CA:
+<strong>certutil -ping-config</strong> <em>NomeHostCA</em><strong>\</strong><em>NomeCA</em>
+dove <em>NomeHostCA</em> è il nome computer del server della CA e
+<em>NomeCA</em> è il nome descrittivo assegnato alla CA in fase di installazione (è il nome che compare accanto a <strong>Rilasciato da</strong> nella scheda <strong>Generale</strong> dei certificati rilasciati da questa CA).</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ###### Controllare Active Directory e i servizi di rete
 
@@ -1226,7 +1226,7 @@ Nella tabella seguente sono elencati i controlli da eseguire su Active Directory
 
 **Tabella 8.13: Controlli diagnostici per Active Directory**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1234,30 +1234,30 @@ Nella tabella seguente sono elencati i controlli da eseguire su Active Directory
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Controllo</p></th>
-<th><p>Dettagli</p></th>
+<th>Controllo</th>
+<th>Dettagli</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controllare le comunicazioni con Active Directory da IAS</p></td>
-<td style="border:1px solid black;"><p>Eseguire il comando <strong>netdiag /test:ldap /test:trust</strong> nel server IAS. Questo comando consente anche di verificare se vi sono problemi a livello di DNS.</p></td>
+<td style="border:1px solid black;">Controllare le comunicazioni con Active Directory da IAS</td>
+<td style="border:1px solid black;">Eseguire il comando <strong>netdiag /test:ldap /test:trust</strong> nel server IAS. Questo comando consente anche di verificare se vi sono problemi a livello di DNS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllare i gruppi di protezione della rete WLAN</p></td>
-<td style="border:1px solid black;"><p>Controllare i membri dei gruppi di protezione utilizzati in questa soluzione per controllare l'accesso alla rete WLAN. I membri predefiniti sono indicati nella sezione &quot;Creazione di gruppi di protezione&quot; del capitolo 3 &quot;Predisposizione dell'ambiente&quot;.</p></td>
+<td style="border:1px solid black;">Controllare i gruppi di protezione della rete WLAN</td>
+<td style="border:1px solid black;">Controllare i membri dei gruppi di protezione utilizzati in questa soluzione per controllare l'accesso alla rete WLAN. I membri predefiniti sono indicati nella sezione &quot;Creazione di gruppi di protezione&quot; del capitolo 3 &quot;Predisposizione dell'ambiente&quot;.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controllare l'oggetto Criteri di gruppo delle impostazioni WLAN per i client</p></td>
-<td style="border:1px solid black;"><p>Controllare che le impostazioni dell'oggetto Criteri di gruppo per le impostazioni WLAN siano corrette, che l'oggetto sia collegato all'unità operativa o al dominio corretto e che vi siano state applicate le autorizzazioni corrette. (Vedere la sezione &quot;Creating the WLAN Settings GPO&quot; del capitolo 6 &quot;Configurazione dei client delle reti LAN senza fili&quot;.)</p></td>
+<td style="border:1px solid black;">Controllare l'oggetto Criteri di gruppo delle impostazioni WLAN per i client</td>
+<td style="border:1px solid black;">Controllare che le impostazioni dell'oggetto Criteri di gruppo per le impostazioni WLAN siano corrette, che l'oggetto sia collegato all'unità operativa o al dominio corretto e che vi siano state applicate le autorizzazioni corrette. (Vedere la sezione &quot;Creating the WLAN Settings GPO&quot; del capitolo 6 &quot;Configurazione dei client delle reti LAN senza fili&quot;.)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllare che la replica di Active Directory funzioni in modo corretto</p></td>
-<td style="border:1px solid black;"><p>Eseguire il comando <strong>dcdiag /test:replications</strong> dal server IAS in cui si verificano i problemi. (Anche se IAS non viene eseguito in un controller di dominio, lo strumento dcdiag è in grado di controllare il controller di dominio utilizzato da tale istanza di IAS.)</p></td>
+<td style="border:1px solid black;">Controllare che la replica di Active Directory funzioni in modo corretto</td>
+<td style="border:1px solid black;">Eseguire il comando <strong>dcdiag /test:replications</strong> dal server IAS in cui si verificano i problemi. (Anche se IAS non viene eseguito in un controller di dominio, lo strumento dcdiag è in grado di controllare il controller di dominio utilizzato da tale istanza di IAS.)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controllare il server DHCP</p></td>
-<td style="border:1px solid black;"><p>Controllare che il server DHCP sia in esecuzione, che per i client della rete WLAN sia stato creato un ambito valido e che sia attivo e che vi sia connettività tra i punti di accesso senza fili e il server DHCP (più precisamente, deve esserci connettività tra la rete locale virtuale (VLAN) predefinita dei punti di accesso e il server DHCP, in modo che i client della rete WLAN possano acquisire un lease IP).</p></td>
+<td style="border:1px solid black;">Controllare il server DHCP</td>
+<td style="border:1px solid black;">Controllare che il server DHCP sia in esecuzione, che per i client della rete WLAN sia stato creato un ambito valido e che sia attivo e che vi sia connettività tra i punti di accesso senza fili e il server DHCP (più precisamente, deve esserci connettività tra la rete locale virtuale (VLAN) predefinita dei punti di accesso e il server DHCP, in modo che i client della rete WLAN possano acquisire un lease IP).</td>
 </tr>
 </tbody>
 </table>
@@ -1268,7 +1268,7 @@ Nella tabella seguente sono elencati i controlli da eseguire sui punti di access
   
 **Tabella 8.14: Controlli diagnostici per i punti di accesso senza fili**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1276,34 +1276,34 @@ Nella tabella seguente sono elencati i controlli da eseguire sui punti di access
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Controllo</p></th>
-<th><p>Dettagli</p></th>
+<th>Controllo</th>
+<th>Dettagli</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controllare la configurazione IP dei punti di accesso e la connettività con IAS</p></td>
-<td style="border:1px solid black;"><p>Molti punti di accesso dispongono di una funzionalità per il testing della connettività (ad esempio ping). Provare a effettuare il ping dei server IAS primario e secondario (oppure effettuare il ping del punto di accesso dai server IAS primario e secondario).</p></td>
+<td style="border:1px solid black;">Controllare la configurazione IP dei punti di accesso e la connettività con IAS</td>
+<td style="border:1px solid black;">Molti punti di accesso dispongono di una funzionalità per il testing della connettività (ad esempio ping). Provare a effettuare il ping dei server IAS primario e secondario (oppure effettuare il ping del punto di accesso dai server IAS primario e secondario).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllare le impostazioni RADIUS del punto di accesso</p></td>
-<td style="border:1px solid black;"><p>Controllare l'indirizzo IP e le impostazioni delle porte configurate nel punto di accesso per i server RADIUS primario e secondario. Verificare che corrispondano alla configurazione nei server IAS.</p></td>
+<td style="border:1px solid black;">Controllare le impostazioni RADIUS del punto di accesso</td>
+<td style="border:1px solid black;">Controllare l'indirizzo IP e le impostazioni delle porte configurate nel punto di accesso per i server RADIUS primario e secondario. Verificare che corrispondano alla configurazione nei server IAS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controllare la voce del client RADIUS nel server o nei server IAS</p></td>
-<td style="border:1px solid black;"><p>Verificare che per il punto di accesso in questione esista una voce client RADIUS nei server IAS primario e secondario. IAS registra un errore nel registro di sistema se riceve una richiesta RADIUS da un dispositivo che non è configurato come client.</p></td>
+<td style="border:1px solid black;">Controllare la voce del client RADIUS nel server o nei server IAS</td>
+<td style="border:1px solid black;">Verificare che per il punto di accesso in questione esista una voce client RADIUS nei server IAS primario e secondario. IAS registra un errore nel registro di sistema se riceve una richiesta RADIUS da un dispositivo che non è configurato come client.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllare il segreto del client RADIUS</p></td>
-<td style="border:1px solid black;"><p>Può essere difficile verificare a vista il segreto del client RADIUS, perché talvolta non è possibile visualizzarlo dopo che è stato immesso nel punto di accesso. Se il valore configurato nella voce del client RADIUS nel server IAS è diverso da quello configurato nel punto di accesso, IAS registra un errore nel registro eventi di sistema.</p></td>
+<td style="border:1px solid black;">Controllare il segreto del client RADIUS</td>
+<td style="border:1px solid black;">Può essere difficile verificare a vista il segreto del client RADIUS, perché talvolta non è possibile visualizzarlo dopo che è stato immesso nel punto di accesso. Se il valore configurato nella voce del client RADIUS nel server IAS è diverso da quello configurato nel punto di accesso, IAS registra un errore nel registro eventi di sistema.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controllare la revisione firmware del punto di accesso</p></td>
-<td style="border:1px solid black;"><p>Verificare che il firmware del punto di accesso sia aggiornato. Controllare se sono disponibili aggiornamenti nel sito Web.</p></td>
+<td style="border:1px solid black;">Controllare la revisione firmware del punto di accesso</td>
+<td style="border:1px solid black;">Verificare che il firmware del punto di accesso sia aggiornato. Controllare se sono disponibili aggiornamenti nel sito Web.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllare il server DHCP</p></td>
-<td style="border:1px solid black;"><p>Controllare che il server DHCP sia in esecuzione, che per i client della rete WLAN sia stato creato un ambito valido e che sia attivo e che vi sia connettività tra i punti di accesso senza fili e il server DHCP (più precisamente, deve esserci connettività tra la VLAN predefinita dei punti di accesso e il server DHCP in modo che i client della rete WLAN possano acquisire un lease IP).</p></td>
+<td style="border:1px solid black;">Controllare il server DHCP</td>
+<td style="border:1px solid black;">Controllare che il server DHCP sia in esecuzione, che per i client della rete WLAN sia stato creato un ambito valido e che sia attivo e che vi sia connettività tra i punti di accesso senza fili e il server DHCP (più precisamente, deve esserci connettività tra la VLAN predefinita dei punti di accesso e il server DHCP in modo che i client della rete WLAN possano acquisire un lease IP).</td>
 </tr>
 </tbody>
 </table>
@@ -1314,7 +1314,7 @@ I problemi delle reti WLAN possono essere causati da problemi di connettività t
   
 **Tabella 8.15: Controlli diagnostici per la rete WAN**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1322,23 +1322,23 @@ I problemi delle reti WLAN possono essere causati da problemi di connettività t
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Controllo</p></th>
-<th><p>Dettagli</p></th>
+<th>Controllo</th>
+<th>Dettagli</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autenticazione dei punti di accesso senza fili su server IAS remoti</p></td>
-<td style="border:1px solid black;"><p>Testare la connettività tra il punto di accesso e i server IAS primario e secondario. Nella maggior parte dei punti di accesso è disponibile un semplice comando <strong>ping</strong> o <strong>traceroute</strong>.</p>
-<p>In presenza di firewall o router che filtrano il traffico tra i siti in questione, è necessario verificare che il traffico per l'accounting e l'autenticazione RADIUS sia autorizzato (richieste più risposte sulle porte UDP (User Datagram Protocol) 1812 e 1813).</p></td>
+<td style="border:1px solid black;">Autenticazione dei punti di accesso senza fili su server IAS remoti</td>
+<td style="border:1px solid black;">Testare la connettività tra il punto di accesso e i server IAS primario e secondario. Nella maggior parte dei punti di accesso è disponibile un semplice comando <strong>ping</strong> o <strong>traceroute</strong>.
+In presenza di firewall o router che filtrano il traffico tra i siti in questione, è necessario verificare che il traffico per l'accounting e l'autenticazione RADIUS sia autorizzato (richieste più risposte sulle porte UDP (User Datagram Protocol) 1812 e 1813).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controller di dominio che replicano su una rete WAN</p></td>
-<td style="border:1px solid black;"><p>Possono verificarsi problemi di replica tra i controller di dominio anche in presenza della connettività IP di base. Una latenza eccessiva può causare problemi a livello di comunicazioni RPC tra i controller di dominio. Verificare questa ipotesi utilizzando lo strumento dcdiag come descritto nella sezione &quot;Controllare Active Directory e i servizi di rete&quot; più indietro in questo capitolo.</p></td>
+<td style="border:1px solid black;">Controller di dominio che replicano su una rete WAN</td>
+<td style="border:1px solid black;">Possono verificarsi problemi di replica tra i controller di dominio anche in presenza della connettività IP di base. Una latenza eccessiva può causare problemi a livello di comunicazioni RPC tra i controller di dominio. Verificare questa ipotesi utilizzando lo strumento dcdiag come descritto nella sezione &quot;Controllare Active Directory e i servizi di rete&quot; più indietro in questo capitolo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Client della rete WLAN e server DHCP</p></td>
-<td style="border:1px solid black;"><p>Se il server DHCP non si trova nella stessa rete LAN dei punti di accesso e dei client della WLAN autenticati, è necessario configurare un agente di inoltro BOOTP/DHCP per l'inoltro delle richieste al server DHCP corretto sulla rete remota.</p></td>
+<td style="border:1px solid black;">Client della rete WLAN e server DHCP</td>
+<td style="border:1px solid black;">Se il server DHCP non si trova nella stessa rete LAN dei punti di accesso e dei client della WLAN autenticati, è necessario configurare un agente di inoltro BOOTP/DHCP per l'inoltro delle richieste al server DHCP corretto sulla rete remota.</td>
 </tr>
 </tbody>
 </table>
@@ -1363,7 +1363,7 @@ Osservare questi eventi può essere utile per risolvere i problemi di autenticaz
   
 **Tabella 8.16: Eventi IAS per le richieste di autenticazione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -1374,34 +1374,34 @@ Osservare questi eventi può essere utile per risolvere i problemi di autenticaz
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Evento IAS</p></th>
-<th><p>Significato</p></th>
-<th><p>Categoria evento</p></th>
-<th><p>Origine evento</p></th>
-<th><p>ID evento</p></th>
+<th>Evento IAS</th>
+<th>Significato</th>
+<th>Categoria evento</th>
+<th>Origine evento</th>
+<th>ID evento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Accesso concesso</p></td>
-<td style="border:1px solid black;"><p>Un utente o un computer è stato autenticato ed è stato concesso l'accesso alla rete WLAN.</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>IAS</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Accesso concesso</td>
+<td style="border:1px solid black;">Un utente o un computer è stato autenticato ed è stato concesso l'accesso alla rete WLAN.</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">IAS</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Accesso negato</p></td>
-<td style="border:1px solid black;"><p>Un tentativo di accesso è stato respinto (il motivo è indicato nel testo dell'evento).</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>IAS</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
+<td style="border:1px solid black;">Accesso negato</td>
+<td style="border:1px solid black;">Un tentativo di accesso è stato respinto (il motivo è indicato nel testo dell'evento).</td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">IAS</td>
+<td style="border:1px solid black;">2</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rifiutata</p></td>
-<td style="border:1px solid black;"><p>La richiesta di accesso è stata rifiutata perché scaduta.</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
-<td style="border:1px solid black;"><p>IAS</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Rifiutata</td>
+<td style="border:1px solid black;">La richiesta di accesso è stata rifiutata perché scaduta.</td>
+<td style="border:1px solid black;">Errore</td>
+<td style="border:1px solid black;">IAS</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 </tbody>
 </table>
@@ -1424,7 +1424,7 @@ Se l'autenticazione non va a buon fine, spesso è possibile risalire al problema
   
 **Tabella 8.17: Codici dei motivi negli eventi IAS relativi alle richieste di autenticazione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1432,130 +1432,130 @@ Se l'autenticazione non va a buon fine, spesso è possibile risalire al problema
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Codice motivo</p></th>
-<th><p>Descrizione</p></th>
+<th>Codice motivo</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>00</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
+<td style="border:1px solid black;">00</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>01</p></td>
-<td style="border:1px solid black;"><p>Errore interno</p></td>
+<td style="border:1px solid black;">01</td>
+<td style="border:1px solid black;">Errore interno</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>02</p></td>
-<td style="border:1px solid black;"><p>Accesso negato</p></td>
+<td style="border:1px solid black;">02</td>
+<td style="border:1px solid black;">Accesso negato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>03</p></td>
-<td style="border:1px solid black;"><p>Richiesta non corretta</p></td>
+<td style="border:1px solid black;">03</td>
+<td style="border:1px solid black;">Richiesta non corretta</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>04</p></td>
-<td style="border:1px solid black;"><p>Catalogo globale non disponibile</p></td>
+<td style="border:1px solid black;">04</td>
+<td style="border:1px solid black;">Catalogo globale non disponibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>05</p></td>
-<td style="border:1px solid black;"><p>Dominio non disponibile</p></td>
+<td style="border:1px solid black;">05</td>
+<td style="border:1px solid black;">Dominio non disponibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>06</p></td>
-<td style="border:1px solid black;"><p>Server non disponibile</p></td>
+<td style="border:1px solid black;">06</td>
+<td style="border:1px solid black;">Server non disponibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>07</p></td>
-<td style="border:1px solid black;"><p>Dominio specificato inesistente</p></td>
+<td style="border:1px solid black;">07</td>
+<td style="border:1px solid black;">Dominio specificato inesistente</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>08</p></td>
-<td style="border:1px solid black;"><p>Utente specificato inesistente</p></td>
+<td style="border:1px solid black;">08</td>
+<td style="border:1px solid black;">Utente specificato inesistente</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>16</p></td>
-<td style="border:1px solid black;"><p>Errore di autenticazione</p></td>
+<td style="border:1px solid black;">16</td>
+<td style="border:1px solid black;">Errore di autenticazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>17</p></td>
-<td style="border:1px solid black;"><p>Errore di modifica della password</p></td>
+<td style="border:1px solid black;">17</td>
+<td style="border:1px solid black;">Errore di modifica della password</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>18</p></td>
-<td style="border:1px solid black;"><p>Tipo di autenticazione non supportato</p></td>
+<td style="border:1px solid black;">18</td>
+<td style="border:1px solid black;">Tipo di autenticazione non supportato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>32</p></td>
-<td style="border:1px solid black;"><p>Solo utenti locali</p></td>
+<td style="border:1px solid black;">32</td>
+<td style="border:1px solid black;">Solo utenti locali</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>33</p></td>
-<td style="border:1px solid black;"><p>La password deve essere cambiata</p></td>
+<td style="border:1px solid black;">33</td>
+<td style="border:1px solid black;">La password deve essere cambiata</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>34</p></td>
-<td style="border:1px solid black;"><p>Account disattivato</p></td>
+<td style="border:1px solid black;">34</td>
+<td style="border:1px solid black;">Account disattivato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>35</p></td>
-<td style="border:1px solid black;"><p>Account scaduto</p></td>
+<td style="border:1px solid black;">35</td>
+<td style="border:1px solid black;">Account scaduto</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>36</p></td>
-<td style="border:1px solid black;"><p>Account bloccato</p></td>
+<td style="border:1px solid black;">36</td>
+<td style="border:1px solid black;">Account bloccato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>37</p></td>
-<td style="border:1px solid black;"><p>Orari di accesso non validi</p></td>
+<td style="border:1px solid black;">37</td>
+<td style="border:1px solid black;">Orari di accesso non validi</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>38</p></td>
-<td style="border:1px solid black;"><p>Restrizione account</p></td>
+<td style="border:1px solid black;">38</td>
+<td style="border:1px solid black;">Restrizione account</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>48</p></td>
-<td style="border:1px solid black;"><p>Mancata corrispondenza con il criterio</p></td>
+<td style="border:1px solid black;">48</td>
+<td style="border:1px solid black;">Mancata corrispondenza con il criterio</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>64</p></td>
-<td style="border:1px solid black;"><p>Chiamate in ingresso bloccate</p></td>
+<td style="border:1px solid black;">64</td>
+<td style="border:1px solid black;">Chiamate in ingresso bloccate</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>65</p></td>
-<td style="border:1px solid black;"><p>Chiamate in ingresso disattivate</p></td>
+<td style="border:1px solid black;">65</td>
+<td style="border:1px solid black;">Chiamate in ingresso disattivate</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>66</p></td>
-<td style="border:1px solid black;"><p>Tipo di autenticazione non valido</p></td>
+<td style="border:1px solid black;">66</td>
+<td style="border:1px solid black;">Tipo di autenticazione non valido</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>67</p></td>
-<td style="border:1px solid black;"><p>Stazione chiamante non valida</p></td>
+<td style="border:1px solid black;">67</td>
+<td style="border:1px solid black;">Stazione chiamante non valida</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>68</p></td>
-<td style="border:1px solid black;"><p>Orari chiamate in ingresso non validi</p></td>
+<td style="border:1px solid black;">68</td>
+<td style="border:1px solid black;">Orari chiamate in ingresso non validi</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>69</p></td>
-<td style="border:1px solid black;"><p>Stazione chiamata non valida</p></td>
+<td style="border:1px solid black;">69</td>
+<td style="border:1px solid black;">Stazione chiamata non valida</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>70</p></td>
-<td style="border:1px solid black;"><p>Tipo di porta non valido</p></td>
+<td style="border:1px solid black;">70</td>
+<td style="border:1px solid black;">Tipo di porta non valido</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>71</p></td>
-<td style="border:1px solid black;"><p>Restrizione non valida</p></td>
+<td style="border:1px solid black;">71</td>
+<td style="border:1px solid black;">Restrizione non valida</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>Nessun record</p></td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">Nessun record</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>96</p></td>
-<td style="border:1px solid black;"><p>Timeout sessione</p></td>
+<td style="border:1px solid black;">96</td>
+<td style="border:1px solid black;">Timeout sessione</td>
 </tr>
 </tbody>
 </table>

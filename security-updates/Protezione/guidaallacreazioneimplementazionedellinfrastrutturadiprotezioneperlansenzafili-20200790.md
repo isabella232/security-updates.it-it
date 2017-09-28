@@ -119,7 +119,7 @@ La tabella che segue elenca dei parametri specifici dell'azienda fittizia Woodgr
 
 **Tabella 9.1. Elementi di configurazione definiti dagli utenti**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -127,30 +127,30 @@ La tabella che segue elenca dei parametri specifici dell'azienda fittizia Woodgr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome di dominio DNS per la radice di strutture Active Directory</p></td>
-<td style="border:1px solid black;"><p><em>woodgrovebank.com</em></p></td>
+<td style="border:1px solid black;">Nome di dominio DNS per la radice di strutture Active Directory</td>
+<td style="border:1px solid black;"><em>woodgrovebank.com</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome NetBIOS del dominio</p></td>
-<td style="border:1px solid black;"><p><em>WOODGROVEBANK</em></p></td>
+<td style="border:1px solid black;">Nome NetBIOS del dominio</td>
+<td style="border:1px solid black;"><em>WOODGROVEBANK</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome del server IAS primario</p></td>
-<td style="border:1px solid black;"><p><em>HQ- IAS - 01</em></p></td>
+<td style="border:1px solid black;">Nome del server IAS primario</td>
+<td style="border:1px solid black;"><em>HQ- IAS - 01</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome del server IAS secondario</p></td>
-<td style="border:1px solid black;"><p><em>HQ - IAS - 02</em></p></td>
+<td style="border:1px solid black;">Nome del server IAS secondario</td>
+<td style="border:1px solid black;"><em>HQ - IAS - 02</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome del server IAS opzionale delle filiali</p></td>
-<td style="border:1px solid black;"><p><em>BO - IAS - 03</em></p></td>
+<td style="border:1px solid black;">Nome del server IAS opzionale delle filiali</td>
+<td style="border:1px solid black;"><em>BO - IAS - 03</em></td>
 </tr>
 </tbody>
 </table>
@@ -161,7 +161,7 @@ Le impostazioni specificate in questa tabella non devono essere modificate, a me
   
 **Tabella 9.2. Elementi di configurazione indicati dalla soluzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -169,102 +169,102 @@ Le impostazioni specificate in questa tabella non devono essere modificate, a me
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Active Directory che controlla la distribuzione dei certificati di autenticazione utenti 802.1X</p></td>
-<td style="border:1px solid black;"><p>Registrazione automatica autenticazione client - Certificato utente</p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Active Directory che controlla la distribuzione dei certificati di autenticazione utenti 802.1X</td>
+<td style="border:1px solid black;">Registrazione automatica autenticazione client - Certificato utente</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Nome precedente a Windows 2000 del gruppo globale di Active Directory che controlla la distribuzione dei certificati di autenticazione utenti 802.1X</p></td>
-<td style="border:1px solid black;"><p>Registrazione automatica autenticazione client - Certificato utente</p></td>
+<td style="border:1px solid black;">[Account] Nome precedente a Windows 2000 del gruppo globale di Active Directory che controlla la distribuzione dei certificati di autenticazione utenti 802.1X</td>
+<td style="border:1px solid black;">Registrazione automatica autenticazione client - Certificato utente</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Active Directory che controlla la distribuzione dei certificati di autenticazione computer 802.1X</p></td>
-<td style="border:1px solid black;"><p>Registrazione automatica autenticazione client - Certificato computer</p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Active Directory che controlla la distribuzione dei certificati di autenticazione computer 802.1X</td>
+<td style="border:1px solid black;">Registrazione automatica autenticazione client - Certificato computer</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Nome precedente a Windows 2000 del gruppo globale di Active Directory che controlla la distribuzione dei certificati di autenticazione computer 802.1X</p></td>
-<td style="border:1px solid black;"><p>Registrazione automatica autenticazione client - Certificato computer</p></td>
+<td style="border:1px solid black;">[Account] Nome precedente a Windows 2000 del gruppo globale di Active Directory che controlla la distribuzione dei certificati di autenticazione computer 802.1X</td>
+<td style="border:1px solid black;">Registrazione automatica autenticazione client - Certificato computer</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Active Directory in cui sono inclusi server IAS che richiedono certificati di autenticazione 802.1X</p></td>
-<td style="border:1px solid black;"><p>Registrazione automatica certificato di autenticazione server RAS e IAS</p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Active Directory in cui sono inclusi server IAS che richiedono certificati di autenticazione 802.1X</td>
+<td style="border:1px solid black;">Registrazione automatica certificato di autenticazione server RAS e IAS</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Nome precedente a Windows 2000 per il gruppo globale di Active Directory in cui sono inclusi server IAS che richiedono certificati di autenticazione 802.1X</p></td>
-<td style="border:1px solid black;"><p>Registrazione automatica certificato di autenticazione server RAS e IAS</p></td>
+<td style="border:1px solid black;">[Account] Nome precedente a Windows 2000 per il gruppo globale di Active Directory in cui sono inclusi server IAS che richiedono certificati di autenticazione 802.1X</td>
+<td style="border:1px solid black;">Registrazione automatica certificato di autenticazione server RAS e IAS</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Active Directory in cui sono inclusi gli utenti a cui è concesso l'accesso alla rete senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di accesso remoto - Utenti senza fili</p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Active Directory in cui sono inclusi gli utenti a cui è concesso l'accesso alla rete senza fili</td>
+<td style="border:1px solid black;">Criteri di accesso remoto - Utenti senza fili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Nome precedente a Windows 2000 del gruppo globale di Active Directory in cui sono inclusi gli utenti a cui è concesso l'accesso alla rete senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di accesso remoto - Utenti senza fili</p></td>
+<td style="border:1px solid black;">[Account] Nome precedente a Windows 2000 del gruppo globale di Active Directory in cui sono inclusi gli utenti a cui è concesso l'accesso alla rete senza fili</td>
+<td style="border:1px solid black;">Criteri di accesso remoto - Utenti senza fili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Active Directory in cui sono inclusi i computer a cui è concesso l'accesso alla rete senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di accesso remoto - Computer senza fili</p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Active Directory in cui sono inclusi i computer a cui è concesso l'accesso alla rete senza fili</td>
+<td style="border:1px solid black;">Criteri di accesso remoto - Computer senza fili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Active Directory in cui sono inclusi i computer a cui è concesso l'accesso alla rete senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di accesso remoto - Computer senza fili</p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Active Directory in cui sono inclusi i computer a cui è concesso l'accesso alla rete senza fili</td>
+<td style="border:1px solid black;">Criteri di accesso remoto - Computer senza fili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Gruppo universale di Active Directory in cui sono inclusi il gruppo Utenti senza fili e il gruppo Computer senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di accesso remoto - Accesso senza fili</p></td>
+<td style="border:1px solid black;">[Account] Gruppo universale di Active Directory in cui sono inclusi il gruppo Utenti senza fili e il gruppo Computer senza fili</td>
+<td style="border:1px solid black;">Criteri di accesso remoto - Accesso senza fili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Gruppo universale di Active Directory in cui sono inclusi il gruppo Utenti senza fili e il gruppo Computer senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di accesso remoto - Accesso senza fili</p></td>
+<td style="border:1px solid black;">[Account] Gruppo universale di Active Directory in cui sono inclusi il gruppo Utenti senza fili e il gruppo Computer senza fili</td>
+<td style="border:1px solid black;">Criteri di accesso remoto - Accesso senza fili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Active Directory in cui sono inclusi i computer che richiedono la configurazione di proprietà di rete senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di rete senza fili - Computer</p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Active Directory in cui sono inclusi i computer che richiedono la configurazione di proprietà di rete senza fili</td>
+<td style="border:1px solid black;">Criteri di rete senza fili - Computer</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Active Directory in cui sono inclusi i computer che richiedono la configurazione di proprietà di rete senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di rete senza fili - Computer</p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Active Directory in cui sono inclusi i computer che richiedono la configurazione di proprietà di rete senza fili</td>
+<td style="border:1px solid black;">Criteri di rete senza fili - Computer</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Certificati] Modello di certificato utilizzato per generare certificati per l'autenticazione client di utenti</p></td>
-<td style="border:1px solid black;"><p>Autenticazione client - Utente</p></td>
+<td style="border:1px solid black;">[Certificati] Modello di certificato utilizzato per generare certificati per l'autenticazione client di utenti</td>
+<td style="border:1px solid black;">Autenticazione client - Utente</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Certificati] Modello di certificato utilizzato per generare certificati per l'autenticazione client di computer</p></td>
-<td style="border:1px solid black;"><p>Autenticazione client - Computer</p></td>
+<td style="border:1px solid black;">[Certificati] Modello di certificato utilizzato per generare certificati per l'autenticazione client di computer</td>
+<td style="border:1px solid black;">Autenticazione client - Computer</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Certificati] Modello di certificato utilizzato per generare certificati per l'autenticazione server eseguita da IAS</p></td>
-<td style="border:1px solid black;"><p>Autenticazione server RAS e IAS</p></td>
+<td style="border:1px solid black;">[Certificati] Modello di certificato utilizzato per generare certificati per l'autenticazione server eseguita da IAS</td>
+<td style="border:1px solid black;">Autenticazione server RAS e IAS</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Scripts] Percorso degli script di installazione</p></td>
-<td style="border:1px solid black;"><p>C:\MSSScripts</p></td>
+<td style="border:1px solid black;">[Scripts] Percorso degli script di installazione</td>
+<td style="border:1px solid black;">C:\MSSScripts</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Config] Percorso dei file di backup della configurazione</p></td>
-<td style="border:1px solid black;"><p>D:\IASConfig</p></td>
+<td style="border:1px solid black;">[Config] Percorso dei file di backup della configurazione</td>
+<td style="border:1px solid black;">D:\IASConfig</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Registri richieste] Posizione dei file registro di autenticazione e delle richieste di controllo IAS</p></td>
-<td style="border:1px solid black;"><p>D:\IASLogs</p></td>
+<td style="border:1px solid black;">[Registri richieste] Posizione dei file registro di autenticazione e delle richieste di controllo IAS</td>
+<td style="border:1px solid black;">D:\IASLogs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Criteri di accesso remoto] Nome criterio</p></td>
-<td style="border:1px solid black;"><p>Consenti accesso senza fili</p></td>
+<td style="border:1px solid black;">[Criteri di accesso remoto] Nome criterio</td>
+<td style="border:1px solid black;">Consenti accesso senza fili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Criteri di gruppo] Nome oggetto Criteri di gruppo (GPO, Group Policy Object) di Active Directory</p></td>
-<td style="border:1px solid black;"><p>Criterio di rete senza fili</p></td>
+<td style="border:1px solid black;">[Criteri di gruppo] Nome oggetto Criteri di gruppo (GPO, Group Policy Object) di Active Directory</td>
+<td style="border:1px solid black;">Criterio di rete senza fili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Criteri di gruppo] Criteri di rete senza fili all'interno dell'oggetto Criteri di gruppo (GPO, Group Policy Object)</p></td>
-<td style="border:1px solid black;"><p>Configurazione senza fili del computer client</p></td>
+<td style="border:1px solid black;">[Criteri di gruppo] Criteri di rete senza fili all'interno dell'oggetto Criteri di gruppo (GPO, Group Policy Object)</td>
+<td style="border:1px solid black;">Configurazione senza fili del computer client</td>
 </tr>
 </tbody>
 </table>
@@ -575,7 +575,7 @@ I criteri di accesso remoto IAS utilizzano gruppi di protezione basati su Active
   
 **Tabella 9.3. Gruppi di protezione di Active Directory**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -583,22 +583,22 @@ I criteri di accesso remoto IAS utilizzano gruppi di protezione basati su Active
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Gruppo di protezione</p></th>
-<th><p>Descrizione</p></th>
+<th>Gruppo di protezione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Criteri di accesso remoto - Utenti senza fili</p></td>
-<td style="border:1px solid black;"><p>Gruppo globale per utenti che richiedono l'accesso alla rete WLAN.</p></td>
+<td style="border:1px solid black;">Criteri di accesso remoto - Utenti senza fili</td>
+<td style="border:1px solid black;">Gruppo globale per utenti che richiedono l'accesso alla rete WLAN.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Criteri di accesso remoto - Computer senza fili</p></td>
-<td style="border:1px solid black;"><p>Gruppo globale per computer che richiedono l'accesso alla rete WLAN.</p></td>
+<td style="border:1px solid black;">Criteri di accesso remoto - Computer senza fili</td>
+<td style="border:1px solid black;">Gruppo globale per computer che richiedono l'accesso alla rete WLAN.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Criteri di accesso remoto - Accesso senza fili</p></td>
-<td style="border:1px solid black;"><p>Gruppo universale che dovrebbe contenere i due gruppi globali precedenti.</p></td>
+<td style="border:1px solid black;">Criteri di accesso remoto - Accesso senza fili</td>
+<td style="border:1px solid black;">Gruppo universale che dovrebbe contenere i due gruppi globali precedenti.</td>
 </tr>
 </tbody>
 </table>

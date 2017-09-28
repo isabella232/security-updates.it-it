@@ -286,7 +286,7 @@ In questa guida vengono utilizzate le convenzioni di stile e la terminologia rip
 
 **Tabella 1.1: Convenzioni di stile**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -294,18 +294,18 @@ In questa guida vengono utilizzate le convenzioni di stile e la terminologia rip
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Significato</p></th>
+<th>Elemento</th>
+<th>Significato</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
-<td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari.</p></td>
+<td style="border:1px solid black;"><strong>Nota</strong></td>
+<td style="border:1px solid black;">Richiama l'attenzione del lettore su informazioni supplementari.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Esempio Woodgrove</strong></p></td>
-<td style="border:1px solid black;"><p>Informa il lettore che il contenuto descritto è correlato all'esempio dell'azienda fittizia &quot;Woodgrove Bank&quot;.</p></td>
+<td style="border:1px solid black;"><strong>Esempio Woodgrove</strong></td>
+<td style="border:1px solid black;">Informa il lettore che il contenuto descritto è correlato all'esempio dell'azienda fittizia &quot;Woodgrove Bank&quot;.</td>
 </tr>
 </tbody>
 </table>

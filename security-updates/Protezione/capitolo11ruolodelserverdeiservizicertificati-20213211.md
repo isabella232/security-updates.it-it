@@ -70,7 +70,7 @@ La tabella seguente illustra le impostazioni delle opzioni di protezione consigl
 
 **Tabella 11.1 Impostazioni delle opzioni di protezione consigliate**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -78,14 +78,14 @@ La tabella seguente illustra le impostazioni delle opzioni di protezione consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Enterprise Client</p></th>
+<th>Impostazione</th>
+<th>Enterprise Client</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Crittografia di sistema: utilizza algoritmi FIPS compatibili per crittografia, hash e firma</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Crittografia di sistema: utilizza algoritmi FIPS compatibili per crittografia, hash e firma</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -144,7 +144,7 @@ Nella tabella riportata di seguito sono contenuti gli elenchi ACL dei file syste
   
 **Tabella 11.2 ACL dei file system**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -152,42 +152,42 @@ Nella tabella riportata di seguito sono contenuti gli elenchi ACL dei file syste
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Percorso degli elenchi di controllo di accesso nell'interfaccia utente</p></th>
-<th><p>Enterprise Client</p></th>
+<th>Percorso degli elenchi di controllo di accesso nell'interfaccia utente</th>
+<th>Enterprise Client</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>%SystemRoot%\system32\CertLog (propagazione a tutte le sottocartelle)</p></td>
-<td style="border:1px solid black;"><p>Amministratori (controllo totale)</p>
-<p>SISTEMA (controllo totale)</p></td>
+<td style="border:1px solid black;">%SystemRoot%\system32\CertLog (propagazione a tutte le sottocartelle)</td>
+<td style="border:1px solid black;">Amministratori (controllo totale)
+SISTEMA (controllo totale)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>%SystemRoot%\system32\CertSrv (propagazione a tutte le sottocartelle)</p></td>
-<td style="border:1px solid black;"><p>Amministratori (controllo totale)</p>
-<p>SISTEMA (controllo totale)</p>
-<p>Utenti (Lettura/Esecuzione, Visualizzazione contenuto cartella e Lettura)</p></td>
+<td style="border:1px solid black;">%SystemRoot%\system32\CertSrv (propagazione a tutte le sottocartelle)</td>
+<td style="border:1px solid black;">Amministratori (controllo totale)
+SISTEMA (controllo totale)
+Utenti (Lettura/Esecuzione, Visualizzazione contenuto cartella e Lettura)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>D:\CertLog</p></td>
-<td style="border:1px solid black;"><p>Amministratori (controllo totale)</p>
-<p>SISTEMA (controllo totale)</p></td>
+<td style="border:1px solid black;">D:\CertLog</td>
+<td style="border:1px solid black;">Amministratori (controllo totale)
+SISTEMA (controllo totale)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>D:\CertSrv</p></td>
-<td style="border:1px solid black;"><p>Amministratori (controllo totale)</p>
-<p>SISTEMA (controllo totale)</p>
-<p>Utenti (Lettura/Esecuzione, Visualizzazione contenuto cartella e Lettura)</p></td>
+<td style="border:1px solid black;">D:\CertSrv</td>
+<td style="border:1px solid black;">Amministratori (controllo totale)
+SISTEMA (controllo totale)
+Utenti (Lettura/Esecuzione, Visualizzazione contenuto cartella e Lettura)</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Poiché le CA sono basate sulla protezione, per le cartelle di Servizi certificati elencate nella tabella precedente è attivata la funzione di controllo dei file. Le voci di controllo sono configurate come indicato nella tabella seguente:
 
 **Tabella 11.3 Configurazione dei file di Servizi certificati e del controllo del Registro di sistema**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -196,31 +196,31 @@ Poiché le CA sono basate sulla protezione, per le cartelle di Servizi certifica
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Percorso dei file o del registro di sistema</p></th>
-<th><p>Tipo di controllo</p></th>
-<th><p>Impostazione di controllo</p></th>
+<th>Percorso dei file o del registro di sistema</th>
+<th>Tipo di controllo</th>
+<th>Impostazione di controllo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>%SystemRoot%\system32\CertLog</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
-<td style="border:1px solid black;"><p>Everyone (Controllo completo)</p></td>
+<td style="border:1px solid black;">%SystemRoot%\system32\CertLog</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
+<td style="border:1px solid black;">Everyone (Controllo completo)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>%SystemRoot%\system32\CertSrv</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
-<td style="border:1px solid black;"><p>Everyone (Modifica)</p></td>
+<td style="border:1px solid black;">%SystemRoot%\system32\CertSrv</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
+<td style="border:1px solid black;">Everyone (Modifica)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>D:\CertSrv</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
-<td style="border:1px solid black;"><p>Everyone (Modifica)</p></td>
+<td style="border:1px solid black;">D:\CertSrv</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
+<td style="border:1px solid black;">Everyone (Modifica)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>D:\CertLog</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
-<td style="border:1px solid black;"><p>Everyone (Modifica)</p></td>
+<td style="border:1px solid black;">D:\CertLog</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
+<td style="border:1px solid black;">Everyone (Modifica)</td>
 </tr>
 </tbody>
 </table>

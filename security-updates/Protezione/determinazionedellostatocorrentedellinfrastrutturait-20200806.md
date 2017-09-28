@@ -227,7 +227,7 @@ Lo scenario della Woodgrove Bank utilizza un solo insieme di strutture (corp.woo
 
 **Tabella 3.1. Informazioni su Active Directory della Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -237,183 +237,183 @@ Lo scenario della Woodgrove Bank utilizza un solo insieme di strutture (corp.woo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Sito fisico</p></th>
-<th><p>Dominio</p></th>
-<th><p>Utenti</p></th>
-<th><p>Tipo di controller di dominio</p></th>
+<th>Sito fisico</th>
+<th>Dominio</th>
+<th>Utenti</th>
+<th>Tipo di controller di dominio</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>New York, NY</p></td>
-<td style="border:1px solid black;"><p>corp.woodgrovebank.com<br />
-americas.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>5.000</p></td>
-<td style="border:1px solid black;"><p>Catalogo globale dell'insieme di strutture principale<br />
+<td style="border:1px solid black;">New York, NY</td>
+<td style="border:1px solid black;">corp.woodgrovebank.com<br />
+americas.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">5.000</td>
+<td style="border:1px solid black;">Catalogo globale dell'insieme di strutture principale<br />
 PDC<br />
 GC continentale - Americhe<br />
 DC continentale - Europa<br />
-DC continentale - Asia</p></td>
+DC continentale - Asia</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Chicago, IL</p></td>
-<td style="border:1px solid black;"><p>americas.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>750</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Americhe</p></td>
+<td style="border:1px solid black;">Chicago, IL</td>
+<td style="border:1px solid black;">americas.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">750</td>
+<td style="border:1px solid black;">GC continentale - Americhe</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Atlanta, GA</p></td>
-<td style="border:1px solid black;"><p>americas.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>1.450</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Americhe</p></td>
+<td style="border:1px solid black;">Atlanta, GA</td>
+<td style="border:1px solid black;">americas.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">1.450</td>
+<td style="border:1px solid black;">GC continentale - Americhe</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Boston, MA</p></td>
-<td style="border:1px solid black;"><p>americas.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>480</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Americhe</p></td>
+<td style="border:1px solid black;">Boston, MA</td>
+<td style="border:1px solid black;">americas.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">480</td>
+<td style="border:1px solid black;">GC continentale - Americhe</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>San Francisco, CA</p></td>
-<td style="border:1px solid black;"><p>americas.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>250</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Americhe</p></td>
+<td style="border:1px solid black;">San Francisco, CA</td>
+<td style="border:1px solid black;">americas.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">250</td>
+<td style="border:1px solid black;">GC continentale - Americhe</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Pittsburgh, PA</p></td>
-<td style="border:1px solid black;"><p>americas.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>50</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Americhe</p></td>
+<td style="border:1px solid black;">Pittsburgh, PA</td>
+<td style="border:1px solid black;">americas.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">50</td>
+<td style="border:1px solid black;">GC continentale - Americhe</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Phoenix, AZ</p></td>
-<td style="border:1px solid black;"><p>americas.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>50</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Americhe</p></td>
+<td style="border:1px solid black;">Phoenix, AZ</td>
+<td style="border:1px solid black;">americas.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">50</td>
+<td style="border:1px solid black;">GC continentale - Americhe</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Miami, FL</p></td>
-<td style="border:1px solid black;"><p>americas.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>50</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Americhe</p></td>
+<td style="border:1px solid black;">Miami, FL</td>
+<td style="border:1px solid black;">americas.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">50</td>
+<td style="border:1px solid black;">GC continentale - Americhe</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Washington, DC</p></td>
-<td style="border:1px solid black;"><p>americas.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>75</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Americhe</p></td>
+<td style="border:1px solid black;">Washington, DC</td>
+<td style="border:1px solid black;">americas.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">75</td>
+<td style="border:1px solid black;">GC continentale - Americhe</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cambridge, MA</p></td>
-<td style="border:1px solid black;"><p>americas.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>36</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Americhe</p></td>
+<td style="border:1px solid black;">Cambridge, MA</td>
+<td style="border:1px solid black;">americas.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">36</td>
+<td style="border:1px solid black;">GC continentale - Americhe</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Toronto, Canada</p></td>
-<td style="border:1px solid black;"><p>americas.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>25</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Americhe</p></td>
+<td style="border:1px solid black;">Toronto, Canada</td>
+<td style="border:1px solid black;">americas.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">25</td>
+<td style="border:1px solid black;">GC continentale - Americhe</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Londra, Regno Unito</p></td>
-<td style="border:1px solid black;"><p>europe.corp.woodgrovebank.com<br />
-corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>5.200</p></td>
-<td style="border:1px solid black;"><p>GC insieme di strutture principale<br />
+<td style="border:1px solid black;">Londra, Regno Unito</td>
+<td style="border:1px solid black;">europe.corp.woodgrovebank.com<br />
+corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">5.200</td>
+<td style="border:1px solid black;">GC insieme di strutture principale<br />
 Emulatore PDC<br />
 GC Europa<br />
 DC continentale - Americhe<br />
-DC continentale - Asia</p></td>
+DC continentale - Asia</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ginevra, Svizzera</p></td>
-<td style="border:1px solid black;"><p>europe.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>350</p></td>
-<td style="border:1px solid black;"><p>GC Europa</p></td>
+<td style="border:1px solid black;">Ginevra, Svizzera</td>
+<td style="border:1px solid black;">europe.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">350</td>
+<td style="border:1px solid black;">GC Europa</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Amsterdam, Paesi Bassi</p></td>
-<td style="border:1px solid black;"><p>europe.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>295</p></td>
-<td style="border:1px solid black;"><p>GC Europa</p></td>
+<td style="border:1px solid black;">Amsterdam, Paesi Bassi</td>
+<td style="border:1px solid black;">europe.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">295</td>
+<td style="border:1px solid black;">GC Europa</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Monaco, Germania</p></td>
-<td style="border:1px solid black;"><p>europe.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>149</p></td>
-<td style="border:1px solid black;"><p>GC Europa</p></td>
+<td style="border:1px solid black;">Monaco, Germania</td>
+<td style="border:1px solid black;">europe.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">149</td>
+<td style="border:1px solid black;">GC Europa</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Roma, Italia</p></td>
-<td style="border:1px solid black;"><p>europe.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>80</p></td>
-<td style="border:1px solid black;"><p>GC Europa</p></td>
+<td style="border:1px solid black;">Roma, Italia</td>
+<td style="border:1px solid black;">europe.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">80</td>
+<td style="border:1px solid black;">GC Europa</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Dublino, Irlanda</p></td>
-<td style="border:1px solid black;"><p>europe.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>79</p></td>
-<td style="border:1px solid black;"><p>GC Europa</p></td>
+<td style="border:1px solid black;">Dublino, Irlanda</td>
+<td style="border:1px solid black;">europe.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">79</td>
+<td style="border:1px solid black;">GC Europa</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Edimburgo, Scozia</p></td>
-<td style="border:1px solid black;"><p>europe.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>40</p></td>
-<td style="border:1px solid black;"><p>GC Europa</p></td>
+<td style="border:1px solid black;">Edimburgo, Scozia</td>
+<td style="border:1px solid black;">europe.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">40</td>
+<td style="border:1px solid black;">GC Europa</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Johannesburg, Sud Africa</p></td>
-<td style="border:1px solid black;"><p>europe.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>37</p></td>
-<td style="border:1px solid black;"><p>GC Europa</p></td>
+<td style="border:1px solid black;">Johannesburg, Sud Africa</td>
+<td style="border:1px solid black;">europe.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">37</td>
+<td style="border:1px solid black;">GC Europa</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tokyo, Giappone</p></td>
-<td style="border:1px solid black;"><p>asia.corp.woodgrovebank.com<br />
-corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>500</p></td>
-<td style="border:1px solid black;"><p>GC insieme di strutture principale<br />
+<td style="border:1px solid black;">Tokyo, Giappone</td>
+<td style="border:1px solid black;">asia.corp.woodgrovebank.com<br />
+corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">500</td>
+<td style="border:1px solid black;">GC insieme di strutture principale<br />
 Emulatore PDC<br />
 GC continentale - Asia<br />
 DC continentale - Europa<br />
-DC continentale - Americhe</p></td>
+DC continentale - Americhe</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Hong Kong, Cina</p></td>
-<td style="border:1px solid black;"><p>asia.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>100</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Asia</p></td>
+<td style="border:1px solid black;">Hong Kong, Cina</td>
+<td style="border:1px solid black;">asia.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">100</td>
+<td style="border:1px solid black;">GC continentale - Asia</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Bangkok, Thailandia</p></td>
-<td style="border:1px solid black;"><p>asia.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>150</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Asia</p></td>
+<td style="border:1px solid black;">Bangkok, Thailandia</td>
+<td style="border:1px solid black;">asia.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">150</td>
+<td style="border:1px solid black;">GC continentale - Asia</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Singapore</p></td>
-<td style="border:1px solid black;"><p>asia.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>210</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Asia</p></td>
+<td style="border:1px solid black;">Singapore</td>
+<td style="border:1px solid black;">asia.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">210</td>
+<td style="border:1px solid black;">GC continentale - Asia</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Sydney, Australia</p></td>
-<td style="border:1px solid black;"><p>asia.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>45</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Asia</p></td>
+<td style="border:1px solid black;">Sydney, Australia</td>
+<td style="border:1px solid black;">asia.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">45</td>
+<td style="border:1px solid black;">GC continentale - Asia</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Bangalore, India</p></td>
-<td style="border:1px solid black;"><p>asia.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>35</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Asia</p></td>
+<td style="border:1px solid black;">Bangalore, India</td>
+<td style="border:1px solid black;">asia.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">35</td>
+<td style="border:1px solid black;">GC continentale - Asia</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Taipei, Taiwan</p></td>
-<td style="border:1px solid black;"><p>asia.corp.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>65</p></td>
-<td style="border:1px solid black;"><p>GC continentale - Asia</p></td>
+<td style="border:1px solid black;">Taipei, Taiwan</td>
+<td style="border:1px solid black;">asia.corp.woodgrovebank.com</td>
+<td style="border:1px solid black;">65</td>
+<td style="border:1px solid black;">GC continentale - Asia</td>
 </tr>
 </tbody>
 </table>
@@ -475,7 +475,7 @@ Per creare un file di script che acquisisca le informazioni di configurazione di
   
 **Tabella 3.2. Disponibilità di VBScript e WMI per piattaforma**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -484,46 +484,46 @@ Per creare un file di script che acquisisca le informazioni di configurazione di
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Piattaforma</p></th>
-<th><p>VBScript</p></th>
-<th><p>WMI</p></th>
+<th>Piattaforma</th>
+<th>VBScript</th>
+<th>WMI</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Windows 95</p></td>
-<td style="border:1px solid black;"><p>Installare WSH 5.6</p></td>
-<td style="border:1px solid black;"><p>Installare WMI CORE 1.5</p></td>
+<td style="border:1px solid black;">Windows 95</td>
+<td style="border:1px solid black;">Installare WSH 5.6</td>
+<td style="border:1px solid black;">Installare WMI CORE 1.5</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Windows 98</p></td>
-<td style="border:1px solid black;"><p>Incorporato</p></td>
-<td style="border:1px solid black;"><p>Installare WMI CORE 1.5</p></td>
+<td style="border:1px solid black;">Windows 98</td>
+<td style="border:1px solid black;">Incorporato</td>
+<td style="border:1px solid black;">Installare WMI CORE 1.5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Windows Millennium</p></td>
-<td style="border:1px solid black;"><p>Incorporato</p></td>
-<td style="border:1px solid black;"><p>Incorporato</p></td>
+<td style="border:1px solid black;">Windows Millennium</td>
+<td style="border:1px solid black;">Incorporato</td>
+<td style="border:1px solid black;">Incorporato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Microsoft Windows NT® versione 4.0</p></td>
-<td style="border:1px solid black;"><p>Installare WSH 5.6</p></td>
-<td style="border:1px solid black;"><p>Installare WMI CORE 1.5</p></td>
+<td style="border:1px solid black;">Microsoft Windows NT® versione 4.0</td>
+<td style="border:1px solid black;">Installare WSH 5.6</td>
+<td style="border:1px solid black;">Installare WMI CORE 1.5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Windows 2000</p></td>
-<td style="border:1px solid black;"><p>Incorporato</p></td>
-<td style="border:1px solid black;"><p>Incorporato</p></td>
+<td style="border:1px solid black;">Windows 2000</td>
+<td style="border:1px solid black;">Incorporato</td>
+<td style="border:1px solid black;">Incorporato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Windows XP</p></td>
-<td style="border:1px solid black;"><p>Incorporato</p></td>
-<td style="border:1px solid black;"><p>Incorporato</p></td>
+<td style="border:1px solid black;">Windows XP</td>
+<td style="border:1px solid black;">Incorporato</td>
+<td style="border:1px solid black;">Incorporato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-<td style="border:1px solid black;"><p>Incorporato</p></td>
-<td style="border:1px solid black;"><p>Incorporato</p></td>
+<td style="border:1px solid black;">Windows Server 2003</td>
+<td style="border:1px solid black;">Incorporato</td>
+<td style="border:1px solid black;">Incorporato</td>
 </tr>
 </tbody>
 </table>
@@ -771,30 +771,30 @@ La tabella seguente riporta alcuni dati di esempio e può essere utilizzata per 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome host</p></th>
-<th><p>Requisiti hardware soddisfatti</p></th>
-<th><p>Requisiti software soddisfatti</p></th>
-<th><p>Configurazione necessaria</p></th>
-<th><p>Dettagli</p></th>
-<th><p>Costo previsto</p></th>
+<th>Nome host</th>
+<th>Requisiti hardware soddisfatti</th>
+<th>Requisiti software soddisfatti</th>
+<th>Configurazione necessaria</th>
+<th>Dettagli</th>
+<th>Costo previsto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>HOST-NYC-001</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Aggiornare hardware e software.</p></td>
-<td style="border:1px solid black;"><p>Il sistema operativo corrente è Windows NT 4.0. Hardware precedente non compatibile con Windows XP SP2.</p></td>
-<td style="border:1px solid black;"><p>€<em>XXX</em>.</p></td>
+<td style="border:1px solid black;">HOST-NYC-001</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Aggiornare hardware e software.</td>
+<td style="border:1px solid black;">Il sistema operativo corrente è Windows NT 4.0. Hardware precedente non compatibile con Windows XP SP2.</td>
+<td style="border:1px solid black;">€<em>XXX</em>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SERVER-LON-001</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Unire a dominio attendibile e aggiornare da Windows NT 4.0 a Windows 2000 SP4 (o versioni successive).</p></td>
-<td style="border:1px solid black;"><p>Software antivirus assente.</p></td>
-<td style="border:1px solid black;"><p>€<em>XXX</em>.</p></td>
+<td style="border:1px solid black;">SERVER-LON-001</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Unire a dominio attendibile e aggiornare da Windows NT 4.0 a Windows 2000 SP4 (o versioni successive).</td>
+<td style="border:1px solid black;">Software antivirus assente.</td>
+<td style="border:1px solid black;">€<em>XXX</em>.</td>
 </tr>
 </tbody>
 </table>

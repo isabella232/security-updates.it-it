@@ -17,7 +17,7 @@ La seguente tabella mostra lo stato delle diverse versioni client e server del s
 
 **Tabella C.1: Supporto delle versioni del sistema operativo nella soluzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -27,142 +27,142 @@ La seguente tabella mostra lo stato delle diverse versioni client e server del s
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ruolo</p></th>
-<th><p>Versione del sistema operativo</p></th>
-<th><p>Stato supporto</p></th>
-<th><p>Note</p></th>
+<th>Ruolo</th>
+<th>Versione del sistema operativo</th>
+<th>Stato supporto</th>
+<th>Note</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Client senza fili</p></td>
-<td style="border:1px solid black;"><p>Windows® XP con Service Pack 1 (edizioni Professional e Tablet)</p></td>
-<td style="border:1px solid black;"><p>Soluzione testata</p></td>
+<td style="border:1px solid black;">Client senza fili</td>
+<td style="border:1px solid black;">Windows® XP con Service Pack 1 (edizioni Professional e Tablet)</td>
+<td style="border:1px solid black;">Soluzione testata</td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Pocket PC 2003</p></td>
-<td style="border:1px solid black;"><p>Soluzione testata</p></td>
-<td style="border:1px solid black;"><p>L'implementazione del supporto WLAN 802.1X può variare a seconda del produttore di dispositivi Pocket PC.</p>
-<p>Microsoft non fornisce ancora il supporto per WPA (Wi-Fi Protected Access), che tuttavia potrebbe venire offerto da altre società.</p></td>
+<td style="border:1px solid black;">Pocket PC 2003</td>
+<td style="border:1px solid black;">Soluzione testata</td>
+<td style="border:1px solid black;">L'implementazione del supporto WLAN 802.1X può variare a seconda del produttore di dispositivi Pocket PC.
+Microsoft non fornisce ancora il supporto per WPA (Wi-Fi Protected Access), che tuttavia potrebbe venire offerto da altre società.</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Windows 2000</p></td>
-<td style="border:1px solid black;"><p>Supportato</p></td>
-<td style="border:1px solid black;"><p>Necessario procurarsi il client 802.1X da Microsoft.com.</p>
-<p>Microsoft non fornisce il supporto per WPA, che tuttavia potrebbe venire offerto da altre società.</p></td>
+<td style="border:1px solid black;">Windows 2000</td>
+<td style="border:1px solid black;">Supportato</td>
+<td style="border:1px solid black;">Necessario procurarsi il client 802.1X da Microsoft.com.
+Microsoft non fornisce il supporto per WPA, che tuttavia potrebbe venire offerto da altre società.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Microsoft Windows NT® 4.0</p>
-<p>-Windows 9x</p></td>
-<td style="border:1px solid black;"><p>Supportato</p></td>
-<td style="border:1px solid black;"><p>Necessario procurarsi il client 802.1X tramite Premier Support.</p>
-<p>Microsoft non fornisce il supporto per WPA, che tuttavia potrebbe venire offerto da altre società.</p></td>
+<td style="border:1px solid black;">Microsoft Windows NT® 4.0
+-Windows 9x</td>
+<td style="border:1px solid black;">Supportato</td>
+<td style="border:1px solid black;">Necessario procurarsi il client 802.1X tramite Premier Support.
+Microsoft non fornisce il supporto per WPA, che tuttavia potrebbe venire offerto da altre società.</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Altre piattaforme</p></td>
-<td style="border:1px solid black;"><p>Sconosciuto. Possibile supporto da parte di altre società.</p></td>
-<td style="border:1px solid black;"><p>I client devono supportare 802.1X e PEAP-MS-CHAP v2.</p></td>
+<td style="border:1px solid black;">Altre piattaforme</td>
+<td style="border:1px solid black;">Sconosciuto. Possibile supporto da parte di altre società.</td>
+<td style="border:1px solid black;">I client devono supportare 802.1X e PEAP-MS-CHAP v2.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Autorità di certificazione</p></td>
-<td style="border:1px solid black;"><p>Windows Server™ 2003, Standard Edition</p></td>
-<td style="border:1px solid black;"><p>Soluzione testata</p></td>
-<td style="border:1px solid black;"><br />
-</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><br />
-</td>
-<td style="border:1px solid black;"><p>Windows Server 2003, Enterprise Edition</p></td>
-<td style="border:1px solid black;"><p>Supportato</p></td>
-<td style="border:1px solid black;"><p>L'edizione Enterprise è un soprainsieme dell'edizione Standard.</p></td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><br />
-</td>
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Supportato</p></td>
-<td style="border:1px solid black;"><p>Le funzionalità dell'Autorità di certificazione di Windows 2000 Server sono molto simili a quelle di Windows Server 2003, Standard Edition.</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><br />
-</td>
-<td style="border:1px solid black;"><p>CA di società diverse da Microsoft</p></td>
-<td style="border:1px solid black;"><p>Sconosciuto</p></td>
-<td style="border:1px solid black;"><p>La CA deve poter generare certificati per server per il Servizio autenticazione Internet (IAS). È necessario gestire manualmente la registrazione e il rinnovo.</p></td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>Server RADIUS</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003, Standard Edition</p></td>
-<td style="border:1px solid black;"><p>Soluzione testata</p></td>
-<td style="border:1px solid black;"><p>L'edizione Standard supporta non più di 50 punti di accesso.</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><br />
-</td>
-<td style="border:1px solid black;"><p>Windows Server 2003, Enterprise Edition</p></td>
-<td style="border:1px solid black;"><p>Supportato</p></td>
-<td style="border:1px solid black;"><p>L'edizione Enterprise è un soprainsieme dell'edizione Standard, quindi in entrambe le edizioni sono disponibili tutte le funzionalità necessarie per la soluzione.</p></td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><br />
-</td>
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Supportato</p></td>
-<td style="border:1px solid black;"><p>Il Servizio autenticazione Internet di Windows 2000 (IAS) può essere utilizzato per 802.1X senza fili con PEAP. Richiede l'installazione del client 802.1X di Windows 2000 nel server IAS. Nessuna procedura guidata per la configurazione del criterio di accesso remoto senza fili.</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><br />
-</td>
-<td style="border:1px solid black;"><p>Altre piattaforme</p></td>
-<td style="border:1px solid black;"><p>Non supportate</p></td>
-<td style="border:1px solid black;"><br />
-</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>Controller di dominio</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-<td style="border:1px solid black;"><p>Soluzione testata</p></td>
-<td style="border:1px solid black;"><p>Per i gruppi universali il dominio Active Directory® deve essere in modalità nativa o superiore.</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><br />
-</td>
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Supportato</p></td>
-<td style="border:1px solid black;"><p>Per i gruppi universali il dominio Active Directory deve essere in modalità nativa o superiore.</p></td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>Server infrastruttura, DNS (Domain Name System) e DHCP (Dynamic Host Configuration Protocol)</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-<td style="border:1px solid black;"><p>Soluzione testata</p></td>
+<td style="border:1px solid black;">Autorità di certificazione</td>
+<td style="border:1px solid black;">Windows Server™ 2003, Standard Edition</td>
+<td style="border:1px solid black;">Soluzione testata</td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Supportato</p></td>
+<td style="border:1px solid black;">Windows Server 2003, Enterprise Edition</td>
+<td style="border:1px solid black;">Supportato</td>
+<td style="border:1px solid black;">L'edizione Enterprise è un soprainsieme dell'edizione Standard.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><br />
+</td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Supportato</td>
+<td style="border:1px solid black;">Le funzionalità dell'Autorità di certificazione di Windows 2000 Server sono molto simili a quelle di Windows Server 2003, Standard Edition.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><br />
+</td>
+<td style="border:1px solid black;">CA di società diverse da Microsoft</td>
+<td style="border:1px solid black;">Sconosciuto</td>
+<td style="border:1px solid black;">La CA deve poter generare certificati per server per il Servizio autenticazione Internet (IAS). È necessario gestire manualmente la registrazione e il rinnovo.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Server RADIUS</td>
+<td style="border:1px solid black;">Windows Server 2003, Standard Edition</td>
+<td style="border:1px solid black;">Soluzione testata</td>
+<td style="border:1px solid black;">L'edizione Standard supporta non più di 50 punti di accesso.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><br />
+</td>
+<td style="border:1px solid black;">Windows Server 2003, Enterprise Edition</td>
+<td style="border:1px solid black;">Supportato</td>
+<td style="border:1px solid black;">L'edizione Enterprise è un soprainsieme dell'edizione Standard, quindi in entrambe le edizioni sono disponibili tutte le funzionalità necessarie per la soluzione.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><br />
+</td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Supportato</td>
+<td style="border:1px solid black;">Il Servizio autenticazione Internet di Windows 2000 (IAS) può essere utilizzato per 802.1X senza fili con PEAP. Richiede l'installazione del client 802.1X di Windows 2000 nel server IAS. Nessuna procedura guidata per la configurazione del criterio di accesso remoto senza fili.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><br />
+</td>
+<td style="border:1px solid black;">Altre piattaforme</td>
+<td style="border:1px solid black;">Non supportate</td>
+<td style="border:1px solid black;"><br />
+</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Controller di dominio</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
+<td style="border:1px solid black;">Soluzione testata</td>
+<td style="border:1px solid black;">Per i gruppi universali il dominio Active Directory® deve essere in modalità nativa o superiore.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><br />
+</td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Supportato</td>
+<td style="border:1px solid black;">Per i gruppi universali il dominio Active Directory deve essere in modalità nativa o superiore.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Server infrastruttura, DNS (Domain Name System) e DHCP (Dynamic Host Configuration Protocol)</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
+<td style="border:1px solid black;">Soluzione testata</td>
+<td style="border:1px solid black;"><br />
+</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><br />
+</td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Supportato</td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Altre piattaforme</p></td>
-<td style="border:1px solid black;"><p>Sconosciuto</p></td>
-<td style="border:1px solid black;"><p>DHCP, DNS e le soluzioni di gestione fornite da società diverse da Microsoft dovrebbero funzionare con questa soluzione, purché siano soddisfatti i requisiti di base per i client Microsoft e Active Directory.</p></td>
+<td style="border:1px solid black;">Altre piattaforme</td>
+<td style="border:1px solid black;">Sconosciuto</td>
+<td style="border:1px solid black;">DHCP, DNS e le soluzioni di gestione fornite da società diverse da Microsoft dovrebbero funzionare con questa soluzione, purché siano soddisfatti i requisiti di base per i client Microsoft e Active Directory.</td>
 </tr>
 </tbody>
 </table>

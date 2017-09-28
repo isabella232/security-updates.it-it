@@ -352,7 +352,7 @@ Le capacità e il prezzo dei firewall personali possono variare in maniera signi
 
 **Tabella 1. Classe 1: firewall personali**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -360,78 +360,78 @@ Le capacità e il prezzo dei firewall personali possono variare in maniera signi
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Caratteristica del firewall</p></th>
-<th><p>Valore</p></th>
+<th>Caratteristica del firewall</th>
+<th>Valore</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Funzionalità di base supportate</p></td>
-<td style="border:1px solid black;"><p>La maggior parte dei firewall personali supporta i filtri di pacchetti statici e le tecnologie NAT e Stateful Inspection, mentre solo alcuni supportano il controllo a livello di circuito e/o il filtraggio a livello di applicazione.</p></td>
+<td style="border:1px solid black;">Funzionalità di base supportate</td>
+<td style="border:1px solid black;">La maggior parte dei firewall personali supporta i filtri di pacchetti statici e le tecnologie NAT e Stateful Inspection, mentre solo alcuni supportano il controllo a livello di circuito e/o il filtraggio a livello di applicazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurazione</p></td>
-<td style="border:1px solid black;"><p>Automatica (è disponibile anche l'opzione manuale)</p></td>
+<td style="border:1px solid black;">Configurazione</td>
+<td style="border:1px solid black;">Automatica (è disponibile anche l'opzione manuale)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Blocco o autorizzazione degli indirizzi IP</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Blocco o autorizzazione degli indirizzi IP</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Blocco o autorizzazione del protocollo o dei numeri di porta</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Blocco o autorizzazione del protocollo o dei numeri di porta</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Blocco o autorizzazione dei messaggi ICMP in ingresso</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Blocco o autorizzazione dei messaggi ICMP in ingresso</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllo dell'accesso in uscita</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Controllo dell'accesso in uscita</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protezione delle applicazioni</p></td>
-<td style="border:1px solid black;"><p>Possibile</p></td>
+<td style="border:1px solid black;">Protezione delle applicazioni</td>
+<td style="border:1px solid black;">Possibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Segnalazioni acustiche o avvisi visivi</p></td>
-<td style="border:1px solid black;"><p>Possibile</p></td>
+<td style="border:1px solid black;">Segnalazioni acustiche o avvisi visivi</td>
+<td style="border:1px solid black;">Possibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>File di registro degli attacchi</p></td>
-<td style="border:1px solid black;"><p>Possibile</p></td>
+<td style="border:1px solid black;">File di registro degli attacchi</td>
+<td style="border:1px solid black;">Possibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Avvisi in tempo reale</p></td>
-<td style="border:1px solid black;"><p>Possibile</p></td>
+<td style="border:1px solid black;">Avvisi in tempo reale</td>
+<td style="border:1px solid black;">Possibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto VPN</p></td>
-<td style="border:1px solid black;"><p>No (nella maggior parte dei casi)</p></td>
+<td style="border:1px solid black;">Supporto VPN</td>
+<td style="border:1px solid black;">No (nella maggior parte dei casi)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gestione remota</p></td>
-<td style="border:1px solid black;"><p>No (nella maggior parte dei casi)</p></td>
+<td style="border:1px solid black;">Gestione remota</td>
+<td style="border:1px solid black;">No (nella maggior parte dei casi)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto da parte del produttore</p></td>
-<td style="border:1px solid black;"><p>Diverse possibilità a seconda del prodotto</p></td>
+<td style="border:1px solid black;">Supporto da parte del produttore</td>
+<td style="border:1px solid black;">Diverse possibilità a seconda del prodotto</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Opzione di elevata disponibilità</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Opzione di elevata disponibilità</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Numero di sessioni simultanee</p></td>
-<td style="border:1px solid black;"><p>Da 1 a 10</p></td>
+<td style="border:1px solid black;">Numero di sessioni simultanee</td>
+<td style="border:1px solid black;">Da 1 a 10</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Possibilità di aggiornamento modulare (hardware o software)</p></td>
-<td style="border:1px solid black;"><p>Da nessuna a limitata</p></td>
+<td style="border:1px solid black;">Possibilità di aggiornamento modulare (hardware o software)</td>
+<td style="border:1px solid black;">Da nessuna a limitata</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Categoria di prezzo</p></td>
-<td style="border:1px solid black;"><p>Bassa (prodotti in alcuni casi gratuiti)</p></td>
+<td style="border:1px solid black;">Categoria di prezzo</td>
+<td style="border:1px solid black;">Bassa (prodotti in alcuni casi gratuiti)</td>
 </tr>
 </tbody>
 </table>
@@ -471,7 +471,7 @@ I router di fascia alta possono essere configurati per restringere l'accesso blo
   
 **Tabella 2. Classe 2: router con funzionalità firewall**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -479,78 +479,78 @@ I router di fascia alta possono essere configurati per restringere l'accesso blo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Caratteristica del firewall</p></th>
-<th><p>Valore</p></th>
+<th>Caratteristica del firewall</th>
+<th>Valore</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Funzionalità di base supportate</p></td>
-<td style="border:1px solid black;"><p>La maggior parte dei router con funzionalità firewall supportano filtri di pacchetti statici. I router di fascia più bassa supportano in genere NAT, quelli di fascia più alta, invece, possono supportare il filtraggio in modalità Stateful Inspection e/o a livello di applicazione.</p></td>
+<td style="border:1px solid black;">Funzionalità di base supportate</td>
+<td style="border:1px solid black;">La maggior parte dei router con funzionalità firewall supportano filtri di pacchetti statici. I router di fascia più bassa supportano in genere NAT, quelli di fascia più alta, invece, possono supportare il filtraggio in modalità Stateful Inspection e/o a livello di applicazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurazione</p></td>
-<td style="border:1px solid black;"><p>In genere automatica per i router di fascia più bassa (con opzioni manuali). Spesso manuale nei router di fascia più alta.</p></td>
+<td style="border:1px solid black;">Configurazione</td>
+<td style="border:1px solid black;">In genere automatica per i router di fascia più bassa (con opzioni manuali). Spesso manuale nei router di fascia più alta.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Blocco o autorizzazione degli indirizzi IP</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Blocco o autorizzazione degli indirizzi IP</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Blocco o autorizzazione del protocollo o dei numeri di porta</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Blocco o autorizzazione del protocollo o dei numeri di porta</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Blocco o autorizzazione dei messaggi ICMP in ingresso</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Blocco o autorizzazione dei messaggi ICMP in ingresso</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllo dell'accesso in uscita</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Controllo dell'accesso in uscita</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protezione delle applicazioni</p></td>
-<td style="border:1px solid black;"><p>Possibile</p></td>
+<td style="border:1px solid black;">Protezione delle applicazioni</td>
+<td style="border:1px solid black;">Possibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Segnalazioni acustiche o avvisi visivi</p></td>
-<td style="border:1px solid black;"><p>Sì (nella maggior parte dei casi)</p></td>
+<td style="border:1px solid black;">Segnalazioni acustiche o avvisi visivi</td>
+<td style="border:1px solid black;">Sì (nella maggior parte dei casi)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>File di registro degli attacchi</p></td>
-<td style="border:1px solid black;"><p>In molti casi</p></td>
+<td style="border:1px solid black;">File di registro degli attacchi</td>
+<td style="border:1px solid black;">In molti casi</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Avvisi in tempo reale</p></td>
-<td style="border:1px solid black;"><p>In molti casi</p></td>
+<td style="border:1px solid black;">Avvisi in tempo reale</td>
+<td style="border:1px solid black;">In molti casi</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto VPN</p></td>
-<td style="border:1px solid black;"><p>Frequente nei router di fascia più bassa, non così comune in quelli di fascia più alta. Per questa attività sono disponibili dispositivi o server dedicati.</p></td>
+<td style="border:1px solid black;">Supporto VPN</td>
+<td style="border:1px solid black;">Frequente nei router di fascia più bassa, non così comune in quelli di fascia più alta. Per questa attività sono disponibili dispositivi o server dedicati.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gestione remota</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Gestione remota</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto da parte del produttore</p></td>
-<td style="border:1px solid black;"><p>Di norma limitato nei router di fascia più bassa e di buon livello in quelli di fascia più alta.</p></td>
+<td style="border:1px solid black;">Supporto da parte del produttore</td>
+<td style="border:1px solid black;">Di norma limitato nei router di fascia più bassa e di buon livello in quelli di fascia più alta.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Disponibilità dell'opzione di elevata disponibilità</p></td>
-<td style="border:1px solid black;"><p>Fascia bassa: No - Fascia alta: Sì</p></td>
+<td style="border:1px solid black;">Disponibilità dell'opzione di elevata disponibilità</td>
+<td style="border:1px solid black;">Fascia bassa: No - Fascia alta: Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Numero di sessioni simultanee</p></td>
-<td style="border:1px solid black;"><p>10 - 1.000</p></td>
+<td style="border:1px solid black;">Numero di sessioni simultanee</td>
+<td style="border:1px solid black;">10 - 1.000</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Possibilità di aggiornamento modulare (hardware o software)</p></td>
-<td style="border:1px solid black;"><p>Fascia bassa: No - Fascia alta: Limitato</p></td>
+<td style="border:1px solid black;">Possibilità di aggiornamento modulare (hardware o software)</td>
+<td style="border:1px solid black;">Fascia bassa: No - Fascia alta: Limitato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Categoria di prezzo</p></td>
-<td style="border:1px solid black;"><p>Da bassa ad alta</p></td>
+<td style="border:1px solid black;">Categoria di prezzo</td>
+<td style="border:1px solid black;">Da bassa ad alta</td>
 </tr>
 </tbody>
 </table>
@@ -594,7 +594,7 @@ Nella fascia più bassa delle classi di firewall hardware sono collocate le unit
   
 **Tabella 3. Classe 3: firewall hardware di fascia bassa**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -602,78 +602,78 @@ Nella fascia più bassa delle classi di firewall hardware sono collocate le unit
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Caratteristica del firewall</p></th>
-<th><p>Valore</p></th>
+<th>Caratteristica del firewall</th>
+<th>Valore</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Funzionalità di base supportate</p></td>
-<td style="border:1px solid black;"><p>La maggior parte dei firewall hardware di fascia bassa supporta i filtri di pacchetti statici e la tecnologia NAT. In alcuni casi possono supportare anche la tecnologia Stateful Inspection e/o il filtro a livello di applicazione.</p></td>
+<td style="border:1px solid black;">Funzionalità di base supportate</td>
+<td style="border:1px solid black;">La maggior parte dei firewall hardware di fascia bassa supporta i filtri di pacchetti statici e la tecnologia NAT. In alcuni casi possono supportare anche la tecnologia Stateful Inspection e/o il filtro a livello di applicazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurazione</p></td>
-<td style="border:1px solid black;"><p>Automatica (è disponibile anche l'opzione manuale)</p></td>
+<td style="border:1px solid black;">Configurazione</td>
+<td style="border:1px solid black;">Automatica (è disponibile anche l'opzione manuale)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Blocco o autorizzazione degli indirizzi IP</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Blocco o autorizzazione degli indirizzi IP</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Blocco o autorizzazione del protocollo o dei numeri di porta</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Blocco o autorizzazione del protocollo o dei numeri di porta</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Blocco o autorizzazione dei messaggi ICMP in ingresso</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Blocco o autorizzazione dei messaggi ICMP in ingresso</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllo dell'accesso in uscita</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Controllo dell'accesso in uscita</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protezione delle applicazioni</p></td>
-<td style="border:1px solid black;"><p>No (nella maggior parte dei casi)</p></td>
+<td style="border:1px solid black;">Protezione delle applicazioni</td>
+<td style="border:1px solid black;">No (nella maggior parte dei casi)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Segnalazioni acustiche o avvisi visivi</p></td>
-<td style="border:1px solid black;"><p>No (nella maggior parte dei casi)</p></td>
+<td style="border:1px solid black;">Segnalazioni acustiche o avvisi visivi</td>
+<td style="border:1px solid black;">No (nella maggior parte dei casi)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>File di registro degli attacchi</p></td>
-<td style="border:1px solid black;"><p>No (nella maggior parte dei casi)</p></td>
+<td style="border:1px solid black;">File di registro degli attacchi</td>
+<td style="border:1px solid black;">No (nella maggior parte dei casi)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Avvisi in tempo reale</p></td>
-<td style="border:1px solid black;"><p>No (nella maggior parte dei casi)</p></td>
+<td style="border:1px solid black;">Avvisi in tempo reale</td>
+<td style="border:1px solid black;">No (nella maggior parte dei casi)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto VPN</p></td>
-<td style="border:1px solid black;"><p>In alcuni casi</p></td>
+<td style="border:1px solid black;">Supporto VPN</td>
+<td style="border:1px solid black;">In alcuni casi</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gestione remota</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Gestione remota</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto da parte del produttore</p></td>
-<td style="border:1px solid black;"><p>Limitato</p></td>
+<td style="border:1px solid black;">Supporto da parte del produttore</td>
+<td style="border:1px solid black;">Limitato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Disponibilità dell'opzione di elevata disponibilità</p></td>
-<td style="border:1px solid black;"><p>No (nella maggior parte dei casi)</p></td>
+<td style="border:1px solid black;">Disponibilità dell'opzione di elevata disponibilità</td>
+<td style="border:1px solid black;">No (nella maggior parte dei casi)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Numero di sessioni simultanee</p></td>
-<td style="border:1px solid black;"><p>&gt; 10 - 7.500</p></td>
+<td style="border:1px solid black;">Numero di sessioni simultanee</td>
+<td style="border:1px solid black;">&gt; 10 - 7.500</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Possibilità di aggiornamento modulare (hardware o software)</p></td>
-<td style="border:1px solid black;"><p>Limitato</p></td>
+<td style="border:1px solid black;">Possibilità di aggiornamento modulare (hardware o software)</td>
+<td style="border:1px solid black;">Limitato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Categoria di prezzo</p></td>
-<td style="border:1px solid black;"><p>Bassa</p></td>
+<td style="border:1px solid black;">Categoria di prezzo</td>
+<td style="border:1px solid black;">Bassa</td>
 </tr>
 </tbody>
 </table>
@@ -718,7 +718,7 @@ Nella fascia più alta delle classi di firewall hardware sono inclusi prodotti c
   
 **Tabella 4. Classe 4: firewall hardware di fascia alta**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -726,78 +726,78 @@ Nella fascia più alta delle classi di firewall hardware sono inclusi prodotti c
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Caratteristica del firewall</p></th>
-<th><p>Valore</p></th>
+<th>Caratteristica del firewall</th>
+<th>Valore</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Funzionalità di base supportate</p></td>
-<td style="border:1px solid black;"><p>La maggior parte dei firewall hardware di fascia alta supporta i filtri di pacchetti statici e la tecnologia NAT. In alcuni casi possono supportare anche la tecnologia Stateful Inspection e/o il filtro a livello di applicazione.</p></td>
+<td style="border:1px solid black;">Funzionalità di base supportate</td>
+<td style="border:1px solid black;">La maggior parte dei firewall hardware di fascia alta supporta i filtri di pacchetti statici e la tecnologia NAT. In alcuni casi possono supportare anche la tecnologia Stateful Inspection e/o il filtro a livello di applicazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurazione</p></td>
-<td style="border:1px solid black;"><p>Manuale (nella maggior parte dei casi)</p></td>
+<td style="border:1px solid black;">Configurazione</td>
+<td style="border:1px solid black;">Manuale (nella maggior parte dei casi)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Blocco o autorizzazione degli indirizzi IP</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Blocco o autorizzazione degli indirizzi IP</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Blocco o autorizzazione del protocollo o dei numeri di porta</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Blocco o autorizzazione del protocollo o dei numeri di porta</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Blocco o autorizzazione dei messaggi ICMP in ingresso</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Blocco o autorizzazione dei messaggi ICMP in ingresso</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllo dell'accesso in uscita</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Controllo dell'accesso in uscita</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protezione delle applicazioni</p></td>
-<td style="border:1px solid black;"><p>Potenziale</p></td>
+<td style="border:1px solid black;">Protezione delle applicazioni</td>
+<td style="border:1px solid black;">Potenziale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Segnalazioni acustiche o avvisi visivi</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Segnalazioni acustiche o avvisi visivi</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>File di registro degli attacchi</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">File di registro degli attacchi</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Avvisi in tempo reale</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Avvisi in tempo reale</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto VPN</p></td>
-<td style="border:1px solid black;"><p>Potenziale</p></td>
+<td style="border:1px solid black;">Supporto VPN</td>
+<td style="border:1px solid black;">Potenziale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gestione remota</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Gestione remota</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto da parte del produttore</p></td>
-<td style="border:1px solid black;"><p>Di buon livello</p></td>
+<td style="border:1px solid black;">Supporto da parte del produttore</td>
+<td style="border:1px solid black;">Di buon livello</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Disponibilità dell'opzione di elevata disponibilità</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Disponibilità dell'opzione di elevata disponibilità</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Numero di sessioni simultanee</p></td>
-<td style="border:1px solid black;"><p>&gt; 7.500 - 500.000</p></td>
+<td style="border:1px solid black;">Numero di sessioni simultanee</td>
+<td style="border:1px solid black;">&gt; 7.500 - 500.000</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Possibilità di aggiornamento modulare (hardware o software)</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Possibilità di aggiornamento modulare (hardware o software)</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Categoria di prezzo</p></td>
-<td style="border:1px solid black;"><p>Alta</p></td>
+<td style="border:1px solid black;">Categoria di prezzo</td>
+<td style="border:1px solid black;">Alta</td>
 </tr>
 </tbody>
 </table>
@@ -850,7 +850,7 @@ I prodotti di questa classe garantiscono inoltre funzionalità di caching di gra
   
 **Tabella 5. Classe 5: firewall server di fascia alta**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -858,82 +858,82 @@ I prodotti di questa classe garantiscono inoltre funzionalità di caching di gra
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Caratteristica del firewall</p></th>
-<th><p>Valore</p></th>
+<th>Caratteristica del firewall</th>
+<th>Valore</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Funzionalità supportate</p></td>
-<td style="border:1px solid black;"><p>La maggior parte dei firewall di tipo server di fascia alta supporta i filtri dei pacchetti statici e la tecnologia NAT. Può supportare anche la tecnologia Stateful Inspection e/o il filtraggio a livello di applicazione.</p></td>
+<td style="border:1px solid black;">Funzionalità supportate</td>
+<td style="border:1px solid black;">La maggior parte dei firewall di tipo server di fascia alta supporta i filtri dei pacchetti statici e la tecnologia NAT. Può supportare anche la tecnologia Stateful Inspection e/o il filtraggio a livello di applicazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurazione</p></td>
-<td style="border:1px solid black;"><p>Manuale (nella maggior parte dei casi)</p></td>
+<td style="border:1px solid black;">Configurazione</td>
+<td style="border:1px solid black;">Manuale (nella maggior parte dei casi)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Blocco o autorizzazione degli indirizzi IP</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Blocco o autorizzazione degli indirizzi IP</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Blocco o autorizzazione del protocollo o dei numeri di porta</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Blocco o autorizzazione del protocollo o dei numeri di porta</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Blocco o autorizzazione dei messaggi ICMP in ingresso</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Blocco o autorizzazione dei messaggi ICMP in ingresso</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllo dell'accesso in uscita</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Controllo dell'accesso in uscita</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protezione delle applicazioni</p></td>
-<td style="border:1px solid black;"><p>Potenziale</p></td>
+<td style="border:1px solid black;">Protezione delle applicazioni</td>
+<td style="border:1px solid black;">Potenziale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Segnalazioni acustiche o avvisi visivi</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Segnalazioni acustiche o avvisi visivi</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>File di registro degli attacchi</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">File di registro degli attacchi</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Avvisi in tempo reale</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Avvisi in tempo reale</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto VPN</p></td>
-<td style="border:1px solid black;"><p>Potenziale</p></td>
+<td style="border:1px solid black;">Supporto VPN</td>
+<td style="border:1px solid black;">Potenziale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gestione remota</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Gestione remota</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto da parte del produttore</p></td>
-<td style="border:1px solid black;"><p>Di buon livello</p></td>
+<td style="border:1px solid black;">Supporto da parte del produttore</td>
+<td style="border:1px solid black;">Di buon livello</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Disponibilità dell'opzione di elevata disponibilità</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Disponibilità dell'opzione di elevata disponibilità</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Numero di sessioni simultanee</p></td>
-<td style="border:1px solid black;"><p>Oltre 50.000 (su più segmenti di rete)</p></td>
+<td style="border:1px solid black;">Numero di sessioni simultanee</td>
+<td style="border:1px solid black;">Oltre 50.000 (su più segmenti di rete)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Possibilità di aggiornamento modulare (hardware o software)</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Possibilità di aggiornamento modulare (hardware o software)</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Altro</p></td>
-<td style="border:1px solid black;"><p>Sistema operativo di uso comune</p></td>
+<td style="border:1px solid black;">Altro</td>
+<td style="border:1px solid black;">Sistema operativo di uso comune</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Categoria di prezzo</p></td>
-<td style="border:1px solid black;"><p>Alta</p></td>
+<td style="border:1px solid black;">Categoria di prezzo</td>
+<td style="border:1px solid black;">Alta</td>
 </tr>
 </tbody>
 </table>
@@ -984,7 +984,7 @@ I firewall utilizzati come risorsa di confine rappresentano la via d'accesso del
   
 **Tabella 6. Fattori che determinano la scelta di una classe di firewall perimetrali**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -992,30 +992,30 @@ I firewall utilizzati come risorsa di confine rappresentano la via d'accesso del
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Fattore da valutare</p></th>
-<th><p>Caratteristiche tipiche del firewall implementato</p></th>
+<th>Fattore da valutare</th>
+<th>Caratteristiche tipiche del firewall implementato</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Funzionalità firewall richieste, secondo quanto specificato dall'amministratore della protezione</p></td>
-<td style="border:1px solid black;"><p>Occorre trovare un giusto compromesso tra il grado di protezione richiesto e il costo di un incremento della protezione in termini economici e di riduzione delle prestazioni. Sebbene molte organizzazioni desiderino ottenere la massima protezione da un firewall perimetrale, ne esistono alcune che non sono disposte ad accettare la conseguente riduzione delle prestazioni. Ad esempio, nei siti Web non collegati all'e-commerce dai volumi molto elevati, è possibile applicare livelli di protezione più bassi in considerazione dei livelli di velocità effettiva più alti ottenuti utilizzando i filtri di pacchetti statici invece del filtraggio a livello di applicazione.</p></td>
+<td style="border:1px solid black;">Funzionalità firewall richieste, secondo quanto specificato dall'amministratore della protezione</td>
+<td style="border:1px solid black;">Occorre trovare un giusto compromesso tra il grado di protezione richiesto e il costo di un incremento della protezione in termini economici e di riduzione delle prestazioni. Sebbene molte organizzazioni desiderino ottenere la massima protezione da un firewall perimetrale, ne esistono alcune che non sono disposte ad accettare la conseguente riduzione delle prestazioni. Ad esempio, nei siti Web non collegati all'e-commerce dai volumi molto elevati, è possibile applicare livelli di protezione più bassi in considerazione dei livelli di velocità effettiva più alti ottenuti utilizzando i filtri di pacchetti statici invece del filtraggio a livello di applicazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Valutazione della tipologia di firewall, che potrà essere un dispositivo fisico dedicato o un firewall logico su un dispositivo fisico oppure potrà offrire anche altre funzionalità</p></td>
-<td style="border:1px solid black;"><p>In quanto punto di collegamento tra Internet e la rete aziendale, il firewall perimetrale è spesso implementato come dispositivo dedicato allo scopo di ridurre al minimo la superficie esposta agli attacchi e la possibilità di accesso alle reti interne in caso di violazione del dispositivo.</p></td>
+<td style="border:1px solid black;">Valutazione della tipologia di firewall, che potrà essere un dispositivo fisico dedicato o un firewall logico su un dispositivo fisico oppure potrà offrire anche altre funzionalità</td>
+<td style="border:1px solid black;">In quanto punto di collegamento tra Internet e la rete aziendale, il firewall perimetrale è spesso implementato come dispositivo dedicato allo scopo di ridurre al minimo la superficie esposta agli attacchi e la possibilità di accesso alle reti interne in caso di violazione del dispositivo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Requisiti di gestibilità del dispositivo, secondo quanto specificato nell'architettura di gestione dell'organizzazione</p></td>
-<td style="border:1px solid black;"><p>È utilizzato in genere un metodo di registrazione e richiesto un meccanismo di monitoraggio degli eventi. È possibile scegliere di non consentire l'amministrazione remota per impedire a utenti malintenzionati di amministrare il dispositivo in remoto.</p></td>
+<td style="border:1px solid black;">Requisiti di gestibilità del dispositivo, secondo quanto specificato nell'architettura di gestione dell'organizzazione</td>
+<td style="border:1px solid black;">È utilizzato in genere un metodo di registrazione e richiesto un meccanismo di monitoraggio degli eventi. È possibile scegliere di non consentire l'amministrazione remota per impedire a utenti malintenzionati di amministrare il dispositivo in remoto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Requisiti di velocità effettiva, probabilmente definiti dagli amministratori di rete e dei servizi dell'organizzazione</p></td>
-<td style="border:1px solid black;"><p>Questi requisiti variano da ambiente ad ambiente, ma la potenza dell'hardware del dispositivo o del server e le funzionalità firewall in uso determineranno la velocità effettiva globale della rete disponibile.</p></td>
+<td style="border:1px solid black;">Requisiti di velocità effettiva, probabilmente definiti dagli amministratori di rete e dei servizi dell'organizzazione</td>
+<td style="border:1px solid black;">Questi requisiti variano da ambiente ad ambiente, ma la potenza dell'hardware del dispositivo o del server e le funzionalità firewall in uso determineranno la velocità effettiva globale della rete disponibile.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Requisiti di disponibilità</p></td>
-<td style="border:1px solid black;"><p>In quanto via d'accesso a Internet nelle grandi aziende, è spesso richiesto un elevato livello di disponibilità, soprattutto se il firewall perimetrale viene utilizzato per proteggere un sito Web che genera profitti per l'azienda.</p></td>
+<td style="border:1px solid black;">Requisiti di disponibilità</td>
+<td style="border:1px solid black;">In quanto via d'accesso a Internet nelle grandi aziende, è spesso richiesto un elevato livello di disponibilità, soprattutto se il firewall perimetrale viene utilizzato per proteggere un sito Web che genera profitti per l'azienda.</td>
 </tr>
 </tbody>
 </table>

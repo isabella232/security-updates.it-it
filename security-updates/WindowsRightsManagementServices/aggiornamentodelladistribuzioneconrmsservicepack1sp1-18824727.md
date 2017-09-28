@@ -76,7 +76,7 @@ Poiché RMS SP1 fornisce numerosi miglioramenti e livelli più elevati di presta
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -94,34 +94,34 @@ Poiché RMS SP1 fornisce numerosi miglioramenti e livelli più elevati di presta
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>1.0</p></td>
-<td style="border:1px solid black;"><p>Tutte le funzionalità precedenti.</p>
-<p>Registrazione non in linea del server non supportata. Il server deve eseguire la registrazione su Internet.</p>
-<p>Nessun client ad attivazione automatica.</p></td>
-<td style="border:1px solid black;"><p>Tutte le funzionalità precedenti.</p>
-<p>Registrazione non in linea del server non supportata.</p>
-<p>Client ad attivazione automatica.</p></td>
-<td style="border:1px solid black;"><p>Tutte le funzionalità precedenti.</p>
-<p>Per la versione SP1, i client sono ad attivazione automatica.</p>
-<p>Per la versione 1, i client devono eseguire l'attivazione su Internet.</p></td>
+<td style="border:1px solid black;">1.0</td>
+<td style="border:1px solid black;">Tutte le funzionalità precedenti.
+Registrazione non in linea del server non supportata. Il server deve eseguire la registrazione su Internet.
+Nessun client ad attivazione automatica.</td>
+<td style="border:1px solid black;">Tutte le funzionalità precedenti.
+Registrazione non in linea del server non supportata.
+Client ad attivazione automatica.</td>
+<td style="border:1px solid black;">Tutte le funzionalità precedenti.
+Per la versione SP1, i client sono ad attivazione automatica.
+Per la versione 1, i client devono eseguire l'attivazione su Internet.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SP1</p></td>
-<td style="border:1px solid black;"><p>Tutte le funzionalità precedenti.</p>
-<p>Registrazione non in linea del server.</p>
-<p>Nessun client ad attivazione automatica.</p></td>
-<td style="border:1px solid black;"><p>Tutte le funzionalità SP1.</p>
-<p>Registrazione non in linea del server.</p>
-<p>Client ad attivazione automatica.</p>
-<p>Archivio protetto del server.</p></td>
-<td style="border:1px solid black;"><p>Tutte le funzionalità precedenti, più le funzionalità SP1.</p>
-<p>Registrazione non in linea del server.</p>
-<p>Per la versione SP1, i client sono ad attivazione automatica.</p>
-<p>Per la versione 1, i client devono eseguire l'attivazione su Internet.</p></td>
+<td style="border:1px solid black;">SP1</td>
+<td style="border:1px solid black;">Tutte le funzionalità precedenti.
+Registrazione non in linea del server.
+Nessun client ad attivazione automatica.</td>
+<td style="border:1px solid black;">Tutte le funzionalità SP1.
+Registrazione non in linea del server.
+Client ad attivazione automatica.
+Archivio protetto del server.</td>
+<td style="border:1px solid black;">Tutte le funzionalità precedenti, più le funzionalità SP1.
+Registrazione non in linea del server.
+Per la versione SP1, i client sono ad attivazione automatica.
+Per la versione 1, i client devono eseguire l'attivazione su Internet.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 <span id="BKMK_6"></span>
 Rimozione di RMS con SP1

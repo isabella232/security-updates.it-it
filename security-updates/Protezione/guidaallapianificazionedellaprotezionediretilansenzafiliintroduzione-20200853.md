@@ -79,7 +79,7 @@ Tutta la Guida, ma in particolare gli ultimi moduli, si rivolge ai professionist
 
 **Tabella 1. Convenzioni di stile**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -87,49 +87,49 @@ Tutta la Guida, ma in particolare gli ultimi moduli, si rivolge ai professionist
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Significato</p></th>
+<th>Elemento</th>
+<th>Significato</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Grassetto</strong></p></td>
-<td style="border:1px solid black;"><p>Caratteri digitati esattamente come indicato, inclusi comandi e opzioni. Vengono riportati in grassetto anche gli elementi di interfaccia utente nel testo delle istruzioni.</p></td>
+<td style="border:1px solid black;"><strong>Grassetto</strong></td>
+<td style="border:1px solid black;">Caratteri digitati esattamente come indicato, inclusi comandi e opzioni. Vengono riportati in grassetto anche gli elementi di interfaccia utente nel testo delle istruzioni.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>Corsivo</em></p></td>
-<td style="border:1px solid black;"><p>Segnaposto per variabili nei punti in cui è necessario inserire valori specifici. Ad esempio, <em>Nomefile.ext</em> indica che è necessario sostituire il testo in corsivo <em>nomefile.ext</em> con il nome del file di propria scelta.</p></td>
+<td style="border:1px solid black;"><em>Corsivo</em></td>
+<td style="border:1px solid black;">Segnaposto per variabili nei punti in cui è necessario inserire valori specifici. Ad esempio, <em>Nomefile.ext</em> indica che è necessario sostituire il testo in corsivo <em>nomefile.ext</em> con il nome del file di propria scelta.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Testo su schermo</p></td>
-<td style="border:1px solid black;"><p>Indica il testo visualizzato sullo schermo.</p></td>
+<td style="border:1px solid black;">Testo su schermo</td>
+<td style="border:1px solid black;">Indica il testo visualizzato sullo schermo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p></p>
+<td style="border:1px solid black;">
 <pre><code>Spaziatura fissa</code></pre>
 <br />
 </td>
-<td style="border:1px solid black;"><p>Esempi di codice.</p></td>
+<td style="border:1px solid black;">Esempi di codice.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>%SystemRoot%</p></td>
-<td style="border:1px solid black;"><p>Cartella di installazione del sistema operativo Microsoft Windows 2000.</p></td>
+<td style="border:1px solid black;">%SystemRoot%</td>
+<td style="border:1px solid black;">Cartella di installazione del sistema operativo Microsoft Windows 2000.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
-<td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari.</p></td>
+<td style="border:1px solid black;"><strong>Nota</strong></td>
+<td style="border:1px solid black;">Richiama l'attenzione del lettore su informazioni supplementari.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
-<td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari essenziali per il completamento dell'operazione.</p></td>
+<td style="border:1px solid black;"><strong>Importante</strong></td>
+<td style="border:1px solid black;">Richiama l'attenzione del lettore su informazioni supplementari essenziali per il completamento dell'operazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Avviso</strong></p></td>
-<td style="border:1px solid black;"><p>Avvisa il lettore che l'inosservanza di un'azione specifica potrebbe provocare una perdita di dati.</p></td>
+<td style="border:1px solid black;"><strong>Avviso</strong></td>
+<td style="border:1px solid black;">Avvisa il lettore che l'inosservanza di un'azione specifica potrebbe provocare una perdita di dati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Attenzione</strong></p></td>
-<td style="border:1px solid black;"><p>Avvisa il lettore che l'inosservanza di un'azione specifica potrebbe provocare lesioni fisiche all'utente o danni all'hardware.</p></td>
+<td style="border:1px solid black;"><strong>Attenzione</strong></td>
+<td style="border:1px solid black;">Avvisa il lettore che l'inosservanza di un'azione specifica potrebbe provocare lesioni fisiche all'utente o danni all'hardware.</td>
 </tr>
 </tbody>
 </table>

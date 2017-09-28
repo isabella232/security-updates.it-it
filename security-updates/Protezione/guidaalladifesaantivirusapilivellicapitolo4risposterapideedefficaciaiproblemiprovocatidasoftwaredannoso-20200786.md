@@ -564,7 +564,7 @@ Un altro sintomo tipico della presenza di software dannoso è l'utilizzo di cart
 
 **Tabella 4.1: Cartelle condivise predefinite di Windows XP**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -573,38 +573,38 @@ Un altro sintomo tipico della presenza di software dannoso è l'utilizzo di cart
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Cartella condivisa</p></th>
-<th><p>Percorso condiviso</p></th>
-<th><p>Commento</p></th>
+<th>Cartella condivisa</th>
+<th>Percorso condiviso</th>
+<th>Commento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ADMIN$</p></td>
-<td style="border:1px solid black;"><p>C:\Windows</p></td>
-<td style="border:1px solid black;"><p>Amministratore remoto.</p></td>
+<td style="border:1px solid black;">ADMIN$</td>
+<td style="border:1px solid black;">C:\Windows</td>
+<td style="border:1px solid black;">Amministratore remoto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>C$</p></td>
-<td style="border:1px solid black;"><p>C:\</p></td>
-<td style="border:1px solid black;"><p>Condivisione predefinita.</p></td>
+<td style="border:1px solid black;">C$</td>
+<td style="border:1px solid black;">C:\</td>
+<td style="border:1px solid black;">Condivisione predefinita.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>&lt;n&gt;$</p></td>
-<td style="border:1px solid black;"><p>&lt;n:&gt;\</p></td>
-<td style="border:1px solid black;"><p>Rappresenta una condivisione per la directory principale di ciascuna unità disco rigido sul sistema.</p></td>
+<td style="border:1px solid black;">&lt;n&gt;$</td>
+<td style="border:1px solid black;">&lt;n:&gt;\</td>
+<td style="border:1px solid black;">Rappresenta una condivisione per la directory principale di ciascuna unità disco rigido sul sistema.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SharedDocs</p></td>
-<td style="border:1px solid black;"><p>C:\Documents and Settings\All Users\Documenti</p></td>
-<td style="border:1px solid black;"><p>Verrà aggiunto se è stata abilitata la condivisione locale dei file.</p></td>
+<td style="border:1px solid black;">SharedDocs</td>
+<td style="border:1px solid black;">C:\Documents and Settings\All Users\Documenti</td>
+<td style="border:1px solid black;">Verrà aggiunto se è stata abilitata la condivisione locale dei file.</td>
 </tr>
 </tbody>
 </table>
   
 **Tabella 4.2: Condivisioni cartelle predefinite di Windows Server 2003 e Windows 2000 Server**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -613,36 +613,36 @@ Un altro sintomo tipico della presenza di software dannoso è l'utilizzo di cart
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Cartella condivisa</p></th>
-<th><p>Percorso condiviso</p></th>
-<th><p>Commento</p></th>
+<th>Cartella condivisa</th>
+<th>Percorso condiviso</th>
+<th>Commento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ADMIN$</p></td>
-<td style="border:1px solid black;"><p>C:\Windows</p></td>
-<td style="border:1px solid black;"><p>Amministratore remoto.</p></td>
+<td style="border:1px solid black;">ADMIN$</td>
+<td style="border:1px solid black;">C:\Windows</td>
+<td style="border:1px solid black;">Amministratore remoto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>C$</p></td>
-<td style="border:1px solid black;"><p>C:\</p></td>
-<td style="border:1px solid black;"><p>Condivisione predefinita.</p></td>
+<td style="border:1px solid black;">C$</td>
+<td style="border:1px solid black;">C:\</td>
+<td style="border:1px solid black;">Condivisione predefinita.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>&lt;n&gt;$</p></td>
-<td style="border:1px solid black;"><p>&lt;n:&gt;\</p></td>
-<td style="border:1px solid black;"><p>Rappresenta una condivisione per la directory principale di ciascuna unità disco rigido sul sistema.</p></td>
+<td style="border:1px solid black;">&lt;n&gt;$</td>
+<td style="border:1px solid black;">&lt;n:&gt;\</td>
+<td style="border:1px solid black;">Rappresenta una condivisione per la directory principale di ciascuna unità disco rigido sul sistema.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SharedDocs</p></td>
-<td style="border:1px solid black;"><p>C:\Documents and Settings\All Users\Documenti</p></td>
-<td style="border:1px solid black;"><p>Verrà aggiunto se è stata abilitata la condivisione locale dei file.</p></td>
+<td style="border:1px solid black;">SharedDocs</td>
+<td style="border:1px solid black;">C:\Documents and Settings\All Users\Documenti</td>
+<td style="border:1px solid black;">Verrà aggiunto se è stata abilitata la condivisione locale dei file.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Wwwroot$</p></td>
-<td style="border:1px solid black;"><p>C:\inetpub\wwwroot</p></td>
-<td style="border:1px solid black;"><p>Verrà configurata se i servizi IIS sono stati installati come server Web.</p></td>
+<td style="border:1px solid black;">Wwwroot$</td>
+<td style="border:1px solid black;">C:\inetpub\wwwroot</td>
+<td style="border:1px solid black;">Verrà configurata se i servizi IIS sono stati installati come server Web.</td>
 </tr>
 </tbody>
 </table>
@@ -729,7 +729,7 @@ Per scegliere l'opzione più adatta per il proprio sistema, è sufficiente indiv
   
 **Tabella 4.3: Vantaggi e svantaggi relativi alla pulitura e alla ricostruzione del sistema**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -737,26 +737,26 @@ Per scegliere l'opzione più adatta per il proprio sistema, è sufficiente indiv
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Pulitura</p></th>
-<th><p>Ricostruzione</p></th>
+<th>Pulitura</th>
+<th>Ricostruzione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Processo semplice, se sono disponibili gli strumenti di pulitura.</p></td>
-<td style="border:1px solid black;"><p>Processo più complesso, specialmente se non viene installata una soluzione di backup e ripristino prima dell'infezione.</p></td>
+<td style="border:1px solid black;">Processo semplice, se sono disponibili gli strumenti di pulitura.</td>
+<td style="border:1px solid black;">Processo più complesso, specialmente se non viene installata una soluzione di backup e ripristino prima dell'infezione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Minor numero di passaggi richiesti per garantire la pulitura dei dati.</p></td>
-<td style="border:1px solid black;"><p>Maggior numero di passaggi richiesti per l'acquisizione, il backup, la pulitura, l'analisi e il ripristino dei dati.</p></td>
+<td style="border:1px solid black;">Minor numero di passaggi richiesti per garantire la pulitura dei dati.</td>
+<td style="border:1px solid black;">Maggior numero di passaggi richiesti per l'acquisizione, il backup, la pulitura, l'analisi e il ripristino dei dati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Meno risorse richieste per l'utilizzo degli strumenti di rimozione rispetto a quelle necessarie per la ricostruzione dell'intero sistema.</p></td>
-<td style="border:1px solid black;"><p>Il processo di ricostruzione richiede molto tempo e risorse per poter essere completato.</p></td>
+<td style="border:1px solid black;">Meno risorse richieste per l'utilizzo degli strumenti di rimozione rispetto a quelle necessarie per la ricostruzione dell'intero sistema.</td>
+<td style="border:1px solid black;">Il processo di ricostruzione richiede molto tempo e risorse per poter essere completato.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Rischio che l'infezione non venga eliminata completamente dal sistema.</p></td>
-<td style="border:1px solid black;"><p>Rischio ridotto che l'infezione non venga eliminata completamente dal sistema se il ripristino viene eseguito da supporti puliti e dati gestiti in modo adeguato.</p></td>
+<td style="border:1px solid black;">Rischio che l'infezione non venga eliminata completamente dal sistema.</td>
+<td style="border:1px solid black;">Rischio ridotto che l'infezione non venga eliminata completamente dal sistema se il ripristino viene eseguito da supporti puliti e dati gestiti in modo adeguato.</td>
 </tr>
 </tbody>
 </table>

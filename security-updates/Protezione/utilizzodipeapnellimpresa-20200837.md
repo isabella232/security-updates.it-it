@@ -27,7 +27,7 @@ Nella tabella seguente viene mostrata la correlazione tra i capitoli delle due s
 
 **Tabella A.1: Corrispondenza tra i capitoli delle soluzioni EAP-TLS e PEAP**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -35,66 +35,66 @@ Nella tabella seguente viene mostrata la correlazione tra i capitoli delle due s
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Soluzione EAP-TLS</p></th>
-<th><p>Soluzione PEAP</p></th>
+<th>Soluzione EAP-TLS</th>
+<th>Soluzione PEAP</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Capitolo 1 Panoramica</p></td>
-<td style="border:1px solid black;"><p>Capitolo 1 Protezione delle reti LAN senza fili con PEAP e password</p></td>
+<td style="border:1px solid black;">Capitolo 1 Panoramica</td>
+<td style="border:1px solid black;">Capitolo 1 Protezione delle reti LAN senza fili con PEAP e password</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Capitolo 2 Scelta di una strategia di rete senza fili protetta</p></td>
-<td style="border:1px solid black;"><p>Introduzione Scelta di una strategia per la protezione di reti LAN senza fili</p></td>
+<td style="border:1px solid black;">Capitolo 2 Scelta di una strategia di rete senza fili protetta</td>
+<td style="border:1px solid black;">Introduzione Scelta di una strategia per la protezione di reti LAN senza fili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Capitolo 3 Architettura della soluzione di rete LAN senza fili protetta</p></td>
-<td style="border:1px solid black;"><p>Capitolo 2 Pianificazione dell'implementazione della protezione di reti LAN senza fili</p></td>
+<td style="border:1px solid black;">Capitolo 3 Architettura della soluzione di rete LAN senza fili protetta</td>
+<td style="border:1px solid black;">Capitolo 2 Pianificazione dell'implementazione della protezione di reti LAN senza fili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Capitolo 4 Progettazione dell'infrastruttura a chiave pubblica (PKI)</p></td>
-<td style="border:1px solid black;"><p>Capitolo 2 Pianificazione dell'implementazione della protezione di reti LAN senza fili</p></td>
+<td style="border:1px solid black;">Capitolo 4 Progettazione dell'infrastruttura a chiave pubblica (PKI)</td>
+<td style="border:1px solid black;">Capitolo 2 Pianificazione dell'implementazione della protezione di reti LAN senza fili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Capitolo 5 Progettazione di un'infrastruttura RADIUS per la protezione di reti LAN senza fili</p></td>
-<td style="border:1px solid black;"><p>Capitolo 2 Pianificazione dell'implementazione della protezione di reti LAN senza fili</p></td>
+<td style="border:1px solid black;">Capitolo 5 Progettazione di un'infrastruttura RADIUS per la protezione di reti LAN senza fili</td>
+<td style="border:1px solid black;">Capitolo 2 Pianificazione dell'implementazione della protezione di reti LAN senza fili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Capitolo 6 Progettazione della protezione di reti LAN senza fili mediante lo standard 802.1X</p></td>
-<td style="border:1px solid black;"><p>Capitolo 2 Pianificazione dell'implementazione della protezione di reti LAN senza fili</p></td>
+<td style="border:1px solid black;">Capitolo 6 Progettazione della protezione di reti LAN senza fili mediante lo standard 802.1X</td>
+<td style="border:1px solid black;">Capitolo 2 Pianificazione dell'implementazione della protezione di reti LAN senza fili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Capitolo 3 Predisposizione dell'ambiente</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Capitolo 3 Predisposizione dell'ambiente</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Capitolo 7 Implementazione dell'infrastruttura a chiave pubblica</p></td>
-<td style="border:1px solid black;"><p>Capitolo 4 Creazione dell'Autorità di certificazione della rete</p></td>
+<td style="border:1px solid black;">Capitolo 7 Implementazione dell'infrastruttura a chiave pubblica</td>
+<td style="border:1px solid black;">Capitolo 4 Creazione dell'Autorità di certificazione della rete</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Capitolo 8 Implementazione dell'infrastruttura RADIUS per la protezione di reti LAN senza fili</p></td>
-<td style="border:1px solid black;"><p>Capitolo 5 Creazione dell'infrastruttura di protezione per LAN senza fili</p></td>
+<td style="border:1px solid black;">Capitolo 8 Implementazione dell'infrastruttura RADIUS per la protezione di reti LAN senza fili</td>
+<td style="border:1px solid black;">Capitolo 5 Creazione dell'infrastruttura di protezione per LAN senza fili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Capitolo 9 Implementazione della protezione di reti LAN senza fili mediante lo standard 802.1X</p></td>
-<td style="border:1px solid black;"><p>Capitolo 6 Configurazione dei client delle reti LAN senza fili</p></td>
+<td style="border:1px solid black;">Capitolo 9 Implementazione della protezione di reti LAN senza fili mediante lo standard 802.1X</td>
+<td style="border:1px solid black;">Capitolo 6 Configurazione dei client delle reti LAN senza fili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Capitolo 10 Introduction to Operations Guide</p></td>
-<td style="border:1px solid black;"><p>Capitolo 8 Gestione della soluzione per reti LAN senza fili protette</p></td>
+<td style="border:1px solid black;">Capitolo 10 Introduction to Operations Guide</td>
+<td style="border:1px solid black;">Capitolo 8 Gestione della soluzione per reti LAN senza fili protette</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Capitolo 11 Managing the Public Key Infrastructure</p></td>
-<td style="border:1px solid black;"><p>Capitolo 8 Gestione della soluzione per reti LAN senza fili protette</p></td>
+<td style="border:1px solid black;">Capitolo 11 Managing the Public Key Infrastructure</td>
+<td style="border:1px solid black;">Capitolo 8 Gestione della soluzione per reti LAN senza fili protette</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Capitolo 12 Managing the RADIUS and WLAN Security Infrastructure</p></td>
-<td style="border:1px solid black;"><p>Capitolo 8 Gestione della soluzione per reti LAN senza fili protette</p></td>
+<td style="border:1px solid black;">Capitolo 12 Managing the RADIUS and WLAN Security Infrastructure</td>
+<td style="border:1px solid black;">Capitolo 8 Gestione della soluzione per reti LAN senza fili protette</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Capitolo 13 Guida per i test</p></td>
-<td style="border:1px solid black;"><p>Capitolo 7 Gestione della soluzione per reti LAN senza fili protette</p></td>
+<td style="border:1px solid black;">Capitolo 13 Guida per i test</td>
+<td style="border:1px solid black;">Capitolo 7 Gestione della soluzione per reti LAN senza fili protette</td>
 </tr>
 </tbody>
 </table>

@@ -38,7 +38,7 @@ Per valutare come funziona questa stima, si consideri che un'organizzazione con 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -54,24 +54,24 @@ Per valutare come funziona questa stima, si consideri che un'organizzazione con 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Il provisioning del server RMS è stato eseguito con successo</p></td>
-<td style="border:1px solid black;"><p>1,7 MB</p></td>
-<td style="border:1px solid black;"><p>1,7 MB</p></td>
+<td style="border:1px solid black;">Il provisioning del server RMS è stato eseguito con successo</td>
+<td style="border:1px solid black;">1,7 MB</td>
+<td style="border:1px solid black;">1,7 MB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Registrazione di 5000 dipendenti (5000*0,06)</p></td>
-<td style="border:1px solid black;"><p>300 MB</p></td>
-<td style="border:1px solid black;"><p>301,7 MB</p></td>
+<td style="border:1px solid black;">Registrazione di 5000 dipendenti (5000*0,06)</td>
+<td style="border:1px solid black;">300 MB</td>
+<td style="border:1px solid black;">301,7 MB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Accesso a messaggi di posta elettronica protetti (25000*0,19)</p></td>
-<td style="border:1px solid black;"><p>4750 MB</p></td>
-<td style="border:1px solid black;"><p>5051,7 MB</p></td>
+<td style="border:1px solid black;">Accesso a messaggi di posta elettronica protetti (25000*0,19)</td>
+<td style="border:1px solid black;">4750 MB</td>
+<td style="border:1px solid black;">5051,7 MB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Accesso a documenti protetti (15000*0,19)</p></td>
-<td style="border:1px solid black;"><p>2850 MB</p></td>
-<td style="border:1px solid black;"><p>7901,7 MB</p></td>
+<td style="border:1px solid black;">Accesso a documenti protetti (15000*0,19)</td>
+<td style="border:1px solid black;">2850 MB</td>
+<td style="border:1px solid black;">7901,7 MB</td>
 </tr>
 </tbody>
 </table>

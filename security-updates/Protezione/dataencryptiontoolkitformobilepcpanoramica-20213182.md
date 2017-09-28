@@ -80,7 +80,7 @@ Questa sezione fornisce una panoramica dei capitoli contenuti in questa guida.
 
 Questa guida utilizza le convenzioni di stile descritte nella tabella seguente.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -88,34 +88,34 @@ Questa guida utilizza le convenzioni di stile descritte nella tabella seguente.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Significato</p></th>
+<th>Elemento</th>
+<th>Significato</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Testo in grassetto</strong></p></td>
-<td style="border:1px solid black;"><p>Caratteri digitati in grassetto (come nella colonna Elemento), inclusi comandi, switch e nomi di file. Anche gli elementi dell'interfaccia utente vengono visualizzati in grassetto.</p></td>
+<td style="border:1px solid black;"><strong>Testo in grassetto</strong></td>
+<td style="border:1px solid black;">Caratteri digitati in grassetto (come nella colonna Elemento), inclusi comandi, switch e nomi di file. Anche gli elementi dell'interfaccia utente vengono visualizzati in grassetto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>Testo in corsivo</em></p></td>
-<td style="border:1px solid black;"><p>I titoli dei libri e di altre pubblicazioni vengono visualizzati in <em>corsivo</em>.</p></td>
+<td style="border:1px solid black;"><em>Testo in corsivo</em></td>
+<td style="border:1px solid black;">I titoli dei libri e di altre pubblicazioni vengono visualizzati in <em>corsivo</em>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>&lt;Corsivo&gt;</em></p></td>
-<td style="border:1px solid black;"><p>I segnaposti in corsivo e tra parentesi angolari, ad esempio <em>&lt;nome file&gt;</em>, rappresentano le variabili.</p></td>
+<td style="border:1px solid black;"><em>&lt;Corsivo&gt;</em></td>
+<td style="border:1px solid black;">I segnaposti in corsivo e tra parentesi angolari, ad esempio <em>&lt;nome file&gt;</em>, rappresentano le variabili.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Testo a spaziatura fissa</code></pre></td>
-<td style="border:1px solid black;"><p>Indica esempi di codice e script.</p></td>
+<td style="border:1px solid black;">Indica esempi di codice e script.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
-<td style="border:1px solid black;"><p>Segnala la presenza di informazioni supplementari.</p></td>
+<td style="border:1px solid black;"><strong>Nota</strong></td>
+<td style="border:1px solid black;">Segnala la presenza di informazioni supplementari.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
-<td style="border:1px solid black;"><p>Segnala la presenza di informazioni supplementari importanti.</p></td>
+<td style="border:1px solid black;"><strong>Importante</strong></td>
+<td style="border:1px solid black;">Segnala la presenza di informazioni supplementari importanti.</td>
 </tr>
 </tbody>
 </table>

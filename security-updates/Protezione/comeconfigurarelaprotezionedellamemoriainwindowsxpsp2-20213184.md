@@ -200,7 +200,7 @@ Nella tabella 1 sono elencate le opzioni per Livello\_criterio.
 
 **Tabella 1 Opzioni per il livello di criterio del file boot.ini di Protezione esecuzione programmi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -208,27 +208,27 @@ Nella tabella 1 sono elencate le opzioni per Livello\_criterio.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Livello di criterio</p></th>
-<th><p>Descrizione</p></th>
+<th>Livello di criterio</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>OptIn</strong></p>
-<p>(configurazione predefinita)</p></td>
-<td style="border:1px solid black;"><p>La funzionalità Protezione esecuzione programmi è applicata solo ai servizi e ai componenti di sistema di Windows</p></td>
+<td style="border:1px solid black;"><strong>OptIn</strong>
+(configurazione predefinita)</td>
+<td style="border:1px solid black;">La funzionalità Protezione esecuzione programmi è applicata solo ai servizi e ai componenti di sistema di Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>OptOut</strong></p></td>
-<td style="border:1px solid black;"><p>La funzionalità Protezione esecuzione programmi è attivata per tutti i processi. Gli amministratori possono creare manualmente un elenco di applicazioni specifiche esentate dall'applicazione della funzionalità Protezione esecuzione programmi</p></td>
+<td style="border:1px solid black;"><strong>OptOut</strong></td>
+<td style="border:1px solid black;">La funzionalità Protezione esecuzione programmi è attivata per tutti i processi. Gli amministratori possono creare manualmente un elenco di applicazioni specifiche esentate dall'applicazione della funzionalità Protezione esecuzione programmi</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>AlwaysOn</strong></p></td>
-<td style="border:1px solid black;"><p>Protezione esecuzione programmi è attivata per tutti i processi</p></td>
+<td style="border:1px solid black;"><strong>AlwaysOn</strong></td>
+<td style="border:1px solid black;">Protezione esecuzione programmi è attivata per tutti i processi</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>AlwaysOff</strong></p></td>
-<td style="border:1px solid black;"><p>Protezione esecuzione programmi non è attivata per nessun processo</p></td>
+<td style="border:1px solid black;"><strong>AlwaysOff</strong></td>
+<td style="border:1px solid black;">Protezione esecuzione programmi non è attivata per nessun processo</td>
 </tr>
 </tbody>
 </table>

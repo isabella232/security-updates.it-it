@@ -572,7 +572,7 @@ La tabella seguente mostra alcune linee guida per la risoluzione dei problemi re
 
 **Tabella 1. Linee guida per la risoluzione dei problemi relativi alla soluzione VPN per smart card**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -580,57 +580,57 @@ La tabella seguente mostra alcune linee guida per la risoluzione dei problemi re
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Problema</p></th>
-<th><p>Soluzione</p></th>
+<th>Problema</th>
+<th>Soluzione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>I certificati corrispondenti non sono disponibili presso l'Autorità di certificazione.</p></td>
-<td style="border:1px solid black;"><p>Abilitare i modelli dei certificati nei siti e nei servizi di Active Directory.</p>
-<p>Assegnare le autorizzazioni di registrazione.</p></td>
+<td style="border:1px solid black;">I certificati corrispondenti non sono disponibili presso l'Autorità di certificazione.</td>
+<td style="border:1px solid black;">Abilitare i modelli dei certificati nei siti e nei servizi di Active Directory.
+Assegnare le autorizzazioni di registrazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Non è possibile assegnare i certificati alla smart card.</p></td>
-<td style="border:1px solid black;"><p>Installare uno scrittore di smart card.</p>
-<p>Assegnare un certificato dell'agente di registrazione.</p></td>
+<td style="border:1px solid black;">Non è possibile assegnare i certificati alla smart card.</td>
+<td style="border:1px solid black;">Installare uno scrittore di smart card.
+Assegnare un certificato dell'agente di registrazione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Il server VPN non può autenticare i client remoti.</p></td>
-<td style="border:1px solid black;"><p>Configurare il server per supportare l'autenticazione EAP-TLS.</p>
-<p>Verificare che il certificato utilizzato sul server sia riconosciuto come trusted dal client.</p></td>
+<td style="border:1px solid black;">Il server VPN non può autenticare i client remoti.</td>
+<td style="border:1px solid black;">Configurare il server per supportare l'autenticazione EAP-TLS.
+Verificare che il certificato utilizzato sul server sia riconosciuto come trusted dal client.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Il client tenta di stabilire una connessione prima della creazione della VPN.</p></td>
-<td style="border:1px solid black;"><p>Configurare il client in modo che non stabilisca una connessione iniziale.</p></td>
+<td style="border:1px solid black;">Il client tenta di stabilire una connessione prima della creazione della VPN.</td>
+<td style="border:1px solid black;">Configurare il client in modo che non stabilisca una connessione iniziale.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Il client non tenta di stabilire una connessione prima della creazione della VPN.</p></td>
-<td style="border:1px solid black;"><p>Configurare il client in modo che stabilisca una connessione iniziale.</p></td>
+<td style="border:1px solid black;">Il client non tenta di stabilire una connessione prima della creazione della VPN.</td>
+<td style="border:1px solid black;">Configurare il client in modo che stabilisca una connessione iniziale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Quando il client tenta di creare la VPN, viene richiesto un nome utente, un dominio e una password.</p></td>
-<td style="border:1px solid black;"><p>Verificare che la connessione VPN sia configurata per l'uso di una smart card.</p>
-<p>Verificare che le impostazioni HideUserName, HideDomain e HidePassword siano abilitate.</p></td>
+<td style="border:1px solid black;">Quando il client tenta di creare la VPN, viene richiesto un nome utente, un dominio e una password.</td>
+<td style="border:1px solid black;">Verificare che la connessione VPN sia configurata per l'uso di una smart card.
+Verificare che le impostazioni HideUserName, HideDomain e HidePassword siano abilitate.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Il client non dispone di un oggetto di connessione nelle connessioni di rete.</p></td>
-<td style="border:1px solid black;"><p>Verificare che il profilo di Connection Manager sia stato fornito al client.</p>
-<p>Verificare che l'eseguibile del profilo di Connection Manager sia stato eseguito.</p></td>
+<td style="border:1px solid black;">Il client non dispone di un oggetto di connessione nelle connessioni di rete.</td>
+<td style="border:1px solid black;">Verificare che il profilo di Connection Manager sia stato fornito al client.
+Verificare che l'eseguibile del profilo di Connection Manager sia stato eseguito.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Il client non si connette al server VPN.</p></td>
-<td style="border:1px solid black;"><p>Verificare che la connessione client sia configurata con il nome server VPN corretto.</p>
-<p>Verificare che il client selezioni il server corretto dall'elenco dei server VPN.</p></td>
+<td style="border:1px solid black;">Il client non si connette al server VPN.</td>
+<td style="border:1px solid black;">Verificare che la connessione client sia configurata con il nome server VPN corretto.
+Verificare che il client selezioni il server corretto dall'elenco dei server VPN.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Il client non può eseguire l'autenticazione al server VPN.</p></td>
-<td style="border:1px solid black;"><p>Verificare che il client si stia connettendo al server VPN corretto.</p>
-<p>Verificare che la smart card abbia un certificato che il server VPN consideri come trusted.</p></td>
+<td style="border:1px solid black;">Il client non può eseguire l'autenticazione al server VPN.</td>
+<td style="border:1px solid black;">Verificare che il client si stia connettendo al server VPN corretto.
+Verificare che la smart card abbia un certificato che il server VPN consideri come trusted.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Per ulteriori informazioni sulla risoluzione dei problemi relativi alle connessioni VPN, vedere l'argomento **[VPN Troubleshooting](http://technet2.microsoft.com/windowsserver/en/library/4543aff5-e10f-487c-92ad-bb5518a736201033.mspx) (in inglese) sul sito Web Microsoft TechNet all'indirizzo http://technet2.microsoft.com/WindowsServer/en/Library/4543aff5-e10f-487c-92ad-bb5518a736201033.mspx.
 

@@ -46,7 +46,7 @@ Sfortunatamente, questi sforzi non misero fine ai loro problemi. Sebbene non vi 
 
 Nella tabella seguente viene mostrato un riepilogo ragionevole dei costi associati alla storia precedente.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -54,34 +54,34 @@ Nella tabella seguente viene mostrato un riepilogo ragionevole dei costi associa
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Voce di costo</p></th>
-<th><p>Importo</p></th>
+<th>Voce di costo</th>
+<th>Importo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costo del personale relativo alla perdita, incluso il recupero dei dati e i costi di notifica ai clienti.</p></td>
-<td style="border:1px solid black;"><p>$45.000</p></td>
+<td style="border:1px solid black;">Costo del personale relativo alla perdita, incluso il recupero dei dati e i costi di notifica ai clienti.</td>
+<td style="border:1px solid black;">$45.000</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Costi aggiuntivi, per le relazioni per il pubblico e gli azionisti e per le chiamate al call center.</p></td>
-<td style="border:1px solid black;"><p>$135.000</p></td>
+<td style="border:1px solid black;">Costi aggiuntivi, per le relazioni per il pubblico e gli azionisti e per le chiamate al call center.</td>
+<td style="border:1px solid black;">$135.000</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costi per i clienti interessati (monitoraggio del credito per i clienti interessati).</p></td>
-<td style="border:1px solid black;"><p>$80.000</p></td>
+<td style="border:1px solid black;">Costi per i clienti interessati (monitoraggio del credito per i clienti interessati).</td>
+<td style="border:1px solid black;">$80.000</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Danni legali, incluse le ammende, le spese legali e i costi relativi a una causa civile.</p></td>
-<td style="border:1px solid black;"><p>$165.000</p></td>
+<td style="border:1px solid black;">Danni legali, incluse le ammende, le spese legali e i costi relativi a una causa civile.</td>
+<td style="border:1px solid black;">$165.000</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Mancato introito a causa dei clienti perduti (250 clienti perduti a $700 a cliente)</p></td>
-<td style="border:1px solid black;"><p>$175.000</p></td>
+<td style="border:1px solid black;">Mancato introito a causa dei clienti perduti (250 clienti perduti a $700 a cliente)</td>
+<td style="border:1px solid black;">$175.000</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Totale</p></td>
-<td style="border:1px solid black;"><p>$600.000</p></td>
+<td style="border:1px solid black;">Totale</td>
+<td style="border:1px solid black;">$600.000</td>
 </tr>
 </tbody>
 </table>

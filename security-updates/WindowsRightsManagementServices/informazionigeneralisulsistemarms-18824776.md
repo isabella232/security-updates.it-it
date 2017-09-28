@@ -15,7 +15,7 @@ La tabella che segue elenca i tipi di server che fanno parte di una distribuzion
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -29,8 +29,8 @@ La tabella che segue elenca i tipi di server che fanno parte di una distribuzion
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Di certificazione principale</p></td>
-<td style="border:1px solid black;"><p>Esegue i seguenti servizi RMS:</p>
+<td style="border:1px solid black;">Di certificazione principale</td>
+<td style="border:1px solid black;">Esegue i seguenti servizi RMS:
 <ul>
 <li><strong>Registrazione secondaria</strong>. Esegue la registrazione secondaria dei server licenze.<br />
 <br />
@@ -48,11 +48,11 @@ La tabella che segue elenca i tipi di server che fanno parte di una distribuzion
 <br />
 </li>
 </ul>
-<p>Ogni distribuzione deve includere almeno un server o un cluster di certificazione principale. In ogni insieme di strutture di Active Directory deve essere presente un solo cluster di certificazione principale.</p></td>
+Ogni distribuzione deve includere almeno un server o un cluster di certificazione principale. In ogni insieme di strutture di Active Directory deve essere presente un solo cluster di certificazione principale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Licenze (facoltativo)</p></td>
-<td style="border:1px solid black;"><p>Esegue i seguenti servizi RMS:</p>
+<td style="border:1px solid black;">Licenze (facoltativo)</td>
+<td style="border:1px solid black;">Esegue i seguenti servizi RMS:
 <ul>
 <li><strong>Pubblicazione</strong>. Rilascia licenze di pubblicazione.<br />
 <br />
@@ -61,10 +61,10 @@ La tabella che segue elenca i tipi di server che fanno parte di una distribuzion
 <br />
 </li>
 </ul>
-<p>I server licenze spesso vengono distribuiti allo scopo di supportare singoli reparti oppure delegare richieste di licenza dal cluster di certificazione principale. I server licenze sono facoltativi.</p></td>
+I server licenze spesso vengono distribuiti allo scopo di supportare singoli reparti oppure delegare richieste di licenza dal cluster di certificazione principale. I server licenze sono facoltativi.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Server database, ad esempio SQL Server</p></td>
+<td style="border:1px solid black;">Server database, ad esempio SQL Server</td>
 <td style="border:1px solid black;"><ul>
 <li>Esegue la configurazione, la registrazione delle attività e i database dei servizi di directory di RMS.<br />
 <br />
@@ -75,7 +75,7 @@ La tabella che segue elenca i tipi di server che fanno parte di una distribuzion
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controller di dominio e catalogo globale</p></td>
+<td style="border:1px solid black;">Controller di dominio e catalogo globale</td>
 <td style="border:1px solid black;"><ul>
 <li>Esegue l'autenticazione degli utenti e servizi di directory.<br />
 <br />
@@ -87,7 +87,7 @@ La tabella che segue elenca i tipi di server che fanno parte di una distribuzion
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 In, RMS i servizi di registrazione e attivazione di Microsoft vengono impiegati per fornire un elemento principale della catena di trust al sistema. Per ulteriori informazioni, vedere "[Gerarchia di trust di RMS](https://technet.microsoft.com/2d44182f-a653-4383-aba1-dade53f7cf9a)" più avanti in questo argomento.
 

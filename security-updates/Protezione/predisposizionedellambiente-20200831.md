@@ -97,7 +97,7 @@ Per completare le procedure descritte in questo capitolo, sono necessari i segue
 
 **Tabella 3.1: Strumenti necessari**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -106,39 +106,39 @@ Per completare le procedure descritte in questo capitolo, sono necessari i segue
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Strumento</p></th>
-<th><p>Descrizione</p></th>
-<th><p>Origine</p></th>
+<th>Strumento</th>
+<th>Descrizione</th>
+<th>Origine</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Script della soluzione per reti LAN senza fili</p></td>
-<td style="border:1px solid black;"><p>Set di script e strumenti fornito con questa soluzione.</p></td>
-<td style="border:1px solid black;"><p>I dettagli relativi all'installazione sono forniti in questo capitolo.</p></td>
+<td style="border:1px solid black;">Script della soluzione per reti LAN senza fili</td>
+<td style="border:1px solid black;">Set di script e strumenti fornito con questa soluzione.</td>
+<td style="border:1px solid black;">I dettagli relativi all'installazione sono forniti in questo capitolo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Console di gestione Criteri di gruppo</p></td>
-<td style="border:1px solid black;"><p>Strumento di gestione avanzata per oggetti Criteri di gruppo, che consente di importarli ed esportarli.</p></td>
-<td style="border:1px solid black;"><p>Può essere scaricato dal sito Microsoft.com.<br />
-I dettagli relativi all'installazione sono forniti in questo capitolo.</p></td>
+<td style="border:1px solid black;">Console di gestione Criteri di gruppo</td>
+<td style="border:1px solid black;">Strumento di gestione avanzata per oggetti Criteri di gruppo, che consente di importarli ed esportarli.</td>
+<td style="border:1px solid black;">Può essere scaricato dal sito Microsoft.com.<br />
+I dettagli relativi all'installazione sono forniti in questo capitolo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CAPICOM</p></td>
-<td style="border:1px solid black;"><p>Libreria di sistema che consente l'utilizzo di script per operazioni relative ai certificati e alla protezione.</p></td>
-<td style="border:1px solid black;"><p>Può essere scaricato dal sito Microsoft.com.<br />
-I dettagli relativi all'installazione sono forniti in questo capitolo.</p></td>
+<td style="border:1px solid black;">CAPICOM</td>
+<td style="border:1px solid black;">Libreria di sistema che consente l'utilizzo di script per operazioni relative ai certificati e alla protezione.</td>
+<td style="border:1px solid black;">Può essere scaricato dal sito Microsoft.com.<br />
+I dettagli relativi all'installazione sono forniti in questo capitolo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>DSACLs.exe</em></p></td>
-<td style="border:1px solid black;"><p>Strumento della riga di comando che consente l'impostazione delle autorizzazioni in oggetti Active Directory.</p></td>
-<td style="border:1px solid black;"><p>CD di installazione di Windows Server 2003.<br />
-I dettagli relativi all'installazione sono forniti in questo capitolo.</p></td>
+<td style="border:1px solid black;"><em>DSACLs.exe</em></td>
+<td style="border:1px solid black;">Strumento della riga di comando che consente l'impostazione delle autorizzazioni in oggetti Active Directory.</td>
+<td style="border:1px solid black;">CD di installazione di Windows Server 2003.<br />
+I dettagli relativi all'installazione sono forniti in questo capitolo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Utenti e computer di Active Directory</p></td>
-<td style="border:1px solid black;"><p>Strumento MMC (Microsoft Management Console) utilizzato per gestire utenti, gruppi, computer e altri oggetti Active Directory.</p></td>
-<td style="border:1px solid black;"><p>Installato con Windows Server 2003.</p></td>
+<td style="border:1px solid black;">Utenti e computer di Active Directory</td>
+<td style="border:1px solid black;">Strumento MMC (Microsoft Management Console) utilizzato per gestire utenti, gruppi, computer e altri oggetti Active Directory.</td>
+<td style="border:1px solid black;">Installato con Windows Server 2003.</td>
 </tr>
 </tbody>
 </table>
@@ -266,7 +266,7 @@ Seguire la procedura fornita più avanti in questa sezione per creare gruppi di 
   
 **Tabella 3.2: Gruppi di protezione e membri**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -276,37 +276,37 @@ Seguire la procedura fornita più avanti in questa sezione per creare gruppi di 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Gruppo di protezione</p></th>
-<th><p>Scopo</p></th>
-<th><p>Tipo di gruppo</p></th>
-<th><p>Membri</p></th>
+<th>Gruppo di protezione</th>
+<th>Scopo</th>
+<th>Tipo di gruppo</th>
+<th>Membri</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Wireless LAN Users</p></td>
-<td style="border:1px solid black;"><p>Specifica quali utenti possono eseguire l'autenticazione per la rete LAN senza fili.</p></td>
-<td style="border:1px solid black;"><p>Globale</p></td>
-<td style="border:1px solid black;"><p>Domain Users</p></td>
+<td style="border:1px solid black;">Wireless LAN Users</td>
+<td style="border:1px solid black;">Specifica quali utenti possono eseguire l'autenticazione per la rete LAN senza fili.</td>
+<td style="border:1px solid black;">Globale</td>
+<td style="border:1px solid black;">Domain Users</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Wireless LAN Computers</p></td>
-<td style="border:1px solid black;"><p>Specifica quali computer possono eseguire l'autenticazione per la rete LAN senza fili.</p></td>
-<td style="border:1px solid black;"><p>Globale</p></td>
-<td style="border:1px solid black;"><p>Computer del dominio</p></td>
+<td style="border:1px solid black;">Wireless LAN Computers</td>
+<td style="border:1px solid black;">Specifica quali computer possono eseguire l'autenticazione per la rete LAN senza fili.</td>
+<td style="border:1px solid black;">Globale</td>
+<td style="border:1px solid black;">Computer del dominio</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Wireless LAN Access</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo è utilizzato nel criterio di accesso RADIUS per controllare l'accesso alla rete LAN senza fili.</p></td>
-<td style="border:1px solid black;"><p>Universale</p></td>
-<td style="border:1px solid black;"><p>Wireless LAN Users<br />
-Wireless LAN Computers.</p></td>
+<td style="border:1px solid black;">Wireless LAN Access</td>
+<td style="border:1px solid black;">Questo gruppo è utilizzato nel criterio di accesso RADIUS per controllare l'accesso alla rete LAN senza fili.</td>
+<td style="border:1px solid black;">Universale</td>
+<td style="border:1px solid black;">Wireless LAN Users<br />
+Wireless LAN Computers.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Wireless LAN Computer Settings</p></td>
-<td style="border:1px solid black;"><p>Specifica quali computer ricevono impostazioni della rete LAN senza fili dai criteri di gruppo.</p></td>
-<td style="border:1px solid black;"><p>Domain Local</p></td>
-<td style="border:1px solid black;"><p>Wireless LAN Computers.</p></td>
+<td style="border:1px solid black;">Wireless LAN Computer Settings</td>
+<td style="border:1px solid black;">Specifica quali computer ricevono impostazioni della rete LAN senza fili dai criteri di gruppo.</td>
+<td style="border:1px solid black;">Domain Local</td>
+<td style="border:1px solid black;">Wireless LAN Computers.</td>
 </tr>
 </tbody>
 </table>
@@ -345,7 +345,7 @@ Se si intende abilitare la registrazione RADIUS, è necessario allocare un disco
   
 **Tabella 3.3: Hardware minimo consigliato per il server IAS**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -353,33 +353,33 @@ Se si intende abilitare la registrazione RADIUS, è necessario allocare un disco
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Requisito</p></th>
+<th>Elemento</th>
+<th>Requisito</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CPU</p></td>
-<td style="border:1px solid black;"><p>CPU singola a 733 MHz o superiore</p></td>
+<td style="border:1px solid black;">CPU</td>
+<td style="border:1px solid black;">CPU singola a 733 MHz o superiore</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Memoria</p></td>
-<td style="border:1px solid black;"><p>256 MB</p></td>
+<td style="border:1px solid black;">Memoria</td>
+<td style="border:1px solid black;">256 MB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Interfacce di rete</p></td>
-<td style="border:1px solid black;"><p>Scheda di rete singola</p></td>
+<td style="border:1px solid black;">Interfacce di rete</td>
+<td style="border:1px solid black;">Scheda di rete singola</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Archiviazione disco</p></td>
-<td style="border:1px solid black;"><p>Controller RAID IDE o SCSI</p>
-<p>2 x 18 GB (SCSI) o 2 x 20 GB (IDE) configurati come volume RAID 1</p>
-<p>Archiviazione su supporti rimovibili (CD-RW o nastro di backup), in assenza di una funzionalità di backup di rete</p>
-<p>Unità disco floppy da 1,44 MB per il trasferimento dei dati.</p></td>
+<td style="border:1px solid black;">Archiviazione disco</td>
+<td style="border:1px solid black;">Controller RAID IDE o SCSI
+2 x 18 GB (SCSI) o 2 x 20 GB (IDE) configurati come volume RAID 1
+Archiviazione su supporti rimovibili (CD-RW o nastro di backup), in assenza di una funzionalità di backup di rete
+Unità disco floppy da 1,44 MB per il trasferimento dei dati.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Per ulteriori informazioni sui requisiti di prestazioni dell'hardware, leggere la sezione dedicata a questo argomento nel capitolo 2, "Pianificazione dell'implementazione della protezione di reti LAN senza fili".
 
@@ -479,7 +479,7 @@ Nella tabella che segue sono elencati i servizi impostati per l'avvio automatico
 
 **Tabella 3.4: Servizi Windows abilitati tramite i criteri**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -487,34 +487,34 @@ Nella tabella che segue sono elencati i servizi impostati per l'avvio automatico
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Servizio</p></th>
-<th><p>Impostazione del criterio</p></th>
+<th>Servizio</th>
+<th>Impostazione del criterio</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>Automatico</p></td>
+<td style="border:1px solid black;">Servizi certificati</td>
+<td style="border:1px solid black;">Automatico</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizio autenticazione Internet</p></td>
-<td style="border:1px solid black;"><p>Automatico</p></td>
+<td style="border:1px solid black;">Servizio autenticazione Internet</td>
+<td style="border:1px solid black;">Automatico</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Provider di copie replicate software Microsoft</p></td>
-<td style="border:1px solid black;"><p>Automatico</p></td>
+<td style="border:1px solid black;">Provider di copie replicate software Microsoft</td>
+<td style="border:1px solid black;">Automatico</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Archivi rimovibili</p></td>
-<td style="border:1px solid black;"><p>Automatico</p></td>
+<td style="border:1px solid black;">Archivi rimovibili</td>
+<td style="border:1px solid black;">Automatico</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Utilità di pianificazione</p></td>
-<td style="border:1px solid black;"><p>Automatico</p></td>
+<td style="border:1px solid black;">Utilità di pianificazione</td>
+<td style="border:1px solid black;">Automatico</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Copia shadow del volume</p></td>
-<td style="border:1px solid black;"><p>Automatico</p></td>
+<td style="border:1px solid black;">Copia shadow del volume</td>
+<td style="border:1px solid black;">Automatico</td>
 </tr>
 </tbody>
 </table>
@@ -523,7 +523,7 @@ Nella tabella che segue sono elencate le categorie di controllo per cui è abili
   
 **Tabella 3.5: Impostazioni del Criterio Controllo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -531,26 +531,26 @@ Nella tabella che segue sono elencate le categorie di controllo per cui è abili
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Criteri di controllo</p></th>
-<th><p>Impostazione</p></th>
+<th>Criteri di controllo</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controlla eventi accesso account</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite/Operazioni non riuscite (l'impostazione predefinita è Operazioni riuscite)</p></td>
+<td style="border:1px solid black;">Controlla eventi accesso account</td>
+<td style="border:1px solid black;">Operazioni riuscite/Operazioni non riuscite (l'impostazione predefinita è Operazioni riuscite)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controlla eventi di gestione degli account</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite/Operazioni non riuscite (l'impostazione predefinita è Operazioni riuscite)</p></td>
+<td style="border:1px solid black;">Controlla eventi di gestione degli account</td>
+<td style="border:1px solid black;">Operazioni riuscite/Operazioni non riuscite (l'impostazione predefinita è Operazioni riuscite)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controlla eventi di accesso</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite/Operazioni non riuscite (l'impostazione predefinita è Operazioni riuscite)</p></td>
+<td style="border:1px solid black;">Controlla eventi di accesso</td>
+<td style="border:1px solid black;">Operazioni riuscite/Operazioni non riuscite (l'impostazione predefinita è Operazioni riuscite)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Eventi di modifica del criterio di controllo</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite/Operazioni non riuscite (l'impostazione predefinita è Operazioni riuscite)</p></td>
+<td style="border:1px solid black;">Eventi di modifica del criterio di controllo</td>
+<td style="border:1px solid black;">Operazioni riuscite/Operazioni non riuscite (l'impostazione predefinita è Operazioni riuscite)</td>
 </tr>
 </tbody>
 </table>

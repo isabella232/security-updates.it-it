@@ -410,7 +410,7 @@ Il ruolo di Netdiag nella risoluzione dei problemi relativi a IPsec varia a seco
 
 **Tabella 7.1. Funzionalità IPsec di Netdiag nei diversi sistemi operativi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -421,42 +421,42 @@ Il ruolo di Netdiag nella risoluzione dei problemi relativi a IPsec varia a seco
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Comando</p></th>
-<th><p>Descrizione</p></th>
-<th><p>Windows</p>
-<p>2000?</p></th>
-<th><p>Windows</p>
-<p>XP?</p></th>
-<th><p>Windows</p>
-<p>2003?</p></th>
+<th>Comando</th>
+<th>Descrizione</th>
+<th>Windows
+2000?</th>
+<th>Windows
+XP?</th>
+<th>Windows
+2003?</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>netdiag<br />
-/test:ipsec</p></td>
-<td style="border:1px solid black;"><p>Visualizza il criterio IPsec assegnato</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No**</p></td>
+<td style="border:1px solid black;">netdiag<br />
+/test:ipsec</td>
+<td style="border:1px solid black;">Visualizza il criterio IPsec assegnato</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No**</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>netdiag<br />
+<td style="border:1px solid black;">netdiag<br />
 /test:ipsec<br />
-/debug</p></td>
-<td style="border:1px solid black;"><p>Visualizza il criterio IPsec attivo, i filtri e le statistiche di modalità rapida</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì*</p></td>
-<td style="border:1px solid black;"><p>No**</p></td>
+/debug</td>
+<td style="border:1px solid black;">Visualizza il criterio IPsec attivo, i filtri e le statistiche di modalità rapida</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì*</td>
+<td style="border:1px solid black;">No**</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>netdiag<br />
+<td style="border:1px solid black;">netdiag<br />
 /test:ipsec<br />
-/v</p></td>
-<td style="border:1px solid black;"><p>Visualizza il criterio IPsec attivo, i filtri e le statistiche di modalità principale</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì*</p></td>
-<td style="border:1px solid black;"><p>No**</p></td>
+/v</td>
+<td style="border:1px solid black;">Visualizza il criterio IPsec attivo, i filtri e le statistiche di modalità principale</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì*</td>
+<td style="border:1px solid black;">No**</td>
 </tr>
 </tbody>
 </table>
@@ -471,7 +471,7 @@ Oltre agli strumenti specifici per IPsec precedentemente elencati, la tabella se
   
 **Tabella 7.2. Strumenti vari utili per la risoluzione dei problemi relativi a IPsec**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -482,101 +482,101 @@ Oltre agli strumenti specifici per IPsec precedentemente elencati, la tabella se
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Strumento</p></th>
-<th><p>Sistemi operativi supportati</p></th>
-<th><p>Dove reperirlo</p></th>
-<th><p>Funzione</p></th>
-<th><p>Ulteriori informazioni</p></th>
+<th>Strumento</th>
+<th>Sistemi operativi supportati</th>
+<th>Dove reperirlo</th>
+<th>Funzione</th>
+<th>Ulteriori informazioni</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ipsecpol.exe</p></td>
-<td style="border:1px solid black;"><p>Solo Windows 2000</p></td>
-<td style="border:1px solid black;"><p>Windows 2000 Resource Kit</p></td>
-<td style="border:1px solid black;"><p>Configura i criteri IPsec nella directory o in un registro</p></td>
-<td style="border:1px solid black;"><p>Guida in linea degli strumenti inclusi in Windows 2000 Resource Kit</p></td>
+<td style="border:1px solid black;">Ipsecpol.exe</td>
+<td style="border:1px solid black;">Solo Windows 2000</td>
+<td style="border:1px solid black;">Windows 2000 Resource Kit</td>
+<td style="border:1px solid black;">Configura i criteri IPsec nella directory o in un registro</td>
+<td style="border:1px solid black;">Guida in linea degli strumenti inclusi in Windows 2000 Resource Kit</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gpresult</p></td>
-<td style="border:1px solid black;"><p>Windows 2000, Windows Server <br />
-2003, Windows XP</p></td>
-<td style="border:1px solid black;"><p>Windows 2000– Resource Kit; per Windows XP e Windows Server <br />
-2003, incluso nel sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Controlla l'ultima applicazione di Criteri di gruppo</p></td>
-<td style="border:1px solid black;"><p>Guida in linea degli strumenti inclusi in Windows 2000 Resource Kit, Guida in linea di Windows XP e Guida in linea di Windows Server <br />
-2003</p></td>
+<td style="border:1px solid black;">Gpresult</td>
+<td style="border:1px solid black;">Windows 2000, Windows Server <br />
+2003, Windows XP</td>
+<td style="border:1px solid black;">Windows 2000– Resource Kit; per Windows XP e Windows Server <br />
+2003, incluso nel sistema operativo</td>
+<td style="border:1px solid black;">Controlla l'ultima applicazione di Criteri di gruppo</td>
+<td style="border:1px solid black;">Guida in linea degli strumenti inclusi in Windows 2000 Resource Kit, Guida in linea di Windows XP e Guida in linea di Windows Server <br />
+2003</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Snap-in MMC Gruppo di criteri risultante<br />
-(RSoP)</p></td>
-<td style="border:1px solid black;"><p>Windows Server <br />
-2003, Windows XP</p></td>
-<td style="border:1px solid black;"><p>Incluso nel sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Visualizza il criterio IPsec per un computer o per i membri di un contenitore di Criteri di gruppo</p></td>
-<td style="border:1px solid black;"><p>Windows Server <br />
-2003</p></td>
+<td style="border:1px solid black;">Snap-in MMC Gruppo di criteri risultante<br />
+(RSoP)</td>
+<td style="border:1px solid black;">Windows Server <br />
+2003, Windows XP</td>
+<td style="border:1px solid black;">Incluso nel sistema operativo</td>
+<td style="border:1px solid black;">Visualizza il criterio IPsec per un computer o per i membri di un contenitore di Criteri di gruppo</td>
+<td style="border:1px solid black;">Windows Server <br />
+2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Srvinfo</p></td>
-<td style="border:1px solid black;"><p>Windows 2000, Windows Server <br />
-2003, Windows XP</p></td>
-<td style="border:1px solid black;"><p>Windows 2000  e Windows Server <br />
-2003 Resource Kit</p></td>
-<td style="border:1px solid black;"><p>Informazioni su servizi, driver di periferiche e protocolli</p></td>
-<td style="border:1px solid black;"><p>Guida in linea degli strumenti inclusi in Windows Server <br />
-2003 Resource Kit</p></td>
+<td style="border:1px solid black;">Srvinfo</td>
+<td style="border:1px solid black;">Windows 2000, Windows Server <br />
+2003, Windows XP</td>
+<td style="border:1px solid black;">Windows 2000  e Windows Server <br />
+2003 Resource Kit</td>
+<td style="border:1px solid black;">Informazioni su servizi, driver di periferiche e protocolli</td>
+<td style="border:1px solid black;">Guida in linea degli strumenti inclusi in Windows Server <br />
+2003 Resource Kit</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PortQry</p></td>
-<td style="border:1px solid black;"><p>Windows 2000, Windows Server <br />
-2003, Windows XP</p></td>
-<td style="border:1px solid black;"><p>Windows Server <br />
-2003 Resource Kit</p></td>
-<td style="border:1px solid black;"><p>Segnala lo stato delle porte di rete</p></td>
-<td style="border:1px solid black;"><p><a href="http://support.microsoft.com/kb/310099">http://support.<br />
+<td style="border:1px solid black;">PortQry</td>
+<td style="border:1px solid black;">Windows 2000, Windows Server <br />
+2003, Windows XP</td>
+<td style="border:1px solid black;">Windows Server <br />
+2003 Resource Kit</td>
+<td style="border:1px solid black;">Segnala lo stato delle porte di rete</td>
+<td style="border:1px solid black;"><a href="http://support.microsoft.com/kb/310099">http://support.<br />
 microsoft.com/<br />
-kb/310099</a></p></td>
+kb/310099</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>NLTest</p></td>
-<td style="border:1px solid black;"><p>Windows 2000, Windows Server <br />
-2003, Windows XP</p></td>
-<td style="border:1px solid black;"><p>Strumenti di supporto</p></td>
-<td style="border:1px solid black;"><p>Test delle relazioni di trust e dei canali protetti Netlogon</p></td>
-<td style="border:1px solid black;"><p>Guida in linea degli strumenti inclusi in Windows Server <br />
-2003</p></td>
+<td style="border:1px solid black;">NLTest</td>
+<td style="border:1px solid black;">Windows 2000, Windows Server <br />
+2003, Windows XP</td>
+<td style="border:1px solid black;">Strumenti di supporto</td>
+<td style="border:1px solid black;">Test delle relazioni di trust e dei canali protetti Netlogon</td>
+<td style="border:1px solid black;">Guida in linea degli strumenti inclusi in Windows Server <br />
+2003</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Klist</p></td>
-<td style="border:1px solid black;"><p>Windows 2000, Windows Server <br />
-2003, Windows XP</p></td>
-<td style="border:1px solid black;"><p>Windows 2000 e Windows Server <br />
-2003 Resource Kit</p></td>
-<td style="border:1px solid black;"><p>Crea report dei ticket Kerberos</p></td>
-<td style="border:1px solid black;"><p>Guida in linea degli strumenti inclusi in Windows Server <br />
-2003 Resource Kit</p></td>
+<td style="border:1px solid black;">Klist</td>
+<td style="border:1px solid black;">Windows 2000, Windows Server <br />
+2003, Windows XP</td>
+<td style="border:1px solid black;">Windows 2000 e Windows Server <br />
+2003 Resource Kit</td>
+<td style="border:1px solid black;">Crea report dei ticket Kerberos</td>
+<td style="border:1px solid black;">Guida in linea degli strumenti inclusi in Windows Server <br />
+2003 Resource Kit</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Pathping</p></td>
-<td style="border:1px solid black;"><p>Windows 2000, Windows Server <br />
-2003, Windows XP</p></td>
-<td style="border:1px solid black;"><p>Incluso nel sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Testa la connettività di rete e del percorso</p></td>
-<td style="border:1px solid black;"><p>Guida di Windows</p></td>
+<td style="border:1px solid black;">Pathping</td>
+<td style="border:1px solid black;">Windows 2000, Windows Server <br />
+2003, Windows XP</td>
+<td style="border:1px solid black;">Incluso nel sistema operativo</td>
+<td style="border:1px solid black;">Testa la connettività di rete e del percorso</td>
+<td style="border:1px solid black;">Guida di Windows</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>LDP</p></td>
-<td style="border:1px solid black;"><p>Windows 2000, Windows Server <br />
-2003, Windows XP</p></td>
-<td style="border:1px solid black;"><p>Strumenti di supporto</p></td>
-<td style="border:1px solid black;"><p>Client LDAP per il test di Active Directory</p></td>
-<td style="border:1px solid black;"><p>Guida in linea degli strumenti inclusi in Windows Server <br />
-2003</p></td>
+<td style="border:1px solid black;">LDP</td>
+<td style="border:1px solid black;">Windows 2000, Windows Server <br />
+2003, Windows XP</td>
+<td style="border:1px solid black;">Strumenti di supporto</td>
+<td style="border:1px solid black;">Client LDAP per il test di Active Directory</td>
+<td style="border:1px solid black;">Guida in linea degli strumenti inclusi in Windows Server <br />
+2003</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ##### Utilizzo di strumenti basati su ICMP con IPsec
 
@@ -604,7 +604,7 @@ Se l'organizzazione specifica utilizza gli script inclusi nel presente processo 
 
 **Tabella 7.3. File creati dallo script IPsec\_Debug.vbs**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -612,82 +612,82 @@ Se l'organizzazione specifica utilizza gli script inclusi nel presente processo 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome file</p></th>
-<th><p>Descrizione</p></th>
+<th>Nome file</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_FileVer.txt</p></td>
-<td style="border:1px solid black;"><p>Elenca le versioni dei file di varie DLL correlate a IPsec.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_FileVer.txt</td>
+<td style="border:1px solid black;">Elenca le versioni dei file di varie DLL correlate a IPsec.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_gpresult.txt</p></td>
-<td style="border:1px solid black;"><p>Output del comando gpresult.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_gpresult.txt</td>
+<td style="border:1px solid black;">Output del comando gpresult.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_ipsec_547_events.txt</p></td>
-<td style="border:1px solid black;"><p>Output di tutti gli errori IPSEC 547 nel registro eventi di protezione.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_ipsec_547_events.txt</td>
+<td style="border:1px solid black;">Output di tutti gli errori IPSEC 547 nel registro eventi di protezione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_ipsec_policy_version.txt</p></td>
-<td style="border:1px solid black;"><p>Output dello script Detect_IPsec_Policy.vbs. Mostra nella finestra la versione corrente del criterio e se la versione corrisponde al criterio di Active Directory.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_ipsec_policy_version.txt</td>
+<td style="border:1px solid black;">Output dello script Detect_IPsec_Policy.vbs. Mostra nella finestra la versione corrente del criterio e se la versione corrisponde al criterio di Active Directory.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_ipseccmd_show_all.txt</p></td>
-<td style="border:1px solid black;"><p>Solo per Windows XP. Questo file acquisisce l'output del comando ipseccmd.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_ipseccmd_show_all.txt</td>
+<td style="border:1px solid black;">Solo per Windows XP. Questo file acquisisce l'output del comando ipseccmd.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_kerberos_events.txt</p></td>
-<td style="border:1px solid black;"><p>Output di tutti gli eventi Kerberos nel Registro eventi di sistema.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_kerberos_events.txt</td>
+<td style="border:1px solid black;">Output di tutti gli eventi Kerberos nel Registro eventi di sistema.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_klist_purge_mt.txt</p></td>
-<td style="border:1px solid black;"><p>Output di KList durante la rimozione dei ticket del computer.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_klist_purge_mt.txt</td>
+<td style="border:1px solid black;">Output di KList durante la rimozione dei ticket del computer.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_lsass.log</p></td>
-<td style="border:1px solid black;"><p>Copia del file lsass.log, se presente.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_lsass.log</td>
+<td style="border:1px solid black;">Copia del file lsass.log, se presente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_netdiag.txt</p></td>
-<td style="border:1px solid black;"><p>Output dell'esecuzione di netdiag.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_netdiag.txt</td>
+<td style="border:1px solid black;">Output dell'esecuzione di netdiag.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_netsh_show_all.txt</p></td>
-<td style="border:1px solid black;"><p>Solo su piattaforme server. Output del comando show all in Netsh.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_netsh_show_all.txt</td>
+<td style="border:1px solid black;">Solo su piattaforme server. Output del comando show all in Netsh.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_netsh_show_gpo.txt</p></td>
-<td style="border:1px solid black;"><p>Solo su piattaforme server. Output del comando show gpo in Netsh.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_netsh_show_gpo.txt</td>
+<td style="border:1px solid black;">Solo su piattaforme server. Output del comando show gpo in Netsh.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_oakley.log</p></td>
-<td style="border:1px solid black;"><p>Copia del file Oakley.log, se presente.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_oakley.log</td>
+<td style="border:1px solid black;">Copia del file Oakley.log, se presente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_OSInfo.txt</p></td>
-<td style="border:1px solid black;"><p>Output delle informazioni correnti sul sistema operativo.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_OSInfo.txt</td>
+<td style="border:1px solid black;">Output delle informazioni correnti sul sistema operativo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_RegDefault.txt</p></td>
-<td style="border:1px solid black;"><p>Output dei valori originali della chiave del Registro di sistema prima delle modifiche. Può essere utilizzato per ripristinare manualmente il Registro di sistema ai valori precedenti, se per qualche motivo lo script non ha funzionato.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_RegDefault.txt</td>
+<td style="border:1px solid black;">Output dei valori originali della chiave del Registro di sistema prima delle modifiche. Può essere utilizzato per ripristinare manualmente il Registro di sistema ai valori precedenti, se per qualche motivo lo script non ha funzionato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_userenv.log</p></td>
-<td style="border:1px solid black;"><p>Copia del file userenv.log, se presente.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_userenv.log</td>
+<td style="border:1px solid black;">Copia del file userenv.log, se presente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_&lt;Nome server&gt;_netview.txt</p></td>
-<td style="border:1px solid black;"><p>Output del comando net view su &lt;Nome server&gt;.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_&lt;Nome server&gt;_netview.txt</td>
+<td style="border:1px solid black;">Output del comando net view su &lt;Nome server&gt;.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_&lt;Nome server&gt;_ping.txt</p></td>
-<td style="border:1px solid black;"><p>Output del comando ping su &lt;Nome server&gt;.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_&lt;Nome server&gt;_ping.txt</td>
+<td style="border:1px solid black;">Output del comando ping su &lt;Nome server&gt;.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>&lt;Nome computer&gt;_winlogon.log</p></td>
-<td style="border:1px solid black;"><p>Copia del file winlogon.log, se presente.</p></td>
+<td style="border:1px solid black;">&lt;Nome computer&gt;_winlogon.log</td>
+<td style="border:1px solid black;">Copia del file winlogon.log, se presente.</td>
 </tr>
 </tbody>
 </table>
@@ -859,7 +859,7 @@ La tabella seguente mostra la relazione fra i nomi degli oggetti di Active Direc
   
 **Tabella 7.4. Mappatura dei componenti dei criteri IPsec rispetto al nome dell'oggetto di Active Directory**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -867,30 +867,30 @@ La tabella seguente mostra la relazione fra i nomi degli oggetti di Active Direc
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome del componente del criterio IPsec</p></th>
-<th><p>Nome dell'oggetto di Active Directory</p></th>
+<th>Nome del componente del criterio IPsec</th>
+<th>Nome dell'oggetto di Active Directory</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Criterio IPsec</p></td>
-<td style="border:1px solid black;"><p>CriterioIpsec{GUID}</p></td>
+<td style="border:1px solid black;">Criterio IPsec</td>
+<td style="border:1px solid black;">CriterioIpsec{GUID}</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Metodi di protezione per scambio chiavi IKE</p></td>
-<td style="border:1px solid black;"><p>CriterioISAKMPipsec{GUID}</p></td>
+<td style="border:1px solid black;">Metodi di protezione per scambio chiavi IKE</td>
+<td style="border:1px solid black;">CriterioISAKMPipsec{GUID}</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Regola IPsec</p></td>
-<td style="border:1px solid black;"><p>NFAipsec{GUID}</p></td>
+<td style="border:1px solid black;">Regola IPsec</td>
+<td style="border:1px solid black;">NFAipsec{GUID}</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Elenco filtri IPsec</p></td>
-<td style="border:1px solid black;"><p>FiltroIpsec{GUID}</p></td>
+<td style="border:1px solid black;">Elenco filtri IPsec</td>
+<td style="border:1px solid black;">FiltroIpsec{GUID}</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Operazione filtro IPsec</p></td>
-<td style="border:1px solid black;"><p>CriterioNegoziazioneIpsec{GUID}</p></td>
+<td style="border:1px solid black;">Operazione filtro IPsec</td>
+<td style="border:1px solid black;">CriterioNegoziazioneIpsec{GUID}</td>
 </tr>
 </tbody>
 </table>
@@ -1628,7 +1628,7 @@ Per stabilire se si è verificato un problema di scambio nella modalità princip
   
 **Tabella 7.5. Messaggi di informazioni del file di registro in modalità principale IKE**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1636,23 +1636,23 @@ Per stabilire se si è verificato un problema di scambio nella modalità princip
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Testo del file di registro</p></th>
-<th><p>Descrizione</p></th>
+<th>Testo del file di registro</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Il nuovo criterio invalida SA formati con il vecchio criterio</p></td>
-<td style="border:1px solid black;"><p>Messaggio di Windows 2000 che indica che la modifica del criterio IP ha causato l'eliminazione delle SA IKE o IPsec correnti. Si tratta di un errore benigno. Vengono stabilite nuove SA IPsec basate sul flusso corrente di traffico che utilizzano il nuovo criterio IPsec.</p></td>
+<td style="border:1px solid black;">Il nuovo criterio invalida SA formati con il vecchio criterio</td>
+<td style="border:1px solid black;">Messaggio di Windows 2000 che indica che la modifica del criterio IP ha causato l'eliminazione delle SA IKE o IPsec correnti. Si tratta di un errore benigno. Vengono stabilite nuove SA IPsec basate sul flusso corrente di traffico che utilizzano il nuovo criterio IPsec.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IKE ha numerose richieste di Associazione di protezione in sospeso e sta entrando nella modalità di prevenzione di attacchi di tipo &quot;Denial of service&quot;</p></td>
-<td style="border:1px solid black;"><p>Ciò potrebbe essere normale e provocato da un elevato carico del computer e/o da un gran numero di tentativi di connessione client. Potrebbe essere anche la conseguenza di un attacco di tipo Denial of Service nei confronti di IKE. Se si tratta di un attacco Denial of Service, saranno presenti numerosi record di controllo con negoziazioni IKE non riuscite sugli indirizzi IP attaccati. In caso contrario, il carico del computer è semplicemente troppo elevato.<br />
-Indica che IKE ritiene di essere stato sovraccaricato con richieste di SA IKE in modalità principale e quindi scarterà numerose di queste richieste adottando una strategia di risposta agli attacchi di tipo Denial of service.</p></td>
+<td style="border:1px solid black;">IKE ha numerose richieste di Associazione di protezione in sospeso e sta entrando nella modalità di prevenzione di attacchi di tipo &quot;Denial of service&quot;</td>
+<td style="border:1px solid black;">Ciò potrebbe essere normale e provocato da un elevato carico del computer e/o da un gran numero di tentativi di connessione client. Potrebbe essere anche la conseguenza di un attacco di tipo Denial of Service nei confronti di IKE. Se si tratta di un attacco Denial of Service, saranno presenti numerosi record di controllo con negoziazioni IKE non riuscite sugli indirizzi IP attaccati. In caso contrario, il carico del computer è semplicemente troppo elevato.<br />
+Indica che IKE ritiene di essere stato sovraccaricato con richieste di SA IKE in modalità principale e quindi scarterà numerose di queste richieste adottando una strategia di risposta agli attacchi di tipo Denial of service.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IKE ha terminato la modalità di prevenzione di attacchi di tipo &quot;Denial of service&quot; ed è ritornato all'operatività normale</p></td>
-<td style="border:1px solid black;"><p>IKE ha terminato la risposta a quello che ha giudicato essere un attacco di tipo Denial of Service ed è ritornato alle normali condizioni di funzionamento.</p></td>
+<td style="border:1px solid black;">IKE ha terminato la modalità di prevenzione di attacchi di tipo &quot;Denial of service&quot; ed è ritornato all'operatività normale</td>
+<td style="border:1px solid black;">IKE ha terminato la risposta a quello che ha giudicato essere un attacco di tipo Denial of Service ed è ritornato alle normali condizioni di funzionamento.</td>
 </tr>
 </tbody>
 </table>

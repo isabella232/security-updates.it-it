@@ -34,7 +34,7 @@ La tabella seguente mostra i nomi dei modelli di protezione del server di stampa
 
 **Tabella 8.1 Modelli di protezione dei server di stampa per tutti e tre gli ambienti**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -43,16 +43,16 @@ La tabella seguente mostra i nomi dei modelli di protezione del server di stampa
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>LC-Print Server.inf</p></td>
-<td style="border:1px solid black;"><p>EC-Print Server.inf</p></td>
-<td style="border:1px solid black;"><p>SSLF-Print Server.inf</p></td>
+<td style="border:1px solid black;">LC-Print Server.inf</td>
+<td style="border:1px solid black;">EC-Print Server.inf</td>
+<td style="border:1px solid black;">SSLF-Print Server.inf</td>
 </tr>
 </tbody>
 </table>
@@ -83,7 +83,7 @@ La maggior parte delle impostazioni delle opzioni di protezione per i server di 
   
 **Tabella 8.2 Impostazioni consigliate per l'aggiunta della firma digitale alle comunicazioni (sempre)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -93,18 +93,18 @@ La maggior parte delle impostazioni delle opzioni di protezione per i server di 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Server di rete Microsoft: aggiungi firma digitale alle comunicazioni (sempre)</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Server di rete Microsoft: aggiungi firma digitale alle comunicazioni (sempre)</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>

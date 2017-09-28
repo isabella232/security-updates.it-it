@@ -142,7 +142,7 @@ Sebbene sia possibile eseguire entrambi i ruoli in qualsiasi ambiente, è import
 
 **Tabella 1. Gruppi e account amministratore del servizio predefiniti**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -151,51 +151,51 @@ Sebbene sia possibile eseguire entrambi i ruoli in qualsiasi ambiente, è import
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome</p></th>
-<th><p>Contenitore</p></th>
-<th><p>Descrizione</p></th>
+<th>Nome</th>
+<th>Contenitore</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Administrators</p></td>
-<td style="border:1px solid black;"><p>Builtin</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo ha pieno accesso a tutti i controller di dominio e a tutti i contenuti delle directory memorizzati in un dominio. Si tratta del gruppo amministratore del servizio principale e può modificare i livelli associativi di tutti gli altri gruppi amministrativi.</p></td>
+<td style="border:1px solid black;">Administrators</td>
+<td style="border:1px solid black;">Builtin</td>
+<td style="border:1px solid black;">Questo gruppo ha pieno accesso a tutti i controller di dominio e a tutti i contenuti delle directory memorizzati in un dominio. Si tratta del gruppo amministratore del servizio principale e può modificare i livelli associativi di tutti gli altri gruppi amministrativi.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Enterprise Admins</p></td>
-<td style="border:1px solid black;"><p>Users</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo viene aggiunto automaticamente al gruppo Administrators di ciascun dominio e dispone dell'accesso completo alla configurazione di tutti i controller di dominio.</p></td>
+<td style="border:1px solid black;">Enterprise Admins</td>
+<td style="border:1px solid black;">Users</td>
+<td style="border:1px solid black;">Questo gruppo viene aggiunto automaticamente al gruppo Administrators di ciascun dominio e dispone dell'accesso completo alla configurazione di tutti i controller di dominio.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Domain Admins</p></td>
-<td style="border:1px solid black;"><p>Users</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo viene aggiunto automaticamente al gruppo Administrators in tutti i domini di una foresta. Pertanto, il gruppo Domain Admins ha diritti su tutti i controller di dominio e sui dati memorizzati nella directory di un dominio e può modificare i livelli associativi di qualsiasi gruppo amministrativo.</p></td>
+<td style="border:1px solid black;">Domain Admins</td>
+<td style="border:1px solid black;">Users</td>
+<td style="border:1px solid black;">Questo gruppo viene aggiunto automaticamente al gruppo Administrators in tutti i domini di una foresta. Pertanto, il gruppo Domain Admins ha diritti su tutti i controller di dominio e sui dati memorizzati nella directory di un dominio e può modificare i livelli associativi di qualsiasi gruppo amministrativo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Schema Admins</p></td>
-<td style="border:1px solid black;"><p>Users</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo ha privilegi amministrativi completi per lo schema Active Directory.</p></td>
+<td style="border:1px solid black;">Schema Admins</td>
+<td style="border:1px solid black;">Users</td>
+<td style="border:1px solid black;">Questo gruppo ha privilegi amministrativi completi per lo schema Active Directory.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Account Operators</p></td>
-<td style="border:1px solid black;"><p>Builtin</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo può creare e gestire gli account e i gruppi del dominio ma non può gestire gli account amministratore del servizio. Per impostazione predefinita, al gruppo non appartiene alcun membro e, pertanto, si consiglia di non utilizzarlo per le deleghe amministrative.</p></td>
+<td style="border:1px solid black;">Account Operators</td>
+<td style="border:1px solid black;">Builtin</td>
+<td style="border:1px solid black;">Questo gruppo può creare e gestire gli account e i gruppi del dominio ma non può gestire gli account amministratore del servizio. Per impostazione predefinita, al gruppo non appartiene alcun membro e, pertanto, si consiglia di non utilizzarlo per le deleghe amministrative.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Backup Operators</p></td>
-<td style="border:1px solid black;"><p>Builtin</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo accorda i privilegi per eseguire il backup e ripristinare le attività sui controller di dominio e non ha alcun membro per impostazione predefinita.</p></td>
+<td style="border:1px solid black;">Backup Operators</td>
+<td style="border:1px solid black;">Builtin</td>
+<td style="border:1px solid black;">Questo gruppo accorda i privilegi per eseguire il backup e ripristinare le attività sui controller di dominio e non ha alcun membro per impostazione predefinita.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Server Operators</p></td>
-<td style="border:1px solid black;"><p>Builtin</p></td>
-<td style="border:1px solid black;"><p>Questo gruppo può eseguire attività di gestione sui controller di dominio e non ha membri per impostazione predefinita.</p></td>
+<td style="border:1px solid black;">Server Operators</td>
+<td style="border:1px solid black;">Builtin</td>
+<td style="border:1px solid black;">Questo gruppo può eseguire attività di gestione sui controller di dominio e non ha membri per impostazione predefinita.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DS Restore Mode Administrator</p></td>
-<td style="border:1px solid black;"><p>Non memorizzato in Active Directory</p></td>
-<td style="border:1px solid black;"><p>Questo account viene creato durante il processo di installazione di Active Directory. Viene utilizzato per avviare il controller di dominio in modalità ripristino servizi directory e, sebbene non corrisponda all'account amministratore, ha pieno accesso al controller di dominio quando è in modalità ripristino servizi directory.</p></td>
+<td style="border:1px solid black;">DS Restore Mode Administrator</td>
+<td style="border:1px solid black;">Non memorizzato in Active Directory</td>
+<td style="border:1px solid black;">Questo account viene creato durante il processo di installazione di Active Directory. Viene utilizzato per avviare il controller di dominio in modalità ripristino servizi directory e, sebbene non corrisponda all'account amministratore, ha pieno accesso al controller di dominio quando è in modalità ripristino servizi directory.</td>
 </tr>
 </tbody>
 </table>
@@ -248,7 +248,7 @@ Nella seguente tabella vengono descritti gli scenari illustrati in dettaglio nel
   
 **Tabella 2. Classificazione degli scenari di rischio per la protezione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -257,34 +257,34 @@ Nella seguente tabella vengono descritti gli scenari illustrati in dettaglio nel
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Scenario</p></th>
-<th><p>Descrizione</p></th>
-<th><p>Livello di rischio</p></th>
+<th>Scenario</th>
+<th>Descrizione</th>
+<th>Livello di rischio</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>L'Account A viene utilizzato da un servizio sul Server 1. Se il Server 1 viene compromesso, vengono scoperte le informazioni di autenticazione per l'Account A. In questa situazione l'utente malintenzionato ha accesso al controller di dominio DC1, dal quale tutte le risorse del dominio e le informazioni in esso contenute diventano vulnerabili.</p>
-<p>Questa situazione rappresenta uno scenario di rischio critico. Gli account di dominio con privilegi equivalenti a quelli di un amministratore per il dominio o per un controller di dominio non devono mai essere utilizzati per eseguire i servizi su un server membro.</p></td>
-<td style="border:1px solid black;"><p>Critico</p></td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">L'Account A viene utilizzato da un servizio sul Server 1. Se il Server 1 viene compromesso, vengono scoperte le informazioni di autenticazione per l'Account A. In questa situazione l'utente malintenzionato ha accesso al controller di dominio DC1, dal quale tutte le risorse del dominio e le informazioni in esso contenute diventano vulnerabili.
+Questa situazione rappresenta uno scenario di rischio critico. Gli account di dominio con privilegi equivalenti a quelli di un amministratore per il dominio o per un controller di dominio non devono mai essere utilizzati per eseguire i servizi su un server membro.</td>
+<td style="border:1px solid black;">Critico</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>L'Account B viene utilizzato da un servizio sul Server 2. Anche l'Account B dispone di privilegi sul Server 1 in cui l'Account A esegue un servizio. Se l'Account B viene compromesso sul Server 2, l'utente malintenzionato ha lo stesso accesso descritto nello scenario 1, che espone il controller di dominio e l'intero dominio all'attacco.</p>
-<p>L'Account C espone anche la rete allo stesso livello di rischio perché potrebbe essere utilizzato per compromettere il Server 2 in seguito a un attacco contro il Server 3, che a sua volta espone l'Account A e di conseguenza l'intero dominio.</p>
-<p>Questi sono scenari di rischio elevato ma risolvibile posto che le minacce potenziali presentate nello Scenario 1 siano state risolte.</p></td>
-<td style="border:1px solid black;"><p>Elevato</p></td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">L'Account B viene utilizzato da un servizio sul Server 2. Anche l'Account B dispone di privilegi sul Server 1 in cui l'Account A esegue un servizio. Se l'Account B viene compromesso sul Server 2, l'utente malintenzionato ha lo stesso accesso descritto nello scenario 1, che espone il controller di dominio e l'intero dominio all'attacco.
+L'Account C espone anche la rete allo stesso livello di rischio perché potrebbe essere utilizzato per compromettere il Server 2 in seguito a un attacco contro il Server 3, che a sua volta espone l'Account A e di conseguenza l'intero dominio.
+Questi sono scenari di rischio elevato ma risolvibile posto che le minacce potenziali presentate nello Scenario 1 siano state risolte.</td>
+<td style="border:1px solid black;">Elevato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>L'Account D viene utilizzato da un servizio in esecuzione sul Server 4 e sul Server 5. Se l'Account D viene compromesso, un utente malintenzionato può accedere a tutti i server nei punti in cui l'Account D dispone di privilegi. Se questi server non comprendono servizi che utilizzano account con un numero o un ambito maggiore di privilegi, questo scenario presenterà un rischio con priorità media perché la vulnerabilità transitiva dello Scenario 2 non esiste.</p></td>
-<td style="border:1px solid black;"><p>Medio</p></td>
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">L'Account D viene utilizzato da un servizio in esecuzione sul Server 4 e sul Server 5. Se l'Account D viene compromesso, un utente malintenzionato può accedere a tutti i server nei punti in cui l'Account D dispone di privilegi. Se questi server non comprendono servizi che utilizzano account con un numero o un ambito maggiore di privilegi, questo scenario presenterà un rischio con priorità media perché la vulnerabilità transitiva dello Scenario 2 non esiste.</td>
+<td style="border:1px solid black;">Medio</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>4</p></td>
-<td style="border:1px solid black;"><p>L'Account E viene utilizzato da un servizio su un unico server, il Server 5, e non dispone di altri privilegi o associazioni di servizi. Questo scenario rappresenta un rischio di livello basso perché non consente di acquisire privilegi maggiori del singolo server.</p></td>
-<td style="border:1px solid black;"><p>Basso</p></td>
+<td style="border:1px solid black;">4</td>
+<td style="border:1px solid black;">L'Account E viene utilizzato da un servizio su un unico server, il Server 5, e non dispone di altri privilegi o associazioni di servizi. Questo scenario rappresenta un rischio di livello basso perché non consente di acquisire privilegi maggiori del singolo server.</td>
+<td style="border:1px solid black;">Basso</td>
 </tr>
 </tbody>
 </table>
@@ -323,7 +323,7 @@ Nella seguente tabella vengono elencati gli account del servizio che non utilizz
   
 **Tabella 3. Nuove impostazioni degli account del servizio di Windows Server 2003**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -331,78 +331,78 @@ Nella seguente tabella vengono elencati gli account del servizio che non utilizz
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Servizio</p></th>
-<th><p>Accesso come</p></th>
+<th>Servizio</th>
+<th>Accesso come</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Avvisi</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Avvisi</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizio Gateway di livello applicazione</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Servizio Gateway di livello applicazione</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Registro di sistema remoto</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Registro di sistema remoto</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Smart card</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Smart card</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Helper NetBIOS di TCP/IP</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Helper NetBIOS di TCP/IP</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Telnet</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Telnet</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo di continuità</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Gruppo di continuità</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WebClient</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">WebClient</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Acquisizione di immagini di Windows (WIA)</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Acquisizione di immagini di Windows (WIA)</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ora di Windows</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Ora di Windows</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizio Rilevamento automatico proxy Web WinHTTP</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Servizio Rilevamento automatico proxy Web WinHTTP</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Client DHCP</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
+<td style="border:1px solid black;">Client DHCP</td>
+<td style="border:1px solid black;">Servizio di rete</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Distributed Transaction Coordinator</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
+<td style="border:1px solid black;">Distributed Transaction Coordinator</td>
+<td style="border:1px solid black;">Servizio di rete</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Client DNS</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
+<td style="border:1px solid black;">Client DNS</td>
+<td style="border:1px solid black;">Servizio di rete</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Registrazione licenze</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
+<td style="border:1px solid black;">Registrazione licenze</td>
+<td style="border:1px solid black;">Servizio di rete</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Log prestazioni</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
+<td style="border:1px solid black;">Log prestazioni</td>
+<td style="border:1px solid black;">Servizio di rete</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RPC Locator</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
+<td style="border:1px solid black;">RPC Locator</td>
+<td style="border:1px solid black;">Servizio di rete</td>
 </tr>
 </tbody>
 </table>
@@ -867,7 +867,7 @@ La seguente tabella elenca e descrive in ordine alfabetico i servizi comuni di W
   
 **Tabella A.1 Descrizioni dei servizi di Windows XP e Windows Server 2003**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -877,872 +877,872 @@ La seguente tabella elenca e descrive in ordine alfabetico i servizi comuni di W
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Servizio</p></th>
-<th><p>Nome del servizio</p></th>
-<th><p>Accesso come</p></th>
-<th><p>Descrizione</p></th>
+<th>Servizio</th>
+<th>Nome del servizio</th>
+<th>Accesso come</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>6to4</p></td>
-<td style="border:1px solid black;"><p>IP Version 6 Helper Service</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Attiva la connettività IPv6 sulle reti IPv4.</p></td>
+<td style="border:1px solid black;">6to4</td>
+<td style="border:1px solid black;">IP Version 6 Helper Service</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Attiva la connettività IPv6 sulle reti IPv4.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AELookupSvc</p></td>
-<td style="border:1px solid black;"><p>Servizio di verifica compatibilità applicazioni</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Elabora le richieste di ricerca di compatibilità delle applicazioni al loro avvio. Il servizio deve essere attivato per poter ottenere gli aggiornamenti del software di compatibilità applicazioni.</p></td>
+<td style="border:1px solid black;">AELookupSvc</td>
+<td style="border:1px solid black;">Servizio di verifica compatibilità applicazioni</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Elabora le richieste di ricerca di compatibilità delle applicazioni al loro avvio. Il servizio deve essere attivato per poter ottenere gli aggiornamenti del software di compatibilità applicazioni.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Avvisi</p></td>
-<td style="border:1px solid black;"><p>Avvisi</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
-<td style="border:1px solid black;"><p>Questo servizio notifica gli avvisi amministrativi agli utenti e ai computer selezionati e, per la consegna, si basa sul servizio Messenger presenti sui computer client.</p></td>
+<td style="border:1px solid black;">Avvisi</td>
+<td style="border:1px solid black;">Avvisi</td>
+<td style="border:1px solid black;">Servizio locale</td>
+<td style="border:1px solid black;">Questo servizio notifica gli avvisi amministrativi agli utenti e ai computer selezionati e, per la consegna, si basa sul servizio Messenger presenti sui computer client.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ALG</p></td>
-<td style="border:1px solid black;"><p>Servizio Gateway di livello applicazione</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce il supporto per i plugin che consentono ai protocolli di rete di passare attraverso il firewall e di lavorare con supporto ICS.</p></td>
+<td style="border:1px solid black;">ALG</td>
+<td style="border:1px solid black;">Servizio Gateway di livello applicazione</td>
+<td style="border:1px solid black;">Servizio locale</td>
+<td style="border:1px solid black;">Fornisce il supporto per i plugin che consentono ai protocolli di rete di passare attraverso il firewall e di lavorare con supporto ICS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AppMgmt</p></td>
-<td style="border:1px solid black;"><p>Gestione applicazione</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce servizi di installazione software, quali Assegna, Pubblica e Rimuovi. Se disattivato, le applicazioni non possono essere installate tramite i servizi Active Directory, come IntelliMirror®.</p></td>
+<td style="border:1px solid black;">AppMgmt</td>
+<td style="border:1px solid black;">Gestione applicazione</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce servizi di installazione software, quali Assegna, Pubblica e Rimuovi. Se disattivato, le applicazioni non possono essere installate tramite i servizi Active Directory, come IntelliMirror®.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AppMgr</p></td>
-<td style="border:1px solid black;"><p>Gestione remota server</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Opera come provider dell'istanza WMI per gli oggetti degli avvisi di amministrazione remota e da provider di metodo WMI per le attività di gestione remote.</p></td>
+<td style="border:1px solid black;">AppMgr</td>
+<td style="border:1px solid black;">Gestione remota server</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Opera come provider dell'istanza WMI per gli oggetti degli avvisi di amministrazione remota e da provider di metodo WMI per le attività di gestione remote.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>aspnet_state</p></td>
-<td style="border:1px solid black;"><p>Servizio Stato di ASP.NET</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
-<td style="border:1px solid black;"><p>Fornisce supporto per gli stati di sessione out-of-process di ASP.NET.</p></td>
+<td style="border:1px solid black;">aspnet_state</td>
+<td style="border:1px solid black;">Servizio Stato di ASP.NET</td>
+<td style="border:1px solid black;">Servizio di rete</td>
+<td style="border:1px solid black;">Fornisce supporto per gli stati di sessione out-of-process di ASP.NET.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AudioSrv</p></td>
-<td style="border:1px solid black;"><p>Windows Audio</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce i dispositivi audio per i programmi basati su Windows.</p></td>
+<td style="border:1px solid black;">AudioSrv</td>
+<td style="border:1px solid black;">Windows Audio</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce i dispositivi audio per i programmi basati su Windows.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>BINLSVC</p></td>
-<td style="border:1px solid black;"><p>Installazione remota</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>È il componente principale del server di installazione remota (RIS), che risponde alle richieste PXE per i computer abilitati all'avvio remoto.</p></td>
+<td style="border:1px solid black;">BINLSVC</td>
+<td style="border:1px solid black;">Installazione remota</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">È il componente principale del server di installazione remota (RIS), che risponde alle richieste PXE per i computer abilitati all'avvio remoto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>BITS</p></td>
-<td style="border:1px solid black;"><p>Servizio trasferimento intelligente in background</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
-<td style="border:1px solid black;"><p>Fornisce un meccanismo di trasferimento di file in background per il gestore di coda. Quando questo servizio si arresta, il computer non è più in grado di utilizzare le funzioni di aggiornamento automatico.</p></td>
+<td style="border:1px solid black;">BITS</td>
+<td style="border:1px solid black;">Servizio trasferimento intelligente in background</td>
+<td style="border:1px solid black;">Servizio di rete</td>
+<td style="border:1px solid black;">Fornisce un meccanismo di trasferimento di file in background per il gestore di coda. Quando questo servizio si arresta, il computer non è più in grado di utilizzare le funzioni di aggiornamento automatico.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Browser</p></td>
-<td style="border:1px solid black;"><p>Browser di computer</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce un elenco aggiornato dei computer in rete.</p></td>
+<td style="border:1px solid black;">Browser</td>
+<td style="border:1px solid black;">Browser di computer</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce un elenco aggiornato dei computer in rete.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CertSvc</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Parte del sistema operativo principale che emette e gestisce i certificati digitali.</p></td>
+<td style="border:1px solid black;">CertSvc</td>
+<td style="border:1px solid black;">Servizi certificati</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Parte del sistema operativo principale che emette e gestisce i certificati digitali.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>cisvc</p></td>
-<td style="border:1px solid black;"><p>Servizio di indicizzazione</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce rapido accesso ai file tramite un linguaggio di query indicizzando i contenuti e le proprietà dei file.</p></td>
+<td style="border:1px solid black;">cisvc</td>
+<td style="border:1px solid black;">Servizio di indicizzazione</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce rapido accesso ai file tramite un linguaggio di query indicizzando i contenuti e le proprietà dei file.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ClipSrv</p></td>
-<td style="border:1px solid black;"><p>Cartella Appunti</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Abilita il Visualizzatore Cartella appunti per creare e condividere le pagine di dati per la revisione da parte di utenti remoti.</p></td>
+<td style="border:1px solid black;">ClipSrv</td>
+<td style="border:1px solid black;">Cartella Appunti</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Abilita il Visualizzatore Cartella appunti per creare e condividere le pagine di dati per la revisione da parte di utenti remoti.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ClusSvc</p></td>
-<td style="border:1px solid black;"><p>Servizi cluster</p></td>
-<td style="border:1px solid black;"><p>Account di dominio</p></td>
-<td style="border:1px solid black;"><p>Controlla le operazione del cluster di server e gestisce il database del cluster.</p></td>
+<td style="border:1px solid black;">ClusSvc</td>
+<td style="border:1px solid black;">Servizi cluster</td>
+<td style="border:1px solid black;">Account di dominio</td>
+<td style="border:1px solid black;">Controlla le operazione del cluster di server e gestisce il database del cluster.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>COMSysApp</p></td>
-<td style="border:1px solid black;"><p>Applicazione di sistema COM+</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce la configurazione e la registrazione di componenti basati su COM+. I componenti COM+ non funzionano correttamente se questo servizio è disattivato.</p></td>
+<td style="border:1px solid black;">COMSysApp</td>
+<td style="border:1px solid black;">Applicazione di sistema COM+</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce la configurazione e la registrazione di componenti basati su COM+. I componenti COM+ non funzionano correttamente se questo servizio è disattivato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CORRTSvc</p></td>
-<td style="border:1px solid black;"><p>Servizio per il supporto di .NET Framework</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Avvisa i client sottoscrittori quando i processi specificati inizializzano il servizio runtime client.</p></td>
+<td style="border:1px solid black;">CORRTSvc</td>
+<td style="border:1px solid black;">Servizio per il supporto di .NET Framework</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Avvisa i client sottoscrittori quando i processi specificati inizializzano il servizio runtime client.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CryptSvc</p></td>
-<td style="border:1px solid black;"><p>Servizi di crittografia</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce i servizi di gestione delle chiavi crittografiche per i computer basati su Windows.</p></td>
+<td style="border:1px solid black;">CryptSvc</td>
+<td style="border:1px solid black;">Servizi di crittografia</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce i servizi di gestione delle chiavi crittografiche per i computer basati su Windows.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DcomLaunch</p></td>
-<td style="border:1px solid black;"><p>Utilità di avvio processo server DCOM</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce parte dei servizi RPC che richiedono i privilegi del sistema locale in combinazione con il servizio RPCSS.</p></td>
+<td style="border:1px solid black;">DcomLaunch</td>
+<td style="border:1px solid black;">Utilità di avvio processo server DCOM</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce parte dei servizi RPC che richiedono i privilegi del sistema locale in combinazione con il servizio RPCSS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Dfs</p></td>
-<td style="border:1px solid black;"><p>File system distribuito</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Integra diverse condivisioni di file posizionate nella rete in un unico spazio dei nomi logico. Necessario per la condivisione del volume SYSVOL.</p></td>
+<td style="border:1px solid black;">Dfs</td>
+<td style="border:1px solid black;">File system distribuito</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Integra diverse condivisioni di file posizionate nella rete in un unico spazio dei nomi logico. Necessario per la condivisione del volume SYSVOL.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DFSR</p></td>
-<td style="border:1px solid black;"><p>Replica di file system distribuiti</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Copia automaticamente gli aggiornamenti nei file e nelle cartelle tra i computer che fanno parte di un gruppo di replica comune (aggiunto in Windows Server 2003 R2).</p></td>
+<td style="border:1px solid black;">DFSR</td>
+<td style="border:1px solid black;">Replica di file system distribuiti</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Copia automaticamente gli aggiornamenti nei file e nelle cartelle tra i computer che fanno parte di un gruppo di replica comune (aggiunto in Windows Server 2003 R2).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Dhcp</p></td>
-<td style="border:1px solid black;"><p>Client DHCP</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
-<td style="border:1px solid black;"><p>Gestisce le informazioni sulla configurazione di rete DHCP registrando e aggiornando gli indirizzi IP.</p></td>
+<td style="border:1px solid black;">Dhcp</td>
+<td style="border:1px solid black;">Client DHCP</td>
+<td style="border:1px solid black;">Servizio di rete</td>
+<td style="border:1px solid black;">Gestisce le informazioni sulla configurazione di rete DHCP registrando e aggiornando gli indirizzi IP.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DHCPServer</p></td>
-<td style="border:1px solid black;"><p>Server DHCP</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Questo servizio gestisce DHCP e assegna gli indirizzi IP ai computer client.</p></td>
+<td style="border:1px solid black;">DHCPServer</td>
+<td style="border:1px solid black;">Server DHCP</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Questo servizio gestisce DHCP e assegna gli indirizzi IP ai computer client.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dmadmin</p></td>
-<td style="border:1px solid black;"><p>Servizio amministrativo di Gestione dischi logici</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Esegue i servizi di amministrazione per le richieste di gestione dei dischi e configura i dischi e i volumi. Questo servizio viene eseguito solo durante i processi di configurazione.</p></td>
+<td style="border:1px solid black;">dmadmin</td>
+<td style="border:1px solid black;">Servizio amministrativo di Gestione dischi logici</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Esegue i servizi di amministrazione per le richieste di gestione dei dischi e configura i dischi e i volumi. Questo servizio viene eseguito solo durante i processi di configurazione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dmserver</p></td>
-<td style="border:1px solid black;"><p>Gestione dischi logici</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Rileva e controlla le nuove unità disco e invia le informazioni sul volume al servizio dmadmin. Non disattivare se nel computer sono in uso i dischi dinamici.</p></td>
+<td style="border:1px solid black;">dmserver</td>
+<td style="border:1px solid black;">Gestione dischi logici</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Rileva e controlla le nuove unità disco e invia le informazioni sul volume al servizio dmadmin. Non disattivare se nel computer sono in uso i dischi dinamici.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DNS</p></td>
-<td style="border:1px solid black;"><p>Server DNS</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Abilita la risoluzione dei nomi DNS rispondendo alle query e aggiornando le richieste per i nomi DNS.</p></td>
+<td style="border:1px solid black;">DNS</td>
+<td style="border:1px solid black;">Server DNS</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Abilita la risoluzione dei nomi DNS rispondendo alle query e aggiornando le richieste per i nomi DNS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Dnscache</p></td>
-<td style="border:1px solid black;"><p>Client DNS</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
-<td style="border:1px solid black;"><p>Consente di risolvere e memorizzare nella cache i nomi DNS e deve essere eseguito su ogni computer che esegue la risoluzione dei nomi DNS.</p></td>
+<td style="border:1px solid black;">Dnscache</td>
+<td style="border:1px solid black;">Client DNS</td>
+<td style="border:1px solid black;">Servizio di rete</td>
+<td style="border:1px solid black;">Consente di risolvere e memorizzare nella cache i nomi DNS e deve essere eseguito su ogni computer che esegue la risoluzione dei nomi DNS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ERSvc</p></td>
-<td style="border:1px solid black;"><p>Servizio di segnalazione errori</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Raccoglie, memorizza e crea report su errori o arresti imprevisti delle applicazioni.</p></td>
+<td style="border:1px solid black;">ERSvc</td>
+<td style="border:1px solid black;">Servizio di segnalazione errori</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Raccoglie, memorizza e crea report su errori o arresti imprevisti delle applicazioni.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Eventlog</p></td>
-<td style="border:1px solid black;"><p>Registro eventi</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Scrive gli eventi inviati da programmi, servizi e dal sistema operativo ai registri degli eventi.</p></td>
+<td style="border:1px solid black;">Eventlog</td>
+<td style="border:1px solid black;">Registro eventi</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Scrive gli eventi inviati da programmi, servizi e dal sistema operativo ai registri degli eventi.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>EventSystem</p></td>
-<td style="border:1px solid black;"><p>COM+ Event System</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente la distribuzione automatica di eventi ai componenti COM dei quali viene eseguita la sottoscrizione.</p></td>
+<td style="border:1px solid black;">EventSystem</td>
+<td style="border:1px solid black;">COM+ Event System</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente la distribuzione automatica di eventi ai componenti COM dei quali viene eseguita la sottoscrizione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Compatibilità di Cambio rapido utente</p></td>
-<td style="border:1px solid black;"><p>Compatibilità di Cambio rapido utente</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente la gestione delle applicazioni che richiedono assistenza in ambienti multiutente.</p></td>
+<td style="border:1px solid black;">Compatibilità di Cambio rapido utente</td>
+<td style="border:1px solid black;">Compatibilità di Cambio rapido utente</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente la gestione delle applicazioni che richiedono assistenza in ambienti multiutente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Fax</p></td>
-<td style="border:1px solid black;"><p>Servizio Fax</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Provider di funzioni fax compatibile con TAPI.</p></td>
+<td style="border:1px solid black;">Fax</td>
+<td style="border:1px solid black;">Servizio Fax</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Provider di funzioni fax compatibile con TAPI.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Groveler</p></td>
-<td style="border:1px solid black;"><p>Agente di archiviazione istanza singola</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Parte integrante del servizio di installazione remoto (RIS) che trova i file duplicati e copia l'originale in Archiviazione istanza singola.</p></td>
+<td style="border:1px solid black;">Groveler</td>
+<td style="border:1px solid black;">Agente di archiviazione istanza singola</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Parte integrante del servizio di installazione remoto (RIS) che trova i file duplicati e copia l'originale in Archiviazione istanza singola.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>helpsvc</p></td>
-<td style="border:1px solid black;"><p>Guida in linea e supporto tecnico</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce l'accesso agli archivi e ai servizi che contengono i metadati e le informazioni relative agli argomenti per l'applicazione Guida in linea e supporto tecnico.</p></td>
+<td style="border:1px solid black;">helpsvc</td>
+<td style="border:1px solid black;">Guida in linea e supporto tecnico</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce l'accesso agli archivi e ai servizi che contengono i metadati e le informazioni relative agli argomenti per l'applicazione Guida in linea e supporto tecnico.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>HidServ</p></td>
-<td style="border:1px solid black;"><p>Accesso periferica Human Interface</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Abilita l'accesso con input generico ai dispositivi USB, quali tastiere e mouse.</p></td>
+<td style="border:1px solid black;">HidServ</td>
+<td style="border:1px solid black;">Accesso periferica Human Interface</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Abilita l'accesso con input generico ai dispositivi USB, quali tastiere e mouse.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>HTTPFilter</p></td>
-<td style="border:1px solid black;"><p>SSL HTTP</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente l'esecuzione di funzioni SSL.</p></td>
+<td style="border:1px solid black;">HTTPFilter</td>
+<td style="border:1px solid black;">SSL HTTP</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente l'esecuzione di funzioni SSL.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IAS</p></td>
-<td style="border:1px solid black;"><p>Servizio autenticazione Internet (IAS)</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Esegue l'autenticazione, l'autorizzazione, il controllo e l'amministrazione centralizzati degli utenti che si collegano a una rete.</p></td>
+<td style="border:1px solid black;">IAS</td>
+<td style="border:1px solid black;">Servizio autenticazione Internet (IAS)</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Esegue l'autenticazione, l'autorizzazione, il controllo e l'amministrazione centralizzati degli utenti che si collegano a una rete.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IASJet</p></td>
-<td style="border:1px solid black;"><p>IAS Jet Database Access</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce l'autenticazione, l'autorizzazione e l'amministrazione dei servizi tramite il protocollo RADIUS.</p></td>
+<td style="border:1px solid black;">IASJet</td>
+<td style="border:1px solid black;">IAS Jet Database Access</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce l'autenticazione, l'autorizzazione e l'amministrazione dei servizi tramite il protocollo RADIUS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IISADMIN</p></td>
-<td style="border:1px solid black;"><p>Servizio Amministrazione di IIS</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Consente l'amministrazione dei componenti IIS quali FTP ed estensioni dei servizi Web.</p></td>
+<td style="border:1px solid black;">IISADMIN</td>
+<td style="border:1px solid black;">Servizio Amministrazione di IIS</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Consente l'amministrazione dei componenti IIS quali FTP ed estensioni dei servizi Web.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ImapiService</p></td>
-<td style="border:1px solid black;"><p>Servizio COM di masterizzazione CD IMAPI</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce la creazione dei CD tramite l'interfaccia COM IMAPI e, se richiesto, esegue operazioni di scrittura su CD-R.</p></td>
+<td style="border:1px solid black;">ImapiService</td>
+<td style="border:1px solid black;">Servizio COM di masterizzazione CD IMAPI</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce la creazione dei CD tramite l'interfaccia COM IMAPI e, se richiesto, esegue operazioni di scrittura su CD-R.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Irmon</p></td>
-<td style="border:1px solid black;"><p>Monitor infrarossi</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Abilita la condivisione di file tramite le connessioni a infrarossi.</p></td>
+<td style="border:1px solid black;">Irmon</td>
+<td style="border:1px solid black;">Monitor infrarossi</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Abilita la condivisione di file tramite le connessioni a infrarossi.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IsmServ</p></td>
-<td style="border:1px solid black;"><p>Messaggistica tra siti</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Abilita lo scambio dei messaggi tra computer in cui è in esecuzione Windows Server.</p></td>
+<td style="border:1px solid black;">IsmServ</td>
+<td style="border:1px solid black;">Messaggistica tra siti</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Abilita lo scambio dei messaggi tra computer in cui è in esecuzione Windows Server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>kdc</p></td>
-<td style="border:1px solid black;"><p>Centro distribuzione chiave Kerberos</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente l'accesso degli utenti tramite il protocollo di autenticazione Kerberos. Se il servizio viene arrestato, i client non possono accedere a un dominio.</p></td>
+<td style="border:1px solid black;">kdc</td>
+<td style="border:1px solid black;">Centro distribuzione chiave Kerberos</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente l'accesso degli utenti tramite il protocollo di autenticazione Kerberos. Se il servizio viene arrestato, i client non possono accedere a un dominio.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>lanmanserver</p></td>
-<td style="border:1px solid black;"><p>Server</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Assicura il supporto RPC e la condivisione in rete di file, stampanti e named pipe.</p></td>
+<td style="border:1px solid black;">lanmanserver</td>
+<td style="border:1px solid black;">Server</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Assicura il supporto RPC e la condivisione in rete di file, stampanti e named pipe.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Workstation Lanman</p></td>
-<td style="border:1px solid black;"><p>Workstation</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce connessioni e comunicazioni in rete per i servizi client.</p></td>
+<td style="border:1px solid black;">Workstation Lanman</td>
+<td style="border:1px solid black;">Workstation</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce connessioni e comunicazioni in rete per i servizi client.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>LicenseService</p></td>
-<td style="border:1px solid black;"><p>Registrazione licenze</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
-<td style="border:1px solid black;"><p>Progettato in origine per gestire le licenze CAL introdotte con Windows NT® Server 3.51. Deve essere abilitato solo da utenti di Microsoft Small Business Server.</p></td>
+<td style="border:1px solid black;">LicenseService</td>
+<td style="border:1px solid black;">Registrazione licenze</td>
+<td style="border:1px solid black;">Servizio di rete</td>
+<td style="border:1px solid black;">Progettato in origine per gestire le licenze CAL introdotte con Windows NT® Server 3.51. Deve essere abilitato solo da utenti di Microsoft Small Business Server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>LMHosts</p></td>
-<td style="border:1px solid black;"><p>Servizio guida TCP/IP NetBIOS</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce supporto per NetBIOS su TCP/IP e per la risoluzione dei nomi NetBIOS per i client.</p></td>
+<td style="border:1px solid black;">LMHosts</td>
+<td style="border:1px solid black;">Servizio guida TCP/IP NetBIOS</td>
+<td style="border:1px solid black;">Servizio locale</td>
+<td style="border:1px solid black;">Fornisce supporto per NetBIOS su TCP/IP e per la risoluzione dei nomi NetBIOS per i client.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>LPDSVC</p></td>
-<td style="border:1px solid black;"><p>Server di stampa TCP/IP</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Abilita la stampa basata su TCP/IP tramite il protocollo LPD per la ricezione dei documenti dalle utilità LPD installate nelle piattaforme basate su UNIX.</p></td>
+<td style="border:1px solid black;">LPDSVC</td>
+<td style="border:1px solid black;">Server di stampa TCP/IP</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Abilita la stampa basata su TCP/IP tramite il protocollo LPD per la ricezione dei documenti dalle utilità LPD installate nelle piattaforme basate su UNIX.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>LSASS</p></td>
-<td style="border:1px solid black;"><p>Autorità di protezione locale</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce un'interfaccia per la gestione della protezione locale, dell'autenticazione di domini e dei processi Active Directory.</p></td>
+<td style="border:1px solid black;">LSASS</td>
+<td style="border:1px solid black;">Autorità di protezione locale</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce un'interfaccia per la gestione della protezione locale, dell'autenticazione di domini e dei processi Active Directory.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MacFile</p></td>
-<td style="border:1px solid black;"><p>File server per Macintosh</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente agli utenti Macintosh di archiviare e accedere ai file su Windows Server 2003.</p></td>
+<td style="border:1px solid black;">MacFile</td>
+<td style="border:1px solid black;">File server per Macintosh</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente agli utenti Macintosh di archiviare e accedere ai file su Windows Server 2003.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MacPrint</p></td>
-<td style="border:1px solid black;"><p>Server di stampa per Macintosh</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente agli utenti Macintosh di utilizzare i servizi di stampa di Windows Server 2003.</p></td>
+<td style="border:1px solid black;">MacPrint</td>
+<td style="border:1px solid black;">Server di stampa per Macintosh</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente agli utenti Macintosh di utilizzare i servizi di stampa di Windows Server 2003.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MDM</p></td>
-<td style="border:1px solid black;"><p>Machine Debug Manager</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Gestisce il debug locale e remoto per le applicazioni.</p></td>
+<td style="border:1px solid black;">MDM</td>
+<td style="border:1px solid black;">Machine Debug Manager</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Gestisce il debug locale e remoto per le applicazioni.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Messenger</p></td>
-<td style="border:1px solid black;"><p>Messenger</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Invia i messaggi o li riceve dal servizio Avvisi. Non è correlato a Windows Messenger e, se disattivato, impedisce l'uso dei comandi net send e net name.</p></td>
+<td style="border:1px solid black;">Messenger</td>
+<td style="border:1px solid black;">Messenger</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Invia i messaggi o li riceve dal servizio Avvisi. Non è correlato a Windows Messenger e, se disattivato, impedisce l'uso dei comandi net send e net name.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>mnmsrvc</p></td>
-<td style="border:1px solid black;"><p>Condivisione desktop remoto di NetMeeting</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente agli utenti autorizzati di accedere a Windows Desktop da altri computer tramite i servizi Windows NetMeeting®.</p></td>
+<td style="border:1px solid black;">mnmsrvc</td>
+<td style="border:1px solid black;">Condivisione desktop remoto di NetMeeting</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente agli utenti autorizzati di accedere a Windows Desktop da altri computer tramite i servizi Windows NetMeeting®.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>mqds</p></td>
-<td style="border:1px solid black;"><p>Accodamento messaggi per i client di livello inferiore</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce l'accesso di Active Directory per le vecchie versioni di Windows che utilizzano il servizio di accodamento messaggi.</p></td>
+<td style="border:1px solid black;">mqds</td>
+<td style="border:1px solid black;">Accodamento messaggi per i client di livello inferiore</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce l'accesso di Active Directory per le vecchie versioni di Windows che utilizzano il servizio di accodamento messaggi.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Mqtgsvc</p></td>
-<td style="border:1px solid black;"><p>Trigger Accodamento messaggi</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente a un sistema basato su regole di controllare i messaggi in arrivo in un servizio di Accodamento messaggi e richiama i servizi di elaborazione messaggi.</p></td>
+<td style="border:1px solid black;">Mqtgsvc</td>
+<td style="border:1px solid black;">Trigger Accodamento messaggi</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente a un sistema basato su regole di controllare i messaggi in arrivo in un servizio di Accodamento messaggi e richiama i servizi di elaborazione messaggi.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSDTC</p></td>
-<td style="border:1px solid black;"><p>Distributed Transaction Coordinator</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
-<td style="border:1px solid black;"><p>Coordina le transazioni distribuite su più computer, database, file system, code messaggi e altri programmi di gestione di risorse protette da transazione.</p></td>
+<td style="border:1px solid black;">MSDTC</td>
+<td style="border:1px solid black;">Distributed Transaction Coordinator</td>
+<td style="border:1px solid black;">Servizio di rete</td>
+<td style="border:1px solid black;">Coordina le transazioni distribuite su più computer, database, file system, code messaggi e altri programmi di gestione di risorse protette da transazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSExchange MTA</p></td>
-<td style="border:1px solid black;"><p>Stack Agente di trasferimento messaggi di Microsoft Exchange</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Fornisce il servizio di trasferimento messaggi compatibile con le versioni precedenti in un ambiente a modalità mista.</p></td>
+<td style="border:1px solid black;">MSExchange MTA</td>
+<td style="border:1px solid black;">Stack Agente di trasferimento messaggi di Microsoft Exchange</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Fornisce il servizio di trasferimento messaggi compatibile con le versioni precedenti in un ambiente a modalità mista.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSFTPSVC</p></td>
-<td style="border:1px solid black;"><p>Servizio Pubblicazione tramite FTP</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
-<td style="border:1px solid black;"><p>Fornisce la connettività e la gestione FTP tramite lo snap-in di IIS.</p></td>
+<td style="border:1px solid black;">MSFTPSVC</td>
+<td style="border:1px solid black;">Servizio Pubblicazione tramite FTP</td>
+<td style="border:1px solid black;">Servizio di rete</td>
+<td style="border:1px solid black;">Fornisce la connettività e la gestione FTP tramite lo snap-in di IIS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSIServer</p></td>
-<td style="border:1px solid black;"><p>Windows Installer</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce l'installazione e la rimozione delle applicazioni applicando gruppi di regole di configurazione definite centralmente durante i processi di installazione.</p></td>
+<td style="border:1px solid black;">MSIServer</td>
+<td style="border:1px solid black;">Windows Installer</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce l'installazione e la rimozione delle applicazioni applicando gruppi di regole di configurazione definite centralmente durante i processi di installazione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>msmq</p></td>
-<td style="border:1px solid black;"><p>Accodamento messaggi</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Opera come infrastruttura di messaggistica e strumento di sviluppo per l'attivazione della messaggistica distribuita per i programmi Windows.</p></td>
+<td style="border:1px solid black;">msmq</td>
+<td style="border:1px solid black;">Accodamento messaggi</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Opera come infrastruttura di messaggistica e strumento di sviluppo per l'attivazione della messaggistica distribuita per i programmi Windows.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSSQL$UDDI</p></td>
-<td style="border:1px solid black;"><p>MSSQL$UDDI</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
-<td style="border:1px solid black;"><p>Fornisce servizi UDDI (Universal Description, Discovery and Integration) al modulo di gestione di database SQL Server.</p></td>
+<td style="border:1px solid black;">MSSQL$UDDI</td>
+<td style="border:1px solid black;">MSSQL$UDDI</td>
+<td style="border:1px solid black;">Servizio di rete</td>
+<td style="border:1px solid black;">Fornisce servizi UDDI (Universal Description, Discovery and Integration) al modulo di gestione di database SQL Server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SERVER MSSQL</p></td>
-<td style="border:1px solid black;"><p>Server MSSQL</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Fornisce servizi MS SQL Server configurabili.</p></td>
+<td style="border:1px solid black;">SERVER MSSQL</td>
+<td style="border:1px solid black;">Server MSSQL</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Fornisce servizi MS SQL Server configurabili.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSSQLServer ADHelper</p></td>
-<td style="border:1px solid black;"><p>MSSQL Server ADHelper</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Abilita SQL Server e SQL Server Analysis Services per la pubblicazione delle informazioni in Active Directory.</p></td>
+<td style="border:1px solid black;">MSSQLServer ADHelper</td>
+<td style="border:1px solid black;">MSSQL Server ADHelper</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Abilita SQL Server e SQL Server Analysis Services per la pubblicazione delle informazioni in Active Directory.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>NetDDE</p></td>
-<td style="border:1px solid black;"><p>DDE di rete</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce il trasporto di rete e la protezione per lo scambio dinamico dei dati (DDE) per i programmi eseguiti nello stesso computer o in computer diversi.</p></td>
+<td style="border:1px solid black;">NetDDE</td>
+<td style="border:1px solid black;">DDE di rete</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce il trasporto di rete e la protezione per lo scambio dinamico dei dati (DDE) per i programmi eseguiti nello stesso computer o in computer diversi.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>NetDDEdsdm</p></td>
-<td style="border:1px solid black;"><p>DDE DSDM di rete</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce le condivisioni di rete DDE.</p></td>
+<td style="border:1px solid black;">NetDDEdsdm</td>
+<td style="border:1px solid black;">DDE DSDM di rete</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce le condivisioni di rete DDE.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Netlogon</p></td>
-<td style="border:1px solid black;"><p>Netlogon</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce un canale di protezione tra i computer client e i controller di dominio per l'autenticazione di servizi e utenti.</p></td>
+<td style="border:1px solid black;">Netlogon</td>
+<td style="border:1px solid black;">Netlogon</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce un canale di protezione tra i computer client e i controller di dominio per l'autenticazione di servizi e utenti.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Netman</p></td>
-<td style="border:1px solid black;"><p>Connessioni di rete</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce gli oggetti nella cartella Connessioni di rete.</p></td>
+<td style="border:1px solid black;">Netman</td>
+<td style="border:1px solid black;">Connessioni di rete</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce gli oggetti nella cartella Connessioni di rete.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Connessioni di rete</p></td>
-<td style="border:1px solid black;"><p>Connessioni di rete</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce gli oggetti nella cartella Rete e connessioni remote, da cui è possibile visualizzare la rete e le connessioni remote.</p></td>
+<td style="border:1px solid black;">Connessioni di rete</td>
+<td style="border:1px solid black;">Connessioni di rete</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce gli oggetti nella cartella Rete e connessioni remote, da cui è possibile visualizzare la rete e le connessioni remote.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>NLA</p></td>
-<td style="border:1px solid black;"><p>Network Location Awareness</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Raccoglie e archivia le informazioni sulla configurazione di rete ed elabora le informazioni sulla modifica dei percorsi.</p></td>
+<td style="border:1px solid black;">NLA</td>
+<td style="border:1px solid black;">Network Location Awareness</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Raccoglie e archivia le informazioni sulla configurazione di rete ed elabora le informazioni sulla modifica dei percorsi.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>NntpSvc</p></td>
-<td style="border:1px solid black;"><p>Network News Transfer Protocol</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente ai computer di operare come server news NNTP.</p></td>
+<td style="border:1px solid black;">NntpSvc</td>
+<td style="border:1px solid black;">Network News Transfer Protocol</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente ai computer di operare come server news NNTP.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>NtFrs</p></td>
-<td style="border:1px solid black;"><p>Replica file</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Copia automaticamente gli aggiornamenti nei file e nelle cartelle tra i computer che fanno parte di un set di repliche FRS comune.</p></td>
+<td style="border:1px solid black;">NtFrs</td>
+<td style="border:1px solid black;">Replica file</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Copia automaticamente gli aggiornamenti nei file e nelle cartelle tra i computer che fanno parte di un set di repliche FRS comune.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>NtLmSsp</p></td>
-<td style="border:1px solid black;"><p>Provider supporto protezione LM NT</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Responsabile dell'autenticazione e della gestione degli oggetti dei criteri di protezione locale.</p></td>
+<td style="border:1px solid black;">NtLmSsp</td>
+<td style="border:1px solid black;">Provider supporto protezione LM NT</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Responsabile dell'autenticazione e della gestione degli oggetti dei criteri di protezione locale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Workstation NWC</p></td>
-<td style="border:1px solid black;"><p>Servizio client per NetWare</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce l'accesso al file NetWare e alle risorse di stampa.</p></td>
+<td style="border:1px solid black;">Workstation NWC</td>
+<td style="border:1px solid black;">Servizio client per NetWare</td>
+<td style="border:1px solid black;">Servizio locale</td>
+<td style="border:1px solid black;">Fornisce l'accesso al file NetWare e alle risorse di stampa.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>nwsapagent</p></td>
-<td style="border:1px solid black;"><p>Agente SAP</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Annuncia i servizi di rete in reti IPX utilizzando il protocollo IPX SAP.</p></td>
+<td style="border:1px solid black;">nwsapagent</td>
+<td style="border:1px solid black;">Agente SAP</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Annuncia i servizi di rete in reti IPX utilizzando il protocollo IPX SAP.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>one point</p></td>
-<td style="border:1px solid black;"><p>Agente Microsoft Operations Manager 2000</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Agente Microsoft Operations Manager (MOM) 2000.</p></td>
+<td style="border:1px solid black;">one point</td>
+<td style="border:1px solid black;">Agente Microsoft Operations Manager 2000</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Agente Microsoft Operations Manager (MOM) 2000.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PlugPlay</p></td>
-<td style="border:1px solid black;"><p>Plug and Play</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente il riconoscimento delle modifiche apportate all'hardware senza l'input dell'utente.</p></td>
+<td style="border:1px solid black;">PlugPlay</td>
+<td style="border:1px solid black;">Plug and Play</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente il riconoscimento delle modifiche apportate all'hardware senza l'input dell'utente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PolicyAgent</p></td>
-<td style="border:1px solid black;"><p>Servizio IPsec</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce i criteri IPsec, avvia IKE e coordina le impostazioni dei criteri IPsec nel driver di protezione IP.</p></td>
+<td style="border:1px solid black;">PolicyAgent</td>
+<td style="border:1px solid black;">Servizio IPsec</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce i criteri IPsec, avvia IKE e coordina le impostazioni dei criteri IPsec nel driver di protezione IP.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>POP3SVC</p></td>
-<td style="border:1px solid black;"><p>Servizio POP3 Microsoft</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce servizi di trasferimento e di recupero della posta elettronica.</p></td>
+<td style="border:1px solid black;">POP3SVC</td>
+<td style="border:1px solid black;">Servizio POP3 Microsoft</td>
+<td style="border:1px solid black;">Servizio locale</td>
+<td style="border:1px solid black;">Fornisce servizi di trasferimento e di recupero della posta elettronica.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Archiviazione protetta</p></td>
-<td style="border:1px solid black;"><p>Archiviazione protetta</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente l'archiviazione protetta dei dati riservati.</p></td>
+<td style="border:1px solid black;">Archiviazione protetta</td>
+<td style="border:1px solid black;">Archiviazione protetta</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente l'archiviazione protetta dei dati riservati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RasAuto</p></td>
-<td style="border:1px solid black;"><p>Auto Connection Manager di Accesso remoto</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Crea connessioni ai computer remoti ogni volta che i programmi fanno riferimento a nomi o indirizzi DNS o NetBIOS remoti.</p></td>
+<td style="border:1px solid black;">RasAuto</td>
+<td style="border:1px solid black;">Auto Connection Manager di Accesso remoto</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Crea connessioni ai computer remoti ogni volta che i programmi fanno riferimento a nomi o indirizzi DNS o NetBIOS remoti.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RasMan</p></td>
-<td style="border:1px solid black;"><p>Connection Manager di Accesso remoto</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce connessioni remote e VPN alle reti remote.</p></td>
+<td style="border:1px solid black;">RasMan</td>
+<td style="border:1px solid black;">Connection Manager di Accesso remoto</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce connessioni remote e VPN alle reti remote.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RDSessMgr</p></td>
-<td style="border:1px solid black;"><p>Gestione sessione di assistenza mediante desktop remoto</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce e controlla la funzione Assistenza remota all'interno dell'applicazione Guida in linea e supporto tecnico.</p></td>
+<td style="border:1px solid black;">RDSessMgr</td>
+<td style="border:1px solid black;">Gestione sessione di assistenza mediante desktop remoto</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce e controlla la funzione Assistenza remota all'interno dell'applicazione Guida in linea e supporto tecnico.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Remote_</p>
-<p>Storage_Server</p></td>
-<td style="border:1px solid black;"><p>Server di archiviazione remota</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Sposta e richiama i file da un supporto di archiviazione secondario.</p></td>
+<td style="border:1px solid black;">Remote_
+Storage_Server</td>
+<td style="border:1px solid black;">Server di archiviazione remota</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Sposta e richiama i file da un supporto di archiviazione secondario.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Remote_</p>
-<p>Storage_User_</p>
-<p>Link</p></td>
-<td style="border:1px solid black;"><p>Notifica di Archiviazione remota</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Il servizio Remote_Storage_User_Link avvisa gli utenti quando tentano di leggere o scrivere file disponibili solo in tipi di supporti di archiviazione secondari.</p></td>
+<td style="border:1px solid black;">Remote_
+Storage_User_
+Link</td>
+<td style="border:1px solid black;">Notifica di Archiviazione remota</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Il servizio Remote_Storage_User_Link avvisa gli utenti quando tentano di leggere o scrivere file disponibili solo in tipi di supporti di archiviazione secondari.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RemoteAccess</p></td>
-<td style="border:1px solid black;"><p>Routing e Accesso remoto</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Offre servizi di routing multiprotocollo e servizi di accesso remoto e VPN.</p></td>
+<td style="border:1px solid black;">RemoteAccess</td>
+<td style="border:1px solid black;">Routing e Accesso remoto</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Offre servizi di routing multiprotocollo e servizi di accesso remoto e VPN.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RemoteRegistry</p></td>
-<td style="border:1px solid black;"><p>Servizio Registro di sistema remoto</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
-<td style="border:1px solid black;"><p>Abilita gli utenti locali a modificare le impostazioni del Registro di sistema con autorizzazioni adeguate.</p></td>
+<td style="border:1px solid black;">RemoteRegistry</td>
+<td style="border:1px solid black;">Servizio Registro di sistema remoto</td>
+<td style="border:1px solid black;">Servizio locale</td>
+<td style="border:1px solid black;">Abilita gli utenti locali a modificare le impostazioni del Registro di sistema con autorizzazioni adeguate.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RpcLocator</p></td>
-<td style="border:1px solid black;"><p>RPC Locator</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
-<td style="border:1px solid black;"><p>Gestisce il database della risoluzione dei nomi RPC in modo che i client RPC possano individuare i server RPC. Per impostazione predefinita è disattivato.</p></td>
+<td style="border:1px solid black;">RpcLocator</td>
+<td style="border:1px solid black;">RPC Locator</td>
+<td style="border:1px solid black;">Servizio di rete</td>
+<td style="border:1px solid black;">Gestisce il database della risoluzione dei nomi RPC in modo che i client RPC possano individuare i server RPC. Per impostazione predefinita è disattivato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RpcSs</p></td>
-<td style="border:1px solid black;"><p>Remote Procedure Call</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Svolge la funzione di mapping degli endpoint RPC e di servizio COM (Component Object Model)</p></td>
+<td style="border:1px solid black;">RpcSs</td>
+<td style="border:1px solid black;">Remote Procedure Call</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Svolge la funzione di mapping degli endpoint RPC e di servizio COM (Component Object Model)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RSoPProv</p></td>
-<td style="border:1px solid black;"><p>Provider del gruppo di criteri risultante</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Abilita le connessioni ai controller di dominio Windows, l'accesso al database WMI e simula RSoP per le impostazioni dei criteri di gruppo.</p></td>
+<td style="border:1px solid black;">RSoPProv</td>
+<td style="border:1px solid black;">Provider del gruppo di criteri risultante</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Abilita le connessioni ai controller di dominio Windows, l'accesso al database WMI e simula RSoP per le impostazioni dei criteri di gruppo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RSVP</p></td>
-<td style="border:1px solid black;"><p>QoS RSVP</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce l'uso delle richieste API GQoS (Generic Quality of Service) provenienti dalle applicazioni.</p></td>
+<td style="border:1px solid black;">RSVP</td>
+<td style="border:1px solid black;">QoS RSVP</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce l'uso delle richieste API GQoS (Generic Quality of Service) provenienti dalle applicazioni.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Sacsvr</p></td>
-<td style="border:1px solid black;"><p>Helper console di amministrazione speciale</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Esegue le attività di gestione remota quando un sistema operativo della famiglia Windows Server si arresta a causa di messaggi di errore di interruzione.</p></td>
+<td style="border:1px solid black;">Sacsvr</td>
+<td style="border:1px solid black;">Helper console di amministrazione speciale</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Esegue le attività di gestione remota quando un sistema operativo della famiglia Windows Server si arresta a causa di messaggi di errore di interruzione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SamSs</p></td>
-<td style="border:1px solid black;"><p>Gestione account di protezione</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce le informazioni sull'account utente e di gruppo.</p></td>
+<td style="border:1px solid black;">SamSs</td>
+<td style="border:1px solid black;">Gestione account di protezione</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce le informazioni sull'account utente e di gruppo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SCardSvr</p></td>
-<td style="border:1px solid black;"><p>Smart card</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce e controlla l'accesso alle smart card quando vengono inserite nel relativo lettore collegato al computer.</p></td>
+<td style="border:1px solid black;">SCardSvr</td>
+<td style="border:1px solid black;">Smart card</td>
+<td style="border:1px solid black;">Servizio locale</td>
+<td style="border:1px solid black;">Gestisce e controlla l'accesso alle smart card quando vengono inserite nel relativo lettore collegato al computer.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Schedule</p></td>
-<td style="border:1px solid black;"><p>Utilità di pianificazione</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente di eseguire le attività automatizzate.</p></td>
+<td style="border:1px solid black;">Schedule</td>
+<td style="border:1px solid black;">Utilità di pianificazione</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente di eseguire le attività automatizzate.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>seclogon</p></td>
-<td style="border:1px solid black;"><p>Accesso secondario</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente la creazione di processi nel contesto di diverse identità di protezione.</p></td>
+<td style="border:1px solid black;">seclogon</td>
+<td style="border:1px solid black;">Accesso secondario</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente la creazione di processi nel contesto di diverse identità di protezione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SENS</p></td>
-<td style="border:1px solid black;"><p>Notifica eventi di sistema</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Tiene traccia degli eventi di sistema e di alimentazione e li notifica ai sottoscrittori del COM+ Event System.</p></td>
+<td style="border:1px solid black;">SENS</td>
+<td style="border:1px solid black;">Notifica eventi di sistema</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Tiene traccia degli eventi di sistema e di alimentazione e li notifica ai sottoscrittori del COM+ Event System.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SharedAccess</p></td>
-<td style="border:1px solid black;"><p>Firewall connessione di Windows/Condivisione connessione Internet</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce servizi NAT, di indirizzamento e di risoluzione dei nomi per tutti i computer della rete quando viene abilitato Condivisione connessione Internet.</p></td>
+<td style="border:1px solid black;">SharedAccess</td>
+<td style="border:1px solid black;">Firewall connessione di Windows/Condivisione connessione Internet</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce servizi NAT, di indirizzamento e di risoluzione dei nomi per tutti i computer della rete quando viene abilitato Condivisione connessione Internet.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ShellHW</p>
-<p>Rilevamento</p></td>
-<td style="border:1px solid black;"><p>Rilevamento hardware shell</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce notifiche per gli eventi hardware AutoPlay.</p></td>
+<td style="border:1px solid black;">ShellHW
+Rilevamento</td>
+<td style="border:1px solid black;">Rilevamento hardware shell</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce notifiche per gli eventi hardware AutoPlay.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SimpTcp</p></td>
-<td style="border:1px solid black;"><p>Servizi semplificati TCP/IP</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
-<td style="border:1px solid black;"><p>Fornisce servizi TCP/IP semplificati come Echo, Discard, Daytime, Character Generator e Quote of the Day.</p></td>
+<td style="border:1px solid black;">SimpTcp</td>
+<td style="border:1px solid black;">Servizi semplificati TCP/IP</td>
+<td style="border:1px solid black;">Servizio di rete</td>
+<td style="border:1px solid black;">Fornisce servizi TCP/IP semplificati come Echo, Discard, Daytime, Character Generator e Quote of the Day.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SMTPSVC</p></td>
-<td style="border:1px solid black;"><p>Protocollo SMTP (Simple Mail Transport Protocol)</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>È un agente di invio e inoltro SMTP. Accetta e accoda i messaggi di posta elettronica verso e da destinazioni remote.</p></td>
+<td style="border:1px solid black;">SMTPSVC</td>
+<td style="border:1px solid black;">Protocollo SMTP (Simple Mail Transport Protocol)</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">È un agente di invio e inoltro SMTP. Accetta e accoda i messaggi di posta elettronica verso e da destinazioni remote.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SNMP</p></td>
-<td style="border:1px solid black;"><p>Servizio SNMP</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente di soddisfare le richieste SNMP in entrata dal computer locale.</p></td>
+<td style="border:1px solid black;">SNMP</td>
+<td style="border:1px solid black;">Servizio SNMP</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente di soddisfare le richieste SNMP in entrata dal computer locale.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SNMPTRAP</p></td>
-<td style="border:1px solid black;"><p>Servizio Trap SNMP</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
-<td style="border:1px solid black;"><p>Riceve i messaggi Trap SNMP generati da agenti SNMP locali o remoti e li inoltra ai server di gestione SNMP.</p></td>
+<td style="border:1px solid black;">SNMPTRAP</td>
+<td style="border:1px solid black;">Servizio Trap SNMP</td>
+<td style="border:1px solid black;">Servizio locale</td>
+<td style="border:1px solid black;">Riceve i messaggi Trap SNMP generati da agenti SNMP locali o remoti e li inoltra ai server di gestione SNMP.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Spooler</p></td>
-<td style="border:1px solid black;"><p>Spooler di stampa</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce tutte le code di stampa locali e di rete e controlla tutti i processi di stampa.</p></td>
+<td style="border:1px solid black;">Spooler</td>
+<td style="border:1px solid black;">Spooler di stampa</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce tutte le code di stampa locali e di rete e controlla tutti i processi di stampa.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SQLAgent$</p>
-<p>WEBDB</p></td>
-<td style="border:1px solid black;"><p>SQL Agent$ UDDI o WebDB</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">SQLAgent$
+WEBDB</td>
+<td style="border:1px solid black;">SQL Agent$ UDDI o WebDB</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SrvcSurg</p></td>
-<td style="border:1px solid black;"><p>Servizio Amministrazione remota</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Responsabile dell'esecuzione delle attività di Amministrazione remota all'avvio del server, inclusi l'aumento del numero di avvii del server e, se non sono state impostate la data e l'ora del server, la visualizzazione degli avvisi.</p></td>
+<td style="border:1px solid black;">SrvcSurg</td>
+<td style="border:1px solid black;">Servizio Amministrazione remota</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Responsabile dell'esecuzione delle attività di Amministrazione remota all'avvio del server, inclusi l'aumento del numero di avvii del server e, se non sono state impostate la data e l'ora del server, la visualizzazione degli avvisi.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>StiSvc</p></td>
-<td style="border:1px solid black;"><p>Acquisizione di immagini di Windows (WIA)</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce servizi di acquisizione immagini per scanner e fotocamere.</p></td>
+<td style="border:1px solid black;">StiSvc</td>
+<td style="border:1px solid black;">Acquisizione di immagini di Windows (WIA)</td>
+<td style="border:1px solid black;">Servizio locale</td>
+<td style="border:1px solid black;">Fornisce servizi di acquisizione immagini per scanner e fotocamere.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>srservice</p></td>
-<td style="border:1px solid black;"><p>Servizio di ripristino del sistema</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Controlla le modifiche al sistema e ai file delle applicazioni, quindi crea punti di ripristino facilmente identificabili.</p></td>
+<td style="border:1px solid black;">srservice</td>
+<td style="border:1px solid black;">Servizio di ripristino del sistema</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Controlla le modifiche al sistema e ai file delle applicazioni, quindi crea punti di ripristino facilmente identificabili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SSDPSRV</p></td>
-<td style="border:1px solid black;"><p>Servizio di rilevazione SSDP</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce gli avvisi di presenza del dispositivo, gli aggiornamenti della cache e le notifiche SSDP.</p></td>
+<td style="border:1px solid black;">SSDPSRV</td>
+<td style="border:1px solid black;">Servizio di rilevazione SSDP</td>
+<td style="border:1px solid black;">Servizio locale</td>
+<td style="border:1px solid black;">Gestisce gli avvisi di presenza del dispositivo, gli aggiornamenti della cache e le notifiche SSDP.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>StiSvc</p></td>
-<td style="border:1px solid black;"><p>Windows Image Acquisition (WIA)</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
-<td style="border:1px solid black;"><p>Consente un'elevata comunicazione tra le applicazioni e i dispositivi di acquisizione immagini per il trasferimento efficiente delle immagini al computer.</p></td>
+<td style="border:1px solid black;">StiSvc</td>
+<td style="border:1px solid black;">Windows Image Acquisition (WIA)</td>
+<td style="border:1px solid black;">Servizio locale</td>
+<td style="border:1px solid black;">Consente un'elevata comunicazione tra le applicazioni e i dispositivi di acquisizione immagini per il trasferimento efficiente delle immagini al computer.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SwPrv</p></td>
-<td style="border:1px solid black;"><p>Provider di copie replicate software Microsoft</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce il software per le copie shadow di file create dal servizio VSS.</p></td>
+<td style="border:1px solid black;">SwPrv</td>
+<td style="border:1px solid black;">Provider di copie replicate software Microsoft</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce il software per le copie shadow di file create dal servizio VSS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SysmonLog</p></td>
-<td style="border:1px solid black;"><p>Avvisi e registri di prestazioni</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
-<td style="border:1px solid black;"><p>Raccoglie le informazioni sul registro delle prestazioni e sugli avvisi, viene eseguito quando è pianificato almeno un evento di raccolta dati delle prestazioni.</p></td>
+<td style="border:1px solid black;">SysmonLog</td>
+<td style="border:1px solid black;">Avvisi e registri di prestazioni</td>
+<td style="border:1px solid black;">Servizio di rete</td>
+<td style="border:1px solid black;">Raccoglie le informazioni sul registro delle prestazioni e sugli avvisi, viene eseguito quando è pianificato almeno un evento di raccolta dati delle prestazioni.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TapiSrv</p></td>
-<td style="border:1px solid black;"><p>Telefonia</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce il supporto TAPI per i programmi che controllano le periferiche di telefonia e le connessioni vocali su IP.</p></td>
+<td style="border:1px solid black;">TapiSrv</td>
+<td style="border:1px solid black;">Telefonia</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce il supporto TAPI per i programmi che controllano le periferiche di telefonia e le connessioni vocali su IP.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TermService</p></td>
-<td style="border:1px solid black;"><p>Servizi terminal</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente a più client di accedere alle sessioni desktop virtuali di Windows in esecuzione sul server.</p></td>
+<td style="border:1px solid black;">TermService</td>
+<td style="border:1px solid black;">Servizi terminal</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente a più client di accedere alle sessioni desktop virtuali di Windows in esecuzione sul server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TermServ</p>
-<p>Licenze</p></td>
-<td style="border:1px solid black;"><p>Licenze Servizi terminal</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Fornisce le licenze ai client registrati quando si collegano a un terminal server e ne tiene traccia.</p></td>
+<td style="border:1px solid black;">TermServ
+Licenze</td>
+<td style="border:1px solid black;">Licenze Servizi terminal</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Fornisce le licenze ai client registrati quando si collegano a un terminal server e ne tiene traccia.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>tftpd</p></td>
-<td style="border:1px solid black;"><p>Trivial FTP Daemon</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>Ascolta e risponde alle richieste TFTP.</p></td>
+<td style="border:1px solid black;">tftpd</td>
+<td style="border:1px solid black;">Trivial FTP Daemon</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Ascolta e risponde alle richieste TFTP.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Temi</p></td>
-<td style="border:1px solid black;"><p>Temi</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce il supporto di visualizzazione per l'interfaccia grafica utente (GUI) di Windows XP.</p></td>
+<td style="border:1px solid black;">Temi</td>
+<td style="border:1px solid black;">Temi</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce il supporto di visualizzazione per l'interfaccia grafica utente (GUI) di Windows XP.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TlntSvr</p></td>
-<td style="border:1px solid black;"><p>Telnet</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce servizi Telnet agli utenti Windows e supporta i tipi di sessione terminale ANSI, VT-100, VT52 e VTNT.</p></td>
+<td style="border:1px solid black;">TlntSvr</td>
+<td style="border:1px solid black;">Telnet</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce servizi Telnet agli utenti Windows e supporta i tipi di sessione terminale ANSI, VT-100, VT52 e VTNT.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TrkSvr</p></td>
-<td style="border:1px solid black;"><p>Manutenzione collegamenti distribuiti server</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Archivia le informazioni in modo che i file spostati tra i volumi possano essere registrati in ogni volume nel dominio. Viene eseguito su ogni controller di dominio.</p></td>
+<td style="border:1px solid black;">TrkSvr</td>
+<td style="border:1px solid black;">Manutenzione collegamenti distribuiti server</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Archivia le informazioni in modo che i file spostati tra i volumi possano essere registrati in ogni volume nel dominio. Viene eseguito su ogni controller di dominio.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TrkWks</p></td>
-<td style="border:1px solid black;"><p>Manutenzione collegamenti distribuiti client</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce i collegamenti tra il file system NTFS sul computer o nella rete, nonché garantisce che i tasti di scelta rapida e i collegamenti OLE funzionino dopo aver spostato e ridenominato i file di destinazione.</p></td>
+<td style="border:1px solid black;">TrkWks</td>
+<td style="border:1px solid black;">Manutenzione collegamenti distribuiti client</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce i collegamenti tra il file system NTFS sul computer o nella rete, nonché garantisce che i tasti di scelta rapida e i collegamenti OLE funzionino dopo aver spostato e ridenominato i file di destinazione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tssdis</p></td>
-<td style="border:1px solid black;"><p>Directory di sessione di Servizi terminal</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente di tenere traccia delle sessioni dei servizi terminal disconnessi in un cluster per assicurare che gli utenti vengano riconnessi a tali sessioni.</p></td>
+<td style="border:1px solid black;">Tssdis</td>
+<td style="border:1px solid black;">Directory di sessione di Servizi terminal</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente di tenere traccia delle sessioni dei servizi terminal disconnessi in un cluster per assicurare che gli utenti vengano riconnessi a tali sessioni.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Uploadmgr</p></td>
-<td style="border:1px solid black;"><p>Upload Manager</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce i trasferimenti di file sincroni e asincroni tra i client e i server in una rete.</p></td>
+<td style="border:1px solid black;">Uploadmgr</td>
+<td style="border:1px solid black;">Upload Manager</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce i trasferimenti di file sincroni e asincroni tra i client e i server in una rete.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>upnphost</p></td>
-<td style="border:1px solid black;"><p>Universal Plug and Play Device Host</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Implementa tutti i componenti richiesti per la registrazione e il controllo della periferica, nonché la risposta agli eventi per i dispositivi ospitati.</p></td>
+<td style="border:1px solid black;">upnphost</td>
+<td style="border:1px solid black;">Universal Plug and Play Device Host</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Implementa tutti i componenti richiesti per la registrazione e il controllo della periferica, nonché la risposta agli eventi per i dispositivi ospitati.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>UPS</p></td>
-<td style="border:1px solid black;"><p>Gruppo di continuità</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce le comunicazioni con un gruppo di continuità (UPS, Uninterruptible Power Supply) collegato al computer tramite la porta seriale.</p></td>
+<td style="border:1px solid black;">UPS</td>
+<td style="border:1px solid black;">Gruppo di continuità</td>
+<td style="border:1px solid black;">Servizio locale</td>
+<td style="border:1px solid black;">Gestisce le comunicazioni con un gruppo di continuità (UPS, Uninterruptible Power Supply) collegato al computer tramite la porta seriale.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VDS</p></td>
-<td style="border:1px solid black;"><p>Servizio dischi virtuali</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce un'interfaccia singola per la gestione di una virtualizzazione dell'archiviazione a blocchi se eseguita in un software del sistema operativo, in un archivio RAID o in altri motori di virtualizzazione.</p></td>
+<td style="border:1px solid black;">VDS</td>
+<td style="border:1px solid black;">Servizio dischi virtuali</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce un'interfaccia singola per la gestione di una virtualizzazione dell'archiviazione a blocchi se eseguita in un software del sistema operativo, in un archivio RAID o in altri motori di virtualizzazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>VSS</p></td>
-<td style="border:1px solid black;"><p>Copia shadow del volume</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce le istantanee di volume utilizzate dalle applicazioni di backup.</p></td>
+<td style="border:1px solid black;">VSS</td>
+<td style="border:1px solid black;">Copia shadow del volume</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce le istantanee di volume utilizzate dalle applicazioni di backup.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>W32Time</p></td>
-<td style="border:1px solid black;"><p>Ora di Windows</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Gestisce la sincronizzazione di data e ora con NTP.</p></td>
+<td style="border:1px solid black;">W32Time</td>
+<td style="border:1px solid black;">Ora di Windows</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Gestisce la sincronizzazione di data e ora con NTP.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>W3SVC</p></td>
-<td style="border:1px solid black;"><p>Servizio Pubblicazione sul Web</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Contiene un programma di gestione dei processi e delle configurazioni per fornire servizi di pubblicazione Web.</p></td>
+<td style="border:1px solid black;">W3SVC</td>
+<td style="border:1px solid black;">Servizio Pubblicazione sul Web</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Contiene un programma di gestione dei processi e delle configurazioni per fornire servizi di pubblicazione Web.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WebClient</p></td>
-<td style="border:1px solid black;"><p>WebClient</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
-<td style="border:1px solid black;"><p>Consente alle applicazioni Win32 di accedere ai documenti in Internet.</p></td>
+<td style="border:1px solid black;">WebClient</td>
+<td style="border:1px solid black;">WebClient</td>
+<td style="border:1px solid black;">Servizio locale</td>
+<td style="border:1px solid black;">Consente alle applicazioni Win32 di accedere ai documenti in Internet.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gestione risorse</p>
-<p>di sistema</p>
-<p>Windows</p></td>
-<td style="border:1px solid black;"><p>Gestione risorse di sistema Windows</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente una gestione basata sui criteri della CPU e del consumo della memoria per i processi in esecuzione in un'unica istanza del sistema operativo.</p></td>
+<td style="border:1px solid black;">Gestione risorse
+di sistema
+Windows</td>
+<td style="border:1px solid black;">Gestione risorse di sistema Windows</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente una gestione basata sui criteri della CPU e del consumo della memoria per i processi in esecuzione in un'unica istanza del sistema operativo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WinHttpAutoSvc</p></td>
-<td style="border:1px solid black;"><p>Servizio Rilevamento automatico proxy Web WinHTTP</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
-<td style="border:1px solid black;"><p>Implementa la rilevazione della configurazione proxy per i client WinHttp.</p></td>
+<td style="border:1px solid black;">WinHttpAutoSvc</td>
+<td style="border:1px solid black;">Servizio Rilevamento automatico proxy Web WinHTTP</td>
+<td style="border:1px solid black;">Servizio locale</td>
+<td style="border:1px solid black;">Implementa la rilevazione della configurazione proxy per i client WinHttp.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>winmgmt</p></td>
-<td style="border:1px solid black;"><p>Strumentazione gestione Windows</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce informazioni sulla gestione del sistema tramite più interfacce.</p></td>
+<td style="border:1px solid black;">winmgmt</td>
+<td style="border:1px solid black;">Strumentazione gestione Windows</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce informazioni sulla gestione del sistema tramite più interfacce.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WINS</p></td>
-<td style="border:1px solid black;"><p>Windows Internet Name Service</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Abilita la risoluzione dei nomi NetBIOS e la replica WINS.</p></td>
+<td style="border:1px solid black;">WINS</td>
+<td style="border:1px solid black;">Windows Internet Name Service</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Abilita la risoluzione dei nomi NetBIOS e la replica WINS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WmdmPmSN</p></td>
-<td style="border:1px solid black;"><p>Numero di serie del dispositivo portatile</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente a WMDM di richiamare i numeri di serie da dispositivi musicali portatili collegati al computer.</p></td>
+<td style="border:1px solid black;">WmdmPmSN</td>
+<td style="border:1px solid black;">Numero di serie del dispositivo portatile</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente a WMDM di richiamare i numeri di serie da dispositivi musicali portatili collegati al computer.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Wmi</p></td>
-<td style="border:1px solid black;"><p>Estensioni driver di Strumentazione gestione Windows</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Controlla tutti i driver e i provider di analisi eventi configurati per pubblicare le informazioni su WMI o sull'analisi degli eventi.</p></td>
+<td style="border:1px solid black;">Wmi</td>
+<td style="border:1px solid black;">Estensioni driver di Strumentazione gestione Windows</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Controlla tutti i driver e i provider di analisi eventi configurati per pubblicare le informazioni su WMI o sull'analisi degli eventi.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WmiApSrv</p></td>
-<td style="border:1px solid black;"><p>WMI Performance Adapter</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Trasforma i contatori delle prestazioni forniti dai provider WMI in contatori che possono essere utilizzati da PDH tramite Reverse Adapter Performance Library.</p></td>
+<td style="border:1px solid black;">WmiApSrv</td>
+<td style="border:1px solid black;">WMI Performance Adapter</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Trasforma i contatori delle prestazioni forniti dai provider WMI in contatori che possono essere utilizzati da PDH tramite Reverse Adapter Performance Library.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WMServer</p></td>
-<td style="border:1px solid black;"><p>Windows Media Services</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
-<td style="border:1px solid black;"><p>Abilita Windows Media Services.</p></td>
+<td style="border:1px solid black;">WMServer</td>
+<td style="border:1px solid black;">Windows Media Services</td>
+<td style="border:1px solid black;">Servizio di rete</td>
+<td style="border:1px solid black;">Abilita Windows Media Services.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>wscsvc</p></td>
-<td style="border:1px solid black;"><p>Centro sicurezza PC</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Controlla le impostazioni e le configurazioni di protezione del sistema.</p></td>
+<td style="border:1px solid black;">wscsvc</td>
+<td style="border:1px solid black;">Centro sicurezza PC</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Controlla le impostazioni e le configurazioni di protezione del sistema.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>wuauserv</p></td>
-<td style="border:1px solid black;"><p>Aggiornamenti automatici</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Abilita il download degli aggiornamenti dal sito Web Microsoft Windows Update.</p></td>
+<td style="border:1px solid black;">wuauserv</td>
+<td style="border:1px solid black;">Aggiornamenti automatici</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Abilita il download degli aggiornamenti dal sito Web Microsoft Windows Update.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Wuser32</p></td>
-<td style="border:1px solid black;"><p>SMS Remote Control Agent</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Fornisce i servizi di gestione di computer remoti, ad esempio i servizi di controllo remoto e di trasferimento file remoti, per SMS 2003.</p></td>
+<td style="border:1px solid black;">Wuser32</td>
+<td style="border:1px solid black;">SMS Remote Control Agent</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Fornisce i servizi di gestione di computer remoti, ad esempio i servizi di controllo remoto e di trasferimento file remoti, per SMS 2003.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WZCSVC</p></td>
-<td style="border:1px solid black;"><p>Configurazione automatica reti wireless</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Abilita la configurazione automatica di schede wireless IEEE 802.11 per le comunicazioni wireless.</p></td>
+<td style="border:1px solid black;">WZCSVC</td>
+<td style="border:1px solid black;">Configurazione automatica reti wireless</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Abilita la configurazione automatica di schede wireless IEEE 802.11 per le comunicazioni wireless.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>xmlprov</p></td>
-<td style="border:1px solid black;"><p>Servizio Provisioning di rete</p></td>
-<td style="border:1px solid black;"><p>Sistema locale</p></td>
-<td style="border:1px solid black;"><p>Consente di scaricare e gestire i file di configurazione XML dai servizi di provisioning di rete, quali Microsoft Wireless Provisioning Service (WPS).</p></td>
+<td style="border:1px solid black;">xmlprov</td>
+<td style="border:1px solid black;">Servizio Provisioning di rete</td>
+<td style="border:1px solid black;">Sistema locale</td>
+<td style="border:1px solid black;">Consente di scaricare e gestire i file di configurazione XML dai servizi di provisioning di rete, quali Microsoft Wireless Provisioning Service (WPS).</td>
 </tr>
 </tbody>
 </table>

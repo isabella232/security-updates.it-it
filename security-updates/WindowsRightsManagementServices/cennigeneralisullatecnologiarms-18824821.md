@@ -13,7 +13,7 @@ Ogni sistema RMS impiega un misto di tecnologie server e client. La tabella che 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,12 +27,12 @@ Ogni sistema RMS impiega un misto di tecnologie server e client. La tabella che 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi Web RMS</p></td>
-<td style="border:1px solid black;"><p>Forniscono le funzionalità server di base e gestiscono la certificazione degli account, l'emissione delle licenze, la registrazione secondaria e le funzioni di amministrazione di RMS.</p></td>
+<td style="border:1px solid black;">Servizi Web RMS</td>
+<td style="border:1px solid black;">Forniscono le funzionalità server di base e gestiscono la certificazione degli account, l'emissione delle licenze, la registrazione secondaria e le funzioni di amministrazione di RMS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tecnologie client RMS</p></td>
-<td style="border:1px solid black;"><p>Consentono agli utenti del sistema di creare, pubblicare e utilizzare il contenuto protetto con RMS.</p></td>
+<td style="border:1px solid black;">Tecnologie client RMS</td>
+<td style="border:1px solid black;">Consentono agli utenti del sistema di creare, pubblicare e utilizzare il contenuto protetto con RMS.</td>
 </tr>
 </tbody>
 </table>

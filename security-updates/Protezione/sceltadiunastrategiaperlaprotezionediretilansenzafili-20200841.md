@@ -114,7 +114,7 @@ Prima di esaminare il funzionamento delle più recenti soluzioni di protezione p
 
 **Tabella 1: Principali pericoli relativi alla protezione per reti LAN senza fili**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -122,38 +122,38 @@ Prima di esaminare il funzionamento delle più recenti soluzioni di protezione p
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Pericolo</p></th>
-<th><p>Descrizione del pericolo</p></th>
+<th>Pericolo</th>
+<th>Descrizione del pericolo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Divulgazione di dati</p></td>
-<td style="border:1px solid black;"><p>L'intercettazione non autorizzata di trasmissioni di rete può comportare la divulgazione di dati riservati e credenziali utente non protette, nonché la potenziale acquisizione di identità. Questa vulnerabilità potrebbe consentire a utenti malintenzionati e dotati di strumenti sofisticati di raccogliere informazioni sull'ambiente IT dell'azienda e di utilizzarle per attaccare altri sistemi o dati che altrimenti non sarebbero vulnerabili.</p></td>
+<td style="border:1px solid black;">Divulgazione di dati</td>
+<td style="border:1px solid black;">L'intercettazione non autorizzata di trasmissioni di rete può comportare la divulgazione di dati riservati e credenziali utente non protette, nonché la potenziale acquisizione di identità. Questa vulnerabilità potrebbe consentire a utenti malintenzionati e dotati di strumenti sofisticati di raccogliere informazioni sull'ambiente IT dell'azienda e di utilizzarle per attaccare altri sistemi o dati che altrimenti non sarebbero vulnerabili.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Intercettazione e modifica di dati trasmessi</p></td>
-<td style="border:1px solid black;"><p>Se un pirata informatico riesce a ottenere l'accesso alla rete,questi potrà inserire un computer per intercettare e modificare i dati di rete trasmessi tra due parti autorizzate in comunicazione.</p></td>
+<td style="border:1px solid black;">Intercettazione e modifica di dati trasmessi</td>
+<td style="border:1px solid black;">Se un pirata informatico riesce a ottenere l'accesso alla rete,questi potrà inserire un computer per intercettare e modificare i dati di rete trasmessi tra due parti autorizzate in comunicazione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Spoofing</p></td>
-<td style="border:1px solid black;"><p>La disponibilità dell'accesso alla rete interna consente agli intrusi di inviare dati apparentemente legittimi, ad esempio un messaggio di posta elettronica di spoofing, in modi che non sarebbero consentiti dall'esterno. Gli utenti, inclusi gli amministratori di sistema, tendono in genere a guardare con minor sospetto gli elementi di origine interna rispetto a quelli che provengono dall'esterno della rete aziendale.</p></td>
+<td style="border:1px solid black;">Spoofing</td>
+<td style="border:1px solid black;">La disponibilità dell'accesso alla rete interna consente agli intrusi di inviare dati apparentemente legittimi, ad esempio un messaggio di posta elettronica di spoofing, in modi che non sarebbero consentiti dall'esterno. Gli utenti, inclusi gli amministratori di sistema, tendono in genere a guardare con minor sospetto gli elementi di origine interna rispetto a quelli che provengono dall'esterno della rete aziendale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Denial of service (DoS)</p></td>
-<td style="border:1px solid black;"><p>Un utente malintenzionato può sferrare un attacco di tipo DoS in vari modi. Ad esempio, l'interruzione del segnale a livello di trasmissione radio può essere realizzata con strumenti a bassa tecnologia: ad esempio, un forno a microonde. Gli attacchi di rete possono essere molto sofisticati e puntare verso protocolli di rete senza fili di basso livello; oppure, quelli meno sofisticati, possono avere come obiettivo il sovraccarico della rete WLAN con un traffico casuale.</p></td>
+<td style="border:1px solid black;">Denial of service (DoS)</td>
+<td style="border:1px solid black;">Un utente malintenzionato può sferrare un attacco di tipo DoS in vari modi. Ad esempio, l'interruzione del segnale a livello di trasmissione radio può essere realizzata con strumenti a bassa tecnologia: ad esempio, un forno a microonde. Gli attacchi di rete possono essere molto sofisticati e puntare verso protocolli di rete senza fili di basso livello; oppure, quelli meno sofisticati, possono avere come obiettivo il sovraccarico della rete WLAN con un traffico casuale.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Collegamento non autorizzato o furto di risorse</p></td>
-<td style="border:1px solid black;"><p>Un intruso potrebbe utilizzare la rete aziendale come punto di accesso non autorizzato a Internet. Sebbene non sia altrettanto dannoso di altri pericoli, questo attacco può ridurre la disponibilità dei servizi per gli utenti legittimi e introdurre virus o altri problemi.</p></td>
+<td style="border:1px solid black;">Collegamento non autorizzato o furto di risorse</td>
+<td style="border:1px solid black;">Un intruso potrebbe utilizzare la rete aziendale come punto di accesso non autorizzato a Internet. Sebbene non sia altrettanto dannoso di altri pericoli, questo attacco può ridurre la disponibilità dei servizi per gli utenti legittimi e introdurre virus o altri problemi.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Rischi accidentali</p></td>
-<td style="border:1px solid black;"><p>Alcune caratteristiche delle reti LAN senza fili possono aumentare la gravità degli attacchi non intenzionali. Ad esempio, è possibile che un visitatore autorizzato avvii il proprio computer portatile senza l'intento di collegarsi alla rete, ma venga automaticamente collegato alla rete LAN senza fili. Il computer portatile del visitatore può rappresentare un punto di accesso alla rete per eventuali virus. Questo tipo di pericolo rappresenta un problema solo per reti WLAN non protette.</p></td>
+<td style="border:1px solid black;">Rischi accidentali</td>
+<td style="border:1px solid black;">Alcune caratteristiche delle reti LAN senza fili possono aumentare la gravità degli attacchi non intenzionali. Ad esempio, è possibile che un visitatore autorizzato avvii il proprio computer portatile senza l'intento di collegarsi alla rete, ma venga automaticamente collegato alla rete LAN senza fili. Il computer portatile del visitatore può rappresentare un punto di accesso alla rete per eventuali virus. Questo tipo di pericolo rappresenta un problema solo per reti WLAN non protette.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Reti WLAN inaffidabili</p></td>
-<td style="border:1px solid black;"><p>Anche se l'azienda non dispone ufficialmente di una rete LAN senza fili, potrebbe comunque sussistere il rischio che reti WLAN non gestite interferiscano con la rete aziendale. Componenti hardware WLAN di bassa qualità acquistati dai dipendenti possono esporre la rete a pericoli imprevisti.</p></td>
+<td style="border:1px solid black;">Reti WLAN inaffidabili</td>
+<td style="border:1px solid black;">Anche se l'azienda non dispone ufficialmente di una rete LAN senza fili, potrebbe comunque sussistere il rischio che reti WLAN non gestite interferiscano con la rete aziendale. Componenti hardware WLAN di bassa qualità acquistati dai dipendenti possono esporre la rete a pericoli imprevisti.</td>
 </tr>
 </tbody>
 </table>
@@ -306,7 +306,7 @@ I principali pericoli per la protezione delle reti LAN senza fili sono stati des
   
 **Tabella 2: Rischi potenziali per la sicurezza analizzati in relazione alla soluzione proposta**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -314,48 +314,48 @@ I principali pericoli per la protezione delle reti LAN senza fili sono stati des
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Pericolo</p></th>
-<th><p>Riduzione</p></th>
+<th>Pericolo</th>
+<th>Riduzione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Divulgazione di dati</p></td>
-<td style="border:1px solid black;"><p>L'assegnazione e la modifica dinamica delle chiavi di crittografia a intervalli frequenti e il fatto che le chiavi sono univoche per ciascuna sessione utente significa che, se la frequenza di aggiornamento delle chiavi è adeguata, l'individuazione delle chiavi e l'accesso ai dati non è possibile con i mezzi attualmente conosciuti.</p>
-<p>Il livello di protezione garantito da WPA è superiore grazie alla modifica delle chiavi di crittografia per i singoli pacchetti. La chiave globale, che protegge il traffico broadcast, viene rigenerata per ogni pacchetto.</p></td>
+<td style="border:1px solid black;">Divulgazione di dati</td>
+<td style="border:1px solid black;">L'assegnazione e la modifica dinamica delle chiavi di crittografia a intervalli frequenti e il fatto che le chiavi sono univoche per ciascuna sessione utente significa che, se la frequenza di aggiornamento delle chiavi è adeguata, l'individuazione delle chiavi e l'accesso ai dati non è possibile con i mezzi attualmente conosciuti.
+Il livello di protezione garantito da WPA è superiore grazie alla modifica delle chiavi di crittografia per i singoli pacchetti. La chiave globale, che protegge il traffico broadcast, viene rigenerata per ogni pacchetto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Intercettazione e modifica di dati trasmessi</p></td>
-<td style="border:1px solid black;"><p>Applicando meccanismi di verifica dell'integrità dei dati e di crittografia avanzata dei tra il client senza fili e il punto di accesso senza fili, non è possibile che un utente malintenzionato intercetti e modifichi i dati.</p>
-<p>L'autenticazione reciproca tra client, server RADIUS e punto di accesso senza fili impedisce che questi possano essere utilizzati impropriamente da utenti malintenzionati.</p>
-<p>Grazie a WPA la verifica dell'integrità dei dati è migliorata dall'uso del protocollo Michael.</p></td>
+<td style="border:1px solid black;">Intercettazione e modifica di dati trasmessi</td>
+<td style="border:1px solid black;">Applicando meccanismi di verifica dell'integrità dei dati e di crittografia avanzata dei tra il client senza fili e il punto di accesso senza fili, non è possibile che un utente malintenzionato intercetti e modifichi i dati.
+L'autenticazione reciproca tra client, server RADIUS e punto di accesso senza fili impedisce che questi possano essere utilizzati impropriamente da utenti malintenzionati.
+Grazie a WPA la verifica dell'integrità dei dati è migliorata dall'uso del protocollo Michael.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Spoofing</p></td>
-<td style="border:1px solid black;"><p>L'autenticazione protetta sulla rete impedisce ad utenti non autorizzati di collegarsi alla rete e di introdurvi dati di spoofing dall'interno.</p></td>
+<td style="border:1px solid black;">Spoofing</td>
+<td style="border:1px solid black;">L'autenticazione protetta sulla rete impedisce ad utenti non autorizzati di collegarsi alla rete e di introdurvi dati di spoofing dall'interno.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Negazione del servizio (DoS)</p></td>
-<td style="border:1px solid black;"><p>Gli attacchi a livello di rete, come quelli che generano un aumento del traffico o altri attacchi DoS, sono impediti dal controllo dell'accesso alla rete WLAN basato sullo standard 802.1X. Non esiste tuttavia alcun metodo di difesa in WEP o WPA contro gli attacchi di negazione del servizio (DoS) 802.11 DoS di basso livello. Questo problema verrà risolto dallo standard 802.11i.</p>
-<p>In realtà, anche questo nuovo standard non sarà immune dall'interruzione della rete a livello di trasmissione radio.</p>
-<p>Queste vulnerabilità sono caratteristiche delle WLAN 802.11 e sono comuni a tutte le altre opzioni esaminate nel corso di questo documento.</p></td>
+<td style="border:1px solid black;">Negazione del servizio (DoS)</td>
+<td style="border:1px solid black;">Gli attacchi a livello di rete, come quelli che generano un aumento del traffico o altri attacchi DoS, sono impediti dal controllo dell'accesso alla rete WLAN basato sullo standard 802.1X. Non esiste tuttavia alcun metodo di difesa in WEP o WPA contro gli attacchi di negazione del servizio (DoS) 802.11 DoS di basso livello. Questo problema verrà risolto dallo standard 802.11i.
+In realtà, anche questo nuovo standard non sarà immune dall'interruzione della rete a livello di trasmissione radio.
+Queste vulnerabilità sono caratteristiche delle WLAN 802.11 e sono comuni a tutte le altre opzioni esaminate nel corso di questo documento.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Collegamento non autorizzato o furto di risorse</p></td>
-<td style="border:1px solid black;"><p>L'uso non autorizzato della rete è impedito dall'elevata affidabilità dell'autenticazione.</p></td>
+<td style="border:1px solid black;">Collegamento non autorizzato o furto di risorse</td>
+<td style="border:1px solid black;">L'uso non autorizzato della rete è impedito dall'elevata affidabilità dell'autenticazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Rischi accidentali</p></td>
-<td style="border:1px solid black;"><p>La connessione accidentale alla rete WLAN è impedita dall'autenticazione protetta.</p></td>
+<td style="border:1px solid black;">Rischi accidentali</td>
+<td style="border:1px solid black;">La connessione accidentale alla rete WLAN è impedita dall'autenticazione protetta.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Reti WLAN inaffidabili</p></td>
-<td style="border:1px solid black;"><p>Sebbene la soluzione non intervenga direttamente nella gestione dei punti di accesso senza fili inaffidabili, implementando una soluzione di rete senza fili protetta come questa, la motivazione di installare reti WLAN non ufficiali non avrà più ragione di esistere.</p>
-<p>In ogni caso, è consigliabile creare e pubblicare un criterio che impedisca esplicitamente l'uso di reti LAN senza fili non approvate. È possibile applicare il criterio mediante strumenti software di individuazione degli indirizzi dell'hardware del punto di accesso senza fili e mediante apparecchiature portatili di rilevamento delle reti WLAN.</p></td>
+<td style="border:1px solid black;">Reti WLAN inaffidabili</td>
+<td style="border:1px solid black;">Sebbene la soluzione non intervenga direttamente nella gestione dei punti di accesso senza fili inaffidabili, implementando una soluzione di rete senza fili protetta come questa, la motivazione di installare reti WLAN non ufficiali non avrà più ragione di esistere.
+In ogni caso, è consigliabile creare e pubblicare un criterio che impedisca esplicitamente l'uso di reti LAN senza fili non approvate. È possibile applicare il criterio mediante strumenti software di individuazione degli indirizzi dell'hardware del punto di accesso senza fili e mediante apparecchiature portatili di rilevamento delle reti WLAN.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### Altri approcci alla protezione delle reti LAN senza fili
 
@@ -375,7 +375,7 @@ Le principali differenza tra questi approcci e una soluzione su base 802.1X sono
 
 **Tabella 3: Confronto degli approcci alla protezione WLAN**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -386,73 +386,73 @@ Le principali differenza tra questi approcci e una soluzione su base 802.1X sono
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Funzionalità</p></th>
-<th><p>WLAN 802.1X</p></th>
-<th><p>WEP statico</p></th>
-<th><p>VPN</p></th>
-<th><p>IPsec</p></th>
+<th>Funzionalità</th>
+<th>WLAN 802.1X</th>
+<th>WEP statico</th>
+<th>VPN</th>
+<th>IPsec</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autenticazione</p>
-<p>avanzata (1)</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì,</p>
-<p>escluso VPN che utilizzano l'autenticazione con chiave condivisa</p></td>
-<td style="border:1px solid black;"><p>Sì,</p>
-<p>se utilizzano l'autenticazione di certificati o Kerberos</p></td>
+<td style="border:1px solid black;">Autenticazione
+avanzata (1)</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì,
+escluso VPN che utilizzano l'autenticazione con chiave condivisa</td>
+<td style="border:1px solid black;">Sì,
+se utilizzano l'autenticazione di certificati o Kerberos</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Crittografia avanzata dei dati</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Crittografia avanzata dei dati</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Connessione e riconnessione trasparente alla WLAN</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Connessione e riconnessione trasparente alla WLAN</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Autenticazione utente</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Autenticazione utente</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autenticazione</p>
-<p>computer (2)</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Autenticazione
+computer (2)</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Protezione traffico broadcast e multicast</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Protezione traffico broadcast e multicast</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Richiesti dispositivi di rete aggiuntivi</p></td>
-<td style="border:1px solid black;"><p>Server RADIUS</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Server VPN, server RADIUS</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Richiesti dispositivi di rete aggiuntivi</td>
+<td style="border:1px solid black;">Server RADIUS</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Server VPN, server RADIUS</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Accesso protetto alla WLAN</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Accesso protetto alla WLAN</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 </tbody>
 </table>

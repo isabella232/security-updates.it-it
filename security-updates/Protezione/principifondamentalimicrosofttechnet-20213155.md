@@ -18,7 +18,7 @@ Combina la tecnologia Microsoft con gli strumenti e le indicazioni disponibili p
 
 ### Risorse
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <tr>
 <th colspan="5">
@@ -85,9 +85,9 @@ Risposta
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 <table style="border:1px solid black;">
-<p> </p>
+ 
 <tr>
 <th colspan="5">
 Livello 200 
@@ -531,9 +531,9 @@ Risposta
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 <table style="border:1px solid black;">
-<p> </p>
+ 
 <tr>
 <th colspan="5">
 Livello 300 
@@ -1013,9 +1013,9 @@ Risposta
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 <table style="border:1px solid black;">
-<p> </p>
+ 
 <tr>
 <th colspan="5">
  Livello 400
@@ -1171,12 +1171,12 @@ Risposta
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 [](#mainsection)[Inizio pagina](#mainsection)
 
 ### Tipo di contenuti e definizioni dei livelli
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <tr>
 <th colspan="2">
@@ -1272,5 +1272,5 @@ Gli strumenti sono applicazioni o software scaricabili che consentono di eseguir
 </td>
 </tr>
 </table>
-<p> </p>
+ 
 [](#mainsection)[Inizio pagina](#mainsection)

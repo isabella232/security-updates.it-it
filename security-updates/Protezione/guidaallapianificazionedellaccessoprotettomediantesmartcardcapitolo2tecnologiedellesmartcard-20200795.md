@@ -238,7 +238,7 @@ Windows XP e la famiglia di Windows Server 2003 supportano i lettori di smart 
 
 **Tabella 2.1: Lettori di smart card supportati da Windows Server 2003**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -247,106 +247,106 @@ Windows XP e la famiglia di Windows Server 2003 supportano i lettori di smart 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Marca</p></th>
-<th><p>Modello</p></th>
-<th><p>Interfaccia</p></th>
+<th>Marca</th>
+<th>Modello</th>
+<th>Interfaccia</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>American Express</p></td>
-<td style="border:1px solid black;"><p>GCR435</p></td>
-<td style="border:1px solid black;"><p>USB</p></td>
+<td style="border:1px solid black;">American Express</td>
+<td style="border:1px solid black;">GCR435</td>
+<td style="border:1px solid black;">USB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Bull</p></td>
-<td style="border:1px solid black;"><p>SmarTLP3</p></td>
-<td style="border:1px solid black;"><p>Seriale</p></td>
+<td style="border:1px solid black;">Bull</td>
+<td style="border:1px solid black;">SmarTLP3</td>
+<td style="border:1px solid black;">Seriale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Compaq</p></td>
-<td style="border:1px solid black;"><p>Serial reader</p></td>
-<td style="border:1px solid black;"><p>Seriale</p></td>
+<td style="border:1px solid black;">Compaq</td>
+<td style="border:1px solid black;">Serial reader</td>
+<td style="border:1px solid black;">Seriale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gemplus</p></td>
-<td style="border:1px solid black;"><p>GCR410P</p></td>
-<td style="border:1px solid black;"><p>Seriale</p></td>
+<td style="border:1px solid black;">Gemplus</td>
+<td style="border:1px solid black;">GCR410P</td>
+<td style="border:1px solid black;">Seriale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gemplus</p></td>
-<td style="border:1px solid black;"><p>GPR400</p></td>
-<td style="border:1px solid black;"><p>PCMCIA</p></td>
+<td style="border:1px solid black;">Gemplus</td>
+<td style="border:1px solid black;">GPR400</td>
+<td style="border:1px solid black;">PCMCIA</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gemplus</p></td>
-<td style="border:1px solid black;"><p>GemPC430</p></td>
-<td style="border:1px solid black;"><p>USB</p></td>
+<td style="border:1px solid black;">Gemplus</td>
+<td style="border:1px solid black;">GemPC430</td>
+<td style="border:1px solid black;">USB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Hewlett-Packard</p></td>
-<td style="border:1px solid black;"><p>ProtectTools</p></td>
-<td style="border:1px solid black;"><p>Seriale</p></td>
+<td style="border:1px solid black;">Hewlett-Packard</td>
+<td style="border:1px solid black;">ProtectTools</td>
+<td style="border:1px solid black;">Seriale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Litronic</p></td>
-<td style="border:1px solid black;"><p>220P</p></td>
-<td style="border:1px solid black;"><p>Seriale</p></td>
+<td style="border:1px solid black;">Litronic</td>
+<td style="border:1px solid black;">220P</td>
+<td style="border:1px solid black;">Seriale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Schlumberger</p></td>
-<td style="border:1px solid black;"><p>Reflex 20</p></td>
-<td style="border:1px solid black;"><p>PCMCIA</p></td>
+<td style="border:1px solid black;">Schlumberger</td>
+<td style="border:1px solid black;">Reflex 20</td>
+<td style="border:1px solid black;">PCMCIA</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Schlumberger</p></td>
-<td style="border:1px solid black;"><p>Reflex 72</p></td>
-<td style="border:1px solid black;"><p>Seriale</p></td>
+<td style="border:1px solid black;">Schlumberger</td>
+<td style="border:1px solid black;">Reflex 72</td>
+<td style="border:1px solid black;">Seriale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Schlumberger</p></td>
-<td style="border:1px solid black;"><p>Reflex Lite</p></td>
-<td style="border:1px solid black;"><p>Seriale</p></td>
+<td style="border:1px solid black;">Schlumberger</td>
+<td style="border:1px solid black;">Reflex Lite</td>
+<td style="border:1px solid black;">Seriale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
-<td style="border:1px solid black;"><p>SCR111</p></td>
-<td style="border:1px solid black;"><p>Seriale</p></td>
+<td style="border:1px solid black;">SConnection Manager Microsystems</td>
+<td style="border:1px solid black;">SCR111</td>
+<td style="border:1px solid black;">Seriale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
-<td style="border:1px solid black;"><p>SCR200</p></td>
-<td style="border:1px solid black;"><p>Seriale</p></td>
+<td style="border:1px solid black;">SConnection Manager Microsystems</td>
+<td style="border:1px solid black;">SCR200</td>
+<td style="border:1px solid black;">Seriale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
-<td style="border:1px solid black;"><p>SCR120</p></td>
-<td style="border:1px solid black;"><p>PCMCIA</p></td>
+<td style="border:1px solid black;">SConnection Manager Microsystems</td>
+<td style="border:1px solid black;">SCR120</td>
+<td style="border:1px solid black;">PCMCIA</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SConnection Manager Microsystems</p></td>
-<td style="border:1px solid black;"><p>SCR300</p></td>
-<td style="border:1px solid black;"><p>USB</p></td>
+<td style="border:1px solid black;">SConnection Manager Microsystems</td>
+<td style="border:1px solid black;">SCR300</td>
+<td style="border:1px solid black;">USB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Systemneeds</p></td>
-<td style="border:1px solid black;"><p>Esterno</p></td>
-<td style="border:1px solid black;"><p>Seriale</p></td>
+<td style="border:1px solid black;">Systemneeds</td>
+<td style="border:1px solid black;">Esterno</td>
+<td style="border:1px solid black;">Seriale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Omnikey AG</p></td>
-<td style="border:1px solid black;"><p>2010</p></td>
-<td style="border:1px solid black;"><p>Seriale</p></td>
+<td style="border:1px solid black;">Omnikey AG</td>
+<td style="border:1px solid black;">2010</td>
+<td style="border:1px solid black;">Seriale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Omnikey AG</p></td>
-<td style="border:1px solid black;"><p>2020</p></td>
-<td style="border:1px solid black;"><p>USB</p></td>
+<td style="border:1px solid black;">Omnikey AG</td>
+<td style="border:1px solid black;">2020</td>
+<td style="border:1px solid black;">USB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Omnikey AG</p></td>
-<td style="border:1px solid black;"><p>4000</p></td>
-<td style="border:1px solid black;"><p>PCMCIA</p></td>
+<td style="border:1px solid black;">Omnikey AG</td>
+<td style="border:1px solid black;">4000</td>
+<td style="border:1px solid black;">PCMCIA</td>
 </tr>
 </tbody>
 </table>

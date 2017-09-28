@@ -15,7 +15,7 @@ In questa fase, RMS utilizza gli account illustrati nella seguente tabella.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -31,23 +31,23 @@ In questa fase, RMS utilizza gli account illustrati nella seguente tabella.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Account dell'utente connesso</p></td>
-<td style="border:1px solid black;"><p>Crea directory virtuali e pool di applicazioni. IIS richiede l'autenticazione di Windows, mentre RMS rappresenta l'utente connesso che deve essere connesso localmente.</p></td>
-<td style="border:1px solid black;"><p>Controllo completo (l'utente connesso deve essere un amministratore locale).</p></td>
+<td style="border:1px solid black;">Account dell'utente connesso</td>
+<td style="border:1px solid black;">Crea directory virtuali e pool di applicazioni. IIS richiede l'autenticazione di Windows, mentre RMS rappresenta l'utente connesso che deve essere connesso localmente.</td>
+<td style="border:1px solid black;">Controllo completo (l'utente connesso deve essere un amministratore locale).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Account di sistema</p></td>
-<td style="border:1px solid black;"><p>Crea l'assembly temporaneo per la serializzazione.</p></td>
-<td style="border:1px solid black;"><p>Autorizzazioni di lettura e scrittura per la cartella temporanea di Windows, C:\Windows\Temp.</p></td>
+<td style="border:1px solid black;">Account di sistema</td>
+<td style="border:1px solid black;">Crea l'assembly temporaneo per la serializzazione.</td>
+<td style="border:1px solid black;">Autorizzazioni di lettura e scrittura per la cartella temporanea di Windows, C:\Windows\Temp.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Account di ASPNET</p></td>
-<td style="border:1px solid black;"><p>Crea l'assembly temporaneo dei file *.aspx.</p></td>
-<td style="border:1px solid black;"><p>Accesso alla directory della cache dell'assembly temporaneo, per impostazione predefinita C:\Windows\Microsoft.NET\Framework\v1.1.4322\Temporary ASP.NET Files.</p></td>
+<td style="border:1px solid black;">Account di ASPNET</td>
+<td style="border:1px solid black;">Crea l'assembly temporaneo dei file *.aspx.</td>
+<td style="border:1px solid black;">Accesso alla directory della cache dell'assembly temporaneo, per impostazione predefinita C:\Windows\Microsoft.NET\Framework\v1.1.4322\Temporary ASP.NET Files.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Account Servizio di rete</p></td>
-<td style="border:1px solid black;"><p>Registra il punto di connessione del servizio in Active Directory.</p></td>
+<td style="border:1px solid black;">Account Servizio di rete</td>
+<td style="border:1px solid black;">Registra il punto di connessione del servizio in Active Directory.</td>
 <td style="border:1px solid black;"><ul>
 <li>Autorizzazioni di sola lettura per il sito del provisioning (in genere C:\Inetpub\Wwwroot\Provisioning).<br />
 <br />
@@ -67,7 +67,7 @@ Su computer in cui è in esecuzione la versione a 64 bit di Windows Server 2003
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Durante il provisioning, RMS esegue le seguenti operazioni:
 

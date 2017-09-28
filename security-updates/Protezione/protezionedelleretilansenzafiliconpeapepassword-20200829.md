@@ -124,7 +124,7 @@ Nella tabella che segue sono descritte le convenzioni di stile utilizzate in que
 
 **Tabella 1.1: Convenzioni di stile**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -132,50 +132,50 @@ Nella tabella che segue sono descritte le convenzioni di stile utilizzate in que
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Significato</p></th>
+<th>Elemento</th>
+<th>Significato</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Grassetto</strong></p></td>
-<td style="border:1px solid black;"><p>Caratteri digitati esattamente come indicato, inclusi comandi e opzioni. Vengono riportati in grassetto anche gli elementi di interfaccia utente nel testo delle istruzioni.</p></td>
+<td style="border:1px solid black;"><strong>Grassetto</strong></td>
+<td style="border:1px solid black;">Caratteri digitati esattamente come indicato, inclusi comandi e opzioni. Vengono riportati in grassetto anche gli elementi di interfaccia utente nel testo delle istruzioni.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>Corsivo</em></p></td>
-<td style="border:1px solid black;"><p>Il corsivo viene utilizzato in due casi specifici:</p>
-<p>—Se utilizzato nel corpo del testo, indica il titolo di un altro documento.</p>
-<p>—Se utilizzato nei comandi o nel codice (o in parti di testo che si riferiscono a un comando o al codice), indica un segnaposto per le variabili in cui è necessario fornire valori specifici. Ad esempio, <em>nomefile.ext</em> indica la necessità di sostituire il testo <em>nomefile.ext</em> in corsivo con il nome di file desiderato.</p>
-<p>Lo stile corsivo è utilizzato in alcuni casi anche per enfatizzare parti del testo.</p></td>
+<td style="border:1px solid black;"><em>Corsivo</em></td>
+<td style="border:1px solid black;">Il corsivo viene utilizzato in due casi specifici:
+—Se utilizzato nel corpo del testo, indica il titolo di un altro documento.
+—Se utilizzato nei comandi o nel codice (o in parti di testo che si riferiscono a un comando o al codice), indica un segnaposto per le variabili in cui è necessario fornire valori specifici. Ad esempio, <em>nomefile.ext</em> indica la necessità di sostituire il testo <em>nomefile.ext</em> in corsivo con il nome di file desiderato.
+Lo stile corsivo è utilizzato in alcuni casi anche per enfatizzare parti del testo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Testo su schermo</p></td>
-<td style="border:1px solid black;"><p>Per il testo visualizzato sullo schermo (ad esempio, l'output di uno strumento della riga di comando) e per i comandi che devono essere digitati nella riga di comando.</p>
-<p>Alcuni comandi superano le dimensioni previste per i margini della pagina. In tal caso, il testo del comando viene suddiviso su più righe, applicando un rientro alle righe successive (questa circostanza è segnalata da una nota posta dopo il comando).</p></td>
+<td style="border:1px solid black;">Testo su schermo</td>
+<td style="border:1px solid black;">Per il testo visualizzato sullo schermo (ad esempio, l'output di uno strumento della riga di comando) e per i comandi che devono essere digitati nella riga di comando.
+Alcuni comandi superano le dimensioni previste per i margini della pagina. In tal caso, il testo del comando viene suddiviso su più righe, applicando un rientro alle righe successive (questa circostanza è segnalata da una nota posta dopo il comando).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Spaziatura fissa</p></td>
-<td style="border:1px solid black;"><p>Esempi di codice e contenuto dei file di configurazione.</p></td>
+<td style="border:1px solid black;">Spaziatura fissa</td>
+<td style="border:1px solid black;">Esempi di codice e contenuto dei file di configurazione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>%SystemRoot%</p></td>
-<td style="border:1px solid black;"><p>Cartella di installazione del sistema operativo Windows Server.</p></td>
+<td style="border:1px solid black;">%SystemRoot%</td>
+<td style="border:1px solid black;">Cartella di installazione del sistema operativo Windows Server.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
-<td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari.</p></td>
+<td style="border:1px solid black;"><strong>Nota</strong></td>
+<td style="border:1px solid black;">Richiama l'attenzione del lettore su informazioni supplementari.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
-<td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari essenziali per il completamento dell'operazione.</p></td>
+<td style="border:1px solid black;"><strong>Importante</strong></td>
+<td style="border:1px solid black;">Richiama l'attenzione del lettore su informazioni supplementari essenziali per il completamento dell'operazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Avviso</strong></p></td>
-<td style="border:1px solid black;"><p>Avvisa il lettore dei casi in cui l'inosservanza di un'azione specifica potrebbe provocare una perdita di dati.</p></td>
+<td style="border:1px solid black;"><strong>Avviso</strong></td>
+<td style="border:1px solid black;">Avvisa il lettore dei casi in cui l'inosservanza di un'azione specifica potrebbe provocare una perdita di dati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Attenzione</strong></p></td>
-<td style="border:1px solid black;"><p>Avvisa il lettore dei casi in cui l'inosservanza di un'azione specifica potrebbe provocare lesioni fisiche all'utente o danni all'hardware.</p></td>
+<td style="border:1px solid black;"><strong>Attenzione</strong></td>
+<td style="border:1px solid black;">Avvisa il lettore dei casi in cui l'inosservanza di un'azione specifica potrebbe provocare lesioni fisiche all'utente o danni all'hardware.</td>
 </tr>
 </tbody>
 </table>

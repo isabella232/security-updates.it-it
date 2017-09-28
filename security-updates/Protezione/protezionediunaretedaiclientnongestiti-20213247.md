@@ -156,7 +156,7 @@ Isolare dal punto di vista fisico i computer e le reti non è un'idea nuova. È 
 
 **Tabella 1. Approcci di isolamento delle reti**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -165,34 +165,34 @@ Isolare dal punto di vista fisico i computer e le reti non è un'idea nuova. È 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Livello OSI</p></th>
-<th><p>Approccio</p></th>
-<th><p>Problemi</p></th>
+<th>Livello OSI</th>
+<th>Approccio</th>
+<th>Problemi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Livello 1</p></td>
-<td style="border:1px solid black;"><p>Uso di un cablaggio separato per i segmenti che devono essere isolati dalla rete trusted.</p></td>
+<td style="border:1px solid black;">Livello 1</td>
+<td style="border:1px solid black;">Uso di un cablaggio separato per i segmenti che devono essere isolati dalla rete trusted.</td>
 <td style="border:1px solid black;"><ul>
-<li><p>Costi associati al collegamento di un nuovo cavo per ogni nuova connessione.</p></li>
-<li><p>Attività di amministrazione aumentata a causa della gestione dei nuovi cavi in base agli spostamenti degli utenti.</p></li>
-<li><p>Poca flessibilità e difficoltà di gestione man mano che l'azienda cresce.</p></li>
-<li><p>Maggiori possibilità di distrazioni ed errori a causa degli elevati requisiti di gestione.</p></li>
+<li>Costi associati al collegamento di un nuovo cavo per ogni nuova connessione.</li>
+<li>Attività di amministrazione aumentata a causa della gestione dei nuovi cavi in base agli spostamenti degli utenti.</li>
+<li>Poca flessibilità e difficoltà di gestione man mano che l'azienda cresce.</li>
+<li>Maggiori possibilità di distrazioni ed errori a causa degli elevati requisiti di gestione.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Livello 2</p></td>
-<td style="border:1px solid black;"><p>Uso delle VLAN per creare subnet logiche isolate dalla rete trusted.</p></td>
+<td style="border:1px solid black;">Livello 2</td>
+<td style="border:1px solid black;">Uso delle VLAN per creare subnet logiche isolate dalla rete trusted.</td>
 <td style="border:1px solid black;"><ul>
-<li><p>Maggiori costi associati all'aggiornamento della struttura degli switch per il supporto delle VLAN.</p></li>
-<li><p>Maggiore sovraccarico di amministrazione a causa della traccia delle modifiche alla rete, degli spostamenti degli utenti e delle risposte alle richieste di connessione di tipo guest.</p></li>
-<li><p>Possibilità di distrazione ed errori quando si hanno numerosi spostamenti di utenti oppure vengono utilizzate periferiche mobili.</p></li>
+<li>Maggiori costi associati all'aggiornamento della struttura degli switch per il supporto delle VLAN.</li>
+<li>Maggiore sovraccarico di amministrazione a causa della traccia delle modifiche alla rete, degli spostamenti degli utenti e delle risposte alle richieste di connessione di tipo guest.</li>
+<li>Possibilità di distrazione ed errori quando si hanno numerosi spostamenti di utenti oppure vengono utilizzate periferiche mobili.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Come dimostrato dalla tabella, la rete di un'azienda moderna richiede una soluzione più flessibile per applicare i requisiti di conformità tramite standard di protezione che possano aiutare a proteggerla dai sistemi non gestiti. Sebbene per risolvere questo problema siano state sviluppate soluzioni apposite da parte di terzi, tali soluzioni richiedono installazioni client su tutte le workstation gestite e aggiungono pertanto un livello in più di complessità alla rete. Fortunatamente, le versioni correnti di Microsoft Windows includono la funzionalità che aiuta a risolvere questo problema senza la necessità di aggiungere installazioni di software e affrontare curve di apprendimento relative all'amministrazione.
 

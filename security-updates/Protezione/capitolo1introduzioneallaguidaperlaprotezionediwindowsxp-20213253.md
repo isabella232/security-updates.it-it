@@ -184,7 +184,7 @@ In questa guida vengono utilizzate le seguenti convenzioni di stile.
 
 **Tabella 1.1. Convenzioni di stile**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -192,35 +192,35 @@ In questa guida vengono utilizzate le seguenti convenzioni di stile.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Significato</p></th>
+<th>Elemento</th>
+<th>Significato</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Grassetto</strong></p></td>
-<td style="border:1px solid black;"><p>Caratteri digitati esattamente come indicato, inclusi comandi, switch<br />
-e nomi di file. Anche gli elementi dell'interfaccia utente sono riportati in grassetto.</p></td>
+<td style="border:1px solid black;"><strong>Grassetto</strong></td>
+<td style="border:1px solid black;">Caratteri digitati esattamente come indicato, inclusi comandi, switch<br />
+e nomi di file. Anche gli elementi dell'interfaccia utente sono riportati in grassetto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>Corsivo</em></p></td>
-<td style="border:1px solid black;"><p>I titoli dei libri e altre pubblicazioni essenziali sono riportati in <em>corsivo.</em></p></td>
+<td style="border:1px solid black;"><em>Corsivo</em></td>
+<td style="border:1px solid black;">I titoli dei libri e altre pubblicazioni essenziali sono riportati in <em>corsivo.</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>&lt;Corsivo&gt;</em></p></td>
-<td style="border:1px solid black;"><p>I segnaposto in corsivo e le parentesi ad angolo &lt;<em>nome file</em>&gt; rappresentano le variabili.</p></td>
+<td style="border:1px solid black;"><em>&lt;Corsivo&gt;</em></td>
+<td style="border:1px solid black;">I segnaposto in corsivo e le parentesi ad angolo &lt;<em>nome file</em>&gt; rappresentano le variabili.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Monospace font</code></pre></td>
-<td style="border:1px solid black;"><p>Vengono definiti gli esempi di codice e di script.</p></td>
+<td style="border:1px solid black;">Vengono definiti gli esempi di codice e di script.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
-<td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari.</p></td>
+<td style="border:1px solid black;"><strong>Nota</strong></td>
+<td style="border:1px solid black;">Richiama l'attenzione del lettore su informazioni supplementari.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Importante</p></td>
-<td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su essenziali informazioni supplementari.</p></td>
+<td style="border:1px solid black;">Importante</td>
+<td style="border:1px solid black;">Richiama l'attenzione del lettore su essenziali informazioni supplementari.</td>
 </tr>
 </tbody>
 </table>

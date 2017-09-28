@@ -86,7 +86,7 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 
 **Tabella A.1: impostazioni Disattiva rilevamento errori critici**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -96,18 +96,18 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -120,7 +120,7 @@ Poiché i dati relativi al report di arresti anomali di Internet Explorer potreb
   
 **Tabella A.2: impostazioni Non consentire agli utenti di abilitare o disabilitare i componenti aggiuntivi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -130,18 +130,18 @@ Poiché i dati relativi al report di arresti anomali di Internet Explorer potreb
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -174,7 +174,7 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
   
 **Tabella A.3: impostazioni Consenti l'esecuzione o l'installazione del software anche se la firma è non è valida**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -184,18 +184,18 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -218,7 +218,7 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
   
 **Tabella A.4: impostazioni Limitazione protocollo di protezione MK**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -228,18 +228,18 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -260,7 +260,7 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
   
 **Tabella A.5: Impostazioni Gestione MIME coerente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -270,18 +270,18 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -304,7 +304,7 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
   
 **Tabella A.6: impostazioni Analisi MIME**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -314,18 +314,18 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -346,7 +346,7 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
   
 **Tabella A.7: impostazioni Limitazioni protezione Windows tramite script**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -356,18 +356,18 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -388,7 +388,7 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
   
 **Tabella A.8: impostazioni Protezione da promozione di area**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -398,18 +398,18 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -430,7 +430,7 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
   
 **Tabella A.9: impostazioni Limita installazione ActiveX**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -440,18 +440,18 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
 </tr>
 </tbody>
 </table>
@@ -476,7 +476,7 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
   
 **Tabella A.10: impostazioni Limita download file**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -486,18 +486,18 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -518,7 +518,7 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
   
 **Tabella A.11: impostazioni Rifiuta tutti i componenti aggiuntivi a meno che non siano consentiti nell'elenco dei componenti aggiuntivi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -528,18 +528,18 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
 </tr>
 </tbody>
 </table>
@@ -554,7 +554,7 @@ Si consiglia l'uso di entrambe le impostazioni **Rifiuta tutti i componenti aggi
   
 **Tabella A.12: impostazioni Elenco componenti aggiuntivi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -564,18 +564,18 @@ Si consiglia l'uso di entrambe le impostazioni **Rifiuta tutti i componenti aggi
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
 </tr>
 </tbody>
 </table>
@@ -590,7 +590,7 @@ Se si abilita questa impostazione di criterio, è necessario creare un elenco di
   
     **Tabella A.13: impostazione dei valori nell'elenco dei componenti aggiuntivi**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -598,22 +598,22 @@ Se si abilita questa impostazione di criterio, è necessario creare un elenco di
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Valore</p></th>
-    <th><p>Descrizione</p></th>
+    <th>Valore</th>
+    <th>Descrizione</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>0</p></td>
-    <td style="border:1px solid black;"><p>Rifiuta il componente aggiuntivo</p></td>
+    <td style="border:1px solid black;">0</td>
+    <td style="border:1px solid black;">Rifiuta il componente aggiuntivo</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>1</p></td>
-    <td style="border:1px solid black;"><p>Accetta il componente aggiuntivo</p></td>
+    <td style="border:1px solid black;">1</td>
+    <td style="border:1px solid black;">Accetta il componente aggiuntivo</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>2</p></td>
-    <td style="border:1px solid black;"><p>Accetta il componente aggiuntivo e consente all'utente di gestirlo attraverso Gestione componenti aggiuntivi</p></td>
+    <td style="border:1px solid black;">2</td>
+    <td style="border:1px solid black;">Accetta il componente aggiuntivo e consente all'utente di gestirlo attraverso Gestione componenti aggiuntivi</td>
     </tr>
     </tbody>
     </table>
@@ -632,7 +632,7 @@ Modelli amministrativi\\Componenti di Windows\\Servizi terminal\\ Client
   
 **Tabella A.14: impostazioni Non consentire salvataggio password**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -642,18 +642,18 @@ Modelli amministrativi\\Componenti di Windows\\Servizi terminal\\ Client
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -672,7 +672,7 @@ Modelli amministrativi\\Componenti di Windows\\Windows Update
   
 **Tabella A.15: impostazioni Non visualizzare le opzioni "Installa aggiornamenti e spegni" nella finestra di dialogo Fine della sessione di lavoro di Windows**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -682,18 +682,18 @@ Modelli amministrativi\\Componenti di Windows\\Windows Update
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -706,7 +706,7 @@ Disattivando questa impostazione di criterio l'opzione **Installa aggiornamenti 
   
 **Tabella A.16: impostazioni Non impostare "Installa aggiornamenti e spegni" come opzione predefinita nella finestra di dialogo Fine della sessione di lavoro**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -716,18 +716,18 @@ Disattivando questa impostazione di criterio l'opzione **Installa aggiornamenti 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -748,7 +748,7 @@ Configurazione computer\\Modelli amministrativi\\Sistema
   
 **Tabella A.17: impostazioni Disattiva richiesta ricerca driver periferiche in Windows Update**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -758,18 +758,18 @@ Configurazione computer\\Modelli amministrativi\\Sistema
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -794,7 +794,7 @@ Modelli amministrativi\\Sistema\\RPC
   
 **Tabella A.18: impostazioni Restrizioni per client RPC non autenticati**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -804,18 +804,18 @@ Modelli amministrativi\\Sistema\\RPC
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -836,7 +836,7 @@ Poiché la comunicazione RPC non autenticata può creare vulnerabilità nella pr
   
 **Tabella A.19: impostazioni Autenticazione client mapping degli endpoint RPC**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -846,18 +846,18 @@ Poiché la comunicazione RPC non autenticata può creare vulnerabilità nella pr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -876,7 +876,7 @@ Modelli amministrativi\\Sistema\\Gestione comunicazioni Internet\\Impostazioni d
   
 **Tabella A.20: impostazioni Disattiva l'operazione per file e cartelle Pubblica sul Web**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -886,18 +886,18 @@ Modelli amministrativi\\Sistema\\Gestione comunicazioni Internet\\Impostazioni d
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -908,7 +908,7 @@ Questa impostazione specifica se visualizzare le operazioni **Pubblica file sul 
   
 **Tabella A.21: Impostazioni Disattiva download Internet per le procedure di pubblicazione guidata sul Web e ordinazione guidata via Internet**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -918,18 +918,18 @@ Questa impostazione specifica se visualizzare le operazioni **Pubblica file sul 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -940,7 +940,7 @@ Configurando l'impostazione **Disattiva download Internet per le procedure di pu
   
 **Tabella A.22: impostazioni Disattiva Analisi utilizzo software Windows Messenger**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -950,18 +950,18 @@ Configurando l'impostazione **Disattiva download Internet per le procedure di pu
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -972,7 +972,7 @@ L'impostazione **Disattiva Analisi utilizzo software Windows Messenger** specifi
   
 **Tabella A.23: impostazioni Disattiva aggiornamenti file contenuto Ricerca guidata**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -982,18 +982,18 @@ L'impostazione **Disattiva Analisi utilizzo software Windows Messenger** specifi
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -1006,7 +1006,7 @@ L'impostazione **Disattiva aggiornamenti file contenuto Ricerca guidata** specif
   
 **Tabella A.24: impostazioni Disattiva stampa su HTTP**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1016,18 +1016,18 @@ L'impostazione **Disattiva aggiornamenti file contenuto Ricerca guidata** specif
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -1042,7 +1042,7 @@ Le informazioni trasmesse quando si stampa su HTTP non sono protette e possono e
   
 **Tabella A.25: impostazioni Disattiva download driver di stampa su HTTP**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1052,18 +1052,18 @@ Le informazioni trasmesse quando si stampa su HTTP non sono protette e possono e
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -1076,7 +1076,7 @@ L'impostazione **Disattiva download driver di stampa su HTTP** controlla se il c
   
 **Tabella A.26: impostazioni Disattiva ricerca driver periferiche in Windows Update**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1086,18 +1086,18 @@ L'impostazione **Disattiva download driver di stampa su HTTP** controlla se il c
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -1122,7 +1122,7 @@ Modelli amministrativi\\Rete\\Connessioni di rete\\Windows Firewall\\Profilo di 
   
 **Tabella A.27: impostazioni Proteggi tutte le connessioni di rete (Profilo di dominio)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1132,18 +1132,18 @@ Modelli amministrativi\\Rete\\Connessioni di rete\\Windows Firewall\\Profilo di 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -1158,7 +1158,7 @@ Se questa impostazione è configurata su **Disattivato**, Windows Firewall è di
   
 **Tabella A.28: impostazioni Non consentire eccezioni (Profilo di dominio)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1168,18 +1168,18 @@ Se questa impostazione è configurata su **Disattivato**, Windows Firewall è di
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
 </tr>
 </tbody>
 </table>
@@ -1194,7 +1194,7 @@ Molti ambienti contengono applicazioni e servizi che devono poter ricevere comun
   
 **Tabella A.29: impostazioni Definisci le eccezioni programmi (Profilo di dominio)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1204,18 +1204,18 @@ Molti ambienti contengono applicazioni e servizi che devono poter ricevere comun
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
 </tr>
 </tbody>
 </table>
@@ -1232,7 +1232,7 @@ Se si configura questo criterio su **Disattivato**, l'elenco eccezioni di progra
   
 **Tabella A.30: impostazioni Consenti eccezioni programmi locali (Profilo di dominio)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1242,18 +1242,18 @@ Se si configura questo criterio su **Disattivato**, l'elenco eccezioni di progra
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -1266,7 +1266,7 @@ Per i computer client aziendali possono sussistere le condizioni che giustifican
   
 **Tabella A.31: impostazioni Consenti eccezione per amministrazione remota (Profilo di dominio)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1276,18 +1276,18 @@ Per i computer client aziendali possono sussistere le condizioni che giustifican
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -1306,7 +1306,7 @@ Questa appendice consiglia di abilitare questa impostazione per i computer azien
   
 **Tabella A.32: impostazioni Consenti eccezione per condivisione file e stampanti (Profilo di dominio)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1316,18 +1316,18 @@ Questa appendice consiglia di abilitare questa impostazione per i computer azien
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -1344,7 +1344,7 @@ Poiché i computer dell'ambiente in cui è in esecuzione Windows XP non condivid
   
 **Tabella A.33: impostazioni Consenti eccezioni ICMP (Profilo di dominio)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1354,18 +1354,18 @@ Poiché i computer dell'ambiente in cui è in esecuzione Windows XP non condivid
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
 </tr>
 </tbody>
 </table>
@@ -1382,7 +1382,7 @@ Molti strumenti di aggressione approfittano dei computer che accettano i tipi di
   
 **Tabella A.34: impostazioni Consenti eccezione per Desktop remoto (Profilo di dominio)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1392,18 +1392,18 @@ Molti strumenti di aggressione approfittano dei computer che accettano i tipi di
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
 </tr>
 </tbody>
 </table>
@@ -1420,7 +1420,7 @@ Alcuni attacchi possono utilizzare una porta aperta 3389. Per mantenere le capac
   
 **Tabella A.35: impostazioni Consenti eccezione per framework UPnP (Profilo di dominio)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1430,18 +1430,18 @@ Alcuni attacchi possono utilizzare una porta aperta 3389. Per mantenere le capac
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
 </tr>
 </tbody>
 </table>
@@ -1456,7 +1456,7 @@ Il blocco del traffico di rete UPnP riduce efficacemente l'esposizione agli atta
   
 **Tabella A.36: impostazioni Proibisci notifiche (Profilo di dominio)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1466,18 +1466,18 @@ Il blocco del traffico di rete UPnP riduce efficacemente l'esposizione agli atta
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
 </tr>
 </tbody>
 </table>
@@ -1492,7 +1492,7 @@ Spesso gli utenti non potranno aggiungere applicazioni e porte in risposta a que
   
 **Tabella A.37: impostazioni Impedisci risposte unicast a richieste multicast o broadcast (Profilo di dominio)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1502,18 +1502,18 @@ Spesso gli utenti non potranno aggiungere applicazioni e porte in risposta a que
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -1528,7 +1528,7 @@ Generalmente, non è corretto ricevere risposte unicast a messaggi multicast o b
   
 **Tabella A.38: impostazioni Definisci eccezioni porte (Profilo di dominio)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1538,18 +1538,18 @@ Generalmente, non è corretto ricevere risposte unicast a messaggi multicast o b
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
 </tr>
 </tbody>
 </table>
@@ -1568,7 +1568,7 @@ Gli ambienti con applicazioni non standard che richiedono porte specifiche per e
   
 **Tabella A.39: impostazioni Consenti eccezioni porte locali (Profilo di dominio)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1578,18 +1578,18 @@ Gli ambienti con applicazioni non standard che richiedono porte specifiche per e
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -1616,7 +1616,7 @@ Modelli amministrativi\\Rete\\Connessioni di rete\\Windows Firewall\\Profilo sta
   
 **Tabella A.40: impostazioni Proteggi tutte le connessioni di rete (Profilo standard)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1626,18 +1626,18 @@ Modelli amministrativi\\Rete\\Connessioni di rete\\Windows Firewall\\Profilo sta
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -1652,7 +1652,7 @@ Se questa impostazione è configurata su **Disattivato**, Windows Firewall è di
   
 **Tabella A.41: impostazioni Non consentire eccezioni (Profilo standard)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1662,18 +1662,18 @@ Se questa impostazione è configurata su **Disattivato**, Windows Firewall è di
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
 </tr>
 </tbody>
 </table>
@@ -1686,7 +1686,7 @@ L'impostazione **Windows Firewall: non consentire eccezioni** specifica che Wind
   
 **Tabella A.42: impostazioni Definisci le eccezioni programmi (Profilo standard)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1696,18 +1696,18 @@ L'impostazione **Windows Firewall: non consentire eccezioni** specifica che Wind
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
-<td style="border:1px solid black;"><p>Consigliata</p></td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
+<td style="border:1px solid black;">Consigliata</td>
 </tr>
 </tbody>
 </table>
@@ -1724,7 +1724,7 @@ Se si configura questo criterio su **Disattivato**, l'elenco eccezioni di progra
   
 **Tabella A.43: impostazioni Consenti eccezioni programmi locali (Profilo standard)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1734,18 +1734,18 @@ Se si configura questo criterio su **Disattivato**, l'elenco eccezioni di progra
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -1756,7 +1756,7 @@ L'impostazione **Windows Firewall: consenti eccezioni programmi locali** consent
   
 **Tabella A.44: impostazioni Consenti eccezione per amministrazione remota (Profilo standard)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1766,18 +1766,18 @@ L'impostazione **Windows Firewall: consenti eccezioni programmi locali** consent
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -1796,7 +1796,7 @@ Questa appendice consiglia di disattivare questa impostazione per tutti i comput
   
 **Tabella A.45: impostazioni Consenti eccezione per condivisione file e stampanti (Profilo standard)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1806,18 +1806,18 @@ Questa appendice consiglia di disattivare questa impostazione per tutti i comput
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -1834,7 +1834,7 @@ Poiché i computer dell'ambiente in cui è in esecuzione Windows XP non condivid
   
 **Tabella A.46: impostazioni Consenti eccezioni ICMP (Profilo standard)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1844,18 +1844,18 @@ Poiché i computer dell'ambiente in cui è in esecuzione Windows XP non condivid
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -1872,7 +1872,7 @@ Molti strumenti di aggressione approfittano dei computer che accettano i tipi di
   
 **Tabella A.47: impostazioni Consenti eccezione per Desktop remoto (Profilo standard)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1882,18 +1882,18 @@ Molti strumenti di aggressione approfittano dei computer che accettano i tipi di
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -1910,7 +1910,7 @@ Alcuni attacchi possono utilizzare una porta aperta 3389. Per mantenere le capac
   
 **Tabella A.48: impostazioni Consenti eccezione per framework UPnP (Profilo standard)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1920,18 +1920,18 @@ Alcuni attacchi possono utilizzare una porta aperta 3389. Per mantenere le capac
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -1946,7 +1946,7 @@ Bloccando in modo efficace il traffico di rete UPnP, la superficie di attacco de
   
 **Tabella A.49: impostazioni Proibisci notifiche (Profilo standard)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1956,18 +1956,18 @@ Bloccando in modo efficace il traffico di rete UPnP, la superficie di attacco de
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
 </tr>
 </tbody>
 </table>
@@ -1982,7 +1982,7 @@ Spesso gli utenti non potranno aggiungere applicazioni e porte in risposta a que
   
 **Tabella A.50: impostazioni Impedisci risposte unicast a richieste multicast o broadcast (Profilo standard)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1992,18 +1992,18 @@ Spesso gli utenti non potranno aggiungere applicazioni e porte in risposta a que
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -2018,7 +2018,7 @@ Generalmente non è corretto ricevere risposte unicast a messaggi multicast o br
   
 **Tabella A.51: impostazioni Definisci eccezioni porte (Profilo standard)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2028,18 +2028,18 @@ Generalmente non è corretto ricevere risposte unicast a messaggi multicast o br
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
-<td style="border:1px solid black;"><p>Sconsigliato</p></td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
+<td style="border:1px solid black;">Sconsigliato</td>
 </tr>
 </tbody>
 </table>
@@ -2058,7 +2058,7 @@ Gli ambienti con applicazioni non standard che richiedono porte specifiche per e
   
 **Tabella A.52: impostazioni Consenti eccezioni porte locali (Profilo standard)**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2068,18 +2068,18 @@ Gli ambienti con applicazioni non standard che richiedono porte specifiche per e
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Desktop client organizzazione</p></th>
-<th><p>Portatile client organizzazione</p></th>
-<th><p>Desktop livello di protezione Alto</p></th>
-<th><p>Portatile livello di protezione Alto</p></th>
+<th>Desktop client organizzazione</th>
+<th>Portatile client organizzazione</th>
+<th>Desktop livello di protezione Alto</th>
+<th>Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -2108,7 +2108,7 @@ Configurazione utente\\Modelli amministrativi\\Componenti di Windows\\Gestione a
   
 **Tabella A.53: impostazioni Non conservare le informazioni di area nei file allegati**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2116,14 +2116,14 @@ Configurazione utente\\Modelli amministrativi\\Componenti di Windows\\Gestione a
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Client di organizzazione</p></th>
-<th><p>Livello di protezione Alto</p></th>
+<th>Client di organizzazione</th>
+<th>Livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -2136,7 +2136,7 @@ Se si imposta questo criterio su **Attivato**, i file allegati non vengono contr
   
 **Tabella A.54: impostazioni Nascondi meccanismi di rimozione informazioni sull'area**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2144,14 +2144,14 @@ Se si imposta questo criterio su **Attivato**, i file allegati non vengono contr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Client di organizzazione</p></th>
-<th><p>Livello di protezione Alto</p></th>
+<th>Client di organizzazione</th>
+<th>Livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -2166,7 +2166,7 @@ Windows nasconde la casella di controllo e il pulsante **Annulla blocco** quando
   
 **Tabella A.55: impostazioni Notifica programmi antivirus quando vengono aperti allegati**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2174,14 +2174,14 @@ Windows nasconde la casella di controllo e il pulsante **Annulla blocco** quando
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Client di organizzazione</p></th>
-<th><p>Livello di protezione Alto</p></th>
+<th>Client di organizzazione</th>
+<th>Livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>

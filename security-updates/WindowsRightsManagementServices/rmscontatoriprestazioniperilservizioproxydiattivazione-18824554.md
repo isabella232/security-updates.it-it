@@ -13,7 +13,7 @@ Nella tabella seguente, sono elencati i contatori prestazioni disponibili per RM
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,20 +27,20 @@ Nella tabella seguente, sono elencati i contatori prestazioni disponibili per RM
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Activation Failure Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tempo, in microsecondi, utilizzato dagli eventi di errore di attivazione.</p></td>
+<td style="border:1px solid black;">Activation Failure Processing Time</td>
+<td style="border:1px solid black;">Tempo, in microsecondi, utilizzato dagli eventi di errore di attivazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Activation Failures</p></td>
-<td style="border:1px solid black;"><p>Numero di richieste di attivazione non riuscite.</p></td>
+<td style="border:1px solid black;">Activation Failures</td>
+<td style="border:1px solid black;">Numero di richieste di attivazione non riuscite.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Activation Requests</p></td>
-<td style="border:1px solid black;"><p>Numero complessivo di richieste inviate al servizio di attivazione.</p></td>
+<td style="border:1px solid black;">Activation Requests</td>
+<td style="border:1px solid black;">Numero complessivo di richieste inviate al servizio di attivazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Activation Failure Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tempo di elaborazione, in microsecondi, utilizzato dal servizio di attivazione.</p></td>
+<td style="border:1px solid black;">Activation Failure Processing Time</td>
+<td style="border:1px solid black;">Tempo di elaborazione, in microsecondi, utilizzato dal servizio di attivazione.</td>
 </tr>
 </tbody>
 </table>

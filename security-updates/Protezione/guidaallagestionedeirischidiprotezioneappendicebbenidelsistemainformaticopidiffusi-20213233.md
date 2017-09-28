@@ -17,7 +17,7 @@ In questa appendice vengono elencati i beni del sistema informatico più diffusi
 
 **Tabella B.1: Beni del sistema informatico più diffusi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -27,516 +27,516 @@ In questa appendice vengono elencati i beni del sistema informatico più diffusi
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Classe del bene</p></th>
-<th><p>Ambiente IT generale</p></th>
-<th><p>Nome del bene</p></th>
-<th><p>Classificazione del bene</p></th>
+<th>Classe del bene</th>
+<th>Ambiente IT generale</th>
+<th>Nome del bene</th>
+<th>Classificazione del bene</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p><em>Descrizione di livello più elevato del bene</em></p></td>
-<td style="border:1px solid black;"><p><em>Definizione di livello successivo (se necessaria)</em></p></td>
-<td style="border:1px solid black;"><p><em>Classificazione del valore del bene, vedere la scheda relativa alla definizione di gruppo (1-5)</em></p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"><em>Descrizione di livello più elevato del bene</em></td>
+<td style="border:1px solid black;"><em>Definizione di livello successivo (se necessaria)</em></td>
+<td style="border:1px solid black;"><em>Classificazione del valore del bene, vedere la scheda relativa alla definizione di gruppo (1-5)</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Centri dati</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Centri dati</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Server</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Server</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Computer desktop</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Computer desktop</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Computer portatili</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Computer portatili</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>PDA</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">PDA</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Telefoni cellulari</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Telefoni cellulari</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Applicazioni server</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Applicazioni server</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Applicazioni utenti finali</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Applicazioni utenti finali</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Strumenti di sviluppo</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Strumenti di sviluppo</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Router</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Router</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Switch di rete</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Switch di rete</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Dispositivi fax</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Dispositivi fax</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>PBX</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">PBX</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Supporti rimovibili (ad esempio nastri, dischi floppy, CD-ROM, DVD, dischi rigidi portatili, periferiche di archiviazione PC Card, periferiche di archiviazione USB, ecc.)</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Supporti rimovibili (ad esempio nastri, dischi floppy, CD-ROM, DVD, dischi rigidi portatili, periferiche di archiviazione PC Card, periferiche di archiviazione USB, ecc.)</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Alimentatori</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Alimentatori</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Gruppi di continuità</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Gruppi di continuità</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Estintori</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Estintori</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Impianti di condizionamento</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Impianti di condizionamento</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Impianti di filtrazione dell'aria</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Impianti di filtrazione dell'aria</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura fisica</p></td>
-<td style="border:1px solid black;"><p>Altri sistemi di controllo ambientale</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Infrastruttura fisica</td>
+<td style="border:1px solid black;">Altri sistemi di controllo ambientale</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Codice sorgente</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Codice sorgente</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Dati risorse umane</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Dati risorse umane</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Dati finanziari</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Dati finanziari</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Dati di marketing</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Dati di marketing</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Password dipendenti</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Password dipendenti</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Chiavi di crittografia private dipendenti</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Chiavi di crittografia private dipendenti</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Chiavi di crittografia computer</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Chiavi di crittografia computer</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Smart card</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Smart card</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Proprietà intellettuale</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Proprietà intellettuale</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Dati finanziari, previdenziali, di sicurezza delle informazioni richiesti da normative specifiche (ad esempio dalla direttiva UE sulla protezione dei dati)</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Dati finanziari, previdenziali, di sicurezza delle informazioni richiesti da normative specifiche (ad esempio dalla direttiva UE sulla protezione dei dati)</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Numeri previdenza sociale dipendenti (U.S.A.)</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Numeri previdenza sociale dipendenti (U.S.A.)</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Numeri patente dipendenti</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Numeri patente dipendenti</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Piani strategici</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Piani strategici</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Rapporti di credito clienti</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Rapporti di credito clienti</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Informazioni mediche clienti</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Informazioni mediche clienti</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Identificatori biometrici dipendenti</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Identificatori biometrici dipendenti</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Dati di contatto aziendali dipendenti</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Dati di contatto aziendali dipendenti</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Dati di contatto personali dipendenti</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Dati di contatto personali dipendenti</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Dati ordini di acquisto</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Dati ordini di acquisto</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Progettazione infrastruttura di rete</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Progettazione infrastruttura di rete</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Siti Web interni</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Siti Web interni</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Intranet</p></td>
-<td style="border:1px solid black;"><p>Dati etnografici dipendenti</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Intranet</td>
+<td style="border:1px solid black;">Dati etnografici dipendenti</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Extranet</p></td>
-<td style="border:1px solid black;"><p>Dati contratti con collaboratori/partner</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Extranet</td>
+<td style="border:1px solid black;">Dati contratti con collaboratori/partner</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Extranet</p></td>
-<td style="border:1px solid black;"><p>Dati finanziari collaboratori/partner</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Extranet</td>
+<td style="border:1px solid black;">Dati finanziari collaboratori/partner</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Extranet</p></td>
-<td style="border:1px solid black;"><p>Dati di contatto collaboratori/partner</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Extranet</td>
+<td style="border:1px solid black;">Dati di contatto collaboratori/partner</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Extranet</p></td>
-<td style="border:1px solid black;"><p>Proposte di collaborazione da collaboratori/partner</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Extranet</td>
+<td style="border:1px solid black;">Proposte di collaborazione da collaboratori/partner</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Extranet</p></td>
-<td style="border:1px solid black;"><p>Chiavi di crittografia collaboratori/partner</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Extranet</td>
+<td style="border:1px solid black;">Chiavi di crittografia collaboratori/partner</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Extranet</p></td>
-<td style="border:1px solid black;"><p>Rapporti di credito collaboratori/partner</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Extranet</td>
+<td style="border:1px solid black;">Rapporti di credito collaboratori/partner</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Extranet</p></td>
-<td style="border:1px solid black;"><p>Dati ordini di acquisto collaboratori/partner</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Extranet</td>
+<td style="border:1px solid black;">Dati ordini di acquisto collaboratori/partner</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Extranet</p></td>
-<td style="border:1px solid black;"><p>Dati contratti con fornitori</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Extranet</td>
+<td style="border:1px solid black;">Dati contratti con fornitori</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Extranet</p></td>
-<td style="border:1px solid black;"><p>Dati finanziari fornitori</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Extranet</td>
+<td style="border:1px solid black;">Dati finanziari fornitori</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Extranet</p></td>
-<td style="border:1px solid black;"><p>Dati di contatto fornitori</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Extranet</td>
+<td style="border:1px solid black;">Dati di contatto fornitori</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Extranet</p></td>
-<td style="border:1px solid black;"><p>Proposte di collaborazione dai fornitori</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Extranet</td>
+<td style="border:1px solid black;">Proposte di collaborazione dai fornitori</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Extranet</p></td>
-<td style="border:1px solid black;"><p>Chiavi di crittografia fornitori</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Extranet</td>
+<td style="border:1px solid black;">Chiavi di crittografia fornitori</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Extranet</p></td>
-<td style="border:1px solid black;"><p>Rapporti di credito fornitori</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Extranet</td>
+<td style="border:1px solid black;">Rapporti di credito fornitori</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Extranet</p></td>
-<td style="border:1px solid black;"><p>Dati ordini di acquisto fornitori</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Extranet</td>
+<td style="border:1px solid black;">Dati ordini di acquisto fornitori</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Internet</p></td>
-<td style="border:1px solid black;"><p>Richieste commerciali tramite siti Web</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Internet</td>
+<td style="border:1px solid black;">Richieste commerciali tramite siti Web</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Internet</p></td>
-<td style="border:1px solid black;"><p>Dati di marketing siti Web</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Internet</td>
+<td style="border:1px solid black;">Dati di marketing siti Web</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Internet</p></td>
-<td style="border:1px solid black;"><p>Dati carte di credito clienti</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Internet</td>
+<td style="border:1px solid black;">Dati carte di credito clienti</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Internet</p></td>
-<td style="border:1px solid black;"><p>Dati di contatto clienti</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Internet</td>
+<td style="border:1px solid black;">Dati di contatto clienti</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Internet</p></td>
-<td style="border:1px solid black;"><p>Chiavi di crittografia pubbliche</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Internet</td>
+<td style="border:1px solid black;">Chiavi di crittografia pubbliche</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Internet</p></td>
-<td style="border:1px solid black;"><p>Comunicati stampa</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Internet</td>
+<td style="border:1px solid black;">Comunicati stampa</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Internet</p></td>
-<td style="border:1px solid black;"><p>White paper</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Internet</td>
+<td style="border:1px solid black;">White paper</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Internet</p></td>
-<td style="border:1px solid black;"><p>Documentazione prodotti</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Internet</td>
+<td style="border:1px solid black;">Documentazione prodotti</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tangibile</p></td>
-<td style="border:1px solid black;"><p>Dati Internet</p></td>
-<td style="border:1px solid black;"><p>Materiale per la formazione</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Tangibile</td>
+<td style="border:1px solid black;">Dati Internet</td>
+<td style="border:1px solid black;">Materiale per la formazione</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Intangibile</p></td>
-<td style="border:1px solid black;"><p>Reputazione</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Intangibile</td>
+<td style="border:1px solid black;">Reputazione</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Intangibile</p></td>
-<td style="border:1px solid black;"><p>Collaborazione</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Intangibile</td>
+<td style="border:1px solid black;">Collaborazione</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Intangibile</p></td>
-<td style="border:1px solid black;"><p>Morale dei dipendenti</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Intangibile</td>
+<td style="border:1px solid black;">Morale dei dipendenti</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Intangibile</p></td>
-<td style="border:1px solid black;"><p>Produttività dipendenti</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Intangibile</td>
+<td style="border:1px solid black;">Produttività dipendenti</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi IT</p></td>
-<td style="border:1px solid black;"><p>Messaggistica</p></td>
-<td style="border:1px solid black;"><p>E-mail/programmazione (ad es. Microsoft® Exchange)</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Servizi IT</td>
+<td style="border:1px solid black;">Messaggistica</td>
+<td style="border:1px solid black;">E-mail/programmazione (ad es. Microsoft® Exchange)</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizi IT</p></td>
-<td style="border:1px solid black;"><p>Messaggistica</p></td>
-<td style="border:1px solid black;"><p>Messaggistica immediata</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Servizi IT</td>
+<td style="border:1px solid black;">Messaggistica</td>
+<td style="border:1px solid black;">Messaggistica immediata</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi IT</p></td>
-<td style="border:1px solid black;"><p>Messaggistica</p></td>
-<td style="border:1px solid black;"><p>Microsoft Outlook® Web Access (OWA)</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Servizi IT</td>
+<td style="border:1px solid black;">Messaggistica</td>
+<td style="border:1px solid black;">Microsoft Outlook® Web Access (OWA)</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizi IT</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura di base</p></td>
-<td style="border:1px solid black;"><p>Microsoft Active Directory®</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Servizi IT</td>
+<td style="border:1px solid black;">Infrastruttura di base</td>
+<td style="border:1px solid black;">Microsoft Active Directory®</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi IT</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura di base</p></td>
-<td style="border:1px solid black;"><p>Servizi DNS (Domain Name System)</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Servizi IT</td>
+<td style="border:1px solid black;">Infrastruttura di base</td>
+<td style="border:1px solid black;">Servizi DNS (Domain Name System)</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizi IT</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura di base</p></td>
-<td style="border:1px solid black;"><p>Server DHCP (Dynamic Host Configuration Protocol)</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Servizi IT</td>
+<td style="border:1px solid black;">Infrastruttura di base</td>
+<td style="border:1px solid black;">Server DHCP (Dynamic Host Configuration Protocol)</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi IT</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura di base</p></td>
-<td style="border:1px solid black;"><p>Strumenti di gestione aziendale</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Servizi IT</td>
+<td style="border:1px solid black;">Infrastruttura di base</td>
+<td style="border:1px solid black;">Strumenti di gestione aziendale</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizi IT</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura di base</p></td>
-<td style="border:1px solid black;"><p>Condivisione file</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Servizi IT</td>
+<td style="border:1px solid black;">Infrastruttura di base</td>
+<td style="border:1px solid black;">Condivisione file</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi IT</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura di base</p></td>
-<td style="border:1px solid black;"><p>Archiviazione</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Servizi IT</td>
+<td style="border:1px solid black;">Infrastruttura di base</td>
+<td style="border:1px solid black;">Archiviazione</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizi IT</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura di base</p></td>
-<td style="border:1px solid black;"><p>Accesso remoto dial-up</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Servizi IT</td>
+<td style="border:1px solid black;">Infrastruttura di base</td>
+<td style="border:1px solid black;">Accesso remoto dial-up</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi IT</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura di base</p></td>
-<td style="border:1px solid black;"><p>Telefonia</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Servizi IT</td>
+<td style="border:1px solid black;">Infrastruttura di base</td>
+<td style="border:1px solid black;">Telefonia</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizi IT</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura di base</p></td>
-<td style="border:1px solid black;"><p>Accesso a reti private virtuali (VPN)</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">Servizi IT</td>
+<td style="border:1px solid black;">Infrastruttura di base</td>
+<td style="border:1px solid black;">Accesso a reti private virtuali (VPN)</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi IT</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura di base</p></td>
-<td style="border:1px solid black;"><p>WINS (Microsoft Windows® Internet Naming Service)</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Servizi IT</td>
+<td style="border:1px solid black;">Infrastruttura di base</td>
+<td style="border:1px solid black;">WINS (Microsoft Windows® Internet Naming Service)</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizi IT</p></td>
-<td style="border:1px solid black;"><p>Altre infrastrutture</p></td>
-<td style="border:1px solid black;"><p>Servizi di collaborazione (ad es. Microsoft SharePoint™)</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Servizi IT</td>
+<td style="border:1px solid black;">Altre infrastrutture</td>
+<td style="border:1px solid black;">Servizi di collaborazione (ad es. Microsoft SharePoint™)</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 </tbody>
 </table>

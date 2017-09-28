@@ -23,7 +23,7 @@ Nella tabella seguente, sono elencate le voci tramite le quali viene controllato
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -41,40 +41,40 @@ Nella tabella seguente, sono elencate le voci tramite le quali viene controllato
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PrincipalCacheMax</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1,000</p></td>
-<td style="border:1px solid black;"><p>Numero massimo di entità e relativi indirizzi di posta elettronica e SID che è possibile memorizzare nella cache.</p></td>
+<td style="border:1px solid black;">PrincipalCacheMax</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1,000</td>
+<td style="border:1px solid black;">Numero massimo di entità e relativi indirizzi di posta elettronica e SID che è possibile memorizzare nella cache.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrincipalCacheExpireMinutes</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>12</p></td>
-<td style="border:1px solid black;"><p>Periodo di validità delle informazioni memorizzate nella cache per le entità.</p></td>
+<td style="border:1px solid black;">PrincipalCacheExpireMinutes</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">12</td>
+<td style="border:1px solid black;">Periodo di validità delle informazioni memorizzate nella cache per le entità.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupIDCacheMax</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1,000</p></td>
-<td style="border:1px solid black;"><p>Numero massimo di gruppi e relativi indirizzi di posta elettronica e SID che è possibile memorizzare nella cache.</p></td>
+<td style="border:1px solid black;">GroupIDCacheMax</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1,000</td>
+<td style="border:1px solid black;">Numero massimo di gruppi e relativi indirizzi di posta elettronica e SID che è possibile memorizzare nella cache.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GroupIDCacheExpireMinutes</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>12</p></td>
-<td style="border:1px solid black;"><p>Periodo di validità delle informazioni memorizzate nella cache per l'appartenenza al gruppo.</p></td>
+<td style="border:1px solid black;">GroupIDCacheExpireMinutes</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">12</td>
+<td style="border:1px solid black;">Periodo di validità delle informazioni memorizzate nella cache per l'appartenenza al gruppo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupMembershipCacheMax</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1,000</p></td>
-<td style="border:1px solid black;"><p>Numero massimo di contatti membri di un gruppo che è possibile memorizzare nella cache.</p></td>
+<td style="border:1px solid black;">GroupMembershipCacheMax</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1,000</td>
+<td style="border:1px solid black;">Numero massimo di contatti membri di un gruppo che è possibile memorizzare nella cache.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GroupMembershipCacheExpireMinutes</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>12</p></td>
-<td style="border:1px solid black;"><p>Periodo di validità delle informazioni memorizzate nella cache per contatti che sono membri di un gruppo.</p></td>
+<td style="border:1px solid black;">GroupMembershipCacheExpireMinutes</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">12</td>
+<td style="border:1px solid black;">Periodo di validità delle informazioni memorizzate nella cache per contatti che sono membri di un gruppo.</td>
 </tr>
 </tbody>
 </table>

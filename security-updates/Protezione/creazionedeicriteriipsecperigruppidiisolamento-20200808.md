@@ -169,7 +169,7 @@ La tabella seguente riporta alcuni elenchi di base, potenzialmente utili per un'
 
 **Tabella 5.1. Elenchi filtri contenuti nella soluzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -177,34 +177,34 @@ La tabella seguente riporta alcuni elenchi di base, potenzialmente utili per un'
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elenco filtri</p></th>
-<th><p>Descrizione</p></th>
+<th>Elenco filtri</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Elenco subnet protette</p></td>
-<td style="border:1px solid black;"><p>Include tutte le subnet dell'organizzazione che verranno protette tramite IPsec</p></td>
+<td style="border:1px solid black;">Elenco subnet protette</td>
+<td style="border:1px solid black;">Include tutte le subnet dell'organizzazione che verranno protette tramite IPsec</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Elenco di esenzioni DNS</p></td>
-<td style="border:1px solid black;"><p>Include gli indirizzi IP dei server DNS che saranno autorizzati a comunicare senza la protezione di IPsec</p></td>
+<td style="border:1px solid black;">Elenco di esenzioni DNS</td>
+<td style="border:1px solid black;">Include gli indirizzi IP dei server DNS che saranno autorizzati a comunicare senza la protezione di IPsec</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Elenco di esenzioni controller di dominio</p></td>
-<td style="border:1px solid black;"><p>Include gli indirizzi IP dei controller di dominio che saranno autorizzati a comunicare senza la protezione di IPsec</p></td>
+<td style="border:1px solid black;">Elenco di esenzioni controller di dominio</td>
+<td style="border:1px solid black;">Include gli indirizzi IP dei controller di dominio che saranno autorizzati a comunicare senza la protezione di IPsec</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Elenco di esenzioni WINS</p></td>
-<td style="border:1px solid black;"><p>Include gli indirizzi IP dei server WINS (Windows Internet Naming Service) che saranno autorizzati a comunicare senza la protezione di IPsec</p></td>
+<td style="border:1px solid black;">Elenco di esenzioni WINS</td>
+<td style="border:1px solid black;">Include gli indirizzi IP dei server WINS (Windows Internet Naming Service) che saranno autorizzati a comunicare senza la protezione di IPsec</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DHCP, traffico di negoziazione</p></td>
-<td style="border:1px solid black;"><p>Include il filtro che autorizza il traffico di negoziazione DHCP (Dynamic Host Configuration Protocol) sulla porta UDP 68</p></td>
+<td style="border:1px solid black;">DHCP, traffico di negoziazione</td>
+<td style="border:1px solid black;">Include il filtro che autorizza il traffico di negoziazione DHCP (Dynamic Host Configuration Protocol) sulla porta UDP 68</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ICMP, Tutto il traffico</p></td>
-<td style="border:1px solid black;"><p>Include il filtro che consente il funzionamento del protocollo ICMP (Internet Control Message Protocol) all'interno dell'organizzazione per la risoluzione dei problemi</p></td>
+<td style="border:1px solid black;">ICMP, Tutto il traffico</td>
+<td style="border:1px solid black;">Include il filtro che consente il funzionamento del protocollo ICMP (Internet Control Message Protocol) all'interno dell'organizzazione per la risoluzione dei problemi</td>
 </tr>
 </tbody>
 </table>
@@ -282,7 +282,7 @@ Dopo aver analizzato l'output dei requisiti del traffico ottenuto in base alle i
   
 **Tabella 5.2. Esempi degli elenchi filtri utilizzati dalla Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -291,49 +291,49 @@ Dopo aver analizzato l'output dei requisiti del traffico ottenuto in base alle i
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elenco filtri</p></th>
-<th><p>Filtri definiti</p></th>
-<th><p>Protocollo o porta</p></th>
+<th>Elenco filtri</th>
+<th>Filtri definiti</th>
+<th>Protocollo o porta</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Subnet protette</p></td>
-<td style="border:1px solid black;"><p>Qualsiasi &lt;-&gt; 192.168.1.0/24</p>
-<p>Qualsiasi &lt;-&gt; 172.10.1.0/24</p></td>
-<td style="border:1px solid black;"><p>Tutte</p></td>
+<td style="border:1px solid black;">Subnet protette</td>
+<td style="border:1px solid black;">Qualsiasi &lt;-&gt; 192.168.1.0/24
+Qualsiasi &lt;-&gt; 172.10.1.0/24</td>
+<td style="border:1px solid black;">Tutte</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Elenco di esenzioni DNS</p></td>
-<td style="border:1px solid black;"><p>Qualsiasi &lt;-&gt; 192.168.1.21</p>
-<p>Qualsiasi &lt;-&gt; 192.168.1.22</p></td>
-<td style="border:1px solid black;"><p>Tutte</p></td>
+<td style="border:1px solid black;">Elenco di esenzioni DNS</td>
+<td style="border:1px solid black;">Qualsiasi &lt;-&gt; 192.168.1.21
+Qualsiasi &lt;-&gt; 192.168.1.22</td>
+<td style="border:1px solid black;">Tutte</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Elenco di esenzioni controller di dominio</p></td>
-<td style="border:1px solid black;"><p>Qualsiasi &lt;-&gt; 192.168.1.21</p>
-<p>Qualsiasi &lt;-&gt; 192.168.1.22</p></td>
-<td style="border:1px solid black;"><p>Tutte</p></td>
+<td style="border:1px solid black;">Elenco di esenzioni controller di dominio</td>
+<td style="border:1px solid black;">Qualsiasi &lt;-&gt; 192.168.1.21
+Qualsiasi &lt;-&gt; 192.168.1.22</td>
+<td style="border:1px solid black;">Tutte</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Elenco di esenzioni server applicazioni LOB</p></td>
-<td style="border:1px solid black;"><p>Qualsiasi &lt;-&gt; 192.168.1.10</p></td>
-<td style="border:1px solid black;"><p>Tutte</p></td>
+<td style="border:1px solid black;">Elenco di esenzioni server applicazioni LOB</td>
+<td style="border:1px solid black;">Qualsiasi &lt;-&gt; 192.168.1.10</td>
+<td style="border:1px solid black;">Tutte</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Elenco di esenzioni WINS</p></td>
-<td style="border:1px solid black;"><p>Qualsiasi &lt;-&gt; 192.168.1.22</p></td>
-<td style="border:1px solid black;"><p>Tutte</p></td>
+<td style="border:1px solid black;">Elenco di esenzioni WINS</td>
+<td style="border:1px solid black;">Qualsiasi &lt;-&gt; 192.168.1.22</td>
+<td style="border:1px solid black;">Tutte</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DHCP, traffico di negoziazione</p></td>
-<td style="border:1px solid black;"><p>Indirizzo IP &lt;-&gt; Qualsiasi</p></td>
-<td style="border:1px solid black;"><p>UDP 68 di origine, 67 di destinazione</p></td>
+<td style="border:1px solid black;">DHCP, traffico di negoziazione</td>
+<td style="border:1px solid black;">Indirizzo IP &lt;-&gt; Qualsiasi</td>
+<td style="border:1px solid black;">UDP 68 di origine, 67 di destinazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ICMP, Tutto il traffico</p></td>
-<td style="border:1px solid black;"><p>Indirizzo IP &lt;-&gt; Qualsiasi</p></td>
-<td style="border:1px solid black;"><p>Solo ICMP</p></td>
+<td style="border:1px solid black;">ICMP, Tutto il traffico</td>
+<td style="border:1px solid black;">Indirizzo IP &lt;-&gt; Qualsiasi</td>
+<td style="border:1px solid black;">Solo ICMP</td>
 </tr>
 </tbody>
 </table>
@@ -392,7 +392,7 @@ La tabella seguente elenca le possibili opzioni di crittografia per ciascun meto
   
 **Tabella 5.3. Opzioni di protezione e crittografia**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -401,31 +401,31 @@ La tabella seguente elenca le possibili opzioni di crittografia per ciascun meto
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Metodo di protezione</p></th>
-<th><p>Opzioni di crittografia</p></th>
-<th><p>Descrizione</p></th>
+<th>Metodo di protezione</th>
+<th>Opzioni di crittografia</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AH (Authentication Header)</p></td>
-<td style="border:1px solid black;"><p>MD5</p>
-<p>SHA-1</p></td>
-<td style="border:1px solid black;"><p>Assicura l'integrità e l'autenticità sia del payload IP (dati) che dell'intestazione IP (indirizzo) senza crittografia. AH non consente l'attraversamento di periferiche NAT</p></td>
+<td style="border:1px solid black;">AH (Authentication Header)</td>
+<td style="border:1px solid black;">MD5
+SHA-1</td>
+<td style="border:1px solid black;">Assicura l'integrità e l'autenticità sia del payload IP (dati) che dell'intestazione IP (indirizzo) senza crittografia. AH non consente l'attraversamento di periferiche NAT</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Integrità ESP</p></td>
-<td style="border:1px solid black;"><p>&lt;Nessuna&gt;</p>
-<p>MD5</p>
-<p>SHA-1</p></td>
-<td style="border:1px solid black;"><p>Assicura l'integrità e l'autenticità soltanto del payload IP (dati). Può essere utilizzata sia con che senza crittografia. L'utilizzo di ESP senza autenticazione non è consigliato.</p></td>
+<td style="border:1px solid black;">Integrità ESP</td>
+<td style="border:1px solid black;">&lt;Nessuna&gt;
+MD5
+SHA-1</td>
+<td style="border:1px solid black;">Assicura l'integrità e l'autenticità soltanto del payload IP (dati). Può essere utilizzata sia con che senza crittografia. L'utilizzo di ESP senza autenticazione non è consigliato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Crittografia</p></td>
-<td style="border:1px solid black;"><p>&lt;Nessuna&gt;</p>
-<p>3DES</p>
-<p>DES</p></td>
-<td style="border:1px solid black;"><p>Con DES o 3DES, esegue la crittografia del payload IP (dati). Può essere utilizzato senza algoritmo di crittografia quando la crittografia non è necessaria.</p></td>
+<td style="border:1px solid black;">Crittografia</td>
+<td style="border:1px solid black;">&lt;Nessuna&gt;
+3DES
+DES</td>
+<td style="border:1px solid black;">Con DES o 3DES, esegue la crittografia del payload IP (dati). Può essere utilizzato senza algoritmo di crittografia quando la crittografia non è necessaria.</td>
 </tr>
 </tbody>
 </table>
@@ -496,7 +496,7 @@ La tabella seguente riporta i nomi delle operazioni filtro e le descrizioni util
   
 **Tabella 5.4. Operazioni filtro IPsec e descrizioni**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -504,35 +504,35 @@ La tabella seguente riporta i nomi delle operazioni filtro e le descrizioni util
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Operazione filtro</p></th>
-<th><p>Descrizione</p></th>
+<th>Operazione filtro</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPsec - Blocca</p></td>
-<td style="border:1px solid black;"><p>Blocca il traffico che corrisponde al filtro.</p></td>
+<td style="border:1px solid black;">IPsec - Blocca</td>
+<td style="border:1px solid black;">Blocca il traffico che corrisponde al filtro.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPsec - Autorizza</p></td>
-<td style="border:1px solid black;"><p>Consente il traffico che corrisponde al filtro.</p></td>
+<td style="border:1px solid black;">IPsec - Autorizza</td>
+<td style="border:1px solid black;">Consente il traffico che corrisponde al filtro.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPsec - Modalità di richiesta</p>
-<p>(Accetta in ingresso, Consenti in uscita)</p></td>
-<td style="border:1px solid black;"><p>L'host accetta in ingresso i pacchetti di IPsec o non crittografati. Per il traffico in uscita, avvia una negoziazione IKE e consente l'utilizzo della modalità non crittografata in caso di mancata risposta. Questa operazione filtro viene utilizzata per configurare il gruppo di isolamento Limite.</p></td>
+<td style="border:1px solid black;">IPsec - Modalità di richiesta
+(Accetta in ingresso, Consenti in uscita)</td>
+<td style="border:1px solid black;">L'host accetta in ingresso i pacchetti di IPsec o non crittografati. Per il traffico in uscita, avvia una negoziazione IKE e consente l'utilizzo della modalità non crittografata in caso di mancata risposta. Questa operazione filtro viene utilizzata per configurare il gruppo di isolamento Limite.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPsec - Modalità di richiesta protetta (Ignora in ingresso, Consenti in uscita)</p></td>
-<td style="border:1px solid black;"><p>L'host consente l'accesso TCP/IP in ingresso soltanto quando i pacchetti sono protetti da IPsec e ignora i pacchetti in ingresso non protetti da IPsec. Per il traffico in uscita, avvia una negoziazione IKE e consente la modalità non crittografata in caso di mancata risposta. Questa operazione filtro viene utilizzata per implementare il dominio di isolamento, in cui sono consentite le connessioni in uscita a host non attendibili.</p></td>
+<td style="border:1px solid black;">IPsec - Modalità di richiesta protetta (Ignora in ingresso, Consenti in uscita)</td>
+<td style="border:1px solid black;">L'host consente l'accesso TCP/IP in ingresso soltanto quando i pacchetti sono protetti da IPsec e ignora i pacchetti in ingresso non protetti da IPsec. Per il traffico in uscita, avvia una negoziazione IKE e consente la modalità non crittografata in caso di mancata risposta. Questa operazione filtro viene utilizzata per implementare il dominio di isolamento, in cui sono consentite le connessioni in uscita a host non attendibili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPsec - Modalità di richiesta completa (Ignora in ingresso, Impedisci in uscita)</p></td>
-<td style="border:1px solid black;"><p>L'host richiede comunicazioni protette da IPsec sia per i pacchetti in ingresso che in uscita. Questa operazione filtro viene utilizzata per implementare il gruppo di isolamento Nessun fallback, in cui tutte le comunicazioni sono protette da IPsec.</p></td>
+<td style="border:1px solid black;">IPsec - Modalità di richiesta completa (Ignora in ingresso, Impedisci in uscita)</td>
+<td style="border:1px solid black;">L'host richiede comunicazioni protette da IPsec sia per i pacchetti in ingresso che in uscita. Questa operazione filtro viene utilizzata per implementare il gruppo di isolamento Nessun fallback, in cui tutte le comunicazioni sono protette da IPsec.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPsec - Modalità di richiesta di crittografia (Ignora in ingresso, Impedisci in uscita)</p></td>
-<td style="border:1px solid black;"><p>L'host consente l'accesso TCP/IP in ingresso soltanto quando i pacchetti sono protetti dalla crittografia IPsec ESP-3DES e ignora i pacchetti in ingresso non protetti da IPsec. Per il traffico in uscita, avvia una negoziazione IKE che richiede la crittografia IPsec ESP-3DES. Questa operazione filtro viene utilizzata per implementare il gruppo di isolamento Crittografia.</p></td>
+<td style="border:1px solid black;">IPsec - Modalità di richiesta di crittografia (Ignora in ingresso, Impedisci in uscita)</td>
+<td style="border:1px solid black;">L'host consente l'accesso TCP/IP in ingresso soltanto quando i pacchetti sono protetti dalla crittografia IPsec ESP-3DES e ignora i pacchetti in ingresso non protetti da IPsec. Per il traffico in uscita, avvia una negoziazione IKE che richiede la crittografia IPsec ESP-3DES. Questa operazione filtro viene utilizzata per implementare il gruppo di isolamento Crittografia.</td>
 </tr>
 </tbody>
 </table>
@@ -545,7 +545,7 @@ La Woodgrove Bank non ha esigenze supplementari per la comunicazione bilaterale 
   
 **Tabella 5.5. Metodi di protezione supportati**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -553,29 +553,29 @@ La Woodgrove Bank non ha esigenze supplementari per la comunicazione bilaterale 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Operazione filtro</p></th>
-<th><p>Metodi di protezione supportati</p></th>
+<th>Operazione filtro</th>
+<th>Metodi di protezione supportati</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPsec - Modalità di richiesta (Accetta in ingresso, Consenti in uscita)</p></td>
-<td style="border:1px solid black;"><p>ESP – SHA-1, &lt;Nessuna&gt;</p>
-<p>ESP – SHA-1, 3DES</p></td>
+<td style="border:1px solid black;">IPsec - Modalità di richiesta (Accetta in ingresso, Consenti in uscita)</td>
+<td style="border:1px solid black;">ESP – SHA-1, &lt;Nessuna&gt;
+ESP – SHA-1, 3DES</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPsec - Modalità di richiesta protetta (Ignora in ingresso, Consenti in uscita)</p></td>
-<td style="border:1px solid black;"><p>ESP – SHA-1, &lt;Nessuna&gt;</p>
-<p>ESP – SHA-1, 3DES</p></td>
+<td style="border:1px solid black;">IPsec - Modalità di richiesta protetta (Ignora in ingresso, Consenti in uscita)</td>
+<td style="border:1px solid black;">ESP – SHA-1, &lt;Nessuna&gt;
+ESP – SHA-1, 3DES</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPsec - Modalità di richiesta completa (Ignora in ingresso, Impedisci in uscita)</p></td>
-<td style="border:1px solid black;"><p>ESP – SHA-1, &lt;Nessuna&gt;</p>
-<p>ESP – SHA-1, 3DES</p></td>
+<td style="border:1px solid black;">IPsec - Modalità di richiesta completa (Ignora in ingresso, Impedisci in uscita)</td>
+<td style="border:1px solid black;">ESP – SHA-1, &lt;Nessuna&gt;
+ESP – SHA-1, 3DES</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPsec - Modalità di richiesta di crittografia (Ignora in ingresso, Impedisci in uscita)</p></td>
-<td style="border:1px solid black;"><p>ESP – SHA-1, 3DES</p></td>
+<td style="border:1px solid black;">IPsec - Modalità di richiesta di crittografia (Ignora in ingresso, Impedisci in uscita)</td>
+<td style="border:1px solid black;">ESP – SHA-1, 3DES</td>
 </tr>
 </tbody>
 </table>
@@ -774,7 +774,7 @@ La tabella seguente riporta i criteri utilizzati nello scenario della Woodgrove 
   
 **Tabella 5.6. Criteri IPsec della Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -782,26 +782,26 @@ La tabella seguente riporta i criteri utilizzati nello scenario della Woodgrove 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome criterio</p></th>
-<th><p>Descrizione</p></th>
+<th>Nome criterio</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec dominio di isolamento (1.0.041001.1600)</p></td>
-<td style="border:1px solid black;"><p>Questo criterio implementa il dominio di isolamento. Gli host di questo gruppo di isolamento sono in grado di utilizzare la modalità non crittografata quando avviano le comunicazioni con host non protetti da IPsec. La configurazione prevede che gli host utilizzino la comunicazione IPsec. Se la negoziazione fra client protetti da IPsec non viene completata, la comunicazione non viene stabilita.</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec dominio di isolamento (1.0.041001.1600)</td>
+<td style="border:1px solid black;">Questo criterio implementa il dominio di isolamento. Gli host di questo gruppo di isolamento sono in grado di utilizzare la modalità non crittografata quando avviano le comunicazioni con host non protetti da IPsec. La configurazione prevede che gli host utilizzino la comunicazione IPsec. Se la negoziazione fra client protetti da IPsec non viene completata, la comunicazione non viene stabilita.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec gruppo di isolamento Limite (1.0.041001.1600)</p></td>
-<td style="border:1px solid black;"><p>Questo criterio implementa il gruppo di isolamento Limite. La configurazione prevede che gli host utilizzino la comunicazione IPsec, ma consente la modalità non crittografata in caso di comunicazioni con un host senza IPsec.</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec gruppo di isolamento Limite (1.0.041001.1600)</td>
+<td style="border:1px solid black;">Questo criterio implementa il gruppo di isolamento Limite. La configurazione prevede che gli host utilizzino la comunicazione IPsec, ma consente la modalità non crittografata in caso di comunicazioni con un host senza IPsec.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec gruppo di isolamento Nessun fallback (1.0.041001.1600)</p></td>
-<td style="border:1px solid black;"><p>Questo criterio implementa il gruppo di isolamento Nessun fallback. La configurazione prevede che gli host utilizzino la comunicazione IPsec. Se la negoziazione non viene completata e l'host tenta di comunicare con un client che non utilizza IPsec, la comunicazione si interrompe.</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec gruppo di isolamento Nessun fallback (1.0.041001.1600)</td>
+<td style="border:1px solid black;">Questo criterio implementa il gruppo di isolamento Nessun fallback. La configurazione prevede che gli host utilizzino la comunicazione IPsec. Se la negoziazione non viene completata e l'host tenta di comunicare con un client che non utilizza IPsec, la comunicazione si interrompe.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec gruppo di isolamento Crittografia (1.0.041001.1600)</p></td>
-<td style="border:1px solid black;"><p>Questo criterio implementa il gruppo di isolamento Crittografia. La configurazione prevede che gli host utilizzino la comunicazione IPsec e la crittografia. Se la negoziazione non viene completata e l'host tenta di comunicare con un client che non utilizza IPsec, la comunicazione si interrompe.</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec gruppo di isolamento Crittografia (1.0.041001.1600)</td>
+<td style="border:1px solid black;">Questo criterio implementa il gruppo di isolamento Crittografia. La configurazione prevede che gli host utilizzino la comunicazione IPsec e la crittografia. Se la negoziazione non viene completata e l'host tenta di comunicare con un client che non utilizza IPsec, la comunicazione si interrompe.</td>
 </tr>
 </tbody>
 </table>
@@ -812,7 +812,7 @@ Tutti i criteri della Woodgrove Bank contengono i medesimi elenchi di esenzioni 
   
 **Tabella 5.7. Regole comuni specificate nei criteri IPsec della Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -823,48 +823,48 @@ Tutti i criteri della Woodgrove Bank contengono i medesimi elenchi di esenzioni 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elenco filtri</p></th>
-<th><p>Operazione filtro</p></th>
-<th><p>Metodi di autenticazione</p></th>
-<th><p>Endpoint del tunnel</p></th>
-<th><p>Tipo di connessione</p></th>
+<th>Elenco filtri</th>
+<th>Operazione filtro</th>
+<th>Metodi di autenticazione</th>
+<th>Endpoint del tunnel</th>
+<th>Tipo di connessione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Elenco di esenzioni DNS</p></td>
-<td style="border:1px solid black;"><p>IPSEC - Autorizza</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
-<td style="border:1px solid black;"><p>Tutte</p></td>
+<td style="border:1px solid black;">Elenco di esenzioni DNS</td>
+<td style="border:1px solid black;">IPSEC - Autorizza</td>
+<td style="border:1px solid black;">Nessuna</td>
+<td style="border:1px solid black;">Nessuna</td>
+<td style="border:1px solid black;">Tutte</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Elenco di esenzioni controller di dominio</p></td>
-<td style="border:1px solid black;"><p>IPSEC - Autorizza</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
-<td style="border:1px solid black;"><p>Tutte</p></td>
+<td style="border:1px solid black;">Elenco di esenzioni controller di dominio</td>
+<td style="border:1px solid black;">IPSEC - Autorizza</td>
+<td style="border:1px solid black;">Nessuna</td>
+<td style="border:1px solid black;">Nessuna</td>
+<td style="border:1px solid black;">Tutte</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Elenco di esenzioni WINS</p></td>
-<td style="border:1px solid black;"><p>IPSEC - Autorizza</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
-<td style="border:1px solid black;"><p>Tutte</p></td>
+<td style="border:1px solid black;">Elenco di esenzioni WINS</td>
+<td style="border:1px solid black;">IPSEC - Autorizza</td>
+<td style="border:1px solid black;">Nessuna</td>
+<td style="border:1px solid black;">Nessuna</td>
+<td style="border:1px solid black;">Tutte</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DHCP, traffico di negoziazione</p></td>
-<td style="border:1px solid black;"><p>IPSEC - Autorizza</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
-<td style="border:1px solid black;"><p>Tutte</p></td>
+<td style="border:1px solid black;">DHCP, traffico di negoziazione</td>
+<td style="border:1px solid black;">IPSEC - Autorizza</td>
+<td style="border:1px solid black;">Nessuna</td>
+<td style="border:1px solid black;">Nessuna</td>
+<td style="border:1px solid black;">Tutte</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ICMP, Tutto il traffico</p></td>
-<td style="border:1px solid black;"><p>IPSEC - Autorizza</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
-<td style="border:1px solid black;"><p>Tutte</p></td>
+<td style="border:1px solid black;">ICMP, Tutto il traffico</td>
+<td style="border:1px solid black;">IPSEC - Autorizza</td>
+<td style="border:1px solid black;">Nessuna</td>
+<td style="border:1px solid black;">Nessuna</td>
+<td style="border:1px solid black;">Tutte</td>
 </tr>
 </tbody>
 </table>
@@ -877,7 +877,7 @@ La tabella seguente riporta le regole della Woodgrove per l'implementazione dei 
   
 **Tabella 5.8. Regole di base della Woodgrove Bank per l'implementazione dei gruppi di isolamento**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -886,31 +886,31 @@ La tabella seguente riporta le regole della Woodgrove per l'implementazione dei 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome criterio</p></th>
-<th><p>Elenco filtri</p></th>
-<th><p>Operazione filtro</p></th>
+<th>Nome criterio</th>
+<th>Elenco filtri</th>
+<th>Operazione filtro</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec dominio di isolamento (1.0.041001.1600)</p></td>
-<td style="border:1px solid black;"><p>Subnet protette della Woodgrove Bank</p></td>
-<td style="border:1px solid black;"><p>IPsec - Modalità di richiesta protetta (Ignora in ingresso, Consenti in uscita)</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec dominio di isolamento (1.0.041001.1600)</td>
+<td style="border:1px solid black;">Subnet protette della Woodgrove Bank</td>
+<td style="border:1px solid black;">IPsec - Modalità di richiesta protetta (Ignora in ingresso, Consenti in uscita)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec gruppo di isolamento Limite (1.0.041001.1600)</p></td>
-<td style="border:1px solid black;"><p>Subnet protette della Woodgrove Bank</p></td>
-<td style="border:1px solid black;"><p>IPsec - Modalità di richiesta (Accetta in ingresso, Consenti in uscita)</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec gruppo di isolamento Limite (1.0.041001.1600)</td>
+<td style="border:1px solid black;">Subnet protette della Woodgrove Bank</td>
+<td style="border:1px solid black;">IPsec - Modalità di richiesta (Accetta in ingresso, Consenti in uscita)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec gruppo di isolamento Nessun fallback (1.0.041001.1600)</p></td>
-<td style="border:1px solid black;"><p>Subnet protette della Woodgrove Bank</p></td>
-<td style="border:1px solid black;"><p>IPsec - Modalità di richiesta completa (Ignora in ingresso, Impedisci in uscita)</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec gruppo di isolamento Nessun fallback (1.0.041001.1600)</td>
+<td style="border:1px solid black;">Subnet protette della Woodgrove Bank</td>
+<td style="border:1px solid black;">IPsec - Modalità di richiesta completa (Ignora in ingresso, Impedisci in uscita)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec gruppo di isolamento Crittografia (1.0.041001.1600)</p></td>
-<td style="border:1px solid black;"><p>Subnet protette della Woodgrove Bank</p></td>
-<td style="border:1px solid black;"><p>IPsec - Modalità di richiesta di crittografia (Ignora in ingresso, Impedisci in uscita)</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec gruppo di isolamento Crittografia (1.0.041001.1600)</td>
+<td style="border:1px solid black;">Subnet protette della Woodgrove Bank</td>
+<td style="border:1px solid black;">IPsec - Modalità di richiesta di crittografia (Ignora in ingresso, Impedisci in uscita)</td>
 </tr>
 </tbody>
 </table>
@@ -959,7 +959,7 @@ La tabella seguente elenca in ordine di preferenza i metodi di protezione dello 
   
 **Tabella 5.9. Metodi di protezione predefiniti per lo scambio delle chiavi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -968,26 +968,26 @@ La tabella seguente elenca in ordine di preferenza i metodi di protezione dello 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Crittografia</p></th>
-<th><p>Integrità</p></th>
-<th><p>Gruppo Diffie-Hellman</p></th>
+<th>Crittografia</th>
+<th>Integrità</th>
+<th>Gruppo Diffie-Hellman</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>3DES</p></td>
-<td style="border:1px solid black;"><p>SHA-1</p></td>
-<td style="border:1px solid black;"><p>Alta (3) 2048 bit</p></td>
+<td style="border:1px solid black;">3DES</td>
+<td style="border:1px solid black;">SHA-1</td>
+<td style="border:1px solid black;">Alta (3) 2048 bit</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>3DES</p></td>
-<td style="border:1px solid black;"><p>SHA-1</p></td>
-<td style="border:1px solid black;"><p>Media (2) 1024 bit</p></td>
+<td style="border:1px solid black;">3DES</td>
+<td style="border:1px solid black;">SHA-1</td>
+<td style="border:1px solid black;">Media (2) 1024 bit</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>3DES</p></td>
-<td style="border:1px solid black;"><p>MD5</p></td>
-<td style="border:1px solid black;"><p>Media (2) 1024 bit</p></td>
+<td style="border:1px solid black;">3DES</td>
+<td style="border:1px solid black;">MD5</td>
+<td style="border:1px solid black;">Media (2) 1024 bit</td>
 </tr>
 </tbody>
 </table>
@@ -1159,7 +1159,7 @@ La tabella seguente elenca i gruppi creati per lo scenario della Woodgrove Bank 
   
 **Tabella 5.10. Nomi dei gruppi IPsec**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1167,30 +1167,30 @@ La tabella seguente elenca i gruppi creati per lo scenario della Woodgrove Bank 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome gruppo</p></th>
-<th><p>Descrizione</p></th>
+<th>Nome gruppo</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>No IPsec</p></td>
-<td style="border:1px solid black;"><p>Gruppo universale di account computer che non rientrano nell'ambiente IPsec. Solitamente, include gli account computer di infrastruttura.</p></td>
+<td style="border:1px solid black;">No IPsec</td>
+<td style="border:1px solid black;">Gruppo universale di account computer che non rientrano nell'ambiente IPsec. Solitamente, include gli account computer di infrastruttura.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CG_IsolationDomain_computers</p></td>
-<td style="border:1px solid black;"><p>Gruppo universale di account computer membri del dominio di isolamento.</p></td>
+<td style="border:1px solid black;">CG_IsolationDomain_computers</td>
+<td style="border:1px solid black;">Gruppo universale di account computer membri del dominio di isolamento.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CG_BoundaryIG_computers</p></td>
-<td style="border:1px solid black;"><p>Gruppo universale di account computer membri del gruppo di isolamento Limite e quindi autorizzati a comunicare con sistemi non attendibili.</p></td>
+<td style="border:1px solid black;">CG_BoundaryIG_computers</td>
+<td style="border:1px solid black;">Gruppo universale di account computer membri del gruppo di isolamento Limite e quindi autorizzati a comunicare con sistemi non attendibili.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CG_NoFallbackIG_computers</p></td>
-<td style="border:1px solid black;"><p>Gruppo universale di account computer membri del gruppo di isolamento Nessun fallback e quindi <em>non</em> autorizzati ad effettuare comunicazioni in uscita non autenticate.</p></td>
+<td style="border:1px solid black;">CG_NoFallbackIG_computers</td>
+<td style="border:1px solid black;">Gruppo universale di account computer membri del gruppo di isolamento Nessun fallback e quindi <em>non</em> autorizzati ad effettuare comunicazioni in uscita non autenticate.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CG_EncryptionIG_computers</p></td>
-<td style="border:1px solid black;"><p>Gruppo universale di account computer membri del gruppo di isolamento Crittografia, le cui comunicazioni devono essere crittografate.</p></td>
+<td style="border:1px solid black;">CG_EncryptionIG_computers</td>
+<td style="border:1px solid black;">Gruppo universale di account computer membri del gruppo di isolamento Crittografia, le cui comunicazioni devono essere crittografate.</td>
 </tr>
 </tbody>
 </table>
@@ -1219,7 +1219,7 @@ La tabella seguente riporta la configurazione finale degli ACL di Criteri di gru
   
 **Tabella 5.11. Autorizzazioni dei GPO dei criteri della Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1228,51 +1228,51 @@ La tabella seguente riporta la configurazione finale degli ACL di Criteri di gru
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome GPO</p></th>
-<th><p>Nome gruppo di protezione</p></th>
-<th><p>Diritti assegnati</p></th>
+<th>Nome GPO</th>
+<th>Nome gruppo di protezione</th>
+<th>Diritti assegnati</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio dominio di isolamento</p></td>
-<td style="border:1px solid black;"><p>No IPsec</p></td>
-<td style="border:1px solid black;"><p>Nega applicazione Criteri di gruppo</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio dominio di isolamento</td>
+<td style="border:1px solid black;">No IPsec</td>
+<td style="border:1px solid black;">Nega applicazione Criteri di gruppo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPSEC - Criterio dominio di isolamento</p></td>
-<td style="border:1px solid black;"><p>CG_IsolationDomain_computers</p></td>
-<td style="border:1px solid black;"><p>Consenti lettura e applicazione dei criteri di gruppo</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio dominio di isolamento</td>
+<td style="border:1px solid black;">CG_IsolationDomain_computers</td>
+<td style="border:1px solid black;">Consenti lettura e applicazione dei criteri di gruppo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio gruppo limite</p></td>
-<td style="border:1px solid black;"><p>No IPsec</p></td>
-<td style="border:1px solid black;"><p>Nega applicazione Criteri di gruppo</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio gruppo limite</td>
+<td style="border:1px solid black;">No IPsec</td>
+<td style="border:1px solid black;">Nega applicazione Criteri di gruppo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPSEC - Criterio gruppo limite</p></td>
-<td style="border:1px solid black;"><p>CG_BoundaryIG_computers</p></td>
-<td style="border:1px solid black;"><p>Consenti lettura e applicazione dei criteri di gruppo</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio gruppo limite</td>
+<td style="border:1px solid black;">CG_BoundaryIG_computers</td>
+<td style="border:1px solid black;">Consenti lettura e applicazione dei criteri di gruppo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Nessun fallback</p></td>
-<td style="border:1px solid black;"><p>No IPsec</p></td>
-<td style="border:1px solid black;"><p>Nega applicazione Criteri di gruppo</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Nessun fallback</td>
+<td style="border:1px solid black;">No IPsec</td>
+<td style="border:1px solid black;">Nega applicazione Criteri di gruppo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Nessun fallback</p></td>
-<td style="border:1px solid black;"><p>CG_NoFallbackIG_computers</p></td>
-<td style="border:1px solid black;"><p>Consenti lettura e applicazione dei criteri di gruppo</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Nessun fallback</td>
+<td style="border:1px solid black;">CG_NoFallbackIG_computers</td>
+<td style="border:1px solid black;">Consenti lettura e applicazione dei criteri di gruppo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Crittografia</p></td>
-<td style="border:1px solid black;"><p>No IPsec</p></td>
-<td style="border:1px solid black;"><p>Nega applicazione Criteri di gruppo</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Crittografia</td>
+<td style="border:1px solid black;">No IPsec</td>
+<td style="border:1px solid black;">Nega applicazione Criteri di gruppo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Crittografia</p></td>
-<td style="border:1px solid black;"><p>CG_EncryptionIG_computers</p></td>
-<td style="border:1px solid black;"><p>Consenti lettura e applicazione dei criteri di gruppo</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Crittografia</td>
+<td style="border:1px solid black;">CG_EncryptionIG_computers</td>
+<td style="border:1px solid black;">Consenti lettura e applicazione dei criteri di gruppo</td>
 </tr>
 </tbody>
 </table>

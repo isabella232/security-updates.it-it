@@ -152,7 +152,7 @@ In questa sezione vengono spiegati i termini chiave da recepire quando si attua 
 
 **Tabella 1: Termini importanti sulla protezione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -166,24 +166,24 @@ In questa sezione vengono spiegati i termini chiave da recepire quando si attua 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Vulnerabilità</p></td>
-<td style="border:1px solid black;"><p>Software, hardware, una procedura poco sicura, una funzione o una configurazione che potrebbe costituire un punto debole sfruttabile durante un attacco. Chiamata anche esposizione.</p></td>
+<td style="border:1px solid black;">Vulnerabilità</td>
+<td style="border:1px solid black;">Software, hardware, una procedura poco sicura, una funzione o una configurazione che potrebbe costituire un punto debole sfruttabile durante un attacco. Chiamata anche esposizione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Pericolo</p></td>
-<td style="border:1px solid black;"><p>Una fonte di pericolo.</p></td>
+<td style="border:1px solid black;">Pericolo</td>
+<td style="border:1px solid black;">Una fonte di pericolo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Agente di pericolo</p></td>
-<td style="border:1px solid black;"><p>La persona o il processo che attacca un sistema sfruttando una sua vulnerabilità, violando il criterio di protezione.</p></td>
+<td style="border:1px solid black;">Agente di pericolo</td>
+<td style="border:1px solid black;">La persona o il processo che attacca un sistema sfruttando una sua vulnerabilità, violando il criterio di protezione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Attacco</p></td>
-<td style="border:1px solid black;"><p>Un agente di pericolo che tenta di sfruttare le vulnerabilità per fini indesiderati.</p></td>
+<td style="border:1px solid black;">Attacco</td>
+<td style="border:1px solid black;">Un agente di pericolo che tenta di sfruttare le vulnerabilità per fini indesiderati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Contromisura</p></td>
-<td style="border:1px solid black;"><p>Configurazioni software, hardware o procedure che riducono il rischio in un ambiente di computer. Chiamata anche protezione o attenuazione.</p></td>
+<td style="border:1px solid black;">Contromisura</td>
+<td style="border:1px solid black;">Configurazioni software, hardware o procedure che riducono il rischio in un ambiente di computer. Chiamata anche protezione o attenuazione.</td>
 </tr>
 </tbody>
 </table>
@@ -194,7 +194,7 @@ Il software può diventare vulnerabile a un attacco per diversi motivi. Nella Ta
   
 **Tabella 2: Vulnerabilità software**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -208,16 +208,16 @@ Il software può diventare vulnerabile a un attacco per diversi motivi. Nella Ta
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sovraccarico del buffer (overflow)</p></td>
-<td style="border:1px solid black;"><p>Un buffer non controllato in un programma che può sovrascrivere il codice del programma con nuovi dati. Se il codice del programma viene sovrascritto con un nuovo codice eseguibile, il funzionamento del programma viene cambiato secondo le intenzioni del pirata informatico.</p></td>
+<td style="border:1px solid black;">Sovraccarico del buffer (overflow)</td>
+<td style="border:1px solid black;">Un buffer non controllato in un programma che può sovrascrivere il codice del programma con nuovi dati. Se il codice del programma viene sovrascritto con un nuovo codice eseguibile, il funzionamento del programma viene cambiato secondo le intenzioni del pirata informatico.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Incremento dei privilegi (escalation)</p></td>
-<td style="border:1px solid black;"><p>Permette agli utenti o ai pirati informatici di ottenere privilegi superiori in determinate circostanze.</p></td>
+<td style="border:1px solid black;">Incremento dei privilegi (escalation)</td>
+<td style="border:1px solid black;">Permette agli utenti o ai pirati informatici di ottenere privilegi superiori in determinate circostanze.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Errore di convalida (codice sorgente)</p></td>
-<td style="border:1px solid black;"><p>Permette a dati non validi di avere conseguenze indesiderate.</p></td>
+<td style="border:1px solid black;">Errore di convalida (codice sorgente)</td>
+<td style="border:1px solid black;">Permette a dati non validi di avere conseguenze indesiderate.</td>
 </tr>
 </tbody>
 </table>
@@ -228,7 +228,7 @@ Microsoft Security Response Center (MSRC) si serve della valutazione della gravi
   
 **Tabella 3: Valutazioni della gravità della vulnerabilità**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -242,20 +242,20 @@ Microsoft Security Response Center (MSRC) si serve della valutazione della gravi
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Critica</p></td>
-<td style="border:1px solid black;"><p>Una vulnerabilità che, se sfruttata, potrebbe portare alla propagazione di un worm Internet senza azioni da parte dell'utente.</p></td>
+<td style="border:1px solid black;">Critica</td>
+<td style="border:1px solid black;">Una vulnerabilità che, se sfruttata, potrebbe portare alla propagazione di un worm Internet senza azioni da parte dell'utente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Importante</p></td>
-<td style="border:1px solid black;"><p>Una vulnerabilità che, se sfruttata, potrebbe compromettere la riservatezza, l'integrità o la disponibilità dei dati dell'utente o delle risorse di elaborazione.</p></td>
+<td style="border:1px solid black;">Importante</td>
+<td style="border:1px solid black;">Una vulnerabilità che, se sfruttata, potrebbe compromettere la riservatezza, l'integrità o la disponibilità dei dati dell'utente o delle risorse di elaborazione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Moderata</p></td>
-<td style="border:1px solid black;"><p>Il pericolo è attenuato molto da fattori quali una configurazione predefinita, il controllo o la difficoltà di sfruttare il punto debole.</p></td>
+<td style="border:1px solid black;">Moderata</td>
+<td style="border:1px solid black;">Il pericolo è attenuato molto da fattori quali una configurazione predefinita, il controllo o la difficoltà di sfruttare il punto debole.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Bassa</p></td>
-<td style="border:1px solid black;"><p>Una vulnerabilità molto difficile da sfruttare o il cui impatto è minimo.</p></td>
+<td style="border:1px solid black;">Bassa</td>
+<td style="border:1px solid black;">Una vulnerabilità molto difficile da sfruttare o il cui impatto è minimo.</td>
 </tr>
 </tbody>
 </table>
@@ -268,7 +268,7 @@ Microsoft ha sviluppato il modello STRIDE, riassunto nella Tabella 4, per classi
   
 **Tabella 4: Modello STRIDE delle categorie di pericolo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -282,28 +282,28 @@ Microsoft ha sviluppato il modello STRIDE, riassunto nella Tabella 4, per classi
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Spoofing (falsificazione) dell'identità</p></td>
-<td style="border:1px solid black;"><p>Ottenere illegalmente l'accesso e utilizzare le informazioni di autenticazione di un'altra persona, ad esempio il nome utente o la password.</p></td>
+<td style="border:1px solid black;">Spoofing (falsificazione) dell'identità</td>
+<td style="border:1px solid black;">Ottenere illegalmente l'accesso e utilizzare le informazioni di autenticazione di un'altra persona, ad esempio il nome utente o la password.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Manomissione dei dati</p></td>
-<td style="border:1px solid black;"><p>La modifica non autorizzata dei dati.</p></td>
+<td style="border:1px solid black;">Manomissione dei dati</td>
+<td style="border:1px solid black;">La modifica non autorizzata dei dati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ripudio</p></td>
-<td style="border:1px solid black;"><p>Associato agli utenti che negano di aver eseguito un'azione, senza che ci sia però modo di dimostrare il contrario (il non ripudio si riferisce alla capacità di un sistema di contrastare i pericoli di ripudio e include tecniche quali la firma per un pacchetto ricevuto in maniera che la ricevuta firmata possa essere utilizzata come prova).</p></td>
+<td style="border:1px solid black;">Ripudio</td>
+<td style="border:1px solid black;">Associato agli utenti che negano di aver eseguito un'azione, senza che ci sia però modo di dimostrare il contrario (il non ripudio si riferisce alla capacità di un sistema di contrastare i pericoli di ripudio e include tecniche quali la firma per un pacchetto ricevuto in maniera che la ricevuta firmata possa essere utilizzata come prova).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Divulgazione di informazioni</p></td>
-<td style="border:1px solid black;"><p>L'esposizione delle informazioni a persone che non dovrebbero avervi accesso, ad esempio l'accesso ai file senza possedere i diritti appropriati.</p></td>
+<td style="border:1px solid black;">Divulgazione di informazioni</td>
+<td style="border:1px solid black;">L'esposizione delle informazioni a persone che non dovrebbero avervi accesso, ad esempio l'accesso ai file senza possedere i diritti appropriati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Denial of Service</p></td>
-<td style="border:1px solid black;"><p>Un tentativo esplicito di impedire agli utenti legittimi di utilizzare un servizio o un sistema.</p></td>
+<td style="border:1px solid black;">Denial of Service</td>
+<td style="border:1px solid black;">Un tentativo esplicito di impedire agli utenti legittimi di utilizzare un servizio o un sistema.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Incremento (Escalation) di privilegi</p></td>
-<td style="border:1px solid black;"><p>Quando un utente senza privilegi ottiene un accesso con privilegi. Ne è un esempio il caso di un utente senza privilegi che trova la maniera di venire aggiunto al gruppo Administrators.</p></td>
+<td style="border:1px solid black;">Incremento (Escalation) di privilegi</td>
+<td style="border:1px solid black;">Quando un utente senza privilegi ottiene un accesso con privilegi. Ne è un esempio il caso di un utente senza privilegi che trova la maniera di venire aggiunto al gruppo Administrators.</td>
 </tr>
 </tbody>
 </table>
@@ -320,7 +320,7 @@ I pericoli dannosi sono attacchi lanciati dall'interno o dall'esterno di una ret
   
 **Tabella 5: Agenti di pericolo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -334,32 +334,32 @@ I pericoli dannosi sono attacchi lanciati dall'interno o dall'esterno di una ret
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Virus</p></td>
-<td style="border:1px solid black;"><p>Un programma intrusivo che infetta i file del computer inserendovi copie di codice autoreplicante e che cancella i file critici, modifica il sistema o effettua altre azioni che possono danneggiare i dati presenti nel computer o il computer stesso. Un virus si allega a un programma host.</p></td>
+<td style="border:1px solid black;">Virus</td>
+<td style="border:1px solid black;">Un programma intrusivo che infetta i file del computer inserendovi copie di codice autoreplicante e che cancella i file critici, modifica il sistema o effettua altre azioni che possono danneggiare i dati presenti nel computer o il computer stesso. Un virus si allega a un programma host.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Worm</p></td>
-<td style="border:1px solid black;"><p>Un programma autoreplicante, spesso dannoso come un virus, che può diffondersi da un computer all'altro senza prima infettare i file.</p></td>
+<td style="border:1px solid black;">Worm</td>
+<td style="border:1px solid black;">Un programma autoreplicante, spesso dannoso come un virus, che può diffondersi da un computer all'altro senza prima infettare i file.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Cavallo di Troia</p></td>
-<td style="border:1px solid black;"><p>Software o messaggi di posta elettronica che si dichiarano utili e benigni, ma che di fatto hanno scopi distruttivi o forniscono l'accesso a un pirata informatico.</p></td>
+<td style="border:1px solid black;">Cavallo di Troia</td>
+<td style="border:1px solid black;">Software o messaggi di posta elettronica che si dichiarano utili e benigni, ma che di fatto hanno scopi distruttivi o forniscono l'accesso a un pirata informatico.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Mail bomb</p></td>
-<td style="border:1px solid black;"><p>Un messaggio di posta elettronica dannoso inviato a un destinatario ignaro. Quando il destinatario apre il messaggio di posta elettronica o esegue il programma, la mail bomb esegue un'azione dannosa sul suo computer.</p></td>
+<td style="border:1px solid black;">Mail bomb</td>
+<td style="border:1px solid black;">Un messaggio di posta elettronica dannoso inviato a un destinatario ignaro. Quando il destinatario apre il messaggio di posta elettronica o esegue il programma, la mail bomb esegue un'azione dannosa sul suo computer.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Pirata informatico</p></td>
-<td style="border:1px solid black;"><p>La persona o l'organizzazione che compie un attacco.</p></td>
+<td style="border:1px solid black;">Pirata informatico</td>
+<td style="border:1px solid black;">La persona o l'organizzazione che compie un attacco.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Adware</p></td>
-<td style="border:1px solid black;"><p>Qualsiasi applicazione o programma software nel quale vengono visualizzati banner pubblicitari o finestre popup durante l'esecuzione. L'adware è considerato &quot;spyware&quot; e viene installato all'insaputa dell'utente.</p></td>
+<td style="border:1px solid black;">Adware</td>
+<td style="border:1px solid black;">Qualsiasi applicazione o programma software nel quale vengono visualizzati banner pubblicitari o finestre popup durante l'esecuzione. L'adware è considerato &quot;spyware&quot; e viene installato all'insaputa dell'utente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Spyware</p></td>
-<td style="border:1px solid black;"><p>Qualsiasi software che raccoglie di nascosto informazioni sugli utenti tramite la connessione di questi ultimi e a loro insaputa, generalmente per scopi pubblicitari. Le applicazioni spyware sono generalmente allegate come componente nascosto di programmi freeware o shareware scaricabili da Internet. Tuttavia, è necessario sottolineare che la maggior parte di applicazioni shareware e freeware non vengono fornite con spyware. Una volta installato, lo spyware monitora l'attività dell'utente su Internet e trasmette le informazioni in background ad altri. Lo spyware può anche raccogliere informazioni su indirizzi di posta elettronica e persino password e numeri di carte di credito. Lo spyware è simile a un trojan horse poiché viene installato involontariamente dagli utenti insieme ad altri programmi. Un modo diffuso di essere colpiti dallo spyware consiste nello scaricare alcuni prodotti per lo scambio di file peer-to-peer oggi disponibili.</p></td>
+<td style="border:1px solid black;">Spyware</td>
+<td style="border:1px solid black;">Qualsiasi software che raccoglie di nascosto informazioni sugli utenti tramite la connessione di questi ultimi e a loro insaputa, generalmente per scopi pubblicitari. Le applicazioni spyware sono generalmente allegate come componente nascosto di programmi freeware o shareware scaricabili da Internet. Tuttavia, è necessario sottolineare che la maggior parte di applicazioni shareware e freeware non vengono fornite con spyware. Una volta installato, lo spyware monitora l'attività dell'utente su Internet e trasmette le informazioni in background ad altri. Lo spyware può anche raccogliere informazioni su indirizzi di posta elettronica e persino password e numeri di carte di credito. Lo spyware è simile a un trojan horse poiché viene installato involontariamente dagli utenti insieme ad altri programmi. Un modo diffuso di essere colpiti dallo spyware consiste nello scaricare alcuni prodotti per lo scambio di file peer-to-peer oggi disponibili.</td>
 </tr>
 </tbody>
 </table>
@@ -407,7 +407,7 @@ Microsoft consiglia ai clienti di utilizzare la soluzione di gestione degli aggi
   
 **Tabella 6: Segmenti per dimensione dell'organizzazione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -423,29 +423,29 @@ Microsoft consiglia ai clienti di utilizzare la soluzione di gestione degli aggi
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Media o grande impresa</p></td>
-<td style="border:1px solid black;"><p>L'organizzazione richiede una soluzione di aggiornamento singola e flessibile con un livello esteso di controllo che consenta di aggiornare (e distribuire) tutti i sistemi operativi e le applicazioni Windows e di fornire una soluzione integrata di gestione delle risorse.</p></td>
-<td style="border:1px solid black;"><p>SMS 2003</p></td>
+<td style="border:1px solid black;">Media o grande impresa</td>
+<td style="border:1px solid black;">L'organizzazione richiede una soluzione di aggiornamento singola e flessibile con un livello esteso di controllo che consenta di aggiornare (e distribuire) tutti i sistemi operativi e le applicazioni Windows e di fornire una soluzione integrata di gestione delle risorse.</td>
+<td style="border:1px solid black;">SMS 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Media o grande impresa</p></td>
-<td style="border:1px solid black;"><p>L'organizzazione richiede una soluzione per la sola gestione degli aggiornamenti che fornisca una funzionalità di aggiornamento semplice per i software Microsoft in grado di supportare Windows 2000 e versioni successive, Office 2003, Office XP, Exchange Server 2000 e versioni successive, SQL Server 2000 e versioni successive.</p></td>
-<td style="border:1px solid black;"><p>WSUS1</p></td>
+<td style="border:1px solid black;">Media o grande impresa</td>
+<td style="border:1px solid black;">L'organizzazione richiede una soluzione per la sola gestione degli aggiornamenti che fornisca una funzionalità di aggiornamento semplice per i software Microsoft in grado di supportare Windows 2000 e versioni successive, Office 2003, Office XP, Exchange Server 2000 e versioni successive, SQL Server 2000 e versioni successive.</td>
+<td style="border:1px solid black;">WSUS1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Piccole aziende</p></td>
-<td style="border:1px solid black;"><p>L'azienda dispone di almeno un server Windows e di un amministratore IT.</p></td>
-<td style="border:1px solid black;"><p>WSUS1</p></td>
+<td style="border:1px solid black;">Piccole aziende</td>
+<td style="border:1px solid black;">L'azienda dispone di almeno un server Windows e di un amministratore IT.</td>
+<td style="border:1px solid black;">WSUS1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Piccole aziende</p></td>
-<td style="border:1px solid black;"><p>Tutti gli altri scenari</p></td>
-<td style="border:1px solid black;"><p>Microsoft Update o Windows Update2</p></td>
+<td style="border:1px solid black;">Piccole aziende</td>
+<td style="border:1px solid black;">Tutti gli altri scenari</td>
+<td style="border:1px solid black;">Microsoft Update o Windows Update2</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Cliente</p></td>
-<td style="border:1px solid black;"><p>Tutti gli altri scenari</p></td>
-<td style="border:1px solid black;"><p>Microsoft Update o Windows Update2</p></td>
+<td style="border:1px solid black;">Cliente</td>
+<td style="border:1px solid black;">Tutti gli altri scenari</td>
+<td style="border:1px solid black;">Microsoft Update o Windows Update2</td>
 </tr>
 </tbody>
 </table>
@@ -460,7 +460,7 @@ Nella Tabella 7 sono elencati i termini standard Microsoft correnti per gli aggi
   
 **Tabella 7: Terminologia Microsoft per gli aggiornamenti software**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -474,36 +474,36 @@ Nella Tabella 7 sono elencati i termini standard Microsoft correnti per gli aggi
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Patch di protezione</p></td>
-<td style="border:1px solid black;"><p>Una correzione a rilascio pubblico per uno specifico prodotto, mirata a eliminare le vulnerabilità della protezione. Spesso a una patch di protezione è associato un livello di gravità che fa riferimento alla valutazione della gravità, effettuata da MSRC, della vulnerabilità che si prefigge di eliminare.</p></td>
+<td style="border:1px solid black;">Patch di protezione</td>
+<td style="border:1px solid black;">Una correzione a rilascio pubblico per uno specifico prodotto, mirata a eliminare le vulnerabilità della protezione. Spesso a una patch di protezione è associato un livello di gravità che fa riferimento alla valutazione della gravità, effettuata da MSRC, della vulnerabilità che si prefigge di eliminare.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Aggiornamento critico</p></td>
-<td style="border:1px solid black;"><p>Una correzione a rilascio pubblico per uno specifico problema, mirata a eliminare un bug critico, non legato alla protezione.</p></td>
+<td style="border:1px solid black;">Aggiornamento critico</td>
+<td style="border:1px solid black;">Una correzione a rilascio pubblico per uno specifico problema, mirata a eliminare un bug critico, non legato alla protezione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Aggiornamento</p></td>
-<td style="border:1px solid black;"><p>Una correzione a rilascio pubblico per uno specifico problema, mirata a eliminare un bug non critico, non legato alla protezione.</p></td>
+<td style="border:1px solid black;">Aggiornamento</td>
+<td style="border:1px solid black;">Una correzione a rilascio pubblico per uno specifico problema, mirata a eliminare un bug non critico, non legato alla protezione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Aggiornamento rapido (hotfix)</p></td>
-<td style="border:1px solid black;"><p>Un singolo pacchetto composto da uno o più file utilizzati per risolvere un problema in un prodotto. Gli aggiornamenti rapidi riguardano una situazione specifica di un utente, sono disponibili solo tramite il supporto Microsoft e non possono essere distribuiti al di fuori dell'organizzazione del cliente senza il consenso legale scritto di Microsoft. I termini QFE (Quick Fix Engineering), patch e aggiornamento sono stati utilizzati in passato come sinonimi di aggiornamento rapido.</p></td>
+<td style="border:1px solid black;">Aggiornamento rapido (hotfix)</td>
+<td style="border:1px solid black;">Un singolo pacchetto composto da uno o più file utilizzati per risolvere un problema in un prodotto. Gli aggiornamenti rapidi riguardano una situazione specifica di un utente, sono disponibili solo tramite il supporto Microsoft e non possono essere distribuiti al di fuori dell'organizzazione del cliente senza il consenso legale scritto di Microsoft. I termini QFE (Quick Fix Engineering), patch e aggiornamento sono stati utilizzati in passato come sinonimi di aggiornamento rapido.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rollup di aggiornamento</p></td>
-<td style="border:1px solid black;"><p>Una raccolta di patch di protezione, aggiornamenti critici, aggiornamenti e aggiornamenti rapidi, rilasciati come offerta cumulativa o mirata a un singolo componente quale Microsoft Internet Information Services (IIS) o Microsoft Internet Explorer. Permette di semplificare la distribuzione di aggiornamenti software multipli.</p></td>
+<td style="border:1px solid black;">Rollup di aggiornamento</td>
+<td style="border:1px solid black;">Una raccolta di patch di protezione, aggiornamenti critici, aggiornamenti e aggiornamenti rapidi, rilasciati come offerta cumulativa o mirata a un singolo componente quale Microsoft Internet Information Services (IIS) o Microsoft Internet Explorer. Permette di semplificare la distribuzione di aggiornamenti software multipli.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Service pack</p></td>
-<td style="border:1px solid black;"><p>Un insieme cumulativo di aggiornamenti rapidi, patch di protezione, aggiornamenti critici e aggiornamenti dal rilascio del prodotto, compresi molti dei problemi risolti che non sono stati resi disponibili tramite nessun altro aggiornamento software. I service pack possono contenere anche un numero limitato di modifiche o funzionalità richieste dal cliente. I service pack vengono pubblicamente distribuiti e testati da Microsoft, più di qualsiasi altro aggiornamento software.</p></td>
+<td style="border:1px solid black;">Service pack</td>
+<td style="border:1px solid black;">Un insieme cumulativo di aggiornamenti rapidi, patch di protezione, aggiornamenti critici e aggiornamenti dal rilascio del prodotto, compresi molti dei problemi risolti che non sono stati resi disponibili tramite nessun altro aggiornamento software. I service pack possono contenere anche un numero limitato di modifiche o funzionalità richieste dal cliente. I service pack vengono pubblicamente distribuiti e testati da Microsoft, più di qualsiasi altro aggiornamento software.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Service pack integrato</p></td>
-<td style="border:1px solid black;"><p>La combinazione di un prodotto con un service pack in un unico pacchetto.</p></td>
+<td style="border:1px solid black;">Service pack integrato</td>
+<td style="border:1px solid black;">La combinazione di un prodotto con un service pack in un unico pacchetto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Feature pack</p></td>
-<td style="border:1px solid black;"><p>Il rilascio di una nuova caratteristica che aggiunge funzionalità a un prodotto. Solitamente inclusa nel prodotto al rilascio successivo.</p></td>
+<td style="border:1px solid black;">Feature pack</td>
+<td style="border:1px solid black;">Il rilascio di una nuova caratteristica che aggiunge funzionalità a un prodotto. Solitamente inclusa nel prodotto al rilascio successivo.</td>
 </tr>
 </tbody>
 </table>
@@ -542,68 +542,68 @@ Nella Tabella 8, vengono riportati diversi attacchi storici, accompagnati dalla 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Zotob</p></td>
-<td style="border:1px solid black;"><p>14 agosto 2005</p></td>
-<td style="border:1px solid black;"><p>Critico</p></td>
-<td style="border:1px solid black;"><p>MS05-039</p></td>
-<td style="border:1px solid black;"><p>9 agosto 2005</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Zotob</td>
+<td style="border:1px solid black;">14 agosto 2005</td>
+<td style="border:1px solid black;">Critico</td>
+<td style="border:1px solid black;">MS05-039</td>
+<td style="border:1px solid black;">9 agosto 2005</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Trojan.Kaht</p></td>
-<td style="border:1px solid black;"><p>5 maggio 2003</p></td>
-<td style="border:1px solid black;"><p>Critico</p></td>
-<td style="border:1px solid black;"><p>MS03-007</p></td>
-<td style="border:1px solid black;"><p>17 marzo 2003</p></td>
-<td style="border:1px solid black;"><p>49</p></td>
+<td style="border:1px solid black;">Trojan.Kaht</td>
+<td style="border:1px solid black;">5 maggio 2003</td>
+<td style="border:1px solid black;">Critico</td>
+<td style="border:1px solid black;">MS03-007</td>
+<td style="border:1px solid black;">17 marzo 2003</td>
+<td style="border:1px solid black;">49</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SQL Slammer</p></td>
-<td style="border:1px solid black;"><p>24 gennaio 2003</p></td>
-<td style="border:1px solid black;"><p>Critico</p></td>
-<td style="border:1px solid black;"><p>MS02-039</p></td>
-<td style="border:1px solid black;"><p>24 luglio 2002</p></td>
-<td style="border:1px solid black;"><p>184</p></td>
+<td style="border:1px solid black;">SQL Slammer</td>
+<td style="border:1px solid black;">24 gennaio 2003</td>
+<td style="border:1px solid black;">Critico</td>
+<td style="border:1px solid black;">MS02-039</td>
+<td style="border:1px solid black;">24 luglio 2002</td>
+<td style="border:1px solid black;">184</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Sasser</p></td>
-<td style="border:1px solid black;"><p>1 maggio 2004</p></td>
-<td style="border:1px solid black;"><p>*</p></td>
-<td style="border:1px solid black;"><p>MS04-011</p></td>
-<td style="border:1px solid black;"><p>15 maggio 2004</p></td>
-<td style="border:1px solid black;"><p>14</p></td>
+<td style="border:1px solid black;">Sasser</td>
+<td style="border:1px solid black;">1 maggio 2004</td>
+<td style="border:1px solid black;">*</td>
+<td style="border:1px solid black;">MS04-011</td>
+<td style="border:1px solid black;">15 maggio 2004</td>
+<td style="border:1px solid black;">14</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Blaster</p></td>
-<td style="border:1px solid black;"><p>12 agosto 2003</p></td>
-<td style="border:1px solid black;"><p>*</p></td>
-<td style="border:1px solid black;"><p>MS03-026</p></td>
-<td style="border:1px solid black;"><p>27 agosto 2003</p></td>
-<td style="border:1px solid black;"><p>25</p></td>
+<td style="border:1px solid black;">Blaster</td>
+<td style="border:1px solid black;">12 agosto 2003</td>
+<td style="border:1px solid black;">*</td>
+<td style="border:1px solid black;">MS03-026</td>
+<td style="border:1px solid black;">27 agosto 2003</td>
+<td style="border:1px solid black;">25</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Klez-E</p></td>
-<td style="border:1px solid black;"><p>17 gennaio 2002</p></td>
-<td style="border:1px solid black;"><p>*</p></td>
-<td style="border:1px solid black;"><p>MS01-020</p></td>
-<td style="border:1px solid black;"><p>29 marzo 2001</p></td>
-<td style="border:1px solid black;"><p>294</p></td>
+<td style="border:1px solid black;">Klez-E</td>
+<td style="border:1px solid black;">17 gennaio 2002</td>
+<td style="border:1px solid black;">*</td>
+<td style="border:1px solid black;">MS01-020</td>
+<td style="border:1px solid black;">29 marzo 2001</td>
+<td style="border:1px solid black;">294</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nimda</p></td>
-<td style="border:1px solid black;"><p>18 settembre 2001</p></td>
-<td style="border:1px solid black;"><p>*</p></td>
-<td style="border:1px solid black;"><p>MS00-078</p></td>
-<td style="border:1px solid black;"><p>17 ottobre 2000</p></td>
-<td style="border:1px solid black;"><p>336</p></td>
+<td style="border:1px solid black;">Nimda</td>
+<td style="border:1px solid black;">18 settembre 2001</td>
+<td style="border:1px solid black;">*</td>
+<td style="border:1px solid black;">MS00-078</td>
+<td style="border:1px solid black;">17 ottobre 2000</td>
+<td style="border:1px solid black;">336</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Code Red</p></td>
-<td style="border:1px solid black;"><p>16 luglio 2001</p></td>
-<td style="border:1px solid black;"><p>*</p></td>
-<td style="border:1px solid black;"><p>MS01-033</p></td>
-<td style="border:1px solid black;"><p>18 giugno 2001</p></td>
-<td style="border:1px solid black;"><p>28</p></td>
+<td style="border:1px solid black;">Code Red</td>
+<td style="border:1px solid black;">16 luglio 2001</td>
+<td style="border:1px solid black;">*</td>
+<td style="border:1px solid black;">MS01-033</td>
+<td style="border:1px solid black;">18 giugno 2001</td>
+<td style="border:1px solid black;">28</td>
 </tr>
 </tbody>
 </table>
@@ -729,7 +729,7 @@ WSUS fornisce quanto segue:
   
 Le funzionalità WSUS possono essere suddivise in due componenti: lato server e lato client. La seguente tabella illustra le funzionalità su ciascun lato di WSUS:
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -743,36 +743,36 @@ Le funzionalità WSUS possono essere suddivise in due componenti: lato server e 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Aggiornamenti per Windows, Office, Exchange Server e SQL Server con supporto aggiuntivo e prolungato per il prodotto</p></td>
-<td style="border:1px solid black;"><p>Gestione efficace ed estensibile del servizio Aggiornamenti automatici</p></td>
+<td style="border:1px solid black;">Aggiornamenti per Windows, Office, Exchange Server e SQL Server con supporto aggiuntivo e prolungato per il prodotto</td>
+<td style="border:1px solid black;">Gestione efficace ed estensibile del servizio Aggiornamenti automatici</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Impostazione del download automatico per aggiornamenti specifici</p></td>
-<td style="border:1px solid black;"><p>Aggiornamento automatico per i computer client</p></td>
+<td style="border:1px solid black;">Impostazione del download automatico per aggiornamenti specifici</td>
+<td style="border:1px solid black;">Aggiornamento automatico per i computer client</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Azioni automatizzate per gli aggiornamenti eseguite previa autorizzazione dell'amministratore</p></td>
-<td style="border:1px solid black;"><p>Rilevamento automatico degli aggiornamenti applicabili</p></td>
+<td style="border:1px solid black;">Azioni automatizzate per gli aggiornamenti eseguite previa autorizzazione dell'amministratore</td>
+<td style="border:1px solid black;">Rilevamento automatico degli aggiornamenti applicabili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Possibilità di determinare l'applicabilità degli aggiornamenti prima di installarli</p></td>
-<td style="border:1px solid black;"><p></p></td>
+<td style="border:1px solid black;">Possibilità di determinare l'applicabilità degli aggiornamenti prima di installarli</td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Personalizzazione</p></td>
-<td style="border:1px solid black;"><p></p></td>
+<td style="border:1px solid black;">Personalizzazione</td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Sincronizzazione delle repliche</p></td>
-<td style="border:1px solid black;"><p></p></td>
+<td style="border:1px solid black;">Sincronizzazione delle repliche</td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Creazione di report</p></td>
-<td style="border:1px solid black;"><p></p></td>
+<td style="border:1px solid black;">Creazione di report</td>
+<td style="border:1px solid black;"></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Espansione</p></td>
-<td style="border:1px solid black;"><p></p></td>
+<td style="border:1px solid black;">Espansione</td>
+<td style="border:1px solid black;"></td>
 </tr>
 </tbody>
 </table>
@@ -934,7 +934,7 @@ Nella Tabella 10 vengono confrontate le funzionalità fornite da SMS 2003 e WSUS
   
 **Tabella 10: Funzionalità di gestione degli aggiornamenti**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -950,54 +950,54 @@ Nella Tabella 10 vengono confrontate le funzionalità fornite da SMS 2003 e WSUS
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Piattaforme supportate per il contenuto</p></td>
-<td style="border:1px solid black;"><p>Windows 2000, Windows Server 2003, Windows XP</p></td>
-<td style="border:1px solid black;"><p>Windows NT 4.0, Windows 2000, Windows Server 2003, Windows XP, Windows 98</p></td>
+<td style="border:1px solid black;">Piattaforme supportate per il contenuto</td>
+<td style="border:1px solid black;">Windows 2000, Windows Server 2003, Windows XP</td>
+<td style="border:1px solid black;">Windows NT 4.0, Windows 2000, Windows Server 2003, Windows XP, Windows 98</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tipi di contenuto supportati</p></td>
-<td style="border:1px solid black;"><p>Windows 2000+, Exchange 2000+, SQL Server 2000+, Office XP+ con supporto avanzato</p></td>
-<td style="border:1px solid black;"><p>Tutte le patch di protezione, i service pack e gli aggiornamenti per le piattaforme summenzionate. Supporta anche installazioni di patch di protezione, aggiornamenti e applicazioni per Microsoft e altre applicazioni.</p></td>
+<td style="border:1px solid black;">Tipi di contenuto supportati</td>
+<td style="border:1px solid black;">Windows 2000+, Exchange 2000+, SQL Server 2000+, Office XP+ con supporto avanzato</td>
+<td style="border:1px solid black;">Tutte le patch di protezione, i service pack e gli aggiornamenti per le piattaforme summenzionate. Supporta anche installazioni di patch di protezione, aggiornamenti e applicazioni per Microsoft e altre applicazioni.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Personalizzazione del contenuto in base ai sistemi</p></td>
-<td style="border:1px solid black;"><p>Sì, per contenuti Microsoft</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Personalizzazione del contenuto in base ai sistemi</td>
+<td style="border:1px solid black;">Sì, per contenuti Microsoft</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ottimizzazione della larghezza di banda della rete</p></td>
-<td style="border:1px solid black;"><p>Sì, per la distribuzione degli aggiornamenti</p></td>
-<td style="border:1px solid black;"><p>Sì, per la distribuzione degli aggiornamenti e la sincronizzazione dei server</p></td>
+<td style="border:1px solid black;">Ottimizzazione della larghezza di banda della rete</td>
+<td style="border:1px solid black;">Sì, per la distribuzione degli aggiornamenti</td>
+<td style="border:1px solid black;">Sì, per la distribuzione degli aggiornamenti e la sincronizzazione dei server</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controllo di distribuzione delle patch</p></td>
-<td style="border:1px solid black;"><p>Facile</p></td>
-<td style="border:1px solid black;"><p>Avanzato</p></td>
+<td style="border:1px solid black;">Controllo di distribuzione delle patch</td>
+<td style="border:1px solid black;">Facile</td>
+<td style="border:1px solid black;">Avanzato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Flessibilità di pianificazione e installazione delle patch</p></td>
-<td style="border:1px solid black;"><p>Controllata dall'amministratore (automatica) o dall'utente (manuale)</p></td>
-<td style="border:1px solid black;"><p>Controllata dall'amministratore con capacità di pianificazione dettagliate</p></td>
+<td style="border:1px solid black;">Flessibilità di pianificazione e installazione delle patch</td>
+<td style="border:1px solid black;">Controllata dall'amministratore (automatica) o dall'utente (manuale)</td>
+<td style="border:1px solid black;">Controllata dall'amministratore con capacità di pianificazione dettagliate</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Report sullo stato di installazione delle patch</p></td>
-<td style="border:1px solid black;"><p>Sì, per contenuti Microsoft</p></td>
-<td style="border:1px solid black;"><p>Completo: stato di installazione, risultato e dettagli di conformità</p></td>
+<td style="border:1px solid black;">Report sullo stato di installazione delle patch</td>
+<td style="border:1px solid black;">Sì, per contenuti Microsoft</td>
+<td style="border:1px solid black;">Completo: stato di installazione, risultato e dettagli di conformità</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Pianificazione della distribuzione</p></td>
-<td style="border:1px solid black;"><p>Non applicabile</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Pianificazione della distribuzione</td>
+<td style="border:1px solid black;">Non applicabile</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gestione dell'inventario</p></td>
-<td style="border:1px solid black;"><p>Non applicabile</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Gestione dell'inventario</td>
+<td style="border:1px solid black;">Non applicabile</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllo della conformità</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Controllo della conformità</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 </tbody>
 </table>

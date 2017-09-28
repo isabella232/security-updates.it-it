@@ -17,7 +17,7 @@ In questa appendice vengono elencati i pericoli a cui è probabile che siano esp
 
 **Tabella C.1: Pericoli comuni**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -25,122 +25,122 @@ In questa appendice vengono elencati i pericoli a cui è probabile che siano esp
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Pericolo</p></th>
-<th><p>Esempio</p></th>
+<th>Pericolo</th>
+<th>Esempio</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>Descrizione di livello più elevato del pericolo</em></p></td>
-<td style="border:1px solid black;"><p><em>Esempio specifico</em></p></td>
+<td style="border:1px solid black;"><em>Descrizione di livello più elevato del pericolo</em></td>
+<td style="border:1px solid black;"><em>Esempio specifico</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Incidenti catastrofici</p></td>
-<td style="border:1px solid black;"><p>Incendi</p></td>
+<td style="border:1px solid black;">Incidenti catastrofici</td>
+<td style="border:1px solid black;">Incendi</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Incidenti catastrofici</p></td>
-<td style="border:1px solid black;"><p>Inondazioni</p></td>
+<td style="border:1px solid black;">Incidenti catastrofici</td>
+<td style="border:1px solid black;">Inondazioni</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Incidenti catastrofici</p></td>
-<td style="border:1px solid black;"><p>Terremoti</p></td>
+<td style="border:1px solid black;">Incidenti catastrofici</td>
+<td style="border:1px solid black;">Terremoti</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Incidenti catastrofici</p></td>
-<td style="border:1px solid black;"><p>Nubifragi</p></td>
+<td style="border:1px solid black;">Incidenti catastrofici</td>
+<td style="border:1px solid black;">Nubifragi</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Incidenti catastrofici</p></td>
-<td style="border:1px solid black;"><p>Attacchi terroristici</p></td>
+<td style="border:1px solid black;">Incidenti catastrofici</td>
+<td style="border:1px solid black;">Attacchi terroristici</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Incidenti catastrofici</p></td>
-<td style="border:1px solid black;"><p>Sommosse</p></td>
+<td style="border:1px solid black;">Incidenti catastrofici</td>
+<td style="border:1px solid black;">Sommosse</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Incidenti catastrofici</p></td>
-<td style="border:1px solid black;"><p>Frane</p></td>
+<td style="border:1px solid black;">Incidenti catastrofici</td>
+<td style="border:1px solid black;">Frane</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Incidenti catastrofici</p></td>
-<td style="border:1px solid black;"><p>Valanghe</p></td>
+<td style="border:1px solid black;">Incidenti catastrofici</td>
+<td style="border:1px solid black;">Valanghe</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Incidenti catastrofici</p></td>
-<td style="border:1px solid black;"><p>Incidenti industriali</p></td>
+<td style="border:1px solid black;">Incidenti catastrofici</td>
+<td style="border:1px solid black;">Incidenti industriali</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Problemi meccanici</p></td>
-<td style="border:1px solid black;"><p>Interruzione dell'alimentazione</p></td>
+<td style="border:1px solid black;">Problemi meccanici</td>
+<td style="border:1px solid black;">Interruzione dell'alimentazione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Problemi meccanici</p></td>
-<td style="border:1px solid black;"><p>Guasti hardware</p></td>
+<td style="border:1px solid black;">Problemi meccanici</td>
+<td style="border:1px solid black;">Guasti hardware</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Problemi meccanici</p></td>
-<td style="border:1px solid black;"><p>Interruzione dei servizi della rete</p></td>
+<td style="border:1px solid black;">Problemi meccanici</td>
+<td style="border:1px solid black;">Interruzione dei servizi della rete</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Problemi meccanici</p></td>
-<td style="border:1px solid black;"><p>Guasti dei controlli ambientali</p></td>
+<td style="border:1px solid black;">Problemi meccanici</td>
+<td style="border:1px solid black;">Guasti dei controlli ambientali</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Problemi meccanici</p></td>
-<td style="border:1px solid black;"><p>Incidenti edili</p></td>
+<td style="border:1px solid black;">Problemi meccanici</td>
+<td style="border:1px solid black;">Incidenti edili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Persone non malintenzionate</p></td>
-<td style="border:1px solid black;"><p>Dipendenti non informati</p></td>
+<td style="border:1px solid black;">Persone non malintenzionate</td>
+<td style="border:1px solid black;">Dipendenti non informati</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Persone non malintenzionate</p></td>
-<td style="border:1px solid black;"><p>Utenti non informati</p></td>
+<td style="border:1px solid black;">Persone non malintenzionate</td>
+<td style="border:1px solid black;">Utenti non informati</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Persone malintenzionate</p></td>
-<td style="border:1px solid black;"><p>Hacker, pirati informatici</p></td>
+<td style="border:1px solid black;">Persone malintenzionate</td>
+<td style="border:1px solid black;">Hacker, pirati informatici</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Persone malintenzionate</p></td>
-<td style="border:1px solid black;"><p>Criminali informatici</p></td>
+<td style="border:1px solid black;">Persone malintenzionate</td>
+<td style="border:1px solid black;">Criminali informatici</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Persone malintenzionate</p></td>
-<td style="border:1px solid black;"><p>Spionaggio industriale</p></td>
+<td style="border:1px solid black;">Persone malintenzionate</td>
+<td style="border:1px solid black;">Spionaggio industriale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Persone malintenzionate</p></td>
-<td style="border:1px solid black;"><p>Spionaggio governativo</p></td>
+<td style="border:1px solid black;">Persone malintenzionate</td>
+<td style="border:1px solid black;">Spionaggio governativo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Persone malintenzionate</p></td>
-<td style="border:1px solid black;"><p>Individuazione di persone vulnerabili</p></td>
+<td style="border:1px solid black;">Persone malintenzionate</td>
+<td style="border:1px solid black;">Individuazione di persone vulnerabili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Persone malintenzionate</p></td>
-<td style="border:1px solid black;"><p>Dipendenti insoddisfatti</p></td>
+<td style="border:1px solid black;">Persone malintenzionate</td>
+<td style="border:1px solid black;">Dipendenti insoddisfatti</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Persone malintenzionate</p></td>
-<td style="border:1px solid black;"><p>Ex dipendenti insoddisfatti</p></td>
+<td style="border:1px solid black;">Persone malintenzionate</td>
+<td style="border:1px solid black;">Ex dipendenti insoddisfatti</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Persone malintenzionate</p></td>
-<td style="border:1px solid black;"><p>Terroristi</p></td>
+<td style="border:1px solid black;">Persone malintenzionate</td>
+<td style="border:1px solid black;">Terroristi</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Persone malintenzionate</p></td>
-<td style="border:1px solid black;"><p>Dipendenti negligenti</p></td>
+<td style="border:1px solid black;">Persone malintenzionate</td>
+<td style="border:1px solid black;">Dipendenti negligenti</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Persone malintenzionate</p></td>
-<td style="border:1px solid black;"><p>Dipendenti disonesti (vittime di corruzione o ricatti)</p></td>
+<td style="border:1px solid black;">Persone malintenzionate</td>
+<td style="border:1px solid black;">Dipendenti disonesti (vittime di corruzione o ricatti)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Persone malintenzionate</p></td>
-<td style="border:1px solid black;"><p>Codice dannoso</p></td>
+<td style="border:1px solid black;">Persone malintenzionate</td>
+<td style="border:1px solid black;">Codice dannoso</td>
 </tr>
 </tbody>
 </table>

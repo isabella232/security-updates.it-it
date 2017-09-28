@@ -19,7 +19,7 @@ Nella seguente tabella sono elencati gli eventi che in genere vengono esclusi da
 
 **Tabella A.1. Riduzione del carico di lavoro sul sistema di archiviazione mediante la rimozione di eventi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -28,123 +28,123 @@ Nella seguente tabella sono elencati gli eventi che in genere vengono esclusi da
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ID evento</p></th>
-<th><p>Occorrenza</p></th>
-<th><p>Commenti</p></th>
+<th>ID evento</th>
+<th>Occorrenza</th>
+<th>Commenti</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>538</p></td>
-<td style="border:1px solid black;"><p>Fine sessione dell'utente</p></td>
-<td style="border:1px solid black;"><p>Questo evento non indica necessariamente il momento in cui l'utente ha smesso di utilizzare il computer. Se ad esempio l'utente spegne il computer senza prima disconnettersi oppure si verifica un'interruzione nella connessione di rete a una condivisione, è possibile che nel computer l'operazione di disconnessione non venga registrata affatto o che venga registrata solo quando il computer rileva che la connessione è interrotta.</p></td>
+<td style="border:1px solid black;">538</td>
+<td style="border:1px solid black;">Fine sessione dell'utente</td>
+<td style="border:1px solid black;">Questo evento non indica necessariamente il momento in cui l'utente ha smesso di utilizzare il computer. Se ad esempio l'utente spegne il computer senza prima disconnettersi oppure si verifica un'interruzione nella connessione di rete a una condivisione, è possibile che nel computer l'operazione di disconnessione non venga registrata affatto o che venga registrata solo quando il computer rileva che la connessione è interrotta.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>551</p></td>
-<td style="border:1px solid black;"><p>Disconnessione avviata dall'utente</p></td>
-<td style="border:1px solid black;"><p>Utilizzare l'evento 538, che consente di verificare la disconnessione.</p></td>
+<td style="border:1px solid black;">551</td>
+<td style="border:1px solid black;">Disconnessione avviata dall'utente</td>
+<td style="border:1px solid black;">Utilizzare l'evento 538, che consente di verificare la disconnessione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>562</p></td>
-<td style="border:1px solid black;"><p>Handle di oggetto chiuso</p></td>
-<td style="border:1px solid black;"><p>Questo evento viene sempre registrato come operazione riuscita.</p></td>
+<td style="border:1px solid black;">562</td>
+<td style="border:1px solid black;">Handle di oggetto chiuso</td>
+<td style="border:1px solid black;">Questo evento viene sempre registrato come operazione riuscita.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>571</p></td>
-<td style="border:1px solid black;"><p>Contesto client eliminato da Gestione autorizzazioni</p></td>
-<td style="border:1px solid black;"><p>Si tratta di un evento normale quando si utilizza Gestione autorizzazioni.</p></td>
+<td style="border:1px solid black;">571</td>
+<td style="border:1px solid black;">Contesto client eliminato da Gestione autorizzazioni</td>
+<td style="border:1px solid black;">Si tratta di un evento normale quando si utilizza Gestione autorizzazioni.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>573</p></td>
-<td style="border:1px solid black;"><p>Generazione di un evento di controllo non di sistema con API di autorizzazione (Authorization Application Programming Interface)</p></td>
-<td style="border:1px solid black;"><p>Comportamento normale.</p></td>
+<td style="border:1px solid black;">573</td>
+<td style="border:1px solid black;">Generazione di un evento di controllo non di sistema con API di autorizzazione (Authorization Application Programming Interface)</td>
+<td style="border:1px solid black;">Comportamento normale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>577</p>
-<p>578</p></td>
-<td style="border:1px solid black;"><p>Servizio privilegiato chiamato, operazione su un oggetto privilegiato</p></td>
-<td style="border:1px solid black;"><p>Questi eventi con volumi elevati in genere non contengono informazioni sufficienti per comprendere l'accaduto o per consentire di prendere decisioni operative.</p></td>
+<td style="border:1px solid black;">577
+578</td>
+<td style="border:1px solid black;">Servizio privilegiato chiamato, operazione su un oggetto privilegiato</td>
+<td style="border:1px solid black;">Questi eventi con volumi elevati in genere non contengono informazioni sufficienti per comprendere l'accaduto o per consentire di prendere decisioni operative.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>594</p></td>
-<td style="border:1px solid black;"><p>Handle di oggetto duplicato</p></td>
-<td style="border:1px solid black;"><p>Comportamento normale.</p></td>
+<td style="border:1px solid black;">594</td>
+<td style="border:1px solid black;">Handle di oggetto duplicato</td>
+<td style="border:1px solid black;">Comportamento normale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>595</p></td>
-<td style="border:1px solid black;"><p>Accesso indiretto a un oggetto</p></td>
-<td style="border:1px solid black;"><p>Comportamento normale.</p></td>
+<td style="border:1px solid black;">595</td>
+<td style="border:1px solid black;">Accesso indiretto a un oggetto</td>
+<td style="border:1px solid black;">Comportamento normale.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>596</p></td>
-<td style="border:1px solid black;"><p>Backup della chiave master della protezione dati</p></td>
-<td style="border:1px solid black;"><p>Con le impostazioni predefinite, questo evento si verifica automaticamente ogni 90 giorni.</p></td>
+<td style="border:1px solid black;">596</td>
+<td style="border:1px solid black;">Backup della chiave master della protezione dati</td>
+<td style="border:1px solid black;">Con le impostazioni predefinite, questo evento si verifica automaticamente ogni 90 giorni.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>597</p></td>
-<td style="border:1px solid black;"><p>Ripristino della chiave master della protezione dati</p></td>
-<td style="border:1px solid black;"><p>Comportamento normale.</p></td>
+<td style="border:1px solid black;">597</td>
+<td style="border:1px solid black;">Ripristino della chiave master della protezione dati</td>
+<td style="border:1px solid black;">Comportamento normale.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>624</p>
-<p>642</p></td>
-<td style="border:1px solid black;"><p>Evento 624 in cui il valore del campo <strong>Utente</strong> è <em>System</em>, seguito dall'evento 642 in cui il valore del campo <strong>Nome account di destinazione</strong> è <em>IUSR_machinename</em> o <em>IWAM_machinename</em> e il valore del campo <strong>Nome utente chiamante</strong> è <em>machinename$</em>.</p></td>
-<td style="border:1px solid black;"><p>Questa sequenza di eventi indica che un amministratore ha installato IIS nel computer.</p></td>
+<td style="border:1px solid black;">624
+642</td>
+<td style="border:1px solid black;">Evento 624 in cui il valore del campo <strong>Utente</strong> è <em>System</em>, seguito dall'evento 642 in cui il valore del campo <strong>Nome account di destinazione</strong> è <em>IUSR_machinename</em> o <em>IWAM_machinename</em> e il valore del campo <strong>Nome utente chiamante</strong> è <em>machinename$</em>.</td>
+<td style="border:1px solid black;">Questa sequenza di eventi indica che un amministratore ha installato IIS nel computer.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>624</p>
-<p>630</p>
-<p>642</p></td>
-<td style="border:1px solid black;"><p>Il valore del campo <strong>Utente</strong> è <em>System</em> e tutti e tre gli eventi hanno lo stesso timestamp e il valore del campo <strong>Nome nuovo account/Nome account di destinazione</strong> è <em>HelpAssistant</em> e il valore del campo <strong>Nome utente chiamante</strong> è <em>DCname$</em></p></td>
-<td style="border:1px solid black;"><p>Questa sequenza di eventi viene generata quando un amministratore installa Active Directory in un computer su cui è in esecuzione Windows Server 2003.</p></td>
+<td style="border:1px solid black;">624
+630
+642</td>
+<td style="border:1px solid black;">Il valore del campo <strong>Utente</strong> è <em>System</em> e tutti e tre gli eventi hanno lo stesso timestamp e il valore del campo <strong>Nome nuovo account/Nome account di destinazione</strong> è <em>HelpAssistant</em> e il valore del campo <strong>Nome utente chiamante</strong> è <em>DCname$</em></td>
+<td style="border:1px solid black;">Questa sequenza di eventi viene generata quando un amministratore installa Active Directory in un computer su cui è in esecuzione Windows Server 2003.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>624 o</p>
-<p>642</p></td>
-<td style="border:1px solid black;"><p>Il valore del campo <strong>Utente</strong> è <em>ExchangeServername$</em> e il campo <strong>Nome account di destinazione</strong> contiene un identificatore univoco globale (GUID)</p></td>
-<td style="border:1px solid black;"><p>Questo evento si verifica la prima volta che un server di Exchange viene portato in linea generando automaticamente le cassette postali di sistema.</p></td>
+<td style="border:1px solid black;">624 o
+642</td>
+<td style="border:1px solid black;">Il valore del campo <strong>Utente</strong> è <em>ExchangeServername$</em> e il campo <strong>Nome account di destinazione</strong> contiene un identificatore univoco globale (GUID)</td>
+<td style="border:1px solid black;">Questo evento si verifica la prima volta che un server di Exchange viene portato in linea generando automaticamente le cassette postali di sistema.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>624</p></td>
-<td style="border:1px solid black;"><p>Il campo <strong>Nome utente chiamante</strong> contiene un qualsiasi utente e il valore del campo <strong>Nome nuovo account</strong> è <em>machinename$</em></p></td>
-<td style="border:1px solid black;"><p>Un utente del dominio ha creato o connesso un nuovo account del computer nel dominio. Questo evento è accettabile se gli utenti hanno la facoltà di aggiungere computer a un dominio. In caso contrario, è necessaria un'analisi approfondita.</p></td>
+<td style="border:1px solid black;">624</td>
+<td style="border:1px solid black;">Il campo <strong>Nome utente chiamante</strong> contiene un qualsiasi utente e il valore del campo <strong>Nome nuovo account</strong> è <em>machinename$</em></td>
+<td style="border:1px solid black;">Un utente del dominio ha creato o connesso un nuovo account del computer nel dominio. Questo evento è accettabile se gli utenti hanno la facoltà di aggiungere computer a un dominio. In caso contrario, è necessaria un'analisi approfondita.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>627</p></td>
-<td style="border:1px solid black;"><p>Il valore del campo <strong>Utente</strong> è <strong>System</strong>, il valore del campo <strong>Nome account di destinazione</strong> è <strong>TsInternetUser</strong> e il valore del campo <strong>Nome utente chiamante</strong> è in genere <strong>DCname$</strong></p></td>
-<td style="border:1px solid black;"><p>Si tratta di eventi normali in un computer su cui è in esecuzione Servizi terminal.</p></td>
+<td style="border:1px solid black;">627</td>
+<td style="border:1px solid black;">Il valore del campo <strong>Utente</strong> è <strong>System</strong>, il valore del campo <strong>Nome account di destinazione</strong> è <strong>TsInternetUser</strong> e il valore del campo <strong>Nome utente chiamante</strong> è in genere <strong>DCname$</strong></td>
+<td style="border:1px solid black;">Si tratta di eventi normali in un computer su cui è in esecuzione Servizi terminal.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>672</p></td>
-<td style="border:1px solid black;"><p>Richiesta di ticket Kerberos AS</p></td>
-<td style="border:1px solid black;"><p>Se si ricevono eventi di accesso 528 e 540 da tutti i computer, è possibile che l'evento 672 non contenga alcuna informazione utile aggiuntiva, poiché registra semplicemente che è stato concesso un ticket Kerberos TGT. Affinché si verifichi un accesso, deve comunque esistere un ticket di servizio concesso (evento 673).</p></td>
+<td style="border:1px solid black;">672</td>
+<td style="border:1px solid black;">Richiesta di ticket Kerberos AS</td>
+<td style="border:1px solid black;">Se si ricevono eventi di accesso 528 e 540 da tutti i computer, è possibile che l'evento 672 non contenga alcuna informazione utile aggiuntiva, poiché registra semplicemente che è stato concesso un ticket Kerberos TGT. Affinché si verifichi un accesso, deve comunque esistere un ticket di servizio concesso (evento 673).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>680</p></td>
-<td style="border:1px solid black;"><p>Accesso account</p></td>
-<td style="border:1px solid black;"><p>Se si ricevono eventi di accesso 528 e 540 da tutti i computer, è possibile che l'evento 680 non contenga alcuna informazione utile aggiuntiva, poiché registra semplicemente la convalida delle credenziali dell'account. Un ulteriore evento di accesso registra le informazioni relative all'accesso effettuato dall'utente.</p></td>
+<td style="border:1px solid black;">680</td>
+<td style="border:1px solid black;">Accesso account</td>
+<td style="border:1px solid black;">Se si ricevono eventi di accesso 528 e 540 da tutti i computer, è possibile che l'evento 680 non contenga alcuna informazione utile aggiuntiva, poiché registra semplicemente la convalida delle credenziali dell'account. Un ulteriore evento di accesso registra le informazioni relative all'accesso effettuato dall'utente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>697</p></td>
-<td style="border:1px solid black;"><p>Chiamata all'API di controllo criterio password</p></td>
-<td style="border:1px solid black;"><p>Comportamento normale.</p></td>
+<td style="border:1px solid black;">697</td>
+<td style="border:1px solid black;">Chiamata all'API di controllo criterio password</td>
+<td style="border:1px solid black;">Comportamento normale.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>768</p></td>
-<td style="border:1px solid black;"><p>Conflitto di spazio dei nomi nell'insieme di strutture</p></td>
-<td style="border:1px solid black;"><p>Evento non relativo alla protezione.</p></td>
+<td style="border:1px solid black;">768</td>
+<td style="border:1px solid black;">Conflitto di spazio dei nomi nell'insieme di strutture</td>
+<td style="border:1px solid black;">Evento non relativo alla protezione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>769</p>
-<p>770</p>
-<p>771</p></td>
-<td style="border:1px solid black;"><p>Aggiunta, eliminazione o modifica delle informazioni sull'insieme di strutture trusted</p></td>
-<td style="border:1px solid black;"><p>Questi eventi indicano un normale funzionamento dei trust tra insiemi di strutture. Non confondere questi eventi con l'aggiunta, l'eliminazione o la modifica del trust stesso.</p></td>
+<td style="border:1px solid black;">769
+770
+771</td>
+<td style="border:1px solid black;">Aggiunta, eliminazione o modifica delle informazioni sull'insieme di strutture trusted</td>
+<td style="border:1px solid black;">Questi eventi indicano un normale funzionamento dei trust tra insiemi di strutture. Non confondere questi eventi con l'aggiunta, l'eliminazione o la modifica del trust stesso.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Da 832 a 841</p></td>
-<td style="border:1px solid black;"><p>Problemi vari relativi alla replica di Active Directory</p></td>
-<td style="border:1px solid black;"><p>Nessuna implicazione sulla protezione.</p></td>
+<td style="border:1px solid black;">Da 832 a 841</td>
+<td style="border:1px solid black;">Problemi vari relativi alla replica di Active Directory</td>
+<td style="border:1px solid black;">Nessuna implicazione sulla protezione.</td>
 </tr>
 </tbody>
 </table>

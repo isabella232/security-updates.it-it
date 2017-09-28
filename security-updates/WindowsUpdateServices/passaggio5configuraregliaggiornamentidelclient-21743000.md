@@ -52,7 +52,7 @@ Eseguire le prime due procedure sull'oggetto Criteri di gruppo basato sul domini
 
 2.  Fare clic su **Attivata** e digitare l'URL HTTP dello stesso server di WSUS nelle caselle **Impostare il servizio di aggiornamento nella rete Intranet per il rilevamento degli aggiornamenti** e **Impostare il server per le statistiche nella rete Intranet**. Ad esempio, digitare *http://nomeserver* in entrambe le caselle e quindi fare clic su **OK**.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -65,11 +65,11 @@ Eseguire le prime due procedure sull'oggetto Criteri di gruppo basato sul domini
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Se si utilizza l'oggetto Criteri di gruppo locale per puntare il computer a WSUS, tale impostazione diverrà immediatamente effettiva e il computer verrà visualizzato nella console di amministrazione WSUS in breve tempo. È possibile rendere più rapido questo processo avviando manualmente il rilevamento.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Dopo la configurazione di un computer client, è necessario attendere alcuni minuti per la visualizzazione del computer stesso nella pagina **Computer** della console di amministrazione WSUS. Un computer client configurato mediante un oggetto Criteri di gruppo basato sul dominio verrà visualizzato nella pagina circa 20 minuti dopo l'aggiornamento di Criteri di gruppo, ovvero dopo l'applicazione di tutte le nuove impostazioni relative ai criteri nel computer client. Per impostazione predefinita, l'aggiornamento di Criteri di gruppo viene eseguito in background ogni 90 minuti con un offset casuale compreso tra 0 e 30 minuti. Se si desidera eseguire quanto prima l'aggiornamento di Criteri di gruppo, è possibile accedere a un prompt dei comandi nel computer client e digitare**gpupdate /force**.
 

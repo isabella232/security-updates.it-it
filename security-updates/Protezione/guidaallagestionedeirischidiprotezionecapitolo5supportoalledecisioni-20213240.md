@@ -81,7 +81,7 @@ Nella tabella seguente viene fornito un riepilogo dei principali ruoli e respons
 
 **Tabella 5.1: Ruoli e responsabilità nel programma di gestione dei rischi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -89,58 +89,58 @@ Nella tabella seguente viene fornito un riepilogo dei principali ruoli e respons
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ruolo</p></th>
-<th><p>Responsabilità</p></th>
+<th>Ruolo</th>
+<th>Responsabilità</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Operazioni aziendali</p></td>
-<td style="border:1px solid black;"><p>Individua le soluzioni di controllo procedurali disponibili per la gestione dei rischi</p></td>
+<td style="border:1px solid black;">Operazioni aziendali</td>
+<td style="border:1px solid black;">Individua le soluzioni di controllo procedurali disponibili per la gestione dei rischi</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Titolare dell'azienda</p></td>
-<td style="border:1px solid black;"><p>È responsabile dell'analisi dei costi-benefici dei beni</p></td>
+<td style="border:1px solid black;">Titolare dell'azienda</td>
+<td style="border:1px solid black;">È responsabile dell'analisi dei costi-benefici dei beni</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Amministrazione</p></td>
-<td style="border:1px solid black;"><p>Contribuisce all'analisi dei costi-benefici e potrebbe anche contribuire alla creazione e al controllo del budget</p></td>
+<td style="border:1px solid black;">Amministrazione</td>
+<td style="border:1px solid black;">Contribuisce all'analisi dei costi-benefici e potrebbe anche contribuire alla creazione e al controllo del budget</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Risorse umane</p></td>
-<td style="border:1px solid black;"><p>Individua le esigenze di formazione del personale per le soluzioni di controllo</p></td>
+<td style="border:1px solid black;">Risorse umane</td>
+<td style="border:1px solid black;">Individua le esigenze di formazione del personale per le soluzioni di controllo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tecnologia informatica (IT) - Architettura</p></td>
-<td style="border:1px solid black;"><p>Individua e valuta le potenziali soluzioni di controllo</p></td>
+<td style="border:1px solid black;">Tecnologia informatica (IT) - Architettura</td>
+<td style="border:1px solid black;">Individua e valuta le potenziali soluzioni di controllo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tecnologia informatica - Progettazione tecnica</p></td>
-<td style="border:1px solid black;"><p>Determina i costi delle soluzioni di controllo e decide come implementarle</p></td>
+<td style="border:1px solid black;">Tecnologia informatica - Progettazione tecnica</td>
+<td style="border:1px solid black;">Determina i costi delle soluzioni di controllo e decide come implementarle</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tecnologia informatica - Operazioni</p></td>
-<td style="border:1px solid black;"><p>Implementa le soluzioni di controllo tecniche</p></td>
+<td style="border:1px solid black;">Tecnologia informatica - Operazioni</td>
+<td style="border:1px solid black;">Implementa le soluzioni di controllo tecniche</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllo interno</p></td>
-<td style="border:1px solid black;"><p>Individua i requisiti di conformità e rivede l'efficacia delle soluzioni di controllo</p></td>
+<td style="border:1px solid black;">Controllo interno</td>
+<td style="border:1px solid black;">Individua i requisiti di conformità e rivede l'efficacia delle soluzioni di controllo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ufficio legale</p></td>
-<td style="border:1px solid black;"><p>Individua le soluzioni di controllo legali, contrattuali e di politica e convalida le stime finanziarie per l'impatto sul marchio, la responsabilità aziendale e altre questioni aziendali</p></td>
+<td style="border:1px solid black;">Ufficio legale</td>
+<td style="border:1px solid black;">Individua le soluzioni di controllo legali, contrattuali e di politica e convalida le stime finanziarie per l'impatto sul marchio, la responsabilità aziendale e altre questioni aziendali</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Relazioni pubbliche</p></td>
-<td style="border:1px solid black;"><p>Convalida le stime finanziarie per l'impatto sul marchio, la responsabilità aziendale e altre questioni aziendali</p></td>
+<td style="border:1px solid black;">Relazioni pubbliche</td>
+<td style="border:1px solid black;">Convalida le stime finanziarie per l'impatto sul marchio, la responsabilità aziendale e altre questioni aziendali</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Comitato direttivo per la protezione</p></td>
-<td style="border:1px solid black;"><p>Sceglie le soluzioni di controllo in base alle raccomandazioni del Team di gestione dei rischi di protezione</p></td>
+<td style="border:1px solid black;">Comitato direttivo per la protezione</td>
+<td style="border:1px solid black;">Sceglie le soluzioni di controllo in base alle raccomandazioni del Team di gestione dei rischi di protezione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Team di gestione dei rischi di protezione</p></td>
-<td style="border:1px solid black;"><p>Definisce i requisiti funzionali per ogni soluzione di controllo volta a ridurre un rischio e, all'occorrenza, informa gli interessati e gli utenti coinvolti sullo stato del progetto</p></td>
+<td style="border:1px solid black;">Team di gestione dei rischi di protezione</td>
+<td style="border:1px solid black;">Definisce i requisiti funzionali per ogni soluzione di controllo volta a ridurre un rischio e, all'occorrenza, informa gli interessati e gli utenti coinvolti sullo stato del progetto</td>
 </tr>
 </tbody>
 </table>
@@ -157,7 +157,7 @@ Durante questa fase del processo di gestione dei rischi di protezione Microsoft,
   
 **Tabella 5.2: Risultati richiesti per la fase di supporto alle decisioni**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -165,34 +165,34 @@ Durante questa fase del processo di gestione dei rischi di protezione Microsoft,
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Informazioni da raccogliere</p></th>
-<th><p>Descrizione</p></th>
+<th>Informazioni da raccogliere</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Decisione su come trattare ogni rischio</p></td>
-<td style="border:1px solid black;"><p>Si deciderà se controllare, accettare, trasferire o evitare ciascuno dei rischi principali</p></td>
+<td style="border:1px solid black;">Decisione su come trattare ogni rischio</td>
+<td style="border:1px solid black;">Si deciderà se controllare, accettare, trasferire o evitare ciascuno dei rischi principali</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Requisiti funzionali</p></td>
-<td style="border:1px solid black;"><p>Affermazioni che descrivono la funzionalità necessaria a ridurre il rischio</p></td>
+<td style="border:1px solid black;">Requisiti funzionali</td>
+<td style="border:1px solid black;">Affermazioni che descrivono la funzionalità necessaria a ridurre il rischio</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Potenziali soluzioni di controllo</p></td>
-<td style="border:1px solid black;"><p>Elenco di soluzioni di controllo individuate dai Responsabili della riduzione dei rischi e dal Team di gestione dei rischi di protezione che possono ridurre efficacemente ogni rischio</p></td>
+<td style="border:1px solid black;">Potenziali soluzioni di controllo</td>
+<td style="border:1px solid black;">Elenco di soluzioni di controllo individuate dai Responsabili della riduzione dei rischi e dal Team di gestione dei rischi di protezione che possono ridurre efficacemente ogni rischio</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Riduzione dei rischi di ogni soluzione di controllo</p></td>
-<td style="border:1px solid black;"><p>Valutazione di ogni soluzione di controllo proposta per determinare in che misura ridurrà il livello di rischio a cui è esposto un bene</p></td>
+<td style="border:1px solid black;">Riduzione dei rischi di ogni soluzione di controllo</td>
+<td style="border:1px solid black;">Valutazione di ogni soluzione di controllo proposta per determinare in che misura ridurrà il livello di rischio a cui è esposto un bene</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costo stimato di ogni soluzione di controllo</p></td>
-<td style="border:1px solid black;"><p>Tutti i costi associati all'acquisto, implementazione, supporto e misurazione di ogni soluzione di controllo proposta</p></td>
+<td style="border:1px solid black;">Costo stimato di ogni soluzione di controllo</td>
+<td style="border:1px solid black;">Tutti i costi associati all'acquisto, implementazione, supporto e misurazione di ogni soluzione di controllo proposta</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Elenco di soluzioni di controllo da implementare</p></td>
-<td style="border:1px solid black;"><p>Scelta effettuata in base all'analisi dei costi-benefici</p></td>
+<td style="border:1px solid black;">Elenco di soluzioni di controllo da implementare</td>
+<td style="border:1px solid black;">Scelta effettuata in base all'analisi dei costi-benefici</td>
 </tr>
 </tbody>
 </table>
@@ -509,7 +509,7 @@ L'organizzazione deve poter provare che nessuno ha modificato o disattivato acci
   
 **Tabella 5.3: Costi di implementazione delle smart card per l'accesso VPN e amministrativo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -518,58 +518,58 @@ L'organizzazione deve poter provare che nessuno ha modificato o disattivato acci
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Categoria</p></th>
-<th><p>Note</p></th>
-<th><p>Stime</p></th>
+<th>Categoria</th>
+<th>Note</th>
+<th>Stime</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costi di acquisto</p></td>
-<td style="border:1px solid black;"><p>Il costo di ogni smart card è di $ 15, al quale si aggiungono altri $ 15 per ogni lettore. L'accesso VPN (Virtual Private Networking) e amministrativo dovrebbe essere implementato solo per 10.000 dipendenti della banca, quindi il costo totale per le smart card e i lettori sarebbe di $ 300.000.</p></td>
-<td style="border:1px solid black;"><p>$ 300.000</p></td>
+<td style="border:1px solid black;">Costi di acquisto</td>
+<td style="border:1px solid black;">Il costo di ogni smart card è di $ 15, al quale si aggiungono altri $ 15 per ogni lettore. L'accesso VPN (Virtual Private Networking) e amministrativo dovrebbe essere implementato solo per 10.000 dipendenti della banca, quindi il costo totale per le smart card e i lettori sarebbe di $ 300.000.</td>
+<td style="border:1px solid black;">$ 300.000</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Costi di implementazione</p></td>
-<td style="border:1px solid black;"><p>La banca dovrebbe assumere consulenti esterni che assistano il personale IT nell'implementazione della soluzione a un costo di $ 750.000. Rimarrebbero comunque notevoli costi da sostenere per il tempo investito dai dipendenti della banca, per un totale di $ 150.000.</p></td>
-<td style="border:1px solid black;"><p>$ 900.000</p></td>
+<td style="border:1px solid black;">Costi di implementazione</td>
+<td style="border:1px solid black;">La banca dovrebbe assumere consulenti esterni che assistano il personale IT nell'implementazione della soluzione a un costo di $ 750.000. Rimarrebbero comunque notevoli costi da sostenere per il tempo investito dai dipendenti della banca, per un totale di $ 150.000.</td>
+<td style="border:1px solid black;">$ 900.000</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costi di comunicazione</p></td>
-<td style="border:1px solid black;"><p>La banca utilizza già alcuni metodi prestabiliti per comunicare con i propri dipendenti, ad esempio newsletter stampate, siti Web interni e liste di distribuzione e-mail, quindi i costi da sostenere per informare i dipendenti della distribuzione delle smart card non sarebbero notevoli.</p></td>
-<td style="border:1px solid black;"><p>$ 50.000</p></td>
+<td style="border:1px solid black;">Costi di comunicazione</td>
+<td style="border:1px solid black;">La banca utilizza già alcuni metodi prestabiliti per comunicare con i propri dipendenti, ad esempio newsletter stampate, siti Web interni e liste di distribuzione e-mail, quindi i costi da sostenere per informare i dipendenti della distribuzione delle smart card non sarebbero notevoli.</td>
+<td style="border:1px solid black;">$ 50.000</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Costi di formazione per il personale IT</p></td>
-<td style="border:1px solid black;"><p>La banca ricorrerebbe agli stessi consulenti esterni che si sono occupati dell'implementazione per tenere corsi di formazione per il personale IT; il costo ammonterebbe a $ 10.000. La maggior parte del personale IT perderebbe da 4 a 8 ore lavorative, per un valore stimato di $ 80.000.</p></td>
-<td style="border:1px solid black;"><p>$ 90.000</p></td>
+<td style="border:1px solid black;">Costi di formazione per il personale IT</td>
+<td style="border:1px solid black;">La banca ricorrerebbe agli stessi consulenti esterni che si sono occupati dell'implementazione per tenere corsi di formazione per il personale IT; il costo ammonterebbe a $ 10.000. La maggior parte del personale IT perderebbe da 4 a 8 ore lavorative, per un valore stimato di $ 80.000.</td>
+<td style="border:1px solid black;">$ 90.000</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costi di formazione per gli utenti</p></td>
-<td style="border:1px solid black;"><p>La banca si avvarrebbe di corsi di formazione sul Web forniti dal produttore delle smart card per insegnare ai dipendenti a utilizzarle; il costo sarebbe incluso nel prezzo delle smart card. Ogni dipendente della banca impiegherebbe circa un'ora per il corso, il che ammonterebbe a una perdita totale di produttività di circa $ 300.000.</p></td>
-<td style="border:1px solid black;"><p>$ 300.000</p></td>
+<td style="border:1px solid black;">Costi di formazione per gli utenti</td>
+<td style="border:1px solid black;">La banca si avvarrebbe di corsi di formazione sul Web forniti dal produttore delle smart card per insegnare ai dipendenti a utilizzarle; il costo sarebbe incluso nel prezzo delle smart card. Ogni dipendente della banca impiegherebbe circa un'ora per il corso, il che ammonterebbe a una perdita totale di produttività di circa $ 300.000.</td>
+<td style="border:1px solid black;">$ 300.000</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Costi in termini di produttività e convenienza</p></td>
-<td style="border:1px solid black;"><p>Secondo la banca, l'utente medio perderà circa un'ora di produttività e un utente su quattro chiamerà l'helpdesk per chiedere assistenza per le smart card. La perdita in termini di produttività ammonterebbe a $ 300.000 e il costo delle chiamate all'helpdesk sarebbe di $ 100.000.</p></td>
-<td style="border:1px solid black;"><p>$ 400.000</p></td>
+<td style="border:1px solid black;">Costi in termini di produttività e convenienza</td>
+<td style="border:1px solid black;">Secondo la banca, l'utente medio perderà circa un'ora di produttività e un utente su quattro chiamerà l'helpdesk per chiedere assistenza per le smart card. La perdita in termini di produttività ammonterebbe a $ 300.000 e il costo delle chiamate all'helpdesk sarebbe di $ 100.000.</td>
+<td style="border:1px solid black;">$ 400.000</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costi per il controllo e la verifica dell'efficacia</p></td>
-<td style="border:1px solid black;"><p>Il Team di gestione dei rischi di protezione ritiene di poter controllare e verificare periodicamente l'efficacia della nuova soluzione di controllo a un costo di $ 50.000 per il primo anno.</p></td>
-<td style="border:1px solid black;"><p>$ 50.000</p></td>
+<td style="border:1px solid black;">Costi per il controllo e la verifica dell'efficacia</td>
+<td style="border:1px solid black;">Il Team di gestione dei rischi di protezione ritiene di poter controllare e verificare periodicamente l'efficacia della nuova soluzione di controllo a un costo di $ 50.000 per il primo anno.</td>
+<td style="border:1px solid black;">$ 50.000</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Totale</strong></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p><strong>$ 2.090.000</strong></p></td>
+<td style="border:1px solid black;"><strong>Totale</strong></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"><strong>$ 2.090.000</strong></td>
 </tr>
 </tbody>
 </table>
   
 **Tabella 5.4: Costi per l'implementazione delle smart card per l'accesso locale**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -578,51 +578,51 @@ L'organizzazione deve poter provare che nessuno ha modificato o disattivato acci
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Categoria</p></th>
-<th><p>Note</p></th>
-<th><p>Stime</p></th>
+<th>Categoria</th>
+<th>Note</th>
+<th>Stime</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costi di acquisto</p></td>
-<td style="border:1px solid black;"><p>Il costo di ogni smart card è di $ 15, al quale si aggiungono altri $ 15 per ogni lettore. Dato che l'accesso locale dovrebbe essere garantito per tutti i 15.000 dipendenti della banca, il costo totale per le smart card e i lettori sarebbe di $ 450.000. La banca potrebbe anche essere costretta ad aggiornare o sostituire molte applicazioni aziendali al costo sostanziale di $ 1.500.000.</p></td>
-<td style="border:1px solid black;"><p>$ 1.950.000</p></td>
+<td style="border:1px solid black;">Costi di acquisto</td>
+<td style="border:1px solid black;">Il costo di ogni smart card è di $ 15, al quale si aggiungono altri $ 15 per ogni lettore. Dato che l'accesso locale dovrebbe essere garantito per tutti i 15.000 dipendenti della banca, il costo totale per le smart card e i lettori sarebbe di $ 450.000. La banca potrebbe anche essere costretta ad aggiornare o sostituire molte applicazioni aziendali al costo sostanziale di $ 1.500.000.</td>
+<td style="border:1px solid black;">$ 1.950.000</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Costi di implementazione</p></td>
-<td style="border:1px solid black;"><p>La banca dovrebbe assumere consulenti esterni che assistano il personale IT nell'implementazione della soluzione a un costo di $ 750.000. Rimarrebbero comunque notevoli costi da sostenere per il tempo investito dai dipendenti della banca, per un totale di $ 150.000.</p></td>
-<td style="border:1px solid black;"><p>$ 900.000</p></td>
+<td style="border:1px solid black;">Costi di implementazione</td>
+<td style="border:1px solid black;">La banca dovrebbe assumere consulenti esterni che assistano il personale IT nell'implementazione della soluzione a un costo di $ 750.000. Rimarrebbero comunque notevoli costi da sostenere per il tempo investito dai dipendenti della banca, per un totale di $ 150.000.</td>
+<td style="border:1px solid black;">$ 900.000</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costi di comunicazione</p></td>
-<td style="border:1px solid black;"><p>La banca utilizza già alcuni metodi prestabiliti per comunicare con i propri dipendenti, ad esempio newsletter stampate, siti Web interni e liste di distribuzione e-mail, quindi i costi da sostenere per informare i dipendenti della distribuzione delle smart card non sarebbero notevoli.</p></td>
-<td style="border:1px solid black;"><p>$ 50.000</p></td>
+<td style="border:1px solid black;">Costi di comunicazione</td>
+<td style="border:1px solid black;">La banca utilizza già alcuni metodi prestabiliti per comunicare con i propri dipendenti, ad esempio newsletter stampate, siti Web interni e liste di distribuzione e-mail, quindi i costi da sostenere per informare i dipendenti della distribuzione delle smart card non sarebbero notevoli.</td>
+<td style="border:1px solid black;">$ 50.000</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Costi di formazione per il personale IT</p></td>
-<td style="border:1px solid black;"><p>La banca ricorrerebbe agli stessi consulenti esterni che si sono occupati dell'implementazione per tenere corsi di formazione per il personale IT; il costo ammonterebbe a $ 10.000. La maggior parte del personale IT perderebbe da 4 a 8 ore lavorative, per un valore stimato di $ 80.000.</p></td>
-<td style="border:1px solid black;"><p>$ 90.000</p></td>
+<td style="border:1px solid black;">Costi di formazione per il personale IT</td>
+<td style="border:1px solid black;">La banca ricorrerebbe agli stessi consulenti esterni che si sono occupati dell'implementazione per tenere corsi di formazione per il personale IT; il costo ammonterebbe a $ 10.000. La maggior parte del personale IT perderebbe da 4 a 8 ore lavorative, per un valore stimato di $ 80.000.</td>
+<td style="border:1px solid black;">$ 90.000</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costi di formazione per gli utenti</p></td>
-<td style="border:1px solid black;"><p>La banca si avvarrebbe di corsi di formazione sul Web forniti dal produttore delle smart card per insegnare ai dipendenti a utilizzarle; il costo sarebbe incluso nel prezzo delle smart card. Ogni dipendente della banca impiegherebbe circa un'ora per il corso, il che ammonterebbe a una perdita totale di produttività di circa $ 450.000.</p></td>
-<td style="border:1px solid black;"><p>$ 450.000</p></td>
+<td style="border:1px solid black;">Costi di formazione per gli utenti</td>
+<td style="border:1px solid black;">La banca si avvarrebbe di corsi di formazione sul Web forniti dal produttore delle smart card per insegnare ai dipendenti a utilizzarle; il costo sarebbe incluso nel prezzo delle smart card. Ogni dipendente della banca impiegherebbe circa un'ora per il corso, il che ammonterebbe a una perdita totale di produttività di circa $ 450.000.</td>
+<td style="border:1px solid black;">$ 450.000</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Costi in termini di produttività e convenienza</p></td>
-<td style="border:1px solid black;"><p>Secondo la banca, l'utente medio perderà circa un'ora di produttività e un utente su quattro chiamerà l'helpdesk per chiedere assistenza per le smart card. La perdita in termini di produttività ammonterebbe a $ 450.000 e il costo delle chiamate all'helpdesk sarebbe di $ 150.000.</p></td>
-<td style="border:1px solid black;"><p>$ 600.000</p></td>
+<td style="border:1px solid black;">Costi in termini di produttività e convenienza</td>
+<td style="border:1px solid black;">Secondo la banca, l'utente medio perderà circa un'ora di produttività e un utente su quattro chiamerà l'helpdesk per chiedere assistenza per le smart card. La perdita in termini di produttività ammonterebbe a $ 450.000 e il costo delle chiamate all'helpdesk sarebbe di $ 150.000.</td>
+<td style="border:1px solid black;">$ 600.000</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costi per il controllo e la verifica dell'efficacia</p></td>
-<td style="border:1px solid black;"><p>Il Team di gestione dei rischi di protezione ritiene di poter controllare e verificare periodicamente l'efficacia della nuova soluzione di controllo a un costo di $ 150.000 per il primo anno.</p></td>
-<td style="border:1px solid black;"><p>$ 150.000</p></td>
+<td style="border:1px solid black;">Costi per il controllo e la verifica dell'efficacia</td>
+<td style="border:1px solid black;">Il Team di gestione dei rischi di protezione ritiene di poter controllare e verificare periodicamente l'efficacia della nuova soluzione di controllo a un costo di $ 150.000 per il primo anno.</td>
+<td style="border:1px solid black;">$ 150.000</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Totale</strong></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p><strong>$ 4.190.000</strong></p></td>
+<td style="border:1px solid black;"><strong>Totale</strong></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"><strong>$ 4.190.000</strong></td>
 </tr>
 </tbody>
 </table>

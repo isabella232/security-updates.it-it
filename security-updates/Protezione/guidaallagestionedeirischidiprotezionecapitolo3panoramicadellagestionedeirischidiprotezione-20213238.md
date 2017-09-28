@@ -118,7 +118,7 @@ Anche se la valutazione dei rischi rappresenta una fase necessaria e discreta de
 
 **Tabella 3.1: Gestione dei rischi e valutazione dei rischi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -127,31 +127,31 @@ Anche se la valutazione dei rischi rappresenta una fase necessaria e discreta de
 </colgroup>
 <thead>
 <tr class="header">
-<th><p> </p></th>
-<th><p>Gestione dei rischi</p></th>
-<th><p>Valutazione dei rischi</p></th>
+<th> </th>
+<th>Gestione dei rischi</th>
+<th>Valutazione dei rischi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Obiettivo</strong></p></td>
-<td style="border:1px solid black;"><p>Gestire tutti i rischi dell'azienda per portarli a un livello accettabile</p></td>
-<td style="border:1px solid black;"><p>Identificare i rischi e definirne le priorità</p></td>
+<td style="border:1px solid black;"><strong>Obiettivo</strong></td>
+<td style="border:1px solid black;">Gestire tutti i rischi dell'azienda per portarli a un livello accettabile</td>
+<td style="border:1px solid black;">Identificare i rischi e definirne le priorità</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Ciclo</strong></p></td>
-<td style="border:1px solid black;"><p>Intero programma, tutte le fasi</p></td>
-<td style="border:1px solid black;"><p>Una sola fase del programma di gestione dei rischi</p></td>
+<td style="border:1px solid black;"><strong>Ciclo</strong></td>
+<td style="border:1px solid black;">Intero programma, tutte le fasi</td>
+<td style="border:1px solid black;">Una sola fase del programma di gestione dei rischi</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Programmazione</strong></p></td>
-<td style="border:1px solid black;"><p>Continua</p></td>
-<td style="border:1px solid black;"><p>In base alle necessità</p></td>
+<td style="border:1px solid black;"><strong>Programmazione</strong></td>
+<td style="border:1px solid black;">Continua</td>
+<td style="border:1px solid black;">In base alle necessità</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Allineamento</strong></p></td>
-<td style="border:1px solid black;"><p>Allineamento con il ciclo amministrativo-fiscale</p></td>
-<td style="border:1px solid black;"><p>N/D</p></td>
+<td style="border:1px solid black;"><strong>Allineamento</strong></td>
+<td style="border:1px solid black;">Allineamento con il ciclo amministrativo-fiscale</td>
+<td style="border:1px solid black;">N/D</td>
 </tr>
 </tbody>
 </table>
@@ -190,7 +190,7 @@ Per stimare il livello di maturità della propria organizzazione, confrontarlo c
   
 **Tabella 3.2: Livello di maturità per la gestione dei rischi di protezione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -199,41 +199,41 @@ Per stimare il livello di maturità della propria organizzazione, confrontarlo c
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Livello</p></th>
-<th><p>Stato</p></th>
-<th><p>Definizione</p></th>
+<th>Livello</th>
+<th>Stato</th>
+<th>Definizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>Inesistente</p></td>
-<td style="border:1px solid black;"><p>Il criterio (o il processo) non è documentato e l'organizzazione non era precedentemente a conoscenza dei rischi aziendali oggetto del processo di gestione dei rischi. Pertanto, non sono mai state effettuate comunicazioni in materia.</p></td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">Inesistente</td>
+<td style="border:1px solid black;">Il criterio (o il processo) non è documentato e l'organizzazione non era precedentemente a conoscenza dei rischi aziendali oggetto del processo di gestione dei rischi. Pertanto, non sono mai state effettuate comunicazioni in materia.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>Ad-hoc</p></td>
-<td style="border:1px solid black;"><p>È chiaro che alcuni membri dell'organizzazione attribuiscono valore alla gestione dei rischi, che tuttavia viene effettuata con modalità ad-hoc. Non esistono criteri o procedure documentate e il processo non è interamente ripetibile. In generale, i progetti di gestione dei rischi appaiono caotici e non coordinati e i risultati non sono misurati e controllati.</p></td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">Ad-hoc</td>
+<td style="border:1px solid black;">È chiaro che alcuni membri dell'organizzazione attribuiscono valore alla gestione dei rischi, che tuttavia viene effettuata con modalità ad-hoc. Non esistono criteri o procedure documentate e il processo non è interamente ripetibile. In generale, i progetti di gestione dei rischi appaiono caotici e non coordinati e i risultati non sono misurati e controllati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>Ripetibile</p></td>
-<td style="border:1px solid black;"><p>Tutta l'organizzazione è a conoscenza della gestione dei rischi. Il processo di gestione è ripetibile, ma non ancora sufficientemente maturo o completamente documentato. Tuttavia, le attività ad esso associate vengono svolte con regolarità e l'organizzazione sta lavorando alla definizione di un processo globale di gestione dei rischi a cui partecipano i dirigenti di più alto livello. Non vi sono attività di formazione o comunicazione formali sulla gestione dei rischi e la responsabilità dell'implementazione è affidata unicamente a singoli dipendenti.</p></td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">Ripetibile</td>
+<td style="border:1px solid black;">Tutta l'organizzazione è a conoscenza della gestione dei rischi. Il processo di gestione è ripetibile, ma non ancora sufficientemente maturo o completamente documentato. Tuttavia, le attività ad esso associate vengono svolte con regolarità e l'organizzazione sta lavorando alla definizione di un processo globale di gestione dei rischi a cui partecipano i dirigenti di più alto livello. Non vi sono attività di formazione o comunicazione formali sulla gestione dei rischi e la responsabilità dell'implementazione è affidata unicamente a singoli dipendenti.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>Processo definito</p></td>
-<td style="border:1px solid black;"><p>L'organizzazione ha deciso formalmente di adottare la gestione dei rischi al fine di agevolare il programma di protezione informatica. È stato sviluppato un processo di base che prevede obiettivi chiaramente definiti con processi documentati per il raggiungimento e la misurazione dei risultati. Sono inoltre disponibili strumenti di formazione rudimentali sulla gestione dei rischi per tutto il personale. Infine, l'organizzazione è impegnata attivamente nell'implementazione dei suoi processi di gestione dei rischi documentati.</p></td>
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">Processo definito</td>
+<td style="border:1px solid black;">L'organizzazione ha deciso formalmente di adottare la gestione dei rischi al fine di agevolare il programma di protezione informatica. È stato sviluppato un processo di base che prevede obiettivi chiaramente definiti con processi documentati per il raggiungimento e la misurazione dei risultati. Sono inoltre disponibili strumenti di formazione rudimentali sulla gestione dei rischi per tutto il personale. Infine, l'organizzazione è impegnata attivamente nell'implementazione dei suoi processi di gestione dei rischi documentati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>4</p></td>
-<td style="border:1px solid black;"><p>Gestito</p></td>
-<td style="border:1px solid black;"><p>Vi è una comprensione approfondita della gestione dei rischi a tutti i livelli dell'organizzazione. Esistono procedure di gestione dei rischi, il processo è ben definito e oggetto di comunicazioni di ampia portata, si attuano una formazione rigorosa e alcune forme di misurazione di base dell'efficacia del processo. Il programma di gestione dei rischi si avvale di un numero sufficiente di risorse, diverse aree dell'organizzazione ne traggono già i benefici e il Team di gestione dei rischi di protezione è in grado di migliorare costantemente i processi e gli strumenti utilizzati. La gestione dei rischi viene agevolata da alcuni strumenti tecnologici, anche se molte (o la maggior parte) delle procedure di valutazione dei rischi, identificazione dei controlli e analisi costi-benefici sono effettuate manualmente.</p></td>
+<td style="border:1px solid black;">4</td>
+<td style="border:1px solid black;">Gestito</td>
+<td style="border:1px solid black;">Vi è una comprensione approfondita della gestione dei rischi a tutti i livelli dell'organizzazione. Esistono procedure di gestione dei rischi, il processo è ben definito e oggetto di comunicazioni di ampia portata, si attuano una formazione rigorosa e alcune forme di misurazione di base dell'efficacia del processo. Il programma di gestione dei rischi si avvale di un numero sufficiente di risorse, diverse aree dell'organizzazione ne traggono già i benefici e il Team di gestione dei rischi di protezione è in grado di migliorare costantemente i processi e gli strumenti utilizzati. La gestione dei rischi viene agevolata da alcuni strumenti tecnologici, anche se molte (o la maggior parte) delle procedure di valutazione dei rischi, identificazione dei controlli e analisi costi-benefici sono effettuate manualmente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>5</p></td>
-<td style="border:1px solid black;"><p>Ottimizzato</p></td>
-<td style="border:1px solid black;"><p>L'organizzazione ha impegnato notevoli risorse nella gestione dei rischi di protezione e il personale ricerca attivamente le problematiche che potranno presentarsi nei mesi e negli anni a venire al fine di individuare le relative soluzioni. Il processo di gestione dei rischi è ben identificato e significativamente automatizzato mediante l'utilizzo di strumenti sviluppati all'interno dell'azienda oppure acquisiti da fornitori di software indipendenti. Si identificano le cause di tutti i problemi di protezione e si adottano azioni adeguate per minimizzare il rischio che si verifichino di nuovo. Sono disponibili opzioni di formazione mirata in base al livello di esperienza del personale.</p></td>
+<td style="border:1px solid black;">5</td>
+<td style="border:1px solid black;">Ottimizzato</td>
+<td style="border:1px solid black;">L'organizzazione ha impegnato notevoli risorse nella gestione dei rischi di protezione e il personale ricerca attivamente le problematiche che potranno presentarsi nei mesi e negli anni a venire al fine di individuare le relative soluzioni. Il processo di gestione dei rischi è ben identificato e significativamente automatizzato mediante l'utilizzo di strumenti sviluppati all'interno dell'azienda oppure acquisiti da fornitori di software indipendenti. Si identificano le cause di tutti i problemi di protezione e si adottano azioni adeguate per minimizzare il rischio che si verifichino di nuovo. Sono disponibili opzioni di formazione mirata in base al livello di esperienza del personale.</td>
 </tr>
 </tbody>
 </table>
@@ -300,7 +300,7 @@ La chiara definizione dei ruoli e delle responsabilità è un fattore fondamenta
   
 **Tabella 3.3: Principali ruoli e responsabilità del processo di gestione dei rischi di protezione Microsoft**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -308,50 +308,50 @@ La chiara definizione dei ruoli e delle responsabilità è un fattore fondamenta
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Titolo</p></th>
-<th><p>Principali responsabilità</p></th>
+<th>Titolo</th>
+<th>Principali responsabilità</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sponsor esecutivo</p></td>
-<td style="border:1px solid black;"><p>Sostiene tutte le attività associate alla gestione dei rischi aziendali, come ad esempio lo sviluppo, il finanziamento, l'autorizzazione e il supporto del Team di gestione dei rischi di protezione. Questo ruolo è solitamente rivestito da un dirigente, come il responsabile della protezione aziendale (CSO, Chief Security Officer) o del sistema informativo (CIO, Chief Information Officer). Il ruolo rappresenta inoltre il punto più alto del percorso di escalation per la definizione del rischio accettabile per l'azienda.</p></td>
+<td style="border:1px solid black;">Sponsor esecutivo</td>
+<td style="border:1px solid black;">Sostiene tutte le attività associate alla gestione dei rischi aziendali, come ad esempio lo sviluppo, il finanziamento, l'autorizzazione e il supporto del Team di gestione dei rischi di protezione. Questo ruolo è solitamente rivestito da un dirigente, come il responsabile della protezione aziendale (CSO, Chief Security Officer) o del sistema informativo (CIO, Chief Information Officer). Il ruolo rappresenta inoltre il punto più alto del percorso di escalation per la definizione del rischio accettabile per l'azienda.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Titolare dell'azienda</p></td>
-<td style="border:1px solid black;"><p>È responsabile di tutti i beni tangibili e non tangibili dell'azienda e della definizione delle relative priorità nonché dei livelli di impatto sui beni. I titolari dell'azienda sono generalmente incaricati della definizione dei livelli di rischio accettabili, tuttavia la decisione finale di accogliere o meno i suggerimenti del Gruppo protezione informatica spetta allo sponsor esecutivo.</p></td>
+<td style="border:1px solid black;">Titolare dell'azienda</td>
+<td style="border:1px solid black;">È responsabile di tutti i beni tangibili e non tangibili dell'azienda e della definizione delle relative priorità nonché dei livelli di impatto sui beni. I titolari dell'azienda sono generalmente incaricati della definizione dei livelli di rischio accettabili, tuttavia la decisione finale di accogliere o meno i suggerimenti del Gruppo protezione informatica spetta allo sponsor esecutivo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo protezione informatica</p></td>
-<td style="border:1px solid black;"><p>Ha la responsabilità del più ampio processo di gestione dei rischi, incluse le fasi di valutazione dei rischi e di misurazione dell'efficacia del programma. Definisce inoltre i requisiti funzionali di protezione, effettua le misurazioni dei controlli IT e dell'efficacia del programma di gestione dei rischi di protezione.</p></td>
+<td style="border:1px solid black;">Gruppo protezione informatica</td>
+<td style="border:1px solid black;">Ha la responsabilità del più ampio processo di gestione dei rischi, incluse le fasi di valutazione dei rischi e di misurazione dell'efficacia del programma. Definisce inoltre i requisiti funzionali di protezione, effettua le misurazioni dei controlli IT e dell'efficacia del programma di gestione dei rischi di protezione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gruppo IT</p></td>
-<td style="border:1px solid black;"><p>Si occupa della progettazione dell'architettura e degli aspetti tecnici e operativi del reparto IT.</p></td>
+<td style="border:1px solid black;">Gruppo IT</td>
+<td style="border:1px solid black;">Si occupa della progettazione dell'architettura e degli aspetti tecnici e operativi del reparto IT.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Team di gestione dei rischi di protezione</p></td>
-<td style="border:1px solid black;"><p>È responsabile dell'implementazione dell'intero programma di gestione dei rischi di protezione, nonché della fase di valutazione dei rischi e della definizione delle priorità dei rischi per l'organizzazione. Il team deve comprendere almeno due persone: un moderatore e un incaricato del verbale.</p></td>
+<td style="border:1px solid black;">Team di gestione dei rischi di protezione</td>
+<td style="border:1px solid black;">È responsabile dell'implementazione dell'intero programma di gestione dei rischi di protezione, nonché della fase di valutazione dei rischi e della definizione delle priorità dei rischi per l'organizzazione. Il team deve comprendere almeno due persone: un moderatore e un incaricato del verbale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Moderatore per la valutazione dei rischi</p></td>
-<td style="border:1px solid black;"><p>In qualità di responsabile del Team di gestione dei rischi di protezione, guida le discussioni sulla raccolta dei dati e può eventualmente essere incaricato della guida dell'intero processo di gestione dei rischi.</p></td>
+<td style="border:1px solid black;">Moderatore per la valutazione dei rischi</td>
+<td style="border:1px solid black;">In qualità di responsabile del Team di gestione dei rischi di protezione, guida le discussioni sulla raccolta dei dati e può eventualmente essere incaricato della guida dell'intero processo di gestione dei rischi.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Incaricato del verbale sulla valutazione dei rischi</p></td>
-<td style="border:1px solid black;"><p>Registra le informazioni dettagliate sui rischi emerse durante le discussioni sulla raccolta dei dati.</p></td>
+<td style="border:1px solid black;">Incaricato del verbale sulla valutazione dei rischi</td>
+<td style="border:1px solid black;">Registra le informazioni dettagliate sui rischi emerse durante le discussioni sulla raccolta dei dati.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Responsabili della riduzione dei rischi</p></td>
-<td style="border:1px solid black;"><p>Sono incaricati dell'implementazione e del sostegno delle soluzioni di controllo che consentono di ridurre i rischi a un livello accettabile. Comprendono il Gruppo IT e, in alcuni casi, i titolari dell'azienda.</p></td>
+<td style="border:1px solid black;">Responsabili della riduzione dei rischi</td>
+<td style="border:1px solid black;">Sono incaricati dell'implementazione e del sostegno delle soluzioni di controllo che consentono di ridurre i rischi a un livello accettabile. Comprendono il Gruppo IT e, in alcuni casi, i titolari dell'azienda.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Comitato direttivo per la protezione</p></td>
-<td style="border:1px solid black;"><p>Comprende il Team di gestione dei rischi di protezione, rappresentanti del Gruppo IT e specifici titolari dell'azienda. Il comitato, di solito presieduto dallo sponsor esecutivo, è responsabile della scelta delle strategie di riduzione dei rischi e della definizione del livello di rischi accettabile per l'organizzazione.</p></td>
+<td style="border:1px solid black;">Comitato direttivo per la protezione</td>
+<td style="border:1px solid black;">Comprende il Team di gestione dei rischi di protezione, rappresentanti del Gruppo IT e specifici titolari dell'azienda. Il comitato, di solito presieduto dallo sponsor esecutivo, è responsabile della scelta delle strategie di riduzione dei rischi e della definizione del livello di rischi accettabile per l'organizzazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Persone interessate</p></td>
-<td style="border:1px solid black;"><p>Termine generico riferito ai partecipanti diretti e indiretti a un determinato processo o programma e utilizzato in tutte le fasi del processo di gestione dei rischi di protezione Microsoft. Gli interessati possono anche essere persone che non si occupano di IT, come, ad esempio, personale dei reparti amministrativo, relazioni pubbliche e risorse umane.</p></td>
+<td style="border:1px solid black;">Persone interessate</td>
+<td style="border:1px solid black;">Termine generico riferito ai partecipanti diretti e indiretti a un determinato processo o programma e utilizzato in tutte le fasi del processo di gestione dei rischi di protezione Microsoft. Gli interessati possono anche essere persone che non si occupano di IT, come, ad esempio, personale dei reparti amministrativo, relazioni pubbliche e risorse umane.</td>
 </tr>
 </tbody>
 </table>

@@ -13,7 +13,7 @@ Nella tabella seguente, vengono illustrati i requisiti hardware minimi e vengono
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,20 +27,20 @@ Nella tabella seguente, vengono illustrati i requisiti hardware minimi e vengono
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PC con processore Pentium III (800 MHz o superiore)</p></td>
-<td style="border:1px solid black;"><p>PC con due processori Pentium 4 (1500 MHz o superiore)</p></td>
+<td style="border:1px solid black;">PC con processore Pentium III (800 MHz o superiore)</td>
+<td style="border:1px solid black;">PC con due processori Pentium 4 (1500 MHz o superiore)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>256 MB di RAM</p></td>
-<td style="border:1px solid black;"><p>512 MB di RAM</p></td>
+<td style="border:1px solid black;">256 MB di RAM</td>
+<td style="border:1px solid black;">512 MB di RAM</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>20 GB di spazio libero su disco rigido</p></td>
-<td style="border:1px solid black;"><p>40 GB di spazio libero su disco rigido</p></td>
+<td style="border:1px solid black;">20 GB di spazio libero su disco rigido</td>
+<td style="border:1px solid black;">40 GB di spazio libero su disco rigido</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Una scheda di rete</p></td>
-<td style="border:1px solid black;"><p>Una scheda di rete</p></td>
+<td style="border:1px solid black;">Una scheda di rete</td>
+<td style="border:1px solid black;">Una scheda di rete</td>
 </tr>
 </tbody>
 </table>

@@ -18,7 +18,7 @@ Nella tabella seguente, sono elencate le informazioni relative agli ID hardware 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -36,22 +36,22 @@ Nella tabella seguente, sono elencate le informazioni relative agli ID hardware 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_MachineId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(1,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">i_MachineId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY(1,1) Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>b_PubKeyHash</p></td>
-<td style="border:1px solid black;"><p>binary(20)</p></td>
-<td style="border:1px solid black;"><p>(20) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Hash dell'ID hardware</p></td>
+<td style="border:1px solid black;">b_PubKeyHash</td>
+<td style="border:1px solid black;">binary(20)</td>
+<td style="border:1px solid black;">(20) Non NULL</td>
+<td style="border:1px solid black;">Hash dell'ID hardware</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_CreateDate</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Data e ora dell'aggiunta della voce alla tabella</p></td>
+<td style="border:1px solid black;">dt_CreateDate</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Data e ora dell'aggiunta della voce alla tabella</td>
 </tr>
 </tbody>
 </table>
@@ -63,7 +63,7 @@ Nella tabella seguente, sono elencate le informazioni relative alle informazioni
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -81,16 +81,16 @@ Nella tabella seguente, sono elencate le informazioni relative alle informazioni
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_UserId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">i_UserId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i64_Puid</p></td>
-<td style="border:1px solid black;"><p>bigint</p></td>
-<td style="border:1px solid black;"><p>(50) NULL</p></td>
-<td style="border:1px solid black;"><p>ID utente di .NET Passport</p></td>
+<td style="border:1px solid black;">i64_Puid</td>
+<td style="border:1px solid black;">bigint</td>
+<td style="border:1px solid black;">(50) NULL</td>
+<td style="border:1px solid black;">ID utente di .NET Passport</td>
 </tr>
 </tbody>
 </table>
@@ -102,7 +102,7 @@ Nella tabella seguente, gli utenti certificati sono messi in relazione con le in
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -120,22 +120,22 @@ Nella tabella seguente, gli utenti certificati sono messi in relazione con le in
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_MachineId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">i_MachineId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_UserId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">i_UserId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_CreateDate</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Data e ora dell'aggiunta della voce alla tabella</p></td>
+<td style="border:1px solid black;">dt_CreateDate</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Data e ora dell'aggiunta della voce alla tabella</td>
 </tr>
 </tbody>
 </table>
@@ -147,7 +147,7 @@ Nella tabella seguente, sono elencate le informazioni relative ai dati utente.
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -165,82 +165,82 @@ Nella tabella seguente, sono elencate le informazioni relative ai dati utente.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_UserId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(1,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">i_UserId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY(1,1) Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>b_KeyData</p></td>
-<td style="border:1px solid black;"><p>varbinary(2000)</p></td>
-<td style="border:1px solid black;"><p>(2000) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Chiave privata/pubblica dell'utente crittografata</p></td>
+<td style="border:1px solid black;">b_KeyData</td>
+<td style="border:1px solid black;">varbinary(2000)</td>
+<td style="border:1px solid black;">(2000) Non NULL</td>
+<td style="border:1px solid black;">Chiave privata/pubblica dell'utente crittografata</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_KeyDataLength</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Lunghezza della chiave privata/pubblica non crittografata</p></td>
+<td style="border:1px solid black;">i_KeyDataLength</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Lunghezza della chiave privata/pubblica non crittografata</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>b_PublicKey</p></td>
-<td style="border:1px solid black;"><p>PublicKey</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Chiave pubblica dell'utente</p></td>
+<td style="border:1px solid black;">b_PublicKey</td>
+<td style="border:1px solid black;">PublicKey</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Chiave pubblica dell'utente</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_EncryptionDbId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice al certificato concessore di licenze utilizzato per crittografare la coppia chiave privata/pubblica</p></td>
+<td style="border:1px solid black;">i_EncryptionDbId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Indice al certificato concessore di licenze utilizzato per crittografare la coppia chiave privata/pubblica</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_Certificate</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>Non specificato</p></td>
-<td style="border:1px solid black;"><p>Non utilizzato</p></td>
+<td style="border:1px solid black;">s_Certificate</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">Non specificato</td>
+<td style="border:1px solid black;">Non utilizzato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_Expiration</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Data di scadenza della chiave dell'utente</p></td>
+<td style="border:1px solid black;">dt_Expiration</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Data di scadenza della chiave dell'utente</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_TemporaryExpiration</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Data e ora di scadenza per l'utilizzo temporaneo della chiave</p></td>
+<td style="border:1px solid black;">dt_TemporaryExpiration</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Data e ora di scadenza per l'utilizzo temporaneo della chiave</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>f_Modified</p></td>
-<td style="border:1px solid black;"><p>bit</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Non utilizzato</p></td>
+<td style="border:1px solid black;">f_Modified</td>
+<td style="border:1px solid black;">bit</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Non utilizzato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_Quota</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Livello corrente della quota per l'utente</p></td>
+<td style="border:1px solid black;">i_Quota</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Livello corrente della quota per l'utente</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_WaitDays</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Numero di giorni prima che le richieste di quote aggiuntive vengano accettate</p></td>
+<td style="border:1px solid black;">i_WaitDays</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Numero di giorni prima che le richieste di quote aggiuntive vengano accettate</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_LastConsumption</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Data e ora dell'ultima certificazione utente aggiuntiva</p></td>
+<td style="border:1px solid black;">dt_LastConsumption</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Data e ora dell'ultima certificazione utente aggiuntiva</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_CreateDate</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Data e ora dell'aggiunta della voce alla tabella</p></td>
+<td style="border:1px solid black;">dt_CreateDate</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Data e ora dell'aggiunta della voce alla tabella</td>
 </tr>
 </tbody>
 </table>
@@ -252,7 +252,7 @@ Nella tabella seguente, vengono elencati gli ID di tutti gli utenti certificati 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -270,16 +270,16 @@ Nella tabella seguente, vengono elencati gli ID di tutti gli utenti certificati 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_UserId</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">i_UserId</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_Sid</p></td>
-<td style="border:1px solid black;"><p>Sid</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>ID di protezione (SID) dell'utente</p></td>
+<td style="border:1px solid black;">s_Sid</td>
+<td style="border:1px solid black;">Sid</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">ID di protezione (SID) dell'utente</td>
 </tr>
 </tbody>
 </table>

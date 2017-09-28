@@ -13,7 +13,7 @@ Nella tabella seguente, sono elencate le corrispondenze dei diritti che è possi
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,52 +27,52 @@ Nella tabella seguente, sono elencate le corrispondenze dei diritti che è possi
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controllo completo</p></td>
-<td style="border:1px solid black;"><p>OWNER</p></td>
+<td style="border:1px solid black;">Controllo completo</td>
+<td style="border:1px solid black;">OWNER</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Visualizzazione diritti</p></td>
-<td style="border:1px solid black;"><p>VIEWRIGHT</p></td>
+<td style="border:1px solid black;">Visualizzazione diritti</td>
+<td style="border:1px solid black;">VIEWRIGHT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Esportazione (salva con nome)</p></td>
-<td style="border:1px solid black;"><p>EXPORT</p></td>
+<td style="border:1px solid black;">Esportazione (salva con nome)</td>
+<td style="border:1px solid black;">EXPORT</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Salvataggio</p></td>
-<td style="border:1px solid black;"><p>EDIT</p></td>
+<td style="border:1px solid black;">Salvataggio</td>
+<td style="border:1px solid black;">EDIT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Visualizzazione</p></td>
-<td style="border:1px solid black;"><p>VIEW</p></td>
+<td style="border:1px solid black;">Visualizzazione</td>
+<td style="border:1px solid black;">VIEW</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Stampa</p></td>
-<td style="border:1px solid black;"><p>PRINT</p></td>
+<td style="border:1px solid black;">Stampa</td>
+<td style="border:1px solid black;">PRINT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Estrazione</p></td>
-<td style="border:1px solid black;"><p>EXTRACT</p></td>
+<td style="border:1px solid black;">Estrazione</td>
+<td style="border:1px solid black;">EXTRACT</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Modifica</p></td>
-<td style="border:1px solid black;"><p>DOCEDIT</p></td>
+<td style="border:1px solid black;">Modifica</td>
+<td style="border:1px solid black;">DOCEDIT</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Abilitazione macro</p></td>
-<td style="border:1px solid black;"><p>OBJMODEL</p></td>
+<td style="border:1px solid black;">Abilitazione macro</td>
+<td style="border:1px solid black;">OBJMODEL</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Inoltro</p></td>
-<td style="border:1px solid black;"><p>FORWARD</p></td>
+<td style="border:1px solid black;">Inoltro</td>
+<td style="border:1px solid black;">FORWARD</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Risposta</p></td>
-<td style="border:1px solid black;"><p>REPLY</p></td>
+<td style="border:1px solid black;">Risposta</td>
+<td style="border:1px solid black;">REPLY</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Risposta a tutti</p></td>
-<td style="border:1px solid black;"><p>REPLYALL</p></td>
+<td style="border:1px solid black;">Risposta a tutti</td>
+<td style="border:1px solid black;">REPLYALL</td>
 </tr>
 </tbody>
 </table>

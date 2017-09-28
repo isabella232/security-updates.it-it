@@ -403,7 +403,7 @@ Una volta che sono state configurate le impostazioni di Windows Firewall, il suc
 
     **Tabella 1   Impostazioni di Consenti messaggi da computer con autenticazione IPSec per un ambiente Enterprise**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -412,27 +412,27 @@ Una volta che sono state configurate le impostazioni di Windows Firewall, il suc
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Impostazione</p></th>
-    <th><p>Descrizione</p></th>
-    <th><p>Note</p></th>
+    <th>Impostazione</th>
+    <th>Descrizione</th>
+    <th>Note</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Non configurata</strong></p></td>
-    <td style="border:1px solid black;"><p>Il GPO non cambia la configurazione corrente di Windows Firewall</p></td>
-    <td style="border:1px solid black;"><p> </p></td>
+    <td style="border:1px solid black;"><strong>Non configurata</strong></td>
+    <td style="border:1px solid black;">Il GPO non cambia la configurazione corrente di Windows Firewall</td>
+    <td style="border:1px solid black;"> </td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Attivata</strong></p></td>
-    <td style="border:1px solid black;"><p>Windows Firewall non elabora il traffico protetto da IPSec salvo quello proveniente dagli utenti o dai gruppi elencati nel criterio.</p></td>
-    <td style="border:1px solid black;"><p>La sintassi per elencare gli utenti e i gruppi segue il linguaggio SDDL standard. Per ulteriori informazioni, fare riferimento alle seguenti risorse:</p>
-    <p>&quot;<a href="http://go.microsoft.com/fwlink/?linkid=35503">Security Descriptor Definition Language</a>&quot; sul sito Web MSDN all'indirizzo http://go.microsoft.com/fwlink/?linkid=35503</p></td>
+    <td style="border:1px solid black;"><strong>Attivata</strong></td>
+    <td style="border:1px solid black;">Windows Firewall non elabora il traffico protetto da IPSec salvo quello proveniente dagli utenti o dai gruppi elencati nel criterio.</td>
+    <td style="border:1px solid black;">La sintassi per elencare gli utenti e i gruppi segue il linguaggio SDDL standard. Per ulteriori informazioni, fare riferimento alle seguenti risorse:
+    &quot;<a href="http://go.microsoft.com/fwlink/?linkid=35503">Security Descriptor Definition Language</a>&quot; sul sito Web MSDN all'indirizzo http://go.microsoft.com/fwlink/?linkid=35503</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Disattivata</strong></p></td>
-    <td style="border:1px solid black;"><p>Windows Firewall elabora il traffico protetto da IPSec.</p></td>
-    <td style="border:1px solid black;"><p> </p></td>
+    <td style="border:1px solid black;"><strong>Disattivata</strong></td>
+    <td style="border:1px solid black;">Windows Firewall elabora il traffico protetto da IPSec.</td>
+    <td style="border:1px solid black;"> </td>
     </tr>
     </tbody>
     </table>
@@ -453,7 +453,7 @@ Una volta che sono state configurate le impostazioni di Windows Firewall, il suc
   
     **Tabella 2   Impostazioni di Windows Firewall consigliate per un ambiente Enterprise**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="25%" />
@@ -463,96 +463,96 @@ Una volta che sono state configurate le impostazioni di Windows Firewall, il suc
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Impostazione</p></th>
-    <th><p>Descrizione</p></th>
-    <th><p>Profilo di dominio</p></th>
-    <th><p>Profilo standard</p></th>
+    <th>Impostazione</th>
+    <th>Descrizione</th>
+    <th>Profilo di dominio</th>
+    <th>Profilo standard</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Proteggi tutte le connessioni di rete</strong></p></td>
-    <td style="border:1px solid black;"><p>Specifica che in tutte le connessioni di rete deve essere attivato Windows Firewall</p></td>
-    <td style="border:1px solid black;"><p>Attivata</p></td>
-    <td style="border:1px solid black;"><p>Attivata</p></td>
+    <td style="border:1px solid black;"><strong>Proteggi tutte le connessioni di rete</strong></td>
+    <td style="border:1px solid black;">Specifica che in tutte le connessioni di rete deve essere attivato Windows Firewall</td>
+    <td style="border:1px solid black;">Attivata</td>
+    <td style="border:1px solid black;">Attivata</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Non consentire eccezioni</strong></p></td>
-    <td style="border:1px solid black;"><p>Specifica che tutto il traffico non richiesto deve essere ignorato, incluso il traffico elencato nelle eccezioni</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
-    <td style="border:1px solid black;"><p>Attivata, a meno che non sia necessario configurare eccezioni relative ai programmi</p></td>
+    <td style="border:1px solid black;"><strong>Non consentire eccezioni</strong></td>
+    <td style="border:1px solid black;">Specifica che tutto il traffico non richiesto deve essere ignorato, incluso il traffico elencato nelle eccezioni</td>
+    <td style="border:1px solid black;">Non configurata</td>
+    <td style="border:1px solid black;">Attivata, a meno che non sia necessario configurare eccezioni relative ai programmi</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Definisci eccezioni programmi</strong></p></td>
-    <td style="border:1px solid black;"><p>Definisce il traffico incluso nelle eccezioni in termini di nome file di programma</p></td>
-    <td style="border:1px solid black;"><p>Attivata e configurata per i programmi (applicazioni e servizi) utilizzati dai computer che eseguono Windows XP SP2 sulla rete</p></td>
-    <td style="border:1px solid black;"><p>Attivata e configurata per i programmi (applicazioni e servizi) utilizzati dai computer che eseguono Windows XP SP2 sulla rete</p></td>
+    <td style="border:1px solid black;"><strong>Definisci eccezioni programmi</strong></td>
+    <td style="border:1px solid black;">Definisce il traffico incluso nelle eccezioni in termini di nome file di programma</td>
+    <td style="border:1px solid black;">Attivata e configurata per i programmi (applicazioni e servizi) utilizzati dai computer che eseguono Windows XP SP2 sulla rete</td>
+    <td style="border:1px solid black;">Attivata e configurata per i programmi (applicazioni e servizi) utilizzati dai computer che eseguono Windows XP SP2 sulla rete</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Consenti eccezioni programmi locali</strong></p></td>
-    <td style="border:1px solid black;"><p>Consente la configurazione locale delle eccezioni relative ai programmi</p></td>
-    <td style="border:1px solid black;"><p>Disattivata, a meno che non sia necessario che gli amministratori locali configurino localmente le eccezioni relative ai programmi</p></td>
-    <td style="border:1px solid black;"><p>Disattivata</p></td>
+    <td style="border:1px solid black;"><strong>Consenti eccezioni programmi locali</strong></td>
+    <td style="border:1px solid black;">Consente la configurazione locale delle eccezioni relative ai programmi</td>
+    <td style="border:1px solid black;">Disattivata, a meno che non sia necessario che gli amministratori locali configurino localmente le eccezioni relative ai programmi</td>
+    <td style="border:1px solid black;">Disattivata</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Consenti eccezione per amministrazione remota</strong></p></td>
-    <td style="border:1px solid black;"><p>Consente la configurazione remota per mezzo degli appositi strumenti</p></td>
-    <td style="border:1px solid black;"><p>Disattivata, a meno che non si desideri attivare l'amministrazione remota dei computer con gli snap-in di MMC</p></td>
-    <td style="border:1px solid black;"><p>Disattivata</p></td>
+    <td style="border:1px solid black;"><strong>Consenti eccezione per amministrazione remota</strong></td>
+    <td style="border:1px solid black;">Consente la configurazione remota per mezzo degli appositi strumenti</td>
+    <td style="border:1px solid black;">Disattivata, a meno che non si desideri attivare l'amministrazione remota dei computer con gli snap-in di MMC</td>
+    <td style="border:1px solid black;">Disattivata</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Consenti eccezione per condivisione file e stampanti</strong></p></td>
-    <td style="border:1px solid black;"><p>Specifica se è consentito il traffico di condivisione di file e stampanti</p></td>
-    <td style="border:1px solid black;"><p>Disattivata, a meno che i computer con Windows XP SP2 non condividano risorse locali</p></td>
-    <td style="border:1px solid black;"><p>Disattivata</p></td>
+    <td style="border:1px solid black;"><strong>Consenti eccezione per condivisione file e stampanti</strong></td>
+    <td style="border:1px solid black;">Specifica se è consentito il traffico di condivisione di file e stampanti</td>
+    <td style="border:1px solid black;">Disattivata, a meno che i computer con Windows XP SP2 non condividano risorse locali</td>
+    <td style="border:1px solid black;">Disattivata</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Consenti eccezioni ICMP</strong></p></td>
-    <td style="border:1px solid black;"><p>Specifica i tipi di messaggi ICMP consentiti</p></td>
-    <td style="border:1px solid black;"><p>Disattivata, a meno che non si desideri utilizzare il comando ping per la risoluzione dei problemi</p></td>
-    <td style="border:1px solid black;"><p>Disattivata</p></td>
+    <td style="border:1px solid black;"><strong>Consenti eccezioni ICMP</strong></td>
+    <td style="border:1px solid black;">Specifica i tipi di messaggi ICMP consentiti</td>
+    <td style="border:1px solid black;">Disattivata, a meno che non si desideri utilizzare il comando ping per la risoluzione dei problemi</td>
+    <td style="border:1px solid black;">Disattivata</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Consenti eccezione per Desktop remoto</strong></p></td>
-    <td style="border:1px solid black;"><p>Specifica se il computer può accettare una richiesta di connessione basata su Desktop remoto</p></td>
-    <td style="border:1px solid black;"><p>Attivata</p></td>
-    <td style="border:1px solid black;"><p>Attivata</p></td>
+    <td style="border:1px solid black;"><strong>Consenti eccezione per Desktop remoto</strong></td>
+    <td style="border:1px solid black;">Specifica se il computer può accettare una richiesta di connessione basata su Desktop remoto</td>
+    <td style="border:1px solid black;">Attivata</td>
+    <td style="border:1px solid black;">Attivata</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Consenti eccezione per framework UPnP</strong></p></td>
-    <td style="border:1px solid black;"><p>Specifica se il computer può ricevere messaggi UPnP non richiesti</p></td>
-    <td style="border:1px solid black;"><p>Disattivata</p></td>
-    <td style="border:1px solid black;"><p>Disattivata</p></td>
+    <td style="border:1px solid black;"><strong>Consenti eccezione per framework UPnP</strong></td>
+    <td style="border:1px solid black;">Specifica se il computer può ricevere messaggi UPnP non richiesti</td>
+    <td style="border:1px solid black;">Disattivata</td>
+    <td style="border:1px solid black;">Disattivata</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Proibisci notifiche</strong></p></td>
-    <td style="border:1px solid black;"><p>Disattiva le notifiche</p></td>
-    <td style="border:1px solid black;"><p>Disattivata</p></td>
-    <td style="border:1px solid black;"><p>Disattivata</p></td>
+    <td style="border:1px solid black;"><strong>Proibisci notifiche</strong></td>
+    <td style="border:1px solid black;">Disattiva le notifiche</td>
+    <td style="border:1px solid black;">Disattivata</td>
+    <td style="border:1px solid black;">Disattivata</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Consenti registrazione</strong></p></td>
-    <td style="border:1px solid black;"><p>Consente di registrare il traffico e configurare le impostazioni del file registro</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
+    <td style="border:1px solid black;"><strong>Consenti registrazione</strong></td>
+    <td style="border:1px solid black;">Consente di registrare il traffico e configurare le impostazioni del file registro</td>
+    <td style="border:1px solid black;">Non configurata</td>
+    <td style="border:1px solid black;">Non configurata</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Impedisci risposte unicast a richieste multicast o broadcast</strong></p></td>
-    <td style="border:1px solid black;"><p>Elimina i pacchetti unicast ricevuti in risposta a messaggi di richieste multicast o broadcast</p></td>
-    <td style="border:1px solid black;"><p>Attivata</p></td>
-    <td style="border:1px solid black;"><p>Attivata</p></td>
+    <td style="border:1px solid black;"><strong>Impedisci risposte unicast a richieste multicast o broadcast</strong></td>
+    <td style="border:1px solid black;">Elimina i pacchetti unicast ricevuti in risposta a messaggi di richieste multicast o broadcast</td>
+    <td style="border:1px solid black;">Attivata</td>
+    <td style="border:1px solid black;">Attivata</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Definisci eccezioni porte</strong></p></td>
-    <td style="border:1px solid black;"><p>Specifica il traffico incluso nelle eccezioni in termini di TCP e UDP</p></td>
-    <td style="border:1px solid black;"><p>Disattivata</p></td>
-    <td style="border:1px solid black;"><p>Disattivata</p></td>
+    <td style="border:1px solid black;"><strong>Definisci eccezioni porte</strong></td>
+    <td style="border:1px solid black;">Specifica il traffico incluso nelle eccezioni in termini di TCP e UDP</td>
+    <td style="border:1px solid black;">Disattivata</td>
+    <td style="border:1px solid black;">Disattivata</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Consenti eccezioni porte locali</strong></p></td>
-    <td style="border:1px solid black;"><p>Consente la configurazione locale delle eccezioni relative alle porte</p></td>
-    <td style="border:1px solid black;"><p>Disattivata</p></td>
-    <td style="border:1px solid black;"><p>Disattivata</p></td>
+    <td style="border:1px solid black;"><strong>Consenti eccezioni porte locali</strong></td>
+    <td style="border:1px solid black;">Consente la configurazione locale delle eccezioni relative alle porte</td>
+    <td style="border:1px solid black;">Disattivata</td>
+    <td style="border:1px solid black;">Disattivata</td>
     </tr>
     </tbody>
     </table>
@@ -803,7 +803,7 @@ Per ulteriori informazioni sui controlli di Funzionalità di protezione, fare ri
   
     **Tabella 3   Impostazioni delle funzionalità di protezione di Internet Explorer**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="25%" />
@@ -813,90 +813,90 @@ Per ulteriori informazioni sui controlli di Funzionalità di protezione, fare ri
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Impostazione</p></th>
-    <th><p>Descrizione</p></th>
-    <th><p>Configurazione predefinita</p></th>
-    <th><p>Configurazione consigliata per un ambiente Enterprise</p></th>
+    <th>Impostazione</th>
+    <th>Descrizione</th>
+    <th>Configurazione predefinita</th>
+    <th>Configurazione consigliata per un ambiente Enterprise</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Restrizione di protezione comportamenti binari</strong></p></td>
-    <td style="border:1px solid black;"><p>Controlla se l'impostazione Restrizione di protezione comportamenti binari è negata o consentita</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
-    <td style="border:1px solid black;"><p>Aggiungere i comportamenti approvati dall'azienda all'elenco Comportamenti approvati da amministratori nella notazione #pacchetto#comportamento</p></td>
+    <td style="border:1px solid black;"><strong>Restrizione di protezione comportamenti binari</strong></td>
+    <td style="border:1px solid black;">Controlla se l'impostazione Restrizione di protezione comportamenti binari è negata o consentita</td>
+    <td style="border:1px solid black;">Non configurata</td>
+    <td style="border:1px solid black;">Aggiungere i comportamenti approvati dall'azienda all'elenco Comportamenti approvati da amministratori nella notazione #pacchetto#comportamento</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Limitazione protocollo di protezione MK</strong></p></td>
-    <td style="border:1px solid black;"><p>Riduce i rischi di sicurezza non consentendo il protocollo MK</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
-    <td style="border:1px solid black;"><p>Attivata per tutti i processi</p></td>
+    <td style="border:1px solid black;"><strong>Limitazione protocollo di protezione MK</strong></td>
+    <td style="border:1px solid black;">Riduce i rischi di sicurezza non consentendo il protocollo MK</td>
+    <td style="border:1px solid black;">Non configurata</td>
+    <td style="border:1px solid black;">Attivata per tutti i processi</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Blocco protezione area computer locale</strong></p></td>
-    <td style="border:1px solid black;"><p>Aiuta a limitare gli attacchi che utilizzano l'area Computer locale per caricare codice HTML dannoso</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
-    <td style="border:1px solid black;"><p>Attivata per tutti i processi</p></td>
+    <td style="border:1px solid black;"><strong>Blocco protezione area computer locale</strong></td>
+    <td style="border:1px solid black;">Aiuta a limitare gli attacchi che utilizzano l'area Computer locale per caricare codice HTML dannoso</td>
+    <td style="border:1px solid black;">Non configurata</td>
+    <td style="border:1px solid black;">Attivata per tutti i processi</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Gestione MIME coerente</strong></p></td>
-    <td style="border:1px solid black;"><p>Determina se Internet Explorer richiede che tutte le informazioni sul tipo file fornite dai server Web siano coerenti</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
-    <td style="border:1px solid black;"><p>Attivata per tutti i processi</p></td>
+    <td style="border:1px solid black;"><strong>Gestione MIME coerente</strong></td>
+    <td style="border:1px solid black;">Determina se Internet Explorer richiede che tutte le informazioni sul tipo file fornite dai server Web siano coerenti</td>
+    <td style="border:1px solid black;">Non configurata</td>
+    <td style="border:1px solid black;">Attivata per tutti i processi</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Funzionalità di protezione analisi MIME</strong></p></td>
-    <td style="border:1px solid black;"><p>Determina se l'analisi MIME di Internet Explorer deve impedire che un file di un certo tipo sia promosso a un tipo di file più pericoloso</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
-    <td style="border:1px solid black;"><p>Attivata per tutti i processi</p></td>
+    <td style="border:1px solid black;"><strong>Funzionalità di protezione analisi MIME</strong></td>
+    <td style="border:1px solid black;">Determina se l'analisi MIME di Internet Explorer deve impedire che un file di un certo tipo sia promosso a un tipo di file più pericoloso</td>
+    <td style="border:1px solid black;">Non configurata</td>
+    <td style="border:1px solid black;">Attivata per tutti i processi</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Protezione cache oggetti</strong></p></td>
-    <td style="border:1px solid black;"><p>Definisce se un riferimento a un oggetto è accessibile quando l'esplorazione dell'utente si limita all'interno di un dominio o raggiunge un nuovo dominio</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
-    <td style="border:1px solid black;"><p>Attivata per tutti i processi</p></td>
+    <td style="border:1px solid black;"><strong>Protezione cache oggetti</strong></td>
+    <td style="border:1px solid black;">Definisce se un riferimento a un oggetto è accessibile quando l'esplorazione dell'utente si limita all'interno di un dominio o raggiunge un nuovo dominio</td>
+    <td style="border:1px solid black;">Non configurata</td>
+    <td style="border:1px solid black;">Attivata per tutti i processi</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Restrizioni di protezione finestre impostate da script</strong></p></td>
-    <td style="border:1px solid black;"><p>Limita le finestre popup e impedisce agli script di visualizzare finestre in cui la barra del titolo e la barra di stato non sono visibili o coprono la barra del titolo o la barra di stato di altre finestre</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
-    <td style="border:1px solid black;"><p>Attivata per tutti i processi</p></td>
+    <td style="border:1px solid black;"><strong>Restrizioni di protezione finestre impostate da script</strong></td>
+    <td style="border:1px solid black;">Limita le finestre popup e impedisce agli script di visualizzare finestre in cui la barra del titolo e la barra di stato non sono visibili o coprono la barra del titolo o la barra di stato di altre finestre</td>
+    <td style="border:1px solid black;">Non configurata</td>
+    <td style="border:1px solid black;">Attivata per tutti i processi</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Protezione da promozione di area</strong></p></td>
-    <td style="border:1px solid black;"><p>Aiuta a proteggere l'area di protezione Computer locale</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
-    <td style="border:1px solid black;"><p>Attivata per tutti i processi</p></td>
+    <td style="border:1px solid black;"><strong>Protezione da promozione di area</strong></td>
+    <td style="border:1px solid black;">Aiuta a proteggere l'area di protezione Computer locale</td>
+    <td style="border:1px solid black;">Non configurata</td>
+    <td style="border:1px solid black;">Attivata per tutti i processi</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Barra informazioni</strong></p></td>
-    <td style="border:1px solid black;"><p>Indica se deve essere visualizzata la barra informazioni per i processi di Internet Explorer quando le installazioni di file o di codice sono sottoposte a restrizioni</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
-    <td style="border:1px solid black;"><p>Attivata per tutti i processi</p></td>
+    <td style="border:1px solid black;"><strong>Barra informazioni</strong></td>
+    <td style="border:1px solid black;">Indica se deve essere visualizzata la barra informazioni per i processi di Internet Explorer quando le installazioni di file o di codice sono sottoposte a restrizioni</td>
+    <td style="border:1px solid black;">Non configurata</td>
+    <td style="border:1px solid black;">Attivata per tutti i processi</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Limita installazione ActiveX</strong></p></td>
-    <td style="border:1px solid black;"><p>Consente di bloccare la richiesta di conferma dell'installazione di controlli ActiveX® per i processi di Internet Explorer</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
-    <td style="border:1px solid black;"><p>Attivata per tutti i processi</p></td>
+    <td style="border:1px solid black;"><strong>Limita installazione ActiveX</strong></td>
+    <td style="border:1px solid black;">Consente di bloccare la richiesta di conferma dell'installazione di controlli ActiveX® per i processi di Internet Explorer</td>
+    <td style="border:1px solid black;">Non configurata</td>
+    <td style="border:1px solid black;">Attivata per tutti i processi</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Limita download file</strong></p></td>
-    <td style="border:1px solid black;"><p>Consente di bloccare le richieste di conferma di download di file non originate dall'utente</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
-    <td style="border:1px solid black;"><p>Attivata per tutti i processi</p></td>
+    <td style="border:1px solid black;"><strong>Limita download file</strong></td>
+    <td style="border:1px solid black;">Consente di bloccare le richieste di conferma di download di file non originate dall'utente</td>
+    <td style="border:1px solid black;">Non configurata</td>
+    <td style="border:1px solid black;">Attivata per tutti i processi</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Gestione componenti aggiuntivi</strong></p></td>
-    <td style="border:1px solid black;"><p>Consente di assicurare che i componenti aggiuntivi di Internet Explorer non presenti nell'Elenco componenti aggiuntivi non siano consentiti</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
-    <td style="border:1px solid black;"><p>Attivata per tutti i componenti aggiuntivi a meno che non sia specificato diversamente nell'Elenco componenti aggiuntivi</p></td>
+    <td style="border:1px solid black;"><strong>Gestione componenti aggiuntivi</strong></td>
+    <td style="border:1px solid black;">Consente di assicurare che i componenti aggiuntivi di Internet Explorer non presenti nell'Elenco componenti aggiuntivi non siano consentiti</td>
+    <td style="border:1px solid black;">Non configurata</td>
+    <td style="border:1px solid black;">Attivata per tutti i componenti aggiuntivi a meno che non sia specificato diversamente nell'Elenco componenti aggiuntivi</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Blocco protocollo di rete</strong></p></td>
-    <td style="border:1px solid black;"><p>Specifica un elenco di protocolli con restrizioni per le seguenti aree di protezione: Internet, intranet, siti attendibili, siti con restrizioni e computer locale</p></td>
-    <td style="border:1px solid black;"><p>Non configurata</p></td>
-    <td style="border:1px solid black;"><p>Attiva protocolli specifici per ogni area di protezione</p></td>
+    <td style="border:1px solid black;"><strong>Blocco protocollo di rete</strong></td>
+    <td style="border:1px solid black;">Specifica un elenco di protocolli con restrizioni per le seguenti aree di protezione: Internet, intranet, siti attendibili, siti con restrizioni e computer locale</td>
+    <td style="border:1px solid black;">Non configurata</td>
+    <td style="border:1px solid black;">Attiva protocolli specifici per ogni area di protezione</td>
     </tr>
     </tbody>
     </table>
@@ -926,7 +926,7 @@ Per ulteriori informazioni sui controlli di Funzionalità di protezione, fare ri
   
         **Tabella 4   Impostazioni del Pannello di controllo Internet per area di protezione**
 
-<p> </p>
+ 
         <table style="border:1px solid black;">
         <colgroup>
         <col width="33%" />
@@ -935,48 +935,48 @@ Per ulteriori informazioni sui controlli di Funzionalità di protezione, fare ri
         </colgroup>
         <thead>
         <tr class="header">
-        <th><p>Impostazione</p></th>
-        <th><p>Configurazione consigliata</p></th>
-        <th><p>Livello consigliato</p></th>
+        <th>Impostazione</th>
+        <th>Configurazione consigliata</th>
+        <th>Livello consigliato</th>
         </tr>
         </thead>
         <tbody>
         <tr class="odd">
-        <td style="border:1px solid black;"><p><strong>Modello area Internet</strong></p></td>
-        <td style="border:1px solid black;"><p>Attivata</p></td>
-        <td style="border:1px solid black;"><p>Media</p></td>
+        <td style="border:1px solid black;"><strong>Modello area Internet</strong></td>
+        <td style="border:1px solid black;">Attivata</td>
+        <td style="border:1px solid black;">Media</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p><strong>Modello area Intranet</strong></p></td>
-        <td style="border:1px solid black;"><p>Attivata</p></td>
-        <td style="border:1px solid black;"><p>Medio-bassa</p></td>
+        <td style="border:1px solid black;"><strong>Modello area Intranet</strong></td>
+        <td style="border:1px solid black;">Attivata</td>
+        <td style="border:1px solid black;">Medio-bassa</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p><strong>Modello area siti attendibili</strong></p></td>
-        <td style="border:1px solid black;"><p>Attivata</p></td>
-        <td style="border:1px solid black;"><p>Bassa</p></td>
+        <td style="border:1px solid black;"><strong>Modello area siti attendibili</strong></td>
+        <td style="border:1px solid black;">Attivata</td>
+        <td style="border:1px solid black;">Bassa</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p><strong>Modello area siti con restrizioni</strong></p></td>
-        <td style="border:1px solid black;"><p>Attivata</p></td>
-        <td style="border:1px solid black;"><p>Alta</p></td>
+        <td style="border:1px solid black;"><strong>Modello area siti con restrizioni</strong></td>
+        <td style="border:1px solid black;">Attivata</td>
+        <td style="border:1px solid black;">Alta</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p><strong>Modello area computer locale</strong></p></td>
-        <td style="border:1px solid black;"><p>Attivata</p></td>
-        <td style="border:1px solid black;"><p>Bassa</p></td>
+        <td style="border:1px solid black;"><strong>Modello area computer locale</strong></td>
+        <td style="border:1px solid black;">Attivata</td>
+        <td style="border:1px solid black;">Bassa</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p><strong>Modello Area computer locale bloccata</strong></p></td>
-        <td style="border:1px solid black;"><p>Attivata</p></td>
-        <td style="border:1px solid black;"><p>Alta</p></td>
+        <td style="border:1px solid black;"><strong>Modello Area computer locale bloccata</strong></td>
+        <td style="border:1px solid black;">Attivata</td>
+        <td style="border:1px solid black;">Alta</td>
         </tr>
         </tbody>
         </table>
   
         **Tabella 5   Impostazioni del Pannello di controllo Internet per area di protezione**
 
-<p> </p>
+ 
         <table style="border:1px solid black;">
         <colgroup>
         <col width="33%" />
@@ -985,76 +985,76 @@ Per ulteriori informazioni sui controlli di Funzionalità di protezione, fare ri
         </colgroup>
         <thead>
         <tr class="header">
-        <th><p>Impostazione</p></th>
-        <th><p>Descrizione</p></th>
-        <th><p>Configurazione predefinita</p></th>
+        <th>Impostazione</th>
+        <th>Descrizione</th>
+        <th>Configurazione predefinita</th>
         </tr>
         </thead>
         <tbody>
         <tr class="odd">
-        <td style="border:1px solid black;"><p><strong>Scarica controlli ActiveX con firma elettronica</strong></p></td>
-        <td style="border:1px solid black;"><p>Gestisce il download dei controlli ActiveX con firma elettronica dall'area URL della pagina HTML che contiene il controllo.</p></td>
-        <td style="border:1px solid black;"><p>Non configurata</p></td>
+        <td style="border:1px solid black;"><strong>Scarica controlli ActiveX con firma elettronica</strong></td>
+        <td style="border:1px solid black;">Gestisce il download dei controlli ActiveX con firma elettronica dall'area URL della pagina HTML che contiene il controllo.</td>
+        <td style="border:1px solid black;">Non configurata</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p><strong>Scarica controlli ActiveX senza firma elettronica</strong></p></td>
-        <td style="border:1px solid black;"><p>Gestisce il download dei controlli ActiveX senza firma elettronica dall'area URL della pagina HTML che contiene il controllo.</p></td>
-        <td style="border:1px solid black;"><p>Non configurata</p></td>
+        <td style="border:1px solid black;"><strong>Scarica controlli ActiveX senza firma elettronica</strong></td>
+        <td style="border:1px solid black;">Gestisce il download dei controlli ActiveX senza firma elettronica dall'area URL della pagina HTML che contiene il controllo.</td>
+        <td style="border:1px solid black;">Non configurata</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p><strong>Inizializza e esegui script controlli ActiveX non contrassegnati come sicuri</strong></p></td>
-        <td style="border:1px solid black;"><p>Gestisce l'esecuzione dei controlli e dei plug-in ActiveX dalle pagine HTML dell'area.</p></td>
-        <td style="border:1px solid black;"><p>Non configurata</p></td>
+        <td style="border:1px solid black;"><strong>Inizializza e esegui script controlli ActiveX non contrassegnati come sicuri</strong></td>
+        <td style="border:1px solid black;">Gestisce l'esecuzione dei controlli e dei plug-in ActiveX dalle pagine HTML dell'area.</td>
+        <td style="border:1px solid black;">Non configurata</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p><strong>Esegui controlli e plug-in ActiveX</strong></p></td>
-        <td style="border:1px solid black;"><p>Determina se la protezione dell'oggetto controllo ActiveX viene ignorata o applicata per le pagine dell'area di protezione dell'URL. La protezione dell'oggetto dovrebbe essere ignorata solo se si è sicuri che tutti i controlli ActiveX e gli script che potrebbero interagire con essi nelle pagine dell'area non costituiscono un pericolo per la protezione. Aggregato dei flag URLACTION_ACTIVEX_OVERRIDE_DATA_SAFETY e URLACTION_ACTIVEX_OVERRIDE_SCRIPT_SAFETY.</p></td>
-        <td style="border:1px solid black;"><p>Non configurata</p></td>
+        <td style="border:1px solid black;"><strong>Esegui controlli e plug-in ActiveX</strong></td>
+        <td style="border:1px solid black;">Determina se la protezione dell'oggetto controllo ActiveX viene ignorata o applicata per le pagine dell'area di protezione dell'URL. La protezione dell'oggetto dovrebbe essere ignorata solo se si è sicuri che tutti i controlli ActiveX e gli script che potrebbero interagire con essi nelle pagine dell'area non costituiscono un pericolo per la protezione. Aggregato dei flag URLACTION_ACTIVEX_OVERRIDE_DATA_SAFETY e URLACTION_ACTIVEX_OVERRIDE_SCRIPT_SAFETY.</td>
+        <td style="border:1px solid black;">Non configurata</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p><strong>Consenti esecuzione script attivo</strong></p></td>
-        <td style="border:1px solid black;"><p>Determina se eseguire o meno il codice script nelle pagine dell'area di protezione URL.</p></td>
-        <td style="border:1px solid black;"><p>Non configurata</p></td>
+        <td style="border:1px solid black;"><strong>Consenti esecuzione script attivo</strong></td>
+        <td style="border:1px solid black;">Determina se eseguire o meno il codice script nelle pagine dell'area di protezione URL.</td>
+        <td style="border:1px solid black;">Non configurata</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p><strong>Esecuzione script delle applet Java</strong></p></td>
-        <td style="border:1px solid black;"><p>Determina se il codice script nelle pagine HTML dell'area di protezione URL può utilizzare le applet Java se le proprietà, i metodi e gli eventi delle applet sono accessibili da parte degli script.</p></td>
-        <td style="border:1px solid black;"><p>Non configurata</p></td>
+        <td style="border:1px solid black;"><strong>Esecuzione script delle applet Java</strong></td>
+        <td style="border:1px solid black;">Determina se il codice script nelle pagine HTML dell'area di protezione URL può utilizzare le applet Java se le proprietà, i metodi e gli eventi delle applet sono accessibili da parte degli script.</td>
+        <td style="border:1px solid black;">Non configurata</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p><strong>Esegui script controllo ActiveX contrassegnati come sicuri</strong></p></td>
-        <td style="border:1px solid black;"><p>Determina se è possibile utilizzare gli script per i controlli ActiveX sicuri.</p></td>
-        <td style="border:1px solid black;"><p>Non configurata</p></td>
+        <td style="border:1px solid black;"><strong>Esegui script controllo ActiveX contrassegnati come sicuri</strong></td>
+        <td style="border:1px solid black;">Determina se è possibile utilizzare gli script per i controlli ActiveX sicuri.</td>
+        <td style="border:1px solid black;">Non configurata</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p><strong>Accesso all'origine dati a livello di dominio</strong></p></td>
-        <td style="border:1px solid black;"><p>Determina se la risorsa è autorizzata ad accedere alle origini dati dei vari domini.</p></td>
-        <td style="border:1px solid black;"><p>Non configurata</p></td>
+        <td style="border:1px solid black;"><strong>Accesso all'origine dati a livello di dominio</strong></td>
+        <td style="border:1px solid black;">Determina se la risorsa è autorizzata ad accedere alle origini dati dei vari domini.</td>
+        <td style="border:1px solid black;">Non configurata</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p><strong>Consenti operazioni di copia tramite script</strong></p></td>
-        <td style="border:1px solid black;"><p>Determina se gli script possono eseguire operazioni di copia e incolla.</p></td>
-        <td style="border:1px solid black;"><p>Non configurata</p></td>
+        <td style="border:1px solid black;"><strong>Consenti operazioni di copia tramite script</strong></td>
+        <td style="border:1px solid black;">Determina se gli script possono eseguire operazioni di copia e incolla.</td>
+        <td style="border:1px solid black;">Non configurata</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p><strong>Invia dati modulo non crittografati</strong></p></td>
-        <td style="border:1px solid black;"><p>Determina se sono consentiti i moduli HTML contenuti nelle pagine dell'area di protezione URL o inviati ai server dell'area. Aggregato dei flag URLACTION_HTML_SUBMIT_FORMS_FROM e URLACTION_HTML_SUBMIT_FORMS_TO.</p></td>
-        <td style="border:1px solid black;"><p>Non configurata</p></td>
+        <td style="border:1px solid black;"><strong>Invia dati modulo non crittografati</strong></td>
+        <td style="border:1px solid black;">Determina se sono consentiti i moduli HTML contenuti nelle pagine dell'area di protezione URL o inviati ai server dell'area. Aggregato dei flag URLACTION_HTML_SUBMIT_FORMS_FROM e URLACTION_HTML_SUBMIT_FORMS_TO.</td>
+        <td style="border:1px solid black;">Non configurata</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p><strong>Consenti download dei caratteri</strong></p></td>
-        <td style="border:1px solid black;"><p>Determina se sono consentiti i download dei caratteri HTML.</p></td>
-        <td style="border:1px solid black;"><p>Non configurata</p></td>
+        <td style="border:1px solid black;"><strong>Consenti download dei caratteri</strong></td>
+        <td style="border:1px solid black;">Determina se sono consentiti i download dei caratteri HTML.</td>
+        <td style="border:1px solid black;">Non configurata</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p><strong>Persistenza dati utente</strong></p></td>
-        <td style="border:1px solid black;"><p>Determina se la persistenza dei dati dell'utente è attivata.</p></td>
-        <td style="border:1px solid black;"><p>Non configurata</p></td>
+        <td style="border:1px solid black;"><strong>Persistenza dati utente</strong></td>
+        <td style="border:1px solid black;">Determina se la persistenza dei dati dell'utente è attivata.</td>
+        <td style="border:1px solid black;">Non configurata</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p><strong>Esplora sottoframe in domini diversi</strong></p></td>
-        <td style="border:1px solid black;"><p>Determina se i sottoframe sono autorizzati a navigare nei vari domini.</p></td>
-        <td style="border:1px solid black;"><p>Non configurata</p></td>
+        <td style="border:1px solid black;"><strong>Esplora sottoframe in domini diversi</strong></td>
+        <td style="border:1px solid black;">Determina se i sottoframe sono autorizzati a navigare nei vari domini.</td>
+        <td style="border:1px solid black;">Non configurata</td>
         </tr>
         </tbody>
         </table>
@@ -1165,7 +1165,7 @@ Per ulteriori informazioni su come controllare l'uso dell'Aggiunta guidata risor
   
     **Tabella 6   Impostazioni di comunicazione Internet consigliate**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -1174,46 +1174,46 @@ Per ulteriori informazioni su come controllare l'uso dell'Aggiunta guidata risor
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Impostazione</p></th>
-    <th><p>Descrizione</p></th>
-    <th><p>Impostazione consigliata</p></th>
+    <th>Impostazione</th>
+    <th>Descrizione</th>
+    <th>Impostazione consigliata</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Disattiva l'operazione per file e cartelle Pubblica sul Web</strong></p></td>
-    <td style="border:1px solid black;"><p>Specifica se le attività Pubblica file sul Web, Pubblica cartella sul Web e Pubblica elementi selezionati sul Web sono disponibili da Operazioni file e cartella nelle cartelle di Windows</p></td>
-    <td style="border:1px solid black;"><p>Attivata</p></td>
+    <td style="border:1px solid black;"><strong>Disattiva l'operazione per file e cartelle Pubblica sul Web</strong></td>
+    <td style="border:1px solid black;">Specifica se le attività Pubblica file sul Web, Pubblica cartella sul Web e Pubblica elementi selezionati sul Web sono disponibili da Operazioni file e cartella nelle cartelle di Windows</td>
+    <td style="border:1px solid black;">Attivata</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Disattiva download Internet per le procedure di pubblicazione guidata sul Web e ordinazione guidata via Internet</strong></p></td>
-    <td style="border:1px solid black;"><p>Controlla se Windows scarica un elenco di provider nelle procedure guidate di pubblicazione sul Web e ordinazione via Internet</p></td>
-    <td style="border:1px solid black;"><p>Attivata</p></td>
+    <td style="border:1px solid black;"><strong>Disattiva download Internet per le procedure di pubblicazione guidata sul Web e ordinazione guidata via Internet</strong></td>
+    <td style="border:1px solid black;">Controlla se Windows scarica un elenco di provider nelle procedure guidate di pubblicazione sul Web e ordinazione via Internet</td>
+    <td style="border:1px solid black;">Attivata</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Disattiva Analisi utilizzo software Windows Messenger</strong></p></td>
-    <td style="border:1px solid black;"><p>Specifica se Windows Messenger raccoglie informazioni anonime sull'uso del software e del servizio Windows Messenger</p></td>
-    <td style="border:1px solid black;"><p>Attivata</p></td>
+    <td style="border:1px solid black;"><strong>Disattiva Analisi utilizzo software Windows Messenger</strong></td>
+    <td style="border:1px solid black;">Specifica se Windows Messenger raccoglie informazioni anonime sull'uso del software e del servizio Windows Messenger</td>
+    <td style="border:1px solid black;">Attivata</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Disattiva aggiornamenti file contenuto Ricerca guidata</strong></p></td>
-    <td style="border:1px solid black;"><p>Specifica se Ricerca guidata deve scaricare automaticamente gli aggiornamenti del contenuto durante le ricerche locali e in Internet</p></td>
-    <td style="border:1px solid black;"><p>Attivata</p></td>
+    <td style="border:1px solid black;"><strong>Disattiva aggiornamenti file contenuto Ricerca guidata</strong></td>
+    <td style="border:1px solid black;">Specifica se Ricerca guidata deve scaricare automaticamente gli aggiornamenti del contenuto durante le ricerche locali e in Internet</td>
+    <td style="border:1px solid black;">Attivata</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Disattiva stampa su HTTP</strong></p></td>
-    <td style="border:1px solid black;"><p>Consente di disattivare la stampa su HTTP dal client</p></td>
-    <td style="border:1px solid black;"><p>Attivata</p></td>
+    <td style="border:1px solid black;"><strong>Disattiva stampa su HTTP</strong></td>
+    <td style="border:1px solid black;">Consente di disattivare la stampa su HTTP dal client</td>
+    <td style="border:1px solid black;">Attivata</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p><strong>Disattiva download driver di stampa su HTTP</strong></p></td>
-    <td style="border:1px solid black;"><p>Controlla se il computer può scaricare i pacchetti dei driver di stampa su HTTP</p></td>
-    <td style="border:1px solid black;"><p>Attivata</p></td>
+    <td style="border:1px solid black;"><strong>Disattiva download driver di stampa su HTTP</strong></td>
+    <td style="border:1px solid black;">Controlla se il computer può scaricare i pacchetti dei driver di stampa su HTTP</td>
+    <td style="border:1px solid black;">Attivata</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p><strong>Disattiva ricerca driver periferiche in Windows Update</strong></p></td>
-    <td style="border:1px solid black;"><p>Specifica se Windows ricerca in Windows Update i driver di periferica se non sono presenti driver locali per una periferica</p></td>
-    <td style="border:1px solid black;"><p>Disattivata</p></td>
+    <td style="border:1px solid black;"><strong>Disattiva ricerca driver periferiche in Windows Update</strong></td>
+    <td style="border:1px solid black;">Specifica se Windows ricerca in Windows Update i driver di periferica se non sono presenti driver locali per una periferica</td>
+    <td style="border:1px solid black;">Disattivata</td>
     </tr>
     </tbody>
     </table>
@@ -1306,7 +1306,7 @@ Le impostazioni di restrizione predefinite di Windows XP SP2 sono riportate nel
   
 **Tabella 7   Restrizioni predefinite del controllo di accesso DCOM**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1316,29 +1316,29 @@ Le impostazioni di restrizione predefinite di Windows XP SP2 sono riportate nel
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Autorizzazione</p></th>
-<th><p>Amministratore</p></th>
-<th><p>Tutti</p></th>
-<th><p>Anonimo</p></th>
+<th>Autorizzazione</th>
+<th>Amministratore</th>
+<th>Tutti</th>
+<th>Anonimo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Avvio e attivazione</p></td>
-<td style="border:1px solid black;"><p>Avvio locale</p>
-<p>Attivazione locale</p>
-<p>Avvio remoto</p>
-<p>Attivazione remota</p></td>
-<td style="border:1px solid black;"><p>Avvio locale</p>
-<p>Attivazione locale</p></td>
-<td style="border:1px solid black;"><p>Nessuna autorizzazione impostata</p></td>
+<td style="border:1px solid black;">Avvio e attivazione</td>
+<td style="border:1px solid black;">Avvio locale
+Attivazione locale
+Avvio remoto
+Attivazione remota</td>
+<td style="border:1px solid black;">Avvio locale
+Attivazione locale</td>
+<td style="border:1px solid black;">Nessuna autorizzazione impostata</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Accesso</p></td>
-<td style="border:1px solid black;"><p>Nessuna autorizzazione impostata</p></td>
-<td style="border:1px solid black;"><p>Chiamate locali</p>
-<p>Chiamate remote</p></td>
-<td style="border:1px solid black;"><p>Chiamate locali</p></td>
+<td style="border:1px solid black;">Accesso</td>
+<td style="border:1px solid black;">Nessuna autorizzazione impostata</td>
+<td style="border:1px solid black;">Chiamate locali
+Chiamate remote</td>
+<td style="border:1px solid black;">Chiamate locali</td>
 </tr>
 </tbody>
 </table>

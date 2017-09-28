@@ -15,7 +15,7 @@ La dimensione di una voce di registro tipica è di circa 300 byte. Nella tabella
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -29,72 +29,72 @@ La dimensione di una voce di registro tipica è di circa 300 byte. Nella tabella
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>HostMachineName</p></td>
-<td style="border:1px solid black;"><p>Computer che ha gestito la richiesta.</p></td>
+<td style="border:1px solid black;">HostMachineName</td>
+<td style="border:1px solid black;">Computer che ha gestito la richiesta.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>HostMachineRequestId</p></td>
-<td style="border:1px solid black;"><p>Identificatore univoco della richiesta nel computer. La combinazione di HostMachineName e HostMachineRequestId consente di identificare in modo univoco la richiesta nel cluster.</p></td>
+<td style="border:1px solid black;">HostMachineRequestId</td>
+<td style="border:1px solid black;">Identificatore univoco della richiesta nel computer. La combinazione di HostMachineName e HostMachineRequestId consente di identificare in modo univoco la richiesta nel cluster.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RequestTime</p></td>
-<td style="border:1px solid black;"><p>Ora standard (UTC o ora di Greenwich) di ricezione della richiesta.</p></td>
+<td style="border:1px solid black;">RequestTime</td>
+<td style="border:1px solid black;">Ora standard (UTC o ora di Greenwich) di ricezione della richiesta.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RequestPath</p></td>
-<td style="border:1px solid black;"><p>URL relativo del file con estensione asmx, ad esempio: /_wmcs/licensing/License.asmx.</p></td>
+<td style="border:1px solid black;">RequestPath</td>
+<td style="border:1px solid black;">URL relativo del file con estensione asmx, ad esempio: /_wmcs/licensing/License.asmx.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RequestType</p></td>
-<td style="border:1px solid black;"><p>Nome del metodo Web richiamato, ad esempio: AcquireLicense.</p></td>
+<td style="border:1px solid black;">RequestType</td>
+<td style="border:1px solid black;">Nome del metodo Web richiamato, ad esempio: AcquireLicense.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>RequestUserAddress</p></td>
-<td style="border:1px solid black;"><p>Indirizzo IP di origine del richiedente.</p></td>
+<td style="border:1px solid black;">RequestUserAddress</td>
+<td style="border:1px solid black;">Indirizzo IP di origine del richiedente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RequestUserAgent</p></td>
-<td style="border:1px solid black;"><p>Valore agente utente dell'intestazione HTTP.</p></td>
+<td style="border:1px solid black;">RequestUserAgent</td>
+<td style="border:1px solid black;">Valore agente utente dell'intestazione HTTP.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthenticatedState</p></td>
-<td style="border:1px solid black;"><p>Indicazione del fatto che la connessione HTTP sia o meno autenticata (True/False).</p></td>
+<td style="border:1px solid black;">AuthenticatedState</td>
+<td style="border:1px solid black;">Indicazione del fatto che la connessione HTTP sia o meno autenticata (True/False).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SecureConnectionState</p></td>
-<td style="border:1px solid black;"><p>Indicazione del fatto che si tratti di una connessione SSL (True/False).</p></td>
+<td style="border:1px solid black;">SecureConnectionState</td>
+<td style="border:1px solid black;">Indicazione del fatto che si tratti di una connessione SSL (True/False).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>AuthenticatedId</p></td>
-<td style="border:1px solid black;"><p>Nome di accesso per le richieste autenticate. Vuoto se AuthenticatedState=False.</p></td>
+<td style="border:1px solid black;">AuthenticatedId</td>
+<td style="border:1px solid black;">Nome di accesso per le richieste autenticate. Vuoto se AuthenticatedState=False.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ReceivedXrMLDocument</p></td>
-<td style="border:1px solid black;"><p>Documento XrML ricevuto dal richiedente.</p></td>
+<td style="border:1px solid black;">ReceivedXrMLDocument</td>
+<td style="border:1px solid black;">Documento XrML ricevuto dal richiedente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ReceivedXrMLDocumentIssuerChain</p></td>
-<td style="border:1px solid black;"><p>Catena emittente del documento XrML ricevuto.</p></td>
+<td style="border:1px solid black;">ReceivedXrMLDocumentIssuerChain</td>
+<td style="border:1px solid black;">Catena emittente del documento XrML ricevuto.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IssuedXrMLDocument</p></td>
-<td style="border:1px solid black;"><p>Documento XrML restituito al richiedente.</p></td>
+<td style="border:1px solid black;">IssuedXrMLDocument</td>
+<td style="border:1px solid black;">Documento XrML restituito al richiedente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IssuedXrMLDocumentIssuerChain</p></td>
-<td style="border:1px solid black;"><p>Catena emittente del documento XrML emesso.</p></td>
+<td style="border:1px solid black;">IssuedXrMLDocumentIssuerChain</td>
+<td style="border:1px solid black;">Catena emittente del documento XrML emesso.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SuccessOrFailure</p></td>
-<td style="border:1px solid black;"><p>Indicazione del fatto che la richiesta sia stata elaborata correttamente o abbia generato un errore.</p></td>
+<td style="border:1px solid black;">SuccessOrFailure</td>
+<td style="border:1px solid black;">Indicazione del fatto che la richiesta sia stata elaborata correttamente o abbia generato un errore.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Metadata</p></td>
-<td style="border:1px solid black;"><p>Campo Metadati.</p></td>
+<td style="border:1px solid black;">Metadata</td>
+<td style="border:1px solid black;">Campo Metadati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ErrorInformation</p></td>
-<td style="border:1px solid black;"><p>Messaggio di errore descrittivo, nel caso in cui si verifichi un errore.</p></td>
+<td style="border:1px solid black;">ErrorInformation</td>
+<td style="border:1px solid black;">Messaggio di errore descrittivo, nel caso in cui si verifichi un errore.</td>
 </tr>
 </tbody>
 </table>

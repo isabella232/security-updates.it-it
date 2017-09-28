@@ -55,7 +55,7 @@ Il presente paragrafo descrive i requisiti software e hardware necessari per l'i
 -   È necessario avere installato uno dei seguenti sistemi operativi supportati:
     -   Windows Server 2008 R2
     -   Windows Server 2008 SP1 o versioni successive
-<p> </p>
+ 
         <table style="border:1px solid black;">
         <colgroup>
         <col width="100%" />
@@ -68,11 +68,11 @@ Il presente paragrafo descrive i requisiti software e hardware necessari per l'i
         <tbody>
         <tr class="odd">
         <td style="border:1px solid black;">Se WSUS 3.0 SP2 è installato su Windows Server 2008 prima di eseguire l'aggiornamento a Windows Server 2008 R2, l'aggiornamento a Windows Server 2008 R2 non verrà eseguito correttamente. Vedere la sezione <a href="#bkmk_knownissues">Problemi noti</a> per ulteriori informazioni.
-        <p></p></td>
+        </td>
         </tr>
         </tbody>
         </table>
-<p> </p>
+ 
 
     -   Windows Server 2003 SP1 o versioni successive
     -   Windows Small Business Server 2008
@@ -90,7 +90,7 @@ Il presente paragrafo descrive i requisiti software e hardware necessari per l'i
 -   Microsoft Management Console 3.0
 -   Microsoft Report Viewer Redistributable 2008
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -103,13 +103,13 @@ Il presente paragrafo descrive i requisiti software e hardware necessari per l'i
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Windows Server 2008 R2 richiede WSUS 3.0 SP2. Se si installa Windows Server 2008 R2 allora bisogna installare WSUS 3.0 SP2. Non installare WSUS 3.0 SP1 su Windows Server 2008 R2.
-<p></p>
+
 WSUS 3.0 SP2 non è supportato per l'utilizzo con Servizi terminal nel front-end server in una configurazione di SQL remoto.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ### Prerequisiti software Console di amministrazione WSUS
 
@@ -127,7 +127,7 @@ Il seguente elenco contiene i requisiti hardware minimi necessari per un'install
 -   2 GB minimo di spazio libero per il volume in cui verranno archiviati i file del database.
 -   20 GB minimo di spazio libero per il volume in cui verrà archiviato il contenuto, si consigliano 30 GB.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -140,11 +140,11 @@ Il seguente elenco contiene i requisiti hardware minimi necessari per un'install
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Non è possibile installare WSUS 3.0 su unità compresse.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Prerequisiti di configurazione e procedure consigliate per il server WSUS
 -------------------------------------------------------------------------
@@ -169,7 +169,7 @@ Se sono presenti due o più siti Web in funzione sulla porta 80 (per esempio Win
 
 Quando si installa WSUS 3.0 potrebbe essere necessario disattivare i programmi antivirus prima di riuscire a eseguire l'installazione. Dopo aver disattivato i software antivirus, riavviare il computer prima di installare WSUS. Il riavvio del computer impedisce che i file vengano bloccati quando il processo di installazione deve accedervi. Al termine dell'installazione, assicurarsi di riattivare il software antivirus. Visitare il sito Web del produttore del software antivirus per informazioni sulle procedure corrette relative alla disattivazione e riattivazione del software antivirus e sulla versione.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -182,13 +182,13 @@ Quando si installa WSUS 3.0 potrebbe essere necessario disattivare i programmi a
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Questa soluzione alternativa potrebbe rendere il computer o la rete in uso più vulnerabile agli attacchi da parte di utenti malintenzionati o di software dannoso, ad esempio virus. Non è consigliabile questa soluzione alternativa ma tali informazioni vengono fornite in modo che sia possibile implementarla a propria discrezione. Utilizzare questa soluzione alternativa a proprio rischio e pericolo.
-<p></p>
+
 Il software antivirus aiuta a proteggere il computer dai virus. Non scaricare o aprire file provenienti da origini non attendibili, visitare siti Web non attendibili o aprire allegati di posta elettronica quando il programma antivirus è disattivato.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ### Opzione Nested Triggers su SQL Server
 
@@ -318,7 +318,7 @@ Parametri di installazione da linea di comando per le installazioni automatiche 
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -332,24 +332,24 @@ Parametri di installazione da linea di comando per le installazioni automatiche 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/q</strong></p></td>
-<td style="border:1px solid black;"><p>Esegui installazione silenziosa.</p></td>
+<td style="border:1px solid black;"><strong>/q</strong></td>
+<td style="border:1px solid black;">Esegui installazione silenziosa.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>/u</strong></p></td>
-<td style="border:1px solid black;"><p>Disinstalla.</p></td>
+<td style="border:1px solid black;"><strong>/u</strong></td>
+<td style="border:1px solid black;">Disinstalla.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/p</strong></p></td>
-<td style="border:1px solid black;"><p>Controllo dei prerequisiti. Controllare il sistema e segnalare i prerequisiti mancanti.</p></td>
+<td style="border:1px solid black;"><strong>/p</strong></td>
+<td style="border:1px solid black;">Controllo dei prerequisiti. Controllare il sistema e segnalare i prerequisiti mancanti.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>/?, /h</strong></p></td>
-<td style="border:1px solid black;"><p>Visualizza i parametri da linea di comando e la loro descrizione.</p></td>
+<td style="border:1px solid black;"><strong>/?, /h</strong></td>
+<td style="border:1px solid black;">Visualizza i parametri da linea di comando e la loro descrizione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/g</strong></p></td>
-<td style="border:1px solid black;"><p>Aggiorna da una versione precedente di WSUS. (Gli aggiornamenti dalla versione 1.0 non sono supportati). L'unico parametro valido per questa opzione è /q (installazione silenziosa). L'unica proprietà valida per questa opzione è DEFAULT_WEBSITE.</p></td>
+<td style="border:1px solid black;"><strong>/g</strong></td>
+<td style="border:1px solid black;">Aggiorna da una versione precedente di WSUS. (Gli aggiornamenti dalla versione 1.0 non sono supportati). L'unico parametro valido per questa opzione è /q (installazione silenziosa). L'unica proprietà valida per questa opzione è DEFAULT_WEBSITE.</td>
 </tr>
 </tbody>
 </table>
@@ -358,7 +358,7 @@ Nella tabella seguente vengono indicate le proprietà della riga di comando per 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -372,64 +372,64 @@ Nella tabella seguente vengono indicate le proprietà della riga di comando per 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CONTENT_LOCAL</p></td>
-<td style="border:1px solid black;"><p>0=contenuto ospitato localmente, 1=contenuto ospitato su Microsoft Update</p></td>
+<td style="border:1px solid black;">CONTENT_LOCAL</td>
+<td style="border:1px solid black;">0=contenuto ospitato localmente, 1=contenuto ospitato su Microsoft Update</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CONTENT_DIR</p></td>
-<td style="border:1px solid black;"><p>Percorso della directory contenuto. Quello predefinito è <em>WSUSInstallationDrive\WSUS\WSUSContent</em>, dove <em>WSUSInstallationDrive</em> è l'unità locale con più spazio libero su disco.</p></td>
+<td style="border:1px solid black;">CONTENT_DIR</td>
+<td style="border:1px solid black;">Percorso della directory contenuto. Quello predefinito è <em>WSUSInstallationDrive\WSUS\WSUSContent</em>, dove <em>WSUSInstallationDrive</em> è l'unità locale con più spazio libero su disco.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>WYUKON_DATA_DIR</p></td>
-<td style="border:1px solid black;"><p>Percorso della directory dati del Database interno di Windows.</p></td>
+<td style="border:1px solid black;">WYUKON_DATA_DIR</td>
+<td style="border:1px solid black;">Percorso della directory dati del Database interno di Windows.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SQLINSTANCE_NAME</p></td>
-<td style="border:1px solid black;"><p>Il nome deve essere indicato nel formato <em>NomeServer</em>\<em>NomeIstanzaSQL</em>. Se l'istanza del database si trova nel computer locale, utilizzare la variabile di ambiente %COMPUTERNAME%. Se non è già disponibile un'istanza esistente, il valore predefinito è %COMPUTERNAME%\WSUS.</p></td>
+<td style="border:1px solid black;">SQLINSTANCE_NAME</td>
+<td style="border:1px solid black;">Il nome deve essere indicato nel formato <em>NomeServer</em>\<em>NomeIstanzaSQL</em>. Se l'istanza del database si trova nel computer locale, utilizzare la variabile di ambiente %COMPUTERNAME%. Se non è già disponibile un'istanza esistente, il valore predefinito è %COMPUTERNAME%\WSUS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DEFAULT_WEBSITE</p></td>
-<td style="border:1px solid black;"><p>0=porta 8530, 1=porta 80</p></td>
+<td style="border:1px solid black;">DEFAULT_WEBSITE</td>
+<td style="border:1px solid black;">0=porta 8530, 1=porta 80</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PREREQ_CHECK_LOG</p></td>
-<td style="border:1px solid black;"><p>Percorso e nome del file di log</p></td>
+<td style="border:1px solid black;">PREREQ_CHECK_LOG</td>
+<td style="border:1px solid black;">Percorso e nome del file di log</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CONSOLE_INSTALL</p></td>
-<td style="border:1px solid black;"><p>0=installare il server WSUS, 1=installare solo la console</p></td>
+<td style="border:1px solid black;">CONSOLE_INSTALL</td>
+<td style="border:1px solid black;">0=installare il server WSUS, 1=installare solo la console</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ENABLE_INVENTORY</p></td>
-<td style="border:1px solid black;"><p>0=non installa, 1=installa funzionalità inventario</p></td>
+<td style="border:1px solid black;">ENABLE_INVENTORY</td>
+<td style="border:1px solid black;">0=non installa, 1=installa funzionalità inventario</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DELETE_DATABASE</p></td>
-<td style="border:1px solid black;"><p>0=mantieni database, 1=rimuovi i file del database</p></td>
+<td style="border:1px solid black;">DELETE_DATABASE</td>
+<td style="border:1px solid black;">0=mantieni database, 1=rimuovi i file del database</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DELETE_CONTENT</p></td>
-<td style="border:1px solid black;"><p>0=mantieni contenuto, 1=rimuovi file di contenuto</p></td>
+<td style="border:1px solid black;">DELETE_CONTENT</td>
+<td style="border:1px solid black;">0=mantieni contenuto, 1=rimuovi file di contenuto</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DELETE_LOGS</p></td>
-<td style="border:1px solid black;"><p>0=mantieni log, 1=rimuovi file di log (utilizzati con lo switch di installazione /u)</p></td>
+<td style="border:1px solid black;">DELETE_LOGS</td>
+<td style="border:1px solid black;">0=mantieni log, 1=rimuovi file di log (utilizzati con lo switch di installazione /u)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CREATE_DATABASE</p></td>
-<td style="border:1px solid black;"><p>0=usa database corrente, 1=crea database</p></td>
+<td style="border:1px solid black;">CREATE_DATABASE</td>
+<td style="border:1px solid black;">0=usa database corrente, 1=crea database</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PROGRESS_WINDOW_HANDLE</p></td>
-<td style="border:1px solid black;"><p>Handle della finestra per restituire i messaggi di stato di Windows Installer</p></td>
+<td style="border:1px solid black;">PROGRESS_WINDOW_HANDLE</td>
+<td style="border:1px solid black;">Handle della finestra per restituire i messaggi di stato di Windows Installer</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MU_ROLLUP</p></td>
-<td style="border:1px solid black;"><p>1=partecipa al programma Analisi utilizzo Microsoft Update, 0=non partecipa programma di miglioramento di Microsoft Update</p></td>
+<td style="border:1px solid black;">MU_ROLLUP</td>
+<td style="border:1px solid black;">1=partecipa al programma Analisi utilizzo Microsoft Update, 0=non partecipa programma di miglioramento di Microsoft Update</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>FRONTEND_SETUP</p></td>
-<td style="border:1px solid black;"><p>1=non scrive il precorso del contenuto nel database, 0=scrive il percorso del contenuto nel database (per NLB)</p></td>
+<td style="border:1px solid black;">FRONTEND_SETUP</td>
+<td style="border:1px solid black;">1=non scrive il precorso del contenuto nel database, 0=scrive il percorso del contenuto nel database (per NLB)</td>
 </tr>
 </tbody>
 </table>
@@ -439,7 +439,7 @@ Nella tabella seguente vengono indicate le proprietà della riga di comando per 
 ```  
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (installa in modalità non interattiva utilizzando la porta 8530) WSUSSetup.exe /q /u (disinstalla WSUS)  
 ```
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -452,11 +452,11 @@ WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (installa in modalità non interattiva utili
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;">Se si installa WSUS 3.0 SP2 in modalità non interattiva (/q) e il computer non dispone di tutti i prerequisiti installati, l'installazione genererà un file denominato WSUSPreReqCheck.xml che verrà salvato nella directory %TEMP%.
-<p></p></td>
+</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 <span id="BKMK_KnownIssues"></span>
 Problemi noti

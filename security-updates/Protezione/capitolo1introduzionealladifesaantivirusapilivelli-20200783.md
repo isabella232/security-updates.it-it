@@ -71,7 +71,7 @@ Nella tabella riportata di seguito sono indicate le convenzioni stilistiche util
 
 **Tabella 1.1: Convenzioni di stile**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -79,66 +79,66 @@ Nella tabella riportata di seguito sono indicate le convenzioni stilistiche util
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento    </p></th>
-<th><p>Significato</p></th>
+<th>Elemento    </th>
+<th>Significato</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Grassetto</strong></p></td>
-<td style="border:1px solid black;"><p>Nomi di file ed elementi dell'interfaccia utente sono riportati in grassetto.</p></td>
+<td style="border:1px solid black;"><strong>Grassetto</strong></td>
+<td style="border:1px solid black;">Nomi di file ed elementi dell'interfaccia utente sono riportati in grassetto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>Corsivo</em><br />
+<td style="border:1px solid black;"><em>Corsivo</em><br />
 - o -<br />
-<em>&lt;Corsivo&gt;</em></p></td>
-<td style="border:1px solid black;"><p>Il corsivo viene applicato ai caratteri digitati dall'utente e che è possibile modificare. I caratteri in corsivo visualizzati tra parentesi ad angolo rappresentano segnaposto variabili in cui l'utente deve indicare valori specifici. Ad esempio:</p>
-<p><em>  &lt;Nomefile.ext&gt;</em> indica che è necessario sostituire il <em> </em><br />
+<em>&lt;Corsivo&gt;</em></td>
+<td style="border:1px solid black;">Il corsivo viene applicato ai caratteri digitati dall'utente e che è possibile modificare. I caratteri in corsivo visualizzati tra parentesi ad angolo rappresentano segnaposto variabili in cui l'utente deve indicare valori specifici. Ad esempio:
+<em>  &lt;Nomefile.ext&gt;</em> indica che è necessario sostituire il <em> </em><br />
 <em>  nomefile.ext</em> in corsivo con un altro nome di file appropriato per la<br />
   configurazione.<br />
-</p>
-<p>Il corsivo viene inoltre utilizzato per contraddistinguere i nuovi termini. Ad esempio:</p>
-<p><em>  Identità digitale -</em> Il codice di identificazione univoco e gli attributi descrittivi di<br />
-  una persona, un gruppo, una periferica o un servizio.</p></td>
+
+Il corsivo viene inoltre utilizzato per contraddistinguere i nuovi termini. Ad esempio:
+<em>  Identità digitale -</em> Il codice di identificazione univoco e gli attributi descrittivi di<br />
+  una persona, un gruppo, una periferica o un servizio.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Stile Testo su schermo</p></td>
-<td style="border:1px solid black;"><p>Con questo stile si definisce il testo visualizzato sullo schermo.</p></td>
+<td style="border:1px solid black;">Stile Testo su schermo</td>
+<td style="border:1px solid black;">Con questo stile si definisce il testo visualizzato sullo schermo.</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><pre><code>Codice a spaziatura fissa</code></pre>
 <br />
 </td>
-<td style="border:1px solid black;"><p>Questo stile viene utilizzato per definire gli esempi di codice. Esempio:<br />
-  public override void Install(IDictionary savedState)</p></td>
+<td style="border:1px solid black;">Questo stile viene utilizzato per definire gli esempi di codice. Esempio:<br />
+  public override void Install(IDictionary savedState)</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><pre><code>Comando a spaziatura fissa</code></pre>
 <br />
 </td>
-<td style="border:1px solid black;"><p>Con questo stile si definiscono comandi, switch e attributi digitati dall'utente al prompt dei comandi. Esempio:<br />
+<td style="border:1px solid black;">Con questo stile si definiscono comandi, switch e attributi digitati dall'utente al prompt dei comandi. Esempio:<br />
   Al prompt dei comandi, digitare:<br />
-  CScript SetUrlAuth.vbs</p></td>
+  CScript SetUrlAuth.vbs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>%SystemRoot%</p></td>
-<td style="border:1px solid black;"><p>Cartella di installazione del sistema operativo Windows.</p></td>
+<td style="border:1px solid black;">%SystemRoot%</td>
+<td style="border:1px solid black;">Cartella di installazione del sistema operativo Windows.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
-<td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari.</p></td>
+<td style="border:1px solid black;"><strong>Nota</strong></td>
+<td style="border:1px solid black;">Richiama l'attenzione del lettore su informazioni supplementari.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
-<td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari essenziali per il completamento dell'operazione.</p></td>
+<td style="border:1px solid black;"><strong>Importante</strong></td>
+<td style="border:1px solid black;">Richiama l'attenzione del lettore su informazioni supplementari essenziali per il completamento dell'operazione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Avviso</strong></p></td>
-<td style="border:1px solid black;"><p>Avvisa il lettore che l’inosservanza di un’azione specifica potrebbe provocare una perdita di dati.</p></td>
+<td style="border:1px solid black;"><strong>Avviso</strong></td>
+<td style="border:1px solid black;">Avvisa il lettore che l’inosservanza di un’azione specifica potrebbe provocare una perdita di dati.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Attenzione</strong></p></td>
-<td style="border:1px solid black;"><p>Avvisa il lettore che l’inosservanza di un’azione specifica potrebbe provocare lesioni fisiche all’utente o danni all’hardware.</p></td>
+<td style="border:1px solid black;"><strong>Attenzione</strong></td>
+<td style="border:1px solid black;">Avvisa il lettore che l’inosservanza di un’azione specifica potrebbe provocare lesioni fisiche all’utente o danni all’hardware.</td>
 </tr>
 </tbody>
 </table>

@@ -19,7 +19,7 @@ I seguenti passaggi sono forniti come esempio di alcuni degli elementi che il pi
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -35,82 +35,82 @@ I seguenti passaggi sono forniti come esempio di alcuni degli elementi che il pi
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Pilota</p></td>
-<td style="border:1px solid black;"><p>Backup del database di configurazione RMS.</p></td>
-<td style="border:1px solid black;"><p>Questo permette di ripristinare il server pilota se necessario.</p>
-<p>Il database di configurazione include la chiave privata di RMS.</p>
-<p>Assicurarsi di conoscere la password della chiave privata.</p></td>
+<td style="border:1px solid black;">Pilota</td>
+<td style="border:1px solid black;">Backup del database di configurazione RMS.</td>
+<td style="border:1px solid black;">Questo permette di ripristinare il server pilota se necessario.
+Il database di configurazione include la chiave privata di RMS.
+Assicurarsi di conoscere la password della chiave privata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Pilota</p></td>
-<td style="border:1px solid black;"><p>Se si è utilizzato un dispositivo di protezione hardware (HSM) per proteggere la chiave privata RMS, eseguire il backup della configurazione dell'HSM come indicato dal produttore.</p></td>
-<td style="border:1px solid black;"><p>L'HSM verrà ripristinato sul nuovo server.</p>
-<p>Assicurarsi di avere tutti i componenti necessari per installare e configurare l'HSM disponibile.</p></td>
+<td style="border:1px solid black;">Pilota</td>
+<td style="border:1px solid black;">Se si è utilizzato un dispositivo di protezione hardware (HSM) per proteggere la chiave privata RMS, eseguire il backup della configurazione dell'HSM come indicato dal produttore.</td>
+<td style="border:1px solid black;">L'HSM verrà ripristinato sul nuovo server.
+Assicurarsi di avere tutti i componenti necessari per installare e configurare l'HSM disponibile.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Pilota</p></td>
-<td style="border:1px solid black;"><p>Esportare il file del dominio di pubblicazione trusted.</p></td>
-<td style="border:1px solid black;"><p>Questo permette a un altro server RMS di decrittografare le licenze di pubblicazione create da questo server e di emettere licenze d'uso per il contenuto protetto.</p>
-<p>Il dominio di pubblicazione trusted include il certificato concessore di licenze server, la chiave privata RMS e qualsiasi modello di criteri per i diritti stabilito sul server.</p>
-<p>Il file del dominio di pubblicazione trusted è un file XML crittografato da una password complessa specificata al momento della creazione del file. È necessario avere anche questa password per importare il file del dominio di pubblicazione trusted.</p></td>
+<td style="border:1px solid black;">Pilota</td>
+<td style="border:1px solid black;">Esportare il file del dominio di pubblicazione trusted.</td>
+<td style="border:1px solid black;">Questo permette a un altro server RMS di decrittografare le licenze di pubblicazione create da questo server e di emettere licenze d'uso per il contenuto protetto.
+Il dominio di pubblicazione trusted include il certificato concessore di licenze server, la chiave privata RMS e qualsiasi modello di criteri per i diritti stabilito sul server.
+Il file del dominio di pubblicazione trusted è un file XML crittografato da una password complessa specificata al momento della creazione del file. È necessario avere anche questa password per importare il file del dominio di pubblicazione trusted.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Pilota</p></td>
-<td style="border:1px solid black;"><p>Esportazione del dominio utente trusted.</p></td>
-<td style="border:1px solid black;"><p>Questo permette a un altro server RMS di concedere licenze d'uso agli utenti i cui certificati per account con diritti (RAC) sono stati concessi dal server RMS pilota.</p>
-<p>Il dominio di utente trusted viene stabilito importando il certificato concessore di licenze server di questo server nell'altro server RMS.</p></td>
+<td style="border:1px solid black;">Pilota</td>
+<td style="border:1px solid black;">Esportazione del dominio utente trusted.</td>
+<td style="border:1px solid black;">Questo permette a un altro server RMS di concedere licenze d'uso agli utenti i cui certificati per account con diritti (RAC) sono stati concessi dal server RMS pilota.
+Il dominio di utente trusted viene stabilito importando il certificato concessore di licenze server di questo server nell'altro server RMS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Produzione</p></td>
-<td style="border:1px solid black;"><p>Preparare il nuovo server in modo che sia il server di certificazione principale.</p></td>
-<td style="border:1px solid black;"><p>Assicurarsi che possa accedere al server di database e che siano installati IIS e Accodamento messaggi.</p>
-<p>Se possibile, per questo server utilizzare lo stesso nome.</p></td>
+<td style="border:1px solid black;">Produzione</td>
+<td style="border:1px solid black;">Preparare il nuovo server in modo che sia il server di certificazione principale.</td>
+<td style="border:1px solid black;">Assicurarsi che possa accedere al server di database e che siano installati IIS e Accodamento messaggi.
+Se possibile, per questo server utilizzare lo stesso nome.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Produzione</p></td>
-<td style="border:1px solid black;"><p>Se si utilizza un HSM, installare l'HSM e ripristinare la sua configurazione dal backup creato sul server pilota.</p></td>
-<td style="border:1px solid black;"><p>Fornire le credenziali richieste per decrittografare la chiave RMS privata.</p></td>
+<td style="border:1px solid black;">Produzione</td>
+<td style="border:1px solid black;">Se si utilizza un HSM, installare l'HSM e ripristinare la sua configurazione dal backup creato sul server pilota.</td>
+<td style="border:1px solid black;">Fornire le credenziali richieste per decrittografare la chiave RMS privata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Produzione</p></td>
-<td style="border:1px solid black;"><p>Installare RMS.</p></td>
-<td style="border:1px solid black;"><p>RMS verificherà che tutti i servizi indispensabili siano installati e configurati correttamente.</p></td>
+<td style="border:1px solid black;">Produzione</td>
+<td style="border:1px solid black;">Installare RMS.</td>
+<td style="border:1px solid black;">RMS verificherà che tutti i servizi indispensabili siano installati e configurati correttamente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Produzione</p></td>
-<td style="border:1px solid black;"><p>Eseguire il provisioning di RMS utilizzando una nuova chiave privata. Se si utilizza la registrazione in linea, il server sarà registrato durante il processo di provisioning, utilizzando Internet per collegarsi ai Servizi Microsoft Enrollment. Se non si ha una connessione Internet dal server, è necessario utilizzare la registrazione fuori linea.</p></td>
-<td style="border:1px solid black;"><p>Se il nome del server è diverso dal nome del server pilota, è possibile modificare l'impostazione dell'URL del cluster in modo che abbia lo stesso URL del server pilota.</p>
-<p>In caso contrario, sarà necessario configurare un reindirizzamento di URL dall'URL del cluster precedente all'URL del nuovo cluster, per permettere agli utenti con contenuto preesistente di ottenere le licenze d'uso.</p></td>
+<td style="border:1px solid black;">Produzione</td>
+<td style="border:1px solid black;">Eseguire il provisioning di RMS utilizzando una nuova chiave privata. Se si utilizza la registrazione in linea, il server sarà registrato durante il processo di provisioning, utilizzando Internet per collegarsi ai Servizi Microsoft Enrollment. Se non si ha una connessione Internet dal server, è necessario utilizzare la registrazione fuori linea.</td>
+<td style="border:1px solid black;">Se il nome del server è diverso dal nome del server pilota, è possibile modificare l'impostazione dell'URL del cluster in modo che abbia lo stesso URL del server pilota.
+In caso contrario, sarà necessario configurare un reindirizzamento di URL dall'URL del cluster precedente all'URL del nuovo cluster, per permettere agli utenti con contenuto preesistente di ottenere le licenze d'uso.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Produzione</p></td>
-<td style="border:1px solid black;"><p>Se si utilizza la registrazione fuori linea, completare il processo di registrazione manuale per il nuovo server RMS. Per ulteriori informazioni, vedere “Per registrare manualmente un server di certificazione principale” in “Utilizzo di un server RMS”, in questa documentazione.</p></td>
-<td style="border:1px solid black;"><p>Il server RMS non può essere utilizzato fino a quando non è stato registrato.</p>
-<p>Inoltre, non è possibile accedere alle pagine di amministrazione RMS fino a quando il server non è stato registrato.</p></td>
+<td style="border:1px solid black;">Produzione</td>
+<td style="border:1px solid black;">Se si utilizza la registrazione fuori linea, completare il processo di registrazione manuale per il nuovo server RMS. Per ulteriori informazioni, vedere “Per registrare manualmente un server di certificazione principale” in “Utilizzo di un server RMS”, in questa documentazione.</td>
+<td style="border:1px solid black;">Il server RMS non può essere utilizzato fino a quando non è stato registrato.
+Inoltre, non è possibile accedere alle pagine di amministrazione RMS fino a quando il server non è stato registrato.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Produzione</p></td>
-<td style="border:1px solid black;"><p>Importare il file del dominio di pubblicazione trusted esportato nel passaggio 3.</p></td>
-<td style="border:1px solid black;"><p>L'account di servizio RMS deve avere autorizzazioni di lettura sull'ubicazione in cui è memorizzato il file per poter importare il file con successo.</p></td>
+<td style="border:1px solid black;">Produzione</td>
+<td style="border:1px solid black;">Importare il file del dominio di pubblicazione trusted esportato nel passaggio 3.</td>
+<td style="border:1px solid black;">L'account di servizio RMS deve avere autorizzazioni di lettura sull'ubicazione in cui è memorizzato il file per poter importare il file con successo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Produzione</p></td>
-<td style="border:1px solid black;"><p>Firmare di nuovo ogni modello che era stato importato con il dominio di pubblicazione trusted.</p></td>
-<td style="border:1px solid black;"><p>I modelli sono firmati con la chiave privata server. Poiché questo server ha una nuova chiave privata, i modelli devono essere firmati per essere validi. Per ulteriori informazioni, vedere “Per firmare di nuovo un modello di criteri per i diritti” in “Utilizzo di un server RMS”, in questa documentazione.</p></td>
+<td style="border:1px solid black;">Produzione</td>
+<td style="border:1px solid black;">Firmare di nuovo ogni modello che era stato importato con il dominio di pubblicazione trusted.</td>
+<td style="border:1px solid black;">I modelli sono firmati con la chiave privata server. Poiché questo server ha una nuova chiave privata, i modelli devono essere firmati per essere validi. Per ulteriori informazioni, vedere “Per firmare di nuovo un modello di criteri per i diritti” in “Utilizzo di un server RMS”, in questa documentazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Produzione</p></td>
-<td style="border:1px solid black;"><p>Ridistribuire i modelli sui computer client che hanno partecipato al progetto pilota.</p></td>
-<td style="border:1px solid black;"><p>I vecchi modelli devono essere rimossi e sostituiti con i modelli firmati da questo server.</p></td>
+<td style="border:1px solid black;">Produzione</td>
+<td style="border:1px solid black;">Ridistribuire i modelli sui computer client che hanno partecipato al progetto pilota.</td>
+<td style="border:1px solid black;">I vecchi modelli devono essere rimossi e sostituiti con i modelli firmati da questo server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Produzione</p></td>
-<td style="border:1px solid black;"><p>Importare il file del dominio utente trusted esportato nel passaggio 4.</p></td>
-<td style="border:1px solid black;"><p>Permette di utilizzare i vecchi certificati concessori di licenze client e RAC.</p>
-<p>Se gli account utente vengono spostati fra gli insiemi di strutture in seguito alla migrazione, si osservi che gli account devono avere proxy SMTP corrispondenti.</p></td>
+<td style="border:1px solid black;">Produzione</td>
+<td style="border:1px solid black;">Importare il file del dominio utente trusted esportato nel passaggio 4.</td>
+<td style="border:1px solid black;">Permette di utilizzare i vecchi certificati concessori di licenze client e RAC.
+Se gli account utente vengono spostati fra gli insiemi di strutture in seguito alla migrazione, si osservi che gli account devono avere proxy SMTP corrispondenti.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Una volta terminata la configurazione del server di produzione, verificare che gli utenti pilota possano ancora creare e leggere la posta precedentemente protetta. È possibile quindi aggiungere al cluster tanti server RMS quanti sono necessari per supportare il numero di utenti dell'organizzazione.

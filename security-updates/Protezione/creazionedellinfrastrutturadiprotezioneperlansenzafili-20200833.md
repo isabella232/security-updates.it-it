@@ -75,7 +75,7 @@ Di seguito sono indicati gli strumenti necessari per eseguire le procedure ripor
 
 **Tabella 5.1: Strumenti necessari**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -84,26 +84,26 @@ Di seguito sono indicati gli strumenti necessari per eseguire le procedure ripor
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Strumento</p></th>
-<th><p>Descrizione</p></th>
-<th><p>Origine</p></th>
+<th>Strumento</th>
+<th>Descrizione</th>
+<th>Origine</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS Secure WLAN Scripts</p></td>
-<td style="border:1px solid black;"><p>Set di script e strumenti forniti con la soluzione.</p></td>
-<td style="border:1px solid black;"><p>Descritto nel capitolo 3 &quot;Predisposizione dell'ambiente&quot;.</p></td>
+<td style="border:1px solid black;">MSS Secure WLAN Scripts</td>
+<td style="border:1px solid black;">Set di script e strumenti forniti con la soluzione.</td>
+<td style="border:1px solid black;">Descritto nel capitolo 3 &quot;Predisposizione dell'ambiente&quot;.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Servizio di Autenticazione Internet</strong></p></td>
-<td style="border:1px solid black;"><p>Strumento di MMC (Microsoft® Management Console) utilizzato per la gestione delle impostazioni e dei criteri di IAS.</p></td>
-<td style="border:1px solid black;"><p>Fornito con Windows Server™ 2003.</p></td>
+<td style="border:1px solid black;"><strong>Servizio di Autenticazione Internet</strong></td>
+<td style="border:1px solid black;">Strumento di MMC (Microsoft® Management Console) utilizzato per la gestione delle impostazioni e dei criteri di IAS.</td>
+<td style="border:1px solid black;">Fornito con Windows Server™ 2003.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Utenti e computer di Active Directory</strong></p></td>
-<td style="border:1px solid black;"><p>Strumento di MMC utilizzato per la gestione di utenti, gruppi, computer e altri oggetti Active Directory del servizio directory Microsoft Active Directory®.</p></td>
-<td style="border:1px solid black;"><p>Fornito con Windows Server 2003.</p></td>
+<td style="border:1px solid black;"><strong>Utenti e computer di Active Directory</strong></td>
+<td style="border:1px solid black;">Strumento di MMC utilizzato per la gestione di utenti, gruppi, computer e altri oggetti Active Directory del servizio directory Microsoft Active Directory®.</td>
+<td style="border:1px solid black;">Fornito con Windows Server 2003.</td>
 </tr>
 </tbody>
 </table>
@@ -114,7 +114,7 @@ Nella seguente tabella sono riportati i parametri principali utilizzati per l'in
   
 **Tabella 5.2: Parametri di configurazione del server IAS**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -122,80 +122,80 @@ Nella seguente tabella sono riportati i parametri principali utilizzati per l'in
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Registrazione di IAS nel registro eventi di Windows</strong></p></td>
+<td style="border:1px solid black;"><strong>Registrazione di IAS nel registro eventi di Windows</strong></td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Richieste di autenticazione rifiutate</p></td>
-<td style="border:1px solid black;"><p>Abilitato</p></td>
+<td style="border:1px solid black;">Richieste di autenticazione rifiutate</td>
+<td style="border:1px solid black;">Abilitato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Richieste di autenticazione riuscite</p></td>
-<td style="border:1px solid black;"><p>Abilitato</p></td>
+<td style="border:1px solid black;">Richieste di autenticazione riuscite</td>
+<td style="border:1px solid black;">Abilitato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Registrazione RADIUS di IAS</strong></p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;"><strong>Registrazione RADIUS di IAS</strong></td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Criteri di accesso remoto</strong></p></td>
+<td style="border:1px solid black;"><strong>Criteri di accesso remoto</strong></td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome dei criteri di accesso remoto</p></td>
-<td style="border:1px solid black;"><p>Consenti accesso LAN senza fili</p></td>
+<td style="border:1px solid black;">Nome dei criteri di accesso remoto</td>
+<td style="border:1px solid black;">Consenti accesso LAN senza fili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo di protezione per concedere l'accesso a</p></td>
-<td style="border:1px solid black;"><p>Accesso LAN senza fili</p></td>
+<td style="border:1px solid black;">Gruppo di protezione per concedere l'accesso a</td>
+<td style="border:1px solid black;">Accesso LAN senza fili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tipo di EAP utilizzato</p></td>
-<td style="border:1px solid black;"><p>PEAP (Protected Extensible Authentication Protocol)</p></td>
+<td style="border:1px solid black;">Tipo di EAP utilizzato</td>
+<td style="border:1px solid black;">PEAP (Protected Extensible Authentication Protocol)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tipo di EAP PEAP utilizzato</p></td>
-<td style="border:1px solid black;"><p>EAP MS-CHAP v2</p></td>
+<td style="border:1px solid black;">Tipo di EAP PEAP utilizzato</td>
+<td style="border:1px solid black;">EAP MS-CHAP v2</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Riconnessione rapida</p></td>
-<td style="border:1px solid black;"><p>Abilitato</p></td>
+<td style="border:1px solid black;">Riconnessione rapida</td>
+<td style="border:1px solid black;">Abilitato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Profilo dei criteri di accesso remoto</strong></p></td>
+<td style="border:1px solid black;"><strong>Profilo dei criteri di accesso remoto</strong></td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Durata connessione client (timeout sessione)</p></td>
-<td style="border:1px solid black;"><p>60 minuti</p>
-<p>Può essere ridotta a 15 minuti per le reti WLAN 802.11a/g a 54 Mbps</p></td>
+<td style="border:1px solid black;">Durata connessione client (timeout sessione)</td>
+<td style="border:1px solid black;">60 minuti
+Può essere ridotta a 15 minuti per le reti WLAN 802.11a/g a 54 Mbps</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attributi RADIUS</p></td>
-<td style="border:1px solid black;"><p>Ignore-User-Dialin-Properties = &quot;True&quot;</p>
-<p>Termination Action = &quot;RADIUS-Request&quot;</p></td>
+<td style="border:1px solid black;">Attributi RADIUS</td>
+<td style="border:1px solid black;">Ignore-User-Dialin-Properties = &quot;True&quot;
+Termination Action = &quot;RADIUS-Request&quot;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Criterio richiesta di connessione</strong></p></td>
+<td style="border:1px solid black;"><strong>Criterio richiesta di connessione</strong></td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome criterio</p></td>
-<td style="border:1px solid black;"><p>Utilizza autenticazione Windows per tutti gli utenti</p></td>
+<td style="border:1px solid black;">Nome criterio</td>
+<td style="border:1px solid black;">Utilizza autenticazione Windows per tutti gli utenti</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Condizioni del criterio</p></td>
-<td style="border:1px solid black;"><p>Day-and-Time-Restrictions = All times</p></td>
+<td style="border:1px solid black;">Condizioni del criterio</td>
+<td style="border:1px solid black;">Day-and-Time-Restrictions = All times</td>
 </tr>
 </tbody>
 </table>
@@ -668,7 +668,7 @@ Nella seguente tabella vengono indicate le impostazioni necessarie per la config
   
 **Tabella 5.3: Configurazione punti di accesso senza fili**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -676,117 +676,117 @@ Nella seguente tabella vengono indicate le impostazioni necessarie per la config
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Impostazione</p></th>
+<th>Elemento</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Parametri di autenticazione</strong></p></td>
+<td style="border:1px solid black;"><strong>Parametri di autenticazione</strong></td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Modalità di autenticazione</p></td>
-<td style="border:1px solid black;"><p>Autenticazione 802.1X</p></td>
+<td style="border:1px solid black;">Modalità di autenticazione</td>
+<td style="border:1px solid black;">Autenticazione 802.1X</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Riautenticazione</p></td>
-<td style="border:1px solid black;"><p>Abilita</p></td>
+<td style="border:1px solid black;">Riautenticazione</td>
+<td style="border:1px solid black;">Abilita</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Reimpostazione chiavi rapida/dinamica</p></td>
-<td style="border:1px solid black;"><p>Abilita</p></td>
+<td style="border:1px solid black;">Reimpostazione chiavi rapida/dinamica</td>
+<td style="border:1px solid black;">Abilita</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Timeout aggiornamento chiavi</p></td>
-<td style="border:1px solid black;"><p>60 minuti</p></td>
+<td style="border:1px solid black;">Timeout aggiornamento chiavi</td>
+<td style="border:1px solid black;">60 minuti</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Parametri di crittografia (impostazioni in genere collegate alla crittografia WEP statica)</strong></p></td>
-<td style="border:1px solid black;"><p>(I parametri di crittografia possono essere disabilitati o sottoposti a overriding quando è abilitata la reimpostazione rapida delle chiavi)</p></td>
+<td style="border:1px solid black;"><strong>Parametri di crittografia (impostazioni in genere collegate alla crittografia WEP statica)</strong></td>
+<td style="border:1px solid black;">(I parametri di crittografia possono essere disabilitati o sottoposti a overriding quando è abilitata la reimpostazione rapida delle chiavi)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Abilita crittografia</p></td>
-<td style="border:1px solid black;"><p>Abilita</p></td>
+<td style="border:1px solid black;">Abilita crittografia</td>
+<td style="border:1px solid black;">Abilita</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Rifiuta non crittografati</p></td>
-<td style="border:1px solid black;"><p>Abilita</p></td>
+<td style="border:1px solid black;">Rifiuta non crittografati</td>
+<td style="border:1px solid black;">Abilita</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Autenticazione RADIUS</strong></p></td>
+<td style="border:1px solid black;"><strong>Autenticazione RADIUS</strong></td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Abilita autenticazione RADIUS</p></td>
-<td style="border:1px solid black;"><p>Abilita</p></td>
+<td style="border:1px solid black;">Abilita autenticazione RADIUS</td>
+<td style="border:1px solid black;">Abilita</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Server autenticazione RADIUS primario</p></td>
-<td style="border:1px solid black;"><p>Indirizzo IP server IAS primario</p></td>
+<td style="border:1px solid black;">Server autenticazione RADIUS primario</td>
+<td style="border:1px solid black;">Indirizzo IP server IAS primario</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Porta server RADIUS primario</p></td>
-<td style="border:1px solid black;"><p>1812 (predefinita)</p></td>
+<td style="border:1px solid black;">Porta server RADIUS primario</td>
+<td style="border:1px solid black;">1812 (predefinita)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Server autenticazione RADIUS secondario</p></td>
-<td style="border:1px solid black;"><p>Indirizzo IP server IAS secondario</p></td>
+<td style="border:1px solid black;">Server autenticazione RADIUS secondario</td>
+<td style="border:1px solid black;">Indirizzo IP server IAS secondario</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Porta server RADIUS secondario</p></td>
-<td style="border:1px solid black;"><p>1812 (predefinita)</p></td>
+<td style="border:1px solid black;">Porta server RADIUS secondario</td>
+<td style="border:1px solid black;">1812 (predefinita)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Segreto condiviso autenticazione RADIUS</p></td>
-<td style="border:1px solid black;"><p><strong>XXXXXX</strong> (sostituire con il segreto generato)</p></td>
+<td style="border:1px solid black;">Segreto condiviso autenticazione RADIUS</td>
+<td style="border:1px solid black;"><strong>XXXXXX</strong> (sostituire con il segreto generato)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Numero massimo tentativi</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Numero massimo tentativi</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Timeout tentativi</p></td>
-<td style="border:1px solid black;"><p>5 secondi</p></td>
+<td style="border:1px solid black;">Timeout tentativi</td>
+<td style="border:1px solid black;">5 secondi</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Accounting RADIUS</strong></p></td>
+<td style="border:1px solid black;"><strong>Accounting RADIUS</strong></td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Abilita accounting RADIUS</p></td>
-<td style="border:1px solid black;"><p>Abilita</p></td>
+<td style="border:1px solid black;">Abilita accounting RADIUS</td>
+<td style="border:1px solid black;">Abilita</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Server accounting RADIUS primario</p></td>
-<td style="border:1px solid black;"><p>Indirizzo IP server IAS primario</p></td>
+<td style="border:1px solid black;">Server accounting RADIUS primario</td>
+<td style="border:1px solid black;">Indirizzo IP server IAS primario</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Porta server RADIUS primario</p></td>
-<td style="border:1px solid black;"><p>1813 (predefinita)</p></td>
+<td style="border:1px solid black;">Porta server RADIUS primario</td>
+<td style="border:1px solid black;">1813 (predefinita)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Server accounting RADIUS secondario</p></td>
-<td style="border:1px solid black;"><p>Indirizzo IP server IAS secondario</p></td>
+<td style="border:1px solid black;">Server accounting RADIUS secondario</td>
+<td style="border:1px solid black;">Indirizzo IP server IAS secondario</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Porta server RADIUS secondario</p></td>
-<td style="border:1px solid black;"><p>1813 (predefinita)</p></td>
+<td style="border:1px solid black;">Porta server RADIUS secondario</td>
+<td style="border:1px solid black;">1813 (predefinita)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Segreto condiviso accounting RADIUS</p></td>
-<td style="border:1px solid black;"><p><strong>XXXXXX</strong> (sostituire con il segreto generato)</p></td>
+<td style="border:1px solid black;">Segreto condiviso accounting RADIUS</td>
+<td style="border:1px solid black;"><strong>XXXXXX</strong> (sostituire con il segreto generato)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Numero massimo tentativi</p></td>
-<td style="border:1px solid black;"><p>5</p></td>
+<td style="border:1px solid black;">Numero massimo tentativi</td>
+<td style="border:1px solid black;">5</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Timeout tentativi</p></td>
-<td style="border:1px solid black;"><p>5 secondi</p></td>
+<td style="border:1px solid black;">Timeout tentativi</td>
+<td style="border:1px solid black;">5 secondi</td>
 </tr>
 </tbody>
 </table>
@@ -807,7 +807,7 @@ Oltre ad abilitare i parametri 802.1X, è necessario configurare una protezione 
   
 **Tabella 5.4: Configurazione protezione punti di accesso senza fili**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -816,71 +816,71 @@ Oltre ad abilitare i parametri 802.1X, è necessario configurare una protezione 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Impostazione consigliata</p></th>
-<th><p>Note</p></th>
+<th>Elemento</th>
+<th>Impostazione consigliata</th>
+<th>Note</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Generale</strong></p></td>
+<td style="border:1px solid black;"><strong>Generale</strong></td>
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Password amministratore</p></td>
-<td style="border:1px solid black;"><p>XXXXXX</p></td>
-<td style="border:1px solid black;"><p>Impostare una password complessa.</p></td>
+<td style="border:1px solid black;">Password amministratore</td>
+<td style="border:1px solid black;">XXXXXX</td>
+<td style="border:1px solid black;">Impostare una password complessa.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Altre password di gestione</p></td>
-<td style="border:1px solid black;"><p>XXXXXX</p></td>
-<td style="border:1px solid black;"><p>In alcune periferiche vengono utilizzate diverse password di gestione per ottenere un accesso protetto mediante l'utilizzo di protocolli di gestione differenti. Verificare che tutti i valori predefiniti vengano sostituiti con valori in grado di assicurare maggiore protezione.</p></td>
+<td style="border:1px solid black;">Altre password di gestione</td>
+<td style="border:1px solid black;">XXXXXX</td>
+<td style="border:1px solid black;">In alcune periferiche vengono utilizzate diverse password di gestione per ottenere un accesso protetto mediante l'utilizzo di protocolli di gestione differenti. Verificare che tutti i valori predefiniti vengano sostituiti con valori in grado di assicurare maggiore protezione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Protocolli di gestione</strong></p></td>
+<td style="border:1px solid black;"><strong>Protocolli di gestione</strong></td>
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Console seriale</p></td>
-<td style="border:1px solid black;"><p>Abilita</p></td>
-<td style="border:1px solid black;"><p>Se non sono disponibili protocolli crittografati, questo è il metodo più sicuro per configurare i punti di accesso senza fili benché siano richieste connessioni fisiche via cavo seriale tra i punti di accesso senza fili e il terminale e non possa essere utilizzato in remoto.</p></td>
+<td style="border:1px solid black;">Console seriale</td>
+<td style="border:1px solid black;">Abilita</td>
+<td style="border:1px solid black;">Se non sono disponibili protocolli crittografati, questo è il metodo più sicuro per configurare i punti di accesso senza fili benché siano richieste connessioni fisiche via cavo seriale tra i punti di accesso senza fili e il terminale e non possa essere utilizzato in remoto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Telnet</p></td>
-<td style="border:1px solid black;"><p>Disabilita</p></td>
-<td style="border:1px solid black;"><p>Tutte le trasmissioni Telnet sono in testo normale, pertanto le password e i segreti dei client RADIUS saranno visibili sulla rete. Se è possibile garantire la protezione del traffico Telnet mediante l'utilizzo di criteri IPsec o SSH, Telnet può essere abilitato e utilizzato in modo sicuro.</p></td>
+<td style="border:1px solid black;">Telnet</td>
+<td style="border:1px solid black;">Disabilita</td>
+<td style="border:1px solid black;">Tutte le trasmissioni Telnet sono in testo normale, pertanto le password e i segreti dei client RADIUS saranno visibili sulla rete. Se è possibile garantire la protezione del traffico Telnet mediante l'utilizzo di criteri IPsec o SSH, Telnet può essere abilitato e utilizzato in modo sicuro.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>HTTP</p></td>
-<td style="border:1px solid black;"><p>Disabilita</p></td>
-<td style="border:1px solid black;"><p>La gestione HTTP in genere è in testo normale e presenta gli stessi punti deboli del protocollo Telnet non crittografato. Se disponibile, è consigliabile l'utilizzo di HTTPS.</p></td>
+<td style="border:1px solid black;">HTTP</td>
+<td style="border:1px solid black;">Disabilita</td>
+<td style="border:1px solid black;">La gestione HTTP in genere è in testo normale e presenta gli stessi punti deboli del protocollo Telnet non crittografato. Se disponibile, è consigliabile l'utilizzo di HTTPS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>HTTPS (SSL o TLS)</p></td>
-<td style="border:1px solid black;"><p>Abilita</p></td>
-<td style="border:1px solid black;"><p>Per la configurazione di chiavi e certificati per HTTPS, seguire le istruzioni del fornitore.</p></td>
+<td style="border:1px solid black;">HTTPS (SSL o TLS)</td>
+<td style="border:1px solid black;">Abilita</td>
+<td style="border:1px solid black;">Per la configurazione di chiavi e certificati per HTTPS, seguire le istruzioni del fornitore.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Comunità SNMP</strong></p></td>
+<td style="border:1px solid black;"><strong>Comunità SNMP</strong></td>
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>SNMP è il protocollo predefinito per la gestione della rete. Utilizzare SNMP v3 con password di protezione per ottenere il livello di protezione più elevato. Spesso viene utilizzato dagli strumenti di configurazione GUI e dai sistemi per la gestione della rete. Tuttavia, se non viene impiegato può essere disabilitato.</p></td>
+<td style="border:1px solid black;">SNMP è il protocollo predefinito per la gestione della rete. Utilizzare SNMP v3 con password di protezione per ottenere il livello di protezione più elevato. Spesso viene utilizzato dagli strumenti di configurazione GUI e dai sistemi per la gestione della rete. Tuttavia, se non viene impiegato può essere disabilitato.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome comunità 1</p></td>
-<td style="border:1px solid black;"><p>XXXXXX</p></td>
-<td style="border:1px solid black;"><p>In genere, il valore predefinito è &quot;pubblico&quot; e va sostituito con un valore complesso.</p></td>
+<td style="border:1px solid black;">Nome comunità 1</td>
+<td style="border:1px solid black;">XXXXXX</td>
+<td style="border:1px solid black;">In genere, il valore predefinito è &quot;pubblico&quot; e va sostituito con un valore complesso.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome comunità 2</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>I nomi di comunità non necessari devono essere disabilitati o impostati su valori complessi.</p></td>
+<td style="border:1px solid black;">Nome comunità 2</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">I nomi di comunità non necessari devono essere disabilitati o impostati su valori complessi.</td>
 </tr>
 </tbody>
 </table>

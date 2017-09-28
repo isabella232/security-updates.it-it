@@ -193,7 +193,7 @@ La tabella seguente elenca il software richiesto per ogni sistema operativo supp
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -209,52 +209,52 @@ La tabella seguente elenca il software richiesto per ogni sistema operativo supp
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tutti i sistemi operativi</p></td>
-<td style="border:1px solid black;"><p>Microsoft Internet Information Services (IIS) 5.0</p></td>
-<td style="border:1px solid black;"><p>Installare dal sistema operativo.</p>
-<p>Vedere Punto 1: IIS deve essere installato.</p></td>
+<td style="border:1px solid black;">Tutti i sistemi operativi</td>
+<td style="border:1px solid black;">Microsoft Internet Information Services (IIS) 5.0</td>
+<td style="border:1px solid black;">Installare dal sistema operativo.
+Vedere Punto 1: IIS deve essere installato.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tutti i sistemi operativi</p></td>
-<td style="border:1px solid black;"><p>Background Intelligent Transfer Service (BITS) 2.0</p></td>
-<td style="border:1px solid black;"><p>Per i sistemi operativi Windows Server 2003, vedere Aggiornamento per Background Intelligent Transfer Service (BITS) 2.0 e WinHTTP 5.1 Windows Server 2003 (KB842773) nell'Area download all'indirizzo <a href="http://go.microsoft.com/fwlink/?linkid=47251">http://go.microsoft.com/fwlink/?LinkId=47251</a>.</p>
-<p>Per i sistemi operativi Windows Server 2000, vedere Aggiornamento per Background Intelligent Transfer Service (BITS) 2.0 e WinHTTP 5.1 Windows 2000 (KB842773) nell'Area download all'indirizzo <a href="http://go.microsoft.com/fwlink/?linkid=46794">http://go.microsoft.com/fwlink/?LinkId=46794</a>.</p></td>
+<td style="border:1px solid black;">Tutti i sistemi operativi</td>
+<td style="border:1px solid black;">Background Intelligent Transfer Service (BITS) 2.0</td>
+<td style="border:1px solid black;">Per i sistemi operativi Windows Server 2003, vedere Aggiornamento per Background Intelligent Transfer Service (BITS) 2.0 e WinHTTP 5.1 Windows Server 2003 (KB842773) nell'Area download all'indirizzo <a href="http://go.microsoft.com/fwlink/?linkid=47251">http://go.microsoft.com/fwlink/?LinkId=47251</a>.
+Per i sistemi operativi Windows Server 2000, vedere Aggiornamento per Background Intelligent Transfer Service (BITS) 2.0 e WinHTTP 5.1 Windows 2000 (KB842773) nell'Area download all'indirizzo <a href="http://go.microsoft.com/fwlink/?linkid=46794">http://go.microsoft.com/fwlink/?LinkId=46794</a>.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-<td style="border:1px solid black;"><p>Microsoft .NET Framework 1.1 Service Pack 1 per Windows Server 2003</p></td>
-<td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47358">Microsoft .NET Framework 1.1 Service Pack 1 per Windows Server 2003</a></p>
-<p>In alternativa, andare al sito <a href="http://go.microsoft.com/fwlink/?linkid=47370">Windows Update</a> ed effettuare la ricerca di aggiornamenti critici e service pack; installare Microsoft .NET Framework 1.1 Service Pack 1 per Windows Server 2003.</p></td>
+<td style="border:1px solid black;">Windows Server 2003</td>
+<td style="border:1px solid black;">Microsoft .NET Framework 1.1 Service Pack 1 per Windows Server 2003</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=47358">Microsoft .NET Framework 1.1 Service Pack 1 per Windows Server 2003</a>
+In alternativa, andare al sito <a href="http://go.microsoft.com/fwlink/?linkid=47370">Windows Update</a> ed effettuare la ricerca di aggiornamenti critici e service pack; installare Microsoft .NET Framework 1.1 Service Pack 1 per Windows Server 2003.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
-<td style="border:1px solid black;"><p>Software di database compatibile al 100% con Microsoft SQL</p></td>
-<td style="border:1px solid black;"><p>N/D</p></td>
+<td style="border:1px solid black;">Windows Server 2003</td>
+<td style="border:1px solid black;">Software di database compatibile al 100% con Microsoft SQL</td>
+<td style="border:1px solid black;">N/D</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Software di database compatibile al 100% con Microsoft SQL</p></td>
-<td style="border:1px solid black;"><p>Se non si utilizza Microsoft SQL Server 2000, è possibile installare Microsoft SQL Server 2000 Desktop Engine (MSDE 2000). Questa operazione richiede vari passaggi. Per ulteriori informazioni, vedere Installazione di MSDE su Windows 2000 più avanti in questo documento.</p></td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Software di database compatibile al 100% con Microsoft SQL</td>
+<td style="border:1px solid black;">Se non si utilizza Microsoft SQL Server 2000, è possibile installare Microsoft SQL Server 2000 Desktop Engine (MSDE 2000). Questa operazione richiede vari passaggi. Per ulteriori informazioni, vedere Installazione di MSDE su Windows 2000 più avanti in questo documento.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Microsoft Internet Explorer 6.0 Service Pack 1</p></td>
-<td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47359">Internet Explorer 6 Service Pack 1</a></p></td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Microsoft Internet Explorer 6.0 Service Pack 1</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=47359">Internet Explorer 6 Service Pack 1</a></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Microsoft .NET Framework Version 1.1 Redistributable Package</p></td>
-<td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47369">Microsoft .NET Framework Version 1.1 Redistributable Package</a></p></td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Microsoft .NET Framework Version 1.1 Redistributable Package</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=47369">Microsoft .NET Framework Version 1.1 Redistributable Package</a></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Windows 2000 Server</p></td>
-<td style="border:1px solid black;"><p>Microsoft .NET Framework 1.1 Service Pack 1</p></td>
-<td style="border:1px solid black;"><p><a href="http://go.microsoft.com/fwlink/?linkid=47368">Microsoft .NET Framework 1.1 Service Pack 1</a></p>
-<p>In alternativa, andare al sito <a href="http://go.microsoft.com/fwlink/?linkid=47370">Windows Update</a> ed effettuare la ricerca di aggiornamenti critici e service pack; installare Microsoft .NET Framework 1.1 Service Pack 1 per Windows Server 2003.</p></td>
+<td style="border:1px solid black;">Windows 2000 Server</td>
+<td style="border:1px solid black;">Microsoft .NET Framework 1.1 Service Pack 1</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=47368">Microsoft .NET Framework 1.1 Service Pack 1</a>
+In alternativa, andare al sito <a href="http://go.microsoft.com/fwlink/?linkid=47370">Windows Update</a> ed effettuare la ricerca di aggiornamenti critici e service pack; installare Microsoft .NET Framework 1.1 Service Pack 1 per Windows Server 2003.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Oltre a questi requisiti, se necessario WSUS potrebbe installare o configurare ASP.NET versione 1.1 sul server. Il programma di installazione di WSUS esegue la configurazione di ASP.NET.
 

@@ -39,7 +39,7 @@ I modelli di controller di dominio sono progettati esclusivamente per soddisfare
 
 **Tabella 5.1 Modelli di protezione di base per i controller di dominio**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -48,16 +48,16 @@ I modelli di controller di dominio sono progettati esclusivamente per soddisfare
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>LC-Domain Controller.inf</p></td>
-<td style="border:1px solid black;"><p>EC-Domain Controller.inf</p></td>
-<td style="border:1px solid black;"><p>SSLF-Domain Controller.inf</p></td>
+<td style="border:1px solid black;">LC-Domain Controller.inf</td>
+<td style="border:1px solid black;">EC-Domain Controller.inf</td>
+<td style="border:1px solid black;">SSLF-Domain Controller.inf</td>
 </tr>
 </tbody>
 </table>
@@ -72,7 +72,7 @@ Le impostazioni dei Criteri di controllo per i controller di dominio sono le ste
   
 **Tabella 5.2 Impostazioni consigliate dei criteri di controllo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -82,18 +82,18 @@ Le impostazioni dei Criteri di controllo per i controller di dominio sono le ste
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controlla accesso al servizio directory</p></td>
-<td style="border:1px solid black;"><p>Nessun controllo</p></td>
-<td style="border:1px solid black;"><p>Nessun controllo</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
+<td style="border:1px solid black;">Controlla accesso al servizio directory</td>
+<td style="border:1px solid black;">Nessun controllo</td>
+<td style="border:1px solid black;">Nessun controllo</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
 </tr>
 </tbody>
 </table>
@@ -110,7 +110,7 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
   
 **Tabella 5.3 Eventi di accesso al servizio directory**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -118,18 +118,18 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ID evento</p></th>
-<th><p>Descrizione evento</p></th>
+<th>ID evento</th>
+<th>Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>Descrizione</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">Descrizione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>566</p></td>
-<td style="border:1px solid black;"><p>Esecuzione di un'operazione su un oggetto generico.</p></td>
+<td style="border:1px solid black;">566</td>
+<td style="border:1px solid black;">Esecuzione di un'operazione su un oggetto generico.</td>
 </tr>
 </tbody>
 </table>
@@ -146,7 +146,7 @@ La seguente tabella riassume le impostazioni per l'assegnazione dei diritti uten
   
 **Tabella 5.4 Impostazioni assegnazioni diritti utente consigliate**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -156,66 +156,66 @@ La seguente tabella riassume le impostazioni per l'assegnazione dei diritti uten
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Accesso al computer dalla rete</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori, Authenticated Users, CONTROLLER DI DOMINIO ORGANIZZAZIONE</p></td>
+<td style="border:1px solid black;">Accesso al computer dalla rete</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori, Authenticated Users, CONTROLLER DI DOMINIO ORGANIZZAZIONE</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Aggiunta del computer al dominio</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Aggiunta del computer al dominio</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consenti accesso locale</p></td>
-<td style="border:1px solid black;"><p>Administrators, Server Operators, Backup Operators</p></td>
-<td style="border:1px solid black;"><p>Administrators, Server Operators, Backup Operators</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Consenti accesso locale</td>
+<td style="border:1px solid black;">Administrators, Server Operators, Backup Operators</td>
+<td style="border:1px solid black;">Administrators, Server Operators, Backup Operators</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Consenti accesso tramite Servizi terminal</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Consenti accesso tramite Servizi terminal</td>
+<td style="border:1px solid black;">Amministratori</td>
+<td style="border:1px solid black;">Amministratori</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Modifica dell'orario di sistema</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Modifica dell'orario di sistema</td>
+<td style="border:1px solid black;">Amministratori</td>
+<td style="border:1px solid black;">Amministratori</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Impostazione account computer ed utente a tipo trusted per la delega</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Impostazione account computer ed utente a tipo trusted per la delega</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Installa e disinstalla driver periferica</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Installa e disinstalla driver periferica</td>
+<td style="border:1px solid black;">Amministratori</td>
+<td style="border:1px solid black;">Amministratori</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ripristina file e directory</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Ripristina file e directory</td>
+<td style="border:1px solid black;">Amministratori</td>
+<td style="border:1px solid black;">Amministratori</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Arresto del sistema</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Arresto del sistema</td>
+<td style="border:1px solid black;">Amministratori</td>
+<td style="border:1px solid black;">Amministratori</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 </tbody>
 </table>
@@ -315,7 +315,7 @@ Molte delle impostazioni di opzioni di protezione per i controller di dominio so
   
 **Tabella 5.5 Opzioni di protezione: consigli per l'impostazione dei controller di dominio**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -325,30 +325,30 @@ Molte delle impostazioni di opzioni di protezione per i controller di dominio so
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>consenti agli operatori dei server di pianificare le operazioni</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">consenti agli operatori dei server di pianificare le operazioni</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>requisiti di accesso al server LDAP</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Richiedi firma</p></td>
+<td style="border:1px solid black;">requisiti di accesso al server LDAP</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Richiedi firma</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>rifiuta cambio password account computer</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">rifiuta cambio password account computer</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -377,7 +377,7 @@ Di conseguenza l'impostazione **Controller di dominio: rifiuta cambio password a
   
 **Tabella 5.6 Opzioni di protezione: consigli per le impostazioni di protezione di rete**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -387,18 +387,18 @@ Di conseguenza l'impostazione **Controller di dominio: rifiuta cambio password a
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>non memorizzare il valore hash di LAN Manager al prossimo cambio di password</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">non memorizzare il valore hash di LAN Manager al prossimo cambio di password</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -427,7 +427,7 @@ Come descritto nel capitolo precedente, le impostazioni **Gruppi con restrizioni
   
 **Tabella 5.7 Consigli per gruppi con restrizioni**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -437,24 +437,24 @@ Come descritto nel capitolo precedente, le impostazioni **Gruppi con restrizioni
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Gruppo locale</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Gruppo locale</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Backup Operators</p></td>
-<td style="border:1px solid black;"><p>Nessun membro</p></td>
-<td style="border:1px solid black;"><p>Nessun membro</p></td>
-<td style="border:1px solid black;"><p>Nessun membro</p></td>
+<td style="border:1px solid black;">Backup Operators</td>
+<td style="border:1px solid black;">Nessun membro</td>
+<td style="border:1px solid black;">Nessun membro</td>
+<td style="border:1px solid black;">Nessun membro</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Server Operators</p></td>
-<td style="border:1px solid black;"><p>Nessun membro</p></td>
-<td style="border:1px solid black;"><p>Nessun membro</p></td>
-<td style="border:1px solid black;"><p>Nessun membro</p></td>
+<td style="border:1px solid black;">Server Operators</td>
+<td style="border:1px solid black;">Nessun membro</td>
+<td style="border:1px solid black;">Nessun membro</td>
+<td style="border:1px solid black;">Nessun membro</td>
 </tr>
 </tbody>
 </table>
@@ -515,7 +515,7 @@ Inoltre, se è stato rinominato l'account Amministratore incorporato in base ai 
   
 **Tabella 5.8 Assegnazioni diritti utente aggiunte manualmente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -525,33 +525,33 @@ Inoltre, se è stato rinominato l'account Amministratore incorporato in base ai 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nega accesso al computer dalla rete</p></td>
-<td style="border:1px solid black;"><p>Amministratore incorporato; Support_388945a0;</p>
-<p>Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Amministratore incorporato; Support_388945a0;</p>
-<p>Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Amministratore incorporato; Support_388945a0;</p>
-<p>Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
+<td style="border:1px solid black;">Nega accesso al computer dalla rete</td>
+<td style="border:1px solid black;">Amministratore incorporato; Support_388945a0;
+Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</td>
+<td style="border:1px solid black;">Amministratore incorporato; Support_388945a0;
+Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</td>
+<td style="border:1px solid black;">Amministratore incorporato; Support_388945a0;
+Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nega accesso come processo batch</p></td>
-<td style="border:1px solid black;"><p>Support_388945a0 e Guest</p></td>
-<td style="border:1px solid black;"><p>Support_388945a0 e Guest</p></td>
-<td style="border:1px solid black;"><p>Support_388945a0 e Guest</p></td>
+<td style="border:1px solid black;">Nega accesso come processo batch</td>
+<td style="border:1px solid black;">Support_388945a0 e Guest</td>
+<td style="border:1px solid black;">Support_388945a0 e Guest</td>
+<td style="border:1px solid black;">Support_388945a0 e Guest</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nega accesso tramite Servizi terminal</p></td>
-<td style="border:1px solid black;"><p>Amministratore incorporato; tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Amministratore incorporato; tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Amministratore incorporato; tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
+<td style="border:1px solid black;">Nega accesso tramite Servizi terminal</td>
+<td style="border:1px solid black;">Amministratore incorporato; tutti gli account di servizio NON utilizzati dal sistema operativo</td>
+<td style="border:1px solid black;">Amministratore incorporato; tutti gli account di servizio NON utilizzati dal sistema operativo</td>
+<td style="border:1px solid black;">Amministratore incorporato; tutti gli account di servizio NON utilizzati dal sistema operativo</td>
 </tr>
 </tbody>
 </table>
@@ -586,7 +586,7 @@ L’utilità chiave di sistema (Syskey) fornisce un’ulteriore difesa contro i 
   
 **Tabella 5.9 Modalità Syskey**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -595,26 +595,26 @@ L’utilità chiave di sistema (Syskey) fornisce un’ulteriore difesa contro i 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Opzione Chiave di sistema</p></th>
-<th><p>Livello di protezione</p></th>
-<th><p>Descrizione</p></th>
+<th>Opzione Chiave di sistema</th>
+<th>Livello di protezione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Modalità 1: Password generata dal sistema, Archivia chiave di avvio a livello locale</p></td>
-<td style="border:1px solid black;"><p>Protezione</p></td>
-<td style="border:1px solid black;"><p>Come chiave del sistema viene utilizzata una chiave casuale generata dal computer e nel computer locale viene archiviata una versione crittografata della chiave. Questa opzione offre una crittografia avanzata delle informazioni relative alle password contenute nel Registro di sistema e consente di riavviare il computer senza che l’amministratore debba immettere una password o inserire un disco.</p></td>
+<td style="border:1px solid black;">Modalità 1: Password generata dal sistema, Archivia chiave di avvio a livello locale</td>
+<td style="border:1px solid black;">Protezione</td>
+<td style="border:1px solid black;">Come chiave del sistema viene utilizzata una chiave casuale generata dal computer e nel computer locale viene archiviata una versione crittografata della chiave. Questa opzione offre una crittografia avanzata delle informazioni relative alle password contenute nel Registro di sistema e consente di riavviare il computer senza che l’amministratore debba immettere una password o inserire un disco.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Modalità 2: Password generata amministratore, Avvia mediante password</p></td>
-<td style="border:1px solid black;"><p>Media protezione</p></td>
-<td style="border:1px solid black;"><p>Come chiave del sistema viene utilizzata una chiave casuale generata dal computer e nel computer locale viene archiviata una versione crittografata della chiave. La chiave è ulteriormente protetta da una password scelta dall’amministratore. Quando il computer esegue la sequenza di avvio iniziale, agli utenti viene richiesta la password per la chiave di sistema. La password per la chiave di sistema non viene memorizzata in una posizione qualsiasi del computer.</p></td>
+<td style="border:1px solid black;">Modalità 2: Password generata amministratore, Avvia mediante password</td>
+<td style="border:1px solid black;">Media protezione</td>
+<td style="border:1px solid black;">Come chiave del sistema viene utilizzata una chiave casuale generata dal computer e nel computer locale viene archiviata una versione crittografata della chiave. La chiave è ulteriormente protetta da una password scelta dall’amministratore. Quando il computer esegue la sequenza di avvio iniziale, agli utenti viene richiesta la password per la chiave di sistema. La password per la chiave di sistema non viene memorizzata in una posizione qualsiasi del computer.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Modalità 3: Password generata dal sistema, Archivia chiave di avvio su disco floppy</p></td>
-<td style="border:1px solid black;"><p>Massima protezione</p></td>
-<td style="border:1px solid black;"><p>Viene utilizzata una chiave casuale generata dal computer che viene quindi memorizzata su un disco floppy. Per avviare il sistema è necessario il disco floppy contenente la chiave di sistema, da inserire durante la sequenza di avvio quando viene visualizzato il relativo prompt. La chiave di sistema non viene memorizzata in una posizione qualsiasi del computer.</p></td>
+<td style="border:1px solid black;">Modalità 3: Password generata dal sistema, Archivia chiave di avvio su disco floppy</td>
+<td style="border:1px solid black;">Massima protezione</td>
+<td style="border:1px solid black;">Viene utilizzata una chiave casuale generata dal computer che viene quindi memorizzata su un disco floppy. Per avviare il sistema è necessario il disco floppy contenente la chiave di sistema, da inserire durante la sequenza di avvio quando viene visualizzato il relativo prompt. La chiave di sistema non viene memorizzata in una posizione qualsiasi del computer.</td>
 </tr>
 </tbody>
 </table>
@@ -717,7 +717,7 @@ Se non è inevitabile, si sconsiglia di configurare un servizio per l'esecuzione
   
 **Tabella 5.10 Impostazioni di Servizi terminal consigliate**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -727,18 +727,18 @@ Se non è inevitabile, si sconsiglia di configurare un servizio per l'esecuzione
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione predefinita</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione predefinita</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Imposta livello di crittografia connessione client</p></td>
-<td style="border:1px solid black;"><p>Alto</p></td>
-<td style="border:1px solid black;"><p>Alto</p></td>
-<td style="border:1px solid black;"><p>Alto</p></td>
+<td style="border:1px solid black;">Imposta livello di crittografia connessione client</td>
+<td style="border:1px solid black;">Alto</td>
+<td style="border:1px solid black;">Alto</td>
+<td style="border:1px solid black;">Alto</td>
 </tr>
 </tbody>
 </table>
@@ -756,7 +756,7 @@ I tre livelli di crittografia disponibili sono descritti nella tabella seguente:
   
 **Tabella 5.11 Livelli di crittografia di Servizi terminal**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -764,33 +764,33 @@ I tre livelli di crittografia disponibili sono descritti nella tabella seguente:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Livello di crittografia</p></th>
-<th><p>Descrizione</p></th>
+<th>Livello di crittografia</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Alto</p></td>
-<td style="border:1px solid black;"><p>Codifica i dati inviati dal client al server e dal server al client con crittografia avanzata a 128 bit. Utilizzare questo livello quando il Terminal Server è in esecuzione in un ambiente dove si trovano solo client a 128 bit (ad esempio client di Connessione desktop remoto). I client che non supportano questo livello di crittografia non possono stabilire la connessione.</p></td>
+<td style="border:1px solid black;">Alto</td>
+<td style="border:1px solid black;">Codifica i dati inviati dal client al server e dal server al client con crittografia avanzata a 128 bit. Utilizzare questo livello quando il Terminal Server è in esecuzione in un ambiente dove si trovano solo client a 128 bit (ad esempio client di Connessione desktop remoto). I client che non supportano questo livello di crittografia non possono stabilire la connessione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Compatibile con client</p></td>
-<td style="border:1px solid black;"><p>Codifica i dati inviati fra client e server basandosi sulla forza massima della chiave supportata dal client. Utilizzare questo livello se il Terminal Server è in esecuzione in un ambiente con client misti o legacy.</p></td>
+<td style="border:1px solid black;">Compatibile con client</td>
+<td style="border:1px solid black;">Codifica i dati inviati fra client e server basandosi sulla forza massima della chiave supportata dal client. Utilizzare questo livello se il Terminal Server è in esecuzione in un ambiente con client misti o legacy.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Basso</p></td>
-<td style="border:1px solid black;"><p>Codifica i dati inviati fra client e server con crittografia a 56 bit.</p>
-<p><strong>Importante</strong>: i dati inviati dal server al client non sono crittografati.</p></td>
+<td style="border:1px solid black;">Basso</td>
+<td style="border:1px solid black;">Codifica i dati inviati fra client e server con crittografia a 56 bit.
+<strong>Importante</strong>: i dati inviati dal server al client non sono crittografati.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### Segnalazione errori
 
 **Tabella 5.12 Impostazioni di segnalazione errori consigliate**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -800,18 +800,18 @@ I tre livelli di crittografia disponibili sono descritti nella tabella seguente:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitare la segnalazione errori di Windows</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Disabilitare la segnalazione errori di Windows</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>

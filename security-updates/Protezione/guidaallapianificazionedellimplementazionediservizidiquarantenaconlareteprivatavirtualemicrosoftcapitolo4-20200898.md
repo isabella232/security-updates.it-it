@@ -261,7 +261,7 @@ Nella tabella seguente sono illustrate alcune delle funzionalità di Connection 
 
 **Tabella 4.1: Funzionalità di Connection Manager utilizzate dal reparto IT di Woodgrove**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -269,18 +269,18 @@ Nella tabella seguente sono illustrate alcune delle funzionalità di Connection 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Funzionalità</p></th>
-<th><p>Descrizione</p></th>
+<th>Funzionalità</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Personalizzazione</p></td>
-<td style="border:1px solid black;"><p>Elementi grafici, icone, messaggi e guida in linea personalizzati conferiscono al pacchetto un aspetto conforme all'immagine aziendale. Con i pacchetti di Connection Manager è possibile garantire numeri di supporto locali per gli utenti che viaggiano molto.</p></td>
+<td style="border:1px solid black;">Personalizzazione</td>
+<td style="border:1px solid black;">Elementi grafici, icone, messaggi e guida in linea personalizzati conferiscono al pacchetto un aspetto conforme all'immagine aziendale. Con i pacchetti di Connection Manager è possibile garantire numeri di supporto locali per gli utenti che viaggiano molto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Azioni personalizzate</p></td>
-<td style="border:1px solid black;"><p>Per eseguire registrazione e aggiornamento delle applicazioni.</p></td>
+<td style="border:1px solid black;">Azioni personalizzate</td>
+<td style="border:1px solid black;">Per eseguire registrazione e aggiornamento delle applicazioni.</td>
 </tr>
 </tbody>
 </table>
@@ -305,7 +305,7 @@ Nella tabella seguente sono indicate le porte TCP/IP aperte dal filtro IP della 
   
 **Tabella 4.2: Porte TCP/IP aperte dal filtro di connessione VPN in quarantena**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -314,36 +314,36 @@ Nella tabella seguente sono indicate le porte TCP/IP aperte dal filtro IP della 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Numero di porta</p></th>
-<th><p>Uso</p></th>
-<th><p>Commenti</p></th>
+<th>Numero di porta</th>
+<th>Uso</th>
+<th>Commenti</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>UDP 67, 68</p></td>
-<td style="border:1px solid black;"><p>DHCP</p></td>
-<td style="border:1px solid black;"><p>Richiede un indirizzo IP per il client</p></td>
+<td style="border:1px solid black;">UDP 67, 68</td>
+<td style="border:1px solid black;">DHCP</td>
+<td style="border:1px solid black;">Richiede un indirizzo IP per il client</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>UDP 53</p></td>
-<td style="border:1px solid black;"><p>DNS</p></td>
-<td style="border:1px solid black;"><p>Risoluzione dei nomi</p></td>
+<td style="border:1px solid black;">UDP 53</td>
+<td style="border:1px solid black;">DNS</td>
+<td style="border:1px solid black;">Risoluzione dei nomi</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>UDP 137</p></td>
-<td style="border:1px solid black;"><p>WINS</p></td>
-<td style="border:1px solid black;"><p>Risoluzione nomi NetBIOS</p></td>
+<td style="border:1px solid black;">UDP 137</td>
+<td style="border:1px solid black;">WINS</td>
+<td style="border:1px solid black;">Risoluzione nomi NetBIOS</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TCP 139, 445</p></td>
-<td style="border:1px solid black;"><p>Condivisione file</p></td>
-<td style="border:1px solid black;"><p>Attivare solo se strettamente necessario, attiva sessione NetBIOS e condivisione file SMB</p></td>
+<td style="border:1px solid black;">TCP 139, 445</td>
+<td style="border:1px solid black;">Condivisione file</td>
+<td style="border:1px solid black;">Attivare solo se strettamente necessario, attiva sessione NetBIOS e condivisione file SMB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TCP 7250</p></td>
-<td style="border:1px solid black;"><p>RQC, RQS</p></td>
-<td style="border:1px solid black;"><p>Attiva la comunicazione tra agente client di connessione VPN in quarantena e componente listener sul lato server</p></td>
+<td style="border:1px solid black;">TCP 7250</td>
+<td style="border:1px solid black;">RQC, RQS</td>
+<td style="border:1px solid black;">Attiva la comunicazione tra agente client di connessione VPN in quarantena e componente listener sul lato server</td>
 </tr>
 </tbody>
 </table>

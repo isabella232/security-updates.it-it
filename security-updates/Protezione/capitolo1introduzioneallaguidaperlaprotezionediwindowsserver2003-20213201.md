@@ -231,7 +231,7 @@ In questa guida vengono utilizzate le convenzioni di stile e la terminologia rip
 
 **Tabella 1.1. Convenzioni di stile**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -239,34 +239,34 @@ In questa guida vengono utilizzate le convenzioni di stile e la terminologia rip
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Significato</p></th>
+<th>Elemento</th>
+<th>Significato</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Grassetto</strong></p></td>
-<td style="border:1px solid black;"><p>Caratteri digitati esattamente come indicato, inclusi comandi, switch e nomi di file. Gli elementi dell'interfaccia utente sono riportati anche in grassetto.</p></td>
+<td style="border:1px solid black;"><strong>Grassetto</strong></td>
+<td style="border:1px solid black;">Caratteri digitati esattamente come indicato, inclusi comandi, switch e nomi di file. Gli elementi dell'interfaccia utente sono riportati anche in grassetto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><em>Corsivo</em></p></td>
-<td style="border:1px solid black;"><p>I titoli di libri e di altre pubblicazioni importanti appaiono in corsivo.</p></td>
+<td style="border:1px solid black;"><em>Corsivo</em></td>
+<td style="border:1px solid black;">I titoli di libri e di altre pubblicazioni importanti appaiono in corsivo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>&lt;Italic&gt;</em></p></td>
-<td style="border:1px solid black;"><p>Segnaposto in corsivo e parentesi ad angolo <em>&lt;file name&gt;</em> indicano le variabili.</p></td>
+<td style="border:1px solid black;"><em>&lt;Italic&gt;</em></td>
+<td style="border:1px solid black;">Segnaposto in corsivo e parentesi ad angolo <em>&lt;file name&gt;</em> indicano le variabili.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Spaziatura fissa</p></td>
-<td style="border:1px solid black;"><p>Definisce i campioni di codici e script.</p></td>
+<td style="border:1px solid black;">Spaziatura fissa</td>
+<td style="border:1px solid black;">Definisce i campioni di codici e script.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Nota</strong></p></td>
-<td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari.</p></td>
+<td style="border:1px solid black;"><strong>Nota</strong></td>
+<td style="border:1px solid black;">Richiama l'attenzione del lettore su informazioni supplementari.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Importante</strong></p></td>
-<td style="border:1px solid black;"><p>Richiama l'attenzione del lettore su informazioni supplementari importanti.</p></td>
+<td style="border:1px solid black;"><strong>Importante</strong></td>
+<td style="border:1px solid black;">Richiama l'attenzione del lettore su informazioni supplementari importanti.</td>
 </tr>
 </tbody>
 </table>

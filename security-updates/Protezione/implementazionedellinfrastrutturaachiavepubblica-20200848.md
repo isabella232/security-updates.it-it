@@ -124,7 +124,7 @@ Prima di iniziare la procedura di installazione è necessario assicurarsi che si
 
 **Tabella 1. Elementi di configurazione definiti dall'utente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -133,62 +133,62 @@ Prima di iniziare la procedura di installazione è necessario assicurarsi che si
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
-<th><p>Riferimento script</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
+<th>Riferimento script</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DNS (Domain Name System) nome del dominio principale dell'insieme di strutture di Active Directory</p></td>
-<td style="border:1px solid black;"><p>woodgrovebank.com</p></td>
+<td style="border:1px solid black;">DNS (Domain Name System) nome del dominio principale dell'insieme di strutture di Active Directory</td>
+<td style="border:1px solid black;">woodgrovebank.com</td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DN (Distinguished Name) nome distinto della directory principale dell'insieme di strutture</p></td>
-<td style="border:1px solid black;"><p>DC=woodgrovebank,DC=com</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">DN (Distinguished Name) nome distinto della directory principale dell'insieme di strutture</td>
+<td style="border:1px solid black;">DC=woodgrovebank,DC=com</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome NetBIOS (Network Basic Input/Output System) del dominio</p></td>
-<td style="border:1px solid black;"><p>WOODGROVEBANK</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome NetBIOS (Network Basic Input/Output System) del dominio</td>
+<td style="border:1px solid black;">WOODGROVEBANK</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome NetBIOS del gruppo di lavoro della CA principale</p></td>
-<td style="border:1px solid black;"><p>WGB-Root</p></td>
+<td style="border:1px solid black;">Nome NetBIOS del gruppo di lavoro della CA principale</td>
+<td style="border:1px solid black;">WGB-Root</td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome server della CA principale</p></td>
-<td style="border:1px solid black;"><p>HQ-CA-01</p></td>
-<td style="border:1px solid black;"><br />
-</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>Nome server della CA di emissione</p></td>
-<td style="border:1px solid black;"><p>HQ-CA-02</p></td>
-<td style="border:1px solid black;"><br />
-</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><p>X.500 Nome comune (CN) della CA principale</p></td>
-<td style="border:1px solid black;"><p>WoodGrove Bank Root CA</p></td>
+<td style="border:1px solid black;">Nome server della CA principale</td>
+<td style="border:1px solid black;">HQ-CA-01</td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>X.500 CN della CA di emissione</p></td>
-<td style="border:1px solid black;"><p>WoodGrove Bank Issuing CA 1</p></td>
+<td style="border:1px solid black;">Nome server della CA di emissione</td>
+<td style="border:1px solid black;">HQ-CA-02</td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome host completo del server Web utilizzato per pubblicare il certificato della CA e le informazioni di revoca</p></td>
-<td style="border:1px solid black;"><p>www.woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">X.500 Nome comune (CN) della CA principale</td>
+<td style="border:1px solid black;">WoodGrove Bank Root CA</td>
+<td style="border:1px solid black;"><br />
+</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">X.500 CN della CA di emissione</td>
+<td style="border:1px solid black;">WoodGrove Bank Issuing CA 1</td>
+<td style="border:1px solid black;"><br />
+</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Nome host completo del server Web utilizzato per pubblicare il certificato della CA e le informazioni di revoca</td>
+<td style="border:1px solid black;">www.woodgrovebank.com</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 </tbody>
 </table>
@@ -199,7 +199,7 @@ Non è necessario modificare le impostazioni elencate in questa tabella per un'i
   
 **Tabella 2. Elementi di configurazione prescritti dalla soluzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -208,243 +208,243 @@ Non è necessario modificare le impostazioni elencate in questa tabella per un'i
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
-<th><p>Riferimento script</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
+<th>Riferimento script</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppi di protezione del ruolo amministrativo</p></td>
+<td style="border:1px solid black;">Gruppi di protezione del ruolo amministrativo</td>
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Amministratori del contenitore di configurazione Servizi chiave pubblica</p></td>
-<td style="border:1px solid black;"><p>Enterprise PKI Admins</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
+<td style="border:1px solid black;">Amministratori del contenitore di configurazione Servizi chiave pubblica</td>
+<td style="border:1px solid black;">Enterprise PKI Admins</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo autorizzato a pubblicare elenchi CRL e certificati CA nei contenitori della configurazione dell'organizzazione</p></td>
-<td style="border:1px solid black;"><p>Enterprise PKI Publishers</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
+<td style="border:1px solid black;">Gruppo autorizzato a pubblicare elenchi CRL e certificati CA nei contenitori della configurazione dell'organizzazione</td>
+<td style="border:1px solid black;">Enterprise PKI Publishers</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gruppo amministrativo che configura e aggiorna le CA; controlla inoltre la capacità di assegnare tutti gli altri ruoli della CA e di rinnovare il certificato CA.</p></td>
-<td style="border:1px solid black;"><p>CA Admins</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
+<td style="border:1px solid black;">Gruppo amministrativo che configura e aggiorna le CA; controlla inoltre la capacità di assegnare tutti gli altri ruoli della CA e di rinnovare il certificato CA.</td>
+<td style="border:1px solid black;">CA Admins</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo amministrativo che approva le richieste di registrazione e revoca dei certificati. Questo è un ruolo di Responsabile della CA.</p></td>
-<td style="border:1px solid black;"><p>Certificate Managers</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
+<td style="border:1px solid black;">Gruppo amministrativo che approva le richieste di registrazione e revoca dei certificati. Questo è un ruolo di Responsabile della CA.</td>
+<td style="border:1px solid black;">Certificate Managers</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gruppo amministrativo che gestisce i registri di controllo e protezione della CA</p></td>
-<td style="border:1px solid black;"><p>CA Auditors</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
+<td style="border:1px solid black;">Gruppo amministrativo che gestisce i registri di controllo e protezione della CA</td>
+<td style="border:1px solid black;">CA Auditors</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo amministrativo che gestisce i backup della CA</p></td>
-<td style="border:1px solid black;"><p>CA Backup Operators</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
+<td style="border:1px solid black;">Gruppo amministrativo che gestisce i backup della CA</td>
+<td style="border:1px solid black;">CA Backup Operators</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurazione IIS</p></td>
+<td style="border:1px solid black;">Configurazione IIS</td>
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Il nome della directory virtuale IIS utilizzato per pubblicare il certificato e i CRL della CA</p></td>
-<td style="border:1px solid black;"><p>pki</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Il nome della directory virtuale IIS utilizzato per pubblicare il certificato e i CRL della CA</td>
+<td style="border:1px solid black;">pki</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Percorso fisico nella CA di emissione mappato alla directory virtuale IIS</p></td>
-<td style="border:1px solid black;"><p>C:\CAWWWPub</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Percorso fisico nella CA di emissione mappato alla directory virtuale IIS</td>
+<td style="border:1px solid black;">C:\CAWWWPub</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Parametri comuni della CA</p></td>
+<td style="border:1px solid black;">Parametri comuni della CA</td>
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Unità e percorso di memorizzazione dei file di richiesta di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>C:\CAConfig</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Unità e percorso di memorizzazione dei file di richiesta di Servizi certificati</td>
+<td style="border:1px solid black;">C:\CAConfig</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unità e percorso di memorizzazione dei registri del database di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>%windir%\System32\CertLog</p></td>
+<td style="border:1px solid black;">Unità e percorso di memorizzazione dei registri del database di Servizi certificati</td>
+<td style="border:1px solid black;">%windir%\System32\CertLog</td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurazione della CA principale</p></td>
-<td style="border:1px solid black;"><br />
-</td>
-<td style="border:1px solid black;"><br />
-</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><p>Lunghezza della chiave della CA principale (vedere la nota che segue questa tabella)</p></td>
-<td style="border:1px solid black;"><p>4096</p></td>
-<td style="border:1px solid black;"><br />
-</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>Periodo di validità del certificato della CA principale</p></td>
-<td style="border:1px solid black;"><p>16</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><p>Unità del valore precedente</p></td>
-<td style="border:1px solid black;"><p>Anni</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>Periodo massimo di validità dei certificati rilasciati dalla CA principale</p></td>
-<td style="border:1px solid black;"><p>8</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><p>Unità del valore precedente</p></td>
-<td style="border:1px solid black;"><p>Anni</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>Intervallo di pubblicazione dei CRL per la CA principale</p></td>
-<td style="border:1px solid black;"><p>6</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><p>Unità del valore precedente</p></td>
-<td style="border:1px solid black;"><p>Mesi</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>Periodo di sovrapposizione dei CRL (tempo che intercorre tra la pubblicazione del nuovo CRL e la scadenza del vecchio CRL)</p></td>
-<td style="border:1px solid black;"><p>10</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><p>Unità del valore precedente</p></td>
-<td style="border:1px solid black;"><p>Giorni</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>Periodo di pubblicazione di Delta-CRL per la CA principale-0 = disattivazione dei Delta-CRL</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><p>Unità del valore precedente</p></td>
-<td style="border:1px solid black;"><p>Ore</p></td>
-<td style="border:1px solid black;"><br />
-</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>Parametri della CA di emissione</p></td>
+<td style="border:1px solid black;">Configurazione della CA principale</td>
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unità e percorso di memorizzazione del database di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>D:\CertLog</p></td>
+<td style="border:1px solid black;">Lunghezza della chiave della CA principale (vedere la nota che segue questa tabella)</td>
+<td style="border:1px solid black;">4096</td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lunghezza della chiave della CA di emissione</p></td>
-<td style="border:1px solid black;"><p>2048</p></td>
+<td style="border:1px solid black;">Periodo di validità del certificato della CA principale</td>
+<td style="border:1px solid black;">16</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Unità del valore precedente</td>
+<td style="border:1px solid black;">Anni</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Periodo massimo di validità dei certificati rilasciati dalla CA principale</td>
+<td style="border:1px solid black;">8</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Unità del valore precedente</td>
+<td style="border:1px solid black;">Anni</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Intervallo di pubblicazione dei CRL per la CA principale</td>
+<td style="border:1px solid black;">6</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Unità del valore precedente</td>
+<td style="border:1px solid black;">Mesi</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Periodo di sovrapposizione dei CRL (tempo che intercorre tra la pubblicazione del nuovo CRL e la scadenza del vecchio CRL)</td>
+<td style="border:1px solid black;">10</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Unità del valore precedente</td>
+<td style="border:1px solid black;">Giorni</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Periodo di pubblicazione di Delta-CRL per la CA principale-0 = disattivazione dei Delta-CRL</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Unità del valore precedente</td>
+<td style="border:1px solid black;">Ore</td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;"><p>Periodo di validità del certificato della CA di emissione</p></td>
-<td style="border:1px solid black;"><p>8</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Unità del valore precedente</p></td>
-<td style="border:1px solid black;"><p>Anni</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><p>Periodo massimo di validità dei certificati rilasciati dalla CA di emissione</p></td>
-<td style="border:1px solid black;"><p>4</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>Unità del valore precedente</p></td>
-<td style="border:1px solid black;"><p>Anni</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><p>Intervallo di pubblicazione dei CRL per la CA di emissione</p></td>
-<td style="border:1px solid black;"><p>7</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>Unità del valore precedente</p></td>
-<td style="border:1px solid black;"><p>Giorni</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><p>Periodo di sovrapposizione dei CRL (tempo che intercorre tra la pubblicazione del nuovo CRL e la scadenza del vecchio CRL)</p></td>
-<td style="border:1px solid black;"><p>4</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>Unità del valore precedente</p></td>
-<td style="border:1px solid black;"><p>Giorni</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><p>Periodo di pubblicazione di Delta-CRL per la CA di emissione-0 = disattivazione dei delta-CRL</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>Unità del valore precedente</p></td>
-<td style="border:1px solid black;"><p>Giorni</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><p>Periodo di sovrapposizione dei Delta- CRL (tempo che intercorre tra la pubblicazione del nuovo Delta-CRL e la scadenza del vecchio Delta-CRL)</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>Unità del valore precedente</p></td>
-<td style="border:1px solid black;"><p>Giorni</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><p>Varie</p></td>
+<td style="border:1px solid black;">Parametri della CA di emissione</td>
 <td style="border:1px solid black;"><br />
 </td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
+<tr class="odd">
+<td style="border:1px solid black;">Unità e percorso di memorizzazione del database di Servizi certificati</td>
+<td style="border:1px solid black;">D:\CertLog</td>
+<td style="border:1px solid black;"><br />
+</td>
+</tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Percorso degli script di installazione</p></td>
-<td style="border:1px solid black;"><p>C:\MSSScripts</p></td>
+<td style="border:1px solid black;">Lunghezza della chiave della CA di emissione</td>
+<td style="border:1px solid black;">2048</td>
+<td style="border:1px solid black;"><br />
+</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Periodo di validità del certificato della CA di emissione</td>
+<td style="border:1px solid black;">8</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Unità del valore precedente</td>
+<td style="border:1px solid black;">Anni</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Periodo massimo di validità dei certificati rilasciati dalla CA di emissione</td>
+<td style="border:1px solid black;">4</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Unità del valore precedente</td>
+<td style="border:1px solid black;">Anni</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Intervallo di pubblicazione dei CRL per la CA di emissione</td>
+<td style="border:1px solid black;">7</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Unità del valore precedente</td>
+<td style="border:1px solid black;">Giorni</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Periodo di sovrapposizione dei CRL (tempo che intercorre tra la pubblicazione del nuovo CRL e la scadenza del vecchio CRL)</td>
+<td style="border:1px solid black;">4</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Unità del valore precedente</td>
+<td style="border:1px solid black;">Giorni</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Periodo di pubblicazione di Delta-CRL per la CA di emissione-0 = disattivazione dei delta-CRL</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Unità del valore precedente</td>
+<td style="border:1px solid black;">Giorni</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Periodo di sovrapposizione dei Delta- CRL (tempo che intercorre tra la pubblicazione del nuovo Delta-CRL e la scadenza del vecchio Delta-CRL)</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Unità del valore precedente</td>
+<td style="border:1px solid black;">Giorni</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Varie</td>
+<td style="border:1px solid black;"><br />
+</td>
+<td style="border:1px solid black;"><br />
+</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Percorso degli script di installazione</td>
+<td style="border:1px solid black;">C:\MSSScripts</td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **Nota:** l'utilizzo di una chiave della lunghezza di 4.096 bit potrebbe causare problemi di compatibilità, se i certificati devono essere rilasciati a o utilizzati da alcune periferiche, ad esempio, alcuni tipi di router, o versioni precedenti di software di alcuni fornitori, in quanto non sono in grado di elaborare chiavi superiori a dimensioni specifiche. È necessario testare le applicazioni utilizzando certificati con una chiave del certificato della CA principale di queste dimensioni prima dell'implementazione della PKI.
 
@@ -466,7 +466,7 @@ Nella tabella seguente vengono fornite le specifiche hardware consigliate in bas
 
 **Tabella 3. Specifiche hardware consigliate per il server CA principale**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -474,33 +474,33 @@ Nella tabella seguente vengono fornite le specifiche hardware consigliate in bas
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Requisito</p></th>
+<th>Elemento</th>
+<th>Requisito</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CPU</p></td>
-<td style="border:1px solid black;"><p>CPU singola a 733 MHz o superiore</p></td>
+<td style="border:1px solid black;">CPU</td>
+<td style="border:1px solid black;">CPU singola a 733 MHz o superiore</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Memoria</p></td>
-<td style="border:1px solid black;"><p>256 MB</p></td>
+<td style="border:1px solid black;">Memoria</td>
+<td style="border:1px solid black;">256 MB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Interfacce di rete</p></td>
-<td style="border:1px solid black;"><p>Nessuna (o disattivate)</p></td>
+<td style="border:1px solid black;">Interfacce di rete</td>
+<td style="border:1px solid black;">Nessuna (o disattivate)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Archiviazione disco</p></td>
-<td style="border:1px solid black;"><p>— Controller RAID (Redundant Array of Independent Disks) IDE (Integrated Device Electronics) o SCSI (Small Computer System Interface)<br />
+<td style="border:1px solid black;">Archiviazione disco</td>
+<td style="border:1px solid black;">— Controller RAID (Redundant Array of Independent Disks) IDE (Integrated Device Electronics) o SCSI (Small Computer System Interface)<br />
 — 2 x 18 GB (SCSI) o 2 x 20 GB (IDE) configurato come volume RAID 1 (unità C)<br />
 — Archiviazione su supporti rimovibili locali (CD-RW o nastro per backup)<br />
-— Unità disco da 1,44 MB per il trasferimento dei dati</p></td>
+— Unità disco da 1,44 MB per il trasferimento dei dati</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ##### Hardware per il server della CA di emissione
 
@@ -508,7 +508,7 @@ Il livello di prestazioni richiesto per la CA di emissione è relativamente bass
 
 **Tabella 4. Specifiche hardware consigliate per il server CA di emissione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -516,33 +516,33 @@ Il livello di prestazioni richiesto per la CA di emissione è relativamente bass
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento</p></th>
-<th><p>Requisito</p></th>
+<th>Elemento</th>
+<th>Requisito</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CPU</p></td>
-<td style="border:1px solid black;"><p>CPU singola a 733 MHz o superiore</p></td>
+<td style="border:1px solid black;">CPU</td>
+<td style="border:1px solid black;">CPU singola a 733 MHz o superiore</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Memoria</p></td>
-<td style="border:1px solid black;"><p>256 MB</p></td>
+<td style="border:1px solid black;">Memoria</td>
+<td style="border:1px solid black;">256 MB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Interfacce di rete</p></td>
-<td style="border:1px solid black;"><p>2 x singola scheda di interfaccia di rete (NIC) accoppiate per garantire il recupero</p></td>
+<td style="border:1px solid black;">Interfacce di rete</td>
+<td style="border:1px solid black;">2 x singola scheda di interfaccia di rete (NIC) accoppiate per garantire il recupero</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Archiviazione disco</p></td>
-<td style="border:1px solid black;"><p>— Controller RAID IDE o SCSI<br />
+<td style="border:1px solid black;">Archiviazione disco</td>
+<td style="border:1px solid black;">— Controller RAID IDE o SCSI<br />
 — 2 x 18 GB (SCSI) o 2 x 20-GB (IDE) configurato come volume RAID 1 (unità C e D)<br />
 — Archiviazione su supporti rimovibili locali (CD-RW o nastro per backup) se non è presente la funzione di backup di rete<br />
-— Unità disco da 1,44 MB per il trasferimento dei dati.</p></td>
+— Unità disco da 1,44 MB per il trasferimento dei dati.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ##### Preparazione dell'hardware
 
@@ -680,7 +680,7 @@ IIS viene installato con Gestione componenti facoltativi di Windows (accessibile
 
 **Tabella 5. Componenti facoltativi da installare**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -688,34 +688,34 @@ IIS viene installato con Gestione componenti facoltativi di Windows (accessibile
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Componente</p></th>
-<th><p>Stato installazione</p></th>
+<th>Componente</th>
+<th>Stato installazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Modalità server applicazioni</p></td>
-<td style="border:1px solid black;"><p>Selezionato</p></td>
+<td style="border:1px solid black;">Modalità server applicazioni</td>
+<td style="border:1px solid black;">Selezionato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Enable network COM+ access</p></td>
-<td style="border:1px solid black;"><p>Selezionato</p></td>
+<td style="border:1px solid black;">Enable network COM+ access</td>
+<td style="border:1px solid black;">Selezionato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Internet Information Services</p></td>
-<td style="border:1px solid black;"><p>Selezionato</p></td>
+<td style="border:1px solid black;">Internet Information Services</td>
+<td style="border:1px solid black;">Selezionato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>File comuni</p></td>
-<td style="border:1px solid black;"><p>Selezionato</p></td>
+<td style="border:1px solid black;">File comuni</td>
+<td style="border:1px solid black;">Selezionato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gestione di Internet Information Services</p></td>
-<td style="border:1px solid black;"><p>Selezionato</p></td>
+<td style="border:1px solid black;">Gestione di Internet Information Services</td>
+<td style="border:1px solid black;">Selezionato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizio Web</p></td>
-<td style="border:1px solid black;"><p>Selezionato</p></td>
+<td style="border:1px solid black;">Servizio Web</td>
+<td style="border:1px solid black;">Selezionato</td>
 </tr>
 </tbody>
 </table>
@@ -750,7 +750,7 @@ IIS viene installato con Gestione componenti facoltativi di Windows (accessibile
   
         **Tabella 6. Autorizzazioni directory virtuale**
 
-<p> </p>
+ 
         <table style="border:1px solid black;">
         <colgroup>
         <col width="33%" />
@@ -759,43 +759,43 @@ IIS viene installato con Gestione componenti facoltativi di Windows (accessibile
         </colgroup>
         <thead>
         <tr class="header">
-        <th><p>Utente/Gruppo</p></th>
-        <th><p>Autorizzazione</p></th>
-        <th><p>Consenti/Nega</p></th>
+        <th>Utente/Gruppo</th>
+        <th>Autorizzazione</th>
+        <th>Consenti/Nega</th>
         </tr>
         </thead>
         <tbody>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>Administrators</p></td>
-        <td style="border:1px solid black;"><p>Controllo completo</p></td>
-        <td style="border:1px solid black;"><p>Consenti</p></td>
+        <td style="border:1px solid black;">Administrators</td>
+        <td style="border:1px solid black;">Controllo completo</td>
+        <td style="border:1px solid black;">Consenti</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>System</p></td>
-        <td style="border:1px solid black;"><p>Controllo completo</p></td>
-        <td style="border:1px solid black;"><p>Consenti</p></td>
+        <td style="border:1px solid black;">System</td>
+        <td style="border:1px solid black;">Controllo completo</td>
+        <td style="border:1px solid black;">Consenti</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>Creator Owners</p></td>
-        <td style="border:1px solid black;"><p>Controllo completo (solo sottocartelle e file)</p></td>
-        <td style="border:1px solid black;"><p>Consenti</p></td>
+        <td style="border:1px solid black;">Creator Owners</td>
+        <td style="border:1px solid black;">Controllo completo (solo sottocartelle e file)</td>
+        <td style="border:1px solid black;">Consenti</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>Users</p></td>
-        <td style="border:1px solid black;"><p>— Lettura<br />
-        — Visualizzazione contenuto cartelle</p></td>
-        <td style="border:1px solid black;"><p>Consenti</p></td>
+        <td style="border:1px solid black;">Users</td>
+        <td style="border:1px solid black;">— Lettura<br />
+        — Visualizzazione contenuto cartelle</td>
+        <td style="border:1px solid black;">Consenti</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>IIS_WPG</p></td>
-        <td style="border:1px solid black;"><p>— Lettura<br />
-        — Visualizzazione contenuto cartelle</p></td>
-        <td style="border:1px solid black;"><p>Consenti</p></td>
+        <td style="border:1px solid black;">IIS_WPG</td>
+        <td style="border:1px solid black;">— Lettura<br />
+        — Visualizzazione contenuto cartelle</td>
+        <td style="border:1px solid black;">Consenti</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>Account Internet Guest</p></td>
-        <td style="border:1px solid black;"><p>Scrittura</p></td>
-        <td style="border:1px solid black;"><p>Nega</p></td>
+        <td style="border:1px solid black;">Account Internet Guest</td>
+        <td style="border:1px solid black;">Scrittura</td>
+        <td style="border:1px solid black;">Nega</td>
         </tr>
         </tbody>
         </table>
@@ -1006,7 +1006,7 @@ Questo script crea i gruppi di protezione elencati nella tabella seguente come g
   
 **Tabella 7. Nomi e scopi dei gruppi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1014,34 +1014,34 @@ Questo script crea i gruppi di protezione elencati nella tabella seguente come g
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome gruppo</p></th>
-<th><p>Scopo</p></th>
+<th>Nome gruppo</th>
+<th>Scopo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Enterprise PKI Admins</p></td>
-<td style="border:1px solid black;"><p>Amministratori del contenitore di configurazione Servizi chiave pubblica</p></td>
+<td style="border:1px solid black;">Enterprise PKI Admins</td>
+<td style="border:1px solid black;">Amministratori del contenitore di configurazione Servizi chiave pubblica</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Enterprise PKI Publishers</p></td>
-<td style="border:1px solid black;"><p>Autorizzato a pubblicare CRL e certificati CA nei contenitori della configurazione dell'organizzazione</p></td>
+<td style="border:1px solid black;">Enterprise PKI Publishers</td>
+<td style="border:1px solid black;">Autorizzato a pubblicare CRL e certificati CA nei contenitori della configurazione dell'organizzazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CA Admins</p></td>
-<td style="border:1px solid black;"><p>Dispone di privilegi amministrativi completi sulla CA, inclusa la determinazione dell'appartenenza di altri ruoli</p></td>
+<td style="border:1px solid black;">CA Admins</td>
+<td style="border:1px solid black;">Dispone di privilegi amministrativi completi sulla CA, inclusa la determinazione dell'appartenenza di altri ruoli</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certificate Managers</p></td>
-<td style="border:1px solid black;"><p>Gestisce il rilascio e la revoca dei certificati</p></td>
+<td style="border:1px solid black;">Certificate Managers</td>
+<td style="border:1px solid black;">Gestisce il rilascio e la revoca dei certificati</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CA Auditors</p></td>
-<td style="border:1px solid black;"><p>Gestisce i dati di controllo per la CA</p></td>
+<td style="border:1px solid black;">CA Auditors</td>
+<td style="border:1px solid black;">Gestisce i dati di controllo per la CA</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CA Backup Operators</p></td>
-<td style="border:1px solid black;"><p>Dispone delle autorizzazioni a eseguire il backup e il ripristino delle chiavi e dei dati della CA</p></td>
+<td style="border:1px solid black;">CA Backup Operators</td>
+<td style="border:1px solid black;">Dispone delle autorizzazioni a eseguire il backup e il ripristino delle chiavi e dei dati della CA</td>
 </tr>
 </tbody>
 </table>
@@ -1073,7 +1073,7 @@ Lo script crea gli account di dominio descritti nella tabella seguente. Lo scrip
   
 **Tabella 8. Nomi e scopi degli account**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1081,34 +1081,34 @@ Lo script crea gli account di dominio descritti nella tabella seguente. Lo scrip
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Account utente</p></th>
-<th><p>Scopo dell'account</p></th>
+<th>Account utente</th>
+<th>Scopo dell'account</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>EntPKIAdmin</p></td>
-<td style="border:1px solid black;"><p>Amministratori del contenitore di configurazione Servizi chiave pubblica</p></td>
+<td style="border:1px solid black;">EntPKIAdmin</td>
+<td style="border:1px solid black;">Amministratori del contenitore di configurazione Servizi chiave pubblica</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>EntPKIPub</p></td>
-<td style="border:1px solid black;"><p>Autorizzato a pubblicare CRL e certificati CA nei contenitori della configurazione dell'organizzazione</p></td>
+<td style="border:1px solid black;">EntPKIPub</td>
+<td style="border:1px solid black;">Autorizzato a pubblicare CRL e certificati CA nei contenitori della configurazione dell'organizzazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CAAdmin</p></td>
-<td style="border:1px solid black;"><p>Dispone di privilegi amministrativi completi sulla CA, inclusa la determinazione dell'appartenenza di altri ruoli</p></td>
+<td style="border:1px solid black;">CAAdmin</td>
+<td style="border:1px solid black;">Dispone di privilegi amministrativi completi sulla CA, inclusa la determinazione dell'appartenenza di altri ruoli</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CertManager</p></td>
-<td style="border:1px solid black;"><p>Gestisce il rilascio e la revoca dei certificati</p></td>
+<td style="border:1px solid black;">CertManager</td>
+<td style="border:1px solid black;">Gestisce il rilascio e la revoca dei certificati</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CAAuditor</p></td>
-<td style="border:1px solid black;"><p>Gestisce i dati di controllo per la CA</p></td>
+<td style="border:1px solid black;">CAAuditor</td>
+<td style="border:1px solid black;">Gestisce i dati di controllo per la CA</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CABackup</p></td>
-<td style="border:1px solid black;"><p>Dispone delle autorizzazioni a eseguire il backup e il ripristino delle chiavi e dei dati della CA</p></td>
+<td style="border:1px solid black;">CABackup</td>
+<td style="border:1px solid black;">Dispone delle autorizzazioni a eseguire il backup e il ripristino delle chiavi e dei dati della CA</td>
 </tr>
 </tbody>
 </table>
@@ -1133,7 +1133,7 @@ Numerose organizzazioni utilizzeranno tre ruoli: CA Administrator, Auditor e Bac
   
 **Tabella 9. Assegnazione dei gruppi del modello amministrativo semplificato**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1141,26 +1141,26 @@ Numerose organizzazioni utilizzeranno tre ruoli: CA Administrator, Auditor e Bac
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ruolo amministrativo semplificato</p></th>
-<th><p>Appartenenza al gruppo</p></th>
+<th>Ruolo amministrativo semplificato</th>
+<th>Appartenenza al gruppo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CAAdmin</p></td>
-<td style="border:1px solid black;"><p>— Enterprise PKI Admins<br />
+<td style="border:1px solid black;">CAAdmin</td>
+<td style="border:1px solid black;">— Enterprise PKI Admins<br />
 — <strong>CA Admins</strong><br />
 — <strong>Certificate Managers</strong><br />
-— Administrators (amministratori locali della CA)</p></td>
+— Administrators (amministratori locali della CA)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CAAuditor</p></td>
-<td style="border:1px solid black;"><p>— <strong>CA Auditors</strong><br />
-— Administrators (amministratori locali della CA)</p></td>
+<td style="border:1px solid black;">CAAuditor</td>
+<td style="border:1px solid black;">— <strong>CA Auditors</strong><br />
+— Administrators (amministratori locali della CA)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CABackup</p></td>
-<td style="border:1px solid black;"><p>CA Backup Operators</p></td>
+<td style="border:1px solid black;">CABackup</td>
+<td style="border:1px solid black;">CA Backup Operators</td>
 </tr>
 </tbody>
 </table>
@@ -1175,7 +1175,7 @@ Esistono diversi tipi di gruppi e account utenti associati alla gestione e al fu
   
 **Tabella 10. Struttura di un'unità organizzativa di esempio**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1183,31 +1183,31 @@ Esistono diversi tipi di gruppi e account utenti associati alla gestione e al fu
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Unità organizzativa</p></th>
-<th><p>Scopo</p></th>
+<th>Unità organizzativa</th>
+<th>Scopo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi certificati</p></td>
+<td style="border:1px solid black;">Servizi certificati</td>
 <td style="border:1px solid black;"><br />
 </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Amministrazione di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>Contiene i gruppi amministrativi per la gestione delle CA e la configurazione dell'infrastruttura PKI dell'organizzazione.</p></td>
+<td style="border:1px solid black;">Amministrazione di Servizi certificati</td>
+<td style="border:1px solid black;">Contiene i gruppi amministrativi per la gestione delle CA e la configurazione dell'infrastruttura PKI dell'organizzazione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gestione dei modelli di certificato</p></td>
-<td style="border:1px solid black;"><p>Contiene i gruppi per la gestione di singoli modelli di certificato</p></td>
+<td style="border:1px solid black;">Gestione dei modelli di certificato</td>
+<td style="border:1px solid black;">Contiene i gruppi per la gestione di singoli modelli di certificato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Registrazione dei modelli di certificato</p></td>
-<td style="border:1px solid black;"><p>Contiene gruppi a cui sono state concesse le autorizzazioni di registrazione o registrazione automatica sui modelli dello stesso nome. Il controllo di questi gruppi può essere delegato quindi al personale appropriato per consentire un regime di registrazione flessibile senza modificare i modelli stessi</p></td>
+<td style="border:1px solid black;">Registrazione dei modelli di certificato</td>
+<td style="border:1px solid black;">Contiene gruppi a cui sono state concesse le autorizzazioni di registrazione o registrazione automatica sui modelli dello stesso nome. Il controllo di questi gruppi può essere delegato quindi al personale appropriato per consentire un regime di registrazione flessibile senza modificare i modelli stessi</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Utenti test di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>Contiene account test temporanei</p></td>
+<td style="border:1px solid black;">Utenti test di Servizi certificati</td>
+<td style="border:1px solid black;">Contiene account test temporanei</td>
 </tr>
 </tbody>
 </table>
@@ -1391,7 +1391,7 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
   
         **Tabella 11. Nomi e scopi dei gruppi**
 
-<p> </p>
+ 
         <table style="border:1px solid black;">
         <colgroup>
         <col width="50%" />
@@ -1399,26 +1399,26 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
         </colgroup>
         <thead>
         <tr class="header">
-        <th><p>Nome gruppo</p></th>
-        <th><p>Scopo</p></th>
+        <th>Nome gruppo</th>
+        <th>Scopo</th>
         </tr>
         </thead>
         <tbody>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>CA Admins</p></td>
-        <td style="border:1px solid black;"><p>Dispone di privilegi amministrativi completi sulla CA, inclusa la determinazione dell'appartenenza di altri ruoli</p></td>
+        <td style="border:1px solid black;">CA Admins</td>
+        <td style="border:1px solid black;">Dispone di privilegi amministrativi completi sulla CA, inclusa la determinazione dell'appartenenza di altri ruoli</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>Certificate Managers</p></td>
-        <td style="border:1px solid black;"><p>Gestisce il rilascio e la revoca dei certificati</p></td>
+        <td style="border:1px solid black;">Certificate Managers</td>
+        <td style="border:1px solid black;">Gestisce il rilascio e la revoca dei certificati</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>CA Auditors</p></td>
-        <td style="border:1px solid black;"><p>Gestisce i dati di controllo per la CA</p></td>
+        <td style="border:1px solid black;">CA Auditors</td>
+        <td style="border:1px solid black;">Gestisce i dati di controllo per la CA</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>CA Backup Operators</p></td>
-        <td style="border:1px solid black;"><p>Dispone delle autorizzazioni a eseguire il backup e il ripristino delle chiavi e dei dati della CA</p></td>
+        <td style="border:1px solid black;">CA Backup Operators</td>
+        <td style="border:1px solid black;">Dispone delle autorizzazioni a eseguire il backup e il ripristino delle chiavi e dei dati della CA</td>
         </tr>
         </tbody>
         </table>
@@ -1434,7 +1434,7 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
   
         **Tabella 12. Nomi e scopi degli account**
 
-<p> </p>
+ 
         <table style="border:1px solid black;">
         <colgroup>
         <col width="50%" />
@@ -1442,26 +1442,26 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
         </colgroup>
         <thead>
         <tr class="header">
-        <th><p>Nome account</p></th>
-        <th><p>Scopo</p></th>
+        <th>Nome account</th>
+        <th>Scopo</th>
         </tr>
         </thead>
         <tbody>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>CAAdmin</p></td>
-        <td style="border:1px solid black;"><p>Dispone di privilegi amministrativi completi sulla CA, inclusa la determinazione dell'appartenenza di altri ruoli</p></td>
+        <td style="border:1px solid black;">CAAdmin</td>
+        <td style="border:1px solid black;">Dispone di privilegi amministrativi completi sulla CA, inclusa la determinazione dell'appartenenza di altri ruoli</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>CertManager</p></td>
-        <td style="border:1px solid black;"><p>Gestisce il rilascio e la revoca dei certificati</p></td>
+        <td style="border:1px solid black;">CertManager</td>
+        <td style="border:1px solid black;">Gestisce il rilascio e la revoca dei certificati</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>CAAuditor</p></td>
-        <td style="border:1px solid black;"><p>Gestisce i dati di controllo per la CA</p></td>
+        <td style="border:1px solid black;">CAAuditor</td>
+        <td style="border:1px solid black;">Gestisce i dati di controllo per la CA</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>CABackup</p></td>
-        <td style="border:1px solid black;"><p>Dispone delle autorizzazioni a eseguire il backup e il ripristino delle chiavi e dei dati della CA</p></td>
+        <td style="border:1px solid black;">CABackup</td>
+        <td style="border:1px solid black;">Dispone delle autorizzazioni a eseguire il backup e il ripristino delle chiavi e dei dati della CA</td>
         </tr>
         </tbody>
         </table>
@@ -1472,7 +1472,7 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
   
         **Tabella 13. Nomi account e appartenenze di gruppo**
 
-<p> </p>
+ 
         <table style="border:1px solid black;">
         <colgroup>
         <col width="50%" />
@@ -1480,27 +1480,27 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
         </colgroup>
         <thead>
         <tr class="header">
-        <th><p>Nome account</p></th>
-        <th><p>Appartenenza al gruppo</p></th>
+        <th>Nome account</th>
+        <th>Appartenenza al gruppo</th>
         </tr>
         </thead>
         <tbody>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>CAAdmin</p></td>
-        <td style="border:1px solid black;"><p><strong>CA Admin</strong>s</p></td>
+        <td style="border:1px solid black;">CAAdmin</td>
+        <td style="border:1px solid black;"><strong>CA Admin</strong>s</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>CertManager</p></td>
-        <td style="border:1px solid black;"><p><strong>Certificate Manager</strong>s</p></td>
+        <td style="border:1px solid black;">CertManager</td>
+        <td style="border:1px solid black;"><strong>Certificate Manager</strong>s</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>CAAuditor</p></td>
-        <td style="border:1px solid black;"><p>— <strong>CA Auditors</strong><br />
-        — Administrators</p></td>
+        <td style="border:1px solid black;">CAAuditor</td>
+        <td style="border:1px solid black;">— <strong>CA Auditors</strong><br />
+        — Administrators</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>CABackup</p></td>
-        <td style="border:1px solid black;"><p><strong>CA Backup Operator</strong>s</p></td>
+        <td style="border:1px solid black;">CABackup</td>
+        <td style="border:1px solid black;"><strong>CA Backup Operator</strong>s</td>
         </tr>
         </tbody>
         </table>
@@ -1513,7 +1513,7 @@ La maggior parte delle organizzazioni non richiede una struttura amministrativa 
   
 **Tabella 14. Assegnazione dei gruppi del modello amministrativo semplificato**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1521,25 +1521,25 @@ La maggior parte delle organizzazioni non richiede una struttura amministrativa 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ruolo amministrativo semplificato</p></th>
-<th><p>Appartenenza al gruppo</p></th>
+<th>Ruolo amministrativo semplificato</th>
+<th>Appartenenza al gruppo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CAAdmin</p></td>
-<td style="border:1px solid black;"><p>— <strong>CA Admins</strong><br />
+<td style="border:1px solid black;">CAAdmin</td>
+<td style="border:1px solid black;">— <strong>CA Admins</strong><br />
 — <strong>Certificate Managers</strong><br />
-— Administrators</p></td>
+— Administrators</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CA Auditor</p></td>
-<td style="border:1px solid black;"><p>— <strong>CA Auditors</strong><br />
-— Administrators</p></td>
+<td style="border:1px solid black;">CA Auditor</td>
+<td style="border:1px solid black;">— <strong>CA Auditors</strong><br />
+— Administrators</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CABackup</p></td>
-<td style="border:1px solid black;"><p>— <strong>CA Backup Operators</strong></p></td>
+<td style="border:1px solid black;">CABackup</td>
+<td style="border:1px solid black;">— <strong>CA Backup Operators</strong></td>
 </tr>
 </tbody>
 </table>
@@ -1694,7 +1694,7 @@ La procedura seguente descrive come creare le unità organizzative e i GPO per l
   
         **Tabella 15. Mapping dei GPO ai modelli di protezione e alle unità organizzative**
 
-<p> </p>
+ 
         <table style="border:1px solid black;">
         <colgroup>
         <col width="33%" />
@@ -1703,31 +1703,31 @@ La procedura seguente descrive come creare le unità organizzative e i GPO per l
         </colgroup>
         <thead>
         <tr class="header">
-        <th><p>OU</p></th>
-        <th><p>GPO</p></th>
-        <th><p>Modello di protezione</p></th>
+        <th>OU</th>
+        <th>GPO</th>
+        <th>Modello di protezione</th>
         </tr>
         </thead>
         <tbody>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>Server membri</p></td>
-        <td style="border:1px solid black;"><p>Client di organizzazione — Criteri di base per i server membri</p></td>
-        <td style="border:1px solid black;"><p>Enterprise Client — Member Server Baseline.inf</p></td>
+        <td style="border:1px solid black;">Server membri</td>
+        <td style="border:1px solid black;">Client di organizzazione — Criteri di base per i server membri</td>
+        <td style="border:1px solid black;">Enterprise Client — Member Server Baseline.inf</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>CA</p></td>
-        <td style="border:1px solid black;"><p>Client di organizzazione — Servizi certificati</p></td>
-        <td style="border:1px solid black;"><p>Enterprise Client — Certificate Services.inf</p></td>
+        <td style="border:1px solid black;">CA</td>
+        <td style="border:1px solid black;">Client di organizzazione — Servizi certificati</td>
+        <td style="border:1px solid black;">Enterprise Client — Certificate Services.inf</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>CA</p></td>
-        <td style="border:1px solid black;"><p>(Opzionale — vedere nota precedente) Client di organizzazione — Criteri account per Servizi certificati</p></td>
-        <td style="border:1px solid black;"><p>Enterprise Client — Domain.inf</p></td>
+        <td style="border:1px solid black;">CA</td>
+        <td style="border:1px solid black;">(Opzionale — vedere nota precedente) Client di organizzazione — Criteri account per Servizi certificati</td>
+        <td style="border:1px solid black;">Enterprise Client — Domain.inf</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>CA</p></td>
-        <td style="border:1px solid black;"><p>(Opzionale — se IIS è installato nel computer CA) Client di organizzazione — Servizi certificati IIS</p></td>
-        <td style="border:1px solid black;"><p>Enterprise Client — IIS Server.inf</p></td>
+        <td style="border:1px solid black;">CA</td>
+        <td style="border:1px solid black;">(Opzionale — se IIS è installato nel computer CA) Client di organizzazione — Servizi certificati IIS</td>
+        <td style="border:1px solid black;">Enterprise Client — IIS Server.inf</td>
         </tr>
         </tbody>
         </table>
@@ -1778,7 +1778,7 @@ Dopo aver creato i GPO e aver importato i modelli, è necessario personalizzare 
   
         **Tabella 16. Autorizzazioni per le cartelle del database CA**
 
-<p> </p>
+ 
         <table style="border:1px solid black;">
         <colgroup>
         <col width="33%" />
@@ -1787,39 +1787,39 @@ Dopo aver creato i GPO e aver importato i modelli, è necessario personalizzare 
         </colgroup>
         <thead>
         <tr class="header">
-        <th><p>Utente/Gruppo</p></th>
-        <th><p>Autorizzazione</p></th>
-        <th><p>Consenti/Nega</p></th>
+        <th>Utente/Gruppo</th>
+        <th>Autorizzazione</th>
+        <th>Consenti/Nega</th>
         </tr>
         </thead>
         <tbody>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>Administrators</p></td>
+        <td style="border:1px solid black;">Administrators</td>
         <td style="border:1px solid black;"><ul>
-        <li><p>Controllo completo</p></li>
+        <li>Controllo completo</li>
         </ul></td>
-        <td style="border:1px solid black;"><p>Consenti</p></td>
+        <td style="border:1px solid black;">Consenti</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>System</p></td>
+        <td style="border:1px solid black;">System</td>
         <td style="border:1px solid black;"><ul>
-        <li><p>Controllo completo</p></li>
+        <li>Controllo completo</li>
         </ul></td>
-        <td style="border:1px solid black;"><p>Consenti</p></td>
+        <td style="border:1px solid black;">Consenti</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>Backup Operators</p></td>
+        <td style="border:1px solid black;">Backup Operators</td>
         <td style="border:1px solid black;"><ul>
-        <li><p>Controllo completo</p></li>
+        <li>Controllo completo</li>
         </ul></td>
-        <td style="border:1px solid black;"><p>Consenti</p></td>
+        <td style="border:1px solid black;">Consenti</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>CREATOR OWNER</p></td>
+        <td style="border:1px solid black;">CREATOR OWNER</td>
         <td style="border:1px solid black;"><ul>
-        <li><p>Controllo completo</p></li>
+        <li>Controllo completo</li>
         </ul></td>
-        <td style="border:1px solid black;"><p>Consenti</p></td>
+        <td style="border:1px solid black;">Consenti</td>
         </tr>
         </tbody>
         </table>
@@ -1828,7 +1828,7 @@ Dopo aver creato i GPO e aver importato i modelli, è necessario personalizzare 
   
         **Tabella 17. Controllo per le cartelle del database CA**
 
-<p> </p>
+ 
         <table style="border:1px solid black;">
         <colgroup>
         <col width="33%" />
@@ -1837,115 +1837,115 @@ Dopo aver creato i GPO e aver importato i modelli, è necessario personalizzare 
         </colgroup>
         <thead>
         <tr class="header">
-        <th><p>Autorizzazione</p></th>
-        <th><p>Riuscito</p></th>
-        <th><p>Non riuscito</p></th>
+        <th>Autorizzazione</th>
+        <th>Riuscito</th>
+        <th>Non riuscito</th>
         </tr>
         </thead>
         <tbody>
         <tr class="odd">
         <td style="border:1px solid black;"><ul>
-        <li><p>Controllo completo</p></li>
+        <li>Controllo completo</li>
         </ul></td>
         <td style="border:1px solid black;"><br />
         </td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
+        <td style="border:1px solid black;">Sì</td>
         </tr>
         <tr class="even">
         <td style="border:1px solid black;"><ul>
-        <li><p>Visita cartelle/Esecuzione file</p></li>
+        <li>Visita cartelle/Esecuzione file</li>
         </ul></td>
         <td style="border:1px solid black;"><br />
         </td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
+        <td style="border:1px solid black;">Sì</td>
         </tr>
         <tr class="odd">
         <td style="border:1px solid black;"><ul>
-        <li><p>Visualizza contenuto cartelle/Lettura dati</p></li>
+        <li>Visualizza contenuto cartelle/Lettura dati</li>
         </ul></td>
         <td style="border:1px solid black;"><br />
         </td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
+        <td style="border:1px solid black;">Sì</td>
         </tr>
         <tr class="even">
         <td style="border:1px solid black;"><ul>
-        <li><p>Lettura attributi</p></li>
+        <li>Lettura attributi</li>
         </ul></td>
         <td style="border:1px solid black;"><br />
         </td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
+        <td style="border:1px solid black;">Sì</td>
         </tr>
         <tr class="odd">
         <td style="border:1px solid black;"><ul>
-        <li><p>Lettura attributi estesi</p></li>
+        <li>Lettura attributi estesi</li>
         </ul></td>
         <td style="border:1px solid black;"><br />
         </td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
+        <td style="border:1px solid black;">Sì</td>
         </tr>
         <tr class="even">
         <td style="border:1px solid black;"><ul>
-        <li><p>Creazione file/Scrittura dati</p></li>
+        <li>Creazione file/Scrittura dati</li>
         </ul></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
+        <td style="border:1px solid black;">Sì</td>
+        <td style="border:1px solid black;">Sì</td>
         </tr>
         <tr class="odd">
         <td style="border:1px solid black;"><ul>
-        <li><p>Creazione cartelle/Aggiunta dati</p></li>
+        <li>Creazione cartelle/Aggiunta dati</li>
         </ul></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
+        <td style="border:1px solid black;">Sì</td>
+        <td style="border:1px solid black;">Sì</td>
         </tr>
         <tr class="even">
         <td style="border:1px solid black;"><ul>
-        <li><p>Scrittura attributi</p></li>
+        <li>Scrittura attributi</li>
         </ul></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
+        <td style="border:1px solid black;">Sì</td>
+        <td style="border:1px solid black;">Sì</td>
         </tr>
         <tr class="odd">
         <td style="border:1px solid black;"><ul>
-        <li><p>Scrittura attributi estesi</p></li>
+        <li>Scrittura attributi estesi</li>
         </ul></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
+        <td style="border:1px solid black;">Sì</td>
+        <td style="border:1px solid black;">Sì</td>
         </tr>
         <tr class="even">
         <td style="border:1px solid black;"><ul>
-        <li><p>Eliminazione sottocartelle e file</p></li>
+        <li>Eliminazione sottocartelle e file</li>
         </ul></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
+        <td style="border:1px solid black;">Sì</td>
+        <td style="border:1px solid black;">Sì</td>
         </tr>
         <tr class="odd">
         <td style="border:1px solid black;"><ul>
-        <li><p>Eliminazione</p></li>
+        <li>Eliminazione</li>
         </ul></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
+        <td style="border:1px solid black;">Sì</td>
+        <td style="border:1px solid black;">Sì</td>
         </tr>
         <tr class="even">
         <td style="border:1px solid black;"><ul>
-        <li><p>Autorizzazioni di lettura</p></li>
+        <li>Autorizzazioni di lettura</li>
         </ul></td>
         <td style="border:1px solid black;"><br />
         </td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
+        <td style="border:1px solid black;">Sì</td>
         </tr>
         <tr class="odd">
         <td style="border:1px solid black;"><ul>
-        <li><p>Cambia autorizzazioni</p></li>
+        <li>Cambia autorizzazioni</li>
         </ul></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
+        <td style="border:1px solid black;">Sì</td>
+        <td style="border:1px solid black;">Sì</td>
         </tr>
         <tr class="even">
         <td style="border:1px solid black;"><ul>
-        <li><p>Diventa proprietario</p></li>
+        <li>Diventa proprietario</li>
         </ul></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
-        <td style="border:1px solid black;"><p>Sì</p></td>
+        <td style="border:1px solid black;">Sì</td>
+        <td style="border:1px solid black;">Sì</td>
         </tr>
         </tbody>
         </table>
@@ -1994,7 +1994,7 @@ Queste impostazioni devono essere configurate nel GPO di protezione di Servizi c
   
 **Tabella 18. Impostazioni da configurare in Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Servizi terminal**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2003,103 +2003,103 @@ Queste impostazioni devono essere configurate nel GPO di protezione di Servizi c
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Percorso</p></th>
-<th><p>Criterio</p></th>
-<th><p>Impostazione</p></th>
+<th>Percorso</th>
+<th>Criterio</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Nega la connessione di un amministratore connesso alla sessione della console</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
+<td style="border:1px solid black;">Nega la connessione di un amministratore connesso alla sessione della console</td>
+<td style="border:1px solid black;">Attivo</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Non consentire agli amministratori locali di personalizzare le autorizzazioni</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
+<td style="border:1px solid black;">Non consentire agli amministratori locali di personalizzare le autorizzazioni</td>
+<td style="border:1px solid black;">Attivo</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Imposta regole per il controllo remoto delle sessioni di Servizi Terminal</p></td>
-<td style="border:1px solid black;"><p>Nessun controllo remoto consentito</p></td>
+<td style="border:1px solid black;">Imposta regole per il controllo remoto delle sessioni di Servizi Terminal</td>
+<td style="border:1px solid black;">Nessun controllo remoto consentito</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Reindirizzamento dati client\server</p></td>
-<td style="border:1px solid black;"><p>Consenti reindirizzamento fuso orario</p></td>
-<td style="border:1px solid black;"><p>Disattivato</p></td>
+<td style="border:1px solid black;">Reindirizzamento dati client\server</td>
+<td style="border:1px solid black;">Consenti reindirizzamento fuso orario</td>
+<td style="border:1px solid black;">Disattivato</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Non consentire il reindirizzamento degli Appunti</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
+<td style="border:1px solid black;">Non consentire il reindirizzamento degli Appunti</td>
+<td style="border:1px solid black;">Attivo</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Consenti il reindirizzamento audio</p></td>
-<td style="border:1px solid black;"><p>Disattivato</p></td>
+<td style="border:1px solid black;">Consenti il reindirizzamento audio</td>
+<td style="border:1px solid black;">Disattivato</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Non consentire il reindirizzamento della porta COM</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
+<td style="border:1px solid black;">Non consentire il reindirizzamento della porta COM</td>
+<td style="border:1px solid black;">Attivo</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Non consentire il reindirizzamento della stampante client</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
+<td style="border:1px solid black;">Non consentire il reindirizzamento della stampante client</td>
+<td style="border:1px solid black;">Attivo</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Non consentire il reindirizzamento della porta LPT</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
+<td style="border:1px solid black;">Non consentire il reindirizzamento della porta LPT</td>
+<td style="border:1px solid black;">Attivo</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Non consentire il reindirizzamento delle unità</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
+<td style="border:1px solid black;">Non consentire il reindirizzamento delle unità</td>
+<td style="border:1px solid black;">Attivo</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Non impostare stampante predefinita del client come stampante predefinita per una sessione</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
+<td style="border:1px solid black;">Non impostare stampante predefinita del client come stampante predefinita per una sessione</td>
+<td style="border:1px solid black;">Attivo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Crittografia e protezione</p></td>
-<td style="border:1px solid black;"><p>Richiedi sempre password del client alla connessione</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
+<td style="border:1px solid black;">Crittografia e protezione</td>
+<td style="border:1px solid black;">Richiedi sempre password del client alla connessione</td>
+<td style="border:1px solid black;">Attivo</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Imposta livello di crittografia connessione client</p></td>
-<td style="border:1px solid black;"><p>Alta</p></td>
+<td style="border:1px solid black;">Imposta livello di crittografia connessione client</td>
+<td style="border:1px solid black;">Alta</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Crittografia e protezione\Protezione RPC</p></td>
-<td style="border:1px solid black;"><p>Server protetto (richiede protezione)</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
+<td style="border:1px solid black;">Crittografia e protezione\Protezione RPC</td>
+<td style="border:1px solid black;">Server protetto (richiede protezione)</td>
+<td style="border:1px solid black;">Attivo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sessioni</p></td>
-<td style="border:1px solid black;"><p>Imposta limite di tempo per le sessioni disconnesse</p></td>
-<td style="border:1px solid black;"><p>10 minuti</p></td>
+<td style="border:1px solid black;">Sessioni</td>
+<td style="border:1px solid black;">Imposta limite di tempo per le sessioni disconnesse</td>
+<td style="border:1px solid black;">10 minuti</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Consenti la riconnessione solo dal client originale</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
+<td style="border:1px solid black;">Consenti la riconnessione solo dal client originale</td>
+<td style="border:1px solid black;">Attivo</td>
 </tr>
 </tbody>
 </table>
@@ -2207,7 +2207,7 @@ Installare i componenti software CA utilizzando la procedura Aggiunta guidata co
   
         **Tabella 19. Proprietà ed estensioni del certificato della CA principale**
 
-<p> </p>
+ 
         <table style="border:1px solid black;">
         <colgroup>
         <col width="50%" />
@@ -2215,35 +2215,35 @@ Installare i componenti software CA utilizzando la procedura Aggiunta guidata co
         </colgroup>
         <thead>
         <tr class="header">
-        <th><p>Attributo del certificato</p></th>
-        <th><p>Impostazione richiesta</p></th>
+        <th>Attributo del certificato</th>
+        <th>Impostazione richiesta</th>
         </tr>
         </thead>
         <tbody>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>Campi Autorità emittente e Oggetto</p></td>
-        <td style="border:1px solid black;"><p>Devono essere identici e includere il nome comune completo della CA più il suffisso del nome distinto specificato durante l'installazione.</p></td>
+        <td style="border:1px solid black;">Campi Autorità emittente e Oggetto</td>
+        <td style="border:1px solid black;">Devono essere identici e includere il nome comune completo della CA più il suffisso del nome distinto specificato durante l'installazione.</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>Non prima - Non dopo</p></td>
-        <td style="border:1px solid black;"><p>16 anni</p></td>
+        <td style="border:1px solid black;">Non prima - Non dopo</td>
+        <td style="border:1px solid black;">16 anni</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>Lunghezza della chiave pubblica</p></td>
-        <td style="border:1px solid black;"><p>RSA (4096 bit)</p></td>
+        <td style="border:1px solid black;">Lunghezza della chiave pubblica</td>
+        <td style="border:1px solid black;">RSA (4096 bit)</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>Utilizzo chiave</p></td>
-        <td style="border:1px solid black;"><p>Firma digitale, Firma certificato, Firma CRL non in linea, Firma CRL (86)</p></td>
+        <td style="border:1px solid black;">Utilizzo chiave</td>
+        <td style="border:1px solid black;">Firma digitale, Firma certificato, Firma CRL non in linea, Firma CRL (86)</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>Restrizioni di base (critiche)</p></td>
-        <td style="border:1px solid black;"><p>Tipo oggetto=CA<br />
-        Limite lunghezza percorso=Nessuno</p></td>
+        <td style="border:1px solid black;">Restrizioni di base (critiche)</td>
+        <td style="border:1px solid black;">Tipo oggetto=CA<br />
+        Limite lunghezza percorso=Nessuno</td>
         </tr>
         </tbody>
         </table>
-<p> </p>
+ 
 
         La presenza del tipo di oggetto Restrizioni di base è molto importante: questo valore distingue un certificato CA da un certificato entità di fine. Inoltre, non deve essere elencata alcuna estensione CDP o AIA.
 
@@ -2259,7 +2259,7 @@ La configurazione della CA applica una serie di parametri specifici dell'ambient
 
 **Tabella 20. Proprietà della CA da configurare**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2267,40 +2267,40 @@ La configurazione della CA applica una serie di parametri specifici dell'ambient
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Proprietà CA</p></th>
-<th><p>Descrizione dell'impostazione</p></th>
+<th>Proprietà CA</th>
+<th>Descrizione dell'impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>URL dei punti di distribuzione CRL</p></td>
-<td style="border:1px solid black;"><p>Specifica i percorsi HTTP, LDAP e FILE dai quali è possibile ottenere un CRL aggiornato.<br />
+<td style="border:1px solid black;">URL dei punti di distribuzione CRL</td>
+<td style="border:1px solid black;">Specifica i percorsi HTTP, LDAP e FILE dai quali è possibile ottenere un CRL aggiornato.<br />
 Il percorso FILE è una cartella locale ed è utilizzato dalla CA solo per memorizzare i CRL che rilascia; nei certificati rilasciati sono inclusi solo i percorsi LDAP e HTTP.<br />
-L'URL HTTP è elencato in sequenza prima dell'URL LDAP, in modo che i client che utilizzano i certificati CA principali non siano dipendenti da Active Directory.</p></td>
+L'URL HTTP è elencato in sequenza prima dell'URL LDAP, in modo che i client che utilizzano i certificati CA principali non siano dipendenti da Active Directory.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>URL AIA</p></td>
-<td style="border:1px solid black;"><p>I percorsi dai quali è possibile ottenere i certificati CA. Analogamente ai CDP, il percorso file viene utilizzato solo per la pubblicazione del certificato CA e l'URL HTTP ha la priorità sull'URL LDAP.</p></td>
+<td style="border:1px solid black;">URL AIA</td>
+<td style="border:1px solid black;">I percorsi dai quali è possibile ottenere i certificati CA. Analogamente ai CDP, il percorso file viene utilizzato solo per la pubblicazione del certificato CA e l'URL HTTP ha la priorità sull'URL LDAP.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Periodo di validità</p></td>
-<td style="border:1px solid black;"><p>Il periodo di validità massimo per i certificati rilasciati (differisce dal periodo di validità del certificato CA stesso che è impostato nel file CAPolicy.inf o dalla CA padre).</p></td>
+<td style="border:1px solid black;">Periodo di validità</td>
+<td style="border:1px solid black;">Il periodo di validità massimo per i certificati rilasciati (differisce dal periodo di validità del certificato CA stesso che è impostato nel file CAPolicy.inf o dalla CA padre).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Periodo CRL</p></td>
-<td style="border:1px solid black;"><p>Frequenza di pubblicazione del CRL.</p></td>
+<td style="border:1px solid black;">Periodo CRL</td>
+<td style="border:1px solid black;">Frequenza di pubblicazione del CRL.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tempo di sovrapposizione CRL</p></td>
-<td style="border:1px solid black;"><p>Il tempo di sovrapposizione tra la pubblicazione di un nuovo CRL e la scadenza del CRL precedente.</p></td>
+<td style="border:1px solid black;">Tempo di sovrapposizione CRL</td>
+<td style="border:1px solid black;">Il tempo di sovrapposizione tra la pubblicazione di un nuovo CRL e la scadenza del CRL precedente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Periodo Delta - CRL</p></td>
-<td style="border:1px solid black;"><p>Frequenza di pubblicazione del Delta-CRL (nella CA principale i Delta-CRL sono disattivati).</p></td>
+<td style="border:1px solid black;">Periodo Delta - CRL</td>
+<td style="border:1px solid black;">Frequenza di pubblicazione del Delta-CRL (nella CA principale i Delta-CRL sono disattivati).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controllo CA</p></td>
-<td style="border:1px solid black;"><p>Impostazioni di controllo CA—tutte le opzioni di controllo sono attivate per impostazione predefinita.</p></td>
+<td style="border:1px solid black;">Controllo CA</td>
+<td style="border:1px solid black;">Impostazioni di controllo CA—tutte le opzioni di controllo sono attivate per impostazione predefinita.</td>
 </tr>
 </tbody>
 </table>
@@ -2334,7 +2334,7 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori, gestione
   
         **Tabella 21. Autorizzazioni CA da aggiungere**
 
-<p> </p>
+ 
         <table style="border:1px solid black;">
         <colgroup>
         <col width="33%" />
@@ -2343,21 +2343,21 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori, gestione
         </colgroup>
         <thead>
         <tr class="header">
-        <th><p>Nome gruppo</p></th>
-        <th><p>Autorizzazione</p></th>
-        <th><p>Consenti/Nega</p></th>
+        <th>Nome gruppo</th>
+        <th>Autorizzazione</th>
+        <th>Consenti/Nega</th>
         </tr>
         </thead>
         <tbody>
         <tr class="odd">
-        <td style="border:1px solid black;"><p><strong>CA Admins</strong></p></td>
-        <td style="border:1px solid black;"><p>Gestione CA</p></td>
-        <td style="border:1px solid black;"><p>Consenti</p></td>
+        <td style="border:1px solid black;"><strong>CA Admins</strong></td>
+        <td style="border:1px solid black;">Gestione CA</td>
+        <td style="border:1px solid black;">Consenti</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p><strong>Certificate Managers</strong></p></td>
-        <td style="border:1px solid black;"><p>Rilascio e gestione certificati</p></td>
-        <td style="border:1px solid black;"><p>Consenti</p></td>
+        <td style="border:1px solid black;"><strong>Certificate Managers</strong></td>
+        <td style="border:1px solid black;">Rilascio e gestione certificati</td>
+        <td style="border:1px solid black;">Consenti</td>
         </tr>
         </tbody>
         </table>
@@ -2638,7 +2638,7 @@ La CA deve ora avviarsi.
   
         **Tabella 22. Proprietà ed estensioni del certificato della CA di emissione**
 
-<p> </p>
+ 
         <table style="border:1px solid black;">
         <colgroup>
         <col width="50%" />
@@ -2646,43 +2646,43 @@ La CA deve ora avviarsi.
         </colgroup>
         <thead>
         <tr class="header">
-        <th><p>Attributo del certificato</p></th>
-        <th><p>Impostazione richiesta</p></th>
+        <th>Attributo del certificato</th>
+        <th>Impostazione richiesta</th>
         </tr>
         </thead>
         <tbody>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>Autorità emittente</p></td>
-        <td style="border:1px solid black;"><p>Nome comune CA principale (più suffisso DN)</p></td>
+        <td style="border:1px solid black;">Autorità emittente</td>
+        <td style="border:1px solid black;">Nome comune CA principale (più suffisso DN)</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>Oggetto</p></td>
-        <td style="border:1px solid black;"><p>Nome comune CA di emissione (più suffisso DN)</p></td>
+        <td style="border:1px solid black;">Oggetto</td>
+        <td style="border:1px solid black;">Nome comune CA di emissione (più suffisso DN)</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>Non prima - Non dopo</p></td>
-        <td style="border:1px solid black;"><p>8 anni</p></td>
+        <td style="border:1px solid black;">Non prima - Non dopo</td>
+        <td style="border:1px solid black;">8 anni</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>Lunghezza della chiave pubblica</p></td>
-        <td style="border:1px solid black;"><p>2048 bit</p></td>
+        <td style="border:1px solid black;">Lunghezza della chiave pubblica</td>
+        <td style="border:1px solid black;">2048 bit</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>Utilizzo chiave</p></td>
-        <td style="border:1px solid black;"><p>Firma digitale, Firma certificato, Firma CRL non in linea, Firma CRL (86)</p></td>
+        <td style="border:1px solid black;">Utilizzo chiave</td>
+        <td style="border:1px solid black;">Firma digitale, Firma certificato, Firma CRL non in linea, Firma CRL (86)</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>Restrizioni di base (critiche)</p></td>
-        <td style="border:1px solid black;"><p>Tipo oggetto=CAPath<br />
-        Limite lunghezza percorso=Nessuno</p></td>
+        <td style="border:1px solid black;">Restrizioni di base (critiche)</td>
+        <td style="border:1px solid black;">Tipo oggetto=CAPath<br />
+        Limite lunghezza percorso=Nessuno</td>
         </tr>
         <tr class="odd">
-        <td style="border:1px solid black;"><p>Punti di distribuzione CRL</p></td>
-        <td style="border:1px solid black;"><p>2 voci - URL HTTP ed LDAP</p></td>
+        <td style="border:1px solid black;">Punti di distribuzione CRL</td>
+        <td style="border:1px solid black;">2 voci - URL HTTP ed LDAP</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p>Accesso alle informazioni dell'autorità</p></td>
-        <td style="border:1px solid black;"><p>2 voci - URL HTTP ed LDAP</p></td>
+        <td style="border:1px solid black;">Accesso alle informazioni dell'autorità</td>
+        <td style="border:1px solid black;">2 voci - URL HTTP ed LDAP</td>
         </tr>
         </tbody>
         </table>
@@ -2703,7 +2703,7 @@ La configurazione della CA applica una serie di parametri specifici dell'ambient
   
 **Tabella 23. Proprietà della CA da configurare**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2711,42 +2711,42 @@ La configurazione della CA applica una serie di parametri specifici dell'ambient
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Proprietà CA</p></th>
-<th><p>Descrizione dell'impostazione</p></th>
+<th>Proprietà CA</th>
+<th>Descrizione dell'impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>URL dei punti di distribuzione CRL</p></td>
-<td style="border:1px solid black;"><p>Specifica i percorsi HTTP, LDAP e FILE dai quali è possibile ottenere un CRL aggiornato. Il percorso FILE è una cartella locale ed è utilizzato dalla CA solo per memorizzare i CRL che rilascia; nei certificati rilasciati sono inclusi solo i percorsi LDAP e HTTP. L'URL LDAP è elencato in sequenza prima dell'URL HTTP, in modo che i controller di dominio locali siano la destinazione preferita del download dei CRL nella maggioranza dei client.</p></td>
+<td style="border:1px solid black;">URL dei punti di distribuzione CRL</td>
+<td style="border:1px solid black;">Specifica i percorsi HTTP, LDAP e FILE dai quali è possibile ottenere un CRL aggiornato. Il percorso FILE è una cartella locale ed è utilizzato dalla CA solo per memorizzare i CRL che rilascia; nei certificati rilasciati sono inclusi solo i percorsi LDAP e HTTP. L'URL LDAP è elencato in sequenza prima dell'URL HTTP, in modo che i controller di dominio locali siano la destinazione preferita del download dei CRL nella maggioranza dei client.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>URL AIA</p></td>
-<td style="border:1px solid black;"><p>I percorsi dai quali è possibile ottenere i certificati CA. Analogamente ai CDP, il percorso file viene utilizzato solo per la pubblicazione del certificato CA e l'URL LDAP ha la priorità sull'URL HTTP.</p></td>
+<td style="border:1px solid black;">URL AIA</td>
+<td style="border:1px solid black;">I percorsi dai quali è possibile ottenere i certificati CA. Analogamente ai CDP, il percorso file viene utilizzato solo per la pubblicazione del certificato CA e l'URL LDAP ha la priorità sull'URL HTTP.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Periodo di validità</p></td>
-<td style="border:1px solid black;"><p>Il periodo di validità massimo per i certificati rilasciati (differisce dal periodo di validità del certificato CA stesso che è impostato nel file CAPolicy.inf o dalla CA padre).</p></td>
+<td style="border:1px solid black;">Periodo di validità</td>
+<td style="border:1px solid black;">Il periodo di validità massimo per i certificati rilasciati (differisce dal periodo di validità del certificato CA stesso che è impostato nel file CAPolicy.inf o dalla CA padre).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Periodo CRL</p></td>
-<td style="border:1px solid black;"><p>Frequenza di pubblicazione del CRL.</p></td>
+<td style="border:1px solid black;">Periodo CRL</td>
+<td style="border:1px solid black;">Frequenza di pubblicazione del CRL.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tempo di sovrapposizione CRL</p></td>
-<td style="border:1px solid black;"><p>Il tempo di sovrapposizione tra la pubblicazione di un nuovo CRL e la scadenza del CRL precedente.</p></td>
+<td style="border:1px solid black;">Tempo di sovrapposizione CRL</td>
+<td style="border:1px solid black;">Il tempo di sovrapposizione tra la pubblicazione di un nuovo CRL e la scadenza del CRL precedente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Periodo Delta - CRL</p></td>
-<td style="border:1px solid black;"><p>Frequenza di pubblicazione Delta-CRL.</p></td>
+<td style="border:1px solid black;">Periodo Delta - CRL</td>
+<td style="border:1px solid black;">Frequenza di pubblicazione Delta-CRL.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sovapposizione Delta - CRL</p></td>
-<td style="border:1px solid black;"><p>Il tempo di sovrapposizione tra la pubblicazione di un nuovo CRL e la scadenza del CRL precedente.</p></td>
+<td style="border:1px solid black;">Sovapposizione Delta - CRL</td>
+<td style="border:1px solid black;">Il tempo di sovrapposizione tra la pubblicazione di un nuovo CRL e la scadenza del CRL precedente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllo CA</p></td>
-<td style="border:1px solid black;"><p>Impostazioni di controllo CA—tutte le opzioni di controllo sono attivate per impostazione predefinita.</p></td>
+<td style="border:1px solid black;">Controllo CA</td>
+<td style="border:1px solid black;">Impostazioni di controllo CA—tutte le opzioni di controllo sono attivate per impostazione predefinita.</td>
 </tr>
 </tbody>
 </table>
@@ -2775,7 +2775,7 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori, gestione
   
         **Tabella 24. Autorizzazioni CA da aggiungere**
 
-<p> </p>
+ 
         <table style="border:1px solid black;">
         <colgroup>
         <col width="33%" />
@@ -2784,21 +2784,21 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori, gestione
         </colgroup>
         <thead>
         <tr class="header">
-        <th><p>Nome gruppo</p></th>
-        <th><p>Autorizzazione</p></th>
-        <th><p>Consenti/Nega</p></th>
+        <th>Nome gruppo</th>
+        <th>Autorizzazione</th>
+        <th>Consenti/Nega</th>
         </tr>
         </thead>
         <tbody>
         <tr class="odd">
-        <td style="border:1px solid black;"><p><strong>CA Admins</strong></p></td>
-        <td style="border:1px solid black;"><p>Gestione CA</p></td>
-        <td style="border:1px solid black;"><p>Consenti</p></td>
+        <td style="border:1px solid black;"><strong>CA Admins</strong></td>
+        <td style="border:1px solid black;">Gestione CA</td>
+        <td style="border:1px solid black;">Consenti</td>
         </tr>
         <tr class="even">
-        <td style="border:1px solid black;"><p><strong>Certificate Managers</strong></p></td>
-        <td style="border:1px solid black;"><p>Rilascio e gestione certificati</p></td>
-        <td style="border:1px solid black;"><p>Consenti</p></td>
+        <td style="border:1px solid black;"><strong>Certificate Managers</strong></td>
+        <td style="border:1px solid black;">Rilascio e gestione certificati</td>
+        <td style="border:1px solid black;">Consenti</td>
         </tr>
         </tbody>
         </table>

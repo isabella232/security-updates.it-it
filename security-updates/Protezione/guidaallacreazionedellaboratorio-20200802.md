@@ -178,7 +178,7 @@ Nella tabella riportata di seguito sono elencati il nome del criterio e il file 
 
 **Tabella C.1. Associazione dei criteri IPsec ai file di script**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -186,26 +186,26 @@ Nella tabella riportata di seguito sono elencati il nome del criterio e il file 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome del criterio IPsec</p></th>
-<th><p>Nome del file di script</p></th>
+<th>Nome del criterio IPsec</th>
+<th>Nome del file di script</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC -  Criterio IPsec gruppo di isolamento Limite (1.0.041001.1600)</p></td>
-<td style="border:1px solid black;"><p>BoundaryIGPolicy.txt</p></td>
+<td style="border:1px solid black;">IPSEC -  Criterio IPsec gruppo di isolamento Limite (1.0.041001.1600)</td>
+<td style="border:1px solid black;">BoundaryIGPolicy.txt</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec gruppo di isolamento Nessun fallback (1.0.041001.1600)</p></td>
-<td style="border:1px solid black;"><p>NoFallbackIGPolicy.txt</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec gruppo di isolamento Nessun fallback (1.0.041001.1600)</td>
+<td style="border:1px solid black;">NoFallbackIGPolicy.txt</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec dominio di isolamento (1.0.041001.1600)</p></td>
-<td style="border:1px solid black;"><p>IsolationDomainPolicy.txt</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec dominio di isolamento (1.0.041001.1600)</td>
+<td style="border:1px solid black;">IsolationDomainPolicy.txt</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec gruppo di isolamento Crittografia (1.0.041001.1600)</p></td>
-<td style="border:1px solid black;"><p>EncryptionIGPolicy.txt</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec gruppo di isolamento Crittografia (1.0.041001.1600)</td>
+<td style="border:1px solid black;">EncryptionIGPolicy.txt</td>
 </tr>
 </tbody>
 </table>
@@ -233,7 +233,7 @@ Nella tabella riportata di seguito, sono elencati i nomi degli oggetti GPO e il 
   
 **Tabella C.2. Associazione degli oggetti GPO della Woodgrove Bank ai criteri IPsec**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -241,26 +241,26 @@ Nella tabella riportata di seguito, sono elencati i nomi degli oggetti GPO e il 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome GPO</p></th>
-<th><p>Nome del criterio IPsec</p></th>
+<th>Nome GPO</th>
+<th>Nome del criterio IPsec</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Limite</p></td>
-<td style="border:1px solid black;"><p>IPSEC -  Criterio IPsec gruppo di isolamento Limite (1.0.041001.1600)</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Limite</td>
+<td style="border:1px solid black;">IPSEC -  Criterio IPsec gruppo di isolamento Limite (1.0.041001.1600)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Nessun fallback</p></td>
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec gruppo di isolamento Nessun fallback (1.0.041001.1600)</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Nessun fallback</td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec gruppo di isolamento Nessun fallback (1.0.041001.1600)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio dominio di isolamento</p></td>
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec dominio di isolamento (1.0.041001.1600)</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio dominio di isolamento</td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec dominio di isolamento (1.0.041001.1600)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Crittografia</p></td>
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec gruppo di isolamento Crittografia (1.0.041001.1600)</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Crittografia</td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec gruppo di isolamento Crittografia (1.0.041001.1600)</td>
 </tr>
 </tbody>
 </table>
@@ -297,7 +297,7 @@ Per controllare l'applicazione dei criteri, la Woodgrove Bank ha utilizzato gli 
   
 **Tabella C.3. Gruppi universali della Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -305,30 +305,30 @@ Per controllare l'applicazione dei criteri, la Woodgrove Bank ha utilizzato gli 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome gruppo</p></th>
-<th><p>Descrizione</p></th>
+<th>Nome gruppo</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CG_NoIPsec_computers</p></td>
-<td style="border:1px solid black;"><p>Gruppo universale costituito da account di computer che non rientrano nell'ambiente IPsec, tipicamente gli account dei computer infrastrutturali.</p></td>
+<td style="border:1px solid black;">CG_NoIPsec_computers</td>
+<td style="border:1px solid black;">Gruppo universale costituito da account di computer che non rientrano nell'ambiente IPsec, tipicamente gli account dei computer infrastrutturali.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CG_BoundaryIG_computers</p></td>
-<td style="border:1px solid black;"><p>Gruppo universale costituito da account di computer autorizzati a comunicare con computer non attendibili.</p></td>
+<td style="border:1px solid black;">CG_BoundaryIG_computers</td>
+<td style="border:1px solid black;">Gruppo universale costituito da account di computer autorizzati a comunicare con computer non attendibili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CG_ EncryptionIG_computers</p></td>
-<td style="border:1px solid black;"><p>Gruppo universale costituito da account di computer facenti parte del gruppo di isolamento Crittografia.</p></td>
+<td style="border:1px solid black;">CG_ EncryptionIG_computers</td>
+<td style="border:1px solid black;">Gruppo universale costituito da account di computer facenti parte del gruppo di isolamento Crittografia.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CG_ IsolationDomain_computers</p></td>
-<td style="border:1px solid black;"><p>Gruppo universale costituito da account di computer facenti parte del dominio di isolamento.</p></td>
+<td style="border:1px solid black;">CG_ IsolationDomain_computers</td>
+<td style="border:1px solid black;">Gruppo universale costituito da account di computer facenti parte del dominio di isolamento.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CG_NoFallbackIG_computers</p></td>
-<td style="border:1px solid black;"><p>Gruppo universale costituito da account di computer facenti parte del gruppo di isolamento Nessun fallback.</p></td>
+<td style="border:1px solid black;">CG_NoFallbackIG_computers</td>
+<td style="border:1px solid black;">Gruppo universale costituito da account di computer facenti parte del gruppo di isolamento Nessun fallback.</td>
 </tr>
 </tbody>
 </table>
@@ -361,7 +361,7 @@ I gruppi sono utilizzati per controllare l'assegnazione dei criteri ai computer 
   
 **Tabella C.4. Autorizzazioni per il gruppo di criteri della Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -370,51 +370,51 @@ I gruppi sono utilizzati per controllare l'assegnazione dei criteri ai computer 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome GPO</p></th>
-<th><p>Nome gruppo o account</p></th>
-<th><p>Diritti assegnati</p></th>
+<th>Nome GPO</th>
+<th>Nome gruppo o account</th>
+<th>Diritti assegnati</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Limite</p></td>
-<td style="border:1px solid black;"><p>CG_NoIPsec_computers</p></td>
-<td style="border:1px solid black;"><p>Nega applicazione Criteri di gruppo</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Limite</td>
+<td style="border:1px solid black;">CG_NoIPsec_computers</td>
+<td style="border:1px solid black;">Nega applicazione Criteri di gruppo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>CG_BoundaryIG_computers</p></td>
-<td style="border:1px solid black;"><p>Consenti lettura e applicazione dei criteri di gruppo</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">CG_BoundaryIG_computers</td>
+<td style="border:1px solid black;">Consenti lettura e applicazione dei criteri di gruppo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Nessun fallback</p></td>
-<td style="border:1px solid black;"><p>CG_NoIPsec_computers</p></td>
-<td style="border:1px solid black;"><p>Nega applicazione Criteri di gruppo</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Nessun fallback</td>
+<td style="border:1px solid black;">CG_NoIPsec_computers</td>
+<td style="border:1px solid black;">Nega applicazione Criteri di gruppo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>CG_NoFallbackIG_computers</p></td>
-<td style="border:1px solid black;"><p>Consenti lettura e applicazione dei criteri di gruppo</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">CG_NoFallbackIG_computers</td>
+<td style="border:1px solid black;">Consenti lettura e applicazione dei criteri di gruppo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio dominio di isolamento</p></td>
-<td style="border:1px solid black;"><p>CG_NoIPsec_computers</p></td>
-<td style="border:1px solid black;"><p>Nega applicazione Criteri di gruppo</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio dominio di isolamento</td>
+<td style="border:1px solid black;">CG_NoIPsec_computers</td>
+<td style="border:1px solid black;">Nega applicazione Criteri di gruppo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPSEC - Criterio dominio di isolamento</p></td>
-<td style="border:1px solid black;"><p>CG_ IsolationDomain_computers</p></td>
-<td style="border:1px solid black;"><p>Consenti lettura e applicazione dei criteri di gruppo</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio dominio di isolamento</td>
+<td style="border:1px solid black;">CG_ IsolationDomain_computers</td>
+<td style="border:1px solid black;">Consenti lettura e applicazione dei criteri di gruppo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Crittografia</p></td>
-<td style="border:1px solid black;"><p>CG_NoIPsec_computers</p></td>
-<td style="border:1px solid black;"><p>Nega applicazione Criteri di gruppo</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Crittografia</td>
+<td style="border:1px solid black;">CG_NoIPsec_computers</td>
+<td style="border:1px solid black;">Nega applicazione Criteri di gruppo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>CG_ EncryptionIG_computers</p></td>
-<td style="border:1px solid black;"><p>Consenti lettura e applicazione dei criteri di gruppo</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">CG_ EncryptionIG_computers</td>
+<td style="border:1px solid black;">Consenti lettura e applicazione dei criteri di gruppo</td>
 </tr>
 </tbody>
 </table>
@@ -573,7 +573,7 @@ Prima di procedere alla distribuzione, è necessario collegare i criteri IPsec a
   
     **Tabella C.5. Ordine di collegamento oggetti Criteri di gruppo a livello di dominio**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -581,30 +581,30 @@ Prima di procedere alla distribuzione, è necessario collegare i criteri IPsec a
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Ordine di collegamento</p></th>
-    <th><p>Nome oggetto Criteri di gruppo</p></th>
+    <th>Ordine di collegamento</th>
+    <th>Nome oggetto Criteri di gruppo</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>1</p></td>
-    <td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Crittografia</p></td>
+    <td style="border:1px solid black;">1</td>
+    <td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Crittografia</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>2</p></td>
-    <td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Nessun fallback</p></td>
+    <td style="border:1px solid black;">2</td>
+    <td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Nessun fallback</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>3</p></td>
-    <td style="border:1px solid black;"><p>IPSEC - Criterio dominio di isolamento</p></td>
+    <td style="border:1px solid black;">3</td>
+    <td style="border:1px solid black;">IPSEC - Criterio dominio di isolamento</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>4</p></td>
-    <td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Limite</p></td>
+    <td style="border:1px solid black;">4</td>
+    <td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Limite</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>5</p></td>
-    <td style="border:1px solid black;"><p>Default Domain Policy</p></td>
+    <td style="border:1px solid black;">5</td>
+    <td style="border:1px solid black;">Default Domain Policy</td>
     </tr>
     </tbody>
     </table>
@@ -629,7 +629,7 @@ Nella tabella riportata di seguito, sono elencate le subnet protette utilizzate 
   
 **Tabella C.6. Elenco delle subnet protette utilizzate nel laboratorio di test della Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -638,21 +638,21 @@ Nella tabella riportata di seguito, sono elencate le subnet protette utilizzate 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Subnet</p></th>
-<th><p>Netmask</p></th>
-<th><p>Descrizione</p></th>
+<th>Subnet</th>
+<th>Netmask</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>192.168.1.0</p></td>
-<td style="border:1px solid black;"><p>255.255.255.0</p></td>
-<td style="border:1px solid black;"><p>Subnet LAN organizzazione 192.168.1.0/24</p></td>
+<td style="border:1px solid black;">192.168.1.0</td>
+<td style="border:1px solid black;">255.255.255.0</td>
+<td style="border:1px solid black;">Subnet LAN organizzazione 192.168.1.0/24</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>172.10.1.0</p></td>
-<td style="border:1px solid black;"><p>255.255.255.0</p></td>
-<td style="border:1px solid black;"><p>Subnet LAN organizzazione 172.10.1.0/24</p></td>
+<td style="border:1px solid black;">172.10.1.0</td>
+<td style="border:1px solid black;">255.255.255.0</td>
+<td style="border:1px solid black;">Subnet LAN organizzazione 172.10.1.0/24</td>
 </tr>
 </tbody>
 </table>
@@ -826,7 +826,7 @@ In una sezione precedente della presente appendice, è stato implementato l'elen
   
 **Tabella C.7. Associazione dei criteri alle operazioni filtro**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -834,22 +834,22 @@ In una sezione precedente della presente appendice, è stato implementato l'elen
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome criterio</p></th>
-<th><p>Operazione filtro</p></th>
+<th>Nome criterio</th>
+<th>Operazione filtro</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec  gruppo di isolamento Nessun fallback (1.0.041001.1600)</p></td>
-<td style="border:1px solid black;"><p>IPSEC - Modalità di richiesta completa (Ignora in ingresso, Impedisci in uscita)</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec  gruppo di isolamento Nessun fallback (1.0.041001.1600)</td>
+<td style="border:1px solid black;">IPSEC - Modalità di richiesta completa (Ignora in ingresso, Impedisci in uscita)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec dominio di isolamento (1.0.041001.1600)</p></td>
-<td style="border:1px solid black;"><p>IPSEC - Modalità di richiesta protetta (Ignora in ingresso, Consenti in uscita)</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec dominio di isolamento (1.0.041001.1600)</td>
+<td style="border:1px solid black;">IPSEC - Modalità di richiesta protetta (Ignora in ingresso, Consenti in uscita)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPSEC - Criterio IPsec gruppo di isolamento Crittografia (1.0.041001.1600)</p></td>
-<td style="border:1px solid black;"><p>IPSEC - Modalità di richiesta crittografia (Ignora in ingresso, Impedisci in uscita)</p></td>
+<td style="border:1px solid black;">IPSEC - Criterio IPsec gruppo di isolamento Crittografia (1.0.041001.1600)</td>
+<td style="border:1px solid black;">IPSEC - Modalità di richiesta crittografia (Ignora in ingresso, Impedisci in uscita)</td>
 </tr>
 </tbody>
 </table>
@@ -900,7 +900,7 @@ I progettisti della Woodgrove Bank hanno identificato un singolo gruppo di rete,
   
 **Tabella C.8. Gruppi di protezione gruppo di accesso alla rete della Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -908,18 +908,18 @@ I progettisti della Woodgrove Bank hanno identificato un singolo gruppo di rete,
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome gruppo</p></th>
-<th><p>Descrizione</p></th>
+<th>Nome gruppo</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ANAG _EncryptedResourceAccess_computers</p></td>
-<td style="border:1px solid black;"><p>Gruppo locale di dominio utilizzato per limitare il numero dei computer con accesso alle risorse crittografate</p></td>
+<td style="border:1px solid black;">ANAG _EncryptedResourceAccess_computers</td>
+<td style="border:1px solid black;">Gruppo locale di dominio utilizzato per limitare il numero dei computer con accesso alle risorse crittografate</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ANAG _EncryptedResourceAccess_users</p></td>
-<td style="border:1px solid black;"><p>Gruppo locale di dominio utilizzato per limitare il numero degli utenti che possono avviare la comunicazione con le risorse crittografate</p></td>
+<td style="border:1px solid black;">ANAG _EncryptedResourceAccess_users</td>
+<td style="border:1px solid black;">Gruppo locale di dominio utilizzato per limitare il numero degli utenti che possono avviare la comunicazione con le risorse crittografate</td>
 </tr>
 </tbody>
 </table>
@@ -952,7 +952,7 @@ Nella tabella riportata di seguito, viene indicata l'appartenenza del gruppo di 
   
 **Tabella C.9. Appartenenza dei gruppi di isolamento della Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -960,20 +960,20 @@ Nella tabella riportata di seguito, viene indicata l'appartenenza del gruppo di 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome gruppo</p></th>
-<th><p>Membri</p></th>
+<th>Nome gruppo</th>
+<th>Membri</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ANAG _EncryptedResourceAccess_computers</p></td>
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p>
-<p>IPS-SQL-DFS-02</p>
-<p>IPS-ST-XP-05</p></td>
+<td style="border:1px solid black;">ANAG _EncryptedResourceAccess_computers</td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01
+IPS-SQL-DFS-02
+IPS-ST-XP-05</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **Per popolare i gruppi elencati nella tabella precedente**
 
@@ -999,7 +999,7 @@ Nella tabella riportata di seguito, viene indicata l'appartenenza del gruppo di 
 
 **Tabella C.10: Appartenenza al gruppo di accesso alla rete della Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1007,14 +1007,14 @@ Nella tabella riportata di seguito, viene indicata l'appartenenza del gruppo di 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome gruppo</p></th>
-<th><p>Membri</p></th>
+<th>Nome gruppo</th>
+<th>Membri</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ANAG _EncryptedResourceAccess_users</p></td>
-<td style="border:1px solid black;"><p>User7</p></td>
+<td style="border:1px solid black;">ANAG _EncryptedResourceAccess_users</td>
+<td style="border:1px solid black;">User7</td>
 </tr>
 </tbody>
 </table>
@@ -1041,7 +1041,7 @@ Gli amministratori hanno creato la tabella seguente, contenente il nome dell'ogg
   
 **Tabella C.11. Definizione del criterio gruppo di isolamento della Woodgrove Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1049,21 +1049,21 @@ Gli amministratori hanno creato la tabella seguente, contenente il nome dell'ogg
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome GPO</p></th>
-<th><p>Nome gruppo</p></th>
+<th>Nome GPO</th>
+<th>Nome gruppo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Criterio gruppo di isolamento accesso a risorse crittografate</p></td>
-<td style="border:1px solid black;"><p>ANAG_EncryptedResourceAccess_computers</p>
-<p>ANAG_EncryptedResourceAccess_users</p>
-<p>Amministratori</p>
-<p>Operatori backup</p></td>
+<td style="border:1px solid black;">Criterio gruppo di isolamento accesso a risorse crittografate</td>
+<td style="border:1px solid black;">ANAG_EncryptedResourceAccess_computers
+ANAG_EncryptedResourceAccess_users
+Amministratori
+Operatori backup</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **Nota:** come minimo, devono essere aggiunti tutti i gruppi elencati. L'amministratore dovrà stabilire se occorre concedere tale diritto anche ad altri gruppi.
 
@@ -1103,7 +1103,7 @@ Prima di distribuire i criteri di gruppo di accesso alla rete, occorre collegare
 
 **Tabella C.12. Nome GPO gruppo di accesso alla rete e UO di destinazione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1111,14 +1111,14 @@ Prima di distribuire i criteri di gruppo di accesso alla rete, occorre collegare
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome GPO gruppo di accesso alla rete</p></th>
-<th><p>UO di destinazione</p></th>
+<th>Nome GPO gruppo di accesso alla rete</th>
+<th>UO di destinazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Criteri di gruppo accesso alla rete crittografata</p></td>
-<td style="border:1px solid black;"><p>Server di database</p></td>
+<td style="border:1px solid black;">Criteri di gruppo accesso alla rete crittografata</td>
+<td style="border:1px solid black;">Server di database</td>
 </tr>
 </tbody>
 </table>
@@ -1145,7 +1145,7 @@ Prima di verificare il funzionamento dei computer all'interno del gruppo di acce
   
 **Tabella C.13. Appartenenza al gruppo di accesso alla rete**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1153,24 +1153,24 @@ Prima di verificare il funzionamento dei computer all'interno del gruppo di acce
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome del computer</p></th>
-<th><p>Gruppo elencato nel diritto utente</p></th>
+<th>Nome del computer</th>
+<th>Gruppo elencato nel diritto utente</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p></td>
-<td style="border:1px solid black;"><p>ANAG_EncryptedResourceAccess_computers</p>
-<p>ANAG_EncryptedResourceAccess_users</p></td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01</td>
+<td style="border:1px solid black;">ANAG_EncryptedResourceAccess_computers
+ANAG_EncryptedResourceAccess_users</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-02</p></td>
-<td style="border:1px solid black;"><p>ANAG_EncryptedResourceAccess_computers</p>
-<p>ANAG_EncryptedResourceAccess_users</p></td>
+<td style="border:1px solid black;">IPS-SQL-DFS-02</td>
+<td style="border:1px solid black;">ANAG_EncryptedResourceAccess_computers
+ANAG_EncryptedResourceAccess_users</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **Per confermare la corretta appartenenza del gruppo al gruppo di accesso alla rete**
 
@@ -1194,7 +1194,7 @@ Dopo aver verificato che ai gruppi di protezione fossero stati concessi i diritt
 
 **Tabella C.14. Risultati previsti per il test funzionale del gruppo di accesso alla rete**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1204,60 +1204,60 @@ Dopo aver verificato che ai gruppi di protezione fossero stati concessi i diritt
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Iniziatore</p></th>
-<th><p>Risponditore</p></th>
-<th><p>Risultato</p></th>
-<th><p>SA negoziata</p></th>
+<th>Iniziatore</th>
+<th>Risponditore</th>
+<th>Risultato</th>
+<th>SA negoziata</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-TZ-XP-06</p></td>
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">IPS-TZ-XP-06</td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-TZ-XP-06</p></td>
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-02</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">IPS-TZ-XP-06</td>
+<td style="border:1px solid black;">IPS-SQL-DFS-02</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-TZ-XP-06</p></td>
-<td style="border:1px solid black;"><p>IPS-ST-XP-05</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-TZ-XP-06</td>
+<td style="border:1px solid black;">IPS-ST-XP-05</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p></td>
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-02</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01</td>
+<td style="border:1px solid black;">IPS-SQL-DFS-02</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p></td>
-<td style="border:1px solid black;"><p>IPS-ST-XP-05</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01</td>
+<td style="border:1px solid black;">IPS-ST-XP-05</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-02</p></td>
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-SQL-DFS-02</td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-ST-XP-05</p></td>
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-ST-XP-05</td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-ST-XP-05</p></td>
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-02</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-ST-XP-05</td>
+<td style="border:1px solid black;">IPS-SQL-DFS-02</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 </tbody>
 </table>
@@ -1344,7 +1344,7 @@ Dopo aver verificato la corretta applicazione del criterio a IPS-TZ-XP-06, la Wo
   
 **Tabella C.15. Risultati previsti dei test funzionali sul dominio di isolamento**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1353,31 +1353,31 @@ Dopo aver verificato la corretta applicazione del criterio a IPS-TZ-XP-06, la Wo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Computer di destinazione</p></th>
-<th><p>Risultato</p></th>
-<th><p>SA negoziata</p></th>
+<th>Computer di destinazione</th>
+<th>Risultato</th>
+<th>SA negoziata</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-TZ-W2K-02</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-TZ-W2K-02</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-WEB-DFS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-WEB-DFS-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-UT-XP-03</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA trasferibile</p></td>
+<td style="border:1px solid black;">IPS-UT-XP-03</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA trasferibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-PRINTS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-PRINTS-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 </tbody>
 </table>
@@ -1454,7 +1454,7 @@ Dopo aver verificato la corretta applicazione del criterio a IPS-LT-XP-01, la Wo
   
 **Tabella C.16. Risultati previsti per il test funzionale del criterio Modalità non crittografata consentita in uscita**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1463,26 +1463,26 @@ Dopo aver verificato la corretta applicazione del criterio a IPS-LT-XP-01, la Wo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Computer di destinazione</p></th>
-<th><p>Risultato</p></th>
-<th><p>SA negoziata</p></th>
+<th>Computer di destinazione</th>
+<th>Risultato</th>
+<th>SA negoziata</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-PRINTS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-PRINTS-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-TZ-XP-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-TZ-XP-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-UT-XP-03</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">IPS-UT-XP-03</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 </tbody>
 </table>
@@ -1575,7 +1575,7 @@ Dopo aver verificato la corretta applicazione del criterio ai computer IPS-SQL-D
   
 **Tabella C.17. Risultati previsti dei test funzionali su IPS-SQL-DFS-01**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1584,31 +1584,31 @@ Dopo aver verificato la corretta applicazione del criterio ai computer IPS-SQL-D
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Computer di destinazione</p></th>
-<th><p>Risultato</p></th>
-<th><p>SA negoziata</p></th>
+<th>Computer di destinazione</th>
+<th>Risultato</th>
+<th>SA negoziata</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-02</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-SQL-DFS-02</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-TZ-XP-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-TZ-XP-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-PRINTS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-PRINTS-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-UT-XP-03</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">IPS-UT-XP-03</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 </tbody>
 </table>
@@ -1685,7 +1685,7 @@ Dopo aver verificato la corretta applicazione del criterio a IPS-PRINTS-06, la W
   
 **Tabella C.18. Risultati previsti dei test funzionali su IPS-PRINTS-01**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1694,26 +1694,26 @@ Dopo aver verificato la corretta applicazione del criterio a IPS-PRINTS-06, la W
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Computer di destinazione</p></th>
-<th><p>Risultato</p></th>
-<th><p>SA negoziata</p></th>
+<th>Computer di destinazione</th>
+<th>Risultato</th>
+<th>SA negoziata</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-UT-XP-03</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA trasferibile</p></td>
+<td style="border:1px solid black;">IPS-UT-XP-03</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA trasferibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-TZ-XP-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-TZ-XP-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 </tbody>
 </table>
@@ -1791,7 +1791,7 @@ Per garantire la corretta applicazione dei criteri agli host, è necessario aggi
   
     **Tabella C.19. Ordine di collegamento oggetti Criteri di gruppo a livello di dominio**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -1799,30 +1799,30 @@ Per garantire la corretta applicazione dei criteri agli host, è necessario aggi
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Ordine di collegamento</p></th>
-    <th><p>Nome oggetto Criteri di gruppo</p></th>
+    <th>Ordine di collegamento</th>
+    <th>Nome oggetto Criteri di gruppo</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>1</p></td>
-    <td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Crittografia</p></td>
+    <td style="border:1px solid black;">1</td>
+    <td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Crittografia</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>2</p></td>
-    <td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Nessun fallback</p></td>
+    <td style="border:1px solid black;">2</td>
+    <td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Nessun fallback</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>3</p></td>
-    <td style="border:1px solid black;"><p>IPSEC - Criterio gruppo di isolamento Limite</p></td>
+    <td style="border:1px solid black;">3</td>
+    <td style="border:1px solid black;">IPSEC - Criterio gruppo di isolamento Limite</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>4</p></td>
-    <td style="border:1px solid black;"><p>IPSEC - Criterio dominio di isolamento</p></td>
+    <td style="border:1px solid black;">4</td>
+    <td style="border:1px solid black;">IPSEC - Criterio dominio di isolamento</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>5</p></td>
-    <td style="border:1px solid black;"><p>Default Domain Policy</p></td>
+    <td style="border:1px solid black;">5</td>
+    <td style="border:1px solid black;">Default Domain Policy</td>
     </tr>
     </tbody>
     </table>
@@ -1841,7 +1841,7 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
   
 **Tabella C.20. Risultati previsti dei test funzionali su IPS-SQL-DFS-01**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1851,36 +1851,36 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Computer di destinazione</p></th>
-<th><p>Risultato</p></th>
-<th><p>Motivo</p></th>
-<th><p>SA negoziata</p></th>
+<th>Computer di destinazione</th>
+<th>Risultato</th>
+<th>Motivo</th>
+<th>SA negoziata</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-ST-XP-05</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>I computer sono in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile con crittografia</p></td>
+<td style="border:1px solid black;">IPS-ST-XP-05</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">I computer sono in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA non trasferibile con crittografia</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-TZ-XP-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>I computer sono in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile con crittografia</p></td>
+<td style="border:1px solid black;">IPS-TZ-XP-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">I computer sono in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA non trasferibile con crittografia</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-PRINTS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>Il computer è in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile con crittografia</p></td>
+<td style="border:1px solid black;">IPS-PRINTS-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">Il computer è in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA non trasferibile con crittografia</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-UT-XP-03</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
-<td style="border:1px solid black;"><p>L'iniziatore non supporta la modalità non crittografata.</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">IPS-UT-XP-03</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
+<td style="border:1px solid black;">L'iniziatore non supporta la modalità non crittografata.</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 </tbody>
 </table>
@@ -1906,7 +1906,7 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
   
 **Tabella C.21. Risultati previsti dei test funzionali su IPS-TZ-XP-06**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1916,42 +1916,42 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Computer di destinazione</p></th>
-<th><p>Risultato</p></th>
-<th><p>Motivo</p></th>
-<th><p>SA negoziata</p></th>
+<th>Computer di destinazione</th>
+<th>Risultato</th>
+<th>Motivo</th>
+<th>SA negoziata</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
-<td style="border:1px solid black;"><p>Il risponditore fa parte del gruppo <em>Accesso a risorse crittografate.</em></p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
+<td style="border:1px solid black;">Il risponditore fa parte del gruppo <em>Accesso a risorse crittografate.</em></td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-ST-XP-05</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>I computer sono in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-ST-XP-05</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">I computer sono in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-TZ-XP-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>I computer sono in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-TZ-XP-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">I computer sono in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-PRINTS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>I computer sono in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-PRINTS-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">I computer sono in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-UT-XP-03</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>I computer sono in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA trasferibile</p></td>
+<td style="border:1px solid black;">IPS-UT-XP-03</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">I computer sono in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA trasferibile</td>
 </tr>
 </tbody>
 </table>
@@ -1977,7 +1977,7 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
   
 **Tabella C.22. Risultati previsti dei test funzionali su IPS-ST-XP-05**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1987,36 +1987,36 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Computer di destinazione</p></th>
-<th><p>Risultato</p></th>
-<th><p>Motivo</p></th>
-<th><p>SA negoziata</p></th>
+<th>Computer di destinazione</th>
+<th>Risultato</th>
+<th>Motivo</th>
+<th>SA negoziata</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>Il risponditore fa parte del gruppo <em>Accesso a risorse crittografate.</em></p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile con crittografia</p></td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">Il risponditore fa parte del gruppo <em>Accesso a risorse crittografate.</em></td>
+<td style="border:1px solid black;">SA non trasferibile con crittografia</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-TZ-XP-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>I computer sono in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-TZ-XP-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">I computer sono in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-PRINTS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>I computer sono in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-PRINTS-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">I computer sono in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-UT-XP-03</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>I computer sono in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA trasferibile</p></td>
+<td style="border:1px solid black;">IPS-UT-XP-03</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">I computer sono in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA trasferibile</td>
 </tr>
 </tbody>
 </table>
@@ -2042,7 +2042,7 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
   
 **Tabella C.23. Risultati previsti dei test funzionali su IPS-TZ-XP-01**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2052,36 +2052,36 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Computer di destinazione</p></th>
-<th><p>Risultato</p></th>
-<th><p>Motivo</p></th>
-<th><p>SA negoziata</p></th>
+<th>Computer di destinazione</th>
+<th>Risultato</th>
+<th>Motivo</th>
+<th>SA negoziata</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
-<td style="border:1px solid black;"><p>Il risponditore fa parte del gruppo Accesso a risorse crittografate.</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
+<td style="border:1px solid black;">Il risponditore fa parte del gruppo Accesso a risorse crittografate.</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-ST-XP-05</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>I computer sono in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-ST-XP-05</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">I computer sono in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-PRINTS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>I computer sono in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-PRINTS-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">I computer sono in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-UT-XP-03</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>L'iniziatore supporta la modalità non crittografata.</p></td>
-<td style="border:1px solid black;"><p>SA trasferibile</p></td>
+<td style="border:1px solid black;">IPS-UT-XP-03</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">L'iniziatore supporta la modalità non crittografata.</td>
+<td style="border:1px solid black;">SA trasferibile</td>
 </tr>
 </tbody>
 </table>
@@ -2107,7 +2107,7 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
   
 **Tabella C.24. Risultati previsti dei test funzionali su IPS-LT-XP-01**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2117,36 +2117,36 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Computer di destinazione</p></th>
-<th><p>Risultato</p></th>
-<th><p>Motivo</p></th>
-<th><p>SA negoziata</p></th>
+<th>Computer di destinazione</th>
+<th>Risultato</th>
+<th>Motivo</th>
+<th>SA negoziata</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
-<td style="border:1px solid black;"><p>Il risponditore fa parte del gruppo Accesso a risorse crittografate.</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
+<td style="border:1px solid black;">Il risponditore fa parte del gruppo Accesso a risorse crittografate.</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-ST-XP-05</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>I computer sono in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-ST-XP-05</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">I computer sono in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-TZ-XP-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>I computer sono in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-TZ-XP-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">I computer sono in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-UT-XP-03</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
-<td style="border:1px solid black;"><p>L'iniziatore non supporta la modalità non crittografata.</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">IPS-UT-XP-03</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
+<td style="border:1px solid black;">L'iniziatore non supporta la modalità non crittografata.</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 </tbody>
 </table>
@@ -2172,7 +2172,7 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
   
 **Tabella C.25. Risultati previsti dei test funzionali su IPS-PRINTS-01**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2182,36 +2182,36 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Computer di destinazione</p></th>
-<th><p>Risultato</p></th>
-<th><p>Motivo</p></th>
-<th><p>SA negoziata</p></th>
+<th>Computer di destinazione</th>
+<th>Risultato</th>
+<th>Motivo</th>
+<th>SA negoziata</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
-<td style="border:1px solid black;"><p>Il risponditore nega esplicitamente l'accesso agli host appartenenti al gruppo di isolamento Limite. Il risponditore fa parte del gruppo <em>Accesso a risorse crittografate</em>.</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
+<td style="border:1px solid black;">Il risponditore nega esplicitamente l'accesso agli host appartenenti al gruppo di isolamento Limite. Il risponditore fa parte del gruppo <em>Accesso a risorse crittografate</em>.</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-ST-XP-05</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>I computer sono in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-ST-XP-05</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">I computer sono in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-TZ-XP-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>I computer sono in grado di completare la negoziazione di IPsec.</p></td>
-<td style="border:1px solid black;"><p>SA non trasferibile</p></td>
+<td style="border:1px solid black;">IPS-TZ-XP-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">I computer sono in grado di completare la negoziazione di IPsec.</td>
+<td style="border:1px solid black;">SA non trasferibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-UT-XP-03</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>L'iniziatore supporta la modalità non crittografata.</p></td>
-<td style="border:1px solid black;"><p>SA trasferibile</p></td>
+<td style="border:1px solid black;">IPS-UT-XP-03</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">L'iniziatore supporta la modalità non crittografata.</td>
+<td style="border:1px solid black;">SA trasferibile</td>
 </tr>
 </tbody>
 </table>
@@ -2237,7 +2237,7 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
   
 **Tabella C.26. Risultati previsti dei test funzionali su IPS-UT-XP-03**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2247,36 +2247,36 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Computer di destinazione</p></th>
-<th><p>Risultato</p></th>
-<th><p>Motivo</p></th>
-<th><p>SA negoziata</p></th>
+<th>Computer di destinazione</th>
+<th>Risultato</th>
+<th>Motivo</th>
+<th>SA negoziata</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-SQL-DFS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
-<td style="border:1px solid black;"><p>L'iniziatore non supporta la modalità non crittografata e il passthrough in ingresso. Il risponditore fa parte del gruppo Accesso a risorse crittografate.</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">IPS-SQL-DFS-01</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
+<td style="border:1px solid black;">L'iniziatore non supporta la modalità non crittografata e il passthrough in ingresso. Il risponditore fa parte del gruppo Accesso a risorse crittografate.</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-ST-XP-05</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
-<td style="border:1px solid black;"><p>L'iniziatore non supporta la modalità non crittografata e il passthrough in ingresso.</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">IPS-ST-XP-05</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
+<td style="border:1px solid black;">L'iniziatore non supporta la modalità non crittografata e il passthrough in ingresso.</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IPS-TZ-XP-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
-<td style="border:1px solid black;"><p>L'iniziatore non supporta la modalità non crittografata e il passthrough in ingresso.</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">IPS-TZ-XP-01</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
+<td style="border:1px solid black;">L'iniziatore non supporta la modalità non crittografata e il passthrough in ingresso.</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IPS-PRINTS-01</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite</p></td>
-<td style="border:1px solid black;"><p>L'iniziatore supporta la modalità non crittografata e il passthrough in ingresso.</p></td>
-<td style="border:1px solid black;"><p>SA trasferibile</p></td>
+<td style="border:1px solid black;">IPS-PRINTS-01</td>
+<td style="border:1px solid black;">Operazioni riuscite</td>
+<td style="border:1px solid black;">L'iniziatore supporta la modalità non crittografata e il passthrough in ingresso.</td>
+<td style="border:1px solid black;">SA trasferibile</td>
 </tr>
 </tbody>
 </table>

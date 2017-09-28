@@ -71,7 +71,7 @@ Nella seguente tabella viene fornita una descrizione dettagliata degli scenari d
 
 **Tabella 2.1. Scenari di vulnerabilità della protezione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -80,31 +80,31 @@ Nella seguente tabella viene fornita una descrizione dettagliata degli scenari d
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Scenario</p></th>
-<th><p>Descrizione</p></th>
-<th><p>Livello di rischio</p></th>
+<th>Scenario</th>
+<th>Descrizione</th>
+<th>Livello di rischio</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>1</strong></p></td>
-<td style="border:1px solid black;"><p>Account A sta eseguendo un servizio su Server 1. Una volta individuata la password di Account A su Server 1, l'utente ha accesso a DC 1, che diventa quindi vulnerabile. Questo è uno scenario con priorità<em>critica</em> . Non utilizzare account di dominio con privilegi di amministratore su un controller di dominio per l'esecuzione dei servizi su un server membro.</p></td>
-<td style="border:1px solid black;"><p><strong>Critico</strong></p></td>
+<td style="border:1px solid black;"><strong>1</strong></td>
+<td style="border:1px solid black;">Account A sta eseguendo un servizio su Server 1. Una volta individuata la password di Account A su Server 1, l'utente ha accesso a DC 1, che diventa quindi vulnerabile. Questo è uno scenario con priorità<em>critica</em> . Non utilizzare account di dominio con privilegi di amministratore su un controller di dominio per l'esecuzione dei servizi su un server membro.</td>
+<td style="border:1px solid black;"><strong>Critico</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>2</strong></p></td>
-<td style="border:1px solid black;"><p>Account B sta eseguendo un servizio su Server 2 e ha inoltre accesso a Server 1, dove Account A sta eseguendo un servizio. Una volta individuata la password di Account B su Server 2, l'utente raggiunge la stessa situazione iniziale dello scenario 1, quindi DC 1 diventa vulnerabile. È possibile estendere questa logica al caso in cui Account C sta eseguendo un servizio su Server 3, che a sua volta può accedere a Server 2, dove Account B sta eseguendo un servizio, e così via. Questo è uno scenario con priorità<em>alta</em> ma non critica. Una volta risolto il problema dello scenario 1, infatti, quello dello scenario 2 viene circoscritto ai soli server membri.</p></td>
-<td style="border:1px solid black;"><p><strong>Alto</strong></p></td>
+<td style="border:1px solid black;"><strong>2</strong></td>
+<td style="border:1px solid black;">Account B sta eseguendo un servizio su Server 2 e ha inoltre accesso a Server 1, dove Account A sta eseguendo un servizio. Una volta individuata la password di Account B su Server 2, l'utente raggiunge la stessa situazione iniziale dello scenario 1, quindi DC 1 diventa vulnerabile. È possibile estendere questa logica al caso in cui Account C sta eseguendo un servizio su Server 3, che a sua volta può accedere a Server 2, dove Account B sta eseguendo un servizio, e così via. Questo è uno scenario con priorità<em>alta</em> ma non critica. Una volta risolto il problema dello scenario 1, infatti, quello dello scenario 2 viene circoscritto ai soli server membri.</td>
+<td style="border:1px solid black;"><strong>Alto</strong></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>3</strong></p></td>
-<td style="border:1px solid black;"><p>Account D sta eseguendo un servizio su Server 4 o Server 5. Una volta individuata la password di Account D sul server, l'utente ha accesso a tutti i server membri di cui Account D dispone dei privilegi. Questo è uno scenario con priorità<em>media</em> (non esiste la caratteristica di transitività dello scenario 2).</p></td>
-<td style="border:1px solid black;"><p><strong>Medio</strong></p></td>
+<td style="border:1px solid black;"><strong>3</strong></td>
+<td style="border:1px solid black;">Account D sta eseguendo un servizio su Server 4 o Server 5. Una volta individuata la password di Account D sul server, l'utente ha accesso a tutti i server membri di cui Account D dispone dei privilegi. Questo è uno scenario con priorità<em>media</em> (non esiste la caratteristica di transitività dello scenario 2).</td>
+<td style="border:1px solid black;"><strong>Medio</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>4</strong></p></td>
-<td style="border:1px solid black;"><p>Account E sta eseguendo un servizio su Server 5 e ha accesso soltanto a tale server.</p></td>
-<td style="border:1px solid black;"><p><strong>Basso</strong></p></td>
+<td style="border:1px solid black;"><strong>4</strong></td>
+<td style="border:1px solid black;">Account E sta eseguendo un servizio su Server 5 e ha accesso soltanto a tale server.</td>
+<td style="border:1px solid black;"><strong>Basso</strong></td>
 </tr>
 </tbody>
 </table>
@@ -169,7 +169,7 @@ Molti servizi, tra cui Aggiornamenti automatici, Browser di computer, Messenger 
   
 **Tabella 2.2. Nuove impostazioni degli account dei servizi in Windows Server 2003**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -177,78 +177,78 @@ Molti servizi, tra cui Aggiornamenti automatici, Browser di computer, Messenger 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome del servizio</p></th>
-<th><p>Connessione</p></th>
+<th>Nome del servizio</th>
+<th>Connessione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Avvisi</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Avvisi</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizio Gateway di livello applicazione</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Servizio Gateway di livello applicazione</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Registro di sistema remoto</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Registro di sistema remoto</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Smart card</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Smart card</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Helper NetBIOS di TCP/IP</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Helper NetBIOS di TCP/IP</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Telnet</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Telnet</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo di continuità</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Gruppo di continuità</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>WebClient</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">WebClient</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Acquisizione di immagini di Windows (WIA)</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Acquisizione di immagini di Windows (WIA)</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ora di Windows</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Ora di Windows</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizio rilevamento automatico proxy WinHTTP</p></td>
-<td style="border:1px solid black;"><p>Servizio locale</p></td>
+<td style="border:1px solid black;">Servizio rilevamento automatico proxy WinHTTP</td>
+<td style="border:1px solid black;">Servizio locale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Client DHCP</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
+<td style="border:1px solid black;">Client DHCP</td>
+<td style="border:1px solid black;">Servizio di rete</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Distributed Transaction Coordinator</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
+<td style="border:1px solid black;">Distributed Transaction Coordinator</td>
+<td style="border:1px solid black;">Servizio di rete</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Client DNS</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
+<td style="border:1px solid black;">Client DNS</td>
+<td style="border:1px solid black;">Servizio di rete</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Registrazione licenze</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
+<td style="border:1px solid black;">Registrazione licenze</td>
+<td style="border:1px solid black;">Servizio di rete</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Avvisi e registri di prestazioni</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
+<td style="border:1px solid black;">Avvisi e registri di prestazioni</td>
+<td style="border:1px solid black;">Servizio di rete</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RPC Locator</p></td>
-<td style="border:1px solid black;"><p>Servizio di rete</p></td>
+<td style="border:1px solid black;">RPC Locator</td>
+<td style="border:1px solid black;">Servizio di rete</td>
 </tr>
 </tbody>
 </table>

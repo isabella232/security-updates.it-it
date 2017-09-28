@@ -151,7 +151,7 @@ Al fine di comprendere il livello di sicurezza offerto dalle diverse soluzioni d
 
 **Tabella 1. Tipici rischi di protezione delle reti WLAN**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -159,39 +159,39 @@ Al fine di comprendere il livello di sicurezza offerto dalle diverse soluzioni d
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Rischio</p></th>
-<th><p>Descrizione</p></th>
+<th>Rischio</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Divulgazione di dati tramite l'intercettazione</p></td>
-<td style="border:1px solid black;"><p>Gli attacchi basati sull'intercettazione del traffico wireless non protetto possono determinare la divulgazione di dati riservati, l'individuazione delle credenziali utente e persino il furto di identità. Gli utenti malintenzionati più esperti sono in grado di utilizzare le informazioni raccolte tramite l'intercettazione per predisporre attacchi ai danni di sistemi altrimenti perfettamente sicuri.</p></td>
+<td style="border:1px solid black;">Divulgazione di dati tramite l'intercettazione</td>
+<td style="border:1px solid black;">Gli attacchi basati sull'intercettazione del traffico wireless non protetto possono determinare la divulgazione di dati riservati, l'individuazione delle credenziali utente e persino il furto di identità. Gli utenti malintenzionati più esperti sono in grado di utilizzare le informazioni raccolte tramite l'intercettazione per predisporre attacchi ai danni di sistemi altrimenti perfettamente sicuri.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Intercettazione e modifica dei dati trasmessi</p></td>
-<td style="border:1px solid black;"><p>Un utente malintenzionato che riesca ad accedere alle risorse di rete può anche infiltrare nella rete computer non autorizzati in grado di intercettare e modificare i dati in transito tra due computer autorizzati.</p></td>
+<td style="border:1px solid black;">Intercettazione e modifica dei dati trasmessi</td>
+<td style="border:1px solid black;">Un utente malintenzionato che riesca ad accedere alle risorse di rete può anche infiltrare nella rete computer non autorizzati in grado di intercettare e modificare i dati in transito tra due computer autorizzati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Spoofing</p></td>
-<td style="border:1px solid black;"><p>L'accesso a una rete interna offre all'autore di un attacco l'opportunità di costruire dati all'apparenza identici al traffico autorizzato. Tali attacchi possono includere la falsificazione di messaggi di posta elettronica che gli utenti interni sono portati a ritenere attendibili con maggiore facilità rispetto ai messaggi provenienti dall'esterno e pertanto utilizzabili come veicoli di social engineering e per la diffusione di Trojan.</p></td>
+<td style="border:1px solid black;">Spoofing</td>
+<td style="border:1px solid black;">L'accesso a una rete interna offre all'autore di un attacco l'opportunità di costruire dati all'apparenza identici al traffico autorizzato. Tali attacchi possono includere la falsificazione di messaggi di posta elettronica che gli utenti interni sono portati a ritenere attendibili con maggiore facilità rispetto ai messaggi provenienti dall'esterno e pertanto utilizzabili come veicoli di social engineering e per la diffusione di Trojan.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Denial of Service (DoS)</p></td>
-<td style="border:1px solid black;"><p>Indipendentemente dalla soluzione di protezione adottata, le WLAN presentano una particolare predisposizione agli attacchi DoS, sia intenzionali che accidentali. Tali interruzioni del servizio possono essere provocate da un semplice forno a microonde o dispositivo impostato per inondare una rete di traffico indiscriminato.</p></td>
+<td style="border:1px solid black;">Denial of Service (DoS)</td>
+<td style="border:1px solid black;">Indipendentemente dalla soluzione di protezione adottata, le WLAN presentano una particolare predisposizione agli attacchi DoS, sia intenzionali che accidentali. Tali interruzioni del servizio possono essere provocate da un semplice forno a microonde o dispositivo impostato per inondare una rete di traffico indiscriminato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>&quot;Free-loading&quot;<br />
-(furto di risorse)</p></td>
-<td style="border:1px solid black;"><p>Alcuni intrusi possono essere semplicemente in cerca di un accesso gratuito alla rete Internet. Anche se questo tipo di attacco non provoca di per sé alcun danno, può comportare un rallentamento della connettività di rete ai danni degli utenti autorizzati o rappresentare un canale di diffusione di malware all'interno della rete.</p></td>
+<td style="border:1px solid black;">&quot;Free-loading&quot;<br />
+(furto di risorse)</td>
+<td style="border:1px solid black;">Alcuni intrusi possono essere semplicemente in cerca di un accesso gratuito alla rete Internet. Anche se questo tipo di attacco non provoca di per sé alcun danno, può comportare un rallentamento della connettività di rete ai danni degli utenti autorizzati o rappresentare un canale di diffusione di malware all'interno della rete.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Minacce casuali e connessioni non gestite</p></td>
-<td style="border:1px solid black;"><p>Negli ambienti WLAN non protetti, chiunque può riuscire ad accedere alla rete dall'esterno semplicemente utilizzando un dispositivo in grado di connettersi alle reti wireless. Tali dispositivi non gestiti potrebbero essere già compromessi o fornire a un utente malintenzionato una piattaforma di attacco alla rete aziendale.</p></td>
+<td style="border:1px solid black;">Minacce casuali e connessioni non gestite</td>
+<td style="border:1px solid black;">Negli ambienti WLAN non protetti, chiunque può riuscire ad accedere alla rete dall'esterno semplicemente utilizzando un dispositivo in grado di connettersi alle reti wireless. Tali dispositivi non gestiti potrebbero essere già compromessi o fornire a un utente malintenzionato una piattaforma di attacco alla rete aziendale.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Punti di accesso WLAN non autorizzati</p></td>
-<td style="border:1px solid black;"><p>Anche se un'azienda non dispone di una rete wireless può comunque presentare vulnerabilità ai rischi di protezione derivanti da reti wireless non gestite. Poiché l'acquisto di hardware wireless è relativamente economico, qualsiasi dipendente aziendale potrebbe essere in grado di configurare una rete non gestita e non protetta all'interno dell'ambiente aziendale.</p></td>
+<td style="border:1px solid black;">Punti di accesso WLAN non autorizzati</td>
+<td style="border:1px solid black;">Anche se un'azienda non dispone di una rete wireless può comunque presentare vulnerabilità ai rischi di protezione derivanti da reti wireless non gestite. Poiché l'acquisto di hardware wireless è relativamente economico, qualsiasi dipendente aziendale potrebbe essere in grado di configurare una rete non gestita e non protetta all'interno dell'ambiente aziendale.</td>
 </tr>
 </tbody>
 </table>
@@ -210,7 +210,7 @@ A parte l'approccio più diffuso, ovvero la decisione di non adottare la tecnolo
   
 **Tabella 2. Confronto degli approcci alla protezione WLAN**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -221,73 +221,73 @@ A parte l'approccio più diffuso, ovvero la decisione di non adottare la tecnolo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Funzionalità</p></th>
-<th><p>WPA e WPA2</p></th>
-<th><p>WEP statico</p></th>
-<th><p>VPN</p></th>
-<th><p>IPsec</p></th>
+<th>Funzionalità</th>
+<th>WPA e WPA2</th>
+<th>WEP statico</th>
+<th>VPN</th>
+<th>IPsec</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autenticazione avanzata</p>
-<p>(vedere la nota)</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì, solo quando non si utilizza<br />
-l'autenticazione con chiave condivisa</p></td>
-<td style="border:1px solid black;"><p>Sì, se si utilizza l'autenticazione basata su certificati o su Kerberos</p></td>
+<td style="border:1px solid black;">Autenticazione avanzata
+(vedere la nota)</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì, solo quando non si utilizza<br />
+l'autenticazione con chiave condivisa</td>
+<td style="border:1px solid black;">Sì, se si utilizza l'autenticazione basata su certificati o su Kerberos</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Crittografia avanzata dati</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Crittografia avanzata dati</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Connessione e riconnessione trasparente</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Connessione e riconnessione trasparente</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Autenticazione utente</p>
-<p>(vedere la nota)</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Autenticazione utente
+(vedere la nota)</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autenticazione computer</p>
-<p>(vedere la nota)</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Autenticazione computer
+(vedere la nota)</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Protezione del traffico broadcast e multicast</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Protezione del traffico broadcast e multicast</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Dispositivi di rete aggiuntivi richiesti</p></td>
-<td style="border:1px solid black;"><p>Sì, server RADIUS</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>Sì, server VPN e RADIUS</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Dispositivi di rete aggiuntivi richiesti</td>
+<td style="border:1px solid black;">Sì, server RADIUS</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">Sì, server VPN e RADIUS</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Accesso protetto alla WLAN anziché solo ai pacchetti</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Accesso protetto alla WLAN anziché solo ai pacchetti</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">No</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 </tbody>
 </table>
@@ -437,7 +437,7 @@ Come affermato in precedenza, EAP-TLS richiede almeno quattro server (o un numer
   
 **Tabella 3. Requisiti hardware consigliati per il server CA principale**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -445,32 +445,32 @@ Come affermato in precedenza, EAP-TLS richiede almeno quattro server (o un numer
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Componente</p></th>
-<th><p>Requisiti</p></th>
+<th>Componente</th>
+<th>Requisiti</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CPU</p></td>
-<td style="border:1px solid black;"><p>Singola da 733 MHz o superiore</p></td>
+<td style="border:1px solid black;">CPU</td>
+<td style="border:1px solid black;">Singola da 733 MHz o superiore</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Memoria</p></td>
-<td style="border:1px solid black;"><p>256 MB di RAM</p></td>
+<td style="border:1px solid black;">Memoria</td>
+<td style="border:1px solid black;">256 MB di RAM</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Interfaccia di rete</p></td>
-<td style="border:1px solid black;"><p>Nessuna (o disattivata)</p></td>
+<td style="border:1px solid black;">Interfaccia di rete</td>
+<td style="border:1px solid black;">Nessuna (o disattivata)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Archiviazione su disco</p></td>
-<td style="border:1px solid black;"><p>Controller IDE o RAID SCSI.</p>
-<p>2 dischi rigidi da 18 GB configurati come unico volume RAID 1 (unità C).</p>
-<p>Archivio locale rimovibile per il trasferimento dei dati (certificato principale).</p></td>
+<td style="border:1px solid black;">Archiviazione su disco</td>
+<td style="border:1px solid black;">Controller IDE o RAID SCSI.
+2 dischi rigidi da 18 GB configurati come unico volume RAID 1 (unità C).
+Archivio locale rimovibile per il trasferimento dei dati (certificato principale).</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Come è illustrato in tabella, i requisiti, sulla base dei requisiti generici per Windows Server 2003 Standard Edition, per la CA principale sono minimi ed è possibile utilizzare una piattaforma esistente designata per il ritiro o, eventualmente, creare una macchina virtuale. Molti clienti potrebbero preferire l'utilizzo di un computer portatile in quanto è possibile chiuderlo al sicuro in qualsiasi stanza chiusa a chiave. Indipendentemente dall'approccio scelto per la creazione della CA principale, è importante verificare che, all'occorrenza, il computer in questione possa essere avviato o ripristinato in modo affidabile.
 
@@ -558,7 +558,7 @@ Sono disponibili due approcci di bilanciamento del carico e failover sui server 
 
 **Tabella 4. Failover e bilanciamento del carico RADIUS per EAP**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -567,40 +567,40 @@ Sono disponibili due approcci di bilanciamento del carico e failover sui server 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Metodo</p></th>
-<th><p>Vantaggi</p></th>
-<th><p>Svantaggi</p></th>
+<th>Metodo</th>
+<th>Vantaggi</th>
+<th>Svantaggi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Proxy IAS con gruppi di server RADIUS</p></td>
+<td style="border:1px solid black;">Proxy IAS con gruppi di server RADIUS</td>
 <td style="border:1px solid black;"><ul>
-<li><p>Rilevamento degli errori del servizio RADIUS con failover e failback</p></li>
-<li><p>Distribuzione del carico sulla base delle proprietà del traffico</p></li>
-<li><p>Mantenimento dello stato della sessione EAP durante il bilanciamento del carico</p></li>
-<li><p>Distribuzione delle richieste configurabile sulla base delle impostazioni di priorità e peso</p></li>
+<li>Rilevamento degli errori del servizio RADIUS con failover e failback</li>
+<li>Distribuzione del carico sulla base delle proprietà del traffico</li>
+<li>Mantenimento dello stato della sessione EAP durante il bilanciamento del carico</li>
+<li>Distribuzione delle richieste configurabile sulla base delle impostazioni di priorità e peso</li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Richiede ulteriori server IAS</p></li>
-<li><p>Richiede la configurazione degli indirizzi dei server proxy RADIUS primario e secondario</p></li>
+<li>Richiede ulteriori server IAS</li>
+<li>Richiede la configurazione degli indirizzi dei server proxy RADIUS primario e secondario</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Impostazioni dei server RADIUS primario e secondario sui punti di accesso wireless</p></td>
+<td style="border:1px solid black;">Impostazioni dei server RADIUS primario e secondario sui punti di accesso wireless</td>
 <td style="border:1px solid black;"><ul>
-<li><p>Configurazione più semplice per gli ambienti più piccoli</p></li>
-<li><p>Il punto di accesso wireless rileva gli errori del traffico ed esegue il failover</p></li>
-<li><p>Utilizza le funzionalità native dei punti di accesso wireless</p></li>
+<li>Configurazione più semplice per gli ambienti più piccoli</li>
+<li>Il punto di accesso wireless rileva gli errori del traffico ed esegue il failover</li>
+<li>Utilizza le funzionalità native dei punti di accesso wireless</li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Richiede maggiore pianificazione e monitoraggio dell'overhead per la distribuzione del traffico sui server RADIUS primario e secondario</p></li>
-<li><p>Alcuni punti di accesso wireless non supportano la funzionalità di failback e ciò può determinare una cattiva distribuzione dei carichi di traffico</p></li>
+<li>Richiede maggiore pianificazione e monitoraggio dell'overhead per la distribuzione del traffico sui server RADIUS primario e secondario</li>
+<li>Alcuni punti di accesso wireless non supportano la funzionalità di failback e ciò può determinare una cattiva distribuzione dei carichi di traffico</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Alle aziende di maggiori dimensioni si consiglia di valutare l'utilizzo di proxy RADIUS configurati in gruppi di server RADIUS per la distribuzione dei carichi sui server RADIUS. Ciò assicura una certa flessibilità poiché consente di distribuire il traffico sulla base di diversi elementi configurabili, inclusi il tipo di traffico RADIUS e gli attributi RADIUS, oltre ai valori ponderati e in ordine di priorità. Questo tipo di architettura assicura inoltre la massima flessibilità e scalabilità di gestione delle richieste di autenticazione ed è al contempo meno impegnativo dal punto di vista amministrativo.
 
@@ -650,7 +650,7 @@ Un'altra valutazione riguarda la fattibilità del posizionamento di ulteriori se
 
 **Tabella 5. Considerazioni sul posizionamento congiunto IAS e controller di domini**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -659,36 +659,36 @@ Un'altra valutazione riguarda la fattibilità del posizionamento di ulteriori se
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Posizione IAS</p></th>
-<th><p>Vantaggi</p></th>
-<th><p>Svantaggi</p></th>
+<th>Posizione IAS</th>
+<th>Vantaggi</th>
+<th>Svantaggi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sul controller di dominio</p></td>
+<td style="border:1px solid black;">Sul controller di dominio</td>
 <td style="border:1px solid black;"><ul>
-<li><p>Migliora le prestazioni di autenticazione utente e computer nonché di autorizzazione.</p></li>
-<li><p>Riduce la necessità di utilizzare ulteriore hardware di server.</p></li>
+<li>Migliora le prestazioni di autenticazione utente e computer nonché di autorizzazione.</li>
+<li>Riduce la necessità di utilizzare ulteriore hardware di server.</li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li><p>Nessuna separazione tra i gruppi amministrativi IAS e gli amministratori di dominio.</p></li>
-<li><p>Nessuna separazione intrinseca di errori o problemi di prestazioni associati ai servizi della posizione congiunta.</p></li>
+<li>Nessuna separazione tra i gruppi amministrativi IAS e gli amministratori di dominio.</li>
+<li>Nessuna separazione intrinseca di errori o problemi di prestazioni associati ai servizi della posizione congiunta.</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Server IAS indipendenti</p></td>
+<td style="border:1px solid black;">Server IAS indipendenti</td>
 <td style="border:1px solid black;"><ul>
-<li><p>Separazione tra i gruppi amministrativi IAS e gli amministratori di dominio.</p></li>
-<li><p>Il carico e il comportamento di IAS non influisce sul controller di dominio.</p></li>
+<li>Separazione tra i gruppi amministrativi IAS e gli amministratori di dominio.</li>
+<li>Il carico e il comportamento di IAS non influisce sul controller di dominio.</li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
-<li><p>È necessario ulteriore hardware per i server.</p></li>
+<li>È necessario ulteriore hardware per i server.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Come mostrato in tabella, molte organizzazioni adottano criteri di isolamento delle funzionalità dei controller di dominio su server separati perché ciò riveste un'importanza critica per l'ambiente di rete. Il posizionamento dei servizi IAS su un controller di dominio può suscitare preoccupazioni legate alla sicurezza quando esiste una separazione delle attività tra i due gruppi amministrativi poiché non esiste una separazione intrinseca dell'amministrazione IAS dalle funzioni del gruppo degli amministratori locali di Windows. Questi problemi devono essere valutati prima di decidere se utilizzare il posizionamento congiunto dei servizi IAS, ma a parte ciò la scelta comporta vantaggi di prestazioni oltre che di costi, in particolare per le sedi remote.
 
@@ -712,7 +712,7 @@ Quando si valuta la capacità del server IAS è utile stimare i carichi potenzia
 
 **Tabella 6. Autenticazioni al secondo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -720,22 +720,22 @@ Quando si valuta la capacità del server IAS è utile stimare i carichi potenzia
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Tipo di autenticazione</p></th>
-<th><p>Autenticazioni al secondo</p></th>
+<th>Tipo di autenticazione</th>
+<th>Autenticazioni al secondo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nuove autenticazioni EAP-TLS</p></td>
-<td style="border:1px solid black;"><p>36</p></td>
+<td style="border:1px solid black;">Nuove autenticazioni EAP-TLS</td>
+<td style="border:1px solid black;">36</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nuove autenticazioni EAP-TLS con supporto offload</p></td>
-<td style="border:1px solid black;"><p>50</p></td>
+<td style="border:1px solid black;">Nuove autenticazioni EAP-TLS con supporto offload</td>
+<td style="border:1px solid black;">50</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autenticazioni con riconnessione rapida</p></td>
-<td style="border:1px solid black;"><p>166</p></td>
+<td style="border:1px solid black;">Autenticazioni con riconnessione rapida</td>
+<td style="border:1px solid black;">166</td>
 </tr>
 </tbody>
 </table>
@@ -790,7 +790,7 @@ Prima di iniziare la distribuzione della soluzione descritta in questa guida è 
   
 **Tabella 7. Informazioni di configurazione definite dall'utente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -799,56 +799,56 @@ Prima di iniziare la distribuzione della soluzione descritta in questa guida è 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Riferimenti</p></th>
-<th><p>Impostazione</p></th>
+<th>Elemento di configurazione</th>
+<th>Riferimenti</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome DNS della foresta di Active Directory</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome DNS della foresta di Active Directory</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome distinto della directory principale della foresta</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome distinto della directory principale della foresta</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome di dominio NetBIOS</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome di dominio NetBIOS</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome NetBIOS del gruppo di lavoro della CA principale</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome NetBIOS del gruppo di lavoro della CA principale</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome server della CA principale</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome server della CA principale</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome server della CA di emissione</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome server della CA di emissione</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome comune X.500 della CA principale</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome comune X.500 della CA principale</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome comune X.500 della CA di emissione</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome comune X.500 della CA di emissione</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome host completo del server Web utilizzato per pubblicare i certificati CA</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome host completo del server Web utilizzato per pubblicare i certificati CA</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 </tbody>
 </table>
@@ -859,7 +859,7 @@ Non è necessario modificare le impostazioni elencate in questa tabella, a meno 
   
 **Tabella 8. Elementi di configurazione prescritti dalla soluzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -868,166 +868,166 @@ Non è necessario modificare le impostazioni elencate in questa tabella, a meno 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Riferimenti</p></th>
-<th><p>Impostazione</p></th>
+<th>Elemento di configurazione</th>
+<th>Riferimenti</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Gruppi di protezione del ruolo amministrativo</strong></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;"><strong>Gruppi di protezione del ruolo amministrativo</strong></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Amministratori del contenitore di configurazione Servizi chiave pubblica</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
-<td style="border:1px solid black;"><p>Enterprise PKI Admins</p></td>
+<td style="border:1px solid black;">Amministratori del contenitore di configurazione Servizi chiave pubblica</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
+<td style="border:1px solid black;">Enterprise PKI Admins</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo autorizzato a pubblicare elenchi CRL e certificati CA nei contenitori della configurazione dell'organizzazione</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
-<td style="border:1px solid black;"><p>Enterprise PKI Publishers</p></td>
+<td style="border:1px solid black;">Gruppo autorizzato a pubblicare elenchi CRL e certificati CA nei contenitori della configurazione dell'organizzazione</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
+<td style="border:1px solid black;">Enterprise PKI Publishers</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gruppo amministrativo che configura e aggiorna le CA; controlla inoltre la capacità di assegnare tutti gli altri ruoli della CA e di rinnovare il certificato CA</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
-<td style="border:1px solid black;"><p>CA Admins</p></td>
+<td style="border:1px solid black;">Gruppo amministrativo che configura e aggiorna le CA; controlla inoltre la capacità di assegnare tutti gli altri ruoli della CA e di rinnovare il certificato CA</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
+<td style="border:1px solid black;">CA Admins</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo amministrativo che approva le richieste di registrazione e revoca dei certificati (ruolo di Responsabile della CA)</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
-<td style="border:1px solid black;"><p>Certificate Managers</p></td>
+<td style="border:1px solid black;">Gruppo amministrativo che approva le richieste di registrazione e revoca dei certificati (ruolo di Responsabile della CA)</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
+<td style="border:1px solid black;">Certificate Managers</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gruppo amministrativo che gestisce i registri di controllo e protezione della CA</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
-<td style="border:1px solid black;"><p>CA Auditors</p></td>
+<td style="border:1px solid black;">Gruppo amministrativo che gestisce i registri di controllo e protezione della CA</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
+<td style="border:1px solid black;">CA Auditors</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo amministrativo che gestisce i backup della CA</p></td>
-<td style="border:1px solid black;"><p>ca_setup.wsf</p></td>
-<td style="border:1px solid black;"><p>CA Backup Operators</p></td>
+<td style="border:1px solid black;">Gruppo amministrativo che gestisce i backup della CA</td>
+<td style="border:1px solid black;">ca_setup.wsf</td>
+<td style="border:1px solid black;">CA Backup Operators</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Configurazione IIS</strong></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;"><strong>Configurazione IIS</strong></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome della directory virtuale IIS utilizzata per pubblicare il certificato CA e i CRL</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-<td style="border:1px solid black;"><p>pki</p></td>
+<td style="border:1px solid black;">Nome della directory virtuale IIS utilizzata per pubblicare il certificato CA e i CRL</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+<td style="border:1px solid black;">pki</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Percorso fisico nella CA di emissione mappato alla directory virtuale IIS</p></td>
-<td style="border:1px solid black;"><p>C:\CAWWWPub</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Percorso fisico nella CA di emissione mappato alla directory virtuale IIS</td>
+<td style="border:1px solid black;">C:\CAWWWPub</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Parametri comuni della CA</strong></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;"><strong>Parametri comuni della CA</strong></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Unità e percorso di memorizzazione dei file di richiesta di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>C:\CAConfig</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
+<td style="border:1px solid black;">Unità e percorso di memorizzazione dei file di richiesta di Servizi certificati</td>
+<td style="border:1px solid black;">C:\CAConfig</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unità e percorso di memorizzazione dei registri del database di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>%windir%\System32\CertLog</p></td>
+<td style="border:1px solid black;">Unità e percorso di memorizzazione dei registri del database di Servizi certificati</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">%windir%\System32\CertLog</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Configurazione della CA principale</strong></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;"><strong>Configurazione della CA principale</strong></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lunghezza della chiave della CA principale (vedere la nota che segue questa tabella)</p></td>
-<td style="border:1px solid black;"><p>4096</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Lunghezza della chiave della CA principale (vedere la nota che segue questa tabella)</td>
+<td style="border:1px solid black;">4096</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Periodo di validità del certificato della CA principale (anni)</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-<td style="border:1px solid black;"><p>16</p></td>
+<td style="border:1px solid black;">Periodo di validità del certificato della CA principale (anni)</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+<td style="border:1px solid black;">16</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Periodo massimo di validità dei certificati rilasciati dalla CA principale (anni)</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-<td style="border:1px solid black;"><p>8</p></td>
+<td style="border:1px solid black;">Periodo massimo di validità dei certificati rilasciati dalla CA principale (anni)</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+<td style="border:1px solid black;">8</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Intervallo di pubblicazione dei CRL della CA principale (mesi)</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-<td style="border:1px solid black;"><p>6</p></td>
+<td style="border:1px solid black;">Intervallo di pubblicazione dei CRL della CA principale (mesi)</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+<td style="border:1px solid black;">6</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Periodo di sovrapposizione dei CRL (giorni)</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-<td style="border:1px solid black;"><p>10</p></td>
+<td style="border:1px solid black;">Periodo di sovrapposizione dei CRL (giorni)</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+<td style="border:1px solid black;">10</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Periodo di pubblicazione dei Delta CRL della CA principale (ore, 0=disattivato)</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">Periodo di pubblicazione dei Delta CRL della CA principale (ore, 0=disattivato)</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Parametri della CA di emissione</strong></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;"><strong>Parametri della CA di emissione</strong></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Unità e percorso di memorizzazione del database di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>D:\CertLog</p></td>
+<td style="border:1px solid black;">Unità e percorso di memorizzazione del database di Servizi certificati</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">D:\CertLog</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Lunghezza della chiave della CA di emissione</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>2048</p></td>
+<td style="border:1px solid black;">Lunghezza della chiave della CA di emissione</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">2048</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Periodo di validità del certificato della CA di emissione (anni)</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-<td style="border:1px solid black;"><p>8</p></td>
+<td style="border:1px solid black;">Periodo di validità del certificato della CA di emissione (anni)</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+<td style="border:1px solid black;">8</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Periodo massimo di validità dei certificati rilasciati dalla CA di emissione (anni)</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-<td style="border:1px solid black;"><p>4</p></td>
+<td style="border:1px solid black;">Periodo massimo di validità dei certificati rilasciati dalla CA di emissione (anni)</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+<td style="border:1px solid black;">4</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Intervallo di pubblicazione dei CRL della CA di emissione (giorni)</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-<td style="border:1px solid black;"><p>7</p></td>
+<td style="border:1px solid black;">Intervallo di pubblicazione dei CRL della CA di emissione (giorni)</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+<td style="border:1px solid black;">7</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Periodo di sovrapposizione dei CRL (giorni)</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-<td style="border:1px solid black;"><p>4</p></td>
+<td style="border:1px solid black;">Periodo di sovrapposizione dei CRL (giorni)</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+<td style="border:1px solid black;">4</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Periodo di pubblicazione dei Delta CRL per la CA di emissione (ore, 0=disattivato)</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Periodo di pubblicazione dei Delta CRL per la CA di emissione (ore, 0=disattivato)</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Periodo di sovrapposizione dei Delta CRL (giorni)</p></td>
-<td style="border:1px solid black;"><p>Pkiparams.vbs</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">Periodo di sovrapposizione dei Delta CRL (giorni)</td>
+<td style="border:1px solid black;">Pkiparams.vbs</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Altro</strong></p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;"><strong>Altro</strong></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Percorso degli script di installazione</p></td>
-<td style="border:1px solid black;"><p> </p></td>
-<td style="border:1px solid black;"><p>C:\MSSScripts</p></td>
+<td style="border:1px solid black;">Percorso degli script di installazione</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">C:\MSSScripts</td>
 </tr>
 </tbody>
 </table>
@@ -1092,7 +1092,7 @@ IIS viene installato tramite Gestione componenti facoltativi di Windows (accessi
   
     **Tabella 9. Autorizzazioni directory virtuale**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -1101,41 +1101,41 @@ IIS viene installato tramite Gestione componenti facoltativi di Windows (accessi
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>User/Group</p></th>
-    <th><p>Autorizzazione</p></th>
-    <th><p>Consenti/Nega</p></th>
+    <th>User/Group</th>
+    <th>Autorizzazione</th>
+    <th>Consenti/Nega</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Administrators</p></td>
-    <td style="border:1px solid black;"><p>Controllo completo</p></td>
-    <td style="border:1px solid black;"><p>Consentito</p></td>
+    <td style="border:1px solid black;">Administrators</td>
+    <td style="border:1px solid black;">Controllo completo</td>
+    <td style="border:1px solid black;">Consentito</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>System</p></td>
-    <td style="border:1px solid black;"><p>Controllo completo</p></td>
-    <td style="border:1px solid black;"><p>Consentito</p></td>
+    <td style="border:1px solid black;">System</td>
+    <td style="border:1px solid black;">Controllo completo</td>
+    <td style="border:1px solid black;">Consentito</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Creator Owners</p></td>
-    <td style="border:1px solid black;"><p>Controllo completo (solo sottocartelle e file)</p></td>
-    <td style="border:1px solid black;"><p>Consentito</p></td>
+    <td style="border:1px solid black;">Creator Owners</td>
+    <td style="border:1px solid black;">Controllo completo (solo sottocartelle e file)</td>
+    <td style="border:1px solid black;">Consentito</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Users</p></td>
-    <td style="border:1px solid black;"><p>Lettura e visualizzazione contenuto cartella</p></td>
-    <td style="border:1px solid black;"><p>Consentito</p></td>
+    <td style="border:1px solid black;">Users</td>
+    <td style="border:1px solid black;">Lettura e visualizzazione contenuto cartella</td>
+    <td style="border:1px solid black;">Consentito</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>IIS_WPG</p></td>
-    <td style="border:1px solid black;"><p>Lettura e visualizzazione contenuto cartella</p></td>
-    <td style="border:1px solid black;"><p>Consentito</p></td>
+    <td style="border:1px solid black;">IIS_WPG</td>
+    <td style="border:1px solid black;">Lettura e visualizzazione contenuto cartella</td>
+    <td style="border:1px solid black;">Consentito</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Account Internet Guest</p></td>
-    <td style="border:1px solid black;"><p>Scrittura</p></td>
-    <td style="border:1px solid black;"><p>Negato</p></td>
+    <td style="border:1px solid black;">Account Internet Guest</td>
+    <td style="border:1px solid black;">Scrittura</td>
+    <td style="border:1px solid black;">Negato</td>
     </tr>
     </tbody>
     </table>
@@ -1197,7 +1197,7 @@ In questa soluzione vengono definiti più gruppi di protezione che corrispondono
   
     **Tabella 10. Nomi e scopi dei gruppi**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -1205,34 +1205,34 @@ In questa soluzione vengono definiti più gruppi di protezione che corrispondono
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Nome gruppo</p></th>
-    <th><p>Scopo</p></th>
+    <th>Nome gruppo</th>
+    <th>Scopo</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Enterprise PKI Admins</p></td>
-    <td style="border:1px solid black;"><p>Amministratori del contenitore di configurazione Servizi chiave pubblica</p></td>
+    <td style="border:1px solid black;">Enterprise PKI Admins</td>
+    <td style="border:1px solid black;">Amministratori del contenitore di configurazione Servizi chiave pubblica</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Enterprise PKI Publishers</p></td>
-    <td style="border:1px solid black;"><p>Gruppo autorizzato a pubblicare elenchi CRL e certificati CA nei contenitori della configurazione dell'organizzazione</p></td>
+    <td style="border:1px solid black;">Enterprise PKI Publishers</td>
+    <td style="border:1px solid black;">Gruppo autorizzato a pubblicare elenchi CRL e certificati CA nei contenitori della configurazione dell'organizzazione</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>CA Admins</p></td>
-    <td style="border:1px solid black;"><p>Dispone di privilegi amministrativi completi sulla CA, inclusa la determinazione dell'appartenenza di altri ruoli</p></td>
+    <td style="border:1px solid black;">CA Admins</td>
+    <td style="border:1px solid black;">Dispone di privilegi amministrativi completi sulla CA, inclusa la determinazione dell'appartenenza di altri ruoli</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Certificate Managers</p></td>
-    <td style="border:1px solid black;"><p>Gestisce il rilascio e la revoca dei certificati</p></td>
+    <td style="border:1px solid black;">Certificate Managers</td>
+    <td style="border:1px solid black;">Gestisce il rilascio e la revoca dei certificati</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>CA Auditors</p></td>
-    <td style="border:1px solid black;"><p>Gestisce i dati di controllo per la CA</p></td>
+    <td style="border:1px solid black;">CA Auditors</td>
+    <td style="border:1px solid black;">Gestisce i dati di controllo per la CA</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>CA Backup Operators</p></td>
-    <td style="border:1px solid black;"><p>Dispone delle autorizzazioni a eseguire il backup e il ripristino delle chiavi e dei dati della CA</p></td>
+    <td style="border:1px solid black;">CA Backup Operators</td>
+    <td style="border:1px solid black;">Dispone delle autorizzazioni a eseguire il backup e il ripristino delle chiavi e dei dati della CA</td>
     </tr>
     </tbody>
     </table>
@@ -1241,7 +1241,7 @@ Le procedure di configurazione descritte nel resto del documento richiedono l'ut
   
 **Tabella 11. Modello di amministrazione semplificato**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1249,22 +1249,22 @@ Le procedure di configurazione descritte nel resto del documento richiedono l'ut
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ruolo amministrativo</p></th>
-<th><p>Appartenenza a gruppo</p></th>
+<th>Ruolo amministrativo</th>
+<th>Appartenenza a gruppo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CA Administrator</p></td>
-<td style="border:1px solid black;"><p>Enterprise PKI Admins, CA Admins, Certificate Managers, Administrators</p></td>
+<td style="border:1px solid black;">CA Administrator</td>
+<td style="border:1px solid black;">Enterprise PKI Admins, CA Admins, Certificate Managers, Administrators</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CA Auditor</p></td>
-<td style="border:1px solid black;"><p>CA Auditors, Administrators</p></td>
+<td style="border:1px solid black;">CA Auditor</td>
+<td style="border:1px solid black;">CA Auditors, Administrators</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CA Backup Operator</p></td>
-<td style="border:1px solid black;"><p>CA Backup Operators</p></td>
+<td style="border:1px solid black;">CA Backup Operator</td>
+<td style="border:1px solid black;">CA Backup Operators</td>
 </tr>
 </tbody>
 </table>
@@ -1281,7 +1281,7 @@ Esistono diversi tipi di gruppi e account utente associati alla gestione e al fu
   
     **Tabella 12. Esempio di struttura delle UO**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -1289,30 +1289,30 @@ Esistono diversi tipi di gruppi e account utente associati alla gestione e al fu
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Organizational Unit, Unità organizzativa</p></th>
-    <th><p>Scopo</p></th>
+    <th>Organizational Unit, Unità organizzativa</th>
+    <th>Scopo</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Servizi certificati</p></td>
-    <td style="border:1px solid black;"><p>Unità organizzativa principale</p></td>
+    <td style="border:1px solid black;">Servizi certificati</td>
+    <td style="border:1px solid black;">Unità organizzativa principale</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>\-Amministrazione Servizi certificati</p></td>
-    <td style="border:1px solid black;"><p>Contiene i gruppi amministrativi per la gestione delle CA e la configurazione della PKI dell'organizzazione.</p></td>
+    <td style="border:1px solid black;">\-Amministrazione Servizi certificati</td>
+    <td style="border:1px solid black;">Contiene i gruppi amministrativi per la gestione delle CA e la configurazione della PKI dell'organizzazione.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>\-Gestione dei modelli di certificato</p></td>
-    <td style="border:1px solid black;"><p>Contiene i gruppi per la gestione dei singoli modelli di certificato.</p></td>
+    <td style="border:1px solid black;">\-Gestione dei modelli di certificato</td>
+    <td style="border:1px solid black;">Contiene i gruppi per la gestione dei singoli modelli di certificato.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>\-Registrazione dei modelli di certificato</p></td>
-    <td style="border:1px solid black;"><p>Contiene i gruppi ai quali è stata concessa l’autorizzazione di registrazione o registrazione automatica sui modelli con lo stesso nome. Il controllo di questi gruppi può essere delegato al personale appropriato senza modificare i modelli stessi.</p></td>
+    <td style="border:1px solid black;">\-Registrazione dei modelli di certificato</td>
+    <td style="border:1px solid black;">Contiene i gruppi ai quali è stata concessa l’autorizzazione di registrazione o registrazione automatica sui modelli con lo stesso nome. Il controllo di questi gruppi può essere delegato al personale appropriato senza modificare i modelli stessi.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>\-Utenti test di Servizi certificati</p></td>
-    <td style="border:1px solid black;"><p>Contiene account test temporanei.</p></td>
+    <td style="border:1px solid black;">\-Utenti test di Servizi certificati</td>
+    <td style="border:1px solid black;">Contiene account test temporanei.</td>
     </tr>
     </tbody>
     </table>
@@ -1511,7 +1511,7 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori e gestori
   
     **Tabella 13. Autorizzazioni CA**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -1520,21 +1520,21 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori e gestori
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Group</p></th>
-    <th><p>Autorizzazione</p></th>
-    <th><p>Consenti/Nega</p></th>
+    <th>Group</th>
+    <th>Autorizzazione</th>
+    <th>Consenti/Nega</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>CA Admins</p></td>
-    <td style="border:1px solid black;"><p>Gestione CA</p></td>
-    <td style="border:1px solid black;"><p>Consentito</p></td>
+    <td style="border:1px solid black;">CA Admins</td>
+    <td style="border:1px solid black;">Gestione CA</td>
+    <td style="border:1px solid black;">Consentito</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Certificate Managers</p></td>
-    <td style="border:1px solid black;"><p>Rilascio e gestione certificati</p></td>
-    <td style="border:1px solid black;"><p>Consentito</p></td>
+    <td style="border:1px solid black;">Certificate Managers</td>
+    <td style="border:1px solid black;">Rilascio e gestione certificati</td>
+    <td style="border:1px solid black;">Consentito</td>
     </tr>
     </tbody>
     </table>
@@ -1772,7 +1772,7 @@ Per utilizzare i ruoli amministrativi descritti in questa guida è necessario in
   
     **Tabella 14. Autorizzazioni CA di emissione**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -1781,21 +1781,21 @@ Per utilizzare i ruoli amministrativi descritti in questa guida è necessario in
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Group</p></th>
-    <th><p>Autorizzazione</p></th>
-    <th><p>Consenti/Nega</p></th>
+    <th>Group</th>
+    <th>Autorizzazione</th>
+    <th>Consenti/Nega</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>CA Admins</p></td>
-    <td style="border:1px solid black;"><p>Gestione CA</p></td>
-    <td style="border:1px solid black;"><p>Consentito</p></td>
+    <td style="border:1px solid black;">CA Admins</td>
+    <td style="border:1px solid black;">Gestione CA</td>
+    <td style="border:1px solid black;">Consentito</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Certificate Managers</p></td>
-    <td style="border:1px solid black;"><p>Rilascio e gestione certificati</p></td>
-    <td style="border:1px solid black;"><p>Consentito</p></td>
+    <td style="border:1px solid black;">Certificate Managers</td>
+    <td style="border:1px solid black;">Rilascio e gestione certificati</td>
+    <td style="border:1px solid black;">Consentito</td>
     </tr>
     </tbody>
     </table>
@@ -1882,7 +1882,7 @@ Nella tabella seguente vengono elencate le informazioni specifiche che differisc
   
 **Tabella 15. Impostazioni definite dall'utente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1890,26 +1890,26 @@ Nella tabella seguente vengono elencate le informazioni specifiche che differisc
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome DNS del dominio principale della foresta di Active Directory</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome DNS del dominio principale della foresta di Active Directory</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome di dominio NetBIOS</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome di dominio NetBIOS</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome server IAS principale</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome server IAS principale</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome server IAS secondario</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome server IAS secondario</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 </tbody>
 </table>
@@ -1920,7 +1920,7 @@ Nella tabella seguente sono elencate le impostazioni che non è necessario modif
   
 **Tabella 16. Elementi di configurazione indicati dalla soluzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1928,50 +1928,50 @@ Nella tabella seguente sono elencate le impostazioni che non è necessario modif
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome completo del gruppo amministrativo che controlla la configurazione di Servizio di Autenticazione Internet</p></td>
-<td style="border:1px solid black;"><p>IAS Admins</p></td>
+<td style="border:1px solid black;">Nome completo del gruppo amministrativo che controlla la configurazione di Servizio di Autenticazione Internet</td>
+<td style="border:1px solid black;">IAS Admins</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome completo del gruppo che rivede i registri IAS delle richieste di accounting e autenticazione</p></td>
-<td style="border:1px solid black;"><p>IAS Security Auditors</p></td>
+<td style="border:1px solid black;">Nome completo del gruppo che rivede i registri IAS delle richieste di accounting e autenticazione</td>
+<td style="border:1px solid black;">IAS Security Auditors</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Percorso degli script di installazione</p></td>
-<td style="border:1px solid black;"><p>C:\MSSScripts</p></td>
+<td style="border:1px solid black;">Percorso degli script di installazione</td>
+<td style="border:1px solid black;">C:\MSSScripts</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>File batch per l'esportazione della configurazione IAS</p></td>
-<td style="border:1px solid black;"><p>IASExport.bat</p></td>
+<td style="border:1px solid black;">File batch per l'esportazione della configurazione IAS</td>
+<td style="border:1px solid black;">IASExport.bat</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>File batch per l'importazione della configurazione IAS</p></td>
-<td style="border:1px solid black;"><p>IASImport.bat</p></td>
+<td style="border:1px solid black;">File batch per l'importazione della configurazione IAS</td>
+<td style="border:1px solid black;">IASImport.bat</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>File batch per l'esportazione della configurazione client RADIUS IAS</p></td>
-<td style="border:1px solid black;"><p>IASClientExport.bat</p></td>
+<td style="border:1px solid black;">File batch per l'esportazione della configurazione client RADIUS IAS</td>
+<td style="border:1px solid black;">IASClientExport.bat</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>File batch per l'importazione della configurazione client RADIUS IAS</p></td>
-<td style="border:1px solid black;"><p>IASClientImport.bat</p></td>
+<td style="border:1px solid black;">File batch per l'importazione della configurazione client RADIUS IAS</td>
+<td style="border:1px solid black;">IASClientImport.bat</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Percorso dei file di backup della configurazione</p></td>
-<td style="border:1px solid black;"><p>D:\IASConfig</p></td>
+<td style="border:1px solid black;">Percorso dei file di backup della configurazione</td>
+<td style="border:1px solid black;">D:\IASConfig</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Posizione dei file di registro di autenticazione e delle richieste di controllo IAS</p></td>
-<td style="border:1px solid black;"><p>D:\IASLogs</p></td>
+<td style="border:1px solid black;">Posizione dei file di registro di autenticazione e delle richieste di controllo IAS</td>
+<td style="border:1px solid black;">D:\IASLogs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome di condivisione dei file di registro delle richieste RADIUS</p></td>
-<td style="border:1px solid black;"><p>IASLogs</p></td>
+<td style="border:1px solid black;">Nome di condivisione dei file di registro delle richieste RADIUS</td>
+<td style="border:1px solid black;">IASLogs</td>
 </tr>
 </tbody>
 </table>
@@ -2090,7 +2090,7 @@ Prima di iniziare questa fase dell'implementazione di una rete WLAN protetta è 
   
 **Tabella 17. Impostazioni preliminari definite dall'utente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2098,26 +2098,26 @@ Prima di iniziare questa fase dell'implementazione di una rete WLAN protetta è 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome DNS del dominio principale della foresta di Active Directory</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome DNS del dominio principale della foresta di Active Directory</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome di dominio NetBIOS</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome di dominio NetBIOS</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome server IAS principale</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome server IAS principale</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome server IAS secondario</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;">Nome server IAS secondario</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 </tbody>
 </table>
@@ -2128,7 +2128,7 @@ Nella tabella seguente sono elencate le impostazioni che non è necessario modif
   
 **Tabella 18. Impostazioni di configurazione indicate dalla soluzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2136,74 +2136,74 @@ Nella tabella seguente sono elencate le impostazioni che non è necessario modif
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo globale di Active Directory che controlla la distribuzione dei certificati di autenticazione utente 802.1X</p></td>
-<td style="border:1px solid black;"><p>Registrazione automatica autenticazione client – Certificato utente</p></td>
+<td style="border:1px solid black;">Gruppo globale di Active Directory che controlla la distribuzione dei certificati di autenticazione utente 802.1X</td>
+<td style="border:1px solid black;">Registrazione automatica autenticazione client – Certificato utente</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gruppo globale di Active Directory che controlla la distribuzione dei certificati di autenticazione computer 802.1X</p></td>
-<td style="border:1px solid black;"><p>Registrazione automatica autenticazione client – Certificato computer</p></td>
+<td style="border:1px solid black;">Gruppo globale di Active Directory che controlla la distribuzione dei certificati di autenticazione computer 802.1X</td>
+<td style="border:1px solid black;">Registrazione automatica autenticazione client – Certificato computer</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo globale di Active Directory contenente i server IAS che richiedono certificati di autenticazione 802.1X</p></td>
-<td style="border:1px solid black;"><p>Registrazione automatica certificato di autenticazione server RAS e IAS</p></td>
+<td style="border:1px solid black;">Gruppo globale di Active Directory contenente i server IAS che richiedono certificati di autenticazione 802.1X</td>
+<td style="border:1px solid black;">Registrazione automatica certificato di autenticazione server RAS e IAS</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gruppo globale di Active Directory contenente gli utenti ai quali è consentito l'accesso alla rete wireless</p></td>
-<td style="border:1px solid black;"><p>Criteri di accesso remoto – Utenti senza fili</p></td>
+<td style="border:1px solid black;">Gruppo globale di Active Directory contenente gli utenti ai quali è consentito l'accesso alla rete wireless</td>
+<td style="border:1px solid black;">Criteri di accesso remoto – Utenti senza fili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo globale di Active Directory contenente i computer ai quali è consentito l'accesso alla rete wireless</p></td>
-<td style="border:1px solid black;"><p>Criteri di accesso remoto – Computer senza fili</p></td>
+<td style="border:1px solid black;">Gruppo globale di Active Directory contenente i computer ai quali è consentito l'accesso alla rete wireless</td>
+<td style="border:1px solid black;">Criteri di accesso remoto – Computer senza fili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gruppo universale di Active Directory contenente sia il gruppo di utenti wireless che il gruppo di computer wireless</p></td>
-<td style="border:1px solid black;"><p>Criteri di accesso remoto – Accesso senza fili</p></td>
+<td style="border:1px solid black;">Gruppo universale di Active Directory contenente sia il gruppo di utenti wireless che il gruppo di computer wireless</td>
+<td style="border:1px solid black;">Criteri di accesso remoto – Accesso senza fili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo globale di Active Directory contenente i computer che richiedono la configurazione delle proprietà di rete wireless</p></td>
-<td style="border:1px solid black;"><p>Criterio di rete senza fili – Computer</p></td>
+<td style="border:1px solid black;">Gruppo globale di Active Directory contenente i computer che richiedono la configurazione delle proprietà di rete wireless</td>
+<td style="border:1px solid black;">Criterio di rete senza fili – Computer</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Modello di certificato utilizzato per generare certificati per l'autenticazione di utenti client</p></td>
-<td style="border:1px solid black;"><p>Autenticazione client – Utente</p></td>
+<td style="border:1px solid black;">Modello di certificato utilizzato per generare certificati per l'autenticazione di utenti client</td>
+<td style="border:1px solid black;">Autenticazione client – Utente</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Modello di certificato utilizzato per generare certificati per l'autenticazione di computer client</p></td>
-<td style="border:1px solid black;"><p>Autenticazione client – Computer</p></td>
+<td style="border:1px solid black;">Modello di certificato utilizzato per generare certificati per l'autenticazione di computer client</td>
+<td style="border:1px solid black;">Autenticazione client – Computer</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Modello di certificato utilizzato per generare certificati di autenticazione server per IAS</p></td>
-<td style="border:1px solid black;"><p>Autenticazione server RAS e IAS</p></td>
+<td style="border:1px solid black;">Modello di certificato utilizzato per generare certificati di autenticazione server per IAS</td>
+<td style="border:1px solid black;">Autenticazione server RAS e IAS</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Percorso degli script di installazione</p></td>
-<td style="border:1px solid black;"><p>C:\MSSScripts</p></td>
+<td style="border:1px solid black;">Percorso degli script di installazione</td>
+<td style="border:1px solid black;">C:\MSSScripts</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Percorso dei file di backup della configurazione</p></td>
-<td style="border:1px solid black;"><p>D:\IASConfig</p></td>
+<td style="border:1px solid black;">Percorso dei file di backup della configurazione</td>
+<td style="border:1px solid black;">D:\IASConfig</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Percorso dei file registro di autenticazione e delle richieste di controllo IAS</p></td>
-<td style="border:1px solid black;"><p>D:\IASLogs</p></td>
+<td style="border:1px solid black;">Percorso dei file registro di autenticazione e delle richieste di controllo IAS</td>
+<td style="border:1px solid black;">D:\IASLogs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome del criterio</p></td>
-<td style="border:1px solid black;"><p>Consenti accesso senza fili</p></td>
+<td style="border:1px solid black;">Nome del criterio</td>
+<td style="border:1px solid black;">Consenti accesso senza fili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome oggetto Criteri di gruppo di Active Directory</p></td>
-<td style="border:1px solid black;"><p>Criterio di rete senza fili</p></td>
+<td style="border:1px solid black;">Nome oggetto Criteri di gruppo di Active Directory</td>
+<td style="border:1px solid black;">Criterio di rete senza fili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Criterio di rete wireless all'interno dell'oggetto Criteri di gruppo</p></td>
-<td style="border:1px solid black;"><p>Configurazione computer client senza fili</p></td>
+<td style="border:1px solid black;">Criterio di rete wireless all'interno dell'oggetto Criteri di gruppo</td>
+<td style="border:1px solid black;">Configurazione computer client senza fili</td>
 </tr>
 </tbody>
 </table>

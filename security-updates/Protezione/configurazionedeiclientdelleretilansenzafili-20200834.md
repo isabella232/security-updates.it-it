@@ -56,7 +56,7 @@ Nella tabella riportata di seguito sono elencati gli strumenti richiesti per imp
 
 **Tabella 6.1: Strumenti necessari**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -65,21 +65,21 @@ Nella tabella riportata di seguito sono elencati gli strumenti richiesti per imp
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Strumento</p></th>
-<th><p>Descrizione</p></th>
-<th><p>Origine</p></th>
+<th>Strumento</th>
+<th>Descrizione</th>
+<th>Origine</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Console gestione criteri di gruppo</strong></p></td>
-<td style="border:1px solid black;"><p>Strumento di gestione avanzata per l'importazione e l'esportazione degli oggetti Criteri di gruppo.</p></td>
-<td style="border:1px solid black;"><p>Le istruzioni per l'installazione sono incluse nel capitolo 3, &quot;Predisposizione dell'ambiente&quot;.</p></td>
+<td style="border:1px solid black;"><strong>Console gestione criteri di gruppo</strong></td>
+<td style="border:1px solid black;">Strumento di gestione avanzata per l'importazione e l'esportazione degli oggetti Criteri di gruppo.</td>
+<td style="border:1px solid black;">Le istruzioni per l'installazione sono incluse nel capitolo 3, &quot;Predisposizione dell'ambiente&quot;.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Utenti e computer di Active Directory</strong></p></td>
-<td style="border:1px solid black;"><p>Strumento di MMC utilizzato per la gestione di utenti, gruppi, computer e altri oggetti Active Directory del servizio directory Microsoft Active Directory®.</p></td>
-<td style="border:1px solid black;"><p>Installato con Windows Server™ 2003.</p></td>
+<td style="border:1px solid black;"><strong>Utenti e computer di Active Directory</strong></td>
+<td style="border:1px solid black;">Strumento di MMC utilizzato per la gestione di utenti, gruppi, computer e altri oggetti Active Directory del servizio directory Microsoft Active Directory®.</td>
+<td style="border:1px solid black;">Installato con Windows Server™ 2003.</td>
 </tr>
 </tbody>
 </table>
@@ -90,7 +90,7 @@ Nella seguente tabella sono indicati alcuni dei parametri principali utilizzati 
   
 **Tabella 6.2: Impostazioni client WLAN**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -98,50 +98,50 @@ Nella seguente tabella sono indicati alcuni dei parametri principali utilizzati 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo che consente l'accesso alla rete WLAN</p></td>
-<td style="border:1px solid black;"><p>Accesso LAN senza fili</p></td>
+<td style="border:1px solid black;">Gruppo che consente l'accesso alla rete WLAN</td>
+<td style="border:1px solid black;">Accesso LAN senza fili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gruppo che consente l'accesso utente alla rete WLAN</p></td>
-<td style="border:1px solid black;"><p>Utenti LAN senza fili</p></td>
+<td style="border:1px solid black;">Gruppo che consente l'accesso utente alla rete WLAN</td>
+<td style="border:1px solid black;">Utenti LAN senza fili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo che consente l'accesso dei computer alla rete WLAN</p></td>
-<td style="border:1px solid black;"><p>Computer LAN senza fili</p></td>
+<td style="border:1px solid black;">Gruppo che consente l'accesso dei computer alla rete WLAN</td>
+<td style="border:1px solid black;">Computer LAN senza fili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome oggetto Criteri di gruppo WLAN</p></td>
-<td style="border:1px solid black;"><p>Impostazioni client WLAN</p></td>
+<td style="border:1px solid black;">Nome oggetto Criteri di gruppo WLAN</td>
+<td style="border:1px solid black;">Impostazioni client WLAN</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo di protezione filtro oggetti Criteri di gruppo</p></td>
-<td style="border:1px solid black;"><p>Impostazioni computer LAN senza fili</p></td>
+<td style="border:1px solid black;">Gruppo di protezione filtro oggetti Criteri di gruppo</td>
+<td style="border:1px solid black;">Impostazioni computer LAN senza fili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome criteri di rete senza fili</p></td>
-<td style="border:1px solid black;"><p>Impostazioni client WLAN per Windows XP - PEAP (Protected Extensible Authentication Protocol) e WEP (Wired Equivalent Privacy)</p></td>
+<td style="border:1px solid black;">Nome criteri di rete senza fili</td>
+<td style="border:1px solid black;">Impostazioni client WLAN per Windows XP - PEAP (Protected Extensible Authentication Protocol) e WEP (Wired Equivalent Privacy)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome rete WLAN (SSID)</p></td>
-<td style="border:1px solid black;"><p><em>LucerneWLAN</em> (cambiare il nome nell'identificatore dei set di servizi (SSID))</p></td>
+<td style="border:1px solid black;">Nome rete WLAN (SSID)</td>
+<td style="border:1px solid black;"><em>LucerneWLAN</em> (cambiare il nome nell'identificatore dei set di servizi (SSID))</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tipo di EAP (Extensible Authentication Protocol)</p></td>
-<td style="border:1px solid black;"><p>PEAP</p></td>
+<td style="border:1px solid black;">Tipo di EAP (Extensible Authentication Protocol)</td>
+<td style="border:1px solid black;">PEAP</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Metodo di autenticazione PEAP</p></td>
-<td style="border:1px solid black;"><p>Password protetta (EAP-MSCHAP v2)</p></td>
+<td style="border:1px solid black;">Metodo di autenticazione PEAP</td>
+<td style="border:1px solid black;">Password protetta (EAP-MSCHAP v2)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Riconnessione rapida PEAP</p></td>
-<td style="border:1px solid black;"><p>Abilitato</p></td>
+<td style="border:1px solid black;">Riconnessione rapida PEAP</td>
+<td style="border:1px solid black;">Abilitato</td>
 </tr>
 </tbody>
 </table>

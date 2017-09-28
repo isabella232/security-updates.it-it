@@ -327,7 +327,7 @@ La seguente tabella elenca i ruoli di server di Windows Server 2003 e i corrispo
 
 **Tabella 2.1. Ruoli di server per Windows Server 2003**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -336,59 +336,59 @@ La seguente tabella elenca i ruoli di server di Windows Server 2003 e i corrispo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ruolo del server</p></th>
-<th><p>Descrizione</p></th>
-<th><p>Nome di file del modello di protezione</p></th>
+<th>Ruolo del server</th>
+<th>Descrizione</th>
+<th>Nome di file del modello di protezione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Server membro</p></td>
-<td style="border:1px solid black;"><p>Tutti i server che sono membri del dominio e risiedono all'interno dell'unità organizzativa dei server membro o a un livello inferiore.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Member Server Baseline.inf<br />
-</p></td>
+<td style="border:1px solid black;">Server membro</td>
+<td style="border:1px solid black;">Tutti i server che sono membri del dominio e risiedono all'interno dell'unità organizzativa dei server membro o a un livello inferiore.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>Member Server Baseline.inf<br />
+</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controller di dominio</p></td>
-<td style="border:1px solid black;"><p>Tutti i controller di dominio Active Directory Questi server sono anche i server DNS.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Domain Controller.inf<br />
-</p></td>
+<td style="border:1px solid black;">Controller di dominio</td>
+<td style="border:1px solid black;">Tutti i controller di dominio Active Directory Questi server sono anche i server DNS.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>Domain Controller.inf<br />
+</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Server infrastruttura</p></td>
-<td style="border:1px solid black;"><p>Tutti i server WINS e DHCP bloccati.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Infrastructure Server.inf<br />
-</p></td>
+<td style="border:1px solid black;">Server infrastruttura</td>
+<td style="border:1px solid black;">Tutti i server WINS e DHCP bloccati.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>Infrastructure Server.inf<br />
+</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>File server</p></td>
-<td style="border:1px solid black;"><p>Tutti i file server bloccati.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>File Server.inf</p></td>
+<td style="border:1px solid black;">File server</td>
+<td style="border:1px solid black;">Tutti i file server bloccati.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>File Server.inf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Server di stampa</p></td>
-<td style="border:1px solid black;"><p>Tutti i server di stampa bloccati.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Print Server.inf</p></td>
+<td style="border:1px solid black;">Server di stampa</td>
+<td style="border:1px solid black;">Tutti i server di stampa bloccati.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>Print Server.inf</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Web server</p></td>
-<td style="border:1px solid black;"><p>Tutti i server Web IIS bloccati.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Web Server.inf</p></td>
+<td style="border:1px solid black;">Web server</td>
+<td style="border:1px solid black;">Tutti i server Web IIS bloccati.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>Web Server.inf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Server IAS</p></td>
-<td style="border:1px solid black;"><p>Tutti i server IAS bloccati.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>IAS Server.inf</p></td>
+<td style="border:1px solid black;">Server IAS</td>
+<td style="border:1px solid black;">Tutti i server IAS bloccati.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>IAS Server.inf</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Server servizi certificati</p></td>
-<td style="border:1px solid black;"><p>Tutti i server CA (Certification Authority) bloccati.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>CA Server.inf</p></td>
+<td style="border:1px solid black;">Server servizi certificati</td>
+<td style="border:1px solid black;">Tutti i server CA (Certification Authority) bloccati.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>CA Server.inf</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Host Bastion</p></td>
-<td style="border:1px solid black;"><p>Tutti i server Internet.</p></td>
-<td style="border:1px solid black;"><p><em>&lt;Env&gt;-</em>Bastion Host.inf</p></td>
+<td style="border:1px solid black;">Host Bastion</td>
+<td style="border:1px solid black;">Tutti i server Internet.</td>
+<td style="border:1px solid black;"><em>&lt;Env&gt;-</em>Bastion Host.inf</td>
 </tr>
 </tbody>
 </table>
@@ -411,7 +411,7 @@ Le OU e i criteri consigliati discussi nella sezione precedente creano una linea
   
 **Tabella 2.2. OU e Gruppi amministrativi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -419,42 +419,42 @@ Le OU e i criteri consigliati discussi nella sezione precedente creano una linea
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome OU</p></th>
-<th><p>Gruppo amministrativo</p></th>
+<th>Nome OU</th>
+<th>Gruppo amministrativo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controller di dominio</p></td>
-<td style="border:1px solid black;"><p>Progettazione di domini</p></td>
+<td style="border:1px solid black;">Controller di dominio</td>
+<td style="border:1px solid black;">Progettazione di domini</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Server membri</p></td>
-<td style="border:1px solid black;"><p>Progettazione di domini</p></td>
+<td style="border:1px solid black;">Server membri</td>
+<td style="border:1px solid black;">Progettazione di domini</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Infrastruttura</p></td>
-<td style="border:1px solid black;"><p>Amministratori dell'infrastruttura</p></td>
+<td style="border:1px solid black;">Infrastruttura</td>
+<td style="border:1px solid black;">Amministratori dell'infrastruttura</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>File</p></td>
-<td style="border:1px solid black;"><p>Amministratori dell'infrastruttura</p></td>
+<td style="border:1px solid black;">File</td>
+<td style="border:1px solid black;">Amministratori dell'infrastruttura</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>File di stampa</p></td>
-<td style="border:1px solid black;"><p>Amministratori dell'infrastruttura</p></td>
+<td style="border:1px solid black;">File di stampa</td>
+<td style="border:1px solid black;">Amministratori dell'infrastruttura</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IAS</p></td>
-<td style="border:1px solid black;"><p>Progettazione di domini</p></td>
+<td style="border:1px solid black;">IAS</td>
+<td style="border:1px solid black;">Progettazione di domini</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Web</p></td>
-<td style="border:1px solid black;"><p>Servizi Web</p></td>
+<td style="border:1px solid black;">Web</td>
+<td style="border:1px solid black;">Servizi Web</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CA</p></td>
-<td style="border:1px solid black;"><p>Amministratori dell'organizzazione</p></td>
+<td style="border:1px solid black;">CA</td>
+<td style="border:1px solid black;">Amministratori dell'organizzazione</td>
 </tr>
 </tbody>
 </table>

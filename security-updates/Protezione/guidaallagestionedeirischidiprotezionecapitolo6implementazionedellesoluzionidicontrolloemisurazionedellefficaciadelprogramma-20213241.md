@@ -73,7 +73,7 @@ Durante questa fase del processo di gestione dei rischi di protezione Microsoft 
 
 **Tabella 6.1: Risultati richiesti per la fase di implementazione dei controlli**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -81,18 +81,18 @@ Durante questa fase del processo di gestione dei rischi di protezione Microsoft 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Informazioni da raccogliere</p></th>
-<th><p>Descrizione</p></th>
+<th>Informazioni da raccogliere</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Soluzioni di controllo</p></td>
-<td style="border:1px solid black;"><p>Elenco delle soluzioni di controllo scelte dal Comitato direttivo per la protezione e implementate dai responsabili della riduzione dei rischi</p></td>
+<td style="border:1px solid black;">Soluzioni di controllo</td>
+<td style="border:1px solid black;">Elenco delle soluzioni di controllo scelte dal Comitato direttivo per la protezione e implementate dai responsabili della riduzione dei rischi</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Report sulla distribuzione dei controlli</p></td>
-<td style="border:1px solid black;"><p>Report o serie di report creati dai responsabili della riduzione dei rischi in cui sono descritti i progressi nella distribuzione delle soluzioni di controllo scelte</p></td>
+<td style="border:1px solid black;">Report sulla distribuzione dei controlli</td>
+<td style="border:1px solid black;">Report o serie di report creati dai responsabili della riduzione dei rischi in cui sono descritti i progressi nella distribuzione delle soluzioni di controllo scelte</td>
 </tr>
 </tbody>
 </table>
@@ -273,7 +273,7 @@ In questa fase, il Team di gestione dei rischi di protezione crea report sul pro
   
 **Tabella 6.2 Risultati richiesti per la fase di supporto alle decisioni**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -281,34 +281,34 @@ In questa fase, il Team di gestione dei rischi di protezione crea report sul pro
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Informazioni da raccogliere</p></th>
-<th><p>Descrizione</p></th>
+<th>Informazioni da raccogliere</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Cambiamenti presi in considerazione</p></td>
-<td style="border:1px solid black;"><p>Report in cui sono illustrati i cambiamenti all'ambiente informatico che sono in fase di pianificazione</p></td>
+<td style="border:1px solid black;">Cambiamenti presi in considerazione</td>
+<td style="border:1px solid black;">Report in cui sono illustrati i cambiamenti all'ambiente informatico che sono in fase di pianificazione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Cambiamenti approvati</p></td>
-<td style="border:1px solid black;"><p>Report in cui sono spiegati i cambiamenti all'ambiente informatico che stanno per essere avviati</p></td>
+<td style="border:1px solid black;">Cambiamenti approvati</td>
+<td style="border:1px solid black;">Report in cui sono spiegati i cambiamenti all'ambiente informatico che stanno per essere avviati</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Eventi di protezione</p></td>
-<td style="border:1px solid black;"><p>Report in cui sono descritti dettagliatamente gli eventi di protezione non pianificati che hanno influito sull'ambiente informatico</p></td>
+<td style="border:1px solid black;">Eventi di protezione</td>
+<td style="border:1px solid black;">Report in cui sono descritti dettagliatamente gli eventi di protezione non pianificati che hanno influito sull'ambiente informatico</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Riepilogo dell'efficacia delle soluzioni di controllo</p></td>
-<td style="border:1px solid black;"><p>Report in cui è riassunto il livello di riduzione dei rischi fornito dalle soluzioni di controllo</p></td>
+<td style="border:1px solid black;">Riepilogo dell'efficacia delle soluzioni di controllo</td>
+<td style="border:1px solid black;">Report in cui è riassunto il livello di riduzione dei rischi fornito dalle soluzioni di controllo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Cambiamenti nel profilo dei rischi dell'organizzazione</p></td>
-<td style="border:1px solid black;"><p>Report in cui viene mostrato come i rischi identificati in precedenza sono cambiati in ragione di nuovi pericoli, nuove vulnerabilità o dei cambiamenti apportati all'ambiente informatico dell'organizzazione</p></td>
+<td style="border:1px solid black;">Cambiamenti nel profilo dei rischi dell'organizzazione</td>
+<td style="border:1px solid black;">Report in cui viene mostrato come i rischi identificati in precedenza sono cambiati in ragione di nuovi pericoli, nuove vulnerabilità o dei cambiamenti apportati all'ambiente informatico dell'organizzazione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Scorecard sui rischi di protezione</p></td>
-<td style="border:1px solid black;"><p>Breve scheda con punteggio numerico che rappresenta il profilo dei rischi corrente dell'organizzazione</p></td>
+<td style="border:1px solid black;">Scorecard sui rischi di protezione</td>
+<td style="border:1px solid black;">Breve scheda con punteggio numerico che rappresenta il profilo dei rischi corrente dell'organizzazione</td>
 </tr>
 </tbody>
 </table>

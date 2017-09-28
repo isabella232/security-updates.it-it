@@ -13,7 +13,7 @@ Nella tabella seguente, sono elencati i contatori prestazioni disponibili per RM
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,16 +27,16 @@ Nella tabella seguente, sono elencati i contatori prestazioni disponibili per RM
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Logging Failures</p></td>
-<td style="border:1px solid black;"><p>Numero complessivo di tentativi di registrazione attività non completamente elaborati.</p></td>
+<td style="border:1px solid black;">Logging Failures</td>
+<td style="border:1px solid black;">Numero complessivo di tentativi di registrazione attività non completamente elaborati.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Logging Processing Time</p></td>
-<td style="border:1px solid black;"><p>Tempo, in microsecondi, utilizzato per l'elaborazione delle richieste di registrazione attività.</p></td>
+<td style="border:1px solid black;">Logging Processing Time</td>
+<td style="border:1px solid black;">Tempo, in microsecondi, utilizzato per l'elaborazione delle richieste di registrazione attività.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Logging Requests</p></td>
-<td style="border:1px solid black;"><p>Numero complessivo di richieste di registrazione attività ricevute dal servizio di registrazione attività.</p></td>
+<td style="border:1px solid black;">Logging Requests</td>
+<td style="border:1px solid black;">Numero complessivo di richieste di registrazione attività ricevute dal servizio di registrazione attività.</td>
 </tr>
 </tbody>
 </table>

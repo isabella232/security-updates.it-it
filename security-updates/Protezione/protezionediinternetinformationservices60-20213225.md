@@ -220,7 +220,7 @@ Nella tabella che segue sono illustrate le impostazioni consigliate in Installaz
 
 **Tabella 1. Impostazioni consigliate per i sottocomponenti e i servizi IIS**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -229,61 +229,61 @@ Nella tabella che segue sono illustrate le impostazioni consigliate in Installaz
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Sottocomponente o servizio</p></th>
-<th><p>Impostazione predefinita</p></th>
-<th><p>Impostazione del server Web</p></th>
+<th>Sottocomponente o servizio</th>
+<th>Impostazione predefinita</th>
+<th>Impostazione del server Web</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Estensione server Servizio trasferimento intelligente in background (BITS)</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Estensione server Servizio trasferimento intelligente in background (BITS)</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>File comuni</p></td>
-<td style="border:1px solid black;"><p>Abilitato</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">File comuni</td>
+<td style="border:1px solid black;">Abilitato</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizio FTP</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Servizio FTP</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Estensioni del server di FrontPage 2002</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Estensioni del server di FrontPage 2002</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gestione Internet Information Services</p></td>
-<td style="border:1px solid black;"><p>Abilitato</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Gestione Internet Information Services</td>
+<td style="border:1px solid black;">Abilitato</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Stampa Internet</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Stampa Internet</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizio NNTP</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Servizio NNTP</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizio SMTP</p></td>
-<td style="border:1px solid black;"><p>Abilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Servizio SMTP</td>
+<td style="border:1px solid black;">Abilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizio Web</p></td>
-<td style="border:1px solid black;"><p>Abilitato</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Servizio Web</td>
+<td style="border:1px solid black;">Abilitato</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Estensione server Servizio trasferimento intelligente in background (BITS)</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Estensione server Servizio trasferimento intelligente in background (BITS)</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 </tbody>
 </table>

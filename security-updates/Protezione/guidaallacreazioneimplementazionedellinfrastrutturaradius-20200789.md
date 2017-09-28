@@ -111,7 +111,7 @@ La tabella che segue elenca dei parametri specifici dell'azienda fittizia Woodgr
 
 **Tabella 8.1. Elementi di configurazione definiti dagli utenti**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -119,30 +119,30 @@ La tabella che segue elenca dei parametri specifici dell'azienda fittizia Woodgr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome di dominio DNS per la radice di strutture Active Directory</p></td>
-<td style="border:1px solid black;"><p><em>woodgrovebank.com</em></p></td>
+<td style="border:1px solid black;">Nome di dominio DNS per la radice di strutture Active Directory</td>
+<td style="border:1px solid black;"><em>woodgrovebank.com</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome NetBIOS (Network Basic Input/Output System) del dominio</p></td>
-<td style="border:1px solid black;"><p><em>WOODGROVEBANK</em></p></td>
+<td style="border:1px solid black;">Nome NetBIOS (Network Basic Input/Output System) del dominio</td>
+<td style="border:1px solid black;"><em>WOODGROVEBANK</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome del server IAS primario</p></td>
-<td style="border:1px solid black;"><p><em>HQ- IAS - 01</em></p></td>
+<td style="border:1px solid black;">Nome del server IAS primario</td>
+<td style="border:1px solid black;"><em>HQ- IAS - 01</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome del server IAS secondario</p></td>
-<td style="border:1px solid black;"><p><em>HQ - IAS - 02</em></p></td>
+<td style="border:1px solid black;">Nome del server IAS secondario</td>
+<td style="border:1px solid black;"><em>HQ - IAS - 02</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome del server IAS secondario</p></td>
-<td style="border:1px solid black;"><p><em>BO - IAS - 03</em></p></td>
+<td style="border:1px solid black;">Nome del server IAS secondario</td>
+<td style="border:1px solid black;"><em>BO - IAS - 03</em></td>
 </tr>
 </tbody>
 </table>
@@ -153,7 +153,7 @@ Nel caso di un'installazione specifica non è necessario modificare le impostazi
   
 **Tabella 8.2. Elementi di configurazione indicati dalla soluzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -161,58 +161,58 @@ Nel caso di un'installazione specifica non è necessario modificare le impostazi
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Nome completo del gruppo amministrativo che controlla la configurazione del Servizio autenticazione Internet</p></td>
-<td style="border:1px solid black;"><p>IAS Admins</p></td>
+<td style="border:1px solid black;">[Account] Nome completo del gruppo amministrativo che controlla la configurazione del Servizio autenticazione Internet</td>
+<td style="border:1px solid black;">IAS Admins</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Nome precedente a Windows 2000 del gruppo amministrativo che controlla la configurazione del Servizio autenticazione Internet</p></td>
-<td style="border:1px solid black;"><p>IAS Admins</p></td>
+<td style="border:1px solid black;">[Account] Nome precedente a Windows 2000 del gruppo amministrativo che controlla la configurazione del Servizio autenticazione Internet</td>
+<td style="border:1px solid black;">IAS Admins</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Nome completo del gruppo che rivede il registro IAS delle richieste di account e di autenticazione per motivi di sicurezza</p></td>
-<td style="border:1px solid black;"><p>IAS Security Auditors</p></td>
+<td style="border:1px solid black;">[Account] Nome completo del gruppo che rivede il registro IAS delle richieste di account e di autenticazione per motivi di sicurezza</td>
+<td style="border:1px solid black;">IAS Security Auditors</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Nome pre-Windows 2000 del gruppo che esamina i registri delle richieste di autenticazione e accounting IAS a fini di protezione</p></td>
-<td style="border:1px solid black;"><p>IAS Security Auditors</p></td>
+<td style="border:1px solid black;">[Account] Nome pre-Windows 2000 del gruppo che esamina i registri delle richieste di autenticazione e accounting IAS a fini di protezione</td>
+<td style="border:1px solid black;">IAS Security Auditors</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Scripts] Percorso degli script di installazione</p></td>
-<td style="border:1px solid black;"><p>C:\MSSScripts</p></td>
+<td style="border:1px solid black;">[Scripts] Percorso degli script di installazione</td>
+<td style="border:1px solid black;">C:\MSSScripts</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Script] File batch per l'esportazione della configurazione IAS</p></td>
-<td style="border:1px solid black;"><p>IASExport.bat</p></td>
+<td style="border:1px solid black;">[Script] File batch per l'esportazione della configurazione IAS</td>
+<td style="border:1px solid black;">IASExport.bat</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Script] File batch per l'importazione della configurazione IAS</p></td>
-<td style="border:1px solid black;"><p>IASImport.bat</p></td>
+<td style="border:1px solid black;">[Script] File batch per l'importazione della configurazione IAS</td>
+<td style="border:1px solid black;">IASImport.bat</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Script] File batch per l'esportazione della configurazione dei client RADIUS IAS</p></td>
-<td style="border:1px solid black;"><p>IASClientExport.bat</p></td>
+<td style="border:1px solid black;">[Script] File batch per l'esportazione della configurazione dei client RADIUS IAS</td>
+<td style="border:1px solid black;">IASClientExport.bat</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Script] File batch per l'importazione della configurazione dei client RADIUS di IAS</p></td>
-<td style="border:1px solid black;"><p>IASClientImport.bat</p></td>
+<td style="border:1px solid black;">[Script] File batch per l'importazione della configurazione dei client RADIUS di IAS</td>
+<td style="border:1px solid black;">IASClientImport.bat</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Config] Percorso dei file di backup della configurazione</p></td>
-<td style="border:1px solid black;"><p>D:\IASConfig</p></td>
+<td style="border:1px solid black;">[Config] Percorso dei file di backup della configurazione</td>
+<td style="border:1px solid black;">D:\IASConfig</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Registri richieste] Posizione dei file registro di autenticazione e delle richieste di controllo IAS</p></td>
-<td style="border:1px solid black;"><p>D:\IASLogs</p></td>
+<td style="border:1px solid black;">[Registri richieste] Posizione dei file registro di autenticazione e delle richieste di controllo IAS</td>
+<td style="border:1px solid black;">D:\IASLogs</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Request Logs] Nome della condivisione dei registri delle richieste RADIUS</p></td>
-<td style="border:1px solid black;"><p>IASLogs</p></td>
+<td style="border:1px solid black;">[Request Logs] Nome della condivisione dei registri delle richieste RADIUS</td>
+<td style="border:1px solid black;">IASLogs</td>
 </tr>
 </tbody>
 </table>
@@ -247,7 +247,7 @@ Le seguenti specifiche hardware sono state utilizzate per eseguire il test di qu
   
 **Tabella 8.3. Specifiche hardware di server verificate**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -255,34 +255,34 @@ Le seguenti specifiche hardware sono state utilizzate per eseguire il test di qu
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Risorsa</p></th>
-<th><p>Requisito</p></th>
+<th>Risorsa</th>
+<th>Requisito</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CPU</p></td>
-<td style="border:1px solid black;"><p>CPU doppia da 850 MHz o superiore</p></td>
+<td style="border:1px solid black;">CPU</td>
+<td style="border:1px solid black;">CPU doppia da 850 MHz o superiore</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Memoria</p></td>
-<td style="border:1px solid black;"><p>512 MB</p></td>
+<td style="border:1px solid black;">Memoria</td>
+<td style="border:1px solid black;">512 MB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Interfacce di rete</p></td>
-<td style="border:1px solid black;"><p>2 x singole schede di interfaccia di rete (NIC, Network Interface Card) unite per una maggiore adattabilità</p></td>
+<td style="border:1px solid black;">Interfacce di rete</td>
+<td style="border:1px solid black;">2 x singole schede di interfaccia di rete (NIC, Network Interface Card) unite per una maggiore adattabilità</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Archiviazione disco</p></td>
-<td style="border:1px solid black;"><p>Controller RAID (Redundant Array of Independent Disks) IDE (Integrated Device Electronics) o SCSI (Small Computer System Interface)</p>
-<p>2 x 9 GB (SCSI o IDE) configurato come volume RAID 1 (unità C)</p>
-<p>2 x 18 GB (SCSI o IDE) configurato come volume RAID 1 (unità D)</p>
-<p>Archiviazione su supporti rimovibili locali (CD-RW o nastro di backup), in assenza di una funzionalità di backup di rete</p>
-<p>Unità disco floppy da 1,44 MB per il trasferimento dei dati</p></td>
+<td style="border:1px solid black;">Archiviazione disco</td>
+<td style="border:1px solid black;">Controller RAID (Redundant Array of Independent Disks) IDE (Integrated Device Electronics) o SCSI (Small Computer System Interface)
+2 x 9 GB (SCSI o IDE) configurato come volume RAID 1 (unità C)
+2 x 18 GB (SCSI o IDE) configurato come volume RAID 1 (unità D)
+Archiviazione su supporti rimovibili locali (CD-RW o nastro di backup), in assenza di una funzionalità di backup di rete
+Unità disco floppy da 1,44 MB per il trasferimento dei dati</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ##### Preparazione dell'hardware
 
@@ -550,7 +550,7 @@ Se si utilizza il modello di protezione Enterprise Client - Controller di domini
 
     **Tabella 8.4. Oggetti Criteri di gruppo e posizione**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -559,27 +559,27 @@ Se si utilizza il modello di protezione Enterprise Client - Controller di domini
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Unità operativa</p></th>
-    <th><p>GPO</p></th>
-    <th><p>Modello di protezione</p></th>
+    <th>Unità operativa</th>
+    <th>GPO</th>
+    <th>Modello di protezione</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Server membri</p></td>
-    <td style="border:1px solid black;"><p>Enterprise Client - Server membro di base</p></td>
-    <td style="border:1px solid black;"><p>Enterprise Client - Server membro Baseline.inf</p></td>
+    <td style="border:1px solid black;">Server membri</td>
+    <td style="border:1px solid black;">Enterprise Client - Server membro di base</td>
+    <td style="border:1px solid black;">Enterprise Client - Server membro Baseline.inf</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>IAS</p></td>
-    <td style="border:1px solid black;"><p>Enterprise Client - Servizio autenticazione Internet</p></td>
-    <td style="border:1px solid black;"><p>Enterprise Client - IAS Server.inf</p></td>
+    <td style="border:1px solid black;">IAS</td>
+    <td style="border:1px solid black;">Enterprise Client - Servizio autenticazione Internet</td>
+    <td style="border:1px solid black;">Enterprise Client - IAS Server.inf</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Controller di dominio con IAS</p></td>
-    <td style="border:1px solid black;"><p>Enterprise Client - IAS su Controller di dominio</p>
-    <p>(facoltativo se IAS si trova su un controller di dominio)</p></td>
-    <td style="border:1px solid black;"><p>Enterprise Client - IAS Server.inf</p></td>
+    <td style="border:1px solid black;">Controller di dominio con IAS</td>
+    <td style="border:1px solid black;">Enterprise Client - IAS su Controller di dominio
+    (facoltativo se IAS si trova su un controller di dominio)</td>
+    <td style="border:1px solid black;">Enterprise Client - IAS Server.inf</td>
     </tr>
     </tbody>
     </table>
@@ -686,7 +686,7 @@ Le seguenti impostazioni di Servizi terminal dovrebbero essere configurate nel G
   
 **Tabella 8.5. Impostazioni da configurare in Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Servizi terminal**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -695,103 +695,103 @@ Le seguenti impostazioni di Servizi terminal dovrebbero essere configurate nel G
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Percorso</p></th>
-<th><p>Criteri</p></th>
-<th><p>Impostazione</p></th>
+<th>Percorso</th>
+<th>Criteri</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Nega la disconnessione di un amministratore connesso alla sessione della console</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Nega la disconnessione di un amministratore connesso alla sessione della console</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Non consentire agli amministratori locali di personalizzare le autorizzazioni</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Non consentire agli amministratori locali di personalizzare le autorizzazioni</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Imposta le regole per il controllo remoto delle sessioni utente di Servizi terminal</p></td>
-<td style="border:1px solid black;"><p>Nessun controllo remoto consentito</p></td>
+<td style="border:1px solid black;">Imposta le regole per il controllo remoto delle sessioni utente di Servizi terminal</td>
+<td style="border:1px solid black;">Nessun controllo remoto consentito</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Reindirizzamento dati client/server</p></td>
-<td style="border:1px solid black;"><p>Consenti reindirizzamento fuso orario</p></td>
-<td style="border:1px solid black;"><p>Disabilitata</p></td>
+<td style="border:1px solid black;">Reindirizzamento dati client/server</td>
+<td style="border:1px solid black;">Consenti reindirizzamento fuso orario</td>
+<td style="border:1px solid black;">Disabilitata</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Non consentire il reindirizzamento degli Appunti</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Non consentire il reindirizzamento degli Appunti</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Consenti il reindirizzamento audio</p></td>
-<td style="border:1px solid black;"><p>Disabilitata</p></td>
+<td style="border:1px solid black;">Consenti il reindirizzamento audio</td>
+<td style="border:1px solid black;">Disabilitata</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Non consentire il reindirizzamento della porta COM</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Non consentire il reindirizzamento della porta COM</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Non consentire il reindirizzamento della stampante client</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Non consentire il reindirizzamento della stampante client</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Non consentire il reindirizzamento della porta LPT</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Non consentire il reindirizzamento della porta LPT</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Non consentire il reindirizzamento delle unità</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Non consentire il reindirizzamento delle unità</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Non impostare stampante predefinita del client come stampante predefinita per una sessione</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Non impostare stampante predefinita del client come stampante predefinita per una sessione</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Crittografia e protezione</p></td>
-<td style="border:1px solid black;"><p>Imposta livello di crittografia connessione client</p></td>
-<td style="border:1px solid black;"><p>Alto</p></td>
+<td style="border:1px solid black;">Crittografia e protezione</td>
+<td style="border:1px solid black;">Imposta livello di crittografia connessione client</td>
+<td style="border:1px solid black;">Alto</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Richiedi sempre password del client alla connessione</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Richiedi sempre password del client alla connessione</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Crittografia e protezione\Protezione RPC</p></td>
-<td style="border:1px solid black;"><p>Server protetto (Richiedi protezione)</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Crittografia e protezione\Protezione RPC</td>
+<td style="border:1px solid black;">Server protetto (Richiedi protezione)</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sessioni</p></td>
-<td style="border:1px solid black;"><p>Imposta limite di tempo per le sessioni disconnesse</p></td>
-<td style="border:1px solid black;"><p>10 minuti</p></td>
+<td style="border:1px solid black;">Sessioni</td>
+<td style="border:1px solid black;">Imposta limite di tempo per le sessioni disconnesse</td>
+<td style="border:1px solid black;">10 minuti</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"><br />
 </td>
-<td style="border:1px solid black;"><p>Consenti la riconnessione solo dal client originale</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Consenti la riconnessione solo dal client originale</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -828,7 +828,7 @@ Il Servizio autenticazione Internet viene installato tramite Windows Optional Co
   
 **Tabella 8.6. Componenti IAS per l'installazione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -836,18 +836,18 @@ Il Servizio autenticazione Internet viene installato tramite Windows Optional Co
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Componente facoltativo da installare</p></th>
-<th><p>Stato di installazione</p></th>
+<th>Componente facoltativo da installare</th>
+<th>Stato di installazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi di rete</p></td>
-<td style="border:1px solid black;"><p>Selezionata</p></td>
+<td style="border:1px solid black;">Servizi di rete</td>
+<td style="border:1px solid black;">Selezionata</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>          Servizio autenticazione Internet</p></td>
-<td style="border:1px solid black;"><p>Selezionata</p></td>
+<td style="border:1px solid black;">          Servizio autenticazione Internet</td>
+<td style="border:1px solid black;">Selezionata</td>
 </tr>
 </tbody>
 </table>

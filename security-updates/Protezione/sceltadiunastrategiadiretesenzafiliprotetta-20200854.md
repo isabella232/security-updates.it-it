@@ -225,7 +225,7 @@ L'autenticazione 802.1X basata su password è sufficiente per le organizzazioni 
 
 **Tabella 1. Rischi potenziali per la sicurezza analizzati in relazione alla soluzione proposta**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -233,45 +233,45 @@ L'autenticazione 802.1X basata su password è sufficiente per le organizzazioni 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Rischio potenziale</p></th>
-<th><p>Soluzione proposta</p></th>
+<th>Rischio potenziale</th>
+<th>Soluzione proposta</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Intercettazione non autorizzata dei dati</p></td>
-<td style="border:1px solid black;"><p>L'assegnazione e la modifica dinamica delle chiavi di crittografia a intervalli frequenti e il fatto che le chiavi sono univoche per ciascuna sessione utente significa che il recupero delle chiavi e l'accesso ai dati non è possibile con i mezzi attualmente conosciuti.</p></td>
+<td style="border:1px solid black;">Intercettazione non autorizzata dei dati</td>
+<td style="border:1px solid black;">L'assegnazione e la modifica dinamica delle chiavi di crittografia a intervalli frequenti e il fatto che le chiavi sono univoche per ciascuna sessione utente significa che il recupero delle chiavi e l'accesso ai dati non è possibile con i mezzi attualmente conosciuti.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Intercettazione e modifica di dati</p></td>
-<td style="border:1px solid black;"><p>Poiché la crittografia che utilizza le chiavi dinamiche viene utilizzata tra client senza fili e punto di accesso senza fili, non è possibile che un utente malintenzionato intercetti e modifichi i dati.<br />
-L'autenticazione reciproca tra client, server RADIUS e punto di accesso senza fili impedisce che questi possano essere utilizzati impropriamente da utenti malintenzionati.</p></td>
+<td style="border:1px solid black;">Intercettazione e modifica di dati</td>
+<td style="border:1px solid black;">Poiché la crittografia che utilizza le chiavi dinamiche viene utilizzata tra client senza fili e punto di accesso senza fili, non è possibile che un utente malintenzionato intercetti e modifichi i dati.<br />
+L'autenticazione reciproca tra client, server RADIUS e punto di accesso senza fili impedisce che questi possano essere utilizzati impropriamente da utenti malintenzionati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Spoofing</p></td>
-<td style="border:1px solid black;"><p>L'autenticazione protetta sulla rete impedisce ad utenti non autorizzati di collegarsi alla rete e di introdurvi dati di spoofing dall'interno.</p></td>
+<td style="border:1px solid black;">Spoofing</td>
+<td style="border:1px solid black;">L'autenticazione protetta sulla rete impedisce ad utenti non autorizzati di collegarsi alla rete e di introdurvi dati di spoofing dall'interno.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Collegamento non autorizzato</p></td>
-<td style="border:1px solid black;"><p>L'uso non autorizzato della rete è impedito dall'elevata affidabilità dell'autenticazione.</p></td>
+<td style="border:1px solid black;">Collegamento non autorizzato</td>
+<td style="border:1px solid black;">L'uso non autorizzato della rete è impedito dall'elevata affidabilità dell'autenticazione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Negazione del servizio (DoS)</p></td>
-<td style="border:1px solid black;"><p>Gli attacchi a livello di rete che generano un aumento del traffico sono impediti dal controllo di accesso protetto, anche se attualmente non esiste alcun metodo di difesa contro gli attacchi di negazione del servizio (DoS, Denial of Service) di basso livello. Questi vengono in parte risolti dallo standard 802.11i del 2004. In realtà, anche questo nuovo standard non sarà immune all'interruzione della rete a livello di trasmissione radio.<br />
-È opportuno notare che la maggior parte degli attacchi DoS pubblicati non causano una perdita permanente del servizio (appena la fonte dell'attacco DoS scompare, il servizio ripristina il normale funzionamento). In tal modo, l'impedimento degli attacchi DoS a livello di rete (che potrebbero causare danni agli altri sistemi di rete) rappresenta un vantaggio significativo.</p></td>
+<td style="border:1px solid black;">Negazione del servizio (DoS)</td>
+<td style="border:1px solid black;">Gli attacchi a livello di rete che generano un aumento del traffico sono impediti dal controllo di accesso protetto, anche se attualmente non esiste alcun metodo di difesa contro gli attacchi di negazione del servizio (DoS, Denial of Service) di basso livello. Questi vengono in parte risolti dallo standard 802.11i del 2004. In realtà, anche questo nuovo standard non sarà immune all'interruzione della rete a livello di trasmissione radio.<br />
+È opportuno notare che la maggior parte degli attacchi DoS pubblicati non causano una perdita permanente del servizio (appena la fonte dell'attacco DoS scompare, il servizio ripristina il normale funzionamento). In tal modo, l'impedimento degli attacchi DoS a livello di rete (che potrebbero causare danni agli altri sistemi di rete) rappresenta un vantaggio significativo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Rischi accidentali</p></td>
-<td style="border:1px solid black;"><p>I rischi derivanti da parte degli utenti guest che si collegano accidentalmente alla rete WLAN aziendale vengono evitati dall'autenticazione protetta richiesta dalla rete LAN senza fili.</p></td>
+<td style="border:1px solid black;">Rischi accidentali</td>
+<td style="border:1px solid black;">I rischi derivanti da parte degli utenti guest che si collegano accidentalmente alla rete WLAN aziendale vengono evitati dall'autenticazione protetta richiesta dalla rete LAN senza fili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Reti WLAN inaffidabili</p></td>
-<td style="border:1px solid black;"><p>Sebbene la soluzione non interviene direttamente nella gestione dei punti di accesso senza fili inaffidabili, implementando una soluzione di rete senza fili protetta come questa, la motivazione di installare reti WLAN non ufficiali non avrà più modo di esistere.<br />
-Il problema delle reti WLAN inaffidabili viene in parte risolto anche mediante strumenti software di individuazione degli indirizzi dell'hardware del punto di accesso senza fili e mediante apparecchiature portatili di rilevazione delle reti WLAN.</p></td>
+<td style="border:1px solid black;">Reti WLAN inaffidabili</td>
+<td style="border:1px solid black;">Sebbene la soluzione non interviene direttamente nella gestione dei punti di accesso senza fili inaffidabili, implementando una soluzione di rete senza fili protetta come questa, la motivazione di installare reti WLAN non ufficiali non avrà più modo di esistere.<br />
+Il problema delle reti WLAN inaffidabili viene in parte risolto anche mediante strumenti software di individuazione degli indirizzi dell'hardware del punto di accesso senza fili e mediante apparecchiature portatili di rilevazione delle reti WLAN.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 [](#mainsection)[Inizio pagina](#mainsection)
 

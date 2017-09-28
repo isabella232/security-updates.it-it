@@ -451,7 +451,7 @@ Per affrontare le eccezioni, il personale IT di Woodgrove ha creato un nuovo gru
 
 **Tabella 4.1: condizioni dei criteri di accesso remoto di Woodgrove National Bank**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -460,21 +460,21 @@ Per affrontare le eccezioni, il personale IT di Woodgrove ha creato un nuovo gru
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Requisito</p></th>
-<th><p>Condizioni del criterio</p></th>
-<th><p>Tipo di autenticazione</p></th>
+<th>Requisito</th>
+<th>Condizioni del criterio</th>
+<th>Tipo di autenticazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Richiede l'autenticazione mediante smart card per i membri del gruppo di utenti con accesso remoto</p></td>
-<td style="border:1px solid black;"><p>Gruppo di Windows corrispondente a &quot;WOODGROVE\RemoteSmartCardUsers&quot;</p></td>
-<td style="border:1px solid black;"><p>EAP - Solo smart card o altri certificati.</p></td>
+<td style="border:1px solid black;">Richiede l'autenticazione mediante smart card per i membri del gruppo di utenti con accesso remoto</td>
+<td style="border:1px solid black;">Gruppo di Windows corrispondente a &quot;WOODGROVE\RemoteSmartCardUsers&quot;</td>
+<td style="border:1px solid black;">EAP - Solo smart card o altri certificati.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Non richiede l'autenticazione mediante smart card per i membri del gruppo di esclusioni temporanee</p></td>
-<td style="border:1px solid black;"><p>Gruppo di Windows corrispondente a &quot;WOODGROVE\RemoteSmartCardUsersTempException&quot;</p></td>
-<td style="border:1px solid black;"><p>MSCHAP v2</p></td>
+<td style="border:1px solid black;">Non richiede l'autenticazione mediante smart card per i membri del gruppo di esclusioni temporanee</td>
+<td style="border:1px solid black;">Gruppo di Windows corrispondente a &quot;WOODGROVE\RemoteSmartCardUsersTempException&quot;</td>
+<td style="border:1px solid black;">MSCHAP v2</td>
 </tr>
 </tbody>
 </table>

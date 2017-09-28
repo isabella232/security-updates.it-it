@@ -15,7 +15,7 @@ Nella tabella seguente vengono elencati i parametri presenti nel tag REFRESH.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -29,20 +29,20 @@ Nella tabella seguente vengono elencati i parametri presenti nel tag REFRESH.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>L'ID dell'elenco di revoche.</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">L'ID dell'elenco di revoche.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ADDRESS</p></td>
-<td style="border:1px solid black;"><p>Il percorso URL o UNC presso cui può essere ottenuto l'elenco di revoche.</p></td>
+<td style="border:1px solid black;">ADDRESS</td>
+<td style="border:1px solid black;">Il percorso URL o UNC presso cui può essere ottenuto l'elenco di revoche.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PUBLICKEY</p></td>
-<td style="border:1px solid black;"><p>La chiave pubblica dell'autorità emittente dell'elenco di revoche. Questa chiave pubblica corrisponde alla chiave privata utilizzata per firmare l'elenco di revoche.</p></td>
+<td style="border:1px solid black;">PUBLICKEY</td>
+<td style="border:1px solid black;">La chiave pubblica dell'autorità emittente dell'elenco di revoche. Questa chiave pubblica corrisponde alla chiave privata utilizzata per firmare l'elenco di revoche.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>INTERVALTIME</p></td>
-<td style="border:1px solid black;"><p>L'età massima dell'elenco di revoche espressa in giorni. Qualora l'elenco di revoche memorizzato nella cache risulti obsoleto rispetto a quanto specificato in INTERVALTIME, il client RMS può ricevere l'elenco delle revoche più aggiornato dall'indirizzo URL indicato in ADDRESS. Questo serve a garantire l'utilizzo di un elenco di revoche aggiornato.</p></td>
+<td style="border:1px solid black;">INTERVALTIME</td>
+<td style="border:1px solid black;">L'età massima dell'elenco di revoche espressa in giorni. Qualora l'elenco di revoche memorizzato nella cache risulti obsoleto rispetto a quanto specificato in INTERVALTIME, il client RMS può ricevere l'elenco delle revoche più aggiornato dall'indirizzo URL indicato in ADDRESS. Questo serve a garantire l'utilizzo di un elenco di revoche aggiornato.</td>
 </tr>
 </tbody>
 </table>

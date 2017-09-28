@@ -13,7 +13,7 @@ Nella tabella seguente, vengono specificati le autorizzazioni e i diritti utente
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -27,18 +27,18 @@ Nella tabella seguente, vengono specificati le autorizzazioni e i diritti utente
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Installazione di RMS</p></td>
-<td style="border:1px solid black;"><p>Accedere utilizzando un account di dominio appartenente al gruppo Administrators locale.</p></td>
+<td style="border:1px solid black;">Installazione di RMS</td>
+<td style="border:1px solid black;">Accedere utilizzando un account di dominio appartenente al gruppo Administrators locale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Provisioning di RMS</p></td>
-<td style="border:1px solid black;"><p>Accedere utilizzando un account di dominio appartenente al gruppo Administrators locale. È inoltre necessario che l'account utilizzato abbia effettuato un accesso SQL con il ruolo di amministratore del sistema concesso sul database SQL Server, in modo da consentire a RMS di configurare i database.</p>
-<p>Nel corso del provisioning, è necessario specificare l'account di servizio RMS, che deve essere già stato creato. È necessario che l'account sia un account utente di dominio standard, senza autorizzazioni aggiuntive. Tale account viene reso membro del gruppo di servizi RMS e utilizzato per l'esecuzione di RMS nel corso delle operazioni di routine.</p>
-<p>Per le distribuzioni in un solo server in cui il database si trova nello stesso computer del server di certificazione principale, è possibile specificare l'Account di sistema locale. Tuttavia, per ragioni di protezione, è consigliabile specificare sempre l'account di servizio di RMS invece dell'Account di sistema locale. Quando il database si trova su un server distinto, è necessario specificare l'account di servizio di RMS.</p></td>
+<td style="border:1px solid black;">Provisioning di RMS</td>
+<td style="border:1px solid black;">Accedere utilizzando un account di dominio appartenente al gruppo Administrators locale. È inoltre necessario che l'account utilizzato abbia effettuato un accesso SQL con il ruolo di amministratore del sistema concesso sul database SQL Server, in modo da consentire a RMS di configurare i database.
+Nel corso del provisioning, è necessario specificare l'account di servizio RMS, che deve essere già stato creato. È necessario che l'account sia un account utente di dominio standard, senza autorizzazioni aggiuntive. Tale account viene reso membro del gruppo di servizi RMS e utilizzato per l'esecuzione di RMS nel corso delle operazioni di routine.
+Per le distribuzioni in un solo server in cui il database si trova nello stesso computer del server di certificazione principale, è possibile specificare l'Account di sistema locale. Tuttavia, per ragioni di protezione, è consigliabile specificare sempre l'account di servizio di RMS invece dell'Account di sistema locale. Quando il database si trova su un server distinto, è necessario specificare l'account di servizio di RMS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Amministrazione di RMS</p></td>
-<td style="border:1px solid black;"><p>Accedere utilizzando un account di dominio appartenente al gruppo Administrators locale. È possibile personalizzare le impostazioni di protezione per gestire l'accesso alle pagine Web di amministrazione.</p></td>
+<td style="border:1px solid black;">Amministrazione di RMS</td>
+<td style="border:1px solid black;">Accedere utilizzando un account di dominio appartenente al gruppo Administrators locale. È possibile personalizzare le impostazioni di protezione per gestire l'accesso alle pagine Web di amministrazione.</td>
 </tr>
 </tbody>
 </table>

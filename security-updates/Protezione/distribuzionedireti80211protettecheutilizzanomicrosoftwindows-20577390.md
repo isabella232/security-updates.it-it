@@ -100,7 +100,7 @@ Per questa configurazione, attenersi alla seguente procedura:
 
 Nella tabella 1 si riassumono i certificati necessari per i diversi tipi di autenticazione.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -109,24 +109,24 @@ Nella tabella 1 si riassumono i certificati necessari per i diversi tipi di aute
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Tipo di autenticazione</p></th>
-<th><p>Certificati sul computer client wireless</p></th>
-<th><p>Certificati sul server IAS</p></th>
+<th>Tipo di autenticazione</th>
+<th>Certificati sul computer client wireless</th>
+<th>Certificati sul server IAS</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>EAP-TLS</p></td>
-<td style="border:1px solid black;"><p>Certificati di computer</p>
-<p>Certificati utente</p>
-<p>Certificati delle autorità di certificazione radice per le autorità di emissione di certificati di computer del server IAS</p></td>
-<td style="border:1px solid black;"><p>Certificati di computer</p>
-<p>I certificati di autorità di certificazione radice per le autorità di emissione di certificati di computer client wireless e dei certificati utente</p></td>
+<td style="border:1px solid black;">EAP-TLS</td>
+<td style="border:1px solid black;">Certificati di computer
+Certificati utente
+Certificati delle autorità di certificazione radice per le autorità di emissione di certificati di computer del server IAS</td>
+<td style="border:1px solid black;">Certificati di computer
+I certificati di autorità di certificazione radice per le autorità di emissione di certificati di computer client wireless e dei certificati utente</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PEAP-MS-CHAP v2</p></td>
-<td style="border:1px solid black;"><p>Certificati delle autorità di certificazione radice per le autorità di emissione di certificati di computer del server IAS</p></td>
-<td style="border:1px solid black;"><p>Certificati di computer</p></td>
+<td style="border:1px solid black;">PEAP-MS-CHAP v2</td>
+<td style="border:1px solid black;">Certificati delle autorità di certificazione radice per le autorità di emissione di certificati di computer del server IAS</td>
+<td style="border:1px solid black;">Certificati di computer</td>
 </tr>
 </tbody>
 </table>

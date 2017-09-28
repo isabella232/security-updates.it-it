@@ -53,7 +53,7 @@ Nella tabella seguente vengono illustrate le estensioni dello snap-in Criteri di
 
 **Tabella 5.1 Estensioni dello snap-in Criteri di gruppo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -61,38 +61,38 @@ Nella tabella seguente vengono illustrate le estensioni dello snap-in Criteri di
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Estensione dello snap-in Criteri di gruppo</p></th>
-<th><p>Disponibile in LGPO</p></th>
+<th>Estensione dello snap-in Criteri di gruppo</th>
+<th>Disponibile in LGPO</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Installazione software</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Installazione software</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Script</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Script</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Impostazioni di protezione</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Impostazioni di protezione</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Modelli amministrativi</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Modelli amministrativi</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Reindirizzamento cartelle</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Reindirizzamento cartelle</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Manutenzione di Internet Explorer</p></td>
-<td style="border:1px solid black;"><p>Sì</p></td>
+<td style="border:1px solid black;">Manutenzione di Internet Explorer</td>
+<td style="border:1px solid black;">Sì</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizio di installazione remota</p></td>
-<td style="border:1px solid black;"><p>No</p></td>
+<td style="border:1px solid black;">Servizio di installazione remota</td>
+<td style="border:1px solid black;">No</td>
 </tr>
 </tbody>
 </table>
@@ -226,7 +226,7 @@ L'elenco seguente illustra i parametri dello strumento Secedit.exe.
   
     **Tabella 5.2 Aree di protezione**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -234,34 +234,34 @@ L'elenco seguente illustra i parametri dello strumento Secedit.exe.
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Nome dell'area</p></th>
-    <th><p>Descrizione</p></th>
+    <th>Nome dell'area</th>
+    <th>Descrizione</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>SECURITYPOLICY</p></td>
-    <td style="border:1px solid black;"><p>Include Criteri account, Criteri controllo, Impostazioni del registro eventi e Opzioni di protezione.</p></td>
+    <td style="border:1px solid black;">SECURITYPOLICY</td>
+    <td style="border:1px solid black;">Include Criteri account, Criteri controllo, Impostazioni del registro eventi e Opzioni di protezione.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>GROUP_MGMT</p></td>
-    <td style="border:1px solid black;"><p>Include le impostazioni Gruppi con restrizioni.</p></td>
+    <td style="border:1px solid black;">GROUP_MGMT</td>
+    <td style="border:1px solid black;">Include le impostazioni Gruppi con restrizioni.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>USER_RIGHTS</p></td>
-    <td style="border:1px solid black;"><p>Include le impostazioni di assegnazione dei diritti utente.</p></td>
+    <td style="border:1px solid black;">USER_RIGHTS</td>
+    <td style="border:1px solid black;">Include le impostazioni di assegnazione dei diritti utente.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>REGKEYS</p></td>
-    <td style="border:1px solid black;"><p>Include le autorizzazioni del Registro di sistema.</p></td>
+    <td style="border:1px solid black;">REGKEYS</td>
+    <td style="border:1px solid black;">Include le autorizzazioni del Registro di sistema.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>FILESTORE</p></td>
-    <td style="border:1px solid black;"><p>Include le autorizzazioni del file system.</p></td>
+    <td style="border:1px solid black;">FILESTORE</td>
+    <td style="border:1px solid black;">Include le autorizzazioni del file system.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>SERVICES</p></td>
-    <td style="border:1px solid black;"><p>Include le impostazioni dei servizi di sistema.</p></td>
+    <td style="border:1px solid black;">SERVICES</td>
+    <td style="border:1px solid black;">Include le impostazioni dei servizi di sistema.</td>
     </tr>
     </tbody>
     </table>
@@ -284,7 +284,7 @@ Nelle tabelle seguenti è incluso un elenco degli script e dei file associati fo
   
 **Tabella 5.3 Script e file autonomi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -292,61 +292,61 @@ Nelle tabelle seguenti è incluso un elenco degli script e dei file associati fo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nomi del file e dello script</p></th>
-<th><p>Descrizione</p></th>
+<th>Nomi del file e dello script</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Standalone-EC-Desktop.cmd</p></td>
-<td style="border:1px solid black;"><p>Script autonomo utilizzato per impostare il criterio Enterprise Client nei computer client desktop.</p></td>
+<td style="border:1px solid black;">Standalone-EC-Desktop.cmd</td>
+<td style="border:1px solid black;">Script autonomo utilizzato per impostare il criterio Enterprise Client nei computer client desktop.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Standalone-EC-Laptop.cmd</p></td>
-<td style="border:1px solid black;"><p>Script autonomo utilizzato per impostare il criterio Enterprise Client nei computer client portatili.</p></td>
+<td style="border:1px solid black;">Standalone-EC-Laptop.cmd</td>
+<td style="border:1px solid black;">Script autonomo utilizzato per impostare il criterio Enterprise Client nei computer client portatili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Standalone-SSLF-Desktop.cmd</p></td>
-<td style="border:1px solid black;"><p>Script autonomo utilizzato per impostare il criterio Specialized Security – Limited Functionality nei computer client desktop.</p></td>
+<td style="border:1px solid black;">Standalone-SSLF-Desktop.cmd</td>
+<td style="border:1px solid black;">Script autonomo utilizzato per impostare il criterio Specialized Security – Limited Functionality nei computer client desktop.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Standalone-SSLF-Laptop.cmd</p></td>
-<td style="border:1px solid black;"><p>Script autonomo utilizzato per impostare il criterio Specialized Security – Limited Functionality nei computer client portatili.</p></td>
+<td style="border:1px solid black;">Standalone-SSLF-Laptop.cmd</td>
+<td style="border:1px solid black;">Script autonomo utilizzato per impostare il criterio Specialized Security – Limited Functionality nei computer client portatili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Standalone-EC-Account.inf</p></td>
-<td style="border:1px solid black;"><p>Modello del criterio di account Enterprise Client.</p></td>
+<td style="border:1px solid black;">Standalone-EC-Account.inf</td>
+<td style="border:1px solid black;">Modello del criterio di account Enterprise Client.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Standalone-SSLF-Account.inf</p></td>
-<td style="border:1px solid black;"><p>Modello del criterio di account Specialized Security – Limited Functionality.</p></td>
+<td style="border:1px solid black;">Standalone-SSLF-Account.inf</td>
+<td style="border:1px solid black;">Modello del criterio di account Specialized Security – Limited Functionality.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>EC-Desktop.inf</p></td>
-<td style="border:1px solid black;"><p>Modello di protezione Enterprise Client per i computer client desktop.</p></td>
+<td style="border:1px solid black;">EC-Desktop.inf</td>
+<td style="border:1px solid black;">Modello di protezione Enterprise Client per i computer client desktop.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>EC-Laptop.inf</p></td>
-<td style="border:1px solid black;"><p>Modello di protezione Enterprise Client per i computer client portatili.</p></td>
+<td style="border:1px solid black;">EC-Laptop.inf</td>
+<td style="border:1px solid black;">Modello di protezione Enterprise Client per i computer client portatili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SSLF-Desktop.inf</p></td>
-<td style="border:1px solid black;"><p>Modello Specialized Security – Limited Functionality per computer client desktop.</p></td>
+<td style="border:1px solid black;">SSLF-Desktop.inf</td>
+<td style="border:1px solid black;">Modello Specialized Security – Limited Functionality per computer client desktop.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SSLF-Laptop.inf</p></td>
-<td style="border:1px solid black;"><p>Modello Specialized Security – Limited Functionality per computer client portatili.</p></td>
+<td style="border:1px solid black;">SSLF-Laptop.inf</td>
+<td style="border:1px solid black;">Modello Specialized Security – Limited Functionality per computer client portatili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>XP Default Security.sdb</p></td>
-<td style="border:1px solid black;"><p>Database dei criteri predefiniti.</p></td>
+<td style="border:1px solid black;">XP Default Security.sdb</td>
+<td style="border:1px solid black;">Database dei criteri predefiniti.</td>
 </tr>
 </tbody>
 </table>
   
 **Tabella 5.4 Script e file precedenti**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -354,59 +354,59 @@ Nelle tabelle seguenti è incluso un elenco degli script e dei file associati fo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nomi del file e dello script</p></th>
-<th><p>Descrizione</p></th>
+<th>Nomi del file e dello script</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Legacy-EC-Desktop.cmd</p></td>
-<td style="border:1px solid black;"><p>Script precedente utilizzato per impostare il criterio Enterprise Client nei computer client desktop.</p></td>
+<td style="border:1px solid black;">Legacy-EC-Desktop.cmd</td>
+<td style="border:1px solid black;">Script precedente utilizzato per impostare il criterio Enterprise Client nei computer client desktop.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Legacy-EC-Laptop.cmd</p></td>
-<td style="border:1px solid black;"><p>Script precedente utilizzato per impostare il criterio Enterprise Client nei computer client portatili.</p></td>
+<td style="border:1px solid black;">Legacy-EC-Laptop.cmd</td>
+<td style="border:1px solid black;">Script precedente utilizzato per impostare il criterio Enterprise Client nei computer client portatili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Legacy-SSLF-Desktop.cmd</p></td>
-<td style="border:1px solid black;"><p>Script precedente utilizzato per impostare il criterio Specialized Security – Limited Functionality nei computer client desktop.</p></td>
+<td style="border:1px solid black;">Legacy-SSLF-Desktop.cmd</td>
+<td style="border:1px solid black;">Script precedente utilizzato per impostare il criterio Specialized Security – Limited Functionality nei computer client desktop.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Legacy-SSLF-Laptop.cmd</p></td>
-<td style="border:1px solid black;"><p>Script precedente utilizzato per impostare il criterio Specialized Security – Limited Functionality nei computer client portatili.</p></td>
+<td style="border:1px solid black;">Legacy-SSLF-Laptop.cmd</td>
+<td style="border:1px solid black;">Script precedente utilizzato per impostare il criterio Specialized Security – Limited Functionality nei computer client portatili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Legacy-EC-Account.inf</p></td>
-<td style="border:1px solid black;"><p>Modello precedente del criterio di account Client di organizzazione.</p></td>
+<td style="border:1px solid black;">Legacy-EC-Account.inf</td>
+<td style="border:1px solid black;">Modello precedente del criterio di account Client di organizzazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Legacy-SSLF-Account.inf</p></td>
-<td style="border:1px solid black;"><p>Modello precedente del criterio di account Specialized Security – Limited Functionality.</p></td>
+<td style="border:1px solid black;">Legacy-SSLF-Account.inf</td>
+<td style="border:1px solid black;">Modello precedente del criterio di account Specialized Security – Limited Functionality.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Legacy-EC-Desktop.inf</p></td>
-<td style="border:1px solid black;"><p>Modello precedente di protezione Enterprise Client per i computer client desktop.</p></td>
+<td style="border:1px solid black;">Legacy-EC-Desktop.inf</td>
+<td style="border:1px solid black;">Modello precedente di protezione Enterprise Client per i computer client desktop.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Legacy-EC-Laptop.inf</p></td>
-<td style="border:1px solid black;"><p>Modello precedente di protezione Enterprise Client per i computer client portatili.</p></td>
+<td style="border:1px solid black;">Legacy-EC-Laptop.inf</td>
+<td style="border:1px solid black;">Modello precedente di protezione Enterprise Client per i computer client portatili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Legacy-SSLF-Desktop.inf</p></td>
-<td style="border:1px solid black;"><p>Modello precedente Specialized Security – Limited Functionality per computer client desktop.</p></td>
+<td style="border:1px solid black;">Legacy-SSLF-Desktop.inf</td>
+<td style="border:1px solid black;">Modello precedente Specialized Security – Limited Functionality per computer client desktop.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Legacy-SSLF-Laptop.inf</p></td>
-<td style="border:1px solid black;"><p>Modello precedente Specialized Security – Limited Functionality per computer client portatili.</p></td>
+<td style="border:1px solid black;">Legacy-SSLF-Laptop.inf</td>
+<td style="border:1px solid black;">Modello precedente Specialized Security – Limited Functionality per computer client portatili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>XP Default Security.sdb</p></td>
-<td style="border:1px solid black;"><p>Database dei criteri predefiniti.<br />
-<strong>Nota</strong>: verificare che il database disponga dei privilegi di scrittura. Non è possibile impostarlo sulla modalità di sola lettura.</p></td>
+<td style="border:1px solid black;">XP Default Security.sdb</td>
+<td style="border:1px solid black;">Database dei criteri predefiniti.<br />
+<strong>Nota</strong>: verificare che il database disponga dei privilegi di scrittura. Non è possibile impostarlo sulla modalità di sola lettura.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 [](#mainsection)[Inizio pagina](#mainsection)
 

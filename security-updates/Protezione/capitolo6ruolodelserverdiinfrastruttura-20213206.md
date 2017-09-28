@@ -34,7 +34,7 @@ La tabella seguente mostra i nomi dei modelli di protezione dei server infrastru
 
 **Tabella 6.1 Criteri e modelli di sicurezza dei server infrastruttura**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -43,16 +43,16 @@ La tabella seguente mostra i nomi dei modelli di protezione dei server infrastru
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Client precedente</p></th>
-<th><p>Client di organizzazione</p></th>
-<th><p>Protezione specializzata/funzionalità limitata</p></th>
+<th>Client precedente</th>
+<th>Client di organizzazione</th>
+<th>Protezione specializzata/funzionalità limitata</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>LC-Infrastructure Server.inf</p></td>
-<td style="border:1px solid black;"><p>EC-Infrastructure Server.inf</p></td>
-<td style="border:1px solid black;"><p>SSLF-Infrastructure Server.inf</p></td>
+<td style="border:1px solid black;">LC-Infrastructure Server.inf</td>
+<td style="border:1px solid black;">EC-Infrastructure Server.inf</td>
+<td style="border:1px solid black;">SSLF-Infrastructure Server.inf</td>
 </tr>
 </tbody>
 </table>

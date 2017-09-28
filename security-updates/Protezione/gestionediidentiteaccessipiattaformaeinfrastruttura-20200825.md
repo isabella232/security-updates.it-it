@@ -28,7 +28,7 @@ Di seguito vengono descritti tutti i file contenuti nella sezione **Piattaforma 
 
 #### Cartella: Baseline
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -36,26 +36,26 @@ Di seguito vengono descritti tutti i file contenuti nella sezione **Piattaforma 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome file</p></th>
-<th><p>Scopo</p></th>
+<th>Nome file</th>
+<th>Scopo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ADBaseline.vbs</p></td>
-<td style="border:1px solid black;"><p>Uno script Microsoft® Visual Basic® che crea diverse unità organizzative, gruppi e utenti di Contoso Pharmaceuticals in un insieme di strutture per il servizio directory Microsoft Active Directory®, come richiesto dai documenti successivi in questa serie.</p></td>
+<td style="border:1px solid black;">ADBaseline.vbs</td>
+<td style="border:1px solid black;">Uno script Microsoft® Visual Basic® che crea diverse unità organizzative, gruppi e utenti di Contoso Pharmaceuticals in un insieme di strutture per il servizio directory Microsoft Active Directory®, come richiesto dai documenti successivi in questa serie.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ExchangeBaseline.vbs</p></td>
-<td style="border:1px solid black;"><p>Uno script Microsoft Visual Basic che crea i necessari archivi delle cassette postali e gruppi di archiviazione Exchange di Contoso per supportare gli utenti Contoso nell'Intranet.</p></td>
+<td style="border:1px solid black;">ExchangeBaseline.vbs</td>
+<td style="border:1px solid black;">Uno script Microsoft Visual Basic che crea i necessari archivi delle cassette postali e gruppi di archiviazione Exchange di Contoso per supportare gli utenti Contoso nell'Intranet.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IntranetADData.txt</p></td>
-<td style="border:1px solid black;"><p>Un file contenente le unità organizzative, i gruppi e gli utenti Active Directory di base nell'Intranet in formato delimitato dal punto e virgola. Gli scripti ADBaseline.vbs ed ExchangeBaselin.vbs utilizzano questo file.</p></td>
+<td style="border:1px solid black;">IntranetADData.txt</td>
+<td style="border:1px solid black;">Un file contenente le unità organizzative, i gruppi e gli utenti Active Directory di base nell'Intranet in formato delimitato dal punto e virgola. Gli scripti ADBaseline.vbs ed ExchangeBaselin.vbs utilizzano questo file.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ExtranetADData.txt</p></td>
-<td style="border:1px solid black;"><p>Un file contenente le unità organizzative, i gruppi e gli utenti Active Directory di base nell'Extranet in formato delimitato dal punto e virgola. Lo script ADBaseline.vbs utilizza questo file.</p></td>
+<td style="border:1px solid black;">ExtranetADData.txt</td>
+<td style="border:1px solid black;">Un file contenente le unità organizzative, i gruppi e gli utenti Active Directory di base nell'Extranet in formato delimitato dal punto e virgola. Lo script ADBaseline.vbs utilizza questo file.</td>
 </tr>
 </tbody>
 </table>

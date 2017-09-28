@@ -79,7 +79,7 @@ La valutazione dei rischi richiede l'interazione tra i gruppi e l'assunzione di 
 
 **Tabella 4.1: Ruoli e responsabilità nel programma di gestione dei rischi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -87,26 +87,26 @@ La valutazione dei rischi richiede l'interazione tra i gruppi e l'assunzione di 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ruolo</p></th>
-<th><p>Responsabilità</p></th>
+<th>Ruolo</th>
+<th>Responsabilità</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Titolare dell'azienda</p></td>
-<td style="border:1px solid black;"><p>Stabilisce il valore dei beni aziendali</p></td>
+<td style="border:1px solid black;">Titolare dell'azienda</td>
+<td style="border:1px solid black;">Stabilisce il valore dei beni aziendali</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gruppo protezione informatica</p></td>
-<td style="border:1px solid black;"><p>Determina l'impatto potenziale sui beni aziendali</p></td>
+<td style="border:1px solid black;">Gruppo protezione informatica</td>
+<td style="border:1px solid black;">Determina l'impatto potenziale sui beni aziendali</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>IT - Progettazione</p></td>
-<td style="border:1px solid black;"><p>Progetta le soluzioni tecniche e calcola i costi di progettazione</p></td>
+<td style="border:1px solid black;">IT - Progettazione</td>
+<td style="border:1px solid black;">Progetta le soluzioni tecniche e calcola i costi di progettazione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>IT - Operazioni</p></td>
-<td style="border:1px solid black;"><p>Progetta i componenti operativi della soluzione e calcola i costi operativi</p></td>
+<td style="border:1px solid black;">IT - Operazioni</td>
+<td style="border:1px solid black;">Progetta i componenti operativi della soluzione e calcola i costi operativi</td>
 </tr>
 </tbody>
 </table>
@@ -785,7 +785,7 @@ Nella figura successiva viene valutata l'efficacia dei controlli esistenti. Il v
   
 **Tabella 4.2. Esempio di Woodgrove — Valori dell'efficacia dei controlli**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -794,41 +794,41 @@ Nella figura successiva viene valutata l'efficacia dei controlli esistenti. Il v
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Domanda sull'efficacia dei controlli</p></th>
-<th><p>Valore</p></th>
-<th><p>Descrizione</p></th>
+<th>Domanda sull'efficacia dei controlli</th>
+<th>Valore</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Le responsabilità sono definite e applicate in modo efficace?</p></td>
-<td style="border:1px solid black;"><p>0 (sì)</p></td>
-<td style="border:1px solid black;"><p>Le responsabilità per la creazione di criteri e la conformità degli host sono definite in modo adeguato.</p></td>
+<td style="border:1px solid black;">Le responsabilità sono definite e applicate in modo efficace?</td>
+<td style="border:1px solid black;">0 (sì)</td>
+<td style="border:1px solid black;">Le responsabilità per la creazione di criteri e la conformità degli host sono definite in modo adeguato.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Le informazioni vengono comunicate e seguite in modo efficace?</p></td>
-<td style="border:1px solid black;"><p>0 (sì)</p></td>
-<td style="border:1px solid black;"><p>Agli utenti vengono inviate notifiche periodiche e condotte campagne di informazione di carattere generale.</p></td>
+<td style="border:1px solid black;">Le informazioni vengono comunicate e seguite in modo efficace?</td>
+<td style="border:1px solid black;">0 (sì)</td>
+<td style="border:1px solid black;">Agli utenti vengono inviate notifiche periodiche e condotte campagne di informazione di carattere generale.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>I processi vengono definiti ed eseguiti in modo efficace?</p></td>
-<td style="border:1px solid black;"><p>0 (sì)</p></td>
-<td style="border:1px solid black;"><p>La misurazione e l'applicazione della conformità ai requisiti vengono documentate e monitorate.</p></td>
+<td style="border:1px solid black;">I processi vengono definiti ed eseguiti in modo efficace?</td>
+<td style="border:1px solid black;">0 (sì)</td>
+<td style="border:1px solid black;">La misurazione e l'applicazione della conformità ai requisiti vengono documentate e monitorate.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>La tecnologia o i controlli esistenti riducono i pericoli in modo efficace?</p></td>
-<td style="border:1px solid black;"><p>1 (no)</p></td>
-<td style="border:1px solid black;"><p>I controlli esistenti non consentono un'implementazione rapida delle patch nei sistemi vulnerabili.</p></td>
+<td style="border:1px solid black;">La tecnologia o i controlli esistenti riducono i pericoli in modo efficace?</td>
+<td style="border:1px solid black;">1 (no)</td>
+<td style="border:1px solid black;">I controlli esistenti non consentono un'implementazione rapida delle patch nei sistemi vulnerabili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Le procedure di controllo esistenti sono sufficienti per rilevare usi impropri o carenze nei controlli?</p></td>
-<td style="border:1px solid black;"><p>0 (sì)</p></td>
-<td style="border:1px solid black;"><p>I controlli delle misurazioni e della conformità sono efficaci, in base agli strumenti attualmente disponibili.</p></td>
+<td style="border:1px solid black;">Le procedure di controllo esistenti sono sufficienti per rilevare usi impropri o carenze nei controlli?</td>
+<td style="border:1px solid black;">0 (sì)</td>
+<td style="border:1px solid black;">I controlli delle misurazioni e della conformità sono efficaci, in base agli strumenti attualmente disponibili.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Somma di tutti gli attributi dei controlli:</strong></p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p> </p></td>
+<td style="border:1px solid black;"><strong>Somma di tutti gli attributi dei controlli:</strong></td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;"> </td>
 </tr>
 </tbody>
 </table>

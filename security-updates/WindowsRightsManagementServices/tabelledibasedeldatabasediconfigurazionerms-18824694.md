@@ -18,7 +18,7 @@ Nella tabella seguente, sono elencate le informazioni sulle applicazioni escluse
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -36,82 +36,82 @@ Nella tabella seguente, sono elencate le informazioni sulle applicazioni escluse
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Nome dell'applicazione</p></td>
+<td style="border:1px solid black;">Nome</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Nome dell'applicazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VersionMinMajor</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Numero di versione principale minimo dell'applicazione</p></td>
+<td style="border:1px solid black;">VersionMinMajor</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Numero di versione principale minimo dell'applicazione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>VersionMinMinor</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Numero di versione secondario minimo dell'applicazione</p></td>
+<td style="border:1px solid black;">VersionMinMinor</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Numero di versione secondario minimo dell'applicazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VersionMinBuild</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Numero di versione della build minimo dell'applicazione</p></td>
+<td style="border:1px solid black;">VersionMinBuild</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Numero di versione della build minimo dell'applicazione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>VersionMinRevision</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Numero di versione della revisione minimo dell'applicazione</p></td>
+<td style="border:1px solid black;">VersionMinRevision</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Numero di versione della revisione minimo dell'applicazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VersionMaxMajor</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Numero di versione principale massimo dell'applicazione</p></td>
+<td style="border:1px solid black;">VersionMaxMajor</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Numero di versione principale massimo dell'applicazione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>VersionMaxMinor</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Numero di versione secondario massimo dell'applicazione</p></td>
+<td style="border:1px solid black;">VersionMaxMinor</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Numero di versione secondario massimo dell'applicazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VersionMaxBuild</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Numero di versione della build massimo dell'applicazione</p></td>
+<td style="border:1px solid black;">VersionMaxBuild</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Numero di versione della build massimo dell'applicazione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>VersionMaxRevision</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Numero di versione della revisione massimo dell'applicazione</p></td>
+<td style="border:1px solid black;">VersionMaxRevision</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Numero di versione della revisione massimo dell'applicazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Descrizione</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Descrizione dell'applicazione</p></td>
+<td style="border:1px solid black;">Descrizione</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Descrizione dell'applicazione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">dt_DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">dt_DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -123,7 +123,7 @@ Nella tabella seguente, sono elencate le informazioni relative alla coda di mess
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -141,28 +141,28 @@ Nella tabella seguente, sono elencate le informazioni relative alla coda di mess
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>AsyncQueueID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">AsyncQueueID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>QueueName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Percorso della coda di messaggi</p></td>
+<td style="border:1px solid black;">QueueName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Percorso della coda di messaggi</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -174,7 +174,7 @@ Nella tabella seguente, sono elencate le informazioni sul tipo di certificato em
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -192,28 +192,28 @@ Nella tabella seguente, sono elencate le informazioni sul tipo di certificato em
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>ID del certificato</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">ID del certificato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TypeName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Desktop, MobileDevice o Server</p></td>
+<td style="border:1px solid black;">TypeName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Desktop, MobileDevice o Server</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -225,7 +225,7 @@ Nella tabella seguente, sono elencate le informazioni sul certificato concessore
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -243,22 +243,22 @@ Nella tabella seguente, sono elencate le informazioni sul certificato concessore
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CurrentLicensorCertID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Certificato concessore di licenze attivo</p></td>
+<td style="border:1px solid black;">CurrentLicensorCertID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Certificato concessore di licenze attivo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -270,7 +270,7 @@ Nella tabella seguente, sono elencate le informazioni sui percorsi in cui sono m
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -288,34 +288,34 @@ Nella tabella seguente, sono elencate le informazioni sui percorsi in cui sono m
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PolicyID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>ID del criterio</p></td>
+<td style="border:1px solid black;">PolicyID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Non NULL</td>
+<td style="border:1px solid black;">ID del criterio</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PolicyName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Nome del criterio</p></td>
+<td style="border:1px solid black;">PolicyName</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Nome del criterio</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PolicyData</p></td>
-<td style="border:1px solid black;"><p>sql_variant</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Dati del criterio</p></td>
+<td style="border:1px solid black;">PolicyData</td>
+<td style="border:1px solid black;">sql_variant</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Dati del criterio</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -327,7 +327,7 @@ Nella tabella seguente, sono elencate le informazioni sui server presenti nel cl
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -345,28 +345,28 @@ Nella tabella seguente, sono elencate le informazioni sui server presenti nel cl
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ServerID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>ID del server</p></td>
+<td style="border:1px solid black;">ServerID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Non NULL</td>
+<td style="border:1px solid black;">ID del server</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ServerName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Non specificato</p></td>
-<td style="border:1px solid black;"><p>Nome del computer per il server</p></td>
+<td style="border:1px solid black;">ServerName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Non specificato</td>
+<td style="border:1px solid black;">Nome del computer per il server</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -378,7 +378,7 @@ Nella tabella seguente, sono elencate le informazioni sui certificati per accoun
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -396,46 +396,46 @@ Nella tabella seguente, sono elencate le informazioni sui certificati per accoun
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PublicKeyIndex</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">PublicKeyIndex</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PublicKey</p></td>
-<td style="border:1px solid black;"><p>PublicKey</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Byte della chiave pubblica</p></td>
+<td style="border:1px solid black;">PublicKey</td>
+<td style="border:1px solid black;">PublicKey</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Byte della chiave pubblica</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>UserID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Indice ID utente</p></td>
+<td style="border:1px solid black;">UserID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Indice ID utente</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ExpirationDate</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Data di scadenza del certificato per account con diritti</p></td>
+<td style="border:1px solid black;">ExpirationDate</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Data di scadenza del certificato per account con diritti</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Descrizione</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>NOME associato alla chiave del certificato per account con diritti escluso</p></td>
+<td style="border:1px solid black;">Descrizione</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">NOME associato alla chiave del certificato per account con diritti escluso</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">dt_DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">dt_DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -447,7 +447,7 @@ Nella tabella seguente, sono elencate le informazioni relative al certificato co
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -465,40 +465,40 @@ Nella tabella seguente, sono elencate le informazioni relative al certificato co
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_CertID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>ID del criterio</p></td>
+<td style="border:1px solid black;">i_CertID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Non NULL</td>
+<td style="border:1px solid black;">ID del criterio</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_CertGUIDType</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Tipo di ID della coppia di chiavi</p></td>
+<td style="border:1px solid black;">s_CertGUIDType</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Tipo di ID della coppia di chiavi</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_CertGUID</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>GUID ID della coppia di chiavi</p></td>
+<td style="border:1px solid black;">s_CertGUID</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">GUID ID della coppia di chiavi</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_CertificateID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Puntatore al certificato effettivo</p></td>
+<td style="border:1px solid black;">i_CertificateID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Puntatore al certificato effettivo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">dt_DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">dt_DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -510,7 +510,7 @@ Nella tabella seguente, sono elencate le informazioni sulla chiave privata del c
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -528,64 +528,64 @@ Nella tabella seguente, sono elencate le informazioni sulla chiave privata del c
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PrivateKeyID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">PrivateKeyID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CertGUIDType</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Tipo di ID della coppia di chiavi</p></td>
+<td style="border:1px solid black;">CertGUIDType</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Tipo di ID della coppia di chiavi</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CertGUID</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>GUID ID della coppia di chiavi</p></td>
+<td style="border:1px solid black;">CertGUID</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">GUID ID della coppia di chiavi</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrivateKey</p></td>
-<td style="border:1px solid black;"><p>varbinary(2048)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Rappresentazione binaria della chiave</p></td>
+<td style="border:1px solid black;">PrivateKey</td>
+<td style="border:1px solid black;">varbinary(2048)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Rappresentazione binaria della chiave</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CSP</p></td>
-<td style="border:1px solid black;"><p>nvarchar(512)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Nome del provider del servizio di crittografia (CSP)</p></td>
+<td style="border:1px solid black;">CSP</td>
+<td style="border:1px solid black;">nvarchar(512)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Nome del provider del servizio di crittografia (CSP)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CSPType</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Tipo di CSP</p></td>
+<td style="border:1px solid black;">CSPType</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Tipo di CSP</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>KeyContainerName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(512)</p></td>
-<td style="border:1px solid black;"><p>Non specificato</p></td>
-<td style="border:1px solid black;"><p>Nome del contenitore della chiave</p></td>
+<td style="border:1px solid black;">KeyContainerName</td>
+<td style="border:1px solid black;">nvarchar(512)</td>
+<td style="border:1px solid black;">Non specificato</td>
+<td style="border:1px solid black;">Nome del contenitore della chiave</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>KeyNumber</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Numero della chiave</p></td>
+<td style="border:1px solid black;">KeyNumber</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Numero della chiave</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -597,7 +597,7 @@ Nella tabella seguente, sono elencate le informazioni sugli account Microsoft® 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -615,28 +615,28 @@ Nella tabella seguente, sono elencate le informazioni sugli account Microsoft® 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DenyID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">DenyID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DenyAddressPattern</p></td>
-<td style="border:1px solid black;"><p>nvarchar(500)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Nome utente/Nome dominio</p></td>
+<td style="border:1px solid black;">DenyAddressPattern</td>
+<td style="border:1px solid black;">nvarchar(500)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Nome utente/Nome dominio</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -648,7 +648,7 @@ Nella tabella seguente, sono elencate le informazioni relative ai plug-in.
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -666,76 +666,76 @@ Nella tabella seguente, sono elencate le informazioni relative ai plug-in.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PluginID</p></td>
-<td style="border:1px solid black;"><p>Int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">PluginID</td>
+<td style="border:1px solid black;">Int</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PluginTypeID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Tipo di plug-in</p></td>
+<td style="border:1px solid black;">PluginTypeID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Tipo di plug-in</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>NameSpace</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Spazio dei nomi per il plug-in</p></td>
+<td style="border:1px solid black;">NameSpace</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Spazio dei nomi per il plug-in</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PluginName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Nome del plug-in</p></td>
+<td style="border:1px solid black;">PluginName</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Nome del plug-in</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ordinal</p></td>
-<td style="border:1px solid black;"><p>Int</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Numero sequenziale relativo all'esecuzione del plug-in</p></td>
+<td style="border:1px solid black;">Ordinal</td>
+<td style="border:1px solid black;">Int</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Numero sequenziale relativo all'esecuzione del plug-in</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Path</p></td>
-<td style="border:1px solid black;"><p>nvarchar(512)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Percorso del file DLL</p></td>
+<td style="border:1px solid black;">Path</td>
+<td style="border:1px solid black;">nvarchar(512)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Percorso del file DLL</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ObjectTypeName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(50)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Non utilizzato</p></td>
+<td style="border:1px solid black;">ObjectTypeName</td>
+<td style="border:1px solid black;">nvarchar(50)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Non utilizzato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DebugMode</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Valore che indica se eseguire un plug-in in modalità di debug</p></td>
+<td style="border:1px solid black;">DebugMode</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Valore che indica se eseguire un plug-in in modalità di debug</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PublicKey</p></td>
-<td style="border:1px solid black;"><p>PublicKey</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Chiave pubblica del plug-in</p></td>
+<td style="border:1px solid black;">PublicKey</td>
+<td style="border:1px solid black;">PublicKey</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Chiave pubblica del plug-in</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Version</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Versione del plug-in</p></td>
+<td style="border:1px solid black;">Version</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Versione del plug-in</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -747,7 +747,7 @@ Nella tabella seguente, sono elencate le informazioni sulle versioni di plug-in 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -765,22 +765,22 @@ Nella tabella seguente, sono elencate le informazioni sulle versioni di plug-in 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>RowID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">RowID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PluginID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">PluginID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VersionInfo</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>Non specificato</p></td>
-<td style="border:1px solid black;"><p>Versione del plug-in</p></td>
+<td style="border:1px solid black;">VersionInfo</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">Non specificato</td>
+<td style="border:1px solid black;">Versione del plug-in</td>
 </tr>
 </tbody>
 </table>
@@ -792,7 +792,7 @@ Nella tabella seguente, sono elencate le informazioni relative alle proprietà d
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -810,40 +810,40 @@ Nella tabella seguente, sono elencate le informazioni relative alle proprietà d
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PropertyID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">PropertyID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PluginID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>ID del plug-in a cui appartiene la proprietà</p></td>
+<td style="border:1px solid black;">PluginID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">ID del plug-in a cui appartiene la proprietà</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PropertyName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Nome della proprietà per i dati di configurazione</p></td>
+<td style="border:1px solid black;">PropertyName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Nome della proprietà per i dati di configurazione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PropertyValue</p></td>
-<td style="border:1px solid black;"><p>text</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Valore della proprietà per i dati di configurazione</p></td>
+<td style="border:1px solid black;">PropertyValue</td>
+<td style="border:1px solid black;">text</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Valore della proprietà per i dati di configurazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -855,7 +855,7 @@ Nella tabella seguente, sono elencate le informazioni relative al tipo di plug-i
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -873,28 +873,28 @@ Nella tabella seguente, sono elencate le informazioni relative al tipo di plug-i
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PluginTypeID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">PluginTypeID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PluginTypeName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Nome del plug-in</p></td>
+<td style="border:1px solid black;">PluginTypeName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Nome del plug-in</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -906,7 +906,7 @@ Nella tabella seguente, sono elencate le informazioni relative ai modelli di cri
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -924,28 +924,28 @@ Nella tabella seguente, sono elencate le informazioni relative ai modelli di cri
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Guid</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128) (PK)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>GUID del modello di criteri per i diritti</p></td>
+<td style="border:1px solid black;">Guid</td>
+<td style="border:1px solid black;">nvarchar(128) (PK)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">GUID del modello di criteri per i diritti</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TemplateData</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Questo campo contiene i dati del modello XrML.</p></td>
+<td style="border:1px solid black;">TemplateData</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Questo campo contiene i dati del modello XrML.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -957,7 +957,7 @@ Nella tabella seguente sono elencate le informazioni relative alle autorità di 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -975,40 +975,40 @@ Nella tabella seguente sono elencate le informazioni relative alle autorità di 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(1,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(1,1) Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CertificateID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>ID del certificato</p></td>
+<td style="border:1px solid black;">CertificateID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">ID del certificato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CertificateGUID</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>GUID del certificato</p></td>
+<td style="border:1px solid black;">CertificateGUID</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">GUID del certificato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CaTypeID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Tipo di autorità di certificazione</p></td>
+<td style="border:1px solid black;">CaTypeID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Tipo di autorità di certificazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -1020,7 +1020,7 @@ Nella tabella seguente sono elencate le informazioni relative ai domini di posta
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1038,22 +1038,22 @@ Nella tabella seguente sono elencate le informazioni relative ai domini di posta
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>ID</p></td>
-<td style="border:1px solid black;"><p>int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">ID</td>
+<td style="border:1px solid black;">int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_TrustedIdentityDomainID</p></td>
-<td style="border:1px solid black;"><p>int (FK)t</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">i_TrustedIdentityDomainID</td>
+<td style="border:1px solid black;">int (FK)t</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>s_EmailDomainName</p></td>
-<td style="border:1px solid black;"><p>nvarchar(256)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Elenco dei nomi dei domini di posta elettronica validi per il dominio utenti trusted</p></td>
+<td style="border:1px solid black;">s_EmailDomainName</td>
+<td style="border:1px solid black;">nvarchar(256)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Elenco dei nomi dei domini di posta elettronica validi per il dominio utenti trusted</td>
 </tr>
 </tbody>
 </table>
@@ -1065,7 +1065,7 @@ Nella tabella seguente, sono elencate le informazioni relative ai domini utente 
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1083,58 +1083,58 @@ Nella tabella seguente, sono elencate le informazioni relative ai domini utente 
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_TrustedIdentityDomainID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Indice interno</p></td>
+<td style="border:1px solid black;">i_TrustedIdentityDomainID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Non NULL</td>
+<td style="border:1px solid black;">Indice interno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_DomainType</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Tipo di dominio</p></td>
+<td style="border:1px solid black;">s_DomainType</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Tipo di dominio</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CertGUIDType</p></td>
-<td style="border:1px solid black;"><p>nvarchar(64)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Tipo di GUID del certificato</p></td>
+<td style="border:1px solid black;">CertGUIDType</td>
+<td style="border:1px solid black;">nvarchar(64)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Tipo di GUID del certificato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CertGUID</p></td>
-<td style="border:1px solid black;"><p>nvarchar(128)</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>GUID del certificato</p></td>
+<td style="border:1px solid black;">CertGUID</td>
+<td style="border:1px solid black;">nvarchar(128)</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">GUID del certificato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_CertificateID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>ID del certificato</p></td>
+<td style="border:1px solid black;">i_CertificateID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">ID del certificato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>i_allowSID</p></td>
-<td style="border:1px solid black;"><p>int</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>SID del dominio</p></td>
+<td style="border:1px solid black;">i_allowSID</td>
+<td style="border:1px solid black;">int</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">SID del dominio</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>S_friendlyname</p></td>
-<td style="border:1px solid black;"><p>nvarchar(255)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Nome descrittivo del certificato</p></td>
+<td style="border:1px solid black;">S_friendlyname</td>
+<td style="border:1px solid black;">nvarchar(255)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Nome descrittivo del certificato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>dt_DateUpdated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp aggiornamento</p></td>
+<td style="border:1px solid black;">dt_DateUpdated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp aggiornamento</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>dt_DateCreated</p></td>
-<td style="border:1px solid black;"><p>datetime</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Timestamp creazione</p></td>
+<td style="border:1px solid black;">dt_DateCreated</td>
+<td style="border:1px solid black;">datetime</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Timestamp creazione</td>
 </tr>
 </tbody>
 </table>
@@ -1146,7 +1146,7 @@ Nella tabella seguente, sono elencate le informazioni relative ai certificati co
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1164,22 +1164,22 @@ Nella tabella seguente, sono elencate le informazioni relative ai certificati co
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_CertificateID</p></td>
-<td style="border:1px solid black;"><p>Int (PK)</p></td>
-<td style="border:1px solid black;"><p>IDENTITY(100,1) Non NULL</p></td>
-<td style="border:1px solid black;"><p>Puntatore al certificato effettivo</p></td>
+<td style="border:1px solid black;">i_CertificateID</td>
+<td style="border:1px solid black;">Int (PK)</td>
+<td style="border:1px solid black;">IDENTITY(100,1) Non NULL</td>
+<td style="border:1px solid black;">Puntatore al certificato effettivo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>s_Certificate</p></td>
-<td style="border:1px solid black;"><p>ntext</p></td>
-<td style="border:1px solid black;"><p>Non NULL</p></td>
-<td style="border:1px solid black;"><p>Puntatore al certificato effettivo</p></td>
+<td style="border:1px solid black;">s_Certificate</td>
+<td style="border:1px solid black;">ntext</td>
+<td style="border:1px solid black;">Non NULL</td>
+<td style="border:1px solid black;">Puntatore al certificato effettivo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>i_ParentCertificateID</p></td>
-<td style="border:1px solid black;"><p>int (FK)</p></td>
-<td style="border:1px solid black;"><p>NULL</p></td>
-<td style="border:1px solid black;"><p>Puntatore al certificato effettivo</p></td>
+<td style="border:1px solid black;">i_ParentCertificateID</td>
+<td style="border:1px solid black;">int (FK)</td>
+<td style="border:1px solid black;">NULL</td>
+<td style="border:1px solid black;">Puntatore al certificato effettivo</td>
 </tr>
 </tbody>
 </table>

@@ -350,7 +350,7 @@ La scale di gravità degli errori è descritta nella tabella seguente. La scala 
 
 **Tabella B.1 Classificazione della gravità degli errori**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -359,51 +359,51 @@ La scale di gravità degli errori è descritta nella tabella seguente. La scala 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Gravità</p></th>
-<th><p>Tipi più comuni</p></th>
-<th><p>Condizioni necessarie</p></th>
+<th>Gravità</th>
+<th>Tipi più comuni</th>
+<th>Condizioni necessarie</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>– L'errore ha bloccato la creazione o ulteriori test.<br />
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">– L'errore ha bloccato la creazione o ulteriori test.<br />
 – L'errore ha causato accessibilità imprevista per l'utente.<br />
 – I passaggi definiti nella documentazione non erano chiari.<br />
 – I risultati o il comportamento di una funzione o di un processo contraddicono i risultati previsti (come documentato nella specifiche funzionali).<br />
-– Rilevante mancanza di corrispondenza tra i file dei modelli di protezione e le specifiche funzionali.</p></td>
-<td style="border:1px solid black;"><p>– La soluzione non ha avuto successo.<br />
+– Rilevante mancanza di corrispondenza tra i file dei modelli di protezione e le specifiche funzionali.</td>
+<td style="border:1px solid black;">– La soluzione non ha avuto successo.<br />
 – L'utente non ha potuto utilizzare componenti importanti del sistema.<br />
 – L'utente disponeva di privilegi di accesso che non dovrebbero essere consentiti.<br />
 – L'accesso dell'utente a determinati server è stato bloccato quando invece doveva essere consentito.<br />
 – Non sono stati ottenuti i risultati previsti.<br />
-– I test non possono procedere senza essere eseguiti.</p></td>
+– I test non possono procedere senza essere eseguiti.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>– I passaggi definiti nella guida non sono chiari.<br />
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">– I passaggi definiti nella guida non sono chiari.<br />
 – La documentazione relativa alla funzionalità è mancante (in questo caso, il test è stato bloccato).<br />
 – La documentazione è mancante o inadeguata.<br />
-– Incoerenza tra i file dei modelli di protezione e il contenuto della guida, mentre il file dei modelli di protezione corrisponde alle specifiche funzionali.</p></td>
-<td style="border:1px solid black;"><p>– L'utente non disponeva di una soluzione semplice per correggere la situazione.<br />
+– Incoerenza tra i file dei modelli di protezione e il contenuto della guida, mentre il file dei modelli di protezione corrisponde alle specifiche funzionali.</td>
+<td style="border:1px solid black;">– L'utente non disponeva di una soluzione semplice per correggere la situazione.<br />
 – L'utente non è stato in grado di trovare facilmente una soluzione.<br />
-– Il sistema non era conforme ai requisiti aziendali di base.</p></td>
+– Il sistema non era conforme ai requisiti aziendali di base.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>– Problema di formato documentato.<br />
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">– Problema di formato documentato.<br />
 – Lievi errori e imprecisioni nella documentazione.<br />
-– Errori ortografici nel testo.</p></td>
-<td style="border:1px solid black;"><p>– L'utente disponeva di una soluzione semplice per correggere la situazione.<br />
+– Errori ortografici nel testo.</td>
+<td style="border:1px solid black;">– L'utente disponeva di una soluzione semplice per correggere la situazione.<br />
 – L'utente è stato in grado di trovare facilmente una soluzione.<br />
 – L'errore non ha causato un'esperienza negativa per l'utente.<br />
-– I requisiti aziendali di base sono funzionali.</p></td>
+– I requisiti aziendali di base sono funzionali.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>4</p></td>
-<td style="border:1px solid black;"><p>– Suggerimenti.<br />
-– Miglioramenti futuri.</p></td>
-<td style="border:1px solid black;"><p>– Chiaramente non relativo a questa versione.</p></td>
+<td style="border:1px solid black;">4</td>
+<td style="border:1px solid black;">– Suggerimenti.<br />
+– Miglioramenti futuri.</td>
+<td style="border:1px solid black;">– Chiaramente non relativo a questa versione.</td>
 </tr>
 </tbody>
 </table>

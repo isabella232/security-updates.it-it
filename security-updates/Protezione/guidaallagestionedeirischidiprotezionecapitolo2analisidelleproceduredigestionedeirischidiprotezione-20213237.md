@@ -159,7 +159,7 @@ Entrambi gli approcci alla gestione dei rischi di protezione presentano vantaggi
 
 **Tabella 2.1: Vantaggi e svantaggi dei due diversi approcci alla gestione dei rischi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -168,38 +168,38 @@ Entrambi gli approcci alla gestione dei rischi di protezione presentano vantaggi
 </colgroup>
 <thead>
 <tr class="header">
-<th><p> </p></th>
-<th><p>Approccio quantitativo</p></th>
-<th><p>Approccio qualitativo</p></th>
+<th> </th>
+<th>Approccio quantitativo</th>
+<th>Approccio qualitativo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Vantaggi</strong></p></td>
-<td style="border:1px solid black;"><p>– Le priorità dei rischi vengono definite in base all'impatto finanziario; le priorità dei beni vengono definite in base al valore finanziario.</p>
-<p>– I risultati facilitano la gestione dei rischi in base al ritorno sull'investimento nella protezione (ROSI).</p>
-<p>– I risultati possono essere espressi con la terminologia gestionale (ad es. valori monetari e probabilità sono espressi come percentuali specifiche).</p>
-<p>– La precisione del processo aumenta nel tempo, man mano che l'organizzazione raccoglie dati cronologici basati sulle passate esperienze.</p></td>
-<td style="border:1px solid black;"><p>– Permette una maggiore visibilità e comprensione della classificazione dei rischi.</p>
-<p>– Semplifica il raggiungimento del consenso sulle decisioni.</p>
-<p>– Non è necessario quantificare la frequenza dei pericoli.</p>
-<p>– Non è necessario determinare il valore finanziario dei beni.</p>
-<p>– Semplifica il coinvolgimento di personale non esperto in materia di protezione o informatica.</p></td>
+<td style="border:1px solid black;"><strong>Vantaggi</strong></td>
+<td style="border:1px solid black;">– Le priorità dei rischi vengono definite in base all'impatto finanziario; le priorità dei beni vengono definite in base al valore finanziario.
+– I risultati facilitano la gestione dei rischi in base al ritorno sull'investimento nella protezione (ROSI).
+– I risultati possono essere espressi con la terminologia gestionale (ad es. valori monetari e probabilità sono espressi come percentuali specifiche).
+– La precisione del processo aumenta nel tempo, man mano che l'organizzazione raccoglie dati cronologici basati sulle passate esperienze.</td>
+<td style="border:1px solid black;">– Permette una maggiore visibilità e comprensione della classificazione dei rischi.
+– Semplifica il raggiungimento del consenso sulle decisioni.
+– Non è necessario quantificare la frequenza dei pericoli.
+– Non è necessario determinare il valore finanziario dei beni.
+– Semplifica il coinvolgimento di personale non esperto in materia di protezione o informatica.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Svantaggi</strong></p></td>
-<td style="border:1px solid black;"><p>– I valori di impatto assegnati ai rischi sono basati sulle opinioni soggettive dei partecipanti.</p>
-<p>– Il processo richiesto per raggiungere il consenso e risultati credibili è estremamente lungo.</p>
-<p>– I calcoli richiesti possono essere complessi e richiedere molto tempo.</p>
-<p>– I risultati sono presentati esclusivamente in termini monetari e possono risultare di difficile comprensione per i partecipanti non esperti in materia.</p>
-<p>– Il processo presuppone un alto grado di esperienza ed è perciò difficile fornire una guida adeguata ai partecipanti</p></td>
-<td style="border:1px solid black;"><p>– La differenziazione tra i principali rischi risulta insufficiente.</p>
-<p>– È difficile giustificare l'investimento nell'implementazione dei controlli in quanto non esiste una base per l'analisi costi-benefici.</p>
-<p>– I risultati dipendono dalla qualità del team di gestione dei rischi di protezione.</p></td>
+<td style="border:1px solid black;"><strong>Svantaggi</strong></td>
+<td style="border:1px solid black;">– I valori di impatto assegnati ai rischi sono basati sulle opinioni soggettive dei partecipanti.
+– Il processo richiesto per raggiungere il consenso e risultati credibili è estremamente lungo.
+– I calcoli richiesti possono essere complessi e richiedere molto tempo.
+– I risultati sono presentati esclusivamente in termini monetari e possono risultare di difficile comprensione per i partecipanti non esperti in materia.
+– Il processo presuppone un alto grado di esperienza ed è perciò difficile fornire una guida adeguata ai partecipanti</td>
+<td style="border:1px solid black;">– La differenziazione tra i principali rischi risulta insufficiente.
+– È difficile giustificare l'investimento nell'implementazione dei controlli in quanto non esiste una base per l'analisi costi-benefici.
+– I risultati dipendono dalla qualità del team di gestione dei rischi di protezione.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Nel passato, l'approccio alla gestione dei rischi di protezione di tipo quantitativo era decisamente predominante; recentemente la situazione è cambiata e sono sempre più numerosi i professionisti che ammettono che attenersi rigidamente alle procedure previste dalla gestione quantitativa comporta progetti di lunga durata e difficili da gestire che producono pochi vantaggi tangibili. Come verrà illustrato nei capitoli seguenti, il processo di gestione dei rischi di protezione Microsoft combina il meglio di entrambe le metodologie in un unico approccio di tipo ibrido.
 

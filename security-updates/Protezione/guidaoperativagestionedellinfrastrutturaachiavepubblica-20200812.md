@@ -88,7 +88,7 @@ In questa tabella sono elencate le attività da eseguire per avviare la produzio
 
 **Tabella 11.1. Attività iniziali di configurazione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -97,101 +97,101 @@ In questa tabella sono elencate le attività da eseguire per avviare la produzio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome attività</p></th>
-<th><p>Cluster di ruoli</p></th>
-<th><p>SMF</p></th>
+<th>Nome attività</th>
+<th>Cluster di ruoli</th>
+<th>SMF</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Fase di operatività</strong></p></td>
+<td style="border:1px solid black;"><strong>Fase di operatività</strong></td>
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Preparazione di una struttura di unità organizzativa di dominio per la gestione di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura</p></td>
-<td style="border:1px solid black;"><p>Amministrazione dei servizi directory</p></td>
+<td style="border:1px solid black;">Preparazione di una struttura di unità organizzativa di dominio per la gestione di Servizi certificati</td>
+<td style="border:1px solid black;">Infrastruttura</td>
+<td style="border:1px solid black;">Amministrazione dei servizi directory</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Pubblicazione degli elenchi CRL della CA di emissione nel server Web</p></td>
-<td style="border:1px solid black;"><p>Protezione</p></td>
-<td style="border:1px solid black;"><p>Amministrazione della protezione</p></td>
+<td style="border:1px solid black;">Pubblicazione degli elenchi CRL della CA di emissione nel server Web</td>
+<td style="border:1px solid black;">Protezione</td>
+<td style="border:1px solid black;">Amministrazione della protezione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurazione di un backup del database dell'autorità di certificazione emittente</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura</p></td>
-<td style="border:1px solid black;"><p>Gestione dell'archiviazione</p></td>
+<td style="border:1px solid black;">Configurazione di un backup del database dell'autorità di certificazione emittente</td>
+<td style="border:1px solid black;">Infrastruttura</td>
+<td style="border:1px solid black;">Gestione dell'archiviazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Configurazione del backup del database autorità di certificazione principale</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura</p></td>
-<td style="border:1px solid black;"><p>Gestione dell'archiviazione</p></td>
+<td style="border:1px solid black;">Configurazione del backup del database autorità di certificazione principale</td>
+<td style="border:1px solid black;">Infrastruttura</td>
+<td style="border:1px solid black;">Gestione dell'archiviazione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Test dei backup per database autorità di certificazione</p></td>
-<td style="border:1px solid black;"><p>Gestione delle operazioni</p></td>
-<td style="border:1px solid black;"><p>Gestione dell'archiviazione</p></td>
+<td style="border:1px solid black;">Test dei backup per database autorità di certificazione</td>
+<td style="border:1px solid black;">Gestione delle operazioni</td>
+<td style="border:1px solid black;">Gestione dell'archiviazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Test dei backup per chiave autorità di certificazione</p></td>
-<td style="border:1px solid black;"><p>Gestione delle operazioni</p></td>
-<td style="border:1px solid black;"><p>Gestione dell'archiviazione</p></td>
+<td style="border:1px solid black;">Test dei backup per chiave autorità di certificazione</td>
+<td style="border:1px solid black;">Gestione delle operazioni</td>
+<td style="border:1px solid black;">Gestione dell'archiviazione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Classificazione degli avvisi di monitoraggio</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura</p></td>
-<td style="border:1px solid black;"><p>Monitoraggio e controllo dei servizi</p></td>
+<td style="border:1px solid black;">Classificazione degli avvisi di monitoraggio</td>
+<td style="border:1px solid black;">Infrastruttura</td>
+<td style="border:1px solid black;">Monitoraggio e controllo dei servizi</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Monitoraggio restrizioni capacità Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura</p></td>
-<td style="border:1px solid black;"><p>Monitoraggio e controllo dei servizi</p></td>
+<td style="border:1px solid black;">Monitoraggio restrizioni capacità Servizi certificati</td>
+<td style="border:1px solid black;">Infrastruttura</td>
+<td style="border:1px solid black;">Monitoraggio e controllo dei servizi</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Monitoraggio integrità e disponibilità Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura</p></td>
-<td style="border:1px solid black;"><p>Monitoraggio e controllo dei servizi</p></td>
+<td style="border:1px solid black;">Monitoraggio integrità e disponibilità Servizi certificati</td>
+<td style="border:1px solid black;">Infrastruttura</td>
+<td style="border:1px solid black;">Monitoraggio e controllo dei servizi</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Impostazione degli avvisi SMTP per le richieste di certificati in sospeso</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura</p></td>
-<td style="border:1px solid black;"><p>Monitoraggio e controllo dei servizi</p></td>
+<td style="border:1px solid black;">Impostazione degli avvisi SMTP per le richieste di certificati in sospeso</td>
+<td style="border:1px solid black;">Infrastruttura</td>
+<td style="border:1px solid black;">Monitoraggio e controllo dei servizi</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Pianificazione processi autorità di certificazione emittente</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura</p></td>
-<td style="border:1px solid black;"><p>Pianificazione dei processi</p></td>
+<td style="border:1px solid black;">Pianificazione processi autorità di certificazione emittente</td>
+<td style="border:1px solid black;">Infrastruttura</td>
+<td style="border:1px solid black;">Pianificazione dei processi</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Fase di ottimizzazione</strong></p></td>
+<td style="border:1px solid black;"><strong>Fase di ottimizzazione</strong></td>
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Definizione del carico massimo per l'autorità di certificazione emittente</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura</p></td>
-<td style="border:1px solid black;"><p>Gestione della capacità</p></td>
+<td style="border:1px solid black;">Definizione del carico massimo per l'autorità di certificazione emittente</td>
+<td style="border:1px solid black;">Infrastruttura</td>
+<td style="border:1px solid black;">Gestione della capacità</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Definizione dei requisiti di archiviazione e backup per un'autorità di certificazione emittente</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura</p></td>
-<td style="border:1px solid black;"><p>Gestione della capacità</p></td>
+<td style="border:1px solid black;">Definizione dei requisiti di archiviazione e backup per un'autorità di certificazione emittente</td>
+<td style="border:1px solid black;">Infrastruttura</td>
+<td style="border:1px solid black;">Gestione della capacità</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>Fase di modifica</strong></p></td>
+<td style="border:1px solid black;"><strong>Fase di modifica</strong></td>
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gestione degli aggiornamenti del sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Infrastruttura</p></td>
-<td style="border:1px solid black;"><p>Gestione delle modifiche<br />
-Gestione del rilascio</p></td>
+<td style="border:1px solid black;">Gestione degli aggiornamenti del sistema operativo</td>
+<td style="border:1px solid black;">Infrastruttura</td>
+<td style="border:1px solid black;">Gestione delle modifiche<br />
+Gestione del rilascio</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Sebbene non esista un'attività documentata per l'impostazione di un sistema di gestione della configurazione per l'infrastruttura PKI, esaminare le procedure descritte nella sezione "Gestione della configurazione", in cui sono descritti i tipi di informazioni da raccogliere e conservare in un sistema di gestione della configurazione.
 
@@ -203,7 +203,7 @@ In questa tabella sono elencate le attività da eseguire regolarmente per manten
 
 **Tabella 11.2. Attività di manutenzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -212,61 +212,61 @@ In questa tabella sono elencate le attività da eseguire regolarmente per manten
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome attività</p></th>
-<th><p>Frequenza</p></th>
-<th><p>SMF</p></th>
+<th>Nome attività</th>
+<th>Frequenza</th>
+<th>SMF</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Fase di operatività</strong></p></td>
+<td style="border:1px solid black;"><strong>Fase di operatività</strong></td>
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllo richieste in sospeso</p></td>
-<td style="border:1px solid black;"><p>Ogni giorno</p></td>
-<td style="border:1px solid black;"><p>Amministrazione della protezione</p></td>
+<td style="border:1px solid black;">Controllo richieste in sospeso</td>
+<td style="border:1px solid black;">Ogni giorno</td>
+<td style="border:1px solid black;">Amministrazione della protezione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rinnovo certificato CA principale</p></td>
-<td style="border:1px solid black;"><p>Ogni otto anni</p></td>
-<td style="border:1px solid black;"><p>Amministrazione della protezione</p></td>
+<td style="border:1px solid black;">Rinnovo certificato CA principale</td>
+<td style="border:1px solid black;">Ogni otto anni</td>
+<td style="border:1px solid black;">Amministrazione della protezione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Rinnovo certificato CA di emissione</p></td>
-<td style="border:1px solid black;"><p>Ogni quattro anni</p></td>
-<td style="border:1px solid black;"><p>Amministrazione della protezione</p></td>
+<td style="border:1px solid black;">Rinnovo certificato CA di emissione</td>
+<td style="border:1px solid black;">Ogni quattro anni</td>
+<td style="border:1px solid black;">Amministrazione della protezione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Pubblicazione elenco CRL non in linea e certificato CA</p></td>
-<td style="border:1px solid black;"><p>Ogni sei mesi</p></td>
-<td style="border:1px solid black;"><p>Amministrazione della protezione</p></td>
+<td style="border:1px solid black;">Pubblicazione elenco CRL non in linea e certificato CA</td>
+<td style="border:1px solid black;">Ogni sei mesi</td>
+<td style="border:1px solid black;">Amministrazione della protezione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Backup di chiavi e certificati CA</p></td>
-<td style="border:1px solid black;"><p>Annuale oppure ogni volta che il certificato CA viene rinnovato (in base a quale evento si verifica per primo)</p></td>
-<td style="border:1px solid black;"><p>Gestione dell'archiviazione</p></td>
+<td style="border:1px solid black;">Backup di chiavi e certificati CA</td>
+<td style="border:1px solid black;">Annuale oppure ogni volta che il certificato CA viene rinnovato (in base a quale evento si verifica per primo)</td>
+<td style="border:1px solid black;">Gestione dell'archiviazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Test dei backup per database autorità di certificazione</p></td>
-<td style="border:1px solid black;"><p>Ogni mese</p></td>
-<td style="border:1px solid black;"><p>Gestione dell'archiviazione</p></td>
+<td style="border:1px solid black;">Test dei backup per database autorità di certificazione</td>
+<td style="border:1px solid black;">Ogni mese</td>
+<td style="border:1px solid black;">Gestione dell'archiviazione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Test dei backup per chiave autorità di certificazione</p></td>
-<td style="border:1px solid black;"><p>Ogni sei mesi</p></td>
-<td style="border:1px solid black;"><p>Gestione dell'archiviazione</p></td>
+<td style="border:1px solid black;">Test dei backup per chiave autorità di certificazione</td>
+<td style="border:1px solid black;">Ogni sei mesi</td>
+<td style="border:1px solid black;">Gestione dell'archiviazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Archiviazione di dati di controllo della protezione da una CA</p></td>
-<td style="border:1px solid black;"><p>Mensile (CA di emissione)</p></td>
-<td style="border:1px solid black;"><p>Gestione dell'archiviazione</p></td>
+<td style="border:1px solid black;">Archiviazione di dati di controllo della protezione da una CA</td>
+<td style="border:1px solid black;">Mensile (CA di emissione)</td>
+<td style="border:1px solid black;">Gestione dell'archiviazione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Archiviazione di dati di controllo della protezione da una CA</p></td>
-<td style="border:1px solid black;"><p>Ogni sei mesi (CA principale)</p></td>
-<td style="border:1px solid black;"><p>Gestione dell'archiviazione</p></td>
+<td style="border:1px solid black;">Archiviazione di dati di controllo della protezione da una CA</td>
+<td style="border:1px solid black;">Ogni sei mesi (CA principale)</td>
+<td style="border:1px solid black;">Gestione dell'archiviazione</td>
 </tr>
 </tbody>
 </table>
@@ -277,7 +277,7 @@ Nella tabella riportata di seguito sono elencati gli strumenti o le tecnologie u
   
 **Tabella 11.3. Tecnologia richiesta**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -285,106 +285,106 @@ Nella tabella riportata di seguito sono elencati gli strumenti o le tecnologie u
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome</p></th>
-<th><p>Origine</p></th>
+<th>Nome</th>
+<th>Origine</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Console di gestione (snap-in MMC) Utenti e computer di Active Directory</p></td>
-<td style="border:1px solid black;"><p>Microsoft Windows Server 2003</p></td>
+<td style="border:1px solid black;">Console di gestione (snap-in MMC) Utenti e computer di Active Directory</td>
+<td style="border:1px solid black;">Microsoft Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Snap-in MMC Autorità di certificazione</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Snap-in MMC Autorità di certificazione</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Snap-in MMC Modelli di certificato</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Snap-in MMC Modelli di certificato</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certutil.exe</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Certutil.exe</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Certreq.exe</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Certreq.exe</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Script MSS</p></td>
-<td style="border:1px solid black;"><p>Questa soluzione</p></td>
+<td style="border:1px solid black;">Script MSS</td>
+<td style="border:1px solid black;">Questa soluzione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Editor di testo</p></td>
-<td style="border:1px solid black;"><p>Blocco note, Windows Server 2003</p></td>
+<td style="border:1px solid black;">Editor di testo</td>
+<td style="border:1px solid black;">Blocco note, Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Servizio Utilità di pianificazione di Windows</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Servizio Utilità di pianificazione di Windows</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SchTasks.exe</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">SchTasks.exe</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Utilità di backup di Windows</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Utilità di backup di Windows</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Cipher.exe</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Cipher.exe</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Visualizzatore eventi</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Visualizzatore eventi</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Performance Monitor</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Performance Monitor</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Net.exe</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Net.exe</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DSquery.exe</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">DSquery.exe</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ldifde.exe</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Ldifde.exe</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DCDiag.exe</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">DCDiag.exe</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Console avvisi operativi</p></td>
-<td style="border:1px solid black;"><p>Microsoft Operations Manager (MOM)</p></td>
+<td style="border:1px solid black;">Console avvisi operativi</td>
+<td style="border:1px solid black;">Microsoft Operations Manager (MOM)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporti rimovibili per il backup della CA principale</p></td>
-<td style="border:1px solid black;"><p>CD-RW o nastro</p></td>
+<td style="border:1px solid black;">Supporti rimovibili per il backup della CA principale</td>
+<td style="border:1px solid black;">CD-RW o nastro</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Backup server CA di emissione</p></td>
-<td style="border:1px solid black;"><p>Servizio di backup aziendale o<br />
-Periferica di backup locale</p></td>
+<td style="border:1px solid black;">Backup server CA di emissione</td>
+<td style="border:1px solid black;">Servizio di backup aziendale o<br />
+Periferica di backup locale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Snap-in MMC Criteri di gruppo</p></td>
-<td style="border:1px solid black;"><p>Download Web da Microsoft.com</p></td>
+<td style="border:1px solid black;">Snap-in MMC Criteri di gruppo</td>
+<td style="border:1px solid black;">Download Web da Microsoft.com</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Integrità PKI</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003 Resource Kit</p></td>
+<td style="border:1px solid black;">Integrità PKI</td>
+<td style="border:1px solid black;">Windows Server 2003 Resource Kit</td>
 </tr>
 </tbody>
 </table>
   
 **Tabella 11.4. Tecnologia consigliata**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -392,30 +392,30 @@ Periferica di backup locale</p></td>
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome</p></th>
-<th><p>Origine</p></th>
+<th>Nome</th>
+<th>Origine</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Console avvisi operativi</p></td>
-<td style="border:1px solid black;"><p>Microsoft Operations Manager o altro sistema di monitoraggio dei servizi</p></td>
+<td style="border:1px solid black;">Console avvisi operativi</td>
+<td style="border:1px solid black;">Microsoft Operations Manager o altro sistema di monitoraggio dei servizi</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Infrastruttura di posta elettronica per gli avvisi operativi (in alternativa a MOM)</p></td>
-<td style="border:1px solid black;"><p>Server e client SMTP/POP3/IMAP, ad esempio Microsoft Exchange Server e Microsoft Outlook®</p></td>
+<td style="border:1px solid black;">Infrastruttura di posta elettronica per gli avvisi operativi (in alternativa a MOM)</td>
+<td style="border:1px solid black;">Server e client SMTP/POP3/IMAP, ad esempio Microsoft Exchange Server e Microsoft Outlook®</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Eventquery.vbs</p></td>
-<td style="border:1px solid black;"><p>Windows Server 2003</p></td>
+<td style="border:1px solid black;">Eventquery.vbs</td>
+<td style="border:1px solid black;">Windows Server 2003</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Strumenti per la pianificazione della capacità</p></td>
-<td style="border:1px solid black;"><p>Microsoft Operations Manager o altri strumenti per la pianificazione della capacità</p></td>
+<td style="border:1px solid black;">Strumenti per la pianificazione della capacità</td>
+<td style="border:1px solid black;">Microsoft Operations Manager o altri strumenti per la pianificazione della capacità</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sistema di distribuzione degli aggiornamenti della protezione</p></td>
-<td style="border:1px solid black;"><p>Microsoft Systems Management Server o Microsoft Software Update Services</p></td>
+<td style="border:1px solid black;">Sistema di distribuzione degli aggiornamenti della protezione</td>
+<td style="border:1px solid black;">Microsoft Systems Management Server o Microsoft Software Update Services</td>
 </tr>
 </tbody>
 </table>
@@ -432,7 +432,7 @@ Questa categoria di ruoli è fondamentale per la gestione di un'infrastruttura a
   
 **Tabella 11.5. Ruoli principali di Servizi certificati**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -441,66 +441,66 @@ Questa categoria di ruoli è fondamentale per la gestione di un'infrastruttura a
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome del ruolo</p></th>
-<th><p>Ambito</p></th>
-<th><p>Descrizione</p></th>
+<th>Nome del ruolo</th>
+<th>Ambito</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Enterprise PKI Administrator</p></td>
-<td style="border:1px solid black;"><p>Organizzazione</p></td>
-<td style="border:1px solid black;"><p>Responsabile dell'intera infrastruttura PKI; definisce tipi di certificati, criteri di applicazioni, percorsi di trust e così via per un'organizzazione di grandi dimensioni</p></td>
+<td style="border:1px solid black;">Enterprise PKI Administrator</td>
+<td style="border:1px solid black;">Organizzazione</td>
+<td style="border:1px solid black;">Responsabile dell'intera infrastruttura PKI; definisce tipi di certificati, criteri di applicazioni, percorsi di trust e così via per un'organizzazione di grandi dimensioni</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Enterprise PKI Publisher</p></td>
-<td style="border:1px solid black;"><p>Organizzazione</p></td>
-<td style="border:1px solid black;"><p>Responsabile della pubblicazione di certificati affidabili principali, certificati CA secondari e di elenchi CRL nella directory.</p></td>
+<td style="border:1px solid black;">Enterprise PKI Publisher</td>
+<td style="border:1px solid black;">Organizzazione</td>
+<td style="border:1px solid black;">Responsabile della pubblicazione di certificati affidabili principali, certificati CA secondari e di elenchi CRL nella directory.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Amministratore CA<br />
-(ruolo Amministratore CA)</p></td>
-<td style="border:1px solid black;"><p>CA</p></td>
-<td style="border:1px solid black;"><p>Amministratore CA; responsabile della configurazione CA e dell'assegnazione dei ruoli sulla CA. Di solito coincide con il ruolo Amministratori PKI dell'organizzazione.<br />
-È possibile assegnare più amministratori CA a CA differenti se ciò è richiesto dall’utilizzo dei certificati.</p></td>
+<td style="border:1px solid black;">Amministratore CA<br />
+(ruolo Amministratore CA)</td>
+<td style="border:1px solid black;">CA</td>
+<td style="border:1px solid black;">Amministratore CA; responsabile della configurazione CA e dell'assegnazione dei ruoli sulla CA. Di solito coincide con il ruolo Amministratori PKI dell'organizzazione.<br />
+È possibile assegnare più amministratori CA a CA differenti se ciò è richiesto dall’utilizzo dei certificati.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Amministratore<br />
-(ruolo Amministratore CA)</p></td>
-<td style="border:1px solid black;"><p>CA</p></td>
-<td style="border:1px solid black;"><p>Amministratore del sistema operativo del server CA; responsabile della configurazione a livello di server (ad esempio, installazione CA). Di solito coincide con il ruolo Amministratori CA.<br />
-È possibile assegnare più amministratori a CA differenti se ciò è richiesto dall’utilizzo dei certificati.</p></td>
+<td style="border:1px solid black;">Amministratore<br />
+(ruolo Amministratore CA)</td>
+<td style="border:1px solid black;">CA</td>
+<td style="border:1px solid black;">Amministratore del sistema operativo del server CA; responsabile della configurazione a livello di server (ad esempio, installazione CA). Di solito coincide con il ruolo Amministratori CA.<br />
+È possibile assegnare più amministratori a CA differenti se ciò è richiesto dall’utilizzo dei certificati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controllore CA<br />
-(ruolo Controllore CA)</p></td>
-<td style="border:1px solid black;"><p>CA</p></td>
-<td style="border:1px solid black;"><p>Gestisce eventi di controllo, criteri e tutto ciò che riguarda gli eventi CA controllabili.</p></td>
+<td style="border:1px solid black;">Controllore CA<br />
+(ruolo Controllore CA)</td>
+<td style="border:1px solid black;">CA</td>
+<td style="border:1px solid black;">Gestisce eventi di controllo, criteri e tutto ciò che riguarda gli eventi CA controllabili.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Responsabile certificati<br />
-(ruolo Responsabile CC)</p></td>
-<td style="border:1px solid black;"><p>CA</p></td>
-<td style="border:1px solid black;"><p>Approva le richieste di certificati per cui è richiesta approvazione manuale e revoca certificati.<br />
-Possono coesistere più responsabili certificati che si occupano dell'approvazione per CA differenti se l'utilizzo dei certificati lo richiede.</p></td>
+<td style="border:1px solid black;">Responsabile certificati<br />
+(ruolo Responsabile CC)</td>
+<td style="border:1px solid black;">CA</td>
+<td style="border:1px solid black;">Approva le richieste di certificati per cui è richiesta approvazione manuale e revoca certificati.<br />
+Possono coesistere più responsabili certificati che si occupano dell'approvazione per CA differenti se l'utilizzo dei certificati lo richiede.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autorità di registrazione</p></td>
-<td style="border:1px solid black;"><p>Profilo del certificato</p></td>
-<td style="border:1px solid black;"><p>Estensione del ruolo del responsabile certificati, che si occupa dell'approvazione e della firma di richieste di certificati in seguito a una verifica ID del soggetto certificato.<br />
+<td style="border:1px solid black;">Autorità di registrazione</td>
+<td style="border:1px solid black;">Profilo del certificato</td>
+<td style="border:1px solid black;">Estensione del ruolo del responsabile certificati, che si occupa dell'approvazione e della firma di richieste di certificati in seguito a una verifica ID del soggetto certificato.<br />
 Il ruolo può essere ricoperto da una persona, da un processo IT o da un dispositivo (ad esempio, scanner di impronte digitali e database).<br />
-È possibile specificare autorità di registrazione differenti per profili di certificati diversi (modelli) e interessare più CA.</p></td>
+È possibile specificare autorità di registrazione differenti per profili di certificati diversi (modelli) e interessare più CA.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Key Recovery Agent</p></td>
-<td style="border:1px solid black;"><p>CA</p></td>
-<td style="border:1px solid black;"><p>Detiene le chiavi per la decrittografia di chiavi private, archiviate nel database CA.</p></td>
+<td style="border:1px solid black;">Key Recovery Agent</td>
+<td style="border:1px solid black;">CA</td>
+<td style="border:1px solid black;">Detiene le chiavi per la decrittografia di chiavi private, archiviate nel database CA.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Operatore di backup CA<br />
-(ruolo Operatore CC)</p></td>
-<td style="border:1px solid black;"><p>CA</p></td>
-<td style="border:1px solid black;"><p>Responsabile di backup e ripristino di server CA e di conservare in modo sicuro i supporti di backup.</p></td>
+<td style="border:1px solid black;">Operatore di backup CA<br />
+(ruolo Operatore CC)</td>
+<td style="border:1px solid black;">CA</td>
+<td style="border:1px solid black;">Responsabile di backup e ripristino di server CA e di conservare in modo sicuro i supporti di backup.</td>
 </tr>
 </tbody>
 </table>
@@ -511,7 +511,7 @@ I ruoli operativi descritti nella tabella riportata di seguito non sono centrali
   
 **Tabella 11.6. Ruoli di supporto di Servizi certificati**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -520,36 +520,36 @@ I ruoli operativi descritti nella tabella riportata di seguito non sono centrali
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome del ruolo</p></th>
-<th><p>Ambito</p></th>
-<th><p>Descrizione</p></th>
+<th>Nome del ruolo</th>
+<th>Ambito</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Operatore di monitoraggio</p></td>
-<td style="border:1px solid black;"><p>Organizzazione</p></td>
-<td style="border:1px solid black;"><p>Responsabile del monitoraggio di eventi.</p></td>
+<td style="border:1px solid black;">Operatore di monitoraggio</td>
+<td style="border:1px solid black;">Organizzazione</td>
+<td style="border:1px solid black;">Responsabile del monitoraggio di eventi.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Pianificatore della capacità</p></td>
-<td style="border:1px solid black;"><p>Organizzazione</p></td>
-<td style="border:1px solid black;"><p>Responsabile dell'analisi di prestazioni e carico per la previsione di requisiti futuri di capacità.</p></td>
+<td style="border:1px solid black;">Pianificatore della capacità</td>
+<td style="border:1px solid black;">Organizzazione</td>
+<td style="border:1px solid black;">Responsabile dell'analisi di prestazioni e carico per la previsione di requisiti futuri di capacità.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Amministratore di Active Directory</p></td>
-<td style="border:1px solid black;"><p>Organizzazione</p></td>
-<td style="border:1px solid black;"><p>Responsabile di configurazione e supporto dell'infrastruttura Active Directory.</p></td>
+<td style="border:1px solid black;">Amministratore di Active Directory</td>
+<td style="border:1px solid black;">Organizzazione</td>
+<td style="border:1px solid black;">Responsabile di configurazione e supporto dell'infrastruttura Active Directory.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gestione delle operazioni di Active Directory</p></td>
-<td style="border:1px solid black;"><p>Organizzazione</p></td>
-<td style="border:1px solid black;"><p>Responsabile della manutenzione quotidiana della directory (ad esempio, gestione dei gruppi di protezione, creazione di account e così via).</p></td>
+<td style="border:1px solid black;">Gestione delle operazioni di Active Directory</td>
+<td style="border:1px solid black;">Organizzazione</td>
+<td style="border:1px solid black;">Responsabile della manutenzione quotidiana della directory (ad esempio, gestione dei gruppi di protezione, creazione di account e così via).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consiglio di approvazione delle modifiche</p></td>
-<td style="border:1px solid black;"><p>Organizzazione</p></td>
-<td style="border:1px solid black;"><p>Rappresentanti del settore tecnico e aziendale necessari per l'approvazione di modifiche all'infrastruttura.</p></td>
+<td style="border:1px solid black;">Consiglio di approvazione delle modifiche</td>
+<td style="border:1px solid black;">Organizzazione</td>
+<td style="border:1px solid black;">Rappresentanti del settore tecnico e aziendale necessari per l'approvazione di modifiche all'infrastruttura.</td>
 </tr>
 </tbody>
 </table>
@@ -564,7 +564,7 @@ I gruppi di protezione di dominio delle CA in linea vengono utilizzati per appli
   
 **Tabella 11.7. Mapping di ruoli di Servizi certificati con gruppi di protezione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -574,70 +574,70 @@ I gruppi di protezione di dominio delle CA in linea vengono utilizzati per appli
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome del ruolo</p></th>
-<th><p>Gruppo di protezione di dominio (CA in linea)</p></th>
-<th><p>Gruppo di protezione locale (CA non in linea)</p></th>
-<th><p>Privilegi</p></th>
+<th>Nome del ruolo</th>
+<th>Gruppo di protezione di dominio (CA in linea)</th>
+<th>Gruppo di protezione locale (CA non in linea)</th>
+<th>Privilegi</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Enterprise PKI Administrator</p></td>
-<td style="border:1px solid black;"><p>Enterprise PKI Admins</p></td>
-<td style="border:1px solid black;"><p>–</p></td>
-<td style="border:1px solid black;"><p>Controllo sul contenitore di servizi a chiave pubblica di Active Directory, quindi su modelli, pubblicazione trust e altri elementi di configurazione estesi a tutta l'organizzazione di grandi dimensioni (insieme di strutture).</p></td>
+<td style="border:1px solid black;">Enterprise PKI Administrator</td>
+<td style="border:1px solid black;">Enterprise PKI Admins</td>
+<td style="border:1px solid black;">–</td>
+<td style="border:1px solid black;">Controllo sul contenitore di servizi a chiave pubblica di Active Directory, quindi su modelli, pubblicazione trust e altri elementi di configurazione estesi a tutta l'organizzazione di grandi dimensioni (insieme di strutture).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Enterprise PKI Publisher</p></td>
-<td style="border:1px solid black;"><p>Enterprise PKI Publishers</p></td>
-<td style="border:1px solid black;"><p>–</p></td>
-<td style="border:1px solid black;"><p>Consente la pubblicazione di certificati affidabili principali, certificati CA secondari e di elenchi CRL nella directory.</p></td>
+<td style="border:1px solid black;">Enterprise PKI Publisher</td>
+<td style="border:1px solid black;">Enterprise PKI Publishers</td>
+<td style="border:1px solid black;">–</td>
+<td style="border:1px solid black;">Consente la pubblicazione di certificati affidabili principali, certificati CA secondari e di elenchi CRL nella directory.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Amministratore CA</p></td>
-<td style="border:1px solid black;"><p>Amministratori CA</p></td>
-<td style="border:1px solid black;"><p>Amministratori CA (solo CA principale)</p></td>
-<td style="border:1px solid black;"><p>Dispone delle autorizzazioni di &quot;Gestione CA&quot; sull'autorità di certificazione. Controlla l'assegnazione di ruoli nella CA e può modificare le proprietà dell'autorità di certificazione.<br />
-Di solito è associato al ruolo di amministratore locale del server CA, a meno che non sia richiesta una separazione di ruoli.</p></td>
+<td style="border:1px solid black;">Amministratore CA</td>
+<td style="border:1px solid black;">Amministratori CA</td>
+<td style="border:1px solid black;">Amministratori CA (solo CA principale)</td>
+<td style="border:1px solid black;">Dispone delle autorizzazioni di &quot;Gestione CA&quot; sull'autorità di certificazione. Controlla l'assegnazione di ruoli nella CA e può modificare le proprietà dell'autorità di certificazione.<br />
+Di solito è associato al ruolo di amministratore locale del server CA, a meno che non sia richiesta una separazione di ruoli.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Amministratore</p></td>
+<td style="border:1px solid black;">Amministratore</td>
 <td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
-<td style="border:1px solid black;"><p>Amministratore locale del server CA.</p></td>
+<td style="border:1px solid black;">Amministratori</td>
+<td style="border:1px solid black;">Amministratore locale del server CA.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controllore CA</p></td>
-<td style="border:1px solid black;"><p>Controllori CA</p></td>
-<td style="border:1px solid black;"><p>Controllori CA (solo CA principale)</p></td>
-<td style="border:1px solid black;"><p>Dispone del diritto utente per i registri di controllo e gestione protezione di una CA.<br />
-Deve inoltre essere membro del gruppo Administrators locale per la CA (necessario per accedere ai registri di controllo).</p></td>
+<td style="border:1px solid black;">Controllore CA</td>
+<td style="border:1px solid black;">Controllori CA</td>
+<td style="border:1px solid black;">Controllori CA (solo CA principale)</td>
+<td style="border:1px solid black;">Dispone del diritto utente per i registri di controllo e gestione protezione di una CA.<br />
+Deve inoltre essere membro del gruppo Administrators locale per la CA (necessario per accedere ai registri di controllo).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Responsabile certificati</p></td>
-<td style="border:1px solid black;"><p>Responsabili certificazione</p></td>
-<td style="border:1px solid black;"><p>Responsabili certificazione<br />
-(solo CA principale)</p></td>
-<td style="border:1px solid black;"><p>Dispone dell'autorizzazione &quot;Rilascio e Gestione certificati&quot; per la CA.<br />
-È possibile configurare più responsabili certificati per ogni CA, ciascuno responsabile della gestione dei certificati per un sottoinsieme di utenti o altre entità.</p></td>
+<td style="border:1px solid black;">Responsabile certificati</td>
+<td style="border:1px solid black;">Responsabili certificazione</td>
+<td style="border:1px solid black;">Responsabili certificazione<br />
+(solo CA principale)</td>
+<td style="border:1px solid black;">Dispone dell'autorizzazione &quot;Rilascio e Gestione certificati&quot; per la CA.<br />
+È possibile configurare più responsabili certificati per ogni CA, ciascuno responsabile della gestione dei certificati per un sottoinsieme di utenti o altre entità.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autorità di registrazione</p></td>
-<td style="border:1px solid black;"><p>–</p></td>
-<td style="border:1px solid black;"><p>–</p></td>
-<td style="border:1px solid black;"><p>Detiene chiavi e certificati necessari per la firma delle richieste di certificati prima dell'approvazione.</p></td>
+<td style="border:1px solid black;">Autorità di registrazione</td>
+<td style="border:1px solid black;">–</td>
+<td style="border:1px solid black;">–</td>
+<td style="border:1px solid black;">Detiene chiavi e certificati necessari per la firma delle richieste di certificati prima dell'approvazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Key Recovery Agent</p></td>
-<td style="border:1px solid black;"><p>–</p></td>
-<td style="border:1px solid black;"><p>–</p></td>
-<td style="border:1px solid black;"><p>Detiene chiavi e certificati necessari per la decrittografia di chiavi private memorizzate nel database certificati.</p></td>
+<td style="border:1px solid black;">Key Recovery Agent</td>
+<td style="border:1px solid black;">–</td>
+<td style="border:1px solid black;">–</td>
+<td style="border:1px solid black;">Detiene chiavi e certificati necessari per la decrittografia di chiavi private memorizzate nel database certificati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Operatore di backup CA</p></td>
-<td style="border:1px solid black;"><p>Operatori di backup CA</p></td>
-<td style="border:1px solid black;"><p>Operatori di backup CA (solo CA principale)</p></td>
-<td style="border:1px solid black;"><p>Dispone di diritti di backup e ripristino per il server CA.</p></td>
+<td style="border:1px solid black;">Operatore di backup CA</td>
+<td style="border:1px solid black;">Operatori di backup CA</td>
+<td style="border:1px solid black;">Operatori di backup CA (solo CA principale)</td>
+<td style="border:1px solid black;">Dispone di diritti di backup e ripristino per il server CA.</td>
 </tr>
 </tbody>
 </table>
@@ -694,7 +694,7 @@ Questa attività non è rigida, infatti dipende molto dalla struttura dell'unit�
   
 **Tabella 11.8. Collocazione dei gruppi di protezione all'interno della struttura dell'unità organizzativa**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -703,41 +703,41 @@ Questa attività non è rigida, infatti dipende molto dalla struttura dell'unit�
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Unità operativa</p></th>
-<th><p>Gruppi</p></th>
-<th><p>Scopo</p></th>
+<th>Unità operativa</th>
+<th>Gruppi</th>
+<th>Scopo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi certificati</p></td>
+<td style="border:1px solid black;">Servizi certificati</td>
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Amministrazione Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>Enterprise PKI Admins<br />
+<td style="border:1px solid black;">Amministrazione Servizi certificati</td>
+<td style="border:1px solid black;">Enterprise PKI Admins<br />
 Enterprise PKI Publishers<br />
 CA Admins<br />
 CA Auditors<br />
 Certificate Managers<br />
-CA Backup Operators</p></td>
-<td style="border:1px solid black;"><p>Contiene gruppi amministrativi per la gestione della configurazione della CA e dell’infrastruttura PKI di un'organizzazione di grandi dimensioni.</p></td>
+CA Backup Operators</td>
+<td style="border:1px solid black;">Contiene gruppi amministrativi per la gestione della configurazione della CA e dell’infrastruttura PKI di un'organizzazione di grandi dimensioni.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gestione modelli certificati</p></td>
-<td style="border:1px solid black;"><p>Esempi:<br />
+<td style="border:1px solid black;">Gestione modelli certificati</td>
+<td style="border:1px solid black;">Esempi:<br />
 Gestione modello utente<br />
-Gestione modello di accesso di smart card</p></td>
-<td style="border:1px solid black;"><p>Contiene i gruppi ai quali è concesso il controllo completo del modello con lo stesso nome. Consente la delega del controllo in base al tipo di modello.</p></td>
+Gestione modello di accesso di smart card</td>
+<td style="border:1px solid black;">Contiene i gruppi ai quali è concesso il controllo completo del modello con lo stesso nome. Consente la delega del controllo in base al tipo di modello.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Registrazione modello di certificato</p></td>
-<td style="border:1px solid black;"><p>Esempi:<br />
+<td style="border:1px solid black;">Registrazione modello di certificato</td>
+<td style="border:1px solid black;">Esempi:<br />
 Registrazione certificato utente<br />
 Registrazione automatica certificato utente<br />
-Registrazione certificato di firma per posta elettronica</p></td>
-<td style="border:1px solid black;"><p>Contiene i gruppi ai quali è stata concessa l’autorizzazione di Registrazione o Registrazione automatica sui modelli con lo stesso nome. Il controllo dei gruppi può quindi essere delegato al personale preposto in modo da consentire un regime di registrazione flessibile senza dover coinvolgere i modelli stessi.</p></td>
+Registrazione certificato di firma per posta elettronica</td>
+<td style="border:1px solid black;">Contiene i gruppi ai quali è stata concessa l’autorizzazione di Registrazione o Registrazione automatica sui modelli con lo stesso nome. Il controllo dei gruppi può quindi essere delegato al personale preposto in modo da consentire un regime di registrazione flessibile senza dover coinvolgere i modelli stessi.</td>
 </tr>
 </tbody>
 </table>
@@ -1760,7 +1760,7 @@ In questo capitolo vengono utilizzate le seguenti categorie di avvisi. Di queste
   
 **Tabella 11.9. Categorie di avvisi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1768,38 +1768,38 @@ In questo capitolo vengono utilizzate le seguenti categorie di avvisi. Di queste
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Categoria di avvisi</p></th>
-<th><p>Descrizione</p></th>
+<th>Categoria di avvisi</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizio non disponibile</p></td>
-<td style="border:1px solid black;"><p>Quando l'applicazione o il componente sono completamente non disponibili.</p></td>
+<td style="border:1px solid black;">Servizio non disponibile</td>
+<td style="border:1px solid black;">Quando l'applicazione o il componente sono completamente non disponibili.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Violazione della protezione</p></td>
-<td style="border:1px solid black;"><p>Quando l'applicazione viene violata oppure è stata compromessa.</p></td>
+<td style="border:1px solid black;">Violazione della protezione</td>
+<td style="border:1px solid black;">Quando l'applicazione viene violata oppure è stata compromessa.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Errore critico</p></td>
-<td style="border:1px solid black;"><p>Quando nell'applicazione si è verificato un errore critico che richiede un'azione amministrativa rapida (ma non necessariamente immediata). L'applicazione o il componente funziona a un livello di prestazioni al di sotto della norma ma è ancora in grado di eseguire le operazioni più critiche.</p></td>
+<td style="border:1px solid black;">Errore critico</td>
+<td style="border:1px solid black;">Quando nell'applicazione si è verificato un errore critico che richiede un'azione amministrativa rapida (ma non necessariamente immediata). L'applicazione o il componente funziona a un livello di prestazioni al di sotto della norma ma è ancora in grado di eseguire le operazioni più critiche.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Errore</p></td>
-<td style="border:1px solid black;"><p>Quando nell'applicazione si verifica un problema temporaneo che non richiede un'azione amministrativa o una risoluzione immediata o che addirittura non richiede alcuna azione. L'applicazione o il componente funziona a un livello di prestazioni accettabile ed è ancora in grado di eseguire tutte le operazioni critiche.</p></td>
+<td style="border:1px solid black;">Errore</td>
+<td style="border:1px solid black;">Quando nell'applicazione si verifica un problema temporaneo che non richiede un'azione amministrativa o una risoluzione immediata o che addirittura non richiede alcuna azione. L'applicazione o il componente funziona a un livello di prestazioni accettabile ed è ancora in grado di eseguire tutte le operazioni critiche.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>Quando l'applicazione genera un messaggio di avviso che non richiede un'azione amministrativa o una risoluzione immediata o che addirittura non richiede alcuna azione. L'applicazione o il componente funziona a un livello di prestazioni accettabile ed è ancora in grado di eseguire tutte le operazioni critiche. Tuttavia, se il problema persiste, questa situazione potrebbe generare avvisi quali Errore, Errore critico oppure Servizio non disponibile.</p></td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">Quando l'applicazione genera un messaggio di avviso che non richiede un'azione amministrativa o una risoluzione immediata o che addirittura non richiede alcuna azione. L'applicazione o il componente funziona a un livello di prestazioni accettabile ed è ancora in grado di eseguire tutte le operazioni critiche. Tuttavia, se il problema persiste, questa situazione potrebbe generare avvisi quali Errore, Errore critico oppure Servizio non disponibile.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>Quando l'applicazione genera un evento informativo. L’applicazione o il componente è operativo ad un livello di prestazioni accettabile ed esegue tutte le operazioni critiche e non critiche.</p></td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">Quando l'applicazione genera un evento informativo. L’applicazione o il componente è operativo ad un livello di prestazioni accettabile ed esegue tutte le operazioni critiche e non critiche.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
-<td style="border:1px solid black;"><p>Quando l'applicazione genera un evento riuscito. L'applicazione o il componente funziona a un livello di prestazioni accettabile ed esegue tutte le operazioni critiche e non critiche.</p></td>
+<td style="border:1px solid black;">Operazione riuscita</td>
+<td style="border:1px solid black;">Quando l'applicazione genera un evento riuscito. L'applicazione o il componente funziona a un livello di prestazioni accettabile ed esegue tutte le operazioni critiche e non critiche.</td>
 </tr>
 </tbody>
 </table>
@@ -1830,7 +1830,7 @@ I seguenti contatori di prestazioni sono i più utili per identificare le restri
   
 **Tabella 11.10. Principali contatori di monitoraggio capacità per Servizi certificati**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1839,42 +1839,42 @@ I seguenti contatori di prestazioni sono i più utili per identificare le restri
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Oggetto prestazioni</p></th>
-<th><p>Contatore prestazioni</p></th>
-<th><p>Instance</p></th>
+<th>Oggetto prestazioni</th>
+<th>Contatore prestazioni</th>
+<th>Instance</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Processore</p></td>
-<td style="border:1px solid black;"><p>% Tempo processore</p></td>
-<td style="border:1px solid black;"><p>_Total</p></td>
+<td style="border:1px solid black;">Processore</td>
+<td style="border:1px solid black;">% Tempo processore</td>
+<td style="border:1px solid black;">_Total</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Disco fisico</p></td>
-<td style="border:1px solid black;"><p>% Tempo disco</p></td>
-<td style="border:1px solid black;"><p>_Total</p></td>
+<td style="border:1px solid black;">Disco fisico</td>
+<td style="border:1px solid black;">% Tempo disco</td>
+<td style="border:1px solid black;">_Total</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disco fisico</p></td>
-<td style="border:1px solid black;"><p>Lunghezza Media lettura coda del disco</p></td>
-<td style="border:1px solid black;"><p>_Total</p></td>
+<td style="border:1px solid black;">Disco fisico</td>
+<td style="border:1px solid black;">Lunghezza Media lettura coda del disco</td>
+<td style="border:1px solid black;">_Total</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Disco fisico</p></td>
-<td style="border:1px solid black;"><p>Lunghezza Media scrittura coda del disco</p></td>
-<td style="border:1px solid black;"><p>D: (CA–DB)<br />
-C: (CA–Log)</p></td>
+<td style="border:1px solid black;">Disco fisico</td>
+<td style="border:1px solid black;">Lunghezza Media scrittura coda del disco</td>
+<td style="border:1px solid black;">D: (CA–DB)<br />
+C: (CA–Log)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Interfaccia di rete</p></td>
-<td style="border:1px solid black;"><p>Byte totali/sec</p></td>
-<td style="border:1px solid black;"><p>Scheda di rete</p></td>
+<td style="border:1px solid black;">Interfaccia di rete</td>
+<td style="border:1px solid black;">Byte totali/sec</td>
+<td style="border:1px solid black;">Scheda di rete</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Memoria</p></td>
-<td style="border:1px solid black;"><p>% Byte vincolati in uso</p></td>
-<td style="border:1px solid black;"><p>–––</p></td>
+<td style="border:1px solid black;">Memoria</td>
+<td style="border:1px solid black;">% Byte vincolati in uso</td>
+<td style="border:1px solid black;">–––</td>
 </tr>
 </tbody>
 </table>
@@ -1923,7 +1923,7 @@ La colonna Criticità si riferisce alle Categorie di avvisi definite nella proce
   
 **Tabella 11.11. Criticità dei principali eventi Servizi certificati**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1932,75 +1932,75 @@ La colonna Criticità si riferisce alle Categorie di avvisi definite nella proce
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Stato Servizi certificati</p></th>
-<th><p>Significato</p></th>
-<th><p>Criticità</p></th>
+<th>Stato Servizi certificati</th>
+<th>Significato</th>
+<th>Criticità</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CRL scaduto</p></td>
-<td style="border:1px solid black;"><p>Un CRL valido non è accessibile; tale situazione sta attualmente causando una perdita di servizio.</p></td>
-<td style="border:1px solid black;"><p>Servizio non disponibile</p></td>
+<td style="border:1px solid black;">CRL scaduto</td>
+<td style="border:1px solid black;">Un CRL valido non è accessibile; tale situazione sta attualmente causando una perdita di servizio.</td>
+<td style="border:1px solid black;">Servizio non disponibile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CRL pronto</p></td>
-<td style="border:1px solid black;"><p>L’elenco CRL è ancora valido ma un nuovo elenco CRL è pronto e dovrebbe essere stato pubblicato.</p></td>
-<td style="border:1px solid black;"><p>Critica</p></td>
+<td style="border:1px solid black;">CRL pronto</td>
+<td style="border:1px solid black;">L’elenco CRL è ancora valido ma un nuovo elenco CRL è pronto e dovrebbe essere stato pubblicato.</td>
+<td style="border:1px solid black;">Critica</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Elenco CRL non disponibile<br />
+<td style="border:1px solid black;">Elenco CRL non disponibile<br />
 Eventi secondari:<br />
 Il CRL non può essere recuperato da  Active Directory<br />
-Il CRL non può essere recuperato dal server Web</p></td>
-<td style="border:1px solid black;"><p>Non è disponibile alcun elenco CRL nel punto di distribuzione CRL pubblicato. Questa situazione potrebbe causare perdita di servizio.</p></td>
-<td style="border:1px solid black;"><p>Critica</p></td>
+Il CRL non può essere recuperato dal server Web</td>
+<td style="border:1px solid black;">Non è disponibile alcun elenco CRL nel punto di distribuzione CRL pubblicato. Questa situazione potrebbe causare perdita di servizio.</td>
+<td style="border:1px solid black;">Critica</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Server CA non riuscito</p></td>
-<td style="border:1px solid black;"><p>Il server non è visibile sulla rete.</p></td>
-<td style="border:1px solid black;"><p>Servizio non disponibile</p></td>
+<td style="border:1px solid black;">Server CA non riuscito</td>
+<td style="border:1px solid black;">Il server non è visibile sulla rete.</td>
+<td style="border:1px solid black;">Servizio non disponibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Integrità del sistema operativo CA in stato critico</p></td>
-<td style="border:1px solid black;"><p>Presenza di un problema di entità maggiore con Windows o l’hardware del server.</p></td>
-<td style="border:1px solid black;"><p>Critica</p></td>
+<td style="border:1px solid black;">Integrità del sistema operativo CA in stato critico</td>
+<td style="border:1px solid black;">Presenza di un problema di entità maggiore con Windows o l’hardware del server.</td>
+<td style="border:1px solid black;">Critica</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Integrità del sistema operativo CA in stato di errore/avviso</p></td>
-<td style="border:1px solid black;"><p>Presenza di problemi non critici con Windows o l’hardware del server.</p></td>
-<td style="border:1px solid black;"><p>Errore o Avviso (come definito dalle regole MOM)</p></td>
+<td style="border:1px solid black;">Integrità del sistema operativo CA in stato di errore/avviso</td>
+<td style="border:1px solid black;">Presenza di problemi non critici con Windows o l’hardware del server.</td>
+<td style="border:1px solid black;">Errore o Avviso (come definito dalle regole MOM)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi certificati non in linea<br />
+<td style="border:1px solid black;">Servizi certificati non in linea<br />
 Eventi secondari:<br />
    Interfaccia client non in linea<br />
-   Interfaccia di amministrazione non in linea</p></td>
-<td style="border:1px solid black;"><p>L’interfaccia RPC (Remote Procedure Call) di Servizi certificati non è in linea; i certificati non possono essere emessi.</p></td>
-<td style="border:1px solid black;"><p>Critica</p></td>
+   Interfaccia di amministrazione non in linea</td>
+<td style="border:1px solid black;">L’interfaccia RPC (Remote Procedure Call) di Servizi certificati non è in linea; i certificati non possono essere emessi.</td>
+<td style="border:1px solid black;">Critica</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certificato CA scaduto<br />
+<td style="border:1px solid black;">Certificato CA scaduto<br />
 Eventi secondari:<br />
    Questo certificato CA è scaduto<br />
-   Il certificato CA padre è scaduto</p></td>
-<td style="border:1px solid black;"><p>Il certificato della CA è scaduto. Questa situazione sta attualmente causando una perdita di servizio.</p></td>
-<td style="border:1px solid black;"><p>Servizio non disponibile</p></td>
+   Il certificato CA padre è scaduto</td>
+<td style="border:1px solid black;">Il certificato della CA è scaduto. Questa situazione sta attualmente causando una perdita di servizio.</td>
+<td style="border:1px solid black;">Servizio non disponibile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>La validità rimanente del certificato CA è inferiore a 1 mese</p></td>
-<td style="border:1px solid black;"><p>Il certificato CA scadrà presto e, se non corretto, causerà la perdita del servizio. Attualmente vengono emessi solo certificati con durata molto breve.</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">La validità rimanente del certificato CA è inferiore a 1 mese</td>
+<td style="border:1px solid black;">Il certificato CA scadrà presto e, se non corretto, causerà la perdita del servizio. Attualmente vengono emessi solo certificati con durata molto breve.</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>La validità del certificato CA è inferiore alla metà del suo periodo di validità</p></td>
-<td style="border:1px solid black;"><p>Un certificato CA deve essere rinnovato quando raggiunge la metà del suo periodo di validità. Ciò significa che vengono emessi certificati con validità inferiore alla durata prevista.</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
+<td style="border:1px solid black;">La validità del certificato CA è inferiore alla metà del suo periodo di validità</td>
+<td style="border:1px solid black;">Un certificato CA deve essere rinnovato quando raggiunge la metà del suo periodo di validità. Ciò significa che vengono emessi certificati con validità inferiore alla durata prevista.</td>
+<td style="border:1px solid black;">Attenzione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Backup CA non riuscito</p></td>
-<td style="border:1px solid black;"><p>Backup dello stato del sistema della CA non riuscito; possibile perdita di informazioni.</p></td>
-<td style="border:1px solid black;"><p>Critico o Errore</p></td>
+<td style="border:1px solid black;">Backup CA non riuscito</td>
+<td style="border:1px solid black;">Backup dello stato del sistema della CA non riuscito; possibile perdita di informazioni.</td>
+<td style="border:1px solid black;">Critico o Errore</td>
 </tr>
 </tbody>
 </table>
@@ -2013,7 +2013,7 @@ Gli script sono stati progettati per essere eseguiti sulla CA di emissione in li
   
 **Tabella 11.12. Script di monitoraggio di Servizi certificati**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -2022,97 +2022,97 @@ Gli script sono stati progettati per essere eseguiti sulla CA di emissione in li
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Event</p></th>
-<th><p>Script o metodo di rilevamento</p></th>
-<th><p>Origine e</p>
-<p>ID evento</p></th>
+<th>Event</th>
+<th>Script o metodo di rilevamento</th>
+<th>Origine e
+ID evento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CRL scaduto</p></td>
-<td style="border:1px solid black;"><p>Script: Ca_monitor.wsf<br />
-Job: CheckCRLs</p></td>
-<td style="border:1px solid black;"><p>Operazioni CA 20</p></td>
+<td style="border:1px solid black;">CRL scaduto</td>
+<td style="border:1px solid black;">Script: Ca_monitor.wsf<br />
+Job: CheckCRLs</td>
+<td style="border:1px solid black;">Operazioni CA 20</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>CRL pronto</p></td>
-<td style="border:1px solid black;"><p>Script: Ca_monitor.wsf<br />
-Job: CheckCRLs</p></td>
-<td style="border:1px solid black;"><p>Operazioni CA 21</p></td>
+<td style="border:1px solid black;">CRL pronto</td>
+<td style="border:1px solid black;">Script: Ca_monitor.wsf<br />
+Job: CheckCRLs</td>
+<td style="border:1px solid black;">Operazioni CA 21</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Elenco CRL non disponibile<br />
+<td style="border:1px solid black;">Elenco CRL non disponibile<br />
 Eventi secondari:<br />
    Impossibile recuperare l’elenco CRL da Active Directory<br />
-Il CRL non può essere recuperato dal server Web</p></td>
-<td style="border:1px solid black;"><p>Script: Ca_monitor.wsf<br />
-Job: CheckCRLs</p></td>
-<td style="border:1px solid black;"><p>Operazioni CA 22<br />
-23</p></td>
+Il CRL non può essere recuperato dal server Web</td>
+<td style="border:1px solid black;">Script: Ca_monitor.wsf<br />
+Job: CheckCRLs</td>
+<td style="border:1px solid black;">Operazioni CA 22<br />
+23</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Server CA non riuscito</p></td>
-<td style="border:1px solid black;"><p>Rilevamento errore server MOM nativo</p></td>
+<td style="border:1px solid black;">Server CA non riuscito</td>
+<td style="border:1px solid black;">Rilevamento errore server MOM nativo</td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Integrità del sistema operativo CA in stato critico</p></td>
-<td style="border:1px solid black;"><p>Monitoraggio integrità server MOM nativo</p></td>
+<td style="border:1px solid black;">Integrità del sistema operativo CA in stato critico</td>
+<td style="border:1px solid black;">Monitoraggio integrità server MOM nativo</td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Integrità del sistema operativo CA in stato di errore/avviso</p></td>
-<td style="border:1px solid black;"><p>Monitoraggio integrità server MOM nativo</p></td>
+<td style="border:1px solid black;">Integrità del sistema operativo CA in stato di errore/avviso</td>
+<td style="border:1px solid black;">Monitoraggio integrità server MOM nativo</td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi certificati in linea<br />
+<td style="border:1px solid black;">Servizi certificati in linea<br />
 Eventi secondari:<br />
    Interfaccia client non in linea<br />
-   Interfaccia di amministrazione non in linea</p></td>
-<td style="border:1px solid black;"><p>Script: Ca_monitor.wsf<br />
-Job: IsCAAlives</p></td>
-<td style="border:1px solid black;"><p>Operazioni CA 1<br />
-2</p></td>
+   Interfaccia di amministrazione non in linea</td>
+<td style="border:1px solid black;">Script: Ca_monitor.wsf<br />
+Job: IsCAAlives</td>
+<td style="border:1px solid black;">Operazioni CA 1<br />
+2</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certificato CA scaduto<br />
+<td style="border:1px solid black;">Certificato CA scaduto<br />
 Eventi secondari:<br />
    Questo certificato CA è scaduto<br />
-   Il certificato CA padre è scaduto</p></td>
-<td style="border:1px solid black;"><p>Script: Ca_monitor.wsf<br />
-Job: CheckCACerts</p></td>
-<td style="border:1px solid black;"><p>Operazioni CA 10</p></td>
+   Il certificato CA padre è scaduto</td>
+<td style="border:1px solid black;">Script: Ca_monitor.wsf<br />
+Job: CheckCACerts</td>
+<td style="border:1px solid black;">Operazioni CA 10</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>La validità rimanente del certificato CA è inferiore a 1 mese</p></td>
-<td style="border:1px solid black;"><p>Script: Ca_monitor.wsf<br />
-Job: CheckCACerts</p></td>
-<td style="border:1px solid black;"><p>Operazioni CA 11</p></td>
+<td style="border:1px solid black;">La validità rimanente del certificato CA è inferiore a 1 mese</td>
+<td style="border:1px solid black;">Script: Ca_monitor.wsf<br />
+Job: CheckCACerts</td>
+<td style="border:1px solid black;">Operazioni CA 11</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>La validità del certificato CA è inferiore alla metà del suo periodo di validità</p></td>
-<td style="border:1px solid black;"><p>Script: Ca_monitor.wsf<br />
-Job: CheckCACerts</p></td>
-<td style="border:1px solid black;"><p>Operazioni CA 12</p></td>
+<td style="border:1px solid black;">La validità del certificato CA è inferiore alla metà del suo periodo di validità</td>
+<td style="border:1px solid black;">Script: Ca_monitor.wsf<br />
+Job: CheckCACerts</td>
+<td style="border:1px solid black;">Operazioni CA 12</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Backup CA bloccato (non è stato possibile eseguire lo script di backup in quanto era ancora presente un file di blocco del backup precedente)</p></td>
-<td style="border:1px solid black;"><p>Script: Ca_operations.wsf<br />
-Job: BackupCADatabase</p></td>
-<td style="border:1px solid black;"><p>Operazioni CA 30</p></td>
+<td style="border:1px solid black;">Backup CA bloccato (non è stato possibile eseguire lo script di backup in quanto era ancora presente un file di blocco del backup precedente)</td>
+<td style="border:1px solid black;">Script: Ca_operations.wsf<br />
+Job: BackupCADatabase</td>
+<td style="border:1px solid black;">Operazioni CA 30</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Backup CA non riuscito</p></td>
-<td style="border:1px solid black;"><p>Il codice di errore per NTBackup.exe viene fornito in questa situazione, sebbene si basi sulle capacità di MOM o di un altro sistema di monitoraggio per avvisare sui problemi di backup. Tenere presente che è necessario controllare sia il sistema di backup dello stato del sistema che quello organizzativo.</p></td>
-<td style="border:1px solid black;"><p>Ntbackup<br />
-8019</p></td>
+<td style="border:1px solid black;">Backup CA non riuscito</td>
+<td style="border:1px solid black;">Il codice di errore per NTBackup.exe viene fornito in questa situazione, sebbene si basi sulle capacità di MOM o di un altro sistema di monitoraggio per avvisare sui problemi di backup. Tenere presente che è necessario controllare sia il sistema di backup dello stato del sistema che quello organizzativo.</td>
+<td style="border:1px solid black;">Ntbackup<br />
+8019</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Altro evento</p></td>
-<td style="border:1px solid black;"><p>Errore di esecuzione di Ca_monitor.wsf</p></td>
-<td style="border:1px solid black;"><p>Operazioni CA 100</p></td>
+<td style="border:1px solid black;">Altro evento</td>
+<td style="border:1px solid black;">Errore di esecuzione di Ca_monitor.wsf</td>
+<td style="border:1px solid black;">Operazioni CA 100</td>
 </tr>
 </tbody>
 </table>
@@ -2212,7 +2212,7 @@ Le categorie degli avvisi di operazione riuscita e operazione non riuscita della
   
 **Tabella 11.13. Eventi di controllo di Servizi certificati**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2222,303 +2222,303 @@ Le categorie degli avvisi di operazione riuscita e operazione non riuscita della
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ID evento</p></th>
-<th><p>Descrizione evento</p></th>
-<th><p>Categoria avviso di operazione riuscita</p></th>
-<th><p>Categoria avviso di operazione non riuscita</p></th>
+<th>ID evento</th>
+<th>Descrizione evento</th>
+<th>Categoria avviso di operazione riuscita</th>
+<th>Categoria avviso di operazione non riuscita</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>772</p></td>
-<td style="border:1px solid black;"><p>Il responsabile certificati ha negato una richiesta di certificati in sospeso</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">772</td>
+<td style="border:1px solid black;">Il responsabile certificati ha negato una richiesta di certificati in sospeso</td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>773</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha ricevuto una richiesta di certificati nuovamente inoltrata</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">773</td>
+<td style="border:1px solid black;">Servizi certificati ha ricevuto una richiesta di certificati nuovamente inoltrata</td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>774</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha revocato un certificato</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">774</td>
+<td style="border:1px solid black;">Servizi certificati ha revocato un certificato</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>775</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha ricevuto una richiesta di pubblicazione dell’elenco di revoche di certificati (CRL)</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
+<td style="border:1px solid black;">775</td>
+<td style="border:1px solid black;">Servizi certificati ha ricevuto una richiesta di pubblicazione dell’elenco di revoche di certificati (CRL)</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">Attenzione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>776</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha pubblicato l'elenco di revoche di certificati (CRL)</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">776</td>
+<td style="border:1px solid black;">Servizi certificati ha pubblicato l'elenco di revoche di certificati (CRL)</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>777</p></td>
-<td style="border:1px solid black;"><p>L’estensione di una richiesta di certificati è stata modificata</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">777</td>
+<td style="border:1px solid black;">L’estensione di una richiesta di certificati è stata modificata</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>778</p></td>
-<td style="border:1px solid black;"><p>Uno o più attributi di richieste di certificati sono stati modificati</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">778</td>
+<td style="border:1px solid black;">Uno o più attributi di richieste di certificati sono stati modificati</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>779</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha ricevuto una richiesta di arresto</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">779</td>
+<td style="border:1px solid black;">Servizi certificati ha ricevuto una richiesta di arresto</td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>780</p></td>
-<td style="border:1px solid black;"><p>È stato avviato il backup di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>–</p></td>
+<td style="border:1px solid black;">780</td>
+<td style="border:1px solid black;">È stato avviato il backup di Servizi certificati</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">–</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>781</p></td>
-<td style="border:1px solid black;"><p>È stato completato il backup di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>–</p></td>
+<td style="border:1px solid black;">781</td>
+<td style="border:1px solid black;">È stato completato il backup di Servizi certificati</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">–</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>782</p></td>
-<td style="border:1px solid black;"><p>È stato avviato il ripristino di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>–</p></td>
+<td style="border:1px solid black;">782</td>
+<td style="border:1px solid black;">È stato avviato il ripristino di Servizi certificati</td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">–</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>783</p></td>
-<td style="border:1px solid black;"><p>È stato completato il ripristino di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>–</p></td>
+<td style="border:1px solid black;">783</td>
+<td style="border:1px solid black;">È stato completato il ripristino di Servizi certificati</td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">–</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>784</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati avviato</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>–</p></td>
+<td style="border:1px solid black;">784</td>
+<td style="border:1px solid black;">Servizi certificati avviato</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">–</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>785</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati arrestato</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>–</p></td>
+<td style="border:1px solid black;">785</td>
+<td style="border:1px solid black;">Servizi certificati arrestato</td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">–</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>786</p></td>
-<td style="border:1px solid black;"><p>Le autorizzazioni di protezione di Servizi certificati sono state modificate</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">786</td>
+<td style="border:1px solid black;">Le autorizzazioni di protezione di Servizi certificati sono state modificate</td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>787</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha recuperato una chiave archiviata</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">787</td>
+<td style="border:1px solid black;">Servizi certificati ha recuperato una chiave archiviata</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>788</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha importato un certificato nel proprio database</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
+<td style="border:1px solid black;">788</td>
+<td style="border:1px solid black;">Servizi certificati ha importato un certificato nel proprio database</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">Attenzione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>789</p></td>
-<td style="border:1px solid black;"><p>Il filtro di controllo per Servizi certificati è stato modificato</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">789</td>
+<td style="border:1px solid black;">Il filtro di controllo per Servizi certificati è stato modificato</td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>790</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha ricevuto una richiesta di certificato</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">790</td>
+<td style="border:1px solid black;">Servizi certificati ha ricevuto una richiesta di certificato</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>791</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha approvato una richiesta di certificato e ha rilasciato un certificato</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">791</td>
+<td style="border:1px solid black;">Servizi certificati ha approvato una richiesta di certificato e ha rilasciato un certificato</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>792</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha negato una richiesta di certificato</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
+<td style="border:1px solid black;">792</td>
+<td style="border:1px solid black;">Servizi certificati ha negato una richiesta di certificato</td>
+<td style="border:1px solid black;">Attenzione</td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>793</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha negato una richiesta di certificato</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
+<td style="border:1px solid black;">793</td>
+<td style="border:1px solid black;">Servizi certificati ha negato una richiesta di certificato</td>
+<td style="border:1px solid black;">Informazioni</td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>794</p></td>
-<td style="border:1px solid black;"><p>Le impostazioni del responsabile certificati per Servizi certificati sono state modificate</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
+<td style="border:1px solid black;">794</td>
+<td style="border:1px solid black;">Le impostazioni del responsabile certificati per Servizi certificati sono state modificate</td>
+<td style="border:1px solid black;">Attenzione</td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>795</p></td>
-<td style="border:1px solid black;"><p>Una voce della configurazione in Servizi certificati è stata modificata</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">795</td>
+<td style="border:1px solid black;">Una voce della configurazione in Servizi certificati è stata modificata</td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"><p>Nodo:<br />
+<td style="border:1px solid black;">Nodo:<br />
 Voce: CRLPeriod o CRLPeriodUnits o CRLDeltaPeriod o CRLDeltaPeriodUnits<br />
-Descrive le modifiche nella pianificazione della pubblicazione del CRL. Il valore 0 per CRLDeltaPeriodUnits significa che la pubblicazione di Delta CRL è disattivata.</p></td>
+Descrive le modifiche nella pianificazione della pubblicazione del CRL. Il valore 0 per CRLDeltaPeriodUnits significa che la pubblicazione di Delta CRL è disattivata.</td>
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"><p>Nodo: PolicyModules\CertificateAuthority_Microsoft<br />
+<td style="border:1px solid black;">Nodo: PolicyModules\CertificateAuthority_Microsoft<br />
 Default.Policy<br />
 Voce: RequestDisposition<br />
 Valore: 1<br />
-Imposta la CA per l’emissione di richieste in ingresso, se non diversamente specificato.</p></td>
+Imposta la CA per l’emissione di richieste in ingresso, se non diversamente specificato.</td>
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"><p>Nodo: PolicyModules\CertificateAuthority_Microsoft<br />
+<td style="border:1px solid black;">Nodo: PolicyModules\CertificateAuthority_Microsoft<br />
 Default.Policy<br />
 Voce: RequestDisposition<br />
 Valore: 257<br />
-Imposta la CA in modo che mantenga le richieste in ingresso in sospeso.</p></td>
+Imposta la CA in modo che mantenga le richieste in ingresso in sospeso.</td>
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"><p>Nodo: ExitModules\CertificateAuthority_Microsoft<br />
+<td style="border:1px solid black;">Nodo: ExitModules\CertificateAuthority_Microsoft<br />
 Default.Exit<br />
 Voce: PublishCertFlags<br />
 Valore: 1<br />
-Consente ai certificati di essere pubblicati nel file system.</p></td>
+Consente ai certificati di essere pubblicati nel file system.</td>
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"><p>Nodo: ExitModules\CertificateAuthority_Microsoft<br />
+<td style="border:1px solid black;">Nodo: ExitModules\CertificateAuthority_Microsoft<br />
 Default.Exit<br />
 Voce: PublishCertFlags<br />
 Valore: 0<br />
-Non consente ai certificati di essere pubblicati nel file system.</p></td>
+Non consente ai certificati di essere pubblicati nel file system.</td>
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"><p>Nodo: ExitModules<br />
+<td style="border:1px solid black;">Nodo: ExitModules<br />
 Voce: Active<br />
-Passa al modulo uscita attivo. Valore specifica il nome del nuovo modulo. Se vuoto significa nessuno.</p></td>
+Passa al modulo uscita attivo. Valore specifica il nome del nuovo modulo. Se vuoto significa nessuno.</td>
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"><p>Nodo: PolicyModules<br />
+<td style="border:1px solid black;">Nodo: PolicyModules<br />
 Voce: Active<br />
-Passa al modulo criterio attivo. Valore specifica il nome del nuovo modulo.</p></td>
+Passa al modulo criterio attivo. Valore specifica il nome del nuovo modulo.</td>
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"><p>Nodo:<br />
+<td style="border:1px solid black;">Nodo:<br />
 Voce: CRLPublicationURLs<br />
-Passa a CDP o AIA. Valore specifica il gruppo di CDP risultanti</p></td>
-<td style="border:1px solid black;"><p>Nodo:<br />
+Passa a CDP o AIA. Valore specifica il gruppo di CDP risultanti</td>
+<td style="border:1px solid black;">Nodo:<br />
 Voce: CACertPublicationURLs<br />
-Passa a AIA o CDP. Valore specifica il gruppo di AIA risultanti.</p></td>
+Passa a AIA o CDP. Valore specifica il gruppo di AIA risultanti.</td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>796</p></td>
-<td style="border:1px solid black;"><p>Una proprietà di Servizi certificati è stata modificata (vedere i sottotipi riportati di seguito).</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">796</td>
+<td style="border:1px solid black;">Una proprietà di Servizi certificati è stata modificata (vedere i sottotipi riportati di seguito).</td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 <tr class="even">
 <td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"><p>Tipo: 4<br />
-Aggiunta/rimozione di un modello a/da CA. Valore è l’elenco dei modelli risultanti ordinato per nome e OID.</p></td>
+<td style="border:1px solid black;">Tipo: 4<br />
+Aggiunta/rimozione di un modello a/da CA. Valore è l’elenco dei modelli risultanti ordinato per nome e OID.</td>
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"><p>Tipo: 3<br />
-Aggiunta di certificati KRA a CA. Valore è la rappresentazione Base64 del certificato.</p></td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"> </td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"><p>Tipo: 1<br />
-Rimozione certificato KRA da CA. Valore è il conteggio totale dei certificati KRA.</p></td>
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"> </td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"> </td>
-<td style="border:1px solid black;"><p>Tipo: 1<br />
-Aggiunta/rimozione numero di certificati KRA da utilizzare per l’archiviazione delle chiavi. Valore è il numero risultante di certificati da utilizzare.</p></td>
+<td style="border:1px solid black;">Tipo: 3<br />
+Aggiunta di certificati KRA a CA. Valore è la rappresentazione Base64 del certificato.</td>
 <td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>797</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha archiviato una chiave.</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>–</p></td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><p>798</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha importato e archiviato una chiave.</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>–</p></td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><p>799</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha pubblicato il certificato della CA in Active Directory.</p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Tipo: 1<br />
+Rimozione certificato KRA da CA. Valore è il conteggio totale dei certificati KRA.</td>
+<td style="border:1px solid black;"> </td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>800</p></td>
-<td style="border:1px solid black;"><p>Una o più righe sono state eliminate dal database dei certificati.</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;">Tipo: 1<br />
+Aggiunta/rimozione numero di certificati KRA da utilizzare per l’archiviazione delle chiavi. Valore è il numero risultante di certificati da utilizzare.</td>
+<td style="border:1px solid black;"> </td>
+<td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>801</p></td>
-<td style="border:1px solid black;"><p>Separazione ruoli abilitata.</p></td>
-<td style="border:1px solid black;"><p>Attenzione</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+<td style="border:1px solid black;">797</td>
+<td style="border:1px solid black;">Servizi certificati ha archiviato una chiave.</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">–</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>560</p></td>
-<td style="border:1px solid black;"><p>Accesso agli oggetti<br />
+<td style="border:1px solid black;">798</td>
+<td style="border:1px solid black;">Servizi certificati ha importato e archiviato una chiave.</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">–</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">799</td>
+<td style="border:1px solid black;">Servizi certificati ha pubblicato il certificato della CA in Active Directory.</td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;"> </td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">800</td>
+<td style="border:1px solid black;">Una o più righe sono state eliminate dal database dei certificati.</td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">Errore</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">801</td>
+<td style="border:1px solid black;">Separazione ruoli abilitata.</td>
+<td style="border:1px solid black;">Attenzione</td>
+<td style="border:1px solid black;">Errore</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">560</td>
+<td style="border:1px solid black;">Accesso agli oggetti<br />
 Dove:<br />
 Tipo oggetto: <strong>Chiave</strong><br />
-Nome oggetto: <strong>\REGISTRY\MACHINE\SYSTEM\ ControlSet001\Services\CertSvc\Configuration</strong></p></td>
-<td style="border:1px solid black;"><p>Informazioni</p></td>
-<td style="border:1px solid black;"><p>Errore</p></td>
+Nome oggetto: <strong>\REGISTRY\MACHINE\SYSTEM\ ControlSet001\Services\CertSvc\Configuration</strong></td>
+<td style="border:1px solid black;">Informazioni</td>
+<td style="border:1px solid black;">Errore</td>
 </tr>
 </tbody>
 </table>
@@ -2586,7 +2586,7 @@ Solo sulla CA di emissione possono essere eseguiti processi automatici. La CA pr
   
 **Tabella 11.14. Elenco di processi pianificati sulla CA di emissione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2596,49 +2596,49 @@ Solo sulla CA di emissione possono essere eseguiti processi automatici. La CA pr
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Descrizione della mansione</p></th>
-<th><p>Schedule</p></th>
-<th><p>Eseguito da</p></th>
-<th><p>Attività di riferimento</p></th>
+<th>Descrizione della mansione</th>
+<th>Schedule</th>
+<th>Eseguito da</th>
+<th>Attività di riferimento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Backup dello stato del sistema della CA su file</p></td>
-<td style="border:1px solid black;"><p>Ogni giorno</p></td>
-<td style="border:1px solid black;"><p>Utilità di pianificazione di Windows</p></td>
-<td style="border:1px solid black;"><p>Configurazione ed esecuzione del backup del database della CA di emissione<br />
-Configurazione ed esecuzione del backup del database della CA principale</p></td>
+<td style="border:1px solid black;">Backup dello stato del sistema della CA su file</td>
+<td style="border:1px solid black;">Ogni giorno</td>
+<td style="border:1px solid black;">Utilità di pianificazione di Windows</td>
+<td style="border:1px solid black;">Configurazione ed esecuzione del backup del database della CA di emissione<br />
+Configurazione ed esecuzione del backup del database della CA principale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Backup del file della CA per archiviazione di backup</p></td>
-<td style="border:1px solid black;"><p>Quotidiana (dopo il backup dello stato del sistema)</p></td>
-<td style="border:1px solid black;"><p>Utilità di pianificazione backup organizzativa</p></td>
-<td style="border:1px solid black;"><p>Nessuna (definita dall’organizzazione)</p></td>
+<td style="border:1px solid black;">Backup del file della CA per archiviazione di backup</td>
+<td style="border:1px solid black;">Quotidiana (dopo il backup dello stato del sistema)</td>
+<td style="border:1px solid black;">Utilità di pianificazione backup organizzativa</td>
+<td style="border:1px solid black;">Nessuna (definita dall’organizzazione)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Pubblicazione di CRL su IIS</p></td>
-<td style="border:1px solid black;"><p>Oraria</p></td>
-<td style="border:1px solid black;"><p>Utilità di pianificazione di Windows</p></td>
-<td style="border:1px solid black;"><p>Pubblicazione certificati e CA di emissione su IIS</p></td>
+<td style="border:1px solid black;">Pubblicazione di CRL su IIS</td>
+<td style="border:1px solid black;">Oraria</td>
+<td style="border:1px solid black;">Utilità di pianificazione di Windows</td>
+<td style="border:1px solid black;">Pubblicazione certificati e CA di emissione su IIS</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllo dell’integrità della CA in linea</p></td>
-<td style="border:1px solid black;"><p>Oraria</p></td>
-<td style="border:1px solid black;"><p>MOM o Utilità di pianificazione di Windows</p></td>
-<td style="border:1px solid black;"><p>Monitoraggio integrità e disponibilità Servizi certificati</p></td>
+<td style="border:1px solid black;">Controllo dell’integrità della CA in linea</td>
+<td style="border:1px solid black;">Oraria</td>
+<td style="border:1px solid black;">MOM o Utilità di pianificazione di Windows</td>
+<td style="border:1px solid black;">Monitoraggio integrità e disponibilità Servizi certificati</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Monitoraggio dello stato di pubblicazione ed emissione CRL</p></td>
-<td style="border:1px solid black;"><p>Oraria</p></td>
-<td style="border:1px solid black;"><p>MOM o Utilità di pianificazione di Windows</p></td>
-<td style="border:1px solid black;"><p>Monitoraggio integrità e disponibilità Servizi certificati</p></td>
+<td style="border:1px solid black;">Monitoraggio dello stato di pubblicazione ed emissione CRL</td>
+<td style="border:1px solid black;">Oraria</td>
+<td style="border:1px solid black;">MOM o Utilità di pianificazione di Windows</td>
+<td style="border:1px solid black;">Monitoraggio integrità e disponibilità Servizi certificati</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Monitoraggio della validità dei certificati CA</p></td>
-<td style="border:1px solid black;"><p>Ogni giorno</p></td>
-<td style="border:1px solid black;"><p>MOM o Utilità di pianificazione di Windows</p></td>
-<td style="border:1px solid black;"><p>Monitoraggio integrità e disponibilità Servizi certificati</p></td>
+<td style="border:1px solid black;">Monitoraggio della validità dei certificati CA</td>
+<td style="border:1px solid black;">Ogni giorno</td>
+<td style="border:1px solid black;">MOM o Utilità di pianificazione di Windows</td>
+<td style="border:1px solid black;">Monitoraggio integrità e disponibilità Servizi certificati</td>
 </tr>
 </tbody>
 </table>
@@ -3803,7 +3803,7 @@ Nella tabella seguente sono elencati i principali problemi di supporto e le rela
   
 **Tabella 11.15. Principali problemi di supporto**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -3812,75 +3812,75 @@ Nella tabella seguente sono elencati i principali problemi di supporto e le rela
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Problema</p></th>
-<th><p>Descrizione</p></th>
-<th><p>Processo supporto</p></th>
+<th>Problema</th>
+<th>Descrizione</th>
+<th>Processo supporto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Server non risponde</p></td>
-<td style="border:1px solid black;"><p>Il processo software non risponde alle richieste dei client o agli strumenti di amministrazione.</p></td>
-<td style="border:1px solid black;"><p>Riavvio di Servizi certificati<br />
+<td style="border:1px solid black;">Server non risponde</td>
+<td style="border:1px solid black;">Il processo software non risponde alle richieste dei client o agli strumenti di amministrazione.</td>
+<td style="border:1px solid black;">Riavvio di Servizi certificati<br />
 oppure<br />
-Riavvio del server CA</p></td>
+Riavvio del server CA</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Pubblicazione CRL non riuscita</p></td>
-<td style="border:1px solid black;"><p>Il CRL è stato emesso dalla CA, ma l’ultimo CRL non è stato pubblicato in Active Directory e/o nel Web.</p></td>
-<td style="border:1px solid black;"><p>Vedere la procedura per la risoluzione dei problemi descritta di seguito.</p></td>
+<td style="border:1px solid black;">Pubblicazione CRL non riuscita</td>
+<td style="border:1px solid black;">Il CRL è stato emesso dalla CA, ma l’ultimo CRL non è stato pubblicato in Active Directory e/o nel Web.</td>
+<td style="border:1px solid black;">Vedere la procedura per la risoluzione dei problemi descritta di seguito.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CRL non emesso</p></td>
-<td style="border:1px solid black;"><p>Il CRL aggiornato non è stato emesso dalla CA.</p></td>
-<td style="border:1px solid black;"><p>Vedere la procedura completa per la risoluzione dei problemi descritta di seguito.</p></td>
+<td style="border:1px solid black;">CRL non emesso</td>
+<td style="border:1px solid black;">Il CRL aggiornato non è stato emesso dalla CA.</td>
+<td style="border:1px solid black;">Vedere la procedura completa per la risoluzione dei problemi descritta di seguito.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Il client non può registrare</p></td>
-<td style="border:1px solid black;"><p>La richiesta di registrazione del client non è riuscita.</p></td>
-<td style="border:1px solid black;"><p>Vedere la procedura completa per la risoluzione dei problemi descritta di seguito.</p></td>
+<td style="border:1px solid black;">Il client non può registrare</td>
+<td style="border:1px solid black;">La richiesta di registrazione del client non è riuscita.</td>
+<td style="border:1px solid black;">Vedere la procedura completa per la risoluzione dei problemi descritta di seguito.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Il client non può registrare automaticamente il certificato</p></td>
-<td style="border:1px solid black;"><p>La richiesta di registrazione automatica del client non è riuscita.</p></td>
-<td style="border:1px solid black;"><p>Vedere la procedura completa per la risoluzione dei problemi descritta di seguito.</p></td>
+<td style="border:1px solid black;">Il client non può registrare automaticamente il certificato</td>
+<td style="border:1px solid black;">La richiesta di registrazione automatica del client non è riuscita.</td>
+<td style="border:1px solid black;">Vedere la procedura completa per la risoluzione dei problemi descritta di seguito.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Aggiornamento della protezione installato richiede riavvio</p></td>
-<td style="border:1px solid black;"><p>L'aggiornamento della protezione è installato ma richiede il riavvio di Windows.</p></td>
-<td style="border:1px solid black;"><p>Riavvio del server CA</p></td>
+<td style="border:1px solid black;">Aggiornamento della protezione installato richiede riavvio</td>
+<td style="border:1px solid black;">L'aggiornamento della protezione è installato ma richiede il riavvio di Windows.</td>
+<td style="border:1px solid black;">Riavvio del server CA</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Errore server permanente</p></td>
-<td style="border:1px solid black;"><p>Errore hardware o danneggiamento che richiede il ripristino.</p></td>
-<td style="border:1px solid black;"><p>Ripristino CA da backup</p></td>
+<td style="border:1px solid black;">Errore server permanente</td>
+<td style="border:1px solid black;">Errore hardware o danneggiamento che richiede il ripristino.</td>
+<td style="border:1px solid black;">Ripristino CA da backup</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Certificato orfano deve essere revocato</p></td>
-<td style="border:1px solid black;"><p>Dopo il ripristino della CA, tutti i certificati emessi dopo l’ultimo backup non sono presenti nel database. Questi certificati non possono essere revocati secondo la normale procedura.</p></td>
-<td style="border:1px solid black;"><p>Revoca di un certificato orfano</p></td>
+<td style="border:1px solid black;">Certificato orfano deve essere revocato</td>
+<td style="border:1px solid black;">Dopo il ripristino della CA, tutti i certificati emessi dopo l’ultimo backup non sono presenti nel database. Questi certificati non possono essere revocati secondo la normale procedura.</td>
+<td style="border:1px solid black;">Revoca di un certificato orfano</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Il server non può essere ripristinato in tempo per l’emissione del certificato o del CRL</p></td>
-<td style="border:1px solid black;"><p>È necessario firmare nuovamente il CRL o il certificato con la chiave CA per prolungare il periodo di validità.</p></td>
-<td style="border:1px solid black;"><p>Sequenza di attività:<br />
+<td style="border:1px solid black;">Il server non può essere ripristinato in tempo per l’emissione del certificato o del CRL</td>
+<td style="border:1px solid black;">È necessario firmare nuovamente il CRL o il certificato con la chiave CA per prolungare il periodo di validità.</td>
+<td style="border:1px solid black;">Sequenza di attività:<br />
 1. Ripristino del certificato CA su un computer temporaneo<br />
-2. Nuova firma di un certificato o di un CRL per estenderne la validità</p></td>
+2. Nuova firma di un certificato o di un CRL per estenderne la validità</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Il certificato dell’entità finale è compromesso</p></td>
-<td style="border:1px solid black;"><p>La chiave privata del certificato è stata persa, divulgata o comunque compromessa.</p></td>
-<td style="border:1px solid black;"><p>Revoca del certificato di un’entità finale</p></td>
+<td style="border:1px solid black;">Il certificato dell’entità finale è compromesso</td>
+<td style="border:1px solid black;">La chiave privata del certificato è stata persa, divulgata o comunque compromessa.</td>
+<td style="border:1px solid black;">Revoca del certificato di un’entità finale</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Il certificato della CA di emissione è compromesso</p></td>
-<td style="border:1px solid black;"><p>La chiave privata del certificato CA è stata persa, divulgata o comunque compromessa.</p></td>
-<td style="border:1px solid black;"><p>Revoca e sostituzione di una CA di emissione</p></td>
+<td style="border:1px solid black;">Il certificato della CA di emissione è compromesso</td>
+<td style="border:1px solid black;">La chiave privata del certificato CA è stata persa, divulgata o comunque compromessa.</td>
+<td style="border:1px solid black;">Revoca e sostituzione di una CA di emissione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Il certificato della CA principale è compromesso</p></td>
-<td style="border:1px solid black;"><p>La chiave privata del certificato CA è stata persa, divulgata o comunque compromessa.</p></td>
-<td style="border:1px solid black;"><p>Revoca e sostituzione di una CA principale</p></td>
+<td style="border:1px solid black;">Il certificato della CA principale è compromesso</td>
+<td style="border:1px solid black;">La chiave privata del certificato CA è stata persa, divulgata o comunque compromessa.</td>
+<td style="border:1px solid black;">Revoca e sostituzione di una CA principale</td>
 </tr>
 </tbody>
 </table>
@@ -4071,7 +4071,7 @@ Nelle tabelle che seguono sono contenuti i valori di configurazione specifici de
   
 **Tabella 11.16. Elementi di configurazione definiti dall'utente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -4079,45 +4079,45 @@ Nelle tabelle che seguono sono contenuti i valori di configurazione specifici de
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome di dominio DNS per la radice di strutture Active Directory</p></td>
-<td style="border:1px solid black;"><p>woodgrovebank.com</p></td>
+<td style="border:1px solid black;">Nome di dominio DNS per la radice di strutture Active Directory</td>
+<td style="border:1px solid black;">woodgrovebank.com</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DN del dominio principale dell’insieme di strutture</p></td>
-<td style="border:1px solid black;"><p>DC=woodgrovebank,DC=com</p></td>
+<td style="border:1px solid black;">DN del dominio principale dell’insieme di strutture</td>
+<td style="border:1px solid black;">DC=woodgrovebank,DC=com</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome del server della CA principale</p></td>
-<td style="border:1px solid black;"><p>HQ-CA-01</p></td>
+<td style="border:1px solid black;">Nome del server della CA principale</td>
+<td style="border:1px solid black;">HQ-CA-01</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome del server della CA di emissione</p></td>
-<td style="border:1px solid black;"><p>HQ-CA-02</p></td>
+<td style="border:1px solid black;">Nome del server della CA di emissione</td>
+<td style="border:1px solid black;">HQ-CA-02</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>X.500 CN della CA principale</p></td>
-<td style="border:1px solid black;"><p>Woodgrove Bank Root CA</p></td>
+<td style="border:1px solid black;">X.500 CN della CA principale</td>
+<td style="border:1px solid black;">Woodgrove Bank Root CA</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>X.500 CN della CA di emissione</p></td>
-<td style="border:1px solid black;"><p>Woodgrove Bank Issuing CA 1</p></td>
+<td style="border:1px solid black;">X.500 CN della CA di emissione</td>
+<td style="border:1px solid black;">Woodgrove Bank Issuing CA 1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome host completo del server Web utilizzato per pubblicare le informazioni relative alla revoca e al certificato CA</p></td>
-<td style="border:1px solid black;"><p>www.woodgrovebank.com</p></td>
+<td style="border:1px solid black;">Nome host completo del server Web utilizzato per pubblicare le informazioni relative alla revoca e al certificato CA</td>
+<td style="border:1px solid black;">www.woodgrovebank.com</td>
 </tr>
 </tbody>
 </table>
   
 **Tabella 11.17. Elementi di configurazione definiti dalla soluzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -4125,58 +4125,58 @@ Nelle tabelle che seguono sono contenuti i valori di configurazione specifici de
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Amministratori del contenitore della configurazione dei servizi a chiave pubblica</p></td>
-<td style="border:1px solid black;"><p>Enterprise PKI Admins</p></td>
+<td style="border:1px solid black;">Amministratori del contenitore della configurazione dei servizi a chiave pubblica</td>
+<td style="border:1px solid black;">Enterprise PKI Admins</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Autorizzato a pubblicare CRL e certificati CA nel contenitore della configurazione dell’organizzazione di grandi dimensioni</p></td>
-<td style="border:1px solid black;"><p>Enterprise PKI Publishers</p></td>
+<td style="border:1px solid black;">Autorizzato a pubblicare CRL e certificati CA nel contenitore della configurazione dell’organizzazione di grandi dimensioni</td>
+<td style="border:1px solid black;">Enterprise PKI Publishers</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo amministrativo che configura e gestisce le CA; controlla inoltre la possibilità di assegnare tutti gli altri ruoli della CA e rinnova il certificato CA</p></td>
-<td style="border:1px solid black;"><p>CA Admins</p></td>
+<td style="border:1px solid black;">Gruppo amministrativo che configura e gestisce le CA; controlla inoltre la possibilità di assegnare tutti gli altri ruoli della CA e rinnova il certificato CA</td>
+<td style="border:1px solid black;">CA Admins</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gruppo amministrativo che approva la registrazione dei certificati e le richieste di revoca; ruolo CA Officer</p></td>
-<td style="border:1px solid black;"><p>Certificate Managers</p></td>
+<td style="border:1px solid black;">Gruppo amministrativo che approva la registrazione dei certificati e le richieste di revoca; ruolo CA Officer</td>
+<td style="border:1px solid black;">Certificate Managers</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Gruppo amministrativo che gestisce il controllo CA e i registri protezione</p></td>
-<td style="border:1px solid black;"><p>CA Auditors</p></td>
+<td style="border:1px solid black;">Gruppo amministrativo che gestisce il controllo CA e i registri protezione</td>
+<td style="border:1px solid black;">CA Auditors</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gruppo amministrativo che gestisce i backup CA</p></td>
-<td style="border:1px solid black;"><p>CA Backup Operators</p></td>
+<td style="border:1px solid black;">Gruppo amministrativo che gestisce i backup CA</td>
+<td style="border:1px solid black;">CA Backup Operators</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome della directory virtuale IIS utilizzata per pubblicare le informazioni relative al certificato CA e al CRL</p></td>
-<td style="border:1px solid black;"><p>pki</p></td>
+<td style="border:1px solid black;">Nome della directory virtuale IIS utilizzata per pubblicare le informazioni relative al certificato CA e al CRL</td>
+<td style="border:1px solid black;">pki</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Percorso fisico sulla CA di emissione che esegue il mapping alla directory virtuale IIS</p></td>
-<td style="border:1px solid black;"><p>C:\CAWWWPub</p></td>
+<td style="border:1px solid black;">Percorso fisico sulla CA di emissione che esegue il mapping alla directory virtuale IIS</td>
+<td style="border:1px solid black;">C:\CAWWWPub</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unità e percorso per archiviare i file di richieste di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>C:\CAConfig</p></td>
+<td style="border:1px solid black;">Unità e percorso per archiviare i file di richieste di Servizi certificati</td>
+<td style="border:1px solid black;">C:\CAConfig</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Unità e percorso per archiviare il database di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>%systemroot%\System32\CertLog</p></td>
+<td style="border:1px solid black;">Unità e percorso per archiviare il database di Servizi certificati</td>
+<td style="border:1px solid black;">%systemroot%\System32\CertLog</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unità e percorso per archiviare i registri del database di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>D:\CertLog</p></td>
+<td style="border:1px solid black;">Unità e percorso per archiviare i registri del database di Servizi certificati</td>
+<td style="border:1px solid black;">D:\CertLog</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Percorso per script di installazione</p></td>
-<td style="border:1px solid black;"><p>C:\MSSScripts</p></td>
+<td style="border:1px solid black;">Percorso per script di installazione</td>
+<td style="border:1px solid black;">C:\MSSScripts</td>
 </tr>
 </tbody>
 </table>

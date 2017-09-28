@@ -210,7 +210,7 @@ Da questi requisiti, è possibile determinare i criteri riportati nella seguente
 
 **Tabella 1. Criteri di progettazione della soluzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -218,61 +218,61 @@ Da questi requisiti, è possibile determinare i criteri riportati nella seguente
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Fattore di progettazione</p></th>
-<th><p>Criteri</p></th>
+<th>Fattore di progettazione</th>
+<th>Criteri</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protezione</p></td>
-<td style="border:1px solid black;"><p>- Autenticazione e autorizzazione affidabile dei client senza fili<br />
+<td style="border:1px solid black;">Protezione</td>
+<td style="border:1px solid black;">- Autenticazione e autorizzazione affidabile dei client senza fili<br />
 - Controllo dell'accesso affidabile per consentire o negare rispettivamente ai client autorizzati o non autorizzati l'accesso alla rete<br />
 - Crittografia di alto livello del traffico di rete senza fili<br />
 - Gestione protetta delle chiavi di crittografia<br />
-- Capacità di recupero da attacchi di negazione del servizio (DoS, Denial of Service)</p></td>
+- Capacità di recupero da attacchi di negazione del servizio (DoS, Denial of Service)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Scalabilità</p></td>
-<td style="border:1px solid black;"><p>Progettazione di base con scalabilità crescente e decrescente per adattarsi alle diverse dimensioni aziendali</p></td>
+<td style="border:1px solid black;">Scalabilità</td>
+<td style="border:1px solid black;">Progettazione di base con scalabilità crescente e decrescente per adattarsi alle diverse dimensioni aziendali</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Utenti supportati min./max.</p></td>
-<td style="border:1px solid black;"><p>500/15.000+ utenti WLAN - 500/15,000+ utenti certificati</p></td>
+<td style="border:1px solid black;">Utenti supportati min./max.</td>
+<td style="border:1px solid black;">500/15.000+ utenti WLAN - 500/15,000+ utenti certificati</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Numero di siti supportati</p></td>
-<td style="border:1px solid black;"><p>- Siti di grandi dimensioni, con controller del dominio di autenticazione locale e IAS (Microsoft Internet Authentication Service), supportati con capacità di recupero in caso di guasti alla rete WAN (Wide Area Network)<br />
-- Siti di piccole dimensioni multipli supportati senza capacità di recupero in casi di guasti alla rete WAN</p></td>
+<td style="border:1px solid black;">Numero di siti supportati</td>
+<td style="border:1px solid black;">- Siti di grandi dimensioni, con controller del dominio di autenticazione locale e IAS (Microsoft Internet Authentication Service), supportati con capacità di recupero in caso di guasti alla rete WAN (Wide Area Network)<br />
+- Siti di piccole dimensioni multipli supportati senza capacità di recupero in casi di guasti alla rete WAN</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Riutilizzo dei componenti (uso dell'infrastruttura esistente)</p></td>
-<td style="border:1px solid black;"><p>Utilizzo di Active Directory, dei servizi di rete e dei client Windows XP</p></td>
+<td style="border:1px solid black;">Riutilizzo dei componenti (uso dell'infrastruttura esistente)</td>
+<td style="border:1px solid black;">Utilizzo di Active Directory, dei servizi di rete e dei client Windows XP</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Riutilizzo dei componenti (utilizzabilità da parte delle applicazioni future)</p></td>
-<td style="border:1px solid black;"><p>- Supporto per altre applicazioni di accesso alla rete (accesso alla rete VPN e alla rete cablata 802.1X) mediante l'infrastruttura di autenticazione<br />
-- Supporto per una varietà di applicazioni, EFS (Encrypting File System) e VPN, mediante l'infrastruttura di certificazione</p></td>
+<td style="border:1px solid black;">Riutilizzo dei componenti (utilizzabilità da parte delle applicazioni future)</td>
+<td style="border:1px solid black;">- Supporto per altre applicazioni di accesso alla rete (accesso alla rete VPN e alla rete cablata 802.1X) mediante l'infrastruttura di autenticazione<br />
+- Supporto per una varietà di applicazioni, EFS (Encrypting File System) e VPN, mediante l'infrastruttura di certificazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disponibilità</p></td>
-<td style="border:1px solid black;"><p>Capacità di recupero in caso di guasto a singoli componenti o al collegamento di rete</p></td>
+<td style="border:1px solid black;">Disponibilità</td>
+<td style="border:1px solid black;">Capacità di recupero in caso di guasto a singoli componenti o al collegamento di rete</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Espansione</p></td>
-<td style="border:1px solid black;"><p>- Espandibile per supportare capacità e standard futuri (ad esempio, 802.11i, WPA, 802.11a per WLAN)<br />
-- Infrastruttura dei Servizi certificati espandibile per supportare gli usi più frequenti dei certificati a chiavi pubbliche (posta elettronica protetta, accesso con smart card, firma del codice, protezione del servizio Web e così via)</p></td>
+<td style="border:1px solid black;">Espansione</td>
+<td style="border:1px solid black;">- Espandibile per supportare capacità e standard futuri (ad esempio, 802.11i, WPA, 802.11a per WLAN)<br />
+- Infrastruttura dei Servizi certificati espandibile per supportare gli usi più frequenti dei certificati a chiavi pubbliche (posta elettronica protetta, accesso con smart card, firma del codice, protezione del servizio Web e così via)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Facilità di gestione</p></td>
-<td style="border:1px solid black;"><p>Integrazione con le soluzioni di gestione aziendale esistenti (comprende il controllo del sistema e del servizio, il backup, la gestione della configurazione e così via)</p></td>
+<td style="border:1px solid black;">Facilità di gestione</td>
+<td style="border:1px solid black;">Integrazione con le soluzioni di gestione aziendale esistenti (comprende il controllo del sistema e del servizio, il backup, la gestione della configurazione e così via)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Struttura dell'organizzazione IT</p></td>
-<td style="border:1px solid black;"><p>Scelta del reparto IT centralizzato (almeno cinque ma generalmente 20-30 persone)</p></td>
+<td style="border:1px solid black;">Struttura dell'organizzazione IT</td>
+<td style="border:1px solid black;">Scelta del reparto IT centralizzato (almeno cinque ma generalmente 20-30 persone)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Conformità agli standard</p></td>
-<td style="border:1px solid black;"><p>Adesione ai principali standard correnti e chiaro percorso di migrazione verso i principali standard futuri</p></td>
+<td style="border:1px solid black;">Conformità agli standard</td>
+<td style="border:1px solid black;">Adesione ai principali standard correnti e chiaro percorso di migrazione verso i principali standard futuri</td>
 </tr>
 </tbody>
 </table>

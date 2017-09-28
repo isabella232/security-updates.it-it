@@ -104,7 +104,7 @@ Nella tabella che segue sono illustrati i tipi di EAP che possono essere utilizz
 
 **Tabella 1. Vantaggi e svantaggi dei tipi di EAP**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -114,48 +114,48 @@ Nella tabella che segue sono illustrati i tipi di EAP che possono essere utilizz
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Funzionalità</p></th>
-<th><p>PEAP</p></th>
-<th><p>EAP-TLS</p></th>
-<th><p>MD5</p></th>
+<th>Funzionalità</th>
+<th>PEAP</th>
+<th>EAP-TLS</th>
+<th>MD5</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autenticazione reciproca</p></td>
-<td style="border:1px solid black;"><p>Autenticazione reciproca</p></td>
-<td style="border:1px solid black;"><p>Autenticazione reciproca</p></td>
-<td style="border:1px solid black;"><p>Autenticazione reciproca non supportata</p></td>
+<td style="border:1px solid black;">Autenticazione reciproca</td>
+<td style="border:1px solid black;">Autenticazione reciproca</td>
+<td style="border:1px solid black;">Autenticazione reciproca</td>
+<td style="border:1px solid black;">Autenticazione reciproca non supportata</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Rotazione delle chiavi (reimpostazione delle chiavi)</p></td>
-<td style="border:1px solid black;"><p>Generazione delle chiavi durante l'autenticazione</p></td>
-<td style="border:1px solid black;"><p>Generazione delle chiavi durante l'autenticazione</p></td>
-<td style="border:1px solid black;"><p>Rotazione delle chiavi non supportata: vengono utilizzate chiavi statiche.</p></td>
+<td style="border:1px solid black;">Rotazione delle chiavi (reimpostazione delle chiavi)</td>
+<td style="border:1px solid black;">Generazione delle chiavi durante l'autenticazione</td>
+<td style="border:1px solid black;">Generazione delle chiavi durante l'autenticazione</td>
+<td style="border:1px solid black;">Rotazione delle chiavi non supportata: vengono utilizzate chiavi statiche.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Livello della tecnologia di protezione</p></td>
-<td style="border:1px solid black;"><p>Autenticazione avanzata basata su password</p></td>
-<td style="border:1px solid black;"><p>Autenticazione avanzata</p></td>
-<td style="border:1px solid black;"><p>Tecnologia di protezione vulnerabile</p></td>
+<td style="border:1px solid black;">Livello della tecnologia di protezione</td>
+<td style="border:1px solid black;">Autenticazione avanzata basata su password</td>
+<td style="border:1px solid black;">Autenticazione avanzata</td>
+<td style="border:1px solid black;">Tecnologia di protezione vulnerabile</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Protezione delle credenziali utente</p></td>
-<td style="border:1px solid black;"><p>Protezione mediante il tunnel TLS (Transport Layer Security)</p></td>
-<td style="border:1px solid black;"><p>Autenticazione basata su certificati</p></td>
-<td style="border:1px solid black;"><p>Vulnerabile ad attacchi del dizionario</p></td>
+<td style="border:1px solid black;">Protezione delle credenziali utente</td>
+<td style="border:1px solid black;">Protezione mediante il tunnel TLS (Transport Layer Security)</td>
+<td style="border:1px solid black;">Autenticazione basata su certificati</td>
+<td style="border:1px solid black;">Vulnerabile ad attacchi del dizionario</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Semplicità di implementazione</p></td>
-<td style="border:1px solid black;"><p>Ampiamente supportata e inclusa a livello nativo nei client Windows</p></td>
-<td style="border:1px solid black;"><p>Richiesta un'infrastruttura a chiave pubblica (PKI) Ampiamente supportata e inclusa a livello nativo nei client Windows</p></td>
-<td style="border:1px solid black;"><p>Semplice, ma sconsigliata per le reti senza fili</p></td>
+<td style="border:1px solid black;">Semplicità di implementazione</td>
+<td style="border:1px solid black;">Ampiamente supportata e inclusa a livello nativo nei client Windows</td>
+<td style="border:1px solid black;">Richiesta un'infrastruttura a chiave pubblica (PKI) Ampiamente supportata e inclusa a livello nativo nei client Windows</td>
+<td style="border:1px solid black;">Semplice, ma sconsigliata per le reti senza fili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Flessibilità delle credenziali</p></td>
-<td style="border:1px solid black;"><p>Qualsiasi tipo EAP approvato con tunnel TLS, incluse password basate su EAP-MSCHAPv2.</p></td>
-<td style="border:1px solid black;"><p>Solo certificati digitali</p></td>
-<td style="border:1px solid black;"><p>Solo password</p></td>
+<td style="border:1px solid black;">Flessibilità delle credenziali</td>
+<td style="border:1px solid black;">Qualsiasi tipo EAP approvato con tunnel TLS, incluse password basate su EAP-MSCHAPv2.</td>
+<td style="border:1px solid black;">Solo certificati digitali</td>
+<td style="border:1px solid black;">Solo password</td>
 </tr>
 </tbody>
 </table>
@@ -208,7 +208,7 @@ Alcune funzionalità di Windows XP Professional funzionano correttamente solo se
   
 **Tabella 2. Considerazioni relative all'autenticazione basata su computer**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -216,30 +216,30 @@ Alcune funzionalità di Windows XP Professional funzionano correttamente solo se
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Funzionalità</p></th>
-<th><p>Scenario che richiede l'autenticazione basata su computer</p></th>
+<th>Funzionalità</th>
+<th>Scenario che richiede l'autenticazione basata su computer</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Criteri di gruppo per computer Active Directory</p></td>
-<td style="border:1px solid black;"><p>I criteri di gruppo basati su computer vengono applicati durante l'avvio del computer e a intervalli programmati, anche se nessun utente accede a Windows.</p></td>
+<td style="border:1px solid black;">Criteri di gruppo per computer Active Directory</td>
+<td style="border:1px solid black;">I criteri di gruppo basati su computer vengono applicati durante l'avvio del computer e a intervalli programmati, anche se nessun utente accede a Windows.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Script di accesso alla rete</p></td>
-<td style="border:1px solid black;"><p>Gli script di accesso alla rete vengono eseguiti durante l'accesso iniziale dell'utente.</p></td>
+<td style="border:1px solid black;">Script di accesso alla rete</td>
+<td style="border:1px solid black;">Gli script di accesso alla rete vengono eseguiti durante l'accesso iniziale dell'utente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Agenti di gestione dei sistemi</p></td>
-<td style="border:1px solid black;"><p>Gli agenti applicazione di gestione dei sistemi, come quelli inclusi in Microsoft Systems Management Server (SMS), spesso richiedono l'accesso alla rete senza l'intervento dell'utente.</p></td>
+<td style="border:1px solid black;">Agenti di gestione dei sistemi</td>
+<td style="border:1px solid black;">Gli agenti applicazione di gestione dei sistemi, come quelli inclusi in Microsoft Systems Management Server (SMS), spesso richiedono l'accesso alla rete senza l'intervento dell'utente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Connessione desktop remoto</p></td>
-<td style="border:1px solid black;"><p>I computer sono accessibili da Connessione desktop remoto Windows quando nessun utente ha eseguito l'accesso a Windows.</p></td>
+<td style="border:1px solid black;">Connessione desktop remoto</td>
+<td style="border:1px solid black;">I computer sono accessibili da Connessione desktop remoto Windows quando nessun utente ha eseguito l'accesso a Windows.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Cartelle condivise</p></td>
-<td style="border:1px solid black;"><p>I file e le cartelle condivise di un computer sono disponibili anche se nessun utente ha eseguito l'accesso.</p></td>
+<td style="border:1px solid black;">Cartelle condivise</td>
+<td style="border:1px solid black;">I file e le cartelle condivise di un computer sono disponibili anche se nessun utente ha eseguito l'accesso.</td>
 </tr>
 </tbody>
 </table>
@@ -254,7 +254,7 @@ Windows include un ampio supporto per la convalida dei certificati durante le op
   
 **Tabella 3. Convalida IAS delle credenziali dei certificati client**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -263,36 +263,36 @@ Windows include un ampio supporto per la convalida dei certificati durante le op
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Convalida IAS delle credenziali dei certificati client</p></th>
-<th><p>Comportamento predefinito</p></th>
-<th><p>Impostazioni utilizzate nella soluzione</p></th>
+<th>Convalida IAS delle credenziali dei certificati client</th>
+<th>Comportamento predefinito</th>
+<th>Impostazioni utilizzate nella soluzione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Verifica della validità del certificato rispetto alle date indicate.</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Verifica della validità del certificato rispetto alle date indicate.</td>
+<td style="border:1px solid black;">Attivo</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Verifica della possibilità di creare una catena dal certificato a una fonte attendibile.</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Verifica della possibilità di creare una catena dal certificato a una fonte attendibile.</td>
+<td style="border:1px solid black;">Attivo</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Verifica della conformità del certificato ai criteri di applicazione e utilizzo delle chiavi.</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Verifica della conformità del certificato ai criteri di applicazione e utilizzo delle chiavi.</td>
+<td style="border:1px solid black;">Attivo</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Verifica della proprietà del client mediante apposizione di una firma con chiave privata.</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Verifica della proprietà del client mediante apposizione di una firma con chiave privata.</td>
+<td style="border:1px solid black;">Attivo</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Verifica che il certificato non sia stato revocato.</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Verifica che il certificato non sia stato revocato.</td>
+<td style="border:1px solid black;">Attivo</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 </tbody>
 </table>
@@ -301,7 +301,7 @@ In Windows XP Professional vengono inoltre eseguiti, per impostazione predefinit
   
 **Tabella 4. Convalida di Windows XP delle credenziali dei certificati IAS**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -310,31 +310,31 @@ In Windows XP Professional vengono inoltre eseguiti, per impostazione predefinit
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Convalida di Windows XP delle credenziali dei certificati server</p></th>
-<th><p>Comportamento predefinito</p></th>
-<th><p>Impostazioni utilizzate nella soluzione</p></th>
+<th>Convalida di Windows XP delle credenziali dei certificati server</th>
+<th>Comportamento predefinito</th>
+<th>Impostazioni utilizzate nella soluzione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Verifica della validità del certificato rispetto alle date indicate.</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Verifica della validità del certificato rispetto alle date indicate.</td>
+<td style="border:1px solid black;">Attivo</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Verifica della possibilità di creare una catena dal certificato a una fonte attendibile.</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Verifica della possibilità di creare una catena dal certificato a una fonte attendibile.</td>
+<td style="border:1px solid black;">Attivo</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Verifica della conformità del certificato ai criteri di applicazione e utilizzo delle chiavi.</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Verifica della conformità del certificato ai criteri di applicazione e utilizzo delle chiavi.</td>
+<td style="border:1px solid black;">Attivo</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Verifica della proprietà del server mediante apposizione di una firma con chiave privata.</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Verifica della proprietà del server mediante apposizione di una firma con chiave privata.</td>
+<td style="border:1px solid black;">Attivo</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 </tbody>
 </table>
@@ -343,7 +343,7 @@ Quando l'autenticazione in una WLAN viene eseguita mediante lo standard 802.1X, 
   
 **Tabella 5. Convalida avanzata di Windows XP delle credenziali dei certificati IAS**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -352,21 +352,21 @@ Quando l'autenticazione in una WLAN viene eseguita mediante lo standard 802.1X, 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Convalida di Windows XP delle credenziali dei certificati server</p></th>
-<th><p>Comportamento predefinito</p></th>
-<th><p>Impostazioni utilizzate nella soluzione</p></th>
+<th>Convalida di Windows XP delle credenziali dei certificati server</th>
+<th>Comportamento predefinito</th>
+<th>Impostazioni utilizzate nella soluzione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Il soggetto certificato corrisponde a un valore stringa DNS (Domain Name System) configurabile nel client.</p></td>
-<td style="border:1px solid black;"><p>Non attivato</p></td>
-<td style="border:1px solid black;"><p>Invariato</p></td>
+<td style="border:1px solid black;">Il soggetto certificato corrisponde a un valore stringa DNS (Domain Name System) configurabile nel client.</td>
+<td style="border:1px solid black;">Non attivato</td>
+<td style="border:1px solid black;">Invariato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Selezione esplicita delle CA (Certification Authority, Autorità di certificazione) principali attendibili a cui è possibile concatenare il certificato server.</p></td>
-<td style="border:1px solid black;"><p>Non attivato</p></td>
-<td style="border:1px solid black;"><p>Attivo</p></td>
+<td style="border:1px solid black;">Selezione esplicita delle CA (Certification Authority, Autorità di certificazione) principali attendibili a cui è possibile concatenare il certificato server.</td>
+<td style="border:1px solid black;">Non attivato</td>
+<td style="border:1px solid black;">Attivo</td>
 </tr>
 </tbody>
 </table>
@@ -435,7 +435,7 @@ Nella tabella che segue sono illustrati esempi di diversi tipi di utenti e delle
   
 **Tabella 6. Esempi di restrizioni della connessione WLAN**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -443,22 +443,22 @@ Nella tabella che segue sono illustrati esempi di diversi tipi di utenti e delle
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Tipo di gruppo utente</p></th>
-<th><p>Esempio di restrizione della connessione</p></th>
+<th>Tipo di gruppo utente</th>
+<th>Esempio di restrizione della connessione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Dipendenti</p></td>
-<td style="border:1px solid black;"><p>Accesso autenticato senza restrizioni alla rete aziendale</p></td>
+<td style="border:1px solid black;">Dipendenti</td>
+<td style="border:1px solid black;">Accesso autenticato senza restrizioni alla rete aziendale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Consulenti e partner commerciali</p></td>
-<td style="border:1px solid black;"><p>Accesso autenticato limitato a reti e applicazioni specifiche</p></td>
+<td style="border:1px solid black;">Consulenti e partner commerciali</td>
+<td style="border:1px solid black;">Accesso autenticato limitato a reti e applicazioni specifiche</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Visitatori</p></td>
-<td style="border:1px solid black;"><p>Accesso non autenticato solo a segmenti della rete relativi a Internet per l'esplorazione del Web o accesso VPN all'organizzazione di origine</p></td>
+<td style="border:1px solid black;">Visitatori</td>
+<td style="border:1px solid black;">Accesso non autenticato solo a segmenti della rete relativi a Internet per l'esplorazione del Web o accesso VPN all'organizzazione di origine</td>
 </tr>
 </tbody>
 </table>
@@ -550,7 +550,7 @@ Per ulteriori informazioni su questi argomenti e sulla configurazione di punti d
   
 **Tabella 7. Pianificazione dei criteri di rete senza fili**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -559,36 +559,36 @@ Per ulteriori informazioni su questi argomenti e sulla configurazione di punti d
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Considerazione sui criteri di rete senza fili</p></th>
-<th><p>Strategia da adottare</p></th>
-<th><p>Dettagli sulla soluzione</p></th>
+<th>Considerazione sui criteri di rete senza fili</th>
+<th>Strategia da adottare</th>
+<th>Dettagli sulla soluzione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Criteri di applicazione dei criteri di gruppo</p></td>
-<td style="border:1px solid black;"><p>Filtraggio dei gruppi basato su Active Directory per includere solo computer selezionati.</p></td>
-<td style="border:1px solid black;"><p>Gruppo globale di computer per i criteri di rete senza fili</p></td>
+<td style="border:1px solid black;">Criteri di applicazione dei criteri di gruppo</td>
+<td style="border:1px solid black;">Filtraggio dei gruppi basato su Active Directory per includere solo computer selezionati.</td>
+<td style="border:1px solid black;">Gruppo globale di computer per i criteri di rete senza fili</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Numero di oggetti Criteri gruppo richiesti</p></td>
-<td style="border:1px solid black;"><p>Un solo criterio di rete senza fili.</p></td>
-<td style="border:1px solid black;"><p>Criteri di rete senza fili</p></td>
+<td style="border:1px solid black;">Numero di oggetti Criteri gruppo richiesti</td>
+<td style="border:1px solid black;">Un solo criterio di rete senza fili.</td>
+<td style="border:1px solid black;">Criteri di rete senza fili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Posizione oggetto Criteri di gruppo</p></td>
-<td style="border:1px solid black;"><p>Creato e applicato dall'oggetto di dominio.</p></td>
-<td style="border:1px solid black;"><p><em>ForestRootDomain</em></p></td>
+<td style="border:1px solid black;">Posizione oggetto Criteri di gruppo</td>
+<td style="border:1px solid black;">Creato e applicato dall'oggetto di dominio.</td>
+<td style="border:1px solid black;"><em>ForestRootDomain</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Numero di profili WLAN configurati nel criterio</p></td>
-<td style="border:1px solid black;"><p>Un solo profilo WLAN configurato per le organizzazioni che implementano lo standard 802.1X.</p></td>
-<td style="border:1px solid black;"><p>L'oggetto Criteri di gruppo contiene un profilo WLAN per gli ambienti in cui le reti WLAN non sono state utilizzate per scopi di produzione.<br />
-È possibile aggiungere altri profili WLAN per rispondere alle esigenze di una migrazione graduale da una WLAN di produzione precedente.</p></td>
+<td style="border:1px solid black;">Numero di profili WLAN configurati nel criterio</td>
+<td style="border:1px solid black;">Un solo profilo WLAN configurato per le organizzazioni che implementano lo standard 802.1X.</td>
+<td style="border:1px solid black;">L'oggetto Criteri di gruppo contiene un profilo WLAN per gli ambienti in cui le reti WLAN non sono state utilizzate per scopi di produzione.<br />
+È possibile aggiungere altri profili WLAN per rispondere alle esigenze di una migrazione graduale da una WLAN di produzione precedente.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 Questa soluzione utilizza una strategia semplificata di gestione dei criteri di rete senza fili basata sulla creazione di un singolo oggetto Criteri di gruppi e sulla sua applicazione all'oggetto di dominio. È tuttavia possibile definire standard di gestione dei criteri di gruppo specifici per l'organizzazione e applicare i criteri di rete senza fili in modo appropriato.
 
@@ -628,7 +628,7 @@ In questa soluzione viene utilizzato un singolo criterio di accesso remoto che g
 
 **Tabella 8. Condizioni del criterio di accesso remoto**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -637,23 +637,23 @@ In questa soluzione viene utilizzato un singolo criterio di accesso remoto che g
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condizione del criterio</p></th>
-<th><p>Condizione corrispondente</p></th>
-<th><p>Commento</p></th>
+<th>Condizione del criterio</th>
+<th>Condizione corrispondente</th>
+<th>Commento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tipo - porta - NAS</p></td>
-<td style="border:1px solid black;"><p>Senza fili - Altro<br />
+<td style="border:1px solid black;">Tipo - porta - NAS</td>
+<td style="border:1px solid black;">Senza fili - Altro<br />
 oppure<br />
-&quot;Senza fili - IEEE 802.11&quot;</p></td>
-<td style="border:1px solid black;"><p>Identifica le richieste in ingresso come provenienti dall'hardware dei punti di accesso senza fili.</p></td>
+&quot;Senza fili - IEEE 802.11&quot;</td>
+<td style="border:1px solid black;">Identifica le richieste in ingresso come provenienti dall'hardware dei punti di accesso senza fili.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gruppo - Windows</p></td>
-<td style="border:1px solid black;"><p>Criterio di accesso remoto: appartenenza al gruppo di protezione Wireless Access.</p></td>
-<td style="border:1px solid black;"><p>Gruppo di protezione universale basato su Active Directory che contiene gruppi globali nidificati per utenti e computer che avranno accesso alla rete WLAN.</p></td>
+<td style="border:1px solid black;">Gruppo - Windows</td>
+<td style="border:1px solid black;">Criterio di accesso remoto: appartenenza al gruppo di protezione Wireless Access.</td>
+<td style="border:1px solid black;">Gruppo di protezione universale basato su Active Directory che contiene gruppi globali nidificati per utenti e computer che avranno accesso alla rete WLAN.</td>
 </tr>
 </tbody>
 </table>
@@ -664,7 +664,7 @@ Nella tabella che segue sono descritte in dettaglio le opzioni del profilo del c
   
 **Tabella 9. Opzioni del profilo del criterio di accesso remoto**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -673,31 +673,31 @@ Nella tabella che segue sono descritte in dettaglio le opzioni del profilo del c
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Opzione profilo</p></th>
-<th><p>Impostazione profilo</p></th>
-<th><p>Commento</p></th>
+<th>Opzione profilo</th>
+<th>Impostazione profilo</th>
+<th>Commento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Limitazioni chiamate in ingresso - Limite massimo di minuti per la connessione del client (timeout sessione)</p></td>
-<td style="border:1px solid black;"><p>10</p></td>
-<td style="border:1px solid black;"><p>Questa impostazione impone ai computer client di eseguire una nuova autenticazione ogni 10 minuti. Rappresenta una soluzione ideale per garantire che le chiavi WEP vengano aggiornate.</p></td>
+<td style="border:1px solid black;">Limitazioni chiamate in ingresso - Limite massimo di minuti per la connessione del client (timeout sessione)</td>
+<td style="border:1px solid black;">10</td>
+<td style="border:1px solid black;">Questa impostazione impone ai computer client di eseguire una nuova autenticazione ogni 10 minuti. Rappresenta una soluzione ideale per garantire che le chiavi WEP vengano aggiornate.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Autenticazione: metodi EAP</p></td>
-<td style="border:1px solid black;"><p>Smart card o altro certificato</p></td>
-<td style="border:1px solid black;"><p>Questa impostazione seleziona EAP-TLS come tipo EAP per il profilo senza fili.</p></td>
+<td style="border:1px solid black;">Autenticazione: metodi EAP</td>
+<td style="border:1px solid black;">Smart card o altro certificato</td>
+<td style="border:1px solid black;">Questa impostazione seleziona EAP-TLS come tipo EAP per il profilo senza fili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Attributo RADIUS Ignore<strong>-</strong>User<strong>-</strong>Dial-in-Properties</p></td>
-<td style="border:1px solid black;"><p>Attributo impostato su True</p></td>
-<td style="border:1px solid black;"><p>Questo attributo garantisce che le impostazioni relative alle chiamate in ingresso, ad esempio l'opzione di richiamata, degli account utente Active Directory non vengano inviate ai punti di accesso senza fili. Questa soluzione è necessaria per evitare problemi relativi ad alcuni prodotti di accesso alla rete.</p></td>
+<td style="border:1px solid black;">Attributo RADIUS Ignore<strong>-</strong>User<strong>-</strong>Dial-in-Properties</td>
+<td style="border:1px solid black;">Attributo impostato su True</td>
+<td style="border:1px solid black;">Questo attributo garantisce che le impostazioni relative alle chiamate in ingresso, ad esempio l'opzione di richiamata, degli account utente Active Directory non vengano inviate ai punti di accesso senza fili. Questa soluzione è necessaria per evitare problemi relativi ad alcuni prodotti di accesso alla rete.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Attributo RADIUS Termination-Action</p></td>
-<td style="border:1px solid black;"><p>Attributo impostato su RADIUS Request</p></td>
-<td style="border:1px solid black;"><p>Questo attributo garantisce che la connessione dei client non venga interrotta dai punti di accesso senza fili durante la riautenticazione.</p></td>
+<td style="border:1px solid black;">Attributo RADIUS Termination-Action</td>
+<td style="border:1px solid black;">Attributo impostato su RADIUS Request</td>
+<td style="border:1px solid black;">Questo attributo garantisce che la connessione dei client non venga interrotta dai punti di accesso senza fili durante la riautenticazione.</td>
 </tr>
 </tbody>
 </table>
@@ -718,7 +718,7 @@ Nella soluzione proposta IAS viene utilizzato come server RADIUS e, quindi, le r
   
 **Tabella 10. Condizioni del criterio richiesta di connessione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -727,21 +727,21 @@ Nella soluzione proposta IAS viene utilizzato come server RADIUS e, quindi, le r
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Condizione del criterio</p></th>
-<th><p>Condizione corrispondente</p></th>
-<th><p>Commento</p></th>
+<th>Condizione del criterio</th>
+<th>Condizione corrispondente</th>
+<th>Commento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>&quot;Restrizioni data e ora&quot;</p></td>
-<td style="border:1px solid black;"><p>&quot;Lun 00:00 - 24:00,<br />
+<td style="border:1px solid black;">&quot;Restrizioni data e ora&quot;</td>
+<td style="border:1px solid black;">&quot;Lun 00:00 - 24:00,<br />
 Mar 00:00 - 24:00,<br />
 Gio 00:00 - 24:00,<br />
 Ven 00:00 - 24:00,<br />
 Sab 00:00 - 24:00,<br />
-Dom 00:00- 4:00&quot;</p></td>
-<td style="border:1px solid black;"><p>Questa condizione del criterio richiesta di connessione predefinito garantisce che le richieste di connessione ricevute in qualsiasi orario siano conformi al criterio.</p></td>
+Dom 00:00- 4:00&quot;</td>
+<td style="border:1px solid black;">Questa condizione del criterio richiesta di connessione predefinito garantisce che le richieste di connessione ricevute in qualsiasi orario siano conformi al criterio.</td>
 </tr>
 </tbody>
 </table>
@@ -750,7 +750,7 @@ Nella tabella che segue sono illustrate le impostazioni del profilo utilizzate n
   
 **Tabella 11. Impostazioni del profilo relativo al criterio richiesta di connessione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -759,16 +759,16 @@ Nella tabella che segue sono illustrate le impostazioni del profilo utilizzate n
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Opzione profilo</p></th>
-<th><p>Impostazione profilo</p></th>
-<th><p>Commento</p></th>
+<th>Opzione profilo</th>
+<th>Impostazione profilo</th>
+<th>Commento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autenticazione</p></td>
-<td style="border:1px solid black;"><p>Autentica le richieste su questo server</p></td>
-<td style="border:1px solid black;"><p>Questa impostazione garantisce che le richieste vengano autenticate direttamente sulla base di Active Directory.</p></td>
+<td style="border:1px solid black;">Autenticazione</td>
+<td style="border:1px solid black;">Autentica le richieste su questo server</td>
+<td style="border:1px solid black;">Questa impostazione garantisce che le richieste vengano autenticate direttamente sulla base di Active Directory.</td>
 </tr>
 </tbody>
 </table>
@@ -791,7 +791,7 @@ Nella tabella che segue sono illustrate le impostazioni generali del criterio di
   
 **Tabella 12. Impostazioni generali dei criteri di rete senza fili**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -800,26 +800,26 @@ Nella tabella che segue sono illustrate le impostazioni generali del criterio di
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Opzione</p></th>
-<th><p>Impostazione</p></th>
-<th><p>Commento</p></th>
+<th>Opzione</th>
+<th>Impostazione</th>
+<th>Commento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome</p></td>
-<td style="border:1px solid black;"><p>Configurazione senza fili del computer client</p></td>
-<td style="border:1px solid black;"><p>Questo valore può essere modificato in base agli standard di denominazione dell'organizzazione.</p></td>
+<td style="border:1px solid black;">Nome</td>
+<td style="border:1px solid black;">Configurazione senza fili del computer client</td>
+<td style="border:1px solid black;">Questo valore può essere modificato in base agli standard di denominazione dell'organizzazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Rete a cui accedere</p></td>
-<td style="border:1px solid black;"><p>La rete disponibile (di preferenza con punto di accesso)</p></td>
-<td style="border:1px solid black;"><p>Questa impostazione scoraggia i computer client dall'eseguire connessioni di rete ad-hoc con altri computer configurati con lo stesso SSID utilizzato per la rete 802.1X. Tuttavia, la possibilità di stabilire connessioni di rete ad-hoc consente ai dipendenti di utilizzare reti ad-hoc quando è necessario, ad esempio da casa, e per questo si è scelto di consentirne l'uso.</p></td>
+<td style="border:1px solid black;">Rete a cui accedere</td>
+<td style="border:1px solid black;">La rete disponibile (di preferenza con punto di accesso)</td>
+<td style="border:1px solid black;">Questa impostazione scoraggia i computer client dall'eseguire connessioni di rete ad-hoc con altri computer configurati con lo stesso SSID utilizzato per la rete 802.1X. Tuttavia, la possibilità di stabilire connessioni di rete ad-hoc consente ai dipendenti di utilizzare reti ad-hoc quando è necessario, ad esempio da casa, e per questo si è scelto di consentirne l'uso.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Connetti automaticamente alle reti non preferite</p></td>
-<td style="border:1px solid black;"><p>Deselezionata</p></td>
-<td style="border:1px solid black;"><p>In Windows XP Professional agli utenti viene fornita automaticamente una notifica delle reti senza fili disponibili senza tuttavia stabilire direttamente la connessione. In questo modo è possibile ottenere un equilibrio ottimale tra protezione e utilizzabilità.</p></td>
+<td style="border:1px solid black;">Connetti automaticamente alle reti non preferite</td>
+<td style="border:1px solid black;">Deselezionata</td>
+<td style="border:1px solid black;">In Windows XP Professional agli utenti viene fornita automaticamente una notifica delle reti senza fili disponibili senza tuttavia stabilire direttamente la connessione. In questo modo è possibile ottenere un equilibrio ottimale tra protezione e utilizzabilità.</td>
 </tr>
 </tbody>
 </table>
@@ -830,7 +830,7 @@ Nella tabella che segue sono descritte in dettaglio le impostazioni delle propri
   
 **Tabella 13. Impostazioni delle proprietà di rete dei criteri di rete senza fili**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -839,36 +839,36 @@ Nella tabella che segue sono descritte in dettaglio le impostazioni delle propri
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Opzione</p></th>
-<th><p>Impostazione</p></th>
-<th><p>Commento</p></th>
+<th>Opzione</th>
+<th>Impostazione</th>
+<th>Commento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome</p></td>
-<td style="border:1px solid black;"><p>MSSWLAN</p></td>
-<td style="border:1px solid black;"><p>Modificare questo valore in modo conforme agli standard di denominazione dell'organizzazione. È necessario, tuttavia, scegliere un nome diverso da qualsiasi WLAN di produzione esistente.</p></td>
+<td style="border:1px solid black;">Nome</td>
+<td style="border:1px solid black;">MSSWLAN</td>
+<td style="border:1px solid black;">Modificare questo valore in modo conforme agli standard di denominazione dell'organizzazione. È necessario, tuttavia, scegliere un nome diverso da qualsiasi WLAN di produzione esistente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Chiave rete senza fili (WEP) - Crittografia dati (WEP abilitato)</p></td>
-<td style="border:1px solid black;"><p>Selezionata</p></td>
-<td style="border:1px solid black;"><p>La crittografia è essenziale per proteggere la riservatezza del traffico di rete senza fili nelle reti 802.11. Se nell'organizzazione sono supportate reti 802.11, è necessario garantire che siano protette mediante la crittografia WEP o di altro tipo.</p></td>
+<td style="border:1px solid black;">Chiave rete senza fili (WEP) - Crittografia dati (WEP abilitato)</td>
+<td style="border:1px solid black;">Selezionata</td>
+<td style="border:1px solid black;">La crittografia è essenziale per proteggere la riservatezza del traffico di rete senza fili nelle reti 802.11. Se nell'organizzazione sono supportate reti 802.11, è necessario garantire che siano protette mediante la crittografia WEP o di altro tipo.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Chiave rete senza fili (WEP) - Autenticazione di rete (modalità condivisa)</p></td>
-<td style="border:1px solid black;"><p>Deselezionata</p></td>
-<td style="border:1px solid black;"><p>La protezione 802.11 con chiave condivisa rappresenta una strategia di protezione basata su chiavi WEP statiche. In questa soluzione lo standard 802.1X viene utilizzato per fornire chiavi di sessione WEP dinamiche e, quindi, questa opzione è deselezionata.</p></td>
+<td style="border:1px solid black;">Chiave rete senza fili (WEP) - Autenticazione di rete (modalità condivisa)</td>
+<td style="border:1px solid black;">Deselezionata</td>
+<td style="border:1px solid black;">La protezione 802.11 con chiave condivisa rappresenta una strategia di protezione basata su chiavi WEP statiche. In questa soluzione lo standard 802.1X viene utilizzato per fornire chiavi di sessione WEP dinamiche e, quindi, questa opzione è deselezionata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Chiave rete senza fili (WEP) - Chiave fornita automaticamente</p></td>
-<td style="border:1px solid black;"><p>Selezionata</p></td>
-<td style="border:1px solid black;"><p>In questa soluzione lo standard 802.1X viene utilizzato per fornire chiavi di sessione WEP dinamiche allo scopo di eseguire la crittografia del traffico.</p></td>
+<td style="border:1px solid black;">Chiave rete senza fili (WEP) - Chiave fornita automaticamente</td>
+<td style="border:1px solid black;">Selezionata</td>
+<td style="border:1px solid black;">In questa soluzione lo standard 802.1X viene utilizzato per fornire chiavi di sessione WEP dinamiche allo scopo di eseguire la crittografia del traffico.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rete computer a computer (ad hoc). I punti di accesso senza fili non sono utilizzati</p></td>
-<td style="border:1px solid black;"><p>Deselezionata</p></td>
-<td style="border:1px solid black;"><p>In questa soluzione è stata scelta la modalità di infrastruttura WLAN 802.11 con punti di accesso senza fili configurati per lo standard 802.1X.</p></td>
+<td style="border:1px solid black;">Rete computer a computer (ad hoc). I punti di accesso senza fili non sono utilizzati</td>
+<td style="border:1px solid black;">Deselezionata</td>
+<td style="border:1px solid black;">In questa soluzione è stata scelta la modalità di infrastruttura WLAN 802.11 con punti di accesso senza fili configurati per lo standard 802.1X.</td>
 </tr>
 </tbody>
 </table>
@@ -889,7 +889,7 @@ Nella tabella che segue sono descritte in dettaglio le impostazioni 802.1X relat
   
 **Tabella 14. Impostazioni 802.1X dei criteri di rete senza fili**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -898,46 +898,46 @@ Nella tabella che segue sono descritte in dettaglio le impostazioni 802.1X relat
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Opzione</p></th>
-<th><p>Impostazione</p></th>
-<th><p>Commento</p></th>
+<th>Opzione</th>
+<th>Impostazione</th>
+<th>Commento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Abilita controllo accesso alla rete mediante IEEE 802.1X</p></td>
-<td style="border:1px solid black;"><p>Attiva</p></td>
-<td style="border:1px solid black;"><p>Questa opzione consente al computer client di accedere alle reti protette mediante lo standard 802.1X</p></td>
+<td style="border:1px solid black;">Abilita controllo accesso alla rete mediante IEEE 802.1X</td>
+<td style="border:1px solid black;">Attiva</td>
+<td style="border:1px solid black;">Questa opzione consente al computer client di accedere alle reti protette mediante lo standard 802.1X</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Messaggio di avvio EAPOL</p></td>
-<td style="border:1px solid black;"><p>Trasmissione</p></td>
-<td style="border:1px solid black;"><p>Questo messaggio indica al client di avviare il processo di autenticazione.</p></td>
+<td style="border:1px solid black;">Messaggio di avvio EAPOL</td>
+<td style="border:1px solid black;">Trasmissione</td>
+<td style="border:1px solid black;">Questo messaggio indica al client di avviare il processo di autenticazione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Parametri (secondi) - Avvio massimo</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>Questo valore determina il numero di messaggi di avvio consecutivi EAPOL (EAP over LAN) che il client trasmetterà quando non riceve risposta. L'impostazione predefinita di questo valore non deve essere modificata se non espressamente richiesto.</p></td>
+<td style="border:1px solid black;">Parametri (secondi) - Avvio massimo</td>
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">Questo valore determina il numero di messaggi di avvio consecutivi EAPOL (EAP over LAN) che il client trasmetterà quando non riceve risposta. L'impostazione predefinita di questo valore non deve essere modificata se non espressamente richiesto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Parametri (secondi) - Periodo di sospensione</p></td>
-<td style="border:1px solid black;"><p>60</p></td>
-<td style="border:1px solid black;"><p>Questo valore determina l'intervallo di tempo che trascorrerà prima che il client tenti di nuovo un processo di autenticazione 802.1X non riuscito. L'impostazione predefinita di questo valore non deve essere modificata se non espressamente richiesto.</p></td>
+<td style="border:1px solid black;">Parametri (secondi) - Periodo di sospensione</td>
+<td style="border:1px solid black;">60</td>
+<td style="border:1px solid black;">Questo valore determina l'intervallo di tempo che trascorrerà prima che il client tenti di nuovo un processo di autenticazione 802.1X non riuscito. L'impostazione predefinita di questo valore non deve essere modificata se non espressamente richiesto.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Parametri (secondi) - Periodo di avvio</p></td>
-<td style="border:1px solid black;"><p>60</p></td>
-<td style="border:1px solid black;"><p>Questo valore determina l'intervallo di tempo che deve trascorrere tra i messaggi di avvio EAPOL per eseguire di nuovo l'invio. L'impostazione predefinita di questo valore non deve essere modificata se non espressamente richiesto.</p></td>
+<td style="border:1px solid black;">Parametri (secondi) - Periodo di avvio</td>
+<td style="border:1px solid black;">60</td>
+<td style="border:1px solid black;">Questo valore determina l'intervallo di tempo che deve trascorrere tra i messaggi di avvio EAPOL per eseguire di nuovo l'invio. L'impostazione predefinita di questo valore non deve essere modificata se non espressamente richiesto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Periodo di autenticazione</p></td>
-<td style="border:1px solid black;"><p>30</p></td>
-<td style="border:1px solid black;"><p>Questo valore determina l'intervallo di tempo che deve intercorrere tra i messaggi di richiesta 802.1X rinviati quando non si riceve una risposta. L'impostazione predefinita di questo valore non deve essere modificata se non espressamente richiesto.</p></td>
+<td style="border:1px solid black;">Periodo di autenticazione</td>
+<td style="border:1px solid black;">30</td>
+<td style="border:1px solid black;">Questo valore determina l'intervallo di tempo che deve intercorrere tra i messaggi di richiesta 802.1X rinviati quando non si riceve una risposta. L'impostazione predefinita di questo valore non deve essere modificata se non espressamente richiesto.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tipo di EAP</p></td>
-<td style="border:1px solid black;"><p>Smart card o altro certificato</p></td>
-<td style="border:1px solid black;"><p>Questa opzione specifica EAP-TLS come tipo di EAP.</p></td>
+<td style="border:1px solid black;">Tipo di EAP</td>
+<td style="border:1px solid black;">Smart card o altro certificato</td>
+<td style="border:1px solid black;">Questa opzione specifica EAP-TLS come tipo di EAP.</td>
 </tr>
 </tbody>
 </table>
@@ -946,7 +946,7 @@ Nella tabella che segue sono descritte in dettaglio le impostazioni EAP relative
   
 **Tabella 15. Impostazioni EAP dei criteri di rete senza fili**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -955,46 +955,46 @@ Nella tabella che segue sono descritte in dettaglio le impostazioni EAP relative
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Opzione</p></th>
-<th><p>Impostazione</p></th>
-<th><p>Commento</p></th>
+<th>Opzione</th>
+<th>Impostazione</th>
+<th>Commento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Per la connessione</p></td>
-<td style="border:1px solid black;"><p>Utilizza un certificato su questo computer.</p></td>
-<td style="border:1px solid black;"><p>Questa opzione specifica l'uso di certificati su base software e chiavi private anziché di credenziali smart card.</p></td>
+<td style="border:1px solid black;">Per la connessione</td>
+<td style="border:1px solid black;">Utilizza un certificato su questo computer.</td>
+<td style="border:1px solid black;">Questa opzione specifica l'uso di certificati su base software e chiavi private anziché di credenziali smart card.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Utilizza un certificato su questo computer - Utilizza selezione certificati semplice (opzione consigliata)</p></td>
-<td style="border:1px solid black;"><p>Selezionata</p></td>
-<td style="border:1px solid black;"><p>Con questa opzione la scelta del certificato corretto verrà basata automaticamente sulle proprietà dei certificati. L'opzione può essere disattivata per consentire la selezione manuale del certificato corretto durante la risoluzione dei problemi.</p></td>
+<td style="border:1px solid black;">Utilizza un certificato su questo computer - Utilizza selezione certificati semplice (opzione consigliata)</td>
+<td style="border:1px solid black;">Selezionata</td>
+<td style="border:1px solid black;">Con questa opzione la scelta del certificato corretto verrà basata automaticamente sulle proprietà dei certificati. L'opzione può essere disattivata per consentire la selezione manuale del certificato corretto durante la risoluzione dei problemi.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Convalida certificato server</p></td>
-<td style="border:1px solid black;"><p>Selezionata</p></td>
-<td style="border:1px solid black;"><p>Questa opzione consente di determinare se il certificato presentato al client durante l'autenticazione EAP-TLS è compreso nell'intervallo di date valide specificato.</p></td>
+<td style="border:1px solid black;">Convalida certificato server</td>
+<td style="border:1px solid black;">Selezionata</td>
+<td style="border:1px solid black;">Questa opzione consente di determinare se il certificato presentato al client durante l'autenticazione EAP-TLS è compreso nell'intervallo di date valide specificato.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Convalida certificato server - Connetti ai server seguenti</p></td>
-<td style="border:1px solid black;"><p>Deselezionata</p></td>
-<td style="border:1px solid black;"><p>Questa opzione consente di controllare il suffisso del nome completo di dominio (FQDN) nel campo soggetto del certificato server. Se questa opzione è attivata, nei computer client verrà visualizzata una finestra di testo in cui si richiede l'approvazione del server IAS come attendibile. In questo caso è necessario valutare il rapporto tra utilizzabilità e protezione per scegliere se attivare l'opzione.</p></td>
+<td style="border:1px solid black;">Convalida certificato server - Connetti ai server seguenti</td>
+<td style="border:1px solid black;">Deselezionata</td>
+<td style="border:1px solid black;">Questa opzione consente di controllare il suffisso del nome completo di dominio (FQDN) nel campo soggetto del certificato server. Se questa opzione è attivata, nei computer client verrà visualizzata una finestra di testo in cui si richiede l'approvazione del server IAS come attendibile. In questo caso è necessario valutare il rapporto tra utilizzabilità e protezione per scegliere se attivare l'opzione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Convalida certificato server - Connetti ai server seguenti - Valore</p></td>
-<td style="border:1px solid black;"><p>Vuota</p></td>
-<td style="border:1px solid black;"><p>Questo valore specifica il suffisso del nome completo di dominio che deve corrispondere alle informazioni del soggetto nel certificato presentato al client durante l'autenticazione EAP-TLS.</p></td>
+<td style="border:1px solid black;">Convalida certificato server - Connetti ai server seguenti - Valore</td>
+<td style="border:1px solid black;">Vuota</td>
+<td style="border:1px solid black;">Questo valore specifica il suffisso del nome completo di dominio che deve corrispondere alle informazioni del soggetto nel certificato presentato al client durante l'autenticazione EAP-TLS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Autorità di certificazione principali attendibili</p></td>
-<td style="border:1px solid black;"><p>CAsocietà selezionata</p></td>
-<td style="border:1px solid black;"><p>Questa opzione consente agli amministratori di specificare le CA principali attendibili a cui è possibile concatenare le credenziali dei certificati server 802.1X. Per questa opzione è necessario selezionare le proprie CA principali attendibili.</p></td>
+<td style="border:1px solid black;">Autorità di certificazione principali attendibili</td>
+<td style="border:1px solid black;">CAsocietà selezionata</td>
+<td style="border:1px solid black;">Questa opzione consente agli amministratori di specificare le CA principali attendibili a cui è possibile concatenare le credenziali dei certificati server 802.1X. Per questa opzione è necessario selezionare le proprie CA principali attendibili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Utilizza un nome utente diverso per la connessione</p></td>
-<td style="border:1px solid black;"><p>Deselezionata</p></td>
-<td style="border:1px solid black;"><p>Questa opzione consente agli utenti di specificare un nome utente diverso da quello contenuto nel certificato presentato durante l'autenticazione EAP-TLS.</p></td>
+<td style="border:1px solid black;">Utilizza un nome utente diverso per la connessione</td>
+<td style="border:1px solid black;">Deselezionata</td>
+<td style="border:1px solid black;">Questa opzione consente agli utenti di specificare un nome utente diverso da quello contenuto nel certificato presentato durante l'autenticazione EAP-TLS.</td>
 </tr>
 </tbody>
 </table>
@@ -1003,7 +1003,7 @@ Nella tabella che segue sono descritte in dettaglio le impostazioni di autentica
   
 **Tabella 16. Opzioni di autenticazione del computer 802.1X**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1012,26 +1012,26 @@ Nella tabella che segue sono descritte in dettaglio le impostazioni di autentica
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Opzione</p></th>
-<th><p>Impostazione</p></th>
-<th><p>Commento</p></th>
+<th>Opzione</th>
+<th>Impostazione</th>
+<th>Commento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autentica come Guest se le informazioni sull'utente o sul computer non sono disponibili</p></td>
-<td style="border:1px solid black;"><p>Deselezionata</p></td>
-<td style="border:1px solid black;"><p>Questa impostazione stabilisce se il computer può eseguire l'accesso come Guest se non è disponibile alcuna credenziale. Si tratta di una soluzione utile per reti WLAN pubbliche o per utenti esterni all'organizzazione.</p></td>
+<td style="border:1px solid black;">Autentica come Guest se le informazioni sull'utente o sul computer non sono disponibili</td>
+<td style="border:1px solid black;">Deselezionata</td>
+<td style="border:1px solid black;">Questa impostazione stabilisce se il computer può eseguire l'accesso come Guest se non è disponibile alcuna credenziale. Si tratta di una soluzione utile per reti WLAN pubbliche o per utenti esterni all'organizzazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Autentica come computer se le informazioni sono disponibili</p></td>
-<td style="border:1px solid black;"><p>Selezionata</p></td>
-<td style="border:1px solid black;"><p>Questa impostazione è essenziale per garantire che l'autenticazione del computer venga eseguita quando gli utenti non sono collegati al computer.</p></td>
+<td style="border:1px solid black;">Autentica come computer se le informazioni sono disponibili</td>
+<td style="border:1px solid black;">Selezionata</td>
+<td style="border:1px solid black;">Questa impostazione è essenziale per garantire che l'autenticazione del computer venga eseguita quando gli utenti non sono collegati al computer.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Autenticazione basata su computer</p></td>
-<td style="border:1px solid black;"><p>Con riautenticazione utente</p></td>
-<td style="border:1px solid black;"><p>Questa opzione predefinita consente di garantire che vengano utilizzate le credenziali utente quando possibile. Tuttavia, quando gli utenti non sono connessi al computer, verranno utilizzate le credenziali computer per garantire che la connessione alla rete sia sempre disponibile.</p></td>
+<td style="border:1px solid black;">Autenticazione basata su computer</td>
+<td style="border:1px solid black;">Con riautenticazione utente</td>
+<td style="border:1px solid black;">Questa opzione predefinita consente di garantire che vengano utilizzate le credenziali utente quando possibile. Tuttavia, quando gli utenti non sono connessi al computer, verranno utilizzate le credenziali computer per garantire che la connessione alla rete sia sempre disponibile.</td>
 </tr>
 </tbody>
 </table>
@@ -1108,7 +1108,7 @@ Prima di iniziare la procedura di impostazione, è necessario verificare di aver
   
 **Tabella 17. Elementi di configurazione definiti dall'utente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1117,36 +1117,36 @@ Prima di iniziare la procedura di impostazione, è necessario verificare di aver
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
-<th><p>Nome variabile</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
+<th>Nome variabile</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome di dominio DNS per la radice di strutture Active Directory</p></td>
-<td style="border:1px solid black;"><p>woodgrovebank.com</p></td>
-<td style="border:1px solid black;"><p><em>ForestRootDomain</em></p></td>
+<td style="border:1px solid black;">Nome di dominio DNS per la radice di strutture Active Directory</td>
+<td style="border:1px solid black;">woodgrovebank.com</td>
+<td style="border:1px solid black;"><em>ForestRootDomain</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome NetBIOS del dominio</p></td>
-<td style="border:1px solid black;"><p>WOODGROVE</p></td>
-<td style="border:1px solid black;"><p><em>NBDomainName</em></p></td>
+<td style="border:1px solid black;">Nome NetBIOS del dominio</td>
+<td style="border:1px solid black;">WOODGROVE</td>
+<td style="border:1px solid black;"><em>NBDomainName</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome del server IAS primario</p></td>
-<td style="border:1px solid black;"><p>HQIAS - 01</p></td>
-<td style="border:1px solid black;"><p><em>PrimaryIAShostname</em></p></td>
+<td style="border:1px solid black;">Nome del server IAS primario</td>
+<td style="border:1px solid black;">HQIAS - 01</td>
+<td style="border:1px solid black;"><em>PrimaryIAShostname</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nome del server IAS secondario</p></td>
-<td style="border:1px solid black;"><p>HQ - IAS - 02</p></td>
-<td style="border:1px solid black;"><p><em>SecondaryIAShostname</em></p></td>
+<td style="border:1px solid black;">Nome del server IAS secondario</td>
+<td style="border:1px solid black;">HQ - IAS - 02</td>
+<td style="border:1px solid black;"><em>SecondaryIAShostname</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nome del server IAS opzionale delle filiali</p></td>
-<td style="border:1px solid black;"><p>BO - IAS - 03</p></td>
-<td style="border:1px solid black;"><p><em>TertiaryIAShostname</em></p></td>
+<td style="border:1px solid black;">Nome del server IAS opzionale delle filiali</td>
+<td style="border:1px solid black;">BO - IAS - 03</td>
+<td style="border:1px solid black;"><em>TertiaryIAShostname</em></td>
 </tr>
 </tbody>
 </table>
@@ -1157,7 +1157,7 @@ Le impostazioni specificate in questa tabella non devono essere modificate se no
   
 **Tabella 18. Elementi di configurazione richiesti dalla soluzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1166,131 +1166,131 @@ Le impostazioni specificate in questa tabella non devono essere modificate se no
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento di configurazione</p></th>
-<th><p>Impostazione</p></th>
-<th><p>Nome variabile</p></th>
+<th>Elemento di configurazione</th>
+<th>Impostazione</th>
+<th>Nome variabile</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Microsoft Active Directory in cui sono inclusi gli utenti che richiedono certificati di autenticazione 802.1X</p></td>
-<td style="border:1px solid black;"><p>Registrazione automatica certificato utente di autenticazione client</p></td>
-<td style="border:1px solid black;"><p><em>EnrollUserCertGroup</em></p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Microsoft Active Directory in cui sono inclusi gli utenti che richiedono certificati di autenticazione 802.1X</td>
+<td style="border:1px solid black;">Registrazione automatica certificato utente di autenticazione client</td>
+<td style="border:1px solid black;"><em>EnrollUserCertGroup</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Nome precedente a Windows 2000 per il gruppo globale di Active Directory in cui sono inclusi gli utenti che richiedono certificati di autenticazione 802.1X</p></td>
-<td style="border:1px solid black;"><p>Registrazione automatica certificato utente di autenticazione client</p></td>
-<td style="border:1px solid black;"><p><em>EnrollUserCertNTGroup</em></p></td>
+<td style="border:1px solid black;">[Account] Nome precedente a Windows 2000 per il gruppo globale di Active Directory in cui sono inclusi gli utenti che richiedono certificati di autenticazione 802.1X</td>
+<td style="border:1px solid black;">Registrazione automatica certificato utente di autenticazione client</td>
+<td style="border:1px solid black;"><em>EnrollUserCertNTGroup</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Active Directory in cui sono inclusi i computer che richiedono certificati di autenticazione 802.1X</p></td>
-<td style="border:1px solid black;"><p>Registrazione automatica certificato computer di autenticazione client</p></td>
-<td style="border:1px solid black;"><p><em>EnrollComputerCertGroup</em></p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Active Directory in cui sono inclusi i computer che richiedono certificati di autenticazione 802.1X</td>
+<td style="border:1px solid black;">Registrazione automatica certificato computer di autenticazione client</td>
+<td style="border:1px solid black;"><em>EnrollComputerCertGroup</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Nome precedente a Windows 2000 per il gruppo globale di Active Directory in cui sono inclusi i computer che richiedono certificati di autenticazione 802.1X</p></td>
-<td style="border:1px solid black;"><p>Registrazione automatica certificato computer di autenticazione client</p></td>
-<td style="border:1px solid black;"><p><em>EnrollComputerCertNTGroup</em></p></td>
+<td style="border:1px solid black;">[Account] Nome precedente a Windows 2000 per il gruppo globale di Active Directory in cui sono inclusi i computer che richiedono certificati di autenticazione 802.1X</td>
+<td style="border:1px solid black;">Registrazione automatica certificato computer di autenticazione client</td>
+<td style="border:1px solid black;"><em>EnrollComputerCertNTGroup</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Active Directory in cui sono inclusi server IAS che richiedono certificati di autenticazione 802.1X</p></td>
-<td style="border:1px solid black;"><p>Registrazione automatica certificato di autenticazione server RAS e IAS</p></td>
-<td style="border:1px solid black;"><p><em>EnrollIASCertGroup</em></p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Active Directory in cui sono inclusi server IAS che richiedono certificati di autenticazione 802.1X</td>
+<td style="border:1px solid black;">Registrazione automatica certificato di autenticazione server RAS e IAS</td>
+<td style="border:1px solid black;"><em>EnrollIASCertGroup</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Nome precedente a Windows 2000 per il gruppo globale di Active Directory in cui sono inclusi server IAS che richiedono certificati di autenticazione 802.1X</p></td>
-<td style="border:1px solid black;"><p>Registrazione automatica certificato di autenticazione server RAS e IAS</p></td>
-<td style="border:1px solid black;"><p><em>EnrollIASCertNTGroup</em></p></td>
+<td style="border:1px solid black;">[Account] Nome precedente a Windows 2000 per il gruppo globale di Active Directory in cui sono inclusi server IAS che richiedono certificati di autenticazione 802.1X</td>
+<td style="border:1px solid black;">Registrazione automatica certificato di autenticazione server RAS e IAS</td>
+<td style="border:1px solid black;"><em>EnrollIASCertNTGroup</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Active Directory in cui sono inclusi gli utenti a cui è concesso l'accesso alla rete senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di accesso remoto - Utenti senza fili</p></td>
-<td style="border:1px solid black;"><p><em>WLANUsersGroup</em></p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Active Directory in cui sono inclusi gli utenti a cui è concesso l'accesso alla rete senza fili</td>
+<td style="border:1px solid black;">Criteri di accesso remoto - Utenti senza fili</td>
+<td style="border:1px solid black;"><em>WLANUsersGroup</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Nome precedente a Windows 2000 per il gruppo globale di Active Directory in cui sono inclusi gli utenti a cui è concesso l'accesso alla rete senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di accesso remoto - Utenti senza fili</p></td>
-<td style="border:1px solid black;"><p><em>WLANUsersNTGroup</em></p></td>
+<td style="border:1px solid black;">[Account] Nome precedente a Windows 2000 per il gruppo globale di Active Directory in cui sono inclusi gli utenti a cui è concesso l'accesso alla rete senza fili</td>
+<td style="border:1px solid black;">Criteri di accesso remoto - Utenti senza fili</td>
+<td style="border:1px solid black;"><em>WLANUsersNTGroup</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Active Directory in cui sono inclusi i computer a cui è concesso l'accesso alla rete senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di accesso remoto - Computer senza fili</p></td>
-<td style="border:1px solid black;"><p><em>WLANComputersGroup</em></p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Active Directory in cui sono inclusi i computer a cui è concesso l'accesso alla rete senza fili</td>
+<td style="border:1px solid black;">Criteri di accesso remoto - Computer senza fili</td>
+<td style="border:1px solid black;"><em>WLANComputersGroup</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Active Directory in cui sono inclusi i computer a cui è concesso l'accesso alla rete senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di accesso remoto - Computer senza fili</p></td>
-<td style="border:1px solid black;"><p><em>WLANComputersNTGroup</em></p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Active Directory in cui sono inclusi i computer a cui è concesso l'accesso alla rete senza fili</td>
+<td style="border:1px solid black;">Criteri di accesso remoto - Computer senza fili</td>
+<td style="border:1px solid black;"><em>WLANComputersNTGroup</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Gruppo universale di Active Directory in cui sono inclusi il gruppo Utenti senza fili e il gruppo Computer senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di accesso remoto - Accesso senza fili</p></td>
-<td style="border:1px solid black;"><p><em>WLANAccessGroup</em></p></td>
+<td style="border:1px solid black;">[Account] Gruppo universale di Active Directory in cui sono inclusi il gruppo Utenti senza fili e il gruppo Computer senza fili</td>
+<td style="border:1px solid black;">Criteri di accesso remoto - Accesso senza fili</td>
+<td style="border:1px solid black;"><em>WLANAccessGroup</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Gruppo universale di Active Directory in cui sono inclusi il gruppo Utenti senza fili e il gruppo Computer senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di accesso remoto - Accesso senza fili</p></td>
-<td style="border:1px solid black;"><p><em>WLANAccessNTGroup</em></p></td>
+<td style="border:1px solid black;">[Account] Gruppo universale di Active Directory in cui sono inclusi il gruppo Utenti senza fili e il gruppo Computer senza fili</td>
+<td style="border:1px solid black;">Criteri di accesso remoto - Accesso senza fili</td>
+<td style="border:1px solid black;"><em>WLANAccessNTGroup</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Active Directory in cui sono inclusi i computer che richiedono la configurazione di proprietà di rete senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di rete senza fili - Computer</p></td>
-<td style="border:1px solid black;"><p><em>WLANConfigPolicyGroup</em></p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Active Directory in cui sono inclusi i computer che richiedono la configurazione di proprietà di rete senza fili</td>
+<td style="border:1px solid black;">Criteri di rete senza fili - Computer</td>
+<td style="border:1px solid black;"><em>WLANConfigPolicyGroup</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Account] Gruppo globale di Active Directory in cui sono inclusi i computer che richiedono la configurazione di proprietà di rete senza fili</p></td>
-<td style="border:1px solid black;"><p>Criteri di rete senza fili - Computer</p></td>
-<td style="border:1px solid black;"><p><em>WLANConfigPolicyNTGroup</em></p></td>
+<td style="border:1px solid black;">[Account] Gruppo globale di Active Directory in cui sono inclusi i computer che richiedono la configurazione di proprietà di rete senza fili</td>
+<td style="border:1px solid black;">Criteri di rete senza fili - Computer</td>
+<td style="border:1px solid black;"><em>WLANConfigPolicyNTGroup</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Certificati] Modello di certificato utilizzato per generare certificati per l'autenticazione client di utenti</p></td>
-<td style="border:1px solid black;"><p>Autenticazione client - Utenti</p></td>
-<td style="border:1px solid black;"><p><em>UserClientAuthTemplate</em></p></td>
+<td style="border:1px solid black;">[Certificati] Modello di certificato utilizzato per generare certificati per l'autenticazione client di utenti</td>
+<td style="border:1px solid black;">Autenticazione client - Utenti</td>
+<td style="border:1px solid black;"><em>UserClientAuthTemplate</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Certificati] Modello di certificato utilizzato per generare certificati per l'autenticazione client di computer</p></td>
-<td style="border:1px solid black;"><p>Autenticazione client - Computer</p></td>
-<td style="border:1px solid black;"><p><em>ComputerClientAuthTemplate</em></p></td>
+<td style="border:1px solid black;">[Certificati] Modello di certificato utilizzato per generare certificati per l'autenticazione client di computer</td>
+<td style="border:1px solid black;">Autenticazione client - Computer</td>
+<td style="border:1px solid black;"><em>ComputerClientAuthTemplate</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Certificati] Modello di certificato utilizzato per generare certificati per l'autenticazione server eseguita da IAS</p></td>
-<td style="border:1px solid black;"><p>Autenticazione server RAS e IAS</p></td>
-<td style="border:1px solid black;"><p><em>IASServerCertificate</em></p></td>
+<td style="border:1px solid black;">[Certificati] Modello di certificato utilizzato per generare certificati per l'autenticazione server eseguita da IAS</td>
+<td style="border:1px solid black;">Autenticazione server RAS e IAS</td>
+<td style="border:1px solid black;"><em>IASServerCertificate</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Scripts] Percorso degli script di installazione</p></td>
-<td style="border:1px solid black;"><p>C:\MSSScripts</p></td>
-<td style="border:1px solid black;"><p><em>ScriptPath</em></p></td>
+<td style="border:1px solid black;">[Scripts] Percorso degli script di installazione</td>
+<td style="border:1px solid black;">C:\MSSScripts</td>
+<td style="border:1px solid black;"><em>ScriptPath</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Config] Percorso dei file di backup della configurazione</p></td>
-<td style="border:1px solid black;"><p>D:\IASConfig</p></td>
-<td style="border:1px solid black;"><p><em>ConfigPath</em></p></td>
+<td style="border:1px solid black;">[Config] Percorso dei file di backup della configurazione</td>
+<td style="border:1px solid black;">D:\IASConfig</td>
+<td style="border:1px solid black;"><em>ConfigPath</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Config] Percorso dei file di configurazione del client RADIUS</p></td>
-<td style="border:1px solid black;"><p>D:\ClientIAS</p></td>
-<td style="border:1px solid black;"><p><em>IASClientPath</em></p></td>
+<td style="border:1px solid black;">[Config] Percorso dei file di configurazione del client RADIUS</td>
+<td style="border:1px solid black;">D:\ClientIAS</td>
+<td style="border:1px solid black;"><em>IASClientPath</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Request Logs] Percorso dei registri delle richieste di autenticazione e controllo IAS</p></td>
-<td style="border:1px solid black;"><p>D:\IASLogs</p></td>
-<td style="border:1px solid black;"><p><em>IASRequestLogLocation</em></p></td>
+<td style="border:1px solid black;">[Request Logs] Percorso dei registri delle richieste di autenticazione e controllo IAS</td>
+<td style="border:1px solid black;">D:\IASLogs</td>
+<td style="border:1px solid black;"><em>IASRequestLogLocation</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Criteri di accesso remoto] Nome criterio</p></td>
-<td style="border:1px solid black;"><p>Consenti accesso senza fili</p></td>
-<td style="border:1px solid black;"><p><em>IASRAPName</em></p></td>
+<td style="border:1px solid black;">[Criteri di accesso remoto] Nome criterio</td>
+<td style="border:1px solid black;">Consenti accesso senza fili</td>
+<td style="border:1px solid black;"><em>IASRAPName</em></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>[Criteri di gruppo] Nome dell'oggetto Criteri di gruppo di Active Directory</p></td>
-<td style="border:1px solid black;"><p>Criterio di rete senza fili</p></td>
-<td style="border:1px solid black;"><p><em>GPONameForWLAN</em></p></td>
+<td style="border:1px solid black;">[Criteri di gruppo] Nome dell'oggetto Criteri di gruppo di Active Directory</td>
+<td style="border:1px solid black;">Criterio di rete senza fili</td>
+<td style="border:1px solid black;"><em>GPONameForWLAN</em></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>[Criterio di gruppo] Criterio di rete senza fili nell'oggetto Criteri di gruppo</p></td>
-<td style="border:1px solid black;"><p>Configurazione senza fili del computer client</p></td>
-<td style="border:1px solid black;"><p><em>ClientWLANPolicy</em></p></td>
+<td style="border:1px solid black;">[Criterio di gruppo] Criterio di rete senza fili nell'oggetto Criteri di gruppo</td>
+<td style="border:1px solid black;">Configurazione senza fili del computer client</td>
+<td style="border:1px solid black;"><em>ClientWLANPolicy</em></td>
 </tr>
 </tbody>
 </table>

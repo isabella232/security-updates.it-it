@@ -27,7 +27,7 @@ Nella tabella seguente è illustrata la sintassi di ogni comando.
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -41,24 +41,24 @@ Nella tabella seguente è illustrata la sintassi di ogni comando.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/I MSDrmClient.msi</strong> o <strong>/I RMClientBackCompat.msi</strong></p></td>
-<td style="border:1px solid black;"><p>Obbligatorio. Consente di specificare il prodotto da installare.</p></td>
+<td style="border:1px solid black;"><strong>/I MSDrmClient.msi</strong> o <strong>/I RMClientBackCompat.msi</strong></td>
+<td style="border:1px solid black;">Obbligatorio. Consente di specificare il prodotto da installare.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>/qn</strong></p></td>
-<td style="border:1px solid black;"><p>Facoltativo. Consente di impostare l'esecuzione di un'installazione invisibile all'utente, ovvero che non richiede alcuna interazione da parte dell'utente.</p></td>
+<td style="border:1px solid black;"><strong>/qn</strong></td>
+<td style="border:1px solid black;">Facoltativo. Consente di impostare l'esecuzione di un'installazione invisibile all'utente, ovvero che non richiede alcuna interazione da parte dell'utente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>/lei</strong> <em>logfile.log</em></p></td>
-<td style="border:1px solid black;"><p>Facoltativo. Consente di specificare il file in cui registrare i messaggi di stato e di errore.</p></td>
+<td style="border:1px solid black;"><strong>/lei</strong> <em>logfile.log</em></td>
+<td style="border:1px solid black;">Facoltativo. Consente di specificare il file in cui registrare i messaggi di stato e di errore.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p><strong>DISPLAYPAGE=”NO”</strong></p></td>
-<td style="border:1px solid black;"><p>Facoltativo. Consente di specificare di non visualizzare la pagina <strong>Amministrazione globale</strong> al termine dell'installazione.</p></td>
+<td style="border:1px solid black;"><strong>DISPLAYPAGE=”NO”</strong></td>
+<td style="border:1px solid black;">Facoltativo. Consente di specificare di non visualizzare la pagina <strong>Amministrazione globale</strong> al termine dell'installazione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>TARGETDIR=c:\</strong><em>Install_Location</em></p></td>
-<td style="border:1px solid black;"><p>Facoltativo. Consente di specificare la directory in cui installare Windows RMS con Service Pack 2. Se non si specifica alcun percorso, viene utilizzato il percorso di installazione predefinito.</p></td>
+<td style="border:1px solid black;"><strong>TARGETDIR=c:\</strong><em>Install_Location</em></td>
+<td style="border:1px solid black;">Facoltativo. Consente di specificare la directory in cui installare Windows RMS con Service Pack 2. Se non si specifica alcun percorso, viene utilizzato il percorso di installazione predefinito.</td>
 </tr>
 </tbody>
 </table>

@@ -68,7 +68,7 @@ Per eseguire le procedure di questo capitolo sono necessari gli strumenti indica
 
 **Tabella 4.1: Strumenti necessari per creare e installare una CA**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -77,44 +77,44 @@ Per eseguire le procedure di questo capitolo sono necessari gli strumenti indica
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Strumento</p></th>
-<th><p>Descrizione</p></th>
-<th><p>Origine</p></th>
+<th>Strumento</th>
+<th>Descrizione</th>
+<th>Origine</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS WLAN Tools</p></td>
-<td style="border:1px solid black;"><p>Set di script e strumenti fornito con questa soluzione.</p></td>
-<td style="border:1px solid black;"><p>La procedura di installazione è descritta nel capitolo 3.</p></td>
+<td style="border:1px solid black;">MSS WLAN Tools</td>
+<td style="border:1px solid black;">Set di script e strumenti fornito con questa soluzione.</td>
+<td style="border:1px solid black;">La procedura di installazione è descritta nel capitolo 3.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Console Gestione Criteri di gruppo (GPMC, Group Policy Management Console)</p></td>
-<td style="border:1px solid black;"><p>Strumento di gestione avanzata per l'importazione e l'esportazione degli oggetti Criteri di gruppo (GPO).</p></td>
-<td style="border:1px solid black;"><p>La procedura di installazione è descritta nel capitolo 3.<br />
-Può essere scaricata dal sito Microsoft.com.</p></td>
+<td style="border:1px solid black;">Console Gestione Criteri di gruppo (GPMC, Group Policy Management Console)</td>
+<td style="border:1px solid black;">Strumento di gestione avanzata per l'importazione e l'esportazione degli oggetti Criteri di gruppo (GPO).</td>
+<td style="border:1px solid black;">La procedura di installazione è descritta nel capitolo 3.<br />
+Può essere scaricata dal sito Microsoft.com.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CAPICOM</p></td>
-<td style="border:1px solid black;"><p>Libreria di sistema che consente lo scripting di operazioni relative ai certificati e alla protezione.</p></td>
-<td style="border:1px solid black;"><p>La procedura di installazione è descritta nel capitolo 3.<br />
-Può essere scaricata dal sito Microsoft.com.</p></td>
+<td style="border:1px solid black;">CAPICOM</td>
+<td style="border:1px solid black;">Libreria di sistema che consente lo scripting di operazioni relative ai certificati e alla protezione.</td>
+<td style="border:1px solid black;">La procedura di installazione è descritta nel capitolo 3.<br />
+Può essere scaricata dal sito Microsoft.com.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>DSACLs.exe</p></td>
-<td style="border:1px solid black;"><p>Strumento della riga di comando che consente l'impostazione delle autorizzazioni per gli oggetti di Active Directory.</p></td>
-<td style="border:1px solid black;"><p>La procedura di installazione è descritta nel capitolo 3.<br />
-Disponibile nel CD di installazione di Windows Server 2003.</p></td>
+<td style="border:1px solid black;">DSACLs.exe</td>
+<td style="border:1px solid black;">Strumento della riga di comando che consente l'impostazione delle autorizzazioni per gli oggetti di Active Directory.</td>
+<td style="border:1px solid black;">La procedura di installazione è descritta nel capitolo 3.<br />
+Disponibile nel CD di installazione di Windows Server 2003.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Utenti e computer di Active Directory</p></td>
-<td style="border:1px solid black;"><p>Strumento MMC (Microsoft Management Console) utilizzato per la gestione di utenti, gruppi, computer e altri oggetti di Active Directory.</p></td>
-<td style="border:1px solid black;"><p>Installato con Windows Server 2003.</p></td>
+<td style="border:1px solid black;">Utenti e computer di Active Directory</td>
+<td style="border:1px solid black;">Strumento MMC (Microsoft Management Console) utilizzato per la gestione di utenti, gruppi, computer e altri oggetti di Active Directory.</td>
+<td style="border:1px solid black;">Installato con Windows Server 2003.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Strumento di amministrazione Autorità di certificazione</p></td>
-<td style="border:1px solid black;"><p>Strumento MMC utilizzato per la gestione della CA.</p></td>
-<td style="border:1px solid black;"><p>Installato con Servizi certificati in Windows Server 2003.</p></td>
+<td style="border:1px solid black;">Strumento di amministrazione Autorità di certificazione</td>
+<td style="border:1px solid black;">Strumento MMC utilizzato per la gestione della CA.</td>
+<td style="border:1px solid black;">Installato con Servizi certificati in Windows Server 2003.</td>
 </tr>
 </tbody>
 </table>
@@ -125,7 +125,7 @@ Nella tabella seguente sono elencati i parametri utilizzati per l'installazione 
   
 **Tabella 4.2: Impostazioni della CA utilizzate nella soluzione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -133,42 +133,42 @@ Nella tabella seguente sono elencati i parametri utilizzati per l'installazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parametro di configurazione della CA</p></th>
-<th><p>Impostazione</p></th>
+<th>Parametro di configurazione della CA</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unità e percorso dei file di richieste di Servizi certificati</p></td>
-<td style="border:1px solid black;"><p>C:\CAConfig</p></td>
+<td style="border:1px solid black;">Unità e percorso dei file di richieste di Servizi certificati</td>
+<td style="border:1px solid black;">C:\CAConfig</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Lunghezza della chiave della CA</p></td>
-<td style="border:1px solid black;"><p>2048 bit</p></td>
+<td style="border:1px solid black;">Lunghezza della chiave della CA</td>
+<td style="border:1px solid black;">2048 bit</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Periodo di validità del certificato della CA</p></td>
-<td style="border:1px solid black;"><p>25 anni</p></td>
+<td style="border:1px solid black;">Periodo di validità del certificato della CA</td>
+<td style="border:1px solid black;">25 anni</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Periodo massimo di validità dei certificati rilasciati dalla CA</p></td>
-<td style="border:1px solid black;"><p>2 anni</p></td>
+<td style="border:1px solid black;">Periodo massimo di validità dei certificati rilasciati dalla CA</td>
+<td style="border:1px solid black;">2 anni</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Intervallo di pubblicazione dei CRL per la CA</p></td>
-<td style="border:1px solid black;"><p>7 giorni</p></td>
+<td style="border:1px solid black;">Intervallo di pubblicazione dei CRL per la CA</td>
+<td style="border:1px solid black;">7 giorni</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Periodo di sovrapposizione dei CRL (tempo che intercorre tra la pubblicazione di un nuovo CRL e la scadenza del vecchio CRL)</p></td>
-<td style="border:1px solid black;"><p>4 giorni</p></td>
+<td style="border:1px solid black;">Periodo di sovrapposizione dei CRL (tempo che intercorre tra la pubblicazione di un nuovo CRL e la scadenza del vecchio CRL)</td>
+<td style="border:1px solid black;">4 giorni</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Pubblicazione di Delta-CRL disattivata</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">Pubblicazione di Delta-CRL disattivata</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Modelli di certificato disponibili nella CA</p></td>
-<td style="border:1px solid black;"><p>Computer</p></td>
+<td style="border:1px solid black;">Modelli di certificato disponibili nella CA</td>
+<td style="border:1px solid black;">Computer</td>
 </tr>
 </tbody>
 </table>
@@ -265,7 +265,7 @@ Mediante la seguente procedura è possibile verificare se l'installazione di Ser
   
     **Tabella 4.3 Proprietà del certificato della CA**
 
-<p> </p>
+ 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -273,22 +273,22 @@ Mediante la seguente procedura è possibile verificare se l'installazione di Ser
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>Attributo del certificato</p></th>
-    <th><p>Impostazione necessaria</p></th>
+    <th>Attributo del certificato</th>
+    <th>Impostazione necessaria</th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Rilasciato a</p></td>
-    <td style="border:1px solid black;"><p>Nome della CA specificato durante l'installazione.</p></td>
+    <td style="border:1px solid black;">Rilasciato a</td>
+    <td style="border:1px solid black;">Nome della CA specificato durante l'installazione.</td>
     </tr>
     <tr class="even">
-    <td style="border:1px solid black;"><p>Rilasciato da</p></td>
-    <td style="border:1px solid black;"><p>Nome della CA specificato durante l'installazione.</p></td>
+    <td style="border:1px solid black;">Rilasciato da</td>
+    <td style="border:1px solid black;">Nome della CA specificato durante l'installazione.</td>
     </tr>
     <tr class="odd">
-    <td style="border:1px solid black;"><p>Valido da...a...</p></td>
-    <td style="border:1px solid black;"><p>L'intervallo specificato dovrebbe corrispondere a 25 anni.</p></td>
+    <td style="border:1px solid black;">Valido da...a...</td>
+    <td style="border:1px solid black;">L'intervallo specificato dovrebbe corrispondere a 25 anni.</td>
     </tr>
     </tbody>
     </table>
@@ -313,7 +313,7 @@ Questa procedura consente di impostare vari parametri della CA, che ne regolano 
   
 **Tabella 4.4: Proprietà di configurazione della CA**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -321,38 +321,38 @@ Questa procedura consente di impostare vari parametri della CA, che ne regolano 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Proprietà della CA</p></th>
-<th><p>Descrizione dell'impostazione</p></th>
+<th>Proprietà della CA</th>
+<th>Descrizione dell'impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>URL dei punti di distribuzione CRL (CDP)</p></td>
-<td style="border:1px solid black;"><p>Specifica le posizioni da cui è possibile ottenere un elenco di revoche di certificati (CRL) corrente. In questa soluzione viene utilizzato solo un URL LDAP (Lightweight Directory Access Protocol), che contiene il percorso LDAP dell'elenco CRL pubblicato in Active Directory.</p></td>
+<td style="border:1px solid black;">URL dei punti di distribuzione CRL (CDP)</td>
+<td style="border:1px solid black;">Specifica le posizioni da cui è possibile ottenere un elenco di revoche di certificati (CRL) corrente. In questa soluzione viene utilizzato solo un URL LDAP (Lightweight Directory Access Protocol), che contiene il percorso LDAP dell'elenco CRL pubblicato in Active Directory.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>URL di accesso alle informazioni dell'autorità (AIA)</p></td>
-<td style="border:1px solid black;"><p>Indica la posizione da cui è possibile ottenere un certificato della CA. Come nel caso del CDP, viene utilizzato solo l'URL LDAP che punta ad Active Directory.</p></td>
+<td style="border:1px solid black;">URL di accesso alle informazioni dell'autorità (AIA)</td>
+<td style="border:1px solid black;">Indica la posizione da cui è possibile ottenere un certificato della CA. Come nel caso del CDP, viene utilizzato solo l'URL LDAP che punta ad Active Directory.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Periodo di validità</p></td>
-<td style="border:1px solid black;"><p>Indica il periodo di validità massimo per i certificati rilasciati, che è diverso dal periodo di validità del certificato stesso della CA, impostato durante l'installazione.</p></td>
+<td style="border:1px solid black;">Periodo di validità</td>
+<td style="border:1px solid black;">Indica il periodo di validità massimo per i certificati rilasciati, che è diverso dal periodo di validità del certificato stesso della CA, impostato durante l'installazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Periodo CRL</p></td>
-<td style="border:1px solid black;"><p>Indica la frequenza di pubblicazione dell'elenco CRL.</p></td>
+<td style="border:1px solid black;">Periodo CRL</td>
+<td style="border:1px solid black;">Indica la frequenza di pubblicazione dell'elenco CRL.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tempo di sovrapposizione CRL</p></td>
-<td style="border:1px solid black;"><p>Indica il tempo di sovrapposizione tra il rilascio di un nuovo CRL e la scadenza del CRL precedente.</p></td>
+<td style="border:1px solid black;">Tempo di sovrapposizione CRL</td>
+<td style="border:1px solid black;">Indica il tempo di sovrapposizione tra il rilascio di un nuovo CRL e la scadenza del CRL precedente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Periodo Delta - CRL</p></td>
-<td style="border:1px solid black;"><p>Indica la frequenza di pubblicazione dell'elenco Delta-CRL. In questa CA, gli elenchi Delta-CRL sono disattivati.</p></td>
+<td style="border:1px solid black;">Periodo Delta - CRL</td>
+<td style="border:1px solid black;">Indica la frequenza di pubblicazione dell'elenco Delta-CRL. In questa CA, gli elenchi Delta-CRL sono disattivati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controllo CA</p></td>
-<td style="border:1px solid black;"><p>Indica le impostazioni di controllo della CA. Tutti i controlli sono attivati per impostazione predefinita.</p></td>
+<td style="border:1px solid black;">Controllo CA</td>
+<td style="border:1px solid black;">Indica le impostazioni di controllo della CA. Tutti i controlli sono attivati per impostazione predefinita.</td>
 </tr>
 </tbody>
 </table>

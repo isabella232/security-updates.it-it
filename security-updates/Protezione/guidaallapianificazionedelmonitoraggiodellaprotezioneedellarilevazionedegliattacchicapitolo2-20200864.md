@@ -50,7 +50,7 @@ Nella seguente tabella sono elencate le categorie degli eventi di protezione ins
 
 **Tabella 2.1. Categorie di controllo degli eventi di protezione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -58,46 +58,46 @@ Nella seguente tabella sono elencate le categorie degli eventi di protezione ins
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Categoria</p></th>
-<th><p>Effetto</p></th>
+<th>Categoria</th>
+<th>Effetto</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Eventi di accesso account</p></td>
-<td style="border:1px solid black;"><p>Vengono controllati i tentativi di accesso di un account locale su un computer. Se l'account utente è un account di dominio, questo evento viene riportato anche sul controller di dominio.</p></td>
+<td style="border:1px solid black;">Eventi di accesso account</td>
+<td style="border:1px solid black;">Vengono controllati i tentativi di accesso di un account locale su un computer. Se l'account utente è un account di dominio, questo evento viene riportato anche sul controller di dominio.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gestione account</p></td>
-<td style="border:1px solid black;"><p>Vengono controllate la creazione, la modifica e l'eliminazione degli account utente e di gruppo, insieme alle operazioni di modifica e di reimpostazione delle password.</p></td>
+<td style="border:1px solid black;">Gestione account</td>
+<td style="border:1px solid black;">Vengono controllate la creazione, la modifica e l'eliminazione degli account utente e di gruppo, insieme alle operazioni di modifica e di reimpostazione delle password.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Accesso al servizio directory</p></td>
-<td style="border:1px solid black;"><p>Viene controllato l'accesso agli oggetti nel servizio directory Active Directory®.</p></td>
+<td style="border:1px solid black;">Accesso al servizio directory</td>
+<td style="border:1px solid black;">Viene controllato l'accesso agli oggetti nel servizio directory Active Directory®.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Eventi di accesso</p></td>
-<td style="border:1px solid black;"><p>Vengono controllati i tentativi di accesso alle workstation e ai server membri.</p></td>
+<td style="border:1px solid black;">Eventi di accesso</td>
+<td style="border:1px solid black;">Vengono controllati i tentativi di accesso alle workstation e ai server membri.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Accesso agli oggetti</p></td>
-<td style="border:1px solid black;"><p>Vengono controllati i tentativi di accesso a un oggetto, ad esempio un file, una cartella, una chiave del Registro di sistema o una stampante, per il quale sono state definite impostazioni di controllo all'interno del relativo elenco di controllo di accesso di sistema (SACL).</p></td>
+<td style="border:1px solid black;">Accesso agli oggetti</td>
+<td style="border:1px solid black;">Vengono controllati i tentativi di accesso a un oggetto, ad esempio un file, una cartella, una chiave del Registro di sistema o una stampante, per il quale sono state definite impostazioni di controllo all'interno del relativo elenco di controllo di accesso di sistema (SACL).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Modifica dei criteri</p></td>
-<td style="border:1px solid black;"><p>Vengono controllate le modifiche apportate ai criteri di assegnazione dei diritti utente, ai criteri di controllo, ai criteri di account o ai criteri di attendibilità.</p></td>
+<td style="border:1px solid black;">Modifica dei criteri</td>
+<td style="border:1px solid black;">Vengono controllate le modifiche apportate ai criteri di assegnazione dei diritti utente, ai criteri di controllo, ai criteri di account o ai criteri di attendibilità.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Uso dei privilegi</p></td>
-<td style="border:1px solid black;"><p>Vengono controllate tutte le istanze in cui un utente esercita un diritto utente, ad esempio per la modifica dell'ora di sistema.</p></td>
+<td style="border:1px solid black;">Uso dei privilegi</td>
+<td style="border:1px solid black;">Vengono controllate tutte le istanze in cui un utente esercita un diritto utente, ad esempio per la modifica dell'ora di sistema.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tracciato processo</p></td>
-<td style="border:1px solid black;"><p>Viene controllato il comportamento di un'applicazione, ad esempio l'avvio o la chiusura di un programma.</p></td>
+<td style="border:1px solid black;">Tracciato processo</td>
+<td style="border:1px solid black;">Viene controllato il comportamento di un'applicazione, ad esempio l'avvio o la chiusura di un programma.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Eventi di sistema</p></td>
-<td style="border:1px solid black;"><p>Vengono controllati gli eventi di sistema relativi al computer, ad esempio l'avvio e la chiusura, nonché gli eventi che influiscono sulla protezione del sistema o sul registro di protezione.</p></td>
+<td style="border:1px solid black;">Eventi di sistema</td>
+<td style="border:1px solid black;">Vengono controllati gli eventi di sistema relativi al computer, ad esempio l'avvio e la chiusura, nonché gli eventi che influiscono sulla protezione del sistema o sul registro di protezione.</td>
 </tr>
 </tbody>
 </table>

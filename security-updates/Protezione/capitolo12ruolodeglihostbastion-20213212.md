@@ -38,7 +38,7 @@ I ruoli di server descritti in precedenza nella presente guida utilizzavano Crit
 
 **Tabella 12.1 Modelli di protezione dei server host Bastion**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -47,16 +47,16 @@ I ruoli di server descritti in precedenza nella presente guida utilizzavano Crit
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SSLF-Bastion Host.inf</p></td>
-<td style="border:1px solid black;"><p>SSLF-Bastion Host.inf</p></td>
-<td style="border:1px solid black;"><p>SSLF-Bastion Host.inf</p></td>
+<td style="border:1px solid black;">SSLF-Bastion Host.inf</td>
+<td style="border:1px solid black;">SSLF-Bastion Host.inf</td>
+<td style="border:1px solid black;">SSLF-Bastion Host.inf</td>
 </tr>
 </tbody>
 </table>
@@ -75,7 +75,7 @@ Il file SSLF-Bastion Host.inf include le assegnazioni dei diritti utente BHPL pe
   
 **Tabella 12.2 Impostazioni per l'assegnazione dei diritti utente consigliate**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -83,14 +83,14 @@ Il file SSLF-Bastion Host.inf include le assegnazioni dei diritti utente BHPL pe
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Assegnazione diritti utente</p></th>
-<th><p>Impostazione</p></th>
+<th>Assegnazione diritti utente</th>
+<th>Impostazione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nega accesso al computer dalla rete</p></td>
-<td style="border:1px solid black;"><p>ACCESSO ANONIMO; Amministratore incorporato; Support_388945a0; Guest; tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
+<td style="border:1px solid black;">Nega accesso al computer dalla rete</td>
+<td style="border:1px solid black;">ACCESSO ANONIMO; Amministratore incorporato; Support_388945a0; Guest; tutti gli account di servizio NON utilizzati dal sistema operativo</td>
 </tr>
 </tbody>
 </table>
@@ -133,7 +133,7 @@ Inoltre, l'account Amministratore incorporato potrebbe essere stato rinominato, 
   
 **Tabella 12.3 Assegnazioni diritti utente aggiunte manualmente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -143,25 +143,25 @@ Inoltre, l'account Amministratore incorporato potrebbe essere stato rinominato, 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nega accesso al computer dalla rete</p></td>
-<td style="border:1px solid black;"><p>Amministratore incorporato; Support_388945a0;</p>
-<p>Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Amministratore incorporato; Support_388945a0;</p>
-<p>Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Amministratore incorporato; Support_388945a0;</p>
-<p>Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
+<td style="border:1px solid black;">Nega accesso al computer dalla rete</td>
+<td style="border:1px solid black;">Amministratore incorporato; Support_388945a0;
+Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</td>
+<td style="border:1px solid black;">Amministratore incorporato; Support_388945a0;
+Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</td>
+<td style="border:1px solid black;">Amministratore incorporato; Support_388945a0;
+Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **Importante:** l'opzione "Tutti gli account di servizio non utilizzati dal sistema operativo" comprende gli account di servizio usati per applicazioni specifiche all'interno di un'organizzazione, ma NON comprende gli account SISTEMA LOCALE, SERVIZIO LOCALE o quelli del SERVIZIO DI RETE (gli account predefiniti usati dal sistema operativo).
 
@@ -187,7 +187,7 @@ Negli ultimi anni il valore della modifica di questa configurazione è diminuito
 
 **Tabella 12.4 Impostazioni di segnalazione errori consigliate**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -197,18 +197,18 @@ Negli ultimi anni il valore della modifica di questa configurazione è diminuito
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitare la segnalazione errori di Windows</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Disabilitare la segnalazione errori di Windows</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>

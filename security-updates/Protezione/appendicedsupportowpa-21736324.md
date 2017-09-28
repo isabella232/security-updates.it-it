@@ -31,7 +31,7 @@ Poiché lo standard WPA utilizza il protocollo 802.1X per l'autenticazione di re
 
 **Tabella D.1. Componenti della soluzione da prendere in considerazione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -40,36 +40,36 @@ Poiché lo standard WPA utilizza il protocollo 802.1X per l'autenticazione di re
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Elemento della soluzione</p></th>
-<th><p>Considerazione</p></th>
-<th><p>Commenti</p></th>
+<th>Elemento della soluzione</th>
+<th>Considerazione</th>
+<th>Commenti</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Driver hardware Microsoft Windows® XP</p></td>
-<td style="border:1px solid black;"><p>Contattare il fornitore delle schede di interfaccia di rete (NIC) per la valutazione delle schede da aggiornare per il supporto WPA e la disponibilità dei driver del client Windows XP.</p></td>
-<td style="border:1px solid black;"><p>Cercare i driver che hanno superato i test condotti da WHQL (Windows Hardware Quality Labs). Il supporto del driver per il servizio Configurazione automatica reti senza fili di Windows consente l'aggiornamento dinamico del firmware della scheda per il supporto dello standard WPA. Confermare il supporto del driver per il servizio WZC con il fornitore.</p></td>
+<td style="border:1px solid black;">Driver hardware Microsoft Windows® XP</td>
+<td style="border:1px solid black;">Contattare il fornitore delle schede di interfaccia di rete (NIC) per la valutazione delle schede da aggiornare per il supporto WPA e la disponibilità dei driver del client Windows XP.</td>
+<td style="border:1px solid black;">Cercare i driver che hanno superato i test condotti da WHQL (Windows Hardware Quality Labs). Il supporto del driver per il servizio Configurazione automatica reti senza fili di Windows consente l'aggiornamento dinamico del firmware della scheda per il supporto dello standard WPA. Confermare il supporto del driver per il servizio WZC con il fornitore.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurazione del client Windows XP</p></td>
-<td style="border:1px solid black;"><p>È necessario modificare le impostazioni di configurazione del client. Questa soluzione è stata verificata selezionando lo standard WPA come metodo di autenticazione e TKIP (Temporal Key Integrity Protocol) come protocollo di crittografia.</p></td>
-<td style="border:1px solid black;"><p>Il protocollo TKIP sostituisce lo standard WEP come metodo di crittografia, mentre WPA impone lo standard 802.1X come metodo di autenticazione.</p></td>
+<td style="border:1px solid black;">Configurazione del client Windows XP</td>
+<td style="border:1px solid black;">È necessario modificare le impostazioni di configurazione del client. Questa soluzione è stata verificata selezionando lo standard WPA come metodo di autenticazione e TKIP (Temporal Key Integrity Protocol) come protocollo di crittografia.</td>
+<td style="border:1px solid black;">Il protocollo TKIP sostituisce lo standard WEP come metodo di crittografia, mentre WPA impone lo standard 802.1X come metodo di autenticazione.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Riautenticazione temporizzata del client</p></td>
-<td style="border:1px solid black;"><p>Questa soluzione utilizza le impostazioni RADIUS per garantire l'esecuzione di una riautenticazione ogni 10 minuti e la conseguente rigenerazione delle chiavi WEP.</p></td>
-<td style="border:1px solid black;"><p>Il protocollo TKIP richiude ogni pacchetto rendendo obsoleti i requisiti di riautenticazione del client per le finalità delle chiavi WEP. La selezione dell'impostazione di esecuzione ogni 10 minuti impone un carico non necessario sui server IAS (Microsoft Internet Authentication Service). Quando si utilizza lo standard WPA, è possibile modificare il timeout della sessione in 10 ore.</p></td>
+<td style="border:1px solid black;">Riautenticazione temporizzata del client</td>
+<td style="border:1px solid black;">Questa soluzione utilizza le impostazioni RADIUS per garantire l'esecuzione di una riautenticazione ogni 10 minuti e la conseguente rigenerazione delle chiavi WEP.</td>
+<td style="border:1px solid black;">Il protocollo TKIP richiude ogni pacchetto rendendo obsoleti i requisiti di riautenticazione del client per le finalità delle chiavi WEP. La selezione dell'impostazione di esecuzione ogni 10 minuti impone un carico non necessario sui server IAS (Microsoft Internet Authentication Service). Quando si utilizza lo standard WPA, è possibile modificare il timeout della sessione in 10 ore.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Criteri di gruppo di reti senza fili</p></td>
-<td style="border:1px solid black;"><p>I criteri di gruppo delle reti senza fili esistenti, contenuti in Windows Server 2003 prima di SP1, sono stati sviluppati prima che lo standard WPA fosse disponibile e, pertanto, non è possibile configurare le impostazioni WPA del client.</p></td>
-<td style="border:1px solid black;"><p>È necessario utilizzare Windows Server 2003 SP1 per configurare le impostazioni WPA dei criteri di gruppo.<br />
-In alternativa, configurare manualmente le impostazioni del client senza fili.</p></td>
+<td style="border:1px solid black;">Criteri di gruppo di reti senza fili</td>
+<td style="border:1px solid black;">I criteri di gruppo delle reti senza fili esistenti, contenuti in Windows Server 2003 prima di SP1, sono stati sviluppati prima che lo standard WPA fosse disponibile e, pertanto, non è possibile configurare le impostazioni WPA del client.</td>
+<td style="border:1px solid black;">È necessario utilizzare Windows Server 2003 SP1 per configurare le impostazioni WPA dei criteri di gruppo.<br />
+In alternativa, configurare manualmente le impostazioni del client senza fili.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### Configurazione della soluzione di rete LAN senza fili protetta con WPA
 

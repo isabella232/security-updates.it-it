@@ -311,40 +311,40 @@ In genere gli switch di questo tipo sono adatti a piccoli uffici, uffici di fili
 
 **Tabella 1: Classe 1 - Switch fissi di fascia bassa**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Caratteristiche</p></th>
+<th>Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nessuna attività di configurazione richiesta o consentita</p></td>
+<td style="border:1px solid black;">Nessuna attività di configurazione richiesta o consentita</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nessuna possibilità di espansione</p></td>
+<td style="border:1px solid black;">Nessuna possibilità di espansione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto del protocollo Spanning Tree normalmente non previsto</p></td>
+<td style="border:1px solid black;">Supporto del protocollo Spanning Tree normalmente non previsto</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Supporto VLAN non previsto</p></td>
+<td style="border:1px solid black;">Supporto VLAN non previsto</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nessuna possibilità di gestione remota</p></td>
+<td style="border:1px solid black;">Nessuna possibilità di gestione remota</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Supporto tecnico limitato da parte del produttore</p></td>
+<td style="border:1px solid black;">Supporto tecnico limitato da parte del produttore</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto VoIP non previsto</p></td>
+<td style="border:1px solid black;">Supporto VoIP non previsto</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Costo - Basso</p></td>
+<td style="border:1px solid black;">Costo - Basso</td>
 </tr>
 </tbody>
 </table>
@@ -382,40 +382,40 @@ Gli switch flessibili di fascia bassa si prestano a essere utilizzati nelle situ
   
 **Tabella 2: Classe 2 - Switch flessibili di fascia bassa**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Caratteristiche</p></th>
+<th>Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Aggiornabilità delle porte Ethernet</p></td>
+<td style="border:1px solid black;">Aggiornabilità delle porte Ethernet</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Flessibilità delle porte di uplink</p></td>
+<td style="border:1px solid black;">Flessibilità delle porte di uplink</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Possibilità di aggiornamento a un maggior numero di porte Ethernet rispetto agli switch di Classe 1</p></td>
+<td style="border:1px solid black;">Possibilità di aggiornamento a un maggior numero di porte Ethernet rispetto agli switch di Classe 1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Protocollo Spanning Tree</p></td>
+<td style="border:1px solid black;">Protocollo Spanning Tree</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Configurabilità, gestibilità e accesso remoto</p></td>
+<td style="border:1px solid black;">Configurabilità, gestibilità e accesso remoto</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Raramente, supporto VoIP</p></td>
+<td style="border:1px solid black;">Raramente, supporto VoIP</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto VLAN</p></td>
+<td style="border:1px solid black;">Supporto VLAN</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Costo - Variabile, da basso a elevato</p></td>
+<td style="border:1px solid black;">Costo - Variabile, da basso a elevato</td>
 </tr>
 </tbody>
 </table>
@@ -456,52 +456,52 @@ Gli switch di questa classe possono essere utilizzati per provvedere alle funzio
   
 **Tabella 3: Classe 3 - Switch di fascia media**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Caratteristiche</p></th>
+<th>Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unità in telaio, con telai di diverse dimensioni</p></td>
+<td style="border:1px solid black;">Unità in telaio, con telai di diverse dimensioni</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Alimentatori ridondanti</p></td>
+<td style="border:1px solid black;">Alimentatori ridondanti</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Elevata densità di porte Ethernet</p></td>
+<td style="border:1px solid black;">Elevata densità di porte Ethernet</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Porte di uplink flessibili</p></td>
+<td style="border:1px solid black;">Porte di uplink flessibili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Configurabilità, gestibilità e accesso remoto</p></td>
+<td style="border:1px solid black;">Configurabilità, gestibilità e accesso remoto</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Protocollo Spanning Tree</p></td>
+<td style="border:1px solid black;">Protocollo Spanning Tree</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto VLAN</p></td>
+<td style="border:1px solid black;">Supporto VLAN</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Supporto VoIP</p></td>
+<td style="border:1px solid black;">Supporto VoIP</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Commutazione livello 3</p></td>
+<td style="border:1px solid black;">Commutazione livello 3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Alimentatore ridondante</p></td>
+<td style="border:1px solid black;">Alimentatore ridondante</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Modulo di gestione ridondante</p></td>
+<td style="border:1px solid black;">Modulo di gestione ridondante</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Costo - Elevato</p></td>
+<td style="border:1px solid black;">Costo - Elevato</td>
 </tr>
 </tbody>
 </table>
@@ -545,61 +545,61 @@ In queste periferiche hanno un ruolo importante i protocolli ad alta velocità c
   
 **Tabella 4: Classe 4 - Switch di fascia alta**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Caratteristiche</p></th>
+<th>Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unità con telaio</p></td>
+<td style="border:1px solid black;">Unità con telaio</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Alimentatori ridondanti</p></td>
+<td style="border:1px solid black;">Alimentatori ridondanti</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Elevata densità di porte Ethernet</p></td>
+<td style="border:1px solid black;">Elevata densità di porte Ethernet</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Porte di uplink flessibili</p></td>
+<td style="border:1px solid black;">Porte di uplink flessibili</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto 10 Gigabit Ethernet</p></td>
+<td style="border:1px solid black;">Supporto 10 Gigabit Ethernet</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Configurabilità, gestibilità e accesso remoto</p></td>
+<td style="border:1px solid black;">Configurabilità, gestibilità e accesso remoto</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protocollo Spanning Tree</p></td>
+<td style="border:1px solid black;">Protocollo Spanning Tree</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Supporto VLAN</p></td>
+<td style="border:1px solid black;">Supporto VLAN</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto VoIP</p></td>
+<td style="border:1px solid black;">Supporto VoIP</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Commutazione livello 3</p></td>
+<td style="border:1px solid black;">Commutazione livello 3</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Commutazione livello 4-7</p></td>
+<td style="border:1px solid black;">Commutazione livello 4-7</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Funzionalità di protezione</p></td>
+<td style="border:1px solid black;">Funzionalità di protezione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Alimentatore ridondante</p></td>
+<td style="border:1px solid black;">Alimentatore ridondante</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Modulo di gestione ridondante</p></td>
+<td style="border:1px solid black;">Modulo di gestione ridondante</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costo - Elevato</p></td>
+<td style="border:1px solid black;">Costo - Elevato</td>
 </tr>
 </tbody>
 </table>
@@ -695,31 +695,31 @@ I router software sono utili nelle situazioni con pochi utenti locali ed esigenz
   
 **Tabella 5: Classe 1 - Router software**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Caratteristiche</p></th>
+<th>Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Solo software</p></td>
+<td style="border:1px solid black;">Solo software</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Semplicità di configurazione</p></td>
+<td style="border:1px solid black;">Semplicità di configurazione</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>NAT (Network Address Translation) incorporato</p></td>
+<td style="border:1px solid black;">NAT (Network Address Translation) incorporato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nessun protocollo di routing</p></td>
+<td style="border:1px solid black;">Nessun protocollo di routing</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Fornito gratuitamente con il sistema operativo o a bassissimo costo</p></td>
+<td style="border:1px solid black;">Fornito gratuitamente con il sistema operativo o a bassissimo costo</td>
 </tr>
 </tbody>
 </table>
@@ -763,49 +763,49 @@ I router di questa classe sono progettati per i piccoli uffici o per il telelavo
   
 **Tabella 6: Classe 2 - Router fissi di fascia bassa**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Caratteristiche</p></th>
+<th>Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protocolli WAN limitati</p></td>
+<td style="border:1px solid black;">Protocolli WAN limitati</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Hardware non aggiornabile</p></td>
+<td style="border:1px solid black;">Hardware non aggiornabile</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protocollo di routing RIP, talvolta OSPF</p></td>
+<td style="border:1px solid black;">Protocollo di routing RIP, talvolta OSPF</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Prestazioni limitate</p></td>
+<td style="border:1px solid black;">Prestazioni limitate</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Spesso semplice configurazione</p></td>
+<td style="border:1px solid black;">Spesso semplice configurazione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nessuna tolleranza d'errore</p></td>
+<td style="border:1px solid black;">Nessuna tolleranza d'errore</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Switch o hub incorporato</p></td>
+<td style="border:1px solid black;">Switch o hub incorporato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Firewall incorporato</p></td>
+<td style="border:1px solid black;">Firewall incorporato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>NAT/DHCP incorporati</p></td>
+<td style="border:1px solid black;">NAT/DHCP incorporati</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Supporto tecnico limitato da parte del produttore</p></td>
+<td style="border:1px solid black;">Supporto tecnico limitato da parte del produttore</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costo — Basso</p></td>
+<td style="border:1px solid black;">Costo — Basso</td>
 </tr>
 </tbody>
 </table>
@@ -855,46 +855,46 @@ Vengono frequentemente utilizzati in piccoli uffici o uffici di filiali in cui �
   
 **Tabella 7: Classe 3 - Router flessibili di fascia bassa**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Caratteristiche</p></th>
+<th>Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Aggiornabilità</p></td>
+<td style="border:1px solid black;">Aggiornabilità</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ampia gamma di opzioni per la connettività WAN</p></td>
+<td style="border:1px solid black;">Ampia gamma di opzioni per la connettività WAN</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protocolli di routing RIP e OSPF</p></td>
+<td style="border:1px solid black;">Protocolli di routing RIP e OSPF</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Supporto VLAN</p></td>
+<td style="border:1px solid black;">Supporto VLAN</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto VoIP</p></td>
+<td style="border:1px solid black;">Supporto VoIP</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nessuna tolleranza d'errore</p></td>
+<td style="border:1px solid black;">Nessuna tolleranza d'errore</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Switch o hub incorporato</p></td>
+<td style="border:1px solid black;">Switch o hub incorporato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Firewall incorporato</p></td>
+<td style="border:1px solid black;">Firewall incorporato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>NAT/DHCP incorporati</p></td>
+<td style="border:1px solid black;">NAT/DHCP incorporati</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Costo - Variabile, da basso a elevato</p></td>
+<td style="border:1px solid black;">Costo - Variabile, da basso a elevato</td>
 </tr>
 </tbody>
 </table>
@@ -943,52 +943,52 @@ I router di questa classe possono essere utilizzati per provvedere alle funzioni
   
 **Tabella 8: Classe 4 - Router di fascia media**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Caratteristiche</p></th>
+<th>Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Aggiornabilità</p></td>
+<td style="border:1px solid black;">Aggiornabilità</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ampia gamma di opzioni per la connettività WAN</p></td>
+<td style="border:1px solid black;">Ampia gamma di opzioni per la connettività WAN</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Prestazioni &gt;40 kpps</p></td>
+<td style="border:1px solid black;">Prestazioni &gt;40 kpps</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Protocolli di routing RIP e OSPF</p></td>
+<td style="border:1px solid black;">Protocolli di routing RIP e OSPF</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto VLAN</p></td>
+<td style="border:1px solid black;">Supporto VLAN</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Supporto VoIP</p></td>
+<td style="border:1px solid black;">Supporto VoIP</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nessuna tolleranza d'errore</p></td>
+<td style="border:1px solid black;">Nessuna tolleranza d'errore</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Firewall incorporato</p></td>
+<td style="border:1px solid black;">Firewall incorporato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protocollo di adattabilità VRRP</p></td>
+<td style="border:1px solid black;">Protocollo di adattabilità VRRP</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>NAT/DHCP incorporati</p></td>
+<td style="border:1px solid black;">NAT/DHCP incorporati</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto VPN</p></td>
+<td style="border:1px solid black;">Supporto VPN</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Costo - Variabile, da basso a elevato</p></td>
+<td style="border:1px solid black;">Costo - Variabile, da basso a elevato</td>
 </tr>
 </tbody>
 </table>
@@ -1026,55 +1026,55 @@ In queste periferiche hanno un ruolo importante i protocolli ad alta velocità c
   
 **Tabella 9: Classe 5 - Router di fascia alta**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Caratteristiche</p></th>
+<th>Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unità basata su telaio</p></td>
+<td style="border:1px solid black;">Unità basata su telaio</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ampia gamma di opzioni per la connettività WAN</p></td>
+<td style="border:1px solid black;">Ampia gamma di opzioni per la connettività WAN</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Prestazioni &gt;oltre 900 kpps</p></td>
+<td style="border:1px solid black;">Prestazioni &gt;oltre 900 kpps</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Protocolli di routing RIP e OSPF</p></td>
+<td style="border:1px solid black;">Protocolli di routing RIP e OSPF</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Supporto VLAN</p></td>
+<td style="border:1px solid black;">Supporto VLAN</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Supporto VoIP</p></td>
+<td style="border:1px solid black;">Supporto VoIP</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Alimentatore ridondante</p></td>
+<td style="border:1px solid black;">Alimentatore ridondante</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Modulo di gestione ridondante</p></td>
+<td style="border:1px solid black;">Modulo di gestione ridondante</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Firewall incorporato</p></td>
+<td style="border:1px solid black;">Firewall incorporato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Protocollo di adattabilità VRRP</p></td>
+<td style="border:1px solid black;">Protocollo di adattabilità VRRP</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>NAT/DHCP incorporati</p></td>
+<td style="border:1px solid black;">NAT/DHCP incorporati</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Supporto VPN</p></td>
+<td style="border:1px solid black;">Supporto VPN</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Costo - Elevato</p></td>
+<td style="border:1px solid black;">Costo - Elevato</td>
 </tr>
 </tbody>
 </table>
@@ -1107,40 +1107,40 @@ I router ISP sono utilizzati dagli ISP sulla backbone di Internet. È anche poss
   
 **Tabella 10: Classe 5 - Router di fascia alta**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Caratteristiche</p></th>
+<th>Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Unità basata su telaio</p></td>
+<td style="border:1px solid black;">Unità basata su telaio</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Ampia gamma di opzioni per la connettività WAN</p></td>
+<td style="border:1px solid black;">Ampia gamma di opzioni per la connettività WAN</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ampia gamma di opzioni per la connettività LAN</p></td>
+<td style="border:1px solid black;">Ampia gamma di opzioni per la connettività LAN</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Prestazioni nell'ordine di milioni di pps</p></td>
+<td style="border:1px solid black;">Prestazioni nell'ordine di milioni di pps</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ampie capacità di espansione</p></td>
+<td style="border:1px solid black;">Ampie capacità di espansione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Alimentatori ridondanti</p></td>
+<td style="border:1px solid black;">Alimentatori ridondanti</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Moduli di gestione ridondanti</p></td>
+<td style="border:1px solid black;">Moduli di gestione ridondanti</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Costo - Molto elevato</p></td>
+<td style="border:1px solid black;">Costo - Molto elevato</td>
 </tr>
 </tbody>
 </table>
@@ -1232,7 +1232,7 @@ ICMP è un protocollo senza informazioni sullo stato basato su IP, che consente 
   
 **Tabella 11: Messaggi ICMP comunemente utilizzati**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1240,34 +1240,34 @@ ICMP è un protocollo senza informazioni sullo stato basato su IP, che consente 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Messaggio</p></th>
-<th><p>Descrizione</p></th>
+<th>Messaggio</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Richiesta echo (Ping)</p></td>
-<td style="border:1px solid black;"><p>Consente di stabilire se un nodo IP (host o router) è disponibile sulla rete</p></td>
+<td style="border:1px solid black;">Richiesta echo (Ping)</td>
+<td style="border:1px solid black;">Consente di stabilire se un nodo IP (host o router) è disponibile sulla rete</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Risposta echo (risposta Ping)</p></td>
-<td style="border:1px solid black;"><p>Risponde a una richiesta echo ICMP</p></td>
+<td style="border:1px solid black;">Risposta echo (risposta Ping)</td>
+<td style="border:1px solid black;">Risponde a una richiesta echo ICMP</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Destinazione irraggiungibile</p></td>
-<td style="border:1px solid black;"><p>Informa l'host dell'impossibilità di inoltrare un datagramma</p></td>
+<td style="border:1px solid black;">Destinazione irraggiungibile</td>
+<td style="border:1px solid black;">Informa l'host dell'impossibilità di inoltrare un datagramma</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Richiesta di rallentamento dell'origine</p></td>
-<td style="border:1px solid black;"><p>Informa l'host della necessità di rallentare la velocità di invio dei datagrammi a causa della congestione della rete</p></td>
+<td style="border:1px solid black;">Richiesta di rallentamento dell'origine</td>
+<td style="border:1px solid black;">Informa l'host della necessità di rallentare la velocità di invio dei datagrammi a causa della congestione della rete</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Reindirizza</p></td>
-<td style="border:1px solid black;"><p>Informa l'host di una route preferenziale</p></td>
+<td style="border:1px solid black;">Reindirizza</td>
+<td style="border:1px solid black;">Informa l'host di una route preferenziale</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Tempo scaduto</p></td>
-<td style="border:1px solid black;"><p>Indica che la durata (TTL) di un datagramma IP è terminata</p></td>
+<td style="border:1px solid black;">Tempo scaduto</td>
+<td style="border:1px solid black;">Indica che la durata (TTL) di un datagramma IP è terminata</td>
 </tr>
 </tbody>
 </table>
@@ -1284,7 +1284,7 @@ Il traffico broadcast può essere utilizzato per enumerare gli host di una rete 
   
 **Tabella 12: Indirizzi di origine da filtrare**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1292,54 +1292,54 @@ Il traffico broadcast può essere utilizzato per enumerare gli host di una rete 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Indirizzo di origine</p></th>
-<th><p>Descrizione</p></th>
+<th>Indirizzo di origine</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0.0.0.0/8</p></td>
-<td style="border:1px solid black;"><p>Broadcast cronologico</p></td>
+<td style="border:1px solid black;">0.0.0.0/8</td>
+<td style="border:1px solid black;">Broadcast cronologico</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>10.0.0.0/8</p></td>
-<td style="border:1px solid black;"><p>Rete privata RFC 1918</p></td>
+<td style="border:1px solid black;">10.0.0.0/8</td>
+<td style="border:1px solid black;">Rete privata RFC 1918</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>127.0.0.0/8</p></td>
-<td style="border:1px solid black;"><p>Loopback</p></td>
+<td style="border:1px solid black;">127.0.0.0/8</td>
+<td style="border:1px solid black;">Loopback</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>169.254.0.0/16</p></td>
-<td style="border:1px solid black;"><p>Collegamento di reti locali (indirizzi APIPA)</p></td>
+<td style="border:1px solid black;">169.254.0.0/16</td>
+<td style="border:1px solid black;">Collegamento di reti locali (indirizzi APIPA)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>172.16.0.0/12</p></td>
-<td style="border:1px solid black;"><p>Rete privata RFC 1918</p></td>
+<td style="border:1px solid black;">172.16.0.0/12</td>
+<td style="border:1px solid black;">Rete privata RFC 1918</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>192.0.2.0/24</p></td>
-<td style="border:1px solid black;"><p>TEST-NET</p></td>
+<td style="border:1px solid black;">192.0.2.0/24</td>
+<td style="border:1px solid black;">TEST-NET</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>192.168.0.0/16</p></td>
-<td style="border:1px solid black;"><p>Rete privata RFC 1918</p></td>
+<td style="border:1px solid black;">192.168.0.0/16</td>
+<td style="border:1px solid black;">Rete privata RFC 1918</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>224.0.0.0/4</p></td>
-<td style="border:1px solid black;"><p>Multicast Classe D</p></td>
+<td style="border:1px solid black;">224.0.0.0/4</td>
+<td style="border:1px solid black;">Multicast Classe D</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>240.0.0.0/5</p></td>
-<td style="border:1px solid black;"><p>Riservato Classe E</p></td>
+<td style="border:1px solid black;">240.0.0.0/5</td>
+<td style="border:1px solid black;">Riservato Classe E</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>248.0.0.0/5</p></td>
-<td style="border:1px solid black;"><p>Non allocato</p></td>
+<td style="border:1px solid black;">248.0.0.0/5</td>
+<td style="border:1px solid black;">Non allocato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>255.255.255.255/32</p></td>
-<td style="border:1px solid black;"><p>Broadcast</p></td>
+<td style="border:1px solid black;">255.255.255.255/32</td>
+<td style="border:1px solid black;">Broadcast</td>
 </tr>
 </tbody>
 </table>
@@ -1493,7 +1493,7 @@ Nella tabella 13 sono riepilogate le caratteristiche di una rete protetta. Le im
   
 **Tabella 13: Riepilogo delle caratteristiche di una rete protetta**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1501,94 +1501,94 @@ Nella tabella 13 sono riepilogate le caratteristiche di una rete protetta. Le im
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Componente</p></th>
-<th><p>Caratteristica</p></th>
+<th>Componente</th>
+<th>Caratteristica</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Router</strong></p></td>
+<td style="border:1px solid black;"><strong>Router</strong></td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Patch e aggiornamenti</p></td>
-<td style="border:1px solid black;"><p>Al sistema operativo del router vengono applicate le patch software aggiornate.</p></td>
+<td style="border:1px solid black;">Patch e aggiornamenti</td>
+<td style="border:1px solid black;">Al sistema operativo del router vengono applicate le patch software aggiornate.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Protocolli</p></td>
-<td style="border:1px solid black;"><p>Le porte e i protocolli inutilizzati sono bloccati.<br />
+<td style="border:1px solid black;">Protocolli</td>
+<td style="border:1px solid black;">Le porte e i protocolli inutilizzati sono bloccati.<br />
 Filtraggio &quot;ingress&quot; ed &quot;egress&quot; implementato.<br />
 Il traffico ICMP è separato dalla rete interna.<br />
 La funzione Rileva route è disattivata.<br />
 Il traffico broadcast diretto non viene inoltrato.<br />
 Viene eseguito lo screening di pacchetti ping di grandi dimensioni.<br />
 I pacchetti RIP (Routing Information Protocol), se utilizzati, vengono bloccati al router più esterno.<br />
-Viene utilizzato il routing statico.</p></td>
+Viene utilizzato il routing statico.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Accesso amministrativo</p></td>
-<td style="border:1px solid black;"><p>Vengono applicati criteri rigidi per le password di amministrazione.<br />
+<td style="border:1px solid black;">Accesso amministrativo</td>
+<td style="border:1px solid black;">Vengono applicati criteri rigidi per le password di amministrazione.<br />
 Viene utilizzato un sistema di controllo dell'accesso amministrativo<br />
 Le interfacce di gestione inutilizzate nel router sono disattivate.<br />
-L'amministrazione basata sul Web è disattivata.</p></td>
+L'amministrazione basata sul Web è disattivata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi</p></td>
-<td style="border:1px solid black;"><p>I servizi inutilizzati sono disattivati (ad esempio <strong>bootps</strong> e <strong>Finger</strong>).</p></td>
+<td style="border:1px solid black;">Servizi</td>
+<td style="border:1px solid black;">I servizi inutilizzati sono disattivati (ad esempio <strong>bootps</strong> e <strong>Finger</strong>).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controllo e registrazione</p></td>
-<td style="border:1px solid black;"><p>È attiva la registrazione per tutto il traffico respinto.<br />
+<td style="border:1px solid black;">Controllo e registrazione</td>
+<td style="border:1px solid black;">È attiva la registrazione per tutto il traffico respinto.<br />
 I registri vengono archiviati e protetti centralmente.<br />
-Viene eseguito il controllo dei registri per rilevare l'eventuale presenza di schemi atipici.</p></td>
+Viene eseguito il controllo dei registri per rilevare l'eventuale presenza di schemi atipici.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rilevamento delle intrusioni</p></td>
-<td style="border:1px solid black;"><p>Sono attivi sistemi di rilevamento delle intrusioni (IDS, Intrusion Detection System) per individuare e segnalare attacchi in corso.</p></td>
+<td style="border:1px solid black;">Rilevamento delle intrusioni</td>
+<td style="border:1px solid black;">Sono attivi sistemi di rilevamento delle intrusioni (IDS, Intrusion Detection System) per individuare e segnalare attacchi in corso.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Accesso fisico</p></td>
-<td style="border:1px solid black;"><p>L'accesso fisico alle periferiche è limitato</p></td>
+<td style="border:1px solid black;">Accesso fisico</td>
+<td style="border:1px solid black;">L'accesso fisico alle periferiche è limitato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Switch</strong></p></td>
+<td style="border:1px solid black;"><strong>Switch</strong></td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Patch e aggiornamenti</p></td>
-<td style="border:1px solid black;"><p>Le patch più recenti vengono collaudate e installate o vengono adottati sistemi per mitigare la minaccia costituita da vulnerabilità note.</p></td>
+<td style="border:1px solid black;">Patch e aggiornamenti</td>
+<td style="border:1px solid black;">Le patch più recenti vengono collaudate e installate o vengono adottati sistemi per mitigare la minaccia costituita da vulnerabilità note.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>VLAN</p></td>
-<td style="border:1px solid black;"><p>Vengono utilizzate VLAN e ACL.</p></td>
+<td style="border:1px solid black;">VLAN</td>
+<td style="border:1px solid black;">Vengono utilizzate VLAN e ACL.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Le porte inutilizzate sono disattivate</p></td>
-<td style="border:1px solid black;"><p>Le porte Ethernet inutilizzate sono disattivate.</p></td>
+<td style="border:1px solid black;">Le porte inutilizzate sono disattivate</td>
+<td style="border:1px solid black;">Le porte Ethernet inutilizzate sono disattivate.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Servizi</p></td>
-<td style="border:1px solid black;"><p>I servizi inutilizzati sono disattivati.</p></td>
+<td style="border:1px solid black;">Servizi</td>
+<td style="border:1px solid black;">I servizi inutilizzati sono disattivati.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Crittografia</p></td>
-<td style="border:1px solid black;"><p>Il traffico commutato viene crittografato.</p></td>
+<td style="border:1px solid black;">Crittografia</td>
+<td style="border:1px solid black;">Il traffico commutato viene crittografato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Altro</strong></p></td>
+<td style="border:1px solid black;"><strong>Altro</strong></td>
 <td style="border:1px solid black;"> </td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Sincronizzazione dei registri</p></td>
-<td style="border:1px solid black;"><p>Tutti gli orologi delle periferiche dotate di capacità di registrazione sono sincronizzati.</p></td>
+<td style="border:1px solid black;">Sincronizzazione dei registri</td>
+<td style="border:1px solid black;">Tutti gli orologi delle periferiche dotate di capacità di registrazione sono sincronizzati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Accesso amministrativo alla rete</p></td>
-<td style="border:1px solid black;"><p>Per l'autenticazione degli utenti amministrativi viene utilizzato Kerberos o RADIUS.</p></td>
+<td style="border:1px solid black;">Accesso amministrativo alla rete</td>
+<td style="border:1px solid black;">Per l'autenticazione degli utenti amministrativi viene utilizzato Kerberos o RADIUS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>ACL di rete</p></td>
-<td style="border:1px solid black;"><p>La rete è strutturata in modo da consentire l'utilizzo di ACL su host e reti.</p></td>
+<td style="border:1px solid black;">ACL di rete</td>
+<td style="border:1px solid black;">La rete è strutturata in modo da consentire l'utilizzo di ACL su host e reti.</td>
 </tr>
 </tbody>
 </table>

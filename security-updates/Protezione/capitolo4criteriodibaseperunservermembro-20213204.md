@@ -81,7 +81,7 @@ Molte delle impostazioni che compaiono nei criteri MSBP dell'ambiente Client di 
 
 **Tabella 4.1 Modelli di protezione di base per i tre ambienti**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -90,16 +90,16 @@ Molte delle impostazioni che compaiono nei criteri MSBP dell'ambiente Client di 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>LC-Member Server Baseline.inf</p></td>
-<td style="border:1px solid black;"><p>EC-Member Server Baseline.inf</p></td>
-<td style="border:1px solid black;"><p>SSLF-Member Server Baseline.inf</p></td>
+<td style="border:1px solid black;">LC-Member Server Baseline.inf</td>
+<td style="border:1px solid black;">EC-Member Server Baseline.inf</td>
+<td style="border:1px solid black;">SSLF-Member Server Baseline.inf</td>
 </tr>
 </tbody>
 </table>
@@ -143,7 +143,7 @@ Per un riepilogo delle impostazioni richieste illustrate in questa sezione, vede
   
 **Tabella 4.2 Impostazioni del Criterio Controllo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -153,60 +153,60 @@ Per un riepilogo delle impostazioni richieste illustrate in questa sezione, vede
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controlla eventi accesso account</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite Operazioni non riuscite</p></td>
+<td style="border:1px solid black;">Controlla eventi accesso account</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
+<td style="border:1px solid black;">Operazioni riuscite Operazioni non riuscite</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controlla gestione degli account</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite Operazioni non riuscite</p></td>
+<td style="border:1px solid black;">Controlla gestione degli account</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
+<td style="border:1px solid black;">Operazioni riuscite Operazioni non riuscite</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controlla eventi di accesso</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
-<td style="border:1px solid black;"><p>Operazioni riuscite Operazioni non riuscite</p></td>
+<td style="border:1px solid black;">Controlla eventi di accesso</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
+<td style="border:1px solid black;">Operazioni riuscite Operazioni non riuscite</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controlla accesso agli oggetti</p></td>
-<td style="border:1px solid black;"><p>Nessun controllo</p></td>
-<td style="border:1px solid black;"><p>Nessun controllo</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
+<td style="border:1px solid black;">Controlla accesso agli oggetti</td>
+<td style="border:1px solid black;">Nessun controllo</td>
+<td style="border:1px solid black;">Nessun controllo</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Modifica del criterio di controllo</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
+<td style="border:1px solid black;">Modifica del criterio di controllo</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controlla uso dei privilegi</p></td>
-<td style="border:1px solid black;"><p>Nessun controllo</p></td>
-<td style="border:1px solid black;"><p>Nessun controllo</p></td>
-<td style="border:1px solid black;"><p>Operazioni non riuscite</p></td>
+<td style="border:1px solid black;">Controlla uso dei privilegi</td>
+<td style="border:1px solid black;">Nessun controllo</td>
+<td style="border:1px solid black;">Nessun controllo</td>
+<td style="border:1px solid black;">Operazioni non riuscite</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Controlla tracciato processo</p></td>
-<td style="border:1px solid black;"><p>Nessun controllo</p></td>
-<td style="border:1px solid black;"><p>Nessun controllo</p></td>
-<td style="border:1px solid black;"><p>Nessun controllo</p></td>
+<td style="border:1px solid black;">Controlla tracciato processo</td>
+<td style="border:1px solid black;">Nessun controllo</td>
+<td style="border:1px solid black;">Nessun controllo</td>
+<td style="border:1px solid black;">Nessun controllo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Controlla eventi di sistema</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
-<td style="border:1px solid black;"><p>Operazione riuscita</p></td>
+<td style="border:1px solid black;">Controlla eventi di sistema</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
+<td style="border:1px solid black;">Operazione riuscita</td>
 </tr>
 </tbody>
 </table>
@@ -221,7 +221,7 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
   
 **Tabella 4.3 Eventi di accesso account**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -229,50 +229,50 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ID evento</p></th>
-<th><p>Descrizione evento</p></th>
+<th>ID evento</th>
+<th>Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>672</p></td>
-<td style="border:1px solid black;"><p>Un ticket del servizio di autenticazione (AS, Authentication Service) è stato emesso e convalidato correttamente. In Windows Server 2003 con SP1, il tipo di quest'evento sarà Success Audit per le richieste completate con successo o Failure Audit per le richieste non riuscite.</p></td>
+<td style="border:1px solid black;">672</td>
+<td style="border:1px solid black;">Un ticket del servizio di autenticazione (AS, Authentication Service) è stato emesso e convalidato correttamente. In Windows Server 2003 con SP1, il tipo di quest'evento sarà Success Audit per le richieste completate con successo o Failure Audit per le richieste non riuscite.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>673</p></td>
-<td style="border:1px solid black;"><p>È stato concesso un ticket TGS (Ticket Granting Service). Un TGS è un ticket rilasciato da TGS di Kerberos versione 5 che consente a un utente di autenticarsi per uno specifico servizio del dominio. Windows Server 2003 con SP1 registrerà le operazioni riuscite e non riuscite per questo tipo evento.</p></td>
+<td style="border:1px solid black;">673</td>
+<td style="border:1px solid black;">È stato concesso un ticket TGS (Ticket Granting Service). Un TGS è un ticket rilasciato da TGS di Kerberos versione 5 che consente a un utente di autenticarsi per uno specifico servizio del dominio. Windows Server 2003 con SP1 registrerà le operazioni riuscite e non riuscite per questo tipo evento.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>674</p></td>
-<td style="border:1px solid black;"><p>Un'identità di protezione ha rinnovato un ticket AS o TGS.</p></td>
+<td style="border:1px solid black;">674</td>
+<td style="border:1px solid black;">Un'identità di protezione ha rinnovato un ticket AS o TGS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>675</p></td>
-<td style="border:1px solid black;"><p>Preautenticazione non riuscita. L'evento viene generato in un centro distribuzione chiavi (KDC) quando un utente immette una password non corretta.</p></td>
+<td style="border:1px solid black;">675</td>
+<td style="border:1px solid black;">Preautenticazione non riuscita. L'evento viene generato in un centro distribuzione chiavi (KDC) quando un utente immette una password non corretta.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>676</p></td>
-<td style="border:1px solid black;"><p>Richiesta ticket autenticazione non riuscita. Questo evento non è generato da Windows Server 2003 con SP1. Altre versioni di Windows utilizzano questo evento per indicare un'autenticazione non riuscita che non è dovuta a credenziali non corrette.</p></td>
+<td style="border:1px solid black;">676</td>
+<td style="border:1px solid black;">Richiesta ticket autenticazione non riuscita. Questo evento non è generato da Windows Server 2003 con SP1. Altre versioni di Windows utilizzano questo evento per indicare un'autenticazione non riuscita che non è dovuta a credenziali non corrette.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>677</p></td>
-<td style="border:1px solid black;"><p>Non è stato concesso un ticket TGS. Questo evento non è generato da Windows Server 2003 con SP1, che in questo caso usa un evento di controllo non riuscito con l'ID 672.</p></td>
+<td style="border:1px solid black;">677</td>
+<td style="border:1px solid black;">Non è stato concesso un ticket TGS. Questo evento non è generato da Windows Server 2003 con SP1, che in questo caso usa un evento di controllo non riuscito con l'ID 672.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>678</p></td>
-<td style="border:1px solid black;"><p>Un account è stato mappato in modo corretto a un account del dominio.</p></td>
+<td style="border:1px solid black;">678</td>
+<td style="border:1px solid black;">Un account è stato mappato in modo corretto a un account del dominio.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>681</p></td>
-<td style="border:1px solid black;"><p>Errore durante l'accesso. È stato tentato un accesso account di dominio. Quest'evento è generato soltanto dai controller di dominio.</p></td>
+<td style="border:1px solid black;">681</td>
+<td style="border:1px solid black;">Errore durante l'accesso. È stato tentato un accesso account di dominio. Quest'evento è generato soltanto dai controller di dominio.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>682</p></td>
-<td style="border:1px solid black;"><p>Un utente si è riconnesso a una sessione di server terminal disconnessa.</p></td>
+<td style="border:1px solid black;">682</td>
+<td style="border:1px solid black;">Un utente si è riconnesso a una sessione di server terminal disconnessa.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>683</p></td>
-<td style="border:1px solid black;"><p>Un utente ha terminato una sessione Terminal Server senza chiudere correttamente la connessione.</p></td>
+<td style="border:1px solid black;">683</td>
+<td style="border:1px solid black;">Un utente ha terminato una sessione Terminal Server senza chiudere correttamente la connessione.</td>
 </tr>
 </tbody>
 </table>
@@ -297,7 +297,7 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
   
 **Tabella 4.4 Eventi di gestione degli account**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -305,184 +305,184 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ID evento</p></th>
-<th><p>Descrizione evento</p></th>
+<th>ID evento</th>
+<th>Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>624</p></td>
-<td style="border:1px solid black;"><p>Creazione di un account utente.</p></td>
+<td style="border:1px solid black;">624</td>
+<td style="border:1px solid black;">Creazione di un account utente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>627</p></td>
-<td style="border:1px solid black;"><p>Modifica di una password utente.</p></td>
+<td style="border:1px solid black;">627</td>
+<td style="border:1px solid black;">Modifica di una password utente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>628</p></td>
-<td style="border:1px solid black;"><p>Impostazione di una password utente.</p></td>
+<td style="border:1px solid black;">628</td>
+<td style="border:1px solid black;">Impostazione di una password utente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>630</p></td>
-<td style="border:1px solid black;"><p>Eliminazione di un account utente.</p></td>
+<td style="border:1px solid black;">630</td>
+<td style="border:1px solid black;">Eliminazione di un account utente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>631</p></td>
-<td style="border:1px solid black;"><p>Creazione di un gruppo globale.</p></td>
+<td style="border:1px solid black;">631</td>
+<td style="border:1px solid black;">Creazione di un gruppo globale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>632</p></td>
-<td style="border:1px solid black;"><p>Aggiunta di un membro a un gruppo globale.</p></td>
+<td style="border:1px solid black;">632</td>
+<td style="border:1px solid black;">Aggiunta di un membro a un gruppo globale.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>633</p></td>
-<td style="border:1px solid black;"><p>Rimozione di un membro da un gruppo globale.</p></td>
+<td style="border:1px solid black;">633</td>
+<td style="border:1px solid black;">Rimozione di un membro da un gruppo globale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>634</p></td>
-<td style="border:1px solid black;"><p>Eliminazione di un gruppo globale.</p></td>
+<td style="border:1px solid black;">634</td>
+<td style="border:1px solid black;">Eliminazione di un gruppo globale.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>635</p></td>
-<td style="border:1px solid black;"><p>Creazione di un nuovo gruppo locale.</p></td>
+<td style="border:1px solid black;">635</td>
+<td style="border:1px solid black;">Creazione di un nuovo gruppo locale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>636</p></td>
-<td style="border:1px solid black;"><p>Aggiunta di un membro a un gruppo locale.</p></td>
+<td style="border:1px solid black;">636</td>
+<td style="border:1px solid black;">Aggiunta di un membro a un gruppo locale.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>637</p></td>
-<td style="border:1px solid black;"><p>Rimozione di un membro da un gruppo locale.</p></td>
+<td style="border:1px solid black;">637</td>
+<td style="border:1px solid black;">Rimozione di un membro da un gruppo locale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>638</p></td>
-<td style="border:1px solid black;"><p>Eliminazione di un gruppo locale.</p></td>
+<td style="border:1px solid black;">638</td>
+<td style="border:1px solid black;">Eliminazione di un gruppo locale.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>639</p></td>
-<td style="border:1px solid black;"><p>Modifica dell'account di un gruppo locale.</p></td>
+<td style="border:1px solid black;">639</td>
+<td style="border:1px solid black;">Modifica dell'account di un gruppo locale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>641</p></td>
-<td style="border:1px solid black;"><p>Modifica dell'account di un gruppo globale.</p></td>
+<td style="border:1px solid black;">641</td>
+<td style="border:1px solid black;">Modifica dell'account di un gruppo globale.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>642</p></td>
-<td style="border:1px solid black;"><p>Modifica di un account utente.</p></td>
+<td style="border:1px solid black;">642</td>
+<td style="border:1px solid black;">Modifica di un account utente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>643</p></td>
-<td style="border:1px solid black;"><p>Modifica di un criterio di dominio.</p></td>
+<td style="border:1px solid black;">643</td>
+<td style="border:1px solid black;">Modifica di un criterio di dominio.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>644</p></td>
-<td style="border:1px solid black;"><p>Blocco automatico di un account utente.</p></td>
+<td style="border:1px solid black;">644</td>
+<td style="border:1px solid black;">Blocco automatico di un account utente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>645</p></td>
-<td style="border:1px solid black;"><p>Creazione di un account di computer.</p></td>
+<td style="border:1px solid black;">645</td>
+<td style="border:1px solid black;">Creazione di un account di computer.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>646</p></td>
-<td style="border:1px solid black;"><p>Modifica di un account di computer.</p></td>
+<td style="border:1px solid black;">646</td>
+<td style="border:1px solid black;">Modifica di un account di computer.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>647</p></td>
-<td style="border:1px solid black;"><p>Eliminazione di un account di computer.</p></td>
+<td style="border:1px solid black;">647</td>
+<td style="border:1px solid black;">Eliminazione di un account di computer.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>648    </p></td>
-<td style="border:1px solid black;"><p>Creazione di un gruppo di protezione locale con protezione disabilitata.</p>
-<p><strong>Nota</strong>: la presenza di SECURITY_DISABLED nel nome formale indica che il gruppo non può essere utilizzato per concedere autorizzazioni nei controlli di accesso.</p></td>
+<td style="border:1px solid black;">648    </td>
+<td style="border:1px solid black;">Creazione di un gruppo di protezione locale con protezione disabilitata.
+<strong>Nota</strong>: la presenza di SECURITY_DISABLED nel nome formale indica che il gruppo non può essere utilizzato per concedere autorizzazioni nei controlli di accesso.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>649</p></td>
-<td style="border:1px solid black;"><p>Modifica di un gruppo di protezione locale con protezione disabilitata.</p></td>
+<td style="border:1px solid black;">649</td>
+<td style="border:1px solid black;">Modifica di un gruppo di protezione locale con protezione disabilitata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>650</p></td>
-<td style="border:1px solid black;"><p>Aggiunta di un membro a un gruppo di protezione locale con protezione disabilitata.</p></td>
+<td style="border:1px solid black;">650</td>
+<td style="border:1px solid black;">Aggiunta di un membro a un gruppo di protezione locale con protezione disabilitata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>651</p></td>
-<td style="border:1px solid black;"><p>Eliminazione di un membro da un gruppo di protezione locale con protezione disabilitata.</p></td>
+<td style="border:1px solid black;">651</td>
+<td style="border:1px solid black;">Eliminazione di un membro da un gruppo di protezione locale con protezione disabilitata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>652</p></td>
-<td style="border:1px solid black;"><p>Eliminazione di un gruppo locale con protezione disabilitata.</p></td>
+<td style="border:1px solid black;">652</td>
+<td style="border:1px solid black;">Eliminazione di un gruppo locale con protezione disabilitata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>653</p></td>
-<td style="border:1px solid black;"><p>Creazione di un gruppo globale con protezione disabilitata.</p></td>
+<td style="border:1px solid black;">653</td>
+<td style="border:1px solid black;">Creazione di un gruppo globale con protezione disabilitata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>654</p></td>
-<td style="border:1px solid black;"><p>Modifica di un gruppo globale con protezione disabilitata.</p></td>
+<td style="border:1px solid black;">654</td>
+<td style="border:1px solid black;">Modifica di un gruppo globale con protezione disabilitata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>655</p></td>
-<td style="border:1px solid black;"><p>Aggiunta di un membro a un gruppo globale con protezione disabilitata.</p></td>
+<td style="border:1px solid black;">655</td>
+<td style="border:1px solid black;">Aggiunta di un membro a un gruppo globale con protezione disabilitata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>656</p></td>
-<td style="border:1px solid black;"><p>Rimozione di un membro da un gruppo globale con protezione disabilitata.</p></td>
+<td style="border:1px solid black;">656</td>
+<td style="border:1px solid black;">Rimozione di un membro da un gruppo globale con protezione disabilitata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>657</p></td>
-<td style="border:1px solid black;"><p>Eliminazione di un gruppo globale con protezione disabilitata.</p></td>
+<td style="border:1px solid black;">657</td>
+<td style="border:1px solid black;">Eliminazione di un gruppo globale con protezione disabilitata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>658</p></td>
-<td style="border:1px solid black;"><p>Creazione di un gruppo universale con protezione abilitata.</p></td>
+<td style="border:1px solid black;">658</td>
+<td style="border:1px solid black;">Creazione di un gruppo universale con protezione abilitata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>659</p></td>
-<td style="border:1px solid black;"><p>Modifica di un gruppo universale con protezione abilitata.</p></td>
+<td style="border:1px solid black;">659</td>
+<td style="border:1px solid black;">Modifica di un gruppo universale con protezione abilitata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>660</p></td>
-<td style="border:1px solid black;"><p>Aggiunta di un membro a un gruppo universale con protezione abilitata.</p></td>
+<td style="border:1px solid black;">660</td>
+<td style="border:1px solid black;">Aggiunta di un membro a un gruppo universale con protezione abilitata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>661</p></td>
-<td style="border:1px solid black;"><p>Rimozione di un membro da un gruppo universale con protezione abilitata.</p></td>
+<td style="border:1px solid black;">661</td>
+<td style="border:1px solid black;">Rimozione di un membro da un gruppo universale con protezione abilitata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>662</p></td>
-<td style="border:1px solid black;"><p>Eliminazione di un gruppo universale con protezione abilitata.</p></td>
+<td style="border:1px solid black;">662</td>
+<td style="border:1px solid black;">Eliminazione di un gruppo universale con protezione abilitata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>663</p></td>
-<td style="border:1px solid black;"><p>Creazione di un gruppo universale con protezione disabilitata.</p></td>
+<td style="border:1px solid black;">663</td>
+<td style="border:1px solid black;">Creazione di un gruppo universale con protezione disabilitata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>664</p></td>
-<td style="border:1px solid black;"><p>Modifica di un gruppo universale con protezione disabilitata.</p></td>
+<td style="border:1px solid black;">664</td>
+<td style="border:1px solid black;">Modifica di un gruppo universale con protezione disabilitata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>665</p></td>
-<td style="border:1px solid black;"><p>Aggiunta di un membro a un gruppo universale con protezione disabilitata.</p></td>
+<td style="border:1px solid black;">665</td>
+<td style="border:1px solid black;">Aggiunta di un membro a un gruppo universale con protezione disabilitata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>666</p></td>
-<td style="border:1px solid black;"><p>Rimozione di un membro da un gruppo universale con protezione disabilitata.</p></td>
+<td style="border:1px solid black;">666</td>
+<td style="border:1px solid black;">Rimozione di un membro da un gruppo universale con protezione disabilitata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>667</p></td>
-<td style="border:1px solid black;"><p>Eliminazione di un gruppo universale con protezione disabilitata.</p></td>
+<td style="border:1px solid black;">667</td>
+<td style="border:1px solid black;">Eliminazione di un gruppo universale con protezione disabilitata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>668</p></td>
-<td style="border:1px solid black;"><p>Modifica di un tipo di gruppo.</p></td>
+<td style="border:1px solid black;">668</td>
+<td style="border:1px solid black;">Modifica di un tipo di gruppo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>684    </p></td>
-<td style="border:1px solid black;"><p>Impostazione del descrittore di protezione dei membri del gruppo amministrativo.</p>
-<p><strong>Nota</strong>: nei controller di dominio ogni 60 minuti un thread in background esegue la ricerca di tutti i membri dei gruppi amministrativi, ad esempio amministratori di dominio, dell'organizzazione e di schema, ai quali viene applicato un descrittore di protezione fisso. L'evento viene registrato.</p></td>
+<td style="border:1px solid black;">684    </td>
+<td style="border:1px solid black;">Impostazione del descrittore di protezione dei membri del gruppo amministrativo.
+<strong>Nota</strong>: nei controller di dominio ogni 60 minuti un thread in background esegue la ricerca di tutti i membri dei gruppi amministrativi, ad esempio amministratori di dominio, dell'organizzazione e di schema, ai quali viene applicato un descrittore di protezione fisso. L'evento viene registrato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>685</p></td>
-<td style="border:1px solid black;"><p>Modifica del nome di un account.</p></td>
+<td style="border:1px solid black;">685</td>
+<td style="border:1px solid black;">Modifica del nome di un account.</td>
 </tr>
 </tbody>
 </table>
@@ -499,7 +499,7 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
   
 **Tabella 4.5 Controlla eventi di accesso    **
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -507,125 +507,125 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ID evento</p></th>
-<th><p>Descrizione evento</p></th>
+<th>ID evento</th>
+<th>Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>528</p></td>
-<td style="border:1px solid black;"><p>Accesso utente eseguito correttamente a un computer.</p></td>
+<td style="border:1px solid black;">528</td>
+<td style="border:1px solid black;">Accesso utente eseguito correttamente a un computer.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>529</p></td>
-<td style="border:1px solid black;"><p>Errore durante l'accesso. Tentativo di accesso con un nome utente sconosciuto o con un nome utente conosciuto e una password non valida.</p></td>
+<td style="border:1px solid black;">529</td>
+<td style="border:1px solid black;">Errore durante l'accesso. Tentativo di accesso con un nome utente sconosciuto o con un nome utente conosciuto e una password non valida.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>530</p></td>
-<td style="border:1px solid black;"><p>Errore durante l'accesso. Tentativo di accesso oltre il tempo consentito.</p></td>
+<td style="border:1px solid black;">530</td>
+<td style="border:1px solid black;">Errore durante l'accesso. Tentativo di accesso oltre il tempo consentito.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>531</p></td>
-<td style="border:1px solid black;"><p>Errore durante l'accesso. È stato eseguito un tentativo di accesso con un account disabilitato.</p></td>
+<td style="border:1px solid black;">531</td>
+<td style="border:1px solid black;">Errore durante l'accesso. È stato eseguito un tentativo di accesso con un account disabilitato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>532</p></td>
-<td style="border:1px solid black;"><p>Errore durante l'accesso. È stato eseguito un tentativo di accesso con un account scaduto.</p></td>
+<td style="border:1px solid black;">532</td>
+<td style="border:1px solid black;">Errore durante l'accesso. È stato eseguito un tentativo di accesso con un account scaduto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>533</p></td>
-<td style="border:1px solid black;"><p>Errore durante l'accesso. Tentativo di accesso da parte di un utente non autorizzato a connettersi al computer specificato.</p></td>
+<td style="border:1px solid black;">533</td>
+<td style="border:1px solid black;">Errore durante l'accesso. Tentativo di accesso da parte di un utente non autorizzato a connettersi al computer specificato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>534</p></td>
-<td style="border:1px solid black;"><p>Errore durante l'accesso. L'utente ha tentato di accedere con un tipo di password non consentito.</p></td>
+<td style="border:1px solid black;">534</td>
+<td style="border:1px solid black;">Errore durante l'accesso. L'utente ha tentato di accedere con un tipo di password non consentito.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>535</p></td>
-<td style="border:1px solid black;"><p>Errore durante l'accesso. La password per l'account specificato è scaduta.</p></td>
+<td style="border:1px solid black;">535</td>
+<td style="border:1px solid black;">Errore durante l'accesso. La password per l'account specificato è scaduta.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>536</p></td>
-<td style="border:1px solid black;"><p>Errore durante l'accesso. Il servizio Accesso rete non è attivo.</p></td>
+<td style="border:1px solid black;">536</td>
+<td style="border:1px solid black;">Errore durante l'accesso. Il servizio Accesso rete non è attivo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>537    </p></td>
-<td style="border:1px solid black;"><p>Errore durante l'accesso. Il tentativo di accesso non è riuscito per altri motivi.</p>
-<p><strong>Nota:</strong> in alcuni casi la ragione per cui un tentativo di accesso non riesce può non essere nota.</p></td>
+<td style="border:1px solid black;">537    </td>
+<td style="border:1px solid black;">Errore durante l'accesso. Il tentativo di accesso non è riuscito per altri motivi.
+<strong>Nota:</strong> in alcuni casi la ragione per cui un tentativo di accesso non riesce può non essere nota.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>538</p></td>
-<td style="border:1px solid black;"><p>Processo di disconnessione completato per un utente.</p></td>
+<td style="border:1px solid black;">538</td>
+<td style="border:1px solid black;">Processo di disconnessione completato per un utente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>539</p></td>
-<td style="border:1px solid black;"><p>Errore durante l'accesso. L'account era bloccato al momento del tentativo di accesso.</p></td>
+<td style="border:1px solid black;">539</td>
+<td style="border:1px solid black;">Errore durante l'accesso. L'account era bloccato al momento del tentativo di accesso.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>540</p></td>
-<td style="border:1px solid black;"><p>Accesso riuscito di un utente a una rete.</p></td>
+<td style="border:1px solid black;">540</td>
+<td style="border:1px solid black;">Accesso riuscito di un utente a una rete.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>541</p></td>
-<td style="border:1px solid black;"><p>È stata completata l'autenticazione della modalità principale Internet Key Exchange (IKE) tra il computer locale e l'identità peer elencata (stabilendo un'associazione di protezione) o è stato stabilito un canale dati in modalità rapida.</p></td>
+<td style="border:1px solid black;">541</td>
+<td style="border:1px solid black;">È stata completata l'autenticazione della modalità principale Internet Key Exchange (IKE) tra il computer locale e l'identità peer elencata (stabilendo un'associazione di protezione) o è stato stabilito un canale dati in modalità rapida.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>542</p></td>
-<td style="border:1px solid black;"><p>Chiusura di un canale dati.</p></td>
+<td style="border:1px solid black;">542</td>
+<td style="border:1px solid black;">Chiusura di un canale dati.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>543    </p></td>
-<td style="border:1px solid black;"><p>Interruzione della modalità principale.</p>
-<p><strong>Nota:</strong> l'evento può dipendere dalla scadenza del limite di tempo per l'associazione di protezione (che per impostazione predefinita è di otto ore), da modifiche ai criteri o dall'interruzione del peer.</p></td>
+<td style="border:1px solid black;">543    </td>
+<td style="border:1px solid black;">Interruzione della modalità principale.
+<strong>Nota:</strong> l'evento può dipendere dalla scadenza del limite di tempo per l'associazione di protezione (che per impostazione predefinita è di otto ore), da modifiche ai criteri o dall'interruzione del peer.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>544</p></td>
-<td style="border:1px solid black;"><p>Autenticazione della modalità principale non riuscita perché il peer non ha fornito un certificato valido o la firma non è stata convalidata.</p></td>
+<td style="border:1px solid black;">544</td>
+<td style="border:1px solid black;">Autenticazione della modalità principale non riuscita perché il peer non ha fornito un certificato valido o la firma non è stata convalidata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>545</p></td>
-<td style="border:1px solid black;"><p>Autenticazione della modalità principale non riuscita a causa di un errore del protocollo di autenticazione Kerberos o di una password non valida.</p></td>
+<td style="border:1px solid black;">545</td>
+<td style="border:1px solid black;">Autenticazione della modalità principale non riuscita a causa di un errore del protocollo di autenticazione Kerberos o di una password non valida.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>546</p></td>
-<td style="border:1px solid black;"><p>Non è stato possibile stabilire l'associazione di protezione IKE perché il peer ha inviato una proposta non valida. È stato ricevuto un pacchetto contenente dati non validi.</p></td>
+<td style="border:1px solid black;">546</td>
+<td style="border:1px solid black;">Non è stato possibile stabilire l'associazione di protezione IKE perché il peer ha inviato una proposta non valida. È stato ricevuto un pacchetto contenente dati non validi.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>547</p></td>
-<td style="border:1px solid black;"><p>Errore durante un handshake IKE.</p></td>
+<td style="border:1px solid black;">547</td>
+<td style="border:1px solid black;">Errore durante un handshake IKE.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>548</p></td>
-<td style="border:1px solid black;"><p>Errore durante l'accesso. L'identificatore di protezione (SID) di un dominio trusted non corrisponde al SID di protezione del dominio account del client.</p></td>
+<td style="border:1px solid black;">548</td>
+<td style="border:1px solid black;">Errore durante l'accesso. L'identificatore di protezione (SID) di un dominio trusted non corrisponde al SID di protezione del dominio account del client.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>549</p></td>
-<td style="border:1px solid black;"><p>Errore durante l'accesso. Tutti i SID corrispondenti a spazi dei nomi non attendibili sono stati esclusi dal filtro durante un'autenticazione tra insiemi di strutture.</p></td>
+<td style="border:1px solid black;">549</td>
+<td style="border:1px solid black;">Errore durante l'accesso. Tutti i SID corrispondenti a spazi dei nomi non attendibili sono stati esclusi dal filtro durante un'autenticazione tra insiemi di strutture.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>550</p></td>
-<td style="border:1px solid black;"><p>Messaggio di notifica che potrebbe indicare un attacco di tipo &quot;Denial of Service&quot; (DoS).</p></td>
+<td style="border:1px solid black;">550</td>
+<td style="border:1px solid black;">Messaggio di notifica che potrebbe indicare un attacco di tipo &quot;Denial of Service&quot; (DoS).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>551</p></td>
-<td style="border:1px solid black;"><p>Processo di disconnessione avviato da un utente.</p></td>
+<td style="border:1px solid black;">551</td>
+<td style="border:1px solid black;">Processo di disconnessione avviato da un utente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>552</p></td>
-<td style="border:1px solid black;"><p>Accesso a un computer tramite credenziali esplicite effettuato da un utente già connesso come altro utente.</p></td>
+<td style="border:1px solid black;">552</td>
+<td style="border:1px solid black;">Accesso a un computer tramite credenziali esplicite effettuato da un utente già connesso come altro utente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>682</p></td>
-<td style="border:1px solid black;"><p>Un utente si è riconnesso a una sessione di server terminal disconnessa.</p></td>
+<td style="border:1px solid black;">682</td>
+<td style="border:1px solid black;">Un utente si è riconnesso a una sessione di server terminal disconnessa.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>683    </p></td>
-<td style="border:1px solid black;"><p>Un utente ha terminato una sessione Terminal Server senza chiudere correttamente la connessione.</p>
-<p><strong>Nota:</strong> l'evento viene generato quando un utente è connesso a una sessione di server terminal dalla rete. Viene visualizzato in Terminal Server.</p></td>
+<td style="border:1px solid black;">683    </td>
+<td style="border:1px solid black;">Un utente ha terminato una sessione Terminal Server senza chiudere correttamente la connessione.
+<strong>Nota:</strong> l'evento viene generato quando un utente è connesso a una sessione di server terminal dalla rete. Viene visualizzato in Terminal Server.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### Controlla accesso agli oggetti
 
@@ -649,7 +649,7 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 
 **Tabella 4.6 Eventi di accesso oggetti**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -657,177 +657,177 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ID evento</p></th>
-<th><p>Descrizione evento</p></th>
+<th>ID evento</th>
+<th>Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>560</p></td>
-<td style="border:1px solid black;"><p>È stato concesso l'accesso a un oggetto esistente.</p></td>
+<td style="border:1px solid black;">560</td>
+<td style="border:1px solid black;">È stato concesso l'accesso a un oggetto esistente.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>562</p></td>
-<td style="border:1px solid black;"><p>Un handle a un oggetto è stato chiuso.</p></td>
+<td style="border:1px solid black;">562</td>
+<td style="border:1px solid black;">Un handle a un oggetto è stato chiuso.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>563    </p></td>
-<td style="border:1px solid black;"><p>È stato eseguito un tentativo di apertura di un oggetto con l'intento di eliminarlo</p>
-<p><strong>Nota:</strong> questo evento è utilizzato nei file system quando in Createfile() viene specificato il flag FILE_DELETE_ON_CLOSE.</p></td>
+<td style="border:1px solid black;">563    </td>
+<td style="border:1px solid black;">È stato eseguito un tentativo di apertura di un oggetto con l'intento di eliminarlo
+<strong>Nota:</strong> questo evento è utilizzato nei file system quando in Createfile() viene specificato il flag FILE_DELETE_ON_CLOSE.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>564</p></td>
-<td style="border:1px solid black;"><p>È stato eliminato un oggetto protetto.</p></td>
+<td style="border:1px solid black;">564</td>
+<td style="border:1px solid black;">È stato eliminato un oggetto protetto.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>565</p></td>
-<td style="border:1px solid black;"><p>L'accesso è stato concesso a un tipo di oggetto che esiste già.</p></td>
+<td style="border:1px solid black;">565</td>
+<td style="border:1px solid black;">L'accesso è stato concesso a un tipo di oggetto che esiste già.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>567    </p></td>
-<td style="border:1px solid black;"><p>Utilizzo di un'autorizzazione associata a un handle.</p>
-<p><strong>Nota</strong>: gli handle vengono creati con determinate autorizzazioni, ad esempio Lettura o Scrittura. Quando l'handle viene utilizzato, può essere generato un controllo per ciascuna autorizzazione utilizzata.</p></td>
+<td style="border:1px solid black;">567    </td>
+<td style="border:1px solid black;">Utilizzo di un'autorizzazione associata a un handle.
+<strong>Nota</strong>: gli handle vengono creati con determinate autorizzazioni, ad esempio Lettura o Scrittura. Quando l'handle viene utilizzato, può essere generato un controllo per ciascuna autorizzazione utilizzata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>568</p></td>
-<td style="border:1px solid black;"><p>Tentativo di creazione di un collegamento fisso a un file di cui è in corso il controllo.</p></td>
+<td style="border:1px solid black;">568</td>
+<td style="border:1px solid black;">Tentativo di creazione di un collegamento fisso a un file di cui è in corso il controllo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>569</p></td>
-<td style="border:1px solid black;"><p>Tentativo di creazione di un contesto client da parte del gestore delle risorse di Gestione autorizzazioni.</p></td>
+<td style="border:1px solid black;">569</td>
+<td style="border:1px solid black;">Tentativo di creazione di un contesto client da parte del gestore delle risorse di Gestione autorizzazioni.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>570    </p></td>
-<td style="border:1px solid black;"><p>Tentativo di un client di accedere a un oggetto.</p>
-<p><strong>Nota:</strong> verrà generato un evento per ogni operazione tentata sull'oggetto.</p></td>
+<td style="border:1px solid black;">570    </td>
+<td style="border:1px solid black;">Tentativo di un client di accedere a un oggetto.
+<strong>Nota:</strong> verrà generato un evento per ogni operazione tentata sull'oggetto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>571</p></td>
-<td style="border:1px solid black;"><p>L'applicazione Gestione autorizzazioni ha eliminato il contesto client.</p></td>
+<td style="border:1px solid black;">571</td>
+<td style="border:1px solid black;">L'applicazione Gestione autorizzazioni ha eliminato il contesto client.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>572</p></td>
-<td style="border:1px solid black;"><p>Applicazione inizializzata dal gestore di amministrazione.</p></td>
+<td style="border:1px solid black;">572</td>
+<td style="border:1px solid black;">Applicazione inizializzata dal gestore di amministrazione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>772</p></td>
-<td style="border:1px solid black;"><p>Gestione certificati ha negato una richiesta di certificati in sospeso.</p></td>
+<td style="border:1px solid black;">772</td>
+<td style="border:1px solid black;">Gestione certificati ha negato una richiesta di certificati in sospeso.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>773</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha ricevuto una richiesta di certificati nuovamente inoltrata.</p></td>
+<td style="border:1px solid black;">773</td>
+<td style="border:1px solid black;">Servizi certificati ha ricevuto una richiesta di certificati nuovamente inoltrata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>774</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha revocato un certificato.</p></td>
+<td style="border:1px solid black;">774</td>
+<td style="border:1px solid black;">Servizi certificati ha revocato un certificato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>775</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha ricevuto una richiesta di pubblicazione dell’elenco di revoche di certificati (CRL).</p></td>
+<td style="border:1px solid black;">775</td>
+<td style="border:1px solid black;">Servizi certificati ha ricevuto una richiesta di pubblicazione dell’elenco di revoche di certificati (CRL).</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>776</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha pubblicato l'elenco dei certificati revocati (CRL).</p></td>
+<td style="border:1px solid black;">776</td>
+<td style="border:1px solid black;">Servizi certificati ha pubblicato l'elenco dei certificati revocati (CRL).</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>777</p></td>
-<td style="border:1px solid black;"><p>È stata effettuata l'estensione di una richiesta di certificati.</p></td>
+<td style="border:1px solid black;">777</td>
+<td style="border:1px solid black;">È stata effettuata l'estensione di una richiesta di certificati.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>778</p></td>
-<td style="border:1px solid black;"><p>Uno o più attributi di richieste di certificati sono stati modificati.</p></td>
+<td style="border:1px solid black;">778</td>
+<td style="border:1px solid black;">Uno o più attributi di richieste di certificati sono stati modificati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>779</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha ricevuto una richiesta di arresto.</p></td>
+<td style="border:1px solid black;">779</td>
+<td style="border:1px solid black;">Servizi certificati ha ricevuto una richiesta di arresto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>780</p></td>
-<td style="border:1px solid black;"><p>È stato avviato il backup di Servizi certificati.</p></td>
+<td style="border:1px solid black;">780</td>
+<td style="border:1px solid black;">È stato avviato il backup di Servizi certificati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>781</p></td>
-<td style="border:1px solid black;"><p>È stato completato il backup di Servizi certificati.</p></td>
+<td style="border:1px solid black;">781</td>
+<td style="border:1px solid black;">È stato completato il backup di Servizi certificati.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>782</p></td>
-<td style="border:1px solid black;"><p>È stato avviato il ripristino di Servizi certificati.</p></td>
+<td style="border:1px solid black;">782</td>
+<td style="border:1px solid black;">È stato avviato il ripristino di Servizi certificati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>783</p></td>
-<td style="border:1px solid black;"><p>È stato completato il ripristino di Servizi certificati.</p></td>
+<td style="border:1px solid black;">783</td>
+<td style="border:1px solid black;">È stato completato il ripristino di Servizi certificati.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>784</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati avviato.</p></td>
+<td style="border:1px solid black;">784</td>
+<td style="border:1px solid black;">Servizi certificati avviato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>785</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati arrestato.</p></td>
+<td style="border:1px solid black;">785</td>
+<td style="border:1px solid black;">Servizi certificati arrestato.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>786</p></td>
-<td style="border:1px solid black;"><p>Le autorizzazioni di protezione di Servizi certificati sono state modificate.</p></td>
+<td style="border:1px solid black;">786</td>
+<td style="border:1px solid black;">Le autorizzazioni di protezione di Servizi certificati sono state modificate.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>787</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha recuperato una chiave archiviata.</p></td>
+<td style="border:1px solid black;">787</td>
+<td style="border:1px solid black;">Servizi certificati ha recuperato una chiave archiviata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>788</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha importato un certificato nel proprio database.</p></td>
+<td style="border:1px solid black;">788</td>
+<td style="border:1px solid black;">Servizi certificati ha importato un certificato nel proprio database.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>789</p></td>
-<td style="border:1px solid black;"><p>Il filtro di controllo per Servizi certificati è stato modificato.</p></td>
+<td style="border:1px solid black;">789</td>
+<td style="border:1px solid black;">Il filtro di controllo per Servizi certificati è stato modificato.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>790</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha ricevuto una richiesta di certificato.</p></td>
+<td style="border:1px solid black;">790</td>
+<td style="border:1px solid black;">Servizi certificati ha ricevuto una richiesta di certificato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>791</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha approvato una richiesta di certificato e ha rilasciato un certificato.</p></td>
+<td style="border:1px solid black;">791</td>
+<td style="border:1px solid black;">Servizi certificati ha approvato una richiesta di certificato e ha rilasciato un certificato.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>792</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha negato una richiesta di certificato.</p></td>
+<td style="border:1px solid black;">792</td>
+<td style="border:1px solid black;">Servizi certificati ha negato una richiesta di certificato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>793</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha negato una richiesta di certificato.</p></td>
+<td style="border:1px solid black;">793</td>
+<td style="border:1px solid black;">Servizi certificati ha negato una richiesta di certificato.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>794</p></td>
-<td style="border:1px solid black;"><p>Le impostazioni del gestore certificati per Servizi certificati sono state modificate.</p></td>
+<td style="border:1px solid black;">794</td>
+<td style="border:1px solid black;">Le impostazioni del gestore certificati per Servizi certificati sono state modificate.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>795</p></td>
-<td style="border:1px solid black;"><p>Una voce della configurazione in Servizi certificati è stata modificata.</p></td>
+<td style="border:1px solid black;">795</td>
+<td style="border:1px solid black;">Una voce della configurazione in Servizi certificati è stata modificata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>796</p></td>
-<td style="border:1px solid black;"><p>Una proprietà di Servizi certificati è stata modificata.</p></td>
+<td style="border:1px solid black;">796</td>
+<td style="border:1px solid black;">Una proprietà di Servizi certificati è stata modificata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>797</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha archiviato una chiave.</p></td>
+<td style="border:1px solid black;">797</td>
+<td style="border:1px solid black;">Servizi certificati ha archiviato una chiave.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>798</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha importato e archiviato una chiave.</p></td>
+<td style="border:1px solid black;">798</td>
+<td style="border:1px solid black;">Servizi certificati ha importato e archiviato una chiave.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>799</p></td>
-<td style="border:1px solid black;"><p>Servizi certificati ha pubblicato il certificato della autorità di certificazione (CA) in Active Directory.</p></td>
+<td style="border:1px solid black;">799</td>
+<td style="border:1px solid black;">Servizi certificati ha pubblicato il certificato della autorità di certificazione (CA) in Active Directory.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>800</p></td>
-<td style="border:1px solid black;"><p>Una o più righe sono state eliminate dal database dei certificati.</p></td>
+<td style="border:1px solid black;">800</td>
+<td style="border:1px solid black;">Una o più righe sono state eliminate dal database dei certificati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>801</p></td>
-<td style="border:1px solid black;"><p>Separazione ruoli abilitata.</p></td>
+<td style="border:1px solid black;">801</td>
+<td style="border:1px solid black;">Separazione ruoli abilitata.</td>
 </tr>
 </tbody>
 </table>
@@ -846,7 +846,7 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
   
 **Tabella 4.7 Eventi di modifica del criterio di controllo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -854,98 +854,98 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ID evento</p></th>
-<th><p>Descrizione evento</p></th>
+<th>ID evento</th>
+<th>Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>608</p></td>
-<td style="border:1px solid black;"><p>Diritto utente assegnato.</p></td>
+<td style="border:1px solid black;">608</td>
+<td style="border:1px solid black;">Diritto utente assegnato.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>609</p></td>
-<td style="border:1px solid black;"><p>Diritti utente eliminati.</p></td>
+<td style="border:1px solid black;">609</td>
+<td style="border:1px solid black;">Diritti utente eliminati.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>610</p></td>
-<td style="border:1px solid black;"><p>Creazione di una relazione di trust con un altro dominio.</p></td>
+<td style="border:1px solid black;">610</td>
+<td style="border:1px solid black;">Creazione di una relazione di trust con un altro dominio.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>611</p></td>
-<td style="border:1px solid black;"><p>Eliminazione della relazione di trust con un altro dominio.</p></td>
+<td style="border:1px solid black;">611</td>
+<td style="border:1px solid black;">Eliminazione della relazione di trust con un altro dominio.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>612</p></td>
-<td style="border:1px solid black;"><p>Modifica del criterio di controllo.</p></td>
+<td style="border:1px solid black;">612</td>
+<td style="border:1px solid black;">Modifica del criterio di controllo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>613</p></td>
-<td style="border:1px solid black;"><p>Avvio di un agente criteri IPsec.</p></td>
+<td style="border:1px solid black;">613</td>
+<td style="border:1px solid black;">Avvio di un agente criteri IPsec.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>614</p></td>
-<td style="border:1px solid black;"><p>Disattivazione di un agente criteri IPsec.</p></td>
+<td style="border:1px solid black;">614</td>
+<td style="border:1px solid black;">Disattivazione di un agente criteri IPsec.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>615</p></td>
-<td style="border:1px solid black;"><p>Modifica di un agente criteri IPsec.</p></td>
+<td style="border:1px solid black;">615</td>
+<td style="border:1px solid black;">Modifica di un agente criteri IPsec.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>616</p></td>
-<td style="border:1px solid black;"><p>Un agente IPsec ha riscontrato un errore potenzialmente grave.</p></td>
+<td style="border:1px solid black;">616</td>
+<td style="border:1px solid black;">Un agente IPsec ha riscontrato un errore potenzialmente grave.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>617</p></td>
-<td style="border:1px solid black;"><p>Criterio Kerberos versione 5 cambiato.</p></td>
+<td style="border:1px solid black;">617</td>
+<td style="border:1px solid black;">Criterio Kerberos versione 5 cambiato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>618</p></td>
-<td style="border:1px solid black;"><p>Criterio di recupero dati crittografati cambiato.</p></td>
+<td style="border:1px solid black;">618</td>
+<td style="border:1px solid black;">Criterio di recupero dati crittografati cambiato.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>620</p></td>
-<td style="border:1px solid black;"><p>Modifica di una relazione di trust con un altro dominio.</p></td>
+<td style="border:1px solid black;">620</td>
+<td style="border:1px solid black;">Modifica di una relazione di trust con un altro dominio.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>621</p></td>
-<td style="border:1px solid black;"><p>Concessione dell'accesso al sistema a un account.</p></td>
+<td style="border:1px solid black;">621</td>
+<td style="border:1px solid black;">Concessione dell'accesso al sistema a un account.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>622</p></td>
-<td style="border:1px solid black;"><p>Rimozione dell'accesso al sistema da un account.</p></td>
+<td style="border:1px solid black;">622</td>
+<td style="border:1px solid black;">Rimozione dell'accesso al sistema da un account.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>623</p></td>
-<td style="border:1px solid black;"><p>Impostazione del criterio di controllo in base ai singoli utenti.</p></td>
+<td style="border:1px solid black;">623</td>
+<td style="border:1px solid black;">Impostazione del criterio di controllo in base ai singoli utenti.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>625</p></td>
-<td style="border:1px solid black;"><p>Aggiornamento del criterio di controllo in base ai singoli utenti.</p></td>
+<td style="border:1px solid black;">625</td>
+<td style="border:1px solid black;">Aggiornamento del criterio di controllo in base ai singoli utenti.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>768    </p></td>
-<td style="border:1px solid black;"><p>Rilevata collisione tra un elemento dello spazio dei nomi in un'insieme di strutture e un elemento dello spazio dei nomi in un altro insieme di strutture.</p>
-<p><strong>Nota</strong>: se un elemento di uno spazio dei nomi di un insieme di strutture si sovrappone a un elemento di uno spazio dei nomi di un altro insieme di strutture, si può produrre un'ambiguità nella risoluzione di un nome appartenente a uno degli elementi. Questa sovrapposizione viene definita anche collisione. Non tutti i parametri sono validi per ciascun tipo di voce. Campi quali, ad esempio, nome DNS, nome NetBIOS e SID non sono validi per una voce di tipo &quot;TopLevelName&quot;.</p></td>
+<td style="border:1px solid black;">768    </td>
+<td style="border:1px solid black;">Rilevata collisione tra un elemento dello spazio dei nomi in un'insieme di strutture e un elemento dello spazio dei nomi in un altro insieme di strutture.
+<strong>Nota</strong>: se un elemento di uno spazio dei nomi di un insieme di strutture si sovrappone a un elemento di uno spazio dei nomi di un altro insieme di strutture, si può produrre un'ambiguità nella risoluzione di un nome appartenente a uno degli elementi. Questa sovrapposizione viene definita anche collisione. Non tutti i parametri sono validi per ciascun tipo di voce. Campi quali, ad esempio, nome DNS, nome NetBIOS e SID non sono validi per una voce di tipo &quot;TopLevelName&quot;.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>769    </p></td>
-<td style="border:1px solid black;"><p>Aggiunta di informazioni sull'insieme di strutture attendibili.</p>
-<p><strong>Nota:</strong> questo messaggio di evento viene generato quando vengono aggiornate le informazioni sul trust tra insiemi di strutture e vengono aggiunte una o più voci. Per ogni voce aggiunta, eliminata o modificata viene generato un messaggio di evento. Se in un unico aggiornamento delle informazioni sul trust tra insiemi di strutture vengono aggiunte, eliminate o modificate più voci, a tutti i messaggi di evento generati viene assegnato un singolo identificativo univoco denominato ID operazione. In questo modo è possibile stabilire che i diversi messaggi di evento generati sono il risultato di un'unica operazione. Non tutti i parametri sono validi per ciascun tipo di voce. Parametri quali, ad esempio, nome DNS, nome NetBIOS e SID non sono validi per una voce di tipo &quot;TopLevelName&quot;.</p></td>
+<td style="border:1px solid black;">769    </td>
+<td style="border:1px solid black;">Aggiunta di informazioni sull'insieme di strutture attendibili.
+<strong>Nota:</strong> questo messaggio di evento viene generato quando vengono aggiornate le informazioni sul trust tra insiemi di strutture e vengono aggiunte una o più voci. Per ogni voce aggiunta, eliminata o modificata viene generato un messaggio di evento. Se in un unico aggiornamento delle informazioni sul trust tra insiemi di strutture vengono aggiunte, eliminate o modificate più voci, a tutti i messaggi di evento generati viene assegnato un singolo identificativo univoco denominato ID operazione. In questo modo è possibile stabilire che i diversi messaggi di evento generati sono il risultato di un'unica operazione. Non tutti i parametri sono validi per ciascun tipo di voce. Parametri quali, ad esempio, nome DNS, nome NetBIOS e SID non sono validi per una voce di tipo &quot;TopLevelName&quot;.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>770    </p></td>
-<td style="border:1px solid black;"><p>Eliminazione di informazioni sull'insieme di strutture attendibili.</p>
-<p><strong>Nota:</strong> vedere la descrizione dell'evento 769.</p></td>
+<td style="border:1px solid black;">770    </td>
+<td style="border:1px solid black;">Eliminazione di informazioni sull'insieme di strutture attendibili.
+<strong>Nota:</strong> vedere la descrizione dell'evento 769.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>771    </p></td>
-<td style="border:1px solid black;"><p>Modifica di informazioni sull'insieme di strutture attendibili.</p>
-<p><strong>Nota:</strong> vedere la descrizione dell'evento 769.</p></td>
+<td style="border:1px solid black;">771    </td>
+<td style="border:1px solid black;">Modifica di informazioni sull'insieme di strutture attendibili.
+<strong>Nota:</strong> vedere la descrizione dell'evento 769.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>805</p></td>
-<td style="border:1px solid black;"><p>Il servizio Registro eventi ha letto la configurazione del registro protezione per una sessione.</p></td>
+<td style="border:1px solid black;">805</td>
+<td style="border:1px solid black;">Il servizio Registro eventi ha letto la configurazione del registro protezione per una sessione.</td>
 </tr>
 </tbody>
 </table>
@@ -978,7 +978,7 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
   
 **Tabella 4.8 Eventi di uso dei privilegi.**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -986,23 +986,23 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ID evento</p></th>
-<th><p>Descrizione evento</p></th>
+<th>ID evento</th>
+<th>Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>576    </p></td>
-<td style="border:1px solid black;"><p>Sono stati aggiunti privilegi specifici a un token di accesso dell'utente</p>
-<p><strong>Nota:</strong> l'evento viene generato quando l'utente effettua l'accesso.</p></td>
+<td style="border:1px solid black;">576    </td>
+<td style="border:1px solid black;">Sono stati aggiunti privilegi specifici a un token di accesso dell'utente
+<strong>Nota:</strong> l'evento viene generato quando l'utente effettua l'accesso.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>577</p></td>
-<td style="border:1px solid black;"><p>Un utente ha tentato di eseguire un'operazione del servizio soggetta a privilegi.</p></td>
+<td style="border:1px solid black;">577</td>
+<td style="border:1px solid black;">Un utente ha tentato di eseguire un'operazione del servizio soggetta a privilegi.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>578</p></td>
-<td style="border:1px solid black;"><p>Utilizzo di privilegi su un handle già aperto per un oggetto protetto.</p></td>
+<td style="border:1px solid black;">578</td>
+<td style="border:1px solid black;">Utilizzo di privilegi su un handle già aperto per un oggetto protetto.</td>
 </tr>
 </tbody>
 </table>
@@ -1017,7 +1017,7 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
   
 **Tabella 4.9 Eventi di tracciato processo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1025,55 +1025,55 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ID evento</p></th>
-<th><p>Descrizione evento</p></th>
+<th>ID evento</th>
+<th>Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>592</p></td>
-<td style="border:1px solid black;"><p>Creazione di un nuovo processo.</p></td>
+<td style="border:1px solid black;">592</td>
+<td style="border:1px solid black;">Creazione di un nuovo processo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>593</p></td>
-<td style="border:1px solid black;"><p>Un processo è terminato.</p></td>
+<td style="border:1px solid black;">593</td>
+<td style="border:1px solid black;">Un processo è terminato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>594</p></td>
-<td style="border:1px solid black;"><p>Duplicazione di un handle per un oggetto.</p></td>
+<td style="border:1px solid black;">594</td>
+<td style="border:1px solid black;">Duplicazione di un handle per un oggetto.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>595</p></td>
-<td style="border:1px solid black;"><p>Accesso indiretto a un oggetto.</p></td>
+<td style="border:1px solid black;">595</td>
+<td style="border:1px solid black;">Accesso indiretto a un oggetto.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>596    </p></td>
-<td style="border:1px solid black;"><p>Backup di una chiave principale della protezione dati.</p>
-<p><strong>Nota:</strong> la chiave principale è utilizzata dalle routine CryptProtectData e CryptUnprotectData e da Crittografia file system (EFS, Encrypting File System). Viene eseguito un backup della chiave principale ogni volta che ne viene creata una nuova (L'impostazione predefinita è 90 giorni.) Il backup è di solito eseguito su un controller di dominio.</p></td>
+<td style="border:1px solid black;">596    </td>
+<td style="border:1px solid black;">Backup di una chiave principale della protezione dati.
+<strong>Nota:</strong> la chiave principale è utilizzata dalle routine CryptProtectData e CryptUnprotectData e da Crittografia file system (EFS, Encrypting File System). Viene eseguito un backup della chiave principale ogni volta che ne viene creata una nuova (L'impostazione predefinita è 90 giorni.) Il backup è di solito eseguito su un controller di dominio.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>597</p></td>
-<td style="border:1px solid black;"><p>Ripristino della chiave principale della protezione dati da un server di ripristino.</p></td>
+<td style="border:1px solid black;">597</td>
+<td style="border:1px solid black;">Ripristino della chiave principale della protezione dati da un server di ripristino.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>598</p></td>
-<td style="border:1px solid black;"><p>Protezione di dati controllabili.</p></td>
+<td style="border:1px solid black;">598</td>
+<td style="border:1px solid black;">Protezione di dati controllabili.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>599</p></td>
-<td style="border:1px solid black;"><p>Rimozione della protezione di dati controllabili.</p></td>
+<td style="border:1px solid black;">599</td>
+<td style="border:1px solid black;">Rimozione della protezione di dati controllabili.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>600</p></td>
-<td style="border:1px solid black;"><p>Assegnazione di un token primario a un processo.</p></td>
+<td style="border:1px solid black;">600</td>
+<td style="border:1px solid black;">Assegnazione di un token primario a un processo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>601</p></td>
-<td style="border:1px solid black;"><p>Tentativo di installazione di un servizio da parte di un utente.</p></td>
+<td style="border:1px solid black;">601</td>
+<td style="border:1px solid black;">Tentativo di installazione di un servizio da parte di un utente.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>602</p></td>
-<td style="border:1px solid black;"><p>Creazione di un processo di Scheduler.</p></td>
+<td style="border:1px solid black;">602</td>
+<td style="border:1px solid black;">Creazione di un processo di Scheduler.</td>
 </tr>
 </tbody>
 </table>
@@ -1086,7 +1086,7 @@ La tabella seguente elenca gli eventi eseguiti con successo più utili per quest
   
 **Tabella 4.10 Messaggi eventi di sistema per Controlla eventi di sistema**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1094,51 +1094,51 @@ La tabella seguente elenca gli eventi eseguiti con successo più utili per quest
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ID evento</p></th>
-<th><p>Descrizione evento</p></th>
+<th>ID evento</th>
+<th>Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>512</p></td>
-<td style="border:1px solid black;"><p>Avvio di Windows in corso.</p></td>
+<td style="border:1px solid black;">512</td>
+<td style="border:1px solid black;">Avvio di Windows in corso.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>513</p></td>
-<td style="border:1px solid black;"><p>Chiusura di Windows in corso.</p></td>
+<td style="border:1px solid black;">513</td>
+<td style="border:1px solid black;">Chiusura di Windows in corso.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>514</p></td>
-<td style="border:1px solid black;"><p>Un package di autenticazione è stato caricato dall'autorità di protezione locale.</p></td>
+<td style="border:1px solid black;">514</td>
+<td style="border:1px solid black;">Un package di autenticazione è stato caricato dall'autorità di protezione locale.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>515</p></td>
-<td style="border:1px solid black;"><p>Un processo di accesso attendibile ha effettuato la registrazione presso l'autorità di protezione locale.</p></td>
+<td style="border:1px solid black;">515</td>
+<td style="border:1px solid black;">Un processo di accesso attendibile ha effettuato la registrazione presso l'autorità di protezione locale.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>516</p></td>
-<td style="border:1px solid black;"><p>Le risorse interne allocate per accodare i messaggi di controllo sono state esaurite, causando la perdita di alcuni messaggi di eventi di protezione.</p></td>
+<td style="border:1px solid black;">516</td>
+<td style="border:1px solid black;">Le risorse interne allocate per accodare i messaggi di controllo sono state esaurite, causando la perdita di alcuni messaggi di eventi di protezione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>517</p></td>
-<td style="border:1px solid black;"><p>Il registro di controllo è stato cancellato.</p></td>
+<td style="border:1px solid black;">517</td>
+<td style="border:1px solid black;">Il registro di controllo è stato cancellato.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>518</p></td>
-<td style="border:1px solid black;"><p>Un package di notifica è stato caricato dal sistema di gestione degli account di protezione.</p></td>
+<td style="border:1px solid black;">518</td>
+<td style="border:1px solid black;">Un package di notifica è stato caricato dal sistema di gestione degli account di protezione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>519</p></td>
-<td style="border:1px solid black;"><p>Un processo sta utilizzando una porta LPC (Local Procedure Call) non valida nel tentativo di impersonare un client e rispondere o leggere da oppure scrivere in uno spazio degli indirizzi client.</p></td>
+<td style="border:1px solid black;">519</td>
+<td style="border:1px solid black;">Un processo sta utilizzando una porta LPC (Local Procedure Call) non valida nel tentativo di impersonare un client e rispondere o leggere da oppure scrivere in uno spazio degli indirizzi client.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>520    </p></td>
-<td style="border:1px solid black;"><p>L'ora di sistema è stata cambiata.</p>
-<p><strong>Nota</strong>: questo controllo è normalmente visualizzato due volte.</p></td>
+<td style="border:1px solid black;">520    </td>
+<td style="border:1px solid black;">L'ora di sistema è stata cambiata.
+<strong>Nota</strong>: questo controllo è normalmente visualizzato due volte.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 [](#mainsection)[Inizio pagina](#mainsection)
 
@@ -1181,7 +1181,7 @@ Nella tabella seguente sono inclusi i consigli per l'assegnazione dei diritti ut
 
 **Tabella 4.11 Suggerimenti sulle impostazioni di assegnazione dei diritti utente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1191,243 +1191,243 @@ Nella tabella seguente sono inclusi i consigli per l'assegnazione dei diritti ut
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Accesso al computer dalla rete</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Administrators, Authenticated Users, CONTROLLER DI DOMINIO ORGANIZZAZIONE</p></td>
+<td style="border:1px solid black;">Accesso al computer dalla rete</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Administrators, Authenticated Users, CONTROLLER DI DOMINIO ORGANIZZAZIONE</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Agisci come parte del sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Nessuno</p></td>
+<td style="border:1px solid black;">Agisci come parte del sistema operativo</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Nessuno</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Regolazione quote di memoria per un processo</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Administrators, SERVIZIO DI RETE, SERVIZIO LOCALE</p></td>
+<td style="border:1px solid black;">Regolazione quote di memoria per un processo</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Administrators, SERVIZIO DI RETE, SERVIZIO LOCALE</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Consenti accesso locale</p></td>
-<td style="border:1px solid black;"><p>Administrators, Backup Operators, Power Users</p></td>
-<td style="border:1px solid black;"><p>Administrators, Backup Operators, Power Users</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Consenti accesso locale</td>
+<td style="border:1px solid black;">Administrators, Backup Operators, Power Users</td>
+<td style="border:1px solid black;">Administrators, Backup Operators, Power Users</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consenti accesso tramite Servizi terminal</p></td>
-<td style="border:1px solid black;"><p>Administrators e Utenti desktop remoto</p></td>
-<td style="border:1px solid black;"><p>Administrators e Utenti desktop remoto</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Consenti accesso tramite Servizi terminal</td>
+<td style="border:1px solid black;">Administrators e Utenti desktop remoto</td>
+<td style="border:1px solid black;">Administrators e Utenti desktop remoto</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Backup di file e directory</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Backup di file e directory</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ignora controllo visite</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Authenticated Users</p></td>
+<td style="border:1px solid black;">Ignora controllo visite</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Authenticated Users</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Modifica dell'orario di sistema</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Modifica dell'orario di sistema</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Creazione di file di paging</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Creazione di file di paging</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Creazione di un oggetto token</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Nessuno</p></td>
+<td style="border:1px solid black;">Creazione di un oggetto token</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Nessuno</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Creazione di oggetti globali</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori, SERVIZIO</p></td>
+<td style="border:1px solid black;">Creazione di oggetti globali</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori, SERVIZIO</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Creazione di oggetti condivisi permanenti</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Nessuno</p></td>
+<td style="border:1px solid black;">Creazione di oggetti condivisi permanenti</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Nessuno</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Debug di programmi</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
-<td style="border:1px solid black;"><p>Nessuno</p></td>
+<td style="border:1px solid black;">Debug di programmi</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
+<td style="border:1px solid black;">Nessuno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nega accesso al computer dalla rete</p></td>
-<td style="border:1px solid black;"><p>ACCESSO ANONIMO, Guest; Support_388945a0;</p>
-<p>Tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
-<td style="border:1px solid black;"><p>ACCESSO ANONIMO, Guest; Support_388945a0;</p>
-<p>Tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
-<td style="border:1px solid black;"><p>ACCESSO ANONIMO, Guest; Support_388945a0;</p>
-<p>Tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
+<td style="border:1px solid black;">Nega accesso al computer dalla rete</td>
+<td style="border:1px solid black;">ACCESSO ANONIMO, Guest; Support_388945a0;
+Tutti gli account di servizio NON utilizzati dal sistema operativo</td>
+<td style="border:1px solid black;">ACCESSO ANONIMO, Guest; Support_388945a0;
+Tutti gli account di servizio NON utilizzati dal sistema operativo</td>
+<td style="border:1px solid black;">ACCESSO ANONIMO, Guest; Support_388945a0;
+Tutti gli account di servizio NON utilizzati dal sistema operativo</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nega accesso come processo batch</p></td>
-<td style="border:1px solid black;"><p>Guest; Support_388945a0</p></td>
-<td style="border:1px solid black;"><p>Guest; Support_388945a0</p></td>
-<td style="border:1px solid black;"><p>Guest; Support_388945a0;</p></td>
+<td style="border:1px solid black;">Nega accesso come processo batch</td>
+<td style="border:1px solid black;">Guest; Support_388945a0</td>
+<td style="border:1px solid black;">Guest; Support_388945a0</td>
+<td style="border:1px solid black;">Guest; Support_388945a0;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nega accesso come servizio</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Nessuno</p></td>
+<td style="border:1px solid black;">Nega accesso come servizio</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Nessuno</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nega accesso locale</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Guest; Support_388945a0;</p></td>
+<td style="border:1px solid black;">Nega accesso locale</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Guest; Support_388945a0;</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nega accesso tramite Servizi terminal</p></td>
-<td style="border:1px solid black;"><p>Guests</p></td>
-<td style="border:1px solid black;"><p>Guests</p></td>
-<td style="border:1px solid black;"><p>Guests</p></td>
+<td style="border:1px solid black;">Nega accesso tramite Servizi terminal</td>
+<td style="border:1px solid black;">Guests</td>
+<td style="border:1px solid black;">Guests</td>
+<td style="border:1px solid black;">Guests</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Impostazione account computer ed utente a tipo trusted per la delega</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Impostazione account computer ed utente a tipo trusted per la delega</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Arresto forzato da un sistema remoto</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Arresto forzato da un sistema remoto</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Generazione controlli di protezione</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>SERVIZIO DI RETE, SERVIZIO LOCALE</p></td>
+<td style="border:1px solid black;">Generazione controlli di protezione</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">SERVIZIO DI RETE, SERVIZIO LOCALE</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Impersona un cliente dopo l'autenticazione</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori, SERVIZIO</p></td>
+<td style="border:1px solid black;">Impersona un cliente dopo l'autenticazione</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori, SERVIZIO</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Aumenta priorità di esecuzione</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Aumenta priorità di esecuzione</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Installa e disinstalla driver periferica</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Installa e disinstalla driver periferica</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Blocco di pagine in memoria</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Nessuno</p></td>
+<td style="border:1px solid black;">Blocco di pagine in memoria</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Nessuno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Accesso come processo batch</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
+<td style="border:1px solid black;">Accesso come processo batch</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Accesso come servizio</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>SERVIZIO DI RETE</p></td>
+<td style="border:1px solid black;">Accesso come servizio</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">SERVIZIO DI RETE</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Gestione file registro di controllo e di protezione</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Gestione file registro di controllo e di protezione</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Modifica valori di ambiente firmware</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Modifica valori di ambiente firmware</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Esecuzione operazioni di manutenzione volume</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Esecuzione operazioni di manutenzione volume</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Creazione di profilo del singolo processo</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Creazione di profilo del singolo processo</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Creazione di profilo delle prestazioni del sistema</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Creazione di profilo delle prestazioni del sistema</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Rimozione del computer dall'alloggiamento</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Rimozione del computer dall'alloggiamento</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Sostituzione token a livello di processo</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>SERVIZIO LOCALE, SERVIZIO DI RETE</p></td>
+<td style="border:1px solid black;">Sostituzione token a livello di processo</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">SERVIZIO LOCALE, SERVIZIO DI RETE</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Ripristina file e directory</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Ripristina file e directory</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Arresto del sistema</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Arresto del sistema</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Sincronizza i dati di servizio della directory</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Nessuno</p></td>
+<td style="border:1px solid black;">Sincronizza i dati di servizio della directory</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Nessuno</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Diventa proprietario (di file o altri oggetti)</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">Diventa proprietario (di file o altri oggetti)</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 </tbody>
 </table>
@@ -1689,7 +1689,7 @@ Le tabelle in ciascuna delle seguenti sezioni riassumono le impostazioni consigl
   
 **Tabella 4.12 Opzioni di protezione: suggerimenti per le impostazioni degli account**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1699,30 +1699,30 @@ Le tabelle in ciascuna delle seguenti sezioni riassumono le impostazioni consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>stato account Administrator</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">stato account Administrator</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>stato account Guest</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">stato account Guest</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>limitare l'uso locale di account con password vuote all'accesso alla console</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">limitare l'uso locale di account con password vuote all'accesso alla console</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -1749,7 +1749,7 @@ L'impostazione **Account: limitare l'uso locale di account con password vuote al
   
 **Tabella 4.13 Opzioni di protezione: suggerimenti per le impostazioni dei criteri di controllo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1759,30 +1759,30 @@ L'impostazione **Account: limitare l'uso locale di account con password vuote al
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>controllo accesso oggetti di sistema globale</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">controllo accesso oggetti di sistema globale</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>controllo utilizzo dei privilegi di backup e di ripristino</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">controllo utilizzo dei privilegi di backup e di ripristino</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>arresto del sistema immediato se non è possibile registrare i controlli di protezione</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">arresto del sistema immediato se non è possibile registrare i controlli di protezione</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -1813,7 +1813,7 @@ Il sovraccarico amministrativo richiesto per attivare l'impostazione **Controllo
   
 **Tabella 4.14 Opzioni di protezione: suggerimenti per l'impostazione delle periferiche**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1823,48 +1823,48 @@ Il sovraccarico amministrativo richiesto per attivare l'impostazione **Controllo
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>consenti il disinserimento senza dover effettuare l'accesso</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">consenti il disinserimento senza dover effettuare l'accesso</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>è consentita la formattazione e la rimozione dei supporti rimovibili</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
-<td style="border:1px solid black;"><p>Amministratori</p></td>
+<td style="border:1px solid black;">è consentita la formattazione e la rimozione dei supporti rimovibili</td>
+<td style="border:1px solid black;">Amministratori</td>
+<td style="border:1px solid black;">Amministratori</td>
+<td style="border:1px solid black;">Amministratori</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>non consentire agli utenti di installare i driver della stampante</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">non consentire agli utenti di installare i driver della stampante</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Limita accesso al CD-ROM agli utenti che hanno effettuato l'accesso locale</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">Limita accesso al CD-ROM agli utenti che hanno effettuato l'accesso locale</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>limita accesso al disco floppy agli utenti che hanno effettuato l'accesso locale</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">limita accesso al disco floppy agli utenti che hanno effettuato l'accesso locale</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>funzionamento installazione driver privo di firma digitale</p></td>
-<td style="border:1px solid black;"><p>Avvisa ma consenti installazione</p></td>
-<td style="border:1px solid black;"><p>Avvisa ma consenti installazione</p></td>
-<td style="border:1px solid black;"><p>Avvisa ma consenti installazione</p></td>
+<td style="border:1px solid black;">funzionamento installazione driver privo di firma digitale</td>
+<td style="border:1px solid black;">Avvisa ma consenti installazione</td>
+<td style="border:1px solid black;">Avvisa ma consenti installazione</td>
+<td style="border:1px solid black;">Avvisa ma consenti installazione</td>
 </tr>
 </tbody>
 </table>
@@ -1909,7 +1909,7 @@ L'impostazione **Periferiche: funzionamento installazione driver privo di firma 
   
 **Tabella 4.15 Opzioni di protezione: suggerimenti di impostazione dei membri di dominio**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1919,48 +1919,48 @@ L'impostazione **Periferiche: funzionamento installazione driver privo di firma 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>aggiunta crittografia o firma digitale ai dati del canale protetto (sempre)</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">aggiunta crittografia o firma digitale ai dati del canale protetto (sempre)</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>aggiunta crittografia o firma digitale ai dati del canale protetto (quando possibile)</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">aggiunta crittografia o firma digitale ai dati del canale protetto (quando possibile)</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Aggiunta firma digitale ai dati del canale protetto (quando possibile)</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Aggiunta firma digitale ai dati del canale protetto (quando possibile)</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>disabilitazione cambio password account computer</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">disabilitazione cambio password account computer</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>validità massima password account computer</p></td>
-<td style="border:1px solid black;"><p>30 giorni</p></td>
-<td style="border:1px solid black;"><p>30 giorni</p></td>
-<td style="border:1px solid black;"><p>30 giorni</p></td>
+<td style="border:1px solid black;">validità massima password account computer</td>
+<td style="border:1px solid black;">30 giorni</td>
+<td style="border:1px solid black;">30 giorni</td>
+<td style="border:1px solid black;">30 giorni</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Richiedere una chiave di sessione avanzata (Windows 2000, Windows XP, o Windows Server 2003)</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Richiedere una chiave di sessione avanzata (Windows 2000, Windows XP, o Windows Server 2003)</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -2009,7 +2009,7 @@ Pertanto, dal momento che i tre ambienti di protezione descritti in questa guida
   
 **Tabella 4.16 Opzioni di protezione: suggerimenti per l'impostazione di accesso interattivo**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2019,72 +2019,72 @@ Pertanto, dal momento che i tre ambienti di protezione descritti in questa guida
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Mostra informazioni sull'utente quando la sessione è chiusa</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Nome utente mostrato, nomi utente e di dominio</p></td>
+<td style="border:1px solid black;">Mostra informazioni sull'utente quando la sessione è chiusa</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Nome utente mostrato, nomi utente e di dominio</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>non visualizzare l'ultimo nome utente</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">non visualizzare l'ultimo nome utente</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>non richiedere CTRL+ALT+CANC</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">non richiedere CTRL+ALT+CANC</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>testo del messaggio per gli utenti che tentano l'accesso</p></td>
-<td style="border:1px solid black;"><p>(Consultare i responsabili all'interno della propria organizzazione.)</p></td>
-<td style="border:1px solid black;"><p>(Consultare i responsabili all'interno della propria organizzazione.)</p></td>
-<td style="border:1px solid black;"><p>(Consultare i responsabili all'interno della propria organizzazione.)</p></td>
+<td style="border:1px solid black;">testo del messaggio per gli utenti che tentano l'accesso</td>
+<td style="border:1px solid black;">(Consultare i responsabili all'interno della propria organizzazione.)</td>
+<td style="border:1px solid black;">(Consultare i responsabili all'interno della propria organizzazione.)</td>
+<td style="border:1px solid black;">(Consultare i responsabili all'interno della propria organizzazione.)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>titolo del messaggio per gli utenti che tentano l'accesso</p></td>
-<td style="border:1px solid black;"><p>(Consultare i responsabili all'interno della propria organizzazione.)</p></td>
-<td style="border:1px solid black;"><p>(Consultare i responsabili all'interno della propria organizzazione.)</p></td>
-<td style="border:1px solid black;"><p>(Consultare i responsabili all'interno della propria organizzazione.)</p></td>
+<td style="border:1px solid black;">titolo del messaggio per gli utenti che tentano l'accesso</td>
+<td style="border:1px solid black;">(Consultare i responsabili all'interno della propria organizzazione.)</td>
+<td style="border:1px solid black;">(Consultare i responsabili all'interno della propria organizzazione.)</td>
+<td style="border:1px solid black;">(Consultare i responsabili all'interno della propria organizzazione.)</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>numero di accessi precedenti da memorizzare nella cache (nel caso in cui il controller di dominio non sia disponibile)</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">numero di accessi precedenti da memorizzare nella cache (nel caso in cui il controller di dominio non sia disponibile)</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>richiesta cambio password prima della scadenza</p></td>
-<td style="border:1px solid black;"><p>14 giorni</p></td>
-<td style="border:1px solid black;"><p>14 giorni</p></td>
-<td style="border:1px solid black;"><p>14 giorni</p></td>
+<td style="border:1px solid black;">richiesta cambio password prima della scadenza</td>
+<td style="border:1px solid black;">14 giorni</td>
+<td style="border:1px solid black;">14 giorni</td>
+<td style="border:1px solid black;">14 giorni</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>richiesta autenticazione controller di dominio per effettuare lo sblocco della workstation</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">richiesta autenticazione controller di dominio per effettuare lo sblocco della workstation</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>richiedi smart card</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">richiedi smart card</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>funzionamento rimozione smart card</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Blocca workstation</p></td>
-<td style="border:1px solid black;"><p>Blocca workstation</p></td>
+<td style="border:1px solid black;">funzionamento rimozione smart card</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Blocca workstation</td>
+<td style="border:1px solid black;">Blocca workstation</td>
 </tr>
 </tbody>
 </table>
@@ -2161,7 +2161,7 @@ L'impostazione **Accesso interattivo: funzionamento rimozione Smart card** è co
   
 **Tabella 4.17 Opzioni di Protezione: suggerimenti per le impostazioni dei client di rete Microsoft**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2171,30 +2171,30 @@ L'impostazione **Accesso interattivo: funzionamento rimozione Smart card** è co
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>aggiungi firma digitale alle comunicazioni (sempre)</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">aggiungi firma digitale alle comunicazioni (sempre)</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>aggiungi firma digitale alla comunicazione client (se autorizzato dal server)</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">aggiungi firma digitale alla comunicazione client (se autorizzato dal server)</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>invia password non crittografata per la connessione ai server SMB di terzi</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">invia password non crittografata per la connessione ai server SMB di terzi</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -2221,7 +2221,7 @@ L'impostazione **Client di rete Microsoft: invia password non crittografata per 
   
 **Tabella 4.18 Opzioni di Protezione: suggerimenti per le impostazioni dei server di rete Microsoft**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2231,36 +2231,36 @@ L'impostazione **Client di rete Microsoft: invia password non crittografata per 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>periodo di inattività richiesto prima di sospendere la sessione</p></td>
-<td style="border:1px solid black;"><p>15 minuti</p></td>
-<td style="border:1px solid black;"><p>15 minuti</p></td>
-<td style="border:1px solid black;"><p>15 minuti</p></td>
+<td style="border:1px solid black;">periodo di inattività richiesto prima di sospendere la sessione</td>
+<td style="border:1px solid black;">15 minuti</td>
+<td style="border:1px solid black;">15 minuti</td>
+<td style="border:1px solid black;">15 minuti</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>aggiungi firma digitale alle comunicazioni (sempre)</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">aggiungi firma digitale alle comunicazioni (sempre)</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>aggiungi firma digitale alla comunicazione client (se autorizzato dal client)</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">aggiungi firma digitale alla comunicazione client (se autorizzato dal client)</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>disconnetti automaticamente i client al termine dell'orario di accesso</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">disconnetti automaticamente i client al termine dell'orario di accesso</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -2293,7 +2293,7 @@ L'impostazione **Server di rete Microsoft: interrompe la connessione dei client 
   
 **Tabella 4.19 Opzioni di protezione: suggerimenti per le impostazioni di accesso alla rete**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2303,108 +2303,108 @@ L'impostazione **Server di rete Microsoft: interrompe la connessione dei client 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>consenti conversione anonima SID/nome</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">consenti conversione anonima SID/nome</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>non consentire l'enumerazione anonima degli account SAM</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">non consentire l'enumerazione anonima degli account SAM</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>non consentire l'enumerazione anonima degli account e le condivisioni SAM</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">non consentire l'enumerazione anonima degli account e le condivisioni SAM</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>non consentire l'archiviazione di credenziali o di profili .NET Passport per l'autenticazione di rete</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">non consentire l'archiviazione di credenziali o di profili .NET Passport per l'autenticazione di rete</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>consenti l'accesso libero agli utenti anonimi</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">consenti l'accesso libero agli utenti anonimi</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>named pipe a cui è possibile accedere in modo anonimo</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>COMNAP, COMNODE, SQL\QUERY, SPOOLSS, LLSRPC, netlogon, lsarpc, samr, browser</p></td>
+<td style="border:1px solid black;">named pipe a cui è possibile accedere in modo anonimo</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">COMNAP, COMNODE, SQL\QUERY, SPOOLSS, LLSRPC, netlogon, lsarpc, samr, browser</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>percorsi del Registro di sistema ai quali è possibile accedere in modo remoto</p></td>
-<td style="border:1px solid black;"><p>System\<br />
+<td style="border:1px solid black;">percorsi del Registro di sistema ai quali è possibile accedere in modo remoto</td>
+<td style="border:1px solid black;">System\<br />
 CurrentControlSet\<br />
 Control\<br />
-Product Options;</p>
-<p>System\<br />
+Product Options;
+System\<br />
 CurrentControlSet\<br />
-Control\</p>
-<p>Applicazioni del server;</p>
-<p>Software\Microsoft\</p>
-<p>Windows NT\Current</p>
-<p>Versione</p></td>
-<td style="border:1px solid black;"><p>System\<br />
-CurrentControlSet\<br />
-Control\<br />
-Product Options;</p>
-<p>System\<br />
-CurrentControlSet\<br />
-Control\</p>
-<p>Applicazioni del server;</p>
-<p>Software\Microsoft\</p>
-<p>Windows NT\Current</p>
-<p>Versione</p></td>
-<td style="border:1px solid black;"><p>System\<br />
+Control\
+Applicazioni del server;
+Software\Microsoft\
+Windows NT\Current
+Versione</td>
+<td style="border:1px solid black;">System\<br />
 CurrentControlSet\<br />
 Control\<br />
-Product Options;</p>
-<p>System\<br />
+Product Options;
+System\<br />
 CurrentControlSet\<br />
-Control\</p>
-<p>Applicazioni del server;</p>
-<p>Software\Microsoft\</p>
-<p>Windows NT\Current</p>
-<p>Versione</p></td>
+Control\
+Applicazioni del server;
+Software\Microsoft\
+Windows NT\Current
+Versione</td>
+<td style="border:1px solid black;">System\<br />
+CurrentControlSet\<br />
+Control\<br />
+Product Options;
+System\<br />
+CurrentControlSet\<br />
+Control\
+Applicazioni del server;
+Software\Microsoft\
+Windows NT\Current
+Versione</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>percorsi e sottopercorsi del Registro di sistema ai quali è possibile accedere in modo remoto</p></td>
-<td style="border:1px solid black;"><p>(per le informazioni di impostazione vedere la seguente sottosezione)</p></td>
-<td style="border:1px solid black;"><p>(per le informazioni di impostazione vedere la seguente sottosezione)</p></td>
-<td style="border:1px solid black;"><p>(per le informazioni di impostazione vedere la seguente sottosezione)</p></td>
+<td style="border:1px solid black;">percorsi e sottopercorsi del Registro di sistema ai quali è possibile accedere in modo remoto</td>
+<td style="border:1px solid black;">(per le informazioni di impostazione vedere la seguente sottosezione)</td>
+<td style="border:1px solid black;">(per le informazioni di impostazione vedere la seguente sottosezione)</td>
+<td style="border:1px solid black;">(per le informazioni di impostazione vedere la seguente sottosezione)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>limita accesso anonimo a named pipe e condivisioni</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">limita accesso anonimo a named pipe e condivisioni</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>condivisioni alle quali è possibile accedere in modo anonimo</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">condivisioni alle quali è possibile accedere in modo anonimo</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>modello di condivisione e protezione per gli account locali</p></td>
-<td style="border:1px solid black;"><p>Classico: gli utenti locali effettuano l'autenticazione come se stessi</p></td>
-<td style="border:1px solid black;"><p>Classico: gli utenti locali effettuano l'autenticazione come se stessi</p></td>
-<td style="border:1px solid black;"><p>Classico: gli utenti locali effettuano l'autenticazione come se stessi</p></td>
+<td style="border:1px solid black;">modello di condivisione e protezione per gli account locali</td>
+<td style="border:1px solid black;">Classico: gli utenti locali effettuano l'autenticazione come se stessi</td>
+<td style="border:1px solid black;">Classico: gli utenti locali effettuano l'autenticazione come se stessi</td>
+<td style="border:1px solid black;">Classico: gli utenti locali effettuano l'autenticazione come se stessi</td>
 </tr>
 </tbody>
 </table>
@@ -2533,7 +2533,7 @@ L'impostazione **Accesso di rete: modello di condivisione e protezione per gli a
   
 **Tabella 4.20 Opzioni di protezione: suggerimenti per le impostazioni di protezione di rete**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2543,42 +2543,42 @@ L'impostazione **Accesso di rete: modello di condivisione e protezione per gli a
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>non memorizzare il valore hash di LAN Manager al prossimo cambio di password</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">non memorizzare il valore hash di LAN Manager al prossimo cambio di password</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>livello di autenticazione di LAN Manager</p></td>
-<td style="border:1px solid black;"><p>Invia solo risposte NTLMv2</p></td>
-<td style="border:1px solid black;"><p>Invia solo risposta NTLMv2\Rifiuta LM</p></td>
-<td style="border:1px solid black;"><p>Invia solo risposte NTLMv2\Rifiuta LM e NTLM</p></td>
+<td style="border:1px solid black;">livello di autenticazione di LAN Manager</td>
+<td style="border:1px solid black;">Invia solo risposte NTLMv2</td>
+<td style="border:1px solid black;">Invia solo risposta NTLMv2\Rifiuta LM</td>
+<td style="border:1px solid black;">Invia solo risposte NTLMv2\Rifiuta LM e NTLM</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>requisiti per la firma client LDAP</p></td>
-<td style="border:1px solid black;"><p>Negozia firma</p></td>
-<td style="border:1px solid black;"><p>Negozia firma</p></td>
-<td style="border:1px solid black;"><p>Negozia firma</p></td>
+<td style="border:1px solid black;">requisiti per la firma client LDAP</td>
+<td style="border:1px solid black;">Negozia firma</td>
+<td style="border:1px solid black;">Negozia firma</td>
+<td style="border:1px solid black;">Negozia firma</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>protezione sessione minima per client basati su NTLM SSP (incluso l'RPC protetto)</p></td>
-<td style="border:1px solid black;"><p>Nessun minimo</p></td>
-<td style="border:1px solid black;"><p>Tutte le impostazioni abilitate</p></td>
-<td style="border:1px solid black;"><p>Tutte le impostazioni abilitate</p></td>
+<td style="border:1px solid black;">protezione sessione minima per client basati su NTLM SSP (incluso l'RPC protetto)</td>
+<td style="border:1px solid black;">Nessun minimo</td>
+<td style="border:1px solid black;">Tutte le impostazioni abilitate</td>
+<td style="border:1px solid black;">Tutte le impostazioni abilitate</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>protezione sessione minima per server basati su NTLM SSP (incluso l'RPC protetto)</p></td>
-<td style="border:1px solid black;"><p>Nessun minimo</p></td>
-<td style="border:1px solid black;"><p>Tutte le impostazioni abilitate</p></td>
-<td style="border:1px solid black;"><p>Tutte le impostazioni abilitate</p></td>
+<td style="border:1px solid black;">protezione sessione minima per server basati su NTLM SSP (incluso l'RPC protetto)</td>
+<td style="border:1px solid black;">Nessun minimo</td>
+<td style="border:1px solid black;">Tutte le impostazioni abilitate</td>
+<td style="border:1px solid black;">Tutte le impostazioni abilitate</td>
 </tr>
 </tbody>
 </table>
@@ -2597,7 +2597,7 @@ Questo criterio determina quale protocollo di autenticazione Challenge/Response 
   
 **Tabella 4.21 Impostazioni di valore del registro MCompatibilityLevel**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2605,34 +2605,34 @@ Questo criterio determina quale protocollo di autenticazione Challenge/Response 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Valore</p></th>
-<th><p>Protocollo</p></th>
+<th>Valore</th>
+<th>Protocollo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>I client utilizzano l'autenticazione LM e NTLM; non utilizzano mai la protezione di sessione NTLMv2.</p></td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">I client utilizzano l'autenticazione LM e NTLM; non utilizzano mai la protezione di sessione NTLMv2.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>I client utilizzano l'autenticazione LM e NTLM, nonché la protezione di sessione NTLMv2 se supportata dal server.</p></td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">I client utilizzano l'autenticazione LM e NTLM, nonché la protezione di sessione NTLMv2 se supportata dal server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>I client utilizzano solo l'autenticazione NTLM e la protezione della sessione NTLMv2, se supportate dal server.</p></td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">I client utilizzano solo l'autenticazione NTLM e la protezione della sessione NTLMv2, se supportate dal server.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>I client utilizzano solo l'autenticazione NTLMv2 e la protezione della sessione NTLMv2 se supportata dal server.</p></td>
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">I client utilizzano solo l'autenticazione NTLMv2 e la protezione della sessione NTLMv2 se supportata dal server.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>4</p></td>
-<td style="border:1px solid black;"><p>I client utilizzano solo l'autenticazione NTLM e la protezione della sessione NTLMv2, se supportate dal server. Il controller di dominio rifiuta l'autenticazione LM.</p></td>
+<td style="border:1px solid black;">4</td>
+<td style="border:1px solid black;">I client utilizzano solo l'autenticazione NTLM e la protezione della sessione NTLMv2, se supportate dal server. Il controller di dominio rifiuta l'autenticazione LM.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>5</p></td>
-<td style="border:1px solid black;"><p>I client utilizzano solo l'autenticazione NTLMv2 e la protezione della sessione NTLMv2 se supportata dal server. Il controller di dominio rifiuta l'autenticazione di LM e NTLM ed accetta soltanto NTLMv2.</p></td>
+<td style="border:1px solid black;">5</td>
+<td style="border:1px solid black;">I client utilizzano solo l'autenticazione NTLMv2 e la protezione della sessione NTLMv2 se supportata dal server. Il controller di dominio rifiuta l'autenticazione di LM e NTLM ed accetta soltanto NTLMv2.</td>
 </tr>
 </tbody>
 </table>
@@ -2669,7 +2669,7 @@ L'impostazione **Protezione di rete: protezione sessione minima per server basat
   
 **Tabella 4.22 Opzioni di protezione: suggerimenti di impostazione della Console di ripristino di emergenza**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2679,24 +2679,24 @@ L'impostazione **Protezione di rete: protezione sessione minima per server basat
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>consenti accesso di amministrazione automatico</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">consenti accesso di amministrazione automatico</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>consente la copia di dischi floppy e l'accesso a tutte le unità e cartelle</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">consente la copia di dischi floppy e l'accesso a tutte le unità e cartelle</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -2725,7 +2725,7 @@ Per la massima protezione, l'impostazione **Console di ripristino di emergenza: 
   
 **Tabella 4.23 Opzioni di protezione: suggerimenti per le impostazioni di arresto**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2735,24 +2735,24 @@ Per la massima protezione, l'impostazione **Console di ripristino di emergenza: 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>consente di arrestare il sistema senza effettuare l'accesso</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">consente di arrestare il sistema senza effettuare l'accesso</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>cancella il file di paging della memoria virtuale</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
+<td style="border:1px solid black;">cancella il file di paging della memoria virtuale</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
 </tr>
 </tbody>
 </table>
@@ -2775,7 +2775,7 @@ Per queste ragioni, l'impostazione **Arresto del sistema: cancella il file di pa
   
 **Tabella 4.24 Opzioni di Protezione: suggerimenti per le impostazioni della crittografia di sistema**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2785,24 +2785,24 @@ Per queste ragioni, l'impostazione **Arresto del sistema: cancella il file di pa
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>imponi protezione chiave avanzata per chiavi utente archiviate nel computer</p></td>
-<td style="border:1px solid black;"><p>L'utente riceve una richiesta al primo utilizzo della chiave</p></td>
-<td style="border:1px solid black;"><p>L'utente riceve una richiesta al primo utilizzo della chiave</p></td>
-<td style="border:1px solid black;"><p>L'utente deve immettere una password ogni volta che utilizza una chiave</p></td>
+<td style="border:1px solid black;">imponi protezione chiave avanzata per chiavi utente archiviate nel computer</td>
+<td style="border:1px solid black;">L'utente riceve una richiesta al primo utilizzo della chiave</td>
+<td style="border:1px solid black;">L'utente riceve una richiesta al primo utilizzo della chiave</td>
+<td style="border:1px solid black;">L'utente deve immettere una password ogni volta che utilizza una chiave</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>utilizza algoritmi FIPS compatibili per crittografia, hash e firma</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">utilizza algoritmi FIPS compatibili per crittografia, hash e firma</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -2823,7 +2823,7 @@ Per queste ragioni, l'impostazione **Crittografia di sistema: utilizza algoritmi
   
 **Tabella 4.24 Opzioni di protezione: suggerimenti per le impostazioni degli oggetti di sistema**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2833,30 +2833,30 @@ Per queste ragioni, l'impostazione **Crittografia di sistema: utilizza algoritmi
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>proprietario predefinito per gli oggetti creati dai membri del gruppo Administrators</p></td>
-<td style="border:1px solid black;"><p>Creatore oggetto</p></td>
-<td style="border:1px solid black;"><p>Creatore oggetto</p></td>
-<td style="border:1px solid black;"><p>Creatore oggetto</p></td>
+<td style="border:1px solid black;">proprietario predefinito per gli oggetti creati dai membri del gruppo Administrators</td>
+<td style="border:1px solid black;">Creatore oggetto</td>
+<td style="border:1px solid black;">Creatore oggetto</td>
+<td style="border:1px solid black;">Creatore oggetto</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>non richiedere differenziazione tra maiuscole e minuscole per sottosistemi diversi da Windows</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">non richiedere differenziazione tra maiuscole e minuscole per sottosistemi diversi da Windows</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Potenzia le autorizzazioni predefinite degli oggetti di sistema interni (ad esempio, i collegamenti simbolici)</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Potenzia le autorizzazioni predefinite degli oggetti di sistema interni (ad esempio, i collegamenti simbolici)</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -2883,7 +2883,7 @@ L'impostazione **Oggetti di sistema: potenzia le autorizzazioni predefinite degl
   
 **Tabella 4.26 Opzioni di Protezione: suggerimenti per le impostazioni del sistema**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2893,24 +2893,24 @@ L'impostazione **Oggetti di sistema: potenzia le autorizzazioni predefinite degl
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Impostazioni di sistema: sottosistemi facoltativi</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
-<td style="border:1px solid black;"><p>Nessuna</p></td>
+<td style="border:1px solid black;">Impostazioni di sistema: sottosistemi facoltativi</td>
+<td style="border:1px solid black;">Nessuna</td>
+<td style="border:1px solid black;">Nessuna</td>
+<td style="border:1px solid black;">Nessuna</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Impostazioni di sistema: impostazioni di sistema: utilizza regole certificati con i file eseguibili di Windows per i criteri di restrizione software</p></td>
-<td style="border:1px solid black;"><p>Non definito</p></td>
-<td style="border:1px solid black;"><p>Disabilitato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Impostazioni di sistema: impostazioni di sistema: utilizza regole certificati con i file eseguibili di Windows per i criteri di restrizione software</td>
+<td style="border:1px solid black;">Non definito</td>
+<td style="border:1px solid black;">Disabilitato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>
@@ -2943,7 +2943,7 @@ La tabella seguente riassume i consigli per l'impostazione del registro eventi p
   
 **Tabella 4.27 Suggerimenti per le impostazioni del Registro eventi**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2953,66 +2953,66 @@ La tabella seguente riassume i consigli per l'impostazione del registro eventi p
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Dimensione massima registro applicazioni</p></td>
-<td style="border:1px solid black;"><p>16.384 KB</p></td>
-<td style="border:1px solid black;"><p>16.384 KB</p></td>
-<td style="border:1px solid black;"><p>16.384 KB</p></td>
+<td style="border:1px solid black;">Dimensione massima registro applicazioni</td>
+<td style="border:1px solid black;">16.384 KB</td>
+<td style="border:1px solid black;">16.384 KB</td>
+<td style="border:1px solid black;">16.384 KB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Dimensione massima registro protezione</p></td>
-<td style="border:1px solid black;"><p>81.920 KB</p></td>
-<td style="border:1px solid black;"><p>81.920 KB</p></td>
-<td style="border:1px solid black;"><p>81.920 KB</p></td>
+<td style="border:1px solid black;">Dimensione massima registro protezione</td>
+<td style="border:1px solid black;">81.920 KB</td>
+<td style="border:1px solid black;">81.920 KB</td>
+<td style="border:1px solid black;">81.920 KB</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Dimensione massima registro eventi di sistema</p></td>
-<td style="border:1px solid black;"><p>16.384 KB</p></td>
-<td style="border:1px solid black;"><p>16.384 KB</p></td>
-<td style="border:1px solid black;"><p>16.384 KB</p></td>
+<td style="border:1px solid black;">Dimensione massima registro eventi di sistema</td>
+<td style="border:1px solid black;">16.384 KB</td>
+<td style="border:1px solid black;">16.384 KB</td>
+<td style="border:1px solid black;">16.384 KB</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Impedisci accesso guest locale al registro applicazione</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Impedisci accesso guest locale al registro applicazione</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Impedisci accesso guest locale al registro applicazione</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Impedisci accesso guest locale al registro applicazione</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Impedisci accesso guest locale al registro eventi di sistema</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Impedisci accesso guest locale al registro eventi di sistema</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Criteri gestione registro applicazione</p></td>
-<td style="border:1px solid black;"><p>In base alle necessità</p></td>
-<td style="border:1px solid black;"><p>In base alle necessità</p></td>
-<td style="border:1px solid black;"><p>In base alle necessità</p></td>
+<td style="border:1px solid black;">Criteri gestione registro applicazione</td>
+<td style="border:1px solid black;">In base alle necessità</td>
+<td style="border:1px solid black;">In base alle necessità</td>
+<td style="border:1px solid black;">In base alle necessità</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Criteri gestione registro protezione</p></td>
-<td style="border:1px solid black;"><p>In base alle necessità</p></td>
-<td style="border:1px solid black;"><p>In base alle necessità</p></td>
-<td style="border:1px solid black;"><p>In base alle necessità</p></td>
+<td style="border:1px solid black;">Criteri gestione registro protezione</td>
+<td style="border:1px solid black;">In base alle necessità</td>
+<td style="border:1px solid black;">In base alle necessità</td>
+<td style="border:1px solid black;">In base alle necessità</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Criteri gestione registro eventi di sistema</p></td>
-<td style="border:1px solid black;"><p>In base alle necessità</p></td>
-<td style="border:1px solid black;"><p>In base alle necessità</p></td>
-<td style="border:1px solid black;"><p>In base alle necessità</p></td>
+<td style="border:1px solid black;">Criteri gestione registro eventi di sistema</td>
+<td style="border:1px solid black;">In base alle necessità</td>
+<td style="border:1px solid black;">In base alle necessità</td>
+<td style="border:1px solid black;">In base alle necessità</td>
 </tr>
 </tbody>
 </table>
@@ -3103,7 +3103,7 @@ Per prevenirli, è necessario mantenere aggiornato il computer con le correzioni
   
 **Tabella 4.28 Suggerimenti per le voci del Registro TCP/IP**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -3114,69 +3114,69 @@ Per prevenirli, è necessario mantenere aggiornato il computer con le correzioni
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Voce di registro</p></th>
-<th><p>Formato</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Voce di registro</th>
+<th>Formato</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>EnableICMPRedirect</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">EnableICMPRedirect</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>SynAttackProtect</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">SynAttackProtect</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>EnableDeadGWDetect</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">EnableDeadGWDetect</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>KeepAliveTime</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>300.000</p></td>
-<td style="border:1px solid black;"><p>300.000</p></td>
-<td style="border:1px solid black;"><p>300.000</p></td>
+<td style="border:1px solid black;">KeepAliveTime</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">300.000</td>
+<td style="border:1px solid black;">300.000</td>
+<td style="border:1px solid black;">300.000</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>DisableIPSourceRouting</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
+<td style="border:1px solid black;">DisableIPSourceRouting</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">2</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>TcpMaxConnectResponseRetransmissions</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
-<td style="border:1px solid black;"><p>2</p></td>
+<td style="border:1px solid black;">TcpMaxConnectResponseRetransmissions</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">2</td>
+<td style="border:1px solid black;">2</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>TcpMaxDataRetransmissions</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">TcpMaxDataRetransmissions</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PerformRouterDiscovery</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">PerformRouterDiscovery</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 </tbody>
 </table>
@@ -3187,7 +3187,7 @@ La tabella seguente elenca altre voci di registro consigliate, non specifiche pe
   
 **Tabella 4.29 Altri suggerimenti per le voci di registro**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -3198,90 +3198,90 @@ La tabella seguente elenca altre voci di registro consigliate, non specifiche pe
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Voce di registro</p></th>
-<th><p>Formato</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Voce di registro</th>
+<th>Formato</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (NoNameReleaseOnDemand) Consente al computer di ignorare le richieste di rilascio del nome NetBIOS eccetto per i server WINS</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">MSS: (NoNameReleaseOnDemand) Consente al computer di ignorare le richieste di rilascio del nome NetBIOS eccetto per i server WINS</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (NtfsDisable8dot3NameCreation) consente al computer di bloccare la creazione di nomi file in formato 8.3 (consigliato)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">MSS: (NtfsDisable8dot3NameCreation) consente al computer di bloccare la creazione di nomi file in formato 8.3 (consigliato)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (NoDriveTypeAutoRun) disabilita l'esecuzione automatica per tutte le unità (consigliato)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>0xFF</p></td>
-<td style="border:1px solid black;"><p>0xFF</p></td>
-<td style="border:1px solid black;"><p>0xFF</p></td>
+<td style="border:1px solid black;">MSS: (NoDriveTypeAutoRun) disabilita l'esecuzione automatica per tutte le unità (consigliato)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">0xFF</td>
+<td style="border:1px solid black;">0xFF</td>
+<td style="border:1px solid black;">0xFF</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (ScreenSaverGracePeriod) tempo in secondi prima della scadenza del periodo di prova dello screen saver (consigliato: 0)</p></td>
-<td style="border:1px solid black;"><p>Stringa</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">MSS: (ScreenSaverGracePeriod) tempo in secondi prima della scadenza del periodo di prova dello screen saver (consigliato: 0)</td>
+<td style="border:1px solid black;">Stringa</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (WarningLevel) limite in percentuale del registro eventi di protezione raggiunto il quale viene creato un messaggio di avviso</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>90</p></td>
-<td style="border:1px solid black;"><p>90</p></td>
-<td style="border:1px solid black;"><p>90</p></td>
+<td style="border:1px solid black;">MSS: (WarningLevel) limite in percentuale del registro eventi di protezione raggiunto il quale viene creato un messaggio di avviso</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">90</td>
+<td style="border:1px solid black;">90</td>
+<td style="border:1px solid black;">90</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (SafeDllSearchMode) modalità di ricerca Safe DLL (consigliata)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">MSS: (SafeDllSearchMode) modalità di ricerca Safe DLL (consigliata)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (AutoReboot) Consente a Windows di effettuare il riavvio dopo un blocco di sistema (non consigliato per gli ambienti ad alta sicurezza)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">MSS: (AutoReboot) Consente a Windows di effettuare il riavvio dopo un blocco di sistema (non consigliato per gli ambienti ad alta sicurezza)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (AutoAdminLogon) abilita l'accesso automatico (sconsigliato)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">MSS: (AutoAdminLogon) abilita l'accesso automatico (sconsigliato)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (AutoShareWks) Attiva le condivisioni amministrative (non consigliato per ambienti ad alta sicurezza)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>0</p></td>
+<td style="border:1px solid black;">MSS: (AutoShareWks) Attiva le condivisioni amministrative (non consigliato per ambienti ad alta sicurezza)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">0</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>MSS: (DisableSavePassword) Impedisce il salvataggio della password dial-up (consigliato)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
-<td style="border:1px solid black;"><p>1</p></td>
+<td style="border:1px solid black;">MSS: (DisableSavePassword) Impedisce il salvataggio della password dial-up (consigliato)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">1</td>
+<td style="border:1px solid black;">1</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>MSS: (NoDefaultExempt) abilita NoDefaultExempt per i filtri IPSec (consigliato)</p></td>
-<td style="border:1px solid black;"><p>DWORD</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
-<td style="border:1px solid black;"><p>3</p></td>
+<td style="border:1px solid black;">MSS: (NoDefaultExempt) abilita NoDefaultExempt per i filtri IPSec (consigliato)</td>
+<td style="border:1px solid black;">DWORD</td>
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">3</td>
 </tr>
 </tbody>
 </table>
@@ -3541,7 +3541,7 @@ Inoltre, l’account Administrator predefinito potrebbe essere stato modificato 
   
 **Tabella 4.30 Assegnazioni diritti utente aggiunte manualmente**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3551,33 +3551,33 @@ Inoltre, l’account Administrator predefinito potrebbe essere stato modificato 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome dell'impostazione nell'interfaccia utente</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Nome dell'impostazione nell'interfaccia utente</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nega accesso al computer dalla rete</p></td>
-<td style="border:1px solid black;"><p>Amministratore incorporato; Support_388945a0;</p>
-<p>Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Amministratore incorporato; Support_388945a0;</p>
-<p>Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Amministratore incorporato; Support_388945a0;</p>
-<p>Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</p></td>
+<td style="border:1px solid black;">Nega accesso al computer dalla rete</td>
+<td style="border:1px solid black;">Amministratore incorporato; Support_388945a0;
+Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</td>
+<td style="border:1px solid black;">Amministratore incorporato; Support_388945a0;
+Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</td>
+<td style="border:1px solid black;">Amministratore incorporato; Support_388945a0;
+Guest; Tutti gli account di servizio NON utilizzati dal sistema operativo</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Nega accesso come processo batch</p></td>
-<td style="border:1px solid black;"><p>Support_388945a0 e Guest</p></td>
-<td style="border:1px solid black;"><p>Support_388945a0 e Guest</p></td>
-<td style="border:1px solid black;"><p>Support_388945a0 e Guest</p></td>
+<td style="border:1px solid black;">Nega accesso come processo batch</td>
+<td style="border:1px solid black;">Support_388945a0 e Guest</td>
+<td style="border:1px solid black;">Support_388945a0 e Guest</td>
+<td style="border:1px solid black;">Support_388945a0 e Guest</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Nega accesso tramite Servizi terminal</p></td>
-<td style="border:1px solid black;"><p>Administrator predefinito, Guests, Support_388945a0, Guest, tutti gli account di servizio non utilizzati dal sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Administrator predefinito, Guests, Support_388945a0, Guest, tutti gli account di servizio non utilizzati dal sistema operativo</p></td>
-<td style="border:1px solid black;"><p>Administrator predefinito, Guests, Support_388945a0, Guest, tutti gli account di servizio non utilizzati dal sistema operativo</p></td>
+<td style="border:1px solid black;">Nega accesso tramite Servizi terminal</td>
+<td style="border:1px solid black;">Administrator predefinito, Guests, Support_388945a0, Guest, tutti gli account di servizio non utilizzati dal sistema operativo</td>
+<td style="border:1px solid black;">Administrator predefinito, Guests, Support_388945a0, Guest, tutti gli account di servizio non utilizzati dal sistema operativo</td>
+<td style="border:1px solid black;">Administrator predefinito, Guests, Support_388945a0, Guest, tutti gli account di servizio non utilizzati dal sistema operativo</td>
 </tr>
 </tbody>
 </table>
@@ -3659,7 +3659,7 @@ L'impostazione **Imposta livello di crittografia connessione client** determina 
   
 **Tabella 4.31 Suggerimenti per l'impostazione del livello di crittografia connessione client**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3669,18 +3669,18 @@ L'impostazione **Imposta livello di crittografia connessione client** determina 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome dell'impostazione nell'interfaccia utente</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Nome dell'impostazione nell'interfaccia utente</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Imposta livello di crittografia connessione client</p></td>
-<td style="border:1px solid black;"><p>Alto</p></td>
-<td style="border:1px solid black;"><p>Alto</p></td>
-<td style="border:1px solid black;"><p>Alto</p></td>
+<td style="border:1px solid black;">Imposta livello di crittografia connessione client</td>
+<td style="border:1px solid black;">Alto</td>
+<td style="border:1px solid black;">Alto</td>
+<td style="border:1px solid black;">Alto</td>
 </tr>
 </tbody>
 </table>
@@ -3689,7 +3689,7 @@ I tre livelli di crittografia disponibili sono descritti nella tabella seguente:
   
 **Tabella 4.32 Livelli di crittografia di Servizi terminal**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -3697,33 +3697,33 @@ I tre livelli di crittografia disponibili sono descritti nella tabella seguente:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Livello di crittografia</p></th>
-<th><p>Descrizione</p></th>
+<th>Livello di crittografia</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Alto</p></td>
-<td style="border:1px solid black;"><p>Codifica i dati inviati dal client al server e dal server al client con crittografia avanzata a 128 bit. Utilizzare questo livello quando il server terminal è in esecuzione in un ambiente dove si trovano solo client a 128 bit (ad esempio client di Connessione desktop remoto). I client che non supportano questo livello di crittografia non possono stabilire la connessione.</p></td>
+<td style="border:1px solid black;">Alto</td>
+<td style="border:1px solid black;">Codifica i dati inviati dal client al server e dal server al client con crittografia avanzata a 128 bit. Utilizzare questo livello quando il server terminal è in esecuzione in un ambiente dove si trovano solo client a 128 bit (ad esempio client di Connessione desktop remoto). I client che non supportano questo livello di crittografia non possono stabilire la connessione.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Compatibile con client</p></td>
-<td style="border:1px solid black;"><p>Codifica i dati inviati fra client e server basandosi sulla forza massima della chiave supportata dal client. Utilizzare questo livello se il server terminal è in esecuzione in un ambiente con client misti o legacy.</p></td>
+<td style="border:1px solid black;">Compatibile con client</td>
+<td style="border:1px solid black;">Codifica i dati inviati fra client e server basandosi sulla forza massima della chiave supportata dal client. Utilizzare questo livello se il server terminal è in esecuzione in un ambiente con client misti o legacy.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Basso</p></td>
-<td style="border:1px solid black;"><p>Codifica i dati inviati fra client e server con crittografia a 56 bit.</p>
-<p><strong>Importante</strong>: i dati inviati dal server al client non sono crittografati.</p></td>
+<td style="border:1px solid black;">Basso</td>
+<td style="border:1px solid black;">Codifica i dati inviati fra client e server con crittografia a 56 bit.
+<strong>Importante</strong>: i dati inviati dal server al client non sono crittografati.</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 #### Segnalazione errori
 
 **Tabella 4.33 Impostazioni di segnalazione errori consigliate**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3733,18 +3733,18 @@ I tre livelli di crittografia disponibili sono descritti nella tabella seguente:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Legacy Client</p></th>
-<th><p>Enterprise Client</p></th>
-<th><p>Specialized Security – Limited Functionality</p></th>
+<th>Impostazione</th>
+<th>Legacy Client</th>
+<th>Enterprise Client</th>
+<th>Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Disabilitare la segnalazione errori di Windows</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
-<td style="border:1px solid black;"><p>Attivato</p></td>
+<td style="border:1px solid black;">Disabilitare la segnalazione errori di Windows</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
+<td style="border:1px solid black;">Attivato</td>
 </tr>
 </tbody>
 </table>

@@ -63,7 +63,7 @@ Nota: la schermata visualizzata nell'ultima immagine può essere soggetta a modi
 
 La distribuzione di Internet Explorer 7 attraverso gli aggiornamenti automatici comincerà subito dopo le date di rilascio indicate sotto. Gli utenti che desiderano impedire che Internet Explorer 7 venga distribuito automaticamente nelle rispettive organizzazioni devono adottare apposite misure di blocco entro le date indicate alla fine di questo comunicato.
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -71,24 +71,24 @@ La distribuzione di Internet Explorer 7 attraverso gli aggiornamenti automatici 
 </colgroup>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><strong>Lingua di IE7</strong></p></td>
-<td style="border:1px solid black;"><p><strong>Date di rilascio di Internet Explorer 7</strong></p></td>
+<td style="border:1px solid black;"><strong>Lingua di IE7</strong></td>
+<td style="border:1px solid black;"><strong>Date di rilascio di Internet Explorer 7</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Inglese</p></td>
-<td style="border:1px solid black;"><p>1-ott-06</p></td>
+<td style="border:1px solid black;">Inglese</td>
+<td style="border:1px solid black;">1-ott-06</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Tedesco, francese, spagnolo, finlandese, brasiliano, portoghese, arabo, giapponese, italiano, olandese, russo, coreano, cinese semplificato e tradizionale, ebraico</p></td>
-<td style="border:1px solid black;"><p>nov-06</p></td>
+<td style="border:1px solid black;">Tedesco, francese, spagnolo, finlandese, brasiliano, portoghese, arabo, giapponese, italiano, olandese, russo, coreano, cinese semplificato e tradizionale, ebraico</td>
+<td style="border:1px solid black;">nov-06</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Svedese, danese, norvegese, polacco</p></td>
-<td style="border:1px solid black;"><p>dic-07</p></td>
+<td style="border:1px solid black;">Svedese, danese, norvegese, polacco</td>
+<td style="border:1px solid black;">dic-07</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Turco, portoghese, ceco, ungherese, ELL</p></td>
-<td style="border:1px solid black;"><p>gen-07</p></td>
+<td style="border:1px solid black;">Turco, portoghese, ceco, ungherese, ELL</td>
+<td style="border:1px solid black;">gen-07</td>
 </tr>
 </tbody>
 </table>

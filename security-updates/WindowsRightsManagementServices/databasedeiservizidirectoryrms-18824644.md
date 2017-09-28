@@ -17,7 +17,7 @@ Nella tabella seguente vengono elencati gli attributi di Active Directory memori
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -31,7 +31,7 @@ Nella tabella seguente vengono elencati gli attributi di Active Directory memori
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupAliases</p></td>
+<td style="border:1px solid black;">GroupAliases</td>
 <td style="border:1px solid black;"><ul>
 <li>GroupName: alias del gruppo<br />
 <br />
@@ -42,7 +42,7 @@ Nella tabella seguente vengono elencati gli attributi di Active Directory memori
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GroupIdentifiers</p></td>
+<td style="border:1px solid black;">GroupIdentifiers</td>
 <td style="border:1px solid black;"><ul>
 <li>GroupDN: nome distinto del gruppo utilizzato in Active Directory<br />
 <br />
@@ -56,7 +56,7 @@ Nella tabella seguente vengono elencati gli attributi di Active Directory memori
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>GroupMembership</p></td>
+<td style="border:1px solid black;">GroupMembership</td>
 <td style="border:1px solid black;"><ul>
 <li>GroupID: ID univoco del gruppo<br />
 <br />
@@ -67,7 +67,7 @@ Nella tabella seguente vengono elencati gli attributi di Active Directory memori
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrincipalAliases</p></td>
+<td style="border:1px solid black;">PrincipalAliases</td>
 <td style="border:1px solid black;"><ul>
 <li>PrincipalName: nome alias dell'identità<br />
 <br />
@@ -78,7 +78,7 @@ Nella tabella seguente vengono elencati gli attributi di Active Directory memori
 </ul></td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>PrincipalIdentifiers</p></td>
+<td style="border:1px solid black;">PrincipalIdentifiers</td>
 <td style="border:1px solid black;"><ul>
 <li>PrincipalID: ID univoco dell'identità<br />
 <br />
@@ -89,8 +89,8 @@ Nella tabella seguente vengono elencati gli attributi di Active Directory memori
 </ul></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>PrincipalMembership</p></td>
-<td style="border:1px solid black;"><p>Ogni riga di questa tabella include l'ID univoco di un'identità e l'ID univoco del gruppo a cui appartiene.</p>
+<td style="border:1px solid black;">PrincipalMembership</td>
+<td style="border:1px solid black;">Ogni riga di questa tabella include l'ID univoco di un'identità e l'ID univoco del gruppo a cui appartiene.
 <ul>
 <li>PrincipalID: ID univoco dell'identità<br />
 <br />

@@ -43,7 +43,7 @@ Nella tabella riportata di seguito vengono elencate le voci che è possibile agg
 
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -59,14 +59,14 @@ Nella tabella riportata di seguito vengono elencate le voci che è possibile agg
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>SubEnrollmentURL</p></td>
-<td style="border:1px solid black;"><p>Stringa</p></td>
-<td style="border:1px solid black;"><p>http(o https)://<em>nome_server</em>/_wmcs/certification/subenrollservice.asmx</p></td>
+<td style="border:1px solid black;">SubEnrollmentURL</td>
+<td style="border:1px solid black;">Stringa</td>
+<td style="border:1px solid black;">http(o https)://<em>nome_server</em>/_wmcs/certification/subenrollservice.asmx</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>GicURL</p></td>
-<td style="border:1px solid black;"><p>Stringa</p></td>
-<td style="border:1px solid black;"><p>http(o https)://<em>nome_server</em>/_wmcs/certification/certification.asmx</p></td>
+<td style="border:1px solid black;">GicURL</td>
+<td style="border:1px solid black;">Stringa</td>
+<td style="border:1px solid black;">http(o https)://<em>nome_server</em>/_wmcs/certification/certification.asmx</td>
 </tr>
 </tbody>
 </table>
@@ -98,7 +98,7 @@ Nella tabella riportata di seguito vengono elencate le voci del Registro di sist
   
 ###  
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -114,19 +114,19 @@ Nella tabella riportata di seguito vengono elencate le voci del Registro di sist
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Activation</p></td>
-<td style="border:1px solid black;"><p>Stringa</p></td>
-<td style="border:1px solid black;"><p>http (o https)://<em>nome_cluster_RMS</em>/_wmcs/Certification dove <em>nome_cluster_RMS</em> rappresenta il nome del cluster RMS.</p></td>
+<td style="border:1px solid black;">Activation</td>
+<td style="border:1px solid black;">Stringa</td>
+<td style="border:1px solid black;">http (o https)://<em>nome_cluster_RMS</em>/_wmcs/Certification dove <em>nome_cluster_RMS</em> rappresenta il nome del cluster RMS.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>EnterprisePublishing</p></td>
-<td style="border:1px solid black;"><p>Stringa</p></td>
-<td style="border:1px solid black;"><p>http (o https)://<em>nome_cluster_RMS</em>/_wmcs/Licensing dove <em>nome_cluster_RMS</em> rappresenta il nome del cluster RMS.</p></td>
+<td style="border:1px solid black;">EnterprisePublishing</td>
+<td style="border:1px solid black;">Stringa</td>
+<td style="border:1px solid black;">http (o https)://<em>nome_cluster_RMS</em>/_wmcs/Licensing dove <em>nome_cluster_RMS</em> rappresenta il nome del cluster RMS.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>CloudPublishing</p></td>
-<td style="border:1px solid black;"><p>Stringa</p></td>
-<td style="border:1px solid black;"><p>http (o https)://<em>nome_cluster_FQDN</em>/_wmcs/Licensing dove <em>nome_cluster_FQDN</em> rappresenta il nome di dominio completo del cluster RMS.</p></td>
+<td style="border:1px solid black;">CloudPublishing</td>
+<td style="border:1px solid black;">Stringa</td>
+<td style="border:1px solid black;">http (o https)://<em>nome_cluster_FQDN</em>/_wmcs/Licensing dove <em>nome_cluster_FQDN</em> rappresenta il nome di dominio completo del cluster RMS.</td>
 </tr>
 </tbody>
 </table>

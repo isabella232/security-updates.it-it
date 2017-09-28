@@ -108,7 +108,7 @@ In questa sezione vengono descritte le impostazioni di Windows Firewall in un og
 
 **Tabella 1. Impostazioni di Windows Firewall consigliate per aziende di piccole dimensioni**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -117,81 +117,81 @@ In questa sezione vengono descritte le impostazioni di Windows Firewall in un og
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Impostazione</p></th>
-<th><p>Descrizione</p></th>
-<th><p>Profilo di dominio</p></th>
+<th>Impostazione</th>
+<th>Descrizione</th>
+<th>Profilo di dominio</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Proteggi tutte le connessioni di rete</p></td>
-<td style="border:1px solid black;"><p>Consente di attivare Windows Firewall su tutte le connessioni di rete.</p></td>
-<td style="border:1px solid black;"><p>Attivata.</p></td>
+<td style="border:1px solid black;">Proteggi tutte le connessioni di rete</td>
+<td style="border:1px solid black;">Consente di attivare Windows Firewall su tutte le connessioni di rete.</td>
+<td style="border:1px solid black;">Attivata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Non consentire eccezioni</p></td>
-<td style="border:1px solid black;"><p>Specifica che tutto il traffico non richiesto deve essere ignorato, compreso quello elencato nelle eccezioni.</p></td>
-<td style="border:1px solid black;"><p>Non configurata.</p></td>
+<td style="border:1px solid black;">Non consentire eccezioni</td>
+<td style="border:1px solid black;">Specifica che tutto il traffico non richiesto deve essere ignorato, compreso quello elencato nelle eccezioni.</td>
+<td style="border:1px solid black;">Non configurata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Definisci eccezioni programmi</p></td>
-<td style="border:1px solid black;"><p>Consente di definire il traffico consentito in termini di nomi di file di programma.</p></td>
-<td style="border:1px solid black;"><p>Attivata e configurata per i programmi (applicazioni e servizi) utilizzati dai computer della rete basati su Windows XP SP2.</p></td>
+<td style="border:1px solid black;">Definisci eccezioni programmi</td>
+<td style="border:1px solid black;">Consente di definire il traffico consentito in termini di nomi di file di programma.</td>
+<td style="border:1px solid black;">Attivata e configurata per i programmi (applicazioni e servizi) utilizzati dai computer della rete basati su Windows XP SP2.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Consenti eccezioni programmi locali</p></td>
-<td style="border:1px solid black;"><p>Consente la configurazione locale delle eccezioni programmi.</p></td>
-<td style="border:1px solid black;"><p>Disattivata.</p></td>
+<td style="border:1px solid black;">Consenti eccezioni programmi locali</td>
+<td style="border:1px solid black;">Consente la configurazione locale delle eccezioni programmi.</td>
+<td style="border:1px solid black;">Disattivata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consenti eccezione per amministrazione remota</p></td>
-<td style="border:1px solid black;"><p>Consente la configurazione remota mediante strumenti.</p></td>
-<td style="border:1px solid black;"><p>Disattivata, a meno che non si desideri attivare l'amministrazione remota dei computer con gli snap-in MMC.</p></td>
+<td style="border:1px solid black;">Consenti eccezione per amministrazione remota</td>
+<td style="border:1px solid black;">Consente la configurazione remota mediante strumenti.</td>
+<td style="border:1px solid black;">Disattivata, a meno che non si desideri attivare l'amministrazione remota dei computer con gli snap-in MMC.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Consenti eccezione condivisione file e stampanti</p></td>
-<td style="border:1px solid black;"><p>Consente di specificare se il traffico di condivisione di file e stampanti è consentito.</p></td>
-<td style="border:1px solid black;"><p>Disattivata.</p></td>
+<td style="border:1px solid black;">Consenti eccezione condivisione file e stampanti</td>
+<td style="border:1px solid black;">Consente di specificare se il traffico di condivisione di file e stampanti è consentito.</td>
+<td style="border:1px solid black;">Disattivata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consenti eccezioni ICMP</p></td>
-<td style="border:1px solid black;"><p>Consente di specificare i tipi di messaggi ICMP consentiti.</p></td>
-<td style="border:1px solid black;"><p>Disattivata.</p></td>
+<td style="border:1px solid black;">Consenti eccezioni ICMP</td>
+<td style="border:1px solid black;">Consente di specificare i tipi di messaggi ICMP consentiti.</td>
+<td style="border:1px solid black;">Disattivata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Consenti eccezione per Desktop remoto</p></td>
-<td style="border:1px solid black;"><p>Consente di specificare se il computer è autorizzato ad accettare una richiesta di connessione basata su Desktop remoto.</p></td>
-<td style="border:1px solid black;"><p>Attivata.</p></td>
+<td style="border:1px solid black;">Consenti eccezione per Desktop remoto</td>
+<td style="border:1px solid black;">Consente di specificare se il computer è autorizzato ad accettare una richiesta di connessione basata su Desktop remoto.</td>
+<td style="border:1px solid black;">Attivata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consenti eccezione per framework UPnP</p></td>
-<td style="border:1px solid black;"><p>Consente di specificare se il computer è autorizzato a ricevere messaggi UPnP non richiesti.</p></td>
-<td style="border:1px solid black;"><p>Disattivata.</p></td>
+<td style="border:1px solid black;">Consenti eccezione per framework UPnP</td>
+<td style="border:1px solid black;">Consente di specificare se il computer è autorizzato a ricevere messaggi UPnP non richiesti.</td>
+<td style="border:1px solid black;">Disattivata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Proibisci notifiche</p></td>
-<td style="border:1px solid black;"><p>Consente di disattivare le notifiche.</p></td>
-<td style="border:1px solid black;"><p>Disattivata.</p></td>
+<td style="border:1px solid black;">Proibisci notifiche</td>
+<td style="border:1px solid black;">Consente di disattivare le notifiche.</td>
+<td style="border:1px solid black;">Disattivata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Consenti registrazione</p></td>
-<td style="border:1px solid black;"><p>Attiva la registrazione del traffico e configura le impostazioni del file registro.</p></td>
-<td style="border:1px solid black;"><p>Non configurata.</p></td>
+<td style="border:1px solid black;">Consenti registrazione</td>
+<td style="border:1px solid black;">Attiva la registrazione del traffico e configura le impostazioni del file registro.</td>
+<td style="border:1px solid black;">Non configurata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Impedisci risposte unicast a richieste multicast o broadcast</p></td>
-<td style="border:1px solid black;"><p>Consente di ignorare i pacchetti unicast ricevuti in risposta a un messaggio di richiesta multicast o broadcast.</p></td>
-<td style="border:1px solid black;"><p>Attivata.</p></td>
+<td style="border:1px solid black;">Impedisci risposte unicast a richieste multicast o broadcast</td>
+<td style="border:1px solid black;">Consente di ignorare i pacchetti unicast ricevuti in risposta a un messaggio di richiesta multicast o broadcast.</td>
+<td style="border:1px solid black;">Attivata.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Definisci eccezioni porte</p></td>
-<td style="border:1px solid black;"><p>Consente di specificare il traffico consentito in termini di TCP e UDP.</p></td>
-<td style="border:1px solid black;"><p>Disattivata.</p></td>
+<td style="border:1px solid black;">Definisci eccezioni porte</td>
+<td style="border:1px solid black;">Consente di specificare il traffico consentito in termini di TCP e UDP.</td>
+<td style="border:1px solid black;">Disattivata.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Consenti eccezioni porte locali</p></td>
-<td style="border:1px solid black;"><p>Consente la configurazione locale delle eccezioni porte.</p></td>
-<td style="border:1px solid black;"><p>Disattivata.</p></td>
+<td style="border:1px solid black;">Consenti eccezioni porte locali</td>
+<td style="border:1px solid black;">Consente la configurazione locale delle eccezioni porte.</td>
+<td style="border:1px solid black;">Disattivata.</td>
 </tr>
 </tbody>
 </table>
@@ -210,7 +210,7 @@ In Internet Explorer i siti Web vengono classificati in quattro aree di protezio
   
 **Tabella 2. Descrizioni delle aree di protezione e impostazioni di protezione predefinite**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -219,34 +219,34 @@ In Internet Explorer i siti Web vengono classificati in quattro aree di protezio
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Area di protezione</p></th>
-<th><p>Livello di protezione predefinito</p></th>
-<th><p>Descrizione</p></th>
+<th>Area di protezione</th>
+<th>Livello di protezione predefinito</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Area Internet</p></td>
-<td style="border:1px solid black;"><p>Media</p></td>
-<td style="border:1px solid black;"><p>L'area Internet è costituita da tutti i siti Web non inclusi nelle altre aree.<br />
+<td style="border:1px solid black;">Area Internet</td>
+<td style="border:1px solid black;">Media</td>
+<td style="border:1px solid black;">L'area Internet è costituita da tutti i siti Web non inclusi nelle altre aree.<br />
 <br />
-<strong>Nota</strong>   La minaccia proveniente da Internet è estremamente concreta. Microsoft è particolarmente impegnata a proteggere gli utenti dalle minacce Internet, pertanto non è possibile impostare il livello di protezione su Bassa, nemmeno con il pulsante avanzato <strong>Livello personalizzato</strong>.</p></td>
+<strong>Nota</strong>   La minaccia proveniente da Internet è estremamente concreta. Microsoft è particolarmente impegnata a proteggere gli utenti dalle minacce Internet, pertanto non è possibile impostare il livello di protezione su Bassa, nemmeno con il pulsante avanzato <strong>Livello personalizzato</strong>.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Area Intranet locale</p></td>
-<td style="border:1px solid black;"><p>Medio-bassa</p></td>
-<td style="border:1px solid black;"><p>Tutti i siti in quest'area devono trovarsi all'interno del firewall.</p></td>
+<td style="border:1px solid black;">Area Intranet locale</td>
+<td style="border:1px solid black;">Medio-bassa</td>
+<td style="border:1px solid black;">Tutti i siti in quest'area devono trovarsi all'interno del firewall.</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Area Siti attendibili</p></td>
-<td style="border:1px solid black;"><p>Bassa</p></td>
-<td style="border:1px solid black;"><p>I siti nell'Area siti attendibili sono autorizzati a eseguire una gamma più ampia di operazioni e in essi agli utenti viene chiesto di prendere un numero minore di decisioni relative alla protezione. Aggiungere siti a quest'area solo se si è certi che nessuna parte del loro contenuto comporterà mai l'esecuzione di operazioni dannose sui computer.<br />
-Per l'Area siti attendibili, è consigliabile utilizzare il protocollo HTTPS (Hypertext Transmission Protocol, Secure) o assicurarsi in altro modo che le connessioni al sito siano completamente protette.</p></td>
+<td style="border:1px solid black;">Area Siti attendibili</td>
+<td style="border:1px solid black;">Bassa</td>
+<td style="border:1px solid black;">I siti nell'Area siti attendibili sono autorizzati a eseguire una gamma più ampia di operazioni e in essi agli utenti viene chiesto di prendere un numero minore di decisioni relative alla protezione. Aggiungere siti a quest'area solo se si è certi che nessuna parte del loro contenuto comporterà mai l'esecuzione di operazioni dannose sui computer.<br />
+Per l'Area siti attendibili, è consigliabile utilizzare il protocollo HTTPS (Hypertext Transmission Protocol, Secure) o assicurarsi in altro modo che le connessioni al sito siano completamente protette.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Area Siti con restrizioni</p></td>
-<td style="border:1px solid black;"><p>Alta</p></td>
-<td style="border:1px solid black;"><p>Quest'area è stata progettata per consentire di aggiungere siti considerati non attendibili. Controlla e limita le funzionalità Web, ma non blocca l'accesso ai siti. I siti possono essere aggiunti dall'utente o applicati tramite Criteri di gruppo. Per bloccare l'accesso ai siti Web è necessario utilizzare un server proxy che supporti questa funzionalità.</p></td>
+<td style="border:1px solid black;">Area Siti con restrizioni</td>
+<td style="border:1px solid black;">Alta</td>
+<td style="border:1px solid black;">Quest'area è stata progettata per consentire di aggiungere siti considerati non attendibili. Controlla e limita le funzionalità Web, ma non blocca l'accesso ai siti. I siti possono essere aggiunti dall'utente o applicati tramite Criteri di gruppo. Per bloccare l'accesso ai siti Web è necessario utilizzare un server proxy che supporti questa funzionalità.</td>
 </tr>
 </tbody>
 </table>
@@ -257,7 +257,7 @@ In ogni area di protezione sono presenti oltre 30 impostazioni che possono esser
   
 **Tabella 3. Impostazione dei criteri per le aree di protezione**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -265,42 +265,42 @@ In ogni area di protezione sono presenti oltre 30 impostazioni che possono esser
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Area di protezione</p></th>
-<th><p>Impostazioni criteri</p></th>
+<th>Area di protezione</th>
+<th>Impostazioni criteri</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Area Internet</p></td>
-<td style="border:1px solid black;"><p>Usa blocco popup = Attiva<br />
+<td style="border:1px solid black;">Area Internet</td>
+<td style="border:1px solid black;">Usa blocco popup = Attiva<br />
 Richiesta di conferma automatica per controlli ActiveX = Disattiva<br />
 Scarica controlli ActiveX con firma elettronica = Chiedi conferma<br />
-Download dei file = Attiva</p></td>
+Download dei file = Attiva</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Area Intranet locale</p></td>
-<td style="border:1px solid black;"><p>Usa blocco popup = Disattiva<br />
+<td style="border:1px solid black;">Area Intranet locale</td>
+<td style="border:1px solid black;">Usa blocco popup = Disattiva<br />
 Richiesta di conferma automatica per controlli ActiveX = Attiva<br />
 Scarica controlli ActiveX con firma elettronica = Chiedi conferma<br />
-Download dei file = Attiva</p></td>
+Download dei file = Attiva</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><p>Area Siti attendibili</p></td>
-<td style="border:1px solid black;"><p>Usa blocco popup = Disattiva<br />
+<td style="border:1px solid black;">Area Siti attendibili</td>
+<td style="border:1px solid black;">Usa blocco popup = Disattiva<br />
 Richiesta di conferma automatica per controlli ActiveX = Attiva<br />
 Scarica controlli ActiveX con firma elettronica = Attiva<br />
-Download dei file = Attiva</p></td>
+Download dei file = Attiva</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><p>Area Siti con restrizioni</p></td>
-<td style="border:1px solid black;"><p>Usa blocco popup = Attiva<br />
+<td style="border:1px solid black;">Area Siti con restrizioni</td>
+<td style="border:1px solid black;">Usa blocco popup = Attiva<br />
 Richiesta di conferma automatica per controlli ActiveX = Disattiva<br />
 Scarica controlli ActiveX con firma elettronica = Disattiva<br />
-Download dei file = Disattiva</p></td>
+Download dei file = Disattiva</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 ActiveX è una potente piattaforma di sviluppo Web di estendibilità che agevola in modo notevole l'esperienza in linea dell'utente. Molti utenti aziendali utilizzano i controlli ActiveX per applicazioni line-of-business interne. È pertanto necessario attivare ActiveX in Internet Explorer. Gli standard di protezione e i criteri di utilizzo accettabili dell'utente possono richiedere la disattivazione di ActiveX per l'area Internet. La disattivazione dei controlli ActiveX, tramite Criteri di gruppo o l'impostazione del controllo dell'area di protezione su Alta, può causare il funzionamento non corretto dei siti Web. Microsoft consiglia alle organizzazioni di definire i criteri per risolvere questo problema e di predisporre una strategia che consenta l'accesso in base alla giustificazione commerciale.
 

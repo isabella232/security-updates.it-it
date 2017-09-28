@@ -557,7 +557,7 @@ Nella tabella seguente viene riportato un esempio di GPO utilizzato per implemen
 
 **Tabella 6.1. Esempio di definizione di criterio NAG**
 
-<p> </p>
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -565,21 +565,21 @@ Nella tabella seguente viene riportato un esempio di GPO utilizzato per implemen
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Nome GPO</p></th>
-<th><p>Nome gruppo</p></th>
+<th>Nome GPO</th>
+<th>Nome gruppo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;"><p><em>&lt;Nome criterio implementazione NAG&gt;</em></p></td>
-<td style="border:1px solid black;"><p><em>&lt;Nome NAG&gt;</em></p>
-<p>Amministratori</p>
-<p>Operatori backup</p>
-<p><em>Utenti NAG</em> o Utenti dominio</p></td>
+<td style="border:1px solid black;"><em>&lt;Nome criterio implementazione NAG&gt;</em></td>
+<td style="border:1px solid black;"><em>&lt;Nome NAG&gt;</em>
+Amministratori
+Operatori backup
+<em>Utenti NAG</em> o Utenti dominio</td>
 </tr>
 </tbody>
 </table>
-<p> </p>
+ 
 
 **Nota:** come minimo, devono essere aggiunti tutti i gruppi elencati. L'amministratore dovrà determinare se è necessario concedere il diritto anche ad altri gruppi.
 Il gruppo Utenti dominio viene aggiunto per impostazione predefinita. Se l'amministratore desidera limitare l'accesso da parte degli utenti, oltre che dei computer, dovrà creare un gruppo *Utenti NAG* simile a quello per gli account di computer in cui inserire gli account utente selezionati.
