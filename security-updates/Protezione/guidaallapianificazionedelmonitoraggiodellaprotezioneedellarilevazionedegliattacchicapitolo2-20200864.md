@@ -58,8 +58,8 @@ Nella seguente tabella sono elencate le categorie degli eventi di protezione ins
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoria</th>
-<th>Effetto</th>
+<th style="border:1px solid black;" >Categoria</th>
+<th style="border:1px solid black;" >Effetto</th>
 </tr>
 </thead>
 <tbody>

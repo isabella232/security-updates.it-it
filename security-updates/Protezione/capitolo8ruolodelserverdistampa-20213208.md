@@ -43,9 +43,9 @@ La tabella seguente mostra i nomi dei modelli di protezione del server di stampa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -93,10 +93,10 @@ La maggior parte delle impostazioni delle opzioni di protezione per i server di 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>

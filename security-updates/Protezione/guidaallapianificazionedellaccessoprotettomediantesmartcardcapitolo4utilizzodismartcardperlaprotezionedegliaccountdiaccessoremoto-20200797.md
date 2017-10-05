@@ -458,9 +458,9 @@ Per affrontare le eccezioni, il personale IT di Woodgrove ha creato un nuovo gru
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisiti</th>
-<th>Condizioni del criterio</th>
-<th>Tipo di autenticazione</th>
+<th style="border:1px solid black;" >Requisiti</th>
+<th style="border:1px solid black;" >Condizioni del criterio</th>
+<th style="border:1px solid black;" >Tipo di autenticazione</th>
 </tr>
 </thead>
 <tbody>

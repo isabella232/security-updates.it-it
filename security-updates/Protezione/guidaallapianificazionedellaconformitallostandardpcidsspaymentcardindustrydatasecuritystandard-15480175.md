@@ -756,8 +756,8 @@ Le tecnologie di protezione dei dati di Microsoft non collegano le chiavi di dec
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito</th>
-<th>Sezioni relative alle soluzioni tecnologiche</th>
+<th style="border:1px solid black;" >Requisito</th>
+<th style="border:1px solid black;" >Sezioni relative alle soluzioni tecnologiche</th>
 </tr>
 </thead>
 <tbody>

@@ -186,8 +186,8 @@ Nella tabella riportata di seguito sono elencati il nome del criterio e il file 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del criterio IPsec</th>
-<th>Nome del file di script</th>
+<th style="border:1px solid black;" >Nome del criterio IPsec</th>
+<th style="border:1px solid black;" >Nome del file di script</th>
 </tr>
 </thead>
 <tbody>
@@ -241,8 +241,8 @@ Nella tabella riportata di seguito, sono elencati i nomi degli oggetti GPO e il 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome GPO</th>
-<th>Nome del criterio IPsec</th>
+<th style="border:1px solid black;" >Nome GPO</th>
+<th style="border:1px solid black;" >Nome del criterio IPsec</th>
 </tr>
 </thead>
 <tbody>
@@ -305,8 +305,8 @@ Per controllare l'applicazione dei criteri, la Woodgrove Bank ha utilizzato gli 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome gruppo</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome gruppo</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -370,9 +370,9 @@ I gruppi sono utilizzati per controllare l'assegnazione dei criteri ai computer 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome GPO</th>
-<th>Nome gruppo o account</th>
-<th>Diritti assegnati</th>
+<th style="border:1px solid black;" >Nome GPO</th>
+<th style="border:1px solid black;" >Nome gruppo o account</th>
+<th style="border:1px solid black;" >Diritti assegnati</th>
 </tr>
 </thead>
 <tbody>
@@ -581,8 +581,8 @@ Prima di procedere alla distribuzione, è necessario collegare i criteri IPsec a
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Ordine di collegamento</th>
-    <th>Nome oggetto Criteri di gruppo</th>
+    <th style="border:1px solid black;" >Ordine di collegamento</th>
+    <th style="border:1px solid black;" >Nome oggetto Criteri di gruppo</th>
     </tr>
     </thead>
     <tbody>
@@ -638,9 +638,9 @@ Nella tabella riportata di seguito, sono elencate le subnet protette utilizzate 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Subnet</th>
-<th>Netmask</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Subnet</th>
+<th style="border:1px solid black;" >Netmask</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -834,8 +834,8 @@ In una sezione precedente della presente appendice, è stato implementato l'elen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome criterio</th>
-<th>Operazione filtro</th>
+<th style="border:1px solid black;" >Nome criterio</th>
+<th style="border:1px solid black;" >Operazione filtro</th>
 </tr>
 </thead>
 <tbody>
@@ -908,8 +908,8 @@ I progettisti della Woodgrove Bank hanno identificato un singolo gruppo di rete,
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome gruppo</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome gruppo</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -960,8 +960,8 @@ Nella tabella riportata di seguito, viene indicata l'appartenenza del gruppo di 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome gruppo</th>
-<th>Membri</th>
+<th style="border:1px solid black;" >Nome gruppo</th>
+<th style="border:1px solid black;" >Membri</th>
 </tr>
 </thead>
 <tbody>
@@ -1007,8 +1007,8 @@ Nella tabella riportata di seguito, viene indicata l'appartenenza del gruppo di 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome gruppo</th>
-<th>Membri</th>
+<th style="border:1px solid black;" >Nome gruppo</th>
+<th style="border:1px solid black;" >Membri</th>
 </tr>
 </thead>
 <tbody>
@@ -1049,8 +1049,8 @@ Gli amministratori hanno creato la tabella seguente, contenente il nome dell'ogg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome GPO</th>
-<th>Nome gruppo</th>
+<th style="border:1px solid black;" >Nome GPO</th>
+<th style="border:1px solid black;" >Nome gruppo</th>
 </tr>
 </thead>
 <tbody>
@@ -1111,8 +1111,8 @@ Prima di distribuire i criteri di gruppo di accesso alla rete, occorre collegare
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome GPO gruppo di accesso alla rete</th>
-<th>UO di destinazione</th>
+<th style="border:1px solid black;" >Nome GPO gruppo di accesso alla rete</th>
+<th style="border:1px solid black;" >UO di destinazione</th>
 </tr>
 </thead>
 <tbody>
@@ -1153,8 +1153,8 @@ Prima di verificare il funzionamento dei computer all'interno del gruppo di acce
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del computer</th>
-<th>Gruppo elencato nel diritto utente</th>
+<th style="border:1px solid black;" >Nome del computer</th>
+<th style="border:1px solid black;" >Gruppo elencato nel diritto utente</th>
 </tr>
 </thead>
 <tbody>
@@ -1204,10 +1204,10 @@ Dopo aver verificato che ai gruppi di protezione fossero stati concessi i diritt
 </colgroup>
 <thead>
 <tr class="header">
-<th>Iniziatore</th>
-<th>Risponditore</th>
-<th>Risultato</th>
-<th>SA negoziata</th>
+<th style="border:1px solid black;" >Iniziatore</th>
+<th style="border:1px solid black;" >Risponditore</th>
+<th style="border:1px solid black;" >Risultato</th>
+<th style="border:1px solid black;" >SA negoziata</th>
 </tr>
 </thead>
 <tbody>
@@ -1353,9 +1353,9 @@ Dopo aver verificato la corretta applicazione del criterio a IPS-TZ-XP-06, la Wo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Computer di destinazione</th>
-<th>Risultato</th>
-<th>SA negoziata</th>
+<th style="border:1px solid black;" >Computer di destinazione</th>
+<th style="border:1px solid black;" >Risultato</th>
+<th style="border:1px solid black;" >SA negoziata</th>
 </tr>
 </thead>
 <tbody>
@@ -1463,9 +1463,9 @@ Dopo aver verificato la corretta applicazione del criterio a IPS-LT-XP-01, la Wo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Computer di destinazione</th>
-<th>Risultato</th>
-<th>SA negoziata</th>
+<th style="border:1px solid black;" >Computer di destinazione</th>
+<th style="border:1px solid black;" >Risultato</th>
+<th style="border:1px solid black;" >SA negoziata</th>
 </tr>
 </thead>
 <tbody>
@@ -1584,9 +1584,9 @@ Dopo aver verificato la corretta applicazione del criterio ai computer IPS-SQL-D
 </colgroup>
 <thead>
 <tr class="header">
-<th>Computer di destinazione</th>
-<th>Risultato</th>
-<th>SA negoziata</th>
+<th style="border:1px solid black;" >Computer di destinazione</th>
+<th style="border:1px solid black;" >Risultato</th>
+<th style="border:1px solid black;" >SA negoziata</th>
 </tr>
 </thead>
 <tbody>
@@ -1694,9 +1694,9 @@ Dopo aver verificato la corretta applicazione del criterio a IPS-PRINTS-06, la W
 </colgroup>
 <thead>
 <tr class="header">
-<th>Computer di destinazione</th>
-<th>Risultato</th>
-<th>SA negoziata</th>
+<th style="border:1px solid black;" >Computer di destinazione</th>
+<th style="border:1px solid black;" >Risultato</th>
+<th style="border:1px solid black;" >SA negoziata</th>
 </tr>
 </thead>
 <tbody>
@@ -1799,8 +1799,8 @@ Per garantire la corretta applicazione dei criteri agli host, è necessario aggi
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Ordine di collegamento</th>
-    <th>Nome oggetto Criteri di gruppo</th>
+    <th style="border:1px solid black;" >Ordine di collegamento</th>
+    <th style="border:1px solid black;" >Nome oggetto Criteri di gruppo</th>
     </tr>
     </thead>
     <tbody>
@@ -1851,10 +1851,10 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 </colgroup>
 <thead>
 <tr class="header">
-<th>Computer di destinazione</th>
-<th>Risultato</th>
-<th>Motivo</th>
-<th>SA negoziata</th>
+<th style="border:1px solid black;" >Computer di destinazione</th>
+<th style="border:1px solid black;" >Risultato</th>
+<th style="border:1px solid black;" >Motivo</th>
+<th style="border:1px solid black;" >SA negoziata</th>
 </tr>
 </thead>
 <tbody>
@@ -1916,10 +1916,10 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 </colgroup>
 <thead>
 <tr class="header">
-<th>Computer di destinazione</th>
-<th>Risultato</th>
-<th>Motivo</th>
-<th>SA negoziata</th>
+<th style="border:1px solid black;" >Computer di destinazione</th>
+<th style="border:1px solid black;" >Risultato</th>
+<th style="border:1px solid black;" >Motivo</th>
+<th style="border:1px solid black;" >SA negoziata</th>
 </tr>
 </thead>
 <tbody>
@@ -1987,10 +1987,10 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 </colgroup>
 <thead>
 <tr class="header">
-<th>Computer di destinazione</th>
-<th>Risultato</th>
-<th>Motivo</th>
-<th>SA negoziata</th>
+<th style="border:1px solid black;" >Computer di destinazione</th>
+<th style="border:1px solid black;" >Risultato</th>
+<th style="border:1px solid black;" >Motivo</th>
+<th style="border:1px solid black;" >SA negoziata</th>
 </tr>
 </thead>
 <tbody>
@@ -2052,10 +2052,10 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 </colgroup>
 <thead>
 <tr class="header">
-<th>Computer di destinazione</th>
-<th>Risultato</th>
-<th>Motivo</th>
-<th>SA negoziata</th>
+<th style="border:1px solid black;" >Computer di destinazione</th>
+<th style="border:1px solid black;" >Risultato</th>
+<th style="border:1px solid black;" >Motivo</th>
+<th style="border:1px solid black;" >SA negoziata</th>
 </tr>
 </thead>
 <tbody>
@@ -2117,10 +2117,10 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 </colgroup>
 <thead>
 <tr class="header">
-<th>Computer di destinazione</th>
-<th>Risultato</th>
-<th>Motivo</th>
-<th>SA negoziata</th>
+<th style="border:1px solid black;" >Computer di destinazione</th>
+<th style="border:1px solid black;" >Risultato</th>
+<th style="border:1px solid black;" >Motivo</th>
+<th style="border:1px solid black;" >SA negoziata</th>
 </tr>
 </thead>
 <tbody>
@@ -2182,10 +2182,10 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 </colgroup>
 <thead>
 <tr class="header">
-<th>Computer di destinazione</th>
-<th>Risultato</th>
-<th>Motivo</th>
-<th>SA negoziata</th>
+<th style="border:1px solid black;" >Computer di destinazione</th>
+<th style="border:1px solid black;" >Risultato</th>
+<th style="border:1px solid black;" >Motivo</th>
+<th style="border:1px solid black;" >SA negoziata</th>
 </tr>
 </thead>
 <tbody>
@@ -2247,10 +2247,10 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 </colgroup>
 <thead>
 <tr class="header">
-<th>Computer di destinazione</th>
-<th>Risultato</th>
-<th>Motivo</th>
-<th>SA negoziata</th>
+<th style="border:1px solid black;" >Computer di destinazione</th>
+<th style="border:1px solid black;" >Risultato</th>
+<th style="border:1px solid black;" >Motivo</th>
+<th style="border:1px solid black;" >SA negoziata</th>
 </tr>
 </thead>
 <tbody>

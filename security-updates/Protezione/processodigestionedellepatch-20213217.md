@@ -215,8 +215,8 @@ Le informazioni contenute nei bollettini sulla sicurezza nel sito Web Microsoft 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Sezione</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Sezione</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

@@ -117,9 +117,9 @@ In questa sezione vengono descritte le impostazioni di Windows Firewall in un og
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Descrizione</th>
-<th>Profilo di dominio</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Profilo di dominio</th>
 </tr>
 </thead>
 <tbody>
@@ -219,9 +219,9 @@ In Internet Explorer i siti Web vengono classificati in quattro aree di protezio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Area di protezione</th>
-<th>Livello di protezione predefinito</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Area di protezione</th>
+<th style="border:1px solid black;" >Livello di protezione predefinito</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -265,8 +265,8 @@ In ogni area di protezione sono presenti oltre 30 impostazioni che possono esser
 </colgroup>
 <thead>
 <tr class="header">
-<th>Area di protezione</th>
-<th>Impostazioni criteri</th>
+<th style="border:1px solid black;" >Area di protezione</th>
+<th style="border:1px solid black;" >Impostazioni criteri</th>
 </tr>
 </thead>
 <tbody>

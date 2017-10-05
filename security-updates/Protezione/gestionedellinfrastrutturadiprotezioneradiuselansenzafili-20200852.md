@@ -89,9 +89,9 @@ In questa tabella sono illustrate le attività che occorre eseguire per rendere 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome attività</th>
-<th>Cluster di ruoli</th>
-<th>Funzione SMF MOF</th>
+<th style="border:1px solid black;" >Nome attività</th>
+<th style="border:1px solid black;" >Cluster di ruoli</th>
+<th style="border:1px solid black;" >Funzione SMF MOF</th>
 </tr>
 </thead>
 <tbody>
@@ -198,9 +198,9 @@ In questa tabella sono illustrate le attività che occorre eseguire regolarmente
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome attività</th>
-<th>Cluster di ruoli</th>
-<th>Frequenza</th>
+<th style="border:1px solid black;" >Nome attività</th>
+<th style="border:1px solid black;" >Cluster di ruoli</th>
+<th style="border:1px solid black;" >Frequenza</th>
 </tr>
 </thead>
 <tbody>
@@ -272,8 +272,8 @@ Nella tabella riportata di seguito sono elencati gli strumenti o le tecnologie u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome elemento</th>
-<th>Origine</th>
+<th style="border:1px solid black;" >Nome elemento</th>
+<th style="border:1px solid black;" >Origine</th>
 </tr>
 </thead>
 <tbody>
@@ -351,8 +351,8 @@ Periferica di backup locale</td>
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome elemento</th>
-<th>Origine</th>
+<th style="border:1px solid black;" >Nome elemento</th>
+<th style="border:1px solid black;" >Origine</th>
 </tr>
 </thead>
 <tbody>
@@ -401,10 +401,10 @@ Si tratta di ruoli centrali nella gestione di un'infrastruttura RADIUS e della p
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del ruolo</th>
-<th>Cluster di ruoli MOF</th>
-<th>Ambito</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome del ruolo</th>
+<th style="border:1px solid black;" >Cluster di ruoli MOF</th>
+<th style="border:1px solid black;" >Ambito</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -451,10 +451,10 @@ Si tratta di ruoli operativi, che non sono centrali nella gestione dell'infrastr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del ruolo</th>
-<th>Cluster di ruoli MOF</th>
-<th>Ambito</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome del ruolo</th>
+<th style="border:1px solid black;" >Cluster di ruoli MOF</th>
+<th style="border:1px solid black;" >Ambito</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -515,10 +515,10 @@ Per i server IAS, i gruppi di protezione di dominio e locali vengono utilizzati 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del ruolo</th>
-<th>Gruppo di protezione di dominio</th>
-<th>Gruppo di protezione locale</th>
-<th>Privilegi</th>
+<th style="border:1px solid black;" >Nome del ruolo</th>
+<th style="border:1px solid black;" >Gruppo di protezione di dominio</th>
+<th style="border:1px solid black;" >Gruppo di protezione locale</th>
+<th style="border:1px solid black;" >Privilegi</th>
 </tr>
 </thead>
 <tbody>
@@ -873,8 +873,8 @@ In questo documento vengono utilizzate le seguenti categorie di avvisi. Di quest
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoria di avvisi</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Categoria di avvisi</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -962,9 +962,9 @@ I seguenti contatori delle prestazioni sono i più utili per l'identificazione d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Oggetto prestazioni</th>
-<th>Contatore prestazioni</th>
-<th>Istanza</th>
+<th style="border:1px solid black;" >Oggetto prestazioni</th>
+<th style="border:1px solid black;" >Contatore prestazioni</th>
+<th style="border:1px solid black;" >Istanza</th>
 </tr>
 </thead>
 <tbody>
@@ -1931,8 +1931,8 @@ L'attività di test interna di Microsoft ha mostrato che IAS può raggiungere un
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo di autenticazione</th>
-<th>Autenticazioni al secondo</th>
+<th style="border:1px solid black;" >Tipo di autenticazione</th>
+<th style="border:1px solid black;" >Autenticazioni al secondo</th>
 </tr>
 </thead>
 <tbody>
@@ -2056,9 +2056,9 @@ Nelle tabelle che seguono sono contenute le informazioni di configurazione speci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
-<th>Nome variabile</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Nome variabile</th>
 </tr>
 </thead>
 <tbody>
@@ -2098,9 +2098,9 @@ Nelle tabelle che seguono sono contenute le informazioni di configurazione speci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
-<th>Nome variabile</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Nome variabile</th>
 </tr>
 </thead>
 <tbody>

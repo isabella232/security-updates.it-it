@@ -190,10 +190,10 @@ Nella tabella seguente sono incluse le raccomandazioni sulle impostazioni dei cr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Valore predefinito del controller di dominio</th>
-<th>EC</th>
-<th>SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Valore predefinito del controller di dominio</th>
+<th style="border:1px solid black;" >EC</th>
+<th style="border:1px solid black;" >SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -316,10 +316,10 @@ La seguente tabella contiene le raccomandazioni per l'impostazione del criterio 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Valore predefinito del controller di dominio</th>
-<th>EC</th>
-<th>SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Valore predefinito del controller di dominio</th>
+<th style="border:1px solid black;" >EC</th>
+<th style="border:1px solid black;" >SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -400,10 +400,10 @@ Questa impostazione di criterio consente all'utente di aggiungere un computer a 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Valore predefinito del controller di dominio</th>
-<th>EC</th>
-<th>SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Valore predefinito del controller di dominio</th>
+<th style="border:1px solid black;" >EC</th>
+<th style="border:1px solid black;" >SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -448,10 +448,10 @@ Nella tabella seguente sono incluse le raccomandazioni sull'impostazione delle o
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Valore predefinito del membro di dominio</th>
-<th>EC</th>
-<th>SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Valore predefinito del membro di dominio</th>
+<th style="border:1px solid black;" >EC</th>
+<th style="border:1px solid black;" >SSLF</th>
 </tr>
 </thead>
 <tbody>

@@ -89,8 +89,8 @@ Nella tabella seguente viene fornito un riepilogo dei principali ruoli e respons
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruolo</th>
-<th>Responsabilità</th>
+<th style="border:1px solid black;" >Ruolo</th>
+<th style="border:1px solid black;" >Responsabilità</th>
 </tr>
 </thead>
 <tbody>
@@ -165,8 +165,8 @@ Durante questa fase del processo di gestione dei rischi di protezione Microsoft,
 </colgroup>
 <thead>
 <tr class="header">
-<th>Informazioni da raccogliere</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Informazioni da raccogliere</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -518,9 +518,9 @@ L'organizzazione deve poter provare che nessuno ha modificato o disattivato acci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoria</th>
-<th>Note</th>
-<th>Stime</th>
+<th style="border:1px solid black;" >Categoria</th>
+<th style="border:1px solid black;" >Note</th>
+<th style="border:1px solid black;" >Stime</th>
 </tr>
 </thead>
 <tbody>
@@ -578,9 +578,9 @@ L'organizzazione deve poter provare che nessuno ha modificato o disattivato acci
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoria</th>
-<th>Note</th>
-<th>Stime</th>
+<th style="border:1px solid black;" >Categoria</th>
+<th style="border:1px solid black;" >Note</th>
+<th style="border:1px solid black;" >Stime</th>
 </tr>
 </thead>
 <tbody>

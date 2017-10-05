@@ -96,10 +96,10 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -130,10 +130,10 @@ Poiché i dati relativi al report di arresti anomali di Internet Explorer potreb
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -184,10 +184,10 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -228,10 +228,10 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -270,10 +270,10 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -314,10 +314,10 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -356,10 +356,10 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -398,10 +398,10 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -440,10 +440,10 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -486,10 +486,10 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -528,10 +528,10 @@ Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Internet
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -564,10 +564,10 @@ Si consiglia l'uso di entrambe le impostazioni **Rifiuta tutti i componenti aggi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -598,8 +598,8 @@ Se si abilita questa impostazione di criterio, è necessario creare un elenco di
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Valore</th>
-    <th>Descrizione</th>
+    <th style="border:1px solid black;" >Valore</th>
+    <th style="border:1px solid black;" >Descrizione</th>
     </tr>
     </thead>
     <tbody>
@@ -642,10 +642,10 @@ Modelli amministrativi\\Componenti di Windows\\Servizi terminal\\ Client
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -682,10 +682,10 @@ Modelli amministrativi\\Componenti di Windows\\Windows Update
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -716,10 +716,10 @@ Disattivando questa impostazione di criterio l'opzione **Installa aggiornamenti 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -758,10 +758,10 @@ Configurazione computer\\Modelli amministrativi\\Sistema
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -804,10 +804,10 @@ Modelli amministrativi\\Sistema\\RPC
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -846,10 +846,10 @@ Poiché la comunicazione RPC non autenticata può creare vulnerabilità nella pr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -886,10 +886,10 @@ Modelli amministrativi\\Sistema\\Gestione comunicazioni Internet\\Impostazioni d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -918,10 +918,10 @@ Questa impostazione specifica se visualizzare le operazioni **Pubblica file sul 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -950,10 +950,10 @@ Configurando l'impostazione **Disattiva download Internet per le procedure di pu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -982,10 +982,10 @@ L'impostazione **Disattiva Analisi utilizzo software Windows Messenger** specifi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1016,10 +1016,10 @@ L'impostazione **Disattiva aggiornamenti file contenuto Ricerca guidata** specif
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1052,10 +1052,10 @@ Le informazioni trasmesse quando si stampa su HTTP non sono protette e possono e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1086,10 +1086,10 @@ L'impostazione **Disattiva download driver di stampa su HTTP** controlla se il c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1132,10 +1132,10 @@ Modelli amministrativi\\Rete\\Connessioni di rete\\Windows Firewall\\Profilo di 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1168,10 +1168,10 @@ Se questa impostazione è configurata su **Disattivato**, Windows Firewall è di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1204,10 +1204,10 @@ Molti ambienti contengono applicazioni e servizi che devono poter ricevere comun
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1242,10 +1242,10 @@ Se si configura questo criterio su **Disattivato**, l'elenco eccezioni di progra
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1276,10 +1276,10 @@ Per i computer client aziendali possono sussistere le condizioni che giustifican
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1316,10 +1316,10 @@ Questa appendice consiglia di abilitare questa impostazione per i computer azien
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1354,10 +1354,10 @@ Poiché i computer dell'ambiente in cui è in esecuzione Windows XP non condivid
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1392,10 +1392,10 @@ Molti strumenti di aggressione approfittano dei computer che accettano i tipi di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1430,10 +1430,10 @@ Alcuni attacchi possono utilizzare una porta aperta 3389. Per mantenere le capac
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1466,10 +1466,10 @@ Il blocco del traffico di rete UPnP riduce efficacemente l'esposizione agli atta
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1502,10 +1502,10 @@ Spesso gli utenti non potranno aggiungere applicazioni e porte in risposta a que
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1538,10 +1538,10 @@ Generalmente, non è corretto ricevere risposte unicast a messaggi multicast o b
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1578,10 +1578,10 @@ Gli ambienti con applicazioni non standard che richiedono porte specifiche per e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1626,10 +1626,10 @@ Modelli amministrativi\\Rete\\Connessioni di rete\\Windows Firewall\\Profilo sta
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1662,10 +1662,10 @@ Se questa impostazione è configurata su **Disattivato**, Windows Firewall è di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1696,10 +1696,10 @@ L'impostazione **Windows Firewall: non consentire eccezioni** specifica che Wind
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1734,10 +1734,10 @@ Se si configura questo criterio su **Disattivato**, l'elenco eccezioni di progra
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1766,10 +1766,10 @@ L'impostazione **Windows Firewall: consenti eccezioni programmi locali** consent
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1806,10 +1806,10 @@ Questa appendice consiglia di disattivare questa impostazione per tutti i comput
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1844,10 +1844,10 @@ Poiché i computer dell'ambiente in cui è in esecuzione Windows XP non condivid
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1882,10 +1882,10 @@ Molti strumenti di aggressione approfittano dei computer che accettano i tipi di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1920,10 +1920,10 @@ Alcuni attacchi possono utilizzare una porta aperta 3389. Per mantenere le capac
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1956,10 +1956,10 @@ Bloccando in modo efficace il traffico di rete UPnP, la superficie di attacco de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -1992,10 +1992,10 @@ Spesso gli utenti non potranno aggiungere applicazioni e porte in risposta a que
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -2028,10 +2028,10 @@ Generalmente non è corretto ricevere risposte unicast a messaggi multicast o br
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -2068,10 +2068,10 @@ Gli ambienti con applicazioni non standard che richiedono porte specifiche per e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Desktop client organizzazione</th>
-<th>Portatile client organizzazione</th>
-<th>Desktop livello di protezione Alto</th>
-<th>Portatile livello di protezione Alto</th>
+<th style="border:1px solid black;" >Desktop client organizzazione</th>
+<th style="border:1px solid black;" >Portatile client organizzazione</th>
+<th style="border:1px solid black;" >Desktop livello di protezione Alto</th>
+<th style="border:1px solid black;" >Portatile livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -2116,8 +2116,8 @@ Configurazione utente\\Modelli amministrativi\\Componenti di Windows\\Gestione a
 </colgroup>
 <thead>
 <tr class="header">
-<th>Client di organizzazione</th>
-<th>Livello di protezione Alto</th>
+<th style="border:1px solid black;" >Client di organizzazione</th>
+<th style="border:1px solid black;" >Livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -2144,8 +2144,8 @@ Se si imposta questo criterio su **Attivato**, i file allegati non vengono contr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Client di organizzazione</th>
-<th>Livello di protezione Alto</th>
+<th style="border:1px solid black;" >Client di organizzazione</th>
+<th style="border:1px solid black;" >Livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>
@@ -2174,8 +2174,8 @@ Windows nasconde la casella di controllo e il pulsante **Annulla blocco** quando
 </colgroup>
 <thead>
 <tr class="header">
-<th>Client di organizzazione</th>
-<th>Livello di protezione Alto</th>
+<th style="border:1px solid black;" >Client di organizzazione</th>
+<th style="border:1px solid black;" >Livello di protezione Alto</th>
 </tr>
 </thead>
 <tbody>

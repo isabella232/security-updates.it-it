@@ -177,8 +177,8 @@ La tabella seguente riporta alcuni elenchi di base, potenzialmente utili per un'
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elenco filtri</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Elenco filtri</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -291,9 +291,9 @@ Dopo aver analizzato l'output dei requisiti del traffico ottenuto in base alle i
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elenco filtri</th>
-<th>Filtri definiti</th>
-<th>Protocollo o porta</th>
+<th style="border:1px solid black;" >Elenco filtri</th>
+<th style="border:1px solid black;" >Filtri definiti</th>
+<th style="border:1px solid black;" >Protocollo o porta</th>
 </tr>
 </thead>
 <tbody>
@@ -401,9 +401,9 @@ La tabella seguente elenca le possibili opzioni di crittografia per ciascun meto
 </colgroup>
 <thead>
 <tr class="header">
-<th>Metodo di protezione</th>
-<th>Opzioni di crittografia</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Metodo di protezione</th>
+<th style="border:1px solid black;" >Opzioni di crittografia</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -504,8 +504,8 @@ La tabella seguente riporta i nomi delle operazioni filtro e le descrizioni util
 </colgroup>
 <thead>
 <tr class="header">
-<th>Operazione filtro</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Operazione filtro</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -553,8 +553,8 @@ La Woodgrove Bank non ha esigenze supplementari per la comunicazione bilaterale 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Operazione filtro</th>
-<th>Metodi di protezione supportati</th>
+<th style="border:1px solid black;" >Operazione filtro</th>
+<th style="border:1px solid black;" >Metodi di protezione supportati</th>
 </tr>
 </thead>
 <tbody>
@@ -782,8 +782,8 @@ La tabella seguente riporta i criteri utilizzati nello scenario della Woodgrove 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome criterio</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome criterio</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -823,11 +823,11 @@ Tutti i criteri della Woodgrove Bank contengono i medesimi elenchi di esenzioni 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elenco filtri</th>
-<th>Operazione filtro</th>
-<th>Metodi di autenticazione</th>
-<th>Endpoint del tunnel</th>
-<th>Tipo di connessione</th>
+<th style="border:1px solid black;" >Elenco filtri</th>
+<th style="border:1px solid black;" >Operazione filtro</th>
+<th style="border:1px solid black;" >Metodi di autenticazione</th>
+<th style="border:1px solid black;" >Endpoint del tunnel</th>
+<th style="border:1px solid black;" >Tipo di connessione</th>
 </tr>
 </thead>
 <tbody>
@@ -886,9 +886,9 @@ La tabella seguente riporta le regole della Woodgrove per l'implementazione dei 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome criterio</th>
-<th>Elenco filtri</th>
-<th>Operazione filtro</th>
+<th style="border:1px solid black;" >Nome criterio</th>
+<th style="border:1px solid black;" >Elenco filtri</th>
+<th style="border:1px solid black;" >Operazione filtro</th>
 </tr>
 </thead>
 <tbody>
@@ -968,9 +968,9 @@ La tabella seguente elenca in ordine di preferenza i metodi di protezione dello 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Crittografia</th>
-<th>Integrità</th>
-<th>Gruppo Diffie-Hellman</th>
+<th style="border:1px solid black;" >Crittografia</th>
+<th style="border:1px solid black;" >Integrità</th>
+<th style="border:1px solid black;" >Gruppo Diffie-Hellman</th>
 </tr>
 </thead>
 <tbody>
@@ -1167,8 +1167,8 @@ La tabella seguente elenca i gruppi creati per lo scenario della Woodgrove Bank 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome gruppo</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome gruppo</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -1228,9 +1228,9 @@ La tabella seguente riporta la configurazione finale degli ACL di Criteri di gru
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome GPO</th>
-<th>Nome gruppo di protezione</th>
-<th>Diritti assegnati</th>
+<th style="border:1px solid black;" >Nome GPO</th>
+<th style="border:1px solid black;" >Nome gruppo di protezione</th>
+<th style="border:1px solid black;" >Diritti assegnati</th>
 </tr>
 </thead>
 <tbody>

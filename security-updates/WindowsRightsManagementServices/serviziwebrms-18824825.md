@@ -30,8 +30,8 @@ Nella tabella riportata di seguito vengono descritti i servizi Web RMS.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servizio</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Servizio</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

@@ -28,9 +28,9 @@ Nella seguente tabella sono elencati gli eventi che in genere vengono esclusi da
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>

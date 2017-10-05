@@ -78,8 +78,8 @@ La tabella seguente illustra le impostazioni delle opzioni di protezione consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Enterprise Client</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
 </tr>
 </thead>
 <tbody>
@@ -152,8 +152,8 @@ Nella tabella riportata di seguito sono contenuti gli elenchi ACL dei file syste
 </colgroup>
 <thead>
 <tr class="header">
-<th>Percorso degli elenchi di controllo di accesso nell'interfaccia utente</th>
-<th>Enterprise Client</th>
+<th style="border:1px solid black;" >Percorso degli elenchi di controllo di accesso nell'interfaccia utente</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
 </tr>
 </thead>
 <tbody>
@@ -196,9 +196,9 @@ Poiché le CA sono basate sulla protezione, per le cartelle di Servizi certifica
 </colgroup>
 <thead>
 <tr class="header">
-<th>Percorso dei file o del registro di sistema</th>
-<th>Tipo di controllo</th>
-<th>Impostazione di controllo</th>
+<th style="border:1px solid black;" >Percorso dei file o del registro di sistema</th>
+<th style="border:1px solid black;" >Tipo di controllo</th>
+<th style="border:1px solid black;" >Impostazione di controllo</th>
 </tr>
 </thead>
 <tbody>

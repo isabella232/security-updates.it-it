@@ -36,8 +36,8 @@ Di seguito vengono descritti tutti i file contenuti nella sezione **Piattaforma 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome file</th>
-<th>Scopo</th>
+<th style="border:1px solid black;" >Nome file</th>
+<th style="border:1px solid black;" >Scopo</th>
 </tr>
 </thead>
 <tbody>

@@ -21,8 +21,8 @@ Nella tabella seguente, sono elencati i contatori prestazioni disponibili per RM
 </colgroup>
 <thead>
 <tr class="header">
-<th>Contatore</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Contatore</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

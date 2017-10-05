@@ -28,10 +28,10 @@ Nella tabella seguente sono elencate le voci relative a ogni record di registraz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -157,10 +157,10 @@ Nella tabella seguente, sono elencati ulteriori dati per un record di registrazi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -208,10 +208,10 @@ Nella tabella seguente, sono elencati i campi registrati dal servizio di registr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

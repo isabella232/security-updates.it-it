@@ -43,8 +43,8 @@ Nella tabella seguente sono elencati tutti i file forniti con la soluzione. Ques
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome file</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome file</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -184,8 +184,8 @@ In ognuno dei file WSF, il primo processo elenca i nomi (ID) e le descrizioni di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome processo</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome processo</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -268,8 +268,8 @@ In ognuno dei file WSF, il primo processo elenca i nomi (ID) e le descrizioni di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome processo</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome processo</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

@@ -48,9 +48,9 @@ I modelli di controller di dominio sono progettati esclusivamente per soddisfare
 </colgroup>
 <thead>
 <tr class="header">
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -82,10 +82,10 @@ Le impostazioni dei Criteri di controllo per i controller di dominio sono le ste
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -118,8 +118,8 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Descrizione evento</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
@@ -156,10 +156,10 @@ La seguente tabella riassume le impostazioni per l'assegnazione dei diritti uten
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -325,10 +325,10 @@ Molte delle impostazioni di opzioni di protezione per i controller di dominio so
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -387,10 +387,10 @@ Di conseguenza l'impostazione **Controller di dominio: rifiuta cambio password a
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -437,10 +437,10 @@ Come descritto nel capitolo precedente, le impostazioni **Gruppi con restrizioni
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gruppo locale</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Gruppo locale</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -525,10 +525,10 @@ Inoltre, se è stato rinominato l'account Amministratore incorporato in base ai 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -595,9 +595,9 @@ L’utilità chiave di sistema (Syskey) fornisce un’ulteriore difesa contro i 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opzione Chiave di sistema</th>
-<th>Livello di protezione</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Opzione Chiave di sistema</th>
+<th style="border:1px solid black;" >Livello di protezione</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -727,10 +727,10 @@ Se non è inevitabile, si sconsiglia di configurare un servizio per l'esecuzione
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione predefinita</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione predefinita</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -764,8 +764,8 @@ I tre livelli di crittografia disponibili sono descritti nella tabella seguente:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Livello di crittografia</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Livello di crittografia</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -800,10 +800,10 @@ I tre livelli di crittografia disponibili sono descritti nella tabella seguente:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>

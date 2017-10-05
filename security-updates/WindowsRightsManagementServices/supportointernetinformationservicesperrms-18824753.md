@@ -34,9 +34,9 @@ Nella tabella seguente vengono elencate le directory virtuali create in IIS e i 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Directory virtuale</th>
-<th>Servizio</th>
-<th>File servizio Web</th>
+<th style="border:1px solid black;" >Directory virtuale</th>
+<th style="border:1px solid black;" >Servizio</th>
+<th style="border:1px solid black;" >File servizio Web</th>
 </tr>
 </thead>
 <tbody>

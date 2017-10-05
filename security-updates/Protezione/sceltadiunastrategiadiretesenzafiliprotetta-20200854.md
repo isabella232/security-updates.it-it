@@ -233,8 +233,8 @@ L'autenticazione 802.1X basata su password è sufficiente per le organizzazioni 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rischio potenziale</th>
-<th>Soluzione proposta</th>
+<th style="border:1px solid black;" >Rischio potenziale</th>
+<th style="border:1px solid black;" >Soluzione proposta</th>
 </tr>
 </thead>
 <tbody>

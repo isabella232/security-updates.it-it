@@ -25,7 +25,7 @@ Il rilevamento comprende strumenti, tecnologie e procedure consigliate che conse
 </colgroup>
 <thead>
 <tr class="header">
-<th>Livello 100</th>
+<th style="border:1px solid black;" >Livello 100</th>
 </tr>
 </thead>
 <tbody>
@@ -51,7 +51,7 @@ Il rilevamento comprende strumenti, tecnologie e procedure consigliate che conse
 </colgroup>
 <thead>
 <tr class="header">
-<th>Livello 200</th>
+<th style="border:1px solid black;" >Livello 200</th>
 </tr>
 </thead>
 <tbody>
@@ -131,7 +131,7 @@ Il rilevamento comprende strumenti, tecnologie e procedure consigliate che conse
 </colgroup>
 <thead>
 <tr class="header">
-<th>Livello 300</th>
+<th style="border:1px solid black;" >Livello 300</th>
 </tr>
 </thead>
 <tbody>
@@ -172,7 +172,7 @@ Il rilevamento comprende strumenti, tecnologie e procedure consigliate che conse
 </colgroup>
 <thead>
 <tr class="header">
-<th>Livello 400</th>
+<th style="border:1px solid black;" >Livello 400</th>
 </tr>
 </thead>
 <tbody>

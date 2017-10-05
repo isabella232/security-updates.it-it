@@ -106,9 +106,9 @@ Per completare le procedure descritte in questo capitolo, sono necessari i segue
 </colgroup>
 <thead>
 <tr class="header">
-<th>Strumento</th>
-<th>Descrizione</th>
-<th>Origine</th>
+<th style="border:1px solid black;" >Strumento</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Origine</th>
 </tr>
 </thead>
 <tbody>
@@ -276,10 +276,10 @@ Seguire la procedura fornita più avanti in questa sezione per creare gruppi di 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gruppo di protezione</th>
-<th>Scopo</th>
-<th>Tipo di gruppo</th>
-<th>Membri</th>
+<th style="border:1px solid black;" >Gruppo di protezione</th>
+<th style="border:1px solid black;" >Scopo</th>
+<th style="border:1px solid black;" >Tipo di gruppo</th>
+<th style="border:1px solid black;" >Membri</th>
 </tr>
 </thead>
 <tbody>
@@ -353,8 +353,8 @@ Se si intende abilitare la registrazione RADIUS, è necessario allocare un disco
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Requisito</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Requisito</th>
 </tr>
 </thead>
 <tbody>
@@ -487,8 +487,8 @@ Nella tabella che segue sono elencati i servizi impostati per l'avvio automatico
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servizio</th>
-<th>Impostazione del criterio</th>
+<th style="border:1px solid black;" >Servizio</th>
+<th style="border:1px solid black;" >Impostazione del criterio</th>
 </tr>
 </thead>
 <tbody>
@@ -531,8 +531,8 @@ Nella tabella che segue sono elencate le categorie di controllo per cui è abili
 </colgroup>
 <thead>
 <tr class="header">
-<th>Criteri di controllo</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Criteri di controllo</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>

@@ -127,8 +127,8 @@ Prima di iniziare la procedura di installazione, è necessario assicurarsi di av
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -169,8 +169,8 @@ Nel caso di un'installazione specifica non è necessario modificare le impostazi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -573,8 +573,8 @@ I criteri di accesso remoto basati su IAS utilizzano gruppi di protezione basati
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gruppo di protezione</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Gruppo di protezione</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

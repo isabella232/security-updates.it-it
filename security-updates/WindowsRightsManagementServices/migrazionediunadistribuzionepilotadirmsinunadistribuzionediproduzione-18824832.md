@@ -28,9 +28,9 @@ I seguenti passaggi sono forniti come esempio di alcuni degli elementi che il pi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Server</th>
-<th>Passaggio</th>
-<th>Note</th>
+<th style="border:1px solid black;" >Server</th>
+<th style="border:1px solid black;" >Passaggio</th>
+<th style="border:1px solid black;" >Note</th>
 </tr>
 </thead>
 <tbody>

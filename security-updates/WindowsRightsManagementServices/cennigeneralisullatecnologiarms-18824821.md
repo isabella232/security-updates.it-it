@@ -21,8 +21,8 @@ Ogni sistema RMS impiega un misto di tecnologie server e client. La tabella che 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tecnologia</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Tecnologia</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

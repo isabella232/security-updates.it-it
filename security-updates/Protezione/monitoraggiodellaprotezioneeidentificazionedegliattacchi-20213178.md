@@ -179,8 +179,8 @@ Nell'intestazione dell'evento sono presenti i seguenti campi:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Campo</th>
-<th>Definizione</th>
+<th style="border:1px solid black;" >Campo</th>
+<th style="border:1px solid black;" >Definizione</th>
 </tr>
 </thead>
 <tbody>
@@ -592,9 +592,9 @@ Una delle decisioni da prendere per attenuare i rischi riguarda due fattori: per
 </colgroup>
 <thead>
 <tr class="header">
-<th>Commissionario archiviazione</th>
-<th>Limiti archiviazione</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >Commissionario archiviazione</th>
+<th style="border:1px solid black;" >Limiti archiviazione</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -812,9 +812,9 @@ La tabella che segue elenca gli eventi di controllo dell'accesso, da confrontare
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -894,9 +894,9 @@ I tentativi operati da un malware possono assumere la forma di allegati e-mail o
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -943,9 +943,9 @@ Gli eventi di accesso agli oggetti riportati nella tabella che segue sono riferi
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -977,9 +977,9 @@ Le modifiche alle password dovrebbero verificarsi solo nell'ambito di una strutt
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1016,9 +1016,9 @@ Qualsiasi modifica agli account (aggiunta, eliminazione o modifica) dovrebbe cor
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1074,9 +1074,9 @@ Gli eventi di controllo relativi alla gestione degli account e riportati nella t
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1129,9 +1129,9 @@ La tabella che segue elenca gli eventi che identificano un utilizzo non autorizz
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1195,9 +1195,9 @@ La tabella che segue elenca gli eventi relativi ad accesso utente e controllo ac
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1241,9 +1241,9 @@ La tabella che segue elenca gli eventi di registrazione dei processi che possono
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1277,9 +1277,9 @@ La tabella che segue riporta gli eventi di controllo di accesso agli oggetti che
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1337,9 +1337,9 @@ Gli eventi relativi alla registrazione dei processi e riportati nella tabella ch
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1378,9 +1378,9 @@ Gli eventi di controllo relativi alla modifica dei criteri e riportati nella tab
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1441,9 +1441,9 @@ La tabella che segue elenca gli eventi di controllo relativi alle modifiche dei 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1490,9 +1490,9 @@ La tabella che segue elenca gli eventi che possono essere generati a seguito di 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1565,9 +1565,9 @@ Oltre a quelli già discussi in precedenza, gli eventi più importanti descritti
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1611,9 +1611,9 @@ La tabella che segue elenca i vari tipi di evento che possono aiutare a identifi
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1733,9 +1733,9 @@ Gli eventi riportati nella tabella che segue vengono generalmente esclusi dalle 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID dell'evento</th>
-<th>Evento</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID dell'evento</th>
+<th style="border:1px solid black;" >Evento</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1848,9 +1848,9 @@ Questa appendice è utile per controllare le impostazioni correnti dell'ambiente
 </colgroup>
 <thead>
 <tr class="header">
-<th>Percorso criterio</th>
-<th>Criterio</th>
-<th>Impostazione criterio e commenti</th>
+<th style="border:1px solid black;" >Percorso criterio</th>
+<th style="border:1px solid black;" >Criterio</th>
+<th style="border:1px solid black;" >Impostazione criterio e commenti</th>
 </tr>
 </thead>
 <tbody>

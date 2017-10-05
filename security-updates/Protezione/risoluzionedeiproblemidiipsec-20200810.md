@@ -421,13 +421,13 @@ Il ruolo di Netdiag nella risoluzione dei problemi relativi a IPsec varia a seco
 </colgroup>
 <thead>
 <tr class="header">
-<th>Comando</th>
-<th>Descrizione</th>
-<th>Windows
+<th style="border:1px solid black;" >Comando</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Windows
 2000?</th>
-<th>Windows
+<th style="border:1px solid black;" >Windows
 XP?</th>
-<th>Windows
+<th style="border:1px solid black;" >Windows
 2003?</th>
 </tr>
 </thead>
@@ -482,11 +482,11 @@ Oltre agli strumenti specifici per IPsec precedentemente elencati, la tabella se
 </colgroup>
 <thead>
 <tr class="header">
-<th>Strumento</th>
-<th>Sistemi operativi supportati</th>
-<th>Dove reperirlo</th>
-<th>Funzione</th>
-<th>Ulteriori informazioni</th>
+<th style="border:1px solid black;" >Strumento</th>
+<th style="border:1px solid black;" >Sistemi operativi supportati</th>
+<th style="border:1px solid black;" >Dove reperirlo</th>
+<th style="border:1px solid black;" >Funzione</th>
+<th style="border:1px solid black;" >Ulteriori informazioni</th>
 </tr>
 </thead>
 <tbody>
@@ -612,8 +612,8 @@ Se l'organizzazione specifica utilizza gli script inclusi nel presente processo 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome file</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome file</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -867,8 +867,8 @@ La tabella seguente mostra la relazione fra i nomi degli oggetti di Active Direc
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del componente del criterio IPsec</th>
-<th>Nome dell'oggetto di Active Directory</th>
+<th style="border:1px solid black;" >Nome del componente del criterio IPsec</th>
+<th style="border:1px solid black;" >Nome dell'oggetto di Active Directory</th>
 </tr>
 </thead>
 <tbody>
@@ -1636,8 +1636,8 @@ Per stabilire se si è verificato un problema di scambio nella modalità princip
 </colgroup>
 <thead>
 <tr class="header">
-<th>Testo del file di registro</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Testo del file di registro</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

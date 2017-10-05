@@ -114,10 +114,10 @@ Nella tabella seguente, sono illustrati i tipi di EAP che possono essere utilizz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Funzionalità</th>
-<th>PEAP</th>
-<th>EAP-TLS</th>
-<th>EAP-MD5</th>
+<th style="border:1px solid black;" >Funzionalità</th>
+<th style="border:1px solid black;" >PEAP</th>
+<th style="border:1px solid black;" >EAP-TLS</th>
+<th style="border:1px solid black;" >EAP-MD5</th>
 </tr>
 </thead>
 <tbody>
@@ -220,8 +220,8 @@ Alcune funzionalità di Windows XP Professional funzionano correttamente solo se
 </colgroup>
 <thead>
 <tr class="header">
-<th>Funzionalità</th>
-<th>Scenario che richiede l'autenticazione basata su computer</th>
+<th style="border:1px solid black;" >Funzionalità</th>
+<th style="border:1px solid black;" >Scenario che richiede l'autenticazione basata su computer</th>
 </tr>
 </thead>
 <tbody>
@@ -267,9 +267,9 @@ Windows include un ampio supporto per la convalida dei certificati durante le op
 </colgroup>
 <thead>
 <tr class="header">
-<th>Convalida IAS delle credenziali dei certificati client</th>
-<th>Comportamento predefinito</th>
-<th>Impostazioni utilizzate nella soluzione</th>
+<th style="border:1px solid black;" >Convalida IAS delle credenziali dei certificati client</th>
+<th style="border:1px solid black;" >Comportamento predefinito</th>
+<th style="border:1px solid black;" >Impostazioni utilizzate nella soluzione</th>
 </tr>
 </thead>
 <tbody>
@@ -314,9 +314,9 @@ In Windows XP Professional vengono inoltre eseguiti, per impostazione predefinit
 </colgroup>
 <thead>
 <tr class="header">
-<th>Convalida di Windows XP delle credenziali dei certificati server</th>
-<th>Comportamento predefinito</th>
-<th>Impostazioni utilizzate nella soluzione</th>
+<th style="border:1px solid black;" >Convalida di Windows XP delle credenziali dei certificati server</th>
+<th style="border:1px solid black;" >Comportamento predefinito</th>
+<th style="border:1px solid black;" >Impostazioni utilizzate nella soluzione</th>
 </tr>
 </thead>
 <tbody>
@@ -358,9 +358,9 @@ Per una maggiore affidabilità del controllo di validità, è possibile attivare
 </colgroup>
 <thead>
 <tr class="header">
-<th>Convalida di Windows XP delle credenziali dei certificati server</th>
-<th>Comportamento predefinito</th>
-<th>Impostazioni utilizzate nella soluzione</th>
+<th style="border:1px solid black;" >Convalida di Windows XP delle credenziali dei certificati server</th>
+<th style="border:1px solid black;" >Comportamento predefinito</th>
+<th style="border:1px solid black;" >Impostazioni utilizzate nella soluzione</th>
 </tr>
 </thead>
 <tbody>
@@ -449,8 +449,8 @@ La tabella che segue illustra degli esempi di vari tipi di utenti e alcune delle
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo di gruppo utente</th>
-<th>Esempio di restrizione della connessione</th>
+<th style="border:1px solid black;" >Tipo di gruppo utente</th>
+<th style="border:1px solid black;" >Esempio di restrizione della connessione</th>
 </tr>
 </thead>
 <tbody>
@@ -556,9 +556,9 @@ Per ulteriori informazioni su questi argomenti e sulla configurazione di punti d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Considerazione sui criteri di rete senza fili</th>
-<th>Strategia da adottare</th>
-<th>Dettagli sulla soluzione</th>
+<th style="border:1px solid black;" >Considerazione sui criteri di rete senza fili</th>
+<th style="border:1px solid black;" >Strategia da adottare</th>
+<th style="border:1px solid black;" >Dettagli sulla soluzione</th>
 </tr>
 </thead>
 <tbody>
@@ -634,9 +634,9 @@ In questa soluzione, viene utilizzato un singolo criterio di accesso remoto che 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Condizione del criterio</th>
-<th>Condizione corrispondente</th>
-<th>Commento</th>
+<th style="border:1px solid black;" >Condizione del criterio</th>
+<th style="border:1px solid black;" >Condizione corrispondente</th>
+<th style="border:1px solid black;" >Commento</th>
 </tr>
 </thead>
 <tbody>
@@ -670,9 +670,9 @@ Nella tabella che segue sono descritte in dettaglio le opzioni del profilo del c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opzione profilo</th>
-<th>Impostazione profilo</th>
-<th>Commento</th>
+<th style="border:1px solid black;" >Opzione profilo</th>
+<th style="border:1px solid black;" >Impostazione profilo</th>
+<th style="border:1px solid black;" >Commento</th>
 </tr>
 </thead>
 <tbody>
@@ -726,9 +726,9 @@ Nella soluzione proposta, IAS viene utilizzato come server RADIUS e, quindi, le 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Condizione del criterio</th>
-<th>Condizione corrispondente</th>
-<th>Commento</th>
+<th style="border:1px solid black;" >Condizione del criterio</th>
+<th style="border:1px solid black;" >Condizione corrispondente</th>
+<th style="border:1px solid black;" >Commento</th>
 </tr>
 </thead>
 <tbody>
@@ -755,9 +755,9 @@ Nella tabella che segue sono illustrate le impostazioni del profilo utilizzate n
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opzione profilo</th>
-<th>Impostazione profilo</th>
-<th>Commento</th>
+<th style="border:1px solid black;" >Opzione profilo</th>
+<th style="border:1px solid black;" >Impostazione profilo</th>
+<th style="border:1px solid black;" >Commento</th>
 </tr>
 </thead>
 <tbody>
@@ -796,9 +796,9 @@ Nella tabella che segue sono illustrate le impostazioni generali del criterio di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opzione</th>
-<th>Impostazione</th>
-<th>Commento</th>
+<th style="border:1px solid black;" >Opzione</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Commento</th>
 </tr>
 </thead>
 <tbody>
@@ -835,9 +835,9 @@ Nella tabella che segue sono descritte in dettaglio le impostazioni delle propri
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opzione</th>
-<th>Impostazione</th>
-<th>Commento</th>
+<th style="border:1px solid black;" >Opzione</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Commento</th>
 </tr>
 </thead>
 <tbody>
@@ -894,9 +894,9 @@ Nella tabella che segue sono descritte in dettaglio le impostazioni 802.1X relat
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opzione</th>
-<th>Impostazione</th>
-<th>Commento</th>
+<th style="border:1px solid black;" >Opzione</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Commento</th>
 </tr>
 </thead>
 <tbody>
@@ -951,9 +951,9 @@ Di seguito sono descritte in dettaglio le impostazioni EAP relative alla nuova r
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opzione</th>
-<th>Impostazione</th>
-<th>Commento</th>
+<th style="border:1px solid black;" >Opzione</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Commento</th>
 </tr>
 </thead>
 <tbody>
@@ -1008,9 +1008,9 @@ Nella tabella che segue sono descritte in dettaglio le impostazioni di autentica
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opzione</th>
-<th>Impostazione</th>
-<th>Commento</th>
+<th style="border:1px solid black;" >Opzione</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Commento</th>
 </tr>
 </thead>
 <tbody>

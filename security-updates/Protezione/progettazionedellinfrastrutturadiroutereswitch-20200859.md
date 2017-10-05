@@ -318,7 +318,7 @@ In genere gli switch di questo tipo sono adatti a piccoli uffici, uffici di fili
 </colgroup>
 <thead>
 <tr class="header">
-<th>Caratteristiche</th>
+<th style="border:1px solid black;" >Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
@@ -389,7 +389,7 @@ Gli switch flessibili di fascia bassa si prestano a essere utilizzati nelle situ
 </colgroup>
 <thead>
 <tr class="header">
-<th>Caratteristiche</th>
+<th style="border:1px solid black;" >Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
@@ -463,7 +463,7 @@ Gli switch di questa classe possono essere utilizzati per provvedere alle funzio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Caratteristiche</th>
+<th style="border:1px solid black;" >Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
@@ -552,7 +552,7 @@ In queste periferiche hanno un ruolo importante i protocolli ad alta velocità c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Caratteristiche</th>
+<th style="border:1px solid black;" >Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
@@ -702,7 +702,7 @@ I router software sono utili nelle situazioni con pochi utenti locali ed esigenz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Caratteristiche</th>
+<th style="border:1px solid black;" >Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
@@ -770,7 +770,7 @@ I router di questa classe sono progettati per i piccoli uffici o per il telelavo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Caratteristiche</th>
+<th style="border:1px solid black;" >Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
@@ -862,7 +862,7 @@ Vengono frequentemente utilizzati in piccoli uffici o uffici di filiali in cui �
 </colgroup>
 <thead>
 <tr class="header">
-<th>Caratteristiche</th>
+<th style="border:1px solid black;" >Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
@@ -950,7 +950,7 @@ I router di questa classe possono essere utilizzati per provvedere alle funzioni
 </colgroup>
 <thead>
 <tr class="header">
-<th>Caratteristiche</th>
+<th style="border:1px solid black;" >Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
@@ -1033,7 +1033,7 @@ In queste periferiche hanno un ruolo importante i protocolli ad alta velocità c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Caratteristiche</th>
+<th style="border:1px solid black;" >Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
@@ -1114,7 +1114,7 @@ I router ISP sono utilizzati dagli ISP sulla backbone di Internet. È anche poss
 </colgroup>
 <thead>
 <tr class="header">
-<th>Caratteristiche</th>
+<th style="border:1px solid black;" >Caratteristiche</th>
 </tr>
 </thead>
 <tbody>
@@ -1240,8 +1240,8 @@ ICMP è un protocollo senza informazioni sullo stato basato su IP, che consente 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Messaggio</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Messaggio</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -1292,8 +1292,8 @@ Il traffico broadcast può essere utilizzato per enumerare gli host di una rete 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Indirizzo di origine</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Indirizzo di origine</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -1501,8 +1501,8 @@ Nella tabella 13 sono riepilogate le caratteristiche di una rete protetta. Le im
 </colgroup>
 <thead>
 <tr class="header">
-<th>Componente</th>
-<th>Caratteristica</th>
+<th style="border:1px solid black;" >Componente</th>
+<th style="border:1px solid black;" >Caratteristica</th>
 </tr>
 </thead>
 <tbody>

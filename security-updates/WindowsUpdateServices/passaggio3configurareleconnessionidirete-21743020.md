@@ -28,7 +28,7 @@ Per impostazione predefinita, WSUS 3.0 SP2 è configurato per l'utilizzo di Micr
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -70,7 +70,7 @@ Nel passaggio 3 vengono illustrate le procedure seguenti:
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>
@@ -118,7 +118,7 @@ Le due procedure seguenti presuppongono che si utilizzi lo snap-in Amministrazio
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939815.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>

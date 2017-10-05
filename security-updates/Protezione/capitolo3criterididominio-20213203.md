@@ -129,10 +129,10 @@ Nelle sottosezioni che seguono la tabella sono contenute ulteriori informazioni 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -276,10 +276,10 @@ Nelle sottosezioni che seguono la tabella sono contenute ulteriori informazioni 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -374,10 +374,10 @@ La seguente tabella riassume le impostazioni delle opzioni di protezione consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>

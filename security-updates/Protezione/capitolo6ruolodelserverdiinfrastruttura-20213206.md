@@ -43,9 +43,9 @@ La tabella seguente mostra i nomi dei modelli di protezione dei server infrastru
 </colgroup>
 <thead>
 <tr class="header">
-<th>Client precedente</th>
-<th>Client di organizzazione</th>
-<th>Protezione specializzata/funzionalità limitata</th>
+<th style="border:1px solid black;" >Client precedente</th>
+<th style="border:1px solid black;" >Client di organizzazione</th>
+<th style="border:1px solid black;" >Protezione specializzata/funzionalità limitata</th>
 </tr>
 </thead>
 <tbody>

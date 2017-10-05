@@ -168,9 +168,9 @@ Entrambi gli approcci alla gestione dei rischi di protezione presentano vantaggi
 </colgroup>
 <thead>
 <tr class="header">
-<th> </th>
-<th>Approccio quantitativo</th>
-<th>Approccio qualitativo</th>
+<th style="border:1px solid black;" > </th>
+<th style="border:1px solid black;" >Approccio quantitativo</th>
+<th style="border:1px solid black;" >Approccio qualitativo</th>
 </tr>
 </thead>
 <tbody>

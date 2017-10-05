@@ -37,8 +37,8 @@ Poiché si tratta di esempi, gli script potrebbero richiedere alcune modifiche p
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome script</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome script</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -107,8 +107,8 @@ Nella seguente tabella vengono elencati i parametri dell'agente Client quaranten
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parametro</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Parametro</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

@@ -26,9 +26,9 @@ Nella seguente tabella sono elencate le impostazioni da applicare per la corrett
 </colgroup>
 <thead>
 <tr class="header">
-<th>Percorso criterio</th>
-<th>Criterio</th>
-<th>Impostazione del criterio e commenti</th>
+<th style="border:1px solid black;" >Percorso criterio</th>
+<th style="border:1px solid black;" >Criterio</th>
+<th style="border:1px solid black;" >Impostazione del criterio e commenti</th>
 </tr>
 </thead>
 <tbody>

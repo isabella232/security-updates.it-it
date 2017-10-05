@@ -24,9 +24,9 @@ Vi sono tre eventi inviati da RMS nel Registro eventi di sistema che è consigli
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Nome evento</th>
-<th>Tipo di evento</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Nome evento</th>
+<th style="border:1px solid black;" >Tipo di evento</th>
 </tr>
 </thead>
 <tbody>

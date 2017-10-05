@@ -58,8 +58,8 @@ Utilizzare il seguente elenco di controllo per distribuire un singolo server RMS
 </colgroup>
 <thead>
 <tr class="header">
-<th>Passaggio</th>
-<th>Riferimento</th>
+<th style="border:1px solid black;" >Passaggio</th>
+<th style="border:1px solid black;" >Riferimento</th>
 </tr>
 </thead>
 <tbody>
@@ -107,8 +107,8 @@ Utilizzare il seguente elenco di controllo per distribuire cluster di certificaz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Passaggio</th>
-<th>Riferimento</th>
+<th style="border:1px solid black;" >Passaggio</th>
+<th style="border:1px solid black;" >Riferimento</th>
 </tr>
 </thead>
 <tbody>
@@ -170,8 +170,8 @@ Utilizzare il seguente elenco di controllo per distribuire la directory principa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Passaggio</th>
-<th>Riferimento</th>
+<th style="border:1px solid black;" >Passaggio</th>
+<th style="border:1px solid black;" >Riferimento</th>
 </tr>
 </thead>
 <tbody>
@@ -219,8 +219,8 @@ Utilizzare la seguente lista di controllo per implementare un modello di criteri
 </colgroup>
 <thead>
 <tr class="header">
-<th>Passaggio</th>
-<th>Riferimento</th>
+<th style="border:1px solid black;" >Passaggio</th>
+<th style="border:1px solid black;" >Riferimento</th>
 </tr>
 </thead>
 <tbody>
@@ -260,8 +260,8 @@ Utilizzare la seguente lista di controllo per distribuire una nuova versione del
 </colgroup>
 <thead>
 <tr class="header">
-<th>Passaggio</th>
-<th>Riferimento</th>
+<th style="border:1px solid black;" >Passaggio</th>
+<th style="border:1px solid black;" >Riferimento</th>
 </tr>
 </thead>
 <tbody>
@@ -293,8 +293,8 @@ Utilizzare la seguente lista di controllo per aggiungere un dominio utente trust
 </colgroup>
 <thead>
 <tr class="header">
-<th>Passaggio</th>
-<th>Riferimento</th>
+<th style="border:1px solid black;" >Passaggio</th>
+<th style="border:1px solid black;" >Riferimento</th>
 </tr>
 </thead>
 <tbody>
@@ -326,8 +326,8 @@ Utilizzare la seguente lista di controllo per aggiungere un dominio di pubblicaz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Passaggio</th>
-<th>Riferimento</th>
+<th style="border:1px solid black;" >Passaggio</th>
+<th style="border:1px solid black;" >Riferimento</th>
 </tr>
 </thead>
 <tbody>

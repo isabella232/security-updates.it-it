@@ -269,8 +269,8 @@ Nella tabella seguente sono illustrate alcune delle funzionalità di Connection 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Funzionalità</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Funzionalità</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -314,9 +314,9 @@ Nella tabella seguente sono indicate le porte TCP/IP aperte dal filtro IP della 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Numero di porta</th>
-<th>Uso</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >Numero di porta</th>
+<th style="border:1px solid black;" >Uso</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>

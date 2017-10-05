@@ -27,10 +27,10 @@ In questa appendice vengono elencati i beni del sistema informatico più diffusi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Classe del bene</th>
-<th>Ambiente IT generale</th>
-<th>Nome del bene</th>
-<th>Classificazione del bene</th>
+<th style="border:1px solid black;" >Classe del bene</th>
+<th style="border:1px solid black;" >Ambiente IT generale</th>
+<th style="border:1px solid black;" >Nome del bene</th>
+<th style="border:1px solid black;" >Classificazione del bene</th>
 </tr>
 </thead>
 <tbody>

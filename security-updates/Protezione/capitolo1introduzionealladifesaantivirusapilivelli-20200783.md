@@ -79,8 +79,8 @@ Nella tabella riportata di seguito sono indicate le convenzioni stilistiche util
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento    </th>
-<th>Significato</th>
+<th style="border:1px solid black;" >Elemento    </th>
+<th style="border:1px solid black;" >Significato</th>
 </tr>
 </thead>
 <tbody>

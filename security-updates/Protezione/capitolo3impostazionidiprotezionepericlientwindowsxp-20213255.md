@@ -49,9 +49,9 @@ Nella seguente tabella sono riportati i file infrastruttura (.inf) disponibili c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Descrizione</th>
-<th>EC</th>
-<th>SSLF</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >EC</th>
+<th style="border:1px solid black;" >SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -111,11 +111,11 @@ La seguente tabella riassume i suggerimenti per le impostazioni del criterio di 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -327,11 +327,11 @@ IIS/3648346f-e4f5-474b-86c7-5a86e85fa1ff.mspx.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -591,11 +591,11 @@ Per questa ragione, l'impostazione **Impostazione account computer ed utente a t
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -856,11 +856,11 @@ La tabella seguente riassume le impostazioni delle Opzioni di protezione consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -953,11 +953,11 @@ La tabella seguente riassume le impostazioni di controllo consigliate. Sono disp
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1020,11 +1020,11 @@ La tabella seguente riassume le impostazioni delle Opzioni di protezione consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1128,11 +1128,11 @@ La tabella seguente riassume le impostazioni delle Opzioni di protezione consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1236,11 +1236,11 @@ La tabella seguente riassume le impostazioni delle Opzioni di protezione consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1376,11 +1376,11 @@ La tabella seguente riassume le impostazioni delle Opzioni di protezione consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1447,11 +1447,11 @@ La tabella seguente riassume le impostazioni delle Opzioni di protezione consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1516,11 +1516,11 @@ La tabella seguente riassume le impostazioni delle opzioni di protezione consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1695,11 +1695,11 @@ La tabella seguente riassume le impostazioni delle opzioni di protezione consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1821,11 +1821,11 @@ La tabella seguente riassume le impostazioni delle opzioni di protezione consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1883,11 +1883,11 @@ La tabella seguente riassume le raccomandazioni sull'impostazione delle opzioni 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1937,11 +1937,11 @@ La tabella seguente riassume le impostazioni delle opzioni di protezione consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1980,11 +1980,11 @@ La tabella seguente riassume le impostazioni delle opzioni di protezione consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2057,11 +2057,11 @@ Nella tabella seguente viene fornito un riepilogo delle impostazioni consigliate
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2206,11 +2206,11 @@ L'impostazione Gruppi con restrizioni consente di gestire l'appartenenza dei gru
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gruppo locale</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Gruppo locale</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2310,12 +2310,12 @@ Nella tabella seguente viene fornito un riepilogo delle impostazioni di servizi 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del servizio</th>
-<th>Nome visualizzato</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Nome del servizio</th>
+<th style="border:1px solid black;" >Nome visualizzato</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2617,14 +2617,14 @@ Nelle sottosezioni che seguono la tabella sono disponibili ulteriori informazion
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome impostazione</th>
-<th>Desktop<br />
+<th style="border:1px solid black;" >Nome impostazione</th>
+<th style="border:1px solid black;" >Desktop<br />
 EC</th>
-<th>Computer portatile<br />
+<th style="border:1px solid black;" >Computer portatile<br />
 EC</th>
-<th>Desktop<br />
+<th style="border:1px solid black;" >Desktop<br />
 SSLF</th>
-<th>Computer portatile<br />
+<th style="border:1px solid black;" >Computer portatile<br />
 SSLF</th>
 </tr>
 </thead>
@@ -3049,8 +3049,8 @@ In base alle proprie esigenze, queste autorizzazioni opzionali sono già configu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome dell'autorizzazione avanzata</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome dell'autorizzazione avanzata</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

@@ -565,8 +565,8 @@ Nella tabella seguente viene riportato un esempio di GPO utilizzato per implemen
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome GPO</th>
-<th>Nome gruppo</th>
+<th style="border:1px solid black;" >Nome GPO</th>
+<th style="border:1px solid black;" >Nome gruppo</th>
 </tr>
 </thead>
 <tbody>

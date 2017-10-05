@@ -21,8 +21,8 @@ Nella tabella seguente, sono elencate le corrispondenze dei diritti che è possi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Diritti</th>
-<th>Elementi XrML</th>
+<th style="border:1px solid black;" >Diritti</th>
+<th style="border:1px solid black;" >Elementi XrML</th>
 </tr>
 </thead>
 <tbody>

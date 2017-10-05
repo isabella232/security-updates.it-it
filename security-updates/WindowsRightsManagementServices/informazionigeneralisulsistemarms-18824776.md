@@ -23,8 +23,8 @@ La tabella che segue elenca i tipi di server che fanno parte di una distribuzion
 </colgroup>
 <thead>
 <tr class="header">
-<th>Server o cluster</th>
-<th>Funzione</th>
+<th style="border:1px solid black;" >Server o cluster</th>
+<th style="border:1px solid black;" >Funzione</th>
 </tr>
 </thead>
 <tbody>

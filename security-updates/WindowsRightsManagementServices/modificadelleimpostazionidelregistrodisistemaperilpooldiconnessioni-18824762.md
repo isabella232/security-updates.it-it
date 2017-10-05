@@ -34,11 +34,11 @@ Nella tabella seguente, sono elencate le voci che è possibile aggiungere per so
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo</th>
-<th>Valore predefinito</th>
-<th>Descrizione</th>
-<th>Note</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo</th>
+<th style="border:1px solid black;" >Valore predefinito</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Note</th>
 </tr>
 </thead>
 <tbody>

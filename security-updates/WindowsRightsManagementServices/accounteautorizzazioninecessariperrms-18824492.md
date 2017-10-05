@@ -21,8 +21,8 @@ Nella tabella seguente, vengono specificati le autorizzazioni e i diritti utente
 </colgroup>
 <thead>
 <tr class="header">
-<th>Attività</th>
-<th>Account utente e autorizzazioni</th>
+<th style="border:1px solid black;" >Attività</th>
+<th style="border:1px solid black;" >Account utente e autorizzazioni</th>
 </tr>
 </thead>
 <tbody>

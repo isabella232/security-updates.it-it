@@ -359,9 +359,9 @@ La scale di gravità degli errori è descritta nella tabella seguente. La scala 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gravità</th>
-<th>Tipi più comuni</th>
-<th>Condizioni necessarie</th>
+<th style="border:1px solid black;" >Gravità</th>
+<th style="border:1px solid black;" >Tipi più comuni</th>
+<th style="border:1px solid black;" >Condizioni necessarie</th>
 </tr>
 </thead>
 <tbody>

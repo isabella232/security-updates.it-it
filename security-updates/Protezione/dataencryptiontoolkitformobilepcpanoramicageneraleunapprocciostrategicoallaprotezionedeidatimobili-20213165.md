@@ -54,8 +54,8 @@ Nella tabella seguente viene mostrato un riepilogo ragionevole dei costi associa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Voce di costo</th>
-<th>Importo</th>
+<th style="border:1px solid black;" >Voce di costo</th>
+<th style="border:1px solid black;" >Importo</th>
 </tr>
 </thead>
 <tbody>

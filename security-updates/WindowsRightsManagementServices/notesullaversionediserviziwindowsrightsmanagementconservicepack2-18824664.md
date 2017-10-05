@@ -30,8 +30,8 @@ Nella tabella riportata di seguito sono elencati i requisiti hardware per l'esec
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito</th>
-<th>Consiglio</th>
+<th style="border:1px solid black;" >Requisito</th>
+<th style="border:1px solid black;" >Consiglio</th>
 </tr>
 </thead>
 <tbody>
@@ -66,8 +66,8 @@ Nella tabella che segue sono elencati i requisiti software per i server che eseg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Componente</th>
-<th>Requisito</th>
+<th style="border:1px solid black;" >Componente</th>
+<th style="border:1px solid black;" >Requisito</th>
 </tr>
 </thead>
 <tbody>
@@ -117,8 +117,8 @@ Nella tabella che segue sono elencati i requisiti di infrastruttura per i server
 </colgroup>
 <thead>
 <tr class="header">
-<th>Componente</th>
-<th>Requisiti</th>
+<th style="border:1px solid black;" >Componente</th>
+<th style="border:1px solid black;" >Requisiti</th>
 </tr>
 </thead>
 <tbody>
@@ -156,8 +156,8 @@ Nella tabella riportata di seguito sono elencati i diritti e le autorizzazioni u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Attività</th>
-<th>Requisiti di account</th>
+<th style="border:1px solid black;" >Attività</th>
+<th style="border:1px solid black;" >Requisiti di account</th>
 </tr>
 </thead>
 <tbody>
@@ -204,8 +204,8 @@ Se si utilizza RMS in una distribuzione su cluster, accertarsi di avere risolto 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Condizione</th>
-<th>Consiglio</th>
+<th style="border:1px solid black;" >Condizione</th>
+<th style="border:1px solid black;" >Consiglio</th>
 </tr>
 </thead>
 <tbody>

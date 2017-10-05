@@ -23,8 +23,8 @@ Nella tabella seguente vengono elencati i parametri presenti nel tag REFRESH.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parametro</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Parametro</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

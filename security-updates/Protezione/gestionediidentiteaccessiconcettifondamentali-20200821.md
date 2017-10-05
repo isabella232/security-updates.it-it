@@ -23,8 +23,8 @@ Microsoft Solutions for Security (MSS) desidera ringraziare le persone direttame
 </colgroup>
 <thead>
 <tr class="header">
-<th>Team di sviluppo</th>
-<th> </th>
+<th style="border:1px solid black;" >Team di sviluppo</th>
+<th style="border:1px solid black;" > </th>
 </tr>
 </thead>
 <tbody>

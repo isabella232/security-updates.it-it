@@ -30,9 +30,9 @@ Se si sceglie di utilizzare MSDE 2000 come server di database, si deve ricordare
 </colgroup>
 <thead>
 <tr class="header">
-<th>Il componente infrastruttura</th>
-<th>Procedura per la configurazione di un controller di dominio e di un server di database</th>
-<th>Note per la distribuzione in un ambiente di produzione</th>
+<th style="border:1px solid black;" >Il componente infrastruttura</th>
+<th style="border:1px solid black;" >Procedura per la configurazione di un controller di dominio e di un server di database</th>
+<th style="border:1px solid black;" >Note per la distribuzione in un ambiente di produzione</th>
 </tr>
 </thead>
 <tbody>

@@ -149,8 +149,8 @@ Prima di eseguire il programma di installazione WSUS 3.0 SP1 assicurarsi che il 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito</th>
-<th>Dettagli</th>
+<th style="border:1px solid black;" >Requisito</th>
+<th style="border:1px solid black;" >Dettagli</th>
 </tr>
 </thead>
 <tbody>
@@ -237,8 +237,8 @@ Parametri della riga di comando del programma di installazione
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opzione</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Opzione</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -277,8 +277,8 @@ Nella tabella seguente vengono indicate le proprietà della riga di comando per 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Proprietà</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Proprietà</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -529,8 +529,8 @@ WSUS 3.0 SP1 supporta Windows Server 2008 nelle versioni a 32 bit e a 64 bit.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito</th>
-<th>Dettagli</th>
+<th style="border:1px solid black;" >Requisito</th>
+<th style="border:1px solid black;" >Dettagli</th>
 </tr>
 </thead>
 <tbody>

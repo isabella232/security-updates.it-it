@@ -48,9 +48,9 @@ La tabella seguente mostra i nomi dei modelli di protezione dei server Web per i
 </colgroup>
 <thead>
 <tr class="header">
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -163,9 +163,9 @@ Nella seguente tabella sono descritti i sottocomponenti di Server applicazioni e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del componente nell'interfaccia utente</th>
-<th>Impostazione</th>
-<th>Logica dell'impostazione</th>
+<th style="border:1px solid black;" >Nome del componente nell'interfaccia utente</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Logica dell'impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -222,9 +222,9 @@ Nella seguente tabella sono descritti i sottocomponenti di IIS e vengono fornite
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del componente nell'interfaccia utente</th>
-<th>Impostazione</th>
-<th>Logica dell'impostazione</th>
+<th style="border:1px solid black;" >Nome del componente nell'interfaccia utente</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Logica dell'impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -295,9 +295,9 @@ Nella seguente tabella sono descritti i sottocomponenti di Accodamento messaggi 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del componente nell'interfaccia utente</th>
-<th>Opzione di installazione</th>
-<th>Logica dell'impostazione</th>
+<th style="border:1px solid black;" >Nome del componente nell'interfaccia utente</th>
+<th style="border:1px solid black;" >Opzione di installazione</th>
+<th style="border:1px solid black;" >Logica dell'impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -353,9 +353,9 @@ Nella seguente tabella sono descritti i sottocomponenti dell'Estensione server B
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del componente nell'interfaccia utente</th>
-<th>Opzione di installazione</th>
-<th>Logica dell'impostazione</th>
+<th style="border:1px solid black;" >Nome del componente nell'interfaccia utente</th>
+<th style="border:1px solid black;" >Opzione di installazione</th>
+<th style="border:1px solid black;" >Logica dell'impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -391,9 +391,9 @@ Nella tabella 5 sono descritti i sottocomponenti di Servizio Web e vengono forni
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del componente nell'interfaccia utente</th>
-<th>Opzione di installazione</th>
-<th>Logica dell'impostazione</th>
+<th style="border:1px solid black;" >Nome del componente nell'interfaccia utente</th>
+<th style="border:1px solid black;" >Opzione di installazione</th>
+<th style="border:1px solid black;" >Logica dell'impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -457,8 +457,8 @@ Nella tabella seguente sono elencate le estensioni del servizio Web predefinite 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Estensione del servizio Web</th>
-<th>Quando abilitare l'estensione</th>
+<th style="border:1px solid black;" >Estensione del servizio Web</th>
+<th style="border:1px solid black;" >Quando abilitare l'estensione</th>
 </tr>
 </thead>
 <tbody>
@@ -533,8 +533,8 @@ Nella tabella seguente sono fornite alcune raccomandazioni relative alle autoriz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo file</th>
-<th>Autorizzazioni NTFS raccomandate</th>
+<th style="border:1px solid black;" >Tipo file</th>
+<th style="border:1px solid black;" >Autorizzazioni NTFS raccomandate</th>
 </tr>
 </thead>
 <tbody>
@@ -584,8 +584,8 @@ Nella tabella seguente sono elencate le autorizzazioni per i siti Web supportate
 </colgroup>
 <thead>
 <tr class="header">
-<th>Autorizzazione sito Web</th>
-<th>Autorizzazione concessa</th>
+<th style="border:1px solid black;" >Autorizzazione sito Web</th>
+<th style="border:1px solid black;" >Autorizzazione concessa</th>
 </tr>
 </thead>
 <tbody>
@@ -666,10 +666,10 @@ Inoltre, è possibile che l'account Amministratore incorporato sia stato rinomin
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione predefinita server membro</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione predefinita server membro</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>

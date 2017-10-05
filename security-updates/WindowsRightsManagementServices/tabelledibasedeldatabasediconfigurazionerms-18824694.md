@@ -28,10 +28,10 @@ Nella tabella seguente, sono elencate le informazioni sulle applicazioni escluse
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -133,10 +133,10 @@ Nella tabella seguente, sono elencate le informazioni relative alla coda di mess
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -184,10 +184,10 @@ Nella tabella seguente, sono elencate le informazioni sul tipo di certificato em
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -235,10 +235,10 @@ Nella tabella seguente, sono elencate le informazioni sul certificato concessore
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -280,10 +280,10 @@ Nella tabella seguente, sono elencate le informazioni sui percorsi in cui sono m
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -337,10 +337,10 @@ Nella tabella seguente, sono elencate le informazioni sui server presenti nel cl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -388,10 +388,10 @@ Nella tabella seguente, sono elencate le informazioni sui certificati per accoun
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -457,10 +457,10 @@ Nella tabella seguente, sono elencate le informazioni relative al certificato co
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -520,10 +520,10 @@ Nella tabella seguente, sono elencate le informazioni sulla chiave privata del c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -607,10 +607,10 @@ Nella tabella seguente, sono elencate le informazioni sugli account Microsoft® 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -658,10 +658,10 @@ Nella tabella seguente, sono elencate le informazioni relative ai plug-in.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -757,10 +757,10 @@ Nella tabella seguente, sono elencate le informazioni sulle versioni di plug-in 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -802,10 +802,10 @@ Nella tabella seguente, sono elencate le informazioni relative alle proprietà d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -865,10 +865,10 @@ Nella tabella seguente, sono elencate le informazioni relative al tipo di plug-i
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -916,10 +916,10 @@ Nella tabella seguente, sono elencate le informazioni relative ai modelli di cri
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -967,10 +967,10 @@ Nella tabella seguente sono elencate le informazioni relative alle autorità di 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -1030,10 +1030,10 @@ Nella tabella seguente sono elencate le informazioni relative ai domini di posta
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -1075,10 +1075,10 @@ Nella tabella seguente, sono elencate le informazioni relative ai domini utente 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -1156,10 +1156,10 @@ Nella tabella seguente, sono elencate le informazioni relative ai certificati co
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

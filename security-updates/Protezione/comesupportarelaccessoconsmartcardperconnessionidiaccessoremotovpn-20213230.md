@@ -580,8 +580,8 @@ La tabella seguente mostra alcune linee guida per la risoluzione dei problemi re
 </colgroup>
 <thead>
 <tr class="header">
-<th>Problema</th>
-<th>Soluzione</th>
+<th style="border:1px solid black;" >Problema</th>
+<th style="border:1px solid black;" >Soluzione</th>
 </tr>
 </thead>
 <tbody>

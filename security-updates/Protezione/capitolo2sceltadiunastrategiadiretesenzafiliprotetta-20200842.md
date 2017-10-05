@@ -120,8 +120,8 @@ Prima di esaminare il funzionamento delle più recenti soluzioni di protezione p
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pericolo</th>
-<th>Descrizione del pericolo</th>
+<th style="border:1px solid black;" >Pericolo</th>
+<th style="border:1px solid black;" >Descrizione del pericolo</th>
 </tr>
 </thead>
 <tbody>
@@ -312,8 +312,8 @@ I principali pericoli per la protezione delle reti LAN senza fili sono stati des
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pericolo</th>
-<th>Riduzione</th>
+<th style="border:1px solid black;" >Pericolo</th>
+<th style="border:1px solid black;" >Riduzione</th>
 </tr>
 </thead>
 <tbody>
@@ -384,11 +384,11 @@ Le principali differenze tra questi approcci e una soluzione su base 802.1X sono
 </colgroup>
 <thead>
 <tr class="header">
-<th>Funzionalità</th>
-<th>WLAN 802.1X</th>
-<th>WEP statico</th>
-<th>VPN</th>
-<th>IPsec</th>
+<th style="border:1px solid black;" >Funzionalità</th>
+<th style="border:1px solid black;" >WLAN 802.1X</th>
+<th style="border:1px solid black;" >WEP statico</th>
+<th style="border:1px solid black;" >VPN</th>
+<th style="border:1px solid black;" >IPsec</th>
 </tr>
 </thead>
 <tbody>

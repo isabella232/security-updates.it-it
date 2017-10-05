@@ -323,8 +323,8 @@ Utilizzare le informazioni nella tabella seguente per determinare il tipo di reg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Operazione</th>
-<th>Regola consigliata</th>
+<th style="border:1px solid black;" >Operazione</th>
+<th style="border:1px solid black;" >Regola consigliata</th>
 </tr>
 </thead>
 <tbody>
@@ -458,10 +458,10 @@ Per la configurazione del GPO definita nella presente guida, sono stati rimossi 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Estensione file</th>
-<th>Descrizione</th>
-<th>Estensione file</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Estensione file</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Estensione file</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -598,8 +598,8 @@ Nella seguente tabella vengono indicate le opzioni per gli autori attendibili re
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome impostazione</th>
-<th>Operazione</th>
+<th style="border:1px solid black;" >Nome impostazione</th>
+<th style="border:1px solid black;" >Operazione</th>
 </tr>
 </thead>
 <tbody>
@@ -658,8 +658,8 @@ Nella presente sezione vengono indicate le procedure da seguire per la configura
 </colgroup>
 <thead>
 <tr class="header">
-<th>Decisione</th>
-<th>Fattori da considerare</th>
+<th style="border:1px solid black;" >Decisione</th>
+<th style="border:1px solid black;" >Fattori da considerare</th>
 </tr>
 </thead>
 <tbody>
@@ -786,9 +786,9 @@ Dopo aver eseguito il testing completo del criterio, è possibile applicarlo all
 </colgroup>
 <thead>
 <tr class="header">
-<th>Regola predefinita nell'interfaccia utente</th>
-<th>Descrizione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Regola predefinita nell'interfaccia utente</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -810,8 +810,8 @@ Dopo aver eseguito il testing completo del criterio, è possibile applicarlo all
 </colgroup>
 <thead>
 <tr class="header">
-<th>Regola di percorso</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Regola di percorso</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -860,8 +860,8 @@ Dopo aver eseguito il testing completo del criterio, è possibile applicarlo all
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opzioni di imposizione</th>
-<th>Consiglio</th>
+<th style="border:1px solid black;" >Opzioni di imposizione</th>
+<th style="border:1px solid black;" >Consiglio</th>
 </tr>
 </thead>
 <tbody>
@@ -886,8 +886,8 @@ Dopo aver eseguito il testing completo del criterio, è possibile applicarlo all
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipi di file</th>
-<th>Consiglio</th>
+<th style="border:1px solid black;" >Tipi di file</th>
+<th style="border:1px solid black;" >Consiglio</th>
 </tr>
 </thead>
 <tbody>
@@ -908,8 +908,8 @@ Dopo aver eseguito il testing completo del criterio, è possibile applicarlo all
 </colgroup>
 <thead>
 <tr class="header">
-<th>Autori attendibili</th>
-<th>Consiglio</th>
+<th style="border:1px solid black;" >Autori attendibili</th>
+<th style="border:1px solid black;" >Consiglio</th>
 </tr>
 </thead>
 <tbody>

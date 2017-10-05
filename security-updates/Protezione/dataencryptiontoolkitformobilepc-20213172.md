@@ -130,9 +130,9 @@ Il modello di GPO di Active Directory consente di controllare diverse impostazi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome impostazione</th>
-<th>Disponibilità</th>
-<th>Valore predefinito</th>
+<th style="border:1px solid black;" >Nome impostazione</th>
+<th style="border:1px solid black;" >Disponibilità</th>
+<th style="border:1px solid black;" >Valore predefinito</th>
 </tr>
 </thead>
 <tbody>

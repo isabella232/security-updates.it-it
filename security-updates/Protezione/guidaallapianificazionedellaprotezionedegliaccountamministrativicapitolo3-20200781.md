@@ -279,8 +279,8 @@ Utilizzare una password complessa per l'account Administrator predefinito. Una p
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipi di caratteri</th>
-<th>Esempio</th>
+<th style="border:1px solid black;" >Tipi di caratteri</th>
+<th style="border:1px solid black;" >Esempio</th>
 </tr>
 </thead>
 <tbody>

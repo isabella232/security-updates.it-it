@@ -197,8 +197,8 @@ L'output del processo decisionale potrebbe essere simile a quanto illustrato nel
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo di sistema</th>
-<th>Criteri e configurazione di BitLocker</th>
+<th style="border:1px solid black;" >Tipo di sistema</th>
+<th style="border:1px solid black;" >Criteri e configurazione di BitLocker</th>
 </tr>
 </thead>
 <tbody>

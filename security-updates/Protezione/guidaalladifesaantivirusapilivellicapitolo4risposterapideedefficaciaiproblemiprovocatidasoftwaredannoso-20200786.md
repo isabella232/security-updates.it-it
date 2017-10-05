@@ -573,9 +573,9 @@ Un altro sintomo tipico della presenza di software dannoso è l'utilizzo di cart
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cartella condivisa</th>
-<th>Percorso condiviso</th>
-<th>Commento</th>
+<th style="border:1px solid black;" >Cartella condivisa</th>
+<th style="border:1px solid black;" >Percorso condiviso</th>
+<th style="border:1px solid black;" >Commento</th>
 </tr>
 </thead>
 <tbody>
@@ -613,9 +613,9 @@ Un altro sintomo tipico della presenza di software dannoso è l'utilizzo di cart
 </colgroup>
 <thead>
 <tr class="header">
-<th>Cartella condivisa</th>
-<th>Percorso condiviso</th>
-<th>Commento</th>
+<th style="border:1px solid black;" >Cartella condivisa</th>
+<th style="border:1px solid black;" >Percorso condiviso</th>
+<th style="border:1px solid black;" >Commento</th>
 </tr>
 </thead>
 <tbody>
@@ -737,8 +737,8 @@ Per scegliere l'opzione più adatta per il proprio sistema, è sufficiente indiv
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pulitura</th>
-<th>Ricostruzione</th>
+<th style="border:1px solid black;" >Pulitura</th>
+<th style="border:1px solid black;" >Ricostruzione</th>
 </tr>
 </thead>
 <tbody>

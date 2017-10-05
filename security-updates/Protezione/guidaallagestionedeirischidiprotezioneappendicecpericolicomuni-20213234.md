@@ -25,8 +25,8 @@ In questa appendice vengono elencati i pericoli a cui è probabile che siano esp
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pericolo</th>
-<th>Esempio</th>
+<th style="border:1px solid black;" >Pericolo</th>
+<th style="border:1px solid black;" >Esempio</th>
 </tr>
 </thead>
 <tbody>

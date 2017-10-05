@@ -77,9 +77,9 @@ Per eseguire le procedure di questo capitolo sono necessari gli strumenti indica
 </colgroup>
 <thead>
 <tr class="header">
-<th>Strumento</th>
-<th>Descrizione</th>
-<th>Origine</th>
+<th style="border:1px solid black;" >Strumento</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Origine</th>
 </tr>
 </thead>
 <tbody>
@@ -133,8 +133,8 @@ Nella tabella seguente sono elencati i parametri utilizzati per l'installazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parametro di configurazione della CA</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Parametro di configurazione della CA</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -273,8 +273,8 @@ Mediante la seguente procedura è possibile verificare se l'installazione di Ser
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Attributo del certificato</th>
-    <th>Impostazione necessaria</th>
+    <th style="border:1px solid black;" >Attributo del certificato</th>
+    <th style="border:1px solid black;" >Impostazione necessaria</th>
     </tr>
     </thead>
     <tbody>
@@ -321,8 +321,8 @@ Questa procedura consente di impostare vari parametri della CA, che ne regolano 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Proprietà della CA</th>
-<th>Descrizione dell'impostazione</th>
+<th style="border:1px solid black;" >Proprietà della CA</th>
+<th style="border:1px solid black;" >Descrizione dell'impostazione</th>
 </tr>
 </thead>
 <tbody>

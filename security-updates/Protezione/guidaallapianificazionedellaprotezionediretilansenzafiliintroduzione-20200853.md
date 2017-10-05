@@ -87,8 +87,8 @@ Tutta la Guida, ma in particolare gli ultimi moduli, si rivolge ai professionist
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Significato</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Significato</th>
 </tr>
 </thead>
 <tbody>

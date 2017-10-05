@@ -160,8 +160,8 @@ In questa sezione vengono spiegati i termini chiave da recepire quando si attua 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Termine</th>
-<th>Definizione</th>
+<th style="border:1px solid black;" >Termine</th>
+<th style="border:1px solid black;" >Definizione</th>
 </tr>
 </thead>
 <tbody>
@@ -202,8 +202,8 @@ Il software può diventare vulnerabile a un attacco per diversi motivi. Nella Ta
 </colgroup>
 <thead>
 <tr class="header">
-<th>Termine</th>
-<th>Definizione</th>
+<th style="border:1px solid black;" >Termine</th>
+<th style="border:1px solid black;" >Definizione</th>
 </tr>
 </thead>
 <tbody>
@@ -236,8 +236,8 @@ Microsoft Security Response Center (MSRC) si serve della valutazione della gravi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Valutazione</th>
-<th>Definizione</th>
+<th style="border:1px solid black;" >Valutazione</th>
+<th style="border:1px solid black;" >Definizione</th>
 </tr>
 </thead>
 <tbody>
@@ -276,8 +276,8 @@ Microsoft ha sviluppato il modello STRIDE, riassunto nella Tabella 4, per classi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Termine</th>
-<th>Definizione</th>
+<th style="border:1px solid black;" >Termine</th>
+<th style="border:1px solid black;" >Definizione</th>
 </tr>
 </thead>
 <tbody>
@@ -328,8 +328,8 @@ I pericoli dannosi sono attacchi lanciati dall'interno o dall'esterno di una ret
 </colgroup>
 <thead>
 <tr class="header">
-<th>Termine</th>
-<th>Definizione</th>
+<th style="border:1px solid black;" >Termine</th>
+<th style="border:1px solid black;" >Definizione</th>
 </tr>
 </thead>
 <tbody>
@@ -416,9 +416,9 @@ Microsoft consiglia ai clienti di utilizzare la soluzione di gestione degli aggi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo cliente</th>
-<th>Scenario</th>
-<th>Scelta cliente</th>
+<th style="border:1px solid black;" >Tipo cliente</th>
+<th style="border:1px solid black;" >Scenario</th>
+<th style="border:1px solid black;" >Scelta cliente</th>
 </tr>
 </thead>
 <tbody>
@@ -468,8 +468,8 @@ Nella Tabella 7 sono elencati i termini standard Microsoft correnti per gli aggi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Termine</th>
-<th>Definizione</th>
+<th style="border:1px solid black;" >Termine</th>
+<th style="border:1px solid black;" >Definizione</th>
 </tr>
 </thead>
 <tbody>
@@ -532,12 +532,12 @@ Nella Tabella 8, vengono riportati diversi attacchi storici, accompagnati dalla 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome dell'attacco</th>
-<th>Data in cui è stato pubblicamente scoperto</th>
-<th>Gravità MSRC</th>
-<th>Bollettino MSRC</th>
-<th>Data del bollettino MSRC</th>
-<th>Giorni disponibili prima dell'attacco</th>
+<th style="border:1px solid black;" >Nome dell'attacco</th>
+<th style="border:1px solid black;" >Data in cui è stato pubblicamente scoperto</th>
+<th style="border:1px solid black;" >Gravità MSRC</th>
+<th style="border:1px solid black;" >Bollettino MSRC</th>
+<th style="border:1px solid black;" >Data del bollettino MSRC</th>
+<th style="border:1px solid black;" >Giorni disponibili prima dell'attacco</th>
 </tr>
 </thead>
 <tbody>
@@ -737,8 +737,8 @@ Le funzionalità WSUS possono essere suddivise in due componenti: lato server e 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Funzionalità lato server</th>
-<th>Funzionalità lato client</th>
+<th style="border:1px solid black;" >Funzionalità lato server</th>
+<th style="border:1px solid black;" >Funzionalità lato client</th>
 </tr>
 </thead>
 <tbody>
@@ -943,9 +943,9 @@ Nella Tabella 10 vengono confrontate le funzionalità fornite da SMS 2003 e WSUS
 </colgroup>
 <thead>
 <tr class="header">
-<th>Funzionalità</th>
-<th>WSUS</th>
-<th>SMS 2003</th>
+<th style="border:1px solid black;" >Funzionalità</th>
+<th style="border:1px solid black;" >WSUS</th>
+<th style="border:1px solid black;" >SMS 2003</th>
 </tr>
 </thead>
 <tbody>

@@ -24,9 +24,9 @@ Dopo aver installato il controller di dominio e configurato i server di database
 </colgroup>
 <thead>
 <tr class="header">
-<th>Il componente infrastruttura</th>
-<th>Per preparare il server per l'installazione di RMS</th>
-<th>Note per la distribuzione in un ambiente di produzione</th>
+<th style="border:1px solid black;" >Il componente infrastruttura</th>
+<th style="border:1px solid black;" >Per preparare il server per l'installazione di RMS</th>
+<th style="border:1px solid black;" >Note per la distribuzione in un ambiente di produzione</th>
 </tr>
 </thead>
 <tbody>

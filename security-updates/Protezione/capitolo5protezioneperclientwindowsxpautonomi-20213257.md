@@ -61,8 +61,8 @@ Nella tabella seguente vengono illustrate le estensioni dello snap-in Criteri di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Estensione dello snap-in Criteri di gruppo</th>
-<th>Disponibile in LGPO</th>
+<th style="border:1px solid black;" >Estensione dello snap-in Criteri di gruppo</th>
+<th style="border:1px solid black;" >Disponibile in LGPO</th>
 </tr>
 </thead>
 <tbody>
@@ -234,8 +234,8 @@ L'elenco seguente illustra i parametri dello strumento Secedit.exe.
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Nome dell'area</th>
-    <th>Descrizione</th>
+    <th style="border:1px solid black;" >Nome dell'area</th>
+    <th style="border:1px solid black;" >Descrizione</th>
     </tr>
     </thead>
     <tbody>
@@ -292,8 +292,8 @@ Nelle tabelle seguenti è incluso un elenco degli script e dei file associati fo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nomi del file e dello script</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nomi del file e dello script</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -354,8 +354,8 @@ Nelle tabelle seguenti è incluso un elenco degli script e dei file associati fo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nomi del file e dello script</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nomi del file e dello script</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

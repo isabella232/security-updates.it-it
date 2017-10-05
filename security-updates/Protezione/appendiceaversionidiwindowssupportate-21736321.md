@@ -39,10 +39,10 @@ Se la versione di un sistema operativo non è visualizzata accanto al ruolo, sig
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruolo</th>
-<th>Versione del sistema operativo</th>
-<th>Status</th>
-<th>Note</th>
+<th style="border:1px solid black;" >Ruolo</th>
+<th style="border:1px solid black;" >Versione del sistema operativo</th>
+<th style="border:1px solid black;" >Status</th>
+<th style="border:1px solid black;" >Note</th>
 </tr>
 </thead>
 <tbody>

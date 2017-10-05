@@ -127,9 +127,9 @@ Anche se la valutazione dei rischi rappresenta una fase necessaria e discreta de
 </colgroup>
 <thead>
 <tr class="header">
-<th> </th>
-<th>Gestione dei rischi</th>
-<th>Valutazione dei rischi</th>
+<th style="border:1px solid black;" > </th>
+<th style="border:1px solid black;" >Gestione dei rischi</th>
+<th style="border:1px solid black;" >Valutazione dei rischi</th>
 </tr>
 </thead>
 <tbody>
@@ -199,9 +199,9 @@ Per stimare il livello di maturità della propria organizzazione, confrontarlo c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Livello</th>
-<th>Stato</th>
-<th>Definizione</th>
+<th style="border:1px solid black;" >Livello</th>
+<th style="border:1px solid black;" >Stato</th>
+<th style="border:1px solid black;" >Definizione</th>
 </tr>
 </thead>
 <tbody>
@@ -308,8 +308,8 @@ La chiara definizione dei ruoli e delle responsabilità è un fattore fondamenta
 </colgroup>
 <thead>
 <tr class="header">
-<th>Titolo</th>
-<th>Principali responsabilità</th>
+<th style="border:1px solid black;" >Titolo</th>
+<th style="border:1px solid black;" >Principali responsabilità</th>
 </tr>
 </thead>
 <tbody>

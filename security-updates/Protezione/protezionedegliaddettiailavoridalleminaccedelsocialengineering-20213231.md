@@ -109,9 +109,9 @@ La maggior parte delle misure di protezione tengono fuori gli utenti non autoriz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Obiettivi dell'attacco</th>
-<th>Descrizione</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Obiettivi dell'attacco</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -180,9 +180,9 @@ I due metodi più comuni per spingere un utente a fare clic su un pulsante all'i
 </colgroup>
 <thead>
 <tr class="header">
-<th>Obiettivi dell'attacco</th>
-<th>Descrizione</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Obiettivi dell'attacco</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -236,9 +236,9 @@ Il pirata informatico (in rosso) impersona un altro utente conosciuto e invia un
 </colgroup>
 <thead>
 <tr class="header">
-<th>Obiettivi dell'attacco</th>
-<th>Descrizione</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Obiettivi dell'attacco</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -311,9 +311,9 @@ Le richieste di informazioni o l'accesso tramite telefono sono una forma di atta
 </colgroup>
 <thead>
 <tr class="header">
-<th>Obiettivi dell'attacco</th>
-<th>Descrizione</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Obiettivi dell'attacco</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -354,9 +354,9 @@ L'assistenza, o help desk, è uno dei pilastri della difesa contro i pirati info
 </colgroup>
 <thead>
 <tr class="header">
-<th>Obiettivi dell'attacco</th>
-<th>Descrizione</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Obiettivi dell'attacco</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -405,9 +405,9 @@ I supporti elettronici possono essere ancora più utili. Se le aziende non dispo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Obiettivi dell'attacco</th>
-<th>Descrizione</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Obiettivi dell'attacco</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -503,9 +503,9 @@ La protezione di chi lavora da casa si limita solitamente alla tecnologia. I cri
 </colgroup>
 <thead>
 <tr class="header">
-<th>Obiettivi dell'attacco</th>
-<th>Descrizione</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Obiettivi dell'attacco</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -622,9 +622,9 @@ Non sempre è necessario conoscere bene una vittima o incontrarla per realizzare
 </colgroup>
 <thead>
 <tr class="header">
-<th>Obiettivi dell'attacco</th>
-<th>Descrizione</th>
-<th>Costo</th>
+<th style="border:1px solid black;" >Obiettivi dell'attacco</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Costo</th>
 </tr>
 </thead>
 <tbody>
@@ -706,9 +706,9 @@ Questo gruppo, ovvero il Comitato direttivo per la protezione, rappresenta i fac
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vettore di attacco</th>
-<th>Descrizione dell'utilizzo aziendale</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >Vettore di attacco</th>
+<th style="border:1px solid black;" >Descrizione dell'utilizzo aziendale</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -839,11 +839,11 @@ Sulla base della valutazione dell'azienda effettuata nella matrice Vulnerabilit�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vettore di attacco</th>
-<th>Possibili requisiti per i criteri</th>
-<th>Tipo di rischio Informazioni riservate Credibilità aziendale Disponibilità aziendale Risorse Denaro</th>
-<th>Livello di rischio Alto = 5 Basso = 1</th>
-<th>Azione</th>
+<th style="border:1px solid black;" >Vettore di attacco</th>
+<th style="border:1px solid black;" >Possibili requisiti per i criteri</th>
+<th style="border:1px solid black;" >Tipo di rischio Informazioni riservate Credibilità aziendale Disponibilità aziendale Risorse Denaro</th>
+<th style="border:1px solid black;" >Livello di rischio Alto = 5 Basso = 1</th>
+<th style="border:1px solid black;" >Azione</th>
 </tr>
 </thead>
 <tbody>
@@ -1019,9 +1019,9 @@ Il Comitato direttivo per la protezione conosce le aree di protezione essenziali
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisiti per i criteri</th>
-<th>Requisiti per le procedure / documenti</th>
-<th>Azione il / data</th>
+<th style="border:1px solid black;" >Requisiti per i criteri</th>
+<th style="border:1px solid black;" >Requisiti per le procedure / documenti</th>
+<th style="border:1px solid black;" >Azione il / data</th>
 </tr>
 </thead>
 <tbody>
@@ -1197,9 +1197,9 @@ Nei documenti sono contenute diverse tabelle che vengono utilizzate per determin
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vettore di attacco</th>
-<th>Descrizione dell'uso aziendale</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >Vettore di attacco</th>
+<th style="border:1px solid black;" >Descrizione dell'uso aziendale</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1299,11 +1299,11 @@ Nei documenti sono contenute diverse tabelle che vengono utilizzate per determin
 </colgroup>
 <thead>
 <tr class="header">
-<th>Vettore di attacco</th>
-<th>Possibili requisiti per i criteri</th>
-<th>Tipo di rischio Informazioni riservate Credibilità aziendale Disponibilità aziendale Risorse Denaro</th>
-<th>Livello di rischio Alto = 5 Basso = 1</th>
-<th>Azione</th>
+<th style="border:1px solid black;" >Vettore di attacco</th>
+<th style="border:1px solid black;" >Possibili requisiti per i criteri</th>
+<th style="border:1px solid black;" >Tipo di rischio Informazioni riservate Credibilità aziendale Disponibilità aziendale Risorse Denaro</th>
+<th style="border:1px solid black;" >Livello di rischio Alto = 5 Basso = 1</th>
+<th style="border:1px solid black;" >Azione</th>
 </tr>
 </thead>
 <tbody>
@@ -1392,9 +1392,9 @@ Nei documenti sono contenute diverse tabelle che vengono utilizzate per determin
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisiti per i criteri</th>
-<th>Requisiti per le procedure / documenti</th>
-<th>Azione il / data</th>
+<th style="border:1px solid black;" >Requisiti per i criteri</th>
+<th style="border:1px solid black;" >Requisiti per le procedure / documenti</th>
+<th style="border:1px solid black;" >Azione il / data</th>
 </tr>
 </thead>
 <tbody>
@@ -1442,9 +1442,9 @@ Nei documenti sono contenute diverse tabelle che vengono utilizzate per determin
 </colgroup>
 <thead>
 <tr class="header">
-<th>Azione</th>
-<th>Descrizione</th>
-<th>Azione il / data</th>
+<th style="border:1px solid black;" >Azione</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Azione il / data</th>
 </tr>
 </thead>
 <tbody>
@@ -1551,8 +1551,8 @@ Nei documenti sono contenute diverse tabelle che vengono utilizzate per determin
 </colgroup>
 <thead>
 <tr class="header">
-<th>Termine</th>
-<th>Definizione</th>
+<th style="border:1px solid black;" >Termine</th>
+<th style="border:1px solid black;" >Definizione</th>
 </tr>
 </thead>
 <tbody>

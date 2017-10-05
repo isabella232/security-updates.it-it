@@ -291,8 +291,8 @@ Nella tabella che segue sono riportate le funzionalità che potrebbero essere di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Caratteristica del firewall</th>
-<th>Valore</th>
+<th style="border:1px solid black;" >Caratteristica del firewall</th>
+<th style="border:1px solid black;" >Valore</th>
 </tr>
 </thead>
 <tbody>
@@ -411,8 +411,8 @@ I router di fascia alta possono essere configurati per restringere l'accesso blo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Caratteristica del firewall</th>
-<th>Valore</th>
+<th style="border:1px solid black;" >Caratteristica del firewall</th>
+<th style="border:1px solid black;" >Valore</th>
 </tr>
 </thead>
 <tbody>
@@ -534,8 +534,8 @@ Nella fascia economica del mercato dei firewall hardware si trovano le unità Pl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Caratteristica del firewall</th>
-<th>Valore</th>
+<th style="border:1px solid black;" >Caratteristica del firewall</th>
+<th style="border:1px solid black;" >Valore</th>
 </tr>
 </thead>
 <tbody>
@@ -656,8 +656,8 @@ La capacità di recupero può essere ottenuta aggiungendo un secondo firewall, i
 </colgroup>
 <thead>
 <tr class="header">
-<th>Caratteristica del firewall</th>
-<th>Valore</th>
+<th style="border:1px solid black;" >Caratteristica del firewall</th>
+<th style="border:1px solid black;" >Valore</th>
 </tr>
 </thead>
 <tbody>
@@ -784,8 +784,8 @@ Questa classe è adatta a quelle situazioni in cui sono stati fatti elevati inve
 </colgroup>
 <thead>
 <tr class="header">
-<th>Caratteristica del firewall</th>
-<th>Valore</th>
+<th style="border:1px solid black;" >Caratteristica del firewall</th>
+<th style="border:1px solid black;" >Valore</th>
 </tr>
 </thead>
 <tbody>
@@ -914,8 +914,8 @@ Quando si sceglie una classe firewall da utilizzare in strutture come quelle des
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fattore da valutare</th>
-<th>Caratteristiche tipiche del firewall implementato</th>
+<th style="border:1px solid black;" >Fattore da valutare</th>
+<th style="border:1px solid black;" >Caratteristiche tipiche del firewall implementato</th>
 </tr>
 </thead>
 <tbody>

@@ -140,9 +140,9 @@ Le seguenti tabelle possono aiutare a valutare la priorità della richiesta in r
 </colgroup>
 <thead>
 <tr class="header">
-<th>Priorità</th>
-<th>Intervallo di tempo consigliato</th>
-<th>Intervallo di tempo minimo consigliato</th>
+<th style="border:1px solid black;" >Priorità</th>
+<th style="border:1px solid black;" >Intervallo di tempo consigliato</th>
+<th style="border:1px solid black;" >Intervallo di tempo minimo consigliato</th>
 </tr>
 </thead>
 <tbody>
@@ -181,8 +181,8 @@ Nella Tabella 2 sono riportati degli esempi di fattori che potrebbero innalzare 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fattore ambientale/organizzativo</th>
-<th>Correzione della priorità</th>
+<th style="border:1px solid black;" >Fattore ambientale/organizzativo</th>
+<th style="border:1px solid black;" >Correzione della priorità</th>
 </tr>
 </thead>
 <tbody>

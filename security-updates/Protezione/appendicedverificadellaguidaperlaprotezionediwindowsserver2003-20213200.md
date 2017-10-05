@@ -295,9 +295,9 @@ La scala di severità dell'errore è descritta nella seguente tabella. La scala 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Severità</th>
-<th>I tipi più comuni</th>
-<th>Condizioni necessarie</th>
+<th style="border:1px solid black;" >Severità</th>
+<th style="border:1px solid black;" >I tipi più comuni</th>
+<th style="border:1px solid black;" >Condizioni necessarie</th>
 </tr>
 </thead>
 <tbody>

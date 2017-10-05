@@ -33,10 +33,10 @@ Nella tabella seguente, sono elencate le voci tramite le quali viene controllato
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo</th>
-<th>Valore predefinito</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo</th>
+<th style="border:1px solid black;" >Valore predefinito</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

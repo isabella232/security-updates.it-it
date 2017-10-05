@@ -25,7 +25,7 @@ La pianificazione prevede l'identificazione delle risorse prioritarie, nonché d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Livello 100</th>
+<th style="border:1px solid black;" >Livello 100</th>
 </tr>
 </thead>
 <tbody>
@@ -57,7 +57,7 @@ La pianificazione prevede l'identificazione delle risorse prioritarie, nonché d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Livello 200</th>
+<th style="border:1px solid black;" >Livello 200</th>
 </tr>
 </thead>
 <tbody>
@@ -125,7 +125,7 @@ La pianificazione prevede l'identificazione delle risorse prioritarie, nonché d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Livello 300</th>
+<th style="border:1px solid black;" >Livello 300</th>
 </tr>
 </thead>
 <tbody>

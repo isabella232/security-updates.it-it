@@ -27,10 +27,10 @@ La seguente tabella mostra lo stato delle diverse versioni client e server del s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruolo</th>
-<th>Versione del sistema operativo</th>
-<th>Stato supporto</th>
-<th>Note</th>
+<th style="border:1px solid black;" >Ruolo</th>
+<th style="border:1px solid black;" >Versione del sistema operativo</th>
+<th style="border:1px solid black;" >Stato supporto</th>
+<th style="border:1px solid black;" >Note</th>
 </tr>
 </thead>
 <tbody>

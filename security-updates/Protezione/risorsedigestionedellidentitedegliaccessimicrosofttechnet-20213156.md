@@ -27,23 +27,23 @@ Livello 200 
 </th>
 </tr>
 <tr>
-<th>
+<th style="border:1px solid black;" >
  
 
 </th>
-<th>
+<th style="border:1px solid black;" >
 Pianificazione
 
 </th>
-<th>
+<th style="border:1px solid black;" >
 Prevenzione
 
 </th>
-<th>
+<th style="border:1px solid black;" >
 Rilevamento
 
 </th>
-<th>
+<th style="border:1px solid black;" >
 Risposta
 
 </th>
@@ -293,23 +293,23 @@ Livello 300 
 </th>
 </tr>
 <tr>
-<th>
+<th style="border:1px solid black;" >
  
 
 </th>
-<th>
+<th style="border:1px solid black;" >
 Pianificazione
 
 </th>
-<th>
+<th style="border:1px solid black;" >
 Prevenzione
 
 </th>
-<th>
+<th style="border:1px solid black;" >
 Rilevamento
 
 </th>
-<th>
+<th style="border:1px solid black;" >
 Risposta
 
 </th>
@@ -397,23 +397,23 @@ Livello 400 
 </th>
 </tr>
 <tr>
-<th>
+<th style="border:1px solid black;" >
  
 
 </th>
-<th>
+<th style="border:1px solid black;" >
 Pianificazione
 
 </th>
-<th>
+<th style="border:1px solid black;" >
 Prevenzione
 
 </th>
-<th>
+<th style="border:1px solid black;" >
 Rilevamento
 
 </th>
-<th>
+<th style="border:1px solid black;" >
 Risposta
 
 </th>

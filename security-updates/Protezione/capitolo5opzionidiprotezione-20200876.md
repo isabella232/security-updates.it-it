@@ -1141,8 +1141,8 @@ La restrizione dell'accesso nelle named pipe quali COMNAP e LOCATOR consente di 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Named pipe</th>
-<th>Scopo</th>
+<th style="border:1px solid black;" >Named pipe</th>
+<th style="border:1px solid black;" >Scopo</th>
 </tr>
 </thead>
 <tbody>

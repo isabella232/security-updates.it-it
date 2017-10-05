@@ -45,9 +45,9 @@ Nella tabella seguente vengono elencate le impostazioni predefinite di Windows F
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opzione</th>
-<th>Configurazione predefinita</th>
-<th>Caso in cui apportare modifiche</th>
+<th style="border:1px solid black;" >Opzione</th>
+<th style="border:1px solid black;" >Configurazione predefinita</th>
+<th style="border:1px solid black;" >Caso in cui apportare modifiche</th>
 </tr>
 </thead>
 <tbody>
@@ -343,10 +343,10 @@ Dopo aver completato la procedura descritta di seguito per configurare le impost
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Impostazione</th>
-    <th>Descrizione</th>
-    <th>Profilo di dominio</th>
-    <th>Profilo predefinito</th>
+    <th style="border:1px solid black;" >Impostazione</th>
+    <th style="border:1px solid black;" >Descrizione</th>
+    <th style="border:1px solid black;" >Profilo di dominio</th>
+    <th style="border:1px solid black;" >Profilo predefinito</th>
     </tr>
     </thead>
     <tbody>

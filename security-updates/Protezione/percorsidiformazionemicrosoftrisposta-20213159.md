@@ -25,7 +25,7 @@ La fase di risposta prevede azioni già pianificate mirate all'intercettazione d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Livello 300</th>
+<th style="border:1px solid black;" >Livello 300</th>
 </tr>
 </thead>
 <tbody>
@@ -45,7 +45,7 @@ La fase di risposta prevede azioni già pianificate mirate all'intercettazione d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Livello 400</th>
+<th style="border:1px solid black;" >Livello 400</th>
 </tr>
 </thead>
 <tbody>

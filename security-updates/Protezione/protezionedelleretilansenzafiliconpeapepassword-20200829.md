@@ -132,8 +132,8 @@ Nella tabella che segue sono descritte le convenzioni di stile utilizzate in que
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Significato</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Significato</th>
 </tr>
 </thead>
 <tbody>

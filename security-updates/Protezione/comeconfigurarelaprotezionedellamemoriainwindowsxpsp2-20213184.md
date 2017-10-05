@@ -208,8 +208,8 @@ Nella tabella 1 sono elencate le opzioni per Livello\_criterio.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Livello di criterio</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Livello di criterio</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

@@ -25,8 +25,8 @@ Il file di applicazione del servizio proxy di attivazione, Activation.asmx, è m
 </colgroup>
 <thead>
 <tr class="header">
-<th>Utente o gruppo</th>
-<th>Autorizzazione predefinita</th>
+<th style="border:1px solid black;" >Utente o gruppo</th>
+<th style="border:1px solid black;" >Autorizzazione predefinita</th>
 </tr>
 </thead>
 <tbody>

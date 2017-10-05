@@ -118,11 +118,11 @@ Al file del modello presente in **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSe
 </colgroup>
 <thead>
 <tr class="header">
-<th>Voce di registro</th>
-<th>Formato</th>
-<th>Predefinito XP SP2</th>
-<th>Predefinito 2003 SP1</th>
-<th>Valore di massima protezione (decimale)</th>
+<th style="border:1px solid black;" >Voce di registro</th>
+<th style="border:1px solid black;" >Formato</th>
+<th style="border:1px solid black;" >Predefinito XP SP2</th>
+<th style="border:1px solid black;" >Predefinito 2003 SP1</th>
+<th style="border:1px solid black;" >Valore di massima protezione (decimale)</th>
 </tr>
 </thead>
 <tbody>
@@ -442,9 +442,9 @@ Sono consigliate anche le voci del Registro di sistema riportate nella seguente 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Voce di registro</th>
-<th>Formato</th>
-<th>Valore di massima protezione (decimale)</th>
+<th style="border:1px solid black;" >Voce di registro</th>
+<th style="border:1px solid black;" >Formato</th>
+<th style="border:1px solid black;" >Valore di massima protezione (decimale)</th>
 </tr>
 </thead>
 <tbody>

@@ -119,8 +119,8 @@ La tabella che segue elenca dei parametri specifici dell'azienda fittizia Woodgr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -161,8 +161,8 @@ Nel caso di un'installazione specifica non è necessario modificare le impostazi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -255,8 +255,8 @@ Le seguenti specifiche hardware sono state utilizzate per eseguire il test di qu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Risorsa</th>
-<th>Requisito</th>
+<th style="border:1px solid black;" >Risorsa</th>
+<th style="border:1px solid black;" >Requisito</th>
 </tr>
 </thead>
 <tbody>
@@ -559,9 +559,9 @@ Se si utilizza il modello di protezione Enterprise Client - Controller di domini
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Unità operativa</th>
-    <th>GPO</th>
-    <th>Modello di protezione</th>
+    <th style="border:1px solid black;" >Unità operativa</th>
+    <th style="border:1px solid black;" >GPO</th>
+    <th style="border:1px solid black;" >Modello di protezione</th>
     </tr>
     </thead>
     <tbody>
@@ -695,9 +695,9 @@ Le seguenti impostazioni di Servizi terminal dovrebbero essere configurate nel G
 </colgroup>
 <thead>
 <tr class="header">
-<th>Percorso</th>
-<th>Criteri</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Percorso</th>
+<th style="border:1px solid black;" >Criteri</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -836,8 +836,8 @@ Il Servizio autenticazione Internet viene installato tramite Windows Optional Co
 </colgroup>
 <thead>
 <tr class="header">
-<th>Componente facoltativo da installare</th>
-<th>Stato di installazione</th>
+<th style="border:1px solid black;" >Componente facoltativo da installare</th>
+<th style="border:1px solid black;" >Stato di installazione</th>
 </tr>
 </thead>
 <tbody>

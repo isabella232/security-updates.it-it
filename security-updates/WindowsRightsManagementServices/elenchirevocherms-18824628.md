@@ -31,8 +31,8 @@ Nella tabella seguente vengono elencate le entità che è possibile specificare 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Entità</th>
-<th>Identificatore</th>
+<th style="border:1px solid black;" >Entità</th>
+<th style="border:1px solid black;" >Identificatore</th>
 </tr>
 </thead>
 <tbody>
@@ -79,8 +79,8 @@ Gli elenchi di revoche sono file XrML che specificano i parametri indicati nella
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parametro</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Parametro</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

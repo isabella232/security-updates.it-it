@@ -336,9 +336,9 @@ La seguente tabella elenca i ruoli di server di Windows Server 2003 e i corrispo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruolo del server</th>
-<th>Descrizione</th>
-<th>Nome di file del modello di protezione</th>
+<th style="border:1px solid black;" >Ruolo del server</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Nome di file del modello di protezione</th>
 </tr>
 </thead>
 <tbody>
@@ -419,8 +419,8 @@ Le OU e i criteri consigliati discussi nella sezione precedente creano una linea
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome OU</th>
-<th>Gruppo amministrativo</th>
+<th style="border:1px solid black;" >Nome OU</th>
+<th style="border:1px solid black;" >Gruppo amministrativo</th>
 </tr>
 </thead>
 <tbody>

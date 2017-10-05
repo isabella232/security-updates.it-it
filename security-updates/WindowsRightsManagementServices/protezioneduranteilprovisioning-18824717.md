@@ -24,9 +24,9 @@ In questa fase, RMS utilizza gli account illustrati nella seguente tabella.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Account</th>
-<th>Scopo</th>
-<th>Autorizzazioni</th>
+<th style="border:1px solid black;" >Account</th>
+<th style="border:1px solid black;" >Scopo</th>
+<th style="border:1px solid black;" >Autorizzazioni</th>
 </tr>
 </thead>
 <tbody>

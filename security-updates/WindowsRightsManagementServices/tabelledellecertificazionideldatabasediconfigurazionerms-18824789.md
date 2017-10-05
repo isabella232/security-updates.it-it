@@ -28,10 +28,10 @@ Nella tabella seguente, sono elencate le informazioni relative agli ID hardware 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -73,10 +73,10 @@ Nella tabella seguente, sono elencate le informazioni relative alle informazioni
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -112,10 +112,10 @@ Nella tabella seguente, gli utenti certificati sono messi in relazione con le in
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -157,10 +157,10 @@ Nella tabella seguente, sono elencate le informazioni relative ai dati utente.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -262,10 +262,10 @@ Nella tabella seguente, vengono elencati gli ID di tutti gli utenti certificati 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo di dati</th>
-<th>Valori NULL</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo di dati</th>
+<th style="border:1px solid black;" >Valori NULL</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

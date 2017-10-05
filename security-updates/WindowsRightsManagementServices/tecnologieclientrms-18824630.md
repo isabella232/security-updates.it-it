@@ -23,10 +23,10 @@ I computer client che fanno parte di una distribuzione di RMS utilizzano le tecn
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tecnologia</th>
-<th>Descrizione</th>
-<th>Emesso da</th>
-<th>Ulteriori informazioni</th>
+<th style="border:1px solid black;" >Tecnologia</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Emesso da</th>
+<th style="border:1px solid black;" >Ulteriori informazioni</th>
 </tr>
 </thead>
 <tbody>

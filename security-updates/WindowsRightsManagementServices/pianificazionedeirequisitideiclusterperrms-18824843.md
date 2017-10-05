@@ -21,8 +21,8 @@ Se si utilizza RMS in una distribuzione su cluster, assicurarsi di aver valutato
 </colgroup>
 <thead>
 <tr class="header">
-<th>Condizione</th>
-<th>Consiglio</th>
+<th style="border:1px solid black;" >Condizione</th>
+<th style="border:1px solid black;" >Consiglio</th>
 </tr>
 </thead>
 <tbody>

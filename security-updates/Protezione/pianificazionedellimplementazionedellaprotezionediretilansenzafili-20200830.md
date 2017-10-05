@@ -200,8 +200,8 @@ L'organizzazione descritta nella sezione precedente applicherà generalmente a u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fattore di progettazione</th>
-<th>Criteri</th>
+<th style="border:1px solid black;" >Fattore di progettazione</th>
+<th style="border:1px solid black;" >Criteri</th>
 </tr>
 </thead>
 <tbody>
@@ -273,10 +273,10 @@ Nella tabella seguente sono riportati i requisiti per l'autenticazione WLAN in o
 </colgroup>
 <thead>
 <tr class="header">
-<th>Numero di utenti WLAN</th>
-<th>Nuove autenticazioni al secondo</th>
-<th>Numero massimo nuove autenticazioni al secondo</th>
-<th>Riautenticazioni al secondo</th>
+<th style="border:1px solid black;" >Numero di utenti WLAN</th>
+<th style="border:1px solid black;" >Nuove autenticazioni al secondo</th>
+<th style="border:1px solid black;" >Numero massimo nuove autenticazioni al secondo</th>
+<th style="border:1px solid black;" >Riautenticazioni al secondo</th>
 </tr>
 </thead>
 <tbody>
@@ -430,9 +430,9 @@ Nella tabella seguente è indicato il numero approssimativo di autenticazioni al
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo di autenticazione</th>
-<th>Nuove autenticazioni</th>
-<th>Autenticazioni con riconnessione rapida</th>
+<th style="border:1px solid black;" >Tipo di autenticazione</th>
+<th style="border:1px solid black;" >Nuove autenticazioni</th>
+<th style="border:1px solid black;" >Autenticazioni con riconnessione rapida</th>
 </tr>
 </thead>
 <tbody>
@@ -520,8 +520,8 @@ In questa soluzione, i criteri di accesso remoto sono configurati come illustrat
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -653,10 +653,10 @@ Come descritto nella sezione "Criteri RADIUS", i criteri di accesso remoto IAS u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gruppo universale di livello superiore (accesso concesso nel criterio di accesso remoto)</th>
-<th>Membri di primo livello
+<th style="border:1px solid black;" >Gruppo universale di livello superiore (accesso concesso nel criterio di accesso remoto)</th>
+<th style="border:1px solid black;" >Membri di primo livello
 (Gruppi globali di dominio)</th>
-<th>Membri di secondo livello
+<th style="border:1px solid black;" >Membri di secondo livello
 (Gruppi globali di dominio)</th>
 </tr>
 </thead>
@@ -689,9 +689,9 @@ Se questo tipo di concessione risulta eccessivamente permissivo per la propria o
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gruppo universale di livello superiore (accesso concesso nel criterio di accesso remoto)</th>
-<th>Membri di primo livello (Gruppi globali di dominio)</th>
-<th>Membri di secondo livello
+<th style="border:1px solid black;" >Gruppo universale di livello superiore (accesso concesso nel criterio di accesso remoto)</th>
+<th style="border:1px solid black;" >Membri di primo livello (Gruppi globali di dominio)</th>
+<th style="border:1px solid black;" >Membri di secondo livello
 (Gruppi globali di dominio)</th>
 </tr>
 </thead>
@@ -738,8 +738,8 @@ I vantaggi e gli svantaggi principali dell'utilizzo di una CA interna rispetto a
 </colgroup>
 <thead>
 <tr class="header">
-<th>CA interna</th>
-<th>CA commerciale</th>
+<th style="border:1px solid black;" >CA interna</th>
+<th style="border:1px solid black;" >CA commerciale</th>
 </tr>
 </thead>
 <tbody>
@@ -925,10 +925,10 @@ Nella tabella seguente viene illustrata l'organizzazione dei gruppi di protezion
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gruppo universale di livello superiore (accesso concesso nel criterio di accesso remoto)</th>
-<th>Membri di primo livello
+<th style="border:1px solid black;" >Gruppo universale di livello superiore (accesso concesso nel criterio di accesso remoto)</th>
+<th style="border:1px solid black;" >Membri di primo livello
 (Gruppi globali di dominio)</th>
-<th>Membri di secondo livello
+<th style="border:1px solid black;" >Membri di secondo livello
 (Gruppi globali di dominio)</th>
 </tr>
 </thead>

@@ -21,8 +21,8 @@ La tabella che segue elenca le chiavi utilizzate in un sistema RMS.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Chiave</th>
-<th>Utilizzo</th>
+<th style="border:1px solid black;" >Chiave</th>
+<th style="border:1px solid black;" >Utilizzo</th>
 </tr>
 </thead>
 <tbody>

@@ -35,8 +35,8 @@ Nella tabella seguente viene mostrata la correlazione tra i capitoli delle due s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Soluzione EAP-TLS</th>
-<th>Soluzione PEAP</th>
+<th style="border:1px solid black;" >Soluzione EAP-TLS</th>
+<th style="border:1px solid black;" >Soluzione PEAP</th>
 </tr>
 </thead>
 <tbody>

@@ -229,9 +229,9 @@ Nella tabella che segue sono illustrate le impostazioni consigliate in Installaz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Sottocomponente o servizio</th>
-<th>Impostazione predefinita</th>
-<th>Impostazione del server Web</th>
+<th style="border:1px solid black;" >Sottocomponente o servizio</th>
+<th style="border:1px solid black;" >Impostazione predefinita</th>
+<th style="border:1px solid black;" >Impostazione del server Web</th>
 </tr>
 </thead>
 <tbody>

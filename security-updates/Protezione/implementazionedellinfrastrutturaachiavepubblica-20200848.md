@@ -133,9 +133,9 @@ Prima di iniziare la procedura di installazione è necessario assicurarsi che si
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
-<th>Riferimento script</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Riferimento script</th>
 </tr>
 </thead>
 <tbody>
@@ -208,9 +208,9 @@ Non è necessario modificare le impostazioni elencate in questa tabella per un'i
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
-<th>Riferimento script</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Riferimento script</th>
 </tr>
 </thead>
 <tbody>
@@ -474,8 +474,8 @@ Nella tabella seguente vengono fornite le specifiche hardware consigliate in bas
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Requisito</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Requisito</th>
 </tr>
 </thead>
 <tbody>
@@ -516,8 +516,8 @@ Il livello di prestazioni richiesto per la CA di emissione è relativamente bass
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Requisito</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Requisito</th>
 </tr>
 </thead>
 <tbody>
@@ -688,8 +688,8 @@ IIS viene installato con Gestione componenti facoltativi di Windows (accessibile
 </colgroup>
 <thead>
 <tr class="header">
-<th>Componente</th>
-<th>Stato installazione</th>
+<th style="border:1px solid black;" >Componente</th>
+<th style="border:1px solid black;" >Stato installazione</th>
 </tr>
 </thead>
 <tbody>
@@ -759,9 +759,9 @@ IIS viene installato con Gestione componenti facoltativi di Windows (accessibile
         </colgroup>
         <thead>
         <tr class="header">
-        <th>Utente/Gruppo</th>
-        <th>Autorizzazione</th>
-        <th>Consenti/Nega</th>
+        <th style="border:1px solid black;" >Utente/Gruppo</th>
+        <th style="border:1px solid black;" >Autorizzazione</th>
+        <th style="border:1px solid black;" >Consenti/Nega</th>
         </tr>
         </thead>
         <tbody>
@@ -1014,8 +1014,8 @@ Questo script crea i gruppi di protezione elencati nella tabella seguente come g
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome gruppo</th>
-<th>Scopo</th>
+<th style="border:1px solid black;" >Nome gruppo</th>
+<th style="border:1px solid black;" >Scopo</th>
 </tr>
 </thead>
 <tbody>
@@ -1081,8 +1081,8 @@ Lo script crea gli account di dominio descritti nella tabella seguente. Lo scrip
 </colgroup>
 <thead>
 <tr class="header">
-<th>Account utente</th>
-<th>Scopo dell'account</th>
+<th style="border:1px solid black;" >Account utente</th>
+<th style="border:1px solid black;" >Scopo dell'account</th>
 </tr>
 </thead>
 <tbody>
@@ -1141,8 +1141,8 @@ Numerose organizzazioni utilizzeranno tre ruoli: CA Administrator, Auditor e Bac
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruolo amministrativo semplificato</th>
-<th>Appartenenza al gruppo</th>
+<th style="border:1px solid black;" >Ruolo amministrativo semplificato</th>
+<th style="border:1px solid black;" >Appartenenza al gruppo</th>
 </tr>
 </thead>
 <tbody>
@@ -1183,8 +1183,8 @@ Esistono diversi tipi di gruppi e account utenti associati alla gestione e al fu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Unità organizzativa</th>
-<th>Scopo</th>
+<th style="border:1px solid black;" >Unità organizzativa</th>
+<th style="border:1px solid black;" >Scopo</th>
 </tr>
 </thead>
 <tbody>
@@ -1399,8 +1399,8 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
         </colgroup>
         <thead>
         <tr class="header">
-        <th>Nome gruppo</th>
-        <th>Scopo</th>
+        <th style="border:1px solid black;" >Nome gruppo</th>
+        <th style="border:1px solid black;" >Scopo</th>
         </tr>
         </thead>
         <tbody>
@@ -1442,8 +1442,8 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
         </colgroup>
         <thead>
         <tr class="header">
-        <th>Nome account</th>
-        <th>Scopo</th>
+        <th style="border:1px solid black;" >Nome account</th>
+        <th style="border:1px solid black;" >Scopo</th>
         </tr>
         </thead>
         <tbody>
@@ -1480,8 +1480,8 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
         </colgroup>
         <thead>
         <tr class="header">
-        <th>Nome account</th>
-        <th>Appartenenza al gruppo</th>
+        <th style="border:1px solid black;" >Nome account</th>
+        <th style="border:1px solid black;" >Appartenenza al gruppo</th>
         </tr>
         </thead>
         <tbody>
@@ -1521,8 +1521,8 @@ La maggior parte delle organizzazioni non richiede una struttura amministrativa 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruolo amministrativo semplificato</th>
-<th>Appartenenza al gruppo</th>
+<th style="border:1px solid black;" >Ruolo amministrativo semplificato</th>
+<th style="border:1px solid black;" >Appartenenza al gruppo</th>
 </tr>
 </thead>
 <tbody>
@@ -1703,9 +1703,9 @@ La procedura seguente descrive come creare le unità organizzative e i GPO per l
         </colgroup>
         <thead>
         <tr class="header">
-        <th>OU</th>
-        <th>GPO</th>
-        <th>Modello di protezione</th>
+        <th style="border:1px solid black;" >OU</th>
+        <th style="border:1px solid black;" >GPO</th>
+        <th style="border:1px solid black;" >Modello di protezione</th>
         </tr>
         </thead>
         <tbody>
@@ -1787,9 +1787,9 @@ Dopo aver creato i GPO e aver importato i modelli, è necessario personalizzare 
         </colgroup>
         <thead>
         <tr class="header">
-        <th>Utente/Gruppo</th>
-        <th>Autorizzazione</th>
-        <th>Consenti/Nega</th>
+        <th style="border:1px solid black;" >Utente/Gruppo</th>
+        <th style="border:1px solid black;" >Autorizzazione</th>
+        <th style="border:1px solid black;" >Consenti/Nega</th>
         </tr>
         </thead>
         <tbody>
@@ -1837,9 +1837,9 @@ Dopo aver creato i GPO e aver importato i modelli, è necessario personalizzare 
         </colgroup>
         <thead>
         <tr class="header">
-        <th>Autorizzazione</th>
-        <th>Riuscito</th>
-        <th>Non riuscito</th>
+        <th style="border:1px solid black;" >Autorizzazione</th>
+        <th style="border:1px solid black;" >Riuscito</th>
+        <th style="border:1px solid black;" >Non riuscito</th>
         </tr>
         </thead>
         <tbody>
@@ -2003,9 +2003,9 @@ Queste impostazioni devono essere configurate nel GPO di protezione di Servizi c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Percorso</th>
-<th>Criterio</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Percorso</th>
+<th style="border:1px solid black;" >Criterio</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -2215,8 +2215,8 @@ Installare i componenti software CA utilizzando la procedura Aggiunta guidata co
         </colgroup>
         <thead>
         <tr class="header">
-        <th>Attributo del certificato</th>
-        <th>Impostazione richiesta</th>
+        <th style="border:1px solid black;" >Attributo del certificato</th>
+        <th style="border:1px solid black;" >Impostazione richiesta</th>
         </tr>
         </thead>
         <tbody>
@@ -2267,8 +2267,8 @@ La configurazione della CA applica una serie di parametri specifici dell'ambient
 </colgroup>
 <thead>
 <tr class="header">
-<th>Proprietà CA</th>
-<th>Descrizione dell'impostazione</th>
+<th style="border:1px solid black;" >Proprietà CA</th>
+<th style="border:1px solid black;" >Descrizione dell'impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -2343,9 +2343,9 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori, gestione
         </colgroup>
         <thead>
         <tr class="header">
-        <th>Nome gruppo</th>
-        <th>Autorizzazione</th>
-        <th>Consenti/Nega</th>
+        <th style="border:1px solid black;" >Nome gruppo</th>
+        <th style="border:1px solid black;" >Autorizzazione</th>
+        <th style="border:1px solid black;" >Consenti/Nega</th>
         </tr>
         </thead>
         <tbody>
@@ -2646,8 +2646,8 @@ La CA deve ora avviarsi.
         </colgroup>
         <thead>
         <tr class="header">
-        <th>Attributo del certificato</th>
-        <th>Impostazione richiesta</th>
+        <th style="border:1px solid black;" >Attributo del certificato</th>
+        <th style="border:1px solid black;" >Impostazione richiesta</th>
         </tr>
         </thead>
         <tbody>
@@ -2711,8 +2711,8 @@ La configurazione della CA applica una serie di parametri specifici dell'ambient
 </colgroup>
 <thead>
 <tr class="header">
-<th>Proprietà CA</th>
-<th>Descrizione dell'impostazione</th>
+<th style="border:1px solid black;" >Proprietà CA</th>
+<th style="border:1px solid black;" >Descrizione dell'impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -2784,9 +2784,9 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori, gestione
         </colgroup>
         <thead>
         <tr class="header">
-        <th>Nome gruppo</th>
-        <th>Autorizzazione</th>
-        <th>Consenti/Nega</th>
+        <th style="border:1px solid black;" >Nome gruppo</th>
+        <th style="border:1px solid black;" >Autorizzazione</th>
+        <th style="border:1px solid black;" >Consenti/Nega</th>
         </tr>
         </thead>
         <tbody>

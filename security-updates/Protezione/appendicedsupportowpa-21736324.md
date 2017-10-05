@@ -40,9 +40,9 @@ Poiché lo standard WPA utilizza il protocollo 802.1X per l'autenticazione di re
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento della soluzione</th>
-<th>Considerazione</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >Elemento della soluzione</th>
+<th style="border:1px solid black;" >Considerazione</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>

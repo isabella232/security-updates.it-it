@@ -285,9 +285,9 @@ Una decisione fondamentale riguarda il tempo di archiviazione dei dati legali. L
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fattori di archiviazione</th>
-<th>Limite di archiviazione</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >Fattori di archiviazione</th>
+<th style="border:1px solid black;" >Limite di archiviazione</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>

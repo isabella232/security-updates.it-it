@@ -97,9 +97,9 @@ In questa tabella sono elencate le attività da eseguire per avviare la produzio
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome attività</th>
-<th>Cluster di ruoli</th>
-<th>SMF</th>
+<th style="border:1px solid black;" >Nome attività</th>
+<th style="border:1px solid black;" >Cluster di ruoli</th>
+<th style="border:1px solid black;" >SMF</th>
 </tr>
 </thead>
 <tbody>
@@ -212,9 +212,9 @@ In questa tabella sono elencate le attività da eseguire regolarmente per manten
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome attività</th>
-<th>Frequenza</th>
-<th>SMF</th>
+<th style="border:1px solid black;" >Nome attività</th>
+<th style="border:1px solid black;" >Frequenza</th>
+<th style="border:1px solid black;" >SMF</th>
 </tr>
 </thead>
 <tbody>
@@ -285,8 +285,8 @@ Nella tabella riportata di seguito sono elencati gli strumenti o le tecnologie u
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Origine</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Origine</th>
 </tr>
 </thead>
 <tbody>
@@ -392,8 +392,8 @@ Periferica di backup locale</td>
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Origine</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Origine</th>
 </tr>
 </thead>
 <tbody>
@@ -441,9 +441,9 @@ Questa categoria di ruoli è fondamentale per la gestione di un'infrastruttura a
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del ruolo</th>
-<th>Ambito</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome del ruolo</th>
+<th style="border:1px solid black;" >Ambito</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -520,9 +520,9 @@ I ruoli operativi descritti nella tabella riportata di seguito non sono centrali
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del ruolo</th>
-<th>Ambito</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome del ruolo</th>
+<th style="border:1px solid black;" >Ambito</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -574,10 +574,10 @@ I gruppi di protezione di dominio delle CA in linea vengono utilizzati per appli
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del ruolo</th>
-<th>Gruppo di protezione di dominio (CA in linea)</th>
-<th>Gruppo di protezione locale (CA non in linea)</th>
-<th>Privilegi</th>
+<th style="border:1px solid black;" >Nome del ruolo</th>
+<th style="border:1px solid black;" >Gruppo di protezione di dominio (CA in linea)</th>
+<th style="border:1px solid black;" >Gruppo di protezione locale (CA non in linea)</th>
+<th style="border:1px solid black;" >Privilegi</th>
 </tr>
 </thead>
 <tbody>
@@ -703,9 +703,9 @@ Questa attività non è rigida, infatti dipende molto dalla struttura dell'unit�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Unità operativa</th>
-<th>Gruppi</th>
-<th>Scopo</th>
+<th style="border:1px solid black;" >Unità operativa</th>
+<th style="border:1px solid black;" >Gruppi</th>
+<th style="border:1px solid black;" >Scopo</th>
 </tr>
 </thead>
 <tbody>
@@ -1768,8 +1768,8 @@ In questo capitolo vengono utilizzate le seguenti categorie di avvisi. Di queste
 </colgroup>
 <thead>
 <tr class="header">
-<th>Categoria di avvisi</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Categoria di avvisi</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -1839,9 +1839,9 @@ I seguenti contatori di prestazioni sono i più utili per identificare le restri
 </colgroup>
 <thead>
 <tr class="header">
-<th>Oggetto prestazioni</th>
-<th>Contatore prestazioni</th>
-<th>Instance</th>
+<th style="border:1px solid black;" >Oggetto prestazioni</th>
+<th style="border:1px solid black;" >Contatore prestazioni</th>
+<th style="border:1px solid black;" >Instance</th>
 </tr>
 </thead>
 <tbody>
@@ -1932,9 +1932,9 @@ La colonna Criticità si riferisce alle Categorie di avvisi definite nella proce
 </colgroup>
 <thead>
 <tr class="header">
-<th>Stato Servizi certificati</th>
-<th>Significato</th>
-<th>Criticità</th>
+<th style="border:1px solid black;" >Stato Servizi certificati</th>
+<th style="border:1px solid black;" >Significato</th>
+<th style="border:1px solid black;" >Criticità</th>
 </tr>
 </thead>
 <tbody>
@@ -2022,9 +2022,9 @@ Gli script sono stati progettati per essere eseguiti sulla CA di emissione in li
 </colgroup>
 <thead>
 <tr class="header">
-<th>Event</th>
-<th>Script o metodo di rilevamento</th>
-<th>Origine e
+<th style="border:1px solid black;" >Event</th>
+<th style="border:1px solid black;" >Script o metodo di rilevamento</th>
+<th style="border:1px solid black;" >Origine e
 ID evento</th>
 </tr>
 </thead>
@@ -2222,10 +2222,10 @@ Le categorie degli avvisi di operazione riuscita e operazione non riuscita della
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Descrizione evento</th>
-<th>Categoria avviso di operazione riuscita</th>
-<th>Categoria avviso di operazione non riuscita</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Descrizione evento</th>
+<th style="border:1px solid black;" >Categoria avviso di operazione riuscita</th>
+<th style="border:1px solid black;" >Categoria avviso di operazione non riuscita</th>
 </tr>
 </thead>
 <tbody>
@@ -2596,10 +2596,10 @@ Solo sulla CA di emissione possono essere eseguiti processi automatici. La CA pr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Descrizione della mansione</th>
-<th>Schedule</th>
-<th>Eseguito da</th>
-<th>Attività di riferimento</th>
+<th style="border:1px solid black;" >Descrizione della mansione</th>
+<th style="border:1px solid black;" >Schedule</th>
+<th style="border:1px solid black;" >Eseguito da</th>
+<th style="border:1px solid black;" >Attività di riferimento</th>
 </tr>
 </thead>
 <tbody>
@@ -3812,9 +3812,9 @@ Nella tabella seguente sono elencati i principali problemi di supporto e le rela
 </colgroup>
 <thead>
 <tr class="header">
-<th>Problema</th>
-<th>Descrizione</th>
-<th>Processo supporto</th>
+<th style="border:1px solid black;" >Problema</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Processo supporto</th>
 </tr>
 </thead>
 <tbody>
@@ -4079,8 +4079,8 @@ Nelle tabelle che seguono sono contenuti i valori di configurazione specifici de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -4125,8 +4125,8 @@ Nelle tabelle che seguono sono contenuti i valori di configurazione specifici de
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>

@@ -87,8 +87,8 @@ La valutazione dei rischi richiede l'interazione tra i gruppi e l'assunzione di 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruolo</th>
-<th>Responsabilità</th>
+<th style="border:1px solid black;" >Ruolo</th>
+<th style="border:1px solid black;" >Responsabilità</th>
 </tr>
 </thead>
 <tbody>
@@ -794,9 +794,9 @@ Nella figura successiva viene valutata l'efficacia dei controlli esistenti. Il v
 </colgroup>
 <thead>
 <tr class="header">
-<th>Domanda sull'efficacia dei controlli</th>
-<th>Valore</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Domanda sull'efficacia dei controlli</th>
+<th style="border:1px solid black;" >Valore</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

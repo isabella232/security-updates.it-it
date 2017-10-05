@@ -81,8 +81,8 @@ Durante questa fase del processo di gestione dei rischi di protezione Microsoft 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Informazioni da raccogliere</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Informazioni da raccogliere</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -281,8 +281,8 @@ In questa fase, il Team di gestione dei rischi di protezione crea report sul pro
 </colgroup>
 <thead>
 <tr class="header">
-<th>Informazioni da raccogliere</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Informazioni da raccogliere</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

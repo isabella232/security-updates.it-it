@@ -26,9 +26,9 @@ In questa appendice vengono elencate le vulnerabilità a cui è probabile che si
 </colgroup>
 <thead>
 <tr class="header">
-<th>Classe della vulnerabilità</th>
-<th>Vulnerabilità</th>
-<th>Esempio</th>
+<th style="border:1px solid black;" >Classe della vulnerabilità</th>
+<th style="border:1px solid black;" >Vulnerabilità</th>
+<th style="border:1px solid black;" >Esempio</th>
 </tr>
 </thead>
 <tbody>

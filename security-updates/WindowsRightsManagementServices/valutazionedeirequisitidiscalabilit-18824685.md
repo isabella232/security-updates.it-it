@@ -31,10 +31,10 @@ Per valutare i requisiti di utilizzo di un sistema RMS, è possibile utilizzare 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Transazione</th>
-<th>Ricorrenza</th>
-<th>Utilizzo larghezza di banda da client a server (KB)</th>
-<th>Utilizzo larghezza di banda da server a client (KB)</th>
+<th style="border:1px solid black;" >Transazione</th>
+<th style="border:1px solid black;" >Ricorrenza</th>
+<th style="border:1px solid black;" >Utilizzo larghezza di banda da client a server (KB)</th>
+<th style="border:1px solid black;" >Utilizzo larghezza di banda da server a client (KB)</th>
 </tr>
 </thead>
 <tbody>
@@ -74,9 +74,9 @@ La seguente tabella fornisce i dati di base sull'utilizzo della banda larga dell
 </colgroup>
 <thead>
 <tr class="header">
-<th>Transazione</th>
-<th>Uso della banda larga da RMS al catalogo globale (byte)</th>
-<th>Uso della banda larga dal catalogo globale a RMS (byte)</th>
+<th style="border:1px solid black;" >Transazione</th>
+<th style="border:1px solid black;" >Uso della banda larga da RMS al catalogo globale (byte)</th>
+<th style="border:1px solid black;" >Uso della banda larga dal catalogo globale a RMS (byte)</th>
 </tr>
 </thead>
 <tbody>

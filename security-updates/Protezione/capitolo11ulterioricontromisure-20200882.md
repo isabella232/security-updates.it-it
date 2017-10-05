@@ -326,14 +326,14 @@ Partendo da filtri IPsec più restrittivi e aprendo le porte solo all’occorren
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servizio</th>
-<th>Protocollo</th>
-<th>Porta di origine</th>
-<th>Porta di destinazione</th>
-<th>Indirizzo di origine</th>
-<th>Indirizzo di destinazione</th>
-<th>Azione</th>
-<th>Mirror</th>
+<th style="border:1px solid black;" >Servizio</th>
+<th style="border:1px solid black;" >Protocollo</th>
+<th style="border:1px solid black;" >Porta di origine</th>
+<th style="border:1px solid black;" >Porta di destinazione</th>
+<th style="border:1px solid black;" >Indirizzo di origine</th>
+<th style="border:1px solid black;" >Indirizzo di destinazione</th>
+<th style="border:1px solid black;" >Azione</th>
+<th style="border:1px solid black;" >Mirror</th>
 </tr>
 </thead>
 <tbody>
@@ -410,14 +410,14 @@ Se è necessario utilizzare un servizio client le cui connessioni non si limitan
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servizio</th>
-<th>Protocollo</th>
-<th>Porta di origine</th>
-<th>Porta di destinazione</th>
-<th>Indirizzo di origine</th>
-<th>Indirizzo di destinazione</th>
-<th>Azione</th>
-<th>Mirror</th>
+<th style="border:1px solid black;" >Servizio</th>
+<th style="border:1px solid black;" >Protocollo</th>
+<th style="border:1px solid black;" >Porta di origine</th>
+<th style="border:1px solid black;" >Porta di destinazione</th>
+<th style="border:1px solid black;" >Indirizzo di origine</th>
+<th style="border:1px solid black;" >Indirizzo di destinazione</th>
+<th style="border:1px solid black;" >Azione</th>
+<th style="border:1px solid black;" >Mirror</th>
 </tr>
 </thead>
 <tbody>
@@ -566,14 +566,14 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servizio</th>
-<th>Protocollo</th>
-<th>Porta di origine</th>
-<th>Porta di destinazione</th>
-<th>Indirizzo di origine</th>
-<th>Indirizzo di destinazione</th>
-<th>Azione</th>
-<th>Mirror</th>
+<th style="border:1px solid black;" >Servizio</th>
+<th style="border:1px solid black;" >Protocollo</th>
+<th style="border:1px solid black;" >Porta di origine</th>
+<th style="border:1px solid black;" >Porta di destinazione</th>
+<th style="border:1px solid black;" >Indirizzo di origine</th>
+<th style="border:1px solid black;" >Indirizzo di destinazione</th>
+<th style="border:1px solid black;" >Azione</th>
+<th style="border:1px solid black;" >Mirror</th>
 </tr>
 </thead>
 <tbody>

@@ -85,10 +85,10 @@ Poiché RMS con SP2 fornisce numerosi miglioramenti e livelli più elevati di pr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Versione del server RMS</th>
-<th>Funzionalità supportate con i client versione 1</th>
-<th>Funzionalità supportate con i client SP2</th>
-<th>Funzionalità supportate in ambienti client misti</th>
+<th style="border:1px solid black;" >Versione del server RMS</th>
+<th style="border:1px solid black;" >Funzionalità supportate con i client versione 1</th>
+<th style="border:1px solid black;" >Funzionalità supportate con i client SP2</th>
+<th style="border:1px solid black;" >Funzionalità supportate in ambienti client misti</th>
 </tr>
 </thead>
 <tbody>

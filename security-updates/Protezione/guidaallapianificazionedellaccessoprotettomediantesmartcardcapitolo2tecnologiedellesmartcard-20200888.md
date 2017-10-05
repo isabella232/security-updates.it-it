@@ -257,9 +257,9 @@ Windows XP e la famiglia di Windows Server 2003 supportano i lettori di smart 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Marca</th>
-<th>Modello</th>
-<th>Interfaccia</th>
+<th style="border:1px solid black;" >Marca</th>
+<th style="border:1px solid black;" >Modello</th>
+<th style="border:1px solid black;" >Interfaccia</th>
 </tr>
 </thead>
 <tbody>

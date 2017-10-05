@@ -21,8 +21,8 @@ Nella tabella seguente, vengono illustrati i requisiti hardware minimi e vengono
 </colgroup>
 <thead>
 <tr class="header">
-<th>Requisito</th>
-<th>Consiglio</th>
+<th style="border:1px solid black;" >Requisito</th>
+<th style="border:1px solid black;" >Consiglio</th>
 </tr>
 </thead>
 <tbody>

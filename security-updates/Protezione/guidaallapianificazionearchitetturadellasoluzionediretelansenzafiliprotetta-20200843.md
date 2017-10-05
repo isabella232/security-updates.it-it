@@ -202,8 +202,8 @@ Da questi requisiti, è possibile determinare i criteri riportati nella seguente
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fattore di progettazione</th>
-<th>Criteri</th>
+<th style="border:1px solid black;" >Fattore di progettazione</th>
+<th style="border:1px solid black;" >Criteri</th>
 </tr>
 </thead>
 <tbody>

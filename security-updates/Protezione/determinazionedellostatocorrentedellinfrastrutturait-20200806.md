@@ -237,10 +237,10 @@ Lo scenario della Woodgrove Bank utilizza un solo insieme di strutture (corp.woo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Sito fisico</th>
-<th>Dominio</th>
-<th>Utenti</th>
-<th>Tipo di controller di dominio</th>
+<th style="border:1px solid black;" >Sito fisico</th>
+<th style="border:1px solid black;" >Dominio</th>
+<th style="border:1px solid black;" >Utenti</th>
+<th style="border:1px solid black;" >Tipo di controller di dominio</th>
 </tr>
 </thead>
 <tbody>
@@ -484,9 +484,9 @@ Per creare un file di script che acquisisca le informazioni di configurazione di
 </colgroup>
 <thead>
 <tr class="header">
-<th>Piattaforma</th>
-<th>VBScript</th>
-<th>WMI</th>
+<th style="border:1px solid black;" >Piattaforma</th>
+<th style="border:1px solid black;" >VBScript</th>
+<th style="border:1px solid black;" >WMI</th>
 </tr>
 </thead>
 <tbody>
@@ -771,12 +771,12 @@ La tabella seguente riporta alcuni dati di esempio e può essere utilizzata per 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome host</th>
-<th>Requisiti hardware soddisfatti</th>
-<th>Requisiti software soddisfatti</th>
-<th>Configurazione necessaria</th>
-<th>Dettagli</th>
-<th>Costo previsto</th>
+<th style="border:1px solid black;" >Nome host</th>
+<th style="border:1px solid black;" >Requisiti hardware soddisfatti</th>
+<th style="border:1px solid black;" >Requisiti software soddisfatti</th>
+<th style="border:1px solid black;" >Configurazione necessaria</th>
+<th style="border:1px solid black;" >Dettagli</th>
+<th style="border:1px solid black;" >Costo previsto</th>
 </tr>
 </thead>
 <tbody>

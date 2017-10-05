@@ -122,10 +122,10 @@ Questa soluzione si rivolge alle organizzazioni che adottano Active Directory e 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Funzionalità</th>
-<th>Windows Server 2003 in modalità nativa</th>
-<th>Windows 2000 in modalità nativa</th>
-<th>Modalità mista
+<th style="border:1px solid black;" >Funzionalità</th>
+<th style="border:1px solid black;" >Windows Server 2003 in modalità nativa</th>
+<th style="border:1px solid black;" >Windows 2000 in modalità nativa</th>
+<th style="border:1px solid black;" >Modalità mista
 o
 Microsoft Windows NT® 4.0</th>
 </tr>
@@ -201,9 +201,9 @@ Nella tabella seguente vengono descritte alcune delle funzionalità dei server c
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruolo RADIUS del server IAS</th>
-<th>Funzionalità</th>
-<th>Scenario</th>
+<th style="border:1px solid black;" >Ruolo RADIUS del server IAS</th>
+<th style="border:1px solid black;" >Funzionalità</th>
+<th style="border:1px solid black;" >Scenario</th>
 </tr>
 </thead>
 <tbody>
@@ -255,9 +255,9 @@ Nella tabella seguente vengono illustrate le varie opzioni che consentono di ass
 </colgroup>
 <thead>
 <tr class="header">
-<th>Metodo di failover e bilanciamento del carico</th>
-<th>Vantaggi</th>
-<th>Svantaggi</th>
+<th style="border:1px solid black;" >Metodo di failover e bilanciamento del carico</th>
+<th style="border:1px solid black;" >Vantaggi</th>
+<th style="border:1px solid black;" >Svantaggi</th>
 </tr>
 </thead>
 <tbody>
@@ -368,8 +368,8 @@ Le organizzazioni prive di SQL Server 2000 o a corto di personale in grado di es
 </colgroup>
 <thead>
 <tr class="header">
-<th>Decisione di progettazione in relazione alla registrazione IAS</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >Decisione di progettazione in relazione alla registrazione IAS</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -460,9 +460,9 @@ Vista la notevole quantità di comunicazioni stabilite tra il server IAS e i con
 </colgroup>
 <thead>
 <tr class="header">
-<th>Posizione di IAS</th>
-<th>Vantaggi</th>
-<th>Svantaggi</th>
+<th style="border:1px solid black;" >Posizione di IAS</th>
+<th style="border:1px solid black;" >Vantaggi</th>
+<th style="border:1px solid black;" >Svantaggi</th>
 </tr>
 </thead>
 <tbody>
@@ -499,9 +499,9 @@ Questa soluzione richiede la versione di IAS inclusa in Windows Server 2003. È 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Fattore da valutare</th>
-<th>Requisito</th>
-<th>Commento</th>
+<th style="border:1px solid black;" >Fattore da valutare</th>
+<th style="border:1px solid black;" >Requisito</th>
+<th style="border:1px solid black;" >Commento</th>
 </tr>
 </thead>
 <tbody>
@@ -557,8 +557,8 @@ Pertanto, nel creare un modello per un determinato numero di autenticazioni che 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo di autenticazione</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >Tipo di autenticazione</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -603,8 +603,8 @@ La stima del numero di autenticazioni che IAS è in grado di gestire deve essere
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo di autenticazione</th>
-<th>Autenticazioni al secondo</th>
+<th style="border:1px solid black;" >Tipo di autenticazione</th>
+<th style="border:1px solid black;" >Autenticazioni al secondo</th>
 </tr>
 </thead>
 <tbody>
@@ -657,8 +657,8 @@ Nella tabella che segue sono descritti in dettaglio i componenti hardware del se
 </colgroup>
 <thead>
 <tr class="header">
-<th>Risorsa</th>
-<th>Configurazione</th>
+<th style="border:1px solid black;" >Risorsa</th>
+<th style="border:1px solid black;" >Configurazione</th>
 </tr>
 </thead>
 <tbody>
@@ -736,9 +736,9 @@ IAS è un componente facoltativo del sistema operativo Windows Server 2003 e per
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruolo del personale</th>
-<th>Descrizione del ruolo</th>
-<th>Attività</th>
+<th style="border:1px solid black;" >Ruolo del personale</th>
+<th style="border:1px solid black;" >Descrizione del ruolo</th>
+<th style="border:1px solid black;" >Attività</th>
 </tr>
 </thead>
 <tbody>
@@ -779,9 +779,9 @@ Nella tabella seguente sono descritte le autorizzazioni per le risorse che occor
 </colgroup>
 <thead>
 <tr class="header">
-<th>Operazione</th>
-<th>Appartenenza al gruppo</th>
-<th>Autorizzazione o diritti necessari</th>
+<th style="border:1px solid black;" >Operazione</th>
+<th style="border:1px solid black;" >Appartenenza al gruppo</th>
+<th style="border:1px solid black;" >Autorizzazione o diritti necessari</th>
 </tr>
 </thead>
 <tbody>
@@ -839,9 +839,9 @@ Nella tabella seguente vengono elencati i possibili pericoli da monitorare per l
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pericolo/Vulnerabilità</th>
-<th>Sintomo</th>
-<th>Strumento di monitoraggio</th>
+<th style="border:1px solid black;" >Pericolo/Vulnerabilità</th>
+<th style="border:1px solid black;" >Sintomo</th>
+<th style="border:1px solid black;" >Strumento di monitoraggio</th>
 </tr>
 </thead>
 <tbody>
@@ -892,9 +892,9 @@ Nella tabella che segue sono elencati i potenziali pericoli per l'infrastruttura
 </colgroup>
 <thead>
 <tr class="header">
-<th>Pericolo/Vulnerabilità</th>
-<th>Sintomo</th>
-<th>Strumento di controllo</th>
+<th style="border:1px solid black;" >Pericolo/Vulnerabilità</th>
+<th style="border:1px solid black;" >Sintomo</th>
+<th style="border:1px solid black;" >Strumento di controllo</th>
 </tr>
 </thead>
 <tbody>

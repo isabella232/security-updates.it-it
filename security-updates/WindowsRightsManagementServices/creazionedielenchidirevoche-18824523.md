@@ -175,8 +175,8 @@ Utilizzare le informazioni seguenti per completare i parametri di input del coma
 </colgroup>
 <thead>
 <tr class="header">
-<th>Parametro</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Parametro</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -222,8 +222,8 @@ Nel codice restituito dallo strumento RLsigner.exe vengono segnalati i principal
 </colgroup>
 <thead>
 <tr class="header">
-<th>Codice restituito</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Codice restituito</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

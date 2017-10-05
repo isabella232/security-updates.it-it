@@ -59,7 +59,7 @@ Eseguire le prime due procedure sull'oggetto Criteri di gruppo basato sul domini
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939830.note(WS.10).gif" />Nota</th>
+<th style="border:1px solid black;" ><img src="images/Dd939830.note(WS.10).gif" />Nota</th>
 </tr>
 </thead>
 <tbody>

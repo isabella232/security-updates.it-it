@@ -60,9 +60,9 @@ Nella tabella che segue è riportato il software necessario per ciascun sistema 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Sistema operativo</th>
-<th>Requisiti</th>
-<th>Download</th>
+<th style="border:1px solid black;" >Sistema operativo</th>
+<th style="border:1px solid black;" >Requisiti</th>
+<th style="border:1px solid black;" >Download</th>
 </tr>
 </thead>
 <tbody>

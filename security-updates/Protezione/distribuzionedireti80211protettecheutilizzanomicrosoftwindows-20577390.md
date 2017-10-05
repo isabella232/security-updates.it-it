@@ -109,9 +109,9 @@ Nella tabella 1 si riassumono i certificati necessari per i diversi tipi di aute
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo di autenticazione</th>
-<th>Certificati sul computer client wireless</th>
-<th>Certificati sul server IAS</th>
+<th style="border:1px solid black;" >Tipo di autenticazione</th>
+<th style="border:1px solid black;" >Certificati sul computer client wireless</th>
+<th style="border:1px solid black;" >Certificati sul server IAS</th>
 </tr>
 </thead>
 <tbody>

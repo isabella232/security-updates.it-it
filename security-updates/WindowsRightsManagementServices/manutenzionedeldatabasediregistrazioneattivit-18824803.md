@@ -47,9 +47,9 @@ Per valutare come funziona questa stima, si consideri che un'organizzazione con 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Azione</th>
-<th>Crescita del file di registrazione</th>
-<th>Dimensione globale delle registrazioni</th>
+<th style="border:1px solid black;" >Azione</th>
+<th style="border:1px solid black;" >Crescita del file di registrazione</th>
+<th style="border:1px solid black;" >Dimensione globale delle registrazioni</th>
 </tr>
 </thead>
 <tbody>

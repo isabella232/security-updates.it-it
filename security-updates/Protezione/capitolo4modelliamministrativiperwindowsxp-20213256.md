@@ -37,9 +37,9 @@ La seguente tabella elenca i file .adm e le applicazioni e i servizi che ne sono
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome file</th>
-<th>Sistema operativo</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome file</th>
+<th style="border:1px solid black;" >Sistema operativo</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -137,11 +137,11 @@ Microsoft NetMeeting consente agli utenti di condurre riunioni virtuali sulla re
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -192,11 +192,11 @@ La tabella seguente riassume molte delle raccomandazioni di impostazione di Inte
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -363,11 +363,11 @@ Per esempio, SP2 configura Internet Explorer in modo che blocchi i pop-up di tut
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -410,11 +410,11 @@ Poiché il software privo di firma può creare vulnerabilità nella protezione, 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -455,11 +455,11 @@ Poiché il protocollo MK non è diffuso, dovrebbe essere bloccato quando non nec
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -502,11 +502,11 @@ Lo spoofing del tipo di file MIME è una minaccia potenziale per l'organizzazion
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -549,11 +549,11 @@ L'impostazione **Processi di Internet Explorer (Analisi MIME)** è configurata s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -594,11 +594,11 @@ L'impostazione **Processi di Internet Explorer** **(Limitazioni protezione Wind
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -639,11 +639,11 @@ A causa della gravità e della relativa frequenza degli attacchi di promozione d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -686,11 +686,11 @@ Per ulteriori informazioni su Windows Update, vedere la pagina [Windows Update](
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -731,11 +731,11 @@ L'impostazione **Processi di Internet Explorer (Limita download file)** è confi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -803,11 +803,11 @@ Le impostazioni Servizi terminal forniscono opzioni per reindirizzare le risorse
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -850,11 +850,11 @@ Per questa ragione, l'impostazione **Non consentire il reindirizzamento delle un
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -908,11 +908,11 @@ Il livello di crittografia è impostato su **Livello principale** per imporre la
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -955,11 +955,11 @@ Windows Messenger è utilizzato per inviare messaggi istantanei ad altri utenti 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1024,11 +1024,11 @@ La seguente tabella riassume le impostazioni di Windows Update consigliate. Nell
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1160,11 +1160,11 @@ La seguente tabella riassume le impostazioni di sistema consigliate. Nelle sotto
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1224,11 +1224,11 @@ La seguente tabella riassume le impostazioni di accesso consigliate. Nelle sotto
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1290,11 +1290,11 @@ L'impostazione **Non elaborare l'elenco di esecuzione unica** è **Non configura
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1341,11 +1341,11 @@ La seguente tabella riassume le impostazioni di Assistenza remota consigliate. N
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1443,11 +1443,11 @@ La seguente tabella riassume le impostazioni di Segnalazione errori consigliate.
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1523,11 +1523,11 @@ La seguente tabella riassume le impostazioni RPC consigliate. Nelle sottosezioni
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1589,11 +1589,11 @@ La seguente tabella riassume le impostazioni di comunicazione Internet consiglia
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1745,11 +1745,11 @@ Le impostazioni in questa sezione configurano il Profilo di dominio di Windows F
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -1870,11 +1870,11 @@ Le impostazioni in questa sezione configurano il profilo standard di Windows Fir
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Desktop EC</th>
-<th>Computer portatile EC</th>
-<th>Desktop SSLF</th>
-<th>Computer portatile SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Desktop EC</th>
+<th style="border:1px solid black;" >Computer portatile EC</th>
+<th style="border:1px solid black;" >Desktop SSLF</th>
+<th style="border:1px solid black;" >Computer portatile SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2140,9 +2140,9 @@ La seguente tabella riassume le impostazioni di configurazione utente consigliat
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Computer EC</th>
-<th>Computer SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Computer EC</th>
+<th style="border:1px solid black;" >Computer SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2407,9 +2407,9 @@ La seguente tabella riassume le impostazioni di configurazione utente consigliat
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Computer EC</th>
-<th>Computer SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Computer EC</th>
+<th style="border:1px solid black;" >Computer SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2481,9 +2481,9 @@ La seguente tabella riassume le impostazioni di configurazione utente consigliat
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Computer EC</th>
-<th>Computer SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Computer EC</th>
+<th style="border:1px solid black;" >Computer SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2543,9 +2543,9 @@ La seguente tabella riassume le impostazioni di configurazione utente consigliat
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Computer EC</th>
-<th>Computer SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Computer EC</th>
+<th style="border:1px solid black;" >Computer SSLF</th>
 </tr>
 </thead>
 <tbody>
@@ -2582,9 +2582,9 @@ La tabella seguente riassume le impostazioni **Richiedi la password al termine d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Computer EC</th>
-<th>Computer SSLF</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Computer EC</th>
+<th style="border:1px solid black;" >Computer SSLF</th>
 </tr>
 </thead>
 <tbody>

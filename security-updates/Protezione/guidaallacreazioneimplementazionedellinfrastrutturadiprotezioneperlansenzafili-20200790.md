@@ -127,8 +127,8 @@ La tabella che segue elenca dei parametri specifici dell'azienda fittizia Woodgr
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -169,8 +169,8 @@ Le impostazioni specificate in questa tabella non devono essere modificate, a me
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -583,8 +583,8 @@ I criteri di accesso remoto IAS utilizzano gruppi di protezione basati su Active
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gruppo di protezione</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Gruppo di protezione</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

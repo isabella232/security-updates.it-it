@@ -27,8 +27,8 @@ L'elenco di controllo di accesso predefinito su questo servizio è illustrato ne
 </colgroup>
 <thead>
 <tr class="header">
-<th>Utente o gruppo</th>
-<th>Autorizzazione predefinita</th>
+<th style="border:1px solid black;" >Utente o gruppo</th>
+<th style="border:1px solid black;" >Autorizzazione predefinita</th>
 </tr>
 </thead>
 <tbody>

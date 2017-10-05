@@ -25,8 +25,8 @@ Nella tabella seguente vengono elencati gli attributi di Active Directory memori
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tabella</th>
-<th>Attributo</th>
+<th style="border:1px solid black;" >Tabella</th>
+<th style="border:1px solid black;" >Attributo</th>
 </tr>
 </thead>
 <tbody>

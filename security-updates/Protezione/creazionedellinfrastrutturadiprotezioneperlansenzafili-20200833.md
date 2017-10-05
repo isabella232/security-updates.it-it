@@ -84,9 +84,9 @@ Di seguito sono indicati gli strumenti necessari per eseguire le procedure ripor
 </colgroup>
 <thead>
 <tr class="header">
-<th>Strumento</th>
-<th>Descrizione</th>
-<th>Origine</th>
+<th style="border:1px solid black;" >Strumento</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Origine</th>
 </tr>
 </thead>
 <tbody>
@@ -122,8 +122,8 @@ Nella seguente tabella sono riportati i parametri principali utilizzati per l'in
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -676,8 +676,8 @@ Nella seguente tabella vengono indicate le impostazioni necessarie per la config
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -816,9 +816,9 @@ Oltre ad abilitare i parametri 802.1X, è necessario configurare una protezione 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Impostazione consigliata</th>
-<th>Note</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Impostazione consigliata</th>
+<th style="border:1px solid black;" >Note</th>
 </tr>
 </thead>
 <tbody>

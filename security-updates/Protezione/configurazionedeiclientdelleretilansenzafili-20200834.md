@@ -65,9 +65,9 @@ Nella tabella riportata di seguito sono elencati gli strumenti richiesti per imp
 </colgroup>
 <thead>
 <tr class="header">
-<th>Strumento</th>
-<th>Descrizione</th>
-<th>Origine</th>
+<th style="border:1px solid black;" >Strumento</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Origine</th>
 </tr>
 </thead>
 <tbody>
@@ -98,8 +98,8 @@ Nella seguente tabella sono indicati alcuni dei parametri principali utilizzati 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>

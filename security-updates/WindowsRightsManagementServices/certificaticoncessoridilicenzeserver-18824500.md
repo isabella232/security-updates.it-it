@@ -26,9 +26,9 @@ Nella tabella seguente vengono elencati i diritti concessi ai server dai certifi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Diritto di rilasciare</th>
-<th>Certificato concessore di licenze server rilasciato a un server di certificazione principale</th>
-<th>Certificato concessore di licenze server rilasciato a un server licenze</th>
+<th style="border:1px solid black;" >Diritto di rilasciare</th>
+<th style="border:1px solid black;" >Certificato concessore di licenze server rilasciato a un server di certificazione principale</th>
+<th style="border:1px solid black;" >Certificato concessore di licenze server rilasciato a un server licenze</th>
 </tr>
 </thead>
 <tbody>

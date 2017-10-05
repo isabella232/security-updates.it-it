@@ -291,9 +291,9 @@ Nella seguente tabella sono elencati gli eventi di controllo che possono indicar
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -327,9 +327,9 @@ Nella seguente tabella sono elencati gli eventi di controllo che possono indicar
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -378,9 +378,9 @@ Nella seguente tabella sono elencati gli eventi che possono indicare la modifica
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -428,9 +428,9 @@ Nella seguente tabella sono elencati gli eventi che possono indicare una modific
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -480,9 +480,9 @@ Nella seguente tabella sono elencati gli eventi che possono indicare l'utilizzo 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -537,9 +537,9 @@ Nella seguente tabella sono elencati gli eventi che possono indicare l'utilizzo 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -585,9 +585,9 @@ Nella seguente tabella sono elencati gli eventi che possono indicare l'utilizzo 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -619,9 +619,9 @@ Questa situazione richiede l'individuazione dei controlli non riusciti sull'ID e
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -699,9 +699,9 @@ Nella seguente tabella sono elencati gli eventi che possono indicare l'utilizzo 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -749,9 +749,9 @@ Nella seguente tabella sono elencati gli eventi in genere causati da utenti mali
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -845,9 +845,9 @@ Nella seguente tabella sono elencati gli eventi che indicano azioni sulle relazi
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -908,9 +908,9 @@ Nella seguente tabella sono elencati gli eventi che possono indicare una modific
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -983,9 +983,9 @@ Nella seguente tabella sono elencati gli eventi generati da attacchi che tentano
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1060,9 +1060,9 @@ Tipiche situazioni di sfruttamento delle vulnerabilità includono i tentativi di
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1101,9 +1101,9 @@ Nella seguente tabella sono elencati gli eventi che possono indicare l'installaz
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>
@@ -1156,9 +1156,9 @@ Il sistema di monitoraggio della protezione deve indicare chiunque tenti di conn
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Occorrenza</th>
-<th>Commenti</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Occorrenza</th>
+<th style="border:1px solid black;" >Commenti</th>
 </tr>
 </thead>
 <tbody>

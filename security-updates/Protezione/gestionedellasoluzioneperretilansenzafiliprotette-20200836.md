@@ -100,8 +100,8 @@ Nella tabella seguente sono elencate le attività da eseguire per rendere operat
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome attività</th>
-<th>Sezione</th>
+<th style="border:1px solid black;" >Nome attività</th>
+<th style="border:1px solid black;" >Sezione</th>
 </tr>
 </thead>
 <tbody>
@@ -139,9 +139,9 @@ Nella tabella seguente sono elencate le attività che devono essere eseguite reg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome attività</th>
-<th>Frequenza</th>
-<th>Sezione</th>
+<th style="border:1px solid black;" >Nome attività</th>
+<th style="border:1px solid black;" >Frequenza</th>
+<th style="border:1px solid black;" >Sezione</th>
 </tr>
 </thead>
 <tbody>
@@ -167,8 +167,8 @@ Nella tabella seguente sono elencati gli strumenti e le tecnologie utilizzati ne
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Origine</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Origine</th>
 </tr>
 </thead>
 <tbody>
@@ -249,8 +249,8 @@ Nella tabella seguente sono elencati gli strumenti e le tecnologie utilizzati ne
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Origine</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Origine</th>
 </tr>
 </thead>
 <tbody>
@@ -426,11 +426,11 @@ Lo script per il monitoraggio e lo script per il backup di IAS registrano i segu
 </colgroup>
 <thead>
 <tr class="header">
-<th>Evento IAS</th>
-<th>Significato</th>
-<th>Categoria evento</th>
-<th>Origine evento</th>
-<th>ID evento</th>
+<th style="border:1px solid black;" >Evento IAS</th>
+<th style="border:1px solid black;" >Significato</th>
+<th style="border:1px solid black;" >Categoria evento</th>
+<th style="border:1px solid black;" >Origine evento</th>
+<th style="border:1px solid black;" >ID evento</th>
 </tr>
 </thead>
 <tbody>
@@ -549,11 +549,11 @@ Lo script per il monitoraggio della CA registra i seguenti eventi nel registro e
 </colgroup>
 <thead>
 <tr class="header">
-<th>Evento CA</th>
-<th>Significato</th>
-<th>Categoria evento</th>
-<th>Origine evento</th>
-<th>ID evento</th>
+<th style="border:1px solid black;" >Evento CA</th>
+<th style="border:1px solid black;" >Significato</th>
+<th style="border:1px solid black;" >Categoria evento</th>
+<th style="border:1px solid black;" >Origine evento</th>
+<th style="border:1px solid black;" >ID evento</th>
 </tr>
 </thead>
 <tbody>
@@ -856,10 +856,10 @@ Nella tabella seguente sono riportati i requisiti per l'autenticazione WLAN in o
 </colgroup>
 <thead>
 <tr class="header">
-<th>Numero utenti WLAN</th>
-<th>Nuove autenticazioni al secondo</th>
-<th>Numero massimo nuove autenticazioni al secondo</th>
-<th>Riautenticazioni al secondo</th>
+<th style="border:1px solid black;" >Numero utenti WLAN</th>
+<th style="border:1px solid black;" >Nuove autenticazioni al secondo</th>
+<th style="border:1px solid black;" >Numero massimo nuove autenticazioni al secondo</th>
+<th style="border:1px solid black;" >Riautenticazioni al secondo</th>
 </tr>
 </thead>
 <tbody>
@@ -902,8 +902,8 @@ I test sono stati condotti con la registrazione RADIUS attivata (in un disco div
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo autenticazione</th>
-<th>Autenticazioni al secondo</th>
+<th style="border:1px solid black;" >Tipo autenticazione</th>
+<th style="border:1px solid black;" >Autenticazioni al secondo</th>
 </tr>
 </thead>
 <tbody>
@@ -969,9 +969,9 @@ Nella tabella seguente sono riportati i diversi tipi di problemi di connessione,
 </colgroup>
 <thead>
 <tr class="header">
-<th>Sintomo</th>
-<th>Possibili problemi</th>
-<th>Procedure diagnostiche da seguire</th>
+<th style="border:1px solid black;" >Sintomo</th>
+<th style="border:1px solid black;" >Possibili problemi</th>
+<th style="border:1px solid black;" >Procedure diagnostiche da seguire</th>
 </tr>
 </thead>
 <tbody>
@@ -1023,8 +1023,8 @@ In questa sezione vengono trattati i problemi di prestazioni associati all'infra
 </colgroup>
 <thead>
 <tr class="header">
-<th>Sintomo</th>
-<th>Soluzione possibile</th>
+<th style="border:1px solid black;" >Sintomo</th>
+<th style="border:1px solid black;" >Soluzione possibile</th>
 </tr>
 </thead>
 <tbody>
@@ -1120,8 +1120,8 @@ Nella seguente tabelle è elencata una serie di controlli da eseguire qualora si
 </colgroup>
 <thead>
 <tr class="header">
-<th>Controllo</th>
-<th>Dettagli</th>
+<th style="border:1px solid black;" >Controllo</th>
+<th style="border:1px solid black;" >Dettagli</th>
 </tr>
 </thead>
 <tbody>
@@ -1184,8 +1184,8 @@ Nella tabella seguente sono indicati i controlli che è possibile eseguire per d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Controllo</th>
-<th>Dettagli</th>
+<th style="border:1px solid black;" >Controllo</th>
+<th style="border:1px solid black;" >Dettagli</th>
 </tr>
 </thead>
 <tbody>
@@ -1234,8 +1234,8 @@ Nella tabella seguente sono elencati i controlli da eseguire su Active Directory
 </colgroup>
 <thead>
 <tr class="header">
-<th>Controllo</th>
-<th>Dettagli</th>
+<th style="border:1px solid black;" >Controllo</th>
+<th style="border:1px solid black;" >Dettagli</th>
 </tr>
 </thead>
 <tbody>
@@ -1276,8 +1276,8 @@ Nella tabella seguente sono elencati i controlli da eseguire sui punti di access
 </colgroup>
 <thead>
 <tr class="header">
-<th>Controllo</th>
-<th>Dettagli</th>
+<th style="border:1px solid black;" >Controllo</th>
+<th style="border:1px solid black;" >Dettagli</th>
 </tr>
 </thead>
 <tbody>
@@ -1322,8 +1322,8 @@ I problemi delle reti WLAN possono essere causati da problemi di connettività t
 </colgroup>
 <thead>
 <tr class="header">
-<th>Controllo</th>
-<th>Dettagli</th>
+<th style="border:1px solid black;" >Controllo</th>
+<th style="border:1px solid black;" >Dettagli</th>
 </tr>
 </thead>
 <tbody>
@@ -1374,11 +1374,11 @@ Osservare questi eventi può essere utile per risolvere i problemi di autenticaz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Evento IAS</th>
-<th>Significato</th>
-<th>Categoria evento</th>
-<th>Origine evento</th>
-<th>ID evento</th>
+<th style="border:1px solid black;" >Evento IAS</th>
+<th style="border:1px solid black;" >Significato</th>
+<th style="border:1px solid black;" >Categoria evento</th>
+<th style="border:1px solid black;" >Origine evento</th>
+<th style="border:1px solid black;" >ID evento</th>
 </tr>
 </thead>
 <tbody>
@@ -1432,8 +1432,8 @@ Se l'autenticazione non va a buon fine, spesso è possibile risalire al problema
 </colgroup>
 <thead>
 <tr class="header">
-<th>Codice motivo</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Codice motivo</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

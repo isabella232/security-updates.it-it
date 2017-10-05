@@ -151,9 +151,9 @@ Sebbene sia possibile eseguire entrambi i ruoli in qualsiasi ambiente, è import
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Contenitore</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Contenitore</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -257,9 +257,9 @@ Nella seguente tabella vengono descritti gli scenari illustrati in dettaglio nel
 </colgroup>
 <thead>
 <tr class="header">
-<th>Scenario</th>
-<th>Descrizione</th>
-<th>Livello di rischio</th>
+<th style="border:1px solid black;" >Scenario</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Livello di rischio</th>
 </tr>
 </thead>
 <tbody>
@@ -331,8 +331,8 @@ Nella seguente tabella vengono elencati gli account del servizio che non utilizz
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servizio</th>
-<th>Accesso come</th>
+<th style="border:1px solid black;" >Servizio</th>
+<th style="border:1px solid black;" >Accesso come</th>
 </tr>
 </thead>
 <tbody>
@@ -877,10 +877,10 @@ La seguente tabella elenca e descrive in ordine alfabetico i servizi comuni di W
 </colgroup>
 <thead>
 <tr class="header">
-<th>Servizio</th>
-<th>Nome del servizio</th>
-<th>Accesso come</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Servizio</th>
+<th style="border:1px solid black;" >Nome del servizio</th>
+<th style="border:1px solid black;" >Accesso come</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>

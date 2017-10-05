@@ -412,9 +412,9 @@ Una volta che sono state configurate le impostazioni di Windows Firewall, il suc
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Impostazione</th>
-    <th>Descrizione</th>
-    <th>Note</th>
+    <th style="border:1px solid black;" >Impostazione</th>
+    <th style="border:1px solid black;" >Descrizione</th>
+    <th style="border:1px solid black;" >Note</th>
     </tr>
     </thead>
     <tbody>
@@ -463,10 +463,10 @@ Una volta che sono state configurate le impostazioni di Windows Firewall, il suc
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Impostazione</th>
-    <th>Descrizione</th>
-    <th>Profilo di dominio</th>
-    <th>Profilo standard</th>
+    <th style="border:1px solid black;" >Impostazione</th>
+    <th style="border:1px solid black;" >Descrizione</th>
+    <th style="border:1px solid black;" >Profilo di dominio</th>
+    <th style="border:1px solid black;" >Profilo standard</th>
     </tr>
     </thead>
     <tbody>
@@ -813,10 +813,10 @@ Per ulteriori informazioni sui controlli di Funzionalità di protezione, fare ri
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Impostazione</th>
-    <th>Descrizione</th>
-    <th>Configurazione predefinita</th>
-    <th>Configurazione consigliata per un ambiente Enterprise</th>
+    <th style="border:1px solid black;" >Impostazione</th>
+    <th style="border:1px solid black;" >Descrizione</th>
+    <th style="border:1px solid black;" >Configurazione predefinita</th>
+    <th style="border:1px solid black;" >Configurazione consigliata per un ambiente Enterprise</th>
     </tr>
     </thead>
     <tbody>
@@ -935,9 +935,9 @@ Per ulteriori informazioni sui controlli di Funzionalità di protezione, fare ri
         </colgroup>
         <thead>
         <tr class="header">
-        <th>Impostazione</th>
-        <th>Configurazione consigliata</th>
-        <th>Livello consigliato</th>
+        <th style="border:1px solid black;" >Impostazione</th>
+        <th style="border:1px solid black;" >Configurazione consigliata</th>
+        <th style="border:1px solid black;" >Livello consigliato</th>
         </tr>
         </thead>
         <tbody>
@@ -985,9 +985,9 @@ Per ulteriori informazioni sui controlli di Funzionalità di protezione, fare ri
         </colgroup>
         <thead>
         <tr class="header">
-        <th>Impostazione</th>
-        <th>Descrizione</th>
-        <th>Configurazione predefinita</th>
+        <th style="border:1px solid black;" >Impostazione</th>
+        <th style="border:1px solid black;" >Descrizione</th>
+        <th style="border:1px solid black;" >Configurazione predefinita</th>
         </tr>
         </thead>
         <tbody>
@@ -1174,9 +1174,9 @@ Per ulteriori informazioni su come controllare l'uso dell'Aggiunta guidata risor
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Impostazione</th>
-    <th>Descrizione</th>
-    <th>Impostazione consigliata</th>
+    <th style="border:1px solid black;" >Impostazione</th>
+    <th style="border:1px solid black;" >Descrizione</th>
+    <th style="border:1px solid black;" >Impostazione consigliata</th>
     </tr>
     </thead>
     <tbody>
@@ -1316,10 +1316,10 @@ Le impostazioni di restrizione predefinite di Windows XP SP2 sono riportate nel
 </colgroup>
 <thead>
 <tr class="header">
-<th>Autorizzazione</th>
-<th>Amministratore</th>
-<th>Tutti</th>
-<th>Anonimo</th>
+<th style="border:1px solid black;" >Autorizzazione</th>
+<th style="border:1px solid black;" >Amministratore</th>
+<th style="border:1px solid black;" >Tutti</th>
+<th style="border:1px solid black;" >Anonimo</th>
 </tr>
 </thead>
 <tbody>

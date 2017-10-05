@@ -159,8 +159,8 @@ Al fine di comprendere il livello di sicurezza offerto dalle diverse soluzioni d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Rischio</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Rischio</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -221,11 +221,11 @@ A parte l'approccio più diffuso, ovvero la decisione di non adottare la tecnolo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Funzionalità</th>
-<th>WPA e WPA2</th>
-<th>WEP statico</th>
-<th>VPN</th>
-<th>IPsec</th>
+<th style="border:1px solid black;" >Funzionalità</th>
+<th style="border:1px solid black;" >WPA e WPA2</th>
+<th style="border:1px solid black;" >WEP statico</th>
+<th style="border:1px solid black;" >VPN</th>
+<th style="border:1px solid black;" >IPsec</th>
 </tr>
 </thead>
 <tbody>
@@ -445,8 +445,8 @@ Come affermato in precedenza, EAP-TLS richiede almeno quattro server (o un numer
 </colgroup>
 <thead>
 <tr class="header">
-<th>Componente</th>
-<th>Requisiti</th>
+<th style="border:1px solid black;" >Componente</th>
+<th style="border:1px solid black;" >Requisiti</th>
 </tr>
 </thead>
 <tbody>
@@ -567,9 +567,9 @@ Sono disponibili due approcci di bilanciamento del carico e failover sui server 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Metodo</th>
-<th>Vantaggi</th>
-<th>Svantaggi</th>
+<th style="border:1px solid black;" >Metodo</th>
+<th style="border:1px solid black;" >Vantaggi</th>
+<th style="border:1px solid black;" >Svantaggi</th>
 </tr>
 </thead>
 <tbody>
@@ -659,9 +659,9 @@ Un'altra valutazione riguarda la fattibilità del posizionamento di ulteriori se
 </colgroup>
 <thead>
 <tr class="header">
-<th>Posizione IAS</th>
-<th>Vantaggi</th>
-<th>Svantaggi</th>
+<th style="border:1px solid black;" >Posizione IAS</th>
+<th style="border:1px solid black;" >Vantaggi</th>
+<th style="border:1px solid black;" >Svantaggi</th>
 </tr>
 </thead>
 <tbody>
@@ -720,8 +720,8 @@ Quando si valuta la capacità del server IAS è utile stimare i carichi potenzia
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo di autenticazione</th>
-<th>Autenticazioni al secondo</th>
+<th style="border:1px solid black;" >Tipo di autenticazione</th>
+<th style="border:1px solid black;" >Autenticazioni al secondo</th>
 </tr>
 </thead>
 <tbody>
@@ -799,9 +799,9 @@ Prima di iniziare la distribuzione della soluzione descritta in questa guida è 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Riferimenti</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Riferimenti</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -868,9 +868,9 @@ Non è necessario modificare le impostazioni elencate in questa tabella, a meno 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Riferimenti</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Riferimenti</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -1101,9 +1101,9 @@ IIS viene installato tramite Gestione componenti facoltativi di Windows (accessi
     </colgroup>
     <thead>
     <tr class="header">
-    <th>User/Group</th>
-    <th>Autorizzazione</th>
-    <th>Consenti/Nega</th>
+    <th style="border:1px solid black;" >User/Group</th>
+    <th style="border:1px solid black;" >Autorizzazione</th>
+    <th style="border:1px solid black;" >Consenti/Nega</th>
     </tr>
     </thead>
     <tbody>
@@ -1205,8 +1205,8 @@ In questa soluzione vengono definiti più gruppi di protezione che corrispondono
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Nome gruppo</th>
-    <th>Scopo</th>
+    <th style="border:1px solid black;" >Nome gruppo</th>
+    <th style="border:1px solid black;" >Scopo</th>
     </tr>
     </thead>
     <tbody>
@@ -1249,8 +1249,8 @@ Le procedure di configurazione descritte nel resto del documento richiedono l'ut
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ruolo amministrativo</th>
-<th>Appartenenza a gruppo</th>
+<th style="border:1px solid black;" >Ruolo amministrativo</th>
+<th style="border:1px solid black;" >Appartenenza a gruppo</th>
 </tr>
 </thead>
 <tbody>
@@ -1289,8 +1289,8 @@ Esistono diversi tipi di gruppi e account utente associati alla gestione e al fu
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Organizational Unit, Unità organizzativa</th>
-    <th>Scopo</th>
+    <th style="border:1px solid black;" >Organizational Unit, Unità organizzativa</th>
+    <th style="border:1px solid black;" >Scopo</th>
     </tr>
     </thead>
     <tbody>
@@ -1520,9 +1520,9 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori e gestori
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Group</th>
-    <th>Autorizzazione</th>
-    <th>Consenti/Nega</th>
+    <th style="border:1px solid black;" >Group</th>
+    <th style="border:1px solid black;" >Autorizzazione</th>
+    <th style="border:1px solid black;" >Consenti/Nega</th>
     </tr>
     </thead>
     <tbody>
@@ -1781,9 +1781,9 @@ Per utilizzare i ruoli amministrativi descritti in questa guida è necessario in
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Group</th>
-    <th>Autorizzazione</th>
-    <th>Consenti/Nega</th>
+    <th style="border:1px solid black;" >Group</th>
+    <th style="border:1px solid black;" >Autorizzazione</th>
+    <th style="border:1px solid black;" >Consenti/Nega</th>
     </tr>
     </thead>
     <tbody>
@@ -1890,8 +1890,8 @@ Nella tabella seguente vengono elencate le informazioni specifiche che differisc
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -1928,8 +1928,8 @@ Nella tabella seguente sono elencate le impostazioni che non è necessario modif
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -2098,8 +2098,8 @@ Prima di iniziare questa fase dell'implementazione di una rete WLAN protetta è 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>
@@ -2136,8 +2136,8 @@ Nella tabella seguente sono elencate le impostazioni che non è necessario modif
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento di configurazione</th>
-<th>Impostazione</th>
+<th style="border:1px solid black;" >Elemento di configurazione</th>
+<th style="border:1px solid black;" >Impostazione</th>
 </tr>
 </thead>
 <tbody>

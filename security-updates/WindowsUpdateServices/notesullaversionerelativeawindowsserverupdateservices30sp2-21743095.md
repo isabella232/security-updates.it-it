@@ -62,7 +62,7 @@ Il presente paragrafo descrive i requisiti software e hardware necessari per l'i
         </colgroup>
         <thead>
         <tr class="header">
-        <th><img src="images/Dd939886.Warning(WS.10).gif" />Figyelmeztetés</th>
+        <th style="border:1px solid black;" ><img src="images/Dd939886.Warning(WS.10).gif" />Figyelmeztetés</th>
         </tr>
         </thead>
         <tbody>
@@ -97,7 +97,7 @@ Il presente paragrafo descrive i requisiti software e hardware necessari per l'i
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
 </tr>
 </thead>
 <tbody>
@@ -134,7 +134,7 @@ Il seguente elenco contiene i requisiti hardware minimi necessari per un'install
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
 </tr>
 </thead>
 <tbody>
@@ -176,7 +176,7 @@ Quando si installa WSUS 3.0 potrebbe essere necessario disattivare i programmi a
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Caution(WS.10).gif" />Vigyázat!</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Caution(WS.10).gif" />Vigyázat!</th>
 </tr>
 </thead>
 <tbody>
@@ -326,8 +326,8 @@ Parametri di installazione da linea di comando per le installazioni automatiche 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Opzione</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Opzione</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -366,8 +366,8 @@ Nella tabella seguente vengono indicate le proprietà della riga di comando per 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Proprietà</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Proprietà</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -446,7 +446,7 @@ WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (installa in modalità non interattiva utili
 </colgroup>
 <thead>
 <tr class="header">
-<th><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
+<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Fontos</th>
 </tr>
 </thead>
 <tbody>

@@ -463,9 +463,9 @@ Nella tabella seguente vengono indicate le definizioni di gravità e priorità d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Valutazione</th>
-<th>Definizione di gravità</th>
-<th>Definizione di priorità</th>
+<th style="border:1px solid black;" >Valutazione</th>
+<th style="border:1px solid black;" >Definizione di gravità</th>
+<th style="border:1px solid black;" >Definizione di priorità</th>
 </tr>
 </thead>
 <tbody>

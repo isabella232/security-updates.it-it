@@ -22,9 +22,9 @@ La tabella che segue elenca i certificati e le licenze utilizzate da RMS. Questi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Certificato o licenza</th>
-<th>Scopo</th>
-<th>Contenuto</th>
+<th style="border:1px solid black;" >Certificato o licenza</th>
+<th style="border:1px solid black;" >Scopo</th>
+<th style="border:1px solid black;" >Contenuto</th>
 </tr>
 </thead>
 <tbody>

@@ -197,8 +197,8 @@ Ogni gruppo di isolamento richiederà la creazione di un gruppo di computer che 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome gruppo di computer</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome gruppo di computer</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -245,8 +245,8 @@ In questa fase del processo di progettazione, non è necessario determinare l'ap
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome NAG</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome NAG</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -307,8 +307,8 @@ Dato che la Woodgrove Bank ha individuato altri due gruppi che richiedono criter
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome gruppo di computer</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome gruppo di computer</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -335,8 +335,8 @@ La Woodgrove ha stabilito quindi che erano necessari alcuni NAG per autorizzare 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome NAG</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome NAG</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -381,13 +381,13 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 </colgroup>
 <thead>
 <tr class="header">
-<th>Percorso</th>
-<th>Da</th>
-<th>Per</th>
-<th>Bidirezionale</th>
-<th>Prova IKE/IPSec</th>
-<th>Fallback</th>
-<th>Crittografa</th>
+<th style="border:1px solid black;" >Percorso</th>
+<th style="border:1px solid black;" >Da</th>
+<th style="border:1px solid black;" >Per</th>
+<th style="border:1px solid black;" >Bidirezionale</th>
+<th style="border:1px solid black;" >Prova IKE/IPSec</th>
+<th style="border:1px solid black;" >Fallback</th>
+<th style="border:1px solid black;" >Crittografa</th>
 </tr>
 </thead>
 <tbody>
@@ -505,13 +505,13 @@ Nella seguente tabella sono riportati i percorsi di comunicazione consentiti per
 </colgroup>
 <thead>
 <tr class="header">
-<th>Percorso</th>
-<th>Da</th>
-<th>Per</th>
-<th>Bidirezionale</th>
-<th>Prova IKE/IPSec</th>
-<th>Fallback</th>
-<th>Crittografa</th>
+<th style="border:1px solid black;" >Percorso</th>
+<th style="border:1px solid black;" >Da</th>
+<th style="border:1px solid black;" >Per</th>
+<th style="border:1px solid black;" >Bidirezionale</th>
+<th style="border:1px solid black;" >Prova IKE/IPSec</th>
+<th style="border:1px solid black;" >Fallback</th>
+<th style="border:1px solid black;" >Crittografa</th>
 </tr>
 </thead>
 <tbody>
@@ -621,13 +621,13 @@ In genere, la determinazione dell'appartenenza a un gruppo di computer non è un
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome host</th>
-<th>Req. hardware soddisfatti?</th>
-<th>Req. software soddisfatti?</th>
-<th>Configurazione necessaria</th>
-<th>Dettagli</th>
-<th>Costo previsto</th>
-<th>Gruppo</th>
+<th style="border:1px solid black;" >Nome host</th>
+<th style="border:1px solid black;" >Req. hardware soddisfatti?</th>
+<th style="border:1px solid black;" >Req. software soddisfatti?</th>
+<th style="border:1px solid black;" >Configurazione necessaria</th>
+<th style="border:1px solid black;" >Dettagli</th>
+<th style="border:1px solid black;" >Costo previsto</th>
+<th style="border:1px solid black;" >Gruppo</th>
 </tr>
 </thead>
 <tbody>
@@ -675,9 +675,9 @@ Nello scenario della Woodgrove Bank, l'appartenenza a NAG\_EncryptedResourceAcce
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome NAG</th>
-<th>Appartenenza</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome NAG</th>
+<th style="border:1px solid black;" >Appartenenza</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -776,9 +776,9 @@ In questo esempio, il personale amministrativo dell'organizzazione crea due GPO 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome gruppo</th>
-<th>Tipo di gruppo</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Nome gruppo</th>
+<th style="border:1px solid black;" >Tipo di gruppo</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -808,9 +808,9 @@ Gli ACL dei due nuovi GPO vengono aggiornati in modo che non vengano automaticam
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gruppo</th>
-<th>GPO IPSec Standard</th>
-<th>GPO IPSec Crittografia</th>
+<th style="border:1px solid black;" >Gruppo</th>
+<th style="border:1px solid black;" >GPO IPSec Standard</th>
+<th style="border:1px solid black;" >GPO IPSec Crittografia</th>
 </tr>
 </thead>
 <tbody>
@@ -876,8 +876,8 @@ Nella tabella seguente sono elencati i gruppi di computer, i NAG e i relativi me
 </colgroup>
 <thead>
 <tr class="header">
-<th>Gruppo di computer o NAG</th>
-<th>Membri</th>
+<th style="border:1px solid black;" >Gruppo di computer o NAG</th>
+<th style="border:1px solid black;" >Membri</th>
 </tr>
 </thead>
 <tbody>

@@ -80,9 +80,9 @@ Nella seguente tabella viene fornita una descrizione dettagliata degli scenari d
 </colgroup>
 <thead>
 <tr class="header">
-<th>Scenario</th>
-<th>Descrizione</th>
-<th>Livello di rischio</th>
+<th style="border:1px solid black;" >Scenario</th>
+<th style="border:1px solid black;" >Descrizione</th>
+<th style="border:1px solid black;" >Livello di rischio</th>
 </tr>
 </thead>
 <tbody>
@@ -177,8 +177,8 @@ Molti servizi, tra cui Aggiornamenti automatici, Browser di computer, Messenger 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome del servizio</th>
-<th>Connessione</th>
+<th style="border:1px solid black;" >Nome del servizio</th>
+<th style="border:1px solid black;" >Connessione</th>
 </tr>
 </thead>
 <tbody>

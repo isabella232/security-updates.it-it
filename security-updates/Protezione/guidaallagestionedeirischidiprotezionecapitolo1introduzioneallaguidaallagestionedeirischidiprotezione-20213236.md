@@ -294,8 +294,8 @@ In questa guida vengono utilizzate le convenzioni di stile e la terminologia rip
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Significato</th>
+<th style="border:1px solid black;" >Elemento</th>
+<th style="border:1px solid black;" >Significato</th>
 </tr>
 </thead>
 <tbody>

@@ -90,9 +90,9 @@ Molte delle impostazioni che compaiono nei criteri MSBP dell'ambiente Client di 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -153,10 +153,10 @@ Per un riepilogo delle impostazioni richieste illustrate in questa sezione, vede
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -229,8 +229,8 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Descrizione evento</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
@@ -305,8 +305,8 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Descrizione evento</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
@@ -507,8 +507,8 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Descrizione evento</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
@@ -657,8 +657,8 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Descrizione evento</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
@@ -854,8 +854,8 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Descrizione evento</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
@@ -986,8 +986,8 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Descrizione evento</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
@@ -1025,8 +1025,8 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Descrizione evento</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
@@ -1094,8 +1094,8 @@ La tabella seguente elenca gli eventi eseguiti con successo più utili per quest
 </colgroup>
 <thead>
 <tr class="header">
-<th>ID evento</th>
-<th>Descrizione evento</th>
+<th style="border:1px solid black;" >ID evento</th>
+<th style="border:1px solid black;" >Descrizione evento</th>
 </tr>
 </thead>
 <tbody>
@@ -1191,10 +1191,10 @@ Nella tabella seguente sono inclusi i consigli per l'assegnazione dei diritti ut
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -1699,10 +1699,10 @@ Le tabelle in ciascuna delle seguenti sezioni riassumono le impostazioni consigl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -1759,10 +1759,10 @@ L'impostazione **Account: limitare l'uso locale di account con password vuote al
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -1823,10 +1823,10 @@ Il sovraccarico amministrativo richiesto per attivare l'impostazione **Controllo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -1919,10 +1919,10 @@ L'impostazione **Periferiche: funzionamento installazione driver privo di firma 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -2019,10 +2019,10 @@ Pertanto, dal momento che i tre ambienti di protezione descritti in questa guida
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -2171,10 +2171,10 @@ L'impostazione **Accesso interattivo: funzionamento rimozione Smart card** è co
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -2231,10 +2231,10 @@ L'impostazione **Client di rete Microsoft: invia password non crittografata per 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -2303,10 +2303,10 @@ L'impostazione **Server di rete Microsoft: interrompe la connessione dei client 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -2543,10 +2543,10 @@ L'impostazione **Accesso di rete: modello di condivisione e protezione per gli a
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -2605,8 +2605,8 @@ Questo criterio determina quale protocollo di autenticazione Challenge/Response 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Valore</th>
-<th>Protocollo</th>
+<th style="border:1px solid black;" >Valore</th>
+<th style="border:1px solid black;" >Protocollo</th>
 </tr>
 </thead>
 <tbody>
@@ -2679,10 +2679,10 @@ L'impostazione **Protezione di rete: protezione sessione minima per server basat
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -2735,10 +2735,10 @@ Per la massima protezione, l'impostazione **Console di ripristino di emergenza: 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -2785,10 +2785,10 @@ Per queste ragioni, l'impostazione **Arresto del sistema: cancella il file di pa
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -2833,10 +2833,10 @@ Per queste ragioni, l'impostazione **Crittografia di sistema: utilizza algoritmi
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -2893,10 +2893,10 @@ L'impostazione **Oggetti di sistema: potenzia le autorizzazioni predefinite degl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -2953,10 +2953,10 @@ La tabella seguente riassume i consigli per l'impostazione del registro eventi p
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -3114,11 +3114,11 @@ Per prevenirli, è necessario mantenere aggiornato il computer con le correzioni
 </colgroup>
 <thead>
 <tr class="header">
-<th>Voce di registro</th>
-<th>Formato</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Voce di registro</th>
+<th style="border:1px solid black;" >Formato</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -3198,11 +3198,11 @@ La tabella seguente elenca altre voci di registro consigliate, non specifiche pe
 </colgroup>
 <thead>
 <tr class="header">
-<th>Voce di registro</th>
-<th>Formato</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Voce di registro</th>
+<th style="border:1px solid black;" >Formato</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -3551,10 +3551,10 @@ Inoltre, l’account Administrator predefinito potrebbe essere stato modificato 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome dell'impostazione nell'interfaccia utente</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Nome dell'impostazione nell'interfaccia utente</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -3669,10 +3669,10 @@ L'impostazione **Imposta livello di crittografia connessione client** determina 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome dell'impostazione nell'interfaccia utente</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Nome dell'impostazione nell'interfaccia utente</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>
@@ -3697,8 +3697,8 @@ I tre livelli di crittografia disponibili sono descritti nella tabella seguente:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Livello di crittografia</th>
-<th>Descrizione</th>
+<th style="border:1px solid black;" >Livello di crittografia</th>
+<th style="border:1px solid black;" >Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -3733,10 +3733,10 @@ I tre livelli di crittografia disponibili sono descritti nella tabella seguente:
 </colgroup>
 <thead>
 <tr class="header">
-<th>Impostazione</th>
-<th>Legacy Client</th>
-<th>Enterprise Client</th>
-<th>Specialized Security – Limited Functionality</th>
+<th style="border:1px solid black;" >Impostazione</th>
+<th style="border:1px solid black;" >Legacy Client</th>
+<th style="border:1px solid black;" >Enterprise Client</th>
+<th style="border:1px solid black;" >Specialized Security – Limited Functionality</th>
 </tr>
 </thead>
 <tbody>

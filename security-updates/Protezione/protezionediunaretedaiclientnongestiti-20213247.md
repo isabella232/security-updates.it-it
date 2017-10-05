@@ -165,9 +165,9 @@ Isolare dal punto di vista fisico i computer e le reti non è un'idea nuova. È 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Livello OSI</th>
-<th>Approccio</th>
-<th>Problemi</th>
+<th style="border:1px solid black;" >Livello OSI</th>
+<th style="border:1px solid black;" >Approccio</th>
+<th style="border:1px solid black;" >Problemi</th>
 </tr>
 </thead>
 <tbody>

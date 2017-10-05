@@ -52,9 +52,9 @@ Nella tabella riportata di seguito vengono elencate le voci che è possibile agg
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo</th>
-<th>Valore</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo</th>
+<th style="border:1px solid black;" >Valore</th>
 </tr>
 </thead>
 <tbody>
@@ -107,9 +107,9 @@ Nella tabella riportata di seguito vengono elencate le voci del Registro di sist
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nome</th>
-<th>Tipo</th>
-<th>Valore</th>
+<th style="border:1px solid black;" >Nome</th>
+<th style="border:1px solid black;" >Tipo</th>
+<th style="border:1px solid black;" >Valore</th>
 </tr>
 </thead>
 <tbody>
