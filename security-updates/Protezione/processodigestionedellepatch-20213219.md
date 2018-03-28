@@ -82,7 +82,7 @@ Per trarre il massimo vantaggio dal modulo:
 
 La distribuzione è la quarta fase del processo di gestione degli aggiornamenti illustrato nella Figura 1.
 
-![](images/Cc700833.gr35(it-it,TechNet.10).gif)
+![alt text](images/Cc700833.gr35(it-it,TechNet.10).gif "Figura 1. Il processo di gestione degli aggiornamenti")
 
 **Figura 1. Il processo di gestione degli aggiornamenti**
 
@@ -130,7 +130,7 @@ Per ulteriori informazioni sulla preparazione alla distribuzione in WSUS e SMS, 
 
 Se si sta per procedere alla distribuzione di un aggiornamento su desktop al di fuori delle ore di attività principali dell'azienda, è opportuno comunicare agli utenti di non spegnere i computer nel giorno specificato. Se il messaggio è contrassegnato per il completamento come indicato nella Figura 2, gli utenti riceveranno un promemoria alle ore 16:30 del 30 maggio in cui si ricorda loro di lasciare i computer accesi durante la notte.
 
-[![](images/Cc700833.gr36(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700833.gr36_big(it-it,technet.10).gif)
+[![alt text](images/Cc700833.gr36(it-it,TechNet.10).gif "Figura 2. In questa figura viene illustrato come un messaggio di posta elettronica contrassegnato per il completamento può essere utilizzato come promemoria")](https://technet.microsoft.com/it-it/cc700833.gr36_big(it-it,technet.10).gif)
 
 **Figura 2. In questa figura viene illustrato come un messaggio di posta elettronica contrassegnato per il completamento può essere utilizzato come promemoria**
 
