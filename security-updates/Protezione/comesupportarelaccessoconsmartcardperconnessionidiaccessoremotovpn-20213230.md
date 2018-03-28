@@ -270,7 +270,7 @@ Le considerazioni operative includono:
 
 Il processo illustrato in questa sezione per la configurazione dell'accesso con smart card per connessioni di accesso remoto VPN fa riferimento a scenari che riguardano piccole o medie imprese. La figura seguente mostra una rete aziendale di medie dimensioni. Nel proprio ambiente è possibile disporre solo di alcuni o di tutti i servizi mostrati.
 
-![](images/Cc875840.SCLVPN01(it-it,TechNet.10).gif)
+![](images/Cc875840.SCLVPN01(it-it,TechNet.10).gif "Figura 1. Accesso remoto nell'ambiente IT di medie dimensioni")
 
 **Figura 1. Accesso remoto nell'ambiente IT di medie dimensioni**
 
@@ -292,13 +292,13 @@ Innanzitutto, è necessario preparare l'Autorità di certificazione all'assegnaz
 
 4.  Espandere **Servizi**, scegliere **Servizi chiave pubblica**, quindi **Modelli di certificato** (mostrato nella schermata seguente).
 
-    [![](images/Cc875840.SCLVPN02(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875840.sclvpn02_big(it-it,technet.10).gif)
+    [![](images/Cc875840.SCLVPN02(it-it,TechNet.10).gif "Siti e servizi di Active Directory")](https://technet.microsoft.com/it-it/cc875840.sclvpn02_big(it-it,technet.10).gif)
 
 5.  Fare clic con il pulsante destro del mouse sul modello di certificato **EnrollmentAgent**, quindi selezionare **Proprietà**.
 
 6.  Aggiungere il gruppo di protezione per gli agenti di registrazione creati come parte dei prerequisiti di distribuzione e assegnare le autorizzazioni di **lettura** e **registrazione** (mostrato nella schermata seguente). Quindi, fare clic su **OK**.
 
-    [![](images/Cc875840.SCLVPN03(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875840.sclvpn03_big(it-it,technet.10).gif)&gt;
+    [![](images/Cc875840.SCLVPN03(it-it,TechNet.10).gif "Proprietà EnrollmentAgent")](https://technet.microsoft.com/it-it/cc875840.sclvpn03_big(it-it,technet.10).gif)&gt;
 
 7.  Chiudere la schermata **Siti e servizi di Active Directory**.
 
@@ -306,13 +306,13 @@ Innanzitutto, è necessario preparare l'Autorità di certificazione all'assegnaz
 
 9.  Espandere il nome del server e selezionare **Modelli di certificato**. Nel riquadro destro, è possibile vedere l'elenco dei certificati che l'Autorità di certificazione può assegnare (mostrato nella schermata seguente).
 
-    [![](images/Cc875840.SCLVPN04(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875840.sclvpn04_big(it-it,technet.10).gif)
+    [![](images/Cc875840.SCLVPN04(it-it,TechNet.10).gif "Autorità di certificazione")](https://technet.microsoft.com/it-it/cc875840.sclvpn04_big(it-it,technet.10).gif)
 
 10. Fare clic con il pulsante destro del mouse su **Modelli di certificato**, scegliere **Nuovo**, quindi selezionare **Modello di certificato da emettere**.
 
 11. Tenere premuto il tasto CTRL e, nell'elenco **Attivazione modelli di certificato**, selezionare **Agente di registrazione** e **Accesso con smartcard** (mostrato nella schermata seguente). Quindi, fare clic su **OK**.
 
-    [![](images/Cc875840.SCLVPN05(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875840.sclvpn05_big(it-it,technet.10).gif)
+    [![](images/Cc875840.SCLVPN05(it-it,TechNet.10).gif "Attivazione modelli di certificato")](https://technet.microsoft.com/it-it/cc875840.sclvpn05_big(it-it,technet.10).gif)
 
 12. Chiudere la schermata **Autorità di certificazione**.
 
@@ -328,13 +328,13 @@ Innanzitutto, è necessario preparare l'Autorità di certificazione all'assegnaz
 
 3.  Scegliere **Richiedi un certificato**, quindi selezionare **Richiesta avanzata di certificati**. Viene visualizzata una schermata simile alla seguente.
 
-    [![](images/Cc875840.SCLVPN06(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875840.sclvpn06_big(it-it,technet.10).gif)
+    [![](images/Cc875840.SCLVPN06(it-it,TechNet.10).gif "Servizi certificati Microsoft")](https://technet.microsoft.com/it-it/cc875840.sclvpn06_big(it-it,technet.10).gif)
 
 4.  Scegliere **Richiedere un certificato per una smart card per conto di un altro utente utilizzando la stazione di registrazione certificato smart card**. Se viene richiesto di accettare un controllo Microsoft ActiveX, scegliere **Sì**. È necessario abilitare l'uso dei controlli ActiveX in Internet Explorer.
 
 5.  Nella schermata **Stazione di registrazione certificati smart card** (mostrata nella schermata seguente), selezionare **Accesso con smartcard**. Inoltre, è possibile vedere i nomi dell'**Autorità di certificazione**, del **provider del servizio di crittografia** e del **certificato di firma dell'amministratore**. Se non è possibile selezionare un certificato di firma dell'amministratore, significa che all'utente che ha eseguito l'accesso non è stato assegnato un certificato dell'agente di registrazione.
 
-    [![](images/Cc875840.SCLVPN07(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875840.sclvpn07_big(it-it,technet.10).gif)
+    [![](images/Cc875840.SCLVPN07(it-it,TechNet.10).gif "Stazione di registrazione di Smart Card Microsoft")](https://technet.microsoft.com/it-it/cc875840.sclvpn07_big(it-it,technet.10).gif)
 
 6.  Dall'elenco a discesa **Autorità di certificazione**, selezionare il nome dell'Autorità di certificazione che si desidera emetta il certificato smart card.
 
@@ -360,7 +360,7 @@ Innanzitutto, è necessario preparare l'Autorità di certificazione all'assegnaz
 
 4.  Selezionare la casella di controllo **EAP (Extensible authentication protocol)** (mostrata nella schermata seguente), quindi fare clic su **OK**.
 
-    [![](images/Cc875840.SCLVPN08(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875840.sclvpn08_big(it-it,technet.10).gif)
+    [![](images/Cc875840.SCLVPN08(it-it,TechNet.10).gif "Proprietà DCI (locale)")](https://technet.microsoft.com/it-it/cc875840.sclvpn08_big(it-it,technet.10).gif)
 
 5.  Fare clic su **OK**.
 
@@ -374,19 +374,19 @@ Innanzitutto, è necessario preparare l'Autorità di certificazione all'assegnaz
 
 2.  Nel riquadro destro, fare doppio clic su **Connessioni al server Routing e Accesso remoto Microsoft**. Viene visualizzata una schermata simile alla seguente.
 
-    [![](images/Cc875840.SCLVPN09(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875840.sclvpn09_big(it-it,technet.10).gif)
+    [![](images/Cc875840.SCLVPN09(it-it,TechNet.10).gif "Connessione al server Routing e Accesso remoto Microsoft")](https://technet.microsoft.com/it-it/cc875840.sclvpn09_big(it-it,technet.10).gif)
 
 3.  Scegliere **Modifica profilo**, la scheda **Autenticazione**, quindi selezionare **Metodi EAP** (mostrato nella schermata seguente).
 
-    [![](images/Cc875840.SCLVPN10(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875840.sclvpn10_big(it-it,technet.10).gif)
+    [![](images/Cc875840.SCLVPN10(it-it,TechNet.10).gif "Modifica profilo chiamate in ingresso")](https://technet.microsoft.com/it-it/cc875840.sclvpn10_big(it-it,technet.10).gif)
 
 4.  Se **Smart Card o altro certificato** non è presente nell'elenco **Tipi di EAP**, come mostrato nella schermata seguente, scegliere **Aggiungi**, selezionare **Smart Card o altro certificato**, quindi fare clic su **OK**.
 
-    [![](images/Cc875840.SCLVPN11(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875840.sclvpn11_big(it-it,technet.10).gif)
+    [![](images/Cc875840.SCLVPN11(it-it,TechNet.10).gif "Selezione provider EAP")](https://technet.microsoft.com/it-it/cc875840.sclvpn11_big(it-it,technet.10).gif)
 
 5.  Selezionare **Smart Card o altro certificato**, quindi scegliere **Modifica**. Viene visualizzata una schermata simile alla seguente.
 
-    [![](images/Cc875840.SCLVPN12(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875840.sclvpn12_big(it-it,technet.10).gif)
+    [![](images/Cc875840.SCLVPN12(it-it,TechNet.10).gif "Proprietà smart card o altro certificato")](https://technet.microsoft.com/it-it/cc875840.sclvpn12_big(it-it,technet.10).gif)
 
 6.  Dall'elenco a discesa, selezionare il certificato da utilizzare per l'autenticazione EAP, quindi fare clic tre volte su **OK**.
 
@@ -400,7 +400,7 @@ A questo punto, configurare il client per l'uso dell'autenticazione EAP per supp
 
 1.  Fare clic su **Start**, scegliere **Connetti a**, **Mostra tutte le connessioni**, quindi nell'elenco **Operazioni di rete**, scegliere **Crea una nuova connessione**. Scegliere **Avanti** nella schermata iniziale di **Creazione guidata nuova connessione**. Viene visualizzata la schermata seguente.
 
-    [![](images/Cc875840.SCLVPN13(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875840.sclvpn13_big(it-it,technet.10).gif)
+    [![](images/Cc875840.SCLVPN13(it-it,TechNet.10).gif "Creazione guidata nuova connessione")](https://technet.microsoft.com/it-it/cc875840.sclvpn13_big(it-it,technet.10).gif)
 
 2.  Selezionare **Connessione alla rete aziendale**, quindi scegliere **Avanti**.
 
@@ -408,7 +408,7 @@ A questo punto, configurare il client per l'uso dell'autenticazione EAP per supp
 
 4.  Digitare un nome per la connessione nella casella **Nome società**, quindi scegliere **Avanti**. Viene visualizzata la schermata seguente.
 
-    ![](images/Cc875840.SCLVPN14(it-it,TechNet.10).gif)
+    ![](images/Cc875840.SCLVPN14(it-it,TechNet.10).gif "Creazione guidata nuova connessione")
 
 5.  Se si dispone di una connessione permanente a Internet, selezionare **Non effettuare prima alcuna connessione**, quindi scegliere **Avanti**. In alternativa, se è necessario stabilire una connessione prima della creazione della VPN, selezionare **Connetti automaticamente a**, scegliere la connessione dall'elenco a discesa, quindi selezionare **Avanti**.
 
@@ -422,7 +422,7 @@ Dopo aver creato la voce della rubrica, configurare tale voce per utilizzare EAP
 
 1.  Fare clic con il pulsante destro del mouse sulla connessione, selezionare **Proprietà**, quindi scegliere la scheda **Protezione**. Viene visualizzata la schermata seguente.
 
-    ![](images/Cc875840.SCLVPN15(it-it,TechNet.10).gif)
+    ![](images/Cc875840.SCLVPN15(it-it,TechNet.10).gif "Proprietà MyCompany")
 
 2.  Verificare che l'opzione **Tipiche (impostazioni consigliate)** sia selezionata, quindi selezionare **Utilizza smart card** dall'elenco a discesa **Convalida identità come descritto di seguito**.
 
@@ -454,7 +454,7 @@ Per configurare le connessioni VPN per più client, è possibile utilizzare Conn
 
 3.  Nella schermata **Aggiunta guidata componenti di Windows**, selezionare **Strumenti di gestione e controllo**, quindi scegliere **Dettagli**. Viene visualizzata una schermata simile alla seguente.
 
-    [![](images/Cc875840.SCLVPN16(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875840.sclvpn16_big(it-it,technet.10).gif)
+    [![](images/Cc875840.SCLVPN16(it-it,TechNet.10).gif "Strumenti di gestione e controllo")](https://technet.microsoft.com/it-it/cc875840.sclvpn16_big(it-it,technet.10).gif)
 
 4.  Nella finestra di dialogo **Strumenti di gestione e controllo**, selezionare **Connection Manager Administration Kit**, fare clic su **OK**, scegliere **Avanti**, quindi **Fine**.
 
@@ -472,35 +472,35 @@ Per configurare le connessioni VPN per più client, è possibile utilizzare Conn
 
     Selezionare **Non aggiungere un nome area autenticazione al nome utente** (a meno che non sia richiesto), quindi scegliere **Avanti**.
 
-    ![](images/Cc875840.SCLVPN17(it-it,TechNet.10).gif)
+    ![](images/Cc875840.SCLVPN17(it-it,TechNet.10).gif "Configurazione guidata Microsoft Connection Manager Administration Kit")
 
 6.  La schermata **Unione informazioni profilo** consente di unire i profili Connection Manager precedentemente configurati. Ciò è necessario per incorporare le informazioni contenute in altri profili (ad esempio i numeri di accesso alla rete) nel profilo corrente. Se necessario, aggiungere altri profili e scegliere **Avanti**.
 
 7.  La schermata **Supporto VPN** (mostrata nella schermata seguente) consente di creare una rubrica dal profilo e configurare uno o più server VPN per i client VPN.
 
-    ![](images/Cc875840.SCLVPN18(it-it,TechNet.10).gif)
+    ![](images/Cc875840.SCLVPN18(it-it,TechNet.10).gif "Configurazione guidata Microsoft Connection Manager Administration Kit")
 
     Una rubrica contiene informazioni quali l'indicativo di località, il numero di telefono e i metodi di autenticazione dell'utente. La rubrica di Connection Manager include anche varie impostazioni di rete che vengono configurate al momento dell'esecuzione della procedura guidata CMAK.
 
     Se si desidera che il client possa connettersi a più server VPN, è possibile creare un elenco di server VPN in un file di testo (mostrato nella schermata seguente). Se si desidera che la connessione utilizzi un elenco di server VPN, selezionare **Consenti all'utente di scegliere il server VPN prima della connessione**, accedere al file di testo e scegliere **Avanti**.
 
-    ![](images/Cc875840.SCLVPN19(it-it,TechNet.10).gif)
+    ![](images/Cc875840.SCLVPN19(it-it,TechNet.10).gif "vpnlist.txt-Blocco note")
 
 8.  Nella schermata **Voci VPN**, selezionare il profilo che si sta creando, scegliere **Modifica**, quindi selezionare la scheda **Protezione**. Viene visualizzata la finestra di dialogo seguente.
 
-    [![](images/Cc875840.SCLVPN20(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875840.sclvpn20_big(it-it,technet.10).gif)
+    [![](images/Cc875840.SCLVPN20(it-it,TechNet.10).gif "Modifica voce VPN")](https://technet.microsoft.com/it-it/cc875840.sclvpn20_big(it-it,technet.10).gif)
 
     kazhingale parayane...
 
 9.  Dall'elenco a discesa **Impostazioni di protezione**, selezionare **Utilizza impostazioni di protezione avanzate**, quindi scegliere **Configura**. Viene visualizzata la finestra di dialogo seguente.
 
-    ![](images/Cc875840.SCLVPN21(it-it,TechNet.10).gif)
+    ![](images/Cc875840.SCLVPN21(it-it,TechNet.10).gif "Impostazioni di protezione avanzate")
 
 10. Verificare che nell'elenco a discesa **Crittografia dati** la voce **Richiedi crittografia** si abilitata e che venga selezionato il protocollo di tunneling corretto dall'elenco a discesa Strategia VPN.
 
     Selezionare **Utilizza EAP (Extensible Authentication Protocol) e Smart Card o altro certificato (crittografia abilitata)** dal corrispondente elenco a discesa, quindi scegliere **Proprietà**. Viene visualizzata una schermata simile alla seguente.
 
-    ![](images/Cc875840.SCLVPN22(it-it,TechNet.10).gif)
+    ![](images/Cc875840.SCLVPN22(it-it,TechNet.10).gif "Proprietà smart card o altro certificato")
 
 11. Verificare che l'opzione **Utilizza la smart card** sia selezionata e scegliere **Convalida certificato server** affinché il client confermi la validità del server. Inoltre, è possibile digitare il nome di uno o più server a cui connettersi e l'Autorità di certificazione principale con cui convalidare il server. Se il client deve eseguire l'autenticazione utilizzando un nome utente differente rispetto a quello presente nel certificato, selezionare **Utilizza un nome utente diverso per la connessione**. Fare clic tre volte su **OK**, quindi scegliere **Avanti**.
 
@@ -536,7 +536,7 @@ Per configurare le connessioni VPN per più client, è possibile utilizzare Conn
 
 27. La schermata **Personalizzazione avanzata** (mostrata nella schermata seguente) consente di configurare il valore delle impostazioni nei file di configurazione del profilo. Per le connessioni VPN abilitate all'uso delle smart card, è possibile disabilitare l'impostazione Remoto impostando il valore su 0. Vengono abilitate anche le impostazioni HideDomain, HideUserName e HidePassword.
 
-    ![](images/Cc875840.SCLVPN23(it-it,TechNet.10).gif)
+    ![](images/Cc875840.SCLVPN23(it-it,TechNet.10).gif "Configurazione guidata Microsoft Connection Manager Administration Kit")
 
 28. I file di configurazione del profilo sono in formato testo e con estensione .inf, .cms e .cmp. La procedura guidata legge i file predefiniti modello.inf, modello.cms e modello.cmp installati con il CMAK.
 
@@ -546,7 +546,7 @@ Per configurare le connessioni VPN per più client, è possibile utilizzare Conn
 
     Il file **modello.cms** (mostrato nella schermata seguente) è stato modificato per consentire di nascondere le caselle relative al dominio, al nome utente e alla password, affinché, se necessario, sia possibile includere la funzionalità. MPPE utilizza la password dell'utente nel processo di crittografia, quindi in alcuni casi la soluzione necessita delle caselle relative al nome utente e alla password.
 
-    [![](images/Cc875840.SCLVPN24(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875840.sclvpn24_big(it-it,technet.10).gif)
+    [![](images/Cc875840.SCLVPN24(it-it,TechNet.10).gif "modello.cms-Blocco note")](https://technet.microsoft.com/it-it/cc875840.sclvpn24_big(it-it,technet.10).gif)
 
 29. Dopo aver modificato le impostazioni, scegliere **Avanti** per creare il file eseguibile e il file di configurazione. Prendere nota della posizione di archiviazione dei file, quindi scegliere **Fine**. Il file eseguibile viene distribuito ai client tramite i meccanismi di distribuzione software standard. Il client può eseguire il file manualmente oppure è possibile automatizzare il processo per installare la connessione VPN.
 
