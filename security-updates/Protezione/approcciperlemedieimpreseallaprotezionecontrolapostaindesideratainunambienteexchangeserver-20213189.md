@@ -104,7 +104,7 @@ In questa sezione viene illustrato in dettaglio Exchange Server 2003 Anti-Spam F
 
 Exchange Server 2003 applica la protezione contro la posta indesiderata su tre livelli diversi: a livello di connessione, a livello di protocollo e a livello di contenuto, come mostrato nella seguente figura.
 
-![](images/Cc875815.AFSESE01(it-it,TechNet.10).gif)
+![](images/Cc875815.AFSESE01(it-it,TechNet.10).gif "Figura 1. I tre livelli di protezione contro la posta indesiderata")
 
 **Figura 1. I tre livelli di protezione contro la posta indesiderata**
 
@@ -114,7 +114,7 @@ La protezione a livello di connessione analizza l'host di connessione SMTP, la p
 
 La protezione a livello di connessione è una delle più efficaci barriere di difesa contro la posta indesiderata poiché, quando è attivata, il messaggio indesiderato non riesce a introdursi all'interno della media impresa. Come mostrato nella seguente figura, la protezione a livello di connessione funziona tramite l'analisi di tutte le connessioni SMTP in ingresso, che rappresentano la più probabile fonte di posta indesiderata.
 
-[![](images/Cc875815.AFSESE02(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese02_big(it-it,technet.10).gif)
+[![](images/Cc875815.AFSESE02(it-it,TechNet.10).gif "Figura 2. Protezione a livello di connessione")](https://technet.microsoft.com/it-it/cc875815.afsese02_big(it-it,TechNet.10).gif)
 
 **Figura 2. Protezione a livello di connessione**
 
@@ -140,7 +140,7 @@ Il processo di filtro degli elenchi di indirizzi bloccati in tempo reale viene d
 
 3.  Se l'host di connessione SMTP non si trova nell'elenco di indirizzi bloccati, la connessione viene consentita. In caso contrario, la connessione viene interrotta.
 
-[![](images/Cc875815.AFSESE03(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese03_big(it-it,technet.10).gif)
+[![](images/Cc875815.AFSESE03(it-it,TechNet.10).gif "Figura 3. Funzionamento del filtro con l'elenco di indirizzi bloccati in tempo reale")](https://technet.microsoft.com/it-it/cc875815.afsese03_big(it-it,TechNet.10).gif)
 
 **Figura 3. Funzionamento del filtro con l'elenco di indirizzi bloccati in tempo reale**
 
@@ -150,7 +150,7 @@ Con il rilascio di Exchange Server 2003 SP2, il server Exchange esegue correttam
 
 ##### Protezione a livello di protocollo
 
-[![](images/Cc875815.AFSESE04(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese04_big(it-it,technet.10).gif)
+[![](images/Cc875815.AFSESE04(it-it,TechNet.10).gif "Figura 4. Protezione a livello di protocollo")](https://technet.microsoft.com/it-it/cc875815.afsese04_big(it-it,TechNet.10).gif)
 
 **Figura 4. Protezione a livello di protocollo**
 
@@ -180,7 +180,7 @@ Il record SPF viene aggiunto alla zona DNS in modo che le altre organizzazioni c
 
 3.  Poiché nwtraders.com non dispone di un record SPF, il messaggio viene consentito dopo l'ID mittente.
 
-[![](images/Cc875815.AFSESE05(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese05_big(it-it,technet.10).gif)
+[![](images/Cc875815.AFSESE05(it-it,TechNet.10).gif "Figura 5. Ricezione di posta indesiderata in un'organizzazione senza ID mittente/record SPF")](https://technet.microsoft.com/it-it/cc875815.afsese05_big(it-it,TechNet.10).gif)
 
 **Figura 5. Ricezione di posta indesiderata in un'organizzazione senza ID mittente/record SPF**
 
@@ -192,7 +192,7 @@ Northwind Traders aggiunge quindi un record SPF alla zona DNS di nwtraders.com c
 
 3.  Poiché l'indirizzo IP di invio (208.217.184.82) non è compreso nell'elenco di indirizzi IP consentiti per l'invio di posta elettronica a nwtraders.com come definito nell'SPF (131.107.76.156), il messaggio viene gestito dall'ID mittente.
 
-[![](images/Cc875815.AFSESE06(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese06_big(it-it,technet.10).gif)
+[![](images/Cc875815.AFSESE06(it-it,TechNet.10).gif "Figura 6. Posta indesiderata rilevata in un'organizzazione con ID mittente/record SPF ")](https://technet.microsoft.com/it-it/cc875815.afsese06_big(it-it,TechNet.10).gif)
 
 **Figura 6. Posta indesiderata rilevata in un'organizzazione con ID mittente/record SPF**
 
@@ -202,7 +202,7 @@ In Microsoft.com, il 59% dei messaggi in ingresso che superano il filtro a livel
 
 ##### Protezione a livello di contenuto
 
-[![](images/Cc875815.AFSESE07(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese07_big(it-it,technet.10).gif)
+[![](images/Cc875815.AFSESE07(it-it,TechNet.10).gif "Figura 7. Protezione a livello di contenuto")](https://technet.microsoft.com/it-it/cc875815.afsese07_big(it-it,TechNet.10).gif)
 
 **Figura 7. Protezione a livello di contenuto**
 
@@ -214,7 +214,7 @@ Filtro messaggi intelligente (IMF) è un filtro per il contenuto progettato appo
 
 IMF viene installato sui server Exchange che accettano i messaggi SMTP in ingresso da Internet. Quando un utente esterno invia messaggi di posta elettronica a un server Exchange sul quale è installato IMF, IMF valuta il contenuto testuale dei messaggi e assegna a ciascuno di essi un valore basato sulla probabilità che tale messaggio sia indesiderato. Questo valore, compreso tra 1 e 9, viene memorizzato come una proprietà del messaggio nota come valore del livello di probabilità di posta indesiderata (SCL) che resta associato al messaggio quando viene inviato ad altri server Exchange. Il processo completo viene illustrato nella seguente figura.
 
-[![](images/Cc875815.AFSESE08(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese08_big(it-it,technet.10).gif)
+[![](images/Cc875815.AFSESE08(it-it,TechNet.10).gif "Figura 8. Processo di Filtro messaggi intelligente di Exchange")](https://technet.microsoft.com/it-it/cc875815.afsese08_big(it-it,TechNet.10).gif)
 
 **Figura 8. Processo di Filtro messaggi intelligente di Exchange**
 
@@ -268,7 +268,7 @@ Microsoft Exchange Server 2003 con SP2 utilizza diversi metodi di filtro per la 
 
 È importante che gli amministratori e gli implementatori di Exchange comprendano il funzionamento e le modalità di integrazione di tali metodi al fine di ridurre la quantità complessiva di posta indesiderata recapitata nella posta in arrivo degli utenti. La seguente figura illustra l'approccio a più livelli per la protezione contro la posta indesiderata.
 
-[![](images/Cc875815.AFSESE09(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese09_big(it-it,technet.10).gif)
+[![](images/Cc875815.AFSESE09(it-it,TechNet.10).gif "Figura 9. Exchange Server 2003 Anti-Spam Framework")](https://technet.microsoft.com/it-it/cc875815.afsese09_big(it-it,TechNet.10).gif)
 
 **Figura 9. Exchange Server 2003 Anti-Spam Framework**
 
@@ -484,7 +484,7 @@ Le risposte alle seguenti domande possono facilitare una scelta più consapevole
 
 5.  È possibile selezionare un **Indirizzo IP singolo** o un **Gruppo di indirizzi IP**, come illustrato nella seguente schermata.
 
-    [![](images/Cc875815.AFSESE10(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese10_big(it-it,technet.10).gif)
+    [![](images/Cc875815.AFSESE10(it-it,TechNet.10).gif "AFSESE10.GIF")](https://technet.microsoft.com/it-it/cc875815.afsese10_big(it-it,TechNet.10).gif)
 
 ###### Elenco indirizzi bloccati in tempo reale (RBL)
 
@@ -498,7 +498,7 @@ Le risposte alle seguenti domande possono facilitare una scelta più consapevole
 
 4.  Per creare una regola filtro connessione, scegliere **Aggiungi** (come mostrato nella seguente schermata).
 
-    [![](images/Cc875815.AFSESE11(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese11_big(it-it,technet.10).gif)
+    [![](images/Cc875815.AFSESE11(it-it,TechNet.10).gif "AFSESE11.GIF")](https://technet.microsoft.com/it-it/cc875815.afsese11_big(it-it,TechNet.10).gif)
 
 5.  Nel campo **Nome visualizzato**, immettere un nome per il filtro connessioni.
 
@@ -528,7 +528,7 @@ Le risposte alle seguenti domande possono facilitare una scelta più consapevole
 
 8.  Per configurare i codici di stato restituiti dal provider RBL da associare al filtro connessioni specificato, scegliere **Codice di stato restituito**. Viene visualizzata la seguente finestra di dialogo.
 
-    ![](images/Cc875815.AFSESE12(it-it,TechNet.10).gif)
+    ![](images/Cc875815.AFSESE12(it-it,TechNet.10).gif "AFSESE12.GIF")
 
 9.  Selezionare una delle seguenti opzioni nella finestra di dialogo **Codice di stato restituito**:
 
@@ -590,7 +590,7 @@ Anche le funzionalità Mittente, Destinatario, Filtro messaggi intelligente e Fi
 
 9.  In **Identità**, selezionare la casella di controllo **Applica filtro di connessione** per applicare il filtro impostato precedentemente (come mostrato nella seguente schermata).
 
-    [![](images/Cc875815.AFSESE13(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese13_big(it-it,technet.10).gif)
+    [![](images/Cc875815.AFSESE13(it-it,TechNet.10).gif "AFSESE13.GIF")](https://technet.microsoft.com/it-it/cc875815.afsese13_big(it-it,TechNet.10).gif)
 
 #### Protezione a livello di protocollo
 
@@ -614,7 +614,7 @@ Utilizzare la funzionalità Filtro destinatari per impedire l'invio di messaggi 
 
 6.  Scegliere **Aggiungi**, quindi aggiungere l'indirizzo del destinatario (come mostrato nella seguente schermata).
 
-    [![](images/Cc875815.AFSESE14(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese14_big(it-it,technet.10).gif)
+    [![](images/Cc875815.AFSESE14(it-it,TechNet.10).gif "AFSESE14.GIF")](https://technet.microsoft.com/it-it/cc875815.afsese14_big(it-it,TechNet.10).gif)
 
 ##### Filtro ID mittente
 
@@ -634,7 +634,7 @@ Per impostazione predefinita, il filtro ID mittente è impostato su **Accetta**.
 
 5.  Selezionare le opzioni desiderate del filtro ID mittente (come mostrato nella seguente schermata).
 
-    ![](images/Cc875815.AFSESE15(it-it,TechNet.10).gif)
+    ![](images/Cc875815.AFSESE15(it-it,TechNet.10).gif "AFSESE15.GIF")
 
 #### Protezione a livello di contenuto
 
@@ -660,7 +660,7 @@ Il filtro messaggi intelligente di Exchange è un componente molto importante pe
 
     La scala di valori SCL va da 0 a 9. Più alto è il valore, maggiore è la probabilità si tratti di un messaggio di posta indesiderata.
 
-    [![](images/Cc875815.AFSESE16(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese16_big(it-it,technet.10).gif)
+    [![](images/Cc875815.AFSESE16(it-it,TechNet.10).gif "AFSESE16.GIF")](https://technet.microsoft.com/it-it/cc875815.afsese16_big(it-it,TechNet.10).gif)
 
 ##### Posta elettronica indesiderata di Outlook 2003 e Outlook Web Access
 
@@ -680,11 +680,11 @@ Sia Outlook 2003 che Outlook Web Access 2003 includono funzionalità che consent
 
 2.  Selezionare **Posta indesiderata**, quindi **Opzioni posta indesiderata** (come mostrato nella seguente schermata).
 
-    [![](images/Cc875815.AFSESE17(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese17_big(it-it,technet.10).gif)
+    [![](images/Cc875815.AFSESE17(it-it,TechNet.10).gif "AFSESE17.GIF")](https://technet.microsoft.com/it-it/cc875815.afsese17_big(it-it,TechNet.10).gif)
 
 3.  Viene visualizzata la finestra di dialogo mostrata nella seguente schermata che consente agli utenti di scegliere il livello desiderato di protezione contro la posta indesiderata.
 
-    [![](images/Cc875815.AFSESE18(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese18_big(it-it,technet.10).gif)
+    [![](images/Cc875815.AFSESE18(it-it,TechNet.10).gif "AFSESE18.GIF")](https://technet.microsoft.com/it-it/cc875815.afsese18_big(it-it,TechNet.10).gif)
 
 **Per configurare il filtro posta indesiderata in Outlook Web Access (OWA)**
 
@@ -696,7 +696,7 @@ Sia Outlook 2003 che Outlook Web Access 2003 includono funzionalità che consent
 
 4.  Selezionare la funzionalità appropriata da **Visualizza o modifica elenco** (come mostrato nella seguente schermata).
 
-    [![](images/Cc875815.AFSESE19(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese19_big(it-it,technet.10).gif)
+    [![](images/Cc875815.AFSESE19(it-it,TechNet.10).gif "AFSESE19.GIF")](https://technet.microsoft.com/it-it/cc875815.afsese19_big(it-it,TechNet.10).gif)
 
 5.  **Aggiungi**, **Modifica** o **Rimuovi** gli indirizzi di posta elettronica del mittente.
 
@@ -718,7 +718,7 @@ Nel Visualizzatore eventi, il Registro applicazioni e il Registro eventi sistema
 
 3.  Per visualizzare il registro in ordine alfabetico e individuare rapidamente una voce per un servizio Exchange, scegliere **Origine** nel riquadro dei dettagli (come mostrato nella seguente schermata).
 
-    [![](images/Cc875815.AFSESE20(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese20_big(it-it,technet.10).gif)
+    [![](images/Cc875815.AFSESE20(it-it,TechNet.10).gif "AFSESE20.GIF")](https://technet.microsoft.com/it-it/cc875815.afsese20_big(it-it,TechNet.10).gif)
 
 4.  Per filtrare il registro al fine di elencare le voci di eventi registrati per il filtro messaggi intelligente, scegliere **Filtra** nel menu **Visualizza**.
 
@@ -738,7 +738,7 @@ Il filtro messaggi intelligente ha diversi contatori delle prestazioni che posso
 
 3.  Nella finestra di dialogo **Aggiungi contatori**, in **Oggetto prestazioni**, selezionare **Filtro messaggi intelligente di Microsoft Exchange** (come mostrato nella seguente schermata).
 
-    [![](images/Cc875815.AFSESE21(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875815.afsese21_big(it-it,technet.10).gif)
+    [![](images/Cc875815.AFSESE21(it-it,TechNet.10).gif "AFSESE21.GIF")](https://technet.microsoft.com/it-it/cc875815.afsese21_big(it-it,TechNet.10).gif)
 
 #### Consapevolezza degli utenti
 
