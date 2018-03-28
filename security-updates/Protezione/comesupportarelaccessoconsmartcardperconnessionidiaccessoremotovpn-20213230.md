@@ -298,7 +298,7 @@ Innanzitutto, è necessario preparare l'Autorità di certificazione all'assegnaz
 
 6.  Aggiungere il gruppo di protezione per gli agenti di registrazione creati come parte dei prerequisiti di distribuzione e assegnare le autorizzazioni di **lettura** e **registrazione** (mostrato nella schermata seguente). Quindi, fare clic su **OK**.
 
-    [![](images/Cc875840.SCLVPN03(it-it,TechNet.10).gif "Siti e servizi di Active Directory")](https://technet.microsoft.com/it-it/cc875840.sclvpn03_big(it-it,technet.10).gif)&gt;
+    [![](images/Cc875840.SCLVPN03(it-it,TechNet.10).gif "Proprietà EnrollmentAgent")](https://technet.microsoft.com/it-it/cc875840.sclvpn03_big(it-it,technet.10).gif)&gt;
 
 7.  Chiudere la schermata **Siti e servizi di Active Directory**.
 
