@@ -421,7 +421,7 @@ WPA o WPA2 con PEAP-MS-CHAPv2 necessita di una minore quantità di conoscenze te
   
 WPA o WPA2 con EAP-TLS è l'opzione che assicura la massima protezione delle reti WLAN, ma comporta anche costi di implementazione e gestione più elevati perché richiede un'infrastruttura di certificazione sottostante. Tuttavia, molte medie aziende dispongono già di sistemi conformi ai requisiti di WPA2 con EAP-TLS e pertanto questa soluzione potrebbe risultare preferibile. Molte aziende che invece non dispongono ancora della tecnologia necessaria hanno comunque l'esigenza di dotarsi di alcuni dei componenti tecnologici della soluzione, i certificati e RADIUS; pertanto l'implementazione di questa soluzione ha senso sia dal punto di vista tecnico che commerciale.
   
-[![](images/Cc875845.SWCG1(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875845.swcg1_big(it-it,technet.10).gif)
+[![](images/Cc875845.SWCG1(it-it,TechNet.10).gif "Figura 1. Struttura decisionale WLAN Microsoft")](https://technet.microsoft.com/it-it/cc875845.swcg1_big(it-it,technet.10).gif)
   
 **Figura 1. Struttura decisionale WLAN Microsoft**
   
@@ -516,7 +516,7 @@ In alcune aziende, questi documenti hanno valore legale e la loro redazione è r
 
 Questa guida presuppone un modello di trust gerarchico con un'unica autorità di certificazione principale interna. Poiché questo approccio comporta una serie di vantaggi e svantaggi, potrebbe essere necessario approfondire ulteriormente l'argomento al fine di determinare se questo specifico approccio è valido per l'azienda. Per ulteriori informazioni su questo argomento, vedere il capitolo [Designing a Public Key Infrastructure](http://technet2.microsoft.com/windowsserver/en/library/b1ee9920-d7ef-4ce5-b63c-3661c72e0f0b1033.mspx) del Windows Server 2003 Deployment Kit all'indirizzo http://technet2.microsoft.com/WindowsServer/en/library/b1ee9920-d7ef-4ce5-b63c-3661c72e0f0b1033.mspx (in inglese).
 
-![](images/Cc875845.SWCG2(it-it,TechNet.10).gif)
+![](images/Cc875845.SWCG2(it-it,TechNet.10).gif "Figura 2. Gerarchia delle autorità di certificazione")
 
 **Figura 2. Gerarchia delle autorità di certificazione**
 
@@ -606,7 +606,7 @@ Alle aziende di maggiori dimensioni si consiglia di valutare l'utilizzo di proxy
 
 La più semplice funzionalità di failover dei server RADIUS integrata nei punti di accesso wireless è in grado di fornire una capacità di recupero sufficiente alla maggior parte delle organizzazioni, ma non è certo una soluzione sofisticata come l'utilizzo di gruppi di server proxy. Tuttavia, il percorso di migrazione da questa architettura alla soluzione di failover e bilanciamento del carico basata su server proxy RADIUS è relativamente semplice per cui questa architettura potrà evolversi nel tempo. Per le aziende che stanno valutando una copertura wireless ridotta o limitata, questa soluzione è efficace e semplice da implementare; tuttavia, l'impegno in termini di gestione e implementazione aumenta parallelamente alle dimensioni e alla complessità della rete wireless poiché ogni dispositivo richiede un monitoraggio e una pianificazione accurati al fine di mantenere un bilanciamento del carico ottimale tra tutti i server.
 
-[![](images/Cc875845.SWCG3(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875845.swcg3_big(it-it,technet.10).gif)
+[![](images/Cc875845.SWCG3(it-it,TechNet.10).gif "Figura 3. Metodi di failover e bilanciamento del carico RADIUS per reti WLAN")](https://technet.microsoft.com/it-it/cc875845.swcg3_big(it-it,technet.10).gif)
 
 **Figura 3. Metodi di failover e bilanciamento del carico RADIUS per reti WLAN**
 
@@ -632,7 +632,7 @@ Alcune aziende dovranno rinunciare ai vantaggi di un'architettura centralizzata 
 
 Un terzo approccio è una combinazione delle due architetture precedenti e consente di collocare strategicamente i server IAS presso i siti che supportano l'infrastruttura, consentendo a questi server di fornire l'autenticazione alle filiali sprovviste di una base di server sottostante, come illustrato nella figura seguente.
 
-[![](images/Cc875845.SWCG4(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875845.swcg4_big(it-it,technet.10).gif)
+[![](images/Cc875845.SWCG4(it-it,TechNet.10).gif "Figura 4. Infrastruttura WLAN IAS mista")](https://technet.microsoft.com/it-it/cc875845.swcg4_big(it-it,technet.10).gif)
 
 **Figura 4. Infrastruttura WLAN IAS mista**
 
@@ -1607,7 +1607,7 @@ Questo passaggio è necessario, in quanto le versioni HTTP degli URL CDP e AIA v
   
 Una volta installata la CA principale e pubblicati i relativi certificati, è possibile distribuire il server CA di emissione. L'installazione di Servizi certificati comporta una serie di complesse interazioni tra la CA di emissione, la CA principale, Active Directory e il server Web. Per semplificare la comprensione di tali interazioni è utile consultare il diagramma seguente come riferimento.
   
-[![](images/Cc875845.SWCG5(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875845.swcg5_big(it-it,technet.10).gif)
+[![](images/Cc875845.SWCG5(it-it,TechNet.10).gif "Figura 5. Processo di installazione del certificato")](https://technet.microsoft.com/it-it/cc875845.swcg5_big(it-it,technet.10).gif)
   
 **Figura 5. Processo di installazione del certificato**
   
