@@ -82,7 +82,7 @@ Prima di passare alla definizione delle procedure specifiche previste dal proces
 
 La figura seguente illustra le diverse fasi e i relativi passaggi.
 
-[![](images/Cc163153.rmch0301(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163153.rmch0301_big(it-it,technet.10).gif)
+[![](images/Cc163153.rmch0301(it-it,TechNet.10).gif "Figura 3.1 Il processo di gestione dei rischi di protezione Microsoft")](https://technet.microsoft.com/it-it/cc163153.rmch0301_big(it-it,technet.10).gif)
 
 **Figura 3.1 Il processo di gestione dei rischi di protezione Microsoft**
 
@@ -92,7 +92,7 @@ Nei capitoli seguenti verranno illustrate in sequenza le diverse fasi che compon
 
 Le organizzazioni che si sono da poco avvicinate alla disciplina della gestione dei rischi troveranno utile valutare quali procedure del processo di gestione dei rischi di protezione Microsoft richiedono generalmente un livello maggiore di sforzo da parte del Team di gestione dei rischi di protezione. Nella figura seguente, basata sulle attività di gestione dei rischi condotte presso il reparto IT di Microsoft, vengono illustrati i livelli di sforzo relativi richiesti dalle diverse procedure del processo. Guardare all'intero processo e all'impegno in termini di tempo da questo punto di vista può aiutare le organizzazioni che si sono da poco avvicinate alla disciplina della gestione dei rischi a evitare di soffermarsi troppo a lungo su una singola fase del processo. La figura evidenzia un livello di sforzo moderato per le attività di raccolta dei dati, un livello ancora più basso per l'analisi sommaria dei rischi e livelli di sforzo elevati in corrispondenza della creazione di elenchi di rischi dettagliati e del processo di supporto alle decisioni. Per una vista supplementare delle diverse attività e dell'impegno ad esse associato, consultare la programmazione di esempio contenuta nella cartella Strumenti, GGRPStrumento4-Programmazione progetto di esempio.xls. Negli altri capitoli della guida verranno descritte ulteriormente le singole procedure indicate di seguito.
 
-[![](images/Cc163153.rmch0302(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163153.rmch0302_big(it-it,technet.10).gif)
+[![](images/Cc163153.rmch0302(it-it,TechNet.10).gif "Figura 3.2 Livelli di sforzo relativi durante il processo di gestione dei rischi di protezione Microsoft")](https://technet.microsoft.com/it-it/cc163153.rmch0302_big(it-it,technet.10).gif)
 
 **Figura 3.2 Livelli di sforzo relativi durante il processo di gestione dei rischi di protezione Microsoft**
 
@@ -160,7 +160,7 @@ Anche se la valutazione dei rischi rappresenta una fase necessaria e discreta de
   
 Spesso le persone coinvolte nel processo di gestione dei rischi definiscono il concetto di *rischio* in modo diverso. Al fine di garantire la massima coerenza durante tutte le fasi del ciclo, il processo di gestione dei rischi di protezione Microsoft richiede che i partecipanti al processo concordino sulla stessa definizione del concetto di rischio. Come spiegato nel Capitolo 1, "Introduzione alla Guida alla gestione dei rischi di protezione", il rischio è la probabilità che si verifichi un impatto sulle attività aziendali. Questa definizione include una dichiarazione di impatto e la previsione di quando questo si verificherà, ovvero della sua probabilità. Quando entrambi gli elementi che compongono il concetto di rischio (la probabilità e l'impatto) sono inclusi in una determinazione dei rischi, quest'ultima viene definita *adeguata definizione dei rischi*. L'utilizzo di questa espressione assicura un'interpretazione univoca del concetto di rischio. Il diagramma seguente illustra il concetto nella forma più elementare.
   
-[![](images/Cc163153.rmch0303(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163153.rmch0303_big(it-it,technet.10).gif)
+[![](images/Cc163153.rmch0303(it-it,TechNet.10).gif "Figura 3.3 Adeguata definizione dei rischi")](https://technet.microsoft.com/it-it/cc163153.rmch0303_big(it-it,technet.10).gif)
   
 **Figura 3.3 Adeguata definizione dei rischi**
   
@@ -172,7 +172,7 @@ Il rischio è la probabilità di sfruttamento di una vulnerabilità dell'ambient
   
 Il processo di gestione dei rischi di protezione Microsoft offre gli strumenti per misurare la probabilità e il grado di perdita correlati con i diversi rischi e per comunicare in proposito mediante una terminologia coerente. I diversi capitoli di questa guida illustrano il processo definendo i singoli componenti di un'adeguata definizione dei rischi per consentire di identificare i rischi a tutti i livelli dell'organizzazione e definirne le priorità. Il diagramma seguente espande il concetto di determinazione dei rischi precedentemente illustrato, mostrando la relazione tra i diversi elementi che compongono i rischi.
   
-[![](images/Cc163153.rmch0304(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163153.rmch0304_big(it-it,technet.10).gif)
+[![](images/Cc163153.rmch0304(it-it,TechNet.10).gif "Figura 3.4 Componenti di un'adeguata definizione dei rischi")](https://technet.microsoft.com/it-it/cc163153.rmch0304_big(it-it,technet.10).gif)
   
 **Figura 3.4 Componenti di un'adeguata definizione dei rischi**
   
@@ -360,7 +360,7 @@ Il Team di gestione dei rischi di protezione organizzerà un incontro con tutte 
   
 In sintesi, lo sponsor esecutivo è la persona che detiene la responsabilità finale per la definizione dei rischi accettabili e guida il Team di gestione dei rischi di protezione durante la definizione delle priorità dei rischi per l'organizzazione. Il Team di gestione dei rischi di protezione è responsabile della valutazione dei rischi e della definizione dei requisiti funzionali per ridurre i rischi a un livello accettabile. Il team collabora con i gruppi IT responsabili della scelta delle soluzioni di riduzione dei rischi, della loro implementazione e delle attività operative. Il Team di gestione dei rischi di protezione supervisiona l'insieme delle relazioni illustrate sotto e la misurazione dell'efficacia dei controlli, che di solito viene comunicata in forma di report sui controlli anche allo sponsor esecutivo.
   
-[![](images/Cc163153.rmch0305(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163153.rmch0305_big(it-it,technet.10).gif)
+[![](images/Cc163153.rmch0305(it-it,TechNet.10).gif "Figura 3.5 Panoramica dei ruoli e delle responsabilità previsti durante l'intero processo di gestione dei rischi di protezione Microsoft")](https://technet.microsoft.com/it-it/cc163153.rmch0305_big(it-it,technet.10).gif)
   
 **Figura 3.5 Panoramica dei ruoli e delle responsabilità previsti durante l'intero processo di gestione dei rischi di protezione Microsoft**
   

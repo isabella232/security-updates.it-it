@@ -181,7 +181,7 @@ La guida *Analisi della protezione* presente in questo Solution Accelerator cont
 
 Nella seguente figura viene illustrata una struttura decisionale da utilizzare per valutare le opzioni di configurazione di BitLocker per il proprio ambiente.
 
-![](images/Cc162806.ca97aaca-c63e-43bb-948c-67d3ae965c2e(it-it,TechNet.10).gif)
+![](images/Cc162806.ca97aaca-c63e-43bb-948c-67d3ae965c2e(it-it,TechNet.10).gif "Figura 1.1. Struttura decisionale delle opzioni di configurazione di BitLocker")
 
 **Figura 1.1. Struttura decisionale delle opzioni di configurazione di BitLocker**
 
@@ -493,7 +493,7 @@ Se questa impostazione dei criteri viene disattivata o non viene configurata, la
   
 Se si intende utilizzare BitLocker senza un TPM o con un TPM più un PIN o una chiave di avvio, verificare che i criteri del computer locale (Criteri di gruppo efficaci) siano configurati per le opzioni di avvio avanzate (vedere la seguente figura). Questa configurazione deve essere impostata prima di attivare BitLocker e può essere individuata nel percorso **Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Crittografia unità BitLocker\\Impostazione del pannello di controllo: attivazione opzioni di avvio avanzate**.
   
-![](images/Cc162806.01e06e8d-fc15-49cd-a09c-ed805d2c1655(it-it,TechNet.10).gif)
+![](images/Cc162806.01e06e8d-fc15-49cd-a09c-ed805d2c1655(it-it,TechNet.10).gif "Figura 1.2. Finestra di dialogo Attivazione opzioni di avvio avanzate")
   
 **Figura 1.2. Finestra di dialogo Attivazione opzioni di avvio avanzate**
   

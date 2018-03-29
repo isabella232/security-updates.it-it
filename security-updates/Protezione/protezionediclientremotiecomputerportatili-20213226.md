@@ -76,15 +76,15 @@ Per configurare il Centro sicurezza PC per il download automatico e l'installazi
 
 2.  Nel Pannello di controllo fare clic su **Centro sicurezza PC** (illustrato nella figura seguente).
 
-    [![](images/Cc875832.SRCPC01(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875832.srcpc01_big(it-it,technet.10).gif)
+    [![](images/Cc875832.SRCPC01(it-it,TechNet.10).gif "SRCPC01.GIF")](https://technet.microsoft.com/it-it/cc875832.srcpc01_big(it-it,technet.10).gif)
 
 3.  Fare clic sull'opzione **Aggiornamenti automatici** (illustrata nella figura seguente).
 
-    [![](images/Cc875832.SRCPC02(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875832.srcpc02_big(it-it,technet.10).gif)
+    [![](images/Cc875832.SRCPC02(it-it,TechNet.10).gif "SRCPC02.GIF")](https://technet.microsoft.com/it-it/cc875832.srcpc02_big(it-it,technet.10).gif)
 
 4.  Selezionare l'opzione **Automatico (impostazione consigliata)** (illustrata nella figura seguente) e specificare una frequenza per il download e l'installazione degli aggiornamenti automatici. Avere cura di impostare un orario in cui il computer è in esecuzione.
 
-    ![](images/Cc875832.SRCPC03(it-it,TechNet.10).gif)
+    ![](images/Cc875832.SRCPC03(it-it,TechNet.10).gif "SRCPC03.GIF")
 
 5.  Specificata la frequenza, fare clic su **OK**.
 
@@ -122,29 +122,29 @@ Per installare Windows Defender (Beta 2) dopo il download, eseguire la procedura
 
 1.  Al termine del download di Windows Defender (Beta 2), verrà visualizzata la finestra di dialogo seguente. Fare clic su **Esegui**.
 
-    ![](images/Cc875832.SRCPC04(it-it,TechNet.10).gif)
+    ![](images/Cc875832.SRCPC04(it-it,TechNet.10).gif "SRCPC04.GIF")
 
 2.  Verrà visualizzata la schermata **Welcome to the Installation Wizard for Windows Defender** (Installazione guidata di Windows Defender) seguente. Fare clic su **Avanti**.
 
-    ![](images/Cc875832.SRCPC05(it-it,TechNet.10).gif)
+    ![](images/Cc875832.SRCPC05(it-it,TechNet.10).gif "SRCPC05.GIF")
 
 3.  Verrà visualizzata la schermata **Windows Defender License Agreement** (Contratto di licenza per Windows Defender), illustrata nella figura seguente. Leggere le condizioni del contratto.
 
     Per continuare l'installazione, è necessario selezionare **I accept the terms in the license agreement** (Accetto i termini del contratto di licenza) e fare clic su **Avanti**.
 
-    ![](images/Cc875832.SRCPC06(it-it,TechNet.10).gif)
+    ![](images/Cc875832.SRCPC06(it-it,TechNet.10).gif "SRCPC06.GIF")
 
 4.  Nella schermata **Help protect Windows** (Protezione di Windows), illustrata nella figura seguente, selezionare **Use recommended settings** (Usa impostazioni consigliate). Fare clic sul pulsante **Privacy Statement** (Informativa sulla privacy), se lo si desidera, quindi fare clic su **Avanti**.
 
-    ![](images/Cc875832.SRCPC07(it-it,TechNet.10).gif)
+    ![](images/Cc875832.SRCPC07(it-it,TechNet.10).gif "SRCPC07.GIF")
 
 5.  Nella schermata **Setup Type** (Tipo di installazione), illustrata nella figura seguente, selezionare **Complete** (Completa) e fare clic su **Avanti**.
 
-    ![](images/Cc875832.SRCPC08(it-it,TechNet.10).gif)
+    ![](images/Cc875832.SRCPC08(it-it,TechNet.10).gif "SRCPC08.GIF")
 
 6.  Nella schermata **Ready to Install Windows Defender** (Installazione di Windows Defender) che verrà visualizzata, fare clic su **Install** (Installa) per avviare l'installazione.
 
-    ![](images/Cc875832.SRCPC09(it-it,TechNet.10).gif)
+    ![](images/Cc875832.SRCPC09(it-it,TechNet.10).gif "SRCPC09.GIF")
 
 7.  Al termine dell'installazione, verrà visualizzata la schermata **Windows Defender Installation Complete** (Installazione di Windows Defender completata).
 
@@ -152,11 +152,11 @@ Per installare Windows Defender (Beta 2) dopo il download, eseguire la procedura
 
     **Nota**   Per l'esecuzione di questo passaggio è necessaria la connessione Internet.
 
-    ![](images/Cc875832.SRCPC10(it-it,TechNet.10).gif)
+    ![](images/Cc875832.SRCPC10(it-it,TechNet.10).gif "SRCPC10.GIF")
 
 8.  Nella schermata seguente fare clic sul pulsante **Check for Updates** (Controlla aggiornamenti) per ottenere aggiornamenti recenti.
 
-    [![](images/Cc875832.SRCPC11(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875832.srcpc11_big(it-it,technet.10).gif)
+    [![](images/Cc875832.SRCPC11(it-it,TechNet.10).gif "SRCPC11.GIF")](https://technet.microsoft.com/it-it/cc875832.srcpc11_big(it-it,technet.10).gif)
 
 Per ulteriori dettagli e informazioni sulle funzionalità avanzate di Windows Defender (Beta 2), visitare il sito Web [Windows Defender (Beta 2)](http://www.microsoft.com/italy/athome/security/spyware/software/default.mspx) all'indirizzo http://www.microsoft.com/italy/athome/security/spyware/software/default.mspx.
 
@@ -191,17 +191,17 @@ Le impostazioni generali di Windows Firewall consentono di configurare le opzion
 
 1.  Per aprire il Centro sicurezza PC Windows, fare clic sul pulsante **Start** e scegliere **Panello di controllo**. Verrà visualizzata la schermata seguente.
 
-    [![](images/Cc875832.SRCPC12(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875832.srcpc12_big(it-it,technet.10).gif)
+    [![](images/Cc875832.SRCPC12(it-it,TechNet.10).gif "SRCPC12.GIF")](https://technet.microsoft.com/it-it/cc875832.srcpc12_big(it-it,technet.10).gif)
 
 2.  Nella sezione **Scegliere una categoria** fare clic su **Centro sicurezza PC**. Verrà visualizzata la schermata **Centro sicurezza PC Windows**, illustrata nella figura seguente.
 
-    [![](images/Cc875832.SRCPC13(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875832.srcpc13_big(it-it,technet.10).gif)
+    [![](images/Cc875832.SRCPC13(it-it,TechNet.10).gif "SRCPC13.GIF")](https://technet.microsoft.com/it-it/cc875832.srcpc13_big(it-it,technet.10).gif)
 
 #### Notifiche di configurazione
 
 Per impostazione predefinita, Windows Firewall visualizza una finestra di dialogo di notifica ogni volta che viene bloccato un tentativo di comunicazione con un altro computer. Questa finestra di dialogo è simile alla schermata illustrata nella figura seguente:
 
-![](images/Cc875832.SRCPC14(it-it,TechNet.10).gif)
+![](images/Cc875832.SRCPC14(it-it,TechNet.10).gif "SRCPC14.GIF")
 
 Nella finestra di dialogo viene indicato il programma bloccato e viene data la possibilità di scegliere se consentirne l'esecuzione. Le opzioni disponibili sono le seguenti:
 

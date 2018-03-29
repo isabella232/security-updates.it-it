@@ -45,7 +45,7 @@ In molti casi l'ambiente SSLF imposterà esplicitamente il valore predefinito. S
 
 La figura seguente mostra i tre ambienti di protezione ed i client che ciascuno supporta.
 
-[![](images/Cc163121.sgfg0401(it-it,TechNet.10).jpg)](https://technet.microsoft.com/it-it/cc163121.sgfg0401_big(it-it,technet.10).gif)
+[![](images/Cc163121.sgfg0401(it-it,TechNet.10).jpg "Figura 4.1 Ambienti di protezione esistenti e previsti")](https://technet.microsoft.com/it-it/cc163121.sgfg0401_big(it-it,technet.10).gif)
 
 **Figura 4.1 Ambienti di protezione esistenti e previsti**
 
@@ -55,7 +55,7 @@ La figura seguente mostra l’utilizzo dei modelli di protezione (file .inf) com
 
 Windows Server 2003 con SP1 viene consegnato con valori predefiniti impostati su un livello di protezione elevato. In molti casi, questo capitolo prescrive impostazioni diverse dai valori predefiniti. Il capitolo suggerisce inoltre valori predefiniti specifici per tutti i tre ambienti. Queste informazioni sono riportate nella guida correlata, [*Pericoli e contromisure: Impostazioni di protezione in Windows Server 2003 e Windows XP*](http://technet.microsoft.com/it-it/library/dd162275), all'indirizzo http://technet.microsoft.com/it-it/library/dd162275.
 
-[![](images/Cc163121.sgfg0402(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163121.sgfg0402_big(it-it,technet.10).gif)
+[![](images/Cc163121.sgfg0402(it-it,TechNet.10).gif "Figura 4.2 Il modello di protezione EC-Member Server Baseline.inf viene importato nei criteri MSBP, i quali vengono collegati all’unità organizzativa (OU, Organizational Unit) Server membri")](https://technet.microsoft.com/it-it/cc163121.sgfg0402_big(it-it,technet.10).gif)
 
 **Figura 4.2 Il modello di protezione EC-Member Server Baseline.inf viene importato nei criteri MSBP, i quali vengono collegati all’unità organizzativa (OU, Organizational Unit) Server membri**
 

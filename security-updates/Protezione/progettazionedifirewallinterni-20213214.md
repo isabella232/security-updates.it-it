@@ -89,7 +89,7 @@ In un'organizzazione aziendale capita spesso che siano presenti due diversi fire
 
 Le reti sono illustrate nella figura 1
 
-![](images/Cc700827.SGFG15501(it-it,TechNet.10).gif)
+![](images/Cc700827.SGFG15501(it-it,TechNet.10).gif "Architettura della rete aziendale")
 
 Figura 1
 *Architettura della rete aziendale*
@@ -1006,7 +1006,7 @@ Per aumentare la disponibilità del firewall, è possibile implementarlo come si
   
 Nella figura seguente è illustrato un firewall singolo senza componenti ridondanti:
   
-![](images/Cc700827.SGFG15504_1(it-it,TechNet.10).gif)
+![](images/Cc700827.SGFG15504_1(it-it,TechNet.10).gif "Firewall singolo senza componenti ridondanti")
   
 Figura 2  
 *Firewall singolo senza componenti ridondanti*
@@ -1038,7 +1038,7 @@ Tra gli svantaggi di un firewall singolo senza ridondanza sono inclusi:
   
 Nella figura seguente è illustrato un firewall singolo con componenti ridondanti:
   
-![](images/Cc700827.SGFG15504_2(it-it,TechNet.10).gif)
+![](images/Cc700827.SGFG15504_2(it-it,TechNet.10).gif "Firewall singolo senza componenti ridondanti")
   
 Figura 3  
 *Firewall singolo con componenti ridondanti*
@@ -1073,7 +1073,7 @@ Tra gli svantaggi di un firewall singolo sono inclusi:
   
 Un set di firewall con tolleranza d'errore include un meccanismo per duplicare ognuno dei firewall, come nella figura seguente.
   
-![](images/Cc700827.SGFG15505(it-it,TechNet.10).gif)
+![](images/Cc700827.SGFG15505(it-it,TechNet.10).gif "Firewall con tolleranza d'errore")
   
 Figura 4  
 *Firewall con tolleranza d'errore*
@@ -1112,7 +1112,7 @@ Quando si implementa un set di firewall con tolleranza d'errore (definito spesso
   
 In un set di firewall con tolleranza d'errore di tipo attivo/passivo, un dispositivo, definito anche "nodo attivo", gestisce tutto il traffico, mentre l'altro, il nodo passivo, non inoltra traffico né esegue attività di filtro ma si limita a monitorare lo stato del nodo attivo. In genere, ogni nodo comunica la sua disponibilità e/o lo stato della sua connessione al nodo partner. Questa comunicazione viene definita "heartbeat"; ogni sistema invia segnalazioni più volte al secondo per assicurare che il nodo partner stia gestendo le connessioni. Se il nodo passivo non riceve alcun heartbeat dal nodo attivo per un periodo di tempo più lungo di uno specifico intervallo definito dall'utente, assume il ruolo attivo perché il nodo attivo si trova in una condizione di errore. Nella figura seguente è illustrato un set di firewall con tolleranza d'errore di tipo attivo/passivo.
   
-![](images/Cc700827.SGFG15506(it-it,TechNet.10).gif)
+![](images/Cc700827.SGFG15506(it-it,TechNet.10).gif "Set di firewall con tolleranza d'errore di tipo attivo/passivo")
   
 Figura 5  
 *Set di firewall con tolleranza d'errore di tipo attivo/passivo*
@@ -1138,7 +1138,7 @@ Tra gli svantaggi di un set di firewall con tolleranza d'errore di tipo attivo/p
   
 In un set di firewall con tolleranza d'errore di tipo attivo/attivo, due o più nodi sono in attesa di tutte le richieste inviate a un indirizzo IP virtuale condiviso da ogni nodo. Il carico viene distribuito tra i nodi tramite algoritmi esclusivi del meccanismo di tolleranza d'errore in uso o tramite configurazione statica su base utente. Qualsiasi sia il metodo, il risultato è che ciascun nodo filtra traffico diverso. Nel caso in cui si verifichi un errore in un nodo, gli altri nodi si distribuiranno l'elaborazione del carico assegnato al nodo non funzionante. Nella figura seguente è illustrato un set di firewall con tolleranza d'errore di tipo attivo/attivo.
   
-![](images/Cc700827.SGFG15507(it-it,TechNet.10).gif)
+![](images/Cc700827.SGFG15507(it-it,TechNet.10).gif "Set di firewall con tolleranza d'errore di tipo attivo/attivo")
   
 Figura 6  
 *Set di firewall con tolleranza d'errore di tipo attivo/attivo*
