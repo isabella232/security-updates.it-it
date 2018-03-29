@@ -15,7 +15,7 @@ Pubblicato: 4 aprile 2007
 
 I dati sensibili, come tutti i dati, hanno un ciclo di vita complesso e, in genere, vengono spostati da un posto a un altro poiché eseguono la funzione aziendale ad essi collegata. È necessario proteggere i dati durante tutto il periodo di utilizzo, ma molte tecnologie e processi verranno applicati in diverse fasi del ciclo di vita dei dati.
 
-![](images/Cc162822.4e80aa2b-2eba-421f-aeb8-d6021778e75d(it-it,TechNet.10).gif)
+![](images/Cc162822.4e80aa2b-2eba-421f-aeb8-d6021778e75d(it-it,TechNet.10).gif "Esempio del ciclo di vita dei dati")
 
 **Figura 1.1. Esempio del ciclo di vita dei dati**
 
@@ -99,7 +99,7 @@ Per ulteriori informazioni sul modo di accertarsi che un'implementazione crittog
 
 Per valutare i meriti degli approcci di crittografia, è necessario esaminare i dettagli dell'implementazione di crittografia nella sua interezza. La figura che segue mostra una catena di eventi tipo che si verifica quando i dati vengono crittografati e decrittografati.
 
-![](images/Cc162822.a42ab380-80b9-41a7-8f54-50ad34a59ee1(it-it,TechNet.10).jpg)
+![](images/Cc162822.a42ab380-80b9-41a7-8f54-50ad34a59ee1(it-it,TechNet.10).jpg "Crittografia e decrittografia dei dati")
 
 **Figura 1.2. Crittografia e decrittografia dei dati**
 
