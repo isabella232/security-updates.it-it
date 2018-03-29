@@ -51,7 +51,7 @@ Di seguito viene riportata la descrizione degli account di dominio nel diagramma
 
 -   Account E dispone dei privilegi di amministratore su un unico server membro.
 
-    [![](images/Dd536270.PGFG0201(it-it,TechNet.10).jpg)](https://technet.microsoft.com/it-it/dd536270.pgfg0201_big(it-it,technet.10).gif)
+    [![](images/Dd536270.PGFG0201(it-it,TechNet.10).jpg "Figura 2.1. Privilegi degli account amministratore su server e controller di dominio")](https://technet.microsoft.com/it-it/dd536270.pgfg0201_big(it-it,technet.10).gif)
 
     **Figura 2.1. Privilegi degli account amministratore su server e controller di dominio**
 
