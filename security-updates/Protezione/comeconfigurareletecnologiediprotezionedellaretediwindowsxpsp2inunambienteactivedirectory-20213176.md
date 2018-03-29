@@ -199,7 +199,7 @@ Una volta che un GPO è stato aggiornato, è possibile configurare le impostazio
 
 5.  Nella finestra di dialogo **Seleziona oggetto Criteri di gruppo**, fare clic su **Sfoglia**.
 
-    ![](images/Cc700817.adprte01(it-it,TechNet.10).gif)
+    ![](images/Cc700817.adprte01(it-it,TechNet.10).gif "Figura 1   Ricerca oggetto Criteri di gruppo")
 
     **Figura 1   Ricerca oggetto Criteri di gruppo**
 
@@ -275,7 +275,7 @@ Questa impostazione permette agli utenti dei computer con Windows XP SP2 di util
 
 8.  Nella struttura della console, aprire **Configurazione computer**, **Modelli amministrativi**, **Componenti di Windows** e, infine, **Centro sicurezza PC**.
 
-    [![](images/Cc700817.adprte02(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte02_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte02(it-it,TechNet.10).gif "Figura 2   Impostazioni del Centro sicurezza PC")](https://technet.microsoft.com/it-it/cc700817.adprte02_big(it-it,technet.10).gif)
 
     **Figura 2   Impostazioni del Centro sicurezza PC**
 
@@ -301,7 +301,7 @@ L'utilità GPUpdate consente di aggiornare Criteri di gruppo tra un ciclo standa
 
 3.  Dal prompt dei comandi, digitare **GPUpdate** e premere INVIO.
 
-    [![](images/Cc700817.adprte03(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte03_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte03(it-it,TechNet.10).gif "Figura 3   GPUpdate dalla riga di comando")](https://technet.microsoft.com/it-it/cc700817.adprte03_big(it-it,technet.10).gif)
 
     **Figura 3   GPUpdate dalla riga di comando**
 
@@ -389,13 +389,13 @@ Una volta che sono state configurate le impostazioni di Windows Firewall, il suc
 
 8.  Nella struttura della console, aprire **Configurazione computer**, **Modelli amministrativi**, **Rete**, **Connessioni di rete** e, infine, **Windows Firewall**.
 
-    [![](images/Cc700817.adprte04(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte04_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte04(it-it,TechNet.10).gif "Figura 4   Opzioni di Windows Firewall in un Criterio di gruppo")](https://technet.microsoft.com/it-it/cc700817.adprte04_big(it-it,technet.10).gif)
 
     **Figura 4   Opzioni di Windows Firewall in un Criterio di gruppo**
 
 9.  Fare doppio clic su **Windows Firewall: consenti messaggi da computer con autenticazione IPSec**.
 
-    ![](images/Cc700817.adprte05(it-it,TechNet.10).gif)
+    ![](images/Cc700817.adprte05(it-it,TechNet.10).gif "Figura 5   Consenti messaggi da computer con autenticazione IPSec")
 
     **Figura 5   Consenti messaggi da computer con autenticazione IPSec**
 
@@ -445,7 +445,7 @@ Una volta che sono state configurate le impostazioni di Windows Firewall, il suc
   
 12. Selezionare **Profilo di dominio** o **Profilo standard**.
   
-    [![](images/Cc700817.adprte06(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte06_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte06(it-it,TechNet.10).gif "Figura 6   Impostazioni di Windows Firewall in un Criterio di gruppo")](https://technet.microsoft.com/it-it/cc700817.adprte06_big(it-it,technet.10).gif)
   
     **Figura 6   Impostazioni di Windows Firewall in un Criterio di gruppo**
   
@@ -563,19 +563,19 @@ Una volta che sono state configurate le impostazioni di Windows Firewall, il suc
   
 1.  Nell'area delle impostazioni di **Profilo di dominio** o **Profilo** **standard**, fare doppio clic su **Windows Firewall: definisci eccezioni porte**.
   
-    ![](images/Cc700817.adprte07(it-it,TechNet.10).gif)
+    ![](images/Cc700817.adprte07(it-it,TechNet.10).gif "Figura 7   Proprietà di Windows Firewall: definisci eccezioni porte")
   
     **Figura 7   Proprietà di Windows Firewall: definisci eccezioni porte**
   
 2.  Fare clic su **Attivata**, quindi scegliere **Mostra**.    
   
-    [![](images/Cc700817.adprte08(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte08_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte08(it-it,TechNet.10).gif "Figura 8   Mostra contenuti")](https://technet.microsoft.com/it-it/cc700817.adprte08_big(it-it,technet.10).gif)
   
     **Figura 8   Mostra contenuti**
   
 3.  Fare clic su **Aggiungi**.
   
-    ![](images/Cc700817.adprte09(it-it,TechNet.10).gif)
+    ![](images/Cc700817.adprte09(it-it,TechNet.10).gif "Figura 9   Aggiungi elemento")
   
     **Figura 9   Aggiungi elemento**
   
@@ -597,7 +597,7 @@ Una volta che sono state configurate le impostazioni di Windows Firewall, il suc
   
 5.  Fare clic su **OK** per chiudere **Aggiungi elemento**.
   
-    [![](images/Cc700817.adprte10(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte10_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte10(it-it,TechNet.10).gif "Figura 10   Mostra contenuti")](https://technet.microsoft.com/it-it/cc700817.adprte10_big(it-it,technet.10).gif)
   
     **Figura 10   Mostra contenuti**
   
@@ -613,19 +613,19 @@ Una volta che sono state configurate le impostazioni di Windows Firewall, il suc
   
 1.  Nell'area delle impostazioni di **Profilo di dominio** o **Profilo** **standard**, fare doppio clic su **Windows Firewall: definisci eccezioni programmi**.
   
-    ![](images/Cc700817.adprte11(it-it,TechNet.10).gif)
+    ![](images/Cc700817.adprte11(it-it,TechNet.10).gif "Figura 11   Proprietà di Windows Firewall: definisci eccezioni programmi")
   
     **Figura 11   Proprietà di Windows Firewall: definisci eccezioni programmi**
   
 2.  Fare clic su **Attivata**, quindi scegliere **Mostra**.
   
-    [![](images/Cc700817.adprte12(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte12_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte12(it-it,TechNet.10).gif "Figura 12   Mostra contenuti")](https://technet.microsoft.com/it-it/cc700817.adprte12_big(it-it,technet.10).gif)
   
     **Figura 12   Mostra contenuti**
   
 3.  Fare clic su **Aggiungi**.
   
-    ![](images/Cc700817.adprte13(it-it,TechNet.10).gif)
+    ![](images/Cc700817.adprte13(it-it,TechNet.10).gif "Figura 13   Aggiungi elemento")
   
     **Figura 13   Aggiungi elemento**
   
@@ -643,7 +643,7 @@ Una volta che sono state configurate le impostazioni di Windows Firewall, il suc
   
 5.  Fare clic su **OK** per chiudere **Aggiungi elemento**.
   
-    [![](images/Cc700817.adprte14(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte14_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte14(it-it,TechNet.10).gif "Figura 14   Mostra contenuti")](https://technet.microsoft.com/it-it/cc700817.adprte14_big(it-it,technet.10).gif)
   
     **Figura 14   Mostra contenuti**
   
@@ -663,7 +663,7 @@ Per informazioni su ICMP, fare riferimento alle seguenti risorse:
   
 2.  Fare clic su **Attivata**.
   
-    ![](images/Cc700817.adprte15(it-it,TechNet.10).gif)
+    ![](images/Cc700817.adprte15(it-it,TechNet.10).gif "Figura 15   Proprietà di Windows Firewall: consenti eccezioni ICMP")
   
     **Figura 15   Proprietà di Windows Firewall: consenti eccezioni ICMP**
   
@@ -677,7 +677,7 @@ Per informazioni su ICMP, fare riferimento alle seguenti risorse:
   
 1.  Nell'area delle impostazioni di **Profilo di dominio** o **Profilo standard**, fare doppio clic su **Windows Firewall: consenti registrazione**.
   
-    ![](images/Cc700817.adprte16(it-it,TechNet.10).gif)
+    ![](images/Cc700817.adprte16(it-it,TechNet.10).gif "Figura 16   Proprietà di Windows Firewall: consenti registrazione")
   
     **Figura 16   Proprietà di Windows Firewall: consenti registrazione**
   
@@ -709,7 +709,7 @@ L'utilità GPUpdate consente di aggiornare Criteri di gruppo tra un ciclo standa
   
 3.  Dal prompt dei comandi, digitare **GPUpdate** e premere INVIO.
   
-    [![](images/Cc700817.adprte17(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte17_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte17(it-it,TechNet.10).gif "Figura 17   GPUpdate dalla riga di comando")](https://technet.microsoft.com/it-it/cc700817.adprte17_big(it-it,technet.10).gif)
   
     **Figura 17   GPUpdate dalla riga di comando**
   
@@ -795,7 +795,7 @@ Per ulteriori informazioni sui controlli di Funzionalità di protezione, fare ri
   
 8.  Nella struttura della console, aprire **Configurazione computer**, **Modelli amministrativi**, **Componenti di Windows**, **Internet Explorer** e, infine, **Funzionalità di protezione**.
   
-    [![](images/Cc700817.adprte18(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte18_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte18(it-it,TechNet.10).gif "Figura 18   Impostazioni di protezione del Criterio di gruppo Internet Explorer")](https://technet.microsoft.com/it-it/cc700817.adprte18_big(it-it,technet.10).gif)
   
     **Figura 18   Impostazioni di protezione del Criterio di gruppo Internet Explorer**
   
@@ -903,7 +903,7 @@ Per ulteriori informazioni sui controlli di Funzionalità di protezione, fare ri
   
 10. Espandere il **Pannello di controllo Internet**
   
-    [![](images/Cc700817.adprte19(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte19_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte19(it-it,TechNet.10).gif "Figura 19   Impostazioni del Pannello di controllo Internet")](https://technet.microsoft.com/it-it/cc700817.adprte19_big(it-it,technet.10).gif)
   
     **Figura 19   Impostazioni del Pannello di controllo Internet**
   
@@ -911,7 +911,7 @@ Per ulteriori informazioni sui controlli di Funzionalità di protezione, fare ri
   
 12. Espandere la **Pagina protezione**.
   
-    [![](images/Cc700817.adprte20(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte20_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte20(it-it,TechNet.10).gif "Figura 20   Impostazioni della Pagina protezione del Pannello di controllo Internet")](https://technet.microsoft.com/it-it/cc700817.adprte20_big(it-it,technet.10).gif)
   
     **Figura 20   Impostazioni della Pagina protezione del Pannello di controllo Internet**
   
@@ -1079,7 +1079,7 @@ L'utilità GPUpdate consente di aggiornare Criteri di gruppo tra un ciclo standa
   
 3.  Dal prompt dei comandi, digitare **GPUpdate** e premere INVIO.
   
-    [![](images/Cc700817.adprte21(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte21_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte21(it-it,TechNet.10).gif "Figura 21   GPUpdate dalla riga di comando")](https://technet.microsoft.com/it-it/cc700817.adprte21_big(it-it,technet.10).gif)
   
     **Figura 21   GPUpdate dalla riga di comando**
   
@@ -1155,7 +1155,7 @@ Per ulteriori informazioni su come controllare l'uso dell'Aggiunta guidata risor
   
 8.  Nella struttura della console, aprire **Configurazione computer**, **Modelli amministrativi**, **Sistema** e, infine, **Gestione comunicazioni Internet**.
   
-    [![](images/Cc700817.adprte22(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte22_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte22(it-it,TechNet.10).gif "Figura 22   Impostazioni di Gestione comunicazioni Internet")](https://technet.microsoft.com/it-it/cc700817.adprte22_big(it-it,technet.10).gif)
   
     **Figura 22   Impostazioni di Gestione comunicazioni Internet**
   
@@ -1240,7 +1240,7 @@ L'utilità GPUpdate consente di aggiornare Criteri di gruppo tra un ciclo standa
   
 3.  Dal prompt dei comandi, digitare **GPUpdate** e premere INVIO.
   
-    [![](images/Cc700817.adprte23(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte23_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte23(it-it,TechNet.10).gif "Figura 23   GPUpdate dalla riga di comando")](https://technet.microsoft.com/it-it/cc700817.adprte23_big(it-it,technet.10).gif)
   
     **Figura 23   GPUpdate dalla riga di comando**
   
@@ -1375,7 +1375,7 @@ Se si implementa un server COM e si intende supportare l'attivazione remota da p
   
 8.  Nella struttura della console, aprire **Configurazione computer**, **Impostazioni di Windows, Impostazioni protezione**, **Criteri locali** e, infine, **Opzioni di protezione**.
   
-    [![](images/Cc700817.adprte24(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte24_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte24(it-it,TechNet.10).gif "Figura 24   Opzioni di protezione")](https://technet.microsoft.com/it-it/cc700817.adprte24_big(it-it,technet.10).gif)
   
     **Figura 24   Opzioni di protezione**
   
@@ -1385,19 +1385,19 @@ Se si implementa un server COM e si intende supportare l'attivazione remota da p
   
     -   "[Security Descriptor Definition Language](http://go.microsoft.com/fwlink/?linkid=35503)" sul sito Web MSDN all'indirizzo http://go.microsoft.com/fwlink/?linkid=35503
   
-    ![](images/Cc700817.adprte25(it-it,TechNet.10).gif)
+    ![](images/Cc700817.adprte25(it-it,TechNet.10).gif "Figura 25   DCOM: restrizioni accesso computer")
   
     **Figura 25   DCOM: restrizioni accesso computer**
   
 10. Fare clic su **Modifica protezione**.
   
-    ![](images/Cc700817.adprte26(it-it,TechNet.10).gif)
+    ![](images/Cc700817.adprte26(it-it,TechNet.10).gif "Figura 26   Autorizzazioni di accesso")
   
     **Figura 26   Autorizzazioni di accesso**
   
 11. Per concedere l'accesso a tutti i computer a utenti particolari delle applicazioni DCOM all'interno dell'azienda, fare clic su **Aggiungi**.
   
-    ![](images/Cc700817.adprte27(it-it,TechNet.10).gif)
+    ![](images/Cc700817.adprte27(it-it,TechNet.10).gif "Figura 27   Seleziona utenti, computer o gruppi")
   
     **Figura 27   Seleziona utenti, computer o gruppi**
   
@@ -1433,7 +1433,7 @@ L'utilità GPUpdate consente di aggiornare Criteri di gruppo tra un ciclo standa
   
 3.  Dal prompt dei comandi, digitare **GPUpdate** e premere INVIO.
   
-    [![](images/Cc700817.adprte28(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte28_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte28(it-it,TechNet.10).gif "Figura 28   GPUpdate dalla riga di comando")](https://technet.microsoft.com/it-it/cc700817.adprte28_big(it-it,technet.10).gif)
   
     **Figura 28   GPUpdate dalla riga di comando**
   
@@ -1517,7 +1517,7 @@ Quando si disattiva l'impostazione di criterio Autenticazione client mapping deg
   
 8.  Nella struttura della console, aprire **Configurazione computer**, **Modelli amministrativi**, **Sistema** e, infine, **RPC (Remote Procedure Call)**.
   
-    [![](images/Cc700817.adprte29(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte29_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte29(it-it,TechNet.10).gif "Figura 29   Impostazioni di RPC")](https://technet.microsoft.com/it-it/cc700817.adprte29_big(it-it,technet.10).gif)
   
     **Figura 29   Impostazioni di RPC**
   
@@ -1547,7 +1547,7 @@ L'utilità GPUpdate consente di aggiornare Criteri di gruppo tra un ciclo standa
   
 3.  Dal prompt dei comandi, digitare **GPUpdate** e premere INVIO.
   
-    [![](images/Cc700817.adprte30(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700817.adprte30_big(it-it,technet.10).gif)
+    [![](images/Cc700817.adprte30(it-it,TechNet.10).gif "Figura 30   GPUpdate dalla riga di comando")](https://technet.microsoft.com/it-it/cc700817.adprte30_big(it-it,technet.10).gif)
   
     **Figura 30   GPUpdate dalla riga di comando**
   
