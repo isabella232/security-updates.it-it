@@ -50,7 +50,7 @@ Un'unità organizzativa (OU) è un contenitore all'interno di un dominio di Acti
 
 Uno degli obiettivi principali nella progettazione della struttura dell'unità organizzativa per qualsiasi ambiente è la costituzione di una base per l'implementazione sicura dei criteri di gruppo estesa a tutte le workstation di Active Directory, assicurando che queste rispondano agli standard di protezione dell'organizzazione. È necessario inoltre progettare la struttura dell'unità organizzativa in modo da fornire impostazioni di protezione adeguate per tipi specifici di utenti all'interno di un'organizzazione. Ad esempio, è possibile consentire agli sviluppatori di eseguire sulle workstation operazioni non permesse agli utenti medi. Per gli utenti di computer portatili, inoltre, potrebbero essere necessari requisiti di protezione leggermente diversi da quelli relativi agli utenti di computer desktop. Nella figura seguente è illustrata una struttura di OU semplice, ma sufficiente per la presentazione dei criteri di gruppo in questo capitolo. La struttura di questa unità organizzativa potrebbe essere diversa dai requisiti organizzativi del proprio ambiente.
 
-![](images/Cc163071.XPSG0201(it-it,TechNet.10).gif)
+![](images/Cc163071.XPSG0201(it-it,TechNet.10).gif "Figura 2.1 Una struttura di OU per computer WINDOWS XP")
 
 **Figura 2.1 Una struttura di OU per computer WINDOWS XP**
 
@@ -76,7 +76,7 @@ Questa unità organizzativa contiene OU figlio per ogni tipo di computer client 
 
 Utilizzare i GPO per assicurare che a tutte le workstation o a tutti gli utenti all'interno di un'unità organizzativa vengano applicati impostazioni di criterio, diritti utente e funzionamenti specifici. L'utilizzo dei criteri di gruppo invece della configurazione manuale semplifica l'aggiornamento futuro di alcune workstation o di alcuni utenti con modifiche aggiuntive. La configurazione manuale è inefficiente, perché per ciascun computer client è necessario l'intervento di un tecnico. Inoltre, se le impostazioni di criterio nei GPO basati su domini sono diverse da quelle applicate in locale, le prime sovrascriveranno le seconde.
 
-[![](images/Cc163071.XPSG0202(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163071.xpsg0202_big(it-it,technet.10).gif)
+[![](images/Cc163071.XPSG0202(it-it,TechNet.10).gif "Figura 2.2 Ordine di applicazione degli oggetti Criteri di gruppo")](https://technet.microsoft.com/it-it/cc163071.xpsg0202_big(it-it,technet.10).gif)
 
 **Figura 2.2 Ordine di applicazione degli oggetti Criteri di gruppo**
 
@@ -98,7 +98,7 @@ Le seguenti considerazioni vengono applicate quando si progettano i Criteri di g
 
 Nella figura seguente si espande la struttura dell'unità organizzativa preliminare per mostrare le possibili applicazioni dei GPO ai computer client Windows XP appartenenti alla OU per portatili e alla OU per desktop.
 
-[![](images/Cc163071.XPSG0203(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163071.xpsg0203_big(it-it,technet.10).gif)
+[![](images/Cc163071.XPSG0203(it-it,TechNet.10).gif "Figura 2.3 Espansione della struttura dell'unità organizzativa per computer desktop e portatili basati su Windows XP")](https://technet.microsoft.com/it-it/cc163071.xpsg0203_big(it-it,technet.10).gif)
 
 **Figura 2.3 Espansione della struttura dell'unità organizzativa per computer desktop e portatili basati su Windows XP**
 
