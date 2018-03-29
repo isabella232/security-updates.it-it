@@ -50,7 +50,7 @@ Informazioni dettagliate su questi miglioramenti EFS per Windows XP sono dispon
 
 In tutti gli scenari EFS descritti in questo capitolo, un utente che ha effettuato l'accesso è in grado di abilitare la crittografia nei file e nelle cartelle mediante l'interfaccia **Attributi avanzati** di Esplora risorse.
 
-![](images/Cc162818.c43d3fd1-4a4f-4ad0-8462-5a6eab0bfbb4(it-it,TechNet.10).gif)
+![](images/Cc162818.c43d3fd1-4a4f-4ad0-8462-5a6eab0bfbb4(it-it,TechNet.10).gif "Finestra di dialogo Attributi avanzati di Windows XP")
 
 **Figura 3.1. Finestra di dialogo Attributi avanzati di Windows XP**
 
@@ -80,7 +80,7 @@ EFS è disponibile nelle versioni Business, Enterprise e Ultimate di Windows Vi
 
 -   La maggiore capacità di gestire con precisione le funzionalità EFS in Windows Vista viene illustrata nella nuova interfaccia utente:
 
-![](images/Cc162818.44c4c3c8-7669-4318-8847-1d5a56121c14(it-it,TechNet.10).gif)
+![](images/Cc162818.44c4c3c8-7669-4318-8847-1d5a56121c14(it-it,TechNet.10).gif "Finestra di dialogo Attributi avanzati di Windows Vista")
 
 **Figura 3.2. Interfaccia di gestione EFS di Windows Vista**
 
@@ -164,7 +164,7 @@ Questa opzione EFS non attenua i seguenti rischi senza ulteriori controlli e cri
 
 -   **Perdita di dati non crittografati tramite il file ibernazione**. EFS non fornisce alcuna protezione per il file ibernazione del sistema. Tale rischio può essere attenuato effettuando l'aggiornamento a Windows Vista, utilizzando BitLocker o disattivando l'ibernazione.
 
-    ![](images/Cc162818.important(it-it,TechNet.10).gif)**Importante:**
+    ![](images/Cc162818.important(it-it,TechNet.10).gif "Processo di crittografia EFS")**Importante:**
 
     La disattivazione della modalità di ibernazione riduce la possibilità di utilizzo dei PC portatili. Tale operazione è particolarmente appropriata per i computer in cui vengono memorizzati dati estremamente preziosi, ma generalmente risultano più appropriati altri tipi di attenuazioni.
 
@@ -202,7 +202,7 @@ L'attivazione, ma non l'applicazione, di entrambi i tipi di accessi con smart ca
 
 È possibile rintracciare ulteriori informazioni su DPAPI e sulla modalità con cui l'accesso con smart card influisce sulle chiavi DPAPI nell'articolo MSDN "[Windows Data Protection](http://msdn2.microsoft.com/en-us/library/ms995355.aspx)" (in inglese).
 
-![](images/Cc162818.note(it-it,TechNet.10).gif)**Nota:**
+![](images/Cc162818.note(it-it,TechNet.10).gif "Processo di decrittografia EFS")**Nota:**
 
 Questa discussione sui rischi presuppone che le smart card vengano utilizzate insieme a un PIN non semplice e che la smart card implementi il blocco del PIN come protezione da eventuali intercettazioni del PIN.
 
@@ -430,7 +430,7 @@ I rischi che possono essere attenuati con opzioni specifiche sono indicati con l
 
 **Tabella 3.1. Attenuazione dei rischi di EFS**
 
-![](images/Cc162818.0d76df62-1c23-49d8-beb0-9bd64db9f966(it-it,TechNet.10).gif)
+![](images/Cc162818.0d76df62-1c23-49d8-beb0-9bd64db9f966(it-it,TechNet.10).gif "Attenuazione dei rischi di EFS")
 [](#mainsection)[Inizio pagina](#mainsection)
 
 ### Ulteriori informazioni
