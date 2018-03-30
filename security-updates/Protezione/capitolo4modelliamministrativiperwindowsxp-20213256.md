@@ -101,7 +101,7 @@ Le sezioni seguenti descrivono le impostazioni stabilite in Configurazione compu
   
 Questo percorso è mostrato in contesto nella figura seguente:
   
-[![](images/Cc163076.SGFG0401n(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163076.sgfg0401n_big(it-it,technet.10).gif)
+[![](images/Cc163076.SGFG0401n(it-it,TechNet.10).gif "Figura 4.1 Struttura dei Criteri di gruppo per la Configurazione computer")](https://technet.microsoft.com/it-it/cc163076.sgfg0401n_big(it-it,technet.10).gif)
   
 **Figura 4.1 Struttura dei Criteri di gruppo per la Configurazione computer**
   
@@ -113,7 +113,7 @@ Applicare queste impostazioni attraverso un GPO collegato a un OU che contiene g
   
 La figura seguente illustra le sezioni dei Criteri di gruppo che saranno interessate dalle modifiche alle impostazione in questa sezione:
   
-[![](images/Cc163076.SGFG0402n(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163076.sgfg0402n_big(it-it,technet.10).gif)
+[![](images/Cc163076.SGFG0402n(it-it,TechNet.10).gif "Figure 4.2 Struttura dei Criteri di gruppo per la Configurazione computer, Componenti di Windows")](https://technet.microsoft.com/it-it/cc163076.sgfg0402n_big(it-it,technet.10).gif)
   
 **Figure 4.2 Struttura dei Criteri di gruppo per la Configurazione computer, Componenti di Windows**
   
@@ -1141,7 +1141,7 @@ L'impostazione **Specificare la posizione del servizio di aggiornamento Microsof
   
 La figura seguente illustra le sezioni dei Criteri di gruppo che saranno interessate dalle modifiche alle impostazione in questa sezione:
   
-[![](images/Cc163076.SGFG0403(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163076.sgfg0403_big(it-it,technet.10).gif)
+[![](images/Cc163076.SGFG0403(it-it,TechNet.10).gif "Figure 4.3 Struttura dei Criteri di gruppo per la Configurazione computer, Sistema")](https://technet.microsoft.com/it-it/cc163076.sgfg0403_big(it-it,technet.10).gif)
   
 **Figure 4.3 Struttura dei Criteri di gruppo per la Configurazione computer, Sistema**
   
@@ -1705,7 +1705,7 @@ Non sono presenti configurazioni specifiche relative alla protezione nel conteni
   
 La figura seguente illustra le sezioni dei Criteri di gruppo che saranno interessate dalle modifiche alle impostazione in questa sezione:
   
-[![](images/Cc163076.SGFG0404(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163076.sgfg0404_big(it-it,technet.10).gif)
+[![](images/Cc163076.SGFG0404(it-it,TechNet.10).gif "Figure 4.4 Struttura dei Criteri di gruppo per la Configurazione computer, Connessioni di rete")](https://technet.microsoft.com/it-it/cc163076.sgfg0404_big(it-it,technet.10).gif)
   
 **Figure 4.4 Struttura dei Criteri di gruppo per la Configurazione computer, Connessioni di rete**
   
@@ -2104,7 +2104,7 @@ Le sezioni rimanenti di questo capitolo descrivono le raccomandazioni relative a
   
 Questo percorso è mostrato in contesto nella figura seguente:
   
-[![](images/Cc163076.SGFG0405(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163076.sgfg0405_big(it-it,technet.10).gif)
+[![](images/Cc163076.SGFG0405(it-it,TechNet.10).gif "Figura 4.5 Struttura dei Criteri di gruppo per la Configurazione utente")](https://technet.microsoft.com/it-it/cc163076.sgfg0405_big(it-it,technet.10).gif)
   
 **Figura 4.5 Struttura dei Criteri di gruppo per la Configurazione utente**
   
@@ -2116,7 +2116,7 @@ Applicare queste impostazioni attraverso un GPO collegato a una OU che contiene 
   
 La figura seguente illustra le sezioni dei Criteri di gruppo che saranno interessate dalle modifiche alle impostazioni nella sezione Componenti di Windows:
   
-[![](images/Cc163076.SGFG0406(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163076.sgfg0406_big(it-it,technet.10).gif)
+[![](images/Cc163076.SGFG0406(it-it,TechNet.10).gif "Figure 4.6 Struttura dei Criteri di gruppo per la Configurazione utente, Componenti di Windows")](https://technet.microsoft.com/it-it/cc163076.sgfg0406_big(it-it,technet.10).gif)
   
 **Figure 4.6 Struttura dei Criteri di gruppo per la Configurazione utente, Componenti di Windows**
   
@@ -2520,7 +2520,7 @@ Per tali ragioni, l'impostazione **Rimuovi la scheda Protezione** è **Non** **
   
 La figura seguente illustra le sezioni dei Criteri di gruppo che saranno interessate dalle modifiche alle impostazioni nella sezione Sistema:
   
-[![](images/Cc163076.SGFG0407(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163076.sgfg0407_big(it-it,technet.10).gif)
+[![](images/Cc163076.SGFG0407(it-it,TechNet.10).gif "Figure 4.7 Struttura dei Criteri di gruppo per la Configurazione utente, Sistema")](https://technet.microsoft.com/it-it/cc163076.sgfg0407_big(it-it,technet.10).gif)
   
 **Figure 4.7 Struttura dei Criteri di gruppo per la Configurazione utente, Sistema**
   
