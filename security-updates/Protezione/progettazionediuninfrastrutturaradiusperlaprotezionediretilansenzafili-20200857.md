@@ -299,7 +299,7 @@ Nella tabella seguente vengono illustrate le varie opzioni che consentono di ass
 
 È consigliabile che le organizzazioni di notevoli dimensioni e i grandi provider di servizi di rete prendano in considerazione l'utilizzo dei proxy RADIUS per l'accettazione delle richieste provenienti dai client RADIUS e la distribuzione del carico tra i server RADIUS, che possono essere configurati in gruppi di server RADIUS. La distribuzione del carico di traffico tra i server RADIUS configurati come gruppi di server RADIUS può basarsi su vari parametri configurabili, ad esempio il tipo di traffico RADIUS e gli attributi RADIUS, oltre che sui valori relativi a priorità e peso. I server RADIUS di ogni gruppo di server RADIUS possono quindi eseguire l'autenticazione e l'autorizzazione di base per gli utenti e i dispositivi di un dominio o di un intero insieme di strutture. In tal modo si crea un'efficiente architettura front-end/back-end a servizio delle richieste RADIUS e si fornisce la maggior flessibilità possibile per le opzioni di bilanciamento del carico e di scalabilità.
 
-![](images/Dd536258.SGFG17101(it-it,TechNet.10).jpg)
+![](images/Dd536258.SGFG17101(it-it,TechNet.10).jpg "Failover e bilanciamento del carico mediante i proxy RADIUS")
 
 *Figura 1*
 *Failover e bilanciamento del carico mediante i proxy RADIUS*
@@ -312,14 +312,14 @@ Per ottenere il bilanciamento del carico mediante una strategia di failover basa
 
 -   Configurare l'altra metà dei punti di accesso senza fili di ogni sede affinché utilizzino innanzitutto il server RADIUS secondario e, quindi, il server RADIUS principale in caso di mancato funzionamento del server RADIUS secondario.
 
-![](images/Dd536258.SGFG17102(it-it,TechNet.10).jpg)
+![](images/Dd536258.SGFG17102(it-it,TechNet.10).jpg "Failover e bilanciamento del carico basati su punti di accesso senza fili")
 
 *Figura 2*
 *Failover e bilanciamento del carico basati su punti di accesso senza fili*
 
 Per realizzare il bilanciamento del carico mediante una strategia di failover basata su punti di accesso senza fili nelle filiali in cui è disponibile un solo server RADIUS locale, oltre a un server RADIUS remoto, è necessario configurare tutti i punti di accesso senza fili della filiale in modo che utilizzino il server RADIUS locale come server principale. Quindi configurare il server RADIUS remoto come server secondario da utilizzare qualora quello principale non funzioni.
 
-![](images/Dd536258.SGFG17103(it-it,TechNet.10).jpg)
+![](images/Dd536258.SGFG17103(it-it,TechNet.10).jpg "Failover e bilanciamento del carico basati su punti di accesso senza fili con server RADIUS remoti")
 
 *Figura 3*
 *Failover e bilanciamento del carico basati su punti di accesso senza fili con server RADIUS remoti*
@@ -437,7 +437,7 @@ La realtà per molte organizzazioni non aziendali è che il costo della larghezz
   
 Un terzo tipo di strategia per l'infrastruttura IT si ha quando le organizzazioni scelgono di centralizzare l'infrastruttura IT dove possibile e di distribuirla dove necessario. Questa strategia consente di raggruppare la maggior parte dell'infrastruttura IT in sedi hub a servizio degli utenti di tali sedi e di quelli delle filiali collegate all'hub. Questo modello consente al contempo di distribuire l'infrastruttura dei server nelle filiali con un maggior numero di utenti finali. Nel diagramma seguente viene illustrato un esempio di una simile organizzazione.
   
-![](images/Dd536258.SGFG17104(it-it,TechNet.10).jpg)
+![](images/Dd536258.SGFG17104(it-it,TechNet.10).jpg "Organizzazione con infrastruttura IT sia centralizzata sia distribuita")
   
 *Figura 4*  
 *Organizzazione con infrastruttura IT sia centralizzata sia distribuita*
@@ -654,7 +654,7 @@ Nel diagramma seguente viene illustrato un esempio di progettazione di server RA
   
 **Nota:** la Woodgrove Bank è un'azienda fittizia rappresentativa di organizzazioni di medie e grandi dimensioni. L'architettura e le caratteristiche della sua rete sono state utilizzate come base per diverse decisioni di progettazione nell'implementazione della build di riferimento di questa soluzione.
   
-![](images/Dd536258.SGFG17105(it-it,TechNet.10).jpg)
+![](images/Dd536258.SGFG17105(it-it,TechNet.10).jpg "Distribuzione di utenti, punti di accesso senza fili e server IAS della Woodgrove Bank")
   
 *Figura 5*  
 *Distribuzione di utenti, punti di accesso senza fili e server IAS della Woodgrove Bank*
