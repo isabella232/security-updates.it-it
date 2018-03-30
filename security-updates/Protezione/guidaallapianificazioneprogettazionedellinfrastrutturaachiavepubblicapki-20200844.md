@@ -46,7 +46,7 @@ La pianificazione e la distribuzione di un'infrastruttura PKI in grado di soddis
 
 Nel seguente diagramma di flusso viene illustrata la struttura del capitolo.
 
-![](images/Dd536245.04fig4-1(it-it,TechNet.10).gif)
+![](images/Dd536245.04fig4-1(it-it,TechNet.10).gif "Figura 4.1. Struttura del capitolo per la pianificazione di Servizi certificati")
 
 **Figura 4.1. Struttura del capitolo per la pianificazione di Servizi certificati**
 
@@ -788,7 +788,7 @@ La soluzione descritta nella presente guida propone una gerarchia a due livelli,
   
 Nella figura seguente è illustrata la gerarchia proposta, che riguarda l’implementazione della CA principale e di una CA di emissione. La CA di emissione rilascerà inizialmente certificati con garanzia standard (a volte definiti "tecnici") per computer o utenti e certificati di valore alto per computer.
   
-[![](images/Dd536245.04fig4-2(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536245.04fig4-2_big(it-it,technet.10).gif)
+[![](images/Dd536245.04fig4-2(it-it,TechNet.10).gif "Figure 4.2. Gerarchia dell’autorità di certificazione")](https://technet.microsoft.com/it-it/dd536245.04fig4-2_big(it-it,technet.10).gif)
   
 **Figure 4.2. Gerarchia dell’autorità di certificazione**
   
@@ -1135,7 +1135,7 @@ Una volta ottenuto l’OID della dichiarazione CP e scelto un URL in cui pubblic
   
 In questa guida, il sistema PKI si basa su altri servizi dell’infrastruttura per un corretto funzionamento. Nel diagramma seguente sono illustrati i principali servizi, Active Directory e IIS, e l'interazione con le CA e i client dei certificati.
   
-[![](images/Dd536245.04fig4-3(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536245.04fig4-3_big(it-it,technet.10).gif)
+[![](images/Dd536245.04fig4-3(it-it,TechNet.10).gif "Figura 4.3. Interazione della CA con l’infrastruttura IT")](https://technet.microsoft.com/it-it/dd536245.04fig4-3_big(it-it,technet.10).gif)
   
 **Figura 4.3. Interazione della CA con l’infrastruttura IT**
   
@@ -1259,7 +1259,7 @@ In genere, viene applicata una dichiarazione CPS per ogni CA. Anche se è possib
   
 **Nota:** questa figura indica solo come sia possibile estendere la gerarchia CA precedente. Nella propria organizzazione può essere necessaria una struttura più complessa, o al contrario più semplice, a seconda delle esigenze future. Non esiste una pianificazione giusta o sbagliata dell'infrastruttura PKI in senso assoluto: la pianificazione delle CA aggiuntive e delle funzionalità di certificazione deve basarsi sui requisiti di protezione dell'azienda. Quando si tenta di estendere l'infrastruttura PKI per soddisfare altre esigenze relative ai certificati, è necessario seguire un approccio simile a quello descritto per la progettazione della PKI semplificata.
   
-[![](images/Dd536245.04fig4-4(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536245.04fig4-4_big(it-it,technet.10).gif)
+[![](images/Dd536245.04fig4-4(it-it,TechNet.10).gif "Figura 4.4. Estensione della gerarchia CA")](https://technet.microsoft.com/it-it/dd536245.04fig4-4_big(it-it,technet.10).gif)
   
 **Figura 4.4. Estensione della gerarchia CA**
   
