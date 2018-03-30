@@ -76,19 +76,19 @@ La configurazione predefinita della funzionalità Protezione esecuzione programm
 
 4.  Fare clic sulla scheda **Avanzate**.
 
-    ![](images/Cc700810.DEPcnf01(it-it,TechNet.10).gif)
+    ![](images/Cc700810.DEPcnf01(it-it,TechNet.10).gif "Figura 1   Scheda Proprietà del sistema - Avanzate")
 
     **Figura 1   Scheda Proprietà del sistema - Avanzate**
 
 5.  Nell'area **Prestazioni**, fare clic su **Impostazioni**.
 
-    ![](images/Cc700810.DEPcnf02(it-it,TechNet.10).gif)
+    ![](images/Cc700810.DEPcnf02(it-it,TechNet.10).gif "Figura 2   Opzioni prestazioni")
 
     **Figura 2   Opzioni prestazioni**
 
 6.  Fare clic sulla scheda **Protezione** **esecuzione** **programmi**.
 
-    ![](images/Cc700810.DEPcnf03(it-it,TechNet.10).gif)
+    ![](images/Cc700810.DEPcnf03(it-it,TechNet.10).gif "Figura 3   Scheda Protezione esecuzione programmi")
 
     **Figura 3   Scheda Protezione esecuzione programmi**
 
@@ -120,7 +120,7 @@ La configurazione predefinita della funzionalità Protezione esecuzione programm
 
 Se Protezione esecuzione programmi causa dei problemi relativi alle applicazioni, viene visualizzata una finestra di dialogo che informa di tale situazione.
 
-![](images/Cc700810.DEPcnf04(it-it,TechNet.10).gif)
+![](images/Cc700810.DEPcnf04(it-it,TechNet.10).gif "Figura 4   Finestra di dialogo che viene visualizzata se il tentativo di esecuzione di un'applicazione crea un problema con Protezione esecuzione programmi")
 
 **Figura 4   Finestra di dialogo che viene visualizzata se il tentativo di esecuzione di un'applicazione crea un problema con Protezione esecuzione programmi**
 
@@ -146,19 +146,19 @@ Se non è disponibile un aggiornamento per l'applicazione, eseguire la procedura
 
 4.  Fare clic sulla scheda **Avanzate**.
 
-    ![](images/Cc700810.DEPcnf05(it-it,TechNet.10).gif)
+    ![](images/Cc700810.DEPcnf05(it-it,TechNet.10).gif "Figura 5   Scheda Proprietà del sistema - Avanzate")
 
     **Figura 5   Scheda Proprietà del sistema - Avanzate**
 
 5.  Nell'area **Prestazioni**, fare clic su **Impostazioni**.
 
-    ![](images/Cc700810.DEPcnf06(it-it,TechNet.10).gif)
+    ![](images/Cc700810.DEPcnf06(it-it,TechNet.10).gif "Figura 6   Opzioni prestazioni")
 
     **Figura 6   Opzioni prestazioni**
 
 6.  Fare clic sulla scheda **Protezione** **esecuzione** **programmi**.
 
-    ![](images/Cc700810.DEPcnf07(it-it,TechNet.10).gif)
+    ![](images/Cc700810.DEPcnf07(it-it,TechNet.10).gif "Figura 7   Scheda Protezione esecuzione programmi")
 
     **Figura 7   Scheda Protezione esecuzione programmi**
 
@@ -253,13 +253,13 @@ Nella tabella 1 sono elencate le opzioni per Livello\_criterio.
   
 4.  Fare clic sulla scheda **Avanzate** e, nell'area **Avvio e ripristino**, selezionare **Impostazioni**.   
   
-    ![](images/Cc700810.DEPcnf08(it-it,TechNet.10).gif)
+    ![](images/Cc700810.DEPcnf08(it-it,TechNet.10).gif "Figura 8   Impostazioni di Avvio e ripristino")
   
     **Figura 8   Impostazioni di Avvio e ripristino**
   
 5.  Nell'area **Avvio** **sistema**, fare clic su **Modifica**.
   
-    ![](images/Cc700810.DEPcnf09(it-it,TechNet.10).gif)
+    ![](images/Cc700810.DEPcnf09(it-it,TechNet.10).gif "Figura 9   File boot.ini visualizzato nel Blocco note")
   
     **Figura 9   File boot.ini visualizzato nel Blocco note**
   
