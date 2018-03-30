@@ -251,7 +251,7 @@ Per completare questa attività è necessario disporre degli elementi seguenti:
   
 6.  Nella finestra di dialogo **Ricerca oggetto Criteri di gruppo** (illustrata nella figura seguente), fare clic su **Crea nuovo oggetto Criteri di gruppo** e denominare il GPO appena creato **Criteri di prova di Windows Firewall per client**.
   
-    ![](images/Cc875816.WFGP01(it-it,TechNet.10).gif)
+    ![](images/Cc875816.WFGP01(it-it,TechNet.10).gif "WFGP01.GIF")
   
 7.  Fare clic su **OK** e quindi su **Fine** per chiudere la Procedura guidata Criteri di gruppo e applicare i nuovi modelli amministrativi al GPO selezionato.
   
@@ -323,11 +323,11 @@ Dopo aver completato la procedura descritta di seguito per configurare le impost
   
 8.  Nella struttura della console dell'Editor oggetti Criteri di gruppo, come mostrato nella figura seguente, aprire **Configurazione computer**, **Modelli amministrativi**, **Rete**, **Connessioni di rete** e quindi **Windows Firewall**.
   
-    ![](images/Cc875816.WFGP02(it-it,TechNet.10).gif)
+    ![](images/Cc875816.WFGP02(it-it,TechNet.10).gif "WFGP02.GIF")
   
 9.  Selezionare **Profilo di dominio** (come mostrato nella figura seguente) oppure **Profilo standard**.
   
-    ![](images/Cc875816.WFGP03(it-it,TechNet.10).gif)
+    ![](images/Cc875816.WFGP03(it-it,TechNet.10).gif "WFGP03.GIF")
   
     Nella tabella seguente sono elencate le impostazioni consigliate di Criteri di gruppo per Windows Firewall relativamente al profilo di dominio e al profilo predefinito.
   
@@ -445,11 +445,11 @@ Dopo aver completato la procedura descritta di seguito per configurare le impost
   
 1.  Nell'area delle impostazioni di **Profilo di dominio** o **Profilo standard**, fare doppio clic su **Windows Firewall: definisci eccezioni porte**. Verrà visualizzata la finestra di dialogo seguente.
   
-    ![](images/Cc875816.WFGP04(it-it,TechNet.10).gif)
+    ![](images/Cc875816.WFGP04(it-it,TechNet.10).gif "WFGP04.GIF")
   
 2.  Selezionare **Attivata**, quindi fare clic su **Mostra**. Verrà visualizzata la finestra di dialogo **Visualizzazione contenuto**, come illustrato nella figura seguente.
   
-    [![](images/Cc875816.WFGP05(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875816.wfgp05_big(it-it,technet.10).gif)
+    [![](images/Cc875816.WFGP05(it-it,TechNet.10).gif "WFGP05.GIF")](https://technet.microsoft.com/it-it/cc875816.wfgp05_big(it-it,technet.10).gif)
   
 3.  Fare clic su **Aggiungi**. Verrà visualizzata la finestra di dialogo **Aggiunta elemento**. Digitare le informazioni riguardanti la porta che si desidera bloccare o abilitare. La sintassi è la seguente:
   
@@ -467,11 +467,11 @@ Dopo aver completato la procedura descritta di seguito per configurare le impost
   
     L'esempio illustrato nella figura seguente riguarda un elemento denominato TestWeb e prevede l'abilitazione della porta TCP 80 per tutte le connessioni.
   
-    ![](images/Cc875816.WFGP06(it-it,TechNet.10).gif)
+    ![](images/Cc875816.WFGP06(it-it,TechNet.10).gif "WFGP06.GIF")
   
 4.  Dopo aver immesso le informazioni, fare clic su **OK** per chiudere la finestra di dialogo **Aggiunta elemento**. Verrà visualizzata la finestra di dialogo **Visualizzazione contenuto** illustrata nella figura seguente.
   
-    [![](images/Cc875816.WFGP07(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875816.wfgp07_big(it-it,technet.10).gif)
+    [![](images/Cc875816.WFGP07(it-it,TechNet.10).gif "WFGP07.GIF")](https://technet.microsoft.com/it-it/cc875816.wfgp07_big(it-it,technet.10).gif)
   
 5.  Fare clic su **OK** per chiudere la finestra di dialogo **Visualizzazione contenuto**.
   
@@ -483,11 +483,11 @@ Dopo aver completato la procedura descritta di seguito per configurare le impost
   
 1.  Nell'area delle impostazioni di **Profilo di dominio** o **Profilo standard**, fare doppio clic su **Windows Firewall: definisci eccezioni programmi**. Verrà visualizzata la finestra di dialogo seguente.
   
-    ![](images/Cc875816.WFGP08(it-it,TechNet.10).gif)
+    ![](images/Cc875816.WFGP08(it-it,TechNet.10).gif "WFGP08.GIF")
   
 2.  Selezionare **Attivata**, quindi fare clic su **Mostra**. Verrà visualizzata la finestra di dialogo **Visualizzazione contenuto** illustrata nella figura seguente.
   
-    [![](images/Cc875816.WFGP09(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875816.wfgp09_big(it-it,technet.10).gif)
+    [![](images/Cc875816.WFGP09(it-it,TechNet.10).gif "WFGP09.GIF")](https://technet.microsoft.com/it-it/cc875816.wfgp09_big(it-it,technet.10).gif)
   
 3.  Fare clic su **Aggiungi**. Verrà visualizzata la finestra di dialogo **Aggiunta elemento**. Digitare le informazioni riguardanti il programma che si desidera bloccare o abilitare. La sintassi è la seguente:
   
@@ -503,11 +503,11 @@ Dopo aver completato la procedura descritta di seguito per configurare le impost
   
     L'esempio illustrato nella figura seguente riguarda un elemento denominato Messenger e prevede l'abilitazione del programma Windows Messenger, memorizzato nel percorso %program files%\\messenger\\msmsgs.exe, per tutte le connessioni.
   
-    ![](images/Cc875816.WFGP10(it-it,TechNet.10).gif)
+    ![](images/Cc875816.WFGP10(it-it,TechNet.10).gif "WFGP10.GIF")
   
 4.  Dopo aver immesso le informazioni, fare clic su **OK** per chiudere la finestra di dialogo **Aggiunta elemento**. Verrà visualizzata la finestra di dialogo **Visualizzazione contenuto** illustrata nella figura seguente.
   
-    [![](images/Cc875816.WFGP11(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875816.wfgp11_big(it-it,technet.10).gif)
+    [![](images/Cc875816.WFGP11(it-it,TechNet.10).gif "WFGP11.GIF")](https://technet.microsoft.com/it-it/cc875816.wfgp11_big(it-it,technet.10).gif)
   
 5.  Fare clic su **OK** per chiudere la finestra di dialogo **Visualizzazione contenuto**.
   
@@ -519,7 +519,7 @@ Dopo aver completato la procedura descritta di seguito per configurare le impost
   
 1.  Nell'area delle impostazioni di **Profilo di dominio** o **Profilo standard**, fare doppio clic su **Windows Firewall: consenti eccezioni ICMP**. Verrà visualizzata la finestra di dialogo seguente.
   
-    ![](images/Cc875816.WFGP12(it-it,TechNet.10).gif)
+    ![](images/Cc875816.WFGP12(it-it,TechNet.10).gif "WFGP12.GIF")
   
 2.  Selezionare **Attivata**, quindi, selezionare le eccezioni ICMP appropriate da attivare. Nell'esempio illustrato nella figura seguente viene selezionata l'opzione **Consenti richiesta echo in ingresso**.
   
@@ -533,7 +533,7 @@ Dopo aver completato la procedura descritta di seguito per configurare le impost
   
 1.  Nell'area delle impostazioni di **Profilo di dominio** o **Profilo standard**, fare doppio clic su **Windows Firewall: consenti registrazione**. Verrà visualizzata la finestra di dialogo seguente.
   
-    ![](images/Cc875816.WFGP13(it-it,TechNet.10).gif)
+    ![](images/Cc875816.WFGP13(it-it,TechNet.10).gif "WFGP13.GIF")
   
 2.  Selezionare **Attivata**, quindi, selezionare le opzioni **Registra pacchetti in ingresso ignorati** e **Registra connessioni riuscite**. Immettere un valore in **Percorso e nome del file registro** e non modificare la **Dimensione massima (KB)** predefinita del file di registro, quindi, fare clic su **OK**.
   
@@ -567,7 +567,7 @@ Per completare questa attività è necessario disporre di quanto segue:
   
 3.  Al prompt dei comandi, digitare **GPUpdate** e premere INVIO. Verrà visualizzata una schermata simile alla seguente:
   
-    [![](images/Cc875816.WFGP14(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875816.wfgp14_big(it-it,technet.10).gif)
+    [![](images/Cc875816.WFGP14(it-it,TechNet.10).gif "WFGP14.GIF")](https://technet.microsoft.com/it-it/cc875816.wfgp14_big(it-it,technet.10).gif)
   
 4.  Per chiudere il prompt dei comandi, digitare **Exit** e premere INVIO.
   
@@ -589,7 +589,7 @@ Per completare questa attività è necessario disporre di quanto segue:
   
 2.  In **Scegliere una categoria**, fare clic su **Centro sicurezza PC**. Verrà visualizzata una schermata simile alla seguente:
   
-    [![](images/Cc875816.WFGP15(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875816.wfgp15_big(it-it,technet.10).gif)
+    [![](images/Cc875816.WFGP15(it-it,TechNet.10).gif "WFGP15.GIF")](https://technet.microsoft.com/it-it/cc875816.wfgp15_big(it-it,technet.10).gif)
   
 3.  In **Gestione impostazioni di protezione per**, fare clic su **Windows Firewall**.
   
