@@ -44,7 +44,7 @@ In ogni area geografica di competenza di una sede centrale sono presenti alcuni 
 
 Sebbene la Woodgrove National Bank presenti un ambiente di server misti Microsoft® Windows® e UNIX, la sua infrastruttura utilizza una backbone Windows Server. La maggior parte dei server si trova nelle tre sedi centrali dell'azienda (New York, Londra e Tokyo). Nella figura seguente viene indicata la disposizione delle sedi aziendali e dei collegamenti tra di esse.
 
-[![](images/Dd536298.vppgch03_PGFG0301(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536298.vppgch03_pgfg0301_big(it-it,technet.10).gif)
+[![](images/Dd536298.vppgch03_PGFG0301(it-it,TechNet.10).gif "Dd536298.vppgch03_PGFG0301(it-it,TechNet.10).gif")](https://technet.microsoft.com/it-it/dd536298.vppgch03_pgfg0301_big(it-it,technet.10).gif)
 
 **Figura 3.1 Ambiente di rete di Woodgrove National Bank.**
 
