@@ -182,7 +182,7 @@ Per completare questa attività è necessario disporre di quanto segue:
 
 5.  Fare clic con il pulsante destro del mouse su **NetBIOS su TCP/IP**, scegliere **Disattiva** (illustrato nella figura seguente), quindi fare clic su **Sì**.
 
-    ![](images/Cc875829.SIIS601(it-it,TechNet.10).gif)
+    ![](images/Cc875829.SIIS601(it-it,TechNet.10).gif "SIIS601.GIF")
 
     **Nota**: le illustrazioni incluse in questo documento riflettono un ambiente di prova e le informazioni riportate potrebbero essere diverse da quelle visualizzate.
 
@@ -344,7 +344,7 @@ Per completare questa attività è necessario disporre di quanto segue:
   
 3.  Fare clic su **Pagine ASP** e scegliere **Consenti** (come mostrato nella schermata seguente).
   
-    ![](images/Cc875829.SIIS602(it-it,TechNet.10).gif)
+    ![](images/Cc875829.SIIS602(it-it,TechNet.10).gif "SIIS602.GIF")
   
 ##### Verifica delle nuove impostazioni
   
@@ -408,7 +408,7 @@ Per completare questa attività è necessario disporre di quanto segue:
   
     In caso contrario, procedere con il passaggio 3 per disabilitarlo.
   
-    ![](images/Cc875829.SIIS603(it-it,TechNet.10).gif)
+    ![](images/Cc875829.SIIS603(it-it,TechNet.10).gif "SIIS603.GIF")
   
 3.  Fare clic con il pulsante destro del mouse sull'account **Guest**, quindi scegliere **Proprietà**.
   
@@ -536,7 +536,7 @@ Per completare questa attività è necessario disporre di quanto segue:
   
 3.  Nella casella **ID pool di applicazioni**, digitare un nuovo ID per il pool di applicazioni (nella schermata di esempio seguente viene utilizzato ContosoAppPool come ID).
   
-    ![](images/Cc875829.SIIS604(it-it,TechNet.10).gif)
+    ![](images/Cc875829.SIIS604(it-it,TechNet.10).gif "SIIS604.GIF")
   
 4.  In **Impostazioni pool di applicazioni**, selezionare **Usa impostazioni predefinite per il nuovo pool di applicazioni**, quindi fare clic su **OK**.
   
@@ -556,7 +556,7 @@ Per completare questa attività è necessario disporre di quanto segue:
   
 5.  Nella casella di riepilogo **Pool di applicazioni** selezionare il nome del pool di applicazioni a cui si desidera assegnare l'applicazione o il sito Web (come mostrato nella schermata seguente), quindi fare clic su **OK**.
   
-    ![](images/Cc875829.SIIS605(it-it,TechNet.10).gif)
+    ![](images/Cc875829.SIIS605(it-it,TechNet.10).gif "SIIS605.GIF")
   
 ##### Verifica delle nuove impostazioni
   
