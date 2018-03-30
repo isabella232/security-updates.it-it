@@ -41,7 +41,7 @@ Nella fase di supporto alle decisioni, il Team di gestione dei rischi di protezi
 
 La Figura 5.1, sotto riportata, illustra questi sei passaggi e mostra come la fase di supporto alle decisioni riguardi l'intero processo di gestione dei rischi di protezione Microsoft.
 
-[![](images/Cc163155.rmch0501(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163155.rmch0501_big(it-it,technet.10).gif)
+[![](images/Cc163155.rmch0501(it-it,TechNet.10).gif "Figura 5.1 Processo di gestione dei rischi di protezione Microsoft: fase di supporto alle decisioni")](https://technet.microsoft.com/it-it/cc163155.rmch0501_big(it-it,technet.10).gif)
 
 **Figura 5.1 Processo di gestione dei rischi di protezione Microsoft: fase di supporto alle decisioni**
 
@@ -61,7 +61,7 @@ Nelle sezioni seguenti di questo capitolo verranno fornite le risposte a queste 
 
 Il processo di supporto alle decisioni avrà esito positivo solo se si segue un percorso chiaro e se i partecipanti al processo hanno compreso il proprio ruolo in ogni passaggio. Il seguente diagramma illustra il ruolo del Team di gestione dei rischi di protezione nel processo di supporto alle decisioni. I responsabili della riduzione dei rischi propongono soluzioni di controllo volte a ridurre i rischi e calcolano i costi di ogni soluzione. Per ogni soluzione proposta, il Team di gestione dei rischi di protezione stima il livello di riduzione dei rischi che ci si aspetta dalla soluzione stessa. Con queste informazioni, il team può effettuare un'analisi efficace dei costi-benefici della soluzione di controllo per decidere se consigliarne o meno l'implementazione. Il Comitato direttivo per la protezione decide quindi quali soluzioni verranno implementate.
 
-[![](images/Cc163155.rmch0502(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163155.rmch0502_big(it-it,technet.10).gif)
+[![](images/Cc163155.rmch0502(it-it,TechNet.10).gif "Figure 5.2 Panoramica della fase di supporto alle decisioni")](https://technet.microsoft.com/it-it/cc163155.rmch0502_big(it-it,technet.10).gif)
 
 **Figure 5.2 Panoramica della fase di supporto alle decisioni**
 
@@ -235,7 +235,7 @@ In questa sezione viene spiegato come il responsabile della riduzione dei rischi
   
 Il seguente diagramma è tratto dal foglio di lavoro contenente i dettagli sui rischi della cartella di lavoro di Excel utilizzata per eseguire la valutazione dei rischi nel capitolo precedente. Questo foglio di lavoro, denominato GGRPStrumento3-Priorità rischi livello dettagliato.xls, è fornito con questa guida ed è memorizzato nella cartella Strumenti e modelli. Il diagramma mostra tutti gli elementi utilizzati durante l'analisi dei costi-benefici. La descrizione delle singole colonne viene fornita nei passaggi seguenti.
   
-[![](images/Cc163155.rmch0503(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163155.rmch0503_big(it-it,technet.10).gif)
+[![](images/Cc163155.rmch0503(it-it,TechNet.10).gif "Figura 5.3 Sezione della fase di supporto alle decisioni nel foglio di lavoro Rischio dettagliato (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163155.rmch0503_big(it-it,technet.10).gif)
   
 **Figura 5.3 Sezione della fase di supporto alle decisioni nel foglio di lavoro Rischio dettagliato (GGRPStrumento3)**
   
@@ -247,7 +247,7 @@ I requisiti di protezione funzionali sono dichiarazioni che descrivono le soluzi
   
 È necessario definire i requisiti funzionali per ogni rischio trattato nella fase di supporto alle decisioni: questa operazione produrrà come risultato il documento "Definizione dei requisiti funzionali", che è molto importante per il processo di analisi dei costi-benefici. Il documento definisce che *cosa* è necessario per ridurre i rischi individuati ma non specifica *come* ridurli né definisce specifiche soluzioni di controllo da adottare. Questa distinzione consente al Team di gestione dei rischi di protezione di avere responsabilità nella propria area di competenza e, allo stesso tempo, permette al responsabile della riduzione dei rischi, che implementa la soluzione di controllo, di prendere decisioni relative alla gestione e al supporto delle attività aziendali. Le misure volte a ridurre ogni rischio sono riportate nella colonna con l'intestazione "Requisito funzionale di protezione" nel foglio di lavoro GGRPStrumento3-Priorità rischi livello dettagliato.xls. I requisiti funzionali devono essere rivisti almeno una volta all'anno per determinare se sono ancora necessari o devono essere modificati.
   
-[![](images/Cc163155.rmch0504(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163155.rmch0504_big(it-it,technet.10).gif)
+[![](images/Cc163155.rmch0504(it-it,TechNet.10).gif "Figura 5.4 Passaggio 1 della fase di supporto alle decisioni")](https://technet.microsoft.com/it-it/cc163155.rmch0504_big(it-it,technet.10).gif)
   
 **Figura 5.4 Passaggio 1 della fase di supporto alle decisioni**
   
@@ -287,7 +287,7 @@ Dopo aver definito i requisiti funzionali e aver documentato ogni rischio, è po
   
 Il passaggio successivo di questa fase prevede che i responsabili della riduzione dei rischi creino un elenco di nuove e potenziali soluzioni di controllo volte a soddisfare i requisiti funzionali per ogni rischio. In molte organizzazioni, saranno i membri del Gruppo protezione informatica a individuare una serie di potenziali soluzioni di controllo per ogni rischio identificato e caratterizzato nella fase precedente. Le organizzazioni i cui dipendenti non hanno sufficienti competenze per farlo possono prendere in considerazione l'idea di affiancare ai responsabili della riduzione dei rischi dei consulenti esterni.
   
-[![](images/Cc163155.rmch0505(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163155.rmch0505_big(it-it,technet.10).gif)
+[![](images/Cc163155.rmch0505(it-it,TechNet.10).gif "Figura 5.5 Passaggio 2 della fase di supporto alle decisioni")](https://technet.microsoft.com/it-it/cc163155.rmch0505_big(it-it,technet.10).gif)
   
 **Figura 5.5 Passaggio 2 della fase di supporto alle decisioni**
   
@@ -415,7 +415,7 @@ Il secondo rischio, legato alla possibilità che le credenziali dei consulenti f
   
 Il Team di gestione dei rischi di protezione deve approvare la soluzione di controllo per garantire che soddisfi i requisiti funzionali definiti. Un altro vantaggio derivante dalla collaborazione continua tra i partecipanti al processo di analisi dei costi-benefici è la capacità di anticipare le verifiche e gli equilibri inerenti al processo. Ad esempio, se il responsabile della riduzione dei rischi viene coinvolto nella definizione dei requisiti di protezione, la soluzione non potrà non soddisfare i requisiti. Le soluzioni di controllo che non soddisfano i requisiti funzionali definiti per un rischio specifico vengono eliminate dal foglio di lavoro contenente i dettagli sui rischi.
   
-[![](images/Cc163155.rmch0506(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163155.rmch0506_big(it-it,technet.10).gif)
+[![](images/Cc163155.rmch0506(it-it,TechNet.10).gif "Figura 5.6 Passaggio 3 della fase di supporto alle decisioni")](https://technet.microsoft.com/it-it/cc163155.rmch0506_big(it-it,technet.10).gif)
   
 **Figura 5.6 Passaggio 3 della fase di supporto alle decisioni**
   
@@ -425,7 +425,7 @@ Il Team di gestione dei rischi di protezione deve approvare la soluzione di cont
   
 Dopo che il Team di gestione dei rischi di protezione ha approvato una potenziale soluzione volta a ridurre un rischio, deve ricalcolare la riduzione complessiva del rischio per l'azienda. Il livello di riduzione del rischio verrà paragonato al costo della soluzione da adottare per ridurlo. Questo è il primo passaggio nel quale un valore monetario influisce sull'analisi dei costi-benefici. L'esperienza mostra che la riduzione del rischio viene solitamente stimata prolungando nel tempo la probabilità che il problema si manifesti nell'azienda. Si tenga presente che ogni probabilità classificata come alta, media o bassa ha un intervallo di tempo ben definito nel quale è probabile che il problema si verifichi.
   
-[![](images/Cc163155.rmch0507(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163155.rmch0507_big(it-it,technet.10).gif)
+[![](images/Cc163155.rmch0507(it-it,TechNet.10).gif "Figura 5.7 Passaggio 4 della fase di supporto alle decisioni")](https://technet.microsoft.com/it-it/cc163155.rmch0507_big(it-it,technet.10).gif)
   
 **Figura 5.7 Passaggio 4 della fase di supporto alle decisioni**
   
@@ -457,7 +457,7 @@ Queste domande possono divenire complesse quando una particolare soluzione di co
   
 L'operazione da effettuare in questa fase è di competenza del responsabile della riduzione dei rischi, che stima i costi di ogni soluzione di controllo proposta. Il team di progettazione tecnica IT deve poter decidere qual è il modo migliore per implementare ogni soluzione di controllo e fornire stime ragionevolmente accurate sui costi associati all'acquisto, all'implementazione e all'aggiornamento di ogni soluzione. Dato che la gestione dei rischi di protezione proposta da Microsoft è un processo ibrido, non è necessario calcolare i costi precisi delle soluzioni, ma sono sufficienti delle stime. Durante l'analisi dei costi-benefici, verranno confrontati il valore e il costo di ogni soluzione di controllo invece di cifre finanziarie assolute. Quando il team crea queste stime, deve considerare i seguenti costi diretti e indiretti che potrebbero essere associati a una soluzione di controllo. Registrare i costi di ogni soluzione di controllo nella colonna con l'intestazione "Descrizione del costo del controllo" nel foglio di lavoro GGRPStrumento3-Priorità rischi livello dettagliato.xls.
   
-[![](images/Cc163155.rmch0508(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163155.rmch0508_big(it-it,technet.10).gif)
+[![](images/Cc163155.rmch0508(it-it,TechNet.10).gif "Figura 5.8 Passaggio 5 della fase di supporto alle decisioni")](https://technet.microsoft.com/it-it/cc163155.rmch0508_big(it-it,technet.10).gif)
   
 **Figura 5.8 Passaggio 5 della fase di supporto alle decisioni**
   
@@ -631,7 +631,7 @@ L'organizzazione deve poter provare che nessuno ha modificato o disattivato acci
   
 L'ultimo passaggio nell'analisi dei costi-benefici consiste nel confrontare il livello di rischio ottenuto dopo l'implementazione della soluzione di controllo con il costo della soluzione stessa. Sia il livello di rischio che il costo della soluzione includono valori soggettivi che sono difficili da misurare accuratamente in termini finanziari. In questi casi, si consiglia di: utilizzare i valori quantitativi per effettuare un confronto ragionevole; non cedere alla tentazione di ignorare i costi intangibili che dovrebbero essere sostenuti qualora si verificasse il rischio; chiedere al responsabile del bene che cosa accadrebbe se il problema si verificasse; chiedere al responsabile di annotare per iscritto la sua risposta, che contribuirà alla valutazione dell'importanza della soluzione di controllo. In un confronto matematico questa accortezza può essere persuasiva quanto i valori quantitativi.
   
-[![](images/Cc163155.rmch0509(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163155.rmch0509_big(it-it,technet.10).gif)
+[![](images/Cc163155.rmch0509(it-it,TechNet.10).gif "Figura 5.9 Passaggio 6 della fase di supporto alle decisioni")](https://technet.microsoft.com/it-it/cc163155.rmch0509_big(it-it,technet.10).gif)
   
 **Figura 5.9 Passaggio 6 della fase di supporto alle decisioni**
   
