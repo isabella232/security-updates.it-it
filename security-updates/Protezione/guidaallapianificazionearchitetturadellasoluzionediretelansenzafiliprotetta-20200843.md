@@ -70,7 +70,7 @@ Sebbene la protezione WPA sia ampiamente supportata, molti dispositivi e sistemi
 
 Nella figura seguente, viene riportata una vista concettuale della soluzione (autenticazione 802.1X EAP-TLS).
 
-[![](images/Dd536244.03fig3-1(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536244.03fig3-1_big(it-it,technet.10).gif)
+[![](images/Dd536244.03fig3-1(it-it,TechNet.10).gif "Figura 3.1 Soluzione concettuale basata sull'autenticazione 802.1X EAP-TLS")](https://technet.microsoft.com/it-it/dd536244.03fig3-1_big(it-it,technet.10).gif)
 
 **Figura 3.1 Soluzione concettuale basata sull'autenticazione 802.1X EAP-TLS**
 
@@ -118,7 +118,7 @@ I numeri riportati nella figura illustrano il processo di accesso alla rete, che
 
 La figura riportata di seguito visualizza questo processo in maniera più dettagliata.
 
-[![](images/Dd536244.03fig3-2(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536244.03fig3-2_big(it-it,technet.10).gif)
+[![](images/Dd536244.03fig3-2(it-it,TechNet.10).gif "Figura 3.2 Processo di accesso 802.1X EAP-TLS")](https://technet.microsoft.com/it-it/dd536244.03fig3-2_big(it-it,technet.10).gif)
 
 **Figura 3.2 Processo di accesso 802.1X EAP-TLS**
 
@@ -140,7 +140,7 @@ L'organizzazione di destinazione per questa soluzione ha distribuito una rete WL
 
 La struttura di rete logico-fisica semplificata di questa organizzazione può somigliare a quella raffigurata nella seguente figura:
 
-[![](images/Dd536244.03fig3-3(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536244.03fig3-3_big(it-it,technet.10).gif)
+[![](images/Dd536244.03fig3-3(it-it,TechNet.10).gif "Figura 3.3 Diagramma schematico della rete e della struttura fisica dell'organizzazione di destinazione")](https://technet.microsoft.com/it-it/dd536244.03fig3-3_big(it-it,technet.10).gif)
 
 **Figura 3.3 Diagramma schematico della rete e della struttura fisica dell'organizzazione di destinazione**
 
@@ -272,7 +272,7 @@ In questa sezione viene descritta la progettazione logica e logico-fisica della 
   
 Tramite la seguente figura (utilizzata in precedenza nel capitolo), questa sezione illustra il modo in cui i diversi componenti si combinano tra loro all’interno della progettazione complessiva.
   
-[![](images/Dd536244.03fig3-4(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536244.03fig3-4_big(it-it,technet.10).gif)
+[![](images/Dd536244.03fig3-4(it-it,TechNet.10).gif "Figura 3.4 Vista concettuale del processo di accesso alla rete")](https://technet.microsoft.com/it-it/dd536244.03fig3-4_big(it-it,technet.10).gif)
   
 **Figura 3.4 Vista concettuale del processo di accesso alla rete**
   
@@ -294,7 +294,7 @@ I servizi IT presenti nella progettazione vengono raggruppati nelle seguenti cat
   
 Quest'ultimo componente comprende una directory e servizi di rete di supporto, che sono costituiti da servizi IT che in genere esistono già nell’organizzazione, con cui la soluzione in qualche modo interagisce.
   
-[![](images/Dd536244.03fig3-5(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536244.03fig3-5_big(it-it,technet.10).gif)
+[![](images/Dd536244.03fig3-5(it-it,TechNet.10).gif "Figura 3.5 Progettazione logica della soluzione di rete WLAN protetta")](https://technet.microsoft.com/it-it/dd536244.03fig3-5_big(it-it,technet.10).gif)
   
 **Figura 3.5 Progettazione logica della soluzione di rete WLAN protetta**
   
@@ -306,7 +306,7 @@ A livello logico-fisico, attualmente la progettazione illustra come questi compo
   
 Nella seguente figura viene illustrata l’implementazione del server nella sede centrale. Solo i tre componenti riportati nella parte superiore della figura rappresentano i nuovi server o i componenti che devono essere acquistati. I componenti dei servizi di infrastruttura esistono già nella maggior parte delle organizzazioni. Se l’organizzazione ha già distribuito l’apparecchiatura di rete WLAN in grado di supportare la tecnologia 802.1X, anche il componente di rete WLAN potrebbe già esistere.
   
-[![](images/Dd536244.03fig3-6(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536244.03fig3-6_big(it-it,technet.10).gif)
+[![](images/Dd536244.03fig3-6(it-it,TechNet.10).gif "Figura 3.6 Implementazione del server nella sede centrale")](https://technet.microsoft.com/it-it/dd536244.03fig3-6_big(it-it,technet.10).gif)
   
 **Figura 3.6 Implementazione del server nella sede centrale**
   
@@ -318,7 +318,7 @@ Nella seguente figura è illustrata la struttura fisica di una filiale di grandi
   
 Tutti gli altri servizi (ad esempio, i servizi CA) vengono forniti dalla sede centrale.
   
-[![](images/Dd536244.03fig3-7(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536244.03fig3-7_big(it-it,technet.10).gif)
+[![](images/Dd536244.03fig3-7(it-it,TechNet.10).gif "Figura 3.7 Struttura fisica di una filiale di grandi dimensioni")](https://technet.microsoft.com/it-it/dd536244.03fig3-7_big(it-it,technet.10).gif)
   
 **Figura 3.7 Struttura fisica di una filiale di grandi dimensioni**
   
@@ -330,7 +330,7 @@ Se i servizi WLAN sono necessari per gli uffici di piccole dimensioni che non di
   
 Se la capacità di recupero della rete WAN o l'utilizzo di controller di dominio locali nelle piccole filiali dell'organizzazione è troppo costoso, un'alternativa è distribuire punti di accesso senza fili isolati tramite la modalità WPA con chiave già condivisa (PSK). Attualmente, tutti i punti di accesso senza fili certificati Wi-Fi supportano la protezione WPA. Sebbene sia molto più sicura del WEP statico, questa opzione richiede un ulteriore sovraccarico di gestione.
   
-[![](images/Dd536244.03fig3-8(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536244.03fig3-8_big(it-it,technet.10).gif)
+[![](images/Dd536244.03fig3-8(it-it,TechNet.10).gif "Figura 3.7 Struttura fisica di una filiale di piccole dimensioni")](https://technet.microsoft.com/it-it/dd536244.03fig3-8_big(it-it,technet.10).gif)
   
 **Figura 3.7 Struttura fisica di una filiale di piccole dimensioni**
   
@@ -344,7 +344,7 @@ Nella seguente figura sono illustrate le modalità di scalabilità della progett
   
 Gli ulteriori server richiesti per la versione adattata della soluzione sono raffigurati in grigio.
   
-[![](images/Dd536244.03fig3-9(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536244.03fig3-9_big(it-it,technet.10).gif)
+[![](images/Dd536244.03fig3-9(it-it,TechNet.10).gif "Figura 3.9 Soluzione adattata per un'organizzazione di grandi dimensioni")](https://technet.microsoft.com/it-it/dd536244.03fig3-9_big(it-it,technet.10).gif)
   
 **Figura 3.9 Soluzione adattata per un'organizzazione di grandi dimensioni**
   
@@ -352,7 +352,7 @@ Gli ulteriori server richiesti per la versione adattata della soluzione sono raf
   
 Per le organizzazioni di piccole dimensioni, la soluzione può essere implementata con un numero contenuto di nuovi componenti hardware e software. Questo risultato si ottiene eseguendo il servizio IAS sui controller di dominio esistenti. Tale configurazione è stata già ampiamente collaudata dal gruppo IAS di Microsoft ed è consigliata per numerosi scenari. Nella seguente figura è illustrata questa variante della progettazione.
   
-[![](images/Dd536244.03fig3-10(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536244.03fig3-10_big(it-it,technet.10).gif)
+[![](images/Dd536244.03fig3-10(it-it,TechNet.10).gif "Figura 3.10 Soluzione adattata per un'organizzazione di piccole dimensioni")](https://technet.microsoft.com/it-it/dd536244.03fig3-10_big(it-it,technet.10).gif)
   
 **Figura 3.10 Soluzione adattata per un'organizzazione di piccole dimensioni**
   
@@ -372,7 +372,7 @@ L’applicazione più semplice, che non richiede alcuna modifica della progettaz
   
 Nella figura seguente è illustrata la modalità di integrazione della soluzione di accesso a una rete cablata con la progettazione: nell'area con i margini in grassetto sono rappresentati i componenti cablati basati sullo standard 802.1X, mentre le altre aree della struttura contengono i servizi rilevanti visualizzati nella figura di progettazione precedente.
   
-[![](images/Dd536244.03fig3-11(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536244.03fig3-11_big(it-it,technet.10).gif)
+[![](images/Dd536244.03fig3-11(it-it,TechNet.10).gif "Figura 3.11 Utilizzo dell'autenticazione cablata 802.1X")](https://technet.microsoft.com/it-it/dd536244.03fig3-11_big(it-it,technet.10).gif)
   
 **Figura 3.11 Utilizzo dell'autenticazione cablata 802.1X**
   
@@ -382,7 +382,7 @@ Le reti che utilizzano gli switch 802.1X svolgono un ruolo identico a quello dei
   
 Un altro servizio di accesso alla rete che potrebbe utilizzare i componenti RADIUS è la connessione remota e VPN. Specialmente nelle organizzazioni di grandi dimensioni, è probabile che sia necessario apportare alcune aggiunte alla progettazione, ad esempio l'aggiunta di proxy RADIUS. La struttura di questa soluzione estesa è illustrata nella seguente figura.
   
-[![](images/Dd536244.03fig3-12(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536244.03fig3-12_big(it-it,technet.10).gif)
+[![](images/Dd536244.03fig3-12(it-it,TechNet.10).gif "Figura 3.12 Estensione del componente RADIUS per il supporto della connessione VPN")](https://technet.microsoft.com/it-it/dd536244.03fig3-12_big(it-it,technet.10).gif)
   
 **Figura 3.12 Estensione del componente RADIUS per il supporto della connessione VPN**
   
@@ -400,7 +400,7 @@ Poiché i criteri di riutilizzabilità e di estensione della soluzione sono impo
   
 Nella seguente figura vengono illustrate alcune delle applicazioni che il componente PKI può supportare, oltre all’applicazione senza fili protetta. Alcune di esse sono applicazioni relativamente semplici e possono utilizzare il componente PKI sviluppato in questa soluzione con qualche lieve o nessun cambiamento alla progettazione di base. Altre, come ad esempio la posta elettronica protetta e l’accesso con smart card, sono più complesse e quasi certamente richiedono una maggiore considerazione e un’estensione della progettazione PKI.
   
-[![](images/Dd536244.03fig3-13(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536244.03fig3-13_big(it-it,technet.10).gif)
+[![](images/Dd536244.03fig3-13(it-it,TechNet.10).gif "Figura 3.13 Applicazioni PKI")](https://technet.microsoft.com/it-it/dd536244.03fig3-13_big(it-it,technet.10).gif)
   
 **Figura 3.13 Applicazioni PKI**
   
