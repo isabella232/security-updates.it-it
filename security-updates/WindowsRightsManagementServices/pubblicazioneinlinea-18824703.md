@@ -11,7 +11,7 @@ Pubblicazione in linea
 
 Nella figura riportata di seguito viene illustrato il processo di pubblicazione in linea.
 
-![](images/Cc747694.897e47b6-fffe-4b11-bc9f-be58539b9f19(WS.10).gif)
+![](images/Cc747694.897e47b6-fffe-4b11-bc9f-be58539b9f19(WS.10).gif "Processo di pubblicazione online")
 
 Il processo di pubblicazione in linea include i passaggi seguenti:
 
