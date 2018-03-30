@@ -37,7 +37,7 @@ Il risultato della fase di valutazione dei rischi consiste in un elenco di risch
 
 Il seguente schema serve da riepilogo dell'intero processo di gestione dei rischi e mostra il ruolo della valutazione dei rischi nell'ambito del programma. Sono inoltre evidenziati i tre passaggi nei quali è suddivisa la fase di valutazione dei rischi.
 
-[![](images/Cc163154.rmch0401(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0401_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0401(it-it,TechNet.10).gif "Figura 4.1 Processo di gestione dei rischi di protezione Microsoft: fase di valutazione dei rischi")](https://technet.microsoft.com/it-it/cc163154.rmch0401_big(it-it,technet.10).gif)
 
 **Figura 4.1 Processo di gestione dei rischi di protezione Microsoft: fase di valutazione dei rischi**
 
@@ -315,7 +315,7 @@ Le domande sopra riportate vengono tradotte dall'esperto in protezione informati
   
 L'incaricato del verbale e il moderatore della valutazione dei rischi raccolgono una notevole quantità di dati. Il modello di difesa a più livelli consente di organizzare in modo più efficace le discussioni relative a tutti gli elementi di rischio. Questa organizzazione fornisce una struttura e agevola il processo di raccolta delle informazioni a livello aziendale da parte del Team di gestione dei rischi di protezione. Un esempio di struttura di difesa a più livelli è incluso nel modello di discussione sui rischi ed è illustrato nella Figura 4.2 riportata di seguito. La sezione intitolata "Organizzazione delle soluzioni di controllo" del Capitolo 6, "Implementazione delle soluzioni di controllo e misurazione dell'efficacia del programma", contiene una descrizione più dettagliata del modello di difesa a più livelli.
   
-![](images/Cc163154.rmch0402(it-it,TechNet.10).gif)
+![](images/Cc163154.rmch0402(it-it,TechNet.10).gif "Figura 4.2 Modello di difesa a più livelli")
   
 **Figura 4.2 Modello di difesa a più livelli**
   
@@ -429,7 +429,7 @@ La prima attività consiste nel raccogliere le definizioni dei beni aziendali fo
   
 La discussione sui beni aziendali può essere limitata a poche e semplici domande. Si potrebbe chiedere di indicare, ad esempio, se il bene ha un'importanza critica per il successo dell'azienda e se può avere conseguenze materiali sui profitti. In caso di risposta affermativa, il bene può produrre un grave impatto sull'organizzazione.
   
-[![](images/Cc163154.rmch0403(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0403_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0403(it-it,TechNet.10).gif "Figura 4.3 Rappresentazione del modello per la raccolta dei dati (GGRPStrumento1)")](https://technet.microsoft.com/it-it/cc163154.rmch0403_big(it-it,technet.10).gif)
   
 **Figura 4.3 Rappresentazione del modello per la raccolta dei dati (GGRPStrumento1)**
   
@@ -487,13 +487,13 @@ Il Team di gestione dei rischi di protezione definisce le dichiarazioni di impat
   
 La dichiarazione di impatto contiene il bene, la classificazione del bene, il modello di difesa a più livelli, la descrizione dei pericoli, la descrizione delle vulnerabilità e il grado di esposizione. Utilizzare le informazioni raggruppate nel modello di raccolta dei dati per definire la dichiarazioni di impatto per tutte le discussioni. La Figura 4.4 mostra le intestazioni di colonna applicabili del modello di riepilogo dei rischi per raccogliere dati specifici sull'impatto.
   
-[![](images/Cc163154.rmch0404(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0404_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0404(it-it,TechNet.10).gif "Figura 4.4 Foglio di lavoro per il riepilogo dei rischi: colonne Bene ed Esposizione (GGRPStrumento2)")](https://technet.microsoft.com/it-it/cc163154.rmch0404_big(it-it,technet.10).gif)
   
 **Figura 4.4 Foglio di lavoro per il riepilogo dei rischi: colonne Bene ed Esposizione (GGRPStrumento2)**
   
 **Esempio di Woodgrove:** le informazioni raccolte durante le discussioni sui rischi dell'esempio possono essere organizzate sviluppando le dichiarazioni di impatto. Il Team di gestione dei rischi di protezione può indicare la dichiarazione di impatto in una definizione, ad esempio "L'integrità di dati sui clienti ad alto valore può essere compromessa dall'appropriazione indebita delle credenziali memorizzate in host gestiti a distanza". Benché si tratti di un approccio accurato, la creazione di definizioni non si adatta a un numero elevato di rischi a causa di differenze nella scrittura e nella comprensione e della mancanza di dati organizzati (ordinamento o analisi dei rischi). Una tecnica più efficace consiste nell'immettere i dati sull'impatto nella tabella di riepilogo, come mostrato di seguito.
   
-[![](images/Cc163154.rmch0405(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0405_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0405(it-it,TechNet.10).gif "Figura 4.5 Esempio di Woodgrove: informazioni ottenute durante il processo di raccolta dati (GGRPStrumento2)")](https://technet.microsoft.com/it-it/cc163154.rmch0405_big(it-it,technet.10).gif)
   
 **Figura 4.5 Esempio di Woodgrove: informazioni ottenute durante il processo di raccolta dati (GGRPStrumento2)**
   
@@ -547,7 +547,7 @@ Nell'ultima parte di questa sezione vengono descritti i fattori di successo e le
   
     -   **Risultato** — Un elenco dettagliato che consente di esaminare approfonditamente i rischi di maggiore importanza per l'organizzazione.
   
-[![](images/Cc163154.rmch0406(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0406_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0406(it-it,TechNet.10).gif "Figura 4.6 Attività per la definizione delle priorità dei rischi")](https://technet.microsoft.com/it-it/cc163154.rmch0406_big(it-it,technet.10).gif)
   
 **Figura 4.6 Attività per la definizione delle priorità dei rischi**
   
@@ -587,7 +587,7 @@ L'elenco sommario utilizza la dichiarazione di impatto definita durante il proce
   
 Le informazioni sulla classe del bene e sull'esposizione del bene identificate durante il processo di raccolta dei dati, devono essere sintetizzate in un unico valore che consente di determinare l'impatto. Tenere presente che l'impatto è dato dalla combinazione della classe e dal grado di esposizione del bene. La figura riportata di seguito consente di selezionare il livello di impatto per ciascuna dichiarazione di impatto.
   
-[![](images/Cc163154.rmch0407(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0407_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0407(it-it,TechNet.10).gif "Figura 4.7 Foglio di lavoro per l'analisi dei rischi: classe del bene e livello di esposizione (GGRPStrumento2)")](https://technet.microsoft.com/it-it/cc163154.rmch0407_big(it-it,technet.10).gif)
   
 **Figura 4.7 Foglio di lavoro per l'analisi dei rischi: classe del bene e livello di esposizione (GGRPStrumento2)**
   
@@ -621,7 +621,7 @@ Utilizzare le stesse categorie di probabilità descritte nel processo di raccolt
   
 Una volta che il Team di gestione dei rischi di protezione ha calcolato la probabilità, utilizzare la figura riportata di seguito per selezionare la classificazione sommaria dei rischi.
   
-[![](images/Cc163154.rmch0408(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0408_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0408(it-it,TechNet.10).gif "Figura 4.8 Foglio di lavoro per l'analisi dei rischi: impatto e probabilità (GGRPStrumento2)")](https://technet.microsoft.com/it-it/cc163154.rmch0408_big(it-it,technet.10).gif)
   
 **Figura 4.8 Foglio di lavoro per l'analisi dei rischi: impatto e probabilità (GGRPStrumento2)**
   
@@ -637,7 +637,7 @@ Una volta che il Team di gestione dei rischi di protezione ha calcolato la proba
   
 Fare riferimento alla figura riportata di seguito in cui sono rappresentate tutte le colonne dell'elenco sommario, disponibili anche nel file GGRPStrumento2-Livello rischi sommario.xls.
   
-[![](images/Cc163154.rmch0409(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0409_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0409(it-it,TechNet.10).gif "Figura 4.9 Foglio di lavoro per l'analisi dei rischi: elenco sommario (GGRPStrumento2)")](https://technet.microsoft.com/it-it/cc163154.rmch0409_big(it-it,technet.10).gif)
   
 **Figura 4.9 Foglio di lavoro per l'analisi dei rischi: elenco sommario (GGRPStrumento2)**
   
@@ -645,7 +645,7 @@ In base alle esigenze dell'organizzazione, è possibile aggiungere colonne suppl
   
 **Esempio di Woodgrove:** la figura riportata di seguito completa l'esempio dell'elenco sommario dei rischi creato per Woodgrove Bank. Osservare che sono state aggiunte le colonne "Probabilità" e "Livello di rischio sommario" alle informazioni sulla dichiarazione di impatto per completare gli elementi richiesti per un'adeguata definizione dei rischi.
   
-[![](images/Cc163154.rmch0410(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0410_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0410(it-it,TechNet.10).gif "Esempio di elenco sommario dei rischi per Woodgrove Bank (GGRPStrumento2)")](https://technet.microsoft.com/it-it/cc163154.rmch0410_big(it-it,technet.10).gif)
   
 **Esempio di elenco sommario dei rischi per Woodgrove Bank (GGRPStrumento2)**
   
@@ -701,13 +701,13 @@ Le quattro attività indicate di seguito delineano il processo per la creazione 
   
 Inserire innanzitutto la classe del bene, indicata nella tabella di riepilogo, nel modello dettagliato. Selezionare quindi l'esposizione del bene. Osservare che la classificazione dell'esposizione nel modello dettagliato aggiunge granularità rispetto al livello riepilogativo. La classificazione dell'esposizione nel modello dettagliato è rappresentata da un valore compreso tra 1 e 5. Come si ricorderà, la classificazione dell'esposizione definisce la portata dei danni a cui è soggetto il bene. I modelli riportati di seguito consentono di determinare la classificazione di esposizione appropriata per l'organizzazione. Poiché ogni valore di esposizione può influire sul livello di impatto sul bene, inserire tutti i valori massimi dopo aver immesso i numeri. Il primo numero dell'esposizione consente di misurare la portata dell'impatto derivato dalla violazione della riservatezza o dell'integrità dei beni aziendali. Il secondo numero consente di misurare l'impatto sulla disponibilità dei beni.
   
-[![](images/Cc163154.rmch0411(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0411_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0411(it-it,TechNet.10).gif "Figura 4.11 Foglio di lavoro per l'analisi dei rischi: valutazioni dell'esposizione di integrità o di riservatezza (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163154.rmch0411_big(it-it,technet.10).gif)
   
 **Figura 4.11 Foglio di lavoro per l'analisi dei rischi: valutazioni dell'esposizione di integrità o di riservatezza (GGRPStrumento3)**
   
 Una volta considerata la portata dei danni derivanti dai potenziali impatti sulla riservatezza e l'integrità, utilizzare la figura riportata di seguito per determinare il livello di impatto derivante dall'indisponibilità del bene. Selezionare il valore massimo come livello di esposizione da entrambe le tabelle.
   
-[![](images/Cc163154.rmch0412(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0412_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0412(it-it,TechNet.10).gif "Figura 4.12 Foglio di lavoro per l'analisi dei rischi: valutazioni dell'esposizione di disponibilità (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163154.rmch0412_big(it-it,technet.10).gif)
   
 **Figura 4.12 Foglio di lavoro per l'analisi dei rischi: valutazioni dell'esposizione di disponibilità (GGRPStrumento3)**
   
@@ -721,13 +721,13 @@ La figura consente di raccogliere le valutazioni dell'esposizione per ciascun im
   
 Una volta identificato il grado di esposizione, è possibile determinare il valore dell'impatto inserendo i dati nelle colonne appropriate del foglio di lavoro GGRPStrumento3-Priorità rischi livello dettagliato.xls, quindi calcolando il valore. Nel processo di definizione dettagliata dei rischi, l'impatto è il prodotto del valore della classe di impatto e del fattore di esposizione. A ciascun grado di esposizione viene assegnata una percentuale che indica la portata dei danni al bene. Questa percentuale viene definita fattore di esposizione. Il processo di gestione dei rischi di protezione Microsoft consiglia una percentuale di esposizione del 20% su una scala lineare 100; è possibile correggere questo valore in base alle esigenze dell'organizzazione. Ciascun valore dell'impatto è inoltre associato a un valore qualitativo che può essere alto, medio o basso. Questa classificazione è utile per comunicare il livello di impatto e registrare gli elementi di rischio durante i calcoli dettagliati dei rischi. È possibile fare riferimento alla figura riportata di seguito in cui sono mostrati i possibili valori dell'impatto per ciascuna classe.
   
-[![](images/Cc163154.rmch0413(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0413_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0413(it-it,TechNet.10).gif "Figura 4.13 Foglio di lavoro per l'analisi dei rischi: determinazione dei valori di impatto (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163154.rmch0413_big(it-it,technet.10).gif)
   
 **Figura 4.13 Foglio di lavoro per l'analisi dei rischi: determinazione dei valori di impatto (GGRPStrumento3)**
   
 **Esempio di Woodgrove:** la figura riportata di seguito mostra in che modo vengono determinati i valori delle classi di impatto, il grado di esposizione e il livello complessivo di impatto utilizzando l'esempio di Woodgrove.
   
-[![](images/Cc163154.rmch0414(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0414_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0414(it-it,TechNet.10).gif "Figura 4.14 Esempio di Woodgrove: illustrazione dei valori dettagliati della classe di impatto, del grado di esposizione e del valore dell'impatto (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163154.rmch0414_big(it-it,technet.10).gif)
   
 **Figura 4.14 Esempio di Woodgrove: illustrazione dei valori dettagliati della classe di impatto, del grado di esposizione e del valore dell'impatto (GGRPStrumento3)**
   
@@ -763,13 +763,13 @@ La figura riportata di seguito include questi attributi delle vulnerabilità:
   
 Tenere presente che la stima della probabilità di un attacco ha carattere soggettivo. Gli attributi sopra elencati consentono di determinare e giustificare le stime delle probabilità. Il Team di gestione dei rischi di protezione deve affidarsi e fare leva sulla propria competenza per scegliere e giustificare le previsioni.
   
-[![](images/Cc163154.rmch0415(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0415_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0415(it-it,TechNet.10).gif "Figura 4.15 Foglio di lavoro per l'analisi dei rischi: valutazione della vulnerabilità (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163154.rmch0415_big(it-it,technet.10).gif)
   
 **Figura 4.15 Foglio di lavoro per l'analisi dei rischi: valutazione della vulnerabilità (GGRPStrumento3)**
   
 Selezionare i valori appropriati nella figura seguente.
   
-[![](images/Cc163154.rmch0416(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0416_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0416(it-it,TechNet.10).gif "Figura 4.16 Foglio di lavoro per l'analisi dei rischi: valutazione del valore di probabilità (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163154.rmch0416_big(it-it,technet.10).gif)
   
 **Figura 4.16 Foglio di lavoro per l'analisi dei rischi: valutazione del valore di probabilità (GGRPStrumento3)**
   
@@ -777,7 +777,7 @@ Selezionare i valori appropriati nella figura seguente.
   
 Nella figura successiva viene valutata l'efficacia dei controlli esistenti. Il valore è soggettivo e si basa sull'esperienza del Team di gestione dei rischi di protezione nella valutazione del proprio ambiente di controllo. Rispondere a tutte le domande, quindi sommare i valori per determinare il livello di controllo finale. Un valore inferiore indica che i controlli sono efficaci e possono ridurre la probabilità di un attacco che sfrutta le vulnerabilità esistenti.
   
-[![](images/Cc163154.rmch0417(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0417_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0417(it-it,TechNet.10).gif "Figura 4.17 Foglio di lavoro per l'analisi dei rischi: valutazione dell'efficacia del controllo attuale (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163154.rmch0417_big(it-it,technet.10).gif)
   
 **Figura 4.17 Foglio di lavoro per l'analisi dei rischi: valutazione dell'efficacia del controllo attuale (GGRPStrumento3)**
   
@@ -835,7 +835,7 @@ Nella figura successiva viene valutata l'efficacia dei controlli esistenti. Il v
   
 A questo punto, aggiungere il valore della figura Vulnerabilità (Figura 4.16) al valore della figura Controlli attuali (Figura 4.17) e inserire il totale nel modello dettagliato. Fare riferimento al modello mostrato nella seguente figura.
   
-[![](images/Cc163154.rmch0418(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0418_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0418(it-it,TechNet.10).gif "Figura 4.18 Foglio di lavoro per l'analisi dei rischi: valutazione della probabilità con il controllo (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163154.rmch0418_big(it-it,technet.10).gif)
   
 **Figura 4.18 Foglio di lavoro per l'analisi dei rischi: valutazione della probabilità con il controllo (GGRPStrumento3)**
   
@@ -845,19 +845,19 @@ A questo punto, aggiungere il valore della figura Vulnerabilità (Figura 4.16) a
   
 La figura riportata di seguito mostra il riepilogo dettagliato per valutare il livello di rischio di ciascun rischio identificato. Benché la valutazione di un rischio a livello dettagliato possa apparire un processo complicato, è possibile fare riferimento alla logica alla base di ciascuna attività di valutazione del rischio utilizzando le figure precedenti. La capacità di registrare tutte le attività nella definizione dei rischi si rivela particolarmente utile nel favorire la comprensione da parte degli interessati delle informazioni utilizzate nel processo di valutazione dei rischi.
   
-[![](images/Cc163154.rmch0419(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0419_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0419(it-it,TechNet.10).gif "Figura 4.19 Foglio di lavoro per l'analisi dei rischi: definizione del livello dettagliato di rischio (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163154.rmch0419_big(it-it,technet.10).gif)
   
 **Figura 4.19 Foglio di lavoro per l'analisi dei rischi: definizione del livello dettagliato di rischio (GGRPStrumento3)**
   
 **Esempio di Woodgrove:** la figura riportata di seguito illustra un esempio di elenco dettagliato dei rischi per Woodgrove Bank. Gli stessi dati sono presentati in GGRPStrumento3.
   
-[![](images/Cc163154.rmch0420(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0420_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0420(it-it,TechNet.10).gif "Figura 4.20 Esempio di Woodgrove Bank: elenco dettagliato dei rischi (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163154.rmch0420_big(it-it,technet.10).gif)
   
 **Figura 4.20 Esempio di Woodgrove Bank: elenco dettagliato dei rischi (GGRPStrumento3)**
   
 La figura precedente mostra il contenuto della valutazione del rischio e i relativi dati costitutivi. Come osservato in precedenza, la valutazione del rischio è il prodotto della valutazione dell'impatto (il cui valore è compreso tra 1 e 10) e la valutazione della probabilità (il cui valore è compreso tra 0 e 10). Il risultato rientra in un intervallo di valori compreso tra 0 e 100. Applicando la stessa logica utilizzata per la creazione dell'elenco sommario dei rischi, è possibile comunicare il rischio a livello dettagliato in termini qualitativi come alto, medio o basso. Ad esempio, un impatto medio e una probabilità alta producono una valutazione di rischio alto. Tuttavia, l'elenco dettagliato dei rischi specifica ulteriormente ciascun livello di rischio, come mostrato nella seguente figura.
   
-[![](images/Cc163154.rmch0421(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0421_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0421(it-it,TechNet.10).gif "Figura 4.21 Foglio di lavoro per l'analisi dei rischi: elaborazione di una classificazione qualitativa sommaria (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163154.rmch0421_big(it-it,technet.10).gif)
   
 **Figura 4.21 Foglio di lavoro per l'analisi dei rischi: elaborazione di una classificazione qualitativa sommaria (GGRPStrumento3)**
   
@@ -947,13 +947,13 @@ L'ultima operazione consiste nel moltiplicare il valore del bene per il fattore 
   
 Fare riferimento alla seguente figura contenente un esempio di approccio quantitativo semplice. Osservare che nell'esempio riportato di seguito la classe ad alto impatto aziendale viene semplicemente divisa a metà per determinare i valori medi e bassi. È possibile che sia necessario correggere tali valori man mano che si acquisisce esperienza con il processo di valutazione dei rischi.
   
-[![](images/Cc163154.rmch0422(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0422_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0422(it-it,TechNet.10).gif "Figura 4.22 Foglio di lavoro per l'analisi dei rischi: quantificazione della previsione di perdita singola (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163154.rmch0422_big(it-it,technet.10).gif)
   
 **Figura 4.22 Foglio di lavoro per l'analisi dei rischi: quantificazione della previsione di perdita singola (GGRPStrumento3)**
   
 **Esempio di Woodgrove:** La figura riportata di seguito rappresenta i valori che consentono di determinare il valore SLE per i due rischi citati nell'esempio.
   
-[![](images/Cc163154.rmch0423(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0423_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0423(it-it,TechNet.10).gif "Figura 4.23 Esempio di valore SLE per Woodgrove Bank; valore in milioni di dollari (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163154.rmch0423_big(it-it,technet.10).gif)
   
 **Figura 4.23 Esempio di valore SLE per Woodgrove Bank; valore in milioni di dollari (GGRPStrumento3)**
   
@@ -961,7 +961,7 @@ Fare riferimento alla seguente figura contenente un esempio di approccio quantit
   
 Una volta calcolata la previsione di perdita singola, è necessario integrare la probabilità per completare la stima di rischio finanziario. Un approccio comunemente utilizzato consiste nel calcolare la frequenza con cui il rischio potrebbe manifestarsi in futuro. Questo calcolo viene quindi convertito in una stima annua. Ad esempio, se il Gruppo protezione informatica ritiene che un rischio possa manifestarsi due volte in un anno, il tasso di occorrenza annuo sarà 2. Se un rischio ha una probabilità di manifestarsi una volta ogni tre anni, il tasso di occorrenza annuo sarà del 33% o 0,33. Per semplificare il calcolo delle probabilità, utilizzare l'analisi qualitativa descritta sopra nel calcolo dettagliato del rischio. La figura riportata di seguito può essere utilizzata come riferimento per identificare e comunicare il valore quantitativo che consente di determinare il tasso di occorrenza annuo.
   
-[![](images/Cc163154.rmch0424(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0424_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0424(it-it,TechNet.10).gif "Figura 4.24 Quantificazione del tasso di occorrenza annuo (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163154.rmch0424_big(it-it,technet.10).gif)
   
 **Figura 4.24 Quantificazione del tasso di occorrenza annuo (GGRPStrumento3)**
   
@@ -985,7 +985,7 @@ Una volta determinata la stima quantitativa del rischio, consultare il foglio di
   
 **Esempio di Woodgrove:** la tabella riportata di seguito mostra i calcoli di base per la determinazione della previsione di perdita annua per ciascun rischio menzionato nell'esempio. Osservare che anche una sola modifica a uno dei valori può far variare significativamente il valore della previsione di perdita annua. Servirsi dei dati qualitativi per giustificare e determinare la stima quantitativa.
   
-[![](images/Cc163154.rmch0425(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163154.rmch0425_big(it-it,technet.10).gif)
+[![](images/Cc163154.rmch0425(it-it,TechNet.10).gif "Figura 4.25 Esempio di valore ALE per Woodgrove Bank; valori in milioni di dollari (GGRPStrumento3)")](https://technet.microsoft.com/it-it/cc163154.rmch0425_big(it-it,technet.10).gif)
   
 **Figura 4.25 Esempio di valore ALE per Woodgrove Bank; valori in milioni di dollari (GGRPStrumento3)**
   
