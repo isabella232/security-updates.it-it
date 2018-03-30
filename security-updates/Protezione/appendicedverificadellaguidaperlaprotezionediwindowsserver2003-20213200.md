@@ -64,7 +64,7 @@ I computer client nelle diverse reti utilizzavano Windows XP Professional con S
 
 Il seguente schema illustra la rete del laboratorio di test sviluppata per l'ambiente EC.
 
-[![](images/Cc163106.apdxd_fg01(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163106.apdxd_fg01_big(it-it,technet.10).gif)
+[![](images/Cc163106.apdxd_fg01(it-it,TechNet.10).gif "Figura D.1 Diagramma logico della rete del laboratorio di test per l'ambiente EC")](https://technet.microsoft.com/it-it/cc163106.apdxd_fg01_big(it-it,technet.10).gif)
 
 **Figura D.1 Diagramma logico della rete del laboratorio di test per l'ambiente EC**
 
@@ -72,7 +72,7 @@ Per verificare la replica delle informazioni tra i controller di dominio con pro
 
 Il seguente schema illustra la rete del laboratorio di test sviluppata per l'ambiente SSLF.
 
-[![](images/Cc163106.apdxd_fg02(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163106.apdxd_fg02_big(it-it,technet.10).gif)
+[![](images/Cc163106.apdxd_fg02(it-it,TechNet.10).gif "Figura D.2 Diagramma logico della rete del laboratorio di test per l'ambiente EC")](https://technet.microsoft.com/it-it/cc163106.apdxd_fg02_big(it-it,technet.10).gif)
 
 **Figura D.2 Diagramma logico della rete del laboratorio di test per l'ambiente EC**
 
