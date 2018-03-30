@@ -157,7 +157,7 @@ Tra le considerazioni operative sono incluse:
 
 La procedura seguente sulla protezione della riservatezza della posta elettronica si riferisce a scenari di aziende di piccole e medie dimensioni simili a quella indicata nella figura.
 
-[![](images/Cc875813.PECRI01(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875813.pecri01_big(it-it,technet.10).gif)
+[![](images/Cc875813.PECRI01(it-it,TechNet.10).gif "Figura 1. Servizi di posta elettronica nell'ambiente IT di un'azienda di medie dimensioni")](https://technet.microsoft.com/it-it/cc875813.pecri01_big(it-it,technet.10).gif)
 
 **Figura 1. Servizi di posta elettronica nell'ambiente IT di un'azienda di medie dimensioni**
 
@@ -197,13 +197,13 @@ Quando Exchange Server archivia dei messaggi di posta elettronica S/MIME, l'unic
 
 2.  Fare clic su **Start**, scegliere **Tutti i programmi**, **Microsoft Exchange** e fare clic su **Gestore di sistema**. Verrà visualizzato il Gestore di sistema di Exchange (indicato nella schermata seguente).
 
-    [![](images/Cc875813.PECRI02(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875813.pecri02_big(it-it,technet.10).gif)
+    [![](images/Cc875813.PECRI02(it-it,TechNet.10).gif "Gestore di sistema di Exchange")](https://technet.microsoft.com/it-it/cc875813.pecri02_big(it-it,technet.10).gif)
 
 3.  Fare clic su **Server**, quindi su ***&lt;nomeserver&gt;***, scegliere **Gruppo di archiviazione** e fare clic con il tasto destro del mouse su **Archivio cassette postali**, quindi fare clic su **Proprietà**.
 
     Nella pagina delle **Proprietà**, selezionare **Supporto client per firme S/MIME** come indicato nella schermata seguente.
 
-    ![](images/Cc875813.PECRI03(it-it,TechNet.10).gif)
+    ![](images/Cc875813.PECRI03(it-it,TechNet.10).gif "Archivio cassette postali")
 
 ##### Come distribuire i certificati digitali per S/MIME con la registrazione automatica
 
@@ -219,7 +219,7 @@ La registrazione automatica permette ai client di presentare automaticamente una
 
     Per la registrazione automatica, l'oggetto Criteri di gruppo deve essere collegato al dominio o all'unità organizzativa in cui si trova l'account dell'utente o del computer.
 
-    ![](images/Cc875813.PECRI04(it-it,TechNet.10).gif)
+    ![](images/Cc875813.PECRI04(it-it,TechNet.10).gif "Oggetto Criteri di gruppo")
 
 4.  Nella finestra di dialogo **Proprietà Nome dominio**, scegliere la scheda **Criteri di gruppo**, quindi fare clic su **Apri** per aprire la Console Gestione Criteri di gruppo.
 
@@ -229,7 +229,7 @@ La registrazione automatica permette ai client di presentare automaticamente una
 
 7.  Nella struttura della console, espandere **Impostazioni di Windows**, espandere **Impostazioni protezione**, quindi fare clic su **Criteri chiave pubblica**, come indicato nella schermata seguente.
 
-    [![](images/Cc875813.PECRI05(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875813.pecri05_big(it-it,technet.10).gif)
+    [![](images/Cc875813.PECRI05(it-it,TechNet.10).gif "Criteri chiave pubblica")](https://technet.microsoft.com/it-it/cc875813.pecri05_big(it-it,technet.10).gif)
 
 8.  Nel riquadro dettagli, fare doppio clic su **Impostazioni registrazione automatica**. Nella finestra di dialogo **Impostazioni registrazione automatica**, assicurarsi che le impostazioni seguenti siano state selezionate, come indicato nella schermata seguente.
 
@@ -239,7 +239,7 @@ La registrazione automatica permette ai client di presentare automaticamente una
 
     -   Casella di controllo **Aggiorna i certificati che utilizzano modelli di certificati**. Questa impostazione abilita la registrazione automatica per i modelli di certificati sostituiti.
 
-    ![](images/Cc875813.PECRI06(it-it,TechNet.10).gif)
+    ![](images/Cc875813.PECRI06(it-it,TechNet.10).gif "Impostazioni di registrazione automatica")
 
 9.  Fare clic su **OK**.
 
@@ -261,13 +261,13 @@ Per inviare correttamente un messaggio di posta elettronica crittografato, il de
 
 3.  Fare clic su **Strumenti**, quindi scegliere **Opzioni**. Verrà visualizzata la seguente finestra di dialogo.
 
-    ![](images/Cc875813.PECRI07(it-it,TechNet.10).gif)
+    ![](images/Cc875813.PECRI07(it-it,TechNet.10).gif "Come configurare Outlook 2003 per aiutare a garantire la riservatezza della posta elettronica")
 
 4.  Fare clic sulla scheda **Protezione**, quindi scegliere **Impostazioni**.
 
 5.  Outlook popola la finestra di dialogo **Cambia impostazioni di protezione** con le informazioni predefinite. Fare clic su **OK** per accettare i valori predefiniti indicati nella schermata seguente.
 
-    ![](images/Cc875813.PECRI08(it-it,TechNet.10).gif)
+    ![](images/Cc875813.PECRI08(it-it,TechNet.10).gif "Cambia impostazioni di protezione")
 
 6.  Fare clic su **OK** per chiudere la finestra di dialogo **Opzioni**.
 
@@ -285,7 +285,7 @@ A questo punto Outlook è stato configurato per garantire la riservatezza della 
 
 5.  Assicurarsi di avere selezionato il pulsante **Aggiungi firma digitale al messaggio**. Poiché la verifica riguarda soltanto la firma digitale, controllare che il pulsante **Crittografa contenuti e allegati del messaggio** non sia stato selezionato.
 
-    [![](images/Cc875813.PECRI09(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875813.pecri09_big(it-it,technet.10).gif)
+    [![](images/Cc875813.PECRI09(it-it,TechNet.10).gif "Aggiunta di una firma digitale")](https://technet.microsoft.com/it-it/cc875813.pecri09_big(it-it,technet.10).gif)
 
 6.  Fare clic su **Invia**.
 
@@ -303,7 +303,7 @@ A questo punto il messaggio con firma digitale è stato inviato al destinatario,
 
 5.  Verificare che sulla barra degli strumenti il pulsante **Crittografa contenuti e allegati del messaggio** sia stato selezionato. Poiché la verifica riguarda soltanto la crittografia, controllare che il pulsante **Aggiungi firma digitale al messaggio** non sia stato selezionato.
 
-    [![](images/Cc875813.PECRI10(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875813.pecri10_big(it-it,technet.10).gif)
+    [![](images/Cc875813.PECRI10(it-it,TechNet.10).gif "Crittografa contenuti e allegati del messaggio")](https://technet.microsoft.com/it-it/cc875813.pecri10_big(it-it,technet.10).gif)
 
 A questo punto, il messaggio crittografato è stato inviato al destinatario, il quale può aprirlo e leggerlo.
 
@@ -325,7 +325,7 @@ Per inviare correttamente un messaggio di posta elettronica crittografato, il de
 
 6.  Sotto **Specificare o selezionare un nome dall'elenco:**, fare clic su **Trova**. Verrà visualizzata la seguente finestra di dialogo.
 
-    ![](images/Cc875813.PECRI11(it-it,TechNet.10).gif)
+    ![](images/Cc875813.PECRI11(it-it,TechNet.10).gif "Aggiunta di un destinatario da Active Directory")
 
 7.  Nell'elenco **Cerca in:**, fare clic su **Active Directory**, digitare il nome del destinatario nella casella **Nome**, quindi fare clic su **Trova**.
 
@@ -335,7 +335,7 @@ Per inviare correttamente un messaggio di posta elettronica crittografato, il de
 
 10. Sulla barra degli strumenti sono visualizzate due nuove icone: una per crittografare i messaggi e una per firmarli. Assicurarsi che il pulsante **Firma** sia stato selezionato, come indicato nella schermata seguente. Poiché la verifica riguarda soltanto la firma digitale, controllare che il pulsante **Crittografa** non sia stato selezionato.
 
-    [![](images/Cc875813.PECRI12(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875813.pecri12_big(it-it,technet.10).gif)
+    [![](images/Cc875813.PECRI12(it-it,TechNet.10).gif "Seleziona destinatari")](https://technet.microsoft.com/it-it/cc875813.pecri12_big(it-it,technet.10).gif)
 
 11. Fare clic su **Invia**.
 
@@ -363,7 +363,7 @@ A questo punto il messaggio con firma digitale è stato inviato al destinatario,
 
 10. Assicurarsi che il pulsante **Crittografa** sia stato selezionato, come indicato nella schermata seguente. Poiché la verifica riguarda soltanto la crittografia, controllare che il pulsante **Firma** non sia stato selezionato.
 
-    [![](images/Cc875813.PECRI13(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875813.pecri13_big(it-it,technet.10).gif)
+    [![](images/Cc875813.PECRI13(it-it,TechNet.10).gif "Crittografa")](https://technet.microsoft.com/it-it/cc875813.pecri13_big(it-it,technet.10).gif)
 
 11. Fare clic su **Invia**.
 
@@ -381,7 +381,7 @@ Tramite Utenti e computer di Active Directory è possibile verificare se un acco
 
 3.  Fare clic su **Visualizza**, quindi su **Funzioni avanzate** come indicato nella schermata seguente.
 
-    [![](images/Cc875813.PECRI14(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875813.pecri14_big(it-it,technet.10).gif)
+    [![](images/Cc875813.PECRI14(it-it,TechNet.10).gif "Utenti e computer di Active Directory")](https://technet.microsoft.com/it-it/cc875813.pecri14_big(it-it,technet.10).gif)
 
 4.  Nel riquadro di sinistra, fare clic sulla cartella **Utenti**.
 
@@ -391,7 +391,7 @@ Tramite Utenti e computer di Active Directory è possibile verificare se un acco
 
 7.  In **Elenco di certificati X509 pubblicati per l'account utente** (nella schermata seguente), verrà visualizzato il certificato digitale dell'utente dell'autorità di certificazione Windows insieme a tutti gli altri certificati archiviati per questo utente in Active Directory.
 
-    ![](images/Cc875813.PECRI15(it-it,TechNet.10).gif)
+    ![](images/Cc875813.PECRI15(it-it,TechNet.10).gif "Certificati pubblicati")
 
 A questo punto, è stato verificato che il certificato è stato aggiunto all'account utente di Active Directory.
 
@@ -411,7 +411,7 @@ Per verificare Exchange Server sia stato configurato per supportare i client che
 
 4.  Nella pagina **Proprietà**, verificare che la casella di controllo **Supporto client per firme S/MIME** nella scheda **Generale** sia stata selezionata, come indicato nella schermata seguente.
 
-    ![](images/Cc875813.PECRI16(it-it,TechNet.10).gif)
+    ![](images/Cc875813.PECRI16(it-it,TechNet.10).gif "Proprietà")
 
 A questo punto, la verifica che la configurazione di Exchange Server sia in grado di supportare la riservatezza della posta elettronica è stata completata.
 
@@ -429,11 +429,11 @@ Per verificare che si ricevano messaggi di posta elettronica configurati per le 
 
 4.  Quando il messaggio si apre, fare clic sul pulsante **Verifica firma** (indicato nella seguente schermata) per verificare la firma.
 
-    [![](images/Cc875813.PECRI17(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875813.pecri17_big(it-it,technet.10).gif)
+    [![](images/Cc875813.PECRI17(it-it,TechNet.10).gif "Verifica firma")](https://technet.microsoft.com/it-it/cc875813.pecri17_big(it-it,technet.10).gif)
 
     Dopo avere fatto clic sul pulsante **Verifica firma**, viene visualizzata la finestra di dialogo **Firma digitale** (nella schermata seguente), che indica che la firma digitale è valida.
 
-    ![](images/Cc875813.PECRI18(it-it,TechNet.10).gif)
+    ![](images/Cc875813.PECRI18(it-it,TechNet.10).gif "Firma digitale")
 
 A questo punto, la firma digitale del messaggio è stata verificata.
 
@@ -447,11 +447,11 @@ A questo punto, la firma digitale del messaggio è stata verificata.
 
 4.  Quando il messaggio si apre, fare clic sul pulsante **Verifica crittografia** (indicato nella seguente schermata) per verificare la crittografia.
 
-    [![](images/Cc875813.PECRI19(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875813.pecri19_big(it-it,technet.10).gif)
+    [![](images/Cc875813.PECRI19(it-it,TechNet.10).gif "Verifica crittografia")](https://technet.microsoft.com/it-it/cc875813.pecri19_big(it-it,technet.10).gif)
 
 5.  Dopo avere fatto clic sul pulsante **Verifica crittografia**, viene visualizzata la finestra di dialogo **Proprietà protezione dei messaggi**, che indica che il messaggio crittografato è valido.
 
-    ![](images/Cc875813.PECRI20(it-it,TechNet.10).gif)
+    ![](images/Cc875813.PECRI20(it-it,TechNet.10).gif "Proprietà protezione dei messaggi")
 
 A questo punto, la crittografia del messaggio è stata verificata.
 
@@ -473,13 +473,13 @@ Per verificare che si ricevano messaggi di posta elettronica configurati per le 
 
 5.  Quando il messaggio si apre, Outlook Express visualizza il seguente messaggio di spiegazione relativo alle firme digitali. Selezionare la casella di controllo **Non visualizzare più questa finestra**, quindi fare clic su **Continua**.
 
-    [![](images/Cc875813.PECRI21(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875813.pecri21_big(it-it,technet.10).gif)
+    [![](images/Cc875813.PECRI21(it-it,TechNet.10).gif "PECRI21")](https://technet.microsoft.com/it-it/cc875813.pecri21_big(it-it,technet.10).gif)
 
 6.  Per verificare la firma, fare clic sul pulsante **Verifica firma**.
 
     Dopo avere fatto clic sul pulsante **Verifica firma**, viene visualizzata la finestra di dialogo **Verifica della firma digitale in corso**, che indica se la firma digitale è valida.
 
-    ![](images/Cc875813.PECRI22(it-it,TechNet.10).gif)
+    ![](images/Cc875813.PECRI22(it-it,TechNet.10).gif "Verifica della firma digitale in corso")
 
 A questo punto, la firma digitale del messaggio è stata verificata.
 
@@ -495,13 +495,13 @@ A questo punto, la firma digitale del messaggio è stata verificata.
 
 5.  Quando il messaggio si apre, Outlook Express visualizza il seguente messaggio di spiegazione relativo alla crittografia. Selezionare la casella di controllo **Non visualizzare più questa finestra**, quindi fare clic su **Continua**.
 
-    [![](images/Cc875813.PECRI23(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875813.pecri23_big(it-it,technet.10).gif)
+    [![](images/Cc875813.PECRI23(it-it,TechNet.10).gif "PECRI23")](https://technet.microsoft.com/it-it/cc875813.pecri23_big(it-it,technet.10).gif)
 
 6.  Per verificare la firma, fare clic su **Verifica crittografia**.
 
     Dopo avere fatto clic sul pulsante **Verifica crittografia**, viene visualizzata la finestra di dialogo **Verifica crittografia in corso**, che indica se il messaggio crittografato è valido.
 
-    ![](images/Cc875813.PECRI24(it-it,TechNet.10).gif)
+    ![](images/Cc875813.PECRI24(it-it,TechNet.10).gif "Verifica crittografia in corso")
 
 A questo punto, la crittografia del messaggio è stata verificata.
 

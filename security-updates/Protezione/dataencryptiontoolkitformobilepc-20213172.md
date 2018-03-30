@@ -195,7 +195,7 @@ Se deve essere utilizzato un altro algoritmo di crittografia (per ragioni divers
   
 Windows Vista contiene numerose nuove opzioni di Criteri di gruppo che consentono agli amministratori di definire e implementare i criteri organizzativi di EFS. Tali opzioni includono la possibilità di richiedere smart card per EFS, applicare la crittografia del file di paging, stabilire le lunghezze minime delle chiavi per EFS e applicare la crittografia della cartella Documenti dell'utente. Per accedere a queste opzioni, modificare l'oggetto EFS in un GPO (il percorso dell'oggetto è il seguente: **Configurazione computer\\Impostazioni Windows\\Impostazioni protezione\\Criteri chiave pubblica**.)
   
-![](images/Cc162812.1a71105c-d527-4302-a6e6-db91d08078a4(it-it,TechNet.10).gif)
+![](images/Cc162812.1a71105c-d527-4302-a6e6-db91d08078a4(it-it,TechNet.10).gif "Figura 2.1. Opzioni delle proprietà di crittografia del file system di Windows Vista")
   
 **Figura 2.1. Opzioni delle proprietà di crittografia del file system di Windows Vista**
   
@@ -275,7 +275,7 @@ Microsoft suggerisce di creare un gruppo di protezione di Active Directory per 
   
 4.  Fare clic con il pulsante destro del mouse sul nodo **Modelli di certificati** e selezionare **Gestisci** per aprire la console Modelli di certificato, come mostrato nella figura che segue.
   
-    ![](images/Cc162812.5d9e236e-785e-454c-983f-216b50dcce52(it-it,TechNet.10).gif)
+    ![](images/Cc162812.5d9e236e-785e-454c-983f-216b50dcce52(it-it,TechNet.10).gif "Figura 2.2. Modelli di certificati nella console Autorità di certificazione")
   
     **Figura 2.2. Modelli di certificati nella console Autorità di certificazione**
   
@@ -529,7 +529,7 @@ Ogni agente di recupero chiavi deve essere aggiunto a Servizi certificati.
   
 4.  Scegliere la scheda **Agenti di recupero** (mostrata nella seguente schermata).
   
-    ![](images/Cc162812.57b5ad90-e987-4a94-b282-f8ebe8ff066d(it-it,TechNet.10).gif)
+    ![](images/Cc162812.57b5ad90-e987-4a94-b282-f8ebe8ff066d(it-it,TechNet.10).gif "Figura 2.3. La scheda Agenti di recupero per un oggetto server nella console di Autorità di certificazione")
   
     **Figura 2.3. La scheda Agenti di recupero per un oggetto server nella console di Autorità di certificazione**
   
@@ -559,7 +559,7 @@ Il certificato digitale utilizzato per emettere i certificati digitali EFS agli 
   
 6.  Scegliere la scheda **Gestione richiesta** e selezionare la casella di controllo **Archivia chiave privata di crittografia del soggetto**, come mostrato nella schermata che segue.
   
-    ![](images/Cc162812.c10c48ea-8cdd-4057-8b41-760fa2df9665(it-it,TechNet.10).gif)
+    ![](images/Cc162812.c10c48ea-8cdd-4057-8b41-760fa2df9665(it-it,TechNet.10).gif "Figura 2.4. Finestra di dialogo Proprietà del nuovo modello nella console di Autorità di certificazione")
   
     **Figura 2.4. Finestra di dialogo Proprietà del nuovo modello nella console di Autorità di certificazione**
   
@@ -619,7 +619,7 @@ Per esportare e rimuovere un certificato di recupero dati per l'utilizzo offline
   
 11. Selezionare la casella di controllo **Elimina la chiave privata se l'esportazione ha esito positivo**, quindi scegliere **Avanti**.
   
-    ![](images/Cc162812.98313b0b-0b11-4d33-aaf6-0a5ac35dce84(it-it,TechNet.10).gif)
+    ![](images/Cc162812.98313b0b-0b11-4d33-aaf6-0a5ac35dce84(it-it,TechNet.10).gif "Figura 2.5. Richiesta del formato del file di esportazione nell'esportazione guidata certificati")
   
     **Figura 2.5. Richiesta del formato del file di esportazione nell'esportazione guidata certificati**
   
@@ -691,7 +691,7 @@ Il record di avvio principale (MBR), il codice di settore di avvio e il boot man
   
 Se si intende distribuire BitLocker con il TPM, è necessario abilitare il TPM su ogni computer client. I computer certificati come compatibili con Windows Vista dovrebbero contenere una versione BIOS che consenta a BitLocker di abilitare il TPM durante il processo di impostazione di BitLocker. Altrimenti, l'abilitazione del TPM richiede, in genere, l'utilizzo del programma di configurazione e impostazione del BIOS del computer, richiamato premendo una specifica combinazione di tasti durante il processo di avvio hardware del computer. Sebbene non esista un'ubicazione standard per l'opzione TPM, solitamente questa si trova in **Opzioni avanzate** o in **Configurazione periferica**, nelle schermate di configurazione. Se l'opzione è disabilitata, selezionare **Abilita**, salvare le nuove impostazioni del BIOS, uscire e riavviare il computer, se necessario. Dopo il riavvio, la maggior parte dei computer con TPM visualizzerà una schermata come quella mostrata nella seguente immagine, che richiede di confermare l'abilitazione del TPM.
   
-![](images/Cc162812.e6903e71-09fe-424c-87de-d344db8d8e05(it-it,TechNet.10).gif)
+![](images/Cc162812.e6903e71-09fe-424c-87de-d344db8d8e05(it-it,TechNet.10).gif "Figura 2.6. Esempio di finestra di dialogo di conferma TPM")
   
 **Figura 2.6. Esempio di finestra di dialogo di conferma TPM**
   
@@ -751,7 +751,7 @@ BitLocker può essere abilitato in due modi: manualmente, tramite le operazioni 
   
 2.  Fare doppio clic su **Crittografia unità BitLocker**. Se richiesto da Controllo di accesso utente, scegliere **Continua**.
   
-    ![](images/Cc162812.d98ec788-93f5-4dc5-813d-55a9f67c70ba(it-it,TechNet.10).gif)
+    ![](images/Cc162812.d98ec788-93f5-4dc5-813d-55a9f67c70ba(it-it,TechNet.10).gif "Figura 2.7. Schermata Crittografia unità BitLocker in Pannello di controllo")
   
     **Figura 2.7. Schermata Crittografia unità BitLocker in Pannello di controllo**
   
@@ -759,7 +759,7 @@ BitLocker può essere abilitato in due modi: manualmente, tramite le operazioni 
   
 4.  Come mostrato nella figura che segue, potrebbe essere richiesto di scegliere un'ubicazione per salvare o stampare la password di ripristino di BitLocker. Se si sceglie di salvare la password di ripristino di BitLocker di 48 caratteri, questa verrà salvata in un file di testo denominato come l'ID password di BitLocker. Se si salva la password di ripristino su un'unità di memoria flash USB, una chiave di ripristino a 256 bit verrà archiviata come file nascosto (con un'estensione .BEK). È possibile scegliere qualsiasi percorso per l'archiviazione del file o qualsiasi unità di memoria flash USB oppure è possibile stampare la password di ripristino. Nella seguente schermata viene illustrata l'archiviazione della password di ripristino in una cartella su un'unità di memoria flash USB.
   
-    ![](images/Cc162812.f0c09b3f-eeee-479e-8aa3-12214ccb7249(it-it,TechNet.10).gif)
+    ![](images/Cc162812.f0c09b3f-eeee-479e-8aa3-12214ccb7249(it-it,TechNet.10).gif "Figura 2.8. Opzioni relative alla password di ripristino di BitLocker")
   
     **Figura 2.8. Opzioni relative alla password di ripristino di BitLocker**
   
@@ -781,7 +781,7 @@ BitLocker può essere abilitato in due modi: manualmente, tramite le operazioni 
   
 10. Quando Windows Vista viene riavviato, BitLocker inizia la crittografia del volume di avvio e visualizza un messaggio di stato che indica la percentuale di completamento dell'operazione, come mostrato nella schermata riportata di seguito.
   
-    ![](images/Cc162812.bdf7dbb8-4613-45fb-af4a-6c0180e4702b(it-it,TechNet.10).gif)
+    ![](images/Cc162812.bdf7dbb8-4613-45fb-af4a-6c0180e4702b(it-it,TechNet.10).gif "Figura 2.9. Messaggio di stato della crittografia BitLocker")
   
     **Figura 2.9. Messaggio di stato della crittografia BitLocker**
   
@@ -791,7 +791,7 @@ La prima crittografia attiva del volume del sistema operativo provocherà un lie
   
 Una volta completata la crittografia del volume del sistema operativo da parte di BitLocker, è possibile confermarne lo stato utilizzando la console Gestione disco, mostrata nella schermata che segue. Il volume crittografato contiene le parole BitLocker Encrypted.
   
-![](images/Cc162812.7985cd63-82be-41ae-bf22-ef5b57f7f667(it-it,TechNet.10).gif)
+![](images/Cc162812.7985cd63-82be-41ae-bf22-ef5b57f7f667(it-it,TechNet.10).gif "Figura 2.10. Console Gestione disco")
   
 **Figura 2.10. Console Gestione disco**
   
@@ -815,13 +815,13 @@ Dopo l'abilitazione di EFS sui computer selezionati, gli utenti dell'organizzazi
   
 3.  Fare clic due volte su **OK** per confermare la crittografia del file.
   
-![](images/Cc162812.5c7c1e31-6246-4f2a-bdd2-dd1691effa61(it-it,TechNet.10).gif)
+![](images/Cc162812.5c7c1e31-6246-4f2a-bdd2-dd1691effa61(it-it,TechNet.10).gif "Figura 2.11. Finestra di dialogo Attributi avanzati in Esplora risorse")
   
 **Figura 2.11. Finestra di dialogo Attributi avanzati in Esplora risorse**
   
 Quando si esegue per la prima volta la crittografia di un singolo file in una cartella, Windows richiede di specificare se si desidera crittografare solo il file o l'intera cartella che lo contiene, quindi abilitare EFS per l'intera cartella e tutti i file e cartelle in essa contenuti.
   
-![](images/Cc162812.1adbaf44-740f-4eef-82d9-b9bbd0750f41(it-it,TechNet.10).gif)
+![](images/Cc162812.1adbaf44-740f-4eef-82d9-b9bbd0750f41(it-it,TechNet.10).gif "Figura 2.12. Finestra di dialogo Avvisi sulla crittografia in Esplora risorse")
   
 **Figura 2.12. Finestra di dialogo Avvisi sulla crittografia in Esplora risorse**
   
@@ -855,7 +855,7 @@ In caso di dubbio sulla crittografia di un particolare file o una cartella, è p
   
 In Esplora risorse, i file e le cartelle crittografati con EFS sono evidenziati con caratteri verdi (come mostrato nella schermata che segue) o mostrano una E negli attributi del file.
   
-![](images/Cc162812.87097207-c6cf-446a-be68-c00201db89ee(it-it,TechNet.10).gif)
+![](images/Cc162812.87097207-c6cf-446a-be68-c00201db89ee(it-it,TechNet.10).gif "Figura 2.13. File crittografati con EFS in Esplora risorse")
   
 **Figura 2.13. File crittografati con EFS in Esplora risorse**
   

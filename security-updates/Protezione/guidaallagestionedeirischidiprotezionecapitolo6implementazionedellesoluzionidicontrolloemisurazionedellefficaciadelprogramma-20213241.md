@@ -33,7 +33,7 @@ La fase di misurazione dell'efficacia del programma è un'attività continua del
 
 Durante questa fase, i responsabili della riduzione dei rischi implementano le soluzioni di controllo scelte nella fase precedente. Un fattore di successo in questa fase del processo di gestione dei rischi di protezione Microsoft è l'adozione, da parte dei responsabili della riduzione dei rischi, di una strategia olistica nell'implementazione delle soluzioni di controllo. I responsabili della riduzione dei rischi devono prendere in considerazione l'intero sistema informatico, l'intera unità aziendale o addirittura l'intera azienda quando creano i piani per l'acquisizione e la distribuzione delle soluzioni per la riduzione dei rischi. Nella sezione "Organizzazione delle soluzioni di controllo" di questo capitolo sono presenti collegamenti a istruzioni che potrebbero essere utili all'organizzazione durante la creazione di piani per l'implementazione delle soluzioni di controllo. La sezione in oggetto fa riferimento a un modello per la difesa a più livelli che semplifica il reperimento delle linee guida per la risoluzione di determinati tipi di problemi.
 
-[![](images/Cc163156.rmch0601(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163156.rmch0601_big(it-it,technet.10).gif)
+[![](images/Cc163156.rmch0601(it-it,TechNet.10).gif "Figura 6.1 Processo di gestione dei rischi di protezione Microsoft: fase di implementazione dei controlli")](https://technet.microsoft.com/it-it/cc163156.rmch0601_big(it-it,technet.10).gif)
 
 **Figura 6.1 Processo di gestione dei rischi di protezione Microsoft: fase di implementazione dei controlli**
 
@@ -123,7 +123,7 @@ Nel resto della sezione viene descritto il modello per la difesa a più livelli 
   
 **Nota:** l'elemento "Protezione fisica" della figura seguente non ha una sezione corrispondente in questo capitolo, perché Microsoft non ha ancora pubblicato linee guida dettagliate sulla protezione fisica.
   
-![](images/Cc163156.rmch0602(it-it,TechNet.10).gif)
+![](images/Cc163156.rmch0602(it-it,TechNet.10).gif "Figura 6.2 Modello di difesa a più livelli")
   
 **Figura 6.2 Modello di difesa a più livelli**
   
@@ -227,7 +227,7 @@ Per istruzioni dettagliate sulle modalità di implementazione di EFS, consultare
   
 La fase di misurazione dell'efficacia del programma consente al Team di gestione dei rischi di protezione di documentare formalmente lo stato corrente dei rischi nell'organizzazione. Dato che l'organizzazione continua a operare contemporaneamente al ciclo di gestione dei rischi, questa fase serve anche a dimostrare i progressi nella gestione dei rischi e la loro riduzione a un livello accettabile nel tempo. Per consentire di comunicare questi progressi, in questa sezione viene introdotto il concetto di scorecard sui rischi di protezione, che rappresenta un indicatore importante dei rischi in un'organizzazione. La scorecard sui rischi di protezione consente di dimostrare che la gestione degli stessi è un processo realmente integrato nelle operazioni IT. Il concetto di "gestione integrata dei rischi" è inoltre fondamentale per determinare il livello di maturità dell'organizzazione rispetto ai rischi, come descritto nel Capitolo 3, "Panoramica della gestione dei rischi di protezione".
   
-[![](images/Cc163156.rmch0603(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163156.rmch0603_big(it-it,technet.10).gif)
+[![](images/Cc163156.rmch0603(it-it,TechNet.10).gif "Figura 6.3 Processo di gestione dei rischi di protezione Microsoft: fase di misurazione dell'efficacia del programma")](https://technet.microsoft.com/it-it/cc163156.rmch0603_big(it-it,technet.10).gif)
   
 **Figura 6.3 Processo di gestione dei rischi di protezione Microsoft: fase di misurazione dell'efficacia del programma**
   
@@ -323,7 +323,7 @@ La scorecard sui rischi di protezione consente al Team di gestione dei rischi di
   
 La figura seguente rappresenta una semplice scorecard sui rischi di protezione basata sul modello per la difesa a più livelli descritto nel Capitolo 4, "Valutazione dei rischi". È necessario personalizzare la scorecard a seconda delle esigenze della propria organizzazione. Ad esempio, alcune organizzazioni potrebbero decidere di organizzare i rischi suddividendoli per unità aziendali o ambienti IT completi (un ambiente IT è un insieme di beni informatici che condividono lo stesso proposito aziendale e lo stesso proprietario). L'organizzazione potrebbe anche voler disporre di più scorecard se le proprie attività sono fortemente decentralizzate.
   
-[![](images/Cc163156.rmch0604(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163156.rmch0604_big(it-it,technet.10).gif)
+[![](images/Cc163156.rmch0604(it-it,TechNet.10).gif "Figura 6.4 Esempio di scorecard sui rischi di protezione")](https://technet.microsoft.com/it-it/cc163156.rmch0604_big(it-it,technet.10).gif)
   
 **Figura 6.4 Esempio di scorecard sui rischi di protezione**
   

@@ -88,7 +88,7 @@ Nel documento introduttivo "Scelta di una strategia per la protezione di reti LA
 
 Per l'autenticazione di reti WLAN basata su password, Microsoft supporta l'utilizzo di PEAP con MS-CHAP v2. Nella figura 2.2 è illustrato il funzionamento dell'autenticazione 802.1X con PEAP e MS-CHAP v2.
 
-[![](images/Dd536231.PEAP_201(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536231.peap_201_big(it-it,technet.10).gif)
+[![](images/Dd536231.PEAP_201(it-it,TechNet.10).gif "Figura 2.1 Autenticazione 802.1X e PEAP per la rete LAN senza fili")](https://technet.microsoft.com/it-it/dd536231.peap_201_big(it-it,technet.10).gif)
 
 **Figura 2.1 Autenticazione 802.1X e PEAP per la rete LAN senza fili**
 
@@ -158,7 +158,7 @@ L'utilizzo della soluzione in organizzazioni più grandi è illustrato nella sez
 
 Il layout fisico e IT dell'organizzazione è illustrato nella figura seguente.
 
-[![](images/Dd536231.PEAP_202(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536231.peap_202_big(it-it,technet.10).gif)
+[![](images/Dd536231.PEAP_202(it-it,TechNet.10).gif "Figura 2.2 Layout fisico e IT dell'organizzazione di destinazione")](https://technet.microsoft.com/it-it/dd536231.peap_202_big(it-it,technet.10).gif)
 
 **Figura 2.2 Layout fisico e IT dell'organizzazione di destinazione**
 
@@ -313,7 +313,7 @@ In questa sezione viene presentata l'architettura della soluzione.
   
 Nella figura seguente viene illustrato il layout della rete di base per la sede centrale.
   
-[![](images/Dd536231.PEAP_203(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536231.peap_203_big(it-it,technet.10).gif)
+[![](images/Dd536231.PEAP_203(it-it,TechNet.10).gif "Figura 2.3 Layout della rete per la sede centrale")](https://technet.microsoft.com/it-it/dd536231.peap_203_big(it-it,technet.10).gif)
   
 **Figura 2.3 Layout della rete per la sede centrale**
   
@@ -355,7 +355,7 @@ Il secondo di questi è il più importante ai fini della pianificazione del posi
   
 Nella figura seguente viene illustrato il posizionamento dei server IAS nell'organizzazione. IAS viene distribuito nei due controller di dominio della sede centrale. In uno di questi controller di dominio è installata anche la CA di rete (fare riferimento alla sezione "Come ottenere i certificati per i server IAS" più avanti in questo capitolo). Tutti i punti di accesso della sede centrale vengono configurati per l'utilizzo di questi server IAS.
   
-[![](images/Dd536231.PEAP_204(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536231.peap_204_big(it-it,technet.10).gif)
+[![](images/Dd536231.PEAP_204(it-it,TechNet.10).gif "Figura 2.4 Infrastruttura della sede centrale e della filiale")](https://technet.microsoft.com/it-it/dd536231.peap_204_big(it-it,technet.10).gif)
   
 **Figura 2.4 Infrastruttura della sede centrale e della filiale**
   
@@ -369,7 +369,7 @@ Per piccoli uffici in cui la connettività WAN è estremamente inaffidabile e no
   
 È necessario assegnare tutti i punti di accesso senza fili ai server IAS. Ogni punto di accesso senza fili richiede un server RADIUS primario e uno secondario. In questo modo, il punto di accesso senza fili può utilizzare il server RADIUS secondario nel caso in cui il server primario sia guasto o non contattabile. Questa configurazione è illustrata nella figura seguente.
   
-![](images/Dd536231.PEAP_205(it-it,TechNet.10).gif)
+![](images/Dd536231.PEAP_205(it-it,TechNet.10).gif "Figura 2.5 Bilanciamento del punto di accesso tra server IAS primario e secondario")
   
 **Figura 2.5 Bilanciamento del punto di accesso tra server IAS primario e secondario**
   
@@ -377,7 +377,7 @@ La figura mostra la configurazione di ogni punto di accesso senza fili con serve
   
 Per i punti di accesso senza fili negli uffici con un unico server IAS locale, quest'ultimo deve svolgere sempre la funzione di server primario mentre il server nella sede centrale (o in un altra posizione appropriata in cui sia disponibile una connettività affidabile al server IAS) deve svolgere la funzione di server secondario. Questa configurazione è illustrata nella figura seguente.
   
-[![](images/Dd536231.PEAP_206(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536231.peap_206_big(it-it,technet.10).gif)
+[![](images/Dd536231.PEAP_206(it-it,TechNet.10).gif "Figura 2.6 Configurazione dei punti di accesso per l'utilizzo di server IAS locali e remoti")](https://technet.microsoft.com/it-it/dd536231.peap_206_big(it-it,technet.10).gif)
   
 **Figura 2.6 Configurazione dei punti di accesso per l'utilizzo di server IAS locali e remoti**
   
@@ -888,7 +888,7 @@ Sebbene l'investimento per le capacità di recupero della rete possa sembrare un
   
 La strategia basata su server IAS centralizzati è stata illustrata in precedenza nella sezione "Posizionamento del server IAS" di questo capitolo. L'utilizzo di un controller di dominio locale e di IAS in una filiale è illustrato nella figura seguente, che mostra un ufficio periferico di maggiori dimensioni collegato tramite una rete WAN alla sede centrale illustrata in precedenza nella figura 2.4.
   
-[![](images/Dd536231.PEAP_207(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536231.peap_207_big(it-it,technet.10).gif)
+[![](images/Dd536231.PEAP_207(it-it,TechNet.10).gif "Figura 2.7 Filiale di dimensioni maggiori con controller di dominio e server IAS")](https://technet.microsoft.com/it-it/dd536231.peap_207_big(it-it,technet.10).gif)
   
 **Figura 2.7 Filiale di dimensioni maggiori con controller di dominio e server IAS**
   
@@ -1046,7 +1046,7 @@ L'autenticazione di rete cablata basata sullo standard 802.1X è la più semplic
 
 La modalità di integrazione della soluzione di accesso a una rete cablata con la progettazione è illustrata nella figura seguente.
 
-[![](images/Dd536231.PEAP_208(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536231.peap_208_big(it-it,technet.10).gif)
+[![](images/Dd536231.PEAP_208(it-it,TechNet.10).gif "Figura 2.8 Utilizzo dell'autenticazione cablata 802.1X")](https://technet.microsoft.com/it-it/dd536231.peap_208_big(it-it,technet.10).gif)
 
 **Figura 2.8 Utilizzo dell'autenticazione cablata 802.1X**
 
@@ -1058,7 +1058,7 @@ Gli switch di rete in grado di supportare la tecnologia 802.1X svolgono un ruolo
 
 Un altro servizio di accesso alla rete che potrebbe utilizzare i componenti RADIUS è la connessione remota e VPN. Specialmente nelle organizzazioni di grandi dimensioni, è probabile che sia necessario apportare alcune aggiunte alla progettazione, ad esempio l'aggiunta di proxy RADIUS. La soluzione estesa è illustrata nella figura seguente.
 
-[![](images/Dd536231.PEAP_209(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536231.peap_209_big(it-it,technet.10).gif)
+[![](images/Dd536231.PEAP_209(it-it,TechNet.10).gif "Figura 2.9 Estensione del componente RADIUS per il supporto della connessione VPN")](https://technet.microsoft.com/it-it/dd536231.peap_209_big(it-it,technet.10).gif)
 
 **Figura 2.9 Estensione del componente RADIUS per il supporto della connessione VPN**
 

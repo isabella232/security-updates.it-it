@@ -108,29 +108,29 @@ Per installare Windows Defender (Beta 2) dopo il download, eseguire la procedura
 
 1.  Al termine del download di Windows Defender (Beta 2), verrà visualizzata la finestra di dialogo seguente. Fare clic su **Esegui**.
 
-    ![](images/Cc875823.PCNA01(it-it,TechNet.10).gif)
+    ![](images/Cc875823.PCNA01(it-it,TechNet.10).gif "PCNA01.GIF")
 
 2.  Verrà visualizzata la schermata **Welcome to the Installation Wizard for Windows Defender** (Installazione guidata di Windows Defender) seguente. Fare clic su **Avanti**.
 
-    ![](images/Cc875823.PCNA02(it-it,TechNet.10).gif)
+    ![](images/Cc875823.PCNA02(it-it,TechNet.10).gif "PCNA02.GIF")
 
 3.  Verrà visualizzata la schermata **Windows Defender License Agreement** (Contratto di licenza per Windows Defender), illustrata nella figura seguente. Leggere le condizioni del contratto.
 
     Per continuare l'installazione, è necessario selezionare **I accept the terms in the license agreement** (Accetto i termini del contratto di licenza) e fare clic su **Avanti**.
 
-    ![](images/Cc875823.PCNA03(it-it,TechNet.10).gif)
+    ![](images/Cc875823.PCNA03(it-it,TechNet.10).gif "PCNA03.GIF")
 
 4.  Nella schermata **Help protect Windows** (Protezione di Windows), illustrata nella figura seguente, selezionare **Use recommended settings** (Usa impostazioni consigliate). Fare clic sul pulsante **Privacy Statement** (Informativa sulla privacy), se lo si desidera, quindi fare clic su **Avanti**.
 
-    ![](images/Cc875823.PCNA04(it-it,TechNet.10).gif)
+    ![](images/Cc875823.PCNA04(it-it,TechNet.10).gif "PCNA04.GIF")
 
 5.  Nella schermata **Setup Type** (Tipo di installazione), illustrata nella figura seguente, selezionare **Complete** (Completa) e fare clic su **Avanti**.
 
-    ![](images/Cc875823.PCNA05(it-it,TechNet.10).gif)
+    ![](images/Cc875823.PCNA05(it-it,TechNet.10).gif "PCNA05.GIF")
 
 6.  Nella schermata **Ready to Install Windows Defender** (Installazione di Windows Defender) che verrà visualizzata, fare clic su **Install** (Installa) per avviare l'installazione.
 
-    ![](images/Cc875823.PCNA06(it-it,TechNet.10).gif)
+    ![](images/Cc875823.PCNA06(it-it,TechNet.10).gif "PCNA06.GIF")
 
 7.  Al termine dell'installazione, verrà visualizzata la schermata **Windows Defender Installation Complete** (Installazione di Windows Defender completata).
 
@@ -138,11 +138,11 @@ Per installare Windows Defender (Beta 2) dopo il download, eseguire la procedura
 
     **Nota**   Per l'esecuzione di questo passaggio è necessaria la connessione a Internet.
 
-    ![](images/Cc875823.PCNA07(it-it,TechNet.10).gif)
+    ![](images/Cc875823.PCNA07(it-it,TechNet.10).gif "PCNA07.GIF")
 
 8.  Nella schermata seguente fare clic sul pulsante **Check for Updates** (Controlla aggiornamenti) per ottenere aggiornamenti recenti.
 
-    [![](images/Cc875823.PCNA08(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875823.pcna08_big(it-it,technet.10).gif)
+    [![](images/Cc875823.PCNA08(it-it,TechNet.10).gif "PCNA08.GIF")](https://technet.microsoft.com/it-it/cc875823.pcna08_big(it-it,technet.10).gif)
 
 Per ulteriori dettagli e informazioni sulle funzionalità avanzate di Windows Defender (Beta 2), visitare il sito Web [Windows Defender (Beta 2)](http://www.microsoft.com/italy/athome/security/spyware/software/default.mspx) all'indirizzo http://www.microsoft.com/italy/athome/security/spyware/software/default.mspx.
 
@@ -166,17 +166,17 @@ Le impostazioni generali di Windows Firewall consentono di configurare le opzion
 
 1.  Per aprire il servizio Centro sicurezza PC Windows, fare clic sul pulsante **Start** e quindi scegliere **Pannello di controllo**. Verrà visualizzata la schermata seguente:
 
-    [![](images/Cc875823.PCNA09(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875823.pcna09_big(it-it,technet.10).gif)
+    [![](images/Cc875823.PCNA09(it-it,TechNet.10).gif "PCNA09.GIF")](https://technet.microsoft.com/it-it/cc875823.pcna09_big(it-it,technet.10).gif)
 
 2.  Nella sezione **Scegliere una categoria** fare clic su **Centro sicurezza PC**. Verrà visualizzata la schermata **Centro sicurezza PC Windows**, illustrata nella figura seguente.
 
-    [![](images/Cc875823.PCNA10(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875823.pcna10_big(it-it,technet.10).gif)
+    [![](images/Cc875823.PCNA10(it-it,TechNet.10).gif "PCNA10.GIF")](https://technet.microsoft.com/it-it/cc875823.pcna10_big(it-it,technet.10).gif)
 
 #### Notifiche di configurazione
 
 Per impostazione predefinita, Windows Firewall visualizza una finestra di dialogo di notifica ogni volta che viene bloccato un tentativo di comunicazione con un altro computer. Questa finestra di dialogo è simile alla schermata illustrata nella figura seguente:
 
-![](images/Cc875823.PCNA11(it-it,TechNet.10).gif)
+![](images/Cc875823.PCNA11(it-it,TechNet.10).gif "PCNA11.GIF")
 
 Nella finestra di dialogo viene indicato il programma bloccato e viene data la possibilità di scegliere se consentirne l'esecuzione. Le opzioni disponibili sono le seguenti:
 
@@ -220,7 +220,7 @@ Per aggiungere un programma all'elenco delle eccezioni, eseguire la procedura se
 
 3.  Nella scheda **Eccezioni**, in **Programmi e servizi**, come illustrato nella figura seguente, selezionare la casella di controllo relativa al programma o al servizio da consentire, quindi scegliere **OK**.
 
-    ![](images/Cc875823.PCNA12(it-it,TechNet.10).gif)
+    ![](images/Cc875823.PCNA12(it-it,TechNet.10).gif "PCNA12.GIF")
 
 Se il programma o il servizio da consentire non è presente nell'elenco:
 

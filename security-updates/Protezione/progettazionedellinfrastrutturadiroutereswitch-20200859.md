@@ -108,14 +108,14 @@ Esistono molte strutture organizzative e numerosi modi per progettare architettu
 
 Nella figura 1 è illustrato un esempio di architettura multilivello, che normalmente viene adottata in situazioni che prevedono un livello per il sito Web pubblico e uno relativo al database di backend. Procedendo dal lato pubblico della rete verso l'interno, il primo segmento consiste in una rete di confine con un router di confine verso Internet che fornisce una prima funzione di firewall. Segue uno switch che collega il router a un firewall perimetrale, più robusto del primo. Il firewall perimetrale si connette tramite uno switch ai server Web della rete perimetrale, che a loro volta si connettono tramite un altro switch a un firewall interno. Quest'ultimo si connette, sempre mediante uno switch, ai server interni e ai PC degli utenti della rete backend. In questa figura è illustrata una struttura logica ma tutti gli switch potrebbero fisicamente essere VLAN separate sullo stesso switch. È preferibile che lo switch di confine sia una periferica a parte, poiché si trova in una zona meno sicura. Le funzioni di commutazione backend possono anche essere svolte da più switch, a seconda che si preferisca disporre di un unico grande switch o di diversi switch più piccoli.
 
-![](images/Dd536260.SGFG4001(it-it,TechNet.10).gif)
+![](images/Dd536260.SGFG4001(it-it,TechNet.10).gif "Architettura di switch multilivello")
 
 Figura 1
 *Architettura di switch multilivello*
 
 Nella figura 2 è illustrata un'architettura adatta a piccole filiali. Comprende tre periferiche di rete: un modem, un router e uno switch, che possono essere combinate in un'unica o in due periferiche, a seconda della connessione di rete. Spesso i router economici incorporano uno switch Ethernet e una funzione di firewall, mentre per la connessione a banda larga nel router può anche essere incorporato un modem.
 
-![](images/Dd536260.SGFG4002(it-it,TechNet.10).gif)
+![](images/Dd536260.SGFG4002(it-it,TechNet.10).gif "Architettura per piccole filiali")
 
 Figura 2
 *Architettura per piccole filiali*

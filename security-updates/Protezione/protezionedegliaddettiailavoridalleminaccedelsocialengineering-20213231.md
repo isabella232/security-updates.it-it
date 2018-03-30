@@ -80,7 +80,7 @@ Negli ultimi dieci anni, l'uso della posta elettronica come strumento di social 
 
 La figura seguente mostra un collegamento apparentemente valido al sito di gestione degli account di Contoso.
 
-![](images/Cc875841.HPISET01(it-it,TechNet.10).gif)
+![](images/Cc875841.HPISET01(it-it,TechNet.10).gif "Figura 1. Collegamento ipertestuale di messaggi di phishing")
 
 **Figura 1. Collegamento ipertestuale di messaggi di phishing**
 
@@ -163,7 +163,7 @@ Sarebbe irrealistico pensare che i membri del personale non utilizzino l'accesso
 
 La figura seguente illustra come un collegamento ipertestuale possa sembrare un collegamento a un sito sicuro di gestione degli account (secure.contosa.com account\_id?Amendments), mentre la barra di stato indica che conduce l'utente in un sito di pirati informatici. In base al browser utilizzato, un pirata informatico può eliminare o riformattare le informazioni della barra di stato.
 
-[![](images/Cc875841.HPISET02(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875841.hpiset02_big(it-it,technet.10).gif)
+[![](images/Cc875841.HPISET02(it-it,TechNet.10).gif "Figura 2. Collegamento ipertestuale a una pagina Web di phishing")](https://technet.microsoft.com/it-it/cc875841.hpiset02_big(it-it,technet.10).gif)
 
 **Figura 2. Collegamento ipertestuale a una pagina Web di phishing**
 
@@ -219,7 +219,7 @@ Se si parla di social engineering, una serie di potenziali minacce si nasconde n
 
 La figura seguente illustra come funziona lo spoofing per la posta elettronica e per la messaggistica immediata.
 
-![](images/Cc875841.HPISET03(it-it,TechNet.10).gif)
+![](images/Cc875841.HPISET03(it-it,TechNet.10).gif "Figura 3. Spoofing tramite messaggistica immediata e posta elettronica")
 
 **Figura 3. Spoofing tramite messaggistica immediata e posta elettronica**
 
@@ -294,7 +294,7 @@ Se un pirata informatico attacca un PBX ha tre obiettivi principali:
 
 Ciascuno dei suddetti obiettivi è una variazione sul tema, in cui il pirata informatico chiama l'azienda e tenta di ottenere dei numeri telefonici che consentono di accedere direttamente al PBX oppure, tramite PBX, alla rete telefonica pubblica. Il termine che utilizza il pirata informatico per definire questa azione è *phreaking*. L'approccio più comune è fingere di essere un tecnico di telefonia e richiedere una linea esterna o una password per analizzare e risolvere i problemi riportati nel sistema telefonico interno, come illustrato nella figura seguente.
 
-![](images/Cc875841.HPISET04(it-it,TechNet.10).gif)
+![](images/Cc875841.HPISET04(it-it,TechNet.10).gif "Figura 4. Attacchi telefonici tramite PBX")
 
 **Figura 4. Attacchi telefonici tramite PBX**
 
@@ -577,7 +577,7 @@ Per assicurarsi che tutti si presentino all'addetto alla reception, l'azienda de
 
 Ad esempio, l'area della reception può utilizzare oggetti rilassanti come un divano per indirizzare le persone verso l'addetto alla reception, come indicato nei due esempi illustrati nella figura seguente.
 
-![](images/Cc875841.HPISET05(it-it,TechNet.10).gif)
+![](images/Cc875841.HPISET05(it-it,TechNet.10).gif "Figura 5. Progettazione della reception")
 
 **Figura 5. Progettazione della reception**
 
@@ -1120,7 +1120,7 @@ Se si verifica un attacco di social engineering è necessario assicurarsi che il
   
 Ogni incidente fornisce un nuovo input per una revisione costante della protezione nell'ambito del modello di risposta agli incidenti, illustrato nella figura seguente.
   
-![](images/Cc875841.HPISET06(it-it,TechNet.10).gif)
+![](images/Cc875841.HPISET06(it-it,TechNet.10).gif "Figura 6. Modello di risposta agli incidenti")
   
 **Figura 6. Modello di risposta agli incidenti**
   
@@ -1170,7 +1170,7 @@ Il modello a più livelli di difesa suddivide in categorie le soluzioni di prote
   
 -   **Perimetro**. Il punto di contatto tra le reti interne e quelle esterne, ad esempio Internet o le reti che appartengono ai partner commerciali dell'azienda come parte di una extranet. Gli attacchi di social engineering spesso tentano di violare il perimetro per attaccare dati, applicazioni e host mediante la rete interna.
   
-![](images/Cc875841.HPISET07(it-it,TechNet.10).gif)
+![](images/Cc875841.HPISET07(it-it,TechNet.10).gif "Figure 7. Modello di protezione a più livelli di difesa")
   
 **Figure 7. Modello di protezione a più livelli di difesa**
   

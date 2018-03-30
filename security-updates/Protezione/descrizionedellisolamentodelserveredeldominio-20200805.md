@@ -294,7 +294,7 @@ raguide/Security\_Architecture\_1.mspx.
 
 La figura seguente illustra come è possibile combinare una soluzione di isolamento logico con l'approccio di difesa su più livelli illustrato nella guida Windows Server System Reference Architecture:
 
-[![](images/Dd536205.SGFG0201(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536205.sgfg0201_big(it-it,technet.10).gif)
+[![](images/Dd536205.SGFG0201(it-it,TechNet.10).gif "Figura 2.1 Difesa su più livelli e isolamento logico")](https://technet.microsoft.com/it-it/dd536205.sgfg0201_big(it-it,technet.10).gif)
 
 **Figura 2.1 Difesa su più livelli e isolamento logico**
 
@@ -520,7 +520,7 @@ Tramite i privilegi di gruppo di Active Directory, è possibile organizzare i c
 
 Nella figura seguente, sono illustrati i principali passaggi del processo globale di autorizzazione di host e utenti previsto dalla soluzione.
 
-[![](images/Dd536205.SGFG0202(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536205.sgfg0202_big(it-it,technet.10).gif)
+[![](images/Dd536205.SGFG0202(it-it,TechNet.10).gif "Figura 2.2. Processo di autorizzazione di utenti e host")](https://technet.microsoft.com/it-it/dd536205.sgfg0202_big(it-it,technet.10).gif)
 
 **Figura 2.2. Processo di autorizzazione di utenti e host**
 
@@ -534,13 +534,13 @@ Nella figura 2, è illustrato il processo descritto di seguito, costituito da ci
 
     Nel diagramma di flusso seguente, viene illustrato l'intero processo dai passaggi 2 e 3:
 
-    [![](images/Dd536205.SGFG0203(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536205.sgfg0203_big(it-it,technet.10).gif)
+    [![](images/Dd536205.SGFG0203(it-it,TechNet.10).gif "Figura 2.3. Processo di verifica autorizzazioni di accesso ")](https://technet.microsoft.com/it-it/dd536205.sgfg0203_big(it-it,technet.10).gif)
 
     **Figura 2.3. Processo di verifica autorizzazioni di accesso host computer**
 
 4.  **Verifica autorizzazioni di accesso host utente**. Una volta stabilita la comunicazione protetta con IPSec, il protocollo SMB autentica l'account dell'utente client. Sul server, viene verificata l'esistenza delle necessarie autorizzazioni di accesso host, assegnate con i diritti utente ALLOW o DENY dei criteri di gruppo dell'host attendibile, per l'account utente. Questo processo viene illustrato nel seguente diagramma di flusso:
 
-    [![](images/Dd536205.SGFG0204(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536205.sgfg0204_big(it-it,technet.10).gif)
+    [![](images/Dd536205.SGFG0204(it-it,TechNet.10).gif "Figura 2.4. Processo di verifica autorizzazioni di accesso host utente")](https://technet.microsoft.com/it-it/dd536205.sgfg0204_big(it-it,technet.10).gif)
 
     **Figura 2.4. Processo di verifica autorizzazioni di accesso host utente**
 

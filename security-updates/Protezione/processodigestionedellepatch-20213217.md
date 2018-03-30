@@ -89,7 +89,7 @@ Per trarre il massimo vantaggio dal modulo:
 
 L'identificazione è la seconda fase del processo di gestione degli aggiornamenti illustrato nella Figura 1.
 
-![](images/Cc700831.secmod195figure1(it-it,TechNet.10).gif)
+![](images/Cc700831.secmod195figure1(it-it,TechNet.10).gif "Figura 1. Il processo di gestione delle patch")
 
 **Figura 1. Il processo di gestione delle patch**
 
@@ -133,7 +133,7 @@ La notifica tramite posta elettronica è la forma più comune di notifica degli 
 
 Un esempio di messaggio di posta elettronica che notifica agli amministratori la disponibilità dei nuovi aggiornamenti della protezione è riportato nella Figura 2.
 
-[![](images/Cc700831.secmod195figure2(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700831.secmod195figure2_big(it-it,technet.10).gif)
+[![](images/Cc700831.secmod195figure2(it-it,TechNet.10).gif "Figura 2. Esempio di messaggio di posta elettronica che notifica agli amministratori la disponibilità di nuovi aggiornamenti software")](https://technet.microsoft.com/it-it/cc700831.secmod195figure2_big(it-it,technet.10).gif)
 
 **Figura 2. Esempio di messaggio di posta elettronica che notifica agli amministratori la disponibilità di nuovi aggiornamenti software**
 
@@ -317,7 +317,7 @@ Microsoft notifica agli amministratori i nuovi aggiornamenti software tramite me
   
 -   Microsoft utilizza sempre la tecnologia Authenticode per firmare digitalmente i propri prodotti e permettere agli amministratori di controllare che i file non siano stati alterati, come indicato nella Figura 3.
   
-[![](images/Cc700831.secmod195figure3(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700831.secmod195figure3_big(it-it,technet.10).gif)
+[![](images/Cc700831.secmod195figure3(it-it,TechNet.10).gif "Figura 3. Firma digitale Authenticode")](https://technet.microsoft.com/it-it/cc700831.secmod195figure3_big(it-it,technet.10).gif)
   
 **Figura 3. Firma digitale Authenticode**
   

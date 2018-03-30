@@ -58,7 +58,7 @@ Le tre opzioni principali per l'implementazione della protezione WLAN sono:
 
 Queste opzioni di implementazione verranno descritte nell’ambito del presente capitolo, insieme alla possibilità di unire le caratteristiche delle ultime due opzioni per produrre una soluzione ibrida.
 
-![](images/Dd536243.Image_not_found(it-it,TechNet.10).gif)
+![](images/Dd536243.Image_not_found(it-it,TechNet.10).gif "Figura 2.1 Struttura decisionale per le due soluzioni Microsoft per reti LAN senza fili")
 
 **Figura 2.1 Struttura decisionale per le due soluzioni Microsoft per reti LAN senza fili**
 
@@ -604,7 +604,7 @@ Come è stato illustrato in precedenza in questo capitolo, Microsoft ha rilascia
   
 Nel diagramma che segue sono riepilogati i passaggi della scelta tra le due soluzioni di protezione per reti LAN senza fili.
   
-![](images/Dd536243.Image_not_found(it-it,TechNet.10).gif)
+![](images/Dd536243.Image_not_found(it-it,TechNet.10).gif "Figura 2.2 Struttura decisionale per le soluzioni per la protezione di reti LAN senza fili")
   
 **Figura 2.2 Struttura decisionale per le soluzioni per la protezione di reti LAN senza fili**
   

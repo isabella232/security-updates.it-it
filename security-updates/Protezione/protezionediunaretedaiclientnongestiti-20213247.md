@@ -86,7 +86,7 @@ In particolare, per aiutare a migliorare la protezione della rete contro le mina
 
 In modo specifico, l'applicazione di queste soluzioni implica i passaggi mostrati nella figura seguente:
 
-![](images/Cc875843.PNFUC01(it-it,TechNet.10).gif)
+![](images/Cc875843.PNFUC01(it-it,TechNet.10).gif "Figura 1. Applicazione MOF")
 
 **Figura 1. Applicazione MOF**
 
@@ -228,7 +228,7 @@ La creazione di una rete isolata comporta la separazione di diversi tipi di comp
 
 L'isolamento del dominio e del server IPsec utilizza le strutture di dominio esistenti tramite le impostazioni di Criteri di gruppo. Tutto ciò che occorre per creare una rete isolata è già previsto nei computer Windows XP, Windows 2000 Server e Windows Server 2003. Se vengono impostate le opzioni appropriate in Criteri di gruppo, il processo di inserimento di un nuovo computer nella rete isolata consiste semplicemente nell'aggiungere il computer al dominio.
 
-![](images/Cc875843.PNFUC02(it-it,TechNet.10).gif)
+![](images/Cc875843.PNFUC02(it-it,TechNet.10).gif "Figura 2. Isolamento della rete utilizzando i domini Active Directory")
 
 **Figura 2. Isolamento della rete utilizzando i domini Active Directory**
 
@@ -236,7 +236,7 @@ Come illustrato nella figura precedente, qualsiasi computer che non è membro de
 
 Nella realtà, molte organizzazioni dispongono di computer e server che, sebbene siano gestiti e trusted, non sono inseriti in un dominio Active Directory oppure non sono in grado di utilizzare IPsec per svariati motivi. Tuttavia, queste organizzazioni hanno comunque la necessità di comunicare con i sistemi che si trovano all'interno della rete isolata. Per risolvere questo problema, è possibile creare un altro gruppo isolato (gruppo di confine) utilizzando gli elenchi di esenzioni come mostrato nella figura seguente.
 
-[![](images/Cc875843.PNFUC03(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875843.pnfuc03_big(it-it,technet.10).gif)
+[![](images/Cc875843.PNFUC03(it-it,TechNet.10).gif "Figura 3. Isolamento della rete e gruppi di confine")](https://technet.microsoft.com/it-it/cc875843.pnfuc03_big(it-it,technet.10).gif)
 
 **Figura 3. Isolamento della rete e gruppi di confine**
 
@@ -268,7 +268,7 @@ Per ulteriori informazioni, vedere il documento Microsoft [Server and Domain Iso
 
 ###### Difesa a più livelli
 
-![](images/Cc875843.PNFUC04(it-it,TechNet.10).gif)
+![](images/Cc875843.PNFUC04(it-it,TechNet.10).gif "Figura 4. Difesa a più livelli con isolamento logico")
 
 **Figura 4. Difesa a più livelli con isolamento logico**
 
@@ -306,7 +306,7 @@ Controllo quarantena accesso alla rete è una funzione disponibile nella famigli
 
 ###### Componenti della funzione Controllo quarantena accesso alla rete
 
-[![](images/Cc875843.PNFUC05(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875843.pnfuc05_big(it-it,technet.10).gif)
+[![](images/Cc875843.PNFUC05(it-it,TechNet.10).gif "Figura 5. Componenti della funzione Controllo quarantena accesso alla rete di Windows")](https://technet.microsoft.com/it-it/cc875843.pnfuc05_big(it-it,technet.10).gif)
 
 **Figura 5. Componenti della funzione Controllo quarantena accesso alla rete di Windows**
 
@@ -326,7 +326,7 @@ Nella figura precedente sono rappresentati i componenti tipici di una soluzione 
 
 ###### Difesa a più livelli
 
-![](images/Cc875843.PNFUC06(it-it,TechNet.10).gif)
+![](images/Cc875843.PNFUC06(it-it,TechNet.10).gif "Figura 6. Difesa a più livelli e Controllo quarantena accesso alla rete")
 
 **Figura 6. Difesa a più livelli e Controllo quarantena accesso alla rete**
 
@@ -364,7 +364,7 @@ A causa di questi problemi, per l'isolamento dei domini e dei server si consigli
 
 ###### Difesa a più livelli
 
-![](images/Cc875843.PNFUC07(it-it,TechNet.10).gif)
+![](images/Cc875843.PNFUC07(it-it,TechNet.10).gif "Figura 7. Difesa a più livelli con la protezione wireless 802.1X")
 
 **Figura 7. Difesa a più livelli con la protezione wireless 802.1X**
 
@@ -536,7 +536,7 @@ A questo punto, il client remoto dispone dell'accesso completo alla rete. Nessun
 
 Tuttavia, una connessione di tipo quarantena VPN è diversa, come mostrato nella figura e nell'elenco che seguono:
 
-[![](images/Cc875843.PNFUC08(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875843.pnfuc08_big(it-it,technet.10).gif)
+[![](images/Cc875843.PNFUC08(it-it,TechNet.10).gif "Figura 8. Processo quarantena VPN")](https://technet.microsoft.com/it-it/cc875843.pnfuc08_big(it-it,technet.10).gif)
 
 **Figura 8. Processo quarantena VPN**
 
@@ -636,7 +636,7 @@ Tuttavia, EAP-TLS è considerato il metodo di implementazione di autenticazione 
 
 Per semplificare il processo decisionale per la scelta di quale metodo di implementazione è da preferire per un determinato ambiente di rete, Microsoft ha sviluppato la struttura decisionale di autenticazione 802.1X seguente.
 
-![](images/Cc875843.PNFUC09(it-it,TechNet.10).gif)
+![](images/Cc875843.PNFUC09(it-it,TechNet.10).gif "Figura 9. Struttura decisionale 802.1X")
 
 **Figura 9. Struttura decisionale 802.1X**
 
@@ -682,7 +682,7 @@ Affinché sia possibile individuare i sistemi non gestiti quando sono connessi a
 
 Uno degli inconvenienti di questo approccio di individuazione dei sistemi non gestiti è che il server SMS potrebbe avere difficoltà a individuare i dettagli dei computer che utilizzano sistemi operativi diversi da Microsoft Windows. Infatti, perfino le versioni precedenti a Microsoft Windows 98 SE potrebbero non essere rilevate dai metodi di individuazione di SMS 2003, poiché non supportano le implementazioni WMI (Windows Management Interface). Di conseguenza, è necessario aggiungere script a questo processo di soluzione in modo che qualsiasi nuova periferica venga individuata non appena viene collegata alla rete. Nella figura seguente viene illustrato il modo in cui dovrebbe funzionare un processo di questo tipo.
 
-![](images/Cc875843.PNFUC10(it-it,TechNet.10).gif)
+![](images/Cc875843.PNFUC10(it-it,TechNet.10).gif "Figura 10. Processo di individuazione dei computer non gestiti SMS")
 
 **Figura 10. Processo di individuazione dei computer non gestiti SMS**
 

@@ -187,13 +187,13 @@ Per eseguire un ripristino corretto, il backup della chiave EFS degli utenti dev
 
 6.  Immettere la password di protezione stabilita durante l'esportazione del certificato EFS, quindi scegliere **Avanti**.
 
-    ![](images/Cc162802.3e3b1988-af31-480c-aae0-d594a200773b(it-it,TechNet.10).gif)
+    ![](images/Cc162802.3e3b1988-af31-480c-aae0-d594a200773b(it-it,TechNet.10).gif "Figura 3.1. Richiesta della password del certificato nell'Importazione guidata certificati")
 
     **Figura 3.1. Richiesta della password del certificato nell'Importazione guidata certificati**
 
 7.  Per consentire all'Importazione guidata certificati di importare i certificati EFS nell'archivio predefinito corretto, selezionare il pulsante di opzione **Selezionare automaticamente l'archivio certificati secondo il tipo di certificato** e scegliere **Avanti**.
 
-    ![](images/Cc162802.8933a7be-a729-4e88-9c80-c73c134f21d6(it-it,TechNet.10).gif)
+    ![](images/Cc162802.8933a7be-a729-4e88-9c80-c73c134f21d6(it-it,TechNet.10).gif "Figura 3.2. Richiesta del percorso di archiviazione dei certificati nell'Importazione guidata certificati")
 
     **Figura 3.2. Richiesta del percorso di archiviazione dei certificati nell'Importazione guidata certificati**
 

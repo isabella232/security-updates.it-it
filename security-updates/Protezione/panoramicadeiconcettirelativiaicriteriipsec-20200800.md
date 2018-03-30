@@ -190,7 +190,7 @@ IPSec supporta due formati di trasmissione: AH o ESP. La modalità di trasporto 
 
 AH garantisce l'autenticazione dell'origine dei dati, l'integrità dei dati e la protezione antireplay per l'intero pacchetto (sia l'intestazione IP che il payload di dati trasportati nel pacchetto), ad eccezione dei campi nell'intestazione IP, per i quali è consentita la modifica in transito. AH non garantisce la segretezza dei dati, ovvero non crittografa i dati. I dati sono leggibili ma protetti da eventuali modifiche e falsificazioni. Come mostrato nella figura seguente, l'integrità e l'autenticazione sono assicurate dal posizionamento dell'intestazione AH tra l'intestazione IP e i dati TCP.
 
-[![](images/Dd536200.SGFG0A01(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536200.sgfg0a01_big(it-it,technet.10).gif)
+[![](images/Dd536200.SGFG0A01(it-it,TechNet.10).gif "Figura A.1 Intestazione di autenticazione in un pacchetto")](https://technet.microsoft.com/it-it/dd536200.sgfg0a01_big(it-it,technet.10).gif)
 
 **Figura A.1 Intestazione di autenticazione in un pacchetto**
 
@@ -200,7 +200,7 @@ Per utilizzare AH, accedere alle proprietà della regola appropriata, aprire la 
 
 ESP garantisce l'autenticazione dell'origine dei dati, l'integrità dei dati, la protezione antireplay e dispone di un'opzione di segretezza per il solo payload IP. Nella modalità di trasporto, ESP non protegge l'intero pacchetto con un checksum di crittografia. L'intestazione IP non è protetta. Come mostrato nella figura seguente, l'intestazione ESP è posizionata prima dei dati TCP, mentre l'appendice ESP e l'appendice di autenticazione ESP sono posizionate dopo i dati TCP.
 
-[![](images/Dd536200.SGFG0A02(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536200.sgfg0a02_big(it-it,technet.10).gif)
+[![](images/Dd536200.SGFG0A02(it-it,TechNet.10).gif "Figura A.2 Dati ESP in un pacchetto")](https://technet.microsoft.com/it-it/dd536200.sgfg0a02_big(it-it,technet.10).gif)
 
 **Figura A.2 Dati ESP in un pacchetto**
 
@@ -280,7 +280,7 @@ Se si utilizza l'autenticazione basata sui certificati, è possibile attivare an
 
 È possibile configurare una regola IPSec per specificare un solo metodo di autenticazione o di protezione. In alternativa, è possibile specificare un elenco preferito di metodi di autenticazione e di protezione. L'ordine di preferenza si applica ai metodi di autenticazione e di protezione in modo che per ogni metodo sia possibile specificare la preferenza, da quello preferito a quello meno utilizzato. Ad esempio, è possibile specificare che siano previsti entrambi i metodi di autenticazione tramite il protocollo Kerberos versione 5 e i certificati a chiave pubblica e assegnare a Kerberos una preferenza maggiore, come mostrato nella figura seguente.
 
-![](images/Dd536200.SGFG0A03(it-it,TechNet.10).gif)
+![](images/Dd536200.SGFG0A03(it-it,TechNet.10).gif "Figura A.3 Ordine di preferenza dei metodi di autenticazione")
 
 **Figura A.3 Ordine di preferenza dei metodi di autenticazione**
 

@@ -127,7 +127,7 @@ Nonostante le informazioni necessarie possano essere organizzate in numerosi mod
 
 Nello scenario Woodgrove Bank, ad esempio, il team ha creato il diagramma seguente, che rappresenta una vista generale della rete WAN (Wide Area Network) esistente e dell'ambiente del sito:
 
-[![](images/Dd536206.SGFG0301(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536206.sgfg0301_big(it-it,technet.10).gif)
+[![](images/Dd536206.SGFG0301(it-it,TechNet.10).gif "Figura 3.1. Diagramma della rete WAN e del sito della Woodgrove Bank")](https://technet.microsoft.com/it-it/dd536206.sgfg0301_big(it-it,technet.10).gif)
 
 **Figura 3.1. Diagramma della rete WAN e del sito della Woodgrove Bank**
 
@@ -422,7 +422,7 @@ La configurazione di Active Directory della Woodgrove Bank utilizza le relazion
   
 La figura seguente illustra un esempio della struttura generale della UO utilizzata dalla Woodgrove Bank. Questa struttura è stata coerentemente utilizzata per tutti i tre principali domini continentali: *Americhe*, *Europa* e *Asia*.
   
-[![](images/Dd536206.SGFG0302(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536206.sgfg0302_big(it-it,technet.10).gif)
+[![](images/Dd536206.SGFG0302(it-it,TechNet.10).gif "Figura 3.2. Esempio di struttura della UO della Woodgrove Bank")](https://technet.microsoft.com/it-it/dd536206.sgfg0302_big(it-it,technet.10).gif)
   
 **Figura 3.2. Esempio di struttura della UO della Woodgrove Bank**
   

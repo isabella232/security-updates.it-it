@@ -62,7 +62,7 @@ Se alcuni settori dell'organizzazione dispongono di dati considerati estremament
 
 L'immagine che segue mostra il procedimento logico del processo di decrittografia in questa opzione.
 
-![](images/Cc162804.d118f78b-f599-4be8-a53e-f1d62b9cad8c(it-it,TechNet.10).jpg)
+![](images/Cc162804.d118f78b-f599-4be8-a53e-f1d62b9cad8c(it-it,TechNet.10).jpg "Crittografia unità BitLocker con TPM")
 
 **Figura 2.1. Processo di decrittografia BitLocker con TPM**
 
@@ -128,7 +128,7 @@ BitLocker fornisce supporto per la crittografia completa dei volumi su computer 
 
 Poiché in questa opzione non c'è TPM, non vengono effettuate operazioni di sealing o rimozione del sealing sulla VMK. Invece, la VMK viene crittografata e decrittografata attraverso meccanismi software tradizionali che utilizzano una chiave simmetrica che si trova sulla periferica USB. Dopo aver inserito la periferica USB nel computer, BitLocker recupera la chiave e decifra la VMK. La VMK viene quindi utilizzata per decifrare la FVEK, come mostrato nella figura seguente.
 
-![](images/Cc162804.5cc88486-b6fc-4393-9159-596ad2187ec5(it-it,TechNet.10).jpg)
+![](images/Cc162804.5cc88486-b6fc-4393-9159-596ad2187ec5(it-it,TechNet.10).jpg "Figura 2.2. Processo di decrittografia BitLocker con USB")
 
 **Figura 2.2. Processo di decrittografia BitLocker con USB**
 
@@ -196,7 +196,7 @@ La versione corrente di BitLocker non fornisce supporto diretto per eseguire il 
 
 La figura che segue mostra il procedimento logico del processo di decrittografia nell'opzione BitLocker con TPM e PIN.
 
-![](images/Cc162804.11056951-8e9f-4482-9ac4-bc7dac6e48a6(it-it,TechNet.10).jpg)
+![](images/Cc162804.11056951-8e9f-4482-9ac4-bc7dac6e48a6(it-it,TechNet.10).jpg "Crittografia unità BitLocker con TPM e codice PIN")
 
 **Figura 2.3. Processo di decrittografia BitLocker con TPM e codice PIN**
 
@@ -256,7 +256,7 @@ Nell'opzione precedente, BitLocker era stato configurato affinché utilizzasse u
 
 La figura che segue mostra il procedimento logico del processo di decrittografia nell'opzione BitLocker con TPM e USB.
 
-![](images/Cc162804.da7b15a1-1d74-4a40-86b4-adb3720183c5(it-it,TechNet.10).jpg)
+![](images/Cc162804.da7b15a1-1d74-4a40-86b4-adb3720183c5(it-it,TechNet.10).jpg "Crittografia unità BitLocker con TPM e periferica USB")
 
 **Figura 2.4. Processo di decrittografia BitLocker con TPM e periferica USB**
 
@@ -318,7 +318,7 @@ Nella tabella riportata di seguito vengono elencati i rischi per i dati e viene 
 
 **Tabella 2.1. Attenuazione dei rischi di BitLocker**
 
-![](images/Cc162804.fd057821-a2d0-48df-a0b1-5b07eaa7c90a(it-it,TechNet.10).gif)
+![](images/Cc162804.fd057821-a2d0-48df-a0b1-5b07eaa7c90a(it-it,TechNet.10).gif "Attenuazione dei rischi di BitLocker")
 [](#mainsection)[Inizio pagina](#mainsection)
 
 ### Ulteriori informazioni

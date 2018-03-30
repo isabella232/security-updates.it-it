@@ -92,7 +92,7 @@ Per trarre il massimo vantaggio dal modulo:
 
 La valutazione è la prima fase importante del processo di gestione delle patch illustrato nella Figura 1.
 
-![](images/Cc700830.secmod194figure1(it-it,TechNet.10).gif)
+![](images/Cc700830.secmod194figure1(it-it,TechNet.10).gif "Figura 1. Il processo di gestione delle patch")
 
 **Figura 1. Il processo di gestione delle patch**
 
