@@ -146,7 +146,7 @@ Si consiglia di attivare solo i componenti e i servizi essenziali di IIS che ven
   
 La seguente figura mostra i sottocomponenti nella finestra di dialogo **Server applicazioni**:
   
-[![](images/Cc163131.sgfg0901(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163131.sgfg0901_big(it-it,technet.10).gif)
+[![](images/Cc163131.sgfg0901(it-it,TechNet.10).gif "sgfg0901.gif")](https://technet.microsoft.com/it-it/cc163131.sgfg0901_big(it-it,technet.10).gif)
   
 **Figura 9.1 Finestra di dialogo Server applicazioni con elenco dei sottocomponenti**
   
@@ -205,7 +205,7 @@ Nella seguente tabella sono descritti i sottocomponenti di Server applicazioni e
   
 La seguente figura mostra i sottocomponenti all'interno della finestra di dialogo **Internet Information Services (IIS)**:
   
-[![](images/Cc163131.sgfg0902(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163131.sgfg0902_big(it-it,technet.10).gif)
+[![](images/Cc163131.sgfg0902(it-it,TechNet.10).gif "sgfg0902.gif")](https://technet.microsoft.com/it-it/cc163131.sgfg0902_big(it-it,technet.10).gif)
   
 **Figura 9.2 Finestra di dialogo IIS con elenco dei sottocomponenti**
   
@@ -278,7 +278,7 @@ Nella seguente tabella sono descritti i sottocomponenti di IIS e vengono fornite
   
 La seguente figura mostra i sottocomponenti nella finestra di dialogo **Accodamento messaggi**:
   
-[![](images/Cc163131.sgfg0903(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163131.sgfg0903_big(it-it,technet.10).gif)
+[![](images/Cc163131.sgfg0903(it-it,TechNet.10).gif "sgfg0903.gif")](https://technet.microsoft.com/it-it/cc163131.sgfg0903_big(it-it,technet.10).gif)
   
 **Figura 9.3 Finestra di dialogo Accodamento messaggi con elenco dei sottocomponenti**
   
@@ -336,7 +336,7 @@ Nella seguente tabella sono descritti i sottocomponenti di Accodamento messaggi 
   
 La seguente figura mostra i sottocomponenti nella finestra di dialogo **Estensione server Servizio trasferimento intelligente in background (BITS)**:
   
-[![](images/Cc163131.sgfg0904(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163131.sgfg0904_big(it-it,technet.10).gif)
+[![](images/Cc163131.sgfg0904(it-it,TechNet.10).gif "sgfg0904.gif")](https://technet.microsoft.com/it-it/cc163131.sgfg0904_big(it-it,technet.10).gif)
   
 **Figura 9.4 Estensione server BITS con elenco dei sottocomponenti**
   
@@ -374,7 +374,7 @@ Nella seguente tabella sono descritti i sottocomponenti dell'Estensione server B
   
 La seguente figura mostra i sottocomponenti nella finestra di dialogo **Servizio Web**:
   
-[![](images/Cc163131.SGFG0905(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163131.sgfg0905_big(it-it,technet.10).gif)
+[![](images/Cc163131.SGFG0905(it-it,TechNet.10).gif "SGFG0905.gif")](https://technet.microsoft.com/it-it/cc163131.sgfg0905_big(it-it,technet.10).gif)
   
 **Figura 9.5 Finestra di dialogo Servizio Web con elenco dei sottocomponenti**
   
