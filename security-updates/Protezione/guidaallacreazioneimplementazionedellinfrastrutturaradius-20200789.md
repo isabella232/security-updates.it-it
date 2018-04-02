@@ -77,7 +77,7 @@ Per quanto riguarda l'infrastruttura IT esistente, in questo capitolo si presupp
 
 La figura che segue mostra il processo di creazione dell'infrastruttura RADIUS che sarà illustrato in modo dettagliato in questo capitolo.
 
-![](images/Dd536189.08fig8-1(it-it,TechNet.10).gif)
+![](images/Dd536189.08fig8-1(it-it,TechNet.10).gif "Figura 8.1 Diagramma del processo di creazione dell'infrastruttura RADIUS")
 
 **Figura 8.1 Diagramma del processo di creazione dell'infrastruttura RADIUS**
 
