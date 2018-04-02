@@ -71,7 +71,7 @@ Se il sistema viene infettato da un nuovo tipo di software dannoso, è probabile
 
 Quando si riceve una chiamata o un avviso relativo a un possibile nuovo attacco di software dannoso, per il personale di supporto tecnico è utile poter disporre di un processo definito che consenta di determinare in tempi rapidi se l'avviso segnala la presenza di un nuovo attacco. Nel seguente diagramma di flusso vengono descritti i passaggi principali previsti dal processo:
 
-![](images/Dd536186.AVFG0401(it-it,TechNet.10).gif)
+![](images/Dd536186.AVFG0401(it-it,TechNet.10).gif "Figura 4.1 Processo di report sull'infezione di software dannoso")
 
 **Figura 4.1 Processo di report sull'infezione di software dannoso**
 
@@ -225,7 +225,7 @@ Purtroppo, i primi due obiettivi richiedono soluzioni a correzione rapida, mentr
 
 Per ottimizzare i tempi di ripristino, è necessario che i processi di ripristino del sistema e di analisi dei virus vengano eseguiti in diversi momenti.
 
-[![](images/Dd536186.AVFG0402(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536186.avfg0402_big(it-it,technet.10).gif)
+[![](images/Dd536186.AVFG0402(it-it,TechNet.10).gif "Figura 4.2 Passaggi per il ripristino prima dell'analisi")](https://technet.microsoft.com/it-it/dd536186.avfg0402_big(it-it,technet.10).gif)
 
 **Figura 4.2 Passaggi per il ripristino prima dell'analisi**
 
@@ -311,13 +311,17 @@ Per ordinare le colonne è sufficiente fare clic sul titolo. Utilizzare questo m
 
 Nella seguente figura sono indicati i dettagli relativi al processo attivo del worm Blaster in Task Manager di Microsoft Windows 2000® Server.
 
-[![](images/Dd536186.AVFG0403(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536186.avfg0403_big(it-it,technet.10).gif)
+[![](images/Dd536186.AVFG0403(it-it,TechNet.10).gif "Figura 4.3 Visualizzazione del processo attivo del worm Blaster in Task Manager di Windows 2000")](https://technet.microsoft.com/it-it/dd536186.avfg0403_big(it-it,technet.10).gif)
 
 **Figura 4.3 Visualizzazione del processo attivo del worm Blaster in Task Manager di Windows 2000**
 
 **Nota**: è possibile che, per motivi di protezione, l'avvio di Task Manager venga bloccato dal software dannoso. In questo caso, è possibile utilizzare l'utilità della riga di comando **Tasklist** disponibile sui sistemi Microsoft Windows® XP e Windows Server™ 2003 (o l'utilità della riga di comando **TList** di Windows 2000) per generare un semplice elenco dei file di testo. È quindi possibile copiare i file su un supporto rimovibile per un'analisi ulteriore. Per generare un file di testo con l'elenco di tutti i processi attivi, utilizzare la sintassi della riga di comando riportata di seguito:
-        ```
-Mediante la riga di comando indicata verrà creato il file **TaskList*.*txt** nella directory di lavoro corrente.
+
+```
+tasklist /v >TaskList.txt
+```
+
+Mediante la riga di comando indicata verrà creato il file **TaskList.txt** nella directory di lavoro corrente.
 
 Quando si ha il sospetto che sul sistema venga eseguito software dannoso, è consigliabile controllare i processi facendo riferimento ai seguenti suggerimenti:
 
@@ -427,7 +431,7 @@ Poiché la maggior parte del software dannoso comporta la modifica di uno più f
 
 Se questa opzione non è disponibile, è possibile identificare i file modificati eseguendo una ricerca sull'intero sistema di tutti i file modificati dall'introduzione del software dannoso nel sistema. La ricerca può essere eseguita mediante l'utilizzo dello strumento di ricerca di Windows. Nella seguente schermata viene indicato come restringere la ricerca dei file infetti mediante le opzioni avanzate del riquadro **Risultati ricerca**.
 
-[![](images/Dd536186.AVFG0404(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536186.avfg0404_big(it-it,technet.10).gif)
+[![](images/Dd536186.AVFG0404(it-it,TechNet.10).gif "Figura 4.4 Finestra delle opzioni avanzate dei risultati della ricerca")](https://technet.microsoft.com/it-it/dd536186.avfg0404_big(it-it,technet.10).gif)
 
 **Figura 4.4 Finestra delle opzioni avanzate dei risultati della ricerca**
 
