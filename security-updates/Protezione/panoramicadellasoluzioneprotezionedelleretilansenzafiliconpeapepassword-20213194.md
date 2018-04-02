@@ -33,7 +33,7 @@ Questa guida si differenzia dalla documentazione di Windows® e da molti dei doc
 
 Questa guida si articola in quattro sezioni, una per ogni fase del ciclo di vita della soluzione, ovvero pianificazione, implementazione, testing e gestione.
 
-[![](images/Dd162271.PEAP_001(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd162271.peap_001_big(it-it,technet.10).gif)
+[![](images/Dd162271.PEAP_001(it-it,TechNet.10).gif "Figura 1.1 Panoramica della soluzione Protezione delle reti LAN senza fili con PEAP e password")](https://technet.microsoft.com/it-it/dd162271.peap_001_big(it-it,technet.10).gif)
 
 **Figura 1.1 Panoramica della soluzione Protezione delle reti LAN senza fili con PEAP e password**
 
