@@ -83,7 +83,7 @@ Il capitolo presuppone anche quanto segue:
 
 Questo diagramma mostra il processo di implementazione della protezione WLAN utilizzando 802.1X come descritto in questo capitolo.
 
-![](images/Dd536190.09fig9-1(it-it,TechNet.10).gif)
+![](images/Dd536190.09fig9-1(it-it,TechNet.10).gif "Figura 9.1. Diagramma del processo di implementazione dell'infrastruttura 802.1X")
 
 **Figura 9.1. Diagramma del processo di implementazione dell'infrastruttura 802.1X**
 
