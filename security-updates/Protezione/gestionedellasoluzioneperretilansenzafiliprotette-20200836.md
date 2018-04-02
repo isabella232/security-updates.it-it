@@ -950,7 +950,7 @@ Consultare, inoltre, i documenti per la risoluzione dei problemi delle reti LAN 
   
 In primo luogo, classificare il tipo di problema facendo riferimento al seguente diagramma di flusso. I rombi contengono le domande che l'utente deve porsi e i rettangoli contengono la diagnosi del problema e indicano il nome della procedura da seguire.
   
-![](images/Dd536237.PEAP_801(it-it,TechNet.10).gif)
+![](images/Dd536237.PEAP_801(it-it,TechNet.10).gif "Figura 8.1 Individuare il tipo di problema")
   
 **Figura 8.1 Individuare il tipo di problema**
   
@@ -1082,7 +1082,7 @@ Il seguente diagramma di flusso consente di diagnosticare la causa di un errore 
 
 **Nota:** la casella a forma di freccia nel diagramma di flusso indica che bisogna fare riferimento alla procedura "Verificare il computer client", come specificato nella casella.
 
-[![](images/Dd536237.PEAP_802(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536237.peap_802_big(it-it,technet.10).gif)
+[![](images/Dd536237.PEAP_802(it-it,TechNet.10).gif "Figura 8.2 Verifica dell'account utente o computer")](https://technet.microsoft.com/it-it/dd536237.peap_802_big(it-it,technet.10).gif)
 
 **Figura 8.2 Verifica dell'account utente o computer**
 
@@ -1090,7 +1090,7 @@ Il seguente diagramma di flusso consente di diagnosticare la causa di un errore 
 
 Il seguente diagramma di flusso consente di diagnosticare i problemi del computer client.
 
-[![](images/Dd536237.PEAP_803(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536237.peap_803_big(it-it,technet.10).gif)
+[![](images/Dd536237.PEAP_803(it-it,TechNet.10).gif "Figura 8.3 Verifica del computer client")](https://technet.microsoft.com/it-it/dd536237.peap_803_big(it-it,technet.10).gif)
 
 **Figura 8.3 Verifica del computer client**
 
