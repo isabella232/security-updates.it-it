@@ -81,7 +81,7 @@ Per sfruttare al massimo il presente modulo:
 
 La figura 1 mostra una panoramica del processo di implementazione della protezione WLAN utilizzando lo standard 802.1X che sarà illustrato in modo dettagliato in questo modulo.
 
-![](images/Dd536251.SGFG16301(it-it,TechNet.10).jpg)
+![](images/Dd536251.SGFG16301(it-it,TechNet.10).jpg "Diagramma del processo di creazione dell'infrastruttura 802.1X")
 
 Figura 1
 
