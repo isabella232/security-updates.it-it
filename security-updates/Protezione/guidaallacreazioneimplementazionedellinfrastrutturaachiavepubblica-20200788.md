@@ -88,7 +88,7 @@ Per quanto riguarda l'infrastruttura IT esistente, in questo capitolo si presupp
 
 La figura seguente mostra il processo di creazione dell'infrastruttura PKI che sarà descritto in questo capitolo.
 
-![](images/Dd536188.07fig7-1(it-it,TechNet.10).gif)
+![](images/Dd536188.07fig7-1(it-it,TechNet.10).gif "Figura 7.1 Diagramma del processo di creazione dell'infrastruttura PKI")
 
 **Figura 7.1 Diagramma del processo di creazione dell'infrastruttura PKI**
 
@@ -2583,7 +2583,7 @@ Questo passaggio è necessario, in quanto le versioni HTTP degli URL CDP e AIA s
   
 In questa sezione viene descritto come installare e configurare Servizi certificati nel server CA di emissione. Durante l'installazione, questa CA, la CA principale, Active Directory e il server Web interagiscono in modo complesso. Tali interazioni sono mostrate nel seguente diagramma, a cui può essere utile fare riferimento durante la consultazione di questa sezione.
   
-[![](images/Dd536188.07fig7-2(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536188.07fig7-2_big(it-it,technet.10).gif)
+[![](images/Dd536188.07fig7-2(it-it,TechNet.10).gif "Figura 7.2. Interazione tra CA, Active Directory e server Web durante l'installazione della CA di emissione")](https://technet.microsoft.com/it-it/dd536188.07fig7-2_big(it-it,technet.10).gif)
   
 **Figura 7.2. Interazione tra CA, Active Directory e server Web durante l'installazione della CA di emissione**
   
