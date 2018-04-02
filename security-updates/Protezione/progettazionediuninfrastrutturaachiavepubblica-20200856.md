@@ -785,7 +785,7 @@ In questa guida viene proposta una gerarchia a due livelli, in cui è possibile 
   
 Nella figura seguente è illustrata la gerarchia proposta, che riguarda l'implementazione della CA principale e di una CA di emissione. La CA di emissione rilascerà inizialmente certificati (tecnici) di valore basso per computer o utenti e certificati di valore alto per computer, quest'ultimi contrassegnati con il simbolo a forma di lucchetto.
   
-![](images/Dd536257.SGFG17001(it-it,TechNet.10).jpg)
+![](images/Dd536257.SGFG17001(it-it,TechNet.10).jpg "Gerarchia dell'Autorità di certificazione")
   
 Figura 1  
 *Gerarchia dell'Autorità di certificazione*
@@ -1127,7 +1127,7 @@ Una volta ottenuto l'OID della dichiarazione CPS e scelto un URI (Uniform Resour
   
 In questa guida, il sistema PKI si basa su altri servizi dell'infrastruttura per un corretto funzionamento. Nella figura seguente sono illustrati i principali servizi.
   
-![](images/Dd536257.SGFG17002(it-it,TechNet.10).jpg)
+![](images/Dd536257.SGFG17002(it-it,TechNet.10).jpg "Interazione della CA con l'infrastruttura IT")
   
 Figura 2  
 *Interazione della CA con l'infrastruttura IT*
@@ -1252,7 +1252,7 @@ In genere, viene applicata una dichiarazione CPS per ogni CA. Anche se è possib
   
 **Nota:** questa figura è solamente indicativa di come sia possibile estendere la gerarchia CA precedente. Nella propria organizzazione può essere necessaria una struttura più complessa, o al contrario più semplice, a seconda delle esigenze future. La pianificazione delle CA aggiuntive e delle funzionalità di certificazione deve basarsi sui requisiti aziendali e deve seguire un approccio simile a quello illustrato in questa guida per la progettazione della PKI semplificata.
   
-![](images/Dd536257.SGFG17003(it-it,TechNet.10).jpg)
+![](images/Dd536257.SGFG17003(it-it,TechNet.10).jpg "Estensione della gerarchia CA")
   
 Figura 3  
 *Estensione della gerarchia CA*
