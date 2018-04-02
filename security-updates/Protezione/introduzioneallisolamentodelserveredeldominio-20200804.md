@@ -109,7 +109,7 @@ Difendere un'infrastruttura IT moderna dagli hacker e consentire contemporaneame
 
 La figura seguente, che rappresenta un'infrastruttura di rete costituita da vari livelli di difesa della rete, mostra dove si inserisce l'isolamento logico in un ambiente tipico.
 
-[![](images/Dd536204.SGFG0101(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536204.sgfg0101_big(it-it,technet.10).gif)
+[![](images/Dd536204.SGFG0101(it-it,TechNet.10).gif "Figura 1.1. Aree dell'infrastruttura e livelli di difesa della rete")](https://technet.microsoft.com/it-it/dd536204.sgfg0101_big(it-it,technet.10).gif)
 
 **Figura 1.1. Aree dell'infrastruttura e livelli di difesa della rete**
 
@@ -273,7 +273,7 @@ Quasi tutti i dipendenti della Woodgrove Bank sono dotati di almeno un personal 
 
 La rete della Woodgrove Bank è costituita da diverse aree IT: un centro dati aziendali, due sedi hub, due uffici satellite e una rete perimetrale che supporta gli utenti remoti. Come illustrato nel seguente diagramma, la Woodgrove Bank utilizza un modello centralizzato per la gestione di server e computer desktop da una postazione centrale situata a New York.
 
-[![](images/Dd536204.SGFG0102(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536204.sgfg0102_big(it-it,technet.10).gif)
+[![](images/Dd536204.SGFG0102(it-it,TechNet.10).gif "Figura 1.2. Il modello di gestione IT centralizzato della Woodgrove Bank")](https://technet.microsoft.com/it-it/dd536204.sgfg0102_big(it-it,technet.10).gif)
 
 **Figura 1.2. Il modello di gestione IT centralizzato della Woodgrove Bank**
 
@@ -281,7 +281,7 @@ La rete della Woodgrove Bank è costituita da diverse aree IT: un centro dati az
 
 La Woodgrove Bank ha deciso di adottare un modello a più insiemi di strutture per la fornitura di servizi per il progetto Active Directory. Con tale modello, l'azienda dispone della flessibilità di un insieme di strutture per il perimetro e un insieme di strutture condiviso separato per le risorse interne, in modo da poter soddisfare i requisiti di isolamento dei server nella rete perimetrale. Il modello con un solo insieme di strutture non è stato adottato dalla Woodgrove perché non consente l'isolamento dei server perimetrali dai dati aziendali di importanza critica. La figura seguente mostra la struttura logica di Active Directory utilizzata dalla Woodgrove Bank:
 
-[![](images/Dd536204.SGFG0103(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536204.sgfg0103_big(it-it,technet.10).gif)
+[![](images/Dd536204.SGFG0103(it-it,TechNet.10).gif "Figura 1.3. Progettazione del servizio directory della Woodgrove Bank")](https://technet.microsoft.com/it-it/dd536204.sgfg0103_big(it-it,technet.10).gif)
 
 **Figura 1.3. Progettazione del servizio directory della Woodgrove Bank**
 
@@ -297,7 +297,7 @@ Gli incaricati del progetto della Woodgrove Bank hanno scelto un progetto a unit
 
 Per aiutare l'organizzazione a scegliere il progetto che meglio si adatta alle proprie esigenze, la Woodgrove Bank ha creato un progetto di laboratorio di verifica funzionale. Questo progetto di verifica funzionale prevedeva un'implementazione di laboratorio di piccole dimensioni in cui testare il progetto proposto dalla Woodgrove, come illustrato nella figura seguente.
 
-[![](images/Dd536204.SGFG0104(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536204.sgfg0104_big(it-it,technet.10).gif)
+[![](images/Dd536204.SGFG0104(it-it,TechNet.10).gif "Figura 1.4. Progetto pilota della Woodgrove Bank")](https://technet.microsoft.com/it-it/dd536204.sgfg0104_big(it-it,technet.10).gif)
 
 **Figura 1.4. Progetto pilota della Woodgrove Bank**
 
