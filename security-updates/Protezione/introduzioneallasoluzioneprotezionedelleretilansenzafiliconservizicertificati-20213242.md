@@ -21,7 +21,7 @@ Analogamente alla guida Protezione delle reti LAN senza fili con PEAP e password
 
 Questa guida fornisce ai professionisti IT informazioni su come progettare, implementare e rendere operativa un'infrastruttura di protezione senza fili realizzata con l'autenticazione 802.1X e la crittografia WLAN, RADIUS e un'infrastruttura a chiave pubblica (PKI). Per i pianificatori aziendali e gli architetti IT, la guida presenta un esame delle vulnerabilità della rete senza fili e una valutazione delle varie opzioni di protezione disponibili. Viene, inoltre, descritta una progettazione dettagliata di una soluzione completa e delle sue componenti. Per i responsabili delle operazioni e dell'implementazione IT, la guida offre istruzioni dettagliate e script correlati per implementare e gestire un'infrastruttura di protezione senza fili.
 
-[![](images/Cc527055.00fig0-1(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc527055.00fig0-1_big(it-it,technet.10).gif)
+[![](images/Cc527055.00fig0-1(it-it,TechNet.10).gif "Figure 1 Panoramica della soluzione Protezione delle reti LAN senza fili con Servizi certificati")](https://technet.microsoft.com/it-it/cc527055.00fig0-1_big(it-it,technet.10).gif)
 
 **Figure 1 Panoramica della soluzione Protezione delle reti LAN senza fili con Servizi certificati**
 
