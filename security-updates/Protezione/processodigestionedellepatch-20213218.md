@@ -79,7 +79,7 @@ Per trarre il massimo vantaggio dal modulo:
 
 La stima e pianificazione è la terza fase del processo di gestione degli aggiornamenti illustrato nella Figura 1.
 
-![](images/Cc700840.secmod196figure1-0(it-it,TechNet.10).gif)
+![](images/Cc700840.secmod196figure1-0(it-it,TechNet.10).gif "Figura 1. Il processo di gestione delle patch")
 
 **Figura 1. Il processo di gestione degli aggiornamenti**
 
@@ -343,7 +343,7 @@ Potrebbero esservi numerosi problemi e vincoli che impongono i passaggi necessar
   
 -   Nella Figura 2 è riportato un esempio di tempi di distribuzione di un aggiornamento software (un contratto di servizio SLA, Service Level Agreement) che indica che i server devono essere aggiornati entro sette giorni dall'arrivo di un aggiornamento software che non viene considerato critico per l'attività dell'azienda. Gli amministratori sono autorizzati ad avviare l'aggiornamento entro sette giorni, ma devono essere consapevoli che i computer verranno forzatamente aggiornati o disconnessi dalla rete alla scadenza di questo intervallo di tempo.
   
-    [![](images/Cc700840.secmod196figure2-0(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700840.secmod196figure2-0_big(it-it,technet.10).gif)
+    [![](images/Cc700840.secmod196figure2-0(it-it,TechNet.10).gif "Figura 2. Esempio di SLA di distribuzione degli aggiornamenti per i server")](https://technet.microsoft.com/it-it/cc700840.secmod196figure2-0_big(it-it,technet.10).gif)
   
     **Figura 2. Esempio di SLA di distribuzione degli aggiornamenti per i server**
   
@@ -375,7 +375,7 @@ Se si ha una richiesta di modifica che indica che l'aggiornamento software è un
   
     Nella Figura 3 è riportato uno SLA relativo ai tempi di distribuzione di un aggiornamento software. I tempi indicano che tutti i server devono essere aggiornati entro otto ore dall'arrivo della notifica di un aggiornamento software critico.
   
-    [![](images/Cc700840.secmod196figure3-0(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc700840.secmod196figure3-0_big(it-it,technet.10).gif)
+    [![](images/Cc700840.secmod196figure3-0(it-it,TechNet.10).gif "Figura 3. Esempio di SLA di distribuzione di emergenza entro otto ore")](https://technet.microsoft.com/it-it/cc700840.secmod196figure3-0_big(it-it,technet.10).gif)
   
     **Figura 3. Esempio di SLA di distribuzione di emergenza entro otto ore**
   

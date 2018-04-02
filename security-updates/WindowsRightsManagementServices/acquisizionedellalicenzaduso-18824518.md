@@ -11,7 +11,7 @@ Acquisizione della licenza d'uso
 
 Per utilizzare il contenuto protetto con RMS, l'utente deve acquisire una licenza d'uso dal servizio di gestione licenze di RMS. Nella figura riportata di seguito viene illustrato il processo di richiesta e ricezione di una licenza d'uso.
 
-![](images/Cc720194.37b8d28c-9749-4e81-bc6a-22692fefb8b6(WS.10).gif)
+![](images/Cc720194.37b8d28c-9749-4e81-bc6a-22692fefb8b6(WS.10).gif "Processo di acquisizione di una licenza d'uso")
 
 Il processo di acquisizione di una licenza d'uso si compone delle operazioni descritte di seguito:
 

@@ -93,6 +93,6 @@ In, RMS i servizi di registrazione e attivazione di Microsoft vengono impiegati 
 
 Il seguente diagramma illustra i differenti componenti di un sistema RMS, mostrandone i rispettivi ruoli. Le frecce rappresentano le richieste e le risposte scambiate tra i diversi componenti.
 
-![](images/Cc747671.29138741-d45c-459b-8ead-b9bc3f708dd5(WS.10).gif)
+![](images/Cc747671.29138741-d45c-459b-8ead-b9bc3f708dd5(WS.10).gif "Componenti del sistema RMS")
 
 Per ulteriori informazioni su ciascun componente, vedere "[Componenti software di RMS](https://technet.microsoft.com/e38a840e-f390-48fd-8354-50108a64f5ca)" più avanti in questo argomento.

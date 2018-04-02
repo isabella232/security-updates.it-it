@@ -79,7 +79,7 @@ Nelle implementazioni VPN standard, l'utente ha accesso a tutte le risorse di re
 
 Nella figura seguente viene illustrato un metodo di connessione VPN in quarantena in cui vengono utilizzati server di risorse inclusi in una sottorete di quarantena.
 
-[![](images/Dd536297.PGFG0201(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536297.pgfg0201_big(it-it,technet.10).gif)
+[![](images/Dd536297.PGFG0201(it-it,TechNet.10).gif "Figura 2.1 Percorso del processo di connessione VPN in quarantena")](https://technet.microsoft.com/it-it/dd536297.pgfg0201_big(it-it,technet.10).gif)
 
 **Figura 2.1 Percorso del processo di connessione VPN in quarantena**
 

@@ -390,7 +390,7 @@ Per aggiornare i Criteri di gruppo tra i cicli standard, utilizzare l'utilità G
 
 3.  Al prompt dei comandi digitare **GPUpdate**, quindi fare clic su **OK**. Dovrebbe venire visualizzato il messaggio riportato nella schermata seguente:
 
-    [![](images/Cc875819.XPNPT01(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875819.xpnpt01_big(it-it,technet.10).gif)
+    [![](images/Cc875819.XPNPT01(it-it,TechNet.10).gif "XPNPT01.GIF")](https://technet.microsoft.com/it-it/cc875819.xpnpt01_big(it-it,technet.10).gif)
 
     Per chiudere il prompt dei comandi, digitare **exit**, quindi premere INVIO.
 

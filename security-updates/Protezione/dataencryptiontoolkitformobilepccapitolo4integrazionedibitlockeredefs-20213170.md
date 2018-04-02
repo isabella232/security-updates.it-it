@@ -145,7 +145,7 @@ Nella seguente tabella vengono elencati i rischi per i dati e viene indicato se 
 
 **Tabella 4.1. Attenuazione dei rischi di Bitlocker ed EFS**
 
-![](images/Cc162807.53d5723f-6e99-4b7a-9dde-4c45fd75288c(it-it,TechNet.10).gif)
+![](images/Cc162807.53d5723f-6e99-4b7a-9dde-4c45fd75288c(it-it,TechNet.10).gif "Attenuazione dei rischi di Bitlocker ed EFS")
 
 **Download**
 

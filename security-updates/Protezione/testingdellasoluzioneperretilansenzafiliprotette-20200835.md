@@ -73,7 +73,7 @@ Questo profilo non comprende tutte le configurazioni possibili della soluzione (
 
 L'ambiente di laboratorio per i test si è basato sulla progettazione della rete descritta nel capitolo 2, "Pianificazione dell'implementazione della protezione di reti LAN senza fili". Nella figura sottostante viene indicato il layout fisico dell'istanza di laboratorio che presenta la configurazione di rete più semplice descritta nel capitolo 2.
 
-[![](images/Dd536236.PEAP_701(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536236.peap_701_big(it-it,technet.10).gif)
+[![](images/Dd536236.PEAP_701(it-it,TechNet.10).gif "Dd536236.PEAP_701(it-it,TechNet.10).gif")](https://technet.microsoft.com/it-it/dd536236.peap_701_big(it-it,technet.10).gif)
 
 **Figura 7.1 Architettura di rete del laboratorio**
 

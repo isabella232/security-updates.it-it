@@ -52,7 +52,7 @@ Per la comprensione della struttura di questa guida e un uso appropriato, è fon
 
 Il modello di processo MOF è diviso in quattro fasi, ciascuna delle quali tratta un aspetto del ciclo di vita del sistema: operatività, supporto, ottimizzazione e modifica. Ogni fase comprende a sua volta una serie di funzioni di gestione dei servizi (SMF, Service Management Function). In ciascuna funzione di gestione dei servizi viene esaminata un'area di attività, tra cui la gestione dell'archiviazione, la gestione delle emergenze o la gestione delle modifiche. Nella figura seguente viene delineato graficamente il modello di processo MOF.
 
-[![](images/Dd536211.10fig10-1(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536211.10fig10-1_big(it-it,technet.10).gif)
+[![](images/Dd536211.10fig10-1(it-it,TechNet.10).gif "Figura 10.1 Il modello di processo MOF")](https://technet.microsoft.com/it-it/dd536211.10fig10-1_big(it-it,technet.10).gif)
 
 **Figura 10.1 Il modello di processo MOF**
 
@@ -76,7 +76,7 @@ Questa fase riguarda la pianificazione e l'implementazione delle modifiche nell'
 
 Il modello di team MOF e i relativi cluster di ruoli rappresentano una guida valida per garantire l'assegnazione del personale adeguato ai ruoli operativi. Tali ruoli e team funzionali sono illustrati nella figura seguente nella quale vengono anche associati ai cluster di ruoli MOF a cui potrebbero essere assegnati.
 
-[![](images/Dd536211.10fig10-2(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536211.10fig10-2_big(it-it,technet.10).gif)
+[![](images/Dd536211.10fig10-2(it-it,TechNet.10).gif "Figura 10.2 Il modello di processo MOF")](https://technet.microsoft.com/it-it/dd536211.10fig10-2_big(it-it,technet.10).gif)
 
 **Figura 10.2 Il modello di processo MOF**
 

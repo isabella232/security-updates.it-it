@@ -176,7 +176,7 @@ L'esecuzione di più test (o cicli di test), inoltre, ha consentito di risolvere
 
 La figura seguente illustra il metodo di test a fasi utilizzato in questa guida.
 
-[![](images/Cc527056.13fig13-1(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc527056.13fig13-1_big(it-it,technet.10).gif)
+[![](images/Cc527056.13fig13-1(it-it,TechNet.10).gif "Figure 13.1. Il metodo di test a fasi utilizzato per la soluzione")](https://technet.microsoft.com/it-it/cc527056.13fig13-1_big(it-it,technet.10).gif)
 
 **Figure 13.1. Il metodo di test a fasi utilizzato per la soluzione**
 
@@ -292,7 +292,7 @@ Per eseguire i test relativi all'accesso senza fili protetto, nei client del lab
 
 Di seguito viene riportato un diagramma schematico dettagliato dell'ambiente di prova.
 
-[![](images/Cc527056.13fig13-2(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc527056.13fig13-2_big(it-it,technet.10).gif)
+[![](images/Cc527056.13fig13-2(it-it,TechNet.10).gif "Figura 13.2. Diagramma della rete del laboratorio di test")](https://technet.microsoft.com/it-it/cc527056.13fig13-2_big(it-it,technet.10).gif)
 
 **Figura 13.2. Diagramma della rete del laboratorio di test**
 

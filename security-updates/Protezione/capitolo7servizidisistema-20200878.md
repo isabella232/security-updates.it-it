@@ -76,7 +76,7 @@ Se alcuni servizi (ad esempio la Gestione account di protezione) sono disattivat
 
 Ad esempio, quando si utilizza lo snap-in Modelli di protezione di MMC per configurare lo stato di avvio di un servizio in Windows XP, sarà visualizzata la seguente finestra di dialogo:
 
-[![](images/Dd536279.tcfg0701(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536279.tcfg0701_big(it-it,technet.10).gif)
+[![](images/Dd536279.tcfg0701(it-it,TechNet.10).gif "Figura 7.1 Finestra di dialogo della protezione dei servizi")](https://technet.microsoft.com/it-it/dd536279.tcfg0701_big(it-it,technet.10).gif)
 
 **Figura 7.1 Finestra di dialogo della protezione dei servizi**
 

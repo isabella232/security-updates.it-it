@@ -240,7 +240,7 @@ Per questi esempi si presume che gli account del servizio siano account di domin
   
 -   L'Account E dispone di privilegi equivalenti a quelli di un amministratore per un solo server membro.
   
-    ![](images/Cc875826.SCASA1(it-it,TechNet.10).gif)
+    ![](images/Cc875826.SCASA1(it-it,TechNet.10).gif "Figura 1. Scenari di vulnerabilità degli account del servizio del dominio")
   
     **Figura 1. Scenari di vulnerabilità degli account del servizio del dominio**
   

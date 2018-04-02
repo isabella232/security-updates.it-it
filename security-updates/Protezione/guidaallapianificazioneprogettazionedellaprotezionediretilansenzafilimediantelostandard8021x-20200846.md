@@ -36,7 +36,7 @@ Prima di leggere questo capitolo, è necessario conoscere i concetti relativi a 
 
 Il diagramma di flusso riportato di seguito illustra la struttura del capitolo.
 
-![](images/Dd536247.06fig6-1(it-it,TechNet.10).gif)
+![](images/Dd536247.06fig6-1(it-it,TechNet.10).gif "Figura 6.1 Pianificazione della protezione WLAN mediante lo standard 802.1X")
 
 **Figura 6.1 Pianificazione della protezione WLAN mediante lo standard 802.1X**
 

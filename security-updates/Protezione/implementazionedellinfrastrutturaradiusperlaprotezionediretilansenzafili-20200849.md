@@ -73,7 +73,7 @@ Per sfruttare al massimo il presente modulo:
 
 La figura 1 mostra una panoramica del processo di creazione dell'infrastruttura RADIUS che sarà illustrato in modo dettagliato in questo modulo.
 
-![](images/Dd536250.SGFG16201(it-it,TechNet.10).jpg)
+![](images/Dd536250.SGFG16201(it-it,TechNet.10).jpg "Diagramma del processo di creazione dell'infrastruttura RADIUS")
 
 Figura 1
 *Diagramma del processo di creazione dell'infrastruttura RADIUS*

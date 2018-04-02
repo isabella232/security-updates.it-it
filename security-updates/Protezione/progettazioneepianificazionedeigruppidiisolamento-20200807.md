@@ -95,7 +95,7 @@ Le seguenti sezioni contengono le spiegazioni per ciascuna di queste attività.
 
 Per la maggior parte delle implementazioni, si consiglia di stabilire un punto di partenza comune per i gruppi di isolamento iniziali. La figura seguente mostra i due gruppi di isolamento iniziali che è opportuno prendere in considerazione.
 
-![](images/Dd536207.SGFG0401(it-it,TechNet.10).gif)
+![](images/Dd536207.SGFG0401(it-it,TechNet.10).gif "Figura 4.1 Gruppi di isolamento di base")
 
 **Figura 4.1 Gruppi di isolamento di base**
 
@@ -131,7 +131,7 @@ Per far fronte a questa situazione, si consiglia di creare un gruppo di isolamen
 
 I computer del gruppo Limite sono host attendibili che possono comunicare sia con altri host attendibili che con host non attendibili. Gli host del gruppo Limite tenteranno di comunicare con IPSec avviando una negoziazione IKE con il computer di origine. Se non viene ricevuta alcuna risposta IKE entro tre secondi, l'host utilizzerà la *modalità non crittografata* e tenterà di stabilire una comunicazione in testo normale senza l'ausilio di IPSec. Gli host del gruppo Limite possono avere un indirizzo IP dinamico perché utilizzano i criteri IPSec analogamente a qualsiasi altro host attendibile presente nel dominio di isolamento. Poiché questi host del gruppo Limite possono comunicare con host attendibili che utilizzano comunicazioni di rete protette da IPSec e con host non attendibili che utilizzano la modalità non crittografata, devono essere comunque altamente protetti in altri modi. Comprendere e ridurre questi rischi aggiuntivi costituisce una parte importante del processo che porterà all'inserimento o meno di un computer nel gruppo Limite. Ad esempio, istituire un processo formale di giustificazione aziendale per ogni computer prima di decidere di inserirlo in questo gruppo può assicurare che tutte le parti interessate capiscano perché vi sono rischi aggiuntivi. La figura seguente mostra un esempio di processo che può aiutare a prendere questa decisione.
 
-[![](images/Dd536207.SGFG0402(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536207.sgfg0402_big(it-it,technet.10).gif)
+[![](images/Dd536207.SGFG0402(it-it,TechNet.10).gif "Figura 4.2 Diagramma del flusso decisionale del processo di inserimento nel gruppo Limite di esempio")](https://technet.microsoft.com/it-it/dd536207.sgfg0402_big(it-it,technet.10).gif)
 
 **Figura 4.2 Diagramma del flusso decisionale del processo di inserimento nel gruppo Limite di esempio**
 
@@ -281,7 +281,7 @@ In molti casi, i requisiti di traffico in ingresso nei server contenenti dati ad
   
 Anche se il secondo gruppo ha un requisito che non prevede l'utilizzo della modalità non crittografata, non ha l'insieme completo di requisiti dei server per applicazioni. Di conseguenza, questi due diversi insiemi di requisiti indicavano che erano necessari due gruppi di isolamento aggiuntivi. I gruppi della Woodgrove Bank sono quindi divenuti quattro. La figura seguente mostra questi gruppi nella configurazione finale dei gruppi di isolamento della Woodgrove Bank:
   
-![](images/Dd536207.SGFG0403(it-it,TechNet.10).gif)
+![](images/Dd536207.SGFG0403(it-it,TechNet.10).gif "Figura 4.3 Configurazione finale dei gruppi di isolamento della Woodgrove Bank")
   
 **Figura 4.3 Configurazione finale dei gruppi di isolamento della Woodgrove Bank**
   
@@ -361,7 +361,7 @@ A questo punto del processo di progettazione è necessario documentare i requisi
   
 La seguente figura mostra i percorsi di comunicazione che sono generalmente consentiti tra i gruppi di base, gli host non attendibili e gli elenchi di esenzioni. Per semplificare questo modello, gli elenchi di esenzioni sono raffigurati in un unico gruppo, il che è applicabile ai servizi di infrastruttura, quali i controller di dominio o i server DNS. Tuttavia, i gruppi di isolamento possono avere requisiti aziendali in base ai quali è necessario esentare determinati computer di un gruppo. In questi casi, il gruppo di isolamento conterrà un elenco di esenzioni aggiuntive con i computer esentati oltre alle normali esenzioni. Microsoft consiglia di mantenere al minimo il numero di voci negli elenchi di esenzioni perché queste esentano esplicitamente i sistemi dall'appartenere all'infrastruttura IPSec. Nella figura, tutte le frecce con una linea nera continua rappresentano le comunicazioni che utilizzano IPSec; le frecce con linee tratteggiate si riferiscono invece alle comunicazioni che possono avvenire senza IPSec. Ai computer dei gruppi che sono contrassegnati con una linea tratteggiata in grassetto è stato assegnato un criterio IPSec.
   
-[![](images/Dd536207.SGFG0404(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536207.sgfg0404_big(it-it,technet.10).gif)
+[![](images/Dd536207.SGFG0404(it-it,TechNet.10).gif "Figura 4.4 Percorsi di comunicazione normalmente consentiti per i gruppi di isolamento di base")](https://technet.microsoft.com/it-it/dd536207.sgfg0404_big(it-it,technet.10).gif)
   
 **Figura 4.4 Percorsi di comunicazione normalmente consentiti per i gruppi di isolamento di base**
   
@@ -485,7 +485,7 @@ Nella tabella sono state utilizzate forme abbreviate dei nomi dei gruppi per rag
   
 Dopo aver documentato le comunicazioni di base, è possibile aggiungere gruppi al piano globale e registrare i relativi requisiti di comunicazione nello stesso modo. Ad esempio, la necessità di altri due gruppi nello scenario della Woodgrove Bank ha dato luogo al diagramma delle comunicazioni più complesso mostrato nella figura seguente.
   
-[![](images/Dd536207.SGFG0405(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536207.sgfg0405_big(it-it,technet.10).gif)
+[![](images/Dd536207.SGFG0405(it-it,TechNet.10).gif "Figura 4.5 Percorsi di comunicazione consentiti dalla Woodgrove Bank per i gruppi di isolamento")](https://technet.microsoft.com/it-it/dd536207.sgfg0405_big(it-it,technet.10).gif)
   
 **Figura 4.5 Percorsi di comunicazione consentiti dalla Woodgrove Bank per i gruppi di isolamento**
   

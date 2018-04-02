@@ -49,7 +49,7 @@ L'esame approfondito delle risposte ai problemi di protezione esula dagli argome
 
 Questa metodologia è illustrata nella figura seguente.
 
-![](images/Cc163152.rmch0201(it-it,TechNet.10).gif)
+![](images/Cc163152.rmch0201(it-it,TechNet.10).gif "Figura 2.1 Processo di risposta ai problemi")
 
 **Figura 2.1 Processo di risposta ai problemi**
 
@@ -215,7 +215,7 @@ Nel corso della fase successiva di supporto alle decisioni, vengono proposte e v
 
 Poiché la gestione dei rischi di protezione Microsoft è un processo continuo, il ciclo ricomincia dall'inizio ad ogni valutazione di un nuovo rischio. La frequenza di ripetizione del ciclo varia da un'organizzazione all'altra; molte aziende ritengono sufficienti cicli di durata annuale purché vulnerabilità, rischi e beni vengano sottoposti a monitoraggio preventivo.
 
-![](images/Cc163152.rmch0202(it-it,TechNet.10).gif)
+![](images/Cc163152.rmch0202(it-it,TechNet.10).gif "Figura 2.2 Fasi del processo di gestione dei rischi di protezione Microsoft")
 
 **Figura 2.2 Fasi del processo di gestione dei rischi di protezione Microsoft**
 

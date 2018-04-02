@@ -50,7 +50,7 @@ Il capitolo è suddiviso in argomenti che trattano la progettazione di un'infras
 
 Il diagramma di flusso riportato di seguito illustra la struttura del capitolo.
 
-![](images/Dd536246.05fig5-1(it-it,TechNet.10).gif)
+![](images/Dd536246.05fig5-1(it-it,TechNet.10).gif "Figura 5.1 Pianificazione di un'infrastruttura IAS")
 
 **Figura 5.1 Pianificazione di un'infrastruttura IAS**
 
@@ -284,7 +284,7 @@ Nella tabella seguente vengono illustrate le varie opzioni che consentono di ass
 
 È consigliabile che le organizzazioni di notevoli dimensioni e i grandi provider di servizi di rete prendano in considerazione l'utilizzo dei proxy RADIUS per l'accettazione delle richieste provenienti dai client RADIUS e la distribuzione del carico tra i server RADIUS, che possono essere configurati in gruppi di server RADIUS. La distribuzione del traffico di rete tra i server RADIUS nei gruppi di server RADIUS può basarsi su vari parametri configurabili, ad esempio il tipo di traffico RADIUS e gli attributi RADIUS, oltre che sui valori relativi a priorità e peso. I server RADIUS di ogni gruppo di server RADIUS possono quindi eseguire l'autenticazione e l'autorizzazione di base per gli utenti e i dispositivi di un dominio o di un intero insieme di strutture. In tal modo si crea un'architettura front-end/back-end a servizio delle richieste RADIUS e si fornisce la maggior flessibilità possibile per le opzioni di bilanciamento del carico e di scalabilità.
 
-![](images/Dd536246.05fig5-2(it-it,TechNet.10).gif)
+![](images/Dd536246.05fig5-2(it-it,TechNet.10).gif "Figura 5.2 Failover e bilanciamento del carico mediante i proxy RADIUS")
 
 **Figura 5.2 Failover e bilanciamento del carico mediante i proxy RADIUS**
 
@@ -298,13 +298,13 @@ Per ottenere il bilanciamento del carico mediante una strategia di failover basa
 
     **Nota:** i termini "primario" e "secondario" non indicano alcuna differenza di funzionalità tra i server che sono di pari livello. Tali termini sono utilizzati in questo contesto per distinguere i vari server ai fini dell'analisi del failover.
 
-    ![](images/Dd536246.05fig5-3(it-it,TechNet.10).gif)
+    ![](images/Dd536246.05fig5-3(it-it,TechNet.10).gif "Figura 5.3 Failover e bilanciamento del carico basati su punti di accesso senza fili")
 
     **Figura 5.3 Failover e bilanciamento del carico basati su punti di accesso senza fili**
 
 Per realizzare il bilanciamento del carico mediante una strategia di failover basata su punti di accesso senza fili nelle filiali in cui è disponibile un solo server RADIUS locale, oltre a un server RADIUS remoto, è necessario configurare tutti i punti di accesso senza fili della filiale in modo che utilizzino il server RADIUS locale come server principale. Quindi configurare il server RADIUS remoto come server secondario da utilizzare qualora quello principale non funzioni.
 
-[![](images/Dd536246.05fig5-4(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536246.05fig5-4_big(it-it,technet.10).gif)
+[![](images/Dd536246.05fig5-4(it-it,TechNet.10).gif "Figura 5.4 Failover e bilanciamento del carico basati su punti di accesso senza fili con server RADIUS locali e remoti")](https://technet.microsoft.com/it-it/dd536246.05fig5-4_big(it-it,technet.10).gif)
 
 **Figura 5.4 Failover e bilanciamento del carico basati su punti di accesso senza fili con server RADIUS locali e remoti**
 
@@ -425,7 +425,7 @@ Tuttavia, per molte organizzazioni il costo della larghezza di banda, di sofisti
 
 Un terzo tipo di strategia per l'infrastruttura IT consente alle organizzazioni di centralizzare l'infrastruttura IT dove possibile e di distribuirla dove necessario. Questa strategia consente di raggruppare la maggior parte dell'infrastruttura IT in sedi hub a servizio degli utenti di tali sedi e di quelli delle filiali collegate all'hub. Allo stesso tempo, questo modello consente di distribuire l'infrastruttura server in filiali con molti utenti finali. Il diagramma seguente illustra un esempio di infrastruttura IT mista.
 
-[![](images/Dd536246.05fig5-5(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536246.05fig5-5_big(it-it,technet.10).gif)
+[![](images/Dd536246.05fig5-5(it-it,TechNet.10).gif "Figure 5.5 Un'organizzazione con un'infrastruttura IT mista centralizzata e distribuita")](https://technet.microsoft.com/it-it/dd536246.05fig5-5_big(it-it,technet.10).gif)
 
 **Figure 5.5 Un'organizzazione con un'infrastruttura IT mista centralizzata e distribuita**
 
@@ -637,7 +637,7 @@ Tramite l'uso del layout di server della Woodgrove Bank, un'azienda fittizia, la
   
 **Nota:** la Woodgrove Bank è un'azienda fittizia rappresentativa di organizzazioni di medie e grandi dimensioni. L'architettura e le caratteristiche della sua rete sono state utilizzate come base per diverse decisioni di progettazione nell'implementazione di questa soluzione.
   
-[![](images/Dd536246.05fig5-6(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536246.05fig5-6_big(it-it,technet.10).gif)
+[![](images/Dd536246.05fig5-6(it-it,TechNet.10).gif "Figura 5.6 Distribuzione di utenti, punti di accesso senza fili e server IAS della Woodgrove Bank")](https://technet.microsoft.com/it-it/dd536246.05fig5-6_big(it-it,technet.10).gif)
   
 **Figura 5.6 Distribuzione di utenti, punti di accesso senza fili e server IAS della Woodgrove Bank**
   

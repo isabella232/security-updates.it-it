@@ -58,7 +58,7 @@ Ciò non implica che l'autenticazione tramite password non possa essere utilizza
 
 Queste opzioni verranno descritte nell'ambito del presente documento, insieme alla possibilità di unire le caratteristiche delle ultime due opzioni per produrre una soluzione ibrida.
 
-[![](images/Dd536242.PEAP_i01(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536242.peap_i01_big(it-it,technet.10).gif)
+[![](images/Dd536242.PEAP_i01(it-it,TechNet.10).gif "Figura 1: Struttura decisionale per soluzioni Microsoft per reti LAN senza fili")](https://technet.microsoft.com/it-it/dd536242.peap_i01_big(it-it,technet.10).gif)
 
 **Figura 1: Struttura decisionale per soluzioni Microsoft per reti LAN senza fili**
 
@@ -607,7 +607,7 @@ Come è stato illustrato in precedenza, Microsoft ha rilasciato due guide sulle 
   
 Nel diagramma che segue sono riepilogati i passaggi della scelta tra le due soluzioni di protezione per reti LAN senza fili.
   
-[![](images/Dd536242.PEAP_i02(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536242.peap_i02_big(it-it,technet.10).gif)
+[![](images/Dd536242.PEAP_i02(it-it,TechNet.10).gif "Figura 2: Struttura decisionale per la soluzione per la protezione di reti LAN senza fili")](https://technet.microsoft.com/it-it/dd536242.peap_i02_big(it-it,technet.10).gif)
   
 **Figura 2: Struttura decisionale per la soluzione per la protezione di reti LAN senza fili**
   

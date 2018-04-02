@@ -99,7 +99,7 @@ Sebbene il sistema operativo Microsoft Windows XP supporti lo standard WPA, al m
 
 Nella seguente figura è illustrato in dettaglio il diagramma concettuale della soluzione scelta (autenticazione 802.1X EAP-TLS).
 
-![](images/Dd536256.SGFG16901(it-it,TechNet.10).jpg)
+![](images/Dd536256.SGFG16901(it-it,TechNet.10).jpg "Soluzione concettuale basata sull'autenticazione 802.1X EAP-TLS")
 
 *Figura 1*
 *Soluzione concettuale basata sull'autenticazione 802.1X EAP-TLS*
@@ -132,7 +132,7 @@ I numeri riportati in figura illustrano il processo di accesso alla rete, che ve
 
 Questo processo è illustrato in maniera più dettagliata nel diagramma riportato di seguito.
 
-![](images/Dd536256.SGFG16902(it-it,TechNet.10).jpg)
+![](images/Dd536256.SGFG16902(it-it,TechNet.10).jpg "Processo di accesso 802.1X EAP-TLS")
 
 *Figura 2*
 *Processo di accesso 802.1X EAP-TLS*
@@ -155,7 +155,7 @@ L'organizzazione di destinazione ha distribuito una rete WLAN in alcune sedi in 
 
 La struttura di rete logico-fisica di questa organizzazione può somigliare a quella raffigurata nel seguente diagramma (in una forma estremamente semplificata).
 
-![](images/Dd536256.SGFG16903(it-it,TechNet.10).jpg)
+![](images/Dd536256.SGFG16903(it-it,TechNet.10).jpg "Diagramma schematico della struttura fisica e della rete dell'organizzazione di destinazione.")
 
 *Figura 3*
 *Diagramma schematico della rete e della struttura fisica dell'organizzazione di destinazione*
@@ -287,7 +287,7 @@ In questa sezione viene descritta la progettazione logica e logico-fisica della 
   
 Il seguente diagramma è già stato illustrato precedentemente all'interno di questo modulo. Nella seguente sezione verranno esaminati i diversi componenti riportati in figura e le relative modalità di raggruppamento all'interno della progettazione complessiva.
   
-![](images/Dd536256.SGFG16904(it-it,TechNet.10).jpg)
+![](images/Dd536256.SGFG16904(it-it,TechNet.10).jpg "Vista concettuale del processo di accesso alla rete")
   
 *Figura 4*  
 *Vista concettuale del processo di accesso alla rete*
@@ -310,7 +310,7 @@ I servizi IT presenti nella progettazione verranno combinati nei seguenti gruppi
   
 Quest'ultimo componente, che comprende una directory e servizi di rete di supporto, è costituito da servizi IT che in genere già esistono nell'organizzazione, ma con cui la soluzione in qualche modo interagisce.
   
-![](images/Dd536256.SGFG16905(it-it,TechNet.10).jpg)
+![](images/Dd536256.SGFG16905(it-it,TechNet.10).jpg "Progettazione logica della soluzione di rete WLAN protetta")
   
 *Figura 5*  
 *Progettazione logica della soluzione di rete WLAN protetta*
@@ -323,7 +323,7 @@ A livello logico-fisico, una progettazione può essere attualmente sviluppata in
   
 Nel seguente diagramma viene illustrata l'implementazione del server nella sede centrale. Solo i tre componenti riportati nella parte superiore della figura rappresentano i nuovi server o i componenti che devono essere acquistati. I componenti dei servizi di infrastruttura generalmente già esistono nella maggior parte delle organizzazioni. Se l'organizzazione ha già distribuito l'apparecchiatura di rete WLAN in grado di supportare la tecnologia 802.1X, il componente di rete WLAN potrebbe anche già esistere e quindi non richiedere nuovi acquisti.
   
-![](images/Dd536256.SGFG16906(it-it,TechNet.10).jpg)
+![](images/Dd536256.SGFG16906(it-it,TechNet.10).jpg "Implementazione del server nella sede centrale")
   
 *Figura 6*  
 *Implementazione del server nella sede centrale*
@@ -336,7 +336,7 @@ Nel seguente diagramma è illustrata la struttura fisica di una filiale di grand
   
 Tutti gli altri servizi (ad esempio, i servizi CA) vengono forniti dalla sede centrale.
   
-![](images/Dd536256.SGFG16907(it-it,TechNet.10).jpg)
+![](images/Dd536256.SGFG16907(it-it,TechNet.10).jpg "Struttura fisica di una filiale di grandi dimensioni")
   
 *Figura 7*  
 *Struttura fisica di una filiale di grandi dimensioni*
@@ -359,7 +359,7 @@ Nel seguente diagramma sono illustrate le modalità di scalabilità della proget
   
 I server richiesti per la versione con scalabilità crescente della soluzione sono mostrati in grigio.
   
-![](images/Dd536256.SGFG16908(it-it,TechNet.10).jpg)
+![](images/Dd536256.SGFG16908(it-it,TechNet.10).jpg "Illustrazione della strategia con scalabilità crescente")
   
 *Figura 8*  
 *Illustrazione della strategia con scalabilità crescente*
@@ -368,7 +368,7 @@ I server richiesti per la versione con scalabilità crescente della soluzione so
   
 Per le organizzazioni di piccole dimensioni, la soluzione può essere implementata con una numero contenuto di nuovi componenti hardware e software. Questo risultato si ottiene combinando il servizio IAS con i controller di dominio esistenti. Tale soluzione è stata già ampiamente collaudata ed è consigliata per numerosi scenari. Nel seguente diagramma è illustrata questa variante della progettazione.
   
-![](images/Dd536256.SGFG16909(it-it,TechNet.10).jpg)
+![](images/Dd536256.SGFG16909(it-it,TechNet.10).jpg "Illustrazione della strategia con scalabilità decrescente")
   
 *Figura 9*  
 *Illustrazione della strategia con scalabilità decrescente*
@@ -395,7 +395,7 @@ L'applicazione più semplice, che non richiede alcuna modifica della progettazio
   
 Nel seguente diagramma è illustrata la modalità di integrazione della soluzione di accesso alla rete cablata con la progettazione. Il riquadro in grigio, che indica i componenti cablati 802.1X, e i riquadri in bianco, che contengono i principali servizi, sono illustrati nel precedente diagramma della progettazione.
   
-![](images/Dd536256.SGFG16910(it-it,TechNet.10).jpg)
+![](images/Dd536256.SGFG16910(it-it,TechNet.10).jpg "Utilizzo dell'autenticazione cablata 802.1X")
   
 *Figura 10*  
 *Utilizzo dell'autenticazione cablata 802.1X*
@@ -408,7 +408,7 @@ Un altro vantaggio derivante dall'uso del componente RADIUS (in particolare di I
   
 Un altro servizio di accesso alla rete che potrebbe utilizzare i componenti RADIUS è la connessione remota e VPN. In particolare nelle organizzazioni di grandi dimensioni, è probabile che sia necessario apportare delle aggiunte alla progettazione, come ad esempio l'aggiunta di proxy RADIUS. La struttura di questa soluzione estesa è illustrata nel seguente diagramma.
   
-![](images/Dd536256.SGFG16911(it-it,TechNet.10).jpg)
+![](images/Dd536256.SGFG16911(it-it,TechNet.10).jpg "Estensione del componente RADIUS per il supporto del server VPN")
   
 *Figura 11*  
 *Estensione del componente RADIUS per il supporto del server VPN*
@@ -425,7 +425,7 @@ Poiché i criteri di riutilizzabilità e di espansione sono considerati molto im
   
 Nel seguente diagramma vengono illustrate alcune delle applicazioni supportabili dal componente PKI, insieme all'applicazione senza fili protetta. Alcune di esse sono applicazioni relativamente semplici e possono utilizzare il componente PKI sviluppato in questa soluzione con qualche lieve cambiamento alla progettazione. Altre, come ad esempio la posta elettronica protetta e l'accesso con smart card, sono più complesse e quasi certamente richiedono una maggiore considerazione e un'estensione della soluzione PKI.
   
-![](images/Dd536256.SGFG16912(it-it,TechNet.10).jpg)
+![](images/Dd536256.SGFG16912(it-it,TechNet.10).jpg "Applicazioni PKI")
   
 *Figura 12*  
 *Applicazioni PKI*

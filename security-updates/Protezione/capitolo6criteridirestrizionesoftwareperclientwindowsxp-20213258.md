@@ -133,7 +133,7 @@ Completare le fasi della procedura seguente per creare una regola hash per un fi
 
 2.  Fare clic su **Nuova regola hash** nel menu di scelta rapida.
 
-    [![](images/Cc163080.XPSG0601(it-it,TechNet.10).gif) "Figura 6.1 Finestra di dialogo Nuova regola hash"](https://technet.microsoft.com/it-it/cc163080.xpsg0601_big(it-it,technet.10).gif)
+    [![](images/Cc163080.XPSG0601(it-it,TechNet.10).gif "Figura 6.1 Finestra di dialogo Nuova regola hash")](https://technet.microsoft.com/it-it/cc163080.xpsg0601_big(it-it,technet.10).gif)
 
     **Figura 6.1 Finestra di dialogo Nuova regola hash**
 
@@ -179,37 +179,37 @@ La maggior parte dei siti Web commerciali dispone di un proprio codice software 
 
 1.  Selezionare l'autore attendibile da cui verrà rilasciato il certificato. Nell'esempio corrente l'autore del certificato è Microsoft MSN.
 
-    [![](images/Cc163080.XPSG0602(it-it,TechNet.10).jpg) "Figura 6.2 Finestra di dialogo Avviso di protezione in cui viene visualizzato l'autore attendibile"](https://technet.microsoft.com/it-it/cc163080.xpsg0602_big(it-it,technet.10).jpg)
+    [![](images/Cc163080.XPSG0602(it-it,TechNet.10).jpg "Figura 6.2 Finestra di dialogo Avviso di protezione in cui viene visualizzato l'autore attendibile")](https://technet.microsoft.com/it-it/cc163080.xpsg0602_big(it-it,technet.10).jpg)
 
     **Figura 6.2 Finestra di dialogo Avviso di protezione in cui viene visualizzato l'autore attendibile**
 
 2.  Fare clic sulla scheda **Dettagli**, quindi su **Copia su file** per copiare questo certificato in un file e utilizzarlo per creare una regola certificato.
 
-    [![](images/Cc163080.XPSG0603(it-it,TechNet.10).jpg) "Figura 6.3 Scheda Dettagli della finestra di dialogo Certificato"](https://technet.microsoft.com/it-it/cc163080.xpsg0603_big(it-it,technet.10).jpg)
+    [![](images/Cc163080.XPSG0603(it-it,TechNet.10).jpg "Figura 6.3 Scheda Dettagli della finestra di dialogo Certificato")](https://technet.microsoft.com/it-it/cc163080.xpsg0603_big(it-it,technet.10).jpg)
 
     **Figura 6.3 Scheda Dettagli della finestra di dialogo Certificato**
 
 3.  Viene visualizzata la schermata iniziale **Esportazione guidata certificati**. Scegliere **Avanti** per continuare.
 
-    [![](images/Cc163080.XPSG0604(it-it,TechNet.10).jpg) "Figura 6.4 Schermata iniziale Esportazione guidata certificati"](https://technet.microsoft.com/it-it/cc163080.xpsg0604_big(it-it,technet.10).jpg)
+    [![](images/Cc163080.XPSG0604(it-it,TechNet.10).jpg "Figura 6.4 Schermata iniziale Esportazione guidata certificati")](https://technet.microsoft.com/it-it/cc163080.xpsg0604_big(it-it,technet.10).jpg)
 
     **Figura 6.4 Schermata iniziale Esportazione guidata certificati**
 
 4.  Nella pagina **Formato file di esportazione**, selezionare **X.509 binario codificato DER (.CER)** e fare clic su **Avanti** per creare il file di certificato con estensione .cer.
 
-    [![](images/Cc163080.XPSG0605(it-it,TechNet.10).jpg) "Figura 6.5 Pagina Esportazione guidata certificati, Formato file di esportazione in cui viene visualizzato il metodo di codifica selezionato"](https://technet.microsoft.com/it-it/cc163080.xpsg0605_big(it-it,technet.10).jpg)
+    [![](images/Cc163080.XPSG0605(it-it,TechNet.10).jpg "Figura 6.5 Pagina Esportazione guidata certificati, Formato file di esportazione in cui viene visualizzato il metodo di codifica selezionato")](https://technet.microsoft.com/it-it/cc163080.xpsg0605_big(it-it,technet.10).jpg)
 
     **Figura 6.5 Pagina Esportazione guidata certificati, Formato file di esportazione in cui viene visualizzato il metodo di codifica selezionato**
 
 5.  Nella pagina **File da esportare**, specificare un nome file descrittivo per la regola certificato. Il certificato verrà salvato nella posizione e con il nome file selezionati.
 
-    [![](images/Cc163080.XPSG0606(it-it,TechNet.10).jpg) "Figura 6.6 Pagina Esportazione guidata certificati, File da esportare in cui viene visualizzato un nome file di esempio"](https://technet.microsoft.com/it-it/cc163080.xpsg0606_big(it-it,technet.10).jpg)
+    [![](images/Cc163080.XPSG0606(it-it,TechNet.10).jpg "Figura 6.6 Pagina Esportazione guidata certificati, File da esportare in cui viene visualizzato un nome file di esempio")](https://technet.microsoft.com/it-it/cc163080.xpsg0606_big(it-it,technet.10).jpg)
 
     **Figura 6.6 Pagina Esportazione guidata certificati, File da esportare in cui viene visualizzato un nome file di esempio**
 
 6.  Sulla pagina **Completamento dell'Esportazione guidata certificati** vengono visualizzate le impostazioni specificate per il file di certificato. Controllare le impostazioni e scegliere **Fine** per esportare il file.
 
-    [![](images/Cc163080.XPSG0607(it-it,TechNet.10).jpg) "Figura 6.7 Pagina Completamento dell'Esportazione guidata certificati in cui vengono visualizzate le impostazioni specificate"](https://technet.microsoft.com/it-it/cc163080.xpsg0607_big(it-it,technet.10).jpg)
+    [![](images/Cc163080.XPSG0607(it-it,TechNet.10).jpg "Figura 6.7 Pagina Completamento dell'Esportazione guidata certificati in cui vengono visualizzate le impostazioni specificate")](https://technet.microsoft.com/it-it/cc163080.xpsg0607_big(it-it,technet.10).jpg)
 
     **Figura 6.7 Pagina Completamento dell'Esportazione guidata certificati in cui vengono visualizzate le impostazioni specificate**
 
@@ -418,7 +418,7 @@ Per accertarsi che i programmi non contengano virus, è possibile utilizzare un 
 
 -   Quando si modifica un criterio di restrizione software, nella finestra di dialogo **Proprietà - Imposizione** selezionare **Tutti i file nel software tranne le librerie (ad esempio, le DLL)** come mostrato nella figura seguente:
 
-    [![](images/Cc163080.XPSG0608(it-it,TechNet.10).jpg) "Figura 6.8 Finestra di dialogo Proprietà - Imposizione in cui vengono visualizzate le opzioni di imposizione per file e utenti"](https://technet.microsoft.com/it-it/cc163080.xpsg0608_big(it-it,technet.10).jpg)
+    [![](images/Cc163080.XPSG0608(it-it,TechNet.10).jpg "Figura 6.8 Finestra di dialogo Proprietà - Imposizione in cui vengono visualizzate le opzioni di imposizione per file e utenti")](https://technet.microsoft.com/it-it/cc163080.xpsg0608_big(it-it,technet.10).jpg)
 
     **Figura 6.8 Finestra di dialogo Proprietà - Imposizione in cui vengono visualizzate le opzioni di imposizione per file e utenti**
 
@@ -440,7 +440,7 @@ Nella finestra di dialogo **Proprietà - Tipi di file designati**, mostrata nell
 
 Le regole dei criteri di restrizione software vengono applicate solo ai tipi di file elencati nella finestra di dialogo **Proprietà - Tipi di file designati**. Se nel proprio ambiente vengono utilizzati tipi di file a cui si desidera applicare alcune regole, è sufficiente aggiungerli all'elenco. Per i file di script Perl, ad esempio, si può scegliere di aggiungere i file .pl e altri tipi di file associati al modulo Perl all'elenco **Tipi di file designati:** nella scheda **Generale** della finestra di dialogo **Proprietà - Tipi di file designati**.
 
-[![](images/Cc163080.XPSG0609(it-it,TechNet.10).jpg) "Figura 6.9 Finestra di dialogo Proprietà - Tipi di file designati"](https://technet.microsoft.com/it-it/cc163080.xpsg0609_big(it-it,technet.10).jpg)
+[![](images/Cc163080.XPSG0609(it-it,TechNet.10).jpg "Figura 6.9 Finestra di dialogo Proprietà - Tipi di file designati")](https://technet.microsoft.com/it-it/cc163080.xpsg0609_big(it-it,technet.10).jpg)
 
 **Figura 6.9 Finestra di dialogo Proprietà - Tipi di file designati**
 
@@ -582,7 +582,7 @@ Per configurare gli utenti che possono selezionare autori attendibili, è possib
   
 Le opzioni incluse nella scheda **Generale** della finestra di dialogo **Proprietà - Autori attendibili**, indicata nella figura seguente, consentono di configurare le impostazioni relative ai controlli ActiveX e ad altro contenuto firmato.
   
-[![](images/Cc163080.XPSG0610(it-it,TechNet.10).jpg) "Figura 6.10 Finestra di dialogo Proprietà - Autori attendibili"](https://technet.microsoft.com/it-it/cc163080.xpsg0610_big(it-it,technet.10).jpg)
+[![](images/Cc163080.XPSG0610(it-it,TechNet.10).jpg "Figura 6.10 Finestra di dialogo Proprietà - Autori attendibili")](https://technet.microsoft.com/it-it/cc163080.xpsg0610_big(it-it,technet.10).jpg)
   
 **Figura 6.10 Finestra di dialogo Proprietà - Autori attendibili**
   

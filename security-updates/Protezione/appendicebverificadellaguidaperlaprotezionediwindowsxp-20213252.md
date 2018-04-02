@@ -54,13 +54,13 @@ L'ambiente di test consisteva in un servizio directory Windows Server 2003 SP1 
 
 La rete conteneva inoltre due computer client dotati di Windows XP Professional con SP2 in modalità workgroup, utilizzati per verificare modelli di protezione autonomi. I computer portatili nella rete di dominio sono stati riutilizzati per verificare modelli di protezione autonomi per i portatili. La figura seguente illustra la rete di test.
 
-[![](images/Cc163067.SGFG0B01(it-it,TechNet.10).jpg)](https://technet.microsoft.com/it-it/cc163067.sgfg0b01_big(it-it,technet.10).jpg)
+[![](images/Cc163067.SGFG0B01(it-it,TechNet.10).jpg "Figura B.1 Rete utilizzata per verificare la Guida per la protezione di Windows XP in modalità autonoma e di dominio")](https://technet.microsoft.com/it-it/cc163067.sgfg0b01_big(it-it,technet.10).jpg)
 
 **Figura B.1 Rete utilizzata per verificare la Guida per la protezione di Windows XP in modalità autonoma e di dominio**
 
 La rete nella figura seguente è stata sviluppata per verificare i modelli precedenti contenuti in questa guida.
 
-[![](images/Cc163067.SGFG0B02(it-it,TechNet.10).jpg)](https://technet.microsoft.com/it-it/cc163067.sgfg0b02_big(it-it,technet.10).jpg)
+[![](images/Cc163067.SGFG0B02(it-it,TechNet.10).jpg "Figura B.2 Rete utilizzata per verificare i modelli precedenti di protezione contenuti in questa guida")](https://technet.microsoft.com/it-it/cc163067.sgfg0b02_big(it-it,technet.10).jpg)
 
 **Figura B.2 Rete utilizzata per verificare i modelli precedenti di protezione contenuti in questa guida**
 

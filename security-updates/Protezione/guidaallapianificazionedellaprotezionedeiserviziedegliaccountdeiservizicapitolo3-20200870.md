@@ -81,7 +81,10 @@ Per un'organizzazione è indispensabile conoscere il numero esatto dei server pr
     Esempio di sintassi:
 
     **Nota:** per facilitare la lettura, alcune parti del seguente frammento di codice sono state visualizzate su più righe. Il comando, tuttavia, deve essere immesso in un'unica riga.
-        ```
+    
+     ```
+     SERVICE GET Name,DisplayName,ProcessId,Started, StartMode,StartName
+     ```
 
     È possibile utilizzare il comando **wmic service list brief** per visualizzare le seguenti proprietà di base di tutti i servizi installati:
 
@@ -267,7 +270,7 @@ Di seguito è riportato l'ordine di utilizzo degli account in una strategia basa
 
 Nel diagramma di flusso riportato nella seguente figura sono indicati gli aspetti da prendere in considerazione per la scelta del tipo di account da utilizzare per l'esecuzione protetta dei servizi.
 
-[![](images/Dd536271.PGFG0301(it-it,TechNet.10).jpg)](https://technet.microsoft.com/it-it/dd536271.pgfg0301_big(it-it,technet.10).gif)
+[![](images/Dd536271.PGFG0301(it-it,TechNet.10).jpg "Dd536271.PGFG0301(it-it,TechNet.10).jpg")](https://technet.microsoft.com/it-it/dd536271.pgfg0301_big(it-it,technet.10).gif)
 
 **Figura 3.1. Distribuzione dei servizi mediante una gerarchia basata sul privilegio minimo**
 

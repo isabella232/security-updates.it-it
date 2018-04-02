@@ -19,7 +19,7 @@ La seguente tabella Riepilogo di attenuazione dei rischi contiene i rischi relat
 
 **Tabella 5.1. Riepilogo di attenuazione dei rischi**
 
-![](images/Cc162816.865b473f-87a8-459c-80f3-79361863d073(it-it,TechNet.10).gif)
+![](images/Cc162816.865b473f-87a8-459c-80f3-79361863d073(it-it,TechNet.10).gif "Riepilogo di attenuazione dei rischi")
 ##### In questa pagina
 
 [](#ecaa)[Utilizzo della tabella di riepilogo di attenuazione dei rischi](#ecaa)

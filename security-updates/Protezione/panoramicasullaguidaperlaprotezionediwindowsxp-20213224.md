@@ -43,7 +43,7 @@ Gli specialisti della protezione e gli architetti IT possono avere bisogno di in
 
 Windows XP è la versione più affidabile del sistema operativo client Windows ad oggi, con funzionalità di protezione e privacy migliorate. La protezione complessiva di Windows XP è stata migliorata per garantire la sicurezza delle attività e un ambiente più protetto all'interno dell'organizzazione. La *Guida per la protezione di Windows XP* è composta da sette capitoli e i capitoli da due a sei descrivono le procedure richieste per creare tale ambiente. Ciascuno di questi capitoli utilizza un processo end-to-end progettato per proteggere computer con Windows XP.
 
-[![](images/Cc163061.default1(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163061.default1_big(it-it,technet.10).gif)
+[![](images/Cc163061.default1(it-it,TechNet.10).gif "Figura 1 Descrizione dei capitoli della Guida per la protezione di Windows XP")](https://technet.microsoft.com/it-it/cc163061.default1_big(it-it,technet.10).gif)
 
 **Figura 1 Descrizione dei capitoli della Guida per la protezione di Windows XP**
 

@@ -111,7 +111,7 @@ Prima di procedere alla creazione di questi componenti, è importante ottenere i
 
 La figura seguente illustra la configurazione di rete utilizzata per simulare lo scenario della Woodgrove Bank.
 
-[![](images/Dd536208.SGFG0501(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536208.sgfg0501_big(it-it,technet.10).gif)
+[![](images/Dd536208.SGFG0501(it-it,TechNet.10).gif "Figura 5.1. Configurazione di rete della Woodgrove Bank")](https://technet.microsoft.com/it-it/dd536208.sgfg0501_big(it-it,technet.10).gif)
 
 **Figura 5.1. Configurazione di rete della Woodgrove Bank**
 
@@ -141,7 +141,7 @@ Lo scenario di prova illustrato nella figura 5.1 è stato utilizzato per testare
 
 I criteri IPsec sono costituiti da vari componenti, che consentono di applicare i requisiti di protezione IPsec scelti dall'organizzazione. La figura seguente illustra i vari componenti di un criterio IPsec e le loro associazioni.
 
-[![](images/Dd536208.SGFG0502(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536208.sgfg0502_big(it-it,technet.10).gif)
+[![](images/Dd536208.SGFG0502(it-it,TechNet.10).gif "Figura 5.2. Componenti dei criteri IPsec")](https://technet.microsoft.com/it-it/dd536208.sgfg0502_big(it-it,technet.10).gif)
 
 **Figura 5.2. Componenti dei criteri IPsec**
 

@@ -24,7 +24,7 @@ Gli elenchi di revoche possono essere distribuiti dall'amministratore ai compute
 
 Nella figura riportata di seguito sono illustrati il processo di binding e il funzionamento della revoca durante tale processo.
 
-![](images/Cc720263.81aa2d70-d261-49ad-b446-96a2eddba1a5(WS.10).gif)
+![](images/Cc720263.81aa2d70-d261-49ad-b446-96a2eddba1a5(WS.10).gif "Processo di associazione")
 
 La revoca è facoltativa. L'amministratore di RMS può richiedere la revoca specificandola in uno o più modelli di criteri per i diritti dell'organizzazione. Quando la revoca è attivata, una licenza può eseguire il binding solo se l'elenco di revoche necessario è presente, registrato nel computer dell'utente e aggiornato in base all'intervallo di aggiornamento indicato nella licenza d'uso.
 

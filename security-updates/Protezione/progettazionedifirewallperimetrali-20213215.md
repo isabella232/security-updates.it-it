@@ -90,7 +90,7 @@ In un'architettura di rete aziendale sono in genere presenti tre aree:
 
 Queste reti sono illustrate nella figura 1.
 
-![](images/Cc700828.SGFG15601(it-it,TechNet.10).gif)
+![](images/Cc700828.SGFG15601(it-it,TechNet.10).gif "Architettura della rete aziendale")
 
 Figura 1
 *Architettura della rete aziendale*
@@ -1072,7 +1072,7 @@ Per aumentare la disponibilità del firewall perimetrale, è possibile implement
   
 Nella figura 2 è illustrato un firewall singolo senza componenti ridondanti:
   
-![](images/Cc700828.SGFG15602(it-it,TechNet.10).gif)
+![](images/Cc700828.SGFG15602(it-it,TechNet.10).gif "Firewall singolo senza componenti ridondanti")
   
 Figura 2  
 *Firewall singolo senza componenti ridondanti*
@@ -1106,7 +1106,7 @@ Tra gli svantaggi di un firewall singolo senza ridondanza sono inclusi:
   
 Nella figura 3 è illustrato un livello di firewall singolo con componenti ridondanti:
   
-![](images/Cc700828.SGFG15603(it-it,TechNet.10).gif)
+![](images/Cc700828.SGFG15603(it-it,TechNet.10).gif "Firewall singolo con componenti ridondanti")
   
 Figura 3  
 *Firewall singolo con componenti ridondanti*
@@ -1143,7 +1143,7 @@ Tra gli svantaggi di un firewall singolo con componenti ridondanti sono inclusi:
   
 Un set di firewall con tolleranza d'errore include un meccanismo per duplicare ogni firewall, come illustrato nella figura 4.
   
-![](images/Cc700828.SGFG15604(it-it,TechNet.10).gif)
+![](images/Cc700828.SGFG15604(it-it,TechNet.10).gif "Firewall con tolleranza d'errore")
   
 Figura 4  
 *Firewall con tolleranza d'errore*
@@ -1185,7 +1185,7 @@ In un set di firewall con tolleranza d'errore di tipo attivo/passivo un disposit
   
 Nella figura 5 è illustrato un set di firewall con tolleranza d'errore di tipo attivo/passivo.
   
-![](images/Cc700828.SGFG15605(it-it,TechNet.10).gif)
+![](images/Cc700828.SGFG15605(it-it,TechNet.10).gif "Set di firewall con tolleranza d'errore di tipo attivo/passivo ")
   
 Figura 5  
 *Set di firewall con tolleranza d'errore di tipo attivo/passivo*
@@ -1215,7 +1215,7 @@ In un set di firewall con tolleranza d'errore di tipo attivo/attivo, due o più 
   
 Nella figura 6 è illustrato un set di firewall con tolleranza d'errore di tipo attivo/attivo.
   
-![](images/Cc700828.SGFG15606(it-it,TechNet.10).gif)
+![](images/Cc700828.SGFG15606(it-it,TechNet.10).gif "Set di firewall con tolleranza d'errore di tipo attivo/attivo")
   
 Figura 6  
 *Set di firewall con tolleranza d'errore di tipo attivo/attivo*

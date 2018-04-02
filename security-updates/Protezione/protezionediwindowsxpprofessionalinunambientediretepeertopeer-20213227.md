@@ -87,7 +87,7 @@ FAT32 è una tecnologia meno recente, utilizzata da versioni precedenti di Windo
 
 3.  Il tipo di file system dovrebbe essere NTFS, come mostrato nella schermata seguente. In caso contrario, l'utilità Convert.exe consente di eseguire la conversione da FAT16 o FAT32 a NTFS.
 
-    ![](images/Cc875837.XPP2P01(it-it,TechNet.10).gif)
+    ![](images/Cc875837.XPP2P01(it-it,TechNet.10).gif "XPP2P01.GIF")
 
 Ripetere la procedura per tutte le partizioni sui dischi rigidi del computer. Anche se il file system è stato configurato come FAT32 al momento dell'installazione del sistema operativo, è semplice convertirlo in NTFS per assicurare ulteriore protezione.
 
@@ -157,7 +157,7 @@ Le funzionalità di rete peer-to-peer di Windows consentono di condividere il co
 
 2.  Nella scheda **Condivisione** scegliere **Autorizzazioni**. Verrà visualizzata una schermata simile alla seguente:
 
-    ![](images/Cc875837.XPP2P02(it-it,TechNet.10).gif)
+    ![](images/Cc875837.XPP2P02(it-it,TechNet.10).gif "XPP2P02.GIF")
 
 3.  Selezionare il gruppo **Everyone**, quindi scegliere **Rimuovi**.
 
