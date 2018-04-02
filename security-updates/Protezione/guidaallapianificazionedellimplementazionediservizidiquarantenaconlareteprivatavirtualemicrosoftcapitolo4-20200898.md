@@ -123,7 +123,7 @@ Gli account utente e l'appartenenza ai gruppi in Active Directory regolano la co
 
 Nella figura seguente viene illustrata l'implementazione della soluzione di connessione VPN in quarantena adottata in Woodgrove National Bank.
 
-[![](images/Dd536299.vppgch04_PGFG0401(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536299.vppgch04_pgfg0401_big(it-it,technet.10).gif)
+[![](images/Dd536299.vppgch04_PGFG0401(it-it,TechNet.10).gif "Figura 4.1 Processo di connessione VPN in quarantena in Woodgrove National Bank")](https://technet.microsoft.com/it-it/dd536299.vppgch04_pgfg0401_big(it-it,technet.10).gif)
 
 **Figura 4.1 Processo di connessione VPN in quarantena in Woodgrove National Bank**
 
@@ -211,7 +211,7 @@ Connection Manager memorizza i risultati delle azioni pre-tunnel nella seguente 
 
 Le azioni pre-tunnel devono sempre avere esito positivo ed è sempre necessario verificare i risultati con l'azione post-connessione dell'agente Servizio quarantena accesso remoto per determinare lo stato da inviare al server VPN. Un approccio di questo tipo consente di gestire le eccezioni in modo flessibile, senza alcuna modifica di Connection Manager. Nella figura seguente è illustrata la logica dello script dell'azione personalizzata pre-tunnel utilizzata in Woodgrove National Bank.
 
-[![](images/Dd536299.vppgch04_PGFG0402(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536299.vppgch04_pgfg0402_big(it-it,technet.10).gif)
+[![](images/Dd536299.vppgch04_PGFG0402(it-it,TechNet.10).gif "Figura 4.2 Azioni pre-tunnel utilizzate in Woodgrove National Bank")](https://technet.microsoft.com/it-it/dd536299.vppgch04_pgfg0402_big(it-it,technet.10).gif)
 
 **Figura 4.2 Azioni pre-tunnel utilizzate in Woodgrove National Bank**
 
@@ -239,7 +239,7 @@ Dopo che il client ha superato tutte le verifiche pre-tunnel, Connection Manager
 
 Nella figura seguente sono illustrati i dettagli della logica dello script dell'azione personalizzata post-connessione.
 
-[![](images/Dd536299.PGFG0403(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536299.pgfg0403_big(it-it,technet.10).gif)
+[![](images/Dd536299.PGFG0403(it-it,TechNet.10).gif "Figura 4.3 Azioni post-connessione utilizzate in Woodgrove National Bank")](https://technet.microsoft.com/it-it/dd536299.pgfg0403_big(it-it,technet.10).gif)
 
 **Figura 4.3 Azioni post-connessione utilizzate in Woodgrove National Bank**
 
@@ -354,7 +354,7 @@ Con questo attributo si imposta il timeout massimo per la quarantena del compute
   
 Nella figura seguente vengono illustrati gli attributi specifici del fornitore per cui è necessaria una configurazione nei criteri di accesso remoto per il supporto della connessione VPN in quarantena.
   
-[![](images/Dd536299.PGFG0404(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536299.pgfg0404_big(it-it,technet.10).gif)
+[![](images/Dd536299.PGFG0404(it-it,TechNet.10).gif "Figura 4.4  Attributi specifici del fornitore MS-Quarantine necessari per la connessione VPN in quarantena.")](https://technet.microsoft.com/it-it/dd536299.pgfg0404_big(it-it,technet.10).gif)
   
 **Figura 4.4 Attributi specifici del fornitore MS-Quarantine necessari per la connessione VPN in quarantena.**
   
