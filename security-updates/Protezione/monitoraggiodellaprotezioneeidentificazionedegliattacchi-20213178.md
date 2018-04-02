@@ -67,7 +67,7 @@ Questo documento utilizza il modello di elaborazione MOF (Microsoft Operations F
 
 In particolare, la soluzione presentata in questo documento consiglia l'uso di un approccio che prevede un processo continuo anziché di un approccio di distribuzione lineare al monitoraggio della protezione e all'identificazione degli attacchi. Nello specifico, questa soluzione è basata sui passaggi mostrati nella figura che segue:
 
-![](images/Cc875806.SMAAD1(it-it,TechNet.10).gif)
+![](images/Cc875806.SMAAD1(it-it,TechNet.10).gif "Figura 1. Applicazione di MOF")
 
 **Figura 1. Applicazione di MOF**
 
@@ -147,7 +147,7 @@ Le sottosezioni che seguono contengono alcune considerazioni sull'implementazion
 
 Tutte le versioni di Microsoft Windows, da Microsoft Windows NT versione 3.1 e successive, sono in grado di registrare gli eventi di protezione utilizzando la funzionalità predefinita dei file di registro. In un ambiente basato su Microsoft Windows, questa funzionalità è alla base del monitoraggio della protezione. Tuttavia, senza altre utilità o strumenti aggiuntivi in grado di correlare queste informazioni risulta difficile utilizzare attivamente tale funzionalità perché le informazioni vengono disperse.
 
-[![](images/Cc875806.SMAAD2(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875806.smaad2_big(it-it,technet.10).gif)
+[![](images/Cc875806.SMAAD2(it-it,TechNet.10).gif "Figura 2. Registro di protezione del Visualizzatore eventi")](https://technet.microsoft.com/it-it/cc875806.smaad2_big(it-it,technet.10).gif)
 
 **Figura 2. Registro di protezione del Visualizzatore eventi**
 
@@ -161,7 +161,7 @@ Le impostazioni di Criterio controllo di Criteri di gruppo, sotto Configurazione
 
 Gli eventi di controllo vengono illustrati in maniera molto dettagliata in tutto il documento, pertanto è importante acquisire una conoscenza di base della loro struttura e delle informazioni in essi contenute.
 
-![](images/Cc875806.SMAAD3(it-it,TechNet.10).gif)
+![](images/Cc875806.SMAAD3(it-it,TechNet.10).gif "Figura 3. Finestra Proprietà evento")
 
 **Figura 3. Finestra Proprietà evento**
 
@@ -459,7 +459,7 @@ EventCombMT (multithreaded) è un componente della [*Guida per la protezione di 
   
 -   Durata dell'evento in minuti, ore o giorni
   
-[![](images/Cc875806.SMAAD4(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875806.smaad4_big(it-it,technet.10).gif)
+[![](images/Cc875806.SMAAD4(it-it,TechNet.10).gif "Figura 4. EventCombMT")](https://technet.microsoft.com/it-it/cc875806.smaad4_big(it-it,technet.10).gif)
   
 **Figura 4. EventCombMT**
   
@@ -519,7 +519,7 @@ Microsoft Internet Security and Acceleration (ISA) Server è un pacchetto avanza
   
 Oltre all'utilità di difesa attiva, ISA Server fornisce anche una funzione di monitoraggio della protezione grazie alla sua capacità di agire come strumento di controllo centralizzato e in grado di monitorare tutte le attività che richiedono l'attraversamento del perimetro della rete. Le capacità di registrazione di ISA Server includono la cattura del traffico sul firewall, l'attività proxy sul Web e i registri di screening dei messaggi SMTP. Questi registri possono essere filtrati, utilizzati per interrogazioni o monitorati in tempo reale utilizzando il visualizzatore registro in tempo reale predefinito (mostrato nella schermata seguente) o il dashboard di monitoraggio.
   
-[![](images/Cc875806.SMAAD5(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc875806.smaad5_big(it-it,technet.10).gif)
+[![](images/Cc875806.SMAAD5(it-it,TechNet.10).gif "Figura 5. Visualizzatore registro in tempo reale di Microsoft ISA Server 2004")](https://technet.microsoft.com/it-it/cc875806.smaad5_big(it-it,technet.10).gif)
   
 **Figura 5. Visualizzatore registro in tempo reale di Microsoft ISA Server 2004**
   
@@ -767,7 +767,7 @@ I parametri che è possibile specificare dalla riga di comando sono i seguenti:
   
 Un file delle impostazioni del controllo per utente è un file di solo testo nel formato illustrato nella figura che segue.
   
-![](images/Cc875806.SMAAD6(it-it,TechNet.10).gif)
+![](images/Cc875806.SMAAD6(it-it,TechNet.10).gif "Figura 6. Esempio di file Auditusr.exe di importazione")
   
 **Figura 6. Esempio di file Auditusr.exe di importazione**
   
