@@ -118,7 +118,7 @@ La figura 7.1 è utile per la diagnosi iniziale e per individuare il tipo di pro
 
 -   **È un problema relativo a IPsec sul computer di destinazione a cui il chiamante tenta di connettersi?** In questo caso, vedere la figura 7.3.  
 
-    [![](images/Dd536210.SGFG0701(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536210.sgfg0701_big(it-it,technet.10).gif)
+    [![](images/Dd536210.SGFG0701(it-it,TechNet.10).gif "Dd536210.SGFG0701(it-it,TechNet.10).gif")](https://technet.microsoft.com/it-it/dd536210.sgfg0701_big(it-it,technet.10).gif)
 
     **Figura 7.1. Procedura di risoluzione dei problemi in caso di assenza di comunicazione con un computer di destinazione**
 
@@ -134,7 +134,7 @@ La figura 7.2 ha lo scopo di facilitare l'identificazione dei problemi del compu
 
 -   **Nessuno dei casi precedenti?** Se l'aggiornamento dei criteri IPsec e/o la creazione di un account di dominio non risolvono il problema, assegnarlo al supporto di 2° livello.
 
-    [![](images/Dd536210.SGFG0702(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536210.sgfg0702_big(it-it,technet.10).gif)
+    [![](images/Dd536210.SGFG0702(it-it,TechNet.10).gif "Dd536210.SGFG0702(it-it,TechNet.10).gif")](https://technet.microsoft.com/it-it/dd536210.sgfg0702_big(it-it,technet.10).gif)
 
     **Figura 7.2. Risoluzione dei problemi relativi a IPsec del computer del chiamante - Problemi correlati**
 
@@ -148,7 +148,7 @@ La figura 7.3 ha lo scopo di facilitare l'identificazione dei problemi con uno s
 
 -   **È un problema relativo ai diritti di accesso?** In questo caso, assegnare il problema al supporto di 2° livello.
 
-    [![](images/Dd536210.SGFG0703(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536210.sgfg0703_big(it-it,technet.10).gif)
+    [![](images/Dd536210.SGFG0703(it-it,TechNet.10).gif "Dd536210.SGFG0703(it-it,TechNet.10).gif")](https://technet.microsoft.com/it-it/dd536210.sgfg0703_big(it-it,technet.10).gif)
 
     **Figura 7.3. Risoluzione dei problemi relativi a IPsec del computer di destinazione – Problemi correlati**
 
