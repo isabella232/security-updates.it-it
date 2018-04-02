@@ -1046,7 +1046,7 @@ Per informazioni più dettagliate sulla fase di distribuzione, vedere il modulo 
   
 Nella Figura 1 sono illustrati il processo e le sue quattro fasi.
   
-[![](images/Dd536229.secmod193_1(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536229.secmod193_1(it-it,technet.10).gif)  
+[![](images/Dd536229.secmod193_1(it-it,TechNet.10).gif "Figura 1")](https://technet.microsoft.com/it-it/dd536229.secmod193_1(it-it,technet.10).gif)  
 **Figura 1. Il processo di gestione degli aggiornamenti in quattro fasi consigliato da Microsoft**
   
 Questo processo in quattro fasi si basa sulle funzioni di gestione dei servizi (SMF, Service Management Function) MOF Gestione dei cambiamenti, Gestione del rilascio e Gestione della configurazione, reperibili all'indirizzo [http://www.microsoft.com/technet/itsolutions/cits/mo/default.mspx](http://www.microsoft.com/technet/solutionaccelerators/msf/default.mspx) (in inglese).
