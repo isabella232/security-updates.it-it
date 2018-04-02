@@ -70,7 +70,7 @@ Per un discorso generale sugli antivirus, è possibile applicare le seguenti sem
 
 Nell'ambito di questa Guida, *payload* è un termine collettivo relativo alle azioni eseguite da un attacco di software dannoso sul computer infetto. Queste definizioni delle diverse categorie di software dannoso consentono di illustrare le differenze attraverso un semplice diagramma di flusso. Nella figura riportata di seguito sono illustrati gli elementi che consentono di determinare se un programma o uno script rientra in una di queste categorie:
 
-![](images/Dd536184.AVFG0201(it-it,TechNet.10).gif)
+![](images/Dd536184.AVFG0201(it-it,TechNet.10).gif "Figura 2.1 Struttura decisionale di codice dannoso")
 
 **Figura 2.1 Struttura decisionale di codice dannoso**
 
