@@ -11,7 +11,7 @@ Pianificazione di una topologia RMS di base
 
 La topologia RMS di base consiste in uno o più server fisici che fungono da cluster di certificazione principale. Tale cluster consente la certificazione, la gestione di licenze e la pubblicazione nell'organizzazione. Ad eccezione delle distribuzioni di dimensioni molto contenute, più server fisici vengono solitamente configurati come cluster con un unico URL. Il cluster viene creato eseguendo il provisioning del primo server, in modo da creare il server di certificazione principale, quindi aggiungendo server al cluster finché non si è raggiunto il numero di server di certificazione principali necessari per supportare l'attività pianificata. Nella figura riportata di seguito viene illustrata tale topologia.
 
-![](images/Cc747755.a3332719-4d25-4694-a89a-7c31fd97ca3b(WS.10).gif)
+![](images/Cc747755.a3332719-4d25-4694-a89a-7c31fd97ca3b(WS.10).gif "Topologia di base")
 
 I server aggiunti a un cluster condividono gli stessi database di configurazione e di registrazione attività, ovvero dei database SQL Server. È possibile installare SQL Server sul server di certificazione principale o su un server distinto.
 
