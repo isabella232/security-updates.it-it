@@ -17,7 +17,7 @@ L'elaborazione di un piano di gestione dei rischi di protezione può essere vist
 
 Questa guida assiste tutti i tipi di organizzazione nella pianificazione, costruzione e implementazione di un programma di gestione dei rischi di protezione efficace. Mediante le quattro fasi illustrate sotto, la guida illustra le modalità di esecuzione del programma di gestione dei rischi e spiega come sviluppare il processo in continua evoluzione che consente di misurare i rischi di protezione, portandoli a un livello accettabile.
 
-![](images/Cc163143.Overvi01(it-it,TechNet.10).gif)
+![](images/Cc163143.Overvi01(it-it,TechNet.10).gif "Overvi01.gif")
 
 Le indicazioni contenute in questa guida sono valide indipendentemente dalle tecnologie utilizzate e fanno riferimento a numerosi standard di settore ampiamente accettati per la gestione dei rischi di protezione. Questa guida è un importante esempio dell'impegno dimostrato da Microsoft per offrire documentazione, indicazioni e supporto di alto livello che consentano alla clientela di proteggere le proprie infrastrutture IT in modo ottimale. La guida presenta inoltre alcune esperienze reali del reparto IT di Microsoft e include utili segnalazioni ricevute dai clienti e partner Microsoft.
 
