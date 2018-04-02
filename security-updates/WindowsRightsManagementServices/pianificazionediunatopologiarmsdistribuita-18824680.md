@@ -15,7 +15,7 @@ Si noti che, come il server di certificazione principale, anche i server licenze
 
 Benché sia possibile configurare l'installazione RMS per eseguire solo i servizi di certificazione dall'installazione principale, oltre che gestire l'intero servizio licenze da uno o più server o cluster licenze, questa non è la configurazione tipica. Il numero di server fisici disponibili nel cluster di certificazione principale viene solitamente aumentato per soddisfare le esigenze di prestazioni e di ridondanza, invece di distribuire server licenze distinti, a meno che non sia necessario supporto a livello di reparto per la gestione delle licenze. Tale distribuzione viene illustrata nel diagramma riportato di seguito.
 
-![](images/Cc747657.01fa5a85-5711-41aa-932a-124049d34186(WS.10).gif)
+![](images/Cc747657.01fa5a85-5711-41aa-932a-124049d34186(WS.10).gif "Topologia distribuita")
 
 La costruzione di una topologia distribuita può aumentare i costi amministrativi per l'organizzazione, poiché una topologia distribuita è intrinsecamente più complessa. Se l'organizzazione ha più cluster licenze e più insiemi di strutture, può essere necessario sovrascrivere il registro di sistema dei computer client RMS per assicurarsi che inviino le richieste di licenza al server RMS corretto. È inoltre possibile che si verifichino problemi di trust tra i domini. Questo richiede di configurare ulteriormente i domini per permettere l'utilizzo del contenuto protetto con RMS.
 
