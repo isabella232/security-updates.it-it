@@ -192,7 +192,7 @@ L'esecuzione degli script determina i seguenti tipi di risultati:
   
 È necessario connettere i componenti alla rete come illustrato nella figura seguente o in base ai requisiti specifici della rete.
   
-[![](images/Dd536232.PEAP_301(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536232.peap_301_big(it-it,technet.10).gif)
+[![](images/Dd536232.PEAP_301(it-it,TechNet.10).gif "Dd536232.PEAP_301(it-it,TechNet.10).gif")](https://technet.microsoft.com/it-it/dd536232.peap_301_big(it-it,technet.10).gif)
   
 **Figura 3.1 Semplice configurazione di rete WLAN**
   
