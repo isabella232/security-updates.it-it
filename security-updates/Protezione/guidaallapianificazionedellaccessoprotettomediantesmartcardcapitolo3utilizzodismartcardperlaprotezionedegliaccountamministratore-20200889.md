@@ -451,7 +451,7 @@ Nella presente sezione vengono descritti i processi dettagliati che si verifican
 
 Questo processo viene illustrato nella seguente figura:
 
-[![](images/Dd536290.PGFG0301(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536290.pgfg0301_big(it-it,technet.10).gif)
+[![](images/Dd536290.PGFG0301(it-it,TechNet.10).gif "Figura 3.1 Processo di autenticazione dell'accesso con smart card")](https://technet.microsoft.com/it-it/dd536290.pgfg0301_big(it-it,technet.10).gif)
 
 **Figura 3.1 Processo di autenticazione dell'accesso con smart card**
 
