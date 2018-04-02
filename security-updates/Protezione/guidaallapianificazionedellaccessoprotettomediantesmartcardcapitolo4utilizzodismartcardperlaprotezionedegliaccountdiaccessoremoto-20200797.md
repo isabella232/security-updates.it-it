@@ -367,7 +367,7 @@ La procedura descritta di seguito attiva l'accesso remoto con le smart card:
 
 Nella figura seguente sono mostrati i passaggi che devono essere eseguiti per utilizzare una smart card per l'autenticazione dell'accesso remoto.
 
-[![](images/Dd536197.pgfg0401(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536197.pgfg0401_big(it-it,technet.10).gif)
+[![](images/Dd536197.pgfg0401(it-it,TechNet.10).gif "Figura 4.1 Accesso remoto e processo di autenticazione con una smart card")](https://technet.microsoft.com/it-it/dd536197.pgfg0401_big(it-it,technet.10).gif)
 
 **Figura 4.1 Accesso remoto e processo di autenticazione con una smart card**
 
@@ -385,7 +385,7 @@ Il reparto IT di Woodgrove National Bank ha utilizzato il modello di emissione d
 
 Nella figura successiva sono mostrati i passaggi che costituiscono il modello di emissione delegata per l'approvazione delle richieste di certificati.
 
-[![](images/Dd536197.pgfg0402(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536197.pgfg0401_big(it-it,technet.10).gif)
+[![](images/Dd536197.pgfg0402(it-it,TechNet.10).gif "Figura 4.2 Processo di delega utilizzato per emettere le smart card per l'accesso remoto")](https://technet.microsoft.com/it-it/dd536197.pgfg0401_big(it-it,technet.10).gif)
 
 **Figura 4.2 Processo di delega utilizzato per emettere le smart card per l'accesso remoto**
 
