@@ -490,9 +490,11 @@ Questo strumento per script dalla riga di comando può essere utilizzato come ri
 ###### EventQuery.vbs
   
 EventQuery.vbs è uno strumento rilasciato con Windows XP. Può essere utilizzato per ottenere l'elenco degli eventi e le proprietà degli eventi da uno o più registri degli eventi. Per poter utilizzare questo script, è necessario che sia in esecuzione lo script host basato sui comandi (CScript.exe). Se il Windows Script Host predefinito non è stato impostato su CScript, è possibile effettuare questa operazione con il seguente comando:
-  
-<codesnippet language displaylanguage containsmarkup="false">Cscript //h:cscript //s //nologo  
+
+```
+Cscript //h:cscript //s //nologo  
 ```  
+
 Questa utilità di script dalla riga di comando è estremamente flessibile e può accettare un elevato numero di parametri per regolare il filtraggio e il formato da applicare all'output. Per ulteriori informazioni sull'utilizzo di questo strumento e sui parametri disponibili, vedere l'argomento [Managing event logs from the Command Line](http://technet.microsoft.com/en-us/library/cc757231.aspx) (in inglese) presente in Windows XP Professional Product Documentation (in inglese) all'indirizzo www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/event\_commandline.mspx?mfr=true.
   
 ###### Registrazione di Internet Information Services (IIS).
