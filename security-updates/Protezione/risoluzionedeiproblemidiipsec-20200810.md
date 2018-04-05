@@ -193,7 +193,11 @@ Se l'utente è un amministratore locale, il personale dell'help desk può richie
 ###### IPsec\_Debug.vbs
 
 Oltre a fornire informazioni di debug, questo script può risolvere alcuni problemi. Arresta e riavvia il servizio IPsec (eliminando tutte le associazioni di protezione di IKE e IPsec correnti), esegue un aggiornamento forzato dei criteri di gruppo per ricaricare il criterio IPsec corrente assegnato al dominio dal servizio Active Directory® e aggiorna la cache dei criteri. Al fine di evitare la perdita di connettività per le sessioni di Desktop remoto, è necessario scaricare lo script sul computer del chiamante ed eseguirlo localmente tramite un account con privilegi amministrativi. Per eseguire lo script dal prompt dei comandi, utilizzare la sintassi seguente:
-        ```
+
+```
+cscript IPsec_Debug.vbs
+```  
+
 Lo script esegue le funzioni seguenti:
 
 -   Identificazione della versione del sistema operativo
@@ -229,13 +233,22 @@ Questo script abilita, inoltre, tutti i registri correlati a IPsec per la risolu
 ###### Detect\_IPsec\_Policy.vbs
 
 Questo script determina se il computer sta eseguendo il criterio IPsec corretto, verificando nella cache del Registro di sistema locale le informazioni sulla versione del criterio IP di dominio. Per eseguire lo script dal prompt dei comandi, utilizzare la sintassi seguente:
-        ```
+
+```
+cscript Detect_IPsec_Policy.vbs
+```  
+
 **Nota:** questo script viene richiamato anche da **IPsec\_Debug.vbs** e quindi non deve essere eseguito se quest'ultimo è già stato completato.
 
 ###### Refresh\_IPsec\_Policy.vbs
 
 È lo script di aggiornamento dei criteri IPsec, già menzionato nei diagrammi di flusso per la risoluzione dei problemi. Aggiorna i ticket del protocollo di autenticazione Kerberos e i criteri di gruppo e potrebbe risolvere il problema, se questo è causato da un'assegnazione errata dei criteri IPsec o da un errore di download dei criteri di gruppo. Per eseguire lo script dal prompt dei comandi, utilizzare la sintassi seguente:
-        ```
+
+```
+cscript Refresh_IPsec_Policy.vbs
+
+```  
+
 #### Assegnazione ai livelli successivi
 
 Quando il personale dell'help desk deve assegnare un potenziale problema di IPsec a un livello successivo, insieme alla richiesta di assistenza, deve acquisire e trasferire le informazioni seguenti:
@@ -385,9 +398,17 @@ L'utilità Ipseccmd aggiornata include le seguenti funzionalità:
 Per ulteriori informazioni sull'utilità Ipseccmd aggiornata, consultare l'articolo numero 818043 della Microsoft Knowledge Base citato in precedenza.
 
 Per visualizzare tutte le impostazioni dei criteri IPsec e le statistiche della diagnostica, utilizzare la sintassi seguente:
-        ```
+
+```
+ipseccmd show all
+```  
+
 Per visualizzare i criteri IPsec assegnati e attivi (locali o di Active Directory), utilizzare la sintassi seguente:
-        ```
+
+```
+ipseccmd show gpo
+```  
+
 **Nota:** questo comando funziona solo con la versione per SP2.
 
 Per attivare la registrazione di debug in Windows XP SP2, utilizzare la sintassi seguente:
@@ -734,9 +755,11 @@ documentation/WindowsServ/2003/all/deployguide/
 en-us/dnsbj\_ips.asp.
   
 Windows Server 2003 ricorre alla modalità provvisoria se il servizio IPsec non si avvia o se non è possibile applicare il criterio assegnato. Questa modalità viene applicata soltanto in caso di assegnazione di un criterio IPsec al computer e se il servizio IPsec non è disattivato. Di conseguenza, la connettività verso o da un computer potrebbe interrompersi durante il normale funzionamento perché il driver IPsec non applica il criterio IPsec di dominio. Dopo aver stabilito quale traffico è consentito e quale viene bloccato dalle configurazioni di avvio e permanenti, potrebbe essere facile spiegare il problema di comunicazione. Per ottenere informazioni alternative o aggiuntive, è possibile eseguire una query dello stato corrente dalla riga di comando utilizzando la sintassi seguente:
-  
-<codesnippet language displaylanguage containsmarkup="false">    netsh ipsec dynamic show config  
+
 ```  
+netsh ipsec dynamic show config  
+```  
+
 In Windows Server 2003, il driver IPsec viene caricato all'avvio del computer insieme al driver TCP/IP. Per evitare, pertanto, che il driver IPsec vada in modalità provvisoria, è necessario disattivare il servizio IPsec e riavviare il computer. Il modulo dedicato alla distribuzione di IPsec a cui si faceva precedentemente riferimento contiene una configurazione consigliata delle esenzioni di avvio per esentare le connessioni RDP (Remote Desktop Protocol) e garantire così che l'accesso remoto al server sia possibile quando l'altro traffico viene bloccato.
   
 In una soluzione di isolamento del server e del dominio, il traffico broadcast e quello verso i server DHCP viene esentato per garantire il corretto funzionamento della configurazione IP dinamica. Tuttavia, l'elenco di esenzioni deve essere gestito manualmente e potrebbe non essere aggiornato. Se un computer non riesce a ottenere una configurazione DHCP appropriata (ad esempio, se utilizza un indirizzo IP 169.254.x.x di configurazione automatica) o ha problemi a rinnovare il lease, è necessario verificare che il criterio IPsec contenga le esenzioni corrette. Con il servizio IPsec in esecuzione, utilizzare Ipconfig per verificare eventuali problemi di configurazione degli indirizzi:
@@ -769,8 +792,11 @@ Alcuni ambienti con livello di protezione elevato potrebbero richiedere la prote
   
 Se i problemi di risoluzione dei nomi permangono, è possibile acquisire l'elenco filtri dall'iniziatore e controllare che non siano presenti duplicati. Per visualizzare gli elenchi filtri, è possibile utilizzare le seguenti opzioni della riga di comando:
   
-<codesnippet language displaylanguage containsmarkup="false">Ipseccmd show filters Netsh ipsec static show all   
 ```  
+Ipseccmd show filters  
+Netsh ipsec static show all   
+```  
+
 Se anche in questo caso i problemi di risoluzione dei nomi permangono, sarà necessario interrompere brevemente il servizio IPsec (se possibile) e ripetere i test di risoluzione dei nomi. Se i test di risoluzione dei nomi danno esito negativo solo quando il servizio IPsec è in funzione, si dovrà proseguire l'analisi per stabilire quale criterio IPsec viene applicato, come precedentemente illustrato in questa sezione.
   
 ##### Verifica della connettività e dell'autenticazione con i controller di dominio
@@ -793,8 +819,9 @@ Per verificare che l'accesso e l'autenticazione Kerberos vengano completati, è 
   
 -   Aprire un prompt dei comandi e digitare:
   
-    <codesnippet language displaylanguage containsmarkup="false">klist tickets  
 ```
+klist tickets  
+```  
   
 **Visualizzazione dei ticket dei computer di dominio**
   
@@ -802,10 +829,11 @@ Per verificare che l'accesso e l'autenticazione Kerberos vengano completati, è 
   
 2.  Al prompt della riga di comando, scegliere un orario antecedente all'orario corrente del sistema (ad esempio, 16:38) di 1 minuto e digitare:
   
-    <codesnippet language displaylanguage containsmarkup="false">at 4:38pm /interactive cmd /k klist tickets  
 ```
-  
-    Si noti che la barra del titolo della finestra di comando visualizza **C:\\Windows\\System32\\svchost.exe**.
+at 4:38pm /interactive cmd /k klist tickets  
+```  
+
+Si noti che la barra del titolo della finestra di comando visualizza **C:\\Windows\\System32\\svchost.exe**.
   
 Nonostante i ticket Kerberos contengano informazioni sui gruppi dell'utente o del computer, queste informazioni sono crittografate e quindi i gruppi non sono visibili. Ne consegue che l'appartenenza a un gruppo deve essere verificata manualmente in Active Directory. Affinché i computer ricevano le informazioni più aggiornate sull'appartenenza ai gruppi nei ticket Kerberos, utilizzare klist per rimuovere i ticket Kerberos correnti. Quando viene ripetuto il tentativo di negoziazione IKE, i nuovi ticket Kerberos vengono ottenuti automaticamente.
   
@@ -817,8 +845,9 @@ Nonostante i ticket Kerberos contengano informazioni sui gruppi dell'utente o de
   
 2.  Al prompt della riga di comando, scegliere un orario successivo all'orario corrente del sistema (ad esempio 16:38) di 1 minuto e digitare:
   
-    <codesnippet language displaylanguage containsmarkup="false">at 4:38pm /interactive cmd  
 ```
+at 4:38pm /interactive cmd  
+```  
   
 3.  Digitare klist purge e premere Y per ciascun tipo di ticket, eliminando tutti i ticket Kerberos.
   
@@ -1303,22 +1332,29 @@ Quando i criteri permanenti vengono assegnati, si uniscono ai criteri IPsec loca
   
 Per eliminare tutti gli oggetti (regole, elenchi filtri e operazioni filtro) associati a un criterio permanente specifico, specificare il nome del criterio permanente nel seguente comando:
   
-<codesnippet language displaylanguage containsmarkup="false">ipseccmd.exe -w PERS -p "policy name" –o  
+```
+ipseccmd.exe -w PERS -p "policy name" –o  
 ```  
 Il modo più semplice per ottenere l'eliminazione completa di un criterio permanente consiste nell'eliminare tutte le sottochiavi della chiave **Persistent**. Tuttavia, se si elimina la chiave **Persistent**, eventuali futuri comandi ipseccmd non verranno completati quando si tenta di creare un criterio permanente. Per risolvere i problemi di danneggiamento del criterio permanente e i conflitti fra i criteri, eliminare tutti gli oggetti nell'archivio dei criteri permanenti ed eseguire nuovamente lo script ipseccmd per ricrearli.
   
 In Windows Server 2003, il criterio permanente ha piene funzionalità di gestione, simili a quelle dei criteri IPsec locali e del dominio. Il criterio permanente viene archiviato nella medesima posizione del Registro di sistema sopra menzionata. Il seguente script di comandi Netsh visualizzerà il criterio permanente configurato utilizzando i comandi del file **show\_persistent.netsh**:
-  
-<codesnippet language displaylanguage containsmarkup="false">    Netsh –f show\_persistent.netsh   
+
 ```  
+Netsh –f show\_persistent.netsh   
+```  
+
 Il file **show\_persistent.netsh** è un file di testo che contiene le righe seguenti:
-  
-<codesnippet language displaylanguage containsmarkup="false">Pushd ipsec static Set store persistent show all exit  
+
 ```  
+Pushd ipsec static Set store persistent show all exit  
+```  
+
 Per eliminare completamente il criterio permanente, è possibile utilizzare il seguente script di comandi Netsh:
   
-<codesnippet language displaylanguage containsmarkup="false">pushd ipsec static set store persistent delete all exit  
 ```  
+pushd ipsec static set store persistent delete all exit  
+```  
+
 ###### Criterio IPSec locale
   
 Windows 2000, Windows XP e Windows Server 2003 supportano i criteri IPsec locali che vengono archiviati nella seguente chiave del Registro di sistema:
@@ -1554,8 +1590,16 @@ Se la rete impedisce che l'avvio della modalità principale raggiunga l'indirizz
 -   SA IKE eliminato prima che la connessione fosse stabilita  
   
 D'altro canto, per i client dell'isolamento del dominio questa condizione potrebbe non apparire come un errore se il relativo criterio consente la modalità non crittografata. Quando viene stabilita una SA trasferibile, viene generato un evento 541 della modalità principale IKE. L'indicazione di una SA trasferibile nell'evento 541 è data dalla visualizzazione dell'SPI in uscita a zero e di tutti gli algoritmi come None. L'esempio seguente mostra come appaiono questi parametri nell'evento 541:
-  
-<codesnippet language displaylanguage containsmarkup="false">ESP Algorithm None HMAC Algorithm None AH Algorithm None Encapsulation None InboundSpi 31311481 (0x1ddc679) OutBoundSpi 0 (0x0) Lifetime (sec) &lt;whatever is configured for QM lifetime&gt; Lifetime (kb) 0  
+
+```  
+ESP Algorithm None
+HMAC Algorithm None
+AH Algorithm None
+Encapsulation None
+InboundSpi 31311481 (0x1ddc679)
+OutBoundSpi 0 (0x0)
+Lifetime (sec) <whatever is configured for QM lifetime>
+Lifetime (kb) 0
 ```  
 **Nota**: gli eventi relativi alle SA trasferibili per lo stesso indirizzo IP di destinazione presenteranno diversi timestamp e valori SPI in ingresso.
   
@@ -1597,22 +1641,26 @@ Se la negoziazione IKE viene completata, le SA della modalità principale IKE po
   
 -   Per Windows 2000:
   
-    <codesnippet language displaylanguage containsmarkup="false">ipsecmon.exe, netdiag /test:ipsec /v   
 ```
+ipsecmon.exe, netdiag /test:ipsec /v   
+```  
   
     **Nota**: questo comando visualizza soltanto le SA IPsec e non le SA IKE in modalità principale
   
 -   Per Windows XP:
-  
-    <codesnippet language displaylanguage containsmarkup="false">IPsec monitor snapin, ipseccmd show sas   
-```
+
+```  
+IPsec monitor snapin, ipseccmd show sas   
+```  
   
 -   Per Windows Server 2003**:**
   
     **Nota:** la riga è stata suddivisa per facilitarne la lettura. Tuttavia, quando la si prova su un sistema, è necessario immettere il testo su una sola riga senza interruzioni.
   
-    <codesnippet language displaylanguage containsmarkup="false">IPsec monitor snapin, netsh ipsec dynamic show \[mmsas | qmsas\]  
 ```
+IPsec monitor snapin, netsh ipsec dynamic  
+show \[mmsas | qmsas\]  
+```  
   
 Se il controllo è attivato, le SA completate in modalità principale e rapida genereranno i seguenti eventi nel file del Registro protezione.
   
