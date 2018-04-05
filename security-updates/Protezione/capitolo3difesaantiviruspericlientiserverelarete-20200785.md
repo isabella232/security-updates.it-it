@@ -86,7 +86,7 @@ Ulteriori informazioni ed esempi di progettazione pratici per questo processo so
 
 Nella seguente figura vengono illustrati i livelli definiti per il modello di protezione per la difesa a più livelli:
 
-[![](images/Dd536185.AVFG0301(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536185.avfg0301_big(it-it,technet.10).gif)
+[![](images/Dd536185.AVFG0301(it-it,TechNet.10).gif "Figura 3.1 Livelli del modello di protezione per la difesa a più livelli")](https://technet.microsoft.com/it-it/dd536185.avfg0301_big(it-it,technet.10).gif)
 
 **Figura 3.1 Livelli del modello di protezione per la difesa a più livelli**
 
@@ -110,7 +110,7 @@ I livelli illustrati nella figura forniscono una visualizzazione di ciascuna are
 
 L'utilizzo dei livelli di protezione del modello come base per l'approccio di difesa antivirus a più livelli consente di ottimizzare tali livelli tramite la relativa inclusione in gruppi per le difese antivirus da implementare all'interno dell'organizzazione. La modalità di esecuzione di questa ottimizzazione dipende interamente dalle priorità dell'organizzazione e dalle specifiche applicazioni di difesa utilizzate al suo interno. Il punto importante consiste nell'evitare la progettazione di una soluzione antivirus incompleta e debole assicurando che nessuno dei livelli di protezione venga escluso dall'infrastruttura di protezione. Nella seguente figura viene mostrata una visualizzazione più particolareggiata del modello di difesa antivirus a più livelli:
 
-[![](images/Dd536185.AVFG0302(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536185.avfg0302_big(it-it,technet.10).gif)
+[![](images/Dd536185.AVFG0302(it-it,TechNet.10).gif "Figura 3.2 Visualizzazione particolareggiata del modello di difesa antivirus a più livelli")](https://technet.microsoft.com/it-it/dd536185.avfg0302_big(it-it,technet.10).gif)
 
 **Figura 3.2 Visualizzazione particolareggiata del modello di difesa antivirus a più livelli**
 
@@ -211,8 +211,10 @@ Per ulteriori informazioni su questo strumento di configurazione gratuito, veder
 Un'altra area da non trascurare tra i sistemi di protezione dei client è rappresentata dai privilegi assegnati agli utenti in situazioni di normale operatività. Microsoft consiglia di adottare un criterio che fornisca il minor numero di privilegi possibile per consentire di ridurre al minimo l'impatto di software dannosi che si basano sullo sfruttamento dei privilegi utente durante l'esecuzione. Questo criterio è particolarmente importante per gli utenti che in genere dispongono di privilegi amministrativi locali. Prendere in considerazione la rimozione di questi privilegi per l'esecuzione delle operazioni quotidiane e l'utilizzo del comando **RunAs** per avviare gli strumenti di amministrazione necessari.
 
 Un utente che ha l'esigenza di installare un'applicazione che richiede i privilegi di amministratore potrebbe ad esempio eseguire il seguente comando di installazione al prompt dei comandi per avviare il programma di installazione con i privilegi appropriati:
-        ```
+
+```
 È possibile inoltre accedere a questa funzione direttamente da Esplora risorse di Microsoft effettuando le seguenti operazioni:
+```
 
 **Per eseguire un programma con privilegi amministrativi**
 
@@ -235,7 +237,7 @@ www.microsoft.com/windowsserver2003/technologies/management/grouppolicy/ (in ing
 
 L'area specifica dei criteri di gruppo che gestisce questa funzione è denominata Criteri di restrizione software, a cui è possibile accedere tramite lo snap-in MMC Criteri di gruppo standard. Nella seguente figura viene visualizzata una schermata MMC Criteri di gruppo in cui viene illustrato il percorso in cui è possibile impostare i criteri di restrizione software per i computer e gli utenti:
 
-[![](images/Dd536185.AVFG0303(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/dd536185.avfg0303_big(it-it,technet.10).gif)
+[![](images/Dd536185.AVFG0303(it-it,TechNet.10).gif "Figura 3.3 Percorso delle cartelle dei criteri di restrizione software nello snap-in MMC Criteri di gruppo")](https://technet.microsoft.com/it-it/dd536185.avfg0303_big(it-it,technet.10).gif)
 
 **Figura 3.3 Percorso delle cartelle dei criteri di restrizione software nello snap-in MMC Criteri di gruppo**
 
