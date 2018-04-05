@@ -1,4 +1,4 @@
----
+--
 TOCTitle: Monitoraggio della protezione e identificazione degli attacchi
 Title: Monitoraggio della protezione e identificazione degli attacchi
 ms:assetid: 'a30af90e-ce18-47fc-a947-11f332ee4731'
@@ -741,14 +741,18 @@ Se Audituser.exe viene eseguita dalla riga di comando senza parametri, visualizz
   
 La sintassi di Audituser.exe è la seguente:
   
-<codesnippet language displaylanguage containsmarkup="false">Audituser.exe /parametro accountutente:”categoria”  
-```  
+```
+Audituser.exe /parametro accountutente:”categoria”  
+```
+
 (o un elenco di categorie delimitate da virgole).
   
 Ad esempio, per attivare il controllo delle operazioni non riuscite per le categorie relative agli eventi di sistema e agli accessi/disconnessioni dell'account LocalUser, è necessario immettere il seguente comando:
-  
-<codesnippet language displaylanguage containsmarkup="false">Audituser /if LocalUser:”Evento di sistema”,”Accesso/Disconnessione"  
+
+```
+Audituser /if LocalUser:”Evento di sistema”,”Accesso/Disconnessione"  
 ```  
+
 I parametri che è possibile specificare dalla riga di comando sono i seguenti:
   
 -   **/is** – aggiunge o modifica una voce per l'inclusione delle operazioni riuscite
@@ -776,9 +780,11 @@ Un file delle impostazioni del controllo per utente è un file di solo testo nel
 **Nota**   Perché l'importazione riesca, il file di importazione deve iniziare con la riga “Auditusr 1.0”, come indicato nella figura.
   
 Il comando per importare il file delle impostazioni di controllo illustrato nella figura precedente dovrebbe essere:
-  
-<codesnippet language displaylanguage containsmarkup="false">Audituser /i percorso\\audit.txt  
+
 ```  
+Audituser /i percorso\\audit.txt  
+```  
+
 È possibile utilizzare questa utilità per stabilire le soglie per le informazioni della registrazione di controllo e ridurre così i requisiti di memoria e aumentare la probabilità di rilevare i tentativi di intrusione.
   
 ##### Correlazione tra le violazioni dei criteri di protezione e gli eventi di controllo
