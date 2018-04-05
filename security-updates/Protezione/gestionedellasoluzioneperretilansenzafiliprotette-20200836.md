@@ -380,9 +380,17 @@ Nella maggior parte delle procedure di questa sezione vengono utilizzati gli scr
 Gli avvisi generati dagli script di monitoraggio possono essere inviati al registro eventi applicazioni di Windows e/o a uno o più indirizzi di posta elettronica. Prima di attivare gli strumenti di monitoraggio, è necessario specificare i tipi di avviso desiderati. Se, inoltre, si opta per l'invio degli avvisi a indirizzi di posta elettronica, è necessario specificare gli indirizzi di posta elettronica dei destinatari e il nome del server della posta elettronica a cui inviare i messaggi.
   
 Per specificare questi parametri, è necessario modificare il file constants.vbs. Di seguito sono riportate le sezioni pertinenti del file. Le voci da modificare sono evidenziate in *corsivo*:
-  
-<codesnippet language displaylanguage containsmarkup="false">' Alerting parameters CONST ALERT\_EMAIL\_ENABLED = FALSE 'set to enable/disable e-mail CONST ALERT\_EVTLOG\_ENABLED = TRUE 'set to enable/disable eventlog entries ' set to comma-separated list of recipients to get e-mail alerts CONST ALERT\_EMAIL\_RECIPIENTS = "Admin@woodgrovebank.com,Ops@woodgrovebank.com" 'SMTP server to use (use DNS name or IP address) CONST ALERT\_EMAIL\_SMTP = "mail.woodgrovebank.com"   
+ 
+```
+' Alerting parameters
+CONST ALERT_EMAIL_ENABLED = FALSE    'set to enable/disable e-mail  
+CONST ALERT_EVTLOG_ENABLED = TRUE    'set to enable/disable eventlog entries 
+' set to comma-separated list of recipients to get e-mail alerts 
+CONST ALERT_EMAIL_RECIPIENTS    = "Admin@woodgrovebank.com,Ops@woodgrovebank.com" 
+'SMTP server to use (use DNS name or IP address) 
+CONST ALERT_EMAIL_SMTP     = "mail.woodgrovebank.com"
 ```  
+
 ##### Monitoraggio di IAS
   
 IAS registra molti eventi di diverso tipo nel registro di sistema di Windows. Fra questi vi sono le notifiche di avvio e interruzione dei servizi (ed eventuali errori o avvisi in merito) e le notifiche delle richieste di autenticazione. (Le voci del registro relative alle richieste di autenticazione sono descritte in dettaglio nella sezione "Risoluzione dei problemi", più avanti in questo capitolo.)
