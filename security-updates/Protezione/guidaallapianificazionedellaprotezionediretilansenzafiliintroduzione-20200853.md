@@ -13,9 +13,9 @@ Pianifica la protezione di una LAN wireless con Windows Server 2003 Certificate 
 
 ##### In questa pagina
 
-[](#edaa)[Argomenti del modulo](#edaa)
-[](#ecaa)[Destinatari della Guida](#ecaa)
-[](#ebaa)[Convenzioni di stile](#ebaa)
+[](#edaa)[Argomenti del modulo](#edaa)  
+[](#ecaa)[Destinatari della Guida](#ecaa)  
+[](#ebaa)[Convenzioni di stile](#ebaa)  
 
 ### Argomenti del modulo
 
@@ -106,7 +106,7 @@ Tutta la Guida, ma in particolare gli ultimi moduli, si rivolge ai professionist
 </tr>
 <tr class="even">
 <td style="border:1px solid black;">
-<pre><code>Spaziatura fissa</code></pre>
+Spaziatura fissa
 <br />
 </td>
 <td style="border:1px solid black;">Esempi di codice.</td>
