@@ -211,7 +211,7 @@ e nomi di file. Anche gli elementi dell'interfaccia utente sono riportati in gra
 <td style="border:1px solid black;">I segnaposto in corsivo e le parentesi ad angolo &lt;<em>nome file</em>&gt; rappresentano le variabili.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><pre><code>Monospace font</code></pre></td>
+<td style="border:1px solid black;"><pre>Monospace font</pre></td>
 <td style="border:1px solid black;">Vengono definiti gli esempi di codice e di script.</td>
 </tr>
 <tr class="odd">
