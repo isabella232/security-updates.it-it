@@ -13,14 +13,14 @@ Guida per la protezione di Windows XP
 
 ##### In questa pagina
 
-[](#ehaa)[Panoramica](#ehaa)
-[](#egaa)[Riepilogo generale](#egaa)
-[](#efaa)[Destinatari della guida](#efaa)
-[](#eeaa)[Ambito della guida](#eeaa)
-[](#edaa)[Panoramica dei capitoli](#edaa)
-[](#ecaa)[Contenuto del download](#ecaa)
-[](#ebaa)[Convenzioni di stile](#ebaa)
-[](#eaaa)[Riepilogo](#eaaa)
+[](#ehaa)[Panoramica](#ehaa)  
+[](#egaa)[Riepilogo generale](#egaa)  
+[](#efaa)[Destinatari della guida](#efaa)  
+[](#eeaa)[Ambito della guida](#eeaa)  
+[](#edaa)[Panoramica dei capitoli](#edaa)  
+[](#ecaa)[Contenuto del download](#ecaa)  
+[](#ebaa)[Convenzioni di stile](#ebaa)  
+[](#eaaa)[Riepilogo](#eaaa)  
 
 ### Panoramica
 
