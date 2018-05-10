@@ -31,9 +31,36 @@ L'elemento BODY include quattro elementi figlio.
 
 Di seguito è riportato un file di elenco di revoche di esempio.
 
-| ![](images/Cc720208.note(WS.10).gif)Nota                                                         |
-|-------------------------------------------------------------------------------------------------------------------------------|
-        ```
+| ![](images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                         |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Gli elementi ISSUEDTIME, PUBLICKEY e SIGNATURE possono essere omessi, poiché vengono inseriti o sovrascritti da RLsigner.exe. |
+
+```
+<?xml version="1.0" ?> 
+<XrML xml:space=”preserve” version=”1.2”>
+  <BODY type="LICENSE" version="3.0">
+    <ISSUEDTIME>...</ISSUEDTIME> 
+    <DESCRIPTOR>
+      <OBJECT type="Revocation-List">
+        <ID type="MS-GUID">{d6373cba-01f1-4f32-ac58-260f580af0f8}</ID>
+      </OBJECT>
+    </DESCRIPTOR>
+<ISSUER>
+      <OBJECT type="Revocation-List">
+        <ID type="acsii-tag">External revocation authority</ID>
+        <NAME>Revocation list name</NAME>
+        <ADDRESS type="URL">https://somedomain.com/revocation_list_file</ADDRESS>
+      </OBJECT>
+      <PUBLICKEY>...</PUBLICKEY>
+    </ISSUER>
+  <REVOCATIONLIST>
+    <REVOKE>...<\REVOKE>
+    <REVOKE>...<\REVOKE>
+  </REVOCATIONLIST>
+  <SIGNATURE>...</SIGNATURE>
+</XrML>
+```
+
 | ![](images/Cc720208.Caution(WS.10).gif)Attenzione                                                                           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Quando si specifica l'URL nell'elenco di revoche, il percorso UNC non viene più supportato in RMS con SP1 o RMS con SP2. È necessario utilizzare un URL. |
@@ -56,69 +83,149 @@ Per ulteriori informazioni su come specificare gli elementi REVOKE, vedere gli e
 -   [Revoca di certificati in base all'ID dell'entità](#bkmk_10)
 -   [Revoca di entità in base a Windows Live ID](#bkmk_7)
 
-<span id="BKMK_1"></span>
 #### Revoca di entità in base a una chiave pubblica
+Nell'esempio che segue, viene revocata un'entità in base alla chiave pubblica relativa. Il contenuto del tag <PUBLICKEY> deriva dal nodo <BODY><ISSUEDPRINCIPALS><PRINCIPAL><PUBLICKEY> del certificato che ha emesso la chiave.
 
-        ```
+```
+<REVOKE category="principal" type="principal-key">
+        <PUBLICKEY>
+          <ALGORITHM>RSA-1024</ALGORITHM>
+          <PARAMETER name="public exponent">
+            <VALUE encoding="integer32">65537</VALUE>
+          </PARAMETER>
+          <PARAMETER name="modulus">
+            <VALUE encoding="base64" size="1024">
+6Jn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2FjApkY1RxgL8VAKIuEvIy9hRrvY1YhJx/0Ite5fZeg2crUFrmoQgZzaJ50FvoakA2QMgZZgxoQmwiGE0y40cEJtIlE0=
+            </VALUE>
+          </PARAMETER>
+        </PUBLICKEY>
+      </REVOKE>
+```
 
-<span id="BKMK_2"></span>
 #### Revoca di certificati e licenze in base al GUID
+Nell'esempio che segue, viene revocato un certificato o una licenza in base all'identificatore univoco globale (GUID, Globally Unique Identifier). Quando viene utilizzato questo elenco di revoche, non è possibile utilizzare un certificato o una licenza con un GUID corrispondente. Il contenuto del tag <ID> in questo esempio deriva dal nodo <BODY><DESCRIPTOR><OBJECT><ID> del certificato o della licenza da revocare.. È inoltre possibile revocare le applicazioni tramite questo meccanismo specificando l'ID del file manifesto dell'applicazione.
 
-        ```
+```
+<REVOKE category="license" type="license-id">
+        <OBJECT>
+          <ID type="MS-GUID">{06BCB94D-43E5-419f-B180-AA9FD321ED7A}</ID>
+        </OBJECT>
+      </REVOKE>
+```
+
 #### Revoca in base al file manifesto dell'applicazione
 
 Per eseguire una revoca utilizzando il file manifesto dell'applicazione, estrarre l'ID dell'emittente, la chiave pubblica dell'emittente, l'ID della licenza o l'hash della licenza dal file manifesto dell'applicazione. Tuttavia, i manifesti dell'applicazione sono codificati su base 64, quindi le informazioni non vengono visualizzate in testo semplice. Con il SDK (Software Development Kit) di Microsoft Windows Rights Management Services, è possibile sviluppare un programma utilizzando i metodi DRMConstructCertificateChain, DRMDeconstructCertificateChain e DRMDecode per decodificare il file manifesto dell'applicazione e ottenere le informazioni richieste.
 
 Per non consentire l'uso del contenuto protetto con RMS a determinate applicazioni, è possibile utilizzare la funzione di esclusione, grazie alla quale viene impedito al cluster RMS di concedere licenze d'uso a tali applicazioni. Il limite della funzione consiste nel fatto che non può impedire la decrittografia del contenuto protetto con RMS da parte di utenti con licenze d'uso valide. Per ulteriori informazioni sull'esclusione di applicazioni, vedere [Esclusione di applicazioni](https://technet.microsoft.com/b68ae4b2-b9ba-44ae-90cb-c88df600ec86), più indietro in questo argomento.
 
-<span id="BKMK_3"></span>
 #### Revoca di certificati e licenze in base al valore hash
 
-        ```
+Nell'esempio che segue, viene revocato un certificato o una licenza in base al relativo hash. Il contenuto del tag \<VALUE\> è costituito dall'hash SHA-1 dei caratteri UNICODE presenti da \<BODY\> a \</BODY\>, compresi, nel certificato o nella licenza. Il valore hash può essere individuato nella sezione \<SIGNATURE\> del certificato o della licenza. È inoltre possibile revocare le applicazioni tramite questo meccanismo specificando l'hash del file manifesto dell'applicazione.
+
+```
+<REVOKE category="license" type="license-hash">
+        <DIGEST>
+          <ALGORITHM>SHA1</ALGORITHM>
+          <VALUE encoding="base64" size="160">
+            ABfB4mcEslVCMEZR9reACqXHCoQ=
+          </VALUE>
+        </DIGEST>
+      </REVOKE>
+```
+
 #### Revoca in base al file manifesto dell'applicazione
 
 Per eseguire una revoca utilizzando il file manifesto dell'applicazione, estrarre l'ID dell'emittente, la chiave pubblica dell'emittente, l'ID della licenza o l'hash della licenza dal file manifesto dell'applicazione. Tuttavia, i manifesti dell'applicazione sono codificati su base 64, quindi le informazioni non vengono visualizzate in testo semplice. Con il SDK di Rights Management Services, è possibile sviluppare un programma utilizzando i metodi DRMConstructCertificateChain, DRMDeconstructCertificateChain e DRMDecode per decodificare il file manifesto dell'applicazione e ottenere le informazioni richieste.
 
 Per non consentire l'uso del contenuto protetto con RMS a determinate applicazioni, è possibile utilizzare la funzione di esclusione, grazie alla quale viene impedito al cluster RMS di concedere licenze d'uso a tali applicazioni. Il limite di questa funzione consiste nel non poter evitare la decrittografia del contenuto protetto con RMS da parte di utenti con licenze d'uso valide. Per ulteriori informazioni sull'esclusione di applicazioni, vedere [Esclusione di applicazioni](https://technet.microsoft.com/b68ae4b2-b9ba-44ae-90cb-c88df600ec86), più indietro in questo argomento.
 
-<span id="BKMK_4"></span>
 #### Revoca di certificati e licenze in base alla chiave pubblica dell'emittente
 
-        ```
+Nell'esempio che segue vengono revocati tutti i certificati e le licenze emessi dal proprietario della chiave pubblica specificata. Il contenuto del tag <PUBLICKEY> deriva dal nodo \<BODY\>\<ISSUER\>\<PUBLICKEY\> dei certificati o delle licenze da revocare.
 
-<span id="BKMK_5"></span>
+```
+<REVOKE category="license" type="issuer-key">
+        <PUBLICKEY>
+          <ALGORITHM>RSA-1024</ALGORITHM>
+          <PARAMETER name="public exponent">
+            <VALUE encoding="integer32">65537</VALUE>
+          </PARAMETER>
+          <PARAMETER name="modulus">
+            <VALUE encoding="base64" size="1024">
+AAn0kEAWU+1AFWtuUmBYL8Jza8tLhUv/BCmgcq/Pc08Au3DvXkH65s+0MEyZjM+71j3F1xaXUSst+wH2FjApkY1RxgL8VAKIuEvIy9hRrvY1YhJx/0Ite5fZeg2crUFrmoQgZzaJ50FvoakA2QMgZZgxoQmwiGE0y40cEJtIlE0=
+            </VALUE>
+          </PARAMETER>
+        </PUBLICKEY>
+      </REVOKE>
+```
+
 #### Revoca di certificati e licenze in base all'ID dell'emittente
 
-        ```
-| ![](images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                                        |
+Nell'esempio che segue viene revocato un insieme di certificati o licenze in base all'ID dell'emittente. Il contenuto del tag \<ID\> deriva dal nodo \<BODY\>\<ISSUER\>\<OBJECT\>\<ID\> dei certificati o delle licenze da revocare.
+
+```
+<REVOKE category="license" type="issuer-id">
+        <OBJECT type="MS-DRM-Server">
+          <ID type="MS-GUID">{2BE9E200-3040-41B9-8832-D4D0445EBBD6}</ID> 
+        </OBJECT>
+      </REVOKE>
+```
+
+| ![](images/Cc720208.note(WS.10).gif)Nota                                                                
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Quando si specifica il tipo di ID, assicurarsi che non vi sia un ritorno a capo tra l'identificatore univoco globale (GUID) e il tag di chiusura. Se è stato aggiunto inavvertitamente un ritorno a capo, il client RMS non sarà in grado di analizzare l'elenco di revoche. |
 
-<span id="BKMK_6"></span>
 #### Revoca di contenuti in base al relativo ID
 
-        ```
+Nell'esempio che segue vengono revocati contenuti protetti in base al relativo ID. Si tratta del metodo ottimale per la revoca dei contenuti, in quanto l'ID del contenuto è lo stesso per tutte le licenze d'uso create con una determinata licenza di pubblicazione. Il valore del nodo \<OBJECT\> può essere individuato nel nodo \<BODY\>\<WORK\>\<OBJECT\> di una licenza di pubblicazione o di una licenza d'uso per il contenuto.
+
+```
+<REVOKE category="content" type="content-id">
+        <OBJECT type="Microsoft Office Document">
+          <ID type="MS-GUID">{8702641D-3512-4AA4-A584-84C703A5B5C0}</ID>
+        </OBJECT>
+      </REVOKE>
+```
+
 | ![](images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                                        |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Quando si specifica il tipo di ID, assicurarsi che non vi sia un ritorno a capo tra l'identificatore univoco globale (GUID) e il tag di chiusura. Se è stato aggiunto inavvertitamente un ritorno a capo, il client RMS non sarà in grado di analizzare l'elenco di revoche. |
 
-<span id="BKMK_10"></span>
 #### Revoca di entità in base all'account di Windows
 
-        ```
+Nell'esempio che segue viene revocato un utente o un'entità di abilitazione in base al relativo account di Windows. Il contenuto dell'elemento \<OBJECT\> deriva dal nodo \<BODY\>\<ISSUEDPRINCIPALS\>\<PRINCIPAL\>\<OBJECT\> di un certificato per account con diritti o di una licenza d'uso.
+
+```
+<REVOKE category="principal" type="principal-id">
+        <OBJECT type="Group-Identity">
+          <ID type="Windows">{Windows account SID}</ID> 
+          <NAME>{E-mail address}</NAME> 
+        </OBJECT>
+      </REVOKE>
+```
+
 | ![](images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                               |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Quando si specifica il tipo di ID, assicurarsi che non vi sia un ritorno a capo tra il SID dell'account di Windows e il tag di chiusura. Se è stato aggiunto inavvertitamente un ritorno a capo, il client RMS non sarà in grado di analizzare l'elenco di revoche. |
 
-<span id="BKMK_7"></span>
 #### Revoca di entità in base a Windows Live ID
 
-        ```
+In questo esempio viene revocato un utente o un'entità di abilitazione in base al relativo Windows Live ID. Il contenuto dell'elemento \<OBJECT\> deriva dal nodo \<BODY\>\<ISSUEDPRINCIPALS\>\<PRINCIPAL\>\<OBJECT\> di un certificato per account con diritti o di una licenza d'uso.
+
+```
+<REVOKE category="principal" type="principal-id">
+        <OBJECT type="Group-Identity">
+          <ID type="Passport">{PUID}</ID> 
+          <NAME>michael@contoso.com</NAME> 
+        </OBJECT>
+      </REVOKE>
+```
+
 | ![](images/Cc720208.note(WS.10).gif)Nota                                                                                                                                                                                                           |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Quando si specifica il tipo di ID, assicurarsi che non vi sia un ritorno a capo tra l'identificatore univoco principale (PUID) e il tag di chiusura. Se è stato aggiunto inavvertitamente un ritorno a capo, il client RMS non sarà in grado di analizzare l'elenco di revoche. |
 
-<span id="BKMK_8"></span>
 Aggiunta di una firma in un elenco di revoche
 ---------------------------------------------
 
@@ -262,5 +369,25 @@ Nel codice restituito dallo strumento RLsigner.exe vengono segnalati i principal
   
 È possibile rendere automatico il processo di firma degli elenchi di revoche tramite uno script. Nell'esempio che segue, tramite VBScript, viene chiamato RLsigner.exe e i risultati vengono scritti nel Registro eventi sistema.
   
-<codesnippet asp="http://msdn2.microsoft.com/asp" language displaylanguage="Visual Basic">const EVT\_SUCCESS = 0 const EVT\_ERROR = 1 const EVT\_WARNING = 2 const EVT\_INFORMATION = 4 const EVT\_AUDIT\_SUCCESS = 8 const EVT\_AUDIT\_FAILURE = 16 Dim WshShell, oExec Set WshShell = CreateObject( "WScript.Shell" ) Set oExec = WshShell.Exec("rlsigner.exe input\_file key\_file output\_file") Do While oExec.Status = 0 WScript.Sleep 100 Loop if WshShell.ExitCode &lt;&gt; 0 Then WshShell.LogEvent EVT\_ERROR, "RLsigner failed with error """ + WshShell.ExitCode + """" else WshShell.LogEvent EVT\_SUCCESS, "RLsigner completed successfully" end if  
+```VB
+const EVT_SUCCESS       = 0
+const EVT_ERROR         = 1  
+const EVT_WARNING       = 2  
+const EVT_INFORMATION   = 4  
+const EVT_AUDIT_SUCCESS = 8  
+const EVT_AUDIT_FAILURE = 16  
+
+Dim WshShell, oExec
+
+Set WshShell = CreateObject( "WScript.Shell" )
+Set oExec = WshShell.Exec("rlsigner.exe input_file key_file output_file")
+Do While oExec.Status = 0
+     WScript.Sleep 100
+Loop
+
+if WshShell.ExitCode <> 0 Then
+    WshShell.LogEvent EVT_ERROR, "RLsigner failed with error """ + WshShell.ExitCode + """"
+else
+    WshShell.LogEvent EVT_SUCCESS, "RLsigner completed successfully"
+end if
 ```
