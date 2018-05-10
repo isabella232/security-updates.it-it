@@ -539,17 +539,17 @@ Active Directory aggiorna periodicamente i criteri di gruppo, ma è possibile i
 Per aggiornare un computer locale con questo strumento, eseguire le seguenti operazioni al prompt dei comandi:
   
 <codesnippet language displaylanguage containsmarkup="false">gpupdate /force  
-```  
+ 
 Dopo l'esecuzione di GpUpdate, verranno restituite le informazioni di conferma seguenti:
   
 <codesnippet language displaylanguage containsmarkup="false">C:\\Documents and Settings\\administrator.MSSLAB&gt;gpupdate /force Refreshing Policy... User Policy Refresh has completed. Computer Policy Refresh has completed. To check for errors in policy processing, review the event log. C:\\Documents and Settings\\administrator.MSSLAB&gt;  
-```  
+
 Per i criteri di gruppo basati sull'utente, sarà necessario disconnettersi e quindi accedere di nuovo al computer utilizzato per verificare i criteri. È consigliabile aggiornare immediatamente i criteri relativi al computer.
   
 Per visualizzare opzioni Gpupdate aggiuntive, eseguire le seguenti operazioni al prompt dei comandi:
   
 <codesnippet language displaylanguage containsmarkup="false">gpupdate /?  
-```  
+  
 #### Visualizzazione del Gruppo di criteri risultante
   
 Due strumenti forniti con Windows XP consentono di determinare i criteri applicati ai computer dell'ambiente, nonché la data e l'ordine di applicazione.
