@@ -34,7 +34,6 @@ La tabella seguente mostra i nomi dei modelli di protezione del file server per 
 
 **Tabella 7.1 Modelli di protezione dei file server**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
