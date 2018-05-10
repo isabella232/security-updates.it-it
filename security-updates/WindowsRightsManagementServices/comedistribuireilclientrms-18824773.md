@@ -26,17 +26,17 @@ Dopo avere scaricato il file WindowsRightsManagementServicesSP2-KB917275-Client-
 
 Per farlo, è possibile utilizzare la seguente riga di comando dal prompt dei comandi:
 
-`WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe /x <path>`
+`WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe /x \<path\>`
 
 dove &lt;percorso&gt; è la directory di destinazione in cui si desiderano collocare i file estratti.
 
 Eseguendo questo comando verranno estratti i seguenti file nella directory di destinazione specificata:
 
--   Bootstrap.exe
+-   Bootstrap.exe  
     File wrapper utilizzato dal file eseguibile per installare gli altri file inclusi. Non viene utilizzato quando si installa il client RMS con SP2 mediante SMS o Criteri di gruppo.
--   MSDrmClient.msi
+-   MSDrmClient.msi  
     File di installazione per il client RMS con SP2. Con questa installazione verrà disinstallata qualsiasi precedente versione del client RMS presente sul computer. Questo programma deve essere installato per primo sui computer client.
--   RMClientBackCompat.msi
+-   RMClientBackCompat.msi  
     File di installazione che identifica il nuovo client RMS con SP2 per le applicazioni abilitate per RMS (come Microsoft Office Professional 2003 o 2007 Microsoft Office System) che dipendono dalla versione precedente del client RMS, in modo che venga sostituito dal client RMS con SP2. Questo programma deve essere installato sui computer client al termine dell'installazione di MSDrmClient.msi.
 
 | ![](images/Cc747749.note(WS.10).gif)Nota                                                                                                                                                                                  |
@@ -48,7 +48,9 @@ Distribuzione del client RMS mediante installazione automatica
 
 Non è obbligatorio estrarre i file per installare i file di Windows Installer. È anche possibile distribuire il client RMS utilizzando un metodo di installazione automatico. Per farlo, è possibile utilizzare la seguente riga di comando dal prompt dei comandi:
 
-`WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q`
+```
+WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q
+```
 
 Questo comando avvia l'installazione automatica del client RMS.
 
@@ -70,8 +72,12 @@ Distribuzione del client RMS mediante SMS
 
     **Generale**:
 
-    -   Per **Riga di comando**, immettere:
-        `msiexec.exe /q ALLUSERS=2 /m MSIDGHOG /i "<file_name>.msi"`
+    -   Per **Riga di comando**, immettere:  
+
+        ```
+        msiexec.exe /q ALLUSERS=2 /m MSIDGHOG /i "<file_name>.msi"
+        ```
+
         | ![](images/Cc747749.note(WS.10).gif)Nota                                                                     |
         |-------------------------------------------------------------------------------------------------------------------------------------------|
         | MSIDGHOG è un valore casuale. Sostituire &lt;nome\_file&gt; con il nome del file di Windows Installer che verrà installato dal pacchetto. |
@@ -147,7 +153,31 @@ Gli amministratori che non hanno dimestichezza con la distribuzione del software
 Aggiornamento da una versione precedente
 ----------------------------------------
 
-        ```
+È possibile utilizzare un metodo di installazione automatica con uno script che rileva se è installato il client RMS con SP2. Se il client non è installato, lo script aggiorna il client esistente o installa il client RMS con SP2. Lo script è il seguente:
+
+```
+Set objShell = Wscript.CreateObject("Wscript.Shell")
+Set objWindowsInstaller = Wscript.CreateObject("WindowsInstaller.Installer") 
+Set colProducts = objWindowsInstaller.Products 
+
+For Each product In colProducts 
+strProductName = objWindowsInstaller.ProductInfo (product, "ProductName")
+
+if strProductName = "Windows Rights Management Client with Service Pack 2" then
+strInstallFlag = "False"
+Exit For
+else
+strInstallFlag = "True"
+end if
+Next
+
+if strInstallFlag = "True" then
+objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q "
+else
+wscript.echo "Non è necessaria l'installazione"
+end if
+```
+
 | ![](images/Cc747749.note(WS.10).gif)Nota                                          |
 |----------------------------------------------------------------------------------------------------------------|
 | Questo script non funziona con Microsoft Windows Vista poiché il client RMS è integrato nel sistema operativo. |
