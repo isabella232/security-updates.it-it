@@ -36,7 +36,11 @@ Per ottenere un certificato concessore di licenze server di un'installazione di 
 1.  Aprire SQL Query Analyzer e quindi connettersi al database di configurazione del server di certificazione principale.
 2.  Scegliere **Risultati in formato testo** dal menu **Query**.
 3.  Scegliere **Opzioni** dal menu **Strumenti** per visualizzare la finestra di dialogo **Opzioni**. Fare clic sulla scheda **Risultati** e quindi impostare **Numero massimo di caratteri per colonna** su **8192**.
-        ```
+
+```
+select DRMS_XrML_Certificate.s_certificate from DRMS_XrML_Certificate, DRMS_LicensorCertificate, DRMS_ClusterConfiguration where DRMS_ClusterConfiguration.CurrentLicensorCertID = DRMS_LicensorCertificate.i_CertID and DRMS_LicensorCertificate.i_CertificateID = DRMS_XrML_Certificate.i_CertificateID
+```
+
 1.  Copiare i risultati dalla finestra **Risultati** e incollarli in un editor di testo, ad esempio Blocco note. Salvare i risultati in un file con estensione xml.
 
 Per ulteriori informazioni sull'utilizzo di queste informazioni per un elenco di revoche, vedere “[Creazione di elenchi di revoche](https://technet.microsoft.com/1ef75199-3344-4225-84de-a863a777696a)”, più indietro in questo argomento.
