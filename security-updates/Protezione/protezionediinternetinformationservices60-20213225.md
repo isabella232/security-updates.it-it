@@ -551,7 +551,7 @@ Per completare questa attività è necessario disporre di quanto segue:
 4.  Se si intende assegnare una directory o una directory virtuale a un pool di applicazioni, verificare che la casella **Nome applicazione** contenga il nome corretto dell'applicazione o del sito Web.
   
     Oppure
-  
+    
     Se la casella **Nome applicazione** non contiene alcun nome, scegliere **Crea** e digitarne uno.
   
 5.  Nella casella di riepilogo **Pool di applicazioni** selezionare il nome del pool di applicazioni a cui si desidera assegnare l'applicazione o il sito Web (come mostrato nella schermata seguente), quindi fare clic su **OK**.
