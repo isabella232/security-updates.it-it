@@ -316,13 +316,17 @@ Dopo aver verificato a fondo il criterio, completare le seguenti fasi, per trasf
   
 1.  Al prompt dei comandi digitare il seguente comando:
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
-  
+    ```
+       scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+    ```
+    
     e premere INVIO. Ad esempio:
-  
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\ Certificate Services.xml" /g:"Certificate Services Policy"  
-```
+    
+    ```
+       scwcmd transform /p:"C:\Windows\Security\msscw\Policies\
+       Certificate Services.xml" /g:"Certificate Services Policy"
+    ```
+   
   
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   
