@@ -13,18 +13,18 @@ Costruire una rete wireless locale sicura con Windows Server 2003 Certificate Se
 
 ##### In questa pagina
 
-[](#elaa)[Argomenti del modulo](#elaa)
-[](#ekaa)[Obiettivi](#ekaa)
-[](#ejaa)[Ambito di applicazione](#ejaa)
-[](#eiaa)[Utilizzo del modulo](#eiaa)
-[](#ehaa)[Panoramica](#ehaa)
-[](#egaa)[Foglio di lavoro per la pianificazione dell'infrastruttura RADIUS](#egaa)
-[](#efaa)[Creazione dei propri server](#efaa)
-[](#eeaa)[Installazione e configurazione del Servizio autenticazione Internet](#eeaa)
-[](#edaa)[Configurazione del server IAS primario](#edaa)
-[](#ecaa)[Configurazione del server IAS secondario](#ecaa)
-[](#ebaa)[Riepilogo](#ebaa)
-[](#eaaa)[Ulteriori informazioni](#eaaa)
+[](#elaa)[Argomenti del modulo](#elaa)  
+[](#ekaa)[Obiettivi](#ekaa)  
+[](#ejaa)[Ambito di applicazione](#ejaa)  
+[](#eiaa)[Utilizzo del modulo](#eiaa)  
+[](#ehaa)[Panoramica](#ehaa)  
+[](#egaa)[Foglio di lavoro per la pianificazione dell'infrastruttura RADIUS](#egaa)  
+[](#efaa)[Creazione dei propri server](#efaa)  
+[](#eeaa)[Installazione e configurazione del Servizio autenticazione Internet](#eeaa)  
+[](#edaa)[Configurazione del server IAS primario](#edaa)  
+[](#ecaa)[Configurazione del server IAS secondario](#ecaa)  
+[](#ebaa)[Riepilogo](#ebaa)  
+[](#eaaa)[Ulteriori informazioni](#eaaa)  
 
 ### Argomenti del modulo
 
@@ -344,6 +344,34 @@ I server IAS dispongono di una singola interfaccia di rete, ma può essere imple
         **systeminfo**
 
     2.  Verificare i seguenti elementi dell'output di systeminfo (altri dettagli dell'output sono stati omessi per maggiore concisione):
+    
+        ```
+            Nome host:	HQ- IAS - 01HQ- IAS - 01
+            Nome SO:	Microsoft® Windows® Server 2003, Enterprise Edition
+            ...
+            Configurazione SO:	Server membro
+            Proprietario registrato:	il_proprio_nome
+            Organizzazione registrata:	la_propria_organizzazione
+            ...
+            Directory Windows:	C:\WINDOWS
+            Directory di sistema:	C:\WINDOWS\System32
+            Unità di avvio:	\Device\HarddiskVolume1
+            Impostazioni internazionali sistema:	le_proprie_impostazioni
+            Impostazione internazionale di input:	la_propria_impostazione
+            Fuso orario:	il_proprio_fuso_orario
+            ...
+            Dominio:	woodgrovebank.com
+            Server di accesso:	\\Nome_del_controller_di_dominio
+            Aggiornamenti rapidi:	X Aggiornamenti rapidi installati.
+                                        [01]: Qxxxxxx
+            ...
+                                        [nn]: Qnnnnnn
+            Schede di rete:	1 NIC installate.
+                [01]: Modello_e_fornitore_della_scheda_di_rete
+                Nome connessione: Connessione alla rete locale
+                DHCP abilitato:    No
+                Indirizzi IP
+                [01]: xxx.xxx.xxx.xxx
         ```
 
     3.  Se queste impostazioni non corrispondono a quelle previste, è necessario riconfigurare il server utilizzando il Pannello di controllo, oppure riavviare l'installazione.
@@ -497,8 +525,6 @@ La procedura che segue indica come è possibile creare le UO e i GPO per la prop
     8.  Ripetere i tre passaggi precedenti per la combinazione di unità operative, GPO e modelli di protezione mostrata nella tabella seguente.
 
         **Tabella 4: Oggetti Criteri di gruppo e posizione**
-
- 
         <table style="border:1px solid black;">
         <colgroup>
         <col width="33%" />
@@ -557,7 +583,7 @@ Dopo aver creato i GPO e importato i modelli, è necessario personalizzare le im
   
         -   Archivi rimovibili
   
-        -   **Copia replicata del volume
+        -   Copia replicata del volume
   
         -   Provider di copie replicate software Microsoft
   
