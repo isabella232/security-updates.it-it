@@ -871,7 +871,7 @@ I seguenti collegamenti forniscono ulteriori informazioni sulle misure di protez
   
 -   La [*Guida per la protezione di Windows Server 2003*](http://technet.microsoft.com/it-it/library/cc163140.aspx) all'indirizzo http://go.microsoft.com/fwlink/?LinkId=14845 fornisce le istruzioni complete per la configurazione e l'amministrazione delle funzionalità di protezione di Windows Server 2003.
   
--   La [*Exchange Server Security Hardening Guide*](http://go.microsoft.com/fwlink/?linkid=37804)* *(in inglese) scaricabile * *all'indirizzo http://go.microsoft.com/fwlink/?LinkId=37804 descrive le procedure per attivare la protezione di computer Exchange Server in un dominio Active Directory.
+-   La [*Exchange Server Security Hardening Guide*](http://go.microsoft.com/fwlink/?linkid=37804) (in inglese) scaricabile all'indirizzo http://go.microsoft.com/fwlink/?LinkId=37804 descrive le procedure per attivare la protezione di computer Exchange Server in un dominio Active Directory.
   
 -   La [*Microsoft Internet Security and Acceleration (ISA) Server 2004 Hardening Guide*](http://download.microsoft.com/download/c/e/c/cecc8742-2102-42d4-9fc7-6b641bebbf56/isasecurityguide.doc) (in inglese) scaricabile all'indirizzo http://download.microsoft.com/download/c/e/c/cecc8742-2102-42d4-9fc7-6b641bebbf56/ISASecurityGuide.doc descrive i passaggi necessari per proteggere un computer ISA Server 2004, a prescindere dalla sua appartenenza a un dominio.
   
