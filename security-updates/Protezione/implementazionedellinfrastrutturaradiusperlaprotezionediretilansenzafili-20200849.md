@@ -346,7 +346,7 @@ I server IAS dispongono di una singola interfaccia di rete, ma può essere imple
     2.  Verificare i seguenti elementi dell'output di systeminfo (altri dettagli dell'output sono stati omessi per maggiore concisione):
     
         ```
-            Nome host:  HQ- IAS - 01HQ- IAS - 01
+                Nome host:  HQ- IAS - 01HQ- IAS - 01
                 Nome SO:    Microsoft® Windows® Server 2003, Enterprise Edition
                 ...
                 Configurazione SO:  Server membro
@@ -625,7 +625,7 @@ Dopo aver creato i GPO e importato i modelli, è necessario personalizzare le im
   
         -   Archivi rimovibili
   
-        -   **Copia replicata del volume
+        -   Copia replicata del volume
   
         -   Provider di copie replicate software Microsoft
   
