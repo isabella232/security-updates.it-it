@@ -547,6 +547,7 @@ Per bloccare un attacco in ingresso è possibile ricorrere alle seguenti soluzio
 La mappa del traffico esemplificativa riportata nella seguente tabella, utilizza filtri IPsec aggiuntivi per bloccare qualunque tentativo di accesso alle porte aperte dalla porta 80. Innanzitutto, si utilizza il comando Netstat –ano per determinare le porte TCP da aprire sul server cui si potrebbe collegare un pirata informatico. L'uscita di questo comando è simile a quanto segue:
   
 ```
+    C:\Documents and Settings\testuser.domain.000>netstat -ano 
     Active Connections
 
     Proto  Local Address       Foreign Address     State         PID
