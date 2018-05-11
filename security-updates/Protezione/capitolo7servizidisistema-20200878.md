@@ -19,10 +19,10 @@ Il presente capitolo faciliterà l'identificazione della funzione e dello scopo 
 
 ##### In questa pagina
 
-[](#edaa)[Panoramica dei servizi](#edaa)
-[](#ecaa)[Non impostare le autorizzazioni sugli Oggetti servizio](#ecaa)
-[](#ebaa)[Descrizione dei servizi di sistema](#ebaa)
-[](#eaaa)[Ulteriori informazioni](#eaaa)
+[](#edaa)[Panoramica dei servizi](#edaa)  
+[](#ecaa)[Non impostare le autorizzazioni sugli Oggetti servizio](#ecaa)  
+[](#ebaa)[Descrizione dei servizi di sistema](#ebaa)  
+[](#eaaa)[Ulteriori informazioni](#eaaa)  
 
 ### Panoramica dei servizi
 
@@ -95,7 +95,23 @@ Questa funzionalità è stata rettificata in Windows Server 2003 e la nuova ve
 Anche se è possibile utilizzare un editor di testo come il Blocco note per modificare i modelli di protezione, si tratta di file complessi. I modelli di protezione creati con una specifica relativa al modello definita in modo errato possono rendere impossibile l'avvio del computer. Sebbene la maggior parte degli errori non causa un problema così serio, è necessario essere pazienti e fare attenzione ai dettagli se è necessario modificare manualmente i modelli di protezione.
 
 Quando si utilizza uno degli strumenti basati su GUI per configurare i servizi in un modello di protezione, le informazioni di configurazione vengono memorizzate nella sezione del file relativa alle impostazioni generali del servizio. Il seguente testo di esempio proviene da un modello di protezione in cui lo stato di avvio dei servizi Avvisi, Cartella Appunti e Browser di computer è stato configurato su **Disabilitato** e quello del servizio Client DHCP su **Automatico.**
-        ```
+
+```
+	[Service General Setting]
+	Alerter,4,"D:AR(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)
+	(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)(A;;CCLCSWLOCRRC;;;IU)
+	S:(AU;FA;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;WD)"
+	ClipSrv,4,"D:AR(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)
+	(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)(A;;CCLCSWLOCRRC;;;IU)
+	S:(AU;FA;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;WD)"
+	Browser,4,"D:AR(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)
+	(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)(A;;CCLCSWLOCRRC;;;IU)
+	S:(AU;FA;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;WD)"
+	Dhcp,2,"D:AR(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)
+	(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)(A;;CCLCSWLOCRRC;;;IU)
+	S:(AU;FA;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;WD)"
+```
+
 Il formato di ciascuna voce contiene tre campi separati da virgole.
 
 -   Il primo campo specifica il nome del servizio. Ad esempio, ClipSrv indica il servizio Cartella Appunti.
@@ -114,7 +130,15 @@ Non è necessario conoscere i dettagli del linguaggio SDDL per utilizzare la Con
 security/security\_descriptor\_definition\_language.asp.
 
 Per risolvere i potenziali problemi relativi alle autorizzazioni sugli oggetti del servizio, rimuovere la stringa SDDL nel terzo campo, ma lasciare le virgolette doppie. L'esempio seguente mostra il testo corretto per i quattro servizi citati:
-        ```
+
+```
+        [Service General Setting]
+        Alerter,4,""
+        ClipSrv,4,""
+        Browser,4,""
+        Dhcp,2,""
+```
+       
 Una volta rimosse le informazioni SDDL da tutti i servizi nel modello di protezione, salvare il file. È quindi possibile applicare il modello di protezione seguendo uno dei metodi comunemente utilizzati. È estremamente importante verificare in modo esaustivo i modelli di protezione prima di applicarli ai computer di produzione.
 
 [](#mainsection)[Inizio pagina](#mainsection)
