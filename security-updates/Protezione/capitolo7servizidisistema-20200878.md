@@ -839,7 +839,7 @@ Il servizio **Spooler di stampa** gestisce tutte le code di stampa locali e dell
 
 Se il servizio **Spooler di stampa** viene arrestato, non sarà possibile stampare o inviare fax dal computer locale. Quando il servizio **Spooler di stampa** viene disattivato su un server che esegue Servizi terminal, l'hive del Registro di sistema crescerà lentamente fino a riempire il volume di sistema causando l'arresto del server. Questo problema è causato dal fatto che quando nuovi client accedono al server attraverso i Servizi terminal, il sistema tenta di eseguire automaticamente il mapping della stampante locale del client a una porta stampante sul server e inserisce tale mapping nel Registro di sistema. Tuttavia, il servizio **Spooler di stampa** dovrebbe eliminare ogni registrazione quando l'utente conclude la sessione, ma se il servizio non è in esecuzione, le registrazioni inutilizzate non verranno mai eliminate.
 
-Inoltre, la funzionalità Printer Pruner di Active Directory fa affidamento sul servizio **Spooler di stampa**. Per utilizzare Printer Pruner all'interno dell'organizzazione ed eseguire lo scavenging delle code orfane su una base non gestita, ogni sito dell'organizzazione deve disporre di almeno un controller di dominio che esegue il servizio **Spooler di stampa**. Se si configura il **servizio su **Disabilitato** o **Manuale**, questo non si avvierà automaticamente quando vengono inviate le richieste dei processi di stampa.
+Inoltre, la funzionalità Printer Pruner di Active Directory fa affidamento sul servizio **Spooler di stampa**. Per utilizzare Printer Pruner all'interno dell'organizzazione ed eseguire lo scavenging delle code orfane su una base non gestita, ogni sito dell'organizzazione deve disporre di almeno un controller di dominio che esegue il servizio **Spooler di stampa**. Se si configura il **servizio su Disabilitato** o **Manuale**, questo non si avvierà automaticamente quando vengono inviate le richieste dei processi di stampa.
 
 #### Archiviazione protetta
 
@@ -913,7 +913,7 @@ Il servizio **Installazione remota** non è installato per impostazione predefin
 
 Il servizio Microsoft **RPC (Remote Procedure Call)** è un meccanismo di comunicazione tra processi che consente lo scambio dei dati e la chiamata di funzionalità contenute in processi diversi nello stesso computer, nella rete locale o su Internet. Il servizio **RPC** svolge la funzione di agente di mapping degli endpoint RPC e di Gestione controllo servizi dei componenti COM. L'avvio corretto di più di 50 servizi dipende da RPC.
 
-Non è possibile arrestare o disattivare il servizio **RPC (Remote Procedure Call**. Se questo** **servizio non è disponibile, il sistema operativo non verrà caricato.
+Non è possibile arrestare o disattivare il servizio **RPC (Remote Procedure Call**. Se questo **servizio non è disponibile, il sistema operativo non verrà caricato.**
 
 #### RPC Locator
 
@@ -987,7 +987,7 @@ Il servizio **Routing e Accesso remoto** è installato per impostazione predefin
 
 #### Agente SAP
 
-Il servizio **Agente SAP** pubblicizza i servizi di rete in reti IPX utilizzando il protocollo IPX SAP (Service Advertising Protocol). Inoltra anche annunci a un host multihomed. Alcune funzioni, quali Servizi di gestione file e di stampa per NetWare, si basano su questo** **servizio.
+Il servizio **Agente SAP** pubblicizza i servizi di rete in reti IPX utilizzando il protocollo IPX SAP (Service Advertising Protocol). Inoltra anche annunci a un host multihomed. Alcune funzioni, quali Servizi di gestione file e di stampa per NetWare, si basano su questo servizio.
 
 Il servizio **Agente SAP** richiede l'installazione del protocollo di trasporto compatibile NWLINK IPX/SPX e non viene installato o attivato per impostazione predefinita. Se il servizio è disattivato, queste funzioni potrebbero non funzionare correttamente.
 
@@ -1213,7 +1213,7 @@ Se il servizio **Utilità di pianificazione** viene arrestato, le attività pian
 
 #### Servizio guida TCP/IP NetBIOS
 
-Il **Servizio guida TCP/IP NetBIOS** fornisce il supporto per il servizio NetBIOS su TCP/IP (NetBT) e per la risoluzione dei nomi NetBIOS per i client della rete, consentendo agli utenti di condividere file e stampanti e di accedere alla rete. In particolare, per supportare il servizio NetBT, il** **servizio esegue la risoluzione dei nomi DNS e il ping di un insieme di indirizzi IP che restituisce un elenco di indirizzi IP accessibili.
+Il **Servizio guida TCP/IP NetBIOS** fornisce il supporto per il servizio NetBIOS su TCP/IP (NetBT) e per la risoluzione dei nomi NetBIOS per i client della rete, consentendo agli utenti di condividere file e stampanti e di accedere alla rete. In particolare, per supportare il servizio NetBT, il **servizio esegue la risoluzione dei nomi DNS e il ping di un insieme di indirizzi IP che restituisce un elenco di indirizzi IP accessibili**.
 
 Il **Servizio guida TCP/IP NetBIOS** è installato e avviato automaticamente per impostazione predefinita su Windows Server 2003 e Windows XP. Se questo servizio viene arrestato o disattivato, i client dei servizi NetBT, Redirector (RDR), Server (SRV), **Accesso rete** e **Messenger** potrebbero non essere in grado di condividere file e stampanti e di accedere ai computer. Ad esempio, i Criteri di gruppo basati sui domini non saranno più funzionanti.
 
@@ -1367,7 +1367,7 @@ Non è possibile arrestare **AudioWindows** una volta che è stato avviato. La d
 
 #### Windows Firewall /Condivisione connessione Internet
 
-Il servizio **Windows Firewall /Condivisione connessione Internet** (ICS)** **fornisce servizi di conversione degli indirizzi di rete (NAT, Network Address Translation), risoluzione di nomi e indirizzi e servizi di prevenzione delle intrusioni per tutti i computer di una rete domestica o di una piccola rete aziendale tramite una connessione remota o a banda larga.
+Il servizio **Windows Firewall /Condivisione connessione Internet** (ICS) fornisce servizi di conversione degli indirizzi di rete (NAT, Network Address Translation), risoluzione di nomi e indirizzi e servizi di prevenzione delle intrusioni per tutti i computer di una rete domestica o di una piccola rete aziendale tramite una connessione remota o a banda larga.
 
 Quando questo servizio è attivato, il computer diventa un "gateway Internet" di rete, consentendo agli altri computer client di condividere una connessione Internet, condividere file e utilizzare le stesse stampanti. Per questo servizio sono disponibili criteri di gruppo dipendenti dall’indirizzo.
 
