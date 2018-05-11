@@ -625,7 +625,7 @@ Dopo aver creato i GPO e importato i modelli, è necessario personalizzare le im
   
         -   Archivi rimovibili
   
-        -   **Copia replicata del volume
+        -   Copia replicata del volume
   
         -   Provider di copie replicate software Microsoft
   
