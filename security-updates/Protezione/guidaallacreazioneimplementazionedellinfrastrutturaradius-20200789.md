@@ -16,7 +16,7 @@ Pubblicato: 11 ottobre 2004 | Aggiornato: 24/11/2004
 [](#egaa)[Introduzione](#egaa)  
 [](#efaa)[Foglio di lavoro per la pianificazione dell'infrastruttura RADIUS](#efaa)  
 [](#eeaa)[Creazione dei propri server](#eeaa)  
-[](#edaa)[Installazione e configurazione del Servizio autenticazione Internet](#edaa  
+[](#edaa)[Installazione e configurazione del Servizio autenticazione Internet](#edaa)  
 [](#ecaa)[Configurazione del server IAS primario](#ecaa)  
 [](#ebaa)[Distribuzione della configurazione a più server IAS](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)  
