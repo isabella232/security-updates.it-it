@@ -13,14 +13,14 @@ Guida per la protezione di Windows Server 2003
 
 ##### In questa pagina
 
-[](#ehaa)[Panoramica](#ehaa)
-[](#egaa)[Impostazioni del Criterio Controllo](#egaa)
-[](#efaa)[Assegnazione dei diritti utente](#efaa)
-[](#eeaa)[Opzioni di protezione](#eeaa)
-[](#edaa)[Impostazioni del Registro eventi](#edaa)
-[](#ecaa)[Impostazioni di protezione aggiuntive](#ecaa)
-[](#ebaa)[Creazione del criterio utilizzando SCW](#ebaa)
-[](#eaaa)[Riepilogo](#eaaa)
+[](#ehaa)[Panoramica](#ehaa)  
+[](#egaa)[Impostazioni del Criterio Controllo](#egaa)  
+[](#efaa)[Assegnazione dei diritti utente](#efaa)  
+[](#eeaa)[Opzioni di protezione](#eeaa)  
+[](#edaa)[Impostazioni del Registro eventi](#edaa)  
+[](#ecaa)[Impostazioni di protezione aggiuntive](#ecaa)  
+[](#ebaa)[Creazione del criterio utilizzando SCW](#ebaa)  
+[](#eaaa)[Riepilogo](#eaaa)  
 
 ### Panoramica
 
@@ -34,7 +34,6 @@ La tabella seguente mostra i nomi dei modelli di protezione del file server per 
 
 **Tabella 7.1 Modelli di protezione dei file server**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -57,7 +56,7 @@ La tabella seguente mostra i nomi dei modelli di protezione del file server per 
 </tbody>
 </table>
   
-Per le informazioni sulle impostazioni di criterio nell'MSBP, consultare il Capitolo 4, “Criterio di base per un server membro". Per informazioni su tutte le impostazioni di criteri predefinite, consultare la guida correlata, [*Pericoli e contromisure: impostazioni di protezione per Windows Server 2003 e Windows XP*](http://technet.microsoft.com/it-it/library/dd162275)*, *disponibile all'indirizzo * *http://www.microsoft.com/italy/technet/security/topics/serversecurity/tcg/tcgch00.mspx.
+Per le informazioni sulle impostazioni di criterio nell'MSBP, consultare il Capitolo 4, “Criterio di base per un server membro". Per informazioni su tutte le impostazioni di criteri predefinite, consultare la guida correlata, [*Pericoli e contromisure: impostazioni di protezione per Windows Server 2003 e Windows XP*](http://technet.microsoft.com/it-it/library/dd162275), disponibile all'indirizzo http://www.microsoft.com/italy/technet/security/topics/serversecurity/tcg/tcgch00.mspx.
   
 [](#mainsection)[Inizio pagina](#mainsection)
   
@@ -168,7 +167,7 @@ Il criterio è verificato per accertarsi che la sua applicazione a server di des
 Quando si è certi delle proprie configurazioni di criterio, è possibile utilizzare Scwcmd come mostrato nella seguente procedura per convertire i criteri in GPO.
   
 Per ulteriori dettagli su come verificare i criteri di SCW, consultare la [Deployment Guide for the Security Configuration Wizard](http://technet.microsoft.com/en-us/library/cc776871.aspx) (in inglese) all'indirizzo www.microsoft.com/technet/prodtechnol/windowsserver2003/  
-library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* * e la [Security Configuration Wizard Documentation](http://go.microsoft.com/fwlink/?linkid=43450) (in inglese) all'indirizzo http://go.microsoft.com/fwlink/?linkid=43450.
+library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx e la [Security Configuration Wizard Documentation](http://go.microsoft.com/fwlink/?linkid=43450) (in inglese) all'indirizzo http://go.microsoft.com/fwlink/?linkid=43450.
   
 #### Conversione e utilizzo del criterio
   
@@ -176,13 +175,16 @@ Dopo aver verificato a fondo il criterio, completare le seguenti fasi, per trasf
   
 1.  Al prompt dei comandi digitare il seguente comando:
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
+    ```
+       scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+    ```
   
     e premere INVIO. Ad esempio:
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\File Server.xml" /g:"File Server Policy"  
-```
+    ```
+       scwcmd transform /p:"C:\Windows\Security\msscw\Policies\File 
+       Server.xml" /g:"File Server Policy"
+    ```
   
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   

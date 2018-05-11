@@ -106,14 +106,14 @@ Il corsivo viene inoltre utilizzato per contraddistinguere i nuovi termini. Ad e
 <td style="border:1px solid black;">Con questo stile si definisce il testo visualizzato sullo schermo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><pre><code>Codice a spaziatura fissa</code></pre>
+<td style="border:1px solid black;">Codice a spaziatura fissa
 <br />
 </td>
 <td style="border:1px solid black;">Questo stile viene utilizzato per definire gli esempi di codice. Esempio:<br />
   public override void Install(IDictionary savedState)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><pre><code>Comando a spaziatura fissa</code></pre>
+<td style="border:1px solid black;">Comando a spaziatura fissa
 <br />
 </td>
 <td style="border:1px solid black;">Con questo stile si definiscono comandi, switch e attributi digitati dall'utente al prompt dei comandi. Esempio:<br />

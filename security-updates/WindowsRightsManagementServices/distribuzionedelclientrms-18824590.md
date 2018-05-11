@@ -29,7 +29,11 @@ Windows Update fornisce il metodo più semplice per installare il client RMS su 
 
 Per ottenere il massimo livello di controllo sul processo di installazione dei client, è possibile ottenere il software e convalidarne l'integrità in ogni fase del processo di installazione per mezzo di uno script. È possibile creare questo script e aggiungerlo a un oggetto Criteri di gruppo (GPO) come script di avvio. Con questo metodo non è necessario che l'utente sia un amministratore locale sul computer e il client RMS viene installato automaticamente al riavvio del sistema.
 
-        ```
+```
+Set objShell = Wscript.CreateObject("Wscript.Shell")  
+objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q"
+```
+
 Per informazioni di base sulla distribuzione del client RMS utilizzando Criteri di gruppo, vedere [Configurazione di SMS o Criteri di gruppo per supportare la distribuzione dei client](https://technet.microsoft.com/9e37c27b-8cc1-40c6-adb7-0937aa64c8db), più avanti in questo argomento.
 
 Per istruzioni sulle procedure di distribuzione del client RMS, vedere [Come distribuire il client RMS](https://technet.microsoft.com/c84f1724-cf71-4385-9003-ff68bc23c927), più avanti in questo argomento.

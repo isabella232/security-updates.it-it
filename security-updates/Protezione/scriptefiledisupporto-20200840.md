@@ -15,9 +15,9 @@ Aggiornato: 2 aprile 2004
 
 ##### In questa pagina
 
-[](#edaa)[Introduzione](#edaa)
-[](#ecaa)[Elenco dei file forniti con la soluzione](#ecaa)
-[](#ebaa)[Struttura degli script](#ebaa)
+[](#edaa)[Introduzione](#edaa)  
+[](#ecaa)[Elenco dei file forniti con la soluzione](#ecaa)  
+[](#ebaa)[Struttura degli script](#ebaa)  
 
 ### Introduzione
 
@@ -35,7 +35,6 @@ Nella tabella seguente sono elencati tutti i file forniti con la soluzione. Ques
 
 **Tabella D.1: Elenco dei file forniti con la soluzione**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -164,19 +163,34 @@ Vi sono due file WSF (Windows Script), che contengono l'interfaccia utente per t
   
 È possibile richiamare il processo utilizzando la seguente sintassi:
   
-**cscript //job:***NomeProcessoWScriptFile*.wsf
+**cscript //job:** *NomeProcessoWScriptFile*.wsf
   
 dove *NomeProcesso* è il nome dell'operazione e *WScriptFile* è il nome del file di interfaccia XML per lo script. Di seguito è riportato un estratto di uno dei file WSF, in cui è definito il processo ConfigureCA:
   
-<codesnippet language displaylanguage containsmarkup="false"> &lt;?xml version="1.0" encoding="utf-8" ?&gt; &lt;package xmlns="Windows Script Host"&gt; &lt;job id="ConfigureCA"&gt; &lt;description&gt;Configures the CA registry parameters&lt;/description&gt; &lt;script language="VBScript" src="constants.vbs" /&gt; &lt;script language="VBScript" src="pkiparams.vbs" /&gt; &lt;script language="VBScript" src="helper.vbs" /&gt; &lt;script language="VBScript" src="ca\_setup.vbs" /&gt; &lt;script language="VBScript"&gt; &lt;!\[CDATA\[ Initialize True, True ConfigureCA CloseDown \]\]&gt; &lt;/script&gt;   
-```  
+```
+   <?xml version="1.0" encoding="utf-8" ?> 
+   <package xmlns="Windows Script Host"> 
+       <job id="ConfigureCA"> 
+           <description>Configures the CA registry parameters</description> 
+           <script language="VBScript" src="constants.vbs" /> 
+           <script language="VBScript" src="pkiparams.vbs" /> 
+           <script language="VBScript" src="helper.vbs" /> 
+           <script language="VBScript" src="ca_setup.vbs" /> 
+           <script language="VBScript"> 
+           <![CDATA[         
+               Initialize True, True 
+               ConfigureCA 
+               CloseDown 
+           ]]> 
+           </script>
+``` 
+ 
 In questo estratto, la definizione del processo specifica che i file VBS, cioè constants.vbs, pkiparams.vbs, helper.vbs e ca\_setup.vbs, contengono funzioni, subroutine o dati richiesti da questo processo e, pertanto, devono essere caricati. La sezione finale specifica le funzioni di livello superiore che devono essere eseguite per avviare il processo. In questo caso queste funzioni sono Initialize (che imposta la registrazione), ConfigureCA (che esegue il processo di configurazione della CA) e CloseDown (che chiude il registro).
   
 In ognuno dei file WSF, il primo processo elenca i nomi (ID) e le descrizioni di tutti i processi contenuti nel file. Pertanto, se il file WSF viene eseguito senza che sia specificato un processo specifico, viene eseguito questo processo predefinito e viene visualizzata una schermata con i nomi e le descrizioni di tutti i processi disponibili nel file. Nella tabella seguente sono elencati i processi disponibili in ognuno dei file WSF forniti con la soluzione.
   
 **Tabella D.2: Elenco dei processi in MSSSetup.wsf**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -260,7 +274,6 @@ In ognuno dei file WSF, il primo processo elenca i nomi (ID) e le descrizioni di
   
 **Tabella D.3: Elenco dei processi in MSSTools.wsf**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -356,17 +369,17 @@ Gli script possono essere eseguiti direttamente, tuttavia sono disponibili due f
   
 La sintassi per l'esecuzione diretta dei file WSF è la seguente:
   
-**Cscript //job:***NomeProcesso* MssSetup.wsf
+**Cscript //job:** *NomeProcesso* MssSetup.wsf
   
 Al suo posto è possibile utilizzare i file CMD con la seguente sintassi, più semplice:
   
-**MssSetup***NomeProcesso*
+**MssSetup** *NomeProcesso*
   
 Se si esegue il file CMD senza specificare un processo, viene eseguito il primo processo (ListJobs) del file WSF, che elenca l'ID e la descrizione di ogni processo contenuto nel file WSF.
   
 Alcuni processi accettano anche ulteriori parametri. La sintassi per l'esecuzione di tali processi e le informazioni sui parametri aggiuntivi vengono trattate nei capitoli di pertinenza di questa soluzione. La sintassi generica per specificare ulteriori parametri è la seguente:
   
-**MssSetup***NomeProcesso* /NomeParam:*ValoreParam*
+**MssSetup** *NomeProcesso* /NomeParam:*ValoreParam*
   
 *NomeParam* è il nome del parametro (ad esempio "path" o "client") e *ValoreParam* è l'impostazione per tale parametro (ad esempio "C:\\MioFile.txt" o "MioComputer"). I valori dei parametri che contengono spazi incorporati devono essere racchiusi tra virgolette (").
   

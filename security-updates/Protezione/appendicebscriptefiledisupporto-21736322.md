@@ -13,10 +13,10 @@ Pubblicato: 11 ottobre 2004 | Aggiornato: 24/11/2004
 
 ##### In questa pagina
 
-[](#edaa)[Introduzione](#edaa)
-[](#ecaa)[Elenco dei file della soluzione](#ecaa)
-[](#ebaa)[Struttura degli script](#ebaa)
-[](#eaaa)[Descrizione degli script e dei file di supporto](#eaaa)
+[](#edaa)[Introduzione](#edaa)  
+[](#ecaa)[Elenco dei file della soluzione](#ecaa)  
+[](#ebaa)[Struttura degli script](#ebaa)  
+[](#eaaa)[Descrizione degli script e dei file di supporto](#eaaa)  
 
 ### Introduzione
 
@@ -98,7 +98,37 @@ Tutti i file di script WSF utilizzano la sintassi dove *NomeProcesso* è il nome
 
 cscript //job:*NomeProcesso* *WScriptFile*.wsf
 
-        ```
+Un estratto di uno dei file WSF include le seguenti informazioni:
+
+```
+        <?xml version="1.0" encoding="utf-8" ?>
+        <package xmlns="Windows Script Host
+            <job id="GetCaCerts ">
+                <comment></comment>
+                <script language="VBScript" src="constants.vbs" />
+                <script language="VBScript" src="pkiparams.vbs" />
+                <script language="VBScript" src="helper.vbs" />
+                <script language="VBScript" src="ca_operations.vbs" />
+                <script language="VBScript
+                <![CDATA[
+                    GetCaCerts
+                ]]>
+                </script>
+            </job>
+            <job id="PublishRootCertstoIIS ">
+                <comment></comment>
+                <script language="VBScript" src="constants.vbs" />
+                <script language="VBScript" src="pkiparams.vbs" />
+                <script language="VBScript" src="helper.vbs" />
+                <script language="VBScript" src="ca_operations.vbs" />
+                <script>
+                <![CDATA[
+                    PublishCertstoIIS ROOT_CERT_SOURCE, WWW_LOCAL_PUB_PATH
+                ]]>
+                </script>
+            </job>
+```
+
 Il primo processo è GetCACerts. La definizione del processo specifica che i file VBS constants.vbs, pkiparams.vbs, helper.vbs, e ca\_operations.vbs verranno caricati e contengono funzioni o subroutine richieste da questo processo. La sezione finale dell'esempio di codice specifica la funzione di livello superiore che viene eseguita per avviare il processo, in questo caso GetCACerts. Questo esempio ha lo stesso nome del processo, ma i nomi non devono essere necessariamente uguali. Si osservi che il secondo processo, PublishRootCertstoIIS, fornisce i parametri della funzione chiamata.
 
 Sono i file VBS che effettivamente svolgono il lavoro e ce ne sono di tre tipi:

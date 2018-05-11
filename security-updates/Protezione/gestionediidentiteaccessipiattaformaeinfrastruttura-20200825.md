@@ -183,11 +183,12 @@ Questo script è eseguibile anche in remoto. In tal caso, assicurarsi che la wor
   
 3.  Al prompt dei comandi, eseguire lo script **ADBaseline.vbs** utilizzando il seguente comando:
   
-    <codesnippet language displaylanguage containsmarkup="false"> Cscript.exe ADBaseline.vbs /t intranet /s FFL-NA-DC-01 /m FFL-NA-MSG-01 /f IntranetADData.txt   
-```
-  
+    ```
+        Cscript.exe ADBaseline.vbs /t intranet /s FFL-NA-DC-01 /m FFL-NA-MSG-01 /f IntranetADData.txt
+    ```
+    
     **Nota:** sostituire FFL-NA-DC-01 con il nome del controller di dominio Intranet e FFL-NA-MSG-01 con il nome del server Exchange.
-  
+       
 4.  Assicurarsi che lo script restituisca per tutte le operazioni il seguente messaggio di conferma:  
     Operazione completata.
   
@@ -205,9 +206,10 @@ Il dominio Active Directory perimeter.contoso.com è l'insieme di strutture dell
   
 3.  Al prompt dei comandi, eseguire lo script **ADBaseline.vbs** utilizzando il seguente comando:
   
-    <codesnippet language displaylanguage containsmarkup="false"> Cscript.exe ADBaseline.vbs /t extranet /s FFL-CP-DC-01 /f ExtranetADData.txt   
-```
-  
+    ```
+       Cscript.exe ADBaseline.vbs /t extranet /s FFL-CP-DC-01 /f ExtranetADData.txt
+    ```   
+    
     **Nota:** sostituire FFL-CP-DC-01 con il nome del controller di dominio Extranet.
   
 4.  Assicurarsi che lo script restituisca per tutte le operazioni il seguente messaggio di conferma:  
