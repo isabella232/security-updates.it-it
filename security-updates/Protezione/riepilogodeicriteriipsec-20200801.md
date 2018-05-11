@@ -99,7 +99,7 @@ Tutti i criteri definiti all'interno di questa soluzione contengono le seguenti 
 
 **Filtro**:    Qualsiasi &lt;-&gt; 192.168.1.21, Speculare
 
-              Qualsiasi &lt;-&gt; 192.168.1.22, Speculare
+              Qualsiasi <-> 192.168.1.22, Speculare
 
 **Descrizione**: "Indirizzi IP per tutti i controller di dominio dell'organizzazione"
 
