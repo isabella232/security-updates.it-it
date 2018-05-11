@@ -86,8 +86,17 @@ La traccia può essere implementata modificando il file Web.config o Machine.con
 **Per attivare la traccia**
 1.  Aprire il file Machine.config oppure il file Web.config, quindi aggiungere le seguenti righe sotto la sezione &lt;system.diagnostics&gt; del file:
 
-    
-        ```
+```
+<system.diagnostics>
+<switches>
+<add name="Microsoft Windows Rights Management Services-Global" value="4" />
+<add name="Microsoft Windows Rights Management Services-TimeStamps" value="1" /> 
+<add name="Microsoft Windows Rights Management Services-Indents" value="0" /> 
+</switches>
+<trace autoflush="false" indentsize="4"/>
+</system.diagnostics>
+```
+
 2.  Riavviare IIS eseguendo IISRESET a un prompt dei comandi.
 
 3.  Dopo avere raccolto i dati necessari, rimuovere le righe dal file con estensione config aggiunto al passaggio 1.
@@ -98,7 +107,6 @@ La traccia può essere implementata modificando il file Web.config o Machine.con
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Quando si utilizza la traccia su un server RMS, possono verificarsi problemi nelle prestazioni, ad esempio ritardi più lunghi nelle acquisizioni di licenze d'uso e nell'emissione di certificati per account con diritti. Utilizzare la traccia solo in alcune circostanze per aiutare a diagnosticare e risolvere i problemi esistenti. |
 
-<span id="BKMK_9"></span>
 #### Cos'è lo sfalsamento degli orologi e come è possibile gestirlo?
 
 Lo sfalsamento degli orologi si verifica quando l'ora dell'orologio di un computer è diversa da quella di un altro computer. Si tratta di un caso che si verifica di frequente, come accade con gli orologi da polso di due persone che si trovano in una stessa stanza. Lo sfalsamento dell'orologio può causare problemi nei casi in cui venga specificato un periodo di validità di una licenza.

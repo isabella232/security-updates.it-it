@@ -547,24 +547,24 @@ Per bloccare un attacco in ingresso è possibile ricorrere alle seguenti soluzio
 La mappa del traffico esemplificativa riportata nella seguente tabella, utilizza filtri IPsec aggiuntivi per bloccare qualunque tentativo di accesso alle porte aperte dalla porta 80. Innanzitutto, si utilizza il comando Netstat –ano per determinare le porte TCP da aprire sul server cui si potrebbe collegare un pirata informatico. L'uscita di questo comando è simile a quanto segue:
   
 ```
-    C:\Documents and Settings\testuser.domain.000>netstat -ano
-        Active Connections
+    Active Connections
 
-        Proto  Local Address       Foreign Address     State         PID
-        TCP    0.0.0.0:135         0.0.0.0:0           LISTENING     740
-        TCP    0.0.0.0:445         0.0.0.0:0           LISTENING     4
-        TCP    0.0.0.0:1025        0.0.0.0:0           LISTENING     884
-        TCP    0.0.0.0:1046        0.0.0.0:0           LISTENING     508
-        TCP    192.168.0.5:139     0.0.0.0:0           LISTENING     4
-        UDP    0.0.0.0:445         *:*                               4
-        UDP    0.0.0.0:500         *:*                               508
-        UDP    0.0.0.0:1026        *:*                               816
-        UDP    0.0.0.0:1029        *:*                               508
-        UDP    0.0.0.0:1051        *:*                               452
-        UDP    0.0.0.0:4500        *:*                               508
-        UDP    127.0.0.1:123       *:*                               884
-        UDP    192.168.0.5:123     *:*                               884
-        UDP    192.168.0.5:137     *:*                               4
+    Proto  Local Address       Foreign Address     State         PID
+    TCP    0.0.0.0:135         0.0.0.0:0           LISTENING     740
+    TCP    0.0.0.0:445         0.0.0.0:0           LISTENING     4
+    TCP    0.0.0.0:1025        0.0.0.0:0           LISTENING     884
+    TCP    0.0.0.0:1046        0.0.0.0:0           LISTENING     508
+    TCP    192.168.0.5:139     0.0.0.0:0           LISTENING     4
+    UDP    0.0.0.0:445         *:*                               4
+    UDP    0.0.0.0:500         *:*                               508
+    UDP    0.0.0.0:1026        *:*                               816
+    UDP    0.0.0.0:1029        *:*                               508
+    UDP    0.0.0.0:1051        *:*                               452
+    UDP    0.0.0.0:4500        *:*                               508
+    UDP    127.0.0.1:123       *:*                               884
+    UDP    192.168.0.5:123     *:*                               884
+    UDP    192.168.0.5:137     *:*                               4
+    
 ```
 
 Viene quindi definita la regola per bloccare l’attacco specifico dalla porta di origine TCP 25 a ciascuna porta TCP aperta, come illustrato nella seguente tabella:
@@ -757,7 +757,7 @@ Viene quindi definita la regola per bloccare l’attacco specifico dalla porta d
 </tr>
 </tbody>
 </table>
-  
+
 Questo esempio dimostra come creare filtri unidirezionali per bloccare il traffico con la porta di origine 80 per qualunque porta attiva sul computer, che potrebbe bloccare un attacco in ingresso. L'esempio impedisce di effettuare lo spoofing di una porta di origine 80 per connettersi alle porte utilizzate da RPC, NetBT, SMB (CIFS).
   
 È possibile applicare i criteri IPsec in modi diversi:

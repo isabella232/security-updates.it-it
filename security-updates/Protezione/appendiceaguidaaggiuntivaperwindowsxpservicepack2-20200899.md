@@ -589,8 +589,7 @@ Se si abilita questa impostazione di criterio, è necessario creare un elenco di
 -   **Valore**. Un numero che indica se Internet Explorer deve rifiutare o consentire il caricamento del componente aggiuntivo. I valori seguenti sono validi:
   
     **Tabella A.13: impostazione dei valori nell'elenco dei componenti aggiuntivi**
-
- 
+    
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
