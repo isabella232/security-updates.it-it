@@ -13,15 +13,15 @@ Guida per la protezione di Windows Server 2003
 
 ##### In questa pagina
 
-[](#eiaa)[Panoramica](#eiaa)
-[](#ehaa)[Impostazioni del Criterio Controllo](#ehaa)
-[](#egaa)[Assegnazione dei diritti utente](#egaa)
-[](#efaa)[Opzioni di protezione](#efaa)
-[](#eeaa)[Impostazioni del Registro eventi](#eeaa)
-[](#edaa)[Voci di registro aggiuntive](#edaa)
-[](#ecaa)[Impostazioni di protezione aggiuntive](#ecaa)
-[](#ebaa)[Creazione del criterio utilizzando SCW](#ebaa)
-[](#eaaa)[Riepilogo](#eaaa)
+[](#eiaa)[Panoramica](#eiaa)  
+[](#ehaa)[Impostazioni del Criterio Controllo](#ehaa)  
+[](#egaa)[Assegnazione dei diritti utente](#egaa)  
+[](#efaa)[Opzioni di protezione](#efaa)  
+[](#eeaa)[Impostazioni del Registro eventi](#eeaa)  
+[](#edaa)[Voci di registro aggiuntive](#edaa)  
+[](#ecaa)[Impostazioni di protezione aggiuntive](#ecaa)  
+[](#ebaa)[Creazione del criterio utilizzando SCW](#ebaa)  
+[](#eaaa)[Riepilogo](#eaaa)  
 
 ### Panoramica
 
@@ -342,9 +342,9 @@ Il presente capitolo ha descritto le impostazioni di criterio che possono essere
   
 I seguenti collegamenti forniscono informazioni aggiuntive sulla protezione avanzata dei server che eseguono Windows Server 2003 con SP1 e Servizi certificati.
   
--   Per un'introduzione esauriente ai concetti dell'infrastruttura a chiave pubblica (PKI, Public key Infrastructure) e alle funzioni dei servizi di certificazione di Windows 2000* *, consultare "[An Introduction to the Windows 2000 Public-Key Infrastructure](http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx)" all'indirizzo http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx (in inglese).
+-   Per un'introduzione esauriente ai concetti dell'infrastruttura a chiave pubblica (PKI, Public key Infrastructure) e alle funzioni dei servizi di certificazione di Windows 2000, consultare "[An Introduction to the Windows 2000 Public-Key Infrastructure](http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx)" all'indirizzo http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx (in inglese).
   
--   Per informazioni più dettagliate sulla funzionalità PKI in Windows* * Server* *2003 e Windows* *XP, consultare "[PKI Enhancements in Windows XP Professional and Windows Server 2003](http://www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx)" all'indirizzo http://www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx (in inglese).
+-   Per informazioni più dettagliate sulla funzionalità PKI in Windows Server 2003 e Windows XP, consultare "[PKI Enhancements in Windows XP Professional and Windows Server 2003](http://www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx)" all'indirizzo http://www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx (in inglese).
   
 -   Per ulteriori informazioni di base sui concetti principali di PKI, consultare la pagina [Public Key Infrastructure](http://technet.microsoft.com/en-us/library/cc757327.aspx) all'indirizzo www.microsoft.com/technet/prodtechnol/windowsserver2003/library/  
     ServerHelp/32aacfe8-83af-4676-a45c-75483545a978.mspx (in inglese).
