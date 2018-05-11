@@ -11,14 +11,14 @@ Protezione di Internet Information Services 6.0
 
 ##### In questa pagina
 
-[](#ehaa)[Introduzione](#ehaa)
-[](#egaa)[Prima di iniziare](#egaa)
-[](#efaa)[Riduzione della superficie di attacco del server Web](#efaa)
-[](#eeaa)[Configurazione degli account](#eeaa)
-[](#edaa)[Configurazione della protezione per file e directory](#edaa)
-[](#ecaa)[Protezione di siti Web e directory virtuali](#ecaa)
-[](#ebaa)[Configurazione di Secure Sockets Layer (SSL) nel server Web](#ebaa)
-[](#eaaa)[Informazioni correlate](#eaaa)
+[](#ehaa)[Introduzione](#ehaa)  
+[](#egaa)[Prima di iniziare](#egaa)  
+[](#efaa)[Riduzione della superficie di attacco del server Web](#efaa)  
+[](#eeaa)[Configurazione degli account](#eeaa)  
+[](#edaa)[Configurazione della protezione per file e directory](#edaa)  
+[](#ecaa)[Protezione di siti Web e directory virtuali](#ecaa)  
+[](#ebaa)[Configurazione di Secure Sockets Layer (SSL) nel server Web](#ebaa)  
+[](#eaaa)[Informazioni correlate](#eaaa)  
 
 ### Introduzione
 
@@ -448,7 +448,7 @@ Per completare questa attività è necessario disporre di quanto segue:
   
 ##### Ridenominazione dell'account IUSR
   
-L'account utente Internet anonimo predefinito, IUSR\_*&lt;NomeComputer&gt;*,* *viene creato durante l'installazione di IIS. *&lt;NomeComputer&gt;* corrisponde al nome NetBIOS del server al momento dell'installazione di IIS. Ridenominando questo account si riducono le probabilità di riuscita di alcuni attacchi a forza bruta.
+L'account utente Internet anonimo predefinito, IUSR\_*&lt;NomeComputer&gt;*, viene creato durante l'installazione di IIS. *&lt;NomeComputer&gt;* corrisponde al nome NetBIOS del server al momento dell'installazione di IIS. Ridenominando questo account si riducono le probabilità di riuscita di alcuni attacchi a forza bruta.
   
 ###### Requisiti
   
@@ -464,7 +464,7 @@ Per completare questa attività è necessario disporre di quanto segue:
   
 2.  Fare doppio clic su **Utenti e gruppi locali**, quindi selezionare la cartella **Users**.
   
-3.  Fare clic con il pulsante destro del mouse sull'account **IUSR\_*&lt;NomeComputer&gt;*****, quindi scegliere **Rinomina**.
+3.  Fare clic con il pulsante destro del mouse sull'account **IUSR\_&lt;NomeComputer&gt;*****, quindi scegliere **Rinomina**.
   
 4.  Digitare il nuovo nome account e premere INVIO.
   
@@ -967,7 +967,6 @@ MIIDATCCAmoCAQAwbDEOMAwGA1UEAxMFcGxhbjgxDDAKBgNVBAsTA1BTUzESMB
                 -----END NEW CERTIFICATE REQUEST-----
 ```
 
-  
 13. Confermare i dettagli della richiesta, fare clic su **Avanti** e quindi su **Fine**.
   
 **Per inviare una richiesta di certificato server**
