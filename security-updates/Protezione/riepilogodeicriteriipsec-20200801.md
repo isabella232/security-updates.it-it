@@ -17,11 +17,11 @@ In questa appendice viene fornito un conciso elenco di informazioni relative a t
 
 ##### In questa pagina
 
-[](#eeaa)[Configurazione generale dei criteri](#eeaa)
-[](#edaa)[Criteri del dominio di isolamento](#edaa)
-[](#ecaa)[Criteri del gruppo di isolamento Nessun fallback](#ecaa)
-[](#ebaa)[Criteri del gruppo di isolamento Limite](#ebaa)
-[](#eaaa)[Criteri del gruppo di isolamento Crittografia](#eaaa)
+[](#eeaa)[Configurazione generale dei criteri](#eeaa)  
+[](#edaa)[Criteri del dominio di isolamento](#edaa)  
+[](#ecaa)[Criteri del gruppo di isolamento Nessun fallback](#ecaa)  
+[](#ebaa)[Criteri del gruppo di isolamento Limite](#ebaa)  
+[](#eaaa)[Criteri del gruppo di isolamento Crittografia](#eaaa)  
 
 ### Configurazione generale dei criteri
 
@@ -79,9 +79,9 @@ Tutti i criteri definiti all'interno di questa soluzione contengono le seguenti 
 
 **Elenco filtri**: "IPSEC - Elenco esenzioni DNS"
 
-**Filtro**:    Qualsiasi &lt;-&gt; 192.168.1.21, Speculare
+**Filtro**:    Qualsiasi <-> 192.168.1.21, Speculare
 
-              Qualsiasi &lt;-&gt; 192.168.1.22, Speculare
+               Qualsiasi <-> 192.168.1.22, Speculare
 
 **Descrizione**: "Indirizzi IP per tutti i server DNS dell'organizzazione"
 
