@@ -19,10 +19,10 @@ Il presente capitolo faciliterà l'identificazione della funzione e dello scopo 
 
 ##### In questa pagina
 
-[](#edaa)[Panoramica dei servizi](#edaa)
-[](#ecaa)[Non impostare le autorizzazioni sugli Oggetti servizio](#ecaa)
-[](#ebaa)[Descrizione dei servizi di sistema](#ebaa)
-[](#eaaa)[Ulteriori informazioni](#eaaa)
+[](#edaa)[Panoramica dei servizi](#edaa)  
+[](#ecaa)[Non impostare le autorizzazioni sugli Oggetti servizio](#ecaa)  
+[](#ebaa)[Descrizione dei servizi di sistema](#ebaa)  
+[](#eaaa)[Ulteriori informazioni](#eaaa)  
 
 ### Panoramica dei servizi
 
@@ -95,7 +95,23 @@ Questa funzionalità è stata rettificata in Windows Server 2003 e la nuova ve
 Anche se è possibile utilizzare un editor di testo come il Blocco note per modificare i modelli di protezione, si tratta di file complessi. I modelli di protezione creati con una specifica relativa al modello definita in modo errato possono rendere impossibile l'avvio del computer. Sebbene la maggior parte degli errori non causa un problema così serio, è necessario essere pazienti e fare attenzione ai dettagli se è necessario modificare manualmente i modelli di protezione.
 
 Quando si utilizza uno degli strumenti basati su GUI per configurare i servizi in un modello di protezione, le informazioni di configurazione vengono memorizzate nella sezione del file relativa alle impostazioni generali del servizio. Il seguente testo di esempio proviene da un modello di protezione in cui lo stato di avvio dei servizi Avvisi, Cartella Appunti e Browser di computer è stato configurato su **Disabilitato** e quello del servizio Client DHCP su **Automatico.**
-        ```
+
+```
+	[Service General Setting]
+	Alerter,4,"D:AR(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)
+	(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)(A;;CCLCSWLOCRRC;;;IU)
+	S:(AU;FA;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;WD)"
+	ClipSrv,4,"D:AR(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)
+	(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)(A;;CCLCSWLOCRRC;;;IU)
+	S:(AU;FA;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;WD)"
+	Browser,4,"D:AR(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)
+	(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)(A;;CCLCSWLOCRRC;;;IU)
+	S:(AU;FA;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;WD)"
+	Dhcp,2,"D:AR(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)
+	(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)(A;;CCLCSWLOCRRC;;;IU)
+	S:(AU;FA;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;WD)"
+```
+
 Il formato di ciascuna voce contiene tre campi separati da virgole.
 
 -   Il primo campo specifica il nome del servizio. Ad esempio, ClipSrv indica il servizio Cartella Appunti.
@@ -114,7 +130,15 @@ Non è necessario conoscere i dettagli del linguaggio SDDL per utilizzare la Con
 security/security\_descriptor\_definition\_language.asp.
 
 Per risolvere i potenziali problemi relativi alle autorizzazioni sugli oggetti del servizio, rimuovere la stringa SDDL nel terzo campo, ma lasciare le virgolette doppie. L'esempio seguente mostra il testo corretto per i quattro servizi citati:
-        ```
+
+```
+        [Service General Setting]
+        Alerter,4,""
+        ClipSrv,4,""
+        Browser,4,""
+        Dhcp,2,""
+```
+       
 Una volta rimosse le informazioni SDDL da tutti i servizi nel modello di protezione, salvare il file. È quindi possibile applicare il modello di protezione seguendo uno dei metodi comunemente utilizzati. È estremamente importante verificare in modo esaustivo i modelli di protezione prima di applicarli ai computer di produzione.
 
 [](#mainsection)[Inizio pagina](#mainsection)
@@ -387,7 +411,7 @@ Il **Servizio di segnalazione errori** raccoglie, archivia e segnala a Microsoft
 
 Se si dispone di una connessione Internet è possibile segnalare questi errori direttamente a Microsoft. È possibile configurare la segnalazione errori per gli errori dei programmi procedendo in uno dei due seguenti modi: non appena si verifica l’errore, viene visualizzata la finestra di dialogo **Segnalazione errori** che avvisa l’utente di inviare l’errore a Microsoft, oppure la finestra di dialogo **Segnalazione errori** viene visualizzata al successivo accesso dell’amministratore, per avvisarlo di inviare la segnalazione dell’errore a Microsoft.
 
-In Windows gli errori del sistema operativo e gli arresti non pianificati vengono trattati diversamente dagli errori dei programmi. Quando si verificano errori del sistema operativo o arresti non pianificati, l’errore viene scritto in un file di registro. Al successivo accesso dell’amministratore verrà visualizzata la finestra di dialogo **Segnalazione errori** per avvisarlo di segnalare l’errore. Inviando a Microsoft una segnalazione di errore via Internet, si forniscono a Microsoft informazioni tecniche che potranno utilizzare per le versioni future del prodotto. Questi dati vengono utilizzati esclusivamente a scopo di controllo di qualità e non per tenere traccia dei singoli utenti o installazioni a fini commerciali. Se sono disponibili informazioni per risolvere il problema, in Windows viene visualizzata un**’altra finestra di dialogo** Segnalazione errori contenente un collegamento a tali informazioni.
+In Windows gli errori del sistema operativo e gli arresti non pianificati vengono trattati diversamente dagli errori dei programmi. Quando si verificano errori del sistema operativo o arresti non pianificati, l’errore viene scritto in un file di registro. Al successivo accesso dell’amministratore verrà visualizzata la finestra di dialogo **Segnalazione errori** per avvisarlo di segnalare l’errore. Inviando a Microsoft una segnalazione di errore via Internet, si forniscono a Microsoft informazioni tecniche che potranno utilizzare per le versioni future del prodotto. Questi dati vengono utilizzati esclusivamente a scopo di controllo di qualità e non per tenere traccia dei singoli utenti o installazioni a fini commerciali. Se sono disponibili informazioni per risolvere il problema, in Windows viene visualizzata un **’altra finestra di dialogo** Segnalazione errori contenente un collegamento a tali informazioni.
 
 Se, in alternativa, l’organizzazione ha configurato i criteri di gruppo, gli amministratori del reparto IT potranno utilizzare Segnalazione errori a server interno per raccogliere le informazioni e segnalare solo gli errori che ritengono importanti. Per configurare Segnalazione errori a server interno, gli amministratori abilitano l’impostazione del criterio Segnala errori e configurano Percorso file caricamento aziendale con il file server locale in cui è installato lo strumento Segnalazione errori a server interno. Quando si verifica un errore, le informazioni sono automaticamente reindirizzate al file server impostato. Gli amministratori potranno riesaminare le informazioni relative agli errori, identificare i dati importanti e inoltrarli a Microsoft utilizzando lo strumento Segnalazione errori a server interno. È possibile scaricare lo strumento Segnalazione errori a server interno dal sito Web del [Resource Kit di Office XP](http://www.microsoft.com/downloads/details.aspx?familyid=25b30c79-b248-4eb9-8057-be0043f5b881&displaylang=en) all’indirizzo www.microsoft.com/office/ork/xp/default.htm.
 
@@ -629,7 +653,7 @@ Se il servizio **Accodamento messaggi per i client di livello inferiore** viene 
 
 #### Trigger Accodamento messaggi
 
-Il servizio **Trigger Accodamento messaggi** controlla, basandosi su regole, i messaggi in arrivo in una coda** **di **Accodamento messaggi** e, se le condizioni di una regola sono soddisfatte, richiama un componente COM o un programma eseguibile autonomo per elaborare il messaggio.
+Il servizio **Trigger Accodamento messaggi** controlla, basandosi su regole, i messaggi in arrivo in una coda **di Accodamento messaggi** e, se le condizioni di una regola sono soddisfatte, richiama un componente COM o un programma eseguibile autonomo per elaborare il messaggio.
 
 Il servizio **Trigger Accodamento messaggi** viene installato come parte integrante di **Accodamento messaggi**, un componente facoltativo di Windows, ed è disponibile in tutte le versioni di Windows, ad eccezione di Windows XP Home Edition.
 
@@ -815,7 +839,7 @@ Il servizio **Spooler di stampa** gestisce tutte le code di stampa locali e dell
 
 Se il servizio **Spooler di stampa** viene arrestato, non sarà possibile stampare o inviare fax dal computer locale. Quando il servizio **Spooler di stampa** viene disattivato su un server che esegue Servizi terminal, l'hive del Registro di sistema crescerà lentamente fino a riempire il volume di sistema causando l'arresto del server. Questo problema è causato dal fatto che quando nuovi client accedono al server attraverso i Servizi terminal, il sistema tenta di eseguire automaticamente il mapping della stampante locale del client a una porta stampante sul server e inserisce tale mapping nel Registro di sistema. Tuttavia, il servizio **Spooler di stampa** dovrebbe eliminare ogni registrazione quando l'utente conclude la sessione, ma se il servizio non è in esecuzione, le registrazioni inutilizzate non verranno mai eliminate.
 
-Inoltre, la funzionalità Printer Pruner di Active Directory fa affidamento sul servizio **Spooler di stampa**. Per utilizzare Printer Pruner all'interno dell'organizzazione ed eseguire lo scavenging delle code orfane su una base non gestita, ogni sito dell'organizzazione deve disporre di almeno un controller di dominio che esegue il servizio **Spooler di stampa**. Se si configura il** **servizio su **Disabilitato** o **Manuale**, questo non si avvierà automaticamente quando vengono inviate le richieste dei processi di stampa.
+Inoltre, la funzionalità Printer Pruner di Active Directory fa affidamento sul servizio **Spooler di stampa**. Per utilizzare Printer Pruner all'interno dell'organizzazione ed eseguire lo scavenging delle code orfane su una base non gestita, ogni sito dell'organizzazione deve disporre di almeno un controller di dominio che esegue il servizio **Spooler di stampa**. Se si configura il **servizio su **Disabilitato** o **Manuale**, questo non si avvierà automaticamente quando vengono inviate le richieste dei processi di stampa.
 
 #### Archiviazione protetta
 

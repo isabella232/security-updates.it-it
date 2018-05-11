@@ -965,8 +965,7 @@ MIIDATCCAmoCAQAwbDEOMAwGA1UEAxMFcGxhbjgxDDAKBgNVBAsTA1BTUzESMB
                 MhfC7CIvR0McCQ+CBwuLzD+UJxl+kjgb+qwcOUkGX2PCZ7tOWzcXWNmn/4YHQl
                 GEXu0w67sVc2R9DlsHDNzeXLIOmjUl935qy1uoIR4V5C48YNsF4ejlgjeCFsbC Jb9/2RM=
                 -----END NEW CERTIFICATE REQUEST-----
-```
-
+```  
 13. Confermare i dettagli della richiesta, fare clic su **Avanti** e quindi su **Fine**.
   
 **Per inviare una richiesta di certificato server**
