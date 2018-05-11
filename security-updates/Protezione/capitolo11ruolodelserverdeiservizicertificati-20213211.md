@@ -122,7 +122,7 @@ Le impostazioni di registro eventi per i server Servizi certificati nell'ambient
   
 ### Voci di registro aggiuntive
   
-Per il file di modello EC-CA Server.inf sono state create voci di registro aggiuntive. Queste voci non sono definite all'interno dei file dei modelli amministrativi (.adm) per l'ambiente client di organizzazione illustrato in questa guida. I file .adm definiscono le restrizioni e i criteri del sistema per le impostazioni di protezione, del desktop e della shell di Windows* *Server* *2003.
+Per il file di modello EC-CA Server.inf sono state create voci di registro aggiuntive. Queste voci non sono definite all'interno dei file dei modelli amministrativi (.adm) per l'ambiente client di organizzazione illustrato in questa guida. I file .adm definiscono le restrizioni e i criteri del sistema per le impostazioni di protezione, del desktop e della shell di Windows *Server* 2003.
   
 Le voci di registro aggiuntive sono configurate all'interno del modello di protezione per automatizzarne l'implementazione. Se i Criteri di gruppo dei Servizi certificati incrementali per questo ambiente vengono rimossi, le relative impostazioni non sono automaticamente rimosse e devono essere modificate manualmente, utilizzando uno strumento di modifica del registro di sistema come Regedt32.exe.
   
@@ -140,7 +140,7 @@ Sono consigliati i seguenti ACL, che possono essere assegnati mediante i Criteri
   
 I file non protetti mediante gli elenchi di controllo di accesso (ACL, Access Control List) possono essere visualizzati, modificati o eliminati facilmente da utenti non autorizzati in grado di accedervi localmente o dalla rete. Sebbene gli elenchi ACL siano utili per proteggere questi file, la crittografia garantisce un livello più elevato di protezione e rappresenta una valida alternativa per la protezione dei file a cui deve poter accedere un solo utente.
   
-Nella tabella riportata di seguito sono contenuti gli elenchi ACL dei file system per i server Servizi certificati basati su Windows* * Server* * 2003 presenti nell'ambiente client di organizzazione. In quest'ambiente, i server Servizi certificati utilizzano **D: \\CertSrv** come directory del database dei certificati e i registri del database vengono salvati nella cartella predefinita **%SystemRoot%\\system32\\CertLog.** È inoltre possibile spostare i registri dall'unità di sistema in un'unità con mirroring fisicamente separata, come **E: \\CertLog.** Le impostazioni di protezione non richiedono la separazione di database e registri in unità disco differenti, fisicamente separate, ma tale configurazione è consigliata per garantire una maggiore protezione da eventuali errori del disco e un miglioramento delle prestazioni. Per impostazione predefinita, le cartelle di installazione predefinite di Servizi certificati **%SystemRoot%\\system32\\CertLog** e **%SystemRoot%\\system32\\CertSrv** contengono gli elenchi di controllo di accesso corretti, illustrati nella seguente tabella.
+Nella tabella riportata di seguito sono contenuti gli elenchi ACL dei file system per i server Servizi certificati basati su Windows Server 2003 presenti nell'ambiente client di organizzazione. In quest'ambiente, i server Servizi certificati utilizzano **D: \\CertSrv** come directory del database dei certificati e i registri del database vengono salvati nella cartella predefinita **%SystemRoot%\\system32\\CertLog.** È inoltre possibile spostare i registri dall'unità di sistema in un'unità con mirroring fisicamente separata, come **E: \\CertLog.** Le impostazioni di protezione non richiedono la separazione di database e registri in unità disco differenti, fisicamente separate, ma tale configurazione è consigliata per garantire una maggiore protezione da eventuali errori del disco e un miglioramento delle prestazioni. Per impostazione predefinita, le cartelle di installazione predefinite di Servizi certificati **%SystemRoot%\\system32\\CertLog** e **%SystemRoot%\\system32\\CertSrv** contengono gli elenchi di controllo di accesso corretti, illustrati nella seguente tabella.
   
 **Tabella 11.2 ACL dei file system**
 
@@ -229,7 +229,7 @@ Queste impostazioni di criterio controlleranno qualsiasi tipo di accesso non riu
   
 #### Protezione di account noti
   
-In Windows* *Server* *2003 con SP1 sono disponibili alcuni account utente predefiniti che non possono essere eliminati, ma che è possibile rinominare. Due degli account predefiniti più noti di Windows* *Server* *2003 sono Guest e Amministratore.
+In Windows *Server 2003 con SP1 sono disponibili alcuni account utente predefiniti che non possono essere eliminati, ma che è possibile rinominare. Due degli account predefiniti più noti di Windows Server* 2003 sono Guest e Amministratore.
   
 Per impostazione predefinita, l'account Guest è disabilitato nei server membri e nei controller di dominio. Questa impostazione non deve essere modificata. Molte varianti di codice nocivo utilizzano l'account predefinito Administrator nel primo tentativo di attacco a un server. È quindi necessario rinominare l'account Amministratore incorporato e modificarne la descrizione per evitare la compromissione dei server remoti da parte di pirati informatici che cercano di usare questo account noto.
   
@@ -308,7 +308,7 @@ Il criterio è verificato per accertarsi che la sua applicazione a server di des
 Quando si è certi delle proprie configurazioni di criterio, è possibile utilizzare Scwcmd come mostrato nella seguente procedura per convertire i criteri in GPO.
   
 Per ulteriori dettagli su come verificare i criteri di SCW, consultare la guida [Deployment Guide for the Security Configuration Wizard](http://technet.microsoft.com/en-us/library/cc776871.aspx) (in inglese) all'indirizzo www.microsoft.com/technet/prodtechnol/windowsserver2003/  
-library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* * e la guida [Security Configuration Wizard Documentation](http://go.microsoft.com/fwlink/?linkid=43450)(in inglese) all'indirizzo http://go.microsoft.com/fwlink/?linkid=43450.
+library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx e la guida [Security Configuration Wizard Documentation](http://go.microsoft.com/fwlink/?linkid=43450)(in inglese) all'indirizzo http://go.microsoft.com/fwlink/?linkid=43450.
   
 #### Conversione e utilizzo del criterio
   
