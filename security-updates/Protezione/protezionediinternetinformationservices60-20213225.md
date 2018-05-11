@@ -464,7 +464,7 @@ Per completare questa attività è necessario disporre di quanto segue:
   
 2.  Fare doppio clic su **Utenti e gruppi locali**, quindi selezionare la cartella **Users**.
   
-3.  Fare clic con il pulsante destro del mouse sull'account **IUSR\_&lt;NomeComputer&gt;*****, quindi scegliere **Rinomina**.
+3.  Fare clic con il pulsante destro del mouse sull'account **IUSR\_&lt;*NomeComputer&gt;***, quindi scegliere **Rinomina**.
   
 4.  Digitare il nuovo nome account e premere INVIO.
   
