@@ -163,7 +163,7 @@ Vi sono due file WSF (Windows Script), che contengono l'interfaccia utente per t
   
 È possibile richiamare il processo utilizzando la seguente sintassi:
   
-**cscript //job:***NomeProcessoWScriptFile*.wsf
+**cscript //job:** *NomeProcessoWScriptFile*.wsf
   
 dove *NomeProcesso* è il nome dell'operazione e *WScriptFile* è il nome del file di interfaccia XML per lo script. Di seguito è riportato un estratto di uno dei file WSF, in cui è definito il processo ConfigureCA:
   
@@ -369,17 +369,17 @@ Gli script possono essere eseguiti direttamente, tuttavia sono disponibili due f
   
 La sintassi per l'esecuzione diretta dei file WSF è la seguente:
   
-**Cscript //job:***NomeProcesso* MssSetup.wsf
+**Cscript //job:** *NomeProcesso* MssSetup.wsf
   
 Al suo posto è possibile utilizzare i file CMD con la seguente sintassi, più semplice:
   
-**MssSetup***NomeProcesso*
+**MssSetup** *NomeProcesso*
   
 Se si esegue il file CMD senza specificare un processo, viene eseguito il primo processo (ListJobs) del file WSF, che elenca l'ID e la descrizione di ogni processo contenuto nel file WSF.
   
 Alcuni processi accettano anche ulteriori parametri. La sintassi per l'esecuzione di tali processi e le informazioni sui parametri aggiuntivi vengono trattate nei capitoli di pertinenza di questa soluzione. La sintassi generica per specificare ulteriori parametri è la seguente:
   
-**MssSetup***NomeProcesso* /NomeParam:*ValoreParam*
+**MssSetup** *NomeProcesso* /NomeParam:*ValoreParam*
   
 *NomeParam* è il nome del parametro (ad esempio "path" o "client") e *ValoreParam* è l'impostazione per tale parametro (ad esempio "C:\\MioFile.txt" o "MioComputer"). I valori dei parametri che contengono spazi incorporati devono essere racchiusi tra virgolette (").
   
