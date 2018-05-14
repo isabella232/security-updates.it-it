@@ -37,12 +37,12 @@ Le funzionalità di protezione trattate in questa guida sono state sviluppate ut
 
 ##### In questa pagina
 
-[](#egaa)[Destinatari della guida](#egaa)
-[](#efaa)[Contenuto del capitolo](#efaa)
-[](#eeaa)[Convenzioni di stile](#eeaa)
-[](#edaa)[Ulteriori informazioni](#edaa)
-[](#ecaa)[Supporto e feedback](#ecaa)
-[](#ebaa)[Ringraziamenti](#ebaa)
+[](#egaa)[Destinatari della guida](#egaa)  
+[](#efaa)[Contenuto del capitolo](#efaa)  
+[](#eeaa)[Convenzioni di stile](#eeaa)  
+[](#edaa)[Ulteriori informazioni](#edaa)  
+[](#ecaa)[Supporto e feedback](#ecaa)  
+[](#ebaa)[Ringraziamenti](#ebaa)  
 
 ### Destinatari della guida
 
@@ -106,7 +106,7 @@ Questa guida utilizza le convenzioni di stile descritte nella tabella seguente.
 <td style="border:1px solid black;">I segnaposti in corsivo e tra parentesi angolari, ad esempio <em>&lt;nome file&gt;</em>, rappresentano le variabili.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><pre><code>Testo a spaziatura fissa</code></pre></td>
+<td style="border:1px solid black;">Testo a spaziatura fissa</td>
 <td style="border:1px solid black;">Indica esempi di codice e script.</td>
 </tr>
 <tr class="odd">
