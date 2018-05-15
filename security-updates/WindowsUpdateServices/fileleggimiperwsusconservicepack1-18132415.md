@@ -41,8 +41,6 @@ Quando si aggiorna da WSUS RTM, l'installazione di WSUS con SP1 crea automaticam
 **Per stabilire se lo spazio è sufficiente**
 1.  Aprire Esplora risorse e passare alla cartella in cui è memorizzato il database di WSUS. Per impostazione predefinita, WSUS installa il database nella seguente cartella:
 
-    
-        ```
 2.  Tenere premuto **CTRL** e selezionare **SUSDB.MDF** e **SUSDB\_log.LDF**, quindi fare clic con il pulsante destro del mouse e selezionare **Proprietà**.
 
 3.  Nella finestra di dialogo **File**, leggere il valore di **Dimensioni su disco**. Questa è la quantità minima di spazio libero necessaria per installare WSUS con SP1.
