@@ -286,8 +286,6 @@ Se si modifica il nome del computer dopo l'installazione di WSUS 2.0 e prima di 
 
 Utilizzare lo script seguente per rimuovere e aggiungere nuovamente i gruppi ASPNET e Amministratori WSUS. Eseguire quindi nuovamente l'aggiornamento.
 
-        ```
-
 ### Se è stata effettuata la migrazione da MSDE a SQL Server 2008 o SQL Server 2005 su WSUS 2.0, bisognerà modificare un valore del registro
 
 Se è presente l'installazione di WSUS 2.0, con migrazione a SQL Server 2008 o SQL Server 2005, bisogna cambiare il valore di **HKLM\\SOFTWARE\\Microsoft\\Update Services\\Server\\Setup\\WmsdeInstalled** da 1 a 0. Se tale operazione non viene eseguita, l'aggiornamento a WSUS 3.0 SP2 non avrà esito positivo.
