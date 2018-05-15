@@ -17,9 +17,6 @@ Le procedure seguenti sono valide per una rete che esegue Active Directory, gest
 
 Per ulteriori informazioni su Criteri di gruppo, vedere il sito Web Techcenter di Criteri di gruppo all'indirizzo [http://go.microsoft.com/fwlink/?LinkID=47375](http://go.microsoft.com/fwlink/?linkid=47375) (le informazioni potrebbero essere in lingua inglese).
 
- 
--
-
 Procedure del passaggio 5
 -------------------------
 
