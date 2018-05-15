@@ -13,16 +13,16 @@ Pubblicato: 11 ottobre 2004 | Aggiornato: 24/11/2004
 
 ##### In questa pagina
 
-[](#ekaa)[Introduzione](#ekaa)
-[](#ejaa)[Foglio di lavoro per la pianificazione di Servizi certificati](#ejaa)
-[](#eiaa)[Creazione dei propri server](#eiaa)
-[](#ehaa)[Preparazione di Active Directory per l'infrastruttura PKI](#ehaa)
-[](#egaa)[Protezione di Windows Server 2003 per Servizi certificati](#egaa)
-[](#efaa)[Altre attività di configurazione di Windows](#efaa)
-[](#eeaa)[Installazione e configurazione della CA principale](#eeaa)
-[](#edaa)[Installazione e configurazione della CA di emissione](#edaa)
-[](#ecaa)[Configurazione post-creazione](#ecaa)
-[](#ebaa)[Configurazione dei client](#ebaa)
+[](#ekaa)[Introduzione](#ekaa)  
+[](#ejaa)[Foglio di lavoro per la pianificazione di Servizi certificati](#ejaa)  
+[](#eiaa)[Creazione dei propri server](#eiaa)  
+[](#ehaa)[Preparazione di Active Directory per l'infrastruttura PKI](#ehaa)  
+[](#egaa)[Protezione di Windows Server 2003 per Servizi certificati](#egaa)  
+[](#efaa)[Altre attività di configurazione di Windows](#efaa)  
+[](#eeaa)[Installazione e configurazione della CA principale](#eeaa)  
+[](#edaa)[Installazione e configurazione della CA di emissione](#edaa)  
+[](#ecaa)[Configurazione post-creazione](#ecaa)  
+[](#ebaa)[Configurazione dei client](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 #### Introduzione
@@ -100,17 +100,17 @@ Questi passaggi rispecchiano l'organizzazione del capitolo e sono descritti nell
 
 -   **Preparazione di Active Directory per l'infrastruttura PKI** Illustra i prerequisiti relativi al dominio e all'insieme di strutture Active Directory in cui verrà distribuita l'infrastruttura PKI, oltre alle fasi preliminari fondamentali. Inoltre, vengono descritte la creazione di utenti e gruppi di protezione per la gestione e l'impostazione delle autorizzazioni necessarie per la delega delle attività di gestione.
 
--   **Protezione di Windows Server 2003 per Servizi certificati **Viene illustrata l'implementazione della protezione a livello di sistema operativo mediante l'applicazione di modelli di protezione. I modelli utilizzati sono desunti dalla *Guida per la protezione di Windows Server 2003*. Per i dettagli su come ottenere tale guida, consultare la sezione "Ulteriori informazioni" alla fine di questo capitolo.
+-   **Protezione di Windows Server 2003 per Servizi certificati** Viene illustrata l'implementazione della protezione a livello di sistema operativo mediante l'applicazione di modelli di protezione. I modelli utilizzati sono desunti dalla *Guida per la protezione di Windows Server 2003*. Per i dettagli su come ottenere tale guida, consultare la sezione "Ulteriori informazioni" alla fine di questo capitolo.
 
--   **Altre attività di configurazione di Windows **Sono elencate alcune attività comuni per completare l'installazione di base dei server.
+-   **Altre attività di configurazione di Windows** Sono elencate alcune attività comuni per completare l'installazione di base dei server.
 
--   **Installazione e configurazione della CA principale **Descrive i passaggi di preparazione, l'installazione del software e la configurazione di Servizi certificati, oltre alla definizione dei ruoli amministrativi del server. La pubblicazione del certificato della CA principale non in linea e dell'elenco di revoche di certificati (CRL, Certificate Revocation List) in Active Directory e nel server Web rappresenta la fase conclusiva.
+-   **Installazione e configurazione della CA principale** Descrive i passaggi di preparazione, l'installazione del software e la configurazione di Servizi certificati, oltre alla definizione dei ruoli amministrativi del server. La pubblicazione del certificato della CA principale non in linea e dell'elenco di revoche di certificati (CRL, Certificate Revocation List) in Active Directory e nel server Web rappresenta la fase conclusiva.
 
 -   **Installazione e configurazione della CA di emissione** Analoga alla guida relativa alla CA principale, ma include inoltre la procedura per la richiesta di un certificato alla CA principale. La fase di verifica finale garantisce che sia possibile registrare i certificati della CA di emissione.
 
 -   **Configurazione post-creazione** Illustra la configurazione dei tipi di certificati predefiniti rilasciati dalla CA di emissione, l'impostazione delle autorizzazioni per un insieme di strutture multidominio e l'esecuzione dei backup delle CA prima dell'introduzione nell'ambiente di produzione.
 
--   **Configurazione dei client **Descrive in che modo attivare la registrazione automatica per tutti gli utenti e i computer del dominio e come configurare i criteri di attendibilità dei certificati principali.
+-   **Configurazione dei client** Descrive in che modo attivare la registrazione automatica per tutti gli utenti e i computer del dominio e come configurare i criteri di attendibilità dei certificati principali.
 
 [](#mainsection)[Inizio pagina](#mainsection)
 
@@ -127,7 +127,6 @@ Alcuni dei parametri contenuti in queste tabelle sono inseriti manualmente, come
 La tabella che segue elenca dei parametri specifici dell'azienda fittizia Woodgrove Bank. Prima di iniziare la procedura di configurazione, occorre accertarsi di aver raccolto o deciso le impostazioni equivalenti per la propria organizzazione di tutti gli elementi indicati nella sottostante tabella. Negli esempi dei comandi citati nell'intero capitolo vengono utilizzati i valori fittizi mostrati in questa tabella. È necessario sostituire tali valori fittizi con i valori adeguati alla propria organizzazione. I valori che è necessario sostituire sono indicati in corsivo.
 
 **Tabella 7.1. Elementi di configurazione definiti dagli utenti**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -203,7 +202,6 @@ La tabella che segue elenca dei parametri specifici dell'azienda fittizia Woodgr
 Le impostazioni specificate in questa tabella non devono essere modificate, a meno che non sia necessario utilizzare un'impostazione diversa da quella della progettazione della soluzione. La modifica dei parametri di progettazione forniti in questa tabella è perfettamente accettabile, ma occorre essere consapevoli del fatto che così facendo ci si discosta dalla soluzione collaudata. Prima di modificare eventuali valori nelle procedure di configurazione o negli script forniti, assicurarsi di avere compreso a fondo le implicazioni della modifica che si intende apportare e le dipendenze che tale impostazione potrebbe avere.
   
 **Tabella 7.2. Elementi di configurazione indicati dalla soluzione**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -449,8 +447,7 @@ Le impostazioni specificate in questa tabella non devono essere modificate, a me
 </td>
 </tr>
 </tbody>
-</table>
- 
+</table> 
 
 **Importante:** la configurazione di una chiave della lunghezza di 4.096 bit potrebbe causare problemi di compatibilità se i certificati devono essere rilasciati a o utilizzati da alcune periferiche (ad esempio alcuni tipi di router) o versioni precedenti di software di altri fornitori, non in grado di elaborare chiavi di dimensioni superiori a un determinato valore. È necessario testare le applicazioni utilizzando certificati con una chiave del certificato della CA principale di queste dimensioni prima dell'implementazione della PKI. Se la lunghezza della chiave costituisce un problema, ridurre la dimensione della chiave della CA principale a 2048 bit. Questo dato deve essere specificato nel file CAPolicy.inf al momento dell'installazione della CA principale. Vedere la sezione "Installazione e configurazione della CA principale".
 
@@ -471,7 +468,6 @@ Nelle sezioni seguenti vengono descritte le specifiche di base dei server per en
 La seguente tabella mostra le specifiche hardware consigliate per la CA principale, basate sulle raccomandazioni generali relative all'hardware necessario per Windows Server 2003. Tuttavia, potrebbe non essere necessario acquistare nuovo hardware se quello esistente è conforme ai criteri indicati nel capitolo 4 alla pianificazione ma non viene utilizzato per motivi relativi alle prestazioni.
 
 **Tabella 7.3. Specifiche hardware consigliate per il server CA principale**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -505,15 +501,13 @@ Archiviazione su supporti rimovibili locali (CD-RW o nastro di backup)
 Unità disco floppy da 1,44 MB per il trasferimento dei dati</td>
 </tr>
 </tbody>
-</table>
- 
+</table> 
 
 ##### Hardware per il server della CA di emissione
 
 Nonostante per le CA di emissione si debbano rispettare determinati requisiti di prestazioni, questi sono alquanto ridotti visto che le attività di tali CA sono decisamente limitate rispetto a molti altri tipi di server. Restano validi anche in questo caso i criteri di qualità e affidabilità per la selezione dell'hardware raccomandati per il server della CA principale. Esistono alcune differenze secondarie rispetto alle specifiche della CA principale relativamente alla connettività di rete e all'archiviazione, come mostrato nella seguente tabella:
 
 **Tabella 7.4. Specifiche hardware consigliate per il server CA di emissione**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -547,8 +541,7 @@ Archiviazione su supporti rimovibili locali (CD-RW o nastro di backup), in assen
 Unità disco floppy da 1,44 MB per il trasferimento dei dati</td>
 </tr>
 </tbody>
-</table>
- 
+</table> 
 
 **Importante:** le specifiche relative al server indicate in questa tabella sono adatte ad un numero di utenti pari a circa 5.000. Se l'utenza è maggiore, occorre almeno raddoppiare la capacità del disco relativa alla seconda unità (in modo da rendere disponibile circa 2 GB per 1000 utenti) e raddoppiare anche le dimensioni della memoria installata. Per linee guida sull'uso del disco, vedere la sezione "Definizione dei requisiti di archiviazione e backup per un'autorità di certificazione emittente" nel capitolo 11, "Gestione dell'infrastruttura a chiave pubblica".
 
@@ -777,7 +770,6 @@ IIS può ospitare inoltre le pagine per la registrazione Web dei Servizi certifi
 IIS viene installato con Gestione componenti facoltativi di Windows (accessibile dal Pannello di controllo, **Installazione componenti di Windows**). Nella tabella che segue sono elencati i componenti da installare. I rientri dei paragrafi riflettono la relazione tra i componenti così come sono visualizzati nella Gestione guidata dei componenti facoltativi (ad esempio, **Enable network COM+ access** è un sottocomponente di **Server applicazioni**). I componenti che non vengono selezionati non sono inclusi nella tabella.
 
 **Tabella 7.5. Componenti facoltativi da installare**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -825,11 +817,17 @@ IIS viene installato con Gestione componenti facoltativi di Windows (accessibile
     sysocmgr /i:sysoc.inf /u:C:\\MSSScripts\\OC\_AddIIS.txt
   
     Tramite questo comando, Gestione componenti facoltativi utilizza le configurazioni dei componenti specificate nel file di installazione automatica C:\\MSSScripts\\OC\_AddIIS.txt:
-  
-    <codesnippet language displaylanguage containsmarkup="false">\[Components\] complusnetwork = On iis\_common = On iis\_asp = On iis\_inetmgr = On iis\_www = On  
+
+``` 
+[Components]
+complusnetwork = On
+iis_common = On
+iis_asp = On
+iis_inetmgr = On
+iis_www = On
 ```
   
-    **Nota:** in questa configurazione vengono attivate le pagine ASP (con la riga iis\_asp = on). Tale opzione serve a supportare le pagine di registrazione Web di Servizi certificati, ma non serve per la soluzione principale. Se le pagine di registrazione Web non sono richieste, è necessario disattivare ASP (eliminando la riga iis\_asp = on prima di eseguire sysocmgr.exe). All'occorrenza, è possibile attivare questa impostazione in un secondo momento.
+**Nota:** in questa configurazione vengono attivate le pagine ASP (con la riga iis\_asp = on). Tale opzione serve a supportare le pagine di registrazione Web di Servizi certificati, ma non serve per la soluzione principale. Se le pagine di registrazione Web non sono richieste, è necessario disattivare ASP (eliminando la riga iis\_asp = on prima di eseguire sysocmgr.exe). All'occorrenza, è possibile attivare questa impostazione in un secondo momento.
   
 2.  Eseguire nuovamente Gestione componenti facoltativi e verificare che i componenti installati corrispondano a quelli elencati nella tabella precedente.
   
@@ -850,7 +848,6 @@ IIS viene installato con Gestione componenti facoltativi di Windows (accessibile
 3.  Mediante Windows Explorer, impostare la protezione nella cartella; la seguente tabella mostra quali sono le autorizzazioni corrispondenti. Le prime quattro dovrebbero essere già presenti.
   
     **Tabella 7.6. Autorizzazioni directory virtuale**
-
  
     <table style="border:1px solid black;">
     <colgroup>
@@ -1001,8 +998,10 @@ Questa sezione illustra le procedure di installazione e configurazione di altri 
     sysocmgr /i:sysoc.inf /u:C:\\MSSScripts\\OC\_RemoveRootUpdate.txt
   
 Tramite questo comando, Gestione componenti facoltativi utilizza le configurazioni dei componenti specificate nel file C:\\MSSScripts\\OC\_ RemoveRootUpdate.txt
-  
-<codesnippet language displaylanguage containsmarkup="false">\[Components\] rootautoupdate = Off  
+
+```  
+[Components]
+rootautoupdate = Off  
 ```  
 #### Controllo dei Service Pack e degli aggiornamenti di protezione
   
@@ -1123,7 +1122,6 @@ Questo script crea i gruppi di protezione elencati nella seguente tabella. I gru
 **Autori PKI dell'organizzazione** Sebbene sembri trattarsi di un gruppo innocuo, anch'esso è dotato di potenti funzionalità, tra cui quella di installazione ed eliminazione di CA principali attendibili e certificati incrociati per l'intero insieme di strutture. Anche se non altrettanto potente quanto il gruppo Amministratori organizzazione, con tale gruppo è comunque necessario mantenere un approccio prudente.
   
 **Tabella 7.7. Nomi e scopi dei gruppi**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1189,7 +1187,6 @@ A scopo di test e dimostrazione, lo script di questa sezione crea account generi
 Lo script crea gli account di dominio descritti nella tabella seguente. Lo script crea utenti nel contenitore Utenti che è necessario spostare in un'unità organizzativa più appropriata (in una successiva sezione ne viene fornita un'illustrazione).
   
 **Tabella 7.8. Nomi e scopi degli account**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1249,7 +1246,6 @@ Gli account test e i gruppi amministrativi rappresentano la configurazione dei r
 Molte organizzazioni useranno solo tre ruoli: Amministratore CA, Controllore e Operatore backup. Questa configurazione viene riportata nella tabella seguente utilizzando un sottoinsieme degli account test creati precedentemente a scopo illustrativo.
   
 **Tabella 7.9. Assegnazione dei gruppi del modello amministrativo semplificato**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1291,7 +1287,6 @@ Esistono diversi gruppi e account utenti associati alla gestione e al funzioname
 È necessario assegnare le autorizzazioni del gruppo Amministratori PKI dell'organizzazione per creare ed eliminare gruppi e utenti nell'unità organizzativa di Servizi certificati e in tutti i contenitori figli.
   
 **Tabella 7.10. Struttura di un'unità organizzativa di esempio**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1362,7 +1357,7 @@ Sarà necessario richiedere a un membro del gruppo Amministratori organizzazione
   
 1.  Accedere come membro del gruppo di protezione Amministratori organizzazione.
   
-2.  Nello snap-in di Microsoft Management Console (MMC) di Siti e servizi Active Directory, visualizzare il nodo **Servizi** (dal menu **Visualizza**). Selezionare il sottocontenitore Servizi** **chiave pubblica e visualizzare le relative proprietà.
+2.  Nello snap-in di Microsoft Management Console (MMC) di Siti e servizi Active Directory, visualizzare il nodo **Servizi** (dal menu **Visualizza**). Selezionare il sottocontenitore Servizi chiave pubblica e visualizzare le relative proprietà.
   
 3.  Nella scheda **Protezione**, aggiungere il gruppo di protezione Amministratori PKI dell'organizzazione e concedergli il privilegio **Controllo completo**.
   
@@ -1486,7 +1481,7 @@ Per verificare l'applicazione corretta delle autorizzazioni al contenitore Servi
   
 12. Rimuoverli dopo aver verificato che siano stati creati correttamente.
   
-    **Attenzione:** fare attenzione a eliminare solo gli oggetti di testing creati. I membri del gruppo Amministratori PKI dell'organizzazione, in particolare, dispongono di autorizzazioni sufficienti per eliminare il contenitore Servizi a chiave pubblica** **.
+    **Attenzione:** fare attenzione a eliminare solo gli oggetti di testing creati. I membri del gruppo Amministratori PKI dell'organizzazione, in particolare, dispongono di autorizzazioni sufficienti per eliminare il contenitore Servizi a chiave pubblica.
   
     **Nota:** se si sceglie di non installare gli Strumenti di supporto di Windows Server 2003, ADSIEdit non sarà disponibile. Queste procedure di verifica possono essere eseguite dalla riga dei comandi, utilizzando le utilità incorporate dsadd.exe e dsrm.exe. Tuttavia, è indispensabile fare attenzione a utilizzare la sintassi e i percorsi dell'oggetto directory corretti con queste utilità. Testare i comandi attentamente in un sistema di testing, prima di utilizzarli nell'insieme delle strutture di produzione di Active Directory.
   
@@ -1513,7 +1508,6 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
     Lo script crea i gruppi locali descritti nella tabella seguente.
   
     **Tabella 7.11. Nomi e scopi dei gruppi**
-
  
     <table style="border:1px solid black;">
     <colgroup>
@@ -1557,7 +1551,6 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
     Lo script crea gli account locali descritti nella tabella seguente.
   
     **Tabella 7.12. Nomi e scopi degli account**
-
  
     <table style="border:1px solid black;">
     <colgroup>
@@ -1595,7 +1588,6 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
 3.  Aggiungere tali account utente ai gruppi di protezione amministrativi nel modo più appropriato. Utilizzare la tabella seguente per gli account test oppure utilizzare i propri account in base ai ruoli e ai criteri di protezione IT definiti dall'organizzazione.
   
     **Tabella 7.13. Nomi account e appartenenze di gruppo**
-
  
     <table style="border:1px solid black;">
     <colgroup>
@@ -1636,7 +1628,6 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
 La maggior parte delle organizzazioni non richiede una struttura amministrativa complessa come quella illustrata nella procedura precedente Per alcune organizzazioni, potrebbe non essere necessaria la separazione dei ruoli; molte useranno tre ruoli: Amministratore CA, Controllore e Operatore backup. Questa configurazione viene riportata nella tabella seguente utilizzando un sottoinsieme degli account test creati precedentemente.
   
 **Tabella 7.14. Assegnazione dei gruppi del modello amministrativo semplificato**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1815,7 +1806,6 @@ La procedura che segue indica come è possibile creare le UO e i GPO per la prop
 8.  Ripetere i tre passaggi precedenti per la combinazione di unità operative, GPO e modelli di protezione mostrata nella tabella seguente.
   
     **Tabella 7.15. Mapping dei GPO ai modelli di protezione e alle UO**
-
  
     <table style="border:1px solid black;">
     <colgroup>
@@ -1880,7 +1870,7 @@ Dopo aver creato i GPO e aver importato i modelli, è necessario personalizzare 
   
     -   Ripristino di file e directory
   
-4.  In Criteri locali\\Assegnazione diritti utente, aggiungere i seguenti gruppi locali e di dominio al diritto **Consenti** **Accesso locale**:
+4.  In Criteri locali\\Assegnazione diritti utente, aggiungere i seguenti gruppi locali e di dominio al diritto **Consenti Accesso locale**:
   
     -   (locale) Amministratori
   
@@ -1901,7 +1891,6 @@ Dopo aver creato i GPO e aver importato i modelli, è necessario personalizzare 
 5.  In **File System**, aggiungere la cartella D:\\CertLog. Assicurarsi che le autorizzazioni corrispondano a quelle riportate nella tabella seguente.
   
     **Tabella 7.16. Autorizzazioni per le cartelle del database CA**
-
  
     <table style="border:1px solid black;">
     <colgroup>
@@ -1943,7 +1932,6 @@ Dopo aver creato i GPO e aver importato i modelli, è necessario personalizzare 
 6.  Per la stessa cartella, aggiungere le voci di controllo riportate nella tabella seguente per il gruppo Tutti (fare clic sul pulsante **Avanzate** della finestra di dialogo **Protezione**, quindi selezionare la scheda **Controllo**). Digitare **Tutti** quando viene richiesto di indicare un nome per un utente o un gruppo. Aggiungendo il gruppo Tutti, verrà visualizzata una finestra di dialogo con titolo **Voci di controllo per D:\\CertLog**, in cui è possibile immettere le impostazioni dettagliate relative al controllo. Assicurarsi che l'opzione **La cartella selezionata, le sottocartelle e i file** sia selezionata nel campo **Applica a**. Selezionare tutte le voci a cui corrisponde Sì nella tabella.
   
     **Tabella 7.17. Controllo per le cartelle del database CA**
-
  
     <table style="border:1px solid black;">
     <colgroup>
@@ -2081,7 +2069,6 @@ Per verificare la corretta applicazione delle impostazioni di protezione, proced
 Queste impostazioni devono essere configurate nel GPO di protezione di Servizi certificati o in un altro GPO che si applica alla o alle CA in linea.
   
 **Tabella 7.18. Impostazioni da configurare in Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Servizi terminal**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2229,15 +2216,34 @@ Le informazioni CRL e AIA non sono necessarie per il certificato della CA princi
 **Per creare il file CAPolicy.inf**
   
 1.  Immettere il testo seguente in un editor di testi, ad esempio Blocco note:
-  
-    <codesnippet language displaylanguage containsmarkup="false">\[Version\] Signature= "$Windows NT$" \[Certsrv\_Server\] RenewalKeyLength=4096  RenewalValidityPeriod=Years  RenewalValidityPeriodUnits=16 \[CRLDistributionPoint\] Empty=true \[AuthorityInformationAccess\] Empty=true  
+
+```  
+[Version]
+Signature= "$Windows NT$"
+
+[Certsrv_Server]
+RenewalKeyLength=4096 
+RenewalValidityPeriod=Years 
+RenewalValidityPeriodUnits=16
+
+[CRLDistributionPoint]
+Empty=true
+
+[AuthorityInformationAccess]
+Empty=true  
 ```
   
-    **Attenzione:** l'utilizzo di una chiave della lunghezza di 4.096 bit potrebbe causare problemi di compatibilità. Alcuni dispositivi (per esempio, alcuni router) e alcuni software precedenti di altri fornitori non sono in grado di elaborare chiavi superiori a una data dimensione.
+**Attenzione:** l'utilizzo di una chiave della lunghezza di 4.096 bit potrebbe causare problemi di compatibilità. Alcuni dispositivi (per esempio, alcuni router) e alcuni software precedenti di altri fornitori non sono in grado di elaborare chiavi superiori a una data dimensione.
   
 2.  Se è stata definita una CPS per la CA, includere quanto segue nel file Capolicy.inf (è necessario sostituire tutte le voci in corsivo con i valori della propria organizzazione):
-  
-    <codesnippet language displaylanguage containsmarkup="false">\[CAPolicy\] Policies=WoodGrove Bank Root CA CPS \[WoodGrove Bank Root CA CPS\] OID=your.Orgs.OID URL = "http://www.woodgrovebank.com/YourCPSPage.htm"   
+
+```  
+[CAPolicy]
+Policies=WoodGrove Bank Root CA CPS
+
+[WoodGrove Bank Root CA CPS]
+OID=your.Orgs.OID
+URL = "http://www.woodgrovebank.com/YourCPSPage.htm"    
 ```
   
 3.  Salvare il file come %windir%\\Capolicy.inf (o sostituire %windir% con il percorso assoluto della cartella in cui Windows è installato, ad esempio C:\\Windows). È necessario essere un amministratore locale o disporre delle autorizzazioni di scrittura nella cartella di Windows per completare questo passaggio.
@@ -2294,7 +2300,6 @@ Usare Aggiunta guidata componenti di Windows per installare i componenti softwar
 3.  Verificare nella scheda **Dettagli** del certificato CA che i valori visualizzati corrispondano a quelli descritti nella tabella seguente.
   
     **Tabella 7.19. Proprietà ed estensioni del certificato della CA principale**
-
  
     <table style="border:1px solid black;">
     <colgroup>
@@ -2330,8 +2335,7 @@ Usare Aggiunta guidata componenti di Windows per installare i componenti softwar
     Limite di lunghezza percorso=Nessuno</td>
     </tr>
     </tbody>
-    </table>
- 
+    </table> 
 
     La presenza del tipo di oggetto Restrizioni di base è molto importante: questo valore distingue un certificato CA dal certificato di un'entità finale. Inoltre, non deve essere elencata alcuna estensione CDP o AIA.
 
@@ -2346,7 +2350,6 @@ Usare Aggiunta guidata componenti di Windows per installare i componenti softwar
 Per la procedura di configurazione della CA, vengono applicati una serie di parametri specifici per l'ambiente. I valori di tali parametri sono documentati nella precedente sezione "Foglio di lavoro per la pianificazione di Servizi certificati" di questo capitolo. Tale procedura configura le proprietà della CA elencate nella seguente tabella.
 
 **Tabella 7.20. Proprietà della CA da configurare**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2403,8 +2406,27 @@ Analogamente ai CDP, il percorso file viene utilizzato solo per la pubblicazione
 2.  Personalizzare lo script seguente (C:\\MSSScripts\\pkiparams.vbs) includendo il DN corretto del dominio principale dell’insieme di strutture di Active Directory e l'URL HTTP che fa riferimento al server Web di pubblicazione CDP e AIA. Modificare il valore dell'impostazione **AD\_ROOT\_DN** in modo che corrisponda al DN del dominio principale dell'insieme di strutture di Active Directory. Modificare l'impostazione **HTTP\_PKI\_VROOT** in base al percorso HTTP della directory virtuale IIS impostata precedentemente.
   
     **Nota:** qui è mostrata solo una parte del file pkiparams.vbs. Non modificare o rimuovere alcun elemento del file, a meno che non si conoscano le conseguenze dell'operazione.
-  
-    <codesnippet language displaylanguage containsmarkup="false">'\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* '    USER SETTABLE CONSTANTS         ' ' These values MUST be set to reflect actual values used ' by the organization. '\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* ' This is the URL where CRL and CA certs are to be published. CONST CA\_HTTP\_PKI\_VROOT        = " http://www.woodgrovebank.com/pki" ' This needs to be set only if non Active directory clients need to query ' the ldap URL for CRLs. Normally they are OK with HTTP. If you do set this ' (to a specific DC FQDN) ALL clients will use this DC to query. Left blank ' AD clients use their default LDAP server (local DC) to query. CONST CA\_LDAP\_SERVER        = "" ' This needs to be set to the DN of the Active Directory Forest root domain ' This is used to set the Root CA CDP and AIA paths so that clients can ' obtain CRL and CA Certificate information from the Active Directory CONST AD\_ROOT\_DN            = "DC=woodgrovebank,DC=com"  
+```  
+'**************************************************************************
+'    USER SETTABLE CONSTANTS        
+'
+' These values MUST be set to reflect actual values used
+' by the organization.
+'**************************************************************************
+
+' This is the URL where CRL and CA certs are to be published.
+CONST CA_HTTP_PKI_VROOT        = " http://www.woodgrovebank.com/pki"
+
+' This needs to be set only if non Active directory clients need to query
+' the ldap URL for CRLs. Normally they are OK with HTTP. If you do set this 
+' (to a specific DC FQDN) ALL clients will use this DC to query. Left blank
+' AD clients use their default LDAP server (local DC) to query.
+CONST CA_LDAP_SERVER        = ""
+
+' This needs to be set to the DN of the Active Directory Forest root domain
+' This is used to set the Root CA CDP and AIA paths so that clients can 
+' obtain CRL and CA Certificate information from the Active Directory 
+CONST AD_ROOT_DN            = "DC=woodgrovebank,DC=com"
 ```
   
 3.  Eseguire quindi lo script seguente:
@@ -2424,7 +2446,6 @@ Per utilizzare i ruoli amministrativi nella CA (ad esempio Controllori, Responsa
 2.  Fare clic sulla scheda **Protezione** e aggiungere i gruppi di protezione locali elencati nella tabella seguente. Per ciascun gruppo aggiungere l'autorizzazione elencata.
   
     **Tabella 7.21. Autorizzazioni CA da aggiungere**
-
  
     <table style="border:1px solid black;">
     <colgroup>
@@ -2608,16 +2629,18 @@ Il file CAPolicy.inf non è indispensabile per la CA di emissione, tuttavia, ne 
 **Per creare il file CAPolicy.inf**
   
 1.  Immettere il testo seguente in un editor di testi, ad esempio Blocco note.
-  
+
+```  
     <codesnippet language displaylanguage containsmarkup="false">\[Version\] Signature= "$Windows NT$" \[Certsrv\_Server\] RenewalKeyLength=2048   
 ```
   
 2.  Se è stata definita una CPS per la CA, includere quanto segue nel file Capolicy.inf (è necessario sostituire tutte le voci in corsivo con i valori della propria organizzazione):
-  
+
+```  
     <codesnippet language displaylanguage containsmarkup="false">\[CAPolicy\] Policies=WoodGrove Bank Issuing CA 1 CPS \[WoodGrove Bank Issuing CA 1 CPS\] OID=your.Orgs.OID URL = "http://www.woodgrovebank.com/YourCPSPage.htm"   
 ```
   
-    **Nota:** vedere la sezione "Creazione di una dichiarazione delle procedure di certificazione" nel capitolo 4, "Progettazione dell’infrastruttura a chiave pubblica (PKI)," per ulteriori informazioni sulla CPS e sui casi in cui è opportuno crearne una. La CPS è un documento legale e non un elemento tecnico, pertanto, bisogna essere certi che sia realmente necessaria prima di configurarla nella CA.
+**Nota:** vedere la sezione "Creazione di una dichiarazione delle procedure di certificazione" nel capitolo 4, "Progettazione dell’infrastruttura a chiave pubblica (PKI)," per ulteriori informazioni sulla CPS e sui casi in cui è opportuno crearne una. La CPS è un documento legale e non un elemento tecnico, pertanto, bisogna essere certi che sia realmente necessaria prima di configurarla nella CA.
   
 3.  Salvare il file come %*windir%*Capolicy.inf (o sostituire %windir% con il percorso assoluto della cartella in cui Windows è installato, ad esempio C:\\Windows). È necessario essere un amministratore locale o disporre delle autorizzazioni di scrittura nella cartella di Windows per completare questo passaggio.
   
@@ -2745,7 +2768,6 @@ La CA deve ora avviarsi.
 3.  Nella scheda **Dettagli** del certificato della CA, verificare che i valori visualizzati corrispondano a quelli descritti nella tabella seguente.
   
     **Tabella 7.22. Proprietà ed estensioni del certificato della CA di emissione**
-
  
     <table style="border:1px solid black;">
     <colgroup>
@@ -2810,7 +2832,6 @@ La CA deve ora avviarsi.
 La configurazione della CA applica una serie di parametri specifici dell'ambiente. I valori di tali parametri sono documentati nella precedente sezione "Foglio di lavoro per la pianificazione di Servizi certificati" di questo capitolo. Questa procedura consente di configurare le proprietà della CA descritte nella tabella seguente.
   
 **Tabella 7.23. Proprietà della CA da configurare**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2887,7 +2908,6 @@ Per utilizzare i ruoli amministrativi nella CA (ad esempio Controllori, Responsa
 2.  Fare clic sulla scheda **Protezione** e aggiungere i gruppi di protezione locali elencati nella tabella seguente. Per ciascun gruppo aggiungere l'autorizzazione elencata.
   
     **Tabella 7.24. Autorizzazioni CA da aggiungere**
-
  
     <table style="border:1px solid black;">
     <colgroup>
@@ -3127,7 +3147,7 @@ Quando si impostano le autorizzazioni di registrazione per gli utenti sulle CA e
   
 5.  Selezionare **Crea un'operazione personalizzata per eseguire la delega**, quindi fare clic su **Avanti**.
   
-6.  Selezionare **Solo i seguenti oggetti** **contenuti nella cartella**.
+6.  Selezionare **Solo i seguenti oggetti contenuti nella cartella**.
   
 7.  Scegliere gli **oggetti utente**, quindi fare clic su **Avanti**.
   

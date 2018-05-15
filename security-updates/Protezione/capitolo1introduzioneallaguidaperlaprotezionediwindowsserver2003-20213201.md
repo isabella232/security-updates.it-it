@@ -13,14 +13,14 @@ Guida per la protezione di Windows Server 2003
 
 ##### In questa pagina
 
-[](#eiaa)[Panoramica](#eiaa)
-[](#ehaa)[Riepilogo generale](#ehaa)
-[](#egaa)[Destinatari della guida](#egaa)
-[](#efaa)[Ambito di applicazione della guida](#efaa)
-[](#eeaa)[Riepilogo dei capitoli](#eeaa)
-[](#edaa)[Competenze e conoscenze](#edaa)
-[](#ecaa)[Requisiti del software](#ecaa)
-[](#ebaa)[Convenzioni di stile](#ebaa)
+[](#eiaa)[Panoramica](#eiaa)   
+[](#ehaa)[Riepilogo generale](#ehaa)  
+[](#egaa)[Destinatari della guida](#egaa)  
+[](#efaa)[Ambito di applicazione della guida](#efaa)  
+[](#eeaa)[Riepilogo dei capitoli](#eeaa)  
+[](#edaa)[Competenze e conoscenze](#edaa)  
+[](#ecaa)[Requisiti del software](#ecaa)  
+[](#ebaa)[Convenzioni di stile](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Panoramica

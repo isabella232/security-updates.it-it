@@ -1001,8 +1001,8 @@ Durante la pianificazione iniziale, le prove di laboratorio, le distribuzioni pi
 L'identificazione delle versioni dei criteri IPsec tramite l'analisi dei relativi attributi risulta difficoltosa in Active Directory. I passaggi delle procedure di risoluzione dei problemi rendono necessaria l'identificazione della versione del criterio IPsec attivo sul computer ed è quindi consigliabile inserire le informazioni relative alle versioni sia nel nome del criterio che nelle relative regole.
   
 Un metodo che semplifica l'identificazione della versione consiste nel creare un ID della versione basato sulla formula seguente:
-  
-<codesnippet language displaylanguage containsmarkup="false">&lt;Major Change&gt;.&lt;Minor Change&gt;.&lt;Date:yymmdd&gt;.&lt;Time:24 Hour&gt;  
+```
+<codesnippet language displaylanguage containsmarkup="false">&lt;Major Change&gt;.&lt;Minor Change&gt;.&lt;Date:yymmdd&gt;.&lt;Time:24 Hour&gt;
 ```  
 Ad esempio, 1.0.041001.1600 corrisponderà alla versione 1.0 creata il 10/01/04 alle 16:00.
   
@@ -1082,7 +1082,8 @@ Per ulteriori informazioni sull'utilizzo dello snap-in MMC Gestione criteri di p
 In alternativa allo snap-in MMC Gestione criteri di protezione IP, è possibile utilizzare Netsh per la configurazione dei criteri IPsec in un servizio Active Directory basato su Windows Server 2003. Questo strumento della riga di comando può essere eseguito in modalità interattiva o batch. Se viene utilizzato in modalità interattiva, l'amministratore dovrà digitare i singoli comandi nella shell dei comandi di Netsh. Prima di creare gli elenchi filtri, le operazioni filtro e i criteri IPsec, è necessario configurare lo strumento affinché punti su Active Directory.
   
 Per puntare Netsh su Active Directory, digitare il comando seguente al prompt di **Netsh**:
-  
+
+``` 
 <codesnippet language displaylanguage containsmarkup="false">ipsec static set store location=domain  
 ```  
 Sarà quindi possibile immettere manualmente gli elenchi filtri, le operazioni filtro e i criteri IPsec utilizzando la shell dei comandi di Netsh. Analogamente allo strumento dotato di interfaccia grafica, Netsh supporta l'esportazione e l'importazione dei file dei criteri IPsec per il backup e il ripristino.
@@ -1090,7 +1091,8 @@ Sarà quindi possibile immettere manualmente gli elenchi filtri, le operazioni f
 L'esecuzione di Netsh in modalità batch implica la creazione di un file di script dei comandi Netsh. Questo file di script deve includere il comando necessario per impostare come attivo il dominio, nonché tutti i comandi di configurazione per gli elenchi filtri, i filtri, le operazioni filtro e i criteri IPsec.
   
 È possibile creare le informazioni sui criteri IPsec in Active Directory avviando Netsh ed eseguendo il file di script. La sintassi della riga di comando per lanciare Netsh ed eseguire un file di script è la seguente:
-  
+
+```  
 <codesnippet language displaylanguage containsmarkup="false">netsh –f &lt;scriptfile&gt;  
 ```  
 Per ulteriori informazioni sull'utilizzo di Netsh, consultare l'argomento "Netsh" nella sezione "Strumenti di amministrazione e script" della Guida in linea e supporto tecnico di Windows Server 2003.
@@ -1158,7 +1160,6 @@ Tutti i membri di un gruppo di isolamento devono ricevere il medesimo criterio I
 La tabella seguente elenca i gruppi creati per lo scenario della Woodgrove Bank che consentono di gestire l'ambiente IPsec e controllare l'applicazione dei criteri:
   
 **Tabella 5.10. Nomi dei gruppi IPsec**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1218,7 +1219,6 @@ La Woodgrove Bank ha scelto di utilizzare i gruppi di protezione per controllare
 La tabella seguente riporta la configurazione finale degli ACL di Criteri di gruppo. Si noti che gli ACL degli oggetti dei criteri IPsec stessi non vengono utilizzati e sono sconsigliati.
   
 **Tabella 5.11. Autorizzazioni dei GPO dei criteri della Woodgrove Bank**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1366,7 +1366,8 @@ A seguito di una modifica apportata all'implementazione di IPsec nel comportamen
 **Ripristino del driver IPsec alla condizione di filtraggio predefinita di Windows 2000 e Windows XP utilizzando Netsh**
   
 1.  Al prompt di **Netsh**, digitare il comando seguente e premere **INVIO**:
-  
+
+```  
     <codesnippet language displaylanguage containsmarkup="false">netsh ipsec dynamic set config ipsecexempt 0   
 ```
   
@@ -1402,7 +1403,8 @@ Se è necessario consentire la comunicazione IPsec attraverso il NAT, si consigl
 1.  Fare clic su **Start**, scegliere **Esegui**, digitare **regedit**, quindi fare clic su **OK**.
   
 2.  Individuare e fare clic sulla seguente sottochiave del Registro di sistema:
-  
+
+```  
     <codesnippet language displaylanguage containsmarkup="false">HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\ Services\\IPSec  
 ```
   
@@ -1439,12 +1441,13 @@ scid=kb;en-us;885348. Questo articolo descrive i rischi di protezione derivanti 
   
 Affinché sia possibile stabilire le connessioni NAT in ingresso, il rilevamento PMTU deve essere attivato e funzionante. Alcune fonti, quali la *Guida per la protezione di Windows XP* e la *Guida per la protezione di Windows Server 2003*, consigliano di disattivare il rilevamento PMTU e in alcuni casi forniscono modelli di criteri che disattivano questa funzionalità.
   
-**    Per attivare il rilevamento del PMTU**
+**Per attivare il rilevamento del PMTU**
   
 1.  Fare clic su **Start**, scegliere **Esegui**, digitare **regedit**, quindi fare clic su **OK**.
   
 2.  Individuare e fare clic sulla seguente sottochiave del Registro di sistema:
-  
+
+```
     <codesnippet language displaylanguage containsmarkup="false">HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\ Services\\tcpip\\parameters  
 ```
   

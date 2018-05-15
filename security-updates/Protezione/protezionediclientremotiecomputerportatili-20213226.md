@@ -11,18 +11,18 @@ Protezione di client remoti e computer portatili
 
 ##### In questa pagina
 
-[](#elaa)[Introduzione](#elaa)
-[](#ekaa)[Prima di iniziare](#ekaa)
-[](#ejaa)[Service Pack e aggiornamenti rapidi](#ejaa)
-[](#eiaa)[Virus e worm](#eiaa)
-[](#ehaa)[Adware e spyware](#ehaa)
-[](#egaa)[Punti di ripristino](#egaa)
-[](#efaa)[Firewall personale](#efaa)
-[](#eeaa)[Protezione dei file](#eeaa)
+[](#elaa)[Introduzione](#elaa)  
+[](#ekaa)[Prima di iniziare](#ekaa)  
+[](#ejaa)[Service Pack e aggiornamenti rapidi](#ejaa)  
+[](#eiaa)[Virus e worm](#eiaa)  
+[](#ehaa)[Adware e spyware](#ehaa)  
+[](#egaa)[Punti di ripristino](#egaa)  
+[](#efaa)[Firewall personale](#efaa)  
+[](#eeaa)[Protezione dei file](#eeaa)  
 [](#edaa)[Password complesse](#edaa)
-[](#ecaa)[Protezione delle reti wireless](#ecaa)
-[](#ebaa)[Connessioni VPN](#ebaa)
-[](#eaaa)[Informazioni correlate](#eaaa)
+[](#ecaa)[Protezione delle reti wireless](#ecaa)  
+[](#ebaa)[Connessioni VPN](#ebaa)  
+[](#eaaa)[Informazioni correlate](#eaaa)  
 
 ### Introduzione
 
