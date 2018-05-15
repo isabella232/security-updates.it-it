@@ -11,8 +11,8 @@ Come proteggere la riservatezza della posta elettronica nei settori soggetti a n
 
 ##### In questa pagina
 
-[](#ecaa)[Introduzione](#ecaa)
-[](#ebaa)[Scenario su come agevolare la protezione della riservatezza della posta elettronica](#ebaa)
+[](#ecaa)[Introduzione](#ecaa)   
+[](#ebaa)[Scenario su come agevolare la protezione della riservatezza della posta elettronica](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Introduzione

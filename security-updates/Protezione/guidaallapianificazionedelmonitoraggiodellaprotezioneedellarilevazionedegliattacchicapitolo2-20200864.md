@@ -15,9 +15,9 @@ Aggiornato: 23 maggio 2005
 
 ##### In questa pagina
 
-[](#edaa)[Introduzione](#edaa)
-[](#ecaa)[Implementazione del monitoraggio della protezione](#ecaa)
-[](#ebaa)[Correlazione degli eventi di controllo della protezione](#ebaa)
+[](#edaa)[Introduzione](#edaa)  
+[](#ecaa)[Implementazione del monitoraggio della protezione](#ecaa)  
+[](#ebaa)[Correlazione degli eventi di controllo della protezione](#ebaa)  
 [](#eaaa)[Soluzioni di fornitori di software indipendenti (ISV)](#eaaa)
 
 ### Introduzione

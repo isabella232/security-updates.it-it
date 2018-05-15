@@ -13,20 +13,20 @@ Costruire una rete wireless locale sicura con Windows Server 2003 Certificate Se
 
 ##### In questa pagina
 
-[](#eoaa)[Argomenti del modulo](#eoaa)
-[](#enaa)[Obiettivi](#enaa)
-[](#emaa)[Ambito di applicazione](#emaa)
-[](#elaa)[Utilizzo del modulo](#elaa)
-[](#ekaa)[Panoramica](#ekaa)
-[](#ejaa)[Specifiche di pianificazione di Servizi certificati](#ejaa)
-[](#eiaa)[Creazione dei server](#eiaa)
-[](#ehaa)[Preparazione di Active Directory per l'infrastruttura PKI](#ehaa)
-[](#egaa)[Protezione di Windows Server 2003 per Servizi certificati](#egaa)
-[](#efaa)[Altre attività di configurazione di Windows](#efaa)
-[](#eeaa)[Installazione e configurazione della CA principale](#eeaa)
-[](#edaa)[Installazione e configurazione della CA di emissione](#edaa)
-[](#ecaa)[Configurazione post-creazione](#ecaa)
-[](#ebaa)[Configurazione dei client](#ebaa)
+[](#eoaa)[Argomenti del modulo](#eoaa)   
+[](#enaa)[Obiettivi](#enaa)  
+[](#emaa)[Ambito di applicazione](#emaa)  
+[](#elaa)[Utilizzo del modulo](#elaa)  
+[](#ekaa)[Panoramica](#ekaa)  
+[](#ejaa)[Specifiche di pianificazione di Servizi certificati](#ejaa)   
+[](#eiaa)[Creazione dei server](#eiaa)   
+[](#ehaa)[Preparazione di Active Directory per l'infrastruttura PKI](#ehaa)   
+[](#egaa)[Protezione di Windows Server 2003 per Servizi certificati](#egaa)   
+[](#efaa)[Altre attività di configurazione di Windows](#efaa)   
+[](#eeaa)[Installazione e configurazione della CA principale](#eeaa)   
+[](#edaa)[Installazione e configurazione della CA di emissione](#edaa)   
+[](#ecaa)[Configurazione post-creazione](#ecaa)    
+[](#ebaa)[Configurazione dei client](#ebaa)   
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Argomenti del modulo
@@ -600,7 +600,31 @@ La CA principale non è mai connessa alla rete. È necessario disattivare qualsi
         **systeminfo**
 
     2.  Verificare i seguenti elementi dell'output del comando systeminfo; altri dettagli sono stati omessi per brevità e sono indicati da " " (puntini sospensivi):
-        ```
+
+    ```
+        Host Name:	HQ-CA-01
+        OS Name:	Microsoft® Windows® Server 2003, Standard Edition
+        ...
+        OS Configuration:	Standalone Server
+
+        Registered Owner:	NomeProprietario
+        Registered Organization:	NomeOrganizzazione
+        ...
+        Windows Directory:	C:\WINDOWS
+        System Directory:	C:\WINDOWS\System32
+        Boot Device:	\Device\HarddiskVolume1
+        System Locale:	ImpostazioniInternazionali
+        Input Locale:	ImpostazioneInternazionaleInput
+        Time Zone:	FusoOrario
+        ...
+        Domain:	WGB-Root
+        Logon Server:	\\HQ-CA-01
+        Hotfix(s):	X Hotfix(s) Installed.
+                           	[01]: Qxxxxxx
+        ...
+                           	[nn]: Qnnnnnn
+        NetWork Card(s):	N/A
+    ```    
 
     3.  Se queste impostazioni non corrispondono a quelle previste, sarà necessario riconfigurare il server utilizzando il Pannello di controllo oppure rieseguire l'installazione.
 
@@ -652,7 +676,37 @@ Per motivi di sicurezza è necessario inoltre bloccare qualsiasi connettività i
         **systeminfo**
 
     2.  Verificare i seguenti elementi dell'output del comando systeminfo (altri dettagli sono stati omessi per brevità):
+        
         ```
+          Host Name:  HQ-CA-02
+          OS Name:    Microsoft® Windows® Server 2003, Enterprise Edition
+          ...
+          OS Configuration:          Member Server
+	
+          Registered Owner:          NomeProprietario
+          Registered Organization:   NomeOrganizzazione
+          ...
+          Windows Directory:         C:\WINDOWS
+          System Directory:          C:\WINDOWS\System32
+          Boot Device:               \Device\HarddiskVolume1
+          System Locale:             ImpostazioniInternazionali
+          Input Locale:              ImpostazioneInternazionaleInput
+          Time Zone:                 FusoOrario
+          ...
+          Domain:                    woodgrovebank.com
+          Logon Server:              \\DomainControllerName
+          Hotfix(s):                 X Hotfix(s) Installed.
+                             [01]: Qxxxxxx
+          ...
+                             [nn]: Qnnnnnn
+          NetWork Card(s):           1 NIC(s) Installed.
+          [01]:                      ModelloEFornitoreSchedaDiRete 
+                            Connection Name: Local Area Connection
+                            DHCP Enabled:    No
+                            IP address(es)
+                            [01]: 10.1.1.11
+        ```
+
 
     3.  Se queste impostazioni non corrispondono a quelle previste, è necessario riconfigurare il server utilizzando il Pannello di controllo o rieseguire l'installazione.
 
@@ -727,10 +781,16 @@ IIS viene installato con Gestione componenti facoltativi di Windows (accessibile
         **sysocmgr /i:sysoc.inf /u:C:\\MSSScripts\\OC\_AddIIS.txt**  
         Eseguendo questo comando Gestione dei componenti facoltativi utilizza le configurazioni dei componenti specificate nel file di installazione automatica **C:\\MSSScripts** \\OC\_AddIIS.txt (riportato di seguito):
   
-        <codesnippet language displaylanguage containsmarkup="false"> \[Components\] complusnetwork = On iis\_common = On iis\_asp = On iis\_inetmgr = On iis\_www = On   
-```
+    ```
+        [Components]
+        complusnetwork = On
+        iis_common = On
+        iis_asp = On
+        iis_inetmgr = On
+        iis_www = On   
+    ```
   
-        **Nota:** in questa configurazione vengono attivate le pagine ASP (con la riga iis\_asp = on). Ciò è necessario per supportare le pagine di registrazione Web di Servizi certificati ma non per la soluzione principale. Se le pagine di registrazione Web non sono richieste, è necessario disattivare ASP (eliminando la riga iis\_asp = on prima di eseguire sysocmgr.exe). Se necessario, è sempre possibile riattivarle in seguito.
+    **Nota:** in questa configurazione vengono attivate le pagine ASP (con la riga iis\_asp = on). Ciò è necessario per supportare le pagine di registrazione Web di Servizi certificati ma non per la soluzione principale. Se le pagine di registrazione Web non sono richieste, è necessario disattivare ASP (eliminando la riga iis\_asp = on prima di eseguire sysocmgr.exe). Se necessario, è sempre possibile riattivarle in seguito.
   
     2.  Eseguire nuovamente Gestione componenti facoltativi e verificare che i componenti installati corrispondano a quelli elencati nella tabella precedente. Non sono richiesti altri sottocomponenti del **Server applicazioni**, quindi non è necessario eseguire altre selezioni.
   
@@ -748,57 +808,56 @@ IIS viene installato con Gestione componenti facoltativi di Windows (accessibile
   
     3.  Impostare la protezione della cartella utilizzando Esplora risorse; di seguito sono elencate le autorizzazioni da applicare. Le primi quattro devono già essere presenti
   
-        **Tabella 6. Autorizzazioni directory virtuale**
-
+    **Tabella 6. Autorizzazioni directory virtuale**
  
-        <table style="border:1px solid black;">
-        <colgroup>
-        <col width="33%" />
-        <col width="33%" />
-        <col width="33%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th style="border:1px solid black;" >Utente/Gruppo</th>
-        <th style="border:1px solid black;" >Autorizzazione</th>
-        <th style="border:1px solid black;" >Consenti/Nega</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td style="border:1px solid black;">Administrators</td>
-        <td style="border:1px solid black;">Controllo completo</td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">System</td>
-        <td style="border:1px solid black;">Controllo completo</td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;">Creator Owners</td>
-        <td style="border:1px solid black;">Controllo completo (solo sottocartelle e file)</td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">Users</td>
-        <td style="border:1px solid black;">— Lettura<br />
-        — Visualizzazione contenuto cartelle</td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;">IIS_WPG</td>
-        <td style="border:1px solid black;">— Lettura<br />
-        — Visualizzazione contenuto cartelle</td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">Account Internet Guest</td>
-        <td style="border:1px solid black;">Scrittura</td>
-        <td style="border:1px solid black;">Nega</td>
-        </tr>
-        </tbody>
-        </table>
+    <table style="border:1px solid black;">
+    <colgroup>
+    <col width="33%" />
+    <col width="33%" />
+    <col width="33%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th style="border:1px solid black;" >Utente/Gruppo</th>
+    <th style="border:1px solid black;" >Autorizzazione</th>
+    <th style="border:1px solid black;" >Consenti/Nega</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td style="border:1px solid black;">Administrators</td>
+    <td style="border:1px solid black;">Controllo completo</td>
+    <td style="border:1px solid black;">Consenti</td>
+    </tr>
+    <tr class="even">
+    <td style="border:1px solid black;">System</td>
+    <td style="border:1px solid black;">Controllo completo</td>
+    <td style="border:1px solid black;">Consenti</td>
+    </tr>
+    <tr class="odd">
+    <td style="border:1px solid black;">Creator Owners</td>
+    <td style="border:1px solid black;">Controllo completo (solo sottocartelle e file)</td>
+    <td style="border:1px solid black;">Consenti</td>
+    </tr>
+    <tr class="even">
+    <td style="border:1px solid black;">Users</td>
+    <td style="border:1px solid black;">— Lettura<br />
+    — Visualizzazione contenuto cartelle</td>
+    <td style="border:1px solid black;">Consenti</td>
+    </tr>
+    <tr class="odd">
+    <td style="border:1px solid black;">IIS_WPG</td>
+    <td style="border:1px solid black;">— Lettura<br />
+    — Visualizzazione contenuto cartelle</td>
+    <td style="border:1px solid black;">Consenti</td>
+    </tr>
+    <tr class="even">
+    <td style="border:1px solid black;">Account Internet Guest</td>
+    <td style="border:1px solid black;">Scrittura</td>
+    <td style="border:1px solid black;">Nega</td>
+    </tr>
+    </tbody>
+    </table>
   
     4.  In Gestione IIS creare una nuova directory virtuale nel sito Web predefinito:
   
@@ -821,9 +880,10 @@ Prima di procedere, è necessario verificare il funzionamento di base di IIS. Se
 -   **Per verificare il corretto funzionamento della directory virtuale IIS**
   
     1.  Accedere al server IIS (CA di emissione) come membro del gruppo Administrators locale e creare un file utilizzando un editor di testo, ad esempio Notepad. Immettere del testo riconoscibile (non è importante il contenuto e non sono richiesti tag HTML):
-  
-        <codesnippet language displaylanguage containsmarkup="false">Ciao a tutti  
-```
+    
+      ```  
+       Ciao a tutti  
+      ```
   
     2.  Salvare il file come **test.htm** nella cartella creata per la pubblicazione delle informazioni CDP e AIA utilizzando la procedura sopra descritta—**C:\\CAWWWPub**. Salvare lo stesso file come **Test.asp** nella stessa cartella.
   
@@ -870,9 +930,12 @@ Microsoft Internet Explorer tenterà automaticamente e in modo invisibile di aut
         In caso di errore durante la digitazione, premere **INVIO** e digitare nuovamente il comando **open** (passaggio 3) per riconnettersi e inviare il comando **GET** una seconda volta.
   
     5.  Viene visualizzato l'output seguente:
-  
-        <codesnippet language displaylanguage containsmarkup="false">Hello world Connection to host lost. Press any key to continue...  
-```
+
+    ```  
+        Hello world
+        Connection to host lost.
+        Press any key to continue...  
+    ```
   
     6.  Digitare **quit** per uscire da telnet.
   
@@ -894,9 +957,10 @@ In questa sezione vengono descritte l'installazione e la configurazione di altri
   
         Tramite questo comando Gestione componenti facoltativi utilizza le configurazioni dei componenti specificate nel file di installazione automatica **C:\\MSSScript**s**\\OC\_ RemoveRootUpdate.txt** riportato di seguito:
   
-        <codesnippet language displaylanguage containsmarkup="false">\[Components\] rootautoupdate = Off   
-```
-  
+        ```
+           [Components]
+           rootautoupdate = Off   
+        ```  
 #### Controllo dei Service Pack e degli aggiornamenti e delle correzioni di protezione
   
 A questo punto è necessario controllare nuovamente i Service Pack e l'elenco degli aggiornamenti rapidi installati, in quanto potrebbero essere stati installati componenti aggiuntivi, quali IIS. Utilizzare uno strumento, ad esempio Hfnetchk, per eseguire il controllo, ottenere tutte le correzioni richieste e installarle nei server dopo un'adeguata procedura di test.
@@ -981,9 +1045,11 @@ Per ulteriori informazioni sullo strumento ADPrep, vedere la sezione "[Ulteriori
         Sarà necessario eseguire il comando da un server Windows 2003. Dsquery.exe non è disponibile per impostazione predefinita in Windows XP o Windows 2000.
   
     2.  Viene visualizzata la versione dello schema di 30 (o superiore) come illustrato di seguito:
-  
-        <codesnippet language displaylanguage containsmarkup="false"> objectversion 30  
-```
+
+    ```  
+        objectversion
+       30
+    ```
   
 #### Gruppi e utenti di Active Directory
   
@@ -1006,7 +1072,6 @@ Questo script crea i gruppi di protezione elencati nella tabella seguente come g
   
 **Tabella 7. Nomi e scopi dei gruppi**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1073,7 +1138,6 @@ Lo script crea gli account di dominio descritti nella tabella seguente. Lo scrip
   
 **Tabella 8. Nomi e scopi degli account**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1132,7 +1196,6 @@ gli account test e i gruppi amministrativi rappresentano la configurazione dei r
 Numerose organizzazioni utilizzeranno tre ruoli: CA Administrator, Auditor e Backup Operator. Questa configurazione viene riportata nella tabella seguente utilizzando un sottoinsieme degli account test creati precedentemente a scopo illustrativo.
   
 **Tabella 9. Assegnazione dei gruppi del modello amministrativo semplificato**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1174,7 +1237,6 @@ Esistono diversi tipi di gruppi e account utenti associati alla gestione e al fu
 È necessario assegnare le autorizzazioni del gruppo Enterprise PKI Admins per creare ed eliminare gruppi e utenti nell'unità organizzativa di Servizi certificati e in tutti i contenitori figli.
   
 **Tabella 10. Struttura di un'unità organizzativa di esempio**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1390,7 +1452,6 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
         Lo script crea i gruppi locali descritti nella tabella seguente.
   
         **Tabella 11. Nomi e scopi dei gruppi**
-
  
         <table style="border:1px solid black;">
         <colgroup>
@@ -1433,7 +1494,6 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
         Lo script crea gli account locali descritti nella tabella seguente.
   
         **Tabella 12. Nomi e scopi degli account**
-
  
         <table style="border:1px solid black;">
         <colgroup>
@@ -1471,7 +1531,6 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
     3.  Aggiungere questi account utente ai gruppi nel modo appropriato. Utilizzare la tabella seguente per gli account test oppure utilizzare i propri account in base ai ruoli e ai criteri di protezione IT definiti dall'organizzazione.
   
         **Tabella 13. Nomi account e appartenenze di gruppo**
-
  
         <table style="border:1px solid black;">
         <colgroup>
@@ -1512,7 +1571,6 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
 La maggior parte delle organizzazioni non richiede una struttura amministrativa complessa come quella illustrata nella procedura precedente e potrebbero non aver bisogno della separazione dei ruoli. Numerose organizzazioni utilizzano tre ruoli: CA Administrator, Auditor e Backup Operator. Questa configurazione viene riportata nella tabella seguente utilizzando un sottoinsieme degli account test creati precedentemente.
   
 **Tabella 14. Assegnazione dei gruppi del modello amministrativo semplificato**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1693,7 +1751,6 @@ La procedura seguente descrive come creare le unità organizzative e i GPO per l
     8.  Ripetere i tre passaggi precedenti per le combinazioni di unità organizzative, GPO e modelli di protezione elencati nella tabella seguente.
   
         **Tabella 15. Mapping dei GPO ai modelli di protezione e alle unità organizzative**
-
  
         <table style="border:1px solid black;">
         <colgroup>
@@ -1777,7 +1834,6 @@ Dopo aver creato i GPO e aver importato i modelli, è necessario personalizzare 
     5.  In **File System**, aggiungere la cartella D:\\CertLog. Assicurarsi che le autorizzazioni corrispondano a quelle riportate nella tabella seguente.
   
         **Tabella 16. Autorizzazioni per le cartelle del database CA**
-
  
         <table style="border:1px solid black;">
         <colgroup>
@@ -1827,7 +1883,6 @@ Dopo aver creato i GPO e aver importato i modelli, è necessario personalizzare 
     6.  Per la stessa cartella, aggiungere le voci di controllo riportate nella tabella seguente per il gruppo Everyone (fare clic sul pulsante **Avanzate** della finestra di dialogo **Protezione**, quindi selezionare la scheda **Controllo**). Digitare **Everyone** quando viene richiesto per il nome di un utente o di un gruppo. Quando si aggiunge il gruppo Everyone, verrà visualizzata la finestra di dialogo con le informazioni dettagliate **Voci di controllo per** D:\\CertLog. Assicurarsi che l'opzione **La cartella selezionata, le sottocartelle e i file** sia selezionata nel campo **Applica a**. Selezionare tutte le voci a cui corrisponde Sì nella tabella.
   
         **Tabella 17. Controllo per le cartelle del database CA**
-
  
         <table style="border:1px solid black;">
         <colgroup>
@@ -1993,7 +2048,6 @@ Per verificare l'applicazione corretta delle impostazioni di protezione, eseguir
 Queste impostazioni devono essere configurate nel GPO di protezione di Servizi certificati o in un altro GPO che si applica alla o alle CA in linea.
   
 **Tabella 18. Impostazioni da configurare in Configurazione computer\\Modelli amministrativi\\Componenti di Windows\\Servizi terminal**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2142,15 +2196,36 @@ Le informazioni CRL e AIA non sono necessarie per il certificato CA principale i
   
     1.  Immettere il testo seguente in un editor di testi, ad esempio Blocco note:
   
-        <codesnippet language displaylanguage containsmarkup="false">\[Versione\] Signature= "$Windows NT$" \[Certsrv\_Server\] RenewalKeyLength=4096 RenewalValidityPeriod=Years RenewalValidityPeriodUnits=16 \[CRLDistributionPoint\] Empty=true \[AuthorityInformationAccess\] Empty=true   
-```
+        ```
+        [Versione]
+        Signature= "$Windows NT$"
+
+        [Certsrv_Server]
+        RenewalKeyLength=4096
+        RenewalValidityPeriod=Years
+        RenewalValidityPeriodUnits=16
+ 
+        [CRLDistributionPoint]
+        Empty=true
+
+        [AuthorityInformationAccess]
+        Empty=true   
+        ```
   
         **Nota:** la configurazione di una chiave della lunghezza di 4.096 bit potrebbe causare problemi di compatibilità se i certificati devono essere rilasciati a o utilizzati da alcune periferiche, ad esempio alcuni tipi di router, o versioni precedenti di software di alcuni fornitori, non in grado di elaborare chiavi di dimensioni superiori a un valore specifico.
   
     2.  Se è stata definita una CPS per la CA, includere quanto segue nel file CApolicy.inf (è necessario sostituire tutte le voci in corsivo con i valori della propria organizzazione):
   
-        <codesnippet language displaylanguage containsmarkup="false">\[CAPolicy\] Policies=WoodGrove Bank Root CA CPS \[WoodGrove Bank Root CA CPS\] OID=OID.org. URL = "http://www.woodgrovebank.com/YourCPSPage.htm" URL = "ftp://www.woodgrovebank.com/YourCPSPage.txt" Notice = "Istruzioni di pratica di certificazione CA principale WoodGrove Bank"   
-```
+        ```
+           [CAPolicy]
+           Policies=WoodGrove Bank Root CA CPS
+
+           [WoodGrove Bank Root CA CPS]
+           OID=OID.org.
+           URL = "http://www.woodgrovebank.com/YourCPSPage.htm"
+           URL = "ftp://www.woodgrovebank.com/YourCPSPage.txt"
+           Notice = "Istruzioni di pratica di certificazione CA principale WoodGrove Bank"
+        ```
   
         **Nota:** il testo dell'avviso può contenere un massimo di 200 caratteri. Utilizzare questo campo solo per una breve descrizione della CPS e non per il testo completo della CPS.
   
@@ -2206,7 +2281,6 @@ Installare i componenti software CA utilizzando la procedura Aggiunta guidata co
     3.  Verificare nella scheda **Dettagli** del certificato CA che i valori visualizzati corrispondano a quelli descritti nella tabella seguente.
   
         **Tabella 19. Proprietà ed estensioni del certificato della CA principale**
-
  
         <table style="border:1px solid black;">
         <colgroup>
@@ -2258,7 +2332,6 @@ Installare i componenti software CA utilizzando la procedura Aggiunta guidata co
 La configurazione della CA applica una serie di parametri specifici dell'ambiente. I valori di tali parametri sono documentati nella sezione precedente "Specifiche di pianificazione di Servizi certificati" del presente modulo. Questa procedura consente di configurare le proprietà della CA descritte nella tabella seguente.
 
 **Tabella 20. Proprietà della CA da configurare**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2313,8 +2386,28 @@ L'URL HTTP è elencato in sequenza prima dell'URL LDAP, in modo che i client che
   
         **Nota:** qui è riportata solo una parte del file. Non modificare o rimuovere alcun elemento del file, a meno che non si conoscano le conseguenze dell'operazione.
   
-        <codesnippet language displaylanguage containsmarkup="false">'\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* ' USER SETTABLE CONSTANTS ' ' These values MUST be set to reflect actual values used ' by the organization. '\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* ' This is the URL where CRL and CA certs are to be published. CONST CA\_HTTP\_PKI\_VROOT = " http://www.woodgrovebank.com/pki" ' This needs to be set only if non-Active directory clients need to query ' the ldap URL for CRLs. Normally they are OK with HTTP. If you do set this ' (to a specific DC FQDN) ALL clients will use this DC to query. Left blank ' AD clients use their default LDAP server (local DC) to query. CONST CA\_LDAP\_SERVER = "" ' This needs to be set to the DN of the Active Directory Forest root domain ' This is used to set the Root CA CDP and AIA paths so that clients can ' obtain CRL and CA Certificate information from the Active Directory CONST AD\_ROOT\_DN = "DC=woodgrovebank,DC=com"   
-```
+        ```
+          '**************************************************************************
+          '	USER SETTABLE CONSTANTS	
+          '
+          ' These values MUST be set to reflect actual values used
+          ' by the organization.
+          '**************************************************************************
+
+          ' This is the URL where CRL and CA certs are to be published.
+          CONST CA_HTTP_PKI_VROOT		= " http://www.woodgrovebank.com/pki"
+
+          ' This needs to be set only if non-Active directory clients need to query
+          ' the ldap URL for CRLs. Normally they are OK with HTTP. If you do set this
+          ' (to a specific DC FQDN) ALL clients will use this DC to query. Left blank
+          ' AD clients use their default LDAP server (local DC) to query.
+          CONST CA_LDAP_SERVER		= ""
+
+          ' This needs to be set to the DN of the Active Directory Forest root domain
+          ' This is used to set the Root CA CDP and AIA paths so that clients can
+          ' obtain CRL and CA Certificate information from the Active Directory
+          CONST AD_ROOT_DN			= "DC=woodgrovebank,DC=com"   
+        ```
   
     3.  Then run the following script:
   
@@ -2333,7 +2426,6 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori, gestione
     2.  Fare clic sulla scheda **Protezione** e aggiungere i gruppi di protezione locali elencati nella tabella seguente. Per ciascun gruppo aggiungere l'autorizzazione elencata.
   
         **Tabella 21. Autorizzazioni CA da aggiungere**
-
  
         <table style="border:1px solid black;">
         <colgroup>
@@ -2446,8 +2538,15 @@ Questo passaggio è necessario, in quanto le versioni HTTP degli URL CDP e AIA s
   
     4.  Il risultato deve essere simile al seguente. Verificare che il valore **Issuer** corrisponda al nome configurato per il certificato della CA principale:
   
-        <codesnippet language displaylanguage containsmarkup="false"> ================ CRL 0 ================ Issuer: CN=WoodGrove Bank Root CA,DC=woodgrovebank,DC=com CA Version: V1.0 CRL Number: CRL Number=1 CRL Hash(sha1): 73 03 a1 c7 5f a3 c3 f9 8a 09 d0 3c b5 09 00 9c b5 a3 de fe CertUtil: -store command completed successfully.   
-```
+    ```
+        ================ CRL 0 ================
+        Issuer:    CN=WoodGrove Bank Root CA,DC=woodgrovebank,DC=com
+        CA Version: V1.0
+        CRL Number: CRL Number=1
+        CRL Hash(sha1): 73 03 a1 c7 5f a3 c3 f9 8a 09 d0 3c b5 09 00 9c b5 a3 de 
+        fe
+        CertUtil: -store command completed successfully.
+    ```
   
     5.  Per verificare la pubblicazione del certificato CA nel server Web, immettere l'URL seguente in un browser, sostituendo le voci in corsivo con i valori utilizzati nella propria organizzazione:  
         **http://*www.woodgrovebank.com*/pki/*HQ-CA-01\_WoodGrove Bank Root CA*.crt**
@@ -2496,15 +2595,27 @@ Il file CAPolicy.inf non è indispensabile per la CA di emissione, tuttavia, ne 
   
     1.  Immettere il testo seguente in un editor di testi, ad esempio Blocco note.
   
-        <codesnippet language displaylanguage containsmarkup="false"> \[Versione\] Signature= "$Windows NT$" \[Certsrv\_Server\] RenewalKeyLength=2048   
-```
+        ```
+        [Versione]
+        Signature= "$Windows NT$"
+
+        [Certsrv_Server]
+        RenewalKeyLength=2048  
+        ```
   
     2.  Se è stata definita una CPS per la CA, includere quanto segue nel file CApolicy.inf  
         (è necessario sostituire tutte le voci in corsivo con i valori della propria organizzazione):
   
-        <codesnippet language displaylanguage containsmarkup="false">\[CAPolicy\] Policies=WoodGrove Bank Issuing CA 1 CPS \[WoodGrove Bank Issuing CA 1 CPS\] OID=OID.org. URL = "http://www.woodgrovebank.com/YourCPSPage.htm" URL = "ftp://www.woodgrovebank.com/YourCPSPage.txt" Notice = "Istruzioni di pratica di certificazione CA di emissione 1 WoodGrove Bank"   
-```
-  
+        ```
+        [CAPolicy]
+        Policies=WoodGrove Bank Issuing CA 1 CPS
+
+        [WoodGrove Bank Issuing CA 1 CPS]
+        OID=OID.org.
+        URL = "http://www.woodgrovebank.com/YourCPSPage.htm"
+        URL = "ftp://www.woodgrovebank.com/YourCPSPage.txt"
+        Notice = "Istruzioni di pratica di certificazione CA di emissione 1 WoodGrove Bank"
+        ```  
         **Note:**
   
         Il testo dell'avviso può contenere un massimo di 200 caratteri. Utilizzare questo campo solo per una breve descrizione della CPS e non per il testo completo della CPS.
@@ -2637,7 +2748,6 @@ La CA deve ora avviarsi.
     3.  Verificare nella scheda **Dettagli** del certificato CA che i valori visualizzati corrispondano a quelli descritti nella tabella seguente.
   
         **Tabella 22. Proprietà ed estensioni del certificato della CA di emissione**
-
  
         <table style="border:1px solid black;">
         <colgroup>
@@ -2702,7 +2812,6 @@ La CA deve ora avviarsi.
 La configurazione della CA applica una serie di parametri specifici dell'ambiente. I valori di tali parametri sono documentati nella sezione precedente "Specifiche di pianificazione di Servizi certificati" del presente modulo. Questa procedura consente di configurare le proprietà della CA descritte nella tabella seguente.
   
 **Tabella 23. Proprietà della CA da configurare**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2774,7 +2883,6 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori, gestione
     2.  Fare clic sulla scheda **Protezione** e aggiungere i gruppi di protezione del dominio elencati nella tabella seguente. Per ciascun gruppo aggiungere l'autorizzazione elencata.
   
         **Tabella 24. Autorizzazioni CA da aggiungere**
-
  
         <table style="border:1px solid black;">
         <colgroup>
