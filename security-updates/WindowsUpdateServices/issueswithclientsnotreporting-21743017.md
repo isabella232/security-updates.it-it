@@ -81,7 +81,7 @@ Ensure that the Automatic Update client has been configured correctly.
 2.  Type:
     **reg query HKLM\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate**
 
-    You should see output like the following if the client has been configured to get its updates from a WSUS server:
+You should see output like the following if the client has been configured to get its updates from a WSUS server:
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
@@ -97,14 +97,14 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate
 HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU
 ```
 
-    If the query returns the error, "The system was unable to find the specified registry key or value," Automatic Update has not been configured on this computer.
+If the query returns the error, "The system was unable to find the specified registry key or value," Automatic Update has not been configured on this computer.
 
-    If the output from step 2 above contains values for WUServer and WUStatusServer, try to contact the WSUS server listed in these values.
+If the output from step 2 above contains values for WUServer and WUStatusServer, try to contact the WSUS server listed in these values.
 
 3.  Open Internet Explorer and in the Address bar type **http://***WUServer*
     where *WUServer* stands for the value in the output from step 2.
 
-    You should see an "Under Construction" page if the *WUServer* value is valid. If it is not, you will get an HTTP error of some kind.
+You should see an "Under Construction" page if the *WUServer* value is valid. If it is not, you will get an HTTP error of some kind.
 
 ### Reset the Automatic Update client
 
