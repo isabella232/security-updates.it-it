@@ -35,7 +35,7 @@ L'introduzione di questa guida include le seguenti sezioni:
 
 -   **Il processo di controllo dello standard PCI DSS**. Questa sezione offre una panoramica del processo di controllo dei requisiti PCI DSS utilizzato dai revisori per valutare la conformità dell'organizzazione a tale requisiti.
 
-Data la natura integrativa di questo white paper alla *The* *Regulatory Compliance Planning Guide*, si consiglia di consultare anche questa guida per la pianificazione di una soluzione completa per la conformità a tutti i requisiti normativi applicabili all'organizzazione.
+Data la natura integrativa di questo white paper alla *The Regulatory Compliance Planning Guide*, si consiglia di consultare anche questa guida per la pianificazione di una soluzione completa per la conformità a tutti i requisiti normativi applicabili all'organizzazione.
 
 #### Riepilogo generale
 
@@ -47,7 +47,7 @@ La *Guida alla pianificazione della conformità allo standard PCI DSS (Payment C
 
 Per una discussione più completa su come adempiere ai diversi standard normativi, vedere la [*The Regulatory Compliance Planning Guide*](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true).
 
-**Importante**   Questa guida non contiene informazioni di tipo legale. Il suo contenuto è costituito unicamente da informazioni pratiche e tecniche sulla conformità alle normative. Per un consiglio su come adempiere ai requisiti normativi, è bene non affidarsi esclusivamente a questa guida. Per informazioni su problemi specifici, rivolgersi al proprio consulente legale o al proprio revisore.
+**Importante** Questa guida non contiene informazioni di tipo legale. Il suo contenuto è costituito unicamente da informazioni pratiche e tecniche sulla conformità alle normative. Per un consiglio su come adempiere ai requisiti normativi, è bene non affidarsi esclusivamente a questa guida. Per informazioni su problemi specifici, rivolgersi al proprio consulente legale o al proprio revisore.
 
 #### Destinatari del documento
 
@@ -167,7 +167,7 @@ I vantaggi che questo framework offre alle organizzazioni che desiderano raggiun
 
 Prima di pianificare le iniziative di conformità è necessario, ovviamente, studiare lo standard PCI DSS. Lo standard PCI DSS (in inglese) può essere scaricato dal sito <https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf>. Il PCI Security Standards Council, inoltre, ha elaborato un questionario di autovalutazione che consente alle organizzazioni di stabilire se sono effettivamente conformi allo standard PCI DSS. L'uso del questionario di autovalutazione agevola anche la pianificazione delle iniziative mirate alla conformità a questo standard. Il questionario di autovalutazione per lo standard PCI DSS (in inglese) può essere scaricato dal sito <https://www.pcisecuritystandards.org/pdfs/pci_saq_v1-0.pdf>.
 
-Per ulteriori informazioni su come adempiere ai requisiti normativi utilizzando i controlli IT in un framework di controllo, vedere la *The* *Regulatory Compliance Planning Guide*.
+Per ulteriori informazioni su come adempiere ai requisiti normativi utilizzando i controlli IT in un framework di controllo, vedere la *The Regulatory Compliance Planning Guide*.
 
 #### Il processo di controllo dello standard PCI DSS
 
@@ -268,7 +268,7 @@ Per ulteriori informazioni su SMS, vedere la home page di Microsoft Systems Mana
 Per ulteriori informazioni, vedere Audit Collection Services (in inglese) all'indirizzo [http://technet.microsoft.com/en-us/library/bb381258,aspx](http://technet.microsoft.com/en-us/library/bb381258.aspx).
 
 <li>
-**Windows Server Update Services**.** **Windows Server Update Services con Service Pack 1 consente a un'organizzazione di distribuire molti degli ultimi aggiornamenti dei prodotti Microsoft, pubblicati sul sito Microsoft Update. Windows Server Update Services è un componente aggiornato di Windows Server e offre un modo rapido ed efficace per tenere sempre aggiornati i sistemi. Con WSUS, è possibile disporre di un'infrastruttura di valutazione dei rischi costituita da:
+**Windows Server Update Services**. Windows Server Update Services con Service Pack 1 consente a un'organizzazione di distribuire molti degli ultimi aggiornamenti dei prodotti Microsoft, pubblicati sul sito Microsoft Update. Windows Server Update Services è un componente aggiornato di Windows Server e offre un modo rapido ed efficace per tenere sempre aggiornati i sistemi. Con WSUS, è possibile disporre di un'infrastruttura di valutazione dei rischi costituita da:
 
 -   **Microsoft Update**. Il sito Web di Microsoft a cui i componenti WSUS si connettono per gli aggiornamenti dei prodotti Microsoft.
 
@@ -412,7 +412,7 @@ Microsoft offre una serie di tecnologie che, utilizzate in combinazione o singol
 
 -   **Microsoft Baseline Security Analyzer (MBSA)**. Uno degli strumenti più validi per valutare i rischi per i dati sui titolari di carta è MBSA. MBSA è uno strumento di facile uso che permette di identificare i più comuni errori di configurazione della protezione in una serie di prodotti Microsoft, tra cui il sistema operativo Microsoft Windows, Internet Information Services, SQL Server, Internet Explorer e Microsoft Office. MBSA è anche in grado di rilevare gli aggiornamenti cumulativi, i service pack pubblicati in Microsoft Update e gli aggiornamenti della protezione mancanti. MBSA può essere eseguito dal prompt dei comandi o dalla sua GUI e può essere utilizzato con Microsoft Update e Windows Server Update Services. Considerata l'importanza di tenere sempre aggiornati i sistemi per garantire la massima protezione dei dati sui titolari di carta, MBSA può rivelarsi uno strumento molto prezioso per la valutazione dei rischi dell'organizzazione.
 
--   **Microsoft Windows Server Update Services**.** **Microsoft Windows Server Update Services (WSUS) con Service Pack 1 consente a un'organizzazione di distribuire molti degli ultimi aggiornamenti dei prodotti Microsoft, pubblicati sul sito Microsoft Update. WSUS è un componente di aggiornamento di Windows Server che offre un modo rapido e pratico per tenere i sistemi sempre aggiornati. Con WSUS, è possibile disporre di un'infrastruttura di gestione costituita da:
+-   **Microsoft Windows Server Update Services**. Microsoft Windows Server Update Services (WSUS) con Service Pack 1 consente a un'organizzazione di distribuire molti degli ultimi aggiornamenti dei prodotti Microsoft, pubblicati sul sito Microsoft Update. WSUS è un componente di aggiornamento di Windows Server che offre un modo rapido e pratico per tenere i sistemi sempre aggiornati. Con WSUS, è possibile disporre di un'infrastruttura di gestione costituita da:
 
     -   **Microsoft Update**. Il sito Web di Microsoft a cui i componenti WSUS si connettono per gli aggiornamenti dei prodotti Microsoft.
 
@@ -539,7 +539,7 @@ Microsoft offre numerose soluzioni in grado di aiutare a proteggere il software 
 
     -   Applicare i criteri aziendali che governano l'uso e la distribuzione delle informazioni all'interno e all'esterno dell'azienda.
 
--   **Microsoft Windows SharePoint Services** **Information Rights Management (IRM)**. Come per le soluzioni di gestione dei documenti, SharePoint Services IRM può agevolare la conformità delle soluzioni di collaborazione ai requisiti PCI DSS. Questa tecnologia consente di creare un insieme persistente di controlli di accesso collegati non più a una specifica area della rete, ma ai contenuti. Questa capacità consente di controllare l'accesso anche ai file che non sono più soggetti al controllo diretto. IRM può essere utilizzato per i file ubicati nelle librerie di documenti e archiviati come allegati alle voci degli elenchi. Grazie a questa caratteristica, gli amministratori possono proteggere con IRM i download da una libreria di documenti. Se un utente cerca di scaricare un file dalla libreria, Windows SharePoint Services verifica che tale utente disponga delle autorizzazioni richieste per il file e rilascia all'utente una licenza che gli consente di accedere al file con il livello di autorizzazione adeguato. A questo punto, Windows SharePoint Services scarica il file sul computer dell'utente in un formato crittografato e protetto dai diritti necessari.
+-   **Microsoft Windows SharePoint Services Information Rights Management (IRM)**. Come per le soluzioni di gestione dei documenti, SharePoint Services IRM può agevolare la conformità delle soluzioni di collaborazione ai requisiti PCI DSS. Questa tecnologia consente di creare un insieme persistente di controlli di accesso collegati non più a una specifica area della rete, ma ai contenuti. Questa capacità consente di controllare l'accesso anche ai file che non sono più soggetti al controllo diretto. IRM può essere utilizzato per i file ubicati nelle librerie di documenti e archiviati come allegati alle voci degli elenchi. Grazie a questa caratteristica, gli amministratori possono proteggere con IRM i download da una libreria di documenti. Se un utente cerca di scaricare un file dalla libreria, Windows SharePoint Services verifica che tale utente disponga delle autorizzazioni richieste per il file e rilascia all'utente una licenza che gli consente di accedere al file con il livello di autorizzazione adeguato. A questo punto, Windows SharePoint Services scarica il file sul computer dell'utente in un formato crittografato e protetto dai diritti necessari.
 
     Office IRM è basato sulla piattaforma Microsoft Windows Rights Management Services. Per abilitare questa funzione in Office, è necessario acquistare le licenze per il server RMS.
 
@@ -730,7 +730,7 @@ R: Ci sono tre buoni motivi per cui un'organizzazione dovrebbe intraprendere le 
 
 R: Sapendo bene che la situazione di ogni organizzazione è unica, Microsoft ha creato questa guida con lo scopo di fornire informazioni il più possibile complete. Microsoft è in grado di sviluppare linee guida specifiche per i settori verticali. Per domande particolari, è possibile contattare direttamente i rappresentanti di vendita Microsoft. Come spiegato in precedenza, è possibile ottenere risultati di business migliori se si guarda al progetto di conformità anche come opportunità per migliorare il controllo e la gestione delle informazioni sui clienti.
 
-**D: Questo documento descrive molte tecnologie utili per la conformità allo standard PCI DSS,** **ma poche soluzioni di conformità. Perché?**
+**D: Questo documento descrive molte tecnologie utili per la conformità allo standard PCI DSS, ma poche soluzioni di conformità. Perché?**
 
 R: Ogni situazione è unica, quindi non è possibile offrire una sola soluzione valida per tutti i contesti. Come spiegato nel riepilogo, però, Microsoft può fornire a ogni organizzazione informazioni più dettagliate.
 
@@ -747,7 +747,6 @@ R: No. Il testo completo di questa sezione afferma quanto segue:
 Le tecnologie di protezione dei dati di Microsoft non collegano le chiavi di decrittografia agli account utente. Ad esempio, la Crittografia unità BitLocker non associa mai queste chiavi (che possono essere costituite dai PIN o dalle password di ripristino) agli account utente di Active Directory. Anche Encrypting File System (EFS) non collega mai le chiavi di decrittografia agli account utente. L'organizzazione può revocare a una persona l'autorizzazione a decrittografare un documento senza dover modificare i privilegi di accesso. In alcune configurazioni, EFS tenta di ottimizzare l'esperienza utente inserendo automaticamente alcune chiavi di decrittografia nei profili di particolari utenti. Questo comportamento, tuttavia, può essere cambiato modificando la configurazione.
 
 #### Requisiti PCI DSS e soluzioni tecnologiche associate
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -822,9 +821,9 @@ Le tecnologie di protezione dei dati di Microsoft non collegano le chiavi di dec
   
 [*The PCI DSS QSA Audit Procedures (in inglese)*](https://www.pcisecuritystandards.org/pdfs/pci_audit_procedures_v1-1.pdf)
   
-[*The PCI DSS ASV Scanning Procedures (in inglese)*](https://www.pcisecuritystandards.org/pdfs/pci_scanning_procedures_v1-1.pdf)** **
+[*The PCI DSS ASV Scanning Procedures (in inglese)*](https://www.pcisecuritystandards.org/pdfs/pci_scanning_procedures_v1-1.pdf) 
   
-[*Applicazione del principio del privilegio minimo agli account utente in Windows XP*](http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/luawinxp.mspx)* *
+[*Applicazione del principio del privilegio minimo agli account utente in Windows XP*](http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/luawinxp.mspx) 
   
 [*Best Practices for Delegating Active Directory Administration (in inglese)*](http://www.microsoft.com/downloads/details.aspx?familyid=631747a3-79e1-48fa-9730-dae7c0a1d6d3&displaylang=en)
   
