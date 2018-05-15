@@ -147,7 +147,6 @@ Se si modifica il nome del computer dopo avere installato WSUS RTM e prima di ag
 
 Utilizzare il seguente script per rimuovere e aggiungere nuovamente i gruppi Administrator di ASPNET e WSUS, quindi eseguire nuovamente l'aggiornamento.
 
-        ```
 | ![](images/Cc708486.note(WS.10).gif)Nota                                                          |
 |--------------------------------------------------------------------------------------------------------------------------------|
 | Potrebbe essere necessario sostituire&lt;ContentDirectory&gt; nell'ultima riga con il percorso dell'archivio contenuti in uso. |
