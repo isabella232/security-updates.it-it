@@ -35,10 +35,10 @@ Queste istruzioni spiegano come predisporre la soluzione, utilizzando Criteri di
 
 ##### In questa pagina
 
-[](#eeaa)[Prima di iniziare](#eeaa)
-[](#edaa)[Creazione dei criteri IPsec in Active Directory](#edaa)
-[](#ecaa)[Autorizzazione dell'accesso in ingresso a un gruppo di isolamento](#ecaa)
-[](#ebaa)[Considerazioni aggiuntive su IPsec](#ebaa)
+[](#eeaa)[Prima di iniziare](#eeaa)  
+[](#edaa)[Creazione dei criteri IPsec in Active Directory](#edaa)  
+[](#ecaa)[Autorizzazione dell'accesso in ingresso a un gruppo di isolamento](#ecaa)  
+[](#ebaa)[Considerazioni aggiuntive su IPsec](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Prima di iniziare
@@ -1002,7 +1002,7 @@ L'identificazione delle versioni dei criteri IPsec tramite l'analisi dei relativ
   
 Un metodo che semplifica l'identificazione della versione consiste nel creare un ID della versione basato sulla formula seguente:
 ```
-<codesnippet language displaylanguage containsmarkup="false">&lt;Major Change&gt;.&lt;Minor Change&gt;.&lt;Date:yymmdd&gt;.&lt;Time:24 Hour&gt;
+<Major Change>.<Minor Change>.<Date:yymmdd>.<Time:24 Hour>
 ```  
 Ad esempio, 1.0.041001.1600 corrisponderà alla versione 1.0 creata il 10/01/04 alle 16:00.
   
@@ -1084,7 +1084,7 @@ In alternativa allo snap-in MMC Gestione criteri di protezione IP, è possibile 
 Per puntare Netsh su Active Directory, digitare il comando seguente al prompt di **Netsh**:
 
 ``` 
-<codesnippet language displaylanguage containsmarkup="false">ipsec static set store location=domain  
+ipsec static set store location=domain 
 ```  
 Sarà quindi possibile immettere manualmente gli elenchi filtri, le operazioni filtro e i criteri IPsec utilizzando la shell dei comandi di Netsh. Analogamente allo strumento dotato di interfaccia grafica, Netsh supporta l'esportazione e l'importazione dei file dei criteri IPsec per il backup e il ripristino.
   
@@ -1093,7 +1093,7 @@ L'esecuzione di Netsh in modalità batch implica la creazione di un file di scri
 È possibile creare le informazioni sui criteri IPsec in Active Directory avviando Netsh ed eseguendo il file di script. La sintassi della riga di comando per lanciare Netsh ed eseguire un file di script è la seguente:
 
 ```  
-<codesnippet language displaylanguage containsmarkup="false">netsh –f &lt;scriptfile&gt;  
+netsh –f <scriptfile> 
 ```  
 Per ulteriori informazioni sull'utilizzo di Netsh, consultare l'argomento "Netsh" nella sezione "Strumenti di amministrazione e script" della Guida in linea e supporto tecnico di Windows Server 2003.
   
@@ -1368,7 +1368,7 @@ A seguito di una modifica apportata all'implementazione di IPsec nel comportamen
 1.  Al prompt di **Netsh**, digitare il comando seguente e premere **INVIO**:
 
 ```  
-    <codesnippet language displaylanguage containsmarkup="false">netsh ipsec dynamic set config ipsecexempt 0   
+    netsh ipsec dynamic set config ipsecexempt 0 
 ```
   
 2.  Riavviare il computer.
@@ -1405,7 +1405,8 @@ Se è necessario consentire la comunicazione IPsec attraverso il NAT, si consigl
 2.  Individuare e fare clic sulla seguente sottochiave del Registro di sistema:
 
 ```  
-    <codesnippet language displaylanguage containsmarkup="false">HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\ Services\\IPSec  
+    HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\
+    Services\IPSec
 ```
   
 3.  Scegliere **Nuovo** dal menu **Modifica**, quindi fare clic su **Valore DWORD**.
@@ -1448,7 +1449,8 @@ Affinché sia possibile stabilire le connessioni NAT in ingresso, il rilevamento
 2.  Individuare e fare clic sulla seguente sottochiave del Registro di sistema:
 
 ```
-    <codesnippet language displaylanguage containsmarkup="false">HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\ Services\\tcpip\\parameters  
+    HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\
+    Services\tcpip\parameters 
 ```
   
 3.  Scegliere **Nuovo** dal menu **Modifica**, quindi fare clic su **Valore DWORD**.
