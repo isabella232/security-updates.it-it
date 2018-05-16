@@ -1103,55 +1103,54 @@ IIS viene installato tramite Gestione componenti facoltativi di Windows (accessi
   
 3.  Impostare la protezione della cartella nel modo seguente:
   
-    **Tabella 9. Autorizzazioni directory virtuale**
+**Tabella 9. Autorizzazioni directory virtuale**
 
- 
-    <table style="border:1px solid black;">
-    <colgroup>
-    <col width="33%" />
-    <col width="33%" />
-    <col width="33%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th style="border:1px solid black;" >User/Group</th>
-    <th style="border:1px solid black;" >Autorizzazione</th>
-    <th style="border:1px solid black;" >Consenti/Nega</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td style="border:1px solid black;">Administrators</td>
-    <td style="border:1px solid black;">Controllo completo</td>
-    <td style="border:1px solid black;">Consentito</td>
-    </tr>
-    <tr class="even">
-    <td style="border:1px solid black;">System</td>
-    <td style="border:1px solid black;">Controllo completo</td>
-    <td style="border:1px solid black;">Consentito</td>
-    </tr>
-    <tr class="odd">
-    <td style="border:1px solid black;">Creator Owners</td>
-    <td style="border:1px solid black;">Controllo completo (solo sottocartelle e file)</td>
-    <td style="border:1px solid black;">Consentito</td>
-    </tr>
-    <tr class="even">
-    <td style="border:1px solid black;">Users</td>
-    <td style="border:1px solid black;">Lettura e visualizzazione contenuto cartella</td>
-    <td style="border:1px solid black;">Consentito</td>
-    </tr>
-    <tr class="odd">
-    <td style="border:1px solid black;">IIS_WPG</td>
-    <td style="border:1px solid black;">Lettura e visualizzazione contenuto cartella</td>
-    <td style="border:1px solid black;">Consentito</td>
-    </tr>
-    <tr class="even">
-    <td style="border:1px solid black;">Account Internet Guest</td>
-    <td style="border:1px solid black;">Scrittura</td>
-    <td style="border:1px solid black;">Negato</td>
-    </tr>
-    </tbody>
-    </table>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >User/Group</th>
+<th style="border:1px solid black;" >Autorizzazione</th>
+<th style="border:1px solid black;" >Consenti/Nega</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Administrators</td>
+<td style="border:1px solid black;">Controllo completo</td>
+<td style="border:1px solid black;">Consentito</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">System</td>
+<td style="border:1px solid black;">Controllo completo</td>
+<td style="border:1px solid black;">Consentito</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Creator Owners</td>
+<td style="border:1px solid black;">Controllo completo (solo sottocartelle e file)</td>
+<td style="border:1px solid black;">Consentito</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Users</td>
+<td style="border:1px solid black;">Lettura e visualizzazione contenuto cartella</td>
+<td style="border:1px solid black;">Consentito</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">IIS_WPG</td>
+<td style="border:1px solid black;">Lettura e visualizzazione contenuto cartella</td>
+<td style="border:1px solid black;">Consentito</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Account Internet Guest</td>
+<td style="border:1px solid black;">Scrittura</td>
+<td style="border:1px solid black;">Negato</td>
+</tr>
+</tbody>
+</table>
   
 4.  Nella console di gestione di Internet Information Services, creare una nuova directory virtuale nel sito Web predefinito:
   
