@@ -27,11 +27,11 @@ Quando si utilizza IPsec per la protezione del traffico di rete basato su protoc
 
 ##### In questa pagina
 
-[](#efaa)[Livelli di supporto e assegnazione dei problemi](#efaa)
-[](#eeaa)[Risoluzione dei problemi di 1° livello](#eeaa)
-[](#edaa)[Preparazione alla risoluzione dei problemi di 2° livello](#edaa)
-[](#ecaa)[Processo di risoluzione dei problemi relativi a IPsec](#ecaa)
-[](#ebaa)[Risoluzione dei problemi di 3° livello](#ebaa)
+[](#efaa)[Livelli di supporto e assegnazione dei problemi](#efaa)  
+[](#eeaa)[Risoluzione dei problemi di 1° livello](#eeaa)  
+[](#edaa)[Preparazione alla risoluzione dei problemi di 2° livello](#edaa)  
+[](#ecaa)[Processo di risoluzione dei problemi relativi a IPsec](#ecaa)  
+[](#ebaa)[Risoluzione dei problemi di 3° livello](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Livelli di supporto e assegnazione dei problemi
@@ -156,7 +156,7 @@ Quando il personale di supporto del 1° livello ha completato i passaggi dei dia
 
 -   **Risoluzione compresa**. Questo stato indica che il problema è stato risolto e che la relativa causa può essere stata stabilita.
 
--   **Risoluzione non chiara.** Questo stato** **indica che il problema è stato risolto, ma che la sua causa non è stata completamente compresa. L'aggiornamento dei criteri IPsec potrebbe, ad esempio, risolvere il problema senza però necessariamente spiegare perché era stato applicato un criterio errato o non era stato applicato alcun criterio.
+-   **Risoluzione non chiara.** Questo stato indica che il problema è stato risolto, ma che la sua causa non è stata completamente compresa. L'aggiornamento dei criteri IPsec potrebbe, ad esempio, risolvere il problema senza però necessariamente spiegare perché era stato applicato un criterio errato o non era stato applicato alcun criterio.
 
 -   **Nessuna risoluzione**. Questo stato indica che il problema è ancora presente, ma che ne sono stati individuati i probabili aspetti per poi assegnarlo al supporto di 2° livello.  
 
@@ -970,8 +970,8 @@ Windows 2000 e Windows XP non supportano l'elaborazione del rilevamento PMTU d
 2000/server/reskit/en-us/cnet/cnbd\_trb\_gdhe.asp
   
 **Nota:** un problema noto richiede l'attivazione del rilevamento della PMTU di TCP affinché IPsec possa proteggere il traffico in uno scenario di attraversamento del NAT in cui le connessioni UDP-ESP di IPsec vengono avviate da un host esterno al NAT verso un host ubicato dietro al NAT. Se è necessario utilizzare questo scenario, verificare che il rilevamento della PMTU di TPC sia attivato, controllando che la seguente chiave del Registro di sistema non sia definita o impostandola su 1 per entrambe le parti:  
-**    HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Services\\Tcpip\\**  
-**    Parameters\\EnablePMTUDiscovery=1**  
+**HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Services\\Tcpip\\**  
+**Parameters\\EnablePMTUDiscovery=1**  
     (questa chiave potrebbe essere visualizzata su più di una riga; nel Registro di sistema è su una sola riga).  
 Il modello di protezione di base per server membro di Microsoft Windows Server 2003 e altre configurazioni di terze parti potrebbero configurare questa chiave del Registro di sistema per disattivare la PMTU di TCP.
   
@@ -1029,8 +1029,8 @@ Nonostante il testo dell'evento suggerisca che riavviando il servizio IPsec si p
 La risoluzione richiede pertanto un'analisi che identifichi uno schema degli indirizzi IP sorgente, gli orari della giornata, le schede o le condizioni in cui l'errore si verifica. Se il numero di pacchetti è contenuto, questo errore potrebbe non meritare un'analisi. È essenziale iniziare tentando di escludere possibili origini del danneggiamento nel sistema locale. Disattivare l'offloading IPsec, provare a disattivare le funzioni avanzate o relative alle prestazioni del driver usando la configurazione indicata in Proprietà avanzate e utilizzare i driver NIC più recenti disponibili presso il fornitore, preferibilmente quelli con certificazioni e firme WHQL (Windows Hardware Quality Lab). Analizzare quindi le caratteristiche dei percorsi di rete lungo i quali devono essere trasmessi i pacchetti. Cercare ulteriori prove di danneggiamento dei pacchetti nelle statistiche di scarto di TCP/IP e su altri computer che utilizzano la stessa configurazione. Il contatore IP **Datagrammi ricevuti scartati** incrementa tutte le volte che IPsec scarta un pacchetto.
   
 **Nota:** per disattivare la funzionalità di offloading TCP/IP, utilizzare la seguente chiave del Registro di sistema per i computer che eseguono Windows 2000, Windows XP o Windows Server 2003:  
-**    HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Services\\IPSEC\\**  
-**    EnableOffload DWORD impostandola su 0**  
+**HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Services\\IPSEC\\**  
+**EnableOffload DWORD impostandola su 0**  
     (questa chiave potrebbe essere visualizzata su più di una riga; nel Registro di sistema è su una sola riga),  
 quindi riavviare il computer.
   
@@ -1346,13 +1346,19 @@ Netsh –f show\_persistent.netsh
 Il file **show\_persistent.netsh** è un file di testo che contiene le righe seguenti:
 
 ```  
-Pushd ipsec static Set store persistent show all exit  
+Pushd ipsec static 
+Set store persistent 
+show all 
+exit  
 ```  
 
 Per eliminare completamente il criterio permanente, è possibile utilizzare il seguente script di comandi Netsh:
   
 ```  
-pushd ipsec static set store persistent delete all exit  
+pushd ipsec static 
+set store persistent 
+delete all 
+exit  
 ```  
 
 ###### Criterio IPSec locale
@@ -1459,17 +1465,17 @@ In Windows 2000, i messaggi seguenti possono indicare un problema di interpreta
   
 -   **Impossibile trovare l'indice delle voci degli indirizzi IP nella tabella dell'interfaccia. L'indirizzo IP verrà scartato**. L'Agente criteri IPsec verifica che tutti gli indirizzi IP compaiano nell'elenco delle interfacce di rete. Questo problema può essere causato da condizioni transitorie, ad esempio, quando si aggiunge o si rimuove un'interfaccia di rete. Il messaggio indica che il servizio IPsec non creerà filtri specifici per questo indirizzo IP scartato per i filtri generici di tipo Indirizzo IP nel criterio. Questa condizione potrebbe generare temporaneamente comportamenti non previsti a livello di connettività quando si utilizza questo indirizzo IP. L'errore potrebbe inoltre indicare un problema dello stato interno di configurazione dell'interfaccia IP che il servizio di supporto tecnico Microsoft dovrà ulteriormente analizzare. Poiché l'indirizzo IP viene scartato dall'Agente criteri IPsec (non dallo stack TCP/IP), non verranno creati filtri IPsec per questo indirizzo IP. Conseguentemente, non verranno effettuate operazioni di protezione (quali autorizzazione o blocco) né negoziazioni delle SA IPsec per il traffico che utilizza questo indirizzo IP.
   
--   **Un filtro mirror corrispondente è già esistente nell'elenco dei filtri**.** **Questo errore indica la presenza di un filtro duplicato nel criterio IPsec. È necessario analizzare la configurazione del criterio IPsec per verificare che non siano duplicati i filtri specifici della modalità rapida per le direzioni di ingresso e uscita.
+-   **Un filtro mirror corrispondente è già esistente nell'elenco dei filtri**.Questo errore indica la presenza di un filtro duplicato nel criterio IPsec. È necessario analizzare la configurazione del criterio IPsec per verificare che non siano duplicati i filtri specifici della modalità rapida per le direzioni di ingresso e uscita.
   
 -   **Non sono stati aggiunti filtri all'elenco dei filtri principale**. L'Agente criteri IPsec non ha trovato filtri nel criterio IPsec recuperato dall'archivio. Il criterio IPsec potrebbe contenere soltanto la regola di risposta predefinita oppure si sono verificati degli errori durante la lettura delle regole o dei filtri.
   
--   **Zero offerte per la fase 1. Il criterio ISAKMP verrà scartato**.** **Se non sono stati trovati metodi di protezione in modalità principale IKE (oggetti del criterio ISAKMP), il criterio IPsec è presumibilmente danneggiato.
+-   **Zero offerte per la fase 1. Il criterio ISAKMP verrà scartato**.Se non sono stati trovati metodi di protezione in modalità principale IKE (oggetti del criterio ISAKMP), il criterio IPsec è presumibilmente danneggiato.
   
 -   **Zero offerte per la fase 2. Il criterio di negoziazione verrà scartato**. In assenza di metodi di protezione per l'operazione filtro (offerte per la fase 2 in modalità rapida IKE), IKE non eseguirà le negoziazioni in modalità rapida per il traffico che corrisponde ai relativi filtri. Il criterio IPsec è probabilmente danneggiato.
   
--   **Il criterio non contiene offerte valide**.** **Il criterio IPsec non contiene metodi di protezione validi nell'operazione filtro di una regola oppure non contiene impostazioni per la modalità principale IKE (impostazioni di scambio delle chiave configurate nella scheda Generale).
+-   **Il criterio non contiene offerte valide**.Il criterio IPsec non contiene metodi di protezione validi nell'operazione filtro di una regola oppure non contiene impostazioni per la modalità principale IKE (impostazioni di scambio delle chiave configurate nella scheda Generale).
   
--   **L'Agente criteri ha tentato di inserire un filtro esistente all'interno di IPSEC**.** **Il driver IPsec rileva la presenza di un filtro duplicato e lo scarta. Questa situazione può essere benigna se il filtro duplicato contiene la medesima operazione di quello già elaborato nel driver IPsec. Se invece le operazioni filtro sono diverse, questa configurazione del criterio IPsec non è supportata. I risultati possono essere diversi dopo un certo intervallo di tempo e dipendono dall'ordine in cui la modifica del criterio viene elaborata. Il criterio IPsec deve essere configurato in modo da evitare filtri duplicati.
+-   **L'Agente criteri ha tentato di inserire un filtro esistente all'interno di IPSEC**.Il driver IPsec rileva la presenza di un filtro duplicato e lo scarta. Questa situazione può essere benigna se il filtro duplicato contiene la medesima operazione di quello già elaborato nel driver IPsec. Se invece le operazioni filtro sono diverse, questa configurazione del criterio IPsec non è supportata. I risultati possono essere diversi dopo un certo intervallo di tempo e dipendono dall'ordine in cui la modifica del criterio viene elaborata. Il criterio IPsec deve essere configurato in modo da evitare filtri duplicati.
   
 -   **Impossibile aggiungere una voce alla tabella dei criteri di IPSEC**. Non è stato possibile aggiungere un nuovo filtro al driver IPsec tramite l'Agenti criteri IPsec. Questo errore indica che il traffico che corrisponde al filtro specificato non verrà protetto. Questo errore può essere causato dall'insufficienza di memoria del kernel. Se il problema persiste, contattare il servizio di supporto tecnico Microsoft.
   
@@ -1481,11 +1487,11 @@ In Windows Server 2003, gli eventi seguenti indicano che si è presumibilmente
   
 -   **PAStore Engine non è riuscito ad applicare il criterio IPSec di archivio permanente al computer per "*&lt;nome criterio&gt;*"; codice errore:*&lt;numero&gt;***. Il servizio IPsec ha rilevato un criterio permanente configurato nel Registro di sistema, ma non è riuscito ad applicarlo completamente. Eventuali criteri permanenti già applicati vengono eliminati e il driver IPsec entra in modalità di blocco a livello di programmazione (con le esenzioni di avvio), come indicato in un messaggio separato.
   
--   **PAStore Engine non è riuscito ad applicare il criterio IPSec di archiviazione del registro locale al computer per DN "*&lt;nome criterio&gt;*"*;*** **codice di errore:** ***&lt;numero&gt;***. Questo messaggio indica che il servizio ha rilevato almeno un errore nell'applicazione del criterio IPsec locale dal Registro di sistema locale. Questo messaggio potrebbe anche indicare che il criterio è danneggiato o che le autorizzazioni sono errate.
+-   **PAStore Engine non è riuscito ad applicare il criterio IPSec di archiviazione del registro locale al computer per DN "*&lt;nome criterio&gt;*"*;*** **codice di errore:*&lt;numero&gt;***. Questo messaggio indica che il servizio ha rilevato almeno un errore nell'applicazione del criterio IPsec locale dal Registro di sistema locale. Questo messaggio potrebbe anche indicare che il criterio è danneggiato o che le autorizzazioni sono errate.
   
--   **PAStore Engine non è riuscito ad applicare il criterio IPSec di archiviazione di Active Directory al computer per DN "*&lt;CN=CriterioIpsec{GUID}*"; codice di errore:** ***&lt;numero&gt;***. Il servizio IPsec ha trovato il criterio di dominio specificato dal DN nella chiave **GPTIPsecPolicy** del Registro di sistema, ma non è riuscito ad applicarlo. Questo messaggio è di tipo informativo e spesso segnala che il controller di dominio non è raggiungibile dai client mobili; deve essere seguito dalla corretta applicazione del criterio archiviato nella cache (se presente). Potrebbe tuttavia indicare che un oggetto GPO sta consegnando un criterio IPsec che non esiste, non può essere letto o è danneggiato.
+-   **PAStore Engine non è riuscito ad applicare il criterio IPSec di archiviazione di Active Directory al computer per DN "*&lt;CN=CriterioIpsec{GUID}*"; codice di errore:*&lt;numero&gt;***. Il servizio IPsec ha trovato il criterio di dominio specificato dal DN nella chiave **GPTIPsecPolicy** del Registro di sistema, ma non è riuscito ad applicarlo. Questo messaggio è di tipo informativo e spesso segnala che il controller di dominio non è raggiungibile dai client mobili; deve essere seguito dalla corretta applicazione del criterio archiviato nella cache (se presente). Potrebbe tuttavia indicare che un oggetto GPO sta consegnando un criterio IPsec che non esiste, non può essere letto o è danneggiato.
   
--   **PAStore Engine non è riuscito ad applicare una copia locale del criterio IPSec di archiviazione di Active Directory al computer per "*&lt;nome criterio&gt;"*; codice di errore:** ***&lt;numero&gt;***. Questo messaggio indica che il servizio IPsec è consapevole del fatto che è necessario assegnare un criterio di dominio e che non è stato possibile applicare il criterio recuperato da Active Directory. Il servizio IPsec ha quindi rilevato almeno un errore durante l'applicazione della copia locale in archivio del criterio di dominio assegnato. Questo messaggio potrebbe indicare che la cache è danneggiata o che le autorizzazioni sono errate. Si tratta di una condizione grave poiché non è stato possibile applicare alcun criterio basato sul dominio con conseguenti possibili problemi di connettività con altri membri del dominio di isolamento. Il criterio locale (se definito) avrà un ordine di precedenza inferiore.
+-   **PAStore Engine non è riuscito ad applicare una copia locale del criterio IPSec di archiviazione di Active Directory al computer per "*&lt;nome criterio&gt;"*; codice di errore:*&lt;numero&gt;***. Questo messaggio indica che il servizio IPsec è consapevole del fatto che è necessario assegnare un criterio di dominio e che non è stato possibile applicare il criterio recuperato da Active Directory. Il servizio IPsec ha quindi rilevato almeno un errore durante l'applicazione della copia locale in archivio del criterio di dominio assegnato. Questo messaggio potrebbe indicare che la cache è danneggiata o che le autorizzazioni sono errate. Si tratta di una condizione grave poiché non è stato possibile applicare alcun criterio basato sul dominio con conseguenti possibili problemi di connettività con altri membri del dominio di isolamento. Il criterio locale (se definito) avrà un ordine di precedenza inferiore.
   
 -   **PAStore Engine non è riuscito ad applicare alcune regole del criterio IPSec attivo "*&lt;nome criterio&gt;*" al computer; codice di errore:** ***&lt;numero&gt;*. Eseguire lo snap-in del monitor IPSec per meglio identificare il problema.** Questo problema solitamente si manifesta insieme ad altri problemi qui illustrati, ad esempio, se non sono disponibili metodi di protezione per la modalità rapida (offerte).
   
@@ -1641,19 +1647,19 @@ Se la negoziazione IKE viene completata, le SA della modalità principale IKE po
   
 -   Per Windows 2000:
   
-```
-ipsecmon.exe, netdiag /test:ipsec /v   
-```  
+    ```
+    ipsecmon.exe, netdiag /test:ipsec /v   
+    ```  
   
     **Nota**: questo comando visualizza soltanto le SA IPsec e non le SA IKE in modalità principale
   
 -   Per Windows XP:
 
-```  
-IPsec monitor snapin, ipseccmd show sas   
-```  
+    ```  
+    IPsec monitor snapin, ipseccmd show sas   
+    ```  
   
--   Per Windows Server 2003**:**
+-   Per Windows Server 2003 **:**
   
     **Nota:** la riga è stata suddivisa per facilitarne la lettura. Tuttavia, quando la si prova su un sistema, è necessario immettere il testo su una sola riga senza interruzioni.
   
