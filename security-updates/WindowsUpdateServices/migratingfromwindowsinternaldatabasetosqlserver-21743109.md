@@ -88,7 +88,6 @@ Use the following steps to migrate the WSUS database from a Windows Internal Dat
 
 13. Verify that the database migration was successful by opening the WSUS administrative console. (Click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0**.)
 
- 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="100%" />
@@ -105,7 +104,6 @@ Use the following steps to migrate the WSUS database from a Windows Internal Dat
     </tr>
     </tbody>
     </table>
- 
 
 ### Migrating the WSUS Database and Moving to a Remote SQL Server
 
@@ -193,7 +191,6 @@ Back end server starting configuration:
     </tbody>
     </table>
  
-
     For more information about the databases that you can use with WSUS, see the following:
     -   In this guide, see [Managing the Databases](https://technet.microsoft.com/d99cdd74-fbf4-4706-b2a2-a58728beef22).
     -   In [Deploying Microsoft Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=79983), see "Choose the Database Used for WSUS 3.0."
