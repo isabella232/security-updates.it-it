@@ -215,6 +215,7 @@ Un utente che ha l'esigenza di installare un'applicazione che richiede i privile
 ```
 runas /user:mydomain\admin "setup.exe"
 ```
+È possibile inoltre accedere a questa funzione direttamente da Esplora risorse di Microsoft effettuando le seguenti operazioni:
 
 È possibile inoltre accedere a questa funzione direttamente da Esplora risorse di Microsoft effettuando le seguenti operazioni:
 

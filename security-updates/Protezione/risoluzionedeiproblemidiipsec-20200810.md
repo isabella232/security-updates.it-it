@@ -1665,7 +1665,7 @@ Se la negoziazione IKE viene completata, le SA della modalità principale IKE po
   
 ```
 IPsec monitor snapin, netsh ipsec dynamic  
-show \[mmsas | qmsas\]  
+show \[mmsas | qmsas]  
 ```  
   
 Se il controllo è attivato, le SA completate in modalità principale e rapida genereranno i seguenti eventi nel file del Registro protezione.
