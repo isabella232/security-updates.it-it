@@ -224,47 +224,46 @@ L'elenco seguente illustra i parametri dello strumento Secedit.exe.
   
 -   **/areas** *&lt;Area1&gt;* *&lt;Area2&gt;*. Specifica le aree di protezione da applicare al sistema. Se il parametro non viene specificato, tutte le impostazioni di criterio di protezione definite nel database vengono applicate al sistema. Per configurare più aree, separarle tramite uno spazio. Nella tabella seguente vengono illustrate le aree di protezione supportate.
   
-    **Tabella 5.2 Aree di protezione**
+**Tabella 5.2 Aree di protezione**
 
- 
-    <table style="border:1px solid black;">
-    <colgroup>
-    <col width="50%" />
-    <col width="50%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th style="border:1px solid black;" >Nome dell'area</th>
-    <th style="border:1px solid black;" >Descrizione</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td style="border:1px solid black;">SECURITYPOLICY</td>
-    <td style="border:1px solid black;">Include Criteri account, Criteri controllo, Impostazioni del registro eventi e Opzioni di protezione.</td>
-    </tr>
-    <tr class="even">
-    <td style="border:1px solid black;">GROUP_MGMT</td>
-    <td style="border:1px solid black;">Include le impostazioni Gruppi con restrizioni.</td>
-    </tr>
-    <tr class="odd">
-    <td style="border:1px solid black;">USER_RIGHTS</td>
-    <td style="border:1px solid black;">Include le impostazioni di assegnazione dei diritti utente.</td>
-    </tr>
-    <tr class="even">
-    <td style="border:1px solid black;">REGKEYS</td>
-    <td style="border:1px solid black;">Include le autorizzazioni del Registro di sistema.</td>
-    </tr>
-    <tr class="odd">
-    <td style="border:1px solid black;">FILESTORE</td>
-    <td style="border:1px solid black;">Include le autorizzazioni del file system.</td>
-    </tr>
-    <tr class="even">
-    <td style="border:1px solid black;">SERVICES</td>
-    <td style="border:1px solid black;">Include le impostazioni dei servizi di sistema.</td>
-    </tr>
-    </tbody>
-    </table>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Nome dell'area</th>
+<th style="border:1px solid black;" >Descrizione</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">SECURITYPOLICY</td>
+<td style="border:1px solid black;">Include Criteri account, Criteri controllo, Impostazioni del registro eventi e Opzioni di protezione.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">GROUP_MGMT</td>
+<td style="border:1px solid black;">Include le impostazioni Gruppi con restrizioni.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">USER_RIGHTS</td>
+<td style="border:1px solid black;">Include le impostazioni di assegnazione dei diritti utente.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">REGKEYS</td>
+<td style="border:1px solid black;">Include le autorizzazioni del Registro di sistema.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">FILESTORE</td>
+<td style="border:1px solid black;">Include le autorizzazioni del file system.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">SERVICES</td>
+<td style="border:1px solid black;">Include le impostazioni dei servizi di sistema.</td>
+</tr>
+</tbody>
+</table>
   
 -   **/log** *&lt;NomeFile&gt;*. Specifica un file in cui registrare lo stato del processo di configurazione. Se non si specifica questo parametro, i dati di configurazione vengono registrati nel file scesrv.log che si trova nella directory **%windir%\\security\\logs**.
   

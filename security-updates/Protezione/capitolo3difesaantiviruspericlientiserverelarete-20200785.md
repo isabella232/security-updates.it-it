@@ -217,6 +217,9 @@ runas /user:mydomain\admin "setup.exe"
 ```
 È possibile inoltre accedere a questa funzione direttamente da Esplora risorse di Microsoft effettuando le seguenti operazioni:
 
+È possibile inoltre accedere a questa funzione direttamente da Esplora risorse di Microsoft effettuando le seguenti operazioni:
+
+
 **Per eseguire un programma con privilegi amministrativi**
 
 1.  In Esplora risorse selezionare il programma o lo strumento che si desidera aprire, ad esempio lo snap-in Microsoft Management Console (MMC) o il Pannello di controllo.
