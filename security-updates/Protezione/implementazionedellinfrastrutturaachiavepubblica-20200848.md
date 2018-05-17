@@ -671,11 +671,11 @@ Per motivi di sicurezza è necessario inoltre bloccare qualsiasi connettività i
 
 -   **Per visualizzare la configurazione del sistema corrente**
 
-    1.  Eseguire il comando:
+    1. Eseguire il comando:
 
         **systeminfo**
 
-    2.  Verificare i seguenti elementi dell'output del comando systeminfo (altri dettagli sono stati omessi per brevità):
+    2. Verificare i seguenti elementi dell'output del comando systeminfo (altri dettagli sono stati omessi per brevità):
         
         ```
           Host Name:  HQ-CA-02
@@ -705,10 +705,9 @@ Per motivi di sicurezza è necessario inoltre bloccare qualsiasi connettività i
                             DHCP Enabled:    No
                             IP address(es)
                             [01]: 10.1.1.11
-        ```
+        ```        
 
-
-    3.  Se queste impostazioni non corrispondono a quelle previste, è necessario riconfigurare il server utilizzando il Pannello di controllo o rieseguire l'installazione.
+    3. Se queste impostazioni non corrispondono a quelle previste, è necessario riconfigurare il server utilizzando il Pannello di controllo o rieseguire l'installazione.
 
 #### Installazione degli script di configurazione nei server
 
@@ -733,7 +732,6 @@ IIS è utilizzato per ospitare le pagine di registrazione del server dei certifi
 IIS viene installato con Gestione componenti facoltativi di Windows (accessibile dal Pannello di controllo, **Installazione componenti di Windows**). La tabella seguente illustra i componenti da installare. I rientri dei paragrafi riflettono la relazione tra i componenti così come sono visualizzati nella Gestione guidata dei componenti facoltativi. (**Enable network COM+ access** è ad esempio un sottocomponente del server delle applicazioni Microsoft.) I componenti che non vengono selezionati non sono inclusi nella tabella.
 
 **Tabella 5. Componenti facoltativi da installare**
-
  
 <table style="border:1px solid black;">
 <colgroup>
