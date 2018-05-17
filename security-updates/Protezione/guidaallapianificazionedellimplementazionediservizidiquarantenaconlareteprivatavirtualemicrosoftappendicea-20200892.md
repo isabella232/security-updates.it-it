@@ -83,23 +83,25 @@ Nella seguente sezione viene descritta la sintassi relativa a due componenti di 
   
 Per avviare il servizio Agente quarantena accesso remoto, digitare quanto segue dalla riga di comando:
   
-<codesnippet language displaylanguage containsmarkup="false">Net start rqs  
+```
+Net start rqs  
 ```  
 Per arrestare il servizio agente di quarantena per accesso remoto, digitare quanto segue dalla riga di comando:
   
-<codesnippet language displaylanguage containsmarkup="false">Net stop rqs  
+```
+Net stop rqs  
 ```  
 #### Sintassi dell'agente Client quarantena accesso remoto (RQC)
   
 RQC presenta la seguente sintassi:
   
-<codesnippet language displaylanguage containsmarkup="false">rqc ConnName TunnelConnName Port Domain UserName String  
+```
+rqc ConnName TunnelConnName Port Domain UserName String  
 ```  
 Nella seguente tabella vengono elencati i parametri dell'agente Client quarantena accesso remoto e la relativa descrizione.
   
 **Tabella A.2 Parametri agente RQC**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -145,7 +147,8 @@ Nella seguente tabella vengono elencati i parametri dell'agente Client quaranten
   
 Il codice riportato di seguito viene utilizzato con lo script CheckHotFixes.vbs per indirizzare l'utente al sito Microsoft® Windows® Update, in cui è possibile eseguire l'installazione degli aggiornamenti della protezione più recenti:
   
-<codesnippet language displaylanguage containsmarkup="false">Prog = """C:\\Programmi\\Internet Explorer\\iexplore.exe""" WUSite= " http://windowsupdate.microsoft.com" Set WshShell = CreateObject("Wscript.Shell") WshShell.Run(prog & WUsite),1,TRUE  
+```
+Prog = """C:\\Programmi\\Internet Explorer\\iexplore.exe""" WUSite= " http://windowsupdate.microsoft.com" Set WshShell = CreateObject("Wscript.Shell") WshShell.Run(prog & WUsite),1,TRUE  
 ```  
 ##### Download
   

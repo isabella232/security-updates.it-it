@@ -68,7 +68,6 @@ The WSUS 3.0 server can be configured to send e-mail notifications of new update
 
 7.  Enter the user name and password in the respective boxes.
 
- 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="100%" />
@@ -85,7 +84,6 @@ The WSUS 3.0 server can be configured to send e-mail notifications of new update
     </tr>
     </tbody>
     </table>
- 
 
 8.  Click **Apply** to save this information.
 
