@@ -13,16 +13,16 @@ Guida per la protezione di Windows Server 2003
 
 ##### In questa pagina
 
-[](#ekaa)[Panoramica](#ekaa)
-[](#ejaa)[Criteri di base per Windows Server 2003](#ejaa)
-[](#eiaa)[Criteri controllo](#eiaa)
-[](#ehaa)[Assegnazione dei diritti utente](#ehaa)
-[](#egaa)[Opzioni di protezione](#egaa)
-[](#efaa)[Registro eventi](#efaa)
-[](#eeaa)[Voci di registro aggiuntive](#eeaa)
-[](#edaa)[Gruppi con restrizioni](#edaa)
-[](#ecaa)[Protezione del File System](#ecaa)
-[](#ebaa)[Impostazioni di protezione aggiuntive](#ebaa)
+[](#ekaa)[Panoramica](#ekaa)  
+[](#ejaa)[Criteri di base per Windows Server 2003](#ejaa)  
+[](#eiaa)[Criteri controllo](#eiaa)  
+[](#ehaa)[Assegnazione dei diritti utente](#ehaa)  
+[](#egaa)[Opzioni di protezione](#egaa)  
+[](#efaa)[Registro eventi](#efaa)  
+[](#eeaa)[Voci di registro aggiuntive](#eeaa)  
+[](#edaa)[Gruppi con restrizioni](#edaa)  
+[](#ecaa)[Protezione del File System](#ecaa)  
+[](#ebaa)[Impostazioni di protezione aggiuntive](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Panoramica
@@ -497,7 +497,7 @@ Anche se i valori predefiniti per questa impostazione di criterio non sono modif
   
 La seguente tabella contiene importanti eventi di protezione che l'impostazione di questo criterio registra nel registro di protezione.
   
-**Tabella 4.5 Controlla eventi di accesso    **
+**Tabella 4.5 Controlla eventi di accesso**
 
  
 <table style="border:1px solid black;">
@@ -3831,14 +3831,20 @@ library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx](http://technet.m
 Dopo aver verificato a fondo il criterio, completare le seguenti fasi, per trasformarlo in un GPO e utilizzarlo:
   
 1.  Al prompt dei comandi digitare il seguente comando:
+
+    ```
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
+    scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+
+    ```
   
     e premere INVIO. Ad esempio:
+
+    ```
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Member Server Baseline.xml" /g:"Member Server Baseline Policy"  
-```
+    scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Member 
+    Server Baseline.xml" /g:"Member Server Baseline Policy"
+    ```
   
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   
