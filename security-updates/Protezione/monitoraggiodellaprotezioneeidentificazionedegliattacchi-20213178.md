@@ -1,4 +1,4 @@
---
+---
 TOCTitle: Monitoraggio della protezione e identificazione degli attacchi
 Title: Monitoraggio della protezione e identificazione degli attacchi
 ms:assetid: 'a30af90e-ce18-47fc-a947-11f332ee4731'
@@ -11,12 +11,12 @@ Monitoraggio della protezione e identificazione degli attacchi
 
 ##### In questa pagina
 
-[](#egaa)[Introduzione](#egaa)
-[](#efaa)[Definizione](#efaa)
-[](#eeaa)[Le sfide per le aziende di medie dimensioni](#eeaa)
-[](#edaa)[Soluzioni](#edaa)
-[](#ecaa)[Riepilogo](#ecaa)
-[](#ebaa)[Appendice A: Esclusione degli eventi non necessari](#ebaa)
+[](#egaa)[Introduzione](#egaa)  
+[](#efaa)[Definizione](#efaa)  
+[](#eeaa)[Le sfide per le aziende di medie dimensioni](#eeaa)  
+[](#edaa)[Soluzioni](#edaa)  
+[](#ecaa)[Riepilogo](#ecaa)  
+[](#ebaa)[Appendice A: Esclusione degli eventi non necessari](#ebaa)  
 [](#eaaa)[Appendice B: Implementazione delle impostazioni di Criteri di gruppo](#eaaa)
 
 ### Introduzione
