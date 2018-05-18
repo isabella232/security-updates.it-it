@@ -13,10 +13,10 @@ Guida per la protezione di Windows Server 2003
 
 ##### In questa pagina
 
-[](#eeaa)[Panoramica](#eeaa)
-[](#edaa)[Aumento della protezione con la Configurazione guidata impostazioni di sicurezza](#edaa)
-[](#ecaa)[Aumento della protezione dei server con i criteri di gruppo Active Directory](#ecaa)
-[](#ebaa)[Panoramica del processo](#ebaa)
+[](#eeaa)[Panoramica](#eeaa)  
+[](#edaa)[Aumento della protezione con la Configurazione guidata impostazioni di sicurezza](#edaa)  
+[](#ecaa)[Aumento della protezione dei server con i criteri di gruppo Active Directory](#ecaa)  
+[](#ebaa)[Panoramica del processo](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Panoramica
@@ -326,7 +326,6 @@ en-us/deploy/dgbd\_ads\_heqs.asp?frame=true.
 La seguente tabella elenca i ruoli di server di Windows Server 2003 e i corrispondenti file di modello descritti in questa guida. I nomi di file del modello di protezione hanno come prefisso la variabile *&lt;Env&gt;*, che, a seconda dei casi, sarà sostituita da LC (per Legacy Client), EC (per Enterprise Client) o SSLF (per Specialized Security – Limited Functionality).
 
 **Tabella 2.1. Ruoli di server per Windows Server 2003**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -410,7 +409,6 @@ Nella seguente figura si illustra un esempio della progettazione OU finale in gr
 Le OU e i criteri consigliati discussi nella sezione precedente creano una linea di base o un nuovo ambiente per ristrutturare la struttura OU già presente nell'organizzazione per i computer con Windows Server 2003. Gli amministratori utilizzano i propri limiti di amministrazione predefiniti per creare i rispettivi gruppi amministrativi. La correlazione di questi gruppi con le unità organizzative che gestiscono è illustrata nella seguente tabella.
   
 **Tabella 2.2. OU e Gruppi amministrativi**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -519,14 +517,14 @@ La seguente procedura consente di sincronizzare con un'origine ora esterna. i co
   
 1.  Sul controller di dominio con l'FSMO dell'emulatore PDC, aprire un prompt dei comandi ed eseguire il seguente comando, dove *&lt;PeerList&gt;* è un elenco di nomi DNS o di indirizzi IP separati da virgola per le origini dell'ora desiderate:
   
-    <codesnippet language displaylanguage containsmarkup="false">w32tm /config /syncfromflags:manual /manualpeerlist:&lt;PeerList&gt;  
-```
-  
+    ```
+    w32tm /config /syncfromflags:manual /manualpeerlist:&lt;PeerList&gt;  
+    ```  
 2.  Per aggiornare la configurazione, eseguire il seguente comando:
   
-    <codesnippet language displaylanguage containsmarkup="false">w32tm /config /update  
-```
-  
+    ```
+    w32tm /config /update  
+    ```  
 3.  Controllare il registro eventi. Se il computer non è in grado di raggiungere i server, la procedura non ha esito positivo e viene inserita una voce nel registro eventi.
   
 In genere, la procedura descritta viene utilizzata per sincronizzare l'origine ora autorevole della rete interna con un'origine ora esterna molto precisa. Può essere però eseguita su qualsiasi computer che abbia come sistema operativo Windows XP o un membro della famiglia Windows Server 2003. In molti casi, può non essere necessario che l'ora di tutti i server sia sincronizzata con un'origine esterna, purché però sia sincronizzata con la stessa origine interna. Per impostazione predefinita, i computer membri sincronizzano sempre i loro orologi con i controller di dominio.
@@ -680,13 +678,15 @@ Dopo aver verificato a fondo i criteri di base, completare le seguenti fasi per 
   
 1.  Al prompt dei comandi digitare quanto segue:
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
-  
+    ```
+    scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
+    ```  
     e premere INVIO. Ad esempio:
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Infrastructure.xml" /g:"Infrastructure Policy"  
-```
+    ```
+    scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Infrastructure.xml" 
+    /g:"Infrastructure Policy"
+    ```
   
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   
@@ -752,14 +752,15 @@ Dopo aver verificato a fondo i criteri per il ruolo, completare le seguenti fasi
   
 1.  Al prompt dei comandi digitare quanto segue:
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
-  
+    ```
+    scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
+    ```  
     e premere INVIO. Ad esempio:
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Infrastructure.xml" /g:"Infrastructure Policy"  
-```
-  
+    ```
+    scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Infrastructure.xml" 
+    /g:"Infrastructure Policy"  
+    ```  
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   
 2.  Utilizzare la Console di gestione criteri di gruppo per collegare il GPO appena creato all'OU appropriata e assicurarsi di spostarlo sopra al criterio dei controller di dominio predefiniti in modo che riceva la massima priorità.
