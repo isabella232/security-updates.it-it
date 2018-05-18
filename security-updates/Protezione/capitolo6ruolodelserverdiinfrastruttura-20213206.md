@@ -13,13 +13,13 @@ Guida per la protezione di Windows Server 2003
 
 ##### In questa pagina
 
-[](#ehaa)[Panoramica](#ehaa)
-[](#egaa)[Impostazioni del Criterio Controllo](#egaa)
-[](#efaa)[Impostazioni di Assegnazione diritti utente](#efaa)
-[](#eeaa)[Opzioni di protezione](#eeaa)
-[](#edaa)[Impostazioni del Registro eventi](#edaa)
-[](#ecaa)[Impostazioni di protezione aggiuntive](#ecaa)
-[](#ebaa)[Creazione del criterio utilizzando SCW](#ebaa)
+[](#ehaa)[Panoramica](#ehaa)  
+[](#egaa)[Impostazioni del Criterio Controllo](#egaa)  
+[](#efaa)[Impostazioni di Assegnazione diritti utente](#efaa)  
+[](#eeaa)[Opzioni di protezione](#eeaa)  
+[](#edaa)[Impostazioni del Registro eventi](#edaa)  
+[](#ecaa)[Impostazioni di protezione aggiuntive](#ecaa)  
+[](#ebaa)[Creazione del criterio utilizzando SCW](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Panoramica
@@ -213,14 +213,20 @@ library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* * e la guida [S
 Dopo aver verificato a fondo il criterio, completare le seguenti fasi, per trasformarlo in un GPO e utilizzarlo:
   
 1.  Al prompt dei comandi digitare il seguente comando:
+
+    ```
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
+    scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+
+    ```
   
     e premere INVIO. Ad esempio:
+
+    ```
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Infrastructure.xml" /g:"Infrastructure Policy"  
-```
+    scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Infrastructure.xml"
+    /g:"Infrastructure Policy" 
+    ```
   
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   
