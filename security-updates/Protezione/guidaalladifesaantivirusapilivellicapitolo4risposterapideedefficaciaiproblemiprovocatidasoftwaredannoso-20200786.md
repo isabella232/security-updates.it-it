@@ -15,13 +15,13 @@ Pubblicato: 20 maggio 2004
 
 ##### In questa pagina
 
-[](#egaa)[Introduzione](#egaa)
-[](#efaa)[Passaggio 1: Conferma dell'infezione](#efaa)
-[](#eeaa)[Passaggio 2: Risposta ai problemi](#eeaa)
-[](#edaa)[Passaggio 3: Analisi del software dannoso](#edaa)
-[](#ecaa)[Passaggio 4: Ripristino del sistema](#ecaa)
-[](#ebaa)[Passaggio 5: Passaggi post ripristino](#ebaa)
-[](#eaaa)[Riepilogo](#eaaa)
+[](#egaa)[Introduzione](#egaa)  
+[](#efaa)[Passaggio 1: Conferma dell'infezione](#efaa)  
+[](#eeaa)[Passaggio 2: Risposta ai problemi](#eeaa)  
+[](#edaa)[Passaggio 3: Analisi del software dannoso](#edaa)  
+[](#ecaa)[Passaggio 4: Ripristino del sistema](#ecaa)  
+[](#ebaa)[Passaggio 5: Passaggi post ripristino](#ebaa)  
+[](#eaaa)[Riepilogo](#eaaa)  
 
 ### Introduzione
 
@@ -320,7 +320,6 @@ Nella seguente figura sono indicati i dettagli relativi al processo attivo del w
 ```
 tasklist /v >TaskList.txt
 ```
-
 Mediante la riga di comando indicata verrà creato il file **TaskList.txt** nella directory di lavoro corrente.
 
 Quando si ha il sospetto che sul sistema venga eseguito software dannoso, è consigliabile controllare i processi facendo riferimento ai seguenti suggerimenti:
@@ -445,10 +444,18 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
 
 Un'altra area presa recentemente in considerazione come obiettivo è la chiave seguente:
 
+```
+HKEY_CLASSES_ROOT\CLSID\{E6FB5E20-DE35-11CF-9C87-00AA005127ED}\InProcServer32
+```
+
 Questa chiave controlla i file dll caricati da Microsoft Internet Explorer (**Explorer.exe**). Il worm Mydoom e le relative varianti, ad esempio, determinano l'aggiunta di una voce nella chiave che consente di caricare file dll in grado di provocare una vulnerabilità e un attacco di backdoor.
 
 Il worm W32.Netsky.D@mm determina l'eliminazione sia della chiave sopra indicata che delle chiavi seguenti:
 
+```
+    HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\PINF 
+            HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WksPatch
+```
 ##### Verifica della presenza di software dannoso e file danneggiati
 
 Poiché la maggior parte del software dannoso comporta la modifica di uno più file presenti sul disco rigido del computer, il processo per l'identificazione di tali file potrebbe rivelarsi davvero difficile. Se il sistema è stato creato da un'immagine, è possibile confrontare il sistema infetto direttamente con il nuovo sistema creato dall'immagine.
@@ -754,7 +761,6 @@ La ricostruzione di un sistema richiede anche la reinstallazione di tutte le app
 Per scegliere l'opzione più adatta per il proprio sistema, è sufficiente individuare la soluzione che si ritiene più affidabile per eliminare l'infezione e neutralizzare l'attacco in modo definitivo. Il tempo richiesto per la riparazione deve essere considerato come un aspetto secondario rispetto all'integrità e alla stabilità del sistema.
   
 **Tabella 4.3: Vantaggi e svantaggi relativi alla pulitura e alla ricostruzione del sistema**
-
  
 <table style="border:1px solid black;">
 <colgroup>

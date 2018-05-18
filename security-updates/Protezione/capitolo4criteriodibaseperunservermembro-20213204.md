@@ -13,16 +13,16 @@ Guida per la protezione di Windows Server 2003
 
 ##### In questa pagina
 
-[](#ekaa)[Panoramica](#ekaa)
-[](#ejaa)[Criteri di base per Windows Server 2003](#ejaa)
-[](#eiaa)[Criteri controllo](#eiaa)
-[](#ehaa)[Assegnazione dei diritti utente](#ehaa)
-[](#egaa)[Opzioni di protezione](#egaa)
-[](#efaa)[Registro eventi](#efaa)
-[](#eeaa)[Voci di registro aggiuntive](#eeaa)
-[](#edaa)[Gruppi con restrizioni](#edaa)
-[](#ecaa)[Protezione del File System](#ecaa)
-[](#ebaa)[Impostazioni di protezione aggiuntive](#ebaa)
+[](#ekaa)[Panoramica](#ekaa)  
+[](#ejaa)[Criteri di base per Windows Server 2003](#ejaa)  
+[](#eiaa)[Criteri controllo](#eiaa)  
+[](#ehaa)[Assegnazione dei diritti utente](#ehaa)  
+[](#egaa)[Opzioni di protezione](#egaa)  
+[](#efaa)[Registro eventi](#efaa)  
+[](#eeaa)[Voci di registro aggiuntive](#eeaa)  
+[](#edaa)[Gruppi con restrizioni](#edaa)  
+[](#ecaa)[Protezione del File System](#ecaa)  
+[](#ebaa)[Impostazioni di protezione aggiuntive](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Panoramica
@@ -80,7 +80,6 @@ Le procedure per migliorare la protezione di ruoli server specifici sono definit
 Molte delle impostazioni che compaiono nei criteri MSBP dell'ambiente Client di organizzazione descritto di seguito sono valide anche per questi ruoli di server nei tre ambienti definiti in questa guida. I modelli di protezione sono stati progettati specificatamente per rispondere alle esigenze di protezione dei singoli ambienti. La tabella seguente mostra i nomi dei modelli di protezione di base per i tre ambienti.
 
 **Tabella 4.1 Modelli di protezione di base per i tre ambienti**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -142,7 +141,6 @@ Nella tabella seguente sono inclusi i consigli per l'impostazione dei criteri di
 Per un riepilogo delle impostazioni richieste illustrate in questa sezione, vedere la cartella di lavoro di Microsoft Excel con le impostazioni della "Windows Server 2003 Security Guide Settings" allegata alla versione scaricabile di questa guida. Per ulteriori informazioni sulle impostazioni predefinite e una spiegazione dettagliata per ogni impostazione trattata nella presente sezione, fare riferimento alla guida correlata, [*Pericoli e contromisure: Impostazioni di protezione in Windows Server 2003 e Windows XP*](http://technet.microsoft.com/it-it/library/dd162275), disponibile all'indirizzo <http://technet.microsoft.com/it-it/library/dd162275>.
   
 **Tabella 4.2 Impostazioni del Criterio Controllo**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -220,7 +218,6 @@ L'impostazione **Controlla eventi accesso account** è configurata in modo da re
 La seguente tabella contiene importanti eventi di protezione che l'impostazione di questo criterio registra nel registro di protezione. Questi ID di evento possono essere utili quando si desidera creare avvisi personalizzati per controllare qualunque suite di software, come Microsoft Operations Manager (MOM).
   
 **Tabella 4.3 Eventi di accesso account**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -296,7 +293,6 @@ L'impostazione **Controlla gestione degli account** è configurata in modo da re
 La seguente tabella contiene importanti eventi di protezione che l'impostazione di questo criterio registra nel registro di protezione. Questi ID di evento possono essere utili quando si desidera creare avvisi personalizzati per controllare qualunque suite di software, come Microsoft Operations Manager (MOM). La maggior parte dei software di gestione dei processi operativi può essere personalizzata con script che catturino o contrassegnino gli eventi basati su tali ID evento.
   
 **Tabella 4.4 Eventi di gestione degli account**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -497,8 +493,7 @@ Anche se i valori predefiniti per questa impostazione di criterio non sono modif
   
 La seguente tabella contiene importanti eventi di protezione che l'impostazione di questo criterio registra nel registro di protezione.
   
-**Tabella 4.5 Controlla eventi di accesso    **
-
+**Tabella 4.5 Controlla eventi di accesso**
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -625,7 +620,6 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 </tr>
 </tbody>
 </table>
- 
 
 #### Controlla accesso agli oggetti
 
@@ -649,7 +643,6 @@ La seguente tabella contiene importanti eventi di protezione che l'impostazione 
 
 **Tabella 4.6 Eventi di accesso oggetti**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -845,7 +838,6 @@ L'impostazione **Modifica del criterio di controllo** è configurata per registr
 La seguente tabella contiene importanti eventi di protezione che l'impostazione di questo criterio registra nel registro di protezione.
   
 **Tabella 4.7 Eventi di modifica del criterio di controllo**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -977,7 +969,6 @@ L'impostazione **Controlla uso dei privilegi** è configurata per impostazione p
 La seguente tabella contiene importanti eventi di protezione che l'impostazione di questo criterio registra nel registro di protezione.
   
 **Tabella 4.8 Eventi di uso dei privilegi.**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1016,7 +1007,6 @@ L'impostazione **Controlla tracciato processo** genererà un grande numero di ev
 La seguente tabella contiene importanti eventi di protezione che l'impostazione di questo criterio registra nel registro di protezione.
   
 **Tabella 4.9 Eventi di tracciato processo**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1085,7 +1075,6 @@ Consente di controllare i riavvii o gli arresti di un computer da parte di un ut
 La tabella seguente elenca gli eventi eseguiti con successo più utili per questa impostazione.
   
 **Tabella 4.10 Messaggi eventi di sistema per Controlla eventi di sistema**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1137,8 +1126,7 @@ La tabella seguente elenca gli eventi eseguiti con successo più utili per quest
 <strong>Nota</strong>: questo controllo è normalmente visualizzato due volte.</td>
 </tr>
 </tbody>
-</table>
- 
+</table> 
 
 [](#mainsection)[Inizio pagina](#mainsection)
 
@@ -1180,7 +1168,6 @@ Questa sezione fornisce dettagli sulle impostazioni suggerite per l'assegnazione
 Nella tabella seguente sono inclusi i consigli per l'assegnazione dei diritti utente per i tre tipi di ambiente definiti in questa guida. Nelle sottosezioni che seguono la tabella sono disponibili ulteriori informazioni su ciascuna impostazione.
 
 **Tabella 4.11 Suggerimenti sulle impostazioni di assegnazione dei diritti utente**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1688,7 +1675,6 @@ Le tabelle in ciascuna delle seguenti sezioni riassumono le impostazioni consigl
 #### Impostazioni di account
   
 **Tabella 4.12 Opzioni di protezione: suggerimenti per le impostazioni degli account**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1748,7 +1734,6 @@ L'impostazione **Account: limitare l'uso locale di account con password vuote al
 #### Impostazioni di controllo
   
 **Tabella 4.13 Opzioni di protezione: suggerimenti per le impostazioni dei criteri di controllo**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1812,7 +1797,6 @@ Il sovraccarico amministrativo richiesto per attivare l'impostazione **Controllo
 #### Impostazioni delle periferiche
   
 **Tabella 4.14 Opzioni di protezione: suggerimenti per l'impostazione delle periferiche**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1908,7 +1892,6 @@ L'impostazione **Periferiche: funzionamento installazione driver privo di firma 
 #### Impostazioni dei membri di dominio
   
 **Tabella 4.15 Opzioni di protezione: suggerimenti di impostazione dei membri di dominio**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2008,7 +1991,6 @@ Pertanto, dal momento che i tre ambienti di protezione descritti in questa guida
 #### Impostazioni di accesso interattivo
   
 **Tabella 4.16 Opzioni di protezione: suggerimenti per l'impostazione di accesso interattivo**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2160,7 +2142,6 @@ L'impostazione **Accesso interattivo: funzionamento rimozione Smart card** è co
 #### Impostazioni dei client di rete Microsoft
   
 **Tabella 4.17 Opzioni di Protezione: suggerimenti per le impostazioni dei client di rete Microsoft**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2220,7 +2201,6 @@ L'impostazione **Client di rete Microsoft: invia password non crittografata per 
 #### Impostazioni dei server di rete Microsoft
   
 **Tabella 4.18 Opzioni di Protezione: suggerimenti per le impostazioni dei server di rete Microsoft**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2292,7 +2272,6 @@ L'impostazione **Server di rete Microsoft: interrompe la connessione dei client 
 #### Impostazioni di accesso alla rete
   
 **Tabella 4.19 Opzioni di protezione: suggerimenti per le impostazioni di accesso alla rete**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2532,7 +2511,6 @@ L'impostazione **Accesso di rete: modello di condivisione e protezione per gli a
 #### Impostazioni di protezione di rete
   
 **Tabella 4.20 Opzioni di protezione: suggerimenti per le impostazioni di protezione di rete**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2596,7 +2574,6 @@ Per questa ragione, l'impostazione **Protezione di rete: non memorizzare il valo
 Questo criterio determina quale protocollo di autenticazione Challenge/Response viene utilizzato per l'accesso alla rete. Questa scelta interessa il livello del protocollo di autenticazione utilizzato dai computer client, il livello di protezione negoziato, ed il livello di autenticazione accettato dai server come segue. I numeri nella seguente tabella sono le impostazioni del valore di registro **LMCompatibilityLevel**.
   
 **Tabella 4.21 Impostazioni di valore del registro MCompatibilityLevel**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2668,7 +2645,6 @@ L'impostazione **Protezione di rete: protezione sessione minima per server basat
 #### Impostazioni della Console di ripristino di emergenza
   
 **Tabella 4.22 Opzioni di protezione: suggerimenti di impostazione della Console di ripristino di emergenza**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2724,7 +2700,6 @@ Per la massima protezione, l'impostazione **Console di ripristino di emergenza: 
 #### Impostazioni di arresto
   
 **Tabella 4.23 Opzioni di protezione: suggerimenti per le impostazioni di arresto**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2774,7 +2749,6 @@ Per queste ragioni, l'impostazione **Arresto del sistema: cancella il file di pa
 #### Impostazioni della crittografia di sistema
   
 **Tabella 4.24 Opzioni di Protezione: suggerimenti per le impostazioni della crittografia di sistema**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2822,7 +2796,6 @@ Per queste ragioni, l'impostazione **Crittografia di sistema: utilizza algoritmi
 #### Impostazioni degli oggetti di sistema
   
 **Tabella 4.24 Opzioni di protezione: suggerimenti per le impostazioni degli oggetti di sistema**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2882,7 +2855,6 @@ L'impostazione **Oggetti di sistema: potenzia le autorizzazioni predefinite degl
 #### Impostazioni di sistema
   
 **Tabella 4.26 Opzioni di Protezione: suggerimenti per le impostazioni del sistema**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2942,7 +2914,6 @@ Questa sezione fornisce dettagli sulle impostazioni suggerite per le impostazion
 La tabella seguente riassume i consigli per l'impostazione del registro eventi per i tre tipi di ambienti definiti in questa guida. Nelle sottosezioni che seguono la tabella sono disponibili ulteriori informazioni su ciascuna impostazione.
   
 **Tabella 4.27 Suggerimenti per le impostazioni del Registro eventi**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -3097,12 +3068,9 @@ Per prevenirli, è necessario mantenere aggiornato il computer con le correzioni
   
 È possibile aggiungere i valori del registro di sistema nella seguente tabella nel file modello della sottochiave
   
-**HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\**
-  
-.
+**HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\**.
   
 **Tabella 4.28 Suggerimenti per le voci del Registro TCP/IP**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -3186,7 +3154,6 @@ Per prevenirli, è necessario mantenere aggiornato il computer con le correzioni
 La tabella seguente elenca altre voci di registro consigliate, non specifiche per TCP/IP. Nelle sottosezioni che seguono la tabella sono disponibili ulteriori informazioni su ciascuna voce.
   
 **Tabella 4.29 Altri suggerimenti per le voci di registro**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -3345,9 +3312,7 @@ Questa opzione è disponibile a partire da Windows 2000 SP3. Genera un controllo
   
 È possibile aggiungere questo valore di registro al file di modello di protezione nella sottochiave
   
-**HKEY\_LOCAL\_MACHINE\\ SYSTEM\\CurrentControlSet\\Services\\Eventlog\\Security\\**
-  
-.
+**HKEY\_LOCAL\_MACHINE\\ SYSTEM\\CurrentControlSet\\Services\\Eventlog\\Security\\**.
   
 ##### Abilitazione dell'ordine di ricerca Safe DLL: abilita l'ordine di ricerca Safe DLL: (consigliato)
   
@@ -3363,9 +3328,7 @@ Il valore del Registro di sistema è impostato su 1. Se l’impostazione è 1, i
   
 È possibile aggiungere questo valore di registro al file di modello nella sottochiave
   
-**HKEY\_LOCAL\_MACHINE\\ SYSTEM\\CurrentControlSet\\Control\\Session Manager\\**
-  
-.
+**HKEY\_LOCAL\_MACHINE\\ SYSTEM\\CurrentControlSet\\Control\\Session Manager\\**.
   
 ##### Riavvio automatico: consente il riavvio automatico di Windows dopo un blocco del sistema.
   
@@ -3409,9 +3372,7 @@ Questa voce appare come **MSS: (DisableSavePassword) Impedisce il salvataggio de
 È possibile aggiungere questo valore di registro al file di modello nella sottochiave
   
 **HKEY\_LOCAL\_MACHINE\\System\\CurrentControlSet\\Services\\LanmanServer\\**  
-**Parameters\\**
-  
-.
+**Parameters\\**.
   
 ##### Abilita IPSec per proteggere il Traffico RSVP Kerberos: abilita NoDefaultExempt per i filtri IPSec
   
@@ -3541,7 +3502,6 @@ Inoltre, l’account Administrator predefinito potrebbe essere stato modificato 
   
 **Tabella 4.30 Assegnazioni diritti utente aggiunte manualmente**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -3658,7 +3618,6 @@ L'impostazione **Imposta livello di crittografia connessione client** determina 
 **Servizi terminal \\Crittografia e protezione**
   
 **Tabella 4.31 Suggerimenti per l'impostazione del livello di crittografia connessione client**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -3688,7 +3647,6 @@ L'impostazione **Imposta livello di crittografia connessione client** determina 
 I tre livelli di crittografia disponibili sono descritti nella tabella seguente:
   
 **Tabella 4.32 Livelli di crittografia di Servizi terminal**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -3716,13 +3674,11 @@ I tre livelli di crittografia disponibili sono descritti nella tabella seguente:
 <strong>Importante</strong>: i dati inviati dal server al client non sono crittografati.</td>
 </tr>
 </tbody>
-</table>
- 
+</table> 
 
 #### Segnalazione errori
 
 **Tabella 4.33 Impostazioni di segnalazione errori consigliate**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -3810,7 +3766,7 @@ Per iniziare il lavoro di configurazione, in modo da garantire che non vi siano 
 15. Allegare il modello di protezione idoneo (ad esempio EC-Member Server Baseline.inf).
   
 16. Salvare il criterio con un nome idoneo (ad esempio, Member Server Baseline.xml).
-  
+
 #### Verificare il criterio utilizzando SCW
   
 Dopo aver creato e salvato il criterio, Microsoft consiglia di usarlo per verificare l'ambiente di prova. Idealmente, i server di prova avranno la medesima configurazione di hardware e software dei server di produzione. Questo approccio consentirà di trovare e riparare potenziali problemi, come la presenza di servizi imprevisti richiesti da specifiche periferiche hardware.
@@ -3832,14 +3788,15 @@ Dopo aver verificato a fondo il criterio, completare le seguenti fasi, per trasf
   
 1.  Al prompt dei comandi digitare il seguente comando:
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
-  
+    ```
+    scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>  
+    ```  
     e premere INVIO. Ad esempio:
-  
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Member Server Baseline.xml" /g:"Member Server Baseline Policy"  
-```
-  
+
+    ```
+    scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Member 
+    Server Baseline.xml" /g:"Member Server Baseline Policy"  
+    ```  
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   
 2.  Utilizzare la Console di gestione Criteri di gruppo per collegare il GPO appena creato all'unità operativa adeguata.

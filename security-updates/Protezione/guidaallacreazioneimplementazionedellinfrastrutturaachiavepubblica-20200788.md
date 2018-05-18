@@ -737,13 +737,13 @@ Per motivi di sicurezza, è necessario inoltre bloccare qualsiasi connettività 
 
     \[01\]:    Modello\_e\_fornitore\_della\_scheda\_di\_rete
 
-        Nome connessione: Connessione alla rete locale
+    Nome connessione: Connessione alla rete locale
 
-        DHCP abilitato:    No
+    DHCP abilitato:    No
 
-        Indirizzi IP
+    Indirizzi IP
 
-        \[01\]: 10.1.1.11
+    \[01\]: 10.1.1.11
 
 3.  Se queste impostazioni non corrispondono a quelle previste, è necessario riconfigurare il server attraverso il Pannello di controllo oppure eseguire nuovamente l'installazione.
 
@@ -1795,7 +1795,7 @@ La procedura che segue indica come è possibile creare le UO e i GPO per la prop
   
     Server membri
   
-         CA
+    CA
   
 5.  Aprire le proprietà del contenitore di dominio, nella scheda **Criterio gruppo** fare clic su **Nuovo** per creare un nuovo GPO e denominarlo **Criteri dominio.**
   
