@@ -13,20 +13,20 @@ Costruire una rete wireless locale sicura con Windows Server 2003 Certificate Se
 
 ##### In questa pagina
 
-[](#eoaa)[Argomenti del modulo](#eoaa)
-[](#enaa)[Obiettivi](#enaa)
-[](#emaa)[Ambito di applicazione](#emaa)
-[](#elaa)[Utilizzo del modulo](#elaa)
-[](#ekaa)[Panoramica](#ekaa)
-[](#ejaa)[Specifiche di pianificazione di Servizi certificati](#ejaa)
-[](#eiaa)[Creazione dei server](#eiaa)
-[](#ehaa)[Preparazione di Active Directory per l'infrastruttura PKI](#ehaa)
-[](#egaa)[Protezione di Windows Server 2003 per Servizi certificati](#egaa)
-[](#efaa)[Altre attività di configurazione di Windows](#efaa)
-[](#eeaa)[Installazione e configurazione della CA principale](#eeaa)
-[](#edaa)[Installazione e configurazione della CA di emissione](#edaa)
-[](#ecaa)[Configurazione post-creazione](#ecaa)
-[](#ebaa)[Configurazione dei client](#ebaa)
+[](#eoaa)[Argomenti del modulo](#eoaa)  
+[](#enaa)[Obiettivi](#enaa)  
+[](#emaa)[Ambito di applicazione](#emaa)  
+[](#elaa)[Utilizzo del modulo](#elaa)  
+[](#ekaa)[Panoramica](#ekaa)  
+[](#ejaa)[Specifiche di pianificazione di Servizi certificati](#ejaa)  
+[](#eiaa)[Creazione dei server](#eiaa)  
+[](#ehaa)[Preparazione di Active Directory per l'infrastruttura PKI](#ehaa)  
+[](#egaa)[Protezione di Windows Server 2003 per Servizi certificati](#egaa)  
+[](#efaa)[Altre attività di configurazione di Windows](#efaa)  
+[](#eeaa)[Installazione e configurazione della CA principale](#eeaa)  
+[](#edaa)[Installazione e configurazione della CA di emissione](#edaa)  
+[](#ecaa)[Configurazione post-creazione](#ecaa)  
+[](#ebaa)[Configurazione dei client](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Argomenti del modulo
@@ -85,7 +85,7 @@ La Figura 1 illustra in modo dettagliato il processo di creazione dell'infrastru
 
 ![](images/Dd536249.SGFG16101(it-it,TechNet.10).jpg "Diagramma del processo di creazione dell'infrastruttura PKI")
 
-**Figura 1**
+**Figura 1**  
 *Diagramma del processo di creazione dell'infrastruttura PKI*
 
 Nell'elenco seguente vengono descritte dettagliatamente le sezioni principali del modulo. Dopo ciascun passaggio di installazione o di configurazione significativo, viene incluso un passaggio di verifica che consente di controllare se le operazioni sono state eseguite correttamente prima di continuare con il passaggio successivo.
@@ -600,6 +600,31 @@ La CA principale non è mai connessa alla rete. È necessario disattivare qualsi
         **systeminfo**
 
     2.  Verificare i seguenti elementi dell'output del comando systeminfo; altri dettagli sono stati omessi per brevità e sono indicati da " " (puntini sospensivi):
+
+        ```
+        Host Name:	HQ-CA-01
+        OS Name:	Microsoft® Windows® Server 2003, Standard Edition
+        ...
+        OS Configuration:	Standalone Server
+
+        Registered Owner:	NomeProprietario
+        Registered Organization:	NomeOrganizzazione
+        ...
+        Windows Directory:	C:\WINDOWS
+        System Directory:	C:\WINDOWS\System32
+        Boot Device:	\Device\HarddiskVolume1
+        System Locale:	ImpostazioniInternazionali
+        Input Locale:	ImpostazioneInternazionaleInput
+        Time Zone:	FusoOrario
+        ...
+        Domain:	WGB-Root
+        Logon Server:	\\HQ-CA-01
+        Hotfix(s):	X Hotfix(s) Installed.
+                                    [01]: Qxxxxxx
+        ...
+                                    [nn]: Qnnnnnn
+        NetWork Card(s):	N/A
+
         ```
 
     3.  Se queste impostazioni non corrispondono a quelle previste, sarà necessario riconfigurare il server utilizzando il Pannello di controllo oppure rieseguire l'installazione.
@@ -652,6 +677,38 @@ Per motivi di sicurezza è necessario inoltre bloccare qualsiasi connettività i
         **systeminfo**
 
     2.  Verificare i seguenti elementi dell'output del comando systeminfo (altri dettagli sono stati omessi per brevità):
+
+        ```
+
+        Host Name:  HQ-CA-02
+        OS Name:    Microsoft® Windows® Server 2003, Enterprise Edition
+        ...
+        OS Configuration:          Member Server
+            
+        Registered Owner:          NomeProprietario
+        Registered Organization:   NomeOrganizzazione
+        ...
+        Windows Directory:         C:\WINDOWS
+        System Directory:          C:\WINDOWS\System32
+        Boot Device:               \Device\HarddiskVolume1
+        System Locale:             ImpostazioniInternazionali
+        Input Locale:              ImpostazioneInternazionaleInput
+        Time Zone:                 FusoOrario
+        ...
+        Domain:                    woodgrovebank.com
+        Logon Server:              \\DomainControllerName
+        Hotfix(s):                 X Hotfix(s) Installed.
+                                [01]: Qxxxxxx
+        ...
+                                [nn]: Qnnnnnn
+        NetWork Card(s):           1 NIC(s) Installed.
+        [01]:                      ModelloEFornitoreSchedaDiRete 
+                                Connection Name: Local Area Connection
+                                DHCP Enabled:    No
+                                IP address(es)
+                                [01]: 10.1.1.11
+
+
         ```
 
     3.  Se queste impostazioni non corrispondono a quelle previste, è necessario riconfigurare il server utilizzando il Pannello di controllo o rieseguire l'installazione.
@@ -726,9 +783,17 @@ IIS viene installato con Gestione componenti facoltativi di Windows (accessibile
   
         **sysocmgr /i:sysoc.inf /u:C:\\MSSScripts\\OC\_AddIIS.txt**  
         Eseguendo questo comando Gestione dei componenti facoltativi utilizza le configurazioni dei componenti specificate nel file di installazione automatica **C:\\MSSScripts** \\OC\_AddIIS.txt (riportato di seguito):
+
+        ```
   
-        <codesnippet language displaylanguage containsmarkup="false"> \[Components\] complusnetwork = On iis\_common = On iis\_asp = On iis\_inetmgr = On iis\_www = On   
-```
+        [Components]
+        complusnetwork = On
+        iis_common = On
+        iis_asp = On
+        iis_inetmgr = On
+        iis_www = On
+  
+        ```
   
         **Nota:** in questa configurazione vengono attivate le pagine ASP (con la riga iis\_asp = on). Ciò è necessario per supportare le pagine di registrazione Web di Servizi certificati ma non per la soluzione principale. Se le pagine di registrazione Web non sono richieste, è necessario disattivare ASP (eliminando la riga iis\_asp = on prima di eseguire sysocmgr.exe). Se necessario, è sempre possibile riattivarle in seguito.
   
@@ -821,9 +886,9 @@ Prima di procedere, è necessario verificare il funzionamento di base di IIS. Se
 -   **Per verificare il corretto funzionamento della directory virtuale IIS**
   
     1.  Accedere al server IIS (CA di emissione) come membro del gruppo Administrators locale e creare un file utilizzando un editor di testo, ad esempio Notepad. Immettere del testo riconoscibile (non è importante il contenuto e non sono richiesti tag HTML):
-  
+    ```
         <codesnippet language displaylanguage containsmarkup="false">Ciao a tutti  
-```
+    ```
   
     2.  Salvare il file come **test.htm** nella cartella creata per la pubblicazione delle informazioni CDP e AIA utilizzando la procedura sopra descritta—**C:\\CAWWWPub**. Salvare lo stesso file come **Test.asp** nella stessa cartella.
   
@@ -870,9 +935,13 @@ Microsoft Internet Explorer tenterà automaticamente e in modo invisibile di aut
         In caso di errore durante la digitazione, premere **INVIO** e digitare nuovamente il comando **open** (passaggio 3) per riconnettersi e inviare il comando **GET** una seconda volta.
   
     5.  Viene visualizzato l'output seguente:
+
+        ```
   
-        <codesnippet language displaylanguage containsmarkup="false">Hello world Connection to host lost. Press any key to continue...  
-```
+        Hello world
+        Connection to host lost.
+        Press any key to continue...
+        ```
   
     6.  Digitare **quit** per uscire da telnet.
   
@@ -892,10 +961,14 @@ In questa sezione vengono descritte l'installazione e la configurazione di altri
   
         **sysocmgr /i:sysoc.inf /u:C:\\MSSScripts\\OC\_RemoveRootUpdate.txt**
   
-        Tramite questo comando Gestione componenti facoltativi utilizza le configurazioni dei componenti specificate nel file di installazione automatica **C:\\MSSScript**s**\\OC\_ RemoveRootUpdate.txt** riportato di seguito:
+        Tramite questo comando Gestione componenti facoltativi utilizza le configurazioni dei componenti specificate nel file di installazione automatica **C:\\MSSScript**s **\\OC\_ RemoveRootUpdate.txt** riportato di seguito:
+
+        ```
   
-        <codesnippet language displaylanguage containsmarkup="false">\[Components\] rootautoupdate = Off   
-```
+        [Components]
+        rootautoupdate = Off
+
+        ```
   
 #### Controllo dei Service Pack e degli aggiornamenti e delle correzioni di protezione
   
@@ -981,9 +1054,11 @@ Per ulteriori informazioni sullo strumento ADPrep, vedere la sezione "[Ulteriori
         Sarà necessario eseguire il comando da un server Windows 2003. Dsquery.exe non è disponibile per impostazione predefinita in Windows XP o Windows 2000.
   
     2.  Viene visualizzata la versione dello schema di 30 (o superiore) come illustrato di seguito:
-  
-        <codesnippet language displaylanguage containsmarkup="false"> objectversion 30  
-```
+    
+        ```
+        objectversion
+        30
+        ```
   
 #### Gruppi e utenti di Active Directory
   
@@ -1578,9 +1653,9 @@ Personalizzare i modelli di protezione e applicarli al server in base alla proce
   
         **Nota:** il valore di questi elementi dipende dai criteri correnti dell'organizzazione. Non è necessario configurare questi valori, sebbene sia consigliabile.
   
-    3.  In Criteri locali\\Assegnazioni diritti utenti, aggiungere il gruppo locale *****CA Auditors*** ai diritti utente **Gestione registri di controllo e protezione**.
+    3.  In Criteri locali\\Assegnazioni diritti utenti, aggiungere il gruppo locale ***CA Auditors*** ai diritti utente **Gestione registri di controllo e protezione**.
   
-    4.  In Criteri locali\\Assegnazioni diritti utenti aggiungere il gruppo locale ***CA Backup Operators*** **ai diritti utente:
+    4.  In Criteri locali\\Assegnazioni diritti utenti aggiungere il gruppo locale ***CA Backup Operators*** ai diritti utente:
   
         -   **Backup di file e directory**
   
@@ -2141,16 +2216,39 @@ Le informazioni CRL e AIA non sono necessarie per il certificato CA principale i
 -   **Per creare il file CAPolicy.inf**
   
     1.  Immettere il testo seguente in un editor di testi, ad esempio Blocco note:
-  
-        <codesnippet language displaylanguage containsmarkup="false">\[Versione\] Signature= "$Windows NT$" \[Certsrv\_Server\] RenewalKeyLength=4096 RenewalValidityPeriod=Years RenewalValidityPeriodUnits=16 \[CRLDistributionPoint\] Empty=true \[AuthorityInformationAccess\] Empty=true   
-```
+        ```
+        [Versione]
+        Signature= "$Windows NT$"
+
+        [Certsrv_Server]
+        RenewalKeyLength=4096
+        RenewalValidityPeriod=Years
+        RenewalValidityPeriodUnits=16
+        
+        [CRLDistributionPoint]
+        Empty=true
+
+        [AuthorityInformationAccess]
+        Empty=true
+ 
+        ```
   
         **Nota:** la configurazione di una chiave della lunghezza di 4.096 bit potrebbe causare problemi di compatibilità se i certificati devono essere rilasciati a o utilizzati da alcune periferiche, ad esempio alcuni tipi di router, o versioni precedenti di software di alcuni fornitori, non in grado di elaborare chiavi di dimensioni superiori a un valore specifico.
   
     2.  Se è stata definita una CPS per la CA, includere quanto segue nel file CApolicy.inf (è necessario sostituire tutte le voci in corsivo con i valori della propria organizzazione):
+
+        ```
   
-        <codesnippet language displaylanguage containsmarkup="false">\[CAPolicy\] Policies=WoodGrove Bank Root CA CPS \[WoodGrove Bank Root CA CPS\] OID=OID.org. URL = "http://www.woodgrovebank.com/YourCPSPage.htm" URL = "ftp://www.woodgrovebank.com/YourCPSPage.txt" Notice = "Istruzioni di pratica di certificazione CA principale WoodGrove Bank"   
-```
+        [CAPolicy]
+        Policies=WoodGrove Bank Root CA CPS
+
+        [WoodGrove Bank Root CA CPS]
+        OID=OID.org.
+        URL = "http://www.woodgrovebank.com/YourCPSPage.htm"
+        URL = "ftp://www.woodgrovebank.com/YourCPSPage.txt"
+        Notice = "Istruzioni di pratica di certificazione CA principale WoodGrove Bank"
+  
+        ```
   
         **Nota:** il testo dell'avviso può contenere un massimo di 200 caratteri. Utilizzare questo campo solo per una breve descrizione della CPS e non per il testo completo della CPS.
   
@@ -2312,9 +2410,31 @@ L'URL HTTP è elencato in sequenza prima dell'URL LDAP, in modo che i client che
     2.  Personalizzare lo script seguente (C:\\MSSScripts\\pkiparams.vbs) in modo da includere il DN corretto del nome principale dell'insieme di strutture di Active Directory (modificare il valore dell'impostazione **AD\_ROOT\_DN**) e l'URL HTTP (modificare l'impostazione **HTTP\_PKI\_VROOT** in base al percorso HTTP della directory virtuale IIS impostata precedentemente) in modo che faccia riferimento al server Web di pubblicazione CDP e AIA.
   
         **Nota:** qui è riportata solo una parte del file. Non modificare o rimuovere alcun elemento del file, a meno che non si conoscano le conseguenze dell'operazione.
+
+        ```
   
-        <codesnippet language displaylanguage containsmarkup="false">'\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* ' USER SETTABLE CONSTANTS ' ' These values MUST be set to reflect actual values used ' by the organization. '\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* ' This is the URL where CRL and CA certs are to be published. CONST CA\_HTTP\_PKI\_VROOT = " http://www.woodgrovebank.com/pki" ' This needs to be set only if non-Active directory clients need to query ' the ldap URL for CRLs. Normally they are OK with HTTP. If you do set this ' (to a specific DC FQDN) ALL clients will use this DC to query. Left blank ' AD clients use their default LDAP server (local DC) to query. CONST CA\_LDAP\_SERVER = "" ' This needs to be set to the DN of the Active Directory Forest root domain ' This is used to set the Root CA CDP and AIA paths so that clients can ' obtain CRL and CA Certificate information from the Active Directory CONST AD\_ROOT\_DN = "DC=woodgrovebank,DC=com"   
-```
+        '**************************************************************************
+        '	USER SETTABLE CONSTANTS	
+        '
+        ' These values MUST be set to reflect actual values used
+        ' by the organization.
+        '**************************************************************************
+
+        ' This is the URL where CRL and CA certs are to be published.
+        CONST CA_HTTP_PKI_VROOT		= " http://www.woodgrovebank.com/pki"
+
+        ' This needs to be set only if non-Active directory clients need to query
+        ' the ldap URL for CRLs. Normally they are OK with HTTP. If you do set this
+        ' (to a specific DC FQDN) ALL clients will use this DC to query. Left blank
+        ' AD clients use their default LDAP server (local DC) to query.
+        CONST CA_LDAP_SERVER		= ""
+
+        ' This needs to be set to the DN of the Active Directory Forest root domain
+        ' This is used to set the Root CA CDP and AIA paths so that clients can
+        ' obtain CRL and CA Certificate information from the Active Directory
+        CONST AD_ROOT_DN			= "DC=woodgrovebank,DC=com"
+  
+        ```
   
     3.  Then run the following script:
   
@@ -2445,9 +2565,18 @@ Questo passaggio è necessario, in quanto le versioni HTTP degli URL CDP e AIA s
         **certutil -store -enterprise "ldap:///cn=WoodGrove Bank Root CA,cn=HQ-CA-01,cn=CDP,CN=Public Key Services,CN=Services,CN=Configuration,DC=woodgrovebank,DC=com?certificateRevocationList?base?objectClass=crlDistributionPoint"**
   
     4.  Il risultato deve essere simile al seguente. Verificare che il valore **Issuer** corrisponda al nome configurato per il certificato della CA principale:
+
+        ```
   
-        <codesnippet language displaylanguage containsmarkup="false"> ================ CRL 0 ================ Issuer: CN=WoodGrove Bank Root CA,DC=woodgrovebank,DC=com CA Version: V1.0 CRL Number: CRL Number=1 CRL Hash(sha1): 73 03 a1 c7 5f a3 c3 f9 8a 09 d0 3c b5 09 00 9c b5 a3 de fe CertUtil: -store command completed successfully.   
-```
+        ================ CRL 0 ================
+        Issuer:    CN=WoodGrove Bank Root CA,DC=woodgrovebank,DC=com
+        CA Version: V1.0
+        CRL Number: CRL Number=1
+        CRL Hash(sha1): 73 03 a1 c7 5f a3 c3 f9 8a 09 d0 3c b5 09 00 9c b5 a3 de 
+        fe
+        CertUtil: -store command completed successfully.
+
+        ```
   
     5.  Per verificare la pubblicazione del certificato CA nel server Web, immettere l'URL seguente in un browser, sostituendo le voci in corsivo con i valori utilizzati nella propria organizzazione:  
         **http://*www.woodgrovebank.com*/pki/*HQ-CA-01\_WoodGrove Bank Root CA*.crt**
@@ -2495,15 +2624,31 @@ Il file CAPolicy.inf non è indispensabile per la CA di emissione, tuttavia, ne 
 -   **Per creare il file CAPolicy.inf**
   
     1.  Immettere il testo seguente in un editor di testi, ad esempio Blocco note.
+        ```
+        [Versione]
+        Signature= "$Windows NT$"
+
+        [Certsrv_Server]
+        RenewalKeyLength=2048
+
   
-        <codesnippet language displaylanguage containsmarkup="false"> \[Versione\] Signature= "$Windows NT$" \[Certsrv\_Server\] RenewalKeyLength=2048   
-```
+        ```
   
     2.  Se è stata definita una CPS per la CA, includere quanto segue nel file CApolicy.inf  
         (è necessario sostituire tutte le voci in corsivo con i valori della propria organizzazione):
+
+        ```
   
-        <codesnippet language displaylanguage containsmarkup="false">\[CAPolicy\] Policies=WoodGrove Bank Issuing CA 1 CPS \[WoodGrove Bank Issuing CA 1 CPS\] OID=OID.org. URL = "http://www.woodgrovebank.com/YourCPSPage.htm" URL = "ftp://www.woodgrovebank.com/YourCPSPage.txt" Notice = "Istruzioni di pratica di certificazione CA di emissione 1 WoodGrove Bank"   
-```
+        [CAPolicy]
+        Policies=WoodGrove Bank Issuing CA 1 CPS
+
+        [WoodGrove Bank Issuing CA 1 CPS]
+        OID=OID.org.
+        URL = "http://www.woodgrovebank.com/YourCPSPage.htm"
+        URL = "ftp://www.woodgrovebank.com/YourCPSPage.txt"
+        Notice = "Istruzioni di pratica di certificazione CA di emissione 1 WoodGrove Bank"
+
+        ```
   
         **Note:**
   
@@ -2546,7 +2691,7 @@ Installare i componenti software CA utilizzando la procedura Aggiunta guidata co
   
     7.  Immettere i percorsi del database dei certificati, dei registri del database e della cartella di configurazione nel modo seguente.
   
-        -   Database dei certificati—D**:\\CertLo**g
+        -   Database dei certificati—D **:\\CertLo** g
   
         -   Registro database dei certificati— %**windir%\\System32\\CertLo**g
   
@@ -2755,7 +2900,7 @@ La configurazione della CA applica una serie di parametri specifici dell'ambient
   
     1.  Accedere al server CA come membro del gruppo Administrators locale.
   
-    2.  È necessario personalizzare lo script **C:\\MSSScripts**\\pkiparams.vbs con le impostazioni specifiche dell'organizzazione quando si imposta la CA principale. Replicare inoltre le modifiche apportate nella copia di C**:\\MSSScript**s\\pkiparams.vbs installata nella CA di emissione.
+    2.  È necessario personalizzare lo script **C:\\MSSScripts**\\pkiparams.vbs con le impostazioni specifiche dell'organizzazione quando si imposta la CA principale. Replicare inoltre le modifiche apportate nella copia di C **:\\MSSScript** s\\pkiparams.vbs installata nella CA di emissione.
   
     3.  Eseguire quindi lo script seguente:
   
