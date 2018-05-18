@@ -518,13 +518,20 @@ Prima di poter avviare il processo di aumento della protezione, è necessario av
 La seguente procedura consente di sincronizzare con un'origine ora esterna. i controller di dominio e i server membro. Questa sincronizzazione aiuterà a garantire che l'autenticazione Kerberos funzioni correttamente e consenta di mantenere sincronizzato il dominio Active Directory con qualunque altro computer esterno.
   
 1.  Sul controller di dominio con l'FSMO dell'emulatore PDC, aprire un prompt dei comandi ed eseguire il seguente comando, dove *&lt;PeerList&gt;* è un elenco di nomi DNS o di indirizzi IP separati da virgola per le origini dell'ora desiderate:
-  
-    <codesnippet language displaylanguage containsmarkup="false">w32tm /config /syncfromflags:manual /manualpeerlist:&lt;PeerList&gt;  
+
 ```
   
-2.  Per aggiornare la configurazione, eseguire il seguente comando:
+    w32tm /config /syncfromflags:manual /manualpeerlist:<PeerList> 
+
+```     
+
   
-    <codesnippet language displaylanguage containsmarkup="false">w32tm /config /update  
+2.  Per aggiornare la configurazione, eseguire il seguente comando:
+
+```
+  
+    w32tm /config /update
+  
 ```
   
 3.  Controllare il registro eventi. Se il computer non è in grado di raggiungere i server, la procedura non ha esito positivo e viene inserita una voce nel registro eventi.
@@ -679,14 +686,20 @@ library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* *e la versione 
 Dopo aver verificato a fondo i criteri di base, completare le seguenti fasi per trasformarli in GPO e collegarli alle OU appropriate:
   
 1.  Al prompt dei comandi digitare quanto segue:
+
+    ```
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
+    scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+
+    ```
   
     e premere INVIO. Ad esempio:
+
+    ```    
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Infrastructure.xml" /g:"Infrastructure Policy"  
-```
+    scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Infrastructure.xml" 
+    /g:"Infrastructure Policy"
+    ```
   
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   
@@ -751,14 +764,20 @@ Come per i criteri di base, ci sono due modi diversi di verificare i criteri. È
 Dopo aver verificato a fondo i criteri per il ruolo, completare le seguenti fasi per trasformarli in GPO e collegarli alle OU appropriate:
   
 1.  Al prompt dei comandi digitare quanto segue:
+
+    ```
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
+    scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+
+    ```
   
     e premere INVIO. Ad esempio:
+
+    ```
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Infrastructure.xml" /g:"Infrastructure Policy"  
-```
+    scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Infrastructure.xml" 
+    /g:"Infrastructure Policy"
+    ```
   
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   
