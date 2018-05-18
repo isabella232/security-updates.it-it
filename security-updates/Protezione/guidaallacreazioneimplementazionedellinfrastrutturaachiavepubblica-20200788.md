@@ -573,7 +573,7 @@ tranne nel caso in cui il processo di generazione sia basato su una connessione 
 
 5.  Digitare una password sicura per l'account dell'amministratore locale (almeno 10 caratteri misti: maiuscole, minuscole, lettere, numeri e punteggiatura).
 
-6.  Digitare il nome del computer quando richiesto, per esempio ***HQ-CA-01**** *(sostituire questo valore con il nome che si è scelto).
+6.  Digitare il nome del computer quando richiesto, per esempio ***HQ-CA-01*** (sostituire questo valore con il nome che si è scelto).
 
     **Importante:** anche se la CA principale non è in linea, è necessario assegnarle un nome univoco rispetto ai nomi già attribuiti nell'organizzazione.
 
@@ -2631,13 +2631,22 @@ Il file CAPolicy.inf non è indispensabile per la CA di emissione, tuttavia, ne 
 1.  Immettere il testo seguente in un editor di testi, ad esempio Blocco note.
 
 ```  
-    <codesnippet language displaylanguage containsmarkup="false">\[Version\] Signature= "$Windows NT$" \[Certsrv\_Server\] RenewalKeyLength=2048   
+    [Version]
+    Signature= "$Windows NT$"
+
+    [Certsrv_Server]
+    RenewalKeyLength=2048  
 ```
   
 2.  Se è stata definita una CPS per la CA, includere quanto segue nel file Capolicy.inf (è necessario sostituire tutte le voci in corsivo con i valori della propria organizzazione):
 
 ```  
-    <codesnippet language displaylanguage containsmarkup="false">\[CAPolicy\] Policies=WoodGrove Bank Issuing CA 1 CPS \[WoodGrove Bank Issuing CA 1 CPS\] OID=your.Orgs.OID URL = "http://www.woodgrovebank.com/YourCPSPage.htm"   
+    [CAPolicy]
+    Policies=WoodGrove Bank Issuing CA 1 CPS
+
+    [WoodGrove Bank Issuing CA 1 CPS]
+    OID=your.Orgs.OID
+    URL = "http://www.woodgrovebank.com/YourCPSPage.htm"  
 ```
   
 **Nota:** vedere la sezione "Creazione di una dichiarazione delle procedure di certificazione" nel capitolo 4, "Progettazione dell’infrastruttura a chiave pubblica (PKI)," per ulteriori informazioni sulla CPS e sui casi in cui è opportuno crearne una. La CPS è un documento legale e non un elemento tecnico, pertanto, bisogna essere certi che sia realmente necessaria prima di configurarla nella CA.
