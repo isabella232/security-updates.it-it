@@ -15,13 +15,13 @@ Aggiornato: 2 aprile 2004
 
 ##### In questa pagina
 
-[](#ehaa)[Introduzione](#ehaa)
-[](#egaa)[Cenni preliminari](#egaa)
-[](#efaa)[Prima di iniziare](#efaa)
-[](#eeaa)[Attività fondamentali di manutenzione](#eeaa)
-[](#edaa)[Esercizio dell'infrastruttura WLAN](#edaa)
-[](#ecaa)[Risoluzione dei problemi](#ecaa)
-[](#ebaa)[Riepilogo](#ebaa)
+[](#ehaa)[Introduzione](#ehaa)  
+[](#egaa)[Cenni preliminari](#egaa)  
+[](#efaa)[Prima di iniziare](#efaa)  
+[](#eeaa)[Attività fondamentali di manutenzione](#eeaa)  
+[](#edaa)[Esercizio dell'infrastruttura WLAN](#edaa)  
+[](#ecaa)[Risoluzione dei problemi](#ecaa)  
+[](#ebaa)[Riepilogo](#ebaa)  
 [](#eaaa)[Riferimenti](#eaaa)
 
 ### Introduzione
