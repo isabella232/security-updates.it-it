@@ -13,14 +13,14 @@ Guida per la protezione di Windows Server 2003
 
 ##### In questa pagina
 
-[](#eiaa)[Panoramica](#eiaa)
-[](#ehaa)[Impostazioni del Criterio Controllo](#ehaa)
-[](#egaa)[Impostazioni di Assegnazione diritti utente](#egaa)
-[](#efaa)[Opzioni di protezione](#efaa)
-[](#eeaa)[Impostazioni del Registro eventi](#eeaa)
-[](#edaa)[Gruppi con restrizioni](#edaa)
-[](#ecaa)[Impostazioni di protezione aggiuntive](#ecaa)
-[](#ebaa)[Creazione del criterio utilizzando SCW](#ebaa)
+[](#eiaa)[Panoramica](#eiaa)  
+[](#ehaa)[Impostazioni del Criterio Controllo](#ehaa)  
+[](#egaa)[Impostazioni di Assegnazione diritti utente](#egaa)  
+[](#efaa)[Opzioni di protezione](#efaa)  
+[](#eeaa)[Impostazioni del Registro eventi](#eeaa)  
+[](#edaa)[Gruppi con restrizioni](#edaa)  
+[](#ecaa)[Impostazioni di protezione aggiuntive](#ecaa)  
+[](#ebaa)[Creazione del criterio utilizzando SCW](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Panoramica
@@ -637,7 +637,7 @@ Attuando procedure operative corrette, Syskey è in grado di offrire un maggiore
   
 2.  Fare clic su **Crittografia abilitata**, quindi scegliere **Aggiorna**.
   
-3.  Selezionare l**’opzione desiderata, quindi scegliere** OK.
+3.  Selezionare l **’opzione desiderata, quindi scegliere** OK.
   
 #### DNS integrati in Active Directory
   
@@ -890,14 +890,19 @@ library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* * e la [Documen
 Dopo aver verificato a fondo il criterio, completare le seguenti fasi, per trasformarlo in un GPO e utilizzarlo:
   
 1.  Al prompt dei comandi digitare il seguente comando:
+
+    ```
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
+    scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+    ```
   
     e premere INVIO. Ad esempio:
+
+    ```
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Domain Controller.xml" /g:"Domain Controller Policy"  
-```
+    scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Domain
+    Controller.xml" /g:"Domain Controller Policy"
+    ```
   
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   
