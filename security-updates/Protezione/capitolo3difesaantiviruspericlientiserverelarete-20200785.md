@@ -213,8 +213,12 @@ Un'altra area da non trascurare tra i sistemi di protezione dei client è rappre
 Un utente che ha l'esigenza di installare un'applicazione che richiede i privilegi di amministratore potrebbe ad esempio eseguire il seguente comando di installazione al prompt dei comandi per avviare il programma di installazione con i privilegi appropriati:
 
 ```
-    È possibile inoltre accedere a questa funzione direttamente da Esplora risorse di Microsoft effettuando le seguenti operazioni:
+runas /user:mydomain\admin "setup.exe"
 ```
+È possibile inoltre accedere a questa funzione direttamente da Esplora risorse di Microsoft effettuando le seguenti operazioni:
+
+È possibile inoltre accedere a questa funzione direttamente da Esplora risorse di Microsoft effettuando le seguenti operazioni:
+
 
 **Per eseguire un programma con privilegi amministrativi**
 

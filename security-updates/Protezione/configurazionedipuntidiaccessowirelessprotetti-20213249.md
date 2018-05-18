@@ -150,7 +150,6 @@ La tecnologia wireless produce diversi vantaggi operativi, che variano a seconda
 Al fine di comprendere il livello di sicurezza offerto dalle diverse soluzioni di protezione delle reti wireless disponibili è importante conoscere le minacce più comuni a cui sono soggette le reti wireless. Le vulnerabilità e i profili degli attacchi associati alle reti tradizionali sono ampiamente noti. Le reti wireless sono invece soggette a minacce diverse da questi rischi tradizionali.
 
 **Tabella 1. Tipici rischi di protezione delle reti WLAN**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -210,7 +209,6 @@ A parte l'approccio più diffuso, ovvero la decisione di non adottare la tecnolo
   
 **Tabella 2. Confronto degli approcci alla protezione WLAN**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -437,7 +435,6 @@ Come affermato in precedenza, EAP-TLS richiede almeno quattro server (o un numer
   
 **Tabella 3. Requisiti hardware consigliati per il server CA principale**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -558,7 +555,6 @@ Sono disponibili due approcci di bilanciamento del carico e failover sui server 
 
 **Tabella 4. Failover e bilanciamento del carico RADIUS per EAP**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -650,7 +646,6 @@ Un'altra valutazione riguarda la fattibilità del posizionamento di ulteriori se
 
 **Tabella 5. Considerazioni sul posizionamento congiunto IAS e controller di domini**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -712,7 +707,6 @@ Quando si valuta la capacità del server IAS è utile stimare i carichi potenzia
 
 **Tabella 6. Autenticazioni al secondo**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -790,7 +784,6 @@ Prima di iniziare la distribuzione della soluzione descritta in questa guida è 
   
 **Tabella 7. Informazioni di configurazione definite dall'utente**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -859,7 +852,6 @@ Non è necessario modificare le impostazioni elencate in questa tabella, a meno 
   
 **Tabella 8. Elementi di configurazione prescritti dalla soluzione**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1103,55 +1095,54 @@ IIS viene installato tramite Gestione componenti facoltativi di Windows (accessi
   
 3.  Impostare la protezione della cartella nel modo seguente:
   
-    **Tabella 9. Autorizzazioni directory virtuale**
+**Tabella 9. Autorizzazioni directory virtuale**
 
- 
-    <table style="border:1px solid black;">
-    <colgroup>
-    <col width="33%" />
-    <col width="33%" />
-    <col width="33%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th style="border:1px solid black;" >User/Group</th>
-    <th style="border:1px solid black;" >Autorizzazione</th>
-    <th style="border:1px solid black;" >Consenti/Nega</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td style="border:1px solid black;">Administrators</td>
-    <td style="border:1px solid black;">Controllo completo</td>
-    <td style="border:1px solid black;">Consentito</td>
-    </tr>
-    <tr class="even">
-    <td style="border:1px solid black;">System</td>
-    <td style="border:1px solid black;">Controllo completo</td>
-    <td style="border:1px solid black;">Consentito</td>
-    </tr>
-    <tr class="odd">
-    <td style="border:1px solid black;">Creator Owners</td>
-    <td style="border:1px solid black;">Controllo completo (solo sottocartelle e file)</td>
-    <td style="border:1px solid black;">Consentito</td>
-    </tr>
-    <tr class="even">
-    <td style="border:1px solid black;">Users</td>
-    <td style="border:1px solid black;">Lettura e visualizzazione contenuto cartella</td>
-    <td style="border:1px solid black;">Consentito</td>
-    </tr>
-    <tr class="odd">
-    <td style="border:1px solid black;">IIS_WPG</td>
-    <td style="border:1px solid black;">Lettura e visualizzazione contenuto cartella</td>
-    <td style="border:1px solid black;">Consentito</td>
-    </tr>
-    <tr class="even">
-    <td style="border:1px solid black;">Account Internet Guest</td>
-    <td style="border:1px solid black;">Scrittura</td>
-    <td style="border:1px solid black;">Negato</td>
-    </tr>
-    </tbody>
-    </table>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >User/Group</th>
+<th style="border:1px solid black;" >Autorizzazione</th>
+<th style="border:1px solid black;" >Consenti/Nega</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Administrators</td>
+<td style="border:1px solid black;">Controllo completo</td>
+<td style="border:1px solid black;">Consentito</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">System</td>
+<td style="border:1px solid black;">Controllo completo</td>
+<td style="border:1px solid black;">Consentito</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Creator Owners</td>
+<td style="border:1px solid black;">Controllo completo (solo sottocartelle e file)</td>
+<td style="border:1px solid black;">Consentito</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Users</td>
+<td style="border:1px solid black;">Lettura e visualizzazione contenuto cartella</td>
+<td style="border:1px solid black;">Consentito</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">IIS_WPG</td>
+<td style="border:1px solid black;">Lettura e visualizzazione contenuto cartella</td>
+<td style="border:1px solid black;">Consentito</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Account Internet Guest</td>
+<td style="border:1px solid black;">Scrittura</td>
+<td style="border:1px solid black;">Negato</td>
+</tr>
+</tbody>
+</table>
   
 4.  Nella console di gestione di Internet Information Services, creare una nuova directory virtuale nel sito Web predefinito:
   
@@ -1216,8 +1207,7 @@ In questa soluzione vengono definiti più gruppi di protezione che corrispondono
     Questo script crea i gruppi di protezione elencati nella tabella seguente. I gruppi sono creati come gruppi universali nel contenitore di utenti del dominio e devono quindi essere spostati a un'unità organizzativa (UO) più appropriata, a seconda dei criteri in uso all'interno dell'organizzazione.
   
     **Tabella 10. Nomi e scopi dei gruppi**
-
- 
+    
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -1260,7 +1250,6 @@ In questa soluzione vengono definiti più gruppi di protezione che corrispondono
 Le procedure di configurazione descritte nel resto del documento richiedono l'utilizzo di account membri dei gruppi Enterprise PKI Admins, Enterprise PKI Publishers e CA Admins, pertanto è necessario popolare questi gruppi con gli account appropriati prima di continuare. Se una sola persona è responsabile di tutti i ruoli relativi alla CA, è possibile assegnare a tutti i gruppi un solo account. Tuttavia, in molte aziende esiste un certo grado di suddivisione di ruoli e compiti tra più persone, anche se il livello di specificità sarà inferiore a quello della tabella precedente. Per le aziende con una separazione semplificata delle attività, nella tabella seguente sono elencate le suddivisioni di responsabilità comuni.
   
 **Tabella 11. Modello di amministrazione semplificato**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1301,7 +1290,6 @@ Esistono diversi tipi di gruppi e account utente associati alla gestione e al fu
   
     **Tabella 12. Esempio di struttura delle UO**
 
- 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -1559,7 +1547,6 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori e gestori
 2.  Fare clic sulla scheda **Protezione** e aggiungere i gruppi di protezione locali elencati nella tabella seguente. Per ciascun gruppo aggiungere l'autorizzazione elencata.
   
     **Tabella 13. Autorizzazioni CA**
-
  
     <table style="border:1px solid black;">
     <colgroup>
@@ -1798,9 +1785,7 @@ Il certificato della CA principale è stato pubblicato precedentemente nell'arch
 2.  Al prompt dei comandi, eseguire:
 
     ```
-    
     certutil –pulse
-    
     ```
   
     Questo comando forzerà il download delle informazioni sul nuovo certificato principale attendibile dalla directory e inserirà il certificato nell'archivio principale attendibile locale. Anche se questo passaggio non è indispensabile, consente di verificare che la procedura di pubblicazione precedente sia stata eseguita correttamente.
@@ -1856,7 +1841,6 @@ Per utilizzare i ruoli amministrativi descritti in questa guida è necessario in
   
     **Tabella 14. Autorizzazioni CA di emissione**
 
- 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -1970,7 +1954,6 @@ Nella tabella seguente vengono elencate le informazioni specifiche che differisc
   
 **Tabella 15. Impostazioni definite dall'utente**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2008,7 +1991,6 @@ Nella tabella seguente sono elencate le impostazioni che non è necessario modif
   
 **Tabella 16. Elementi di configurazione indicati dalla soluzione**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2188,7 +2170,6 @@ Una volta implementate le infrastrutture di certificazione e RADIUS sottostanti,
 Prima di iniziare questa fase dell'implementazione di una rete WLAN protetta è necessario avere a disposizione o definire i parametri dipendenti dall'organizzazione elencati nella tabella seguente. È possibile utilizzare gli spazi forniti per registrare le impostazioni richieste per l'ambiente specifico.
   
 **Tabella 17. Impostazioni preliminari definite dall'utente**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2226,7 +2207,6 @@ Prima di iniziare questa fase dell'implementazione di una rete WLAN protetta è 
 Nella tabella seguente sono elencate le impostazioni che non è necessario modificare, tranne nel caso in cui sia richiesto l'utilizzo di un'impostazione diversa da quella offerta dalla soluzione. Prima di modificare eventuali valori qui indicati, assicurarsi di aver compreso a fondo le implicazioni della modifica che si intende apportare e le dipendenze di tale impostazione, incluse eventuali modifiche negli script forniti.
   
 **Tabella 18. Impostazioni di configurazione indicate dalla soluzione**
-
  
 <table style="border:1px solid black;">
 <colgroup>

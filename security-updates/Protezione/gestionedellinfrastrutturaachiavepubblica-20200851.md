@@ -3326,9 +3326,6 @@ Il server SMTP e l'elenco dei destinatari configurati nel file sono condivisi an
         PKIOps@woodgrovebank.com"
         CONST ALERT_EMAIL_SMTP= "mail.woodgrovebank.com" 'SMTP host to use
         ```
-
-    
-
         **Nota:** le righe rientrate mostrate nel file sono continuazioni della riga precedente che continua alla riga successiva per questioni di leggibilità — nel file devono essere su una singola riga.
 
     2.  Eseguire il comando seguente per attivare gli avvisi di posta elettronica relativi alle richieste in sospeso in coda:
@@ -3631,12 +3628,9 @@ Vi sono molti metodi per riavviare il servizio, tutti accettabili per questa att
   
     2.  Se possibile, eseguire il comando seguente per arrestare Servizi certificati in modo da impedire agli utenti di collegarsi alla CA:
 
-    ```
-    net stop "Servizi certificati"
-
-    ```
-  
-  
+        ```
+        net stop "Servizi certificati"
+        ```
     3.  Seguire le normali procedure del sistema operativo per riavviare il computer. A meno che non sia chiaro che il processo Servizi certificati non risponde, non tentare di arrestare il processo o disattivare il server. L'interruzione del processo Servizi certificati potrebbe danneggiare il database di Servizi certificati e richiedere un ripristino dal backup.
   
 **Nota:** con il controllo abilitato, Servizi certificati potrebbe impiegare molto tempo per la chiusura ed il riavvio — questa operazione potrebbe richiedere oltre 10 minuti nel caso di database grandi. Questa operazione estende il processo di chiusura e avvio dell'intero server. Questo ritardo è dovuto al fatto che Servizi certificati calcola l'hashing dell'intero database per creare le voci di controllo dell'avvio e dell'arresto del sistema; questo ritardo non si verifica se le procedure di avvio e chiusura non vengono controllate.
@@ -4584,6 +4578,7 @@ I comandi per raccogliere queste informazioni vengono forniti nelle procedure se
 <!-- -->
 
 -   **Per visualizzare gli archivi NT Auth:**
+
     ```
         certutil -store -enterprise NTAuth
     ```
@@ -4598,7 +4593,6 @@ I comandi per raccogliere queste informazioni vengono forniti nelle procedure se
         Services,CN=Services,CN=Configuration,
         DC=woodgrovebank,DC=com?cACertificate?one?
         objectClass=pkiEnrollmentService"
-
     ```
 
 <!-- -->
@@ -4607,9 +4601,7 @@ I comandi per raccogliere queste informazioni vengono forniti nelle procedure se
 
     ```
         certutil -store -enterprise CA
-
     ```
-
 <!-- -->
 
 -   **Per visualizzare certificati della CA intermedia:**
@@ -4619,20 +4611,17 @@ I comandi per raccogliere queste informazioni vengono forniti nelle procedure se
     Services,CN=Services,CN=Configuration,
     DC=woodgrovebank,DC=com?cACertificate?one?
     objectClass=certificationAuthority"
-
     ```
 
 <!-- -->
 
 -   **Per visualizzare certificati incrociati:**
 
-
     ```
     certutil -store -enterprise "ldap:///cn=AIA,CN=Public Key
     Services,CN=Services,CN=Configuration,
     DC=woodgrovebank,DC=com?cRossCertificatePair?one?
     objectClass=certificationAuthority"
-
     ```
 
 <!-- -->
@@ -4661,7 +4650,6 @@ I comandi per raccogliere queste informazioni vengono forniti nelle procedure se
         cn=HQ-CA-01,cn=CDP,CN=Public Key Services,CN=Services,
         CN=Configuration, DC=woodgrovebank,DC=com?
         certificateRevocationList?base?objectClass=cRlDistributionPoint"
-
         ```
 
         **Importante:** sostituire "**Woodgrove Bank Root CA**" con il nome comune della CA, "**HQ-CA-01**" con il nome dell'host della CA e "**DC=woodgrovebank,DC=com**" con il DN del dominio principale dell'insieme di strutture.
@@ -4671,7 +4659,6 @@ I comandi per raccogliere queste informazioni vengono forniti nelle procedure se
 ##### Raccolta informazioni sulla configurazione del modello di certificato
 
 I modelli di certificato sono archiviati in Active Directory. Registrare la configurazione di ciascun modello e registrare i modelli di registrazione dei certificati utilizzati per ciascun modello.
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -4708,18 +4695,16 @@ I comandi per raccogliere queste informazioni sono forniti di seguito.
   
 -   **Per produrre un elenco dei modelli configurati in Active Directory**
 
-```
-  
-     Certutil -template  
+```  
+    Certutil -template  
 ```
   
 <!-- -->
   
 -   **Per eseguire il dump della configurazione di questi modelli**
 
-```
-  
-     Certutil -dsTemplate  
+```  
+    Certutil -dsTemplate  
 ```
   
 Non esiste alcuno strumento che consenta di esportare le autorizzazioni dei modelli in un formato utilizzabile anche se è possibile creare un script ADSI (Active Directory Service Interface) che esegua questa operazione. Mantenere una registrazione manuale.
@@ -4727,7 +4712,6 @@ Non esiste alcuno strumento che consenta di esportare le autorizzazioni dei mode
 ##### Raccolta informazioni sulla configurazione CA
   
 In questa sezione sono descritte le informazioni di configurazione archiviate localmente su ciascuna CA e, nel caso di CA dell'organizzazione di grandi dimensioni, alcune informazioni archiviate in Active Directory.
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -4776,19 +4760,17 @@ I comandi per raccogliere queste informazioni sono forniti di seguito:
   
 -   **Per visualizzare la configurazione del registro CA**
 
-```
-  
-     Certutil -getreg 
-     Certutil -getreg CA  
+```  
+    Certutil -getreg 
+    Certutil -getreg CA  
 ```
   
 <!-- -->
   
 -   **Per visualizzare il certificato CA corrente**
 
-```
-  
-     certutil -f -ca.cert %temp%\CAcert.cer > nul &amp;&amp; certutil -dump
+```  
+    certutil -f -ca.cert %temp%\CAcert.cer > nul &amp;&amp; certutil -dump
     %temp%\CACert.cer
 ```
   
@@ -4798,9 +4780,8 @@ Non esiste alcuno strumento che consenta di eseguire il dump della autorizzazion
   
 -   **Per visualizzare i modelli attualmente assegnati a questa CA**
 
-    ```
-  
-     Certutil -CATemplates  
+    ```  
+    Certutil -CATemplates  
     ```
   
 Il file CPS della CA deve essere mantenuto con un controllo di versione adeguato in modo tale che sia semplice identificare e recuperare il CPS attivo in un determinato momento.
@@ -4808,7 +4789,6 @@ Il file CPS della CA deve essere mantenuto con un controllo di versione adeguato
 ##### Raccolta informazioni sui gruppi di gestione dell'infrastruttura PKI e dell'autorità di certificazione
   
 L'appartenenza ai gruppi di gestione dell'infrastruttura PKI è una parte molto importante delle informazioni di configurazione in quanto questi gruppi hanno il controllo su tutti gli aspetti delle informazioni sull'infrastruttura PKI dell'organizzazione di grandi dimensioni e sulle CA.
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -4861,15 +4841,13 @@ Se sono stati creati ulteriori gruppi di gestione, includere anche quelli.
   
 -   **Per elencare l'appartenenza di ciascun gruppo**
 
-    ```
-  
-     Net groups groupname /domain  
+    ```  
+    Net groups groupname /domain  
     ```
   
 ##### Raccolta informazioni sulla configurazione del client di certificato
   
 Questo si riferisce alle informazioni di configurazione del client generalmente distribuite mediante il processo Criterio gruppo. Se si utilizza un altro meccanismo, ad esempio SMS o script di accesso, per distribuire le impostazioni del client correlate all'infrastruttura PKI, documentare anche queste.
-
  
 <table style="border:1px solid black;">
 <colgroup>

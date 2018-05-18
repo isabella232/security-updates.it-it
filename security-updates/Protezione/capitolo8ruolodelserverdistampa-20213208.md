@@ -33,7 +33,6 @@ Dove possibile, queste impostazioni sono raccolte in un oggetto Criteri di Grupp
 La tabella seguente mostra i nomi dei modelli di protezione del server di stampa per i tre ambienti definiti in questa guida. Questi modelli forniscono le impostazioni di criterio per il modello di server di stampa incrementale, che a sua volta è utilizzato per creare un nuovo GPO collegato all'OU dei server di stampa nell'ambiente relativo. Le istruzioni dettagliate sono contenute nel Capitolo 2, "Meccanismi di protezione avanzata di Windows Server 2003" per facilitare la creazione di OU e di criteri di gruppo e quindi di importare il modello di protezione idoneo in ciascun GPO.
 
 **Tabella 8.1 Modelli di protezione dei server di stampa per tutti e tre gli ambienti**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -82,7 +81,6 @@ La maggior parte delle impostazioni delle opzioni di protezione per i server di 
 #### Server di rete Microsoft: aggiungi firma digitale alle comunicazioni (sempre)
   
 **Tabella 8.2 Impostazioni consigliate per l'aggiunta della firma digitale alle comunicazioni (sempre)**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -214,8 +212,8 @@ Dopo aver verificato a fondo il criterio, completare le seguenti fasi, per trasf
   
 1.  Al prompt dei comandi digitare il seguente comando:
 
+
     ```
-  
     scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
 
     ```
@@ -223,7 +221,6 @@ Dopo aver verificato a fondo il criterio, completare le seguenti fasi, per trasf
     e premere INVIO. Ad esempio:
 
     ```
-  
     scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Print 
     Server.xml" /g:"Print Server Policy"
 
