@@ -3326,9 +3326,6 @@ Il server SMTP e l'elenco dei destinatari configurati nel file sono condivisi an
         PKIOps@woodgrovebank.com"
         CONST ALERT_EMAIL_SMTP= "mail.woodgrovebank.com" 'SMTP host to use
         ```
-
-    
-
         **Nota:** le righe rientrate mostrate nel file sono continuazioni della riga precedente che continua alla riga successiva per questioni di leggibilità — nel file devono essere su una singola riga.
 
     2.  Eseguire il comando seguente per attivare gli avvisi di posta elettronica relativi alle richieste in sospeso in coda:
@@ -3631,12 +3628,9 @@ Vi sono molti metodi per riavviare il servizio, tutti accettabili per questa att
   
     2.  Se possibile, eseguire il comando seguente per arrestare Servizi certificati in modo da impedire agli utenti di collegarsi alla CA:
 
-    ```
-    net stop "Servizi certificati"
-
-    ```
-  
-  
+        ```
+        net stop "Servizi certificati"
+        ```
     3.  Seguire le normali procedure del sistema operativo per riavviare il computer. A meno che non sia chiaro che il processo Servizi certificati non risponde, non tentare di arrestare il processo o disattivare il server. L'interruzione del processo Servizi certificati potrebbe danneggiare il database di Servizi certificati e richiedere un ripristino dal backup.
   
 **Nota:** con il controllo abilitato, Servizi certificati potrebbe impiegare molto tempo per la chiusura ed il riavvio — questa operazione potrebbe richiedere oltre 10 minuti nel caso di database grandi. Questa operazione estende il processo di chiusura e avvio dell'intero server. Questo ritardo è dovuto al fatto che Servizi certificati calcola l'hashing dell'intero database per creare le voci di controllo dell'avvio e dell'arresto del sistema; questo ritardo non si verifica se le procedure di avvio e chiusura non vengono controllate.
