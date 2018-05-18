@@ -21,7 +21,7 @@ Pubblicato: 20 maggio 2004
 [](#edaa)[Passaggio 3: Analisi del software dannoso](#edaa)  
 [](#ecaa)[Passaggio 4: Ripristino del sistema](#ecaa)  
 [](#ebaa)[Passaggio 5: Passaggi post ripristino](#ebaa)  
-[](#eaaa)[Riepilogo](#eaaa)  
+[](#eaaa)[Riepilogo](#eaaa)
 
 ### Introduzione
 
@@ -320,6 +320,7 @@ Nella seguente figura sono indicati i dettagli relativi al processo attivo del w
 ```
 tasklist /v >TaskList.txt
 ```
+
 Mediante la riga di comando indicata verrà creato il file **TaskList.txt** nella directory di lavoro corrente.
 
 Quando si ha il sospetto che sul sistema venga eseguito software dannoso, è consigliabile controllare i processi facendo riferimento ai seguenti suggerimenti:
@@ -414,47 +415,50 @@ en-us/RegistryBackup.asp](http://www.microsoft.com/resources/documentation/windo
 
 Dopo aver completato il backup del Registro di sistema, è necessario verificare se sono presenti riferimenti a file anomali nelle aree seguenti:
 
+
 ```
-HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SessionManager\KnownDLLs 
-HKEY_LOCAL_MACHINE\System\ControlSet001\Control\Session Manager\KnownDLLs 
-HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\Run 
-HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\RunOnce 
-HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\RunOnceEx 
-HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServices 
-HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Windows ("run=" riga) 
-HKEY_CURRENT_USER\Software\Microsoft\Windows\Current Version\Run 
-HKEY_CURRENT_USER\Software\Microsoft\Windows\Current Version\RunOnce 
-HKEY_CURRENT_USER\Software\Microsoft\Windows\Current Version\RunOnceEx 
-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunServices 
-HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows ("run=" valore)
+        HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SessionManager\KnownDLLs 
+        HKEY_LOCAL_MACHINE\System\ControlSet001\Control\Session Manager\KnownDLLs 
+        HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\Run 
+        HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\RunOnce 
+        HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\RunOnceEx 
+        HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServices 
+        HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Windows ("run=" riga) 
+        HKEY_CURRENT_USER\Software\Microsoft\Windows\Current Version\Run 
+        HKEY_CURRENT_USER\Software\Microsoft\Windows\Current Version\RunOnce 
+        HKEY_CURRENT_USER\Software\Microsoft\Windows\Current Version\RunOnceEx 
+        HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunServices 
+        HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows ("run=" valore)
+
 ```
 
 Queste aree del Registro di sistema spesso diventano i principali obiettivi del codice dannoso perché consentono l'esecuzione automatica del software dannoso all'avvio del sistema. Ad esempio, il worm W32@.Mydoom.G@mm determina l'aggiunta del seguente valore:
- 
-```
-"(Predefinito)" = "%System%\<random_filename>"
-```
 
+```
+    "(Predefinito)" = "%System%\<random_filename>"
+
+```
 nelle chiavi del Registro di sistema riportate di seguito:
 
 ```
-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run 
-          HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
+    HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run 
+    HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
 ```
-
 Un'altra area presa recentemente in considerazione come obiettivo è la chiave seguente:
 
 ```
 HKEY_CLASSES_ROOT\CLSID\{E6FB5E20-DE35-11CF-9C87-00AA005127ED}\InProcServer32
-```
 
+```
 Questa chiave controlla i file dll caricati da Microsoft Internet Explorer (**Explorer.exe**). Il worm Mydoom e le relative varianti, ad esempio, determinano l'aggiunta di una voce nella chiave che consente di caricare file dll in grado di provocare una vulnerabilità e un attacco di backdoor.
 
 Il worm W32.Netsky.D@mm determina l'eliminazione sia della chiave sopra indicata che delle chiavi seguenti:
 
 ```
+
     HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\PINF 
-            HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WksPatch
+    HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WksPatch
+
 ```
 ##### Verifica della presenza di software dannoso e file danneggiati
 
@@ -598,6 +602,7 @@ Un altro sintomo tipico della presenza di software dannoso è l'utilizzo di cart
 **Nota:** per impostazione predefinita, nei computer Windows 9*x* non vengono condivisi né file né cartelle a meno che la condivisione file non sia attivata. Inoltre, nei client Windows 9*x* non esistono condivisioni "admin$" o condivisioni nascoste equivalenti, ma sono disponibili solo le cartelle o i volumi che vengono condivisi in modo specifico tramite la rete (impedendo qualsiasi tipo di violazione del sistema o l'installazione di software controllato in remoto).
 
 **Tabella 4.1: Cartelle condivise predefinite di Windows XP**
+
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -637,6 +642,7 @@ Un altro sintomo tipico della presenza di software dannoso è l'utilizzo di cart
 </table>
   
 **Tabella 4.2: Condivisioni cartelle predefinite di Windows Server 2003 e Windows 2000 Server**
+
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -761,6 +767,7 @@ La ricostruzione di un sistema richiede anche la reinstallazione di tutte le app
 Per scegliere l'opzione più adatta per il proprio sistema, è sufficiente individuare la soluzione che si ritiene più affidabile per eliminare l'infezione e neutralizzare l'attacco in modo definitivo. Il tempo richiesto per la riparazione deve essere considerato come un aspetto secondario rispetto all'integrità e alla stabilità del sistema.
   
 **Tabella 4.3: Vantaggi e svantaggi relativi alla pulitura e alla ricostruzione del sistema**
+
  
 <table style="border:1px solid black;">
 <colgroup>

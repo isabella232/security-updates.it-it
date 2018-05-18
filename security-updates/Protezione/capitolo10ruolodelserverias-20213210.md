@@ -149,7 +149,7 @@ Il criterio è verificato per accertarsi che la sua applicazione a server di des
 Quando si è certi delle proprie configurazioni di criterio, è possibile utilizzare Scwcmd come mostrato nella seguente procedura per convertire i criteri in GPO.
 
 Per ulteriori dettagli su come verificare i criteri di SCW, consultare la guida [Deployment Guide for the Security Configuration Wizard](http://technet.microsoft.com/en-us/library/cc776871.aspx) (in inglese) all'indirizzo www.microsoft.com/technet/prodtechnol/windowsserver2003/
-library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* * e la guida [Security Configuration Wizard Documentation](http://go.microsoft.com/fwlink/?linkid=43450)(in inglese) all'indirizzo http://go.microsoft.com/fwlink/?linkid=43450.
+library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx e la guida [Security Configuration Wizard Documentation](http://go.microsoft.com/fwlink/?linkid=43450)(in inglese) all'indirizzo http://go.microsoft.com/fwlink/?linkid=43450.
 
 #### Conversione e utilizzo del criterio
 
@@ -159,13 +159,14 @@ Dopo aver verificato a fondo il criterio, completare le seguenti fasi, per trasf
 
     ```
     scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+
     ```
 
     e premere INVIO. Ad esempio:
-
     ```
     scwcmd transform /p:"C:\Windows\Security\msscw\Policies\IAS 
     Server.xml" /g:"IAS Policy"
+
     ```
 
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.

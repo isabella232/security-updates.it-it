@@ -15,12 +15,12 @@ La distribuzione della crittografia dei dati in un'organizzazione richiede una c
 
 ##### In questa pagina
 
-[](#ehaa)[Rapida panoramica su BitLocker](#ehaa)
-[](#egaa)[Rapida panoramica su EFS](#egaa)
-[](#efaa)[Riepilogo dei capitoli](#efaa)
-[](#eeaa)[Destinatari della guida](#eeaa)
-[](#edaa)[Convenzioni di stile](#edaa)
-[](#ecaa)[Supporto e feedback](#ecaa)
+[](#ehaa)[Rapida panoramica su BitLocker](#ehaa)  
+[](#egaa)[Rapida panoramica su EFS](#egaa)  
+[](#efaa)[Riepilogo dei capitoli](#efaa)  
+[](#eeaa)[Destinatari della guida](#eeaa)  
+[](#edaa)[Convenzioni di stile](#edaa)  
+[](#ecaa)[Supporto e feedback](#ecaa)  
 [](#ebaa)[Ringraziamenti](#ebaa)
 
 ### Rapida panoramica su BitLocker
