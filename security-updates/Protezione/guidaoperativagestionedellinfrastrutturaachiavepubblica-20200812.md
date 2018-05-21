@@ -22,7 +22,7 @@ Pubblicato: 10 novembre 2004 | Aggiornato: 24 novembre 2004
 [](#edaa)[Attività della fase di modifica](#edaa)  
 [](#ecaa)[Risoluzione dei problemi](#ecaa)  
 [](#ebaa)[Tabelle di configurazione](#ebaa)  
-[](#eaaa)[Ulteriori informazioni](#eaaa)  
+[](#eaaa)[Ulteriori informazioni](#eaaa)
 
 ### Introduzione
 
@@ -949,9 +949,11 @@ Controllare giornalmente la cartella Richieste per verificare la presenza di ric
 2.  Se è necessario cambiare la dimensione della chiave, modificare il file CAPolicy.inf, posizionato nella directory %systemroot%. Modificare il valore del parametro RenewalKeyLength inserendo la dimensione in bit desiderata. La dimensione della chiave deve essere supportata dal CPS (Crypto Service Provider) utilizzato dalla CA. Nell’esempio seguente il valore è 2048.
 
     ```
+  
     [Certsrv_Server]
     RenewalKeyLength=2048
     ```
+  
     **Nota:** se è necessario modificare il periodo di validità o i criteri del certificato CA, prima di iniziare questa procedura è necessario specificarlo nel file CAPolicy.inf (in %systemroot%).
   
 3.  Aprire lo snap-in MMC Autorità di certificazione. Scegliere **Rinnova certificato CA** dal menu **Attività** dell’oggetto CA. Viene visualizzato un avviso di Servizi certificati che indica che è necessario chiudere la CA per rinnovare il certificato.
@@ -1029,11 +1031,13 @@ Controllare giornalmente la cartella Richieste per verificare la presenza di ric
 1.  Accedere alla CA di emissione come membro del gruppo Amministratori locale.
   
 2.  Se è necessario cambiare la dimensione della chiave, modificare il file CAPolicy.inf, posizionato nella directory %systemroot%. Modificare il valore del parametro RenewalKeyLength inserendo la dimensione in bit desiderata (la dimensione della chiave deve essere supportata dal CPS utilizzato dalla CA).
-  
+
     ```
+  
     [Certsrv_Server]
     RenewalKeyLength=2048
     ```
+  
     **Importante:** se è necessario modificare il periodo di validità o i criteri del certificato CA, prima di iniziare questa procedura è necessario specificarlo nel file CAPolicy.inf (in %systemroot%).
   
 3.  Aprire lo snap-in MMC Autorità di certificazione e, nel menu **Attività** dell’oggetto CA, fare clic su **Rinnova certificato CA**.
@@ -1317,9 +1321,12 @@ Questa attività configura un processo pianificato per eseguire un backup nottur
 2.  Se per memorizzare il file di backup si sceglie un'altra cartella, è necessario aggiornare le relative impostazioni in pkiparams.vbs. Modificare nel modo desiderato il percorso visualizzato nella riga successiva.
 
     ```
+  
     CONST SYSSTATE_BACKUP_PATH = "C:\CABackup"   'path used by NTBackup
+
     ```
-  **Nota:** dal momento che la stessa funzione di script viene utilizzata per eseguire il backup delle CA non in linea e in linea, se si utilizzano percorsi differenti per le diverse CA è necessario effettuare copie separate degli script.
+  
+    **Nota:** dal momento che la stessa funzione di script viene utilizzata per eseguire il backup delle CA non in linea e in linea, se si utilizzano percorsi differenti per le diverse CA è necessario effettuare copie separate degli script.
   
 3.  Creare un processo pianificato che venga eseguito di notte immettendo il seguente comando. Il comando imposta l’esecuzione dell’attività alle 2.00 di ogni notte.
   
@@ -1386,10 +1393,12 @@ La CA principale non è in linea, quindi richiede determinati tipi di dispositiv
     Questo comando deve essere immesso su una sola riga, anche se qui può comparire su più righe.
   
 2.  Se per memorizzare il file di backup si sceglie un'altra cartella, è necessario aggiornare le relative impostazioni nello script pkiparams.vbs. Modificare nel modo desiderato il percorso visualizzato nella riga successiva.
+
+    ```  
+    CONST SYSSTATE_BACKUP_PATH = "C:\CABackup"   'path used by NTBackup 
+ 
+    ```
   
-```
-CONST SYSSTATE_BACKUP_PATH = "C:\CABackup"   'path used by NTBackup
-```
 ##### Backup del database autorità di certificazione principale
   
 Lo scopo di questa attività consiste nel creare copie di backup dei certificati e delle chiavi private della CA, del database dei certificati e delle informazioni sulla configurazione di Servizi certificati. Queste ultime includono dati sulla configurazione del sistema operativo e altre informazioni sullo stato sulle quali si basa la CA.
@@ -2120,7 +2129,7 @@ Job: BackupCADatabase</td>
 </table>
   
 Prima della distribuzione degli script, aggiornare il file constants.vbs con i parametri di avviso corretti. Di seguito sono riportate le sezioni pertinenti del file. Le voci da modificare sono evidenziate in corsivo:
-  
+
 ```
 'Alerting parameters
 CONST ALERT_EMAIL_ENABLED = FALSE'set to true/false to enable/disable email 
@@ -2147,8 +2156,7 @@ CONST CA_EVENT_CRL_NOT_AVAILABLE_LDAP=22
 CONST CA_EVENT_CRL_NOT_AVAILABLE_HTTP=23
 CONST CA_EVENT_BACKUP_LOCKED=30
 CONST CA_EVENT_CA_OTHER=100
-```
-
+```  
 È necessario specificare se si desidera che gli errori producano avvisi di posta elettronica o voci del Registro eventi o entrambi. L'impostazione predefinita comprende solo voci del Registro eventi. Se si desidera produrre avvisi di posta elettronica, è *necessario* fornire un elenco di destinatari di posta elettronica valido (separati dalla virgola) e il nome host del server SMTP o l’indirizzo IP. Entrambe queste stringhe devono essere racchiuse tra virgolette.
   
 Se si specifica l’avviso del Registro eventi, è necessario modificare il parametro CA\_EVENT\_SOURCE (usato per tutti gli eventi CA correlati) o EVENT\_SOURCE (usato per tutti gli eventi non correlati alla CA).
@@ -2240,6 +2248,7 @@ Le categorie degli avvisi di operazione riuscita e operazione non riuscita della
   
 **Tabella 11.13. Eventi di controllo di Servizi certificati**
 
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -2575,16 +2584,18 @@ I valori del server SMTP e l'elenco dei destinatari SMTP configurati nel file co
 **Per attivare gli avvisi di posta elettronica per le richieste in sospeso**
   
 1.  Configurare i valori corretti per i destinatari della posta elettronica e il server SMTP nel file di script C:\\MSSScripts\\constants.vbs:
-  
+
     ```
+  
     'Alerting parameters
     ' set to comma-separated list of recipients to get email alerts
     CONST ALERT_EMAIL_RECIPIENTS= "Admin@woodgrovebank.com,
     PKIOps@woodgrovebank.com"
     CONST ALERT_EMAIL_SMTP= "mail.woodgrovebank.com" 'SMTP host to use
+
     ```
   
-**Nota:** la riga con rientro visualizzata nel file rappresenta la prosecuzione della riga precedente che viene continuata nella riga successiva per questioni di visualizzazione, anche se si tratta di un'unica riga del file.
+    **Nota:** la riga con rientro visualizzata nel file rappresenta la prosecuzione della riga precedente che viene continuata nella riga successiva per questioni di visualizzazione, anche se si tratta di un'unica riga del file.
   
 2.  Per attivare gli avvisi di posta elettronica per le richieste in sospeso inserite in coda, eseguire il comando:
   
@@ -2617,6 +2628,7 @@ Nella tabella seguente sono elencati i processi automatizzati che vengono esegui
 Solo sulla CA di emissione possono essere eseguiti processi automatici. La CA principale potrebbe essere disattivata per periodi lunghi, di conseguenza non è possibile mantenere sul computer una pianificazione attendibile.
   
 **Tabella 11.14. Elenco di processi pianificati sulla CA di emissione**
+
  
 <table style="border:1px solid black;">
 <colgroup>

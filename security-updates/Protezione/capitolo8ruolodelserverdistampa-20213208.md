@@ -24,7 +24,7 @@ Guida per la protezione di Windows Server 2003
 
 ### Panoramica
 
-Questo capitolo si concentra su come garantire una protezione avanzata ai server di stampa che eseguono Microsoft Windows* *Server * *2003 con SP1, operazione che può risultare impegnativa. I servizi essenziali forniti da questi server richiedono i protocolli Server Message Block (SMB) e Common Internet File System (CIFS), che possono entrambi fornire molte informazioni a utenti non autenticati. Tali protocolli sono spesso disattivati sui server di stampa in ambienti Windows con un livello di protezione alto. Tuttavia, se questi protocolli sono disattivati nell'ambiente in uso, accedere ai server di stampa può essere difficile sia per gli amministratori che per gli utenti.
+Questo capitolo si concentra su come garantire una protezione avanzata ai server di stampa che eseguono Microsoft Windows Server 2003 con SP1, operazione che può risultare impegnativa. I servizi essenziali forniti da questi server richiedono i protocolli Server Message Block (SMB) e Common Internet File System (CIFS), che possono entrambi fornire molte informazioni a utenti non autenticati. Tali protocolli sono spesso disattivati sui server di stampa in ambienti Windows con un livello di protezione alto. Tuttavia, se questi protocolli sono disattivati nell'ambiente in uso, accedere ai server di stampa può essere difficile sia per gli amministratori che per gli utenti.
 
 La maggior parte delle impostazioni in questo capitolo sono configurate e applicate tramite il criterio di gruppo. È possibile collegare un oggetto Criteri di Gruppo (Group Policy object, GPO) che complementi i Criteri di base dei server membro (Member Server Baseline Policy, MSBP) alle unità organizzative appropriate (Organizational Unit, OU) che contengono i server di stampa, al fine di offrire le impostazioni di sicurezza necessarie per tale ruolo server. Questo capitolo tratta solo le impostazioni dei criteri che differiscono da quelle dei criteri MSBP.
 
@@ -212,14 +212,20 @@ Dopo aver verificato a fondo il criterio, completare le seguenti fasi, per trasf
   
 1.  Al prompt dei comandi digitare il seguente comando:
 
-    ```  
-    scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-    ```  
-    e premere INVIO. Ad esempio:
-  
+
     ```
-    scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Print Server.xml" /g:"Print Server Policy"  
-    ```  
+    scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+
+    ```
+  
+    e premere INVIO. Ad esempio:
+
+    ```
+    scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Print 
+    Server.xml" /g:"Print Server Policy"
+
+    ```
+  
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   
 2.  Utilizzare la Console di gestione Criteri di gruppo per collegare il GPO appena creato all'unità operativa adeguata.

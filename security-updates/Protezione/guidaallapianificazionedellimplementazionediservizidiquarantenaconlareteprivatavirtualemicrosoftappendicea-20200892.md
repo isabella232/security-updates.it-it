@@ -15,8 +15,8 @@ Aggiornato: 24 maggio 2005
 
 ##### In questa pagina
 
-[](#ecaa)[Esempi di script di quarantena](#ecaa)
-[](#ebaa)[Componenti di accesso remoto](#ebaa)
+[](#ecaa)[Esempi di script di quarantena](#ecaa)  
+[](#ebaa)[Componenti di accesso remoto](#ebaa)  
 [](#eaaa)[Avvio dello script di Windows Update](#eaaa)
 
 ### Esempi di script di quarantena
@@ -82,26 +82,24 @@ Nella seguente sezione viene descritta la sintassi relativa a due componenti di 
 #### Sintassi del servizio Agente quarantena accesso remoto (RQS, Remote Access Quarantine Agent Service)
   
 Per avviare il servizio Agente quarantena accesso remoto, digitare quanto segue dalla riga di comando:
-  
 ```
 Net start rqs  
 ```  
 Per arrestare il servizio agente di quarantena per accesso remoto, digitare quanto segue dalla riga di comando:
-  
-```
+```  
 Net stop rqs  
 ```  
 #### Sintassi dell'agente Client quarantena accesso remoto (RQC)
   
 RQC presenta la seguente sintassi:
-  
-```
+```  
 rqc ConnName TunnelConnName Port Domain UserName String  
 ```  
 Nella seguente tabella vengono elencati i parametri dell'agente Client quarantena accesso remoto e la relativa descrizione.
   
 **Tabella A.2 Parametri agente RQC**
 
+ 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -146,9 +144,11 @@ Nella seguente tabella vengono elencati i parametri dell'agente Client quaranten
 ### Avvio dello script di Windows Update
   
 Il codice riportato di seguito viene utilizzato con lo script CheckHotFixes.vbs per indirizzare l'utente al sito Microsoft® Windows® Update, in cui è possibile eseguire l'installazione degli aggiornamenti della protezione più recenti:
-  
 ```
-Prog = """C:\\Programmi\\Internet Explorer\\iexplore.exe""" WUSite= " http://windowsupdate.microsoft.com" Set WshShell = CreateObject("Wscript.Shell") WshShell.Run(prog & WUsite),1,TRUE  
+Prog = """C:\Programmi\Internet Explorer\iexplore.exe""" 
+WUSite= " http://windowsupdate.microsoft.com" 
+Set WshShell = CreateObject("Wscript.Shell") 
+WshShell.Run(prog & WUsite),1,TRUE
 ```  
 ##### Download
   
