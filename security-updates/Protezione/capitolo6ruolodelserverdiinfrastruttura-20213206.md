@@ -33,7 +33,6 @@ Dove possibile, queste impostazioni di criterio sono raccolte in un oggetto Crit
 La tabella seguente mostra i nomi dei modelli di protezione dei server infrastruttura per i tre ambienti definiti in questa guida. Questi modelli forniscono le impostazioni di criterio per il modello di server infrastruttura incrementale, che a sua volta è utilizzato per creare un nuovo GPO collegato all'OU dei server infrastruttura nell'ambiente relativo. Le istruzioni dettagliate sono contenute nel Capitolo 2, "Meccanismi di protezione avanzata di Windows Server 2003" per facilitare la creazione di OU e di criteri di gruppo e quindi di importare il modello di protezione idoneo in ciascun GPO.
 
 **Tabella 6.1 Criteri e modelli di sicurezza dei server infrastruttura**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -57,7 +56,7 @@ La tabella seguente mostra i nomi dei modelli di protezione dei server infrastru
 </tbody>
 </table>
   
-Per le informazioni sulle impostazioni di criterio nell'MSBP, consultare il Capitolo 4, “Criterio di base per un server membro". Per informazioni su tutte le impostazioni di criteri predefinite, consultare la guida correlata, [*Pericoli e contromisure: impostazioni di protezione per Windows Server 2003 e Windows XP*](http://technet.microsoft.com/it-it/library/dd162275)*, *disponibile all'indirizzo * *http://www.microsoft.com/italy/technet/security/topics/serversecurity/tcg/tcgch00.mspx.
+Per le informazioni sulle impostazioni di criterio nell'MSBP, consultare il Capitolo 4, “Criterio di base per un server membro". Per informazioni su tutte le impostazioni di criteri predefinite, consultare la guida correlata, [*Pericoli e contromisure: impostazioni di protezione per Windows Server 2003 e Windows XP*](http://technet.microsoft.com/it-it/library/dd162275), disponibile all'indirizzo http://www.microsoft.com/italy/technet/security/topics/serversecurity/tcg/tcgch00.mspx.
   
 [](#mainsection)[Inizio pagina](#mainsection)
   
@@ -206,7 +205,7 @@ Il criterio è verificato per accertarsi che la sua applicazione a server di des
 Quando si è certi delle proprie configurazioni di criterio, è possibile utilizzare Scwcmd come mostrato nella seguente procedura per convertire i criteri in GPO.
   
 Per ulteriori dettagli su come verificare i criteri di SCW, consultare la guida [Deployment Guide for the Security Configuration Wizard](http://technet.microsoft.com/en-us/library/cc776871.aspx) (in inglese) all'indirizzo www.microsoft.com/technet/prodtechnol/windowsserver2003/  
-library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* * e la guida [Security Configuration Wizard Documentation](http://go.microsoft.com/fwlink/?linkid=43450)(in inglese) all'indirizzo http://go.microsoft.com/fwlink/?linkid=43450.
+library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx e la guida [Security Configuration Wizard Documentation](http://go.microsoft.com/fwlink/?linkid=43450)(in inglese) all'indirizzo http://go.microsoft.com/fwlink/?linkid=43450.
   
 #### Conversione e utilizzo del criterio
   
@@ -214,20 +213,15 @@ Dopo aver verificato a fondo il criterio, completare le seguenti fasi, per trasf
   
 1.  Al prompt dei comandi digitare il seguente comando:
 
-    ```
-  
+    ```  
     scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
-
-    ```
-  
+    ```  
     e premere INVIO. Ad esempio:
 
-    ```
-  
+    ```  
     scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Infrastructure.xml"
     /g:"Infrastructure Policy" 
-    ```
-  
+    ```  
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   
 2.  Utilizzare la Console di gestione Criteri di gruppo per collegare il GPO appena creato all'unità operativa adeguata.
