@@ -318,16 +318,13 @@ Dopo aver verificato a fondo il criterio, completare le seguenti fasi, per trasf
   
     ```
        scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
-    ```
-    
+    ```    
     e premere INVIO. Ad esempio:
     
     ```
        scwcmd transform /p:"C:\Windows\Security\msscw\Policies\
        Certificate Services.xml" /g:"Certificate Services Policy"
-    ```
-   
-  
+    ```  
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   
 2.  Utilizzare la Console di gestione Criteri di gruppo per collegare il GPO appena creato all'unità operativa adeguata.

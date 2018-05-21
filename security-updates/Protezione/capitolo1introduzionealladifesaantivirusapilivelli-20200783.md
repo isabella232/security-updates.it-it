@@ -54,8 +54,8 @@ Microsoft ha prodotto queste indicazioni sulla protezione con l'intento di aiuta
 
 ##### In questa pagina
 
-[](#ebaa)[Destinatari](#ebaa)
-[](#eaaa)[Convenzioni stilistiche adottate in questa guida](#eaaa)
+[](#ebaa)[Destinatari](#ebaa)   
+[](#eaaa)[Convenzioni stilistiche adottate in questa guida](#eaaa)   
 
 ### Destinatari
 
@@ -70,7 +70,6 @@ Le considerazioni riportate nella Guida sono soprattutto relative alla difesa an
 Nella tabella riportata di seguito sono indicate le convenzioni stilistiche utilizzate nella** *Guida alla difesa antivirus a più livelli*.
 
 **Tabella 1.1: Convenzioni di stile**
-
  
 <table style="border:1px solid black;">
 <colgroup>

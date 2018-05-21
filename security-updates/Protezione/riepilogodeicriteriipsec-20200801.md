@@ -47,7 +47,7 @@ Tutti i criteri definiti all'interno di questa soluzione contengono le seguenti 
 
 **Elenco filtri**: "IPSEC - Elenco esenzioni VIP cluster"
 
-**Filtro**:     Indirizzo IP &lt;-&gt; Indirizzo IP specifico, Speculare - Correntemente vuoto
+**Filtro**: Indirizzo IP &lt;-&gt; Indirizzo IP specifico, Speculare - Correntemente vuoto
 
 **Descrizione**: "Indirizzi IP per tutti i VIP cluster dell'organizzazione"
 
@@ -63,7 +63,7 @@ Tutti i criteri definiti all'interno di questa soluzione contengono le seguenti 
 
 **Elenco filtri**: "IPSEC - DHCP, Traffico di negoziazione"
 
-**Filtro**:     Indirizzo IP &lt;-&gt; Qualsiasi, UDP, Da porta 68 SRC a porta 67 DST, Speculare
+**Filtro**: Indirizzo IP &lt;-&gt; Qualsiasi, UDP, Da porta 68 SRC a porta 67 DST, Speculare
 
 **Descrizione**: "Consente il traffico di negoziazione DHCP"
 
@@ -79,9 +79,9 @@ Tutti i criteri definiti all'interno di questa soluzione contengono le seguenti 
 
 **Elenco filtri**: "IPSEC - Elenco esenzioni DNS"
 
-**Filtro**:    Qualsiasi <-> 192.168.1.21, Speculare
+**Filtro**: Qualsiasi <-> 192.168.1.21, Speculare
 
-               Qualsiasi <-> 192.168.1.22, Speculare
+            Qualsiasi <-> 192.168.1.22, Speculare
 
 **Descrizione**: "Indirizzi IP per tutti i server DNS dell'organizzazione"
 
@@ -97,7 +97,7 @@ Tutti i criteri definiti all'interno di questa soluzione contengono le seguenti 
 
 **Elenco filtri**: "IPSEC - Elenco esenzioni controller di dominio"
 
-**Filtro**:    Qualsiasi &lt;-&gt; 192.168.1.21, Speculare
+**Filtro**: Qualsiasi &lt;-&gt; 192.168.1.21, Speculare
 
               Qualsiasi <-> 192.168.1.22, Speculare
 
@@ -115,7 +115,7 @@ Tutti i criteri definiti all'interno di questa soluzione contengono le seguenti 
 
 **Elenco filtri**: "IPSEC - Elenco esenzioni WINS"
 
-**Filtro**:    Qualsiasi &lt;-&gt; 192.168.1.22, Speculare
+**Filtro**: Qualsiasi &lt;-&gt; 192.168.1.22, Speculare
 
 **Descrizione**: "Indirizzi IP per tutti i server WINS dell'organizzazione"
 
@@ -131,7 +131,7 @@ Tutti i criteri definiti all'interno di questa soluzione contengono le seguenti 
 
 **Elenco filtri**: "IPSEC - Elenco esenzioni server applicazioni LOB"
 
-**Filtro**:    Qualsiasi &lt;-&gt; 192.168.1.10, Speculare
+**Filtro**: Qualsiasi &lt;-&gt; 192.168.1.10, Speculare
 
 **Descrizione**: "Indirizzi IP per tutti i server Line-Of-Business dell'organizzazione"
 
@@ -147,7 +147,7 @@ Tutti i criteri definiti all'interno di questa soluzione contengono le seguenti 
 
 **Elenco filtri**: "IPSEC - ICMP, Tutto il traffico"
 
-**Filtro**:    Indirizzo IP &lt;-&gt; Qualsiasi, ICMP, Speculare
+**Filtro**: Indirizzo IP &lt;-&gt; Qualsiasi, ICMP, Speculare
 
 **Descrizione**: "Consente tutto il traffico ICMP"
 
@@ -163,7 +163,7 @@ Tutti i criteri definiti all'interno di questa soluzione contengono le seguenti 
 
 **Elenco filtri**: "IPSEC - Indirizzi esentati"
 
-**Filtro**:     Qualsiasi &lt;-&gt; Indirizzo IP specifico, Speculare – Correntemente vuoto
+**Filtro**: Qualsiasi &lt;-&gt; Indirizzo IP specifico, Speculare – Correntemente vuoto
 
 **Descrizione**: "Indirizzi IP da esentare dalle comunicazioni IPSec"
 
@@ -179,7 +179,7 @@ Tutti i criteri definiti all'interno di questa soluzione contengono le seguenti 
 
 **Elenco filtri**: "IPSEC - Subnet esentate"
 
-**Filtro**:     Indirizzo IP &lt;-&gt; Subnet IP specifica, Speculare - Correntemente vuoto
+**Filtro**: Indirizzo IP &lt;-&gt; Subnet IP specifica, Speculare - Correntemente vuoto
 
 **Descrizione**: "Subnet da esentare dalle comunicazioni IPSec"
 
@@ -195,7 +195,7 @@ Tutti i criteri definiti all'interno di questa soluzione contengono le seguenti 
 
 **Elenco filtri**: "IPSEC - Versione criterio: (1.0.041001.1600)"
 
-**Filtro**:     1.1.1.1 &lt;-&gt; 1.1.1.2, ICMP, Speculare
+**Filtro**: 1.1.1.1 &lt;-&gt; 1.1.1.2, ICMP, Speculare
 
 **Descrizione**: "Non è un vero elenco filtri.  Utilizzato per identificare la versione di un criterio IPSec."
 
