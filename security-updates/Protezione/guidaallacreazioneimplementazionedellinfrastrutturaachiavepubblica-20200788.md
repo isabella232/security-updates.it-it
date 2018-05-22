@@ -826,8 +826,14 @@ IIS viene installato con Gestione componenti facoltativi di Windows (accessibile
   
     Tramite questo comando, Gestione componenti facoltativi utilizza le configurazioni dei componenti specificate nel file di installazione automatica C:\\MSSScripts\\OC\_AddIIS.txt:
   
-    <codesnippet language displaylanguage containsmarkup="false">\[Components\] complusnetwork = On iis\_common = On iis\_asp = On iis\_inetmgr = On iis\_www = On  
-```
+    ```
+    [Components]
+    complusnetwork = On
+    iis_common = On
+    iis_asp = On
+    iis_inetmgr = On
+    iis_www = On
+    ```
   
     **Nota:** in questa configurazione vengono attivate le pagine ASP (con la riga iis\_asp = on). Tale opzione serve a supportare le pagine di registrazione Web di Servizi certificati, ma non serve per la soluzione principale. Se le pagine di registrazione Web non sono richieste, è necessario disattivare ASP (eliminando la riga iis\_asp = on prima di eseguire sysocmgr.exe). All'occorrenza, è possibile attivare questa impostazione in un secondo momento.
   
@@ -1002,8 +1008,11 @@ Questa sezione illustra le procedure di installazione e configurazione di altri 
   
 Tramite questo comando, Gestione componenti facoltativi utilizza le configurazioni dei componenti specificate nel file C:\\MSSScripts\\OC\_ RemoveRootUpdate.txt
   
-<codesnippet language displaylanguage containsmarkup="false">\[Components\] rootautoupdate = Off  
-```  
+```
+[Components]
+rootautoupdate = Off
+```
+
 #### Controllo dei Service Pack e degli aggiornamenti di protezione
   
 A questo punto, è necessario controllare nuovamente i Service Pack e l'elenco degli aggiornamenti installati, in quanto potrebbero essere stati installati componenti aggiuntivi, quali IIS. Utilizzare uno strumento come Microsoft Baseline Security Analyzer (MBSA) per eseguire il controllo, ottenere gli aggiornamenti necessari e, dopo un'adeguata verifica, installarli nei server.
@@ -2230,15 +2239,26 @@ Le informazioni CRL e AIA non sono necessarie per il certificato della CA princi
   
 1.  Immettere il testo seguente in un editor di testi, ad esempio Blocco note:
   
-    <codesnippet language displaylanguage containsmarkup="false">\[Version\] Signature= "$Windows NT$" \[Certsrv\_Server\] RenewalKeyLength=4096  RenewalValidityPeriod=Years  RenewalValidityPeriodUnits=16 \[CRLDistributionPoint\] Empty=true \[AuthorityInformationAccess\] Empty=true  
-```
+   ```
+   [Version]
+   Signature= "$Windows NT$"
+
+   [Certsrv_Server]
+   RenewalKeyLength=2048
+   ```
   
-    **Attenzione:** l'utilizzo di una chiave della lunghezza di 4.096 bit potrebbe causare problemi di compatibilità. Alcuni dispositivi (per esempio, alcuni router) e alcuni software precedenti di altri fornitori non sono in grado di elaborare chiavi superiori a una data dimensione.
+   **Attenzione:** l'utilizzo di una chiave della lunghezza di 4.096 bit potrebbe causare problemi di compatibilità. Alcuni dispositivi (per esempio, alcuni router) e alcuni software precedenti di altri fornitori non sono in grado di elaborare chiavi superiori a una data dimensione.
   
 2.  Se è stata definita una CPS per la CA, includere quanto segue nel file Capolicy.inf (è necessario sostituire tutte le voci in corsivo con i valori della propria organizzazione):
   
-    <codesnippet language displaylanguage containsmarkup="false">\[CAPolicy\] Policies=WoodGrove Bank Root CA CPS \[WoodGrove Bank Root CA CPS\] OID=your.Orgs.OID URL = "http://www.woodgrovebank.com/YourCPSPage.htm"   
-```
+    ```
+    [CAPolicy]
+    Policies=WoodGrove Bank Root CA CPS
+
+    [WoodGrove Bank Root CA CPS]
+    OID=your.Orgs.OID
+    URL = "http://www.woodgrovebank.com/YourCPSPage.htm" 
+    ```
   
 3.  Salvare il file come %windir%\\Capolicy.inf (o sostituire %windir% con il percorso assoluto della cartella in cui Windows è installato, ad esempio C:\\Windows). È necessario essere un amministratore locale o disporre delle autorizzazioni di scrittura nella cartella di Windows per completare questo passaggio.
   
@@ -2629,14 +2649,35 @@ Il file CAPolicy.inf non è indispensabile per la CA di emissione, tuttavia, ne 
   
 1.  Immettere il testo seguente in un editor di testi, ad esempio Blocco note.
   
-    <codesnippet language displaylanguage containsmarkup="false">\[Version\] Signature= "$Windows NT$" \[Certsrv\_Server\] RenewalKeyLength=2048   
-```
+    ```
+    [Version]
+    Signature= "$Windows NT$"
+
+    [Certsrv_Server]
+    RenewalKeyLength=4096 
+    RenewalValidityPeriod=Years 
+    RenewalValidityPeriodUnits=16
+
+    [CRLDistributionPoint]
+    Empty=true
+
+    [AuthorityInformationAccess]
+    Empty=true
+    ```
+  
+    **Attenzione:** l'utilizzo di una chiave della lunghezza di 4.096 bit potrebbe causare problemi di compatibilità. Alcuni dispositivi (per esempio, alcuni router) e alcuni software precedenti di altri fornitori non sono in grado di elaborare chiavi superiori a una data dimensione.
   
 2.  Se è stata definita una CPS per la CA, includere quanto segue nel file Capolicy.inf (è necessario sostituire tutte le voci in corsivo con i valori della propria organizzazione):
   
-    <codesnippet language displaylanguage containsmarkup="false">\[CAPolicy\] Policies=WoodGrove Bank Issuing CA 1 CPS \[WoodGrove Bank Issuing CA 1 CPS\] OID=your.Orgs.OID URL = "http://www.woodgrovebank.com/YourCPSPage.htm"   
-```
-  
+    ```
+    [CAPolicy]
+    Policies=WoodGrove Bank Root CA CPS
+
+    [WoodGrove Bank Root CA CPS]
+    OID=your.Orgs.OID
+    URL = "http://www.woodgrovebank.com/YourCPSPage.htm" 
+    ```
+    
     **Nota:** vedere la sezione "Creazione di una dichiarazione delle procedure di certificazione" nel capitolo 4, "Progettazione dell’infrastruttura a chiave pubblica (PKI)," per ulteriori informazioni sulla CPS e sui casi in cui è opportuno crearne una. La CPS è un documento legale e non un elemento tecnico, pertanto, bisogna essere certi che sia realmente necessaria prima di configurarla nella CA.
   
 3.  Salvare il file come %*windir%*Capolicy.inf (o sostituire %windir% con il percorso assoluto della cartella in cui Windows è installato, ad esempio C:\\Windows). È necessario essere un amministratore locale o disporre delle autorizzazioni di scrittura nella cartella di Windows per completare questo passaggio.
