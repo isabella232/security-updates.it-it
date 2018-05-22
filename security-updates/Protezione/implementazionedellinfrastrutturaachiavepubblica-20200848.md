@@ -677,7 +677,7 @@ Per motivi di sicurezza è necessario inoltre bloccare qualsiasi connettività i
 
     2.  Verificare i seguenti elementi dell'output del comando systeminfo (altri dettagli sono stati omessi per brevità):
 
-		```
+	```
 	Host Name:	HQ-CA-01
 	OS Name:	Microsoft® Windows® Server 2003, Standard Edition
 	...
