@@ -13,13 +13,13 @@ Pubblicato: 11 ottobre 2004 | Aggiornato: 24/11/2004
 
 ##### In questa pagina
 
-[](#egaa)[Introduzione](#egaa)
-[](#efaa)[Foglio di lavoro per la pianificazione dell'infrastruttura RADIUS](#efaa)
-[](#eeaa)[Creazione dei propri server](#eeaa)
-[](#edaa)[Installazione e configurazione del Servizio autenticazione Internet](#edaa)
-[](#ecaa)[Configurazione del server IAS primario](#ecaa)
-[](#ebaa)[Distribuzione della configurazione a più server IAS](#ebaa)
-[](#eaaa)[Riepilogo](#eaaa)
+[](#egaa)[Introduzione](#egaa)  
+[](#efaa)[Foglio di lavoro per la pianificazione dell'infrastruttura RADIUS](#efaa)  
+[](#eeaa)[Creazione dei propri server](#eeaa)  
+[](#edaa)[Installazione e configurazione del Servizio autenticazione Internet](#edaa)  
+[](#ecaa)[Configurazione del server IAS primario](#ecaa)  
+[](#ebaa)[Distribuzione della configurazione a più server IAS](#ebaa)  
+[](#eaaa)[Riepilogo](#eaaa)  
 
 ### Introduzione
 
@@ -380,11 +380,11 @@ I server IAS dispongono di una singola interfaccia di rete, sebbene questa confi
 
     Aggiornamenti rapidi: X aggiornamenti rapidi installati.
 
-                               \[01\]: Qxxxxxx
+      \[01\]: Qxxxxxx
 
     ...
 
-                               \[nn\]: Qnnnnnn
+      \[nn\]: Qnnnnnn
 
     Schede di rete: 1 NIC installata.
 
@@ -549,9 +549,8 @@ Se si utilizza il modello di protezione Enterprise Client - Controller di domini
 8.  Ripetere i tre passaggi precedenti per la combinazione di unità operative, GPO e modelli di protezione mostrata nella tabella seguente. Questi tre GPO agiscono solo sui server IAS, quindi l'avviso precedente in questo caso non è rilevante.
 
     **Tabella 8.4. Oggetti Criteri di gruppo e posizione**
-
- 
-    <table style="border:1px solid black;">
+   
+   <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
     <col width="33%" />

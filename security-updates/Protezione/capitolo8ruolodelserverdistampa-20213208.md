@@ -13,18 +13,18 @@ Guida per la protezione di Windows Server 2003
 
 ##### In questa pagina
 
-[](#ehaa)[Panoramica](#ehaa)
-[](#egaa)[Impostazioni del Criterio Controllo](#egaa)
-[](#efaa)[Assegnazione dei diritti utente](#efaa)
-[](#eeaa)[Opzioni di protezione](#eeaa)
-[](#edaa)[Impostazioni del Registro eventi](#edaa)
-[](#ecaa)[Impostazioni di protezione aggiuntive](#ecaa)
-[](#ebaa)[Creazione del criterio utilizzando SCW](#ebaa)
+[](#ehaa)[Panoramica](#ehaa)  
+[](#egaa)[Impostazioni del Criterio Controllo](#egaa)  
+[](#efaa)[Assegnazione dei diritti utente](#efaa)  
+[](#eeaa)[Opzioni di protezione](#eeaa)  
+[](#edaa)[Impostazioni del Registro eventi](#edaa)  
+[](#ecaa)[Impostazioni di protezione aggiuntive](#ecaa)  
+[](#ebaa)[Creazione del criterio utilizzando SCW](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Panoramica
 
-Questo capitolo si concentra su come garantire una protezione avanzata ai server di stampa che eseguono Microsoft Windows* *Server * *2003 con SP1, operazione che può risultare impegnativa. I servizi essenziali forniti da questi server richiedono i protocolli Server Message Block (SMB) e Common Internet File System (CIFS), che possono entrambi fornire molte informazioni a utenti non autenticati. Tali protocolli sono spesso disattivati sui server di stampa in ambienti Windows con un livello di protezione alto. Tuttavia, se questi protocolli sono disattivati nell'ambiente in uso, accedere ai server di stampa può essere difficile sia per gli amministratori che per gli utenti.
+Questo capitolo si concentra su come garantire una protezione avanzata ai server di stampa che eseguono Microsoft Windows Server 2003 con SP1, operazione che può risultare impegnativa. I servizi essenziali forniti da questi server richiedono i protocolli Server Message Block (SMB) e Common Internet File System (CIFS), che possono entrambi fornire molte informazioni a utenti non autenticati. Tali protocolli sono spesso disattivati sui server di stampa in ambienti Windows con un livello di protezione alto. Tuttavia, se questi protocolli sono disattivati nell'ambiente in uso, accedere ai server di stampa può essere difficile sia per gli amministratori che per gli utenti.
 
 La maggior parte delle impostazioni in questo capitolo sono configurate e applicate tramite il criterio di gruppo. È possibile collegare un oggetto Criteri di Gruppo (Group Policy object, GPO) che complementi i Criteri di base dei server membro (Member Server Baseline Policy, MSBP) alle unità organizzative appropriate (Organizational Unit, OU) che contengono i server di stampa, al fine di offrire le impostazioni di sicurezza necessarie per tale ruolo server. Questo capitolo tratta solo le impostazioni dei criteri che differiscono da quelle dei criteri MSBP.
 
@@ -33,7 +33,6 @@ Dove possibile, queste impostazioni sono raccolte in un oggetto Criteri di Grupp
 La tabella seguente mostra i nomi dei modelli di protezione del server di stampa per i tre ambienti definiti in questa guida. Questi modelli forniscono le impostazioni di criterio per il modello di server di stampa incrementale, che a sua volta è utilizzato per creare un nuovo GPO collegato all'OU dei server di stampa nell'ambiente relativo. Le istruzioni dettagliate sono contenute nel Capitolo 2, "Meccanismi di protezione avanzata di Windows Server 2003" per facilitare la creazione di OU e di criteri di gruppo e quindi di importare il modello di protezione idoneo in ciascun GPO.
 
 **Tabella 8.1 Modelli di protezione dei server di stampa per tutti e tre gli ambienti**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -82,7 +81,6 @@ La maggior parte delle impostazioni delle opzioni di protezione per i server di 
 #### Server di rete Microsoft: aggiungi firma digitale alle comunicazioni (sempre)
   
 **Tabella 8.2 Impostazioni consigliate per l'aggiunta della firma digitale alle comunicazioni (sempre)**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -213,14 +211,20 @@ library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* * e la guida [S
 Dopo aver verificato a fondo il criterio, completare le seguenti fasi, per trasformarlo in un GPO e utilizzarlo:
   
 1.  Al prompt dei comandi digitare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
+
+
+    ```
+    scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+
+    ```
   
     e premere INVIO. Ad esempio:
-  
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Print Server.xml" /g:"Print Server Policy"  
-```
+
+    ```
+    scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Print 
+    Server.xml" /g:"Print Server Policy"
+
+    ```
   
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   

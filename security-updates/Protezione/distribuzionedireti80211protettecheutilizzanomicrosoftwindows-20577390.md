@@ -17,12 +17,12 @@ In questo articolo si descrive come distribuire un accesso wireless IEEE 802.11 
 
 ##### In questa pagina
 
-[](#efaa)[Introduzione](#efaa)
-[](#eeaa)[Procedura di distribuzione wireless Intranet](#eeaa)
-[](#edaa)[Configurazioni aggiuntive di distribuzione wireless Intranet](#edaa)
-[](#ecaa)[Appendice A Utilizzare soltanto l'autenticazione del computer](#ecaa)
-[](#ebaa)[Riepilogo](#ebaa)
-[](#eaaa)[Collegamenti correlati](#eaaa)
+[](#efaa)[Introduzione](#efaa)  
+[](#eeaa)[Procedura di distribuzione wireless Intranet](#eeaa)  
+[](#edaa)[Configurazioni aggiuntive di distribuzione wireless Intranet](#edaa)  
+[](#ecaa)[Appendice A Utilizzare soltanto l'autenticazione del computer](#ecaa)  
+[](#ebaa)[Riepilogo](#ebaa)  
+[](#eaaa)[Collegamenti correlati](#eaaa)  
 
 ### Introduzione
 

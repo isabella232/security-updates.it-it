@@ -15,15 +15,15 @@ Pubblicato: 20 maggio 2004
 
 ##### In questa pagina
 
-[](#eiaa)[Introduzione](#eiaa)
-[](#ehaa)[Vettori di pericoli correlati a software dannoso](#ehaa)
-[](#egaa)[Strategia di difesa da attacchi di software dannoso](#egaa)
-[](#efaa)[Protezione client](#efaa)
-[](#eeaa)[Protezione server](#eeaa)
-[](#edaa)[Livello di difesa della rete](#edaa)
-[](#ecaa)[Protezione fisica](#ecaa)
-[](#ebaa)[Criteri, procedure e consapevolezza](#ebaa)
-[](#eaaa)[Riepilogo](#eaaa)
+[](#eiaa)[Introduzione](#eiaa)  
+[](#ehaa)[Vettori di pericoli correlati a software dannoso](#ehaa)  
+[](#egaa)[Strategia di difesa da attacchi di software dannoso](#egaa)  
+[](#efaa)[Protezione client](#efaa)  
+[](#eeaa)[Protezione server](#eeaa)  
+[](#edaa)[Livello di difesa della rete](#edaa)  
+[](#ecaa)[Protezione fisica](#ecaa)  
+[](#ebaa)[Criteri, procedure e consapevolezza](#ebaa)  
+[](#eaaa)[Riepilogo](#eaaa)  
 
 ### Introduzione
 
@@ -213,8 +213,12 @@ Un'altra area da non trascurare tra i sistemi di protezione dei client è rappre
 Un utente che ha l'esigenza di installare un'applicazione che richiede i privilegi di amministratore potrebbe ad esempio eseguire il seguente comando di installazione al prompt dei comandi per avviare il programma di installazione con i privilegi appropriati:
 
 ```
-È possibile inoltre accedere a questa funzione direttamente da Esplora risorse di Microsoft effettuando le seguenti operazioni:
+runas /user:mydomain\admin "setup.exe"
 ```
+È possibile inoltre accedere a questa funzione direttamente da Esplora risorse di Microsoft effettuando le seguenti operazioni:
+
+È possibile inoltre accedere a questa funzione direttamente da Esplora risorse di Microsoft effettuando le seguenti operazioni:
+
 
 **Per eseguire un programma con privilegi amministrativi**
 

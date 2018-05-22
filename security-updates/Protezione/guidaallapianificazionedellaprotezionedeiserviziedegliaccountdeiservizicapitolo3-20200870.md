@@ -35,13 +35,13 @@ Per proteggere i servizi, è necessario effettuare le seguenti attività:
 
 ##### In questa pagina
 
-[](#ehaa)[Controllo di tutti i server allo scopo di individuare le proprietà dei servizi essenziali](#ehaa)
-[](#egaa)[Determinazione dei servizi effettivamente necessari](#egaa)
-[](#efaa)[Individuazione ed eliminazione di tutti gli account Administrator del dominio per i servizi](#efaa)
-[](#eeaa)[Distribuzione dei servizi mediante una gerarchia basata sul privilegio minimo](#eeaa)
-[](#edaa)[Creazione di un gruppo di server con livello di protezione alto per le eccezioni di amministratore del dominio](#edaa)
-[](#ecaa)[Gestione dei cambiamenti delle password degli account computer](#ecaa)
-[](#ebaa)[Utilizzo di password complesse](#ebaa)
+[](#ehaa)[Controllo di tutti i server allo scopo di individuare le proprietà dei servizi essenziali](#ehaa)  
+[](#egaa)[Determinazione dei servizi effettivamente necessari](#egaa)  
+[](#efaa)[Individuazione ed eliminazione di tutti gli account Administrator del dominio per i servizi](#efaa)  
+[](#eeaa)[Distribuzione dei servizi mediante una gerarchia basata sul privilegio minimo](#eeaa)  
+[](#edaa)[Creazione di un gruppo di server con livello di protezione alto per le eccezioni di amministratore del dominio](#edaa)  
+[](#ecaa)[Gestione dei cambiamenti delle password degli account computer](#ecaa)  
+[](#ebaa)[Utilizzo di password complesse](#ebaa)  
 [](#eaaa)[Test automatici per la ricerca delle password amministratore vulnerabili](#eaaa)
 
 ### Controllo di tutti i server allo scopo di individuare le proprietà dei servizi essenziali
@@ -105,12 +105,18 @@ Per un'organizzazione è indispensabile conoscere il numero esatto dei server pr
     Esempio di sintassi:
 
     **Nota:** per facilitare la lettura, alcune parti del seguente frammento di codice sono state visualizzate su più righe. Il comando, tuttavia, deve essere immesso in un'unica riga.
-        ```
+
+    ```
+    WMIC /NODE:Server1,Server2,Server3 SERVICE GET Name,DisplayName,ProcessId,Started,StartMode, SystemName
+    ```
 
     È anche possibile specificare il percorso di un file di testo in cui sono elencati i computer remoti sui quali si desidera utilizzare WMIC per eseguire azioni.
 
     Esempio di sintassi:
-        ```
+
+    ```
+    WMIC /NODE:@"C:\ElencoServer.txt" SERVICE LIST BRIEF
+    ```
 
     Di seguito sono elencati alcuni scenari tipici in cui è possibile utilizzare WMIC per facilitare l'esecuzione delle attività:
 

@@ -11,10 +11,10 @@ Configurazione di punti di accesso wireless protetti
 
 ##### In questa pagina
 
-[](#eeaa)[Introduzione](#eeaa)
-[](#edaa)[Definizione](#edaa)
-[](#ecaa)[Sfide](#ecaa)
-[](#ebaa)[Soluzioni](#ebaa)
+[](#eeaa)[Introduzione](#eeaa)  
+[](#edaa)[Definizione](#edaa)  
+[](#ecaa)[Sfide](#ecaa)  
+[](#ebaa)[Soluzioni](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Introduzione
@@ -150,7 +150,6 @@ La tecnologia wireless produce diversi vantaggi operativi, che variano a seconda
 Al fine di comprendere il livello di sicurezza offerto dalle diverse soluzioni di protezione delle reti wireless disponibili è importante conoscere le minacce più comuni a cui sono soggette le reti wireless. Le vulnerabilità e i profili degli attacchi associati alle reti tradizionali sono ampiamente noti. Le reti wireless sono invece soggette a minacce diverse da questi rischi tradizionali.
 
 **Tabella 1. Tipici rischi di protezione delle reti WLAN**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -210,7 +209,6 @@ A parte l'approccio più diffuso, ovvero la decisione di non adottare la tecnolo
   
 **Tabella 2. Confronto degli approcci alla protezione WLAN**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="20%" />
@@ -437,7 +435,6 @@ Come affermato in precedenza, EAP-TLS richiede almeno quattro server (o un numer
   
 **Tabella 3. Requisiti hardware consigliati per il server CA principale**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -558,7 +555,6 @@ Sono disponibili due approcci di bilanciamento del carico e failover sui server 
 
 **Tabella 4. Failover e bilanciamento del carico RADIUS per EAP**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -650,7 +646,6 @@ Un'altra valutazione riguarda la fattibilità del posizionamento di ulteriori se
 
 **Tabella 5. Considerazioni sul posizionamento congiunto IAS e controller di domini**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -712,7 +707,6 @@ Quando si valuta la capacità del server IAS è utile stimare i carichi potenzia
 
 **Tabella 6. Autenticazioni al secondo**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -790,7 +784,6 @@ Prima di iniziare la distribuzione della soluzione descritta in questa guida è 
   
 **Tabella 7. Informazioni di configurazione definite dall'utente**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -859,7 +852,6 @@ Non è necessario modificare le impostazioni elencate in questa tabella, a meno 
   
 **Tabella 8. Elementi di configurazione prescritti dalla soluzione**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1061,21 +1053,34 @@ IIS viene installato tramite Gestione componenti facoltativi di Windows (accessi
 **Per installare IIS**
   
 1.  Al prompt dei comandi, eseguire
+
+    ```
   
-    <codesnippet language displaylanguage containsmarkup="false"> Sysocmgr /i:sysoc.inf /u:C:\\MSSScripts\\OC\_AddIIS.txt   
-```
+    Sysocmgr /i:sysoc.inf /u:C:\MSSScripts\OC_AddIIS.txt
+
+    ```
   
     Tramite questo comando, Gestione componenti facoltativi utilizza le configurazioni dei componenti specificate nel file di installazione automatica C:\\MSSScripts\\OC\_AddIIS.txt riportate di seguito:
+
+    ```
   
-    <codesnippet language displaylanguage containsmarkup="false"> \[Components\] complusnetwork = On iis\_common = On iis\_asp = On iis\_inetmgr = On iis\_www = On   
-```
+    [Components]
+    complusnetwork = On
+    iis_common = On
+    iis_asp = On
+    iis_inetmgr = On
+    iis_www = On
+
+    ```
   
     **Nota**    In questa configurazione vengono attivate le pagine ASP. Tuttavia, se le pagine di registrazione Web di Servizi certificati non sono richieste, è necessario disattivare ASP eliminando la riga **iis\_asp = on** prima di eseguire sysocmgr.exe. All'occorrenza, è possibile attivare questa impostazione in un secondo momento.
   
 2.  Eseguire nuovamente Gestione componenti facoltativi e verificare che i componenti installati corrispondano a quelli elencati nella tabella precedente.
-  
-    <codesnippet language displaylanguage containsmarkup="false"> sysocmgr /i:sysoc.inf   
-```
+
+    ```  
+    sysocmgr /i:sysoc.inf
+
+    ```
   
     Non sono richiesti altri sottocomponenti di Server applicazioni, quindi non è necessario eseguire altre selezioni.
   
@@ -1090,55 +1095,54 @@ IIS viene installato tramite Gestione componenti facoltativi di Windows (accessi
   
 3.  Impostare la protezione della cartella nel modo seguente:
   
-    **Tabella 9. Autorizzazioni directory virtuale**
+**Tabella 9. Autorizzazioni directory virtuale**
 
- 
-    <table style="border:1px solid black;">
-    <colgroup>
-    <col width="33%" />
-    <col width="33%" />
-    <col width="33%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th style="border:1px solid black;" >User/Group</th>
-    <th style="border:1px solid black;" >Autorizzazione</th>
-    <th style="border:1px solid black;" >Consenti/Nega</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td style="border:1px solid black;">Administrators</td>
-    <td style="border:1px solid black;">Controllo completo</td>
-    <td style="border:1px solid black;">Consentito</td>
-    </tr>
-    <tr class="even">
-    <td style="border:1px solid black;">System</td>
-    <td style="border:1px solid black;">Controllo completo</td>
-    <td style="border:1px solid black;">Consentito</td>
-    </tr>
-    <tr class="odd">
-    <td style="border:1px solid black;">Creator Owners</td>
-    <td style="border:1px solid black;">Controllo completo (solo sottocartelle e file)</td>
-    <td style="border:1px solid black;">Consentito</td>
-    </tr>
-    <tr class="even">
-    <td style="border:1px solid black;">Users</td>
-    <td style="border:1px solid black;">Lettura e visualizzazione contenuto cartella</td>
-    <td style="border:1px solid black;">Consentito</td>
-    </tr>
-    <tr class="odd">
-    <td style="border:1px solid black;">IIS_WPG</td>
-    <td style="border:1px solid black;">Lettura e visualizzazione contenuto cartella</td>
-    <td style="border:1px solid black;">Consentito</td>
-    </tr>
-    <tr class="even">
-    <td style="border:1px solid black;">Account Internet Guest</td>
-    <td style="border:1px solid black;">Scrittura</td>
-    <td style="border:1px solid black;">Negato</td>
-    </tr>
-    </tbody>
-    </table>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >User/Group</th>
+<th style="border:1px solid black;" >Autorizzazione</th>
+<th style="border:1px solid black;" >Consenti/Nega</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Administrators</td>
+<td style="border:1px solid black;">Controllo completo</td>
+<td style="border:1px solid black;">Consentito</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">System</td>
+<td style="border:1px solid black;">Controllo completo</td>
+<td style="border:1px solid black;">Consentito</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Creator Owners</td>
+<td style="border:1px solid black;">Controllo completo (solo sottocartelle e file)</td>
+<td style="border:1px solid black;">Consentito</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Users</td>
+<td style="border:1px solid black;">Lettura e visualizzazione contenuto cartella</td>
+<td style="border:1px solid black;">Consentito</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">IIS_WPG</td>
+<td style="border:1px solid black;">Lettura e visualizzazione contenuto cartella</td>
+<td style="border:1px solid black;">Consentito</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Account Internet Guest</td>
+<td style="border:1px solid black;">Scrittura</td>
+<td style="border:1px solid black;">Negato</td>
+</tr>
+</tbody>
+</table>
   
 4.  Nella console di gestione di Internet Information Services, creare una nuova directory virtuale nel sito Web predefinito:
   
@@ -1158,14 +1162,19 @@ IIS viene installato tramite Gestione componenti facoltativi di Windows (accessi
 Oltre alle procedure di configurazione fin qui descritte, è consigliata l'installazione e la configurazione di altri componenti, inclusi:
   
 -   Servizio Aggiorna certificati principali. È necessario disattivare il servizio Aggiorna certificati principali in quanto non è consigliabile che la trust della directory principale delle CA venga aggiornata automaticamente. Per rimuovere questo servizio, utilizzare i comandi seguenti al prompt dei comandi:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> sysocmgr /i:sysoc.inf /u:C:\\MSSScripts\\OC\_RemoveRootUpdate.txt   
-```
+
+    ```
+    sysocmgr /i:sysoc.inf /u:C:\MSSScripts\OC_RemoveRootUpdate.txt
+
+    ```
   
     Il file OC\_RemoveRootUpdate.txt contiene le righe seguenti:
+
+    ```
   
-    <codesnippet language displaylanguage containsmarkup="false"> \[Components\] rootautoupdate = off   
-```
+    [Components]
+    rootautoupdate = off
+    ```
   
 -   Verificare che la CA principale non sia collegata alla rete e che sulla CA di emissione non vi sia connettività Internet in entrata o in uscita.
   
@@ -1189,15 +1198,16 @@ In questa soluzione vengono definiti più gruppi di protezione che corrispondono
 1.  Accedere a un computer membro del dominio con un account che dispone di autorizzazioni sufficienti per creare oggetti utente e gruppo nel contenitore di utenti.
   
 2.  Per creare i gruppi di gestione CA del dominio, eseguire il comando seguente:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> Cscript //job:CertDomainGroups C:\\MSSScripts\\ca\_setup.wsf   
-```
+
+    ```
+    Cscript //job:CertDomainGroups C:\MSSScripts\ca_setup.wsf
+
+    ```
   
     Questo script crea i gruppi di protezione elencati nella tabella seguente. I gruppi sono creati come gruppi universali nel contenitore di utenti del dominio e devono quindi essere spostati a un'unità organizzativa (UO) più appropriata, a seconda dei criteri in uso all'interno dell'organizzazione.
   
     **Tabella 10. Nomi e scopi dei gruppi**
-
- 
+    
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -1240,7 +1250,6 @@ In questa soluzione vengono definiti più gruppi di protezione che corrispondono
 Le procedure di configurazione descritte nel resto del documento richiedono l'utilizzo di account membri dei gruppi Enterprise PKI Admins, Enterprise PKI Publishers e CA Admins, pertanto è necessario popolare questi gruppi con gli account appropriati prima di continuare. Se una sola persona è responsabile di tutti i ruoli relativi alla CA, è possibile assegnare a tutti i gruppi un solo account. Tuttavia, in molte aziende esiste un certo grado di suddivisione di ruoli e compiti tra più persone, anche se il livello di specificità sarà inferiore a quello della tabella precedente. Per le aziende con una separazione semplificata delle attività, nella tabella seguente sono elencate le suddivisioni di responsabilità comuni.
   
 **Tabella 11. Modello di amministrazione semplificato**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1281,7 +1290,6 @@ Esistono diversi tipi di gruppi e account utente associati alla gestione e al fu
   
     **Tabella 12. Esempio di struttura delle UO**
 
- 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="50%" />
@@ -1434,14 +1442,37 @@ I dati CRL e AIA non sono richiesti per il certificato della CA principale, pert
 **Per creare il file CAPolicy.inf**
   
 1.  Immettere il testo seguente in un editor di testo, ad esempio Blocco note:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> \[version\] Signature=”$Windows NT$” \[Certsrv\_server\] RednewalKeyLength=4096 RenewalValidityPeriod=Years RenewalValidityPeriodUnits=16 \[CRLDistributionPoint\] Empty=true \[AuthorityInformationAccess\] Empty=true   
-```
+
+    ```
+    
+    [version]
+    Signature=”$Windows NT$”
+
+    [Certsrv_server]
+    RednewalKeyLength=4096
+    RenewalValidityPeriod=Years
+    RenewalValidityPeriodUnits=16
+
+    [CRLDistributionPoint]
+    Empty=true
+
+    [AuthorityInformationAccess]
+    Empty=true
+    
+    ```
   
 2.  Se è stata definita una dichiarazione sulle procedure di certificazione (CPS) per la CA, includere quanto segue nel file capolicy.inf, sostituendo ai valori in corsivo i valori della propria organizzazione:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> \[CAPolicy\] Policies=nome CPS dell'azienda \[company CPS name\] OID=OID. azienda URL=”http://www.urlazienda.com/nomepaginacps.htm”   
-```
+
+    ```
+    
+    [CAPolicy]
+    Policies=nome CPS dell'azienda
+
+    [company CPS name]
+    OID=OID. azienda
+    URL=”http://www.urlazienda.com/nomepaginacps.htm”
+
+    ```
   
 3.  Salvare il file di testo come *%windir%*\\Capolicy.inf (sostituire a *%windir%* il percorso assoluto della cartella di installazione di Windows, ad esempio C:\\Windows). Per completare questo passaggio è necessario essere un amministratore locale o disporre delle autorizzazioni di scrittura nella cartella di Windows.
   
@@ -1452,9 +1483,12 @@ Utilizzare Aggiunta guidata componenti di Windows per installare i componenti so
 **Per installare Servizi certificati**
   
 1.  Accedere come membro del gruppo Administrators locale ed eseguire Gestione componenti facoltativi (oppure selezionare Installazione applicazioni/Componenti di Windows dal Pannello di controllo).
-  
-    <codesnippet language displaylanguage containsmarkup="false"> sysocmgr /i:sysoc.inf   
-```
+
+    ```
+    
+    sysocmgr /i:sysoc.inf
+
+    ```
   
 2.  Selezionare il componente Servizi certificati (fare clic su **Sì** per eliminare il messaggio di avviso relativo alla ridenominazione).
   
@@ -1493,9 +1527,12 @@ Per la procedura di configurazione della CA principale, vengono applicati una se
     -   Modificare l'impostazione HTTP\_PKI\_VROOT in modo che corrisponda al percorso HTTP della directory virtuale IIS impostata precedentemente.
   
 3.  Eseguire lo script seguente:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> Cscript //job:RootCAConfig C:\\MSSScripts\\ca\_setup.wsf   
-```
+
+    ```
+    
+    Cscript //job:RootCAConfig C:\MSSScripts\ca_setup.wsf
+    
+    ```
   
 **Configurazione dei ruoli amministrativi**
   
@@ -1510,7 +1547,6 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori e gestori
 2.  Fare clic sulla scheda **Protezione** e aggiungere i gruppi di protezione locali elencati nella tabella seguente. Per ciascun gruppo aggiungere l'autorizzazione elencata.
   
     **Tabella 13. Autorizzazioni CA**
-
  
     <table style="border:1px solid black;">
     <colgroup>
@@ -1550,14 +1586,18 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori e gestori
 1.  Accedere alla CA principale come membro del gruppo CA Admins locale, quindi inserire il supporto nel server.
   
 2.  Eseguire lo script seguente per copiare il certificato CA sul disco:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> Cscript //job:GetCACerts C:\\MSSScripts\\CA\_Operations.wsf   
-```
+
+    ```
+    
+    Cscript //job:GetCACerts C:\MSSScripts\CA_Operations.wsf 
+    ```
   
 3.  Eseguire lo script seguente per copiare il CRL della CA sul disco:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> Cscript //job:GetCRLs C:\\MSSScripts\\CA\_Operations.wsf   
-```
+
+    ```
+    
+    Cscript //job:GetCRLs C:\MSSScripts\CA_Operations.wsf 
+    ```
   
 4.  Etichettare, datare e conservare il disco per le fasi successive della procedura.
   
@@ -1572,14 +1612,18 @@ Anche se è possibile utilizzare qualsiasi membro del dominio che esegua Windows
 1.  Accedere a un computer membro del dominio in possesso dei requisiti indicati in precedenza come membro del gruppo Enterprise PKI Admins e inserire il disco in cui sono stati salvati il certificato e il CRL della CA principale.
   
 2.  Eseguire lo script seguente per pubblicare il certificato CA in Active Directory:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> Cscript //job:PublishCertstoAD C:\\MSSScripts\\CA\_Operations.wsf   
-```
-  
+
+    ```  
+    Cscript //job:PublishCertstoAD C:\MSSScripts\CA_Operations.wsf
+    
+    ```
+    
 3.  Eseguire lo script seguente per pubblicare il CRL in Active Directory:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> Cscript //job:PublishCRLstoAD C:\\MSSScript\\CA\_Operations.wsf   
-```
+
+    ```
+    
+    Cscript //job:PublishCRLstoAD C:\MSSScript\CA_Operations.wsf
+    ```
   
 **Pubblicazione del certificato e del CRL della CA principale nel server Web**
   
@@ -1594,14 +1638,21 @@ Questo passaggio è necessario, in quanto le versioni HTTP degli URL CDP e AIA v
 2.  Assicurarsi che il disco contenente i certificati e i CRL della CA sia inserito nell'unità.
   
 3.  Eseguire lo script seguente per pubblicare il certificato CA nella cartella sul server Web:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> Cscript //job:PublishRootCerttoIIS C:\\MSSScripts\\CA\_Operations.wsf   
-```
+
+    ```
+    
+    Cscript //job:PublishRootCerttoIIS
+    C:\MSSScripts\CA_Operations.wsf
+    
+    ```
   
 4.  Eseguire lo script seguente per pubblicare i CRL della CA nella cartella sul server Web:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> Cscript //job:PublishRootCRLstoIIS C:\\MSSScripts\\CA\_Operations.wsf   
-```
+
+    ```
+    Cscript //job:PublishRootCRLstoIIS
+    C:\MSSScripts\CA_Operations.wsf
+
+    ```
   
 ###### Distribuzione di un server Autorità di certificazione di emissione
   
@@ -1634,14 +1685,28 @@ Il file CAPolicy.inf non è indispensabile per la CA di emissione, tuttavia sar�
 1.  Accedere al server CA di emissione come amministratore locale o con un account equivalente.
   
 2.  Immettere il testo seguente in un editor di testo, ad esempio Blocco note:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> \[Version\] Signature= “$Windows NT$” \[Certsrv\_Server\] RenewalKeyLength=2048   
-```
+
+    ```
+    
+    [Version]
+    Signature= “$Windows NT$”
+
+    [Certsrv_Server]
+    RenewalKeyLength=2048
+    
+    ```
   
 3.  Se è stata definita una CPS per la CA, includere quanto segue nel file CApolicy.inf:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> \[CAPolicy\] Policies=nomecriterio \[policyname\] OID=oid.azienda URL=”http://http://urlazienda.com/NomePaginaCPS.htm/”   
-```
+
+    ```  
+    [CAPolicy]
+    Policies=nomecriterio
+
+    [policyname]
+    OID=oid.azienda
+    URL=”http://http://urlazienda.com/NomePaginaCPS.htm/”
+
+    ```
   
     **Nota**   I valori in corsivo devono essere sostituiti con le informazioni relative alla propria organizzazione.
   
@@ -1654,9 +1719,10 @@ Analogamente alla procedura di installazione dei servizi certificati nella CA pr
 **Per installare Servizi certificati**
   
 1.  Accedere alla CA di emissione come membro del gruppo Administrators locale ed eseguire Gestione componenti facoltativi:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> sysocmgr /i:sysoc.inf   
-```
+
+    ```  
+    sysocmgr /i:sysoc.inf 
+    ```
   
 2.  Selezionare il componente Servizi certificati e fare clic su **OK** per eliminare il messaggio di avviso relativo alla ridenominazione.
   
@@ -1717,9 +1783,10 @@ Il certificato della CA principale è stato pubblicato precedentemente nell'arch
 1.  Accedere alla CA di emissione come amministratore locale o con un account equivalente.
   
 2.  Al prompt dei comandi, eseguire:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> certutil –pulse   
-```
+
+    ```
+    certutil –pulse
+    ```
   
     Questo comando forzerà il download delle informazioni sul nuovo certificato principale attendibile dalla directory e inserirà il certificato nell'archivio principale attendibile locale. Anche se questo passaggio non è indispensabile, consente di verificare che la procedura di pubblicazione precedente sia stata eseguita correttamente.
   
@@ -1754,9 +1821,11 @@ Questa procedura consente di configurare i parametri specifici dell'ambiente azi
 2.  Verificare che le modifiche apportate al file C:\\MSSScripts\\pkiparams.vbs corrispondano alle impostazioni specifiche del proprio ambiente precedentemente descritte in questa sezione.
   
 3.  Eseguire lo script seguente:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> Cscript //job:IssCAConfig C:\\MSSScripts\\ca\_setup.wsf   
-```
+
+    ```
+    
+    Cscript //job:IssCAConfig C:\MSSScripts\ca_setup.wsf   
+    ```
   
 **Configurazione dei ruoli amministrativi nella CA di emissione**
   
@@ -1772,7 +1841,6 @@ Per utilizzare i ruoli amministrativi descritti in questa guida è necessario in
   
     **Tabella 14. Autorizzazioni CA di emissione**
 
- 
     <table style="border:1px solid black;">
     <colgroup>
     <col width="33%" />
@@ -1819,9 +1887,11 @@ Poiché il certificato CA viene aggiornato molto raramente, è possibile pubblic
     2.  Se il server Web si trova nello stesso server della CA, registrare il percorso locale nella cartella (il percorso predefinito è C:\\CAWWWPub).
   
 3.  Eseguire lo script seguente per pubblicare il certificato della CA nel server Web:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> Cscript //job:PublishIssCertsToIIS C:\\MSSScripts\\CA\_Operations.wsf   
-```
+
+    ```  
+    Cscript //job:PublishIssCertsToIIS 
+    C:\MSSScripts\CA_Operations.wsf
+    ```
   
     **Nota**   Questa procedura è destinata specificamente ai server Web interni. Se i certificati sono destinati alla pubblicazione su un sito Web su Internet, è necessario svolgere ulteriori passaggi in quanto questa soluzione prevede la condivisione di file su reti Windows, che in genere viene bloccata dai firewall Internet.
   
@@ -1838,9 +1908,11 @@ La pubblicazione dei CRL è più frequente di quella dei certificati CA e pertan
 4.  Creare un processo pianificato per copiare i CRL eseguendo il comando seguente:
   
     **Nota**   Alcune parti del codice seguente sono visualizzate su più righe per migliorarne la visibilità; immettere l'intero codice su un'unica riga.
-  
-    <codesnippet language displaylanguage containsmarkup="false"> schtasks /creat /tn “Publish CRLs” /tr “cscript.exe //job:PublishIssCRLsToIIS C:\\ MSSScripts\\CA\_Operations.wsf” /sc Hourly /ru “System”   
-```
+
+    ```    
+    schtasks /creat /tn “Publish CRLs” /tr “cscript.exe //job:PublishIssCRLsToIIS C:\
+    MSSScripts\CA_Operations.wsf” /sc Hourly /ru “System” 
+    ```
   
 **Rimozione dei modelli indesiderati dalla CA di emissione**
   
@@ -1882,7 +1954,6 @@ Nella tabella seguente vengono elencate le informazioni specifiche che differisc
   
 **Tabella 15. Impostazioni definite dall'utente**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1920,7 +1991,6 @@ Nella tabella seguente sono elencate le impostazioni che non è necessario modif
   
 **Tabella 16. Elementi di configurazione indicati dalla soluzione**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -2007,8 +2077,10 @@ Per ulteriori informazioni su [CAPICOM](http://www.microsoft.com/downloads/detai
 **Configurazione dei gruppi amministrativi di IAS**
   
 Lo script seguente consente di creare i gruppi di protezione IAS Admins e IAS Security Auditors:
-  
-<codesnippet language displaylanguage containsmarkup="false"> Cscript //job:CreateIASGroups C:\\MSSScripts\\IAS\_Tools.wsf   
+
+```
+    Cscript //job:CreateIASGroups C:\MSSScripts\IAS_Tools.wsf
+
 ```  
 Negli ambienti con più domini, è necessario creare questi gruppi nel dominio in cui risiedono i server IAS.
   
@@ -2029,8 +2101,10 @@ Come accennato in precedenza, questa guida presuppone che la maggior parte delle
 Nella seguente sezione viene descritto come installare IAS nei server. È importante che ogni fase dell'installazione e della configurazione venga eseguita come descritto per ogni server IAS.
   
 IAS viene installato selezionando la voce dei Servizi di rete corrispondente da Gestione componenti facoltativi di Windows (accessibile dal Pannello di controllo, Installazione componenti di Windows). Per semplificare il processo, è possibile utilizzare lo script seguente:
+
+```
+sysocmgr /i:sysoc.inf /u:C:\MSSScripts\OC_AddIAS.txt
   
-<codesnippet language displaylanguage containsmarkup="false"> sysocmgr /i:sysoc.inf /u:C:\\MSSScripts\\OC\_AddIAS.txt   
 ```  
 ##### Registrazione di IAS in Active Directory
   
@@ -2041,13 +2115,18 @@ IAS viene installato selezionando la voce dei Servizi di rete corrispondente da 
 1.  Accedere a ciascun server con un account che dispone dei privilegi di amministratore di dominio per i domini in cui devono essere registrati i server IAS.
   
 2.  Per il dominio predefinito, eseguire il comando seguente al prompt dei comandi:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> netsh ras add registeredserver   
+
+```
+netsh ras add registeredserver
+
 ```
   
 3.  Per gli altri domini, eseguire il comando seguente al prompt dei comandi:
+
+```
   
-    <codesnippet language displaylanguage containsmarkup="false"> netsh ras add registeredserver domain = NomeDominio   
+netsh ras add registeredserver domain = NomeDominio
+
 ```
   
     **Nota**   In alternativa, è possibile aggiungere semplicemente l'oggetto computer del server IAS direttamente nel gruppo di protezione Server RAS e IAS tramite lo snap-in MMC Utenti e computer di Active Directory.
@@ -2055,8 +2134,10 @@ IAS viene installato selezionando la voce dei Servizi di rete corrispondente da 
 **Creazione e protezione delle directory dati IAS**
   
 Per archiviare i dati di configurazione e del file di registro nei server IAS è necessario rispettare alcuni requisiti relativi alle directory. Per semplificare il processo di configurazione che consente la creazione e la protezione di tali directory, è possibile utilizzare il file batch seguente al prompt dei comandi:
-  
-<codesnippet language displaylanguage containsmarkup="false"> C:\\MSSScripts\\IAS\_Data.bat   
+
+```  
+C:\MSSScripts\IAS_Data.bat
+
 ```  
 **Nota**   Prima dell'esecuzione potrebbe essere necessario modificare e sostituire le voci %*NomeDominio*% per riflettere il nome di dominio NetBIOS dell'ambiente specifico del file batch in uso.
   
@@ -2089,7 +2170,6 @@ Una volta implementate le infrastrutture di certificazione e RADIUS sottostanti,
 Prima di iniziare questa fase dell'implementazione di una rete WLAN protetta è necessario avere a disposizione o definire i parametri dipendenti dall'organizzazione elencati nella tabella seguente. È possibile utilizzare gli spazi forniti per registrare le impostazioni richieste per l'ambiente specifico.
   
 **Tabella 17. Impostazioni preliminari definite dall'utente**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2127,7 +2207,6 @@ Prima di iniziare questa fase dell'implementazione di una rete WLAN protetta è 
 Nella tabella seguente sono elencate le impostazioni che non è necessario modificare, tranne nel caso in cui sia richiesto l'utilizzo di un'impostazione diversa da quella offerta dalla soluzione. Prima di modificare eventuali valori qui indicati, assicurarsi di aver compreso a fondo le implicazioni della modifica che si intende apportare e le dipendenze di tale impostazione, incluse eventuali modifiche negli script forniti.
   
 **Tabella 18. Impostazioni di configurazione indicate dalla soluzione**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2211,8 +2290,10 @@ Nella tabella seguente sono elencate le impostazioni che non è necessario modif
 ##### Creazione dei gruppi di Active Directory richiesti per l'accesso alla rete WLAN
   
 È necessario eseguire il seguente script come utente che dispone dell'autorizzazione a creare gruppi di protezione di Active Directory. Questo script crea i gruppi richiesti per la registrazione di certificati di autenticazione wireless e l'implementazione di criteri di accesso remoto e Criteri di gruppo per reti senza fili:
-  
-<codesnippet language displaylanguage containsmarkup="false"> Cscript //job:CreateWirelessGroups C:\\MSSScripts\\wl\_tools.wsf   
+
+```
+Cscript //job:CreateWirelessGroups C:\MSSScripts\wl_tools.wsf
+
 ```  
 **Nota**   Per gli ambienti con insiemi di strutture in più domini, creare i gruppi nello stesso dominio degli utenti wireless.
   
@@ -2367,8 +2448,10 @@ Prima che i client IAS e RADIUS possano utilizzare i servizi di autenticazione e
 4.  Selezionare Standard RADIUS come attributo del fornitore del client e immettere il segreto condiviso per il punto di accesso wireless. Selezionare **La richiesta deve contenere l'attributo autenticatore del messaggio**.
   
     **Nota**   Affinché ogni server IAS disponga di un insieme univoco di client e segreti condivisi per i punti di accesso wireless, è necessario ripetere questa procedura su ogni server IAS. Al fine di agevolare il processo, in questa guida viene fornito uno script che consente di generare i segreti condivisi che sarà possibile archiviare in una posizione sicura per utilizzarli in caso sia necessario eseguire il ripristino del sistema. Per eseguire lo script, immettere quanto segue al prompt dei comandi:
+
+```    
   
-    <codesnippet language displaylanguage containsmarkup="false"> Cscript //job:GenPWD C:\\MSSScripts\\wl\_tools.wsf /client:NomeClient   
+ Cscript //job:GenPWD C:\MSSScripts\wl_tools.wsf /client:NomeClient 
 ```
   
 ###### Distribuzione delle configurazioni a più server IAS
@@ -2402,8 +2485,11 @@ Esportare le impostazioni seguenti in file di testo da utilizzare per la replica
 -   Criteri di richiesta di connessione
   
 Per semplificare la procedura, questa guida include file batch contenenti i comandi **netsh** che consentono di esportare i dati di configurazione comuni all'interno di file di testo nella directory D:\\IASConfig tramite l'esecuzione del comando seguente al prompt dei comandi.
+
+```
   
-<codesnippet language displaylanguage containsmarkup="false"> C:\\MSSScripts\\IASExport.bat   
+C:\MSSScripts\IASExport.bat
+
 ```  
 ##### Importazione delle informazioni di configurazione dal server IAS primario
   
@@ -2414,8 +2500,10 @@ Come indicato in precedenza, il comando **netsh** consente di trasferire gli sta
 1.  Copiare tutti i file di configurazione dalla directory D:\\IASConfig nel server IAS primario alla corrispondente directory D:\\IASConfig negli altri server IAS.
   
 2.  Sui server secondari, utilizzare il file batch seguente (incluso in questa guida) al prompt dei comandi per importare lo stato della configurazione:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> C:\\MSSScripts\\IASImport.bat   
+
+```  
+C:\MSSScripts\IASImport.bat
+
 ```
   
 ##### Punti di accesso wireless e client

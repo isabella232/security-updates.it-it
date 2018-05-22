@@ -15,12 +15,12 @@ Pubblicato: 20 maggio 2004
 
 ##### In questa pagina
 
-[](#egaa)[Introduzione](#egaa)
-[](#efaa)[Passaggio 1: Conferma dell'infezione](#efaa)
-[](#eeaa)[Passaggio 2: Risposta ai problemi](#eeaa)
-[](#edaa)[Passaggio 3: Analisi del software dannoso](#edaa)
-[](#ecaa)[Passaggio 4: Ripristino del sistema](#ecaa)
-[](#ebaa)[Passaggio 5: Passaggi post ripristino](#ebaa)
+[](#egaa)[Introduzione](#egaa)  
+[](#efaa)[Passaggio 1: Conferma dell'infezione](#efaa)  
+[](#eeaa)[Passaggio 2: Risposta ai problemi](#eeaa)  
+[](#edaa)[Passaggio 3: Analisi del software dannoso](#edaa)  
+[](#ecaa)[Passaggio 4: Ripristino del sistema](#ecaa)  
+[](#ebaa)[Passaggio 5: Passaggi post ripristino](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Introduzione
@@ -414,17 +414,52 @@ en-us/RegistryBackup.asp](http://www.microsoft.com/resources/documentation/windo
 **Importante**: poiché il disco verrà esposto a software dannoso, è consigliabile evitare che venga condiviso da altri sistemi finché non viene trovato un metodo di controllo efficace.
 
 Dopo aver completato il backup del Registro di sistema, è necessario verificare se sono presenti riferimenti a file anomali nelle aree seguenti:
-        ```
+
+
+```
+        HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SessionManager\KnownDLLs 
+        HKEY_LOCAL_MACHINE\System\ControlSet001\Control\Session Manager\KnownDLLs 
+        HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\Run 
+        HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\RunOnce 
+        HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\Current Version\RunOnceEx 
+        HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunServices 
+        HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Windows ("run=" riga) 
+        HKEY_CURRENT_USER\Software\Microsoft\Windows\Current Version\Run 
+        HKEY_CURRENT_USER\Software\Microsoft\Windows\Current Version\RunOnce 
+        HKEY_CURRENT_USER\Software\Microsoft\Windows\Current Version\RunOnceEx 
+        HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunServices 
+        HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Windows ("run=" valore)
+
+```
+
 Queste aree del Registro di sistema spesso diventano i principali obiettivi del codice dannoso perché consentono l'esecuzione automatica del software dannoso all'avvio del sistema. Ad esempio, il worm W32@.Mydoom.G@mm determina l'aggiunta del seguente valore:
-        ```
+
+```
+    "(Predefinito)" = "%System%\<random_filename>"
+
+```
 nelle chiavi del Registro di sistema riportate di seguito:
-        ```
+
+```
+    HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run 
+    HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run
+```
 Un'altra area presa recentemente in considerazione come obiettivo è la chiave seguente:
-        ```
+
+```
+HKEY_CLASSES_ROOT\CLSID\{E6FB5E20-DE35-11CF-9C87-00AA005127ED}\InProcServer32
+
+```
 Questa chiave controlla i file dll caricati da Microsoft Internet Explorer (**Explorer.exe**). Il worm Mydoom e le relative varianti, ad esempio, determinano l'aggiunta di una voce nella chiave che consente di caricare file dll in grado di provocare una vulnerabilità e un attacco di backdoor.
 
 Il worm W32.Netsky.D@mm determina l'eliminazione sia della chiave sopra indicata che delle chiavi seguenti:
-        ```
+
+```
+
+    HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\PINF 
+    HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\WksPatch
+
+```
 ##### Verifica della presenza di software dannoso e file danneggiati
 
 Poiché la maggior parte del software dannoso comporta la modifica di uno più file presenti sul disco rigido del computer, il processo per l'identificazione di tali file potrebbe rivelarsi davvero difficile. Se il sistema è stato creato da un'immagine, è possibile confrontare il sistema infetto direttamente con il nuovo sistema creato dall'immagine.

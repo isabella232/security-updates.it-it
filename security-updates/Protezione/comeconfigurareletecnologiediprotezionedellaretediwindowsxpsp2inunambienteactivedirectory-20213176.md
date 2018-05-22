@@ -11,17 +11,17 @@ Come configurare le tecnologie di protezione della rete di Windows XP SP2 in un 
 
 ##### In questa pagina
 
-[](#ekaa)[Introduzione](#ekaa)
-[](#ejaa)[Operazioni preliminari](#ejaa)
-[](#eiaa)[Aggiunta degli aggiornamenti rapidi alle workstation di gestione e a Windows Small Business Server 2003](#eiaa)
-[](#ehaa)[Aggiornamento degli oggetti Criteri di gruppo esistenti](#ehaa)
-[](#egaa)[Configurazione delle impostazioni del Centro sicurezza PC](#egaa)
-[](#efaa)[Configurazione delle impostazioni di Windows Firewall](#efaa)
-[](#eeaa)[Configurazione delle impostazioni di protezione di Internet Explorer](#eeaa)
-[](#edaa)[Configurazione delle impostazioni di Gestione comunicazioni Internet](#edaa)
-[](#ecaa)[Configurazione delle impostazioni di accesso DCOM](#ecaa)
-[](#ebaa)[Configurazione delle impostazioni di RPC](#ebaa)
-[](#eaaa)[Informazioni correlate](#eaaa)
+[](#ekaa)[Introduzione](#ekaa)  
+[](#ejaa)[Operazioni preliminari](#ejaa)  
+[](#eiaa)[Aggiunta degli aggiornamenti rapidi alle workstation di gestione e a Windows Small Business Server 2003](#eiaa)  
+[](#ehaa)[Aggiornamento degli oggetti Criteri di gruppo esistenti](#ehaa)  
+[](#egaa)[Configurazione delle impostazioni del Centro sicurezza PC](#egaa)  
+[](#efaa)[Configurazione delle impostazioni di Windows Firewall](#efaa)  
+[](#eeaa)[Configurazione delle impostazioni di protezione di Internet Explorer](#eeaa)  
+[](#edaa)[Configurazione delle impostazioni di Gestione comunicazioni Internet](#edaa)  
+[](#ecaa)[Configurazione delle impostazioni di accesso DCOM](#ecaa)  
+[](#ebaa)[Configurazione delle impostazioni di RPC](#ebaa)  
+[](#eaaa)[Informazioni correlate](#eaaa)  
 
 ### Introduzione
 

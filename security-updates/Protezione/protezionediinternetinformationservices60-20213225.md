@@ -11,14 +11,14 @@ Protezione di Internet Information Services 6.0
 
 ##### In questa pagina
 
-[](#ehaa)[Introduzione](#ehaa)
-[](#egaa)[Prima di iniziare](#egaa)
-[](#efaa)[Riduzione della superficie di attacco del server Web](#efaa)
-[](#eeaa)[Configurazione degli account](#eeaa)
-[](#edaa)[Configurazione della protezione per file e directory](#edaa)
-[](#ecaa)[Protezione di siti Web e directory virtuali](#ecaa)
-[](#ebaa)[Configurazione di Secure Sockets Layer (SSL) nel server Web](#ebaa)
-[](#eaaa)[Informazioni correlate](#eaaa)
+[](#ehaa)[Introduzione](#ehaa)  
+[](#egaa)[Prima di iniziare](#egaa)  
+[](#efaa)[Riduzione della superficie di attacco del server Web](#efaa)  
+[](#eeaa)[Configurazione degli account](#eeaa)  
+[](#edaa)[Configurazione della protezione per file e directory](#edaa)  
+[](#ecaa)[Protezione di siti Web e directory virtuali](#ecaa)  
+[](#ebaa)[Configurazione di Secure Sockets Layer (SSL) nel server Web](#ebaa)  
+[](#eaaa)[Informazioni correlate](#eaaa)  
 
 ### Introduzione
 
@@ -448,7 +448,7 @@ Per completare questa attività è necessario disporre di quanto segue:
   
 ##### Ridenominazione dell'account IUSR
   
-L'account utente Internet anonimo predefinito, IUSR\_*&lt;NomeComputer&gt;*,* *viene creato durante l'installazione di IIS. *&lt;NomeComputer&gt;* corrisponde al nome NetBIOS del server al momento dell'installazione di IIS. Ridenominando questo account si riducono le probabilità di riuscita di alcuni attacchi a forza bruta.
+L'account utente Internet anonimo predefinito, IUSR\_*&lt;NomeComputer&gt;*, viene creato durante l'installazione di IIS. *&lt;NomeComputer&gt;* corrisponde al nome NetBIOS del server al momento dell'installazione di IIS. Ridenominando questo account si riducono le probabilità di riuscita di alcuni attacchi a forza bruta.
   
 ###### Requisiti
   
@@ -464,7 +464,7 @@ Per completare questa attività è necessario disporre di quanto segue:
   
 2.  Fare doppio clic su **Utenti e gruppi locali**, quindi selezionare la cartella **Users**.
   
-3.  Fare clic con il pulsante destro del mouse sull'account **IUSR\_*&lt;NomeComputer&gt;*****, quindi scegliere **Rinomina**.
+3.  Fare clic con il pulsante destro del mouse sull'account **IUSR\_&lt;NomeComputer&gt;**, quindi scegliere **Rinomina**.
   
 4.  Digitare il nuovo nome account e premere INVIO.
   
@@ -551,7 +551,7 @@ Per completare questa attività è necessario disporre di quanto segue:
 4.  Se si intende assegnare una directory o una directory virtuale a un pool di applicazioni, verificare che la casella **Nome applicazione** contenga il nome corretto dell'applicazione o del sito Web.
   
     Oppure
-  
+    
     Se la casella **Nome applicazione** non contiene alcun nome, scegliere **Crea** e digitarne uno.
   
 5.  Nella casella di riepilogo **Pool di applicazioni** selezionare il nome del pool di applicazioni a cui si desidera assegnare l'applicazione o il sito Web (come mostrato nella schermata seguente), quindi fare clic su **OK**.
@@ -946,9 +946,26 @@ Per completare questa attività è necessario disporre di quanto segue:
   
 12. Salvare il file con estensione txt. Il nome e il percorso predefiniti per il file sono **C:\\certreq.txt**. Nell'esempio seguente viene mostrato l'aspetto di un file di richiesta certificato.
   
-    <codesnippet language displaylanguage containsmarkup="false"> -----BEGIN NEW CERTIFICATE REQUEST----- MIIDATCCAmoCAQAwbDEOMAwGA1UEAxMFcGxhbjgxDDAKBgNVBAsTA1BTUzESMB A1UEChMJTWljcm9zb2Z0MRIwEAYDVQQHEwlDaGFybG90dGUxFzAVBgNVBAgTDk cnRoIENhcm9saW5hMQswCQYDVQQGEwJVUzCBnzANBgkqhkiG9w0BAQEFAAOBjQ gYkCgYEAtW1koGfdt+EoJbKdxUZ+5vE7TF1ZuT+xaK9jEWHESfw11zoRKrHzHN IASnwg3vZ0ACteQy5SiWmFaJeJ4k7YaKUb6chZXG3GqL4YiSKFaLpJX+YRiKMt JzFzict5GVVGHsa1lY0BDYDO2XOAlstGlHCtENHOKpzdYdANRg0CAwEAAaCCAV GgYKKwYBBAGCNw0CAzEMFgo1LjAuMjE5NS4yMDUGCisGAQQBgjcCAQ4xJzAlMA A1UdDwEB/wQEAwIE8DATBgNVHSUEDDAKBggrBgEFBQcDATCB/QYKKwYBBAGCNw AjGB7jCB6wIBAR5aAE0AaQBjAHIAbwBzAG8AZgB0ACAAUgBTAEEAIABTAEMAaA AG4AbgBlAGwAIABDAHIAeQBwAHQAbwBnAHIAYQBwAGgAaQBjACAAUAByAG8Adg AGQAZQByA4GJAGKa0jzBn8fkxScrWsdnU2eUJOMUK5Ms87Q+fjP1/pWN3PJnH7 MBc5isFCjww6YnIjD8c3OfYfjkmWc048ZuGoH7ZoD6YNfv/SfAvQmr90eGmKOF TD+hl1hM08gu2oxFU7mCvfTQ/2IbXP7KYFGEqaJ6wn0Z5yLOByPqblQZAAAAAA MhfC7CIvR0McCQ+CBwuLzD+UJxl+kjgb+qwcOUkGX2PCZ7tOWzcXWNmn/4YHQl GEXu0w67sVc2R9DlsHDNzeXLIOmjUl935qy1uoIR4V5C48YNsF4ejlgjeCFsbC Jb9/2RM= -----END NEW CERTIFICATE REQUEST-----   
 ```
-  
+   -----BEGIN NEW CERTIFICATE REQUEST-----
+
+MIIDATCCAmoCAQAwbDEOMAwGA1UEAxMFcGxhbjgxDDAKBgNVBAsTA1BTUzESMB
+                A1UEChMJTWljcm9zb2Z0MRIwEAYDVQQHEwlDaGFybG90dGUxFzAVBgNVBAgTDk
+                cnRoIENhcm9saW5hMQswCQYDVQQGEwJVUzCBnzANBgkqhkiG9w0BAQEFAAOBjQ
+                gYkCgYEAtW1koGfdt+EoJbKdxUZ+5vE7TF1ZuT+xaK9jEWHESfw11zoRKrHzHN
+                IASnwg3vZ0ACteQy5SiWmFaJeJ4k7YaKUb6chZXG3GqL4YiSKFaLpJX+YRiKMt
+                JzFzict5GVVGHsa1lY0BDYDO2XOAlstGlHCtENHOKpzdYdANRg0CAwEAAaCCAV
+                GgYKKwYBBAGCNw0CAzEMFgo1LjAuMjE5NS4yMDUGCisGAQQBgjcCAQ4xJzAlMA
+                A1UdDwEB/wQEAwIE8DATBgNVHSUEDDAKBggrBgEFBQcDATCB/QYKKwYBBAGCNw
+                AjGB7jCB6wIBAR5aAE0AaQBjAHIAbwBzAG8AZgB0ACAAUgBTAEEAIABTAEMAaA
+                AG4AbgBlAGwAIABDAHIAeQBwAHQAbwBnAHIAYQBwAGgAaQBjACAAUAByAG8Adg
+                AGQAZQByA4GJAGKa0jzBn8fkxScrWsdnU2eUJOMUK5Ms87Q+fjP1/pWN3PJnH7
+                MBc5isFCjww6YnIjD8c3OfYfjkmWc048ZuGoH7ZoD6YNfv/SfAvQmr90eGmKOF
+                TD+hl1hM08gu2oxFU7mCvfTQ/2IbXP7KYFGEqaJ6wn0Z5yLOByPqblQZAAAAAA
+                MhfC7CIvR0McCQ+CBwuLzD+UJxl+kjgb+qwcOUkGX2PCZ7tOWzcXWNmn/4YHQl
+                GEXu0w67sVc2R9DlsHDNzeXLIOmjUl935qy1uoIR4V5C48YNsF4ejlgjeCFsbC Jb9/2RM=
+                -----END NEW CERTIFICATE REQUEST-----
+```  
 13. Confermare i dettagli della richiesta, fare clic su **Avanti** e quindi su **Fine**.
   
 **Per inviare una richiesta di certificato server**

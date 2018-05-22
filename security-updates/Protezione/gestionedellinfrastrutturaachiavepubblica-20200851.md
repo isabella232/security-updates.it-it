@@ -13,18 +13,18 @@ Lavorare con una rete locale wireless sicura grazie a Windows Server 2003 Certif
 
 ##### In questa pagina
 
-[](#emaa)[Argomenti del modulo](#emaa)
-[](#elaa)[Obiettivi](#elaa)
-[](#ekaa)[Ambito di applicazione](#ekaa)
-[](#ejaa)[Utilizzo del modulo](#ejaa)
-[](#eiaa)[Attività fondamentali di manutenzione](#eiaa)
-[](#ehaa)[Ruoli amministrativi di Servizi certificati](#ehaa)
-[](#egaa)[Attività della fase operativa](#egaa)
-[](#efaa)[Attività della fase di supporto](#efaa)
-[](#eeaa)[Attività della fase di ottimizzazione](#eeaa)
-[](#edaa)[Attività della fase di modifica](#edaa)
-[](#ecaa)[Risoluzione dei problemi](#ecaa)
-[](#ebaa)[Tabelle di configurazione](#ebaa)
+[](#emaa)[Argomenti del modulo](#emaa)  
+[](#elaa)[Obiettivi](#elaa)  
+[](#ekaa)[Ambito di applicazione](#ekaa)  
+[](#ejaa)[Utilizzo del modulo](#ejaa)  
+[](#eiaa)[Attività fondamentali di manutenzione](#eiaa)  
+[](#ehaa)[Ruoli amministrativi di Servizi certificati](#ehaa)  
+[](#egaa)[Attività della fase operativa](#egaa)  
+[](#efaa)[Attività della fase di supporto](#efaa)  
+[](#eeaa)[Attività della fase di ottimizzazione](#eeaa)  
+[](#edaa)[Attività della fase di modifica](#edaa)  
+[](#ecaa)[Risoluzione dei problemi](#ecaa)  
+[](#ebaa)[Tabelle di configurazione](#ebaa)  
 [](#eaaa)[Ulteriori informazioni](#eaaa)
 
 ### Argomenti del modulo
@@ -1120,6 +1120,10 @@ Controllare quotidianamente la cartella **Richieste** per verificare le richiest
     1.  Accedere alla CA principale come membro del gruppo Administrators locale.
 
     2.  Per modificare la dimensione della chiave, è necessario modificare il file CAPolicy.inf che si trova nella directory *%systemroot%*. Modificare il valore di **RenewalKeyLength** con la dimensione di bit desiderata. Nell'esempio seguente, questo valore è 8192.
+
+        ```
+        [Certsrv_Server]
+        RenewalKeyLength=8192
         ```
 
         **Avviso:** la dimensione della chiave di 8192 bit viene mostrata solo per illustrare come modificare la dimensione della chiave. Prestare estrema attenzione se si utilizza una chiave di questa dimensione. Sebbene Servizi certificati supporti dimensioni di chiave fino a 16384 bit, vi sono applicazioni e sistemi che non supportano dimensioni di chiave maggiori di 2048 bit in alcun certificato dalla catena di certificati che giunge fino alla CA principale.
@@ -1133,11 +1137,21 @@ Controllare quotidianamente la cartella **Richieste** per verificare le richiest
     5.  Visualizzare il certificato dalle proprietà CA e verificare che la data del certificato CA più recente specificata in **Valido dal** corrisponda alla data corrente.
 
     6.  Emettere un elenco CRL e copiare il CRL ed il nuovo certificato CA sul disco mediante il comando di script:
+        
+        ```
+        Cscript //job:getcacerts c:\MSSScripts\ca_operations.wsf
+        Cscript //job:getcrls c:\MSSScripts\ca_operations.wsf
         ```
 
     7.  Portare il disco alla CA di emissione (il server deve essere solo un membro di dominio con certutil.exe e gli script forniti con questa soluzione installata — non è necessario che sia la CA di emissione).
 
     8.  Accedere come membro del gruppo Enterprise PKI Admins ed eseguire gli script seguenti:
+
+        ```
+        Cscript //job: PublishCertstoAD c:\MSSScripts\ca_operations.wsf
+        Cscript //job: PublishCRLstoAD c:\MSSScripts\ca_operations.wsf
+        Cscript //job: PublishRootCertstoIIS c:\MSSScripts\ca_operations.wsf
+        Cscript //job: PublishRootCRLstoIIS c:\MSSScripts\ca_operations.wsf
         ```
 
         **Nota:** sebbene non sia necessario effettuare queste operazioni contemporaneamente, è consigliabile rinnovare tutte le CA subordinate nello stesso momento (vedere la sezione successiva "[Rinnovo certificato CA di emissione](#a3)").
@@ -1205,6 +1219,9 @@ Enterprise PKI Admins</td>
     1.  Accedere alla CA di emissione come membro del gruppo Administrators locale.
 
     2.  Per modificare la dimensione della chiave, è necessario modificare il file CAPolicy.inf che si trova nella directory *%systemroot%*. Modificare il valore di **RenewalKeyLength** con la dimensione in bit desiderata.
+        ```
+        [Certsrv_Server]
+        RenewalKeyLength=4096
         ```
 
         **Importante:** se è necessario modificare il periodo di validità o i criteri del certificato CA, prima di iniziare questa procedura è necessario specificarlo nel file CAPolicy.inf in *%systemroot%*).
@@ -1388,6 +1405,13 @@ Oltre a non effettuare la selezione per generare una nuova chiave, la procedura 
     3.  Portare il disco alla CA di emissione (non è necessario che il server sia la CA di emissione — deve essere solo un membro del dominio con certutil.exe e gli script MSS installati).
 
     4.  Accedere come membro del gruppo Enterprise PKI Publishers ed eseguire gli script seguenti:
+
+        ```
+        Cscript //job: PublishCertstoAD c:\MSSScripts\ca_operations.wsf
+        Cscript //job: PublishCRLstoAD c:\MSSScripts\ca_operations.wsf
+        Cscript //job: PublishRootCertstoIIS c:\MSSScripts\ca_operations.wsf
+        Cscript //job: PublishRootCRLstoIIS c:\MSSScripts\ca_operations.wsf
+
         ```
 
 ##### Imposizione dell'emissione di un elenco CRL in linea
@@ -1494,6 +1518,11 @@ Il certificato CA viene aggiornato molto raramente, quindi è possibile pubblica
         C:\\MSSScripts\\PKIParams.vbs in modo che corrisponda al percorso di destinazione della cartella del server Web (l'impostazione predefinita è il percorso locale C:\\CAWWWPub).
 
     5.  Eseguire il comando seguente per pubblicare il certificato CA nel server Web:
+
+        ```
+        Cscript //job:PublishIssCertsToIIS
+        C:\MSSScripts\CA_Operations.wsf
+
         ```
 
         **Nota:** questo comando viene mostrato su due righe; immetterlo come singola riga.
@@ -1554,6 +1583,11 @@ La CA di emissione rilascia frequentemente (quotidianamente o ogni ora nel caso 
     3.  Se il server Web è remoto, concedere all'account del computer della CA di emissione l'accesso in **scrittura** alla cartella del file system (accesso in **modifica**) e alla condivisione (accesso **Change**) corrispondente alla cartella **Server Web** pubblicata. Se il server Web è un membro dell'insieme di strutture, è possibile utilizzare il gruppo Cert Publishers per concedere l'accesso; ciò assicura che qualsiasi CA dell'organizzazione di grandi dimensioni disponga delle autorizzazioni necessarie per pubblicare i certificati e gli elenchi CRL in questa cartella. Non è necessario cambiare le autorizzazioni del server Web.
 
     4.  Creare un processo pianificato per copiare gli elenchi CRL eseguendo il comando seguente:
+
+        ```
+        schtasks /create /tn "Publish CRLs" /tr "cscript.exe
+        //job:PublishIssCRLsToIIS \"C:\MSSScripts\CA_Operations.wsf\""
+        /sc Hourly /ru "System"
         ```
 
         Questo comando viene mostrato su tre righe; immetterlo come singola riga.
@@ -1614,16 +1648,27 @@ Questa attività configura un'attività pianificata per eseguire un backup nottu
 -   **Per configurare il backup di una CA**
 
     1.  Creare una directory nella quale archiviare i file di backup temporanei (C:\\CABackup) e proteggere tale directory eseguendo il comando seguente:
+
+        ```
+        cacls c:\CABackup /G system:F administrators:F "Backup Operators":C "CA Backup
+        Operators":C
         ```
 
         (tenere presente che si tratta di un singolo comando che, per questioni di leggibilità, qui viene riportato su righe separate)
 
     2.  Se si sceglie un'altra cartella nella quale archiviare il backup, è necessario aggiornare l'impostazione correlata nel file pkiparams.vbs. Modificare il percorso specificando quello mostrato nella riga seguente, se necessario.
+
+        ```
+        CONST SYSSTATE_BACKUP_PATH = "C:\CABackup"  'path used by NTBackup
         ```
 
         **Nota:** dal momento che la stessa funzione di script viene utilizzata per eseguire il backup delle CA non in linea e in linea, se si utilizzano percorsi differenti per le diverse CA è necessario effettuare copie separate degli script.
 
     3.  Pianificare il processo di backup in modo che venga eseguito di notte mediante il seguente comando. Questo comando imposta l'esecuzione del processo ogni notte alle 02.00.
+
+        ```
+        SCHTASKS /Create /RU system /SC Daily /TN "CA Backup" /TR "cscript.exe
+        //job:BackupCADatabase \"C:\MSSScripts\ca_operations.wsf\"" /ST 02:00
         ```
 
         **Nota:** questo comando viene mostrato su più righe; immetterlo come singola riga.
@@ -1644,6 +1689,9 @@ Questa attività configura un'attività pianificata per eseguire un backup nottu
         Il backup CA potrebbe non essere avviato se è ancora presente il file di blocco C:\\CABackup\\BackupRunning.lck di un processo precedente. Ciò potrebbe significare che il backup precedente è ancora in esecuzione.
 
         Se il sistema di backup dei server aziendali non può eseguire controlli preliminari oppure non può eseguire gli script, pianificare l'inizio del backup in un orario adatto dopo l'avvio del backup dello stato del sistema. Per stimare il tempo necessario, eseguire il backup dello stato del sistema (con la **verifica** abilitata) sul server con Servizi certificati chiuso (la chiusura della CA impedisce che i registri della CA vengano troncati per questo backup di prova). Questa operazione dovrebbe eseguire il backup di circa 500 MB di dati dello stato del sistema. Calcolare il tempo impiegato per questa operazione e calcolare approssimativamente il tempo previsto per il backup di un database CA e dello stato del sistema:
+
+        ```
+        Ttotal = TSysStateOnly x (500 + Nusers) + 500
         ```
 
         Se il tempo impiegato solo per l'esecuzione del backup dello stato del sistema è di 10 minuti, impostare 70 minuti per una CA con 3000 utenti (si presuppone che siano presenti cinque certificati per ciascun utente e computer, per anno, archiviati per cinque anni). Si tratta solo di un'indicazione sommaria; aggiungere la previsione per il database dei certificati — 1 GB per ogni 50000 certificati.
@@ -1700,11 +1748,18 @@ La CA principale non è in linea, quindi richiede determinati tipi di dispositiv
 -   **Per configurare il backup di una CA**
 
     1.  Creare una directory nella quale archiviare i file di backup (C:\\CABackup) e proteggere la directory eseguendo il comando seguente:
+
+        ```
+        cacls c:\CABackup /G system:F administrators:F "Backup Operators":C "CA Backup
+        Operators":C
         ```
 
         **Nota:** questo comando viene mostrato su due righe; immetterlo come singola riga.
 
     2.  Se si sceglie un'altra cartella nella quale archiviare il backup, è necessario aggiornare l'impostazione correlata nel file pkiparams.vbs. Modificare il percorso specificando quello mostrato nella riga seguente, se necessario.
+
+        ```
+        CONST SYSSTATE_BACKUP_PATH = "C:\CABackup"  'path used by NTBackup
         ```
 
 ##### Backup del database autorità di certificazione principale
@@ -1755,6 +1810,9 @@ La CA principale non è in linea, quindi richiede determinati tipi di dispositiv
 -   **Per eseguire il backup della CA principale**
 
     1.  Eseguire il comando seguente per effettuare il backup dei dati della CA in un file temporaneo:
+
+        ```
+        cscript //job:BackupCADatabase C:\MSSScripts\ca_operations.wsf
         ```
 
     2.  Questo comando crea un file di backup (CABackup.bkf) nel percorso scelto in precedenza (percorso predefinito C:\\CABackup). Copiare questo file su un supporto rimovibile e archiviare il supporto di backup in modo appropriato.
@@ -1808,6 +1866,9 @@ I certificati e le chiavi CA occupano solo pochi KB (kilobyte) di archiviazione 
 -   **Per esportare le chiavi e i certificati sul disco**
 
     1.  Eseguire il comando seguente:
+
+        ```
+        cscript //job:BackupCAKeys c:\MMSScripts\ca_operations.wsf
         ```
 
         Eseguire almeno due backup separati su dischi diversi (i dischi non sono sempre affidabili al cento per cento). Etichettare e datare in modo chiaro i dischi, considerando quanto tempo può trascorrere prima che debbano essere utilizzati.
@@ -1956,6 +2017,10 @@ Controllare i backup delle chiavi CA regolarmente per essere sicuri che siano va
     1.  Ottenere un CRL o un certificato emesso dalla CA da testare.
 
     2.  A seconda della scelta di un CRL o di un certificato nel passaggio precedente, eseguire uno dei comandi seguenti, sostituendo *CRLFileName* o *CertFileName* con il nome del file ottenuto in precedenza:
+
+        ```
+        Certutil -sign CRLFileName.crl NewCRL.crl
+        Certutil -sign CertFileName.cer NewCertFile.cer
         ```
 
     3.  Quando richiesto, selezionare il certificato CA (importato nella procedura precedente) come certificato di firma.
@@ -1990,6 +2055,9 @@ Controllare i backup delle chiavi CA regolarmente per essere sicuri che siano va
     2.  Eliminare l'account **TestCAKeys**.
 
     3.  Cancellare le aree non allocate del disco per rimuovere in modo permanente le tracce delle chiavi eseguendo il comando seguente:
+
+        ```
+        Cipher /W:%AllUsersProfile%
         ```
 
 **Nota:** specificando *%allusersprofile%* come percorso si garantisce che Cipher.exe operi sull'unità contenente i profili utente. L'esecuzione di questo comando elimina il contenuto dell'intera unità, non solo il percorso specificato.
@@ -2042,7 +2110,10 @@ Questa procedura è applicabile solo alla CA di emissione; dal momento che la CA
 1.  Accedere alla CA come membro del gruppo CA Backup Operators.
 
 2.  Archiviare il database CA esistente utilizzando il comando seguente:
-        ```
+
+    ```
+        Certutil -backupDB BackupFolder keeplog
+    ```
 
     **Avviso:** Se deve essere ripristinato un normale backup, non seguire la procedura inclusa nella sezione "[Configurazione di un backup per database dell'autorità di certificazione emittente](#a9)" in quanto tronca i registri e potrebbe provocare perdita di informazioni.
 
@@ -2051,10 +2122,16 @@ Questa procedura è applicabile solo alla CA di emissione; dal momento che la CA
 4.  Disconnettersi e accedere di nuovo come membro del gruppo Administrators locale.
 
 5.  Eliminare le richieste di certificati antecedenti alla data *mm/dd/yyyy* mediante l'esecuzione del comando seguente:
-        ```
+
+    ```
+        CertUtil -deleterow mm/dd/yyyy Request
+    ```
 
 6.  Eliminare i certificati scaduti prima della data *gg/mm/yyyy* eseguendo il comando seguente (la validità massima dei certificati emessi da questa CA è di due anni, quindi tre anni è un periodo sicuro ma si potrebbe voler lasciare cinque anni o più):
-        ```
+
+    ```
+    CertUtil -deleterow mm/dd/yyyy Cert
+    ```
 
 ##### Archiviazione di dati di controllo della protezione da una CA
 
@@ -2159,6 +2236,12 @@ Questa procedura descrive un modo semplice per esportare su file un oggetto Acti
     2.  Accedere ad un server membro di dominio o controller di dominio utilizzando un account utente di dominio.
 
     3.  Eseguire il comando seguente per salvare i dettagli del modello nel file templatename.ldif, sostituendo *templatename* con il nome del modello di certificato e *DC=woodgrovebank,DC=com* con il nome del dominio dell'insieme di strutture:
+
+        ```
+        ldifde -f templatename.ldif -d "cn=templatename, cn=Certificate
+        Templates,cn=Public Key
+        Services,cn=Services,cn=Configuration,DC=woodgrovebank,DC=com"
+
         ```
 
         Questo comando viene mostrato su più righe; immetterlo come singola riga.
@@ -2222,9 +2305,12 @@ Questa procedura non sostituisce quella di backup e ripristino di Active Directo
     5.  Eliminare la riga, prestando attenzione a non apportare altre modifiche al file e salvarlo.
   
     6.  Eseguire il comando seguente per importare il modello in Active Directory dal file *templatename*.ldif, sostituendo *templatename* con il nome del modello di certificato:
+
+        ```
   
-        <codesnippet language displaylanguage containsmarkup="false"> ldifde -f templatename.ldif -i  
-```
+        ldifde -f templatename.ldif -i
+
+        ```
   
     7.  Verificare che la procedura funzioni aprendo lo snap-in Modelli di certificato e visualizzando il modello ripristinato.
   
@@ -2680,7 +2766,38 @@ Job: BackupCADatabase</td>
  
 
 Prima della distribuzione degli script, aggiornare il file constants.vbs con i parametri di avviso corretti. Le sezioni rilevanti del file sono mostrate di seguito:
-        ```
+
+
+```
+
+        'Alerting parameters
+        CONST ALERT_EMAIL_ENABLED 	= FALSE	'set to true/false to enable/disable email 
+        CONST ALERT_EVTLOG_ENABLED	= TRUE	'set to true/false to enable/disable event
+        'log entries
+        ' set to comma-separated list of recipients to get email alerts
+        CONST ALERT_EMAIL_RECIPIENTS	= "Admin@woodgrovebank.com,Ops@woodgrovebank.com"
+        'SMTP host to use
+        CONST ALERT_EMAIL_SMTP		= "mail.woodgrovebank.com"
+
+        'String used as the Source in event log events
+        CONST EVENT_SOURCE		= "MSS Tools"
+        CONST CA_EVENT_SOURCE		= "CA Operations"
+
+        'CA Event IDs
+        CONST CA_EVENT_CS_RPC_OFFLINE			=	1
+        CONST CA_EVENT_CS_RPC_ADMIN_OFFLINE		=	2
+        CONST CA_EVENT_CA_CERT_EXPIRED		=	10
+        CONST CA_EVENT_CA_CERT_NEARLY_EXPIRED		=	11
+        CONST CA_EVENT_CA_CERT_RENEWAL_DUE		=	12
+        CONST CA_EVENT_CRL_EXPIRED			=	20
+        CONST CA_EVENT_CRL_OVERDUE			=	21
+        CONST CA_EVENT_CRL_NOT_AVAILABLE_LDAP		=	22
+        CONST CA_EVENT_CRL_NOT_AVAILABLE_HTTP		=	23
+        CONST CA_EVENT_BACKUP_LOCKED			=	30
+        CONST CA_EVENT_CA_OTHER			=	100
+
+```
+
 È necessario specificare se si desidera che gli errori producano avvisi di posta elettronica o avvisi registro eventi o entrambi. Se sono stati specificati avvisi di posta elettronica, è necessario fornire un elenco di destinatari di posta elettronica valido (separati dalla virgola) e il nome host del server SMTP o l'indirizzo IP. Entrambe queste stringhe devono essere racchiuse tra virgolette.
 
 Se è stato specificato l'avviso registro eventi, è necessario modificare il parametro **CA\_EVENT\_SOURCE** (usato per tutti gli eventi CA correlati) o **EVENT\_SOURCE** (usato per tutti gli eventi non correlati alla CA).
@@ -2690,7 +2807,10 @@ La sintassi e l'uso degli script di monitoraggio sono descritti nella sezione se
 -   **Per controllare la scadenza del certificato CA**
 
     Questo script controlla i certificati della CA di emissione (dove viene eseguito lo script) e della CA padre fino alla CA principale inclusa.
-        ```
+
+    ```
+        Cscript //job:CheckCACerts C:\MSSScripts\ca_monitor.wsf
+    ```
 
     L'esecuzione di questo script avvisa sulle seguenti condizioni:
 
@@ -2703,7 +2823,10 @@ La sintassi e l'uso degli script di monitoraggio sono descritti nella sezione se
 -   **Per controllare la scadenza dell'elenco CRL**
 
     Questo script controlla il CRL della CA di emissione e i CRL di tutte le CA padre fino alla CA principale inclusa.
-        ```
+
+    ```
+        Cscript //job:CheckCRLs C:\MSSScripts\ca_monitor.wsf
+    ```
 
     L'esecuzione di questo script avvisa sulle seguenti condizioni:
 
@@ -2720,7 +2843,11 @@ La sintassi e l'uso degli script di monitoraggio sono descritti nella sezione se
 -   **Per controllare un servizio CA non in linea**
 
     Questo script controlla solo la CA sulla quale è in esecuzione.
-        ```
+
+    ```
+        Cscript //job:IsCAAlive C:\MSSScripts\ca_monitor.wsf
+
+    ```
 
     L'esecuzione di questo script avvisa sulle seguenti condizioni:
 
@@ -3191,11 +3318,20 @@ Il server SMTP e l'elenco dei destinatari configurati nel file sono condivisi an
 -   **Per attivare gli avvisi di posta elettronica per le richieste in sospeso**
 
     1.  Accertarsi che nel file di script C:\\MSSScripts\\constants.vbs siano stati configurati i valori corretti per i destinatari della posta elettronica ed il server SMTP:
-        ```
 
+        ```
+        'Alerting parameters
+        ' set to comma-separated list of recipients to get email alerts
+        CONST ALERT_EMAIL_RECIPIENTS= "Admin@woodgrovebank.com,
+        PKIOps@woodgrovebank.com"
+        CONST ALERT_EMAIL_SMTP= "mail.woodgrovebank.com" 'SMTP host to use
+        ```
         **Nota:** le righe rientrate mostrate nel file sono continuazioni della riga precedente che continua alla riga successiva per questioni di leggibilità — nel file devono essere su una singola riga.
 
     2.  Eseguire il comando seguente per attivare gli avvisi di posta elettronica relativi alle richieste in sospeso in coda:
+
+        ```
+        cscript //job:SetupSMTPAlerts C:\MSSScripts\ca_monitor.wsf
         ```
 
 #### Pianificazione dei processi
@@ -3436,9 +3572,16 @@ Vi sono molti metodi per riavviare il servizio, tutti accettabili per questa att
     2.  Nella console MMC Autorità di certificazione, selezionare l'oggetto **CA**.
 
     3.  Nel menu **Attività** fare clic su **Arresta servizio** oppure da una finestra di comando digitare:
+
+        ```
+        net stop "Servizi certificati"
+
         ```
 
     4.  Nel menu **Attività** fare clic su **Avvia servizio** oppure da una finestra di comando digitare:
+
+        ```
+        net start "Servizi certificati"
         ```
 
 **Nota:** con il controllo abilitato, Servizi certificati potrebbe impiegare molto tempo per la chiusura ed il riavvio — questa operazione potrebbe richiedere oltre 10 minuti nel caso di database grandi. Questa operazione estende il processo di chiusura e avvio dell'intero server. Questo ritardo è dovuto al fatto che Servizi certificati calcola l'hashing dell'intero database per creare le voci di controllo dell'avvio e dell'arresto del sistema; questo ritardo non si verifica se le procedure di avvio e chiusura non vengono controllate.
@@ -3484,10 +3627,10 @@ Vi sono molti metodi per riavviare il servizio, tutti accettabili per questa att
     1.  Verificare che nessun utente sia attualmente coinvolto in alcuna transazione con la CA. Inviare un avviso agli utenti che potrebbero esser coinvolti, se il tempo lo consente.
   
     2.  Se possibile, eseguire il comando seguente per arrestare Servizi certificati in modo da impedire agli utenti di collegarsi alla CA:
-  
-        <codesnippet language displaylanguage containsmarkup="false"> net stop "Servizi certificati"  
-```
-  
+
+        ```
+        net stop "Servizi certificati"
+        ```
     3.  Seguire le normali procedure del sistema operativo per riavviare il computer. A meno che non sia chiaro che il processo Servizi certificati non risponde, non tentare di arrestare il processo o disattivare il server. L'interruzione del processo Servizi certificati potrebbe danneggiare il database di Servizi certificati e richiedere un ripristino dal backup.
   
 **Nota:** con il controllo abilitato, Servizi certificati potrebbe impiegare molto tempo per la chiusura ed il riavvio — questa operazione potrebbe richiedere oltre 10 minuti nel caso di database grandi. Questa operazione estende il processo di chiusura e avvio dell'intero server. Questo ritardo è dovuto al fatto che Servizi certificati calcola l'hashing dell'intero database per creare le voci di controllo dell'avvio e dell'arresto del sistema; questo ritardo non si verifica se le procedure di avvio e chiusura non vengono controllate.
@@ -3625,6 +3768,9 @@ A questo punto, è possibile eseguire qualsiasi attività di nuova firma richies
     2.  Eliminare l'account **CAKeySigner**.
 
     3.  Cancellare le aree non allocate del disco per rimuovere in modo permanente le tracce delle chiavi eseguendo il comando seguente:
+
+        ```
+        Cipher /W:%AllUsersProfile%
         ```
 
 **Nota:** specificando *%allusersprofile%* come percorso si garantisce che Cipher.exe operi sull'unità contenente i profili utente. L'esecuzione di questo comando elimina il contenuto dell'intera unità, non solo il percorso specificato.
@@ -3674,9 +3820,11 @@ La nuova firma di un certificato o di un CRL ne estende il periodo di validità.
     2.  Accedere ad un computer sul quale è stata precedentemente ripristinata una copia della chiave CA e del certificato utilizzati per firmare originariamente il certificato o il CRL (vedere la procedura precedente "Ripristino del certificato CA e della coppia di chiavi su un computer temporaneo"). Accedere utilizzando l'account creato in quella procedura.
   
     3.  Eseguire il comando seguente, sostituendo *OldFile.ext* con il nome del file del CRL o del certificato e *NewFile.ext* con il nome di output richiesto.
+
+    ```
   
-        <codesnippet language displaylanguage containsmarkup="false"> Certutil -sign OldFile.ext NewFile.ext  
-```
+        Certutil -sign OldFile.ext NewFile.ext
+    ```
   
     4.  Quando viene richiesto il certificato da utilizzare, selezionare il certificato CA.
   
@@ -3779,22 +3927,29 @@ Per revocare un certificato orfano, è necessario ottenere una copia del certifi
     1.  Accedere alla CA che ha emesso il certificato da revocare come membro del gruppo **Certifcate Managers**.
   
     2.  Se non è possibile ottenere una copia del certificato, eseguire il comando seguente per creare un certificato fittizio e salvarlo come CertToRevoke.cer. Sostituire *SerialNumber* con il numero di serie del certificato da revocare.
+
+    ```
   
-        <codesnippet language displaylanguage containsmarkup="false"> Certutil -sign SerialNumber CertToRevoke.cer  
-```
+        Certutil -sign SerialNumber CertToRevoke.cer 
+    ```
   
     3.  Quando richiesto, selezionare il certificato CA corrente per firmare il certificato fittizio.
   
     4.  Eseguire il comando seguente per importare il certificato nel database dei certificati. **CertToRevoke** è sia una copia del certificato effettivo da revocare che il certificato fittizio creato nei passi precedenti.
+
+    ```
   
-        <codesnippet language displaylanguage containsmarkup="false"> Certutil -importcert CertToRevoke.cer  
-```
+       Certutil -importcert CertToRevoke.cer
+
+    ```
   
     5.  Seguire la procedura standard per revocare un certificato.
   
 **Importante:** è presente un problema con certutil che genera un errore di creazione del certificato fittizio su Windows Server 2003. Prima che questa funzionalità venisse corretta, questa procedura è stata lasciata nel modulo. Nel frattempo, un approccio alternativo consiste nel prendere un certificato esistente e con un editor binario si sostituisce il numero di serie con il numero di serie del certificato da revocare. Questo certificato modificato può essere firmato nuovamente utilizzando la sintassi:
-  
-<codesnippet language displaylanguage containsmarkup="false"> Certutil -sign ModifiedCert.cer CertToRevoke.cer  
+
+```
+    Certutil -sign ModifiedCert.cer CertToRevoke.cer
+
 ```  
 Il certificato appena creato può essere importato nel database seguendo il passaggio 4.
   
@@ -4415,44 +4570,86 @@ I comandi per raccogliere queste informazioni vengono forniti nelle procedure se
 **Nota:** alcuni comandi appaiono su più righe per questioni di leggibilità ma devono essere immessi come singola riga.
 
 -   **Per visualizzare le autorità di certificazione principali attendibili:**
-        ```
+
+    ```
+        certutil -store -enterprise Root
+    ```
 
 <!-- -->
 
 -   **Per visualizzare gli archivi NT Auth:**
-        ```
+
+    ```
+        certutil -store -enterprise NTAuth
+    ```
+        
 
 <!-- -->
 
 -   **Per visualizzare i certificati delle CA dell'organizzazione di grandi dimensioni corrente:**
-        ```
+
+    ```
+        certutil -store -enterprise "ldap:///cn=Enrollment Services,CN=Public Key
+        Services,CN=Services,CN=Configuration,
+        DC=woodgrovebank,DC=com?cACertificate?one?
+        objectClass=pkiEnrollmentService"
+    ```
 
 <!-- -->
 
 -   **Per visualizzare certificati incrociati e intermedi:**
-        ```
 
+    ```
+        certutil -store -enterprise CA
+    ```
 <!-- -->
 
 -   **Per visualizzare certificati della CA intermedia:**
-        ```
+
+    ```
+    certutil -store -enterprise "ldap:///cn=AIA,CN=Public Key
+    Services,CN=Services,CN=Configuration,
+    DC=woodgrovebank,DC=com?cACertificate?one?
+    objectClass=certificationAuthority"
+    ```
 
 <!-- -->
 
 -   **Per visualizzare certificati incrociati:**
-        ```
+
+    ```
+    certutil -store -enterprise "ldap:///cn=AIA,CN=Public Key
+    Services,CN=Services,CN=Configuration,
+    DC=woodgrovebank,DC=com?cRossCertificatePair?one?
+    objectClass=certificationAuthority"
+    ```
 
 <!-- -->
 
 -   **Per visualizzare i CRL attualmente pubblicati:**
 
     1.  Questo comando visualizza i **nomi dei server** di tutte le CA che hanno pubblicato i CDP nel contenitore CDP di Active Directory:
+
+        ```
+        dsquery * "cn=CDP,cn=Public Key Services,cn=Services,
+        cn=Configuration,DC=woodgrovebank,DC=com" -attr cn -scope onelevel
+
         ```
 
     2.  Questo comando visualizza i **nomi comuni** di tutte le CA che hanno pubblicato i CDP nel contenitore CDP di Active Directory (questi saranno oggetti figli dell'elenco precedente). Tenere presente che una CA creerà un nuovo CDP per ogni versione della CA (incrementato ogni volta che la CA viene rinnovata). Questi vengono archiviati come "CACommonName(*X*)" dove *X* è il numero di versione della CA:
+
+        ```
+        dsquery * "cn=CDP,cn=Public Key Services,cn=Services, cn=Configuration,
+        DC=woodgrovebank,DC=com" -attr cn -filter (objectclass=crlDistributionPoint)
         ```
 
     3.  Utilizzando le informazioni precedenti è possibile visualizzare il CRL di un determinato CDP:
+
+        ```
+        certutil -store -enterprise "ldap:///cn=Woodgrove Bank Root CA,
+        cn=HQ-CA-01,cn=CDP,CN=Public Key Services,CN=Services,
+        CN=Configuration, DC=woodgrovebank,DC=com?
+        certificateRevocationList?base?objectClass=cRlDistributionPoint"
         ```
 
         **Importante:** sostituire "**Woodgrove Bank Root CA**" con il nome comune della CA, "**HQ-CA-01**" con il nome dell'host della CA e "**DC=woodgrovebank,DC=com**" con il DN del dominio principale dell'insieme di strutture.
@@ -4462,7 +4659,6 @@ I comandi per raccogliere queste informazioni vengono forniti nelle procedure se
 ##### Raccolta informazioni sulla configurazione del modello di certificato
 
 I modelli di certificato sono archiviati in Active Directory. Registrare la configurazione di ciascun modello e registrare i modelli di registrazione dei certificati utilizzati per ciascun modello.
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -4498,15 +4694,17 @@ I modelli di certificato sono archiviati in Active Directory. Registrare la conf
 I comandi per raccogliere queste informazioni sono forniti di seguito.
   
 -   **Per produrre un elenco dei modelli configurati in Active Directory**
-  
-    <codesnippet language displaylanguage containsmarkup="false"> Certutil -template  
+
+```  
+    Certutil -template  
 ```
   
 <!-- -->
   
 -   **Per eseguire il dump della configurazione di questi modelli**
-  
-    <codesnippet language displaylanguage containsmarkup="false"> Certutil -dsTemplate  
+
+```  
+    Certutil -dsTemplate  
 ```
   
 Non esiste alcuno strumento che consenta di esportare le autorizzazioni dei modelli in un formato utilizzabile anche se è possibile creare un script ADSI (Active Directory Service Interface) che esegua questa operazione. Mantenere una registrazione manuale.
@@ -4514,7 +4712,6 @@ Non esiste alcuno strumento che consenta di esportare le autorizzazioni dei mode
 ##### Raccolta informazioni sulla configurazione CA
   
 In questa sezione sono descritte le informazioni di configurazione archiviate localmente su ciascuna CA e, nel caso di CA dell'organizzazione di grandi dimensioni, alcune informazioni archiviate in Active Directory.
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -4562,15 +4759,19 @@ Registrare le seguenti informazioni:
 I comandi per raccogliere queste informazioni sono forniti di seguito:
   
 -   **Per visualizzare la configurazione del registro CA**
-  
-    <codesnippet language displaylanguage containsmarkup="false"> Certutil -getreg Certutil -getreg CA  
+
+```  
+    Certutil -getreg 
+    Certutil -getreg CA  
 ```
   
 <!-- -->
   
 -   **Per visualizzare il certificato CA corrente**
-  
-    <codesnippet language displaylanguage containsmarkup="false"> certutil -f -ca.cert %temp%\\CAcert.cer &gt; nul &amp;&amp; certutil -dump %temp%\\CACert.cer  
+
+```  
+    certutil -f -ca.cert %temp%\CAcert.cer > nul &amp;&amp; certutil -dump
+    %temp%\CACert.cer
 ```
   
 **Nota:** alcuni comandi appaiono su più righe per questioni di leggibilità ma devono essere immessi come singola riga.
@@ -4578,16 +4779,16 @@ I comandi per raccogliere queste informazioni sono forniti di seguito:
 Non esiste alcuno strumento che consenta di eseguire il dump della autorizzazioni CA in un formato utilizzabile. Mantenere una registrazione manuale.
   
 -   **Per visualizzare i modelli attualmente assegnati a questa CA**
-  
-    <codesnippet language displaylanguage containsmarkup="false"> Certutil -CATemplates  
-```
+
+    ```  
+    Certutil -CATemplates  
+    ```
   
 Il file CPS della CA deve essere mantenuto con un controllo di versione adeguato in modo tale che sia semplice identificare e recuperare il CPS attivo in un determinato momento.
   
 ##### Raccolta informazioni sui gruppi di gestione dell'infrastruttura PKI e dell'autorità di certificazione
   
 L'appartenenza ai gruppi di gestione dell'infrastruttura PKI è una parte molto importante delle informazioni di configurazione in quanto questi gruppi hanno il controllo su tutti gli aspetti delle informazioni sull'infrastruttura PKI dell'organizzazione di grandi dimensioni e sulle CA.
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -4639,14 +4840,14 @@ I gruppi predefiniti sono:
 Se sono stati creati ulteriori gruppi di gestione, includere anche quelli.
   
 -   **Per elencare l'appartenenza di ciascun gruppo**
-  
-    <codesnippet language displaylanguage containsmarkup="false"> Net groups groupname /domain  
-```
+
+    ```  
+    Net groups groupname /domain  
+    ```
   
 ##### Raccolta informazioni sulla configurazione del client di certificato
   
 Questo si riferisce alle informazioni di configurazione del client generalmente distribuite mediante il processo Criterio gruppo. Se si utilizza un altro meccanismo, ad esempio SMS o script di accesso, per distribuire le impostazioni del client correlate all'infrastruttura PKI, documentare anche queste.
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -5088,9 +5289,12 @@ Esaminare il registro degli eventi prodotto da CheckCRLs. Questo dovrebbe indica
 -   **Per risolvere i problemi di pubblicazione CRL**
   
     1.  Accedere alla CA dove sono stati rilevati i problemi e verificare che il CRL della CA di emissione sia aggiornato. Immettere i seguenti comandi per visualizzare il CRL delle CA (per eseguire il primo di questi due comandi, è necessario essere un membro degli amministratori della CA):
+
+    ```
   
-        <codesnippet language displaylanguage containsmarkup="false"> Certutil -getCRL %temp%\\CA.crl Certutil -dump %temp%\\CA.crl  
-```
+         Certutil -getCRL %temp%\\CA.crl 
+         Certutil -dump %temp%\\CA.crl  
+    ```
   
     2.  Se il CRL non è aggiornato, vedere la procedura "CRL non emesso".
   
@@ -5103,9 +5307,11 @@ Esaminare il registro degli eventi prodotto da CheckCRLs. Questo dovrebbe indica
     6.  Controllare le autorizzazioni sul contenitore CDP per la CA utilizzando i siti di Active Directory ed i servizi MMC (in: "**cn=CDP,cn=Public Key Services,cn=Services, cn=Configuration,*DC=woodgrovebank,DC=com****"* — sostituire le voci in corsivo con il DN per il dominio principale dell'insieme di strutture).
   
     7.  Creare un account temporaneo e aggiungerlo al gruppo Cert Publishers. Accedere con tale account, prendere il CRL recuperato nel passaggio 1 e tentare di pubblicarlo manualmente nella directory utilizzando il comando seguente:
+
+    ```
   
-        <codesnippet language displaylanguage containsmarkup="false"> certutil -dspublish CA.crl CAHostname CASubjectName  
-```
+         certutil -dspublish CA.crl CAHostname CASubjectName  
+    ```
   
     8.  Se viene mostrato un errore (dal registro eventi) con CDP HTTP, controllare se è coinvolto il server IIS. Controllare connettività e autorizzazioni. Eseguire manualmente lo script per pubblicare i CRL nel server IIS (vedere l'attività "Pubblicazione degli elenchi CRL della CA di emissione nel server Web" nella sezione "Attività della fase operativa") e controllare gli errori. Quando si esegue questa attività, provare ad utilizzare la stessa appartenenza di gruppo/account della CA stessa.
   
@@ -5120,9 +5326,11 @@ Questa è una condizione improbabile nel normale funzionamento. Una CA può gene
     1.  Esaminare il registro eventi per qualsiasi errore registrato da Servizi certificati.
   
     2.  Tentare di imporre manualmente l'emissione di un CRL (accedere come membro del gruppo CA Admins):
+
+    ```
   
-        <codesnippet language displaylanguage containsmarkup="false"> Certutil -CRL  
-```
+         Certutil -CRL  
+    ```
   
     3.  Se l'operazione non riesce, esaminare di nuovo il registro eventi per eventuali nuovi errori.
   
@@ -5183,8 +5391,9 @@ Certutil è il singolo strumento più importante per la gestione e la risoluzion
 <http://technet.microsoft.com/en-us/library/cc962081.aspx> (in inglese).
   
 Tuttavia, sono disponibili molte altre opzioni relative alle procedure diagnostiche e di gestione. È possibile visualizzare l'elenco completo delle opzioni disponibili immettendo:
-  
-<codesnippet language displaylanguage containsmarkup="false"> Certutil -uSAGE   
+
+```
+  Certutil -uSAGE   
 ```  
 ##### Altri strumenti diagnostici
   
@@ -5209,18 +5418,22 @@ Servizi certificati ed i relativi strumenti associati producono diverse registra
 -   **Per attivare la registrazione di debug su Servizi certificati**
   
     1.  Eseguire il comando seguente:
+
+    ```
   
-        <codesnippet language displaylanguage containsmarkup="false"> certutil -setreg CA\\Debug 0xffffffe3  
-```
+         certutil -setreg CA\\Debug 0xffffffe3  
+    ```
   
 Le voci della registrazione vengono salvate in *%windir%*\\certsrv.log
   
 -   **Per disattivare la registrazione di debug**
   
     1.  Eseguire il comando seguente:
+
+    ```
   
-        <codesnippet language displaylanguage containsmarkup="false"> certutil -delreg CA\\Debug  
-```
+         certutil -delreg CA\\Debug  
+    ```
   
 ##### Registrazione eventi di registrazione automatica
   

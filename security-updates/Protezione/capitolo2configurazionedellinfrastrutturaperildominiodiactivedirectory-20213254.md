@@ -13,18 +13,18 @@ Guida per la protezione di Windows XP
 
 ##### In questa pagina
 
-[](#elaa)[Panoramica](#elaa)
-[](#ekaa)[Progettazione della OU per supportare la gestione della protezione](#ekaa)
-[](#ejaa)[Progettazione dell'oggetto Criteri di gruppo per supportare la gestione della protezione](#ejaa)
-[](#eiaa)[Criteri di gruppo a livello di dominio](#eiaa)
-[](#ehaa)[Impostazioni di Criterio password](#ehaa)
-[](#egaa)[Impostazioni Criterio di blocco account](#egaa)
-[](#efaa)[Impostazioni di Assegnazione diritti utente](#efaa)
-[](#eeaa)[Impostazioni di Opzioni di protezione](#eeaa)
-[](#edaa)[Criterio Kerberos](#edaa)
-[](#ecaa)[Criteri di gruppo a livello di OU](#ecaa)
-[](#ebaa)[Strumenti relativi ai criteri di gruppo](#ebaa)
-[](#eaaa)[Riepilogo](#eaaa)
+[](#elaa)[Panoramica](#elaa)  
+[](#ekaa)[Progettazione della OU per supportare la gestione della protezione](#ekaa)  
+[](#ejaa)[Progettazione dell'oggetto Criteri di gruppo per supportare la gestione della protezione](#ejaa)  
+[](#eiaa)[Criteri di gruppo a livello di dominio](#eiaa)  
+[](#ehaa)[Impostazioni di Criterio password](#ehaa)  
+[](#egaa)[Impostazioni Criterio di blocco account](#egaa)  
+[](#efaa)[Impostazioni di Assegnazione diritti utente](#efaa)  
+[](#eeaa)[Impostazioni di Opzioni di protezione](#eeaa)  
+[](#edaa)[Criterio Kerberos](#edaa)  
+[](#ecaa)[Criteri di gruppo a livello di OU](#ecaa)  
+[](#ebaa)[Strumenti relativi ai criteri di gruppo](#ebaa)  
+[](#eaaa)[Riepilogo](#eaaa)  
 
 ### Panoramica
 
@@ -104,7 +104,7 @@ Nella figura seguente si espande la struttura dell'unità organizzativa prelimin
 
 Nell'esempio precedente, i computer portatili sono membri dell'unità organizzativa corrispondente. I primi criteri applicati sono i Criteri di protezione locali nei computer portatili. Poiché in questo esempio è presente un unico sito, nessun GPO viene applicato a livello di sito, lasciando il GPO di dominio come criterio successivo da applicare. Infine, viene applicato l'oggetto Criteri di gruppo per computer portatili.
 
-**Nota**:** **i criteri per computer desktop non vengono applicati ai computer portatili in quanto questi non sono collegati a nessuna unità organizzativa della gerarchia contenente la OU per portatili. Inoltre, la OU protetta per utenti di Windows XP non dispone di un modello di protezione (file .inf) corrispondente, poiché include solo le impostazioni dei modelli amministrativi.
+**Nota**: i criteri per computer desktop non vengono applicati ai computer portatili in quanto questi non sono collegati a nessuna unità organizzativa della gerarchia contenente la OU per portatili. Inoltre, la OU protetta per utenti di Windows XP non dispone di un modello di protezione (file .inf) corrispondente, poiché include solo le impostazioni dei modelli amministrativi.
 
 Per dimostrare come viene applicata la priorità, considerare uno scenario di esempio in cui l'impostazione di criterio **Consenti accesso tramite Servizi terminal** relativa all'OU Windows XP sia impostata sul gruppo **Administrators** e l'impostazione **Consenti accesso tramite Servizi terminal** relativa al GPO per computer portatili sia impostata sui gruppi **Power Users** e **Administrators.** In questo esempio, un utente con account incluso nel gruppo **Power Users** può accedere a un portatile tramite Servizi terminal, perché l'OU per portatili è figlio dell'OU Windows XP. Se l'opzione di criterio **Non sovrascrivere** nell'oggetto Criteri di gruppo per Windows XP è abilitata, solo gli utenti con account incluso nel gruppo **Administrators** possono accedere al computer client tramite Servizi terminal.
 
@@ -180,7 +180,6 @@ Nella tabella seguente sono incluse le raccomandazioni sulle impostazioni dei cr
 
 **Tabella 2.1 Raccomandazioni sulle impostazioni dei criteri password**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -306,7 +305,6 @@ La seguente tabella contiene le raccomandazioni per l'impostazione del criterio 
   
 **Tabella 2.2 Raccomandazioni per l'impostazione del criterio di blocco account**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -390,7 +388,6 @@ Questa impostazione di criterio consente all'utente di aggiungere un computer a 
   
 **Tabella 2.3 Raccomandazioni sulle impostazioni di assegnazione dei diritti utente**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -438,7 +435,6 @@ Nella tabella seguente sono incluse le raccomandazioni sull'impostazione delle o
   
 **Tabella 2.4 Raccomandazioni sull'impostazione delle opzioni di protezione**
 
- 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -480,7 +476,7 @@ Nella tabella seguente sono incluse le raccomandazioni sull'impostazione delle o
   
 Questa impostazione di criterio determina se scollegare gli utenti connessi alla rete locale al di fuori dell'orario di connessione valido per l'account. Questa impostazione ha effetto sul componente SMB (Server Message Block). Quando questa impostazione di criterio è abilitata, le sessioni del computer client con il servizio SMB vengono disconnesse forzatamente al termine dell'orario di accesso del client. Se è disabilitata, la sessione del computer client stabilita può continuare dopo il termine dell'orario di accesso del client. Quando si abilita questa impostazione di criterio, assicurarsi che sia abilitata anche l'impostazione **Protezione di rete: impone la disconnessione al termine dell'orario di accesso**.
   
-**Nota**:** **Il componente SMB è alla base della condivisione delle risorse nelle reti Windows. Le impostazioni che influiscono su questo componente influenzeranno anche le risorse condivise, le cartelle e le stampanti.
+**Nota**: Il componente SMB è alla base della condivisione delle risorse nelle reti Windows. Le impostazioni che influiscono su questo componente influenzeranno anche le risorse condivise, le cartelle e le stampanti.
   
 Se l'organizzazione ha configurato l'orario di accesso per gli utenti, è consigliabile attivare l'impostazione **Server di rete Microsoft: interrompe la connessione dei client al termine dell'orario di accesso**. In caso contrario, gli utenti che in teoria non possono accedere alle risorse di rete al di fuori del relativo orario di accesso potrebbero continuare effettivamente a utilizzare tali risorse tramite le sessioni stabilite durante l'orario di accesso.
   
@@ -537,19 +533,29 @@ In Windows XP sono presenti molti strumenti che facilitano l'utilizzo dei GPO. 
 Active Directory aggiorna periodicamente i criteri di gruppo, ma è possibile imporre l'aggiornamento della versione nei computer client tramite GpUpdate, uno strumento della riga di comando fornito con Windows XP Professional. È necessario eseguire localmente lo strumento nei computer client.
   
 Per aggiornare un computer locale con questo strumento, eseguire le seguenti operazioni al prompt dei comandi:
-  
-<codesnippet language displaylanguage containsmarkup="false">gpupdate /force  
-```  
+
+```
+   gpupdate /force
+```
 Dopo l'esecuzione di GpUpdate, verranno restituite le informazioni di conferma seguenti:
-  
-<codesnippet language displaylanguage containsmarkup="false">C:\\Documents and Settings\\administrator.MSSLAB&gt;gpupdate /force Refreshing Policy... User Policy Refresh has completed. Computer Policy Refresh has completed. To check for errors in policy processing, review the event log. C:\\Documents and Settings\\administrator.MSSLAB&gt;  
-```  
+
+```
+   C:\Documents and Settings\administrator.MSSLAB>gpupdate /force  
+   Refreshing Policy...  
+   User Policy Refresh has completed.  
+   Computer Policy Refresh has completed.  
+   To check for errors in policy processing, review the event log.  
+   C:\Documents and Settings\administrator.MSSLAB>  
+```
+
 Per i criteri di gruppo basati sull'utente, sarà necessario disconnettersi e quindi accedere di nuovo al computer utilizzato per verificare i criteri. È consigliabile aggiornare immediatamente i criteri relativi al computer.
   
 Per visualizzare opzioni Gpupdate aggiuntive, eseguire le seguenti operazioni al prompt dei comandi:
-  
-<codesnippet language displaylanguage containsmarkup="false">gpupdate /?  
-```  
+
+```
+   gpupdate /?
+```
+
 #### Visualizzazione del Gruppo di criteri risultante
   
 Due strumenti forniti con Windows XP consentono di determinare i criteri applicati ai computer dell'ambiente, nonché la data e l'ordine di applicazione.

@@ -21,19 +21,19 @@ Utilizzare l'appendice insieme agli altri capitoli della guida che illustrano il
 
 ##### In questa pagina
 
-[](#enaa)[Prerequisiti](#enaa)
-[](#emaa)[Distribuzione dei criteri di base](#emaa)
-[](#elaa)[Implementazione dei criteri IPSec](#elaa)
-[](#ekaa)[Utilizzo del metodo graduale per abilitare i criteri IPsec di base](#ekaa)
-[](#ejaa)[Strumenti e script per i test funzionali](#ejaa)
-[](#eiaa)[Abilitazione dell'elenco filtri delle subnet protette dell'organizzazione sui restanti criteri](#eiaa)
-[](#ehaa)[Abilitazione della configurazione del gruppo di accesso alla rete](#ehaa)
-[](#egaa)[Abilitazione del dominio di isolamento](#egaa)
-[](#efaa)[Abilitazione del gruppo di isolamento Nessun fallback](#efaa)
-[](#eeaa)[Abilitazione del gruppo di isolamento Crittografia](#eeaa)
-[](#edaa)[Abilitazione del gruppo di isolamento Limite](#edaa)
-[](#ecaa)[Configurazione del dominio di isolamento come gruppo di isolamento predefinito](#ecaa)
-[](#ebaa)[Test funzionali finali - Tutti i gruppi di isolamento abilitati](#ebaa)
+[](#enaa)[Prerequisiti](#enaa)  
+[](#emaa)[Distribuzione dei criteri di base](#emaa)  
+[](#elaa)[Implementazione dei criteri IPSec](#elaa)  
+[](#ekaa)[Utilizzo del metodo graduale per abilitare i criteri IPsec di base](#ekaa)  
+[](#ejaa)[Strumenti e script per i test funzionali](#ejaa)  
+[](#eiaa)[Abilitazione dell'elenco filtri delle subnet protette dell'organizzazione sui restanti criteri](#eiaa)  
+[](#ehaa)[Abilitazione della configurazione del gruppo di accesso alla rete](#ehaa)  
+[](#egaa)[Abilitazione del dominio di isolamento](#egaa)  
+[](#efaa)[Abilitazione del gruppo di isolamento Nessun fallback](#efaa)  
+[](#eeaa)[Abilitazione del gruppo di isolamento Crittografia](#eeaa)  
+[](#edaa)[Abilitazione del gruppo di isolamento Limite](#edaa)  
+[](#ecaa)[Configurazione del dominio di isolamento come gruppo di isolamento predefinito](#ecaa)  
+[](#ebaa)[Test funzionali finali - Tutti i gruppi di isolamento abilitati](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Prerequisiti
@@ -159,7 +159,7 @@ Benché lo snap-in MMC Gestione criteri di protezione IP disponga di un'interfac
 
 1.  Connettersi al dominio IPS-CH-DC-01 come amministratore del dominio Americhe.
 
-2.  Aprire un prompt dei comandi e digitare
+2.  Aprire un prompt dei comandi e digitare  
     **netsh –f "c:\\IPsec Scripts\\PacketFilters.txt"**, quindi premere INVIO.
 
     **Nota:** se utilizzando lo script vengono creati elenchi filtri vuoti, nella riga di comando viene visualizzato il seguente messaggio di errore: **ERR IPsec \[05022\]: No filters in FilterList with name "&lt;Nome elenco filtri&gt;**.**"**, che può essere tranquillamente ignorato.
@@ -215,9 +215,12 @@ Nella tabella riportata di seguito sono elencati il nome del criterio e il file 
 1.  Connettersi a IPS-CH-DC-01 come amministratore del dominio Americhe.
   
 2.  Aprire un prompt dei comandi. Per ciascun criterio, digitare
+
+    ```
   
-    <codesnippet language displaylanguage containsmarkup="false">netsh –f "c:\\IPsec Scripts\\&lt;Script Filename&gt;" and then press ENTER.  
-```
+    netsh –f "c:\IPsec Scripts\<Script Filename>" 
+    and then press ENTER.
+    ```
   
     **Nota:** se un elenco filtri rimane vuoto, Netsh visualizza un messaggio di errore che inizia con "ERR IPsec \[05022\]..." e che può essere tranquillamente ignorato.
   
@@ -572,7 +575,6 @@ Prima di procedere alla distribuzione, è necessario collegare i criteri IPsec a
 5.  Nel riquadro a destra, ordinare i criteri come illustrato nella tabella seguente con l'ausilio dei tasti freccia.
   
     **Tabella C.5. Ordine di collegamento oggetti Criteri di gruppo a livello di dominio**
-
  
     <table style="border:1px solid black;">
     <colgroup>
@@ -628,7 +630,6 @@ Dopo l'aggiunta di ciascuna subnet, è stato considerato il tempo necessario all
 Nella tabella riportata di seguito, sono elencate le subnet protette utilizzate in laboratorio presso la Woodgrove Bank per riprodurre fedelmente la rete di produzione aziendale.
   
 **Tabella C.6. Elenco delle subnet protette utilizzate nel laboratorio di test della Woodgrove Bank**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -781,32 +782,66 @@ Identificare il criterio IPsec attivo su un computer presenta delle difficoltà,
 ##### Windows 2000
   
 Nei computer che eseguono Windows 2000 Server, l'amministratore può identificare il criterio IPsec corrente tramite il comando Netdiag. Per recuperare il nome del criterio e altre informazioni, l'amministratore esegue l'accesso al computer, apre un prompt dei comandi e digita quanto segue:
-  
-<codesnippet language displaylanguage containsmarkup="false">Netdiag /test:IPsec  
+
+```  
+Netdiag /test:IPsec 
 ```  
 Di seguito viene riportato un esempio di output del comando:
-  
-<codesnippet language displaylanguage containsmarkup="false">IP Security test . . . . . . . . . : Passed     Directory IPsec Policy Active: ' IPSEC – Isolation Domain IPsec Policy (1.0.041001.1600)'  
+
+```
+IP Security test . . . . . . . . . : Passed
+    Directory IPsec Policy Active: ' IPSEC – Isolation 
+Domain IPsec Policy (1.0.041001.1600)' 
 ```  
 ##### Windows XP
   
 Nei computer che eseguono Windows XP, l'amministratore può identificare il criterio IPsec corrente tramite lo strumento di riga di comando **IPseccmd.exe**. Per recuperare il nome del criterio e altre informazioni, l'amministratore esegue l'accesso al computer, apre un prompt dei comandi e digita quanto segue:
-  
-<codesnippet language displaylanguage containsmarkup="false">IPseccmd show gpo  
+
+```  
+IPseccmd show gpo  
 ```  
 Di seguito viene riportato un esempio di output del comando:
+
+```
   
-<codesnippet language displaylanguage containsmarkup="false">Active Directory Policy -----------------------      Directory Policy Name: IPSEC – Isolation Domain IPsec Policy (1.0.041001.1600)      Description: Isolation Domain Policy (Allow Outbound)      Last Change: Fri Sep 03 15:20:29 2004      Group Policy Object: IPSEC – Isolation Domain Policy      Organizational Unit: LDAP://DC=americas,DC=woodgrovebank,DC=com      Policy Path: LDAP://CN=IPsecPolicy{efa2185d-1a1d-40f6- b977-314f152643ca},CN=IP Security,CN=System,DC=americas,DC=woodgrovebank,DC=com  
+Active Directory Policy
+-----------------------
+     Directory Policy Name: IPSEC – Isolation Domain IPsec 
+Policy (1.0.041001.1600)
+     Description: Isolation Domain Policy (Allow Outbound) 
+     Last Change: Fri Sep 03 15:20:29 2004
+     Group Policy Object: IPSEC – Isolation Domain Policy
+     Organizational Unit: 
+LDAP://DC=americas,DC=woodgrovebank,DC=com
+     Policy Path: LDAP://CN=IPsecPolicy{efa2185d-1a1d-40f6-
+b977-314f152643ca},CN=IP
+Security,CN=System,DC=americas,DC=woodgrovebank,DC=com
+
 ```  
 ##### Windows Server 2003
   
 Nei computer che eseguono Windows Server 2003, l'amministratore può identificare il criterio IPsec corrente tramite lo strumento di riga di comando Netsh. Per recuperare il nome del criterio e altre informazioni, l'amministratore esegue l'accesso al computer, apre un prompt dei comandi e digita quanto segue:
-  
-<codesnippet language displaylanguage containsmarkup="false">netsh IPsec static show gpoassignedpolicy  
+
+```
+
+netsh IPsec static show gpoassignedpolicy
+
 ```  
 Di seguito viene riportato un esempio di output del comando:
-  
-<codesnippet language displaylanguage containsmarkup="false">Source Machine          : Local Computer GPO for &lt;IPS-TZ-W2K-02&gt; GPO Name                : IPSEC – Isolation Domain Policy Local IPsec Policy Name : NONE AD IPsec Policy Name    : IPSEC – Isolation Domain IPsec Policy (1.0.041001.1600) AD Policy DN            : LDAP://CN=IPsecPolicy {efa2185d-1a1d-40f6-b977-314f152643ca},CN=IP Security,CN=System,DC=americas,DC=woodgrovebank,DC=com Local IPsec Policy Assigned: Yes, but AD Policy is Overriding  
+
+```
+Source Machine          : Local Computer GPO 
+for <IPS-TZ-W2K-02>
+GPO Name                : IPSEC – Isolation Domain Policy
+Local IPsec Policy Name : NONE
+AD IPsec Policy Name    : IPSEC – Isolation 
+Domain IPsec Policy 
+(1.0.041001.1600)
+AD Policy DN            : LDAP://CN=IPsecPolicy
+{efa2185d-1a1d-40f6-b977-314f152643ca},CN=IP 
+Security,CN=System,DC=americas,DC=woodgrovebank,DC=com
+Local IPsec Policy Assigned: Yes, but AD Policy is
+Overriding 
 ```  
 #### Uso dello strumento Monitor di protezione IP per determinare il tipo di SA
   
@@ -825,7 +860,6 @@ Prima di abilitare i restanti criteri IPsec, è necessario aggiungere a ciascun 
 In una sezione precedente della presente appendice, è stato implementato l'elenco filtri della rete protetta dell'organizzazione ed è ora possibile aggiungerlo ai restanti criteri. Nella tabella seguente, sono riportati i nomi dei criteri e l'operazione filtro associata assegnata all'elenco filtri della rete protetta dell'organizzazione.
   
 **Tabella C.7. Associazione dei criteri alle operazioni filtro**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -899,7 +933,6 @@ I progettisti della Woodgrove Bank hanno identificato un singolo gruppo di rete,
 ##### Creazione di gruppi di protezione per il controllo degli accessi
   
 **Tabella C.8. Gruppi di protezione gruppo di accesso alla rete della Woodgrove Bank**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -951,7 +984,6 @@ La Woodgrove Bank ha aggiunto i computer identificati, con funzione di iniziator
 Nella tabella riportata di seguito, viene indicata l'appartenenza del gruppo di accesso alla rete identificato dalla Woodgrove Bank.
   
 **Tabella C.9. Appartenenza dei gruppi di isolamento della Woodgrove Bank**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -972,8 +1004,7 @@ IPS-SQL-DFS-02
 IPS-ST-XP-05</td>
 </tr>
 </tbody>
-</table>
- 
+</table> 
 
 **Per popolare i gruppi elencati nella tabella precedente**
 
@@ -998,7 +1029,6 @@ La Woodgrove Bank ha identificato gli account utente autorizzati ad avviare il t
 Nella tabella riportata di seguito, viene indicata l'appartenenza del gruppo di accesso alla rete identificato dalla Woodgrove Bank.
 
 **Tabella C.10: Appartenenza al gruppo di accesso alla rete della Woodgrove Bank**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1040,7 +1070,6 @@ La Woodgrove Bank ha creato un oggetto Criteri di gruppo per applicare il gruppo
 Gli amministratori hanno creato la tabella seguente, contenente il nome dell'oggetto Criteri di gruppo e i nomi dei gruppi ad esso associati utilizzati per implementare il gruppo di accesso alla rete.
   
 **Tabella C.11. Definizione del criterio gruppo di isolamento della Woodgrove Bank**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1062,8 +1091,7 @@ Amministratori
 Operatori backup</td>
 </tr>
 </tbody>
-</table>
- 
+</table> 
 
 **Nota:** come minimo, devono essere aggiunti tutti i gruppi elencati. L'amministratore dovrà stabilire se occorre concedere tale diritto anche ad altri gruppi.
 
@@ -1102,7 +1130,6 @@ Operatori backup</td>
 Prima di distribuire i criteri di gruppo di accesso alla rete, occorre collegare gli oggetti Criteri di gruppo a un percorso nell'ambiente di dominio. La Woodgrove Bank ha scelto di distribuire l'oggetto Criteri di gruppo collegandolo all'unità organizzativa appropriata in Active Directory, come illustrato nella tabella seguente.
 
 **Tabella C.12. Nome GPO gruppo di accesso alla rete e UO di destinazione**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1144,7 +1171,6 @@ Dopo aver creato e distribuito i gruppi di accesso alla rete e i criteri, gli am
 Prima di verificare il funzionamento dei computer all'interno del gruppo di accesso alla rete, la Woodgrove Bank ha controllato che le assegnazioni dei diritti utente fossero state correttamente aggiornate. Una volta trascorso un periodo di tempo sufficiente a garantire la replica e l'aggiornamento dei criteri, la Woodgrove Bank ha effettuato la seguente procedura sui computer elencati nella tabella seguente.
   
 **Tabella C.13. Appartenenza al gruppo di accesso alla rete**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1169,8 +1195,7 @@ ANAG_EncryptedResourceAccess_users</td>
 ANAG_EncryptedResourceAccess_users</td>
 </tr>
 </tbody>
-</table>
- 
+</table> 
 
 **Per confermare la corretta appartenenza del gruppo al gruppo di accesso alla rete**
 
@@ -1193,7 +1218,6 @@ ANAG_EncryptedResourceAccess_users</td>
 Dopo aver verificato che ai gruppi di protezione fossero stati concessi i diritti utente appropriati, la Woodgrove Bank ha sottoposto a test incrociati i computer appartenenti ai gruppi di accesso alla rete. Quindi, ha utilizzato queste informazioni per verificare che le restrizioni sui diritti di accesso fossero implementate e funzionanti. La Woodgrove Bank ha poi tentato di eseguire i comandi **net view** su diverse combinazioni di iniziatore e risponditore. Oltre a questo test, si è utilizzato lo snap-in MMC Monitor di protezione IP per verificare che fossero state create le SA appropriate. Nella tabella riportata di seguito, vengono elencati l'iniziatore e il risponditore utilizzati per ogni esecuzione di **net view**, un'indicazione sull'esito (positivo o negativo) previsto e il tipo di SA negoziate.
 
 **Tabella C.14. Risultati previsti per il test funzionale del gruppo di accesso alla rete**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1271,9 +1295,10 @@ Dopo aver verificato che ai gruppi di protezione fossero stati concessi i diritt
 3.  Espandere **Monitor di protezione IP**, &lt;*iniziatore*&gt; e **Modalità rapida**, quindi scegliere **Associazioni protezione**.
   
 4.  Aprire un prompt dei comandi e specificare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">net view \\\\&lt;Responder&gt;  
-```
+
+    ```
+    net view \\<Responder> 
+    ```
   
 5.  Tramite lo snap-in MMC Monitor di protezione IP, verificare che per ciascuna connessione riuscita sia stata negoziata la SA appropriata
   
@@ -1330,8 +1355,9 @@ Prima di eseguire eventuali test funzionali sul computer presente nel dominio di
 1.  Connettersi a IPS-TZ-XP-06 come amministratore del dominio Americhe.
   
 2.  Aprire un prompt dei comandi e specificare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">IPseccmd show gpo  
+
+```  
+    IPseccmd show gpo
 ```
   
 3.  Controllare l'output per confermare che il nome del criterio sia il seguente: "IPSEC – Criterio IPsec dominio di isolamento (1.0.041001.1600)".
@@ -1343,7 +1369,6 @@ Dopo aver verificato la corretta applicazione del criterio a IPS-TZ-XP-06, la Wo
 **Nota:** quando si tenta di eseguire un comando **net view** su un computer non attendibile, è necessario specificare le credenziali di amministratore locale del computer di destinazione.
   
 **Tabella C.15. Risultati previsti dei test funzionali sul dominio di isolamento**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1389,10 +1414,10 @@ Dopo aver verificato la corretta applicazione del criterio a IPS-TZ-XP-06, la Wo
 2.  Avviare lo snap-in MMC Monitor di protezione IP, espandere **Monitor di protezione IP**, **IPS-TX-XP-06** e **Modalità rapida**, quindi scegliere **Associazioni protezione**.
   
 3.  Aprire un prompt dei comandi e specificare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">net view \\\\&lt;Target Computer&gt;  
-```
-  
+
+    ```  
+    net view \\<Target Computer>
+    ```  
     **Nota:** su IPS-UT-XP-03, specificare le credenziali di amministratore locale con il comando **net view**.
   
 4.  Tramite lo snap-in MMC Monitor di protezione IP, controllare il campo **Associazioni protezione** di tutte le connessioni riuscite per verificare che sia stata negoziata la SA appropriata.
@@ -1440,8 +1465,9 @@ Prima di eseguire eventuali test funzionali sui computer del gruppo di isolament
 1.  Connettersi a IPS-LT-XP-01 come amministratore del dominio Americhe.
   
 2.  Aprire un prompt dei comandi e specificare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">IPseccmd show gpo  
+
+```  
+    IPseccmd show gpo
 ```
   
 3.  Controllare l'output per confermare che il nome del criterio sia il seguente: "Modalità non crittografata consentita in uscita".
@@ -1453,7 +1479,6 @@ Dopo aver verificato la corretta applicazione del criterio a IPS-LT-XP-01, la Wo
 **Nota:** quando si tenta di eseguire un comando **net view** su un computer non attendibile, è necessario specificare le credenziali di amministratore locale del computer di destinazione.
   
 **Tabella C.16. Risultati previsti per il test funzionale del criterio Modalità non crittografata consentita in uscita**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1494,9 +1519,10 @@ Dopo aver verificato la corretta applicazione del criterio a IPS-LT-XP-01, la Wo
 2.  Avviare lo snap-in MMC Monitor di protezione IP, espandere **Monitor di protezione IP**, **IPS-LT-XP-01** e **Modalità rapida**, quindi scegliere **Associazioni protezione**.
   
 3.  Aprire un prompt dei comandi e specificare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">net view \\\\&lt;Target Computer&gt;  
-```
+
+    ```  
+    net view \\<Target Computer>
+    ```
   
     **Nota:** su IPS-UT-XP-03, specificare le credenziali di amministratore locale con il comando **net view**.
   
@@ -1549,8 +1575,9 @@ Prima di eseguire eventuali test funzionali sui computer del gruppo di isolament
 1.  Connettersi a IPS-SQL-DFS-01 come amministratore del dominio Americhe.
   
 2.  Aprire un prompt dei comandi e specificare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">netsh IPsec static show gpoassignedpolicy  
+
+```  
+    netsh IPsec static show gpoassignedpolicy
 ```
   
 3.  Controllare l'output per confermare che il nome del criterio sia il seguente: "IPSEC - Criterio IPsec gruppo di isolamento Crittografia (1.0.041001.1600)".
@@ -1574,7 +1601,6 @@ Dopo aver verificato la corretta applicazione del criterio ai computer IPS-SQL-D
 **Nota:** quando si tenta di eseguire un comando **net view** su un computer non attendibile, è necessario specificare le credenziali di amministratore locale del computer.
   
 **Tabella C.17. Risultati previsti dei test funzionali su IPS-SQL-DFS-01**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1620,10 +1646,10 @@ Dopo aver verificato la corretta applicazione del criterio ai computer IPS-SQL-D
 2.  Avviare lo snap-in MMC Monitor di protezione IP, espandere **Monitor di protezione IP**, **IPS-SQL-DFS-01** e **Modalità rapida**, quindi scegliere **Associazioni protezione**.
   
 3.  Aprire un prompt dei comandi e specificare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">net view \\\\&lt;Target Computer&gt;  
-```
-  
+
+    ```  
+    net view \\<Target Computer> 
+    ```  
     **Nota:** su IPS-UT-XP-03, specificare le credenziali di amministratore locale con il comando **net view**.
   
 4.  Tramite lo snap-in MMC Monitor di protezione IP, controllare il campo **Associazioni protezione** di tutte le connessioni riuscite per verificare che sia stata negoziata la SA appropriata.
@@ -1671,10 +1697,10 @@ Prima di eseguire eventuali test funzionali sui computer del gruppo di isolament
 1.  Connettersi a IPS-PRINTS-01 come amministratore del dominio Americhe.
   
 2.  Aprire un prompt dei comandi e specificare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">netsh IPsec static show gpoassignedpolicy  
-```
-  
+
+```  
+netsh IPsec static show gpoassignedpolicy  
+```  
 3.  Controllare l'output per confermare che il nome del criterio sia il seguente: "IPSEC - Criterio IPsec gruppo di isolamento Limite (1.0.041001.1600)".
   
 ##### Test funzionali di implementazione
@@ -1684,7 +1710,6 @@ Dopo aver verificato la corretta applicazione del criterio a IPS-PRINTS-06, la W
 **Nota:** quando si tenta di eseguire un comando **net view** su un computer non attendibile, è necessario specificare le credenziali di amministratore locale del computer.
   
 **Tabella C.18. Risultati previsti dei test funzionali su IPS-PRINTS-01**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1725,10 +1750,10 @@ Dopo aver verificato la corretta applicazione del criterio a IPS-PRINTS-06, la W
 2.  Avviare lo snap-in MMC Monitor di protezione IP, espandere **Monitor di protezione IP**, **IPS-PRINTS-01** e **Modalità rapida**, quindi scegliere **Associazioni protezione**.
   
 3.  Aprire un prompt dei comandi e specificare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">net view \\\\&lt;Target Computer&gt;  
-```
-  
+
+    ```
+    net view \\<Target Computer>
+    ```  
     **Nota:** su IPS-UT-XP-03, specificare le credenziali di amministratore locale con il comando **net view**.
   
 4.  Tramite lo snap-in MMC Monitor di protezione IP, controllare il campo **Associazioni protezione** di tutte le connessioni riuscite per verificare che sia stata negoziata la SA appropriata.
@@ -1790,7 +1815,6 @@ Per garantire la corretta applicazione dei criteri agli host, è necessario aggi
 4.  Nell'elenco **Oggetti Criteri di gruppo collegati**, ordinare i criteri come illustrato nella tabella seguente con l'ausilio dei tasti freccia.
   
     **Tabella C.19. Ordine di collegamento oggetti Criteri di gruppo a livello di dominio**
-
  
     <table style="border:1px solid black;">
     <colgroup>
@@ -1840,7 +1864,6 @@ Nelle tabelle riportate di seguito, vengono elencati i computer di destinazione 
 Mediante la seguente procedura, è possibile verificare la connettività tra IPS-SQL-DFS-01 (con funzione di iniziatore) e diversi computer appartenenti ad altri gruppi di isolamento o di accesso alla rete.
   
 **Tabella C.20. Risultati previsti dei test funzionali su IPS-SQL-DFS-01**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1892,9 +1915,10 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 2.  Avviare lo snap-in MMC Monitor di protezione IP, espandere **Monitor di protezione IP**, **IPS-SQL-DFS-01** e **Modalità rapida**, quindi scegliere **Associazioni protezione**.
   
 3.  Aprire un prompt dei comandi e specificare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">net view \\\\&lt;Target Computer&gt;  
-```
+
+    ```
+    net view \\<Target Computer>
+    ```
   
     **Nota:** su IPS-UT-XP-03, specificare le credenziali di amministratore locale con il comando **net view**.
   
@@ -1905,7 +1929,6 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 Mediante la seguente procedura, è possibile verificare la connettività tra IPS-TX-XP-06 (con funzione di iniziatore) e diversi computer appartenenti ad altri gruppi di isolamento o di accesso alla rete.
   
 **Tabella C.21. Risultati previsti dei test funzionali su IPS-TZ-XP-06**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -1963,10 +1986,10 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 2.  Avviare lo snap-in MMC Monitor di protezione IP, espandere **Monitor di protezione IP**, **IPS-TZ-XP-06** e **Modalità rapida**, quindi scegliere **Associazioni protezione**.
   
 3.  Aprire un prompt dei comandi e specificare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">net view \\\\&lt;Target Computer&gt;  
-```
-  
+
+    ```
+    net view \\<Target Computer>
+    ```  
     **Nota:** su IPS-UT-XP-03, specificare le credenziali di amministratore locale con il comando **net view**.
   
 4.  Tramite lo snap-in MMC Monitor di protezione IP, controllare il campo **Associazioni protezione** di tutte le connessioni riuscite per verificare che sia stata negoziata la SA appropriata.
@@ -1976,7 +1999,6 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 Mediante la seguente procedura, è possibile verificare la connettività tra IPS-ST-XP-06 (con funzione di iniziatore) e diversi computer appartenenti ad altri gruppi di isolamento.
   
 **Tabella C.22. Risultati previsti dei test funzionali su IPS-ST-XP-05**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2028,10 +2050,10 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 2.  Avviare lo snap-in MMC Monitor di protezione IP, espandere **Monitor di protezione IP**, **IPS-ST-XP-05** e **Modalità rapida**, quindi scegliere **Associazioni protezione**.
   
 3.  Aprire un prompt dei comandi e specificare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">net view \\\\&lt;Target Computer&gt;  
-```
-  
+
+    ```
+    net view \\<Target Computer>
+    ```  
     **Nota:** su IPS-UT-XP-03, specificare le credenziali di amministratore locale con il comando **net view**.
   
 4.  Tramite lo snap-in MMC Monitor di protezione IP, controllare il campo **Associazioni protezione** di tutte le connessioni riuscite per verificare che sia stata negoziata la SA appropriata.
@@ -2041,7 +2063,6 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 Mediante la seguente procedura, è possibile verificare la connettività tra IPS-TX-XP-01 (con funzione di iniziatore) e diversi computer appartenenti ad altri gruppi di isolamento o di accesso alla rete.
   
 **Tabella C.23. Risultati previsti dei test funzionali su IPS-TZ-XP-01**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2093,10 +2114,10 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 2.  Avviare lo snap-in MMC Monitor di protezione IP, espandere **Monitor di protezione IP**, **IPS-TZ-XP-01** e **Modalità rapida**, quindi scegliere **Associazioni protezione**.
   
 3.  Aprire un prompt dei comandi e specificare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">net view \\\\&lt;Target Computer&gt;  
-```
-  
+
+    ```
+    net view \\<Target Computer>    
+    ```  
     **Nota:** su IPS-UT-XP-03, specificare le credenziali di amministratore locale con il comando **net view**.
   
 4.  Tramite lo snap-in MMC Monitor di protezione IP, controllare il campo **Associazioni protezione** di tutte le connessioni riuscite per verificare che sia stata negoziata la SA appropriata.
@@ -2106,7 +2127,6 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 Mediante la seguente procedura, è possibile verificare la connettività tra IPS-LT\_XP-01 (con funzione di iniziatore) e diversi computer appartenenti ad altri gruppi di isolamento o di accesso alla rete.
   
 **Tabella C.24. Risultati previsti dei test funzionali su IPS-LT-XP-01**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2159,9 +2179,9 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
   
 3.  Aprire un prompt dei comandi e specificare il seguente comando:
   
-    <codesnippet language displaylanguage containsmarkup="false">net view \\\\&lt;Target Computer&gt;  
-```
-  
+    ```
+    net view \\<Target Computer>
+    ```  
     **Nota:** su IPS-UT-XP-03, specificare le credenziali di amministratore locale con il comando **net view**.
   
 4.  Tramite lo snap-in MMC Monitor di protezione IP, controllare il campo **Associazioni protezione** di tutte le connessioni riuscite per verificare che sia stata negoziata la SA appropriata.
@@ -2171,7 +2191,6 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 Mediante la seguente procedura, è possibile verificare la connettività tra IPS-PRINTS-01 (con funzione di iniziatore) e diversi computer appartenenti ad altri gruppi di isolamento.
   
 **Tabella C.25. Risultati previsti dei test funzionali su IPS-PRINTS-01**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2223,10 +2242,10 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 2.  Avviare lo snap-in MMC Monitor di protezione IP, espandere **Monitor di protezione IP**, **IPS-PRINTS-01** e **Modalità rapida**, quindi scegliere **Associazioni protezione**.
   
 3.  Aprire un prompt dei comandi e specificare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">net view \\\\&lt;Target Computer&gt;  
-```
-  
+
+    ```
+    net view \\<Target Computer>
+    ```  
     **Nota:** su IPS-UT-XP-03, specificare le credenziali di amministratore locale con il comando **net view**.
   
 4.  Tramite lo snap-in MMC Monitor di protezione IP, controllare il campo **Associazioni protezione** di tutte le connessioni riuscite per verificare che sia stata negoziata la SA appropriata.
@@ -2236,7 +2255,6 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 Mediante la seguente procedura, è possibile verificare la connettività tra IPS-UT-XP-03 (con funzione di iniziatore) e diversi computer appartenenti ad altri gruppi di isolamento o di accesso alla rete.
   
 **Tabella C.26. Risultati previsti dei test funzionali su IPS-UT-XP-03**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -2288,10 +2306,10 @@ Mediante la seguente procedura, è possibile verificare la connettività tra IPS
 2.  Avviare lo snap-in MMC Monitor di protezione IP, espandere **Monitor di protezione IP**, **IPS-UT-XP-03** e **Modalità rapida**, quindi scegliere **Associazioni protezione**.
   
 3.  Aprire un prompt dei comandi e specificare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false"> net view \\\\&lt;Target Computer&gt;  
-```
-  
+
+    ```
+    net view \\<Target Computer>
+    ```  
     **Nota:** su tutti i computer basati sul dominio, specificare le credenziali di amministratore locale con il comando **net view**.
   
 4.  Tramite lo snap-in MMC Monitor di protezione IP, controllare il campo **Associazioni protezione** di tutte le connessioni riuscite per verificare che sia stata negoziata la SA appropriata.

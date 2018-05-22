@@ -54,8 +54,8 @@ Microsoft ha prodotto queste indicazioni sulla protezione con l'intento di aiuta
 
 ##### In questa pagina
 
-[](#ebaa)[Destinatari](#ebaa)
-[](#eaaa)[Convenzioni stilistiche adottate in questa guida](#eaaa)
+[](#ebaa)[Destinatari](#ebaa)   
+[](#eaaa)[Convenzioni stilistiche adottate in questa guida](#eaaa)   
 
 ### Destinatari
 
@@ -70,7 +70,6 @@ Le considerazioni riportate nella Guida sono soprattutto relative alla difesa an
 Nella tabella riportata di seguito sono indicate le convenzioni stilistiche utilizzate nella** *Guida alla difesa antivirus a più livelli*.
 
 **Tabella 1.1: Convenzioni di stile**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -106,14 +105,14 @@ Il corsivo viene inoltre utilizzato per contraddistinguere i nuovi termini. Ad e
 <td style="border:1px solid black;">Con questo stile si definisce il testo visualizzato sullo schermo.</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><pre><code>Codice a spaziatura fissa</code></pre>
+<td style="border:1px solid black;">Codice a spaziatura fissa
 <br />
 </td>
 <td style="border:1px solid black;">Questo stile viene utilizzato per definire gli esempi di codice. Esempio:<br />
   public override void Install(IDictionary savedState)</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><pre><code>Comando a spaziatura fissa</code></pre>
+<td style="border:1px solid black;">Comando a spaziatura fissa
 <br />
 </td>
 <td style="border:1px solid black;">Con questo stile si definiscono comandi, switch e attributi digitati dall'utente al prompt dei comandi. Esempio:<br />

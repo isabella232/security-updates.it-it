@@ -13,14 +13,14 @@ Guida per la protezione di Windows Server 2003
 
 ##### In questa pagina
 
-[](#eiaa)[Panoramica](#eiaa)
-[](#ehaa)[Impostazioni del Criterio Controllo](#ehaa)
-[](#egaa)[Impostazioni di Assegnazione diritti utente](#egaa)
-[](#efaa)[Opzioni di protezione](#efaa)
-[](#eeaa)[Impostazioni del Registro eventi](#eeaa)
-[](#edaa)[Gruppi con restrizioni](#edaa)
-[](#ecaa)[Impostazioni di protezione aggiuntive](#ecaa)
-[](#ebaa)[Creazione del criterio utilizzando SCW](#ebaa)
+[](#eiaa)[Panoramica](#eiaa)  
+[](#ehaa)[Impostazioni del Criterio Controllo](#ehaa)  
+[](#egaa)[Impostazioni di Assegnazione diritti utente](#egaa)  
+[](#efaa)[Opzioni di protezione](#efaa)  
+[](#eeaa)[Impostazioni del Registro eventi](#eeaa)  
+[](#edaa)[Gruppi con restrizioni](#edaa)  
+[](#ecaa)[Impostazioni di protezione aggiuntive](#ecaa)  
+[](#ebaa)[Creazione del criterio utilizzando SCW](#ebaa)  
 [](#eaaa)[Riepilogo](#eaaa)
 
 ### Panoramica
@@ -38,7 +38,6 @@ Gran parte dei criteri DCBP sono una copia dei criteri MSBP. È quindi necessari
 I modelli di controller di dominio sono progettati esclusivamente per soddisfare le esigenze di protezione dei tre ambienti definiti in questa guida. La seguente tabella illustra i file .inf del controller di dominio allegati a questa guida per gli ambienti Legacy Client (LC), Enterprise Client (EC) e Specialized Security – Limited Functionality (SSLF). Ad esempio, il file Enterprise Client - Domain Controller.inf è un modello di protezione per l’ambiente Enterprise Client.
 
 **Tabella 5.1 Modelli di protezione di base per i controller di dominio**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -71,7 +70,6 @@ I modelli di controller di dominio sono progettati esclusivamente per soddisfare
 Le impostazioni dei Criteri di controllo per i controller di dominio sono le stesse specificate nei criteri MSBP. Per ulteriori informazioni, consultare il Capitolo 4, "Criteri di base dei server membro". Le impostazioni del criterio DCBP assicurano che tutte le informazioni di controllo della protezione pertinenti siano registrate sui controller di dominio.
   
 **Tabella 5.2 Impostazioni consigliate dei criteri di controllo**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -109,7 +107,6 @@ L'impostazione **Controlla accesso al servizio directory** è configurata su **N
 La seguente tabella contiene importanti eventi di protezione che l'impostazione **Controlla accesso al servizio directory** registra nel registro di protezione.
   
 **Tabella 5.3 Eventi di accesso al servizio directory**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -145,7 +142,6 @@ In questa sezione sono contenuti dettagli relativi alle impostazioni richieste p
 La seguente tabella riassume le impostazioni per l'assegnazione dei diritti utente consigliate per i criteri DCBP. Nelle sezioni che seguono la tabella sono contenute ulteriori informazioni per ciascuna impostazione.
   
 **Tabella 5.4 Impostazioni assegnazioni diritti utente consigliate**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -314,7 +310,6 @@ Molte delle impostazioni di opzioni di protezione per i controller di dominio so
 #### Impostazioni dei controller di dominio
   
 **Tabella 5.5 Opzioni di protezione: consigli per l'impostazione dei controller di dominio**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -376,7 +371,6 @@ Di conseguenza l'impostazione **Controller di dominio: rifiuta cambio password a
 #### Impostazioni di protezione di rete
   
 **Tabella 5.6 Opzioni di protezione: consigli per le impostazioni di protezione di rete**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -426,7 +420,6 @@ Come descritto nel capitolo precedente, le impostazioni **Gruppi con restrizioni
 **Nota:** se l'organizzazione utilizza uno qualsiasi di questi gruppi, controllare attentamente la loro appartenenza e non implementare le istruzioni relative all'impostazione dei **Gruppi con restrizioni**. Se l'organizzazione aggiunge utenti al gruppo Utenti server, potrebbe essere utile implementare le autorizzazioni opzionali del file system, descritte nella sezione “Protezione del File System" al capitolo precedente.
   
 **Tabella 5.7 Consigli per gruppi con restrizioni**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -514,7 +507,6 @@ Avvertenza: nella tabella che segue sono contenuti i valori per l'account **Ammi
 Inoltre, se è stato rinominato l'account Amministratore incorporato in base ai consigli del Capitolo 4, "Criteri di base dei server membro", verificare di scegliere l'account amministratore appena rinominato quando si aggiunge l'account a uno qualunque dei diritti di accesso utente negati.
   
 **Tabella 5.8 Assegnazioni diritti utente aggiunte manualmente**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -585,7 +577,6 @@ Nei controller di dominio, le informazioni sulla password sono memorizzate in Ac
 L’utilità chiave di sistema (Syskey) fornisce un’ulteriore difesa contro i programmi software per la violazione delle password non in linea. Syskey utilizza tecniche di crittografia avanzata per proteggere le informazioni sulla password di account, archiviate nel database SAM o nel controller di dominio.
   
 **Tabella 5.9 Modalità Syskey**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -637,7 +628,7 @@ Attuando procedure operative corrette, Syskey è in grado di offrire un maggiore
   
 2.  Fare clic su **Crittografia abilitata**, quindi scegliere **Aggiorna**.
   
-3.  Selezionare l**’opzione desiderata, quindi scegliere** OK.
+3.  Selezionare l **’opzione desiderata, quindi scegliere** OK.
   
 #### DNS integrati in Active Directory
   
@@ -716,7 +707,6 @@ Se non è inevitabile, si sconsiglia di configurare un servizio per l'esecuzione
 #### Impostazioni di Servizi terminal
   
 **Tabella 5.10 Impostazioni di Servizi terminal consigliate**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -755,7 +745,6 @@ Per i tre ambienti di protezione qui definiti configurare l'impostazione **Impos
 I tre livelli di crittografia disponibili sono descritti nella tabella seguente:
   
 **Tabella 5.11 Livelli di crittografia di Servizi terminal**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -783,13 +772,11 @@ I tre livelli di crittografia disponibili sono descritti nella tabella seguente:
 <strong>Importante</strong>: i dati inviati dal server al client non sono crittografati.</td>
 </tr>
 </tbody>
-</table>
- 
+</table> 
 
 #### Segnalazione errori
 
 **Tabella 5.12 Impostazioni di segnalazione errori consigliate**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -883,22 +870,23 @@ Il criterio è verificato per accertarsi che la sua applicazione a server di des
 Quando si è certi delle proprie configurazioni di criterio, è possibile utilizzare Scwcmd come mostrato nella seguente procedura per convertire i criteri in GPO.
   
 Per ulteriori dettagli su come verificare i criteri di SCW, consultare la [Guida di sviluppo per la configurazione guidata delle impostazioni di sicurezza](http://technet.microsoft.com/en-us/library/cc776871.aspx) all'indirizzo www.microsoft.com/technet/prodtechnol/windowsserver2003/  
-library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* * e la [Documentazione di configurazione guidata impostazioni di sicurezza](http://go.microsoft.com/fwlink/?linkid=43450)all'indirizzo http://go.microsoft.com/fwlink/?linkid=43450.
+library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx e la [Documentazione di configurazione guidata impostazioni di sicurezza](http://go.microsoft.com/fwlink/?linkid=43450)all'indirizzo http://go.microsoft.com/fwlink/?linkid=43450.
   
 #### Conversione e utilizzo del criterio
   
 Dopo aver verificato a fondo il criterio, completare le seguenti fasi, per trasformarlo in un GPO e utilizzarlo:
   
 1.  Al prompt dei comandi digitare il seguente comando:
-  
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
-  
+
+    ```  
+    scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+    ```  
     e premere INVIO. Ad esempio:
-  
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\Domain Controller.xml" /g:"Domain Controller Policy"  
-```
-  
+
+    ```  
+    scwcmd transform /p:"C:\Windows\Security\msscw\Policies\Domain
+    Controller.xml" /g:"Domain Controller Policy"
+    ```  
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   
 2.  Utilizzare la Console di gestione Criteri di gruppo per collegare il GPO appena creato all'unità operativa Controller di dominio e verificare di spostarlo sopra al Criterio controller di dominio predefinito in modo che riceva la massima priorità.

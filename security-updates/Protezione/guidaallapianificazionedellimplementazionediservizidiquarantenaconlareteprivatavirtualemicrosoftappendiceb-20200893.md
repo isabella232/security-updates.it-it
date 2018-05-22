@@ -24,7 +24,11 @@ HKEY\_LOCAL\_MACHINE\\SYSTEM\\CurrentControlSet\\Services\\rqs
 I parametri che è possibile configurare sono:
 
 -   **AllowedSet**. Il parametro AllowedSet consente di impostare la versione dello script che viene accettata dal server di connessione VPN in quarantena di accesso remoto.
-        ```
+       
+     ```
+     AllowedSet, REG_MULTI_SZ
+
+     ```
 
 L'elenco delle stringhe che verranno accettate dal servizio allo scopo di rimuovere la quarantena è il seguente:
 
@@ -33,12 +37,20 @@ L'elenco delle stringhe che verranno accettate dal servizio allo scopo di rimuov
 -   **Authenticator (REG\_SZ)**. Specifica il modulo da chiamare per la rimozione della quarantena. Il modulo predefinito è mprapi.dll.
 
     Se si crea una DLL personalizzata per implementare la rimozione della funzionalità di filtro quarantena, sarà necessario esporre la funzione seguente:
-        ```
+
+    ```
+        DWORD MprAdminConnectionRemoveQuarantine
+        (HANDLE hRasServer,  HANDLE hRasConnection,  BOOL fIsIpAddress)
+    ```
 
 <!-- -->
 
 -   **Validator (REG\_SZ)**. Specifica il modulo che verifica se la stringa della firma inviata da RQC è accettabile o meno. Per impostazione predefinita, RQS.exe eseguirà il confronto delle stringhe AllowedSet. La DLL di autenticazione personalizzata deve esporre la funzione seguente:
-        ```
+
+    ```
+    BOOL ClientAuthenticate(LPCWSTR lpwsString). 
+
+    ```
 
     dove lpwsString contiene la stringa da autenticare.
 

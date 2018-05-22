@@ -15,9 +15,9 @@ Aggiornato: 23 maggio 2005
 
 ##### In questa pagina
 
-[](#edaa)[Introduzione](#edaa)
-[](#ecaa)[Implementazione del monitoraggio della protezione](#ecaa)
-[](#ebaa)[Correlazione degli eventi di controllo della protezione](#ebaa)
+[](#edaa)[Introduzione](#edaa)  
+[](#ecaa)[Implementazione del monitoraggio della protezione](#ecaa)  
+[](#ebaa)[Correlazione degli eventi di controllo della protezione](#ebaa)  
 [](#eaaa)[Soluzioni di fornitori di software indipendenti (ISV)](#eaaa)
 
 ### Introduzione
@@ -32,7 +32,7 @@ Questa minaccia è stata resa ancora più evidente dal sondaggio 2004 E-Crime, a
 
 La continua crescita delle normative aziendali, unita alla maggiore consapevolezza delle minacce legate agli utenti malintenzionati, sia interni che esterni, ha contribuito all'aumento delle richieste di implementazione di un sistema di monitoraggio della protezione efficace. Per una pianificazione efficace del monitoraggio della protezione, è necessario conoscere le tecnologie attualmente disponibili per l'implementazione della soluzione. In questo capitolo vengono illustrate le tecnologie Microsoft che rendono possibile il monitoraggio della protezione e consentono di mettere in relazione i registri di protezione a scopo di analisi e archiviazione.
 
-**Nota: **in questo documento viene fatta distinzione tra attacchi interni ed esterni. Per attacco interno si intende un attacco messo in atto da un dipendente, in genere un amministratore. Al contrario, un attacco esterno proviene dall'esterno dell'organizzazione. Sebbene la diffusione di tecnologie di connessione avanzate, ad esempio le reti senza fili, renda possibile agli utenti malintenzionati esterni di sferrare attacchi dall'interno del perimetro della rete, questi sono ancora considerati attacchi esterni.
+**Nota:** in questo documento viene fatta distinzione tra attacchi interni ed esterni. Per attacco interno si intende un attacco messo in atto da un dipendente, in genere un amministratore. Al contrario, un attacco esterno proviene dall'esterno dell'organizzazione. Sebbene la diffusione di tecnologie di connessione avanzate, ad esempio le reti senza fili, renda possibile agli utenti malintenzionati esterni di sferrare attacchi dall'interno del perimetro della rete, questi sono ancora considerati attacchi esterni.
 
 [](#mainsection)[Inizio pagina](#mainsection)
 
@@ -44,12 +44,11 @@ Per la registrazione dei dati di monitoraggio della protezione nel file registro
 
 Nel registro eventi protezione vengono registrati due tipi di evento: le operazioni riuscite e le operazioni non riuscite. Un evento di operazione riuscita indica che un'operazione eseguita da un utente, un servizio o un programma è stata completata correttamente. Un evento di operazione non riuscita indica che un'operazione non è stata completata correttamente. Se ad esempio si attivano i controlli per gli eventi di accesso non riuscito, nel registro eventi protezione verranno registrati tutti i tentativi di accesso non riusciti.
 
-**Nota: **in Microsoft** **Windows Server™ 2003 con Service Pack 1 è possibile configurare livelli di controllo della protezione diversi per utenti differenti. Per ulteriori informazioni su questa funzionalità, vedere il Capitolo 4 "Progettazione della soluzione".
+**Nota:** in Microsoft Windows Server™ 2003 con Service Pack 1 è possibile configurare livelli di controllo della protezione diversi per utenti differenti. Per ulteriori informazioni su questa funzionalità, vedere il Capitolo 4 "Progettazione della soluzione".
 
 Nella seguente tabella sono elencate le categorie degli eventi di protezione insieme agli eventi registrati da ciascuna categoria.
 
 **Tabella 2.1. Categorie di controllo degli eventi di protezione**
-
  
 <table style="border:1px solid black;">
 <colgroup>
@@ -140,7 +139,7 @@ In Event Comb sono integrate alcune categorie di ricerca specifiche, ad esempio 
   
 Se si desidera effettuare una ricerca per individuare eventuali attacchi nei confronti dell'account Administrator predefinito, è possibile aggiungere l'evento 12294 (superamento del limite di blocchi dell'account) dal registro eventi di sistema. Questo evento è particolarmente importante, poiché il limite di blocchi dell'account non viene applicato all'account Administrator predefinito. Di conseguenza, un utente malintenzionato può effettuare più tentativi per compromettere l'account Administrator predefinito senza che venga attivato il meccanismo di blocco dell'account.
   
-**Nota: **l'evento 12294 viene riportato come evento di gestione account di protezione (SAM) nel registro eventi di sistema ma non nel registro di protezione.
+**Nota:** l'evento 12294 viene riportato come evento di gestione account di protezione (SAM) nel registro eventi di sistema ma non nel registro di protezione.
   
 Event Comb MT consente di salvare gli eventi in una tabella di un database di Microsoft SQL Server™, che può essere quindi utilizzata per l'analisi e l'archiviazione a lungo termine. Per l'accesso alle informazioni nelle tabelle di SQL Server è possibile utilizzare diversi programmi client, ad esempio SQL Query Analyzer, Microsoft Visual Studio® .NET o alcune utilità di terze parti.
   

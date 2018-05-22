@@ -13,19 +13,19 @@ Guida per la protezione di Windows Server 2003
 
 ##### In questa pagina
 
-[](#eiaa)[Panoramica](#eiaa)
-[](#ehaa)[Impostazioni del Criterio Controllo](#ehaa)
-[](#egaa)[Assegnazione dei diritti utente](#egaa)
-[](#efaa)[Opzioni di protezione](#efaa)
-[](#eeaa)[Impostazioni del Registro eventi](#eeaa)
-[](#edaa)[Voci di registro aggiuntive](#edaa)
-[](#ecaa)[Impostazioni di protezione aggiuntive](#ecaa)
-[](#ebaa)[Creazione del criterio utilizzando SCW](#ebaa)
-[](#eaaa)[Riepilogo](#eaaa)
+[](#eiaa)[Panoramica](#eiaa)  
+[](#ehaa)[Impostazioni del Criterio Controllo](#ehaa)  
+[](#egaa)[Assegnazione dei diritti utente](#egaa)  
+[](#efaa)[Opzioni di protezione](#efaa)  
+[](#eeaa)[Impostazioni del Registro eventi](#eeaa)  
+[](#edaa)[Voci di registro aggiuntive](#edaa)  
+[](#ecaa)[Impostazioni di protezione aggiuntive](#ecaa)  
+[](#ebaa)[Creazione del criterio utilizzando SCW](#ebaa)  
+[](#eaaa)[Riepilogo](#eaaa)  
 
 ### Panoramica
 
-In questo capitolo vengono fornite indicazioni su come aumentare la protezione dei server che eseguono Microsoft Windows Server* *2003 con Service Pack 1 (SP1) e Servizi certificati Microsoft nell'ambiente in uso. Sebbene nel capitolo siano incluse tutte le informazioni necessarie per proteggere questi tipi di server, non vengono fornite informazioni dettagliate in merito alla creazione di un'infrastruttura di Servizi certificati protetta nell'ambiente in uso o alla distribuzione di un'Autorità di certificazione (CA). Questi argomenti sono discussi in dettaglio nella documentazione di Windows* *Server* * 2003. Sono anche trattati nel *Resource Kit di Windows Server 2003* e nei white paper disponibili sul sito Web Microsoft. Per ulteriori informazioni consultare la guida correlata: [*Protezione delle reti LAN senza fili con Servizi certificati*](http://technet.microsoft.com/it-it/library/cc527055), disponibile all'indirizzo http://go.microsoft.com/fwlink/?LinkId=14843.
+In questo capitolo vengono fornite indicazioni su come aumentare la protezione dei server che eseguono Microsoft Windows Server 2003 con Service Pack 1 (SP1) e Servizi certificati Microsoft nell'ambiente in uso. Sebbene nel capitolo siano incluse tutte le informazioni necessarie per proteggere questi tipi di server, non vengono fornite informazioni dettagliate in merito alla creazione di un'infrastruttura di Servizi certificati protetta nell'ambiente in uso o alla distribuzione di un'Autorità di certificazione (CA). Questi argomenti sono discussi in dettaglio nella documentazione di Windows Server 2003. Sono anche trattati nel *Resource Kit di Windows Server 2003* e nei white paper disponibili sul sito Web Microsoft. Per ulteriori informazioni consultare la guida correlata: [*Protezione delle reti LAN senza fili con Servizi certificati*](http://technet.microsoft.com/it-it/library/cc527055), disponibile all'indirizzo http://go.microsoft.com/fwlink/?LinkId=14843.
 
 Le impostazioni in questo capitolo sono configurate e applicate tramite l'opzione Criteri di gruppo. È possibile collegare un oggetto Criteri di Gruppo (Group Policy object, GPO) che integri i Criteri di base dei server membro (Member Server Baseline Policy, MSBP) alle unità organizzative appropriate (Organizational Unit, OU) che contengono i server CA al fine di offrire le modifiche delle impostazioni di sicurezza necessarie per tale ruolo server. Questo capitolo tratta solo le impostazioni dei criteri che differiscono da quelle dei criteri MSBP.
 
@@ -33,7 +33,7 @@ Dove possibile, queste impostazioni sono raccolte in un modello Criteri di Grupp
 
 Il nome del modello di protezione del Server CA per l'ambiente EC è EC-CA Server.inf. È il modello di Server CA incrementale utilizzato per creare un nuovo GPO collegato all'OU dei server CA nell'ambiente appropriato. Le istruzioni dettagliate sono contenute nel Capitolo 2, "Meccanismi di protezione avanzata di Windows Server 2003"   per facilitare la creazione di OU e di criteri di gruppo e quindi di importare il modello di protezione idoneo in ciascun GPO.
 
-Per le informazioni sulle impostazioni nel criterio MSBP, consultare il Capitolo 4, “Criterio di base per un server membro". Per informazioni su tutte le impostazioni di criteri predefinite, consultare la guida correlata, [*Pericoli e contromisure: impostazioni di protezione per Windows Server 2003 e Windows XP*](http://technet.microsoft.com/it-it/library/dd162275)*,*disponibile all'indirizzo http://www.microsoft.com/italy/technet/security/topics/serversecurity/tcg/tcgch00.mspx.
+Per le informazioni sulle impostazioni nel criterio MSBP, consultare il Capitolo 4, “Criterio di base per un server membro". Per informazioni su tutte le impostazioni di criteri predefinite, consultare la guida correlata, [*Pericoli e contromisure: impostazioni di protezione per Windows Server 2003 e Windows XP*](http://technet.microsoft.com/it-it/library/dd162275), *disponibile all'indirizzo* http://www.microsoft.com/italy/technet/security/topics/serversecurity/tcg/tcgch00.mspx.
 
 **Nota**: i suggerimenti per le impostazioni dei criteri per il ruolo di server Servizi certificati sono state sottoposte a test solo per l'ambiente client di organizzazione. Per questa ragione, le informazioni sugli attacchi di negazione del servizio (DoS, Denial of Service), specificate per la maggior parte degli altri ruoli del server in questa guida, non sono incluse nel presente capitolo.
 
@@ -122,7 +122,7 @@ Le impostazioni di registro eventi per i server Servizi certificati nell'ambient
   
 ### Voci di registro aggiuntive
   
-Per il file di modello EC-CA Server.inf sono state create voci di registro aggiuntive. Queste voci non sono definite all'interno dei file dei modelli amministrativi (.adm) per l'ambiente client di organizzazione illustrato in questa guida. I file .adm definiscono le restrizioni e i criteri del sistema per le impostazioni di protezione, del desktop e della shell di Windows* *Server* *2003.
+Per il file di modello EC-CA Server.inf sono state create voci di registro aggiuntive. Queste voci non sono definite all'interno dei file dei modelli amministrativi (.adm) per l'ambiente client di organizzazione illustrato in questa guida. I file .adm definiscono le restrizioni e i criteri del sistema per le impostazioni di protezione, del desktop e della shell di Windows *Server* 2003.
   
 Le voci di registro aggiuntive sono configurate all'interno del modello di protezione per automatizzarne l'implementazione. Se i Criteri di gruppo dei Servizi certificati incrementali per questo ambiente vengono rimossi, le relative impostazioni non sono automaticamente rimosse e devono essere modificate manualmente, utilizzando uno strumento di modifica del registro di sistema come Regedt32.exe.
   
@@ -140,7 +140,7 @@ Sono consigliati i seguenti ACL, che possono essere assegnati mediante i Criteri
   
 I file non protetti mediante gli elenchi di controllo di accesso (ACL, Access Control List) possono essere visualizzati, modificati o eliminati facilmente da utenti non autorizzati in grado di accedervi localmente o dalla rete. Sebbene gli elenchi ACL siano utili per proteggere questi file, la crittografia garantisce un livello più elevato di protezione e rappresenta una valida alternativa per la protezione dei file a cui deve poter accedere un solo utente.
   
-Nella tabella riportata di seguito sono contenuti gli elenchi ACL dei file system per i server Servizi certificati basati su Windows* * Server* * 2003 presenti nell'ambiente client di organizzazione. In quest'ambiente, i server Servizi certificati utilizzano **D: \\CertSrv** come directory del database dei certificati e i registri del database vengono salvati nella cartella predefinita **%SystemRoot%\\system32\\CertLog.** È inoltre possibile spostare i registri dall'unità di sistema in un'unità con mirroring fisicamente separata, come **E: \\CertLog.** Le impostazioni di protezione non richiedono la separazione di database e registri in unità disco differenti, fisicamente separate, ma tale configurazione è consigliata per garantire una maggiore protezione da eventuali errori del disco e un miglioramento delle prestazioni. Per impostazione predefinita, le cartelle di installazione predefinite di Servizi certificati **%SystemRoot%\\system32\\CertLog** e **%SystemRoot%\\system32\\CertSrv** contengono gli elenchi di controllo di accesso corretti, illustrati nella seguente tabella.
+Nella tabella riportata di seguito sono contenuti gli elenchi ACL dei file system per i server Servizi certificati basati su Windows Server 2003 presenti nell'ambiente client di organizzazione. In quest'ambiente, i server Servizi certificati utilizzano **D: \\CertSrv** come directory del database dei certificati e i registri del database vengono salvati nella cartella predefinita **%SystemRoot%\\system32\\CertLog.** È inoltre possibile spostare i registri dall'unità di sistema in un'unità con mirroring fisicamente separata, come **E: \\CertLog.** Le impostazioni di protezione non richiedono la separazione di database e registri in unità disco differenti, fisicamente separate, ma tale configurazione è consigliata per garantire una maggiore protezione da eventuali errori del disco e un miglioramento delle prestazioni. Per impostazione predefinita, le cartelle di installazione predefinite di Servizi certificati **%SystemRoot%\\system32\\CertLog** e **%SystemRoot%\\system32\\CertSrv** contengono gli elenchi di controllo di accesso corretti, illustrati nella seguente tabella.
   
 **Tabella 11.2 ACL dei file system**
 
@@ -229,7 +229,7 @@ Queste impostazioni di criterio controlleranno qualsiasi tipo di accesso non riu
   
 #### Protezione di account noti
   
-In Windows* *Server* *2003 con SP1 sono disponibili alcuni account utente predefiniti che non possono essere eliminati, ma che è possibile rinominare. Due degli account predefiniti più noti di Windows* *Server* *2003 sono Guest e Amministratore.
+In Windows *Server 2003 con SP1 sono disponibili alcuni account utente predefiniti che non possono essere eliminati, ma che è possibile rinominare. Due degli account predefiniti più noti di Windows Server* 2003 sono Guest e Amministratore.
   
 Per impostazione predefinita, l'account Guest è disabilitato nei server membri e nei controller di dominio. Questa impostazione non deve essere modificata. Molte varianti di codice nocivo utilizzano l'account predefinito Administrator nel primo tentativo di attacco a un server. È quindi necessario rinominare l'account Amministratore incorporato e modificarne la descrizione per evitare la compromissione dei server remoti da parte di pirati informatici che cercano di usare questo account noto.
   
@@ -308,7 +308,7 @@ Il criterio è verificato per accertarsi che la sua applicazione a server di des
 Quando si è certi delle proprie configurazioni di criterio, è possibile utilizzare Scwcmd come mostrato nella seguente procedura per convertire i criteri in GPO.
   
 Per ulteriori dettagli su come verificare i criteri di SCW, consultare la guida [Deployment Guide for the Security Configuration Wizard](http://technet.microsoft.com/en-us/library/cc776871.aspx) (in inglese) all'indirizzo www.microsoft.com/technet/prodtechnol/windowsserver2003/  
-library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx* * e la guida [Security Configuration Wizard Documentation](http://go.microsoft.com/fwlink/?linkid=43450)(in inglese) all'indirizzo http://go.microsoft.com/fwlink/?linkid=43450.
+library/SCWDeploying/5254f8cd-143e-4559-a299-9c723b366946.mspx e la guida [Security Configuration Wizard Documentation](http://go.microsoft.com/fwlink/?linkid=43450)(in inglese) all'indirizzo http://go.microsoft.com/fwlink/?linkid=43450.
   
 #### Conversione e utilizzo del criterio
   
@@ -316,14 +316,15 @@ Dopo aver verificato a fondo il criterio, completare le seguenti fasi, per trasf
   
 1.  Al prompt dei comandi digitare il seguente comando:
   
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:&lt;PathToPolicy.xml&gt; /g:&lt;GPODisplayName&gt;  
-```
-  
+    ```
+       scwcmd transform /p:<PathToPolicy.xml> /g:<GPODisplayName>
+    ```    
     e premere INVIO. Ad esempio:
-  
-    <codesnippet language displaylanguage containsmarkup="false">scwcmd transform /p:"C:\\Windows\\Security\\msscw\\Policies\\ Certificate Services.xml" /g:"Certificate Services Policy"  
-```
-  
+    
+    ```
+       scwcmd transform /p:"C:\Windows\Security\msscw\Policies\
+       Certificate Services.xml" /g:"Certificate Services Policy"
+    ```  
     **Nota**: le informazioni che devono essere inserite al prompt dei comandi occupano qui più di una riga a causa delle limitazioni del display. Queste informazioni dovrebbero essere inserite tutte su una riga.
   
 2.  Utilizzare la Console di gestione Criteri di gruppo per collegare il GPO appena creato all'unità operativa adeguata.
@@ -342,9 +343,9 @@ Il presente capitolo ha descritto le impostazioni di criterio che possono essere
   
 I seguenti collegamenti forniscono informazioni aggiuntive sulla protezione avanzata dei server che eseguono Windows Server 2003 con SP1 e Servizi certificati.
   
--   Per un'introduzione esauriente ai concetti dell'infrastruttura a chiave pubblica (PKI, Public key Infrastructure) e alle funzioni dei servizi di certificazione di Windows 2000* *, consultare "[An Introduction to the Windows 2000 Public-Key Infrastructure](http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx)" all'indirizzo http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx (in inglese).
+-   Per un'introduzione esauriente ai concetti dell'infrastruttura a chiave pubblica (PKI, Public key Infrastructure) e alle funzioni dei servizi di certificazione di Windows 2000, consultare "[An Introduction to the Windows 2000 Public-Key Infrastructure](http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx)" all'indirizzo http://www.microsoft.com/technet/archive/windows2000serv/evaluate/featfunc/pkiintro.mspx (in inglese).
   
--   Per informazioni più dettagliate sulla funzionalità PKI in Windows* * Server* *2003 e Windows* *XP, consultare "[PKI Enhancements in Windows XP Professional and Windows Server 2003](http://www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx)" all'indirizzo http://www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx (in inglese).
+-   Per informazioni più dettagliate sulla funzionalità PKI in Windows Server 2003 e Windows XP, consultare "[PKI Enhancements in Windows XP Professional and Windows Server 2003](http://www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx)" all'indirizzo http://www.microsoft.com/technet/prodtechnol/winxppro/plan/pkienh.mspx (in inglese).
   
 -   Per ulteriori informazioni di base sui concetti principali di PKI, consultare la pagina [Public Key Infrastructure](http://technet.microsoft.com/en-us/library/cc757327.aspx) all'indirizzo www.microsoft.com/technet/prodtechnol/windowsserver2003/library/  
     ServerHelp/32aacfe8-83af-4676-a45c-75483545a978.mspx (in inglese).
