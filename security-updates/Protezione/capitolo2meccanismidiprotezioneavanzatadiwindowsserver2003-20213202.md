@@ -233,7 +233,7 @@ Utilizzare i criteri di gruppo e delegare l'amministrazione per applicare impost
 
 I criteri di gruppo vengono accumulati e applicati nell'ordine visualizzato nella figura seguente.
 
-[![](images/Cc163110.sgfg0202(it-it,TechNet.10).gif "Figura 2.2 Gerarchia di applicazione di GPO")](https://technet.microsoft.com/it-it/cc163110.sgfg0202_big(it-it,technet.10).gif)
+[![](images/Cc163110.sgfg0202(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163110.sgfg0202_big(it-it,technet.10).gif "Figura 2.2 Gerarchia di applicazione di GPO")
 
 **Figura 2.2 Gerarchia di applicazione di GPO**
 
@@ -401,7 +401,7 @@ I requisiti di protezione relativi a ognuno di questi ruoli server sono differen
   
 Nella seguente figura si illustra un esempio della progettazione OU finale in grado di supportare adeguatamente i ruoli server definiti.
   
-[![](images/Cc163110.sgfg0203(it-it,TechNet.10).gif "Figura 2.3. Esempio di progettazione OU")](https://technet.microsoft.com/it-it/cc163110.sgfg0202_big(it-it,technet.10).gif)
+[![](images/Cc163110.sgfg0203(it-it,TechNet.10).gif)](https://technet.microsoft.com/it-it/cc163110.sgfg0202_big(it-it,technet.10).gif "Figura 2.3. Esempio di progettazione OU")
   
 **Figura 2.3. Esempio di progettazione OU**
   
@@ -813,4 +813,3 @@ I seguenti collegamenti forniscono informazioni aggiuntive sulla protezione avan
 [Inviare commenti o suggerimenti](mailto:%20secwish@microsoft.com?subject=guida%20per%20la%20protezione%20di%20windows%20server%202003)
   
 [](#mainsection)[Inizio pagina](#mainsection)
-
