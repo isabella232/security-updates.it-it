@@ -2404,8 +2404,28 @@ Analogamente ai CDP, il percorso file viene utilizzato solo per la pubblicazione
   
     **Nota:** qui è mostrata solo una parte del file pkiparams.vbs. Non modificare o rimuovere alcun elemento del file, a meno che non si conoscano le conseguenze dell'operazione.
   
-    <codesnippet language displaylanguage containsmarkup="false">'\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* '    USER SETTABLE CONSTANTS         ' ' These values MUST be set to reflect actual values used ' by the organization. '\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\* ' This is the URL where CRL and CA certs are to be published. CONST CA\_HTTP\_PKI\_VROOT        = " http://www.woodgrovebank.com/pki" ' This needs to be set only if non Active directory clients need to query ' the ldap URL for CRLs. Normally they are OK with HTTP. If you do set this ' (to a specific DC FQDN) ALL clients will use this DC to query. Left blank ' AD clients use their default LDAP server (local DC) to query. CONST CA\_LDAP\_SERVER        = "" ' This needs to be set to the DN of the Active Directory Forest root domain ' This is used to set the Root CA CDP and AIA paths so that clients can ' obtain CRL and CA Certificate information from the Active Directory CONST AD\_ROOT\_DN            = "DC=woodgrovebank,DC=com"  
-```
+   ```
+   '**************************************************************************
+   '    USER SETTABLE CONSTANTS        
+   '
+   ' These values MUST be set to reflect actual values used
+   ' by the organization.
+   '**************************************************************************
+
+   ' This is the URL where CRL and CA certs are to be published.
+   CONST CA_HTTP_PKI_VROOT        = " http://www.woodgrovebank.com/pki"
+
+   ' This needs to be set only if non Active directory clients need to query
+   ' the ldap URL for CRLs. Normally they are OK with HTTP. If you do set this 
+   ' (to a specific DC FQDN) ALL clients will use this DC to query. Left blank
+   ' AD clients use their default LDAP server (local DC) to query.
+   CONST CA_LDAP_SERVER        = ""
+
+   ' This needs to be set to the DN of the Active Directory Forest root domain
+   ' This is used to set the Root CA CDP and AIA paths so that clients can 
+   ' obtain CRL and CA Certificate information from the Active Directory 
+   CONST AD_ROOT_DN            = "DC=woodgrovebank,DC=com"
+   ```
   
 3.  Eseguire quindi lo script seguente:
   
