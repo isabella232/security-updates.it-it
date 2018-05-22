@@ -192,3 +192,4 @@ However, several articles on the subject are available. For more information and
 -   The [How To Set Up SSL on a Web Server page](http://www.microsoft.com/technet/prodtechnol/windowsserver2003/library/iis/56bdf977-14f8-4867-9c51-34c346d48b04.mspx?mfr=true) offers step-by-step instruction on setting up SSL on a Web site.
 -   The [Certificate Autoenrollment in Windows Server 2003](http://go.microsoft.com/fwlink/?linkid=17801) page on TechNet offers instruction on how to automatically enroll client computers running Windows XP in Windows Server 2003 Enterprise environments integrated with Active Directory.
 -   The [Advanced Certificate Enrollment and Management page](http://technet2.microsoft.com/windowsserver/f/?en/library/a8d0df4b-86b9-49cf-a526-5717eafce2b11033.mspx) offers guidance on how to automatically enroll client computers in other environments.
+ 
