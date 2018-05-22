@@ -36,7 +36,7 @@ Come verrà descritto in modo dettagliato nei prossimi capitoli, la soluzione è
 
 Questa guida è divisa in quattro sezioni corrispondenti alle diverse fasi del ciclo di vita della soluzione: pianificazione, implementazione, verifica e impiego. Tali fasi sono ulteriormente divise in capitoli.
 
-[![](images/Dd536230.PEAP_101(it-it,TechNet.10).gif "protezionedelleretilansenzafiliconpeapepassword-20200829")](https://technet.microsoft.com/it-it/dd536230.peap_101_big(it-it,technet.10).gif)
+[![](images/Dd536230.PEAP_101(it-it,TechNet.10).gif "Dd536230.PEAP_101(it-it,TechNet.10).gif")](https://technet.microsoft.com/it-it/dd536230.peap_101_big(it-it,technet.10).gif)
 
 **Figura 1.1 Panoramica della protezione di reti LAN senza fili**
 
