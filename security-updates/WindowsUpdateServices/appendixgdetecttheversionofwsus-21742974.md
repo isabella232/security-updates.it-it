@@ -68,3 +68,4 @@ For WSUS 3.0, there is no Windows Installer product key, but there are two regis
 3.  Check the **InstallType** values (32/64/128 if WSUS 2.0, 1/2 if WSUS 3.0).
 
 4.  Check for **VersionString** values.
+ 
