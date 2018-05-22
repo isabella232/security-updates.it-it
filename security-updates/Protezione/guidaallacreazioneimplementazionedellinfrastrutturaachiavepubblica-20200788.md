@@ -817,15 +817,15 @@ IIS viene installato con Gestione componenti facoltativi di Windows (accessibile
     sysocmgr /i:sysoc.inf /u:C:\\MSSScripts\\OC\_AddIIS.txt
   
     Tramite questo comando, Gestione componenti facoltativi utilizza le configurazioni dei componenti specificate nel file di installazione automatica C:\\MSSScripts\\OC\_AddIIS.txt:
-
-``` 
-[Components]
-complusnetwork = On
-iis_common = On
-iis_asp = On
-iis_inetmgr = On
-iis_www = On
-```
+  
+    ```
+    [Components]
+    complusnetwork = On
+    iis_common = On
+    iis_asp = On
+    iis_inetmgr = On
+    iis_www = On
+    ```
   
 **Nota:** in questa configurazione vengono attivate le pagine ASP (con la riga iis\_asp = on). Tale opzione serve a supportare le pagine di registrazione Web di Servizi certificati, ma non serve per la soluzione principale. Se le pagine di registrazione Web non sono richieste, è necessario disattivare ASP (eliminando la riga iis\_asp = on prima di eseguire sysocmgr.exe). All'occorrenza, è possibile attivare questa impostazione in un secondo momento.
   
@@ -998,11 +998,12 @@ Questa sezione illustra le procedure di installazione e configurazione di altri 
     sysocmgr /i:sysoc.inf /u:C:\\MSSScripts\\OC\_RemoveRootUpdate.txt
   
 Tramite questo comando, Gestione componenti facoltativi utilizza le configurazioni dei componenti specificate nel file C:\\MSSScripts\\OC\_ RemoveRootUpdate.txt
-
-```  
+  
+```
 [Components]
-rootautoupdate = Off  
-```  
+rootautoupdate = Off
+```
+
 #### Controllo dei Service Pack e degli aggiornamenti di protezione
   
 A questo punto, è necessario controllare nuovamente i Service Pack e l'elenco degli aggiornamenti installati, in quanto potrebbero essere stati installati componenti aggiuntivi, quali IIS. Utilizzare uno strumento come Microsoft Baseline Security Analyzer (MBSA) per eseguire il controllo, ottenere gli aggiornamenti necessari e, dopo un'adeguata verifica, installarli nei server.
@@ -2216,36 +2217,36 @@ Le informazioni CRL e AIA non sono necessarie per il certificato della CA princi
 **Per creare il file CAPolicy.inf**
   
 1.  Immettere il testo seguente in un editor di testi, ad esempio Blocco note:
-
-```  
-[Version]
-Signature= "$Windows NT$"
-
-[Certsrv_Server]
-RenewalKeyLength=4096 
-RenewalValidityPeriod=Years 
-RenewalValidityPeriodUnits=16
-
-[CRLDistributionPoint]
-Empty=true
-
-[AuthorityInformationAccess]
-Empty=true  
-```
   
-**Attenzione:** l'utilizzo di una chiave della lunghezza di 4.096 bit potrebbe causare problemi di compatibilità. Alcuni dispositivi (per esempio, alcuni router) e alcuni software precedenti di altri fornitori non sono in grado di elaborare chiavi superiori a una data dimensione.
+    ```
+    [Version]
+    Signature= "$Windows NT$"
+
+    [Certsrv_Server]
+    RenewalKeyLength=4096 
+    RenewalValidityPeriod=Years 
+    RenewalValidityPeriodUnits=16
+
+    [CRLDistributionPoint]
+    Empty=true
+
+    [AuthorityInformationAccess]
+    Empty=true
+    ```
+  
+   **Attenzione:** l'utilizzo di una chiave della lunghezza di 4.096 bit potrebbe causare problemi di compatibilità. Alcuni dispositivi (per esempio, alcuni router) e alcuni software precedenti di altri fornitori non sono in grado di elaborare chiavi superiori a una data dimensione.
   
 2.  Se è stata definita una CPS per la CA, includere quanto segue nel file Capolicy.inf (è necessario sostituire tutte le voci in corsivo con i valori della propria organizzazione):
-
-```  
-[CAPolicy]
-Policies=WoodGrove Bank Root CA CPS
-
-[WoodGrove Bank Root CA CPS]
-OID=your.Orgs.OID
-URL = "http://www.woodgrovebank.com/YourCPSPage.htm"    
-```
   
+    ```
+    [CAPolicy]
+    Policies=WoodGrove Bank Root CA CPS
+
+    [WoodGrove Bank Root CA CPS]
+    OID=your.Orgs.OID
+    URL = "http://www.woodgrovebank.com/YourCPSPage.htm" 
+    ```
+   
 3.  Salvare il file come %windir%\\Capolicy.inf (o sostituire %windir% con il percorso assoluto della cartella in cui Windows è installato, ad esempio C:\\Windows). È necessario essere un amministratore locale o disporre delle autorizzazioni di scrittura nella cartella di Windows per completare questo passaggio.
   
 #### Installazione dei componenti software di Servizi certificati
@@ -2406,28 +2407,29 @@ Analogamente ai CDP, il percorso file viene utilizzato solo per la pubblicazione
 2.  Personalizzare lo script seguente (C:\\MSSScripts\\pkiparams.vbs) includendo il DN corretto del dominio principale dell’insieme di strutture di Active Directory e l'URL HTTP che fa riferimento al server Web di pubblicazione CDP e AIA. Modificare il valore dell'impostazione **AD\_ROOT\_DN** in modo che corrisponda al DN del dominio principale dell'insieme di strutture di Active Directory. Modificare l'impostazione **HTTP\_PKI\_VROOT** in base al percorso HTTP della directory virtuale IIS impostata precedentemente.
   
     **Nota:** qui è mostrata solo una parte del file pkiparams.vbs. Non modificare o rimuovere alcun elemento del file, a meno che non si conoscano le conseguenze dell'operazione.
-```  
-'**************************************************************************
-'    USER SETTABLE CONSTANTS        
-'
-' These values MUST be set to reflect actual values used
-' by the organization.
-'**************************************************************************
+  
+   ```
+   '**************************************************************************
+   '    USER SETTABLE CONSTANTS        
+   '
+   ' These values MUST be set to reflect actual values used
+   ' by the organization.
+   '**************************************************************************
 
-' This is the URL where CRL and CA certs are to be published.
-CONST CA_HTTP_PKI_VROOT        = " http://www.woodgrovebank.com/pki"
+   ' This is the URL where CRL and CA certs are to be published.
+   CONST CA_HTTP_PKI_VROOT        = " http://www.woodgrovebank.com/pki"
 
-' This needs to be set only if non Active directory clients need to query
-' the ldap URL for CRLs. Normally they are OK with HTTP. If you do set this 
-' (to a specific DC FQDN) ALL clients will use this DC to query. Left blank
-' AD clients use their default LDAP server (local DC) to query.
-CONST CA_LDAP_SERVER        = ""
+   ' This needs to be set only if non Active directory clients need to query
+   ' the ldap URL for CRLs. Normally they are OK with HTTP. If you do set this 
+   ' (to a specific DC FQDN) ALL clients will use this DC to query. Left blank
+   ' AD clients use their default LDAP server (local DC) to query.
+   CONST CA_LDAP_SERVER        = ""
 
-' This needs to be set to the DN of the Active Directory Forest root domain
-' This is used to set the Root CA CDP and AIA paths so that clients can 
-' obtain CRL and CA Certificate information from the Active Directory 
-CONST AD_ROOT_DN            = "DC=woodgrovebank,DC=com"
-```
+   ' This needs to be set to the DN of the Active Directory Forest root domain
+   ' This is used to set the Root CA CDP and AIA paths so that clients can 
+   ' obtain CRL and CA Certificate information from the Active Directory 
+   CONST AD_ROOT_DN            = "DC=woodgrovebank,DC=com"
+   ```
   
 3.  Eseguire quindi lo script seguente:
   
@@ -2629,27 +2631,27 @@ Il file CAPolicy.inf non è indispensabile per la CA di emissione, tuttavia, ne 
 **Per creare il file CAPolicy.inf**
   
 1.  Immettere il testo seguente in un editor di testi, ad esempio Blocco note.
-
-```  
+ 
+    ```
     [Version]
     Signature= "$Windows NT$"
 
     [Certsrv_Server]
-    RenewalKeyLength=2048  
-```
-  
+    RenewalKeyLength=4096 
+    ```
+          
 2.  Se è stata definita una CPS per la CA, includere quanto segue nel file Capolicy.inf (è necessario sostituire tutte le voci in corsivo con i valori della propria organizzazione):
-
-```  
-    [CAPolicy]
-    Policies=WoodGrove Bank Issuing CA 1 CPS
-
-    [WoodGrove Bank Issuing CA 1 CPS]
-    OID=your.Orgs.OID
-    URL = "http://www.woodgrovebank.com/YourCPSPage.htm"  
-```
   
-**Nota:** vedere la sezione "Creazione di una dichiarazione delle procedure di certificazione" nel capitolo 4, "Progettazione dell’infrastruttura a chiave pubblica (PKI)," per ulteriori informazioni sulla CPS e sui casi in cui è opportuno crearne una. La CPS è un documento legale e non un elemento tecnico, pertanto, bisogna essere certi che sia realmente necessaria prima di configurarla nella CA.
+    ```
+    [CAPolicy]
+    Policies=WoodGrove Bank Root CA CPS
+
+    [WoodGrove Bank Root CA CPS]
+    OID=your.Orgs.OID
+    URL = "http://www.woodgrovebank.com/YourCPSPage.htm" 
+    ```
+    
+    **Nota:** vedere la sezione "Creazione di una dichiarazione delle procedure di certificazione" nel capitolo 4, "Progettazione dell’infrastruttura a chiave pubblica (PKI)," per ulteriori informazioni sulla CPS e sui casi in cui è opportuno crearne una. La CPS è un documento legale e non un elemento tecnico, pertanto, bisogna essere certi che sia realmente necessaria prima di configurarla nella CA.
   
 3.  Salvare il file come %*windir%*Capolicy.inf (o sostituire %windir% con il percorso assoluto della cartella in cui Windows è installato, ad esempio C:\\Windows). È necessario essere un amministratore locale o disporre delle autorizzazioni di scrittura nella cartella di Windows per completare questo passaggio.
   
