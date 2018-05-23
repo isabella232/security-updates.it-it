@@ -635,11 +635,11 @@ La CA principale non è connessa alla rete. Per evitare che la CA principale sia
 
     Aggiornamenti rapidi:    X Aggiornamenti rapidi installati.
 
-                                   \[01\]: Qxxxxxx
+    \[01\]: Qxxxxxx
 
     ...
 
-                                   \[nn\]: Qnnnnnn
+    \[nn\]: Qnnnnnn
 
     Schede di rete:    N/D
 
@@ -727,23 +727,23 @@ Per motivi di sicurezza, è necessario inoltre bloccare qualsiasi connettività 
 
     Aggiornamenti rapidi:    X Aggiornamenti rapidi installati.
 
-                                   \[01\]: Qxxxxxx
+    \[01\]: Qxxxxxx
 
     ...
 
-                                   \[nn\]: Qnnnnnn
+    \[nn\]: Qnnnnnn
 
     Schede di rete:    NIC installate.
 
     \[01\]:    Modello\_e\_fornitore\_della\_scheda\_di\_rete
 
-        Nome connessione: Connessione alla rete locale
+    Nome connessione: Connessione alla rete locale
 
-        DHCP abilitato:    No
+    DHCP abilitato:    No
 
-        Indirizzi IP
+    Indirizzi IP
 
-        \[01\]: 10.1.1.11
+    \[01\]: 10.1.1.11
 
 3.  Se queste impostazioni non corrispondono a quelle previste, è necessario riconfigurare il server attraverso il Pannello di controllo oppure eseguire nuovamente l'installazione.
 
