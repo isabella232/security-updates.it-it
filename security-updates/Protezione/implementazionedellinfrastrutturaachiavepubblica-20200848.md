@@ -801,73 +801,72 @@ IIS viene installato con Gestione componenti facoltativi di Windows (accessibile
   
 -   **Per creare una directory virtuale su IIS**
   
-    1.  Accedere al server IIS (CA di emissione) con i privilegi di Amministratore locale.
+1.  Accedere al server IIS (CA di emissione) con i privilegi di Amministratore locale.
   
-    2.  Creare la cartella **C:\\CAWWWPub** che conterrà i certificati della CA e i CRL.
+2.  Creare la cartella **C:\\CAWWWPub** che conterrà i certificati della CA e i CRL.
   
-    3.  Impostare la protezione della cartella utilizzando Esplora risorse; di seguito sono elencate le autorizzazioni da applicare. Le primi quattro devono già essere presenti
+3.  Impostare la protezione della cartella utilizzando Esplora risorse; di seguito sono elencate le autorizzazioni da applicare. Le primi quattro devono già essere presenti
   
-        **Tabella 6. Autorizzazioni directory virtuale**
-
+**Tabella 6. Autorizzazioni directory virtuale**
  
-        <table style="border:1px solid black;">
-        <colgroup>
-        <col width="33%" />
-        <col width="33%" />
-        <col width="33%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th style="border:1px solid black;" >Utente/Gruppo</th>
-        <th style="border:1px solid black;" >Autorizzazione</th>
-        <th style="border:1px solid black;" >Consenti/Nega</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td style="border:1px solid black;">Administrators</td>
-        <td style="border:1px solid black;">Controllo completo</td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">System</td>
-        <td style="border:1px solid black;">Controllo completo</td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;">Creator Owners</td>
-        <td style="border:1px solid black;">Controllo completo (solo sottocartelle e file)</td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">Users</td>
-        <td style="border:1px solid black;">— Lettura<br />
-        — Visualizzazione contenuto cartelle</td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;">IIS_WPG</td>
-        <td style="border:1px solid black;">— Lettura<br />
-        — Visualizzazione contenuto cartelle</td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">Account Internet Guest</td>
-        <td style="border:1px solid black;">Scrittura</td>
-        <td style="border:1px solid black;">Nega</td>
-        </tr>
-        </tbody>
-        </table>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Utente/Gruppo</th>
+<th style="border:1px solid black;" >Autorizzazione</th>
+<th style="border:1px solid black;" >Consenti/Nega</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Administrators</td>
+<td style="border:1px solid black;">Controllo completo</td>
+<td style="border:1px solid black;">Consenti</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">System</td>
+<td style="border:1px solid black;">Controllo completo</td>
+<td style="border:1px solid black;">Consenti</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Creator Owners</td>
+<td style="border:1px solid black;">Controllo completo (solo sottocartelle e file)</td>
+<td style="border:1px solid black;">Consenti</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Users</td>
+<td style="border:1px solid black;">— Lettura<br />
+— Visualizzazione contenuto cartelle</td>
+<td style="border:1px solid black;">Consenti</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">IIS_WPG</td>
+<td style="border:1px solid black;">— Lettura<br />
+— Visualizzazione contenuto cartelle</td>
+<td style="border:1px solid black;">Consenti</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Account Internet Guest</td>
+<td style="border:1px solid black;">Scrittura</td>
+<td style="border:1px solid black;">Nega</td>
+</tr>
+</tbody>
+</table>
   
-    4.  In Gestione IIS creare una nuova directory virtuale nel sito Web predefinito:
+ 4.  In Gestione IIS creare una nuova directory virtuale nel sito Web predefinito:
+ 
+       -   Denominare la directory virtuale ***pki***
   
-        -   Denominare la directory virtuale ***pki***
+       -   Specificare ***C:\\CAWWWPub*** come percorso.
   
-        -   Specificare ***C:\\CAWWWPub*** come percorso.
+ 5.  Eliminare l'opzione **Esecuzione script (ad esempio, ASP)** nelle autorizzazioni di accesso alla directory virtuale.
   
-    5.  Eliminare l'opzione **Esecuzione script (ad esempio, ASP)** nelle autorizzazioni di accesso alla directory virtuale.
-  
-    6.  Assicurarsi che l'autenticazione anonima per la directory virtuale sia attivata.
+ 6.  Assicurarsi che l'autenticazione anonima per la directory virtuale sia attivata.
   
 ##### Selezione di un alias DNS per il punto di pubblicazione HTTP
   
@@ -1498,78 +1497,76 @@ Poiché la CA principale non fa parte di un dominio, i ruoli e le funzionalità 
   
         Lo script crea gli account locali descritti nella tabella seguente.
   
-        **Tabella 12. Nomi e scopi degli account**
+**Tabella 12. Nomi e scopi degli account**
 
- 
-        <table style="border:1px solid black;">
-        <colgroup>
-        <col width="50%" />
-        <col width="50%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th style="border:1px solid black;" >Nome account</th>
-        <th style="border:1px solid black;" >Scopo</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td style="border:1px solid black;">CAAdmin</td>
-        <td style="border:1px solid black;">Dispone di privilegi amministrativi completi sulla CA, inclusa la determinazione dell'appartenenza di altri ruoli</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">CertManager</td>
-        <td style="border:1px solid black;">Gestisce il rilascio e la revoca dei certificati</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;">CAAuditor</td>
-        <td style="border:1px solid black;">Gestisce i dati di controllo per la CA</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">CABackup</td>
-        <td style="border:1px solid black;">Dispone delle autorizzazioni a eseguire il backup e il ripristino delle chiavi e dei dati della CA</td>
-        </tr>
-        </tbody>
-        </table>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Nome account</th>
+<th style="border:1px solid black;" >Scopo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">CAAdmin</td>
+<td style="border:1px solid black;">Dispone di privilegi amministrativi completi sulla CA, inclusa la determinazione dell'appartenenza di altri ruoli</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">CertManager</td>
+<td style="border:1px solid black;">Gestisce il rilascio e la revoca dei certificati</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">CAAuditor</td>
+<td style="border:1px solid black;">Gestisce i dati di controllo per la CA</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">CABackup</td>
+<td style="border:1px solid black;">Dispone delle autorizzazioni a eseguire il backup e il ripristino delle chiavi e dei dati della CA</td>
+</tr>
+</tbody>
+</table>
   
-        **Nota:** gli account test rappresentano la configurazione dei ruoli amministrativi più complessa, nella quale ciascun ruolo della CA corrisponde a un singolo utente (account utente). Tuttavia, disporre di account separati per ogni ruolo non è particolarmente vantaggioso, a meno che ciascun ruolo non sia effettivamente svolto da persone diverse. È legittimo disporre di singoli account in più gruppi di ruolo, o anche in tutti i gruppi di ruolo, se ciò riflette in modo più accurato la struttura amministrativa.
+**Nota:** gli account test rappresentano la configurazione dei ruoli amministrativi più complessa, nella quale ciascun ruolo della CA corrisponde a un singolo utente (account utente). Tuttavia, disporre di account separati per ogni ruolo non è particolarmente vantaggioso, a meno che ciascun ruolo non sia effettivamente svolto da persone diverse. È legittimo disporre di singoli account in più gruppi di ruolo, o anche in tutti i gruppi di ruolo, se ciò riflette in modo più accurato la struttura amministrativa.
   
-    3.  Aggiungere questi account utente ai gruppi nel modo appropriato. Utilizzare la tabella seguente per gli account test oppure utilizzare i propri account in base ai ruoli e ai criteri di protezione IT definiti dall'organizzazione.
+ 3.  Aggiungere questi account utente ai gruppi nel modo appropriato. Utilizzare la tabella seguente per gli account test oppure utilizzare i propri account in base ai ruoli e ai criteri di protezione IT definiti dall'organizzazione.
   
-        **Tabella 13. Nomi account e appartenenze di gruppo**
+ **Tabella 13. Nomi account e appartenenze di gruppo**
 
- 
-        <table style="border:1px solid black;">
-        <colgroup>
-        <col width="50%" />
-        <col width="50%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th style="border:1px solid black;" >Nome account</th>
-        <th style="border:1px solid black;" >Appartenenza al gruppo</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td style="border:1px solid black;">CAAdmin</td>
-        <td style="border:1px solid black;"><strong>CA Admin</strong>s</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">CertManager</td>
-        <td style="border:1px solid black;"><strong>Certificate Manager</strong>s</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;">CAAuditor</td>
-        <td style="border:1px solid black;">— <strong>CA Auditors</strong><br />
+ <table style="border:1px solid black;">
+ <colgroup>
+ <col width="50%" />
+ <col width="50%" />
+ </colgroup>
+ <thead>
+ <tr class="header">
+ <th style="border:1px solid black;" >Nome account</th>
+ <th style="border:1px solid black;" >Appartenenza al gruppo</th>
+ </tr>
+ </thead>
+ <tbody>
+ <tr class="odd">
+ <td style="border:1px solid black;">CAAdmin</td>
+ <td style="border:1px solid black;"><strong>CA Admin</strong>s</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">CertManager</td>
+<td style="border:1px solid black;"><strong>Certificate Manager</strong>s</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">CAAuditor</td>
+<td style="border:1px solid black;">— <strong>CA Auditors</strong><br />
         — Administrators</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">CABackup</td>
-        <td style="border:1px solid black;"><strong>CA Backup Operator</strong>s</td>
-        </tr>
-        </tbody>
-        </table>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">CABackup</td>
+<td style="border:1px solid black;"><strong>CA Backup Operator</strong>s</td>
+</tr>
+</tbody>
+</table>
   
 **Nota:** i membri del gruppo CA Admins possono essere nominati inoltre membri del gruppo Administrators locale. Esistono determinate attività che richiedono privilegi amministrativi locali e può essere opportuno associarle al ruolo CA Admins. Tuttavia, ciò renderebbe impossibile l'attivazione della separazione dei ruoli, illustrata in seguito, tra i compiti dell'amministrazione server e quelli dell'amministrazione CA.
   
@@ -1758,45 +1755,44 @@ La procedura seguente descrive come creare le unità organizzative e i GPO per l
   
     8.  Ripetere i tre passaggi precedenti per le combinazioni di unità organizzative, GPO e modelli di protezione elencati nella tabella seguente.
   
-        **Tabella 15. Mapping dei GPO ai modelli di protezione e alle unità organizzative**
+**Tabella 15. Mapping dei GPO ai modelli di protezione e alle unità organizzative**
 
- 
-        <table style="border:1px solid black;">
-        <colgroup>
-        <col width="33%" />
-        <col width="33%" />
-        <col width="33%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th style="border:1px solid black;" >OU</th>
-        <th style="border:1px solid black;" >GPO</th>
-        <th style="border:1px solid black;" >Modello di protezione</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td style="border:1px solid black;">Server membri</td>
-        <td style="border:1px solid black;">Client di organizzazione — Criteri di base per i server membri</td>
-        <td style="border:1px solid black;">Enterprise Client — Member Server Baseline.inf</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">CA</td>
-        <td style="border:1px solid black;">Client di organizzazione — Servizi certificati</td>
-        <td style="border:1px solid black;">Enterprise Client — Certificate Services.inf</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;">CA</td>
-        <td style="border:1px solid black;">(Opzionale — vedere nota precedente) Client di organizzazione — Criteri account per Servizi certificati</td>
-        <td style="border:1px solid black;">Enterprise Client — Domain.inf</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">CA</td>
-        <td style="border:1px solid black;">(Opzionale — se IIS è installato nel computer CA) Client di organizzazione — Servizi certificati IIS</td>
-        <td style="border:1px solid black;">Enterprise Client — IIS Server.inf</td>
-        </tr>
-        </tbody>
-        </table>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >OU</th>
+<th style="border:1px solid black;" >GPO</th>
+<th style="border:1px solid black;" >Modello di protezione</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Server membri</td>
+<td style="border:1px solid black;">Client di organizzazione — Criteri di base per i server membri</td>
+<td style="border:1px solid black;">Enterprise Client — Member Server Baseline.inf</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">CA</td>
+<td style="border:1px solid black;">Client di organizzazione — Servizi certificati</td>
+<td style="border:1px solid black;">Enterprise Client — Certificate Services.inf</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">CA</td>
+<td style="border:1px solid black;">(Opzionale — vedere nota precedente) Client di organizzazione — Criteri account per Servizi certificati</td>
+<td style="border:1px solid black;">Enterprise Client — Domain.inf</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">CA</td>
+<td style="border:1px solid black;">(Opzionale — se IIS è installato nel computer CA) Client di organizzazione — Servizi certificati IIS</td>
+<td style="border:1px solid black;">Enterprise Client — IIS Server.inf</td>
+</tr>
+</tbody>
+</table>
   
 **Nota:** se IIS è stato installato nel computer CA di emissione (l'impostazione predefinita per questa soluzione), sarà necessario creare un GPO IIS distinto solo per le CA. Sebbene sia possibile disporre anche di un GPO IIS per i server IIS Intranet, si consiglia vivamente di creare un GPO diverso che venga utilizzato esclusivamente dalle CA. In questo modo, qualsiasi modifica apportata al GPO IIS non comprometterà la sicurezza delle CA.
   
@@ -1842,197 +1838,196 @@ Dopo aver creato i GPO e aver importato i modelli, è necessario personalizzare 
   
     5.  In **File System**, aggiungere la cartella D:\\CertLog. Assicurarsi che le autorizzazioni corrispondano a quelle riportate nella tabella seguente.
   
-        **Tabella 16. Autorizzazioni per le cartelle del database CA**
+**Tabella 16. Autorizzazioni per le cartelle del database CA**
 
  
-        <table style="border:1px solid black;">
-        <colgroup>
-        <col width="33%" />
-        <col width="33%" />
-        <col width="33%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th style="border:1px solid black;" >Utente/Gruppo</th>
-        <th style="border:1px solid black;" >Autorizzazione</th>
-        <th style="border:1px solid black;" >Consenti/Nega</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td style="border:1px solid black;">Administrators</td>
-        <td style="border:1px solid black;"><ul>
-        <li>Controllo completo</li>
-        </ul></td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">System</td>
-        <td style="border:1px solid black;"><ul>
-        <li>Controllo completo</li>
-        </ul></td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;">Backup Operators</td>
-        <td style="border:1px solid black;"><ul>
-        <li>Controllo completo</li>
-        </ul></td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">CREATOR OWNER</td>
-        <td style="border:1px solid black;"><ul>
-        <li>Controllo completo</li>
-        </ul></td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        </tbody>
-        </table>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Utente/Gruppo</th>
+<th style="border:1px solid black;" >Autorizzazione</th>
+<th style="border:1px solid black;" >Consenti/Nega</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Administrators</td>
+<td style="border:1px solid black;"><ul>
+<li>Controllo completo</li>
+</ul></td>
+<td style="border:1px solid black;">Consenti</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">System</td>
+<td style="border:1px solid black;"><ul>
+<li>Controllo completo</li>
+</ul></td>
+<td style="border:1px solid black;">Consenti</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Backup Operators</td>
+<td style="border:1px solid black;"><ul>
+<li>Controllo completo</li>
+</ul></td>
+<td style="border:1px solid black;">Consenti</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">CREATOR OWNER</td>
+<td style="border:1px solid black;"><ul>
+<li>Controllo completo</li>
+</ul></td>
+<td style="border:1px solid black;">Consenti</td>
+</tr>
+</tbody>
+</table>
   
-    6.  Per la stessa cartella, aggiungere le voci di controllo riportate nella tabella seguente per il gruppo Everyone (fare clic sul pulsante **Avanzate** della finestra di dialogo **Protezione**, quindi selezionare la scheda **Controllo**). Digitare **Everyone** quando viene richiesto per il nome di un utente o di un gruppo. Quando si aggiunge il gruppo Everyone, verrà visualizzata la finestra di dialogo con le informazioni dettagliate **Voci di controllo per** D:\\CertLog. Assicurarsi che l'opzione **La cartella selezionata, le sottocartelle e i file** sia selezionata nel campo **Applica a**. Selezionare tutte le voci a cui corrisponde Sì nella tabella.
+6.  Per la stessa cartella, aggiungere le voci di controllo riportate nella tabella seguente per il gruppo Everyone (fare clic sul pulsante **Avanzate** della finestra di dialogo **Protezione**, quindi selezionare la scheda **Controllo**). Digitare **Everyone** quando viene richiesto per il nome di un utente o di un gruppo. Quando si aggiunge il gruppo Everyone, verrà visualizzata la finestra di dialogo con le informazioni dettagliate **Voci di controllo per** D:\\CertLog. Assicurarsi che l'opzione **La cartella selezionata, le sottocartelle e i file** sia selezionata nel campo **Applica a**. Selezionare tutte le voci a cui corrisponde Sì nella tabella.
   
-        **Tabella 17. Controllo per le cartelle del database CA**
+**Tabella 17. Controllo per le cartelle del database CA**
 
- 
-        <table style="border:1px solid black;">
-        <colgroup>
-        <col width="33%" />
-        <col width="33%" />
-        <col width="33%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th style="border:1px solid black;" >Autorizzazione</th>
-        <th style="border:1px solid black;" >Riuscito</th>
-        <th style="border:1px solid black;" >Non riuscito</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td style="border:1px solid black;"><ul>
-        <li>Controllo completo</li>
-        </ul></td>
-        <td style="border:1px solid black;"><br />
-        </td>
-        <td style="border:1px solid black;">Sì</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;"><ul>
-        <li>Visita cartelle/Esecuzione file</li>
-        </ul></td>
-        <td style="border:1px solid black;"><br />
-        </td>
-        <td style="border:1px solid black;">Sì</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;"><ul>
-        <li>Visualizza contenuto cartelle/Lettura dati</li>
-        </ul></td>
-        <td style="border:1px solid black;"><br />
-        </td>
-        <td style="border:1px solid black;">Sì</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;"><ul>
-        <li>Lettura attributi</li>
-        </ul></td>
-        <td style="border:1px solid black;"><br />
-        </td>
-        <td style="border:1px solid black;">Sì</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;"><ul>
-        <li>Lettura attributi estesi</li>
-        </ul></td>
-        <td style="border:1px solid black;"><br />
-        </td>
-        <td style="border:1px solid black;">Sì</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;"><ul>
-        <li>Creazione file/Scrittura dati</li>
-        </ul></td>
-        <td style="border:1px solid black;">Sì</td>
-        <td style="border:1px solid black;">Sì</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;"><ul>
-        <li>Creazione cartelle/Aggiunta dati</li>
-        </ul></td>
-        <td style="border:1px solid black;">Sì</td>
-        <td style="border:1px solid black;">Sì</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;"><ul>
-        <li>Scrittura attributi</li>
-        </ul></td>
-        <td style="border:1px solid black;">Sì</td>
-        <td style="border:1px solid black;">Sì</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;"><ul>
-        <li>Scrittura attributi estesi</li>
-        </ul></td>
-        <td style="border:1px solid black;">Sì</td>
-        <td style="border:1px solid black;">Sì</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;"><ul>
-        <li>Eliminazione sottocartelle e file</li>
-        </ul></td>
-        <td style="border:1px solid black;">Sì</td>
-        <td style="border:1px solid black;">Sì</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;"><ul>
-        <li>Eliminazione</li>
-        </ul></td>
-        <td style="border:1px solid black;">Sì</td>
-        <td style="border:1px solid black;">Sì</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;"><ul>
-        <li>Autorizzazioni di lettura</li>
-        </ul></td>
-        <td style="border:1px solid black;"><br />
-        </td>
-        <td style="border:1px solid black;">Sì</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;"><ul>
-        <li>Cambia autorizzazioni</li>
-        </ul></td>
-        <td style="border:1px solid black;">Sì</td>
-        <td style="border:1px solid black;">Sì</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;"><ul>
-        <li>Diventa proprietario</li>
-        </ul></td>
-        <td style="border:1px solid black;">Sì</td>
-        <td style="border:1px solid black;">Sì</td>
-        </tr>
-        </tbody>
-        </table>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Autorizzazione</th>
+<th style="border:1px solid black;" >Riuscito</th>
+<th style="border:1px solid black;" >Non riuscito</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><ul>
+<li>Controllo completo</li>
+</ul></td>
+<td style="border:1px solid black;"><br />
+</td>
+<td style="border:1px solid black;">Sì</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><ul>
+<li>Visita cartelle/Esecuzione file</li>
+</ul></td>
+<td style="border:1px solid black;"><br />
+</td>
+<td style="border:1px solid black;">Sì</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><ul>
+<li>Visualizza contenuto cartelle/Lettura dati</li>
+</ul></td>
+<td style="border:1px solid black;"><br />
+</td>
+<td style="border:1px solid black;">Sì</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><ul>
+<li>Lettura attributi</li>
+</ul></td>
+<td style="border:1px solid black;"><br />
+</td>
+<td style="border:1px solid black;">Sì</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><ul>
+<li>Lettura attributi estesi</li>
+</ul></td>
+<td style="border:1px solid black;"><br />
+</td>
+<td style="border:1px solid black;">Sì</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><ul>
+<li>Creazione file/Scrittura dati</li>
+</ul></td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><ul>
+<li>Creazione cartelle/Aggiunta dati</li>
+</ul></td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><ul>
+<li>Scrittura attributi</li>
+</ul></td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><ul>
+<li>Scrittura attributi estesi</li>
+</ul></td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><ul>
+<li>Eliminazione sottocartelle e file</li>
+</ul></td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><ul>
+<li>Eliminazione</li>
+</ul></td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><ul>
+<li>Autorizzazioni di lettura</li>
+</ul></td>
+<td style="border:1px solid black;"><br />
+</td>
+<td style="border:1px solid black;">Sì</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><ul>
+<li>Cambia autorizzazioni</li>
+</ul></td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><ul>
+<li>Diventa proprietario</li>
+</ul></td>
+<td style="border:1px solid black;">Sì</td>
+<td style="border:1px solid black;">Sì</td>
+</tr>
+</tbody>
+</table>
   
-    7.  Aprire la pagina delle proprietà dei servizi seguenti nella cartella Servizi di sistema, quindi fare clic su **Definisci questa impostazione nel modello**. Confermare le autorizzazioni predefinite facendo clic su **OK**. Impostare il valore di **Selezionare la modalità di avvio servizio** su **Automatico**.
+7.  Aprire la pagina delle proprietà dei servizi seguenti nella cartella Servizi di sistema, quindi fare clic su **Definisci questa impostazione nel modello**. Confermare le autorizzazioni predefinite facendo clic su **OK**. Impostare il valore di **Selezionare la modalità di avvio servizio** su **Automatico**.
   
-        -   Archivi rimovibili
+-   Archivi rimovibili
   
-        -   Copia replicata del volume
+-   Copia replicata del volume
   
-        -   Provider di copie replicate Microsoft
+-   Provider di copie replicate Microsoft
   
-        -   Utilità di pianificazione
+-   Utilità di pianificazione
   
-            **Nota:** questi servizi sono disattivati nel modello di protezione di base per i server membri, ma i primi due sono necessari per consentire l'esecuzione di NTBackup.exe, mentre l'Utilità di pianificazione è richiesta da alcuni script operativi.
+**Nota:** questi servizi sono disattivati nel modello di protezione di base per i server membri, ma i primi due sono necessari per consentire l'esecuzione di NTBackup.exe, mentre l'Utilità di pianificazione è richiesta da alcuni script operativi.
   
-    8.  Spostare l'account del computer CA di emissione nell'unità organizzativa Servizi certificati.
+8.  Spostare l'account del computer CA di emissione nell'unità organizzativa Servizi certificati.
   
-    9.  Nel computer CA di emissione, eseguire il comando seguente per applicare le impostazioni del GPO al computer:
+9.  Nel computer CA di emissione, eseguire il comando seguente per applicare le impostazioni del GPO al computer:
   
-        **gpupdate**
+**gpupdate**
   
 **Nota:** nella guida *Windows Server 2003 Security Guide* le impostazioni di protezione sono descritte in modo più dettagliato.
   
@@ -2293,53 +2288,51 @@ Installare i componenti software CA utilizzando la procedura Aggiunta guidata co
   
     3.  Verificare nella scheda **Dettagli** del certificato CA che i valori visualizzati corrispondano a quelli descritti nella tabella seguente.
   
-        **Tabella 19. Proprietà ed estensioni del certificato della CA principale**
+**Tabella 19. Proprietà ed estensioni del certificato della CA principale**
 
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Attributo del certificato</th>
+<th style="border:1px solid black;" >Impostazione richiesta</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Campi Autorità emittente e Oggetto</td>
+<td style="border:1px solid black;">Devono essere identici e includere il nome comune completo della CA più il suffisso del nome distinto specificato durante l'installazione.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Non prima - Non dopo</td>
+<td style="border:1px solid black;">16 anni</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Lunghezza della chiave pubblica</td>
+<td style="border:1px solid black;">RSA (4096 bit)</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Utilizzo chiave</td>
+<td style="border:1px solid black;">Firma digitale, Firma certificato, Firma CRL non in linea, Firma CRL (86)</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Restrizioni di base (critiche)</td>
+<td style="border:1px solid black;">Tipo oggetto=CA<br />
+Limite lunghezza percorso=Nessuno</td>
+</tr>
+</tbody>
+</table>
  
-        <table style="border:1px solid black;">
-        <colgroup>
-        <col width="50%" />
-        <col width="50%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th style="border:1px solid black;" >Attributo del certificato</th>
-        <th style="border:1px solid black;" >Impostazione richiesta</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td style="border:1px solid black;">Campi Autorità emittente e Oggetto</td>
-        <td style="border:1px solid black;">Devono essere identici e includere il nome comune completo della CA più il suffisso del nome distinto specificato durante l'installazione.</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">Non prima - Non dopo</td>
-        <td style="border:1px solid black;">16 anni</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;">Lunghezza della chiave pubblica</td>
-        <td style="border:1px solid black;">RSA (4096 bit)</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">Utilizzo chiave</td>
-        <td style="border:1px solid black;">Firma digitale, Firma certificato, Firma CRL non in linea, Firma CRL (86)</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;">Restrizioni di base (critiche)</td>
-        <td style="border:1px solid black;">Tipo oggetto=CA<br />
-        Limite lunghezza percorso=Nessuno</td>
-        </tr>
-        </tbody>
-        </table>
- 
+La presenza del tipo di oggetto Restrizioni di base è molto importante: questo valore distingue un certificato CA da un certificato entità di fine. Inoltre, non deve essere elencata alcuna estensione CDP o AIA.
 
-        La presenza del tipo di oggetto Restrizioni di base è molto importante: questo valore distingue un certificato CA da un certificato entità di fine. Inoltre, non deve essere elencata alcuna estensione CDP o AIA.
+Se uno dei valori precedenti non è quello previsto, è consigliabile riavviare l'installazione di Servizi certificati.
 
-        Se uno dei valori precedenti non è quello previsto, è consigliabile riavviare l'installazione di Servizi certificati.
+**Nota:** se è necessario eseguire nuovamente l'installazione di Servizi certificati, verrà visualizzato un avviso per indicare che la chiave privata esiste già. Nel caso in cui non sia stato rilasciato alcun certificato utilizzando questa chiave, è possibile ignorare l'avviso e generare una nuova chiave. Se la CA ha già rilasciato i certificati (diversi dai certificati di prova), non reinstallare Servizi certificati senza aver prima eseguito una copia di backup della chiave e del certificato precedente (la relativa procedura è descritta nel modulo["Gestione dell'infrastruttura a chiave pubblica"](http://technet.microsoft.com/it-it/library/dd536252.aspx)della *Guida alla pianificazione.*
 
-        **Nota:** se è necessario eseguire nuovamente l'installazione di Servizi certificati, verrà visualizzato un avviso per indicare che la chiave privata esiste già. Nel caso in cui non sia stato rilasciato alcun certificato utilizzando questa chiave, è possibile ignorare l'avviso e generare una nuova chiave. Se la CA ha già rilasciato i certificati (diversi dai certificati di prova), non reinstallare Servizi certificati senza aver prima eseguito una copia di backup della chiave e del certificato precedente (la relativa procedura è descritta nel modulo["Gestione dell'infrastruttura a chiave pubblica"](http://technet.microsoft.com/it-it/library/dd536252.aspx)della *Guida alla pianificazione.*
-
-    4.  È possibile visualizzare inoltre il registro di installazione di Servizi certificati, **%systemroot%\\certocm.log**, per eseguire ulteriori verifiche o agevolare la risoluzione dei problemi in caso di errori.
+4.  È possibile visualizzare inoltre il registro di installazione di Servizi certificati, **%systemroot%\\certocm.log**, per eseguire ulteriori verifiche o agevolare la risoluzione dei problemi in caso di errori.
 
 #### Configurazione delle proprietà della CA principale
 
@@ -2395,11 +2388,11 @@ L'URL HTTP è elencato in sequenza prima dell'URL LDAP, in modo che i client che
   
 -   **Per configurare le proprietà della CA principale**
   
-    1.  Accedere al server CA come membro del gruppo Administrators locale.
+1.  Accedere al server CA come membro del gruppo Administrators locale.
   
-    2.  Personalizzare lo script seguente (C:\\MSSScripts\\pkiparams.vbs) in modo da includere il DN corretto del nome principale dell'insieme di strutture di Active Directory (modificare il valore dell'impostazione **AD\_ROOT\_DN**) e l'URL HTTP (modificare l'impostazione **HTTP\_PKI\_VROOT** in base al percorso HTTP della directory virtuale IIS impostata precedentemente) in modo che faccia riferimento al server Web di pubblicazione CDP e AIA.
+2.  Personalizzare lo script seguente (C:\\MSSScripts\\pkiparams.vbs) in modo da includere il DN corretto del nome principale dell'insieme di strutture di Active Directory (modificare il valore dell'impostazione **AD\_ROOT\_DN**) e l'URL HTTP (modificare l'impostazione **HTTP\_PKI\_VROOT** in base al percorso HTTP della directory virtuale IIS impostata precedentemente) in modo che faccia riferimento al server Web di pubblicazione CDP e AIA.
   
-        **Nota:** qui è riportata solo una parte del file. Non modificare o rimuovere alcun elemento del file, a meno che non si conoscano le conseguenze dell'operazione.
+**Nota:** qui è riportata solo una parte del file. Non modificare o rimuovere alcun elemento del file, a meno che non si conoscano le conseguenze dell'operazione.
 
         ```
         '**************************************************************************
@@ -2424,9 +2417,9 @@ L'URL HTTP è elencato in sequenza prima dell'URL LDAP, in modo che i client che
         CONST AD_ROOT_DN			= "DC=woodgrovebank,DC=com"
         ```
   
-    3.  Then run the following script:
+ 3.  Then run the following script:
   
-        **Cscript //job:RootCAConfig C:\\MSSScripts\\ca\_setup.wsf**
+ **Cscript //job:RootCAConfig C:\\MSSScripts\\ca\_setup.wsf**
   
 ##### Configurazione dei ruoli amministrativi
   
@@ -2440,43 +2433,42 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori, gestione
   
     2.  Fare clic sulla scheda **Protezione** e aggiungere i gruppi di protezione locali elencati nella tabella seguente. Per ciascun gruppo aggiungere l'autorizzazione elencata.
   
-        **Tabella 21. Autorizzazioni CA da aggiungere**
+       **Tabella 21. Autorizzazioni CA da aggiungere**
 
- 
-        <table style="border:1px solid black;">
-        <colgroup>
-        <col width="33%" />
-        <col width="33%" />
-        <col width="33%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th style="border:1px solid black;" >Nome gruppo</th>
-        <th style="border:1px solid black;" >Autorizzazione</th>
-        <th style="border:1px solid black;" >Consenti/Nega</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td style="border:1px solid black;"><strong>CA Admins</strong></td>
-        <td style="border:1px solid black;">Gestione CA</td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;"><strong>Certificate Managers</strong></td>
-        <td style="border:1px solid black;">Rilascio e gestione certificati</td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        </tbody>
-        </table>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Nome gruppo</th>
+<th style="border:1px solid black;" >Autorizzazione</th>
+<th style="border:1px solid black;" >Consenti/Nega</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><strong>CA Admins</strong></td>
+<td style="border:1px solid black;">Gestione CA</td>
+<td style="border:1px solid black;">Consenti</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><strong>Certificate Managers</strong></td>
+<td style="border:1px solid black;">Rilascio e gestione certificati</td>
+<td style="border:1px solid black;">Consenti</td>
+</tr>
+</tbody>
+</table>
   
-        **Nota**: se si desidera una separazione netta dei ruoli, è necessario rimuovere le autorizzazioni di Gestione CA dal gruppo Administrators locale.
+**Nota**: se si desidera una separazione netta dei ruoli, è necessario rimuovere le autorizzazioni di Gestione CA dal gruppo Administrators locale.
   
-    3.  Altri ruoli di protezione per questa CA sono stati già definiti tramite i criteri di protezione applicati precedentemente al server:
+3.  Altri ruoli di protezione per questa CA sono stati già definiti tramite i criteri di protezione applicati precedentemente al server:
   
-        -   Ai controllori CA sono stati assegnati i diritti utente Gestione protezione e Registri di controllo.
+-   Ai controllori CA sono stati assegnati i diritti utente Gestione protezione e Registri di controllo.
   
-        -   Gli utenti del gruppo Backup Operators dispongono dei diritti necessari di backup e di ripristino della CA.
+-   Gli utenti del gruppo Backup Operators dispongono dei diritti necessari di backup e di ripristino della CA.
   
 #### Trasferimento del certificato della CA principale e del CRL sul disco floppy
   
@@ -2610,34 +2602,36 @@ Il file CAPolicy.inf non è indispensabile per la CA di emissione, tuttavia, ne 
 -   **Per creare il file CAPolicy.inf**
   
     1.  Immettere il testo seguente in un editor di testi, ad esempio Blocco note.
-        ```
+        
+	```
         [Versione]
         Signature= "$Windows NT$"
 
         [Certsrv_Server]
         RenewalKeyLength=2048
-       
+	```
+	       
     2.  Se è stata definita una CPS per la CA, includere quanto segue nel file CApolicy.inf  
         (è necessario sostituire tutte le voci in corsivo con i valori della propria organizzazione):
   
-        ```
-			     [CAPolicy]
-			     Policies=WoodGrove Bank Issuing CA 1 CPS
+	```
+	[CAPolicy]
+	Policies=WoodGrove Bank Issuing CA 1 CPS
 
-			     [WoodGrove Bank Issuing CA 1 CPS]
-			     OID=OID.org.
-			     URL = "http://www.woodgrovebank.com/YourCPSPage.htm"
-			     URL = "ftp://www.woodgrovebank.com/YourCPSPage.txt"
-			     Notice = "Istruzioni di pratica di certificazione CA di emissione 1 WoodGrove Bank"
-		      ```
+	[WoodGrove Bank Issuing CA 1 CPS]
+	OID=OID.org.
+	URL = "http://www.woodgrovebank.com/YourCPSPage.htm"
+	URL = "ftp://www.woodgrovebank.com/YourCPSPage.txt"
+	Notice = "Istruzioni di pratica di certificazione CA di emissione 1 WoodGrove Bank"
+	```
  
-       **Note:**
+**Note:**
   
-       Il testo dell'avviso può contenere un massimo di 200 caratteri. Utilizzare questo campo solo per una breve descrizione della CPS e non per il testo completo della CPS.
+Il testo dell'avviso può contenere un massimo di 200 caratteri. Utilizzare questo campo solo per una breve descrizione della CPS e non per il testo completo della CPS.
   
-       Per ulteriori informazioni sulla CPS e sui casi in cui è opportuno crearne una, vedere la sezione "Creazione di un'istruzione di pratica di certificazione" nel modulo "[Progettazione di un'infrastruttura a chiave pubblica](http://www.microsoft.com/downloads/details.aspx?familyid=cdb639b3-010b-47e7-b234-a27cda291dad&displaylang=en)" della *Guida alla pianificazione*. La CPS è un documento legale e non un elemento tecnico, pertanto, bisogna essere certi che sia realmente necessaria prima di configurarla nella CA.
+Per ulteriori informazioni sulla CPS e sui casi in cui è opportuno crearne una, vedere la sezione "Creazione di un'istruzione di pratica di certificazione" nel modulo "[Progettazione di un'infrastruttura a chiave pubblica](http://www.microsoft.com/downloads/details.aspx?familyid=cdb639b3-010b-47e7-b234-a27cda291dad&displaylang=en)" della *Guida alla pianificazione*. La CPS è un documento legale e non un elemento tecnico, pertanto, bisogna essere certi che sia realmente necessaria prima di configurarla nella CA.
   
-    3.  Salvare il file come %*windir%*\\CApolicy.inf (o sostituire %*windir%* con il percorso assoluto della cartella in cui Windows è installato, ad esempio C:\\Windows). È necessario essere un amministratore locale o disporre delle autorizzazioni di scrittura nella cartella di Windows per completare questo passaggio.
+3.  Salvare il file come %*windir%*\\CApolicy.inf (o sostituire %*windir%* con il percorso assoluto della cartella in cui Windows è installato, ad esempio C:\\Windows). È necessario essere un amministratore locale o disporre delle autorizzazioni di scrittura nella cartella di Windows per completare questo passaggio.
   
 #### Installazione dei componenti software di Servizi certificati
   
@@ -2762,66 +2756,65 @@ La CA deve ora avviarsi.
   
     3.  Verificare nella scheda **Dettagli** del certificato CA che i valori visualizzati corrispondano a quelli descritti nella tabella seguente.
   
-        **Tabella 22. Proprietà ed estensioni del certificato della CA di emissione**
-
+ **Tabella 22. Proprietà ed estensioni del certificato della CA di emissione**
  
-        <table style="border:1px solid black;">
-        <colgroup>
-        <col width="50%" />
-        <col width="50%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th style="border:1px solid black;" >Attributo del certificato</th>
-        <th style="border:1px solid black;" >Impostazione richiesta</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td style="border:1px solid black;">Autorità emittente</td>
-        <td style="border:1px solid black;">Nome comune CA principale (più suffisso DN)</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">Oggetto</td>
-        <td style="border:1px solid black;">Nome comune CA di emissione (più suffisso DN)</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;">Non prima - Non dopo</td>
-        <td style="border:1px solid black;">8 anni</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">Lunghezza della chiave pubblica</td>
-        <td style="border:1px solid black;">2048 bit</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;">Utilizzo chiave</td>
-        <td style="border:1px solid black;">Firma digitale, Firma certificato, Firma CRL non in linea, Firma CRL (86)</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">Restrizioni di base (critiche)</td>
-        <td style="border:1px solid black;">Tipo oggetto=CAPath<br />
-        Limite lunghezza percorso=Nessuno</td>
-        </tr>
-        <tr class="odd">
-        <td style="border:1px solid black;">Punti di distribuzione CRL</td>
-        <td style="border:1px solid black;">2 voci - URL HTTP ed LDAP</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;">Accesso alle informazioni dell'autorità</td>
-        <td style="border:1px solid black;">2 voci - URL HTTP ed LDAP</td>
-        </tr>
-        </tbody>
-        </table>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Attributo del certificato</th>
+<th style="border:1px solid black;" >Impostazione richiesta</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;">Autorità emittente</td>
+<td style="border:1px solid black;">Nome comune CA principale (più suffisso DN)</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Oggetto</td>
+<td style="border:1px solid black;">Nome comune CA di emissione (più suffisso DN)</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Non prima - Non dopo</td>
+<td style="border:1px solid black;">8 anni</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Lunghezza della chiave pubblica</td>
+<td style="border:1px solid black;">2048 bit</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Utilizzo chiave</td>
+<td style="border:1px solid black;">Firma digitale, Firma certificato, Firma CRL non in linea, Firma CRL (86)</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Restrizioni di base (critiche)</td>
+<td style="border:1px solid black;">Tipo oggetto=CAPath<br />
+Limite lunghezza percorso=Nessuno</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Punti di distribuzione CRL</td>
+<td style="border:1px solid black;">2 voci - URL HTTP ed LDAP</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Accesso alle informazioni dell'autorità</td>
+<td style="border:1px solid black;">2 voci - URL HTTP ed LDAP</td>
+</tr>
+</tbody>
+</table>
   
-        La presenza del tipo di oggetto Restrizioni di base è molto importante: questo valore distingue un certificato CA da un certificato entità di fine. Inoltre, verrà elencata un'altra estensione, **Identificativo chiave dell'autorità**, che non era inclusa nel certificato della CA principale. Questo valore deve corrispondere a **Identificatore della chiave dell'oggetto** del certificato della CA principale.
+La presenza del tipo di oggetto Restrizioni di base è molto importante: questo valore distingue un certificato CA da un certificato entità di fine. Inoltre, verrà elencata un'altra estensione, **Identificativo chiave dell'autorità**, che non era inclusa nel certificato della CA principale. Questo valore deve corrispondere a **Identificatore della chiave dell'oggetto** del certificato della CA principale.
   
-        Se uno dei valori precedenti non è quello previsto, è consigliabile riavviare l'installazione di Servizi certificati.
+Se uno dei valori precedenti non è quello previsto, è consigliabile riavviare l'installazione di Servizi certificati.
   
-        **Nota:** se è necessario eseguire nuovamente l'installazione di Servizi certificati, verrà visualizzato un avviso per indicare che la chiave privata esiste già. Nel caso in cui non sia stato rilasciato alcun certificato utilizzando questa chiave, è possibile ignorare l'avviso e generare una nuova chiave. Se la CA ha già rilasciato i certificati (diversi dai certificati di prova), non reinstallare Servizi certificati senza aver prima eseguito una copia di backup della chiave e del certificato precedente (la relativa procedura è descritta in "Gestione dell'infrastruttura a chiave pubblica", disponibile nella [Microsoft Solution for Securing Wireless LANS: Operations Guide](http://www.microsoft.com/downloads/details.aspx?familyid=cdb639b3-010b-47e7-b234-a27cda291dad&displaylang=en).
+**Nota:** se è necessario eseguire nuovamente l'installazione di Servizi certificati, verrà visualizzato un avviso per indicare che la chiave privata esiste già. Nel caso in cui non sia stato rilasciato alcun certificato utilizzando questa chiave, è possibile ignorare l'avviso e generare una nuova chiave. Se la CA ha già rilasciato i certificati (diversi dai certificati di prova), non reinstallare Servizi certificati senza aver prima eseguito una copia di backup della chiave e del certificato precedente (la relativa procedura è descritta in "Gestione dell'infrastruttura a chiave pubblica", disponibile nella [Microsoft Solution for Securing Wireless LANS: Operations Guide](http://www.microsoft.com/downloads/details.aspx?familyid=cdb639b3-010b-47e7-b234-a27cda291dad&displaylang=en).
   
-    4.  Verificare nella scheda **Percorso certificazione** se il certificato della CA di emissione è collegato correttamente alla CA principale.
+4.  Verificare nella scheda **Percorso certificazione** se il certificato della CA di emissione è collegato correttamente alla CA principale.
   
-    5.  È possibile visualizzare inoltre il registro di installazione di Servizi certificati, **%systemroot%\\certocm.log**, per eseguire ulteriori verifiche o agevolare la risoluzione dei problemi in caso di errori di installazione.
+5.  È possibile visualizzare inoltre il registro di installazione di Servizi certificati, **%systemroot%\\certocm.log**, per eseguire ulteriori verifiche o agevolare la risoluzione dei problemi in caso di errori di installazione.
   
 #### Configurazione delle proprietà della CA di emissione
   
@@ -2899,43 +2892,42 @@ Per utilizzare i ruoli amministrativi nella CA, ad esempio controllori, gestione
   
     2.  Fare clic sulla scheda **Protezione** e aggiungere i gruppi di protezione del dominio elencati nella tabella seguente. Per ciascun gruppo aggiungere l'autorizzazione elencata.
   
-        **Tabella 24. Autorizzazioni CA da aggiungere**
-
+**Tabella 24. Autorizzazioni CA da aggiungere**
  
-        <table style="border:1px solid black;">
-        <colgroup>
-        <col width="33%" />
-        <col width="33%" />
-        <col width="33%" />
-        </colgroup>
-        <thead>
-        <tr class="header">
-        <th style="border:1px solid black;" >Nome gruppo</th>
-        <th style="border:1px solid black;" >Autorizzazione</th>
-        <th style="border:1px solid black;" >Consenti/Nega</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="odd">
-        <td style="border:1px solid black;"><strong>CA Admins</strong></td>
-        <td style="border:1px solid black;">Gestione CA</td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        <tr class="even">
-        <td style="border:1px solid black;"><strong>Certificate Managers</strong></td>
-        <td style="border:1px solid black;">Rilascio e gestione certificati</td>
-        <td style="border:1px solid black;">Consenti</td>
-        </tr>
-        </tbody>
-        </table>
+<table style="border:1px solid black;">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >Nome gruppo</th>
+<th style="border:1px solid black;" >Autorizzazione</th>
+<th style="border:1px solid black;" >Consenti/Nega</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><strong>CA Admins</strong></td>
+<td style="border:1px solid black;">Gestione CA</td>
+<td style="border:1px solid black;">Consenti</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><strong>Certificate Managers</strong></td>
+<td style="border:1px solid black;">Rilascio e gestione certificati</td>
+<td style="border:1px solid black;">Consenti</td>
+</tr>
+</tbody>
+</table>
   
-        **Nota:** se si desidera una separazione netta dei ruoli, è necessario rimuovere le autorizzazioni di Gestione CA dal gruppo Administrators locale.
+**Nota:** se si desidera una separazione netta dei ruoli, è necessario rimuovere le autorizzazioni di Gestione CA dal gruppo Administrators locale.
   
-    3.  Altri ruoli di protezione CA richiedono un'ulteriore configurazione, sebbene siano stati già definiti parzialmente tramite i criteri di protezione applicati precedentemente al server:
+3.  Altri ruoli di protezione CA richiedono un'ulteriore configurazione, sebbene siano stati già definiti parzialmente tramite i criteri di protezione applicati precedentemente al server:
   
-        -   Ai controllori CA sono stati assegnati i diritti utente Gestione protezione e Registri di controllo. Aggiungere questo gruppo al gruppo Administrators locale.
+-   Ai controllori CA sono stati assegnati i diritti utente Gestione protezione e Registri di controllo. Aggiungere questo gruppo al gruppo Administrators locale.
   
-        -   Ai CA Backup Operators sono stati assegnati i diritti di backup e ripristino nella CA. Non sono necessarie altre configurazioni per questo gruppo.
+-   Ai CA Backup Operators sono stati assegnati i diritti di backup e ripristino nella CA. Non sono necessarie altre configurazioni per questo gruppo.
   
 #### Pubblicazione del certificato CA di emissione
   
