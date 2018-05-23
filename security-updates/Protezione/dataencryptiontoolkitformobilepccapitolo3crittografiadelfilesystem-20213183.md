@@ -94,7 +94,7 @@ Questa opzione EFS richiede computer basati solo su Windows XP o Windows Vista
 
 La sequenza logica del processo di crittografia EFS in questa opzione viene illustrata nella seguente figura:
 
-![](images/Cc162818.67dc08b1-9271-4491-b617-43ccb0020ebc(it-it,TechNet.10).jpg)
+![](images/Cc162818.67dc08b1-9271-4491-b617-43ccb0020ebc(it-it,TechNet.10).jpg "Processo di crittografia EFS")
 
 **Figura 3.3. Processo di crittografia EFS**
 
@@ -116,7 +116,7 @@ Di seguito sono riportate le procedure della sequenza di crittografia illustrata
 
 La sequenza logica del processo di decrittografia EFS in questa opzione viene illustrata nella seguente figura:
 
-![](images/Cc162818.8e90f3ca-64ed-456e-be71-29bf3388699b(it-it,TechNet.10).jpg)
+![](images/Cc162818.8e90f3ca-64ed-456e-be71-29bf3388699b(it-it,TechNet.10).jpg "Processo di decrittografia EFS")
 
 **Figura 3.4. Processo di decrittografia EFS**
 
@@ -208,7 +208,7 @@ Questa discussione sui rischi presuppone che le smart card vengano utilizzate in
 
 La crittografia EFS in Windows XP con l'opzione di accesso con smart card viene illustrata nella seguente figura.
 
-![](images/Cc162818.9106cca5-90c1-49dc-87f0-ec6605d165c9(it-it,TechNet.10).jpg)
+![](images/Cc162818.9106cca5-90c1-49dc-87f0-ec6605d165c9(it-it,TechNet.10).jpg "Crittografia EFS di Windows XP con accesso con smart card")
 
 **Figura 3.5. Crittografia EFS di Windows XP con accesso con smart card**
 
@@ -230,7 +230,7 @@ Di seguito sono riportate le procedure della sequenza di crittografia illustrata
 
 L'opzione decrittografia EFS in Windows XP con accesso con smart card viene illustrata nella seguente figura.
 
-![](images/Cc162818.98911cc3-45af-44be-aa3b-ffa37b9e520d(it-it,TechNet.10).jpg)
+![](images/Cc162818.98911cc3-45af-44be-aa3b-ffa37b9e520d(it-it,TechNet.10).jpg "Decrittografia EFS in Windows XP con accesso con smart card")
 
 **Figura 3.6. Sequenza di decrittografia EFS per Windows XP con accesso con smart card**
 
@@ -266,7 +266,7 @@ Per ulteriori dettagli su come viene implementata la modalità cache in Windows�
 
 La crittografia EFS in modalità chiave memorizzata nella cache viene illustrata nella seguente figura:
 
-![](images/Cc162818.5cf0f6c0-5a9c-4c49-80da-5690297f89bc(it-it,TechNet.10).jpg)
+![](images/Cc162818.5cf0f6c0-5a9c-4c49-80da-5690297f89bc(it-it,TechNet.10).jpg "Crittografia Vista EFS con smart card - Memorizzato nella cache")
 
 **Figura 3.7. Sequenza di crittografia EFS per Windows Vista con smart card - Modalità chiave memorizzata nella cache**
 
@@ -300,7 +300,7 @@ Di seguito sono riportate le procedure della sequenza di crittografia illustrata
 
 La decrittografia EFS in modalità chiave memorizzata nella cache viene illustrata nella seguente figura:
 
-![](images/Cc162818.9239422a-18b2-4d59-a9d4-3d6f7a0ffa8d(it-it,TechNet.10).jpg)
+![](images/Cc162818.9239422a-18b2-4d59-a9d4-3d6f7a0ffa8d(it-it,TechNet.10).jpg "Decrittografia Vista EFS con smart card - Memorizzata nella cache")
 
 **Figura 3.8. Sequenza di decrittografia EFS per Windows Vista con smart card - Modalità chiave memorizzata nella cache**
 
@@ -326,7 +326,7 @@ Di seguito sono riportate le procedure nella sequenza di decrittografia illustra
 
 La crittografia EFS in Windows Vista con EFS attiva in modalità chiave non memorizzata nella cache viene illustrata nella seguente figura.
 
-![](images/Cc162818.a1c07b9d-de1a-407a-8ce3-6177d8b91e27(it-it,TechNet.10).jpg)
+![](images/Cc162818.a1c07b9d-de1a-407a-8ce3-6177d8b91e27(it-it,TechNet.10).jpg "Crittografia Vista EFS con smart card - Non memorizzata nella cache")
 
 **Figura 3.9. Sequenza di crittografia EFS per Windows Vista con smart card - Modalità chiave non memorizzata nella cache**
 
@@ -346,7 +346,7 @@ Di seguito sono riportate le procedure della sequenza di crittografia illustrata
 
 La decrittografia EFS in modalità chiave non memorizzata nella cache viene illustrata nella seguente figura:
 
-![](images/Cc162818.b6906b39-323a-463c-aecc-2252dc8be65e(it-it,TechNet.10).jpg)
+![](images/Cc162818.b6906b39-323a-463c-aecc-2252dc8be65e(it-it,TechNet.10).jpg "Decrittografia Vista EFS con smart card - Non memorizzata nella cache")
 
 **Figura 3.10. Sequenza di decrittografia EFS per Windows Vista con smart card - Modalità chiave non memorizzata nella cache**
 
