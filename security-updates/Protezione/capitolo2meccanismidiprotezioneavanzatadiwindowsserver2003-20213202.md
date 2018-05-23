@@ -519,12 +519,14 @@ La seguente procedura consente di sincronizzare con un'origine ora esterna. i co
   
 1.  Sul controller di dominio con l'FSMO dell'emulatore PDC, aprire un prompt dei comandi ed eseguire il seguente comando, dove *&lt;PeerList&gt;* è un elenco di nomi DNS o di indirizzi IP separati da virgola per le origini dell'ora desiderate:
   
-    <codesnippet language displaylanguage containsmarkup="false">w32tm /config /syncfromflags:manual /manualpeerlist:&lt;PeerList&gt;  
+```
+w32tm /config /syncfromflags:manual /manualpeerlist:<PeerList>
 ```
   
 2.  Per aggiornare la configurazione, eseguire il seguente comando:
   
-    <codesnippet language displaylanguage containsmarkup="false">w32tm /config /update  
+```
+w32tm /config /update
 ```
   
 3.  Controllare il registro eventi. Se il computer non è in grado di raggiungere i server, la procedura non ha esito positivo e viene inserita una voce nel registro eventi.
