@@ -518,17 +518,17 @@ Prima di poter avviare il processo di aumento della protezione, è necessario av
 La seguente procedura consente di sincronizzare con un'origine ora esterna. i controller di dominio e i server membro. Questa sincronizzazione aiuterà a garantire che l'autenticazione Kerberos funzioni correttamente e consenta di mantenere sincronizzato il dominio Active Directory con qualunque altro computer esterno.
   
 1.  Sul controller di dominio con l'FSMO dell'emulatore PDC, aprire un prompt dei comandi ed eseguire il seguente comando, dove *&lt;PeerList&gt;* è un elenco di nomi DNS o di indirizzi IP separati da virgola per le origini dell'ora desiderate:
-  
+
 ```
 w32tm /config /syncfromflags:manual /manualpeerlist:<PeerList>
 ```
-  
+
 2.  Per aggiornare la configurazione, eseguire il seguente comando:
-  
+
 ```
 w32tm /config /update
 ```
-  
+
 3.  Controllare il registro eventi. Se il computer non è in grado di raggiungere i server, la procedura non ha esito positivo e viene inserita una voce nel registro eventi.
   
 In genere, la procedura descritta viene utilizzata per sincronizzare l'origine ora autorevole della rete interna con un'origine ora esterna molto precisa. Può essere però eseguita su qualsiasi computer che abbia come sistema operativo Windows XP o un membro della famiglia Windows Server 2003. In molti casi, può non essere necessario che l'ora di tutti i server sia sincronizzata con un'origine esterna, purché però sia sincronizzata con la stessa origine interna. Per impostazione predefinita, i computer membri sincronizzano sempre i loro orologi con i controller di dominio.
