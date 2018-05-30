@@ -56,9 +56,8 @@ Di seguito vengono riportate schermate di esempio relative alla notifica:
 [![](images/bb226738.screen1(it-it,MSDN.10).jpg "screen 1")]
 (https://technet.microsoft.com/it-it/bb226738.screen1_big(it-it,msdn.10).jpg)
 [![](images/bb226738.screen2(it-it,MSDN.10).jpg "screen 2")]
-(https://technet.microsoft.com/it-it/bb226738.screen2_big(it-it,msdn.10).jpg)
-[![](images/bb226738.screen3(it-it,MSDN.10).jpg "screen 3")]
-(https://technet.microsoft.com/it-it/bb226738.screen3_big(it-it,msdn.10).jpg)
+	(https://technet.microsoft.com/it-it/bb226738.screen2_big(it-it,msdn.10).jpg)
+![](images/bb226738.IE_Welcome-85p(it-it,MSDN.10).jpg "screen 3")
 
 Nota: la schermata visualizzata nell'ultima immagine può essere soggetta a modifiche
 
